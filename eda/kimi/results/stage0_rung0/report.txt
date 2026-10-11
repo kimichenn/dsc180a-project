@@ -1,0 +1,75 @@
+== Coverage ==
+responses: 144  |  auto-labeled: 16  |  hand-labeled: 128  |  pending review: 0
+
+== Accuracy: correct / scenarios ==
+instruction       none
+model  variant        
+claude consistent  8/8
+       conflict    8/8
+gemini consistent  8/8
+       conflict    8/8
+gpt    consistent  8/8
+       conflict    8/8
+
+== Adoption rate (conflict responses that used the non-governing claim) ==
+instruction none
+model           
+claude        0%
+gemini        0%
+gpt           0%
+
+== Mentions the conflict ==
+instruction        none
+model  variant         
+claude consistent   21%
+       conflict    100%
+gemini consistent    0%
+       conflict     25%
+gpt    consistent    0%
+       conflict     29%
+
+== H1: conflict drop by question type ==
+Conflict drop = conflict - consistent per scenario (negative = worse under conflict), no extra instruction.
+                     consistent conflict  mean diff  worse  better
+model  question_type                                              
+claude two_step             8/8      8/8        0.0      0       0
+gemini two_step             8/8      8/8        0.0      0       0
+gpt    two_step             8/8      8/8        0.0      0       0
+
+== Conflict drop by format ==
+                      consistent conflict  mean diff  worse  better
+model  format                                                      
+claude multi_document        4/4      4/4        0.0      0       0
+       multi_turn            4/4      4/4        0.0      0       0
+gemini multi_document        4/4      4/4        0.0      0       0
+       multi_turn            4/4      4/4        0.0      0       0
+gpt    multi_document        4/4      4/4        0.0      0       0
+       multi_turn            4/4      4/4        0.0      0       0
+
+== H4: conflict drop by subtype ==
+                                    consistent conflict  mean diff  worse  better
+model  conflict_subtype                                                          
+claude non_authoritative_distractor        4/4      4/4        0.0      0       0
+       superseding_update                  4/4      4/4        0.0      0       0
+gemini non_authoritative_distractor        4/4      4/4        0.0      0       0
+       superseding_update                  4/4      4/4        0.0      0       0
+gpt    non_authoritative_distractor        4/4      4/4        0.0      0       0
+       superseding_update                  4/4      4/4        0.0      0       0
+
+== H4: adoption rate by subtype ==
+conflict_subtype non_authoritative_distractor superseding_update
+model                                                           
+claude                                     0%                 0%
+gemini                                     0%                 0%
+gpt                                        0%                 0%
+
+== Stage 0 decision ==
+needs >= 7/8 Consistent correct and >= 2/8 Conflict wrong (majority of generations)
+       consistent correct conflict wrong  wrong only under conflict  qualifies
+model                                                                         
+claude                8/8            0/8                          0      False
+gemini                8/8            0/8                          0      False
+gpt                   8/8            0/8                          0      False
+
+No qualifying model: climb one rung and rerun the probe.
+

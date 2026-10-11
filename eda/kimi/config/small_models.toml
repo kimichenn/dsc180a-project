@@ -1,0 +1,22 @@
+# Diagnostic small models (proposal: "Smaller models" after a ceiling result).
+# Results from these do not count as evidence for the frontier-model question.
+# Same reasoning level as the frontier runs, so the only change is model size.
+# Run with: python -m conflict_eval run stage0 --models-config config/small_models.toml
+
+[gpt-small]
+provider = "openai"
+model = "gpt-6-luna"
+reasoning = "medium"             # reasoning.effort: none | low | medium | high | xhigh | max
+max_output_tokens = 16000
+
+[claude-small]
+provider = "anthropic"
+model = "claude-haiku-5-5"
+reasoning = "medium"             # output_config.effort: low | medium | high | xhigh | max
+max_output_tokens = 16000
+
+[gemini-small]
+provider = "google"
+model = "gemini-3.5-flash-lite"
+reasoning = "medium"             # thinking_level: minimal | low | medium | high (default is minimal)
+max_output_tokens = 16000

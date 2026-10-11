@@ -1,0 +1,338 @@
+[
+    {
+        "id": "vela-01",
+        "domain": "project_management",
+        "format": "multi_turn",
+        "conflict_subtype": "non_authoritative_distractor",
+        "source_rule": "The project database is the source of record. Team notes are unverified.",
+        "governing_claim": {
+            "source": "Project database",
+            "date": "2025-09-30",
+            "value": "October 18",
+            "text": "Project Vela launch date: {value}."
+        },
+        "competing_claim": {
+            "source": "Team notes",
+            "date": "2025-10-03",
+            "value": "October 28",
+            "text": "Vela is launching {value}."
+        },
+        "supporting_fact": {
+            "source": "Project database",
+            "text": "Project Orion launch date: October 24."
+        },
+        "inference_rule": "Projects enter QA 4 days before launch.",
+        "q_direct": "When does Project Vela launch?",
+        "answers_direct": { "correct": "October 18", "nongoverning": "October 28" },
+        "q_one_step": "Which project launches first, Vela or Orion?",
+        "answers_one_step": { "correct": "Vela", "nongoverning": "Orion" },
+        "q_two_step": "Which project enters QA first, Vela or Orion?",
+        "answers_two_step": { "correct": "Vela", "nongoverning": "Orion" },
+        "ladder": {
+            "paraphrase": {
+                "conflict": "Vela's launch got pushed back ten days.",
+                "consistent": "Vela's launch date has not changed."
+            },
+            "confidence_cue": "This was confirmed with the whole team.",
+            "extra_competing_claim": {
+                "source": "Team chat",
+                "date": "2025-10-04",
+                "text": "Heads up, Vela launches {value}."
+            }
+        }
+    },
+    {
+        "id": "kestrel-01",
+        "domain": "logistics",
+        "format": "multi_document",
+        "conflict_subtype": "superseding_update",
+        "source_rule": "The freight tracking system is the source of record for arrival dates. Schedule notices from the dispatch office supersede earlier tracking entries.",
+        "governing_claim": {
+            "source": "Dispatch office schedule notice",
+            "date": "2025-03-06",
+            "value": "March 9",
+            "text": "Revised arrival date for Shipment Kestrel: {value}."
+        },
+        "competing_claim": {
+            "source": "Freight tracking system",
+            "date": "2025-03-02",
+            "value": "March 14",
+            "text": "Shipment Kestrel arrival date: {value}."
+        },
+        "supporting_fact": {
+            "source": "Freight tracking system",
+            "text": "Shipment Heron arrival date: March 11."
+        },
+        "inference_rule": "Shipments clear customs 2 days after arrival.",
+        "q_direct": "When does Shipment Kestrel arrive?",
+        "answers_direct": { "correct": "March 9", "nongoverning": "March 14" },
+        "q_one_step": "Which shipment arrives first, Heron or Kestrel?",
+        "answers_one_step": { "correct": "Kestrel", "nongoverning": "Heron" },
+        "q_two_step": "Which shipment clears customs first, Heron or Kestrel?",
+        "answers_two_step": { "correct": "Kestrel", "nongoverning": "Heron" },
+        "ladder": {
+            "paraphrase": {
+                "conflict": "Shipment Kestrel's arrival has been moved up five days.",
+                "consistent": "Shipment Kestrel's arrival date is unchanged."
+            },
+            "confidence_cue": "This entry was double-checked and confirmed.",
+            "extra_competing_claim": {
+                "source": "Warehouse intake calendar",
+                "date": "2025-03-03",
+                "text": "Shipment Kestrel expected {value}."
+            }
+        }
+    },
+    {
+        "id": "tern-01",
+        "domain": "equipment_monitoring",
+        "format": "multi_document",
+        "conflict_subtype": "non_authoritative_distractor",
+        "source_rule": "The plant monitoring system is the source of record for equipment readings. Handwritten shift notes are unverified.",
+        "governing_claim": {
+            "source": "Plant monitoring system",
+            "date": "2025-05-12",
+            "value": "84",
+            "text": "Boiler Tern pressure reading: {value} psi."
+        },
+        "competing_claim": {
+            "source": "Shift notes",
+            "date": "2025-05-13",
+            "value": "61",
+            "text": "Boiler Tern was reading {value} psi on my rounds."
+        },
+        "supporting_fact": {
+            "source": "Plant monitoring system",
+            "text": "Boiler Wren pressure reading: 72 psi."
+        },
+        "inference_rule": "Boilers are serviced in order of pressure reading, highest first.",
+        "q_direct": "What is Boiler Tern's pressure reading?",
+        "answers_direct": { "correct": "84", "nongoverning": "61" },
+        "q_one_step": "Which boiler has the higher pressure reading, Wren or Tern?",
+        "answers_one_step": { "correct": "Tern", "nongoverning": "Wren" },
+        "q_two_step": "Which boiler is serviced first, Wren or Tern?",
+        "answers_two_step": { "correct": "Tern", "nongoverning": "Wren" },
+        "ladder": {
+            "paraphrase": {
+                "conflict": "Boiler Tern was reading 23 psi lower than the monitoring system shows.",
+                "consistent": "Boiler Tern was reading the same as the monitoring system shows."
+            },
+            "confidence_cue": "I checked the gauge twice to be sure.",
+            "extra_competing_claim": {
+                "source": "Operator radio log",
+                "date": "2025-05-14",
+                "text": "Tern holding steady at {value} psi."
+            }
+        }
+    },
+    {
+        "id": "dalton-01",
+        "domain": "inventory",
+        "format": "multi_document",
+        "conflict_subtype": "non_authoritative_distractor",
+        "source_rule": "The warehouse management system is the source of record for stock counts. Emails from sales staff are unverified.",
+        "governing_claim": {
+            "source": "Warehouse management system",
+            "date": "2025-11-03",
+            "value": "1,240",
+            "text": "Copper fittings on hand at the Dalton warehouse: {value} units."
+        },
+        "competing_claim": {
+            "source": "Sales staff email",
+            "date": "2025-11-05",
+            "value": "1,860",
+            "text": "We have {value} copper fittings at Dalton, plenty for the order."
+        },
+        "supporting_fact": {
+            "source": "Warehouse management system",
+            "text": "Copper fittings on hand at the Easton warehouse: 1,500 units."
+        },
+        "inference_rule": "Each warehouse keeps 200 copper fittings in reserve and can ship the rest.",
+        "q_direct": "How many copper fittings are on hand at the Dalton warehouse?",
+        "answers_direct": { "correct": "1,240", "nongoverning": "1,860" },
+        "q_one_step": "Which warehouse has more copper fittings on hand, Easton or Dalton?",
+        "answers_one_step": { "correct": "Easton", "nongoverning": "Dalton" },
+        "q_two_step": "Which warehouse can ship more copper fittings, Easton or Dalton?",
+        "answers_two_step": { "correct": "Easton", "nongoverning": "Dalton" },
+        "ladder": {
+            "paraphrase": {
+                "conflict": "We have 620 more copper fittings at Dalton than the system shows.",
+                "consistent": "Our copper fitting count at Dalton matches what the system shows."
+            },
+            "confidence_cue": "I counted them myself this morning.",
+            "extra_competing_claim": {
+                "source": "Sales team chat",
+                "date": "2025-11-06",
+                "text": "Dalton has {value} copper fittings ready to go."
+            }
+        }
+    },
+    {
+        "id": "lumen-01",
+        "domain": "scheduling",
+        "format": "multi_turn",
+        "conflict_subtype": "non_authoritative_distractor",
+        "source_rule": "The official events calendar is the source of record. Posts on the attendee forum are unverified.",
+        "governing_claim": {
+            "source": "Official events calendar",
+            "date": "2025-04-01",
+            "value": "3:15 PM",
+            "text": "Workshop Lumen start time: {value}."
+        },
+        "competing_claim": {
+            "source": "Attendee forum post",
+            "date": "2025-04-04",
+            "value": "1:45 PM",
+            "text": "Heads up everyone, Lumen starts at {value}."
+        },
+        "supporting_fact": {
+            "source": "Official events calendar",
+            "text": "Workshop Prism start time: 2:30 PM."
+        },
+        "inference_rule": "Check-in for each workshop opens 30 minutes before its start time.",
+        "q_direct": "When does Workshop Lumen start?",
+        "answers_direct": { "correct": ["3:15 PM", "3:15"], "nongoverning": ["1:45 PM", "1:45"] },
+        "q_one_step": "Which workshop starts first, Prism or Lumen?",
+        "answers_one_step": { "correct": "Prism", "nongoverning": "Lumen" },
+        "q_two_step": "Which workshop opens check-in first, Prism or Lumen?",
+        "answers_two_step": { "correct": "Prism", "nongoverning": "Lumen" },
+        "ladder": {
+            "paraphrase": {
+                "conflict": "Heads up everyone, Lumen got moved an hour and a half earlier.",
+                "consistent": "Heads up everyone, Lumen's start time has not changed."
+            },
+            "confidence_cue": "The organizers confirmed it to me directly.",
+            "extra_competing_claim": {
+                "source": "Attendee group chat",
+                "date": "2025-04-05",
+                "text": "Lumen kicks off at {value}, don't be late."
+            }
+        }
+    },
+    {
+        "id": "osprey-01",
+        "domain": "equipment_monitoring",
+        "format": "multi_turn",
+        "conflict_subtype": "superseding_update",
+        "source_rule": "The sensor dashboard is the source of record for temperatures. Calibration corrections issued by the reliability team supersede earlier dashboard readings.",
+        "governing_claim": {
+            "source": "Reliability team calibration correction",
+            "date": "2025-07-10",
+            "value": "81",
+            "text": "Corrected bearing temperature for Pump Osprey: {value} °C."
+        },
+        "competing_claim": {
+            "source": "Sensor dashboard",
+            "date": "2025-07-08",
+            "value": "68",
+            "text": "Pump Osprey bearing temperature: {value} °C."
+        },
+        "supporting_fact": {
+            "source": "Sensor dashboard",
+            "text": "Pump Falcon bearing temperature: 74 °C."
+        },
+        "inference_rule": "The pump with the higher bearing temperature gets the first maintenance slot.",
+        "q_direct": "What is Pump Osprey's bearing temperature?",
+        "answers_direct": { "correct": "81", "nongoverning": "68" },
+        "q_one_step": "Which pump is running hotter, Osprey or Falcon?",
+        "answers_one_step": { "correct": "Osprey", "nongoverning": "Falcon" },
+        "q_two_step": "Which pump gets the first maintenance slot, Osprey or Falcon?",
+        "answers_two_step": { "correct": "Osprey", "nongoverning": "Falcon" },
+        "ladder": {
+            "paraphrase": {
+                "conflict": "Pump Osprey's bearing temperature is 13 °C higher than the dashboard showed.",
+                "consistent": "Pump Osprey's bearing temperature is the same as the dashboard showed."
+            },
+            "confidence_cue": "This reading was verified by two separate sensors.",
+            "extra_competing_claim": {
+                "source": "Operator handheld check",
+                "date": "2025-07-09",
+                "text": "Handheld reading on Pump Osprey: {value} °C."
+            }
+        }
+    },
+    {
+        "id": "basalt-01",
+        "domain": "inventory",
+        "format": "multi_turn",
+        "conflict_subtype": "superseding_update",
+        "source_rule": "The inventory ledger is the source of record for stock levels. Audit adjustments from the finance office supersede earlier ledger entries.",
+        "governing_claim": {
+            "source": "Finance office audit adjustment",
+            "date": "2025-08-18",
+            "value": "410",
+            "text": "Audited stock of Basalt valves: {value} units."
+        },
+        "competing_claim": {
+            "source": "Inventory ledger",
+            "date": "2025-08-14",
+            "value": "930",
+            "text": "Stock of Basalt valves: {value} units."
+        },
+        "supporting_fact": {
+            "source": "Inventory ledger",
+            "text": "Stock of Granite valves: 650 units."
+        },
+        "inference_rule": "Each assembly kit uses 2 valves of the same line.",
+        "q_direct": "How many Basalt valves are in stock?",
+        "answers_direct": { "correct": "410", "nongoverning": "930" },
+        "q_one_step": "Which valve line has more units in stock, Basalt or Granite?",
+        "answers_one_step": { "correct": "Granite", "nongoverning": "Basalt" },
+        "q_two_step": "Which valve line can supply more assembly kits, Basalt or Granite?",
+        "answers_two_step": { "correct": "Granite", "nongoverning": "Basalt" },
+        "ladder": {
+            "paraphrase": {
+                "conflict": "The audit found 520 fewer Basalt valves than the ledger shows.",
+                "consistent": "The audit found the same number of Basalt valves as the ledger shows."
+            },
+            "confidence_cue": "This count was scanned twice.",
+            "extra_competing_claim": {
+                "source": "Receiving dock tally",
+                "date": "2025-08-15",
+                "text": "Basalt valves counted at the dock: {value} units."
+            }
+        }
+    },
+    {
+        "id": "atlas-01",
+        "domain": "scheduling",
+        "format": "multi_document",
+        "conflict_subtype": "superseding_update",
+        "source_rule": "The booking system is the source of record for meeting dates. Rescheduling notices from the executive office supersede earlier bookings.",
+        "governing_claim": {
+            "source": "Executive office rescheduling notice",
+            "date": "2025-01-09",
+            "value": "January 27",
+            "text": "The Atlas budget review is rescheduled to {value}."
+        },
+        "competing_claim": {
+            "source": "Booking system",
+            "date": "2025-01-06",
+            "value": "January 21",
+            "text": "Atlas budget review date: {value}."
+        },
+        "supporting_fact": {
+            "source": "Booking system",
+            "text": "Beacon budget review date: January 24."
+        },
+        "inference_rule": "Briefing packets go out 5 days before each budget review.",
+        "q_direct": "When is the Atlas budget review?",
+        "answers_direct": { "correct": "January 27", "nongoverning": "January 21" },
+        "q_one_step": "Which budget review happens first, Atlas or Beacon?",
+        "answers_one_step": { "correct": "Beacon", "nongoverning": "Atlas" },
+        "q_two_step": "Which review's briefing packet goes out first, Atlas or Beacon?",
+        "answers_two_step": { "correct": "Beacon", "nongoverning": "Atlas" },
+        "ladder": {
+            "paraphrase": {
+                "conflict": "The Atlas budget review is pushed back six days.",
+                "consistent": "The Atlas budget review stays on its original date."
+            },
+            "confidence_cue": "This booking was confirmed by all attendees.",
+            "extra_competing_claim": {
+                "source": "Shared team calendar",
+                "date": "2025-01-07",
+                "text": "Atlas budget review: {value}."
+            }
+        }
+    }
+]

@@ -1,0 +1,94 @@
+{
+  "design": {
+    "stage": "stage0",
+    "questions": [
+      "two_step"
+    ],
+    "distances": [
+      "far"
+    ],
+    "rule_placements": [
+      "start"
+    ],
+    "instructions": [
+      "none"
+    ],
+    "generations": 3,
+    "rung": 1,
+    "variants": [
+      "consistent",
+      "conflict"
+    ]
+  },
+  "seed": 0,
+  "models": {
+    "gpt": {
+      "name": "gpt",
+      "provider": "openai",
+      "model": "gpt-6-astra",
+      "reasoning": "medium",
+      "temperature": null,
+      "max_output_tokens": 16000
+    },
+    "claude": {
+      "name": "claude",
+      "provider": "anthropic",
+      "model": "claude-opus-5-5",
+      "reasoning": "medium",
+      "temperature": null,
+      "max_output_tokens": 16000
+    },
+    "gemini": {
+      "name": "gemini",
+      "provider": "google",
+      "model": "gemini-3.1-pro-preview",
+      "reasoning": "medium",
+      "temperature": null,
+      "max_output_tokens": 16000
+    }
+  },
+  "scenario_ids": [
+    "vela-01",
+    "kestrel-01",
+    "tern-01",
+    "dalton-01",
+    "lumen-01",
+    "osprey-01",
+    "basalt-01",
+    "atlas-01"
+  ],
+  "scenarios_file": "/Users/kimichen/Desktop/School/DSC180/dsc180a-project/eda/kimi/data/scenarios.json",
+  "scenarios_sha256": "5aa4c649356708dab36fbb1a3fbf7e0638bcd96281fe2bd213cfc236bd50fb57",
+  "filler": [
+    {
+      "id": "plain-plants",
+      "words": 211,
+      "approx_tokens": 296
+    },
+    {
+      "id": "plain-ergonomics",
+      "words": 202,
+      "approx_tokens": 293
+    },
+    {
+      "id": "plain-kitchen",
+      "words": 203,
+      "approx_tokens": 299
+    },
+    {
+      "id": "plain-recycling",
+      "words": 205,
+      "approx_tokens": 302
+    }
+  ],
+  "instructions": {
+    "none": null,
+    "warning": "The provided context may contain conflicting information. Answer carefully.",
+    "skill": "When answering from provided context:\n\n1. Identify the claims relevant to the question.\n2. Check whether any relevant claims disagree.\n3. If they disagree, apply the source-authority and update rules stated in the context to determine which claim governs.\n4. If an authoritative source explicitly supersedes an earlier value, use the updated value.\n5. If the provided rules do not resolve the conflict, say that it cannot be resolved.\n6. Give a definite answer when the available evidence does resolve it."
+  },
+  "git_commit": "e477060dcb0d3ed325a27f902bb5151e20e299a2",
+  "created_at": "2026-10-11T18:27:55+00:00",
+  "sessions": [
+    "2026-10-11T18:27:55+00:00"
+  ]
+}
