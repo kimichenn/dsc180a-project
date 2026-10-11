@@ -1,0 +1,21 @@
+{
+  "models": {
+    "qwen3-4b": {"model_id": "Qwen/Qwen3-4B", "revision": "main"},
+    "qwen3-8b": {"model_id": "Qwen/Qwen3-8B", "revision": "main"}
+  },
+  "repetitions": {"pilot": 1, "evaluation": 3},
+  "seed": 180,
+  "device": "auto",
+  "dtype": "auto",
+  "quantization": "none",
+  "enable_thinking": false,
+  "generation": {
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0.0,
+    "max_new_tokens": 512
+  },
+  "max_attempts": 3
+}
