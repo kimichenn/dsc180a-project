@@ -104,7 +104,7 @@ def _execute(trial: Trial, client: ModelClient, filler: list[FillerPassage]) -> 
     }
     started = time.monotonic()
     try:
-        completion = _generate_with_retries(client, prompt)
+        completion = generate_with_retries(client, prompt)
         row.update(
             response=completion.text,
             finish_reason=completion.finish_reason,
@@ -123,7 +123,7 @@ def _execute(trial: Trial, client: ModelClient, filler: list[FillerPassage]) -> 
     return row
 
 
-def _generate_with_retries(client: ModelClient, prompt):
+def generate_with_retries(client: ModelClient, prompt):
     for attempt in range(ATTEMPTS):
         try:
             return client.generate(prompt)
@@ -174,7 +174,7 @@ def write_manifest(
             "scenarios_sha256": scenarios_sha,
             "filler": [{"id": p.id, "words": p.words, "approx_tokens": p.approx_tokens} for p in filler],
             "instructions": INSTRUCTIONS,
-            "git_commit": _git_commit(),
+            "git_commit": git_commit(),
             "created_at": now,
             "sessions": [now],
         }
@@ -191,7 +191,7 @@ def _jsonable(value):
     return json.loads(json.dumps(value))
 
 
-def _git_commit() -> str | None:
+def git_commit() -> str | None:
     try:
         result = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True, text=True, check=True)
         return result.stdout.strip()

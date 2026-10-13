@@ -1,0 +1,53 @@
+== Coverage ==
+calls: 18  |  reruns for a missing ANSWER line: 1  |  format failures (excluded): 0
+tokens: 262,223 in, 168,599 out
+
+== Entity error rate (mean over logs) ==
+version              consistent conflict
+instruction                none     none
+setting model                           
+main    claude-small       0.3%     0.0%
+        gemini-small      34.7%    42.3%
+        gpt-small         13.0%    33.0%
+
+== Conflict effect (Conflict - Consistent, paired by log) ==
+setting        model instruction effect
+   main claude-small        none  -0.3%
+   main gemini-small        none   7.7%
+   main    gpt-small        none  20.0%
+
+== Adoption by trap type (single-trap projects; every trap is across the threshold, so adopted = wrong) ==
+                 distractor     superseded      retracted  pre_authority     all trapped
+model                                                                                   
+claude-small    0/22 (0.0%)    0/22 (0.0%)    0/31 (0.0%)    0/27 (0.0%)    0/180 (0.0%)
+gemini-small  12/22 (54.5%)  12/22 (54.5%)  17/31 (54.8%)  20/27 (74.1%)  95/180 (52.8%)
+gpt-small     10/22 (45.5%)   8/22 (36.4%)   7/31 (22.6%)  16/27 (59.3%)  71/180 (39.4%)
+
+== Spillover: error on untrapped projects ==
+version      consistent conflict
+model                           
+claude-small       0.0%     0.0%
+gemini-small      25.0%    26.7%
+gpt-small         15.0%    23.3%
+
+== Exact match, other errors, response length ==
+                                     calls  exact  out_of_program  invented  format_failures  median chars
+model        version    instruction                                                                       
+claude-small conflict   none             3      3               0         0                0           778
+             consistent none             3      2               0         0                0          1653
+gemini-small conflict   none             3      0               0         1                0           796
+             consistent none             3      0               0         0                0           124
+gpt-small    conflict   none             3      0               0         0                0           145
+             consistent none             3      0               0         0                0           290
+
+== Stage A decision ==
+Pass Consistent: mean entity error <= 3.0%. Gap: Conflict >= Consistent + 5 points.
+             consistent conflict effect  passes consistent    gap
+model                                                            
+claude-small       0.3%     0.0%  -0.3%               True  False
+gemini-small      34.7%    42.3%   7.7%              False   True
+gpt-small         13.0%    33.0%  20.0%              False   True
+
+Too hard overall (fewer than two models pass Consistent). Lower the next general dial (out_of_program=False):
+  python -m eventlog run A --step 1 --models-config config/v4_small_models.toml
+

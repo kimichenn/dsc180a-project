@@ -1,0 +1,217 @@
+[
+    {
+        "name": "proposal example",
+        "handover": "2025-10-05",
+        "people": [
+            { "name": "Dana Ruiz", "office": "Program Office" },
+            { "name": "Marcus Lee", "office": "Engineering" },
+            { "name": "Priya Shah", "office": "Engineering", "moves_to": "Release Board", "move_date": "2025-10-05" },
+            { "name": "Tom Wu", "office": "Helios Program Office" }
+        ],
+        "projects": ["Vela", "Lyra", "Orion"],
+        "records": [
+            { "id": 1, "date": "2025-09-03", "author": "Dana Ruiz", "op": "assign", "project": "Vela", "value": "2025-10-18" },
+            { "id": 2, "date": "2025-09-05", "author": "Dana Ruiz", "op": "assign", "project": "Lyra", "value": "2025-10-15" },
+            { "id": 3, "date": "2025-09-10", "author": "Dana Ruiz", "op": "assign", "project": "Orion", "value": "2025-10-14" },
+            { "id": 4, "date": "2025-10-07", "author": "Priya Shah", "op": "assign", "project": "Lyra", "value": "2025-10-27" },
+            { "id": 5, "date": "2025-10-08", "author": "Priya Shah", "op": "assign", "project": "Orion", "value": "2025-10-24" },
+            { "id": 6, "date": "2025-10-09", "author": "Priya Shah", "op": "retract", "project": "Orion", "target": 5 },
+            { "id": 7, "date": "2025-09-20", "author": "Marcus Lee", "op": "none", "project": "Vela", "value": "2025-10-28" },
+            { "id": 8, "date": "2025-10-02", "author": "Priya Shah", "op": "assign", "project": "Vela", "value": "2025-10-26" },
+            { "id": 9, "date": "2025-09-12", "author": "Tom Wu", "op": "assign", "project": "Velara", "value": "2025-10-12" }
+        ],
+        "threshold": "2025-10-20",
+        "expected": { "Vela": "2025-10-18", "Lyra": "2025-10-27", "Orion": "2025-10-14" },
+        "answer": ["Vela", "Orion"]
+    },
+    {
+        "name": "distractor note is ignored",
+        "handover": null,
+        "people": [
+            { "name": "Dana Ruiz", "office": "Program Office" },
+            { "name": "Marcus Lee", "office": "Engineering" }
+        ],
+        "projects": ["Kite"],
+        "records": [
+            { "id": 1, "date": "2025-09-04", "author": "Dana Ruiz", "op": "assign", "project": "Kite", "value": "2025-11-10" },
+            { "id": 2, "date": "2025-09-20", "author": "Marcus Lee", "op": "none", "project": "Kite", "value": "2025-11-25" }
+        ],
+        "threshold": "2025-11-15",
+        "expected": { "Kite": "2025-11-10" },
+        "answer": ["Kite"]
+    },
+    {
+        "name": "superseded within the Program Office era",
+        "handover": null,
+        "people": [
+            { "name": "Dana Ruiz", "office": "Program Office" },
+            { "name": "Ellen Park", "office": "Program Office" }
+        ],
+        "projects": ["Lark", "Wren"],
+        "records": [
+            { "id": 1, "date": "2025-09-05", "author": "Dana Ruiz", "op": "assign", "project": "Lark", "value": "2025-11-20" },
+            { "id": 2, "date": "2025-09-18", "author": "Ellen Park", "op": "assign", "project": "Lark", "value": "2025-11-09" },
+            { "id": 3, "date": "2025-09-06", "author": "Dana Ruiz", "op": "assign", "project": "Wren", "value": "2025-11-12" },
+            { "id": 4, "date": "2025-09-25", "author": "Dana Ruiz", "op": "assign", "project": "Wren", "value": "2025-11-28" }
+        ],
+        "threshold": "2025-11-15",
+        "expected": { "Lark": "2025-11-09", "Wren": "2025-11-28" },
+        "answer": ["Lark"]
+    },
+    {
+        "name": "superseded across the handover",
+        "handover": "2025-10-05",
+        "people": [
+            { "name": "Dana Ruiz", "office": "Program Office" },
+            { "name": "Kai Brooks", "office": "Release Board" }
+        ],
+        "projects": ["Lyra"],
+        "records": [
+            { "id": 1, "date": "2025-09-05", "author": "Dana Ruiz", "op": "assign", "project": "Lyra", "value": "2025-10-15" },
+            { "id": 2, "date": "2025-10-07", "author": "Kai Brooks", "op": "assign", "project": "Lyra", "value": "2025-10-27" }
+        ],
+        "threshold": "2025-10-20",
+        "expected": { "Lyra": "2025-10-27" },
+        "answer": []
+    },
+    {
+        "name": "retracted correction within the Program Office era",
+        "handover": null,
+        "people": [
+            { "name": "Dana Ruiz", "office": "Program Office" },
+            { "name": "Ellen Park", "office": "Program Office" }
+        ],
+        "projects": ["Orion", "Tern"],
+        "records": [
+            { "id": 1, "date": "2025-09-10", "author": "Dana Ruiz", "op": "assign", "project": "Orion", "value": "2025-10-14" },
+            { "id": 2, "date": "2025-09-15", "author": "Ellen Park", "op": "assign", "project": "Orion", "value": "2025-10-24" },
+            { "id": 3, "date": "2025-09-18", "author": "Dana Ruiz", "op": "retract", "project": "Orion", "target": 2 },
+            { "id": 4, "date": "2025-09-02", "author": "Dana Ruiz", "op": "assign", "project": "Tern", "value": "2025-10-25" }
+        ],
+        "threshold": "2025-10-20",
+        "expected": { "Orion": "2025-10-14", "Tern": "2025-10-25" },
+        "answer": ["Orion"]
+    },
+    {
+        "name": "retraction restores a value set before the handover",
+        "handover": "2025-10-05",
+        "people": [
+            { "name": "Dana Ruiz", "office": "Program Office" },
+            { "name": "Kai Brooks", "office": "Release Board" }
+        ],
+        "projects": ["Orion"],
+        "records": [
+            { "id": 1, "date": "2025-09-10", "author": "Dana Ruiz", "op": "assign", "project": "Orion", "value": "2025-10-14" },
+            { "id": 2, "date": "2025-10-08", "author": "Kai Brooks", "op": "assign", "project": "Orion", "value": "2025-10-24" },
+            { "id": 3, "date": "2025-10-09", "author": "Kai Brooks", "op": "retract", "project": "Orion", "target": 2 }
+        ],
+        "threshold": "2025-10-20",
+        "expected": { "Orion": "2025-10-14" },
+        "answer": ["Orion"]
+    },
+    {
+        "name": "Release Board member before the handover",
+        "handover": "2025-10-05",
+        "people": [
+            { "name": "Dana Ruiz", "office": "Program Office" },
+            { "name": "Kai Brooks", "office": "Release Board" }
+        ],
+        "projects": ["Vela", "Mira"],
+        "records": [
+            { "id": 1, "date": "2025-09-03", "author": "Dana Ruiz", "op": "assign", "project": "Vela", "value": "2025-10-18" },
+            { "id": 2, "date": "2025-09-30", "author": "Kai Brooks", "op": "assign", "project": "Vela", "value": "2025-10-26" },
+            { "id": 3, "date": "2025-10-06", "author": "Kai Brooks", "op": "assign", "project": "Mira", "value": "2025-10-12" },
+            { "id": 4, "date": "2025-09-08", "author": "Dana Ruiz", "op": "assign", "project": "Mira", "value": "2025-10-22" }
+        ],
+        "threshold": "2025-10-20",
+        "expected": { "Vela": "2025-10-18", "Mira": "2025-10-12" },
+        "answer": ["Mira", "Vela"]
+    },
+    {
+        "name": "person writing before their move to the Release Board",
+        "handover": "2025-10-05",
+        "people": [
+            { "name": "Dana Ruiz", "office": "Program Office" },
+            { "name": "Sam Ortiz", "office": "Engineering", "moves_to": "Release Board", "move_date": "2025-10-09" }
+        ],
+        "projects": ["Vela", "Lyra"],
+        "records": [
+            { "id": 1, "date": "2025-09-03", "author": "Dana Ruiz", "op": "assign", "project": "Vela", "value": "2025-10-18" },
+            { "id": 2, "date": "2025-10-06", "author": "Sam Ortiz", "op": "assign", "project": "Vela", "value": "2025-10-26" },
+            { "id": 3, "date": "2025-09-12", "author": "Dana Ruiz", "op": "assign", "project": "Lyra", "value": "2025-10-29" },
+            { "id": 4, "date": "2025-10-10", "author": "Sam Ortiz", "op": "assign", "project": "Lyra", "value": "2025-10-11" }
+        ],
+        "threshold": "2025-10-20",
+        "expected": { "Vela": "2025-10-18", "Lyra": "2025-10-11" },
+        "answer": ["Lyra", "Vela"]
+    },
+    {
+        "name": "Program Office record after the handover does not count",
+        "handover": "2025-10-05",
+        "people": [{ "name": "Dana Ruiz", "office": "Program Office" }],
+        "projects": ["Pike"],
+        "records": [
+            { "id": 1, "date": "2025-09-03", "author": "Dana Ruiz", "op": "assign", "project": "Pike", "value": "2025-10-18" },
+            { "id": 2, "date": "2025-10-07", "author": "Dana Ruiz", "op": "assign", "project": "Pike", "value": "2025-10-26" }
+        ],
+        "threshold": "2025-10-20",
+        "expected": { "Pike": "2025-10-18" },
+        "answer": ["Pike"]
+    },
+    {
+        "name": "superseded then retracted, with a later note",
+        "handover": null,
+        "people": [
+            { "name": "Dana Ruiz", "office": "Program Office" },
+            { "name": "Ellen Park", "office": "Program Office" },
+            { "name": "Marcus Lee", "office": "Engineering" }
+        ],
+        "projects": ["Juno"],
+        "records": [
+            { "id": 1, "date": "2025-09-02", "author": "Dana Ruiz", "op": "assign", "project": "Juno", "value": "2025-10-30" },
+            { "id": 2, "date": "2025-09-09", "author": "Ellen Park", "op": "assign", "project": "Juno", "value": "2025-10-12" },
+            { "id": 3, "date": "2025-09-14", "author": "Dana Ruiz", "op": "assign", "project": "Juno", "value": "2025-10-25" },
+            { "id": 4, "date": "2025-09-16", "author": "Ellen Park", "op": "retract", "project": "Juno", "target": 3 },
+            { "id": 5, "date": "2025-09-30", "author": "Marcus Lee", "op": "none", "project": "Juno", "value": "2025-10-28" }
+        ],
+        "threshold": "2025-10-20",
+        "expected": { "Juno": "2025-10-12" },
+        "answer": ["Juno"]
+    },
+    {
+        "name": "retraction by someone without authority does nothing",
+        "handover": null,
+        "people": [
+            { "name": "Dana Ruiz", "office": "Program Office" },
+            { "name": "Marcus Lee", "office": "Engineering" }
+        ],
+        "projects": ["Rook"],
+        "records": [
+            { "id": 1, "date": "2025-09-04", "author": "Dana Ruiz", "op": "assign", "project": "Rook", "value": "2025-10-12" },
+            { "id": 2, "date": "2025-09-10", "author": "Dana Ruiz", "op": "assign", "project": "Rook", "value": "2025-10-24" },
+            { "id": 3, "date": "2025-09-12", "author": "Marcus Lee", "op": "retract", "project": "Rook", "target": 2 }
+        ],
+        "threshold": "2025-10-20",
+        "expected": { "Rook": "2025-10-24" },
+        "answer": []
+    },
+    {
+        "name": "records on the handover day and on the move day count",
+        "handover": "2025-10-05",
+        "people": [
+            { "name": "Dana Ruiz", "office": "Program Office" },
+            { "name": "Kai Brooks", "office": "Release Board" },
+            { "name": "Sam Ortiz", "office": "Engineering", "moves_to": "Release Board", "move_date": "2025-10-09" }
+        ],
+        "projects": ["Nova", "Hale"],
+        "records": [
+            { "id": 1, "date": "2025-09-07", "author": "Dana Ruiz", "op": "assign", "project": "Nova", "value": "2025-10-25" },
+            { "id": 2, "date": "2025-10-05", "author": "Kai Brooks", "op": "assign", "project": "Nova", "value": "2025-10-11" },
+            { "id": 3, "date": "2025-09-09", "author": "Dana Ruiz", "op": "assign", "project": "Hale", "value": "2025-10-27" },
+            { "id": 4, "date": "2025-10-09", "author": "Sam Ortiz", "op": "assign", "project": "Hale", "value": "2025-10-15" }
+        ],
+        "threshold": "2025-10-20",
+        "expected": { "Nova": "2025-10-11", "Hale": "2025-10-15" },
+        "answer": ["Hale", "Nova"]
+    }
+]

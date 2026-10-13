@@ -1,0 +1,28 @@
+# v4 flagship models (eda_proposal_v2.md, Run controls). Freeze before Stage A.
+# Primary runs use "standard mode without extended reasoning". None of these three can turn
+# reasoning fully off, so each runs at its lowest level: low.
+# Prices are USD per 1M tokens (standard tier), used only for cost estimates.
+
+[gpt]
+provider = "openai"
+model = "gpt-6-astra"
+reasoning = "low"                # reasoning.effort: low | medium | high | xhigh | max (no "none" on this model)
+max_output_tokens = 32000
+input_price = 10.0
+output_price = 50.0
+
+[claude]
+provider = "anthropic"
+model = "claude-opus-5-5"
+reasoning = "low"                # output_config.effort; thinking cannot be disabled on Claude Opus 5.5
+max_output_tokens = 32000
+input_price = 4.0
+output_price = 20.0
+
+[gemini]
+provider = "google"
+model = "gemini-3.1-pro-preview"
+reasoning = "low"                # thinking_level: low | medium | high
+max_output_tokens = 32000
+input_price = 2.0
+output_price = 12.0

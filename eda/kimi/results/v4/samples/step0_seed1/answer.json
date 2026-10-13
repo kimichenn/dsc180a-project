@@ -1,0 +1,1390 @@
+{
+ "seed": 1,
+ "dials": {
+  "n_projects": 100,
+  "out_of_program": true,
+  "two_conditions": true,
+  "trap_density": 0.6,
+  "max_traps": 3,
+  "trap_types": "all",
+  "authority_changes": "handover+mover",
+  "authority_statement": "inferred",
+  "record_order": "grouped"
+ },
+ "question": "Which Atlas projects launch before November 23 and have a budget above $3.0M?",
+ "answer": [
+  "Begustis",
+  "Dravo",
+  "Drudul",
+  "Druzu",
+  "Dustifu",
+  "Fizul",
+  "Fomosi",
+  "Gofas",
+  "Gukrun",
+  "Ketranol",
+  "Kradrus",
+  "Kraramer",
+  "Kreger",
+  "Krezudi",
+  "Krovatul",
+  "Kruso",
+  "Kubre",
+  "Labodi",
+  "Lidafer",
+  "Lupu",
+  "Mibrizis",
+  "Mipadar",
+  "Mubri",
+  "Mudogo",
+  "Nezu",
+  "Nukro",
+  "Pukrol",
+  "Ronis",
+  "Runox",
+  "Sabrubex",
+  "Stiku",
+  "Suzistor",
+  "Tethe",
+  "Thodris",
+  "Thoke",
+  "Toni",
+  "Trabal",
+  "Vamo",
+  "Vifos",
+  "Zera"
+ ],
+ "threshold": "2025-11-23",
+ "budget_threshold": 3.0,
+ "projects": [
+  {
+   "name": "Runox",
+   "budget": 3.9,
+   "governing": "2025-11-11",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-15"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-24"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-12-13"
+    }
+   ]
+  },
+  {
+   "name": "Lupu",
+   "budget": 4.4,
+   "governing": "2025-11-11",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Labodi",
+   "budget": 4.4,
+   "governing": "2025-11-17",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-12-18"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-12-01"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-25"
+    }
+   ]
+  },
+  {
+   "name": "Mudogo",
+   "budget": 5.2,
+   "governing": "2025-11-21",
+   "included": true,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-12-15"
+    }
+   ]
+  },
+  {
+   "name": "Kruso",
+   "budget": 5.8,
+   "governing": "2025-11-03",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-24"
+    }
+   ]
+  },
+  {
+   "name": "Lidafer",
+   "budget": 4.6,
+   "governing": "2025-11-10",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Guto",
+   "budget": 2.2,
+   "governing": "2025-11-11",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Thetheso",
+   "budget": 1.1,
+   "governing": "2025-11-14",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Trabal",
+   "budget": 5.4,
+   "governing": "2025-11-22",
+   "included": true,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-12-07"
+    }
+   ]
+  },
+  {
+   "name": "Pudol",
+   "budget": 4.3,
+   "governing": "2025-11-30",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-10"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-19"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-20"
+    }
+   ]
+  },
+  {
+   "name": "Nukro",
+   "budget": 5.7,
+   "governing": "2025-11-08",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-12-06"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-12-09"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-12-08"
+    }
+   ]
+  },
+  {
+   "name": "Rosato",
+   "budget": 3.9,
+   "governing": "2025-12-06",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-14"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-11-06"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-11-19"
+    }
+   ]
+  },
+  {
+   "name": "Brotholi",
+   "budget": 4.9,
+   "governing": "2025-12-07",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-19"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-21"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-06"
+    }
+   ]
+  },
+  {
+   "name": "Feluzu",
+   "budget": 2.5,
+   "governing": "2025-11-22",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Vifos",
+   "budget": 5.2,
+   "governing": "2025-11-11",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-12-12"
+    }
+   ]
+  },
+  {
+   "name": "Gidrazes",
+   "budget": 3.8,
+   "governing": "2025-11-26",
+   "included": false,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-12"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-11-06"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-05"
+    }
+   ]
+  },
+  {
+   "name": "Thodris",
+   "budget": 3.6,
+   "governing": "2025-11-22",
+   "included": true,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-12-05"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-11-25"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-12-12"
+    }
+   ]
+  },
+  {
+   "name": "Fizul",
+   "budget": 5.0,
+   "governing": "2025-11-18",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-27"
+    }
+   ]
+  },
+  {
+   "name": "Bikrur",
+   "budget": 4.7,
+   "governing": "2025-12-11",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-14"
+    }
+   ]
+  },
+  {
+   "name": "Mipadar",
+   "budget": 5.2,
+   "governing": "2025-11-17",
+   "included": true,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-12-14"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-12-07"
+    }
+   ]
+  },
+  {
+   "name": "Krezudi",
+   "budget": 6.0,
+   "governing": "2025-11-13",
+   "included": true,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-12-02"
+    }
+   ]
+  },
+  {
+   "name": "Kreger",
+   "budget": 3.2,
+   "governing": "2025-11-21",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-04"
+    }
+   ]
+  },
+  {
+   "name": "Diriki",
+   "budget": 1.0,
+   "governing": "2025-12-09",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Drubu",
+   "budget": 1.7,
+   "governing": "2025-11-10",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Sabrubex",
+   "budget": 5.5,
+   "governing": "2025-11-04",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Stiku",
+   "budget": 5.1,
+   "governing": "2025-11-18",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Fomosi",
+   "budget": 5.9,
+   "governing": "2025-11-18",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-12-05"
+    }
+   ]
+  },
+  {
+   "name": "Dravo",
+   "budget": 5.2,
+   "governing": "2025-11-22",
+   "included": true,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-12-13"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-12-14"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-12-06"
+    }
+   ]
+  },
+  {
+   "name": "Kragis",
+   "budget": 2.6,
+   "governing": "2025-11-21",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Druvus",
+   "budget": 4.3,
+   "governing": "2025-12-15",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-05"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-11-03"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-20"
+    }
+   ]
+  },
+  {
+   "name": "Rutrun",
+   "budget": 4.5,
+   "governing": "2025-12-12",
+   "included": false,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-05"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-22"
+    }
+   ]
+  },
+  {
+   "name": "Sastidu",
+   "budget": 3.2,
+   "governing": "2025-12-08",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-13"
+    }
+   ]
+  },
+  {
+   "name": "Zidras",
+   "budget": 4.4,
+   "governing": "2025-11-26",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-15"
+    }
+   ]
+  },
+  {
+   "name": "Lakris",
+   "budget": 4.8,
+   "governing": "2025-11-30",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Kradrus",
+   "budget": 5.0,
+   "governing": "2025-11-13",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-30"
+    }
+   ]
+  },
+  {
+   "name": "Kifen",
+   "budget": 6.0,
+   "governing": "2025-12-10",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Ketranol",
+   "budget": 4.6,
+   "governing": "2025-11-21",
+   "included": true,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-12-18"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-12-19"
+    }
+   ]
+  },
+  {
+   "name": "Tenadox",
+   "budget": 3.4,
+   "governing": "2025-11-27",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-18"
+    }
+   ]
+  },
+  {
+   "name": "Saves",
+   "budget": 1.5,
+   "governing": "2025-12-19",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Gukrun",
+   "budget": 4.3,
+   "governing": "2025-11-08",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Sakokras",
+   "budget": 4.1,
+   "governing": "2025-12-15",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Kuza",
+   "budget": 5.4,
+   "governing": "2025-11-28",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Dustifu",
+   "budget": 4.9,
+   "governing": "2025-11-06",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Kokir",
+   "budget": 2.8,
+   "governing": "2025-11-16",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Gibrun",
+   "budget": 3.5,
+   "governing": "2025-12-12",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-22"
+    }
+   ]
+  },
+  {
+   "name": "Bropus",
+   "budget": 5.3,
+   "governing": "2025-12-11",
+   "included": false,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-16"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-11-06"
+    }
+   ]
+  },
+  {
+   "name": "Futi",
+   "budget": 3.8,
+   "governing": "2025-12-04",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Nathe",
+   "budget": 1.8,
+   "governing": "2025-11-16",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Latran",
+   "budget": 4.3,
+   "governing": "2025-12-09",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Kraramer",
+   "budget": 4.4,
+   "governing": "2025-11-16",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-30"
+    }
+   ]
+  },
+  {
+   "name": "Mata",
+   "budget": 4.2,
+   "governing": "2025-12-14",
+   "included": false,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-13"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-04"
+    }
+   ]
+  },
+  {
+   "name": "Pugi",
+   "budget": 5.4,
+   "governing": "2025-11-30",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-20"
+    }
+   ]
+  },
+  {
+   "name": "Riko",
+   "budget": 1.8,
+   "governing": "2025-12-17",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Mubri",
+   "budget": 5.9,
+   "governing": "2025-11-03",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-12-09"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-12-17"
+    }
+   ]
+  },
+  {
+   "name": "Fola",
+   "budget": 3.1,
+   "governing": "2025-12-09",
+   "included": false,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-15"
+    }
+   ]
+  },
+  {
+   "name": "Mibrizis",
+   "budget": 4.2,
+   "governing": "2025-11-15",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-12"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-12-11"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-12-13"
+    }
+   ]
+  },
+  {
+   "name": "Bristin",
+   "budget": 3.8,
+   "governing": "2025-12-14",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-06"
+    }
+   ]
+  },
+  {
+   "name": "Gofas",
+   "budget": 3.5,
+   "governing": "2025-11-04",
+   "included": true,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-12-12"
+    }
+   ]
+  },
+  {
+   "name": "Date",
+   "budget": 4.6,
+   "governing": "2025-12-15",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-18"
+    }
+   ]
+  },
+  {
+   "name": "Nobrivus",
+   "budget": 1.2,
+   "governing": "2025-12-15",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Rathathi",
+   "budget": 1.3,
+   "governing": "2025-12-14",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Toni",
+   "budget": 5.4,
+   "governing": "2025-11-13",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-29"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-12-04"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-12-11"
+    }
+   ]
+  },
+  {
+   "name": "Drekruru",
+   "budget": 5.2,
+   "governing": "2025-12-06",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-11"
+    }
+   ]
+  },
+  {
+   "name": "Begustis",
+   "budget": 5.9,
+   "governing": "2025-11-19",
+   "included": true,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-12-12"
+    }
+   ]
+  },
+  {
+   "name": "Debral",
+   "budget": 1.6,
+   "governing": "2025-12-16",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Tethe",
+   "budget": 4.5,
+   "governing": "2025-11-14",
+   "included": true,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-30"
+    }
+   ]
+  },
+  {
+   "name": "Druzu",
+   "budget": 4.7,
+   "governing": "2025-11-05",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-08"
+    }
+   ]
+  },
+  {
+   "name": "Lonon",
+   "budget": 2.8,
+   "governing": "2025-11-09",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Suzistor",
+   "budget": 4.5,
+   "governing": "2025-11-07",
+   "included": true,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-26"
+    }
+   ]
+  },
+  {
+   "name": "Krekror",
+   "budget": 4.9,
+   "governing": "2025-12-11",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-20"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-06"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-11-08"
+    }
+   ]
+  },
+  {
+   "name": "Drigi",
+   "budget": 4.3,
+   "governing": "2025-12-14",
+   "included": false,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-10"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-15"
+    }
+   ]
+  },
+  {
+   "name": "Ronis",
+   "budget": 5.8,
+   "governing": "2025-11-05",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Vamo",
+   "budget": 5.9,
+   "governing": "2025-11-12",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Tridre",
+   "budget": 2.2,
+   "governing": "2025-11-05",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Pukrol",
+   "budget": 5.7,
+   "governing": "2025-11-18",
+   "included": true,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-12-05"
+    }
+   ]
+  },
+  {
+   "name": "Tubix",
+   "budget": 2.7,
+   "governing": "2025-11-12",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Krepafil",
+   "budget": 5.2,
+   "governing": "2025-12-08",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-19"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-11-11"
+    }
+   ]
+  },
+  {
+   "name": "Zera",
+   "budget": 5.7,
+   "governing": "2025-11-22",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-07"
+    }
+   ]
+  },
+  {
+   "name": "Krigefu",
+   "budget": 2.2,
+   "governing": "2025-12-19",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Fopunu",
+   "budget": 1.9,
+   "governing": "2025-12-04",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Kebro",
+   "budget": 2.4,
+   "governing": "2025-11-27",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Nezu",
+   "budget": 5.5,
+   "governing": "2025-11-11",
+   "included": true,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-25"
+    }
+   ]
+  },
+  {
+   "name": "Drudul",
+   "budget": 4.5,
+   "governing": "2025-11-05",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Ziti",
+   "budget": 5.1,
+   "governing": "2025-12-11",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-14"
+    }
+   ]
+  },
+  {
+   "name": "Medrurex",
+   "budget": 4.5,
+   "governing": "2025-12-06",
+   "included": false,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-04"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-11-08"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-19"
+    }
+   ]
+  },
+  {
+   "name": "Dridix",
+   "budget": 5.1,
+   "governing": "2025-12-03",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-12"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-11-08"
+    }
+   ]
+  },
+  {
+   "name": "Fakan",
+   "budget": 1.9,
+   "governing": "2025-11-06",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Kubre",
+   "budget": 4.2,
+   "governing": "2025-11-18",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-07"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-27"
+    }
+   ]
+  },
+  {
+   "name": "Remo",
+   "budget": 5.5,
+   "governing": "2025-12-08",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-16"
+    }
+   ]
+  },
+  {
+   "name": "Betulas",
+   "budget": 5.1,
+   "governing": "2025-12-09",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-08"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-15"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-11-18"
+    }
+   ]
+  },
+  {
+   "name": "Konesex",
+   "budget": 2.3,
+   "governing": "2025-12-14",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Thoke",
+   "budget": 4.2,
+   "governing": "2025-11-16",
+   "included": true,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-12-04"
+    }
+   ]
+  },
+  {
+   "name": "Zopal",
+   "budget": 1.6,
+   "governing": "2025-11-08",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Birex",
+   "budget": 3.6,
+   "governing": "2025-12-04",
+   "included": false,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-19"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-09"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-11-17"
+    }
+   ]
+  },
+  {
+   "name": "Brenir",
+   "budget": 3.6,
+   "governing": "2025-12-03",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-04"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-11-16"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-11-15"
+    }
+   ]
+  },
+  {
+   "name": "Melur",
+   "budget": 1.6,
+   "governing": "2025-11-19",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Vadra",
+   "budget": 3.9,
+   "governing": "2025-11-29",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-06"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-09"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-11"
+    }
+   ]
+  },
+  {
+   "name": "Krovatul",
+   "budget": 4.2,
+   "governing": "2025-11-11",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Brofore",
+   "budget": 1.0,
+   "governing": "2025-11-12",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Reku",
+   "budget": 3.1,
+   "governing": "2025-12-06",
+   "included": false,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-08"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-14"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-21"
+    }
+   ]
+  }
+ ],
+ "other_projects": [
+  "Gidrazeson",
+  "Rutrunia",
+  "Lonono",
+  "Vadrara",
+  "Druvusis",
+  "Bropusex",
+  "Tubixia",
+  "Kraramero",
+  "Mipadaren",
+  "Druvusia",
+  "Lidaferia",
+  "Vifosra",
+  "Bropuso",
+  "Bristinia",
+  "Medrurexia",
+  "Fizula",
+  "Mudogoa",
+  "Konesexen",
+  "Krepafila",
+  "Dravoia",
+  "Brenira",
+  "Folaon",
+  "Gibrunis",
+  "Krovatulex",
+  "Mataon",
+  "Zerao",
+  "Kokiron",
+  "Fopunua",
+  "Folao",
+  "Bristinra",
+  "Latrania",
+  "Drekrurua",
+  "Lononia",
+  "Remoex",
+  "Pugio",
+  "Thodrisen",
+  "Konesexia",
+  "Remoo",
+  "Pugiia",
+  "Futiex",
+  "Drekruruia",
+  "Gofasen",
+  "Kokiro",
+  "Zidrasis",
+  "Tenadoxex",
+  "Zidrasex",
+  "Vifosen",
+  "Sastiduen",
+  "Mibrizisen",
+  "Datea",
+  "Gibrunex",
+  "Vamoen",
+  "Rutrunex",
+  "Drigira",
+  "Drekruruex",
+  "Sakokrasex",
+  "Ronisra",
+  "Trabalex",
+  "Dravoon",
+  "Zopalen",
+  "Rekua",
+  "Rekuen",
+  "Tridreis",
+  "Futien",
+  "Thodrisex",
+  "Fizulo",
+  "Zeraa",
+  "Vamoon",
+  "Folaia",
+  "Bristinex",
+  "Ronisa",
+  "Gidrazesa",
+  "Rutruna",
+  "Thokea",
+  "Zidrasia",
+  "Krekroris",
+  "Betulasen",
+  "Folaex",
+  "Krezudiex",
+  "Kokira",
+  "Kebrois",
+  "Savesia",
+  "Krepafilon",
+  "Zitia",
+  "Suzistoron",
+  "Zition",
+  "Kifeno",
+  "Nezuo",
+  "Pudolra",
+  "Broforeen",
+  "Betulasis",
+  "Trabalon",
+  "Trabala",
+  "Vamoo",
+  "Pukrolon",
+  "Betulasa",
+  "Thodrison",
+  "Fakanen",
+  "Druvuson",
+  "Tubixex",
+  "Feluzuia",
+  "Birexon",
+  "Dravoex",
+  "Konesexo",
+  "Krarameron",
+  "Natheis",
+  "Futira",
+  "Gofason",
+  "Gibrunra",
+  "Gofasis",
+  "Gofasa",
+  "Mipadaro",
+  "Birexen",
+  "Gofasia",
+  "Natheia",
+  "Zitiia",
+  "Gutoia",
+  "Dravoen",
+  "Tridreia",
+  "Mudogoen",
+  "Krepafilex",
+  "Kragisen",
+  "Dridixia",
+  "Krusoen",
+  "Rosatora",
+  "Bristinis",
+  "Dridixo",
+  "Nobrivuson",
+  "Druzua",
+  "Krovatulen",
+  "Nezuex",
+  "Breniria",
+  "Thokeon",
+  "Gutoo",
+  "Pugion"
+ ]
+}

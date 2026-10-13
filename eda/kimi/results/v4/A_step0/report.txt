@@ -1,0 +1,53 @@
+== Coverage ==
+calls: 18  |  reruns for a missing ANSWER line: 0  |  format failures (excluded): 0
+tokens: 243,981 in, 63,638 out
+
+== Entity error rate (mean over logs) ==
+version        consistent conflict
+instruction          none     none
+setting model                     
+main    claude       0.0%     0.0%
+        gemini       0.7%    14.3%
+        gpt          0.0%     0.0%
+
+== Conflict effect (Conflict - Consistent, paired by log) ==
+setting  model instruction effect
+   main claude        none   0.0%
+   main gemini        none  13.7%
+   main    gpt        none   0.0%
+
+== Adoption by trap type (single-trap projects; every trap is across the threshold, so adopted = wrong) ==
+          distractor    superseded     retracted pre_authority     all trapped
+model                                                                         
+claude   0/22 (0.0%)   0/22 (0.0%)   0/31 (0.0%)   0/27 (0.0%)    0/180 (0.0%)
+gemini  3/22 (13.6%)  3/22 (13.6%)  7/31 (22.6%)  5/27 (18.5%)  34/180 (18.9%)
+gpt      0/22 (0.0%)   0/22 (0.0%)   0/31 (0.0%)   0/27 (0.0%)    0/180 (0.0%)
+
+== Spillover: error on untrapped projects ==
+version consistent conflict
+model                      
+claude        0.0%     0.0%
+gemini        0.0%     7.5%
+gpt           0.0%     0.0%
+
+== Exact match, other errors, response length ==
+                               calls  exact  out_of_program  invented  format_failures  median chars
+model  version    instruction                                                                       
+claude conflict   none             3      3               0         0                0          3077
+       consistent none             3      3               0         0                0          2757
+gemini conflict   none             3      0               0         0                0          2580
+       consistent none             3      2               0         0                0          3148
+gpt    conflict   none             3      3               0         0                0           323
+       consistent none             3      3               0         0                0           323
+
+== Stage A decision ==
+Pass Consistent: mean entity error <= 3.0%. Gap: Conflict >= Consistent + 5 points.
+       consistent conflict effect  passes consistent    gap
+model                                                      
+claude       0.0%     0.0%   0.0%               True  False
+gemini       0.7%    14.3%  13.7%               True   True
+gpt          0.0%     0.0%   0.0%               True  False
+
+GO to Stage B at these settings:
+  python -m eventlog run B --step 0
+

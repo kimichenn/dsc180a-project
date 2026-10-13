@@ -1,0 +1,1344 @@
+{
+ "seed": 2,
+ "dials": {
+  "n_projects": 100,
+  "out_of_program": true,
+  "two_conditions": true,
+  "trap_density": 0.6,
+  "max_traps": 3,
+  "trap_types": "all",
+  "authority_changes": "handover+mover",
+  "authority_statement": "inferred",
+  "record_order": "grouped"
+ },
+ "question": "Which Atlas projects launch before November 26 and have a budget above $3.5M?",
+ "answer": [
+  "Balon",
+  "Borin",
+  "Davin",
+  "Feruzos",
+  "Gelas",
+  "Gestitra",
+  "Godibrin",
+  "Gudrus",
+  "Kakrar",
+  "Kamaso",
+  "Kotri",
+  "Krogi",
+  "Krothen",
+  "Krurux",
+  "Krutan",
+  "Kuge",
+  "Ladrakre",
+  "Lithol",
+  "Mobrutol",
+  "Mofar",
+  "Moku",
+  "Nefoda",
+  "Nuladrux",
+  "Patrul",
+  "Puzinu",
+  "Semu",
+  "Sikro",
+  "Sino",
+  "Sofifar",
+  "Staven",
+  "Stipuvon",
+  "Thepugu",
+  "Thibru",
+  "Thovi",
+  "Trazi",
+  "Trifigen",
+  "Tropas",
+  "Vuve",
+  "Zifix",
+  "Zutral"
+ ],
+ "threshold": "2025-11-26",
+ "budget_threshold": 3.5,
+ "projects": [
+  {
+   "name": "Trustax",
+   "budget": 5.8,
+   "governing": "2025-12-01",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-16"
+    }
+   ]
+  },
+  {
+   "name": "Vizo",
+   "budget": 2.4,
+   "governing": "2025-11-03",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Krutan",
+   "budget": 4.5,
+   "governing": "2025-11-08",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-11"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-12-03"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-12-13"
+    }
+   ]
+  },
+  {
+   "name": "Krurux",
+   "budget": 5.7,
+   "governing": "2025-11-20",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Sino",
+   "budget": 4.8,
+   "governing": "2025-11-08",
+   "included": true,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-28"
+    }
+   ]
+  },
+  {
+   "name": "Midrur",
+   "budget": 5.4,
+   "governing": "2025-12-11",
+   "included": false,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-15"
+    }
+   ]
+  },
+  {
+   "name": "Bosi",
+   "budget": 5.0,
+   "governing": "2025-12-18",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-11"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-11-13"
+    }
+   ]
+  },
+  {
+   "name": "Krolen",
+   "budget": 4.3,
+   "governing": "2025-12-08",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-22"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-21"
+    }
+   ]
+  },
+  {
+   "name": "Berun",
+   "budget": 1.5,
+   "governing": "2025-12-12",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Balon",
+   "budget": 4.3,
+   "governing": "2025-11-22",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-15"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-12-08"
+    }
+   ]
+  },
+  {
+   "name": "Pida",
+   "budget": 4.5,
+   "governing": "2025-12-11",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-20"
+    }
+   ]
+  },
+  {
+   "name": "Staven",
+   "budget": 4.9,
+   "governing": "2025-11-17",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-09"
+    }
+   ]
+  },
+  {
+   "name": "Kotri",
+   "budget": 5.0,
+   "governing": "2025-11-12",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-02"
+    }
+   ]
+  },
+  {
+   "name": "Femes",
+   "budget": 1.1,
+   "governing": "2025-12-15",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Vime",
+   "budget": 2.5,
+   "governing": "2025-12-02",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Gemo",
+   "budget": 5.7,
+   "governing": "2025-12-13",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-15"
+    }
+   ]
+  },
+  {
+   "name": "Drusanis",
+   "budget": 5.6,
+   "governing": "2025-12-16",
+   "included": false,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-04"
+    }
+   ]
+  },
+  {
+   "name": "Sikro",
+   "budget": 5.1,
+   "governing": "2025-11-06",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-12-03"
+    }
+   ]
+  },
+  {
+   "name": "Fustunex",
+   "budget": 4.9,
+   "governing": "2025-12-12",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Thovi",
+   "budget": 3.7,
+   "governing": "2025-11-05",
+   "included": true,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-12-07"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-12-11"
+    }
+   ]
+  },
+  {
+   "name": "Rudida",
+   "budget": 2.7,
+   "governing": "2025-11-09",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Dranevox",
+   "budget": 4.1,
+   "governing": "2025-12-09",
+   "included": false,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-07"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-15"
+    }
+   ]
+  },
+  {
+   "name": "Legix",
+   "budget": 5.9,
+   "governing": "2025-12-02",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-21"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-11-20"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-14"
+    }
+   ]
+  },
+  {
+   "name": "Tropas",
+   "budget": 4.0,
+   "governing": "2025-11-14",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Thothan",
+   "budget": 3.7,
+   "governing": "2025-12-18",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-25"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-22"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-11-17"
+    }
+   ]
+  },
+  {
+   "name": "Dropurus",
+   "budget": 4.3,
+   "governing": "2025-11-28",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Fekrekis",
+   "budget": 1.5,
+   "governing": "2025-11-15",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Moku",
+   "budget": 5.4,
+   "governing": "2025-11-18",
+   "included": true,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-12-11"
+    }
+   ]
+  },
+  {
+   "name": "Lithol",
+   "budget": 4.5,
+   "governing": "2025-11-14",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Sofifar",
+   "budget": 4.5,
+   "governing": "2025-11-21",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Mogar",
+   "budget": 1.1,
+   "governing": "2025-11-08",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Krogi",
+   "budget": 6.0,
+   "governing": "2025-11-05",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-19"
+    }
+   ]
+  },
+  {
+   "name": "Vititrix",
+   "budget": 5.8,
+   "governing": "2025-12-19",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Kugibu",
+   "budget": 5.7,
+   "governing": "2025-12-11",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-18"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-03"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-11-20"
+    }
+   ]
+  },
+  {
+   "name": "Kinatix",
+   "budget": 5.1,
+   "governing": "2025-12-17",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-17"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-11-16"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-07"
+    }
+   ]
+  },
+  {
+   "name": "Nuladrux",
+   "budget": 4.8,
+   "governing": "2025-11-20",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Zutral",
+   "budget": 4.7,
+   "governing": "2025-11-12",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Zestu",
+   "budget": 1.5,
+   "governing": "2025-12-06",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Ketobron",
+   "budget": 3.0,
+   "governing": "2025-11-19",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Trosex",
+   "budget": 2.2,
+   "governing": "2025-12-08",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Fopidrul",
+   "budget": 3.2,
+   "governing": "2025-11-21",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Sipin",
+   "budget": 3.1,
+   "governing": "2025-11-19",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Vinevi",
+   "budget": 4.4,
+   "governing": "2025-12-14",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-24"
+    }
+   ]
+  },
+  {
+   "name": "Lethu",
+   "budget": 1.8,
+   "governing": "2025-12-15",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Zifix",
+   "budget": 5.1,
+   "governing": "2025-11-11",
+   "included": true,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-12-19"
+    }
+   ]
+  },
+  {
+   "name": "Kraval",
+   "budget": 5.6,
+   "governing": "2025-12-14",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-07"
+    }
+   ]
+  },
+  {
+   "name": "Tibadrar",
+   "budget": 1.8,
+   "governing": "2025-11-17",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Puzinu",
+   "budget": 5.3,
+   "governing": "2025-11-15",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-01"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-28"
+    }
+   ]
+  },
+  {
+   "name": "Zathir",
+   "budget": 3.3,
+   "governing": "2025-12-17",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Vuve",
+   "budget": 4.4,
+   "governing": "2025-11-09",
+   "included": true,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-12-14"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-12-03"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-12-07"
+    }
+   ]
+  },
+  {
+   "name": "Moste",
+   "budget": 4.1,
+   "governing": "2025-12-10",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-19"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-14"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-20"
+    }
+   ]
+  },
+  {
+   "name": "Thapo",
+   "budget": 4.1,
+   "governing": "2025-12-01",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-22"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-15"
+    }
+   ]
+  },
+  {
+   "name": "Vokax",
+   "budget": 3.9,
+   "governing": "2025-12-09",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Mobrutol",
+   "budget": 3.7,
+   "governing": "2025-11-20",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-12-15"
+    }
+   ]
+  },
+  {
+   "name": "Godibrin",
+   "budget": 5.7,
+   "governing": "2025-11-06",
+   "included": true,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-12-06"
+    }
+   ]
+  },
+  {
+   "name": "Borin",
+   "budget": 3.7,
+   "governing": "2025-11-15",
+   "included": true,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-30"
+    }
+   ]
+  },
+  {
+   "name": "Trutro",
+   "budget": 4.8,
+   "governing": "2025-12-07",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-25"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-11-19"
+    }
+   ]
+  },
+  {
+   "name": "Nefoda",
+   "budget": 4.3,
+   "governing": "2025-11-06",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-08"
+    }
+   ]
+  },
+  {
+   "name": "Ladrakre",
+   "budget": 5.7,
+   "governing": "2025-11-05",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-12-05"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-12-02"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-12-08"
+    }
+   ]
+  },
+  {
+   "name": "Razudun",
+   "budget": 2.8,
+   "governing": "2025-11-06",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Mikrutru",
+   "budget": 5.3,
+   "governing": "2025-11-28",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-17"
+    }
+   ]
+  },
+  {
+   "name": "Trazi",
+   "budget": 4.6,
+   "governing": "2025-11-12",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-12-13"
+    }
+   ]
+  },
+  {
+   "name": "Kuge",
+   "budget": 4.0,
+   "governing": "2025-11-22",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-11"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-12-12"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-12-03"
+    }
+   ]
+  },
+  {
+   "name": "Brotibra",
+   "budget": 2.6,
+   "governing": "2025-12-16",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Kakrar",
+   "budget": 6.0,
+   "governing": "2025-11-07",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-30"
+    }
+   ]
+  },
+  {
+   "name": "Kugostur",
+   "budget": 6.0,
+   "governing": "2025-12-02",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-18"
+    }
+   ]
+  },
+  {
+   "name": "Trifigen",
+   "budget": 4.1,
+   "governing": "2025-11-24",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Nathu",
+   "budget": 4.6,
+   "governing": "2025-12-13",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-13"
+    }
+   ]
+  },
+  {
+   "name": "Stipuvon",
+   "budget": 4.1,
+   "governing": "2025-11-03",
+   "included": true,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-12-16"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-12-13"
+    }
+   ]
+  },
+  {
+   "name": "Molurar",
+   "budget": 4.0,
+   "governing": "2025-12-06",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-13"
+    }
+   ]
+  },
+  {
+   "name": "Leredrir",
+   "budget": 3.7,
+   "governing": "2025-12-05",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-04"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-11-10"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-08"
+    }
+   ]
+  },
+  {
+   "name": "Bitater",
+   "budget": 4.0,
+   "governing": "2025-12-04",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Semu",
+   "budget": 5.8,
+   "governing": "2025-11-09",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Feruzos",
+   "budget": 4.6,
+   "governing": "2025-11-23",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-04"
+    }
+   ]
+  },
+  {
+   "name": "Zovepis",
+   "budget": 5.6,
+   "governing": "2025-12-12",
+   "included": false,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-11-16"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-13"
+    }
+   ]
+  },
+  {
+   "name": "Lolun",
+   "budget": 3.6,
+   "governing": "2025-11-29",
+   "included": false,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-03"
+    }
+   ]
+  },
+  {
+   "name": "Toras",
+   "budget": 5.8,
+   "governing": "2025-12-07",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Kridumas",
+   "budget": 4.4,
+   "governing": "2025-12-13",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Thinin",
+   "budget": 3.1,
+   "governing": "2025-12-05",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Mofar",
+   "budget": 4.8,
+   "governing": "2025-11-22",
+   "included": true,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-12-12"
+    }
+   ]
+  },
+  {
+   "name": "Konepar",
+   "budget": 3.7,
+   "governing": "2025-11-28",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-22"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-11-13"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-21"
+    }
+   ]
+  },
+  {
+   "name": "Gelas",
+   "budget": 5.2,
+   "governing": "2025-11-07",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Ruror",
+   "budget": 3.0,
+   "governing": "2025-11-08",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Thepugu",
+   "budget": 4.4,
+   "governing": "2025-11-04",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-11-30"
+    },
+    {
+     "type": "distractor",
+     "value": "2025-12-04"
+    }
+   ]
+  },
+  {
+   "name": "Davin",
+   "budget": 5.3,
+   "governing": "2025-11-09",
+   "included": true,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-30"
+    }
+   ]
+  },
+  {
+   "name": "Patrul",
+   "budget": 5.3,
+   "governing": "2025-11-22",
+   "included": true,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-28"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-12-10"
+    }
+   ]
+  },
+  {
+   "name": "Gedox",
+   "budget": 4.0,
+   "governing": "2025-12-10",
+   "included": false,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-21"
+    }
+   ]
+  },
+  {
+   "name": "Gudrus",
+   "budget": 3.6,
+   "governing": "2025-11-03",
+   "included": true,
+   "traps": []
+  },
+  {
+   "name": "Gestitra",
+   "budget": 5.6,
+   "governing": "2025-11-23",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-12-10"
+    }
+   ]
+  },
+  {
+   "name": "Krothen",
+   "budget": 4.1,
+   "governing": "2025-11-05",
+   "included": true,
+   "traps": [
+    {
+     "type": "superseded",
+     "value": "2025-12-01"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-12-08"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-12-15"
+    }
+   ]
+  },
+  {
+   "name": "Dimuna",
+   "budget": 5.7,
+   "governing": "2025-12-11",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-06"
+    },
+    {
+     "type": "retracted",
+     "value": "2025-11-22"
+    },
+    {
+     "type": "superseded",
+     "value": "2025-11-12"
+    }
+   ]
+  },
+  {
+   "name": "Rodo",
+   "budget": 4.7,
+   "governing": "2025-12-07",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Thibru",
+   "budget": 6.0,
+   "governing": "2025-11-13",
+   "included": true,
+   "traps": [
+    {
+     "type": "pre_authority",
+     "value": "2025-12-03"
+    }
+   ]
+  },
+  {
+   "name": "Kikros",
+   "budget": 5.7,
+   "governing": "2025-11-29",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-25"
+    }
+   ]
+  },
+  {
+   "name": "Trivor",
+   "budget": 4.1,
+   "governing": "2025-12-03",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-18"
+    },
+    {
+     "type": "pre_authority",
+     "value": "2025-11-19"
+    }
+   ]
+  },
+  {
+   "name": "Dimen",
+   "budget": 4.2,
+   "governing": "2025-12-01",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Ritil",
+   "budget": 2.0,
+   "governing": "2025-11-14",
+   "included": false,
+   "traps": []
+  },
+  {
+   "name": "Pufon",
+   "budget": 4.7,
+   "governing": "2025-12-08",
+   "included": false,
+   "traps": [
+    {
+     "type": "distractor",
+     "value": "2025-11-20"
+    }
+   ]
+  },
+  {
+   "name": "Kamaso",
+   "budget": 3.9,
+   "governing": "2025-11-25",
+   "included": true,
+   "traps": [
+    {
+     "type": "retracted",
+     "value": "2025-11-29"
+    }
+   ]
+  },
+  {
+   "name": "Luzimi",
+   "budget": 2.8,
+   "governing": "2025-12-11",
+   "included": false,
+   "traps": []
+  }
+ ],
+ "other_projects": [
+  "Zathirra",
+  "Thovien",
+  "Pufonis",
+  "Fustunexex",
+  "Krogiis",
+  "Zestuis",
+  "Nefodaon",
+  "Legixia",
+  "Berunra",
+  "Tibadraris",
+  "Nuladruxon",
+  "Thapoen",
+  "Thapoex",
+  "Trazia",
+  "Kruruxon",
+  "Rudidara",
+  "Fustunexo",
+  "Krutania",
+  "Gelasa",
+  "Drusanisis",
+  "Kugosturen",
+  "Fekrekisex",
+  "Thothana",
+  "Leredrirra",
+  "Patrula",
+  "Vititrixia",
+  "Mogarra",
+  "Gedoxis",
+  "Lethuex",
+  "Fustunexra",
+  "Krolenex",
+  "Gemora",
+  "Nefodaia",
+  "Rodora",
+  "Vuveon",
+  "Razudunen",
+  "Trustaxis",
+  "Mofaria",
+  "Kugosturon",
+  "Dimunaon",
+  "Vititrixa",
+  "Zifixra",
+  "Ritilo",
+  "Fekrekisis",
+  "Mokuia",
+  "Nathuex",
+  "Tropaso",
+  "Mofarex",
+  "Ketobronex",
+  "Rurora",
+  "Sofifaren",
+  "Gudrusen",
+  "Torasex",
+  "Zathiro",
+  "Nefodais",
+  "Gelasen",
+  "Litholia",
+  "Kikroso",
+  "Godibrinis",
+  "Kotriis",
+  "Pidaen",
+  "Fustunexa",
+  "Sipinis",
+  "Kridumasa",
+  "Nuladruxia",
+  "Patrulex",
+  "Thapoo",
+  "Godibrinia",
+  "Koneparra",
+  "Litholon",
+  "Bosien",
+  "Balonra",
+  "Trazio",
+  "Gelasex",
+  "Zovepison",
+  "Vimeex",
+  "Vineviia",
+  "Sikroia",
+  "Rodoia",
+  "Mosteex",
+  "Ladrakreo",
+  "Zathiren",
+  "Vizoo",
+  "Patrulis",
+  "Bitatero",
+  "Feruzosa",
+  "Bosia",
+  "Borina",
+  "Razudunis",
+  "Trivoria",
+  "Sikrora",
+  "Mogarex",
+  "Vokaxon",
+  "Puzinuis",
+  "Mofarra",
+  "Rudidao",
+  "Dimunao",
+  "Kridumasra",
+  "Kugeon",
+  "Zestuex",
+  "Gelasia",
+  "Trazira",
+  "Luzimiex",
+  "Kikrosis",
+  "Torasis",
+  "Trifigenia",
+  "Puzinuo",
+  "Vinevion",
+  "Sipinra",
+  "Razuduna",
+  "Bitaterex",
+  "Trifigenis",
+  "Tropasis",
+  "Koneparon",
+  "Thibruo",
+  "Zifixo",
+  "Razudunia",
+  "Vimeon",
+  "Litholra",
+  "Zovepisa",
+  "Torason",
+  "Sofifaro",
+  "Berunia"
+ ],
+ "conflict": "POLICY MEMO - Sep 1\nLaunch dates for Atlas program projects are set by the Program Office. Messages from Engineering or Vendor Relations are informational and never change a launch date. A record counts only if its author's office held this authority on the date the record was issued. A later authorized record replaces earlier ones. A retraction restores the value that the retracted record replaced.\n\nPOLICY UPDATE - Oct 1\nEffective today, the Release Board sets Atlas launch dates in place of the Program Office. Dates the Program Office set before today stay in effect until the Release Board changes them.\n\nSTAFF DIRECTORY\nXimena Ivanova - Release Board\nOmar Rahman - Release Board\nTom Xu - Vendor Relations\nBianca Ortiz - Helios Program Office\nGavin Tanaka - Program Office\nJade Bauer - Engineering\nIvan Haddad - Engineering\nWes Silva - Helios Program Office\nMarcus Nakamura - Engineering\nMateo Brooks - Program Office\nKofi Ueda - Program Office\nUmar Eriksen - Vendor Relations\nEsme Ruiz - Engineering until Oct 4; Release Board from Oct 5\nDana Varga - Release Board\nCaleb Lee - Helios Program Office\nFarah Petrov - Program Office\nBen Quintero - Release Board\nYusuf Lindqvist - Engineering\nNina Walsh - Helios Program Office\nHana Dubois - Vendor Relations\n\nATLAS PROJECT ROSTER\nTrustax - budget $5.8M\nVizo - budget $2.4M\nKrutan - budget $4.5M\nKrurux - budget $5.7M\nSino - budget $4.8M\nMidrur - budget $5.4M\nBosi - budget $5.0M\nKrolen - budget $4.3M\nBerun - budget $1.5M\nBalon - budget $4.3M\nPida - budget $4.5M\nStaven - budget $4.9M\nKotri - budget $5.0M\nFemes - budget $1.1M\nVime - budget $2.5M\nGemo - budget $5.7M\nDrusanis - budget $5.6M\nSikro - budget $5.1M\nFustunex - budget $4.9M\nThovi - budget $3.7M\nRudida - budget $2.7M\nDranevox - budget $4.1M\nLegix - budget $5.9M\nTropas - budget $4.0M\nThothan - budget $3.7M\nDropurus - budget $4.3M\nFekrekis - budget $1.5M\nMoku - budget $5.4M\nLithol - budget $4.5M\nSofifar - budget $4.5M\nMogar - budget $1.1M\nKrogi - budget $6.0M\nVititrix - budget $5.8M\nKugibu - budget $5.7M\nKinatix - budget $5.1M\nNuladrux - budget $4.8M\nZutral - budget $4.7M\nZestu - budget $1.5M\nKetobron - budget $3.0M\nTrosex - budget $2.2M\nFopidrul - budget $3.2M\nSipin - budget $3.1M\nVinevi - budget $4.4M\nLethu - budget $1.8M\nZifix - budget $5.1M\nKraval - budget $5.6M\nTibadrar - budget $1.8M\nPuzinu - budget $5.3M\nZathir - budget $3.3M\nVuve - budget $4.4M\nMoste - budget $4.1M\nThapo - budget $4.1M\nVokax - budget $3.9M\nMobrutol - budget $3.7M\nGodibrin - budget $5.7M\nBorin - budget $3.7M\nTrutro - budget $4.8M\nNefoda - budget $4.3M\nLadrakre - budget $5.7M\nRazudun - budget $2.8M\nMikrutru - budget $5.3M\nTrazi - budget $4.6M\nKuge - budget $4.0M\nBrotibra - budget $2.6M\nKakrar - budget $6.0M\nKugostur - budget $6.0M\nTrifigen - budget $4.1M\nNathu - budget $4.6M\nStipuvon - budget $4.1M\nMolurar - budget $4.0M\nLeredrir - budget $3.7M\nBitater - budget $4.0M\nSemu - budget $5.8M\nFeruzos - budget $4.6M\nZovepis - budget $5.6M\nLolun - budget $3.6M\nToras - budget $5.8M\nKridumas - budget $4.4M\nThinin - budget $3.1M\nMofar - budget $4.8M\nKonepar - budget $3.7M\nGelas - budget $5.2M\nRuror - budget $3.0M\nThepugu - budget $4.4M\nDavin - budget $5.3M\nPatrul - budget $5.3M\nGedox - budget $4.0M\nGudrus - budget $3.6M\nGestitra - budget $5.6M\nKrothen - budget $4.1M\nDimuna - budget $5.7M\nRodo - budget $4.7M\nThibru - budget $6.0M\nKikros - budget $5.7M\nTrivor - budget $4.1M\nDimen - budget $4.2M\nRitil - budget $2.0M\nPufon - budget $4.7M\nKamaso - budget $3.9M\nLuzimi - budget $2.8M\n\nDATABASE CHANGELOG\nOct 6, Ben Quintero: Tibadrar launch set to Nov 17.\nOct 4, Caleb Lee: Hearing that Nefodaon will launch Nov 29 instead.\nSep 28, Caleb Lee: Confirming Fustunexo launch date of Dec 12.\nSep 14, Nina Walsh: Setting Zovepisa launch date to Dec 9.\nSep 3, Farah Petrov: Stipuvon is scheduled to launch Dec 13.\nOct 8, Nina Walsh: Mofarex launch set to Nov 11.\nOct 12, Esme Ruiz: Setting Ruror launch date to Nov 8.\nSep 3, Nina Walsh: Kugosturen is scheduled to launch Dec 14.\nSep 2, Nina Walsh: Ladrakreo launch set to Nov 21.\nSep 22, Farah Petrov: Krogi launch set to Nov 5.\nSep 25, Wes Silva: Nefodaia launch confirmed for Nov 19.\nSep 17, Kofi Ueda: Changing Legix launch date to Dec 2.\nSep 10, Farah Petrov: Setting Vinevi launch date to Nov 24.\nSep 24, Caleb Lee: Changing Mosteex launch date to Nov 6.\nSep 20, Nina Walsh: Setting Rudidara launch date to Dec 16.\nOct 28, Ben Quintero: Confirming Lethu launch date of Dec 15.\nSep 26, Ben Quintero: Updating Leredrir to Nov 10 per vendor call.\nSep 11, Bianca Ortiz: Balonra launch set to Nov 26.\nOct 8, Omar Rahman: Sipin launch set to Nov 19.\nOct 30, Caleb Lee: Zestuis launch set to Dec 14.\nSep 19, Farah Petrov: Leredrir now launches Nov 4.\nSep 3, Gavin Tanaka: Thothan launch set to Nov 22.\nSep 12, Mateo Brooks: Lolun launch set to Nov 3.\nSep 27, Farah Petrov: Setting Staven launch date to Nov 17.\nSep 9, Farah Petrov: Krutan launch moved to Nov 8.\nSep 17, Wes Silva: Changing Kruruxon launch date to Dec 18.\nSep 29, Esme Ruiz: Krothen now launches Dec 8.\nOct 10, Caleb Lee: Kotriis launch set to Nov 14.\nSep 29, Farah Petrov: Bitater is scheduled to launch Dec 4.\nOct 8, Caleb Lee: Confirming Fustunexex launch date of Dec 5.\nSep 28, Caleb Lee: Tropasis launch set to Nov 24.\nOct 30, Omar Rahman: Changing Gestitra launch date to Nov 23.\nSep 3, Gavin Tanaka: Molurar launch set to Dec 6.\nOct 23, Esme Ruiz: Withdrawing the Oct 21 update to Gedox; it was entered in error.\nSep 27, Farah Petrov: Thovi launch set to Dec 11.\nSep 2, Nina Walsh: Trazira launch set to Nov 30.\nSep 27, Bianca Ortiz: Nefodaon launch set to Nov 18.\nSep 3, Farah Petrov: Setting Krutan launch date to Dec 13.\nOct 25, Dana Varga: Setting Vizo launch date to Nov 3.\nOct 20, Bianca Ortiz: Trustaxis now launches Nov 27.\nSep 30, Ximena Ivanova: Updating Kugibu to Nov 20 per vendor call.\nOct 26, Wes Silva: Vendor says Tibadraris now targets Dec 3.\nOct 21, Dana Varga: Changing Pida launch date to Nov 20.\nOct 12, Wes Silva: Confirming Trifigenia launch date of Nov 28.\nSep 16, Gavin Tanaka: Changing Krothen launch date to Dec 15.\nSep 16, Gavin Tanaka: Setting Dranevox launch date to Nov 15.\nSep 24, Ximena Ivanova: Vuve now launches Dec 7.\nOct 15, Caleb Lee: Feruzosa launch set to Nov 30.\nSep 23, Nina Walsh: Confirming Rurora launch date of Nov 30.\nSep 18, Mateo Brooks: Withdrawing the Sep 16 update to Thothan; it was entered in error.\nOct 4, Ben Quintero: Updating Mikrutru to Nov 28 per vendor call.\nSep 10, Nina Walsh: Koneparon launch set to Nov 12.\nSep 3, Bianca Ortiz: Patrula is scheduled to launch Dec 12.\nSep 22, Dana Varga: Updating Midrur to Nov 15 per vendor call.\nSep 5, Kofi Ueda: Ladrakre launch set to Dec 5.\nSep 8, Kofi Ueda: Setting Drusanis launch date to Dec 16.\nSep 24, Kofi Ueda: Kraval is scheduled to launch Dec 14.\nOct 2, Ben Quintero: Lolun now launches Nov 29.\nOct 1, Ben Quintero: Trutro launch moved to Dec 7.\nOct 25, Caleb Lee: Koneparon now launches Nov 29.\nOct 3, Dana Varga: Setting Sino launch date to Nov 8.\nOct 12, Nina Walsh: Gelasia launch confirmed for Nov 21.\nOct 19, Bianca Ortiz: Ladrakreo launch confirmed for Nov 17.\nSep 29, Nina Walsh: Kikroso launch set to Nov 25.\nOct 13, Bianca Ortiz: Vimeex launch confirmed for Nov 23.\nOct 11, Nina Walsh: Kugosturen launch confirmed for Dec 17.\nOct 12, Wes Silva: Fekrekisex is scheduled to launch Nov 27.\nSep 17, Mateo Brooks: Kuge now launches Dec 12.\nSep 13, Kofi Ueda: Rodo launch set to Dec 7.\nOct 19, Esme Ruiz: Changing Sikro launch date to Nov 6.\nSep 2, Kofi Ueda: Krothen is scheduled to launch Dec 1.\nOct 29, Omar Rahman: Sino now launches Nov 28.\nOct 4, Esme Ruiz: Updating Patrul to Dec 10 per vendor call.\nOct 27, Caleb Lee: Nefodais launch moved to Dec 6.\nSep 5, Wes Silva: Trazio is scheduled to launch Nov 28.\nOct 28, Nina Walsh: Setting Gemora launch date to Nov 19.\nSep 20, Kofi Ueda: Legix launch moved to Nov 14.\nSep 13, Kofi Ueda: Borin launch set to Nov 15.\nSep 29, Gavin Tanaka: Lethu launch set to Dec 15.\nOct 16, Omar Rahman: Thovi now launches Nov 5.\nSep 5, Gavin Tanaka: Legix is scheduled to launch Nov 21.\nOct 8, Ben Quintero: Withdrawing the Oct 1 update to Trustax; it was entered in error.\nOct 14, Wes Silva: Heads up, Kikroso is slipping to Dec 9.\nSep 20, Caleb Lee: Gelasia is scheduled to launch Nov 22.\nOct 11, Bianca Ortiz: Tropasis now launches Dec 18.\nOct 30, Dana Varga: Withdrawing the Oct 3 update to Moku; it was entered in error.\nSep 28, Nina Walsh: Confirming Litholon launch date of Dec 1.\nOct 29, Ben Quintero: Please disregard the Oct 17 change to Kraval.\nOct 5, Caleb Lee: Trifigenia is scheduled to launch Nov 29.\nSep 4, Caleb Lee: Setting Torason launch date to Dec 1.\nSep 25, Farah Petrov: Setting Dropurus launch date to Nov 28.\nOct 21, Esme Ruiz: Nuladrux launch confirmed for Nov 20.\nOct 8, Dana Varga: Setting Pufon launch date to Dec 8.\nSep 10, Wes Silva: Setting Razudunen launch date to Nov 27.\nSep 26, Gavin Tanaka: Updating Puzinu to Nov 15 per vendor call.\nOct 16, Caleb Lee: Updating Mofarex to Nov 17 per vendor call.\nOct 14, Omar Rahman: Confirming Ruror launch date of Nov 8.\nOct 3, Wes Silva: Updating Mogarra to Nov 11 per vendor call.\nOct 3, Ximena Ivanova: Ketobron is scheduled to launch Nov 19.\nSep 6, Farah Petrov: Zovepis launch set to Dec 12.\nSep 12, Wes Silva: Mosteex is scheduled to launch Dec 1.\nSep 20, Bianca Ortiz: Setting Gelasex launch date to Nov 30.\nSep 20, Kofi Ueda: Please disregard the Sep 19 change to Leredrir.\nSep 28, Wes Silva: Setting Sipinra launch date to Nov 24.\nOct 25, Wes Silva: Vendor says Zovepison now targets Dec 18.\nSep 10, Gavin Tanaka: Changing Krutan launch date to Dec 3.\nOct 26, Caleb Lee: I think Trifigenia moves to Nov 8, can someone confirm?\nSep 14, Gavin Tanaka: Kugibu now launches Dec 11.\nSep 4, Caleb Lee: Setting Patrulis launch date to Nov 16.\nOct 17, Nina Walsh: Trazira now launches Nov 18.\nSep 29, Caleb Lee: Heads up, Puzinuis is slipping to Nov 20.\nOct 18, Esme Ruiz: Withdrawing the Oct 7 update to Kamaso; it was entered in error.\nSep 6, Farah Petrov: Setting Konepar launch date to Nov 21.\nSep 6, Kofi Ueda: Rudida is scheduled to launch Nov 9.\nOct 2, Wes Silva: Changing Sipinra launch date to Nov 26.\nOct 19, Ben Quintero: Retracting the Oct 13 change to Thapo.\nOct 12, Esme Ruiz: Updating Kinatix to Dec 17 per vendor call.\nSep 10, Kofi Ueda: Setting Thapo launch date to Nov 22.\nSep 26, Mateo Brooks: Setting Mikrutru launch date to Nov 17.\nSep 23, Kofi Ueda: Changing Mobrutol launch date to Nov 20.\nOct 26, Ben Quintero: Dimuna launch moved to Nov 22.\nOct 1, Ximena Ivanova: Changing Trustax launch date to Nov 16.\nSep 17, Gavin Tanaka: Retracting the Sep 10 change to Krutan.\nSep 23, Wes Silva: Mogarra now launches Nov 30.\nSep 3, Gavin Tanaka: Balon is scheduled to launch Dec 8.\nSep 19, Bianca Ortiz: Legixia launch set to Nov 21.\nSep 9, Caleb Lee: Fustunexex launch set to Nov 25.\nSep 5, Bianca Ortiz: Setting Fekrekisis launch date to Nov 24.\nOct 12, Bianca Ortiz: I think Zathirra moves to Nov 28, can someone confirm?\nSep 10, Mateo Brooks: Trustax is scheduled to launch Dec 1.\nSep 22, Mateo Brooks: Kakrar is scheduled to launch Nov 7.\nSep 21, Gavin Tanaka: Thepugu is scheduled to launch Nov 30.\nSep 30, Gavin Tanaka: Changing Moste launch date to Dec 10.\nSep 3, Mateo Brooks: Sofifar is scheduled to launch Nov 21.\nOct 17, Ximena Ivanova: Updating Kraval to Nov 7 per vendor call.\nOct 19, Nina Walsh: Hearing that Litholia will launch Dec 2 instead.\nSep 16, Nina Walsh: Vendor says Patrula now targets Nov 25.\nSep 16, Bianca Ortiz: Setting Rodoia launch date to Dec 2.\nSep 10, Gavin Tanaka: Setting Thibru launch date to Nov 13.\nOct 4, Bianca Ortiz: Sofifaro is scheduled to launch Nov 7.\nOct 26, Bianca Ortiz: Confirming Borina launch date of Nov 18.\nOct 12, Omar Rahman: Dimuna launch moved to Dec 11.\nSep 13, Kofi Ueda: Vititrix is scheduled to launch Dec 19.\nSep 30, Caleb Lee: Tropaso launch confirmed for Nov 17.\nOct 28, Wes Silva: Dimunao launch confirmed for Nov 4.\nSep 26, Kofi Ueda: Mofar launch set to Nov 22.\nSep 10, Farah Petrov: Bosi launch set to Nov 11.\nOct 1, Bianca Ortiz: I think Trifigenis moves to Dec 4, can someone confirm?\nOct 12, Wes Silva: I think Vizoo moves to Dec 6, can someone confirm?\nOct 4, Dana Varga: Confirming Bitater launch date of Dec 4.\nOct 11, Nina Walsh: Zifixra launch confirmed for Dec 6.\nOct 6, Dana Varga: Femes launch confirmed for Dec 15.\nOct 15, Nina Walsh: Luzimiex now launches Dec 6.\nOct 2, Wes Silva: Berunia now launches Dec 14.\nSep 5, Gavin Tanaka: Setting Kugibu launch date to Nov 18.\nOct 22, Caleb Lee: Setting Berunra launch date to Nov 3.\nSep 15, Caleb Lee: Tropaso is scheduled to launch Nov 12.\nSep 11, Nina Walsh: Razudunis is scheduled to launch Nov 12.\nSep 19, Mateo Brooks: Please disregard the Sep 17 change to Kugibu.\nOct 30, Omar Rahman: Please disregard the Oct 21 change to Pida.\nOct 8, Caleb Lee: Confirming Kikroso launch date of Dec 15.\nSep 19, Bianca Ortiz: Gelasa now launches Dec 8.\nSep 22, Bianca Ortiz: Setting Thapoo launch date to Nov 3.\nOct 31, Nina Walsh: Changing Nuladruxia launch date to Nov 30.\nSep 10, Farah Petrov: Nefoda launch set to Nov 6.\nSep 9, Mateo Brooks: Fustunex launch set to Dec 12.\nSep 11, Nina Walsh: Setting Nefodais launch date to Dec 13.\nSep 28, Omar Rahman: Kakrar now launches Nov 30.\nOct 27, Wes Silva: Tibadraris launch moved to Dec 12.\nSep 3, Mateo Brooks: Patrul is scheduled to launch Nov 22.\nOct 18, Nina Walsh: Confirming Gelasex launch date of Nov 4.\nOct 11, Ben Quintero: Updating Gemo to Nov 15 per vendor call.\nSep 9, Farah Petrov: Kotri is scheduled to launch Nov 12.\nOct 27, Ximena Ivanova: Please disregard the Oct 26 change to Dimuna.\nSep 30, Kofi Ueda: Godibrin launch set to Nov 6.\nSep 25, Gavin Tanaka: Setting Ritil launch date to Nov 14.\nOct 28, Caleb Lee: Heads up, Zathiro is slipping to Nov 26.\nSep 12, Bianca Ortiz: Confirming Berunia launch date of Nov 5.\nSep 30, Nina Walsh: Hearing that Gelasex will launch Dec 12 instead.\nOct 7, Ximena Ivanova: Updating Kamaso to Nov 29 per vendor call.\nSep 8, Bianca Ortiz: Setting Thothana launch date to Nov 13.\nSep 24, Esme Ruiz: Thibru launch moved to Dec 3.\nOct 18, Wes Silva: Vititrixa launch set to Dec 10.\nSep 12, Farah Petrov: Puzinu is scheduled to launch Nov 28.\nOct 1, Bianca Ortiz: Bosien launch set to Nov 28.\nSep 25, Caleb Lee: Updating Puzinuis to Nov 3 per vendor call.\nSep 21, Bianca Ortiz: Hearing that Kruruxon will launch Nov 9 instead.\nSep 29, Mateo Brooks: Changing Krolen launch date to Dec 8.\nSep 22, Wes Silva: Rurora is scheduled to launch Dec 18.\nSep 27, Gavin Tanaka: Stipuvon now launches Nov 3.\nSep 22, Farah Petrov: Fopidrul is scheduled to launch Nov 21.\nOct 18, Esme Ruiz: Updating Mofar to Dec 12 per vendor call.\nSep 28, Farah Petrov: Trazi launch set to Dec 13.\nOct 15, Ben Quintero: Tropas launch confirmed for Nov 14.\nOct 12, Caleb Lee: Confirming Bosia launch date of Nov 13.\nSep 7, Nina Walsh: Setting Mogarex launch date to Dec 8.\nOct 11, Omar Rahman: Thinin launch set to Dec 5.\nOct 16, Omar Rahman: Confirming Trifigen launch date of Nov 24.\nOct 22, Caleb Lee: Confirming Trazia launch date of Dec 10.\nSep 8, Kofi Ueda: Setting Trivor launch date to Dec 3.\nOct 2, Bianca Ortiz: Drusanisis launch set to Nov 14.\nOct 7, Ben Quintero: Changing Thepugu launch date to Nov 4.\nOct 8, Nina Walsh: Setting Kridumasra launch date to Dec 2.\nSep 9, Bianca Ortiz: Litholon is scheduled to launch Dec 9.\nSep 8, Kofi Ueda: Setting Moste launch date to Nov 14.\n\nEMAIL EXPORT\nOct 20, Ben Quintero: Please disregard the Oct 18 change to Mofar.\nSep 6, Kofi Ueda: Zestu launch set to Dec 6.\nSep 24, Nina Walsh: Nefodaia launch set to Dec 7.\nSep 23, Dana Varga: Nefoda launch moved to Dec 8.\nOct 12, Wes Silva: Trustaxis is scheduled to launch Nov 14.\nSep 3, Kofi Ueda: Vokax is scheduled to launch Dec 9.\nOct 14, Nina Walsh: Heads up, Fekrekisex is slipping to Nov 19.\nOct 14, Ben Quintero: Setting Trifigen launch date to Nov 24.\nSep 9, Farah Petrov: Changing Vuve launch date to Nov 9.\nOct 25, Caleb Lee: I think Razuduna moves to Dec 5, can someone confirm?\nSep 21, Esme Ruiz: Changing Zovepis launch date to Nov 16.\nOct 30, Nina Walsh: Updating Torasex to Nov 22 per vendor call.\nOct 2, Caleb Lee: Puzinuo is scheduled to launch Nov 29.\nOct 24, Nina Walsh: Pidaen launch moved to Nov 18.\nSep 7, Farah Petrov: Zovepis launch moved to Nov 13.\nSep 29, Bianca Ortiz: Confirming Gelasa launch date of Nov 30.\nOct 16, Dana Varga: Toras launch set to Dec 7.\nSep 19, Nina Walsh: Leredrirra launch set to Nov 19.\nOct 5, Tom Xu: I think Borin moves to Nov 30, can someone confirm?\nOct 27, Dana Varga: Please disregard the Oct 6 change to Molurar.\nOct 3, Caleb Lee: Rudidao launch set to Dec 8.\nSep 23, Mateo Brooks: Dranevox now launches Dec 9.\nOct 4, Caleb Lee: Confirming Zathirra launch date of Nov 5.\nSep 11, Farah Petrov: Thothan now launches Dec 18.\nOct 25, Caleb Lee: Hearing that Legixia will launch Nov 25 instead.\nOct 26, Nina Walsh: Confirming Zovepison launch date of Nov 29.\nOct 17, Ben Quintero: Setting Krurux launch date to Nov 20.\nOct 13, Nina Walsh: Vendor says Krogiis now targets Nov 29.\nSep 20, Wes Silva: Setting Fustunexa launch date to Dec 19.\nOct 27, Marcus Nakamura: Vendor says Kinatix now targets Nov 16.\nSep 18, Wes Silva: Mofarra launch set to Dec 18.\nOct 24, Hana Dubois: Heads up, Trutro is slipping to Nov 19.\nOct 28, Nina Walsh: Legixia now launches Nov 28.\nSep 4, Wes Silva: Bitatero is scheduled to launch Dec 4.\nOct 29, Nina Walsh: I think Vimeex moves to Dec 17, can someone confirm?\nSep 22, Wes Silva: Trivoria is scheduled to launch Dec 13.\nOct 2, Ximena Ivanova: Setting Gedox launch date to Dec 10.\nOct 24, Wes Silva: Setting Thibruo launch date to Nov 14.\nSep 28, Farah Petrov: Retracting the Sep 16 change to Krothen.\nSep 28, Ben Quintero: Krogi launch moved to Dec 19.\nSep 27, Wes Silva: Confirming Patrula launch date of Dec 3.\nOct 29, Hana Dubois: I think Fopidrul stays at Nov 21, can someone confirm?\nOct 19, Esme Ruiz: Setting Dimen launch date to Dec 1.\nSep 27, Omar Rahman: Changing Kotri launch date to Dec 2.\nOct 21, Bianca Ortiz: Dimunaon launch set to Dec 6.\nSep 30, Esme Ruiz: Konepar now launches Nov 13.\nSep 27, Nina Walsh: Thovien launch set to Dec 6.\nSep 2, Caleb Lee: Sikrora is scheduled to launch Dec 16.\nOct 15, Nina Walsh: Nefodaon now launches Nov 14.\nOct 22, Marcus Nakamura: Vendor says Pufon now targets Nov 20.\nSep 5, Wes Silva: Setting Puzinuis launch date to Dec 8.\nSep 22, Bianca Ortiz: Kugosturon launch set to Nov 6.\nOct 30, Hana Dubois: I think Fekrekis stays at Nov 15, can someone confirm?\nSep 2, Nina Walsh: Koneparra is scheduled to launch Dec 9.\nSep 17, Mateo Brooks: Brotibra is scheduled to launch Dec 16.\nOct 31, Marcus Nakamura: Vendor says Fustunex still targets Dec 12.\nSep 27, Bianca Ortiz: Hearing that Pidaen will launch Nov 10 instead.\nSep 10, Bianca Ortiz: Changing Ladrakreo launch date to Dec 14.\nOct 11, Ben Quintero: Kugostur is scheduled to launch Dec 2.\nSep 22, Gavin Tanaka: Kinatix launch set to Nov 7.\nSep 28, Mateo Brooks: Setting Trutro launch date to Nov 25.\nOct 1, Ivan Haddad: I think Konepar moves to Nov 22, can someone confirm?\nSep 15, Nina Walsh: Litholra launch set to Nov 11.\nOct 25, Caleb Lee: Confirming Godibrinis launch date of Dec 5.\nSep 15, Farah Petrov: Setting Nathu launch date to Dec 13.\nSep 10, Mateo Brooks: Setting Feruzos launch date to Nov 23.\nOct 6, Umar Eriksen: Hearing that Zestu will launch Dec 6 as planned.\nSep 18, Caleb Lee: Setting Zestuex launch date to Dec 14.\nSep 21, Nina Walsh: Mogarra is scheduled to launch Nov 30.\nSep 2, Caleb Lee: Setting Vokaxon launch date to Dec 8.\nOct 28, Jade Bauer: Vendor says Dimuna now targets Nov 6.\nSep 17, Caleb Lee: Hearing that Litholra will launch Nov 30 instead.\nSep 22, Ivan Haddad: Hearing that Thothan will launch Nov 17 instead.\nOct 31, Bianca Ortiz: Updating Rudidao to Nov 10 per vendor call.\nSep 26, Caleb Lee: Luzimiex is scheduled to launch Nov 30.\nOct 2, Wes Silva: Heads up, Sofifaren is slipping to Nov 17.\nOct 7, Caleb Lee: Vendor says Zestuex now targets Nov 28.\nOct 24, Nina Walsh: Changing Vititrixa launch date to Nov 20.\nSep 13, Mateo Brooks: Leredrir launch set to Nov 8.\nSep 17, Caleb Lee: Setting Razudunia launch date to Nov 18.\nSep 20, Bianca Ortiz: Hearing that Bosia will launch Nov 30 instead.\nSep 24, Bianca Ortiz: Setting Sofifaren launch date to Nov 25.\nSep 13, Kofi Ueda: Kridumas is scheduled to launch Dec 13.\nOct 8, Umar Eriksen: Hearing that Nathu will launch Nov 13 instead.\nSep 17, Kofi Ueda: Setting Mobrutol launch date to Dec 15.\nOct 3, Omar Rahman: Updating Moste to Nov 20 per vendor call.\nSep 21, Caleb Lee: Thapoen is scheduled to launch Nov 12.\nSep 20, Mateo Brooks: Updating Bosi to Dec 18 per vendor call.\nSep 20, Nina Walsh: Setting Gedoxis launch date to Dec 1.\nSep 26, Dana Varga: Dranevox launch moved to Nov 7.\nSep 12, Caleb Lee: Setting Trifigenis launch date to Nov 4.\nOct 18, Caleb Lee: Kugeon launch confirmed for Nov 9.\nOct 10, Nina Walsh: Hearing that Kugosturon will launch Nov 15 instead.\nSep 20, Gavin Tanaka: Setting Gemo launch date to Dec 13.\nOct 22, Yusuf Lindqvist: Hearing that Vuve will launch Dec 14 instead.\nSep 29, Dana Varga: Updating Feruzos to Dec 4 per vendor call.\nSep 28, Caleb Lee: Updating Torasex to Nov 14 per vendor call.\nSep 9, Gavin Tanaka: Setting Lithol launch date to Nov 14.\nOct 9, Yusuf Lindqvist: Hearing that Berun will launch Dec 12 as planned.\nOct 13, Nina Walsh: Razudunis launch confirmed for Dec 8.\nSep 9, Bianca Ortiz: Fustunexo launch set to Nov 3.\nOct 17, Tom Xu: Vendor says Kuge now targets Dec 3.\nSep 26, Mateo Brooks: Davin is scheduled to launch Nov 9.\nOct 17, Ivan Haddad: Hearing that Thepugu will launch Dec 4 instead.\nOct 26, Nina Walsh: Confirming Fustunexo launch date of Nov 4.\nSep 23, Esme Ruiz: Bosi launch moved to Nov 13.\nOct 20, Nina Walsh: Updating Sikrora to Nov 12 per vendor call.\nOct 18, Yusuf Lindqvist: I think Trivor moves to Nov 18, can someone confirm?\nSep 23, Nina Walsh: Updating Torason to Nov 14 per vendor call.\nSep 9, Nina Walsh: Tibadraris is scheduled to launch Nov 5.\nSep 8, Mateo Brooks: Midrur launch set to Dec 11.\nOct 23, Yusuf Lindqvist: I think Moste moves to Nov 19, can someone confirm?\nSep 22, Gavin Tanaka: Moku is scheduled to launch Nov 18.\nOct 3, Omar Rahman: Trazi launch moved to Nov 12.\nOct 19, Esme Ruiz: Changing Krolen launch date to Nov 21.\n\nTICKET EXPORT\nSep 16, Caleb Lee: Gelasa is scheduled to launch Nov 6.\nSep 13, Wes Silva: Setting Kruruxon launch date to Dec 8.\nSep 7, Wes Silva: Torasis is scheduled to launch Nov 11.\nOct 25, Wes Silva: Krogiis now launches Dec 13.\nSep 5, Nina Walsh: Zifixo is scheduled to launch Nov 12.\nSep 11, Omar Rahman: Trivor now launches Nov 19.\nSep 15, Wes Silva: Setting Dimunao launch date to Nov 4.\nSep 26, Nina Walsh: Sikroia is scheduled to launch Nov 19.\nOct 18, Omar Rahman: Gelas launch set to Nov 7.\nSep 22, Wes Silva: Gedoxis launch moved to Dec 12.\nSep 21, Omar Rahman: Updating Balon to Dec 15 per vendor call.\nSep 11, Gavin Tanaka: Setting Kamaso launch date to Nov 25.\nOct 29, Jade Bauer: I think Thovi moves to Dec 7, can someone confirm?\nOct 10, Bianca Ortiz: Razudunia now launches Nov 24.\nOct 9, Nina Walsh: Lethuex launch set to Nov 14.\nSep 30, Wes Silva: Updating Zathiren to Nov 16 per vendor call.\nSep 20, Kofi Ueda: Please disregard the Sep 17 change to Kuge.\nSep 21, Gavin Tanaka: Berun launch set to Dec 12.\nSep 16, Farah Petrov: Updating Thothan to Nov 25 per vendor call.\nOct 8, Nina Walsh: Changing Razudunia launch date to Nov 23.\nSep 30, Kofi Ueda: Setting Sikro launch date to Dec 3.\nSep 19, Wes Silva: Setting Nuladruxia launch date to Nov 29.\nOct 12, Bianca Ortiz: I think Rurora moves to Nov 18, can someone confirm?\nSep 14, Farah Petrov: Leredrir now launches Dec 5.\nOct 23, Bianca Ortiz: Borina launch set to Nov 27.\nOct 30, Esme Ruiz: Retracting the Oct 29 change to Sino.\nSep 17, Caleb Lee: Litholon launch confirmed for Nov 21.\nSep 10, Wes Silva: Zathirra launch set to Nov 24.\nSep 2, Kofi Ueda: Setting Fekrekis launch date to Nov 15.\nSep 15, Kofi Ueda: Zifix is scheduled to launch Nov 11.\nOct 24, Caleb Lee: Hearing that Nefodaia will launch Nov 13 instead.\nOct 24, Nina Walsh: Setting Nathuex launch date to Dec 15.\nSep 21, Esme Ruiz: Ladrakre now launches Dec 2.\nSep 28, Bianca Ortiz: Setting Zathiro launch date to Nov 29.\nSep 8, Caleb Lee: Bitaterex is scheduled to launch Nov 3.\nOct 23, Ben Quintero: Retracting the Oct 21 change to Kinatix.\nSep 8, Kofi Ueda: Updating Ladrakre to Nov 5 per vendor call.\nOct 28, Bianca Ortiz: Vuveon launch moved to Nov 9.\nSep 26, Bianca Ortiz: Setting Mofaria launch date to Dec 8.\nOct 3, Dana Varga: Moku launch moved to Dec 11.\nOct 15, Bianca Ortiz: Zovepison launch set to Nov 16.\nOct 29, Wes Silva: Changing Fustunexex launch date to Nov 6.\nSep 24, Esme Ruiz: Krutan launch moved to Dec 11.\nOct 18, Marcus Nakamura: Heads up, Luzimi is on track for Dec 11.\nOct 26, Ben Quintero: Gestitra launch set to Dec 10.\nOct 13, Bianca Ortiz: Confirming Sikroia launch date of Nov 19.\nOct 12, Bianca Ortiz: Krogiis is scheduled to launch Nov 11.\nSep 11, Gavin Tanaka: Withdrawing the Sep 7 update to Zovepis; it was entered in error.\nOct 15, Ben Quintero: Vokax launch confirmed for Dec 9.\nOct 3, Esme Ruiz: Staven now launches Dec 9.\nOct 29, Caleb Lee: Razudunen launch moved to Nov 7.\nSep 25, Mateo Brooks: Setting Vime launch date to Dec 2.\nOct 21, Omar Rahman: Updating Kinatix to Nov 17 per vendor call.\nSep 13, Wes Silva: Confirming Litholia launch date of Nov 26.\nSep 8, Wes Silva: Trazia launch set to Nov 12.\nSep 5, Bianca Ortiz: Fustunexra launch set to Dec 2.\nSep 28, Wes Silva: Updating Vimeon to Nov 16 per vendor call.\nSep 26, Bianca Ortiz: Vendor says Vokaxon now targets Nov 18.\nOct 11, Bianca Ortiz: Mokuia is scheduled to launch Nov 18.\nSep 21, Mateo Brooks: Luzimi launch set to Dec 11.\nSep 3, Caleb Lee: Litholia launch set to Nov 21.\nOct 4, Ximena Ivanova: Withdrawing the Oct 3 update to Moste; it was entered in error.\nOct 26, Nina Walsh: Trifigenis now launches Nov 23.\nSep 25, Omar Rahman: Drusanis launch moved to Nov 4.\nOct 17, Esme Ruiz: Setting Pida launch date to Dec 11.\nSep 30, Ximena Ivanova: Updating Kuge to Dec 11 per vendor call.\nOct 27, Nina Walsh: Updating Patrulis to Dec 3 per vendor call.\nOct 23, Bianca Ortiz: Setting Godibrinia launch date to Nov 19.\nOct 8, Esme Ruiz: Luzimi launch confirmed for Dec 11.\nOct 3, Dana Varga: Updating Vinevi to Dec 14 per vendor call.\nSep 17, Nina Walsh: Razuduna is scheduled to launch Nov 27.\nSep 10, Mateo Brooks: Semu launch set to Nov 9.\nOct 2, Caleb Lee: Updating Balonra to Dec 12 per vendor call.\nOct 5, Ben Quintero: Ketobron launch confirmed for Nov 19.\nOct 16, Wes Silva: Vendor says Kugeon now targets Dec 19.\nSep 24, Mateo Brooks: Razudun launch set to Nov 6.\nSep 16, Kofi Ueda: Zathir is scheduled to launch Dec 17.\nSep 18, Bianca Ortiz: Vuveon launch set to Nov 8.\nSep 6, Caleb Lee: Berunia launch set to Dec 2.\nSep 19, Farah Petrov: Updating Balon to Nov 22 per vendor call.\nOct 26, Nina Walsh: Gudrusen is scheduled to launch Nov 30.\nSep 15, Wes Silva: Bosia launch set to Dec 14.\nOct 26, Bianca Ortiz: Setting Ritilo launch date to Nov 6.\nOct 24, Ben Quintero: Retracting the Oct 19 change to Krolen.\nOct 21, Dana Varga: Changing Gedox launch date to Nov 21.\nOct 11, Esme Ruiz: Setting Trosex launch date to Dec 8.\nOct 23, Ben Quintero: Retracting the Oct 11 change to Gemo.\nSep 15, Wes Silva: Vizoo is scheduled to launch Nov 12.\nOct 27, Umar Eriksen: Hearing that Legix will launch Nov 20 instead.\nSep 18, Caleb Lee: Vineviia is scheduled to launch Nov 28.\nSep 27, Wes Silva: I think Zathiren moves to Dec 4, can someone confirm?\nSep 7, Farah Petrov: Krothen launch moved to Nov 5.\nOct 4, Ben Quintero: Confirming Sofifar launch date of Nov 21.\nSep 8, Caleb Lee: Fekrekisis launch moved to Dec 5.\nSep 21, Gavin Tanaka: Withdrawing the Sep 20 update to Legix; it was entered in error.\nOct 23, Umar Eriksen: Heads up, Rudida is on track for Nov 9.\nOct 30, Bianca Ortiz: Pufonis launch set to Dec 14.\nSep 7, Farah Petrov: Vuve launch set to Dec 3.\nOct 21, Caleb Lee: Zathiro now launches Nov 26.\nSep 23, Nina Walsh: Gelasen launch set to Nov 4.\nOct 10, Wes Silva: Zifixra is scheduled to launch Dec 2.\nOct 3, Omar Rahman: Nuladrux launch set to Nov 20.\nSep 4, Wes Silva: Setting Kugeon launch date to Dec 13.\nOct 17, Wes Silva: I think Sikroia moves to Dec 12, can someone confirm?\nOct 28, Umar Eriksen: Heads up, Tropas is on track for Nov 14.\nOct 31, Caleb Lee: Confirming Gemora launch date of Dec 7.\nOct 31, Nina Walsh: Updating Vimeon to Dec 1 per vendor call.\nSep 29, Mateo Brooks: Femes launch set to Dec 15.\nSep 8, Caleb Lee: Setting Torasex launch date to Nov 15.\nSep 23, Caleb Lee: Setting Vimeon launch date to Dec 15.\nSep 17, Farah Petrov: Kugibu now launches Nov 3.\nSep 18, Wes Silva: Vendor says Fustunexra now targets Dec 18.\nSep 22, Nina Walsh: Vendor says Fustunexa now targets Nov 30.\nOct 6, Dana Varga: Updating Molurar to Nov 13 per vendor call.\nSep 26, Farah Petrov: Konepar now launches Nov 28.\nSep 25, Nina Walsh: Kridumasa launch set to Nov 21.\nOct 6, Tom Xu: Vendor says Bitater still targets Dec 4.\nOct 6, Bianca Ortiz: Krutania launch set to Nov 15.\nOct 6, Bianca Ortiz: Heads up, Krolenex is slipping to Dec 19.\nOct 11, Marcus Nakamura: I think Patrul moves to Nov 28, can someone confirm?\nSep 2, Kofi Ueda: Zutral is scheduled to launch Nov 12.\nSep 24, Gavin Tanaka: Tropas launch set to Nov 14.\nSep 19, Gavin Tanaka: Thapo launch moved to Dec 1.\nOct 18, Bianca Ortiz: Vendor says Razudunis now targets Nov 25.\nSep 22, Bianca Ortiz: Krolenex is scheduled to launch Nov 4.\nSep 7, Caleb Lee: Heads up, Trazio is slipping to Nov 21.\nOct 27, Nina Walsh: Heads up, Sofifaro is slipping to Dec 9.\nSep 29, Bianca Ortiz: Vititrixia is scheduled to launch Nov 10.\nOct 17, Wes Silva: Setting Patrulex launch date to Nov 18.\nSep 28, Caleb Lee: Vimeex is scheduled to launch Dec 4.\nOct 9, Nina Walsh: Thothana launch confirmed for Dec 19.\nOct 30, Tom Xu: Vendor says Godibrin now targets Dec 6.\nSep 14, Mateo Brooks: Kuge launch set to Nov 22.\nSep 16, Bianca Ortiz: Setting Pidaen launch date to Nov 14.\nSep 29, Nina Walsh: Patrulis launch confirmed for Nov 14.\nOct 7, Umar Eriksen: Hearing that Davin will launch Nov 30 instead.\nSep 10, Bianca Ortiz: Setting Zathiren launch date to Dec 17.\nOct 27, Yusuf Lindqvist: I think Ladrakre moves to Dec 8, can someone confirm?\nOct 9, Wes Silva: Heads up, Bitatero is slipping to Nov 8.\nSep 24, Caleb Lee: Confirming Rudidara launch date of Dec 5.\nSep 24, Farah Petrov: Setting Kikros launch date to Nov 29.\nOct 17, Hana Dubois: Heads up, Stipuvon is slipping to Dec 16.\nSep 30, Esme Ruiz: Updating Puzinu to Dec 1 per vendor call.\nOct 15, Marcus Nakamura: Heads up, Kikros is slipping to Nov 25.\nSep 19, Kofi Ueda: Krolen is scheduled to launch Nov 22.\nOct 8, Omar Rahman: Setting Dimuna launch date to Nov 12.\nSep 15, Caleb Lee: Rodora launch set to Nov 30.\nOct 25, Wes Silva: Heads up, Thothana is slipping to Dec 8.\nSep 21, Caleb Lee: I think Zovepisa moves to Dec 2, can someone confirm?\nSep 26, Bianca Ortiz: Mofarra launch confirmed for Dec 9.\nOct 31, Jade Bauer: Hearing that Kugostur will launch Nov 18 instead.\nOct 18, Ben Quintero: Setting Mogar launch date to Nov 8.\nOct 13, Dana Varga: Thapo launch moved to Nov 15.\nOct 20, Caleb Lee: Setting Ketobronex launch date to Nov 30.\nSep 30, Wes Silva: Godibrinis is scheduled to launch Dec 8.\nOct 28, Bianca Ortiz: Vendor says Vizoo now targets Nov 25.\nOct 23, Wes Silva: Setting Thapoex launch date to Nov 18.\nSep 14, Caleb Lee: Nuladruxon is scheduled to launch Dec 9.\nOct 1, Ivan Haddad: Heads up, Zifix is slipping to Dec 19.\nOct 4, Nina Walsh: Setting Vinevion launch date to Nov 7.\nOct 7, Ximena Ivanova: Gudrus launch set to Nov 3.\nSep 12, Nina Walsh: Setting Sipinis launch date to Nov 11.\nOct 9, Caleb Lee: Hearing that Torason will launch Dec 13 instead.\nSep 23, Caleb Lee: Setting Kikrosis launch date to Nov 6.\nOct 18, Caleb Lee: Changing Trazio launch date to Nov 9.",
+ "consistent": "POLICY MEMO - Sep 1\nLaunch dates for Atlas program projects are set by the Program Office. Messages from Engineering or Vendor Relations are informational and never change a launch date. A record counts only if its author's office held this authority on the date the record was issued. A later authorized record replaces earlier ones. A retraction restores the value that the retracted record replaced.\n\nPOLICY UPDATE - Oct 1\nEffective today, the Release Board sets Atlas launch dates in place of the Program Office. Dates the Program Office set before today stay in effect until the Release Board changes them.\n\nSTAFF DIRECTORY\nXimena Ivanova - Release Board\nOmar Rahman - Release Board\nTom Xu - Vendor Relations\nBianca Ortiz - Helios Program Office\nGavin Tanaka - Program Office\nJade Bauer - Engineering\nIvan Haddad - Engineering\nWes Silva - Helios Program Office\nMarcus Nakamura - Engineering\nMateo Brooks - Program Office\nKofi Ueda - Program Office\nUmar Eriksen - Vendor Relations\nEsme Ruiz - Engineering until Oct 4; Release Board from Oct 5\nDana Varga - Release Board\nCaleb Lee - Helios Program Office\nFarah Petrov - Program Office\nBen Quintero - Release Board\nYusuf Lindqvist - Engineering\nNina Walsh - Helios Program Office\nHana Dubois - Vendor Relations\n\nATLAS PROJECT ROSTER\nTrustax - budget $5.8M\nVizo - budget $2.4M\nKrutan - budget $4.5M\nKrurux - budget $5.7M\nSino - budget $4.8M\nMidrur - budget $5.4M\nBosi - budget $5.0M\nKrolen - budget $4.3M\nBerun - budget $1.5M\nBalon - budget $4.3M\nPida - budget $4.5M\nStaven - budget $4.9M\nKotri - budget $5.0M\nFemes - budget $1.1M\nVime - budget $2.5M\nGemo - budget $5.7M\nDrusanis - budget $5.6M\nSikro - budget $5.1M\nFustunex - budget $4.9M\nThovi - budget $3.7M\nRudida - budget $2.7M\nDranevox - budget $4.1M\nLegix - budget $5.9M\nTropas - budget $4.0M\nThothan - budget $3.7M\nDropurus - budget $4.3M\nFekrekis - budget $1.5M\nMoku - budget $5.4M\nLithol - budget $4.5M\nSofifar - budget $4.5M\nMogar - budget $1.1M\nKrogi - budget $6.0M\nVititrix - budget $5.8M\nKugibu - budget $5.7M\nKinatix - budget $5.1M\nNuladrux - budget $4.8M\nZutral - budget $4.7M\nZestu - budget $1.5M\nKetobron - budget $3.0M\nTrosex - budget $2.2M\nFopidrul - budget $3.2M\nSipin - budget $3.1M\nVinevi - budget $4.4M\nLethu - budget $1.8M\nZifix - budget $5.1M\nKraval - budget $5.6M\nTibadrar - budget $1.8M\nPuzinu - budget $5.3M\nZathir - budget $3.3M\nVuve - budget $4.4M\nMoste - budget $4.1M\nThapo - budget $4.1M\nVokax - budget $3.9M\nMobrutol - budget $3.7M\nGodibrin - budget $5.7M\nBorin - budget $3.7M\nTrutro - budget $4.8M\nNefoda - budget $4.3M\nLadrakre - budget $5.7M\nRazudun - budget $2.8M\nMikrutru - budget $5.3M\nTrazi - budget $4.6M\nKuge - budget $4.0M\nBrotibra - budget $2.6M\nKakrar - budget $6.0M\nKugostur - budget $6.0M\nTrifigen - budget $4.1M\nNathu - budget $4.6M\nStipuvon - budget $4.1M\nMolurar - budget $4.0M\nLeredrir - budget $3.7M\nBitater - budget $4.0M\nSemu - budget $5.8M\nFeruzos - budget $4.6M\nZovepis - budget $5.6M\nLolun - budget $3.6M\nToras - budget $5.8M\nKridumas - budget $4.4M\nThinin - budget $3.1M\nMofar - budget $4.8M\nKonepar - budget $3.7M\nGelas - budget $5.2M\nRuror - budget $3.0M\nThepugu - budget $4.4M\nDavin - budget $5.3M\nPatrul - budget $5.3M\nGedox - budget $4.0M\nGudrus - budget $3.6M\nGestitra - budget $5.6M\nKrothen - budget $4.1M\nDimuna - budget $5.7M\nRodo - budget $4.7M\nThibru - budget $6.0M\nKikros - budget $5.7M\nTrivor - budget $4.1M\nDimen - budget $4.2M\nRitil - budget $2.0M\nPufon - budget $4.7M\nKamaso - budget $3.9M\nLuzimi - budget $2.8M\n\nDATABASE CHANGELOG\nOct 6, Ben Quintero: Tibadrar launch set to Nov 17.\nOct 4, Caleb Lee: Hearing that Nefodaon will launch Nov 29 instead.\nSep 28, Caleb Lee: Confirming Fustunexo launch date of Dec 12.\nSep 14, Nina Walsh: Setting Zovepisa launch date to Dec 9.\nSep 3, Farah Petrov: Stipuvon is scheduled to launch Nov 3.\nOct 8, Nina Walsh: Mofarex launch set to Nov 11.\nOct 12, Esme Ruiz: Setting Ruror launch date to Nov 8.\nSep 3, Nina Walsh: Kugosturen is scheduled to launch Dec 14.\nSep 2, Nina Walsh: Ladrakreo launch set to Nov 21.\nSep 22, Farah Petrov: Krogi launch set to Nov 5.\nSep 25, Wes Silva: Nefodaia launch confirmed for Nov 19.\nSep 17, Kofi Ueda: Confirming Legix launch date of Dec 2.\nSep 10, Farah Petrov: Setting Vinevi launch date to Dec 14.\nSep 24, Caleb Lee: Changing Mosteex launch date to Nov 6.\nSep 20, Nina Walsh: Setting Rudidara launch date to Dec 16.\nOct 28, Ben Quintero: Confirming Lethu launch date of Dec 15.\nSep 26, Ben Quintero: Keeping Leredrir at Dec 5 per vendor call.\nSep 11, Bianca Ortiz: Balonra launch set to Nov 26.\nOct 8, Omar Rahman: Sipin launch set to Nov 19.\nOct 30, Caleb Lee: Zestuis launch set to Dec 14.\nSep 19, Farah Petrov: Leredrir still launches Dec 5.\nSep 3, Gavin Tanaka: Thothan launch set to Dec 18.\nSep 12, Mateo Brooks: Lolun launch set to Nov 29.\nSep 27, Farah Petrov: Setting Staven launch date to Nov 17.\nSep 9, Farah Petrov: Krutan launch confirmed for Nov 8.\nSep 17, Wes Silva: Changing Kruruxon launch date to Dec 18.\nSep 29, Esme Ruiz: Krothen still launches Nov 5.\nOct 10, Caleb Lee: Kotriis launch set to Nov 14.\nSep 29, Farah Petrov: Bitater is scheduled to launch Dec 4.\nOct 8, Caleb Lee: Confirming Fustunexex launch date of Dec 5.\nSep 28, Caleb Lee: Tropasis launch set to Nov 24.\nOct 30, Omar Rahman: Confirming Gestitra launch date of Nov 23.\nSep 3, Gavin Tanaka: Molurar launch set to Dec 6.\nOct 23, Esme Ruiz: Reaffirming Gedox at Dec 10; the Oct 21 entry was checked.\nSep 27, Farah Petrov: Thovi launch set to Nov 5.\nSep 2, Nina Walsh: Trazira launch set to Nov 30.\nSep 27, Bianca Ortiz: Nefodaon launch set to Nov 18.\nSep 3, Farah Petrov: Setting Krutan launch date to Nov 8.\nOct 25, Dana Varga: Setting Vizo launch date to Nov 3.\nOct 20, Bianca Ortiz: Trustaxis now launches Nov 27.\nSep 30, Ximena Ivanova: Keeping Kugibu at Dec 11 per vendor call.\nOct 26, Wes Silva: Vendor says Tibadraris now targets Dec 3.\nOct 21, Dana Varga: Confirming Pida launch date of Dec 11.\nOct 12, Wes Silva: Confirming Trifigenia launch date of Nov 28.\nSep 16, Gavin Tanaka: Confirming Krothen launch date of Nov 5.\nSep 16, Gavin Tanaka: Setting Dranevox launch date to Dec 9.\nSep 24, Ximena Ivanova: Vuve still launches Nov 9.\nOct 15, Caleb Lee: Feruzosa launch set to Nov 30.\nSep 23, Nina Walsh: Confirming Rurora launch date of Nov 30.\nSep 18, Mateo Brooks: Reaffirming Thothan at Dec 18; the Sep 16 entry was checked.\nOct 4, Ben Quintero: Keeping Mikrutru at Nov 28 per vendor call.\nSep 10, Nina Walsh: Koneparon launch set to Nov 12.\nSep 3, Bianca Ortiz: Patrula is scheduled to launch Dec 12.\nSep 22, Dana Varga: Keeping Midrur at Dec 11 per vendor call.\nSep 5, Kofi Ueda: Ladrakre launch set to Nov 5.\nSep 8, Kofi Ueda: Setting Drusanis launch date to Dec 16.\nSep 24, Kofi Ueda: Kraval is scheduled to launch Dec 14.\nOct 2, Ben Quintero: Lolun still launches Nov 29.\nOct 1, Ben Quintero: Trutro launch confirmed for Dec 7.\nOct 25, Caleb Lee: Koneparon now launches Nov 29.\nOct 3, Dana Varga: Setting Sino launch date to Nov 8.\nOct 12, Nina Walsh: Gelasia launch confirmed for Nov 21.\nOct 19, Bianca Ortiz: Ladrakreo launch confirmed for Nov 17.\nSep 29, Nina Walsh: Kikroso launch set to Nov 25.\nOct 13, Bianca Ortiz: Vimeex launch confirmed for Nov 23.\nOct 11, Nina Walsh: Kugosturen launch confirmed for Dec 17.\nOct 12, Wes Silva: Fekrekisex is scheduled to launch Nov 27.\nSep 17, Mateo Brooks: Kuge still launches Nov 22.\nSep 13, Kofi Ueda: Rodo launch set to Dec 7.\nOct 19, Esme Ruiz: Confirming Sikro launch date of Nov 6.\nSep 2, Kofi Ueda: Krothen is scheduled to launch Nov 5.\nOct 29, Omar Rahman: Sino still launches Nov 8.\nOct 4, Esme Ruiz: Keeping Patrul at Nov 22 per vendor call.\nOct 27, Caleb Lee: Nefodais launch moved to Dec 6.\nSep 5, Wes Silva: Trazio is scheduled to launch Nov 28.\nOct 28, Nina Walsh: Setting Gemora launch date to Nov 19.\nSep 20, Kofi Ueda: Legix launch confirmed for Dec 2.\nSep 13, Kofi Ueda: Borin launch set to Nov 15.\nSep 29, Gavin Tanaka: Lethu launch set to Dec 15.\nOct 16, Omar Rahman: Thovi still launches Nov 5.\nSep 5, Gavin Tanaka: Legix is scheduled to launch Dec 2.\nOct 8, Ben Quintero: Reaffirming Trustax at Dec 1; the Oct 1 entry was checked.\nOct 14, Wes Silva: Heads up, Kikroso is slipping to Dec 9.\nSep 20, Caleb Lee: Gelasia is scheduled to launch Nov 22.\nOct 11, Bianca Ortiz: Tropasis now launches Dec 18.\nOct 30, Dana Varga: Reaffirming Moku at Nov 18; the Oct 3 entry was checked.\nSep 28, Nina Walsh: Confirming Litholon launch date of Dec 1.\nOct 29, Ben Quintero: Please keep Kraval at Dec 14 as confirmed.\nOct 5, Caleb Lee: Trifigenia is scheduled to launch Nov 29.\nSep 4, Caleb Lee: Setting Torason launch date to Dec 1.\nSep 25, Farah Petrov: Setting Dropurus launch date to Nov 28.\nOct 21, Esme Ruiz: Nuladrux launch confirmed for Nov 20.\nOct 8, Dana Varga: Setting Pufon launch date to Dec 8.\nSep 10, Wes Silva: Setting Razudunen launch date to Nov 27.\nSep 26, Gavin Tanaka: Keeping Puzinu at Nov 15 per vendor call.\nOct 16, Caleb Lee: Updating Mofarex to Nov 17 per vendor call.\nOct 14, Omar Rahman: Confirming Ruror launch date of Nov 8.\nOct 3, Wes Silva: Updating Mogarra to Nov 11 per vendor call.\nOct 3, Ximena Ivanova: Ketobron is scheduled to launch Nov 19.\nSep 6, Farah Petrov: Zovepis launch set to Dec 12.\nSep 12, Wes Silva: Mosteex is scheduled to launch Dec 1.\nSep 20, Bianca Ortiz: Setting Gelasex launch date to Nov 30.\nSep 20, Kofi Ueda: Please keep Leredrir at Dec 5 as confirmed.\nSep 28, Wes Silva: Setting Sipinra launch date to Nov 24.\nOct 25, Wes Silva: Vendor says Zovepison now targets Dec 18.\nSep 10, Gavin Tanaka: Confirming Krutan launch date of Nov 8.\nOct 26, Caleb Lee: I think Trifigenia moves to Nov 8, can someone confirm?\nSep 14, Gavin Tanaka: Kugibu still launches Dec 11.\nSep 4, Caleb Lee: Setting Patrulis launch date to Nov 16.\nOct 17, Nina Walsh: Trazira now launches Nov 18.\nSep 29, Caleb Lee: Heads up, Puzinuis is slipping to Nov 20.\nOct 18, Esme Ruiz: Reaffirming Kamaso at Nov 25; the Oct 7 entry was checked.\nSep 6, Farah Petrov: Setting Konepar launch date to Nov 28.\nSep 6, Kofi Ueda: Rudida is scheduled to launch Nov 9.\nOct 2, Wes Silva: Changing Sipinra launch date to Nov 26.\nOct 19, Ben Quintero: Reconfirming Thapo for Dec 1 after review.\nOct 12, Esme Ruiz: Keeping Kinatix at Dec 17 per vendor call.\nSep 10, Kofi Ueda: Setting Thapo launch date to Dec 1.\nSep 26, Mateo Brooks: Setting Mikrutru launch date to Nov 28.\nSep 23, Kofi Ueda: Confirming Mobrutol launch date of Nov 20.\nOct 26, Ben Quintero: Dimuna launch confirmed for Dec 11.\nOct 1, Ximena Ivanova: Confirming Trustax launch date of Dec 1.\nSep 17, Gavin Tanaka: Reconfirming Krutan for Nov 8 after review.\nSep 23, Wes Silva: Mogarra now launches Nov 30.\nSep 3, Gavin Tanaka: Balon is scheduled to launch Nov 22.\nSep 19, Bianca Ortiz: Legixia launch set to Nov 21.\nSep 9, Caleb Lee: Fustunexex launch set to Nov 25.\nSep 5, Bianca Ortiz: Setting Fekrekisis launch date to Nov 24.\nOct 12, Bianca Ortiz: I think Zathirra moves to Nov 28, can someone confirm?\nSep 10, Mateo Brooks: Trustax is scheduled to launch Dec 1.\nSep 22, Mateo Brooks: Kakrar is scheduled to launch Nov 7.\nSep 21, Gavin Tanaka: Thepugu is scheduled to launch Nov 4.\nSep 30, Gavin Tanaka: Confirming Moste launch date of Dec 10.\nSep 3, Mateo Brooks: Sofifar is scheduled to launch Nov 21.\nOct 17, Ximena Ivanova: Keeping Kraval at Dec 14 per vendor call.\nOct 19, Nina Walsh: Hearing that Litholia will launch Dec 2 instead.\nSep 16, Nina Walsh: Vendor says Patrula now targets Nov 25.\nSep 16, Bianca Ortiz: Setting Rodoia launch date to Dec 2.\nSep 10, Gavin Tanaka: Setting Thibru launch date to Nov 13.\nOct 4, Bianca Ortiz: Sofifaro is scheduled to launch Nov 7.\nOct 26, Bianca Ortiz: Confirming Borina launch date of Nov 18.\nOct 12, Omar Rahman: Dimuna launch confirmed for Dec 11.\nSep 13, Kofi Ueda: Vititrix is scheduled to launch Dec 19.\nSep 30, Caleb Lee: Tropaso launch confirmed for Nov 17.\nOct 28, Wes Silva: Dimunao launch confirmed for Nov 4.\nSep 26, Kofi Ueda: Mofar launch set to Nov 22.\nSep 10, Farah Petrov: Bosi launch set to Dec 18.\nOct 1, Bianca Ortiz: I think Trifigenis moves to Dec 4, can someone confirm?\nOct 12, Wes Silva: I think Vizoo moves to Dec 6, can someone confirm?\nOct 4, Dana Varga: Confirming Bitater launch date of Dec 4.\nOct 11, Nina Walsh: Zifixra launch confirmed for Dec 6.\nOct 6, Dana Varga: Femes launch confirmed for Dec 15.\nOct 15, Nina Walsh: Luzimiex now launches Dec 6.\nOct 2, Wes Silva: Berunia now launches Dec 14.\nSep 5, Gavin Tanaka: Setting Kugibu launch date to Dec 11.\nOct 22, Caleb Lee: Setting Berunra launch date to Nov 3.\nSep 15, Caleb Lee: Tropaso is scheduled to launch Nov 12.\nSep 11, Nina Walsh: Razudunis is scheduled to launch Nov 12.\nSep 19, Mateo Brooks: Please keep Kugibu at Dec 11 as confirmed.\nOct 30, Omar Rahman: Please keep Pida at Dec 11 as confirmed.\nOct 8, Caleb Lee: Confirming Kikroso launch date of Dec 15.\nSep 19, Bianca Ortiz: Gelasa now launches Dec 8.\nSep 22, Bianca Ortiz: Setting Thapoo launch date to Nov 3.\nOct 31, Nina Walsh: Changing Nuladruxia launch date to Nov 30.\nSep 10, Farah Petrov: Nefoda launch set to Nov 6.\nSep 9, Mateo Brooks: Fustunex launch set to Dec 12.\nSep 11, Nina Walsh: Setting Nefodais launch date to Dec 13.\nSep 28, Omar Rahman: Kakrar still launches Nov 7.\nOct 27, Wes Silva: Tibadraris launch moved to Dec 12.\nSep 3, Mateo Brooks: Patrul is scheduled to launch Nov 22.\nOct 18, Nina Walsh: Confirming Gelasex launch date of Nov 4.\nOct 11, Ben Quintero: Keeping Gemo at Dec 13 per vendor call.\nSep 9, Farah Petrov: Kotri is scheduled to launch Nov 12.\nOct 27, Ximena Ivanova: Please keep Dimuna at Dec 11 as confirmed.\nSep 30, Kofi Ueda: Godibrin launch set to Nov 6.\nSep 25, Gavin Tanaka: Setting Ritil launch date to Nov 14.\nOct 28, Caleb Lee: Heads up, Zathiro is slipping to Nov 26.\nSep 12, Bianca Ortiz: Confirming Berunia launch date of Nov 5.\nSep 30, Nina Walsh: Hearing that Gelasex will launch Dec 12 instead.\nOct 7, Ximena Ivanova: Keeping Kamaso at Nov 25 per vendor call.\nSep 8, Bianca Ortiz: Setting Thothana launch date to Nov 13.\nSep 24, Esme Ruiz: Thibru launch confirmed for Nov 13.\nOct 18, Wes Silva: Vititrixa launch set to Dec 10.\nSep 12, Farah Petrov: Puzinu is scheduled to launch Nov 15.\nOct 1, Bianca Ortiz: Bosien launch set to Nov 28.\nSep 25, Caleb Lee: Updating Puzinuis to Nov 3 per vendor call.\nSep 21, Bianca Ortiz: Hearing that Kruruxon will launch Nov 9 instead.\nSep 29, Mateo Brooks: Confirming Krolen launch date of Dec 8.\nSep 22, Wes Silva: Rurora is scheduled to launch Dec 18.\nSep 27, Gavin Tanaka: Stipuvon still launches Nov 3.\nSep 22, Farah Petrov: Fopidrul is scheduled to launch Nov 21.\nOct 18, Esme Ruiz: Keeping Mofar at Nov 22 per vendor call.\nSep 28, Farah Petrov: Trazi launch set to Nov 12.\nOct 15, Ben Quintero: Tropas launch confirmed for Nov 14.\nOct 12, Caleb Lee: Confirming Bosia launch date of Nov 13.\nSep 7, Nina Walsh: Setting Mogarex launch date to Dec 8.\nOct 11, Omar Rahman: Thinin launch set to Dec 5.\nOct 16, Omar Rahman: Confirming Trifigen launch date of Nov 24.\nOct 22, Caleb Lee: Confirming Trazia launch date of Dec 10.\nSep 8, Kofi Ueda: Setting Trivor launch date to Dec 3.\nOct 2, Bianca Ortiz: Drusanisis launch set to Nov 14.\nOct 7, Ben Quintero: Confirming Thepugu launch date of Nov 4.\nOct 8, Nina Walsh: Setting Kridumasra launch date to Dec 2.\nSep 9, Bianca Ortiz: Litholon is scheduled to launch Dec 9.\nSep 8, Kofi Ueda: Setting Moste launch date to Dec 10.\n\nEMAIL EXPORT\nOct 20, Ben Quintero: Please keep Mofar at Nov 22 as confirmed.\nSep 6, Kofi Ueda: Zestu launch set to Dec 6.\nSep 24, Nina Walsh: Nefodaia launch set to Dec 7.\nSep 23, Dana Varga: Nefoda launch confirmed for Nov 6.\nOct 12, Wes Silva: Trustaxis is scheduled to launch Nov 14.\nSep 3, Kofi Ueda: Vokax is scheduled to launch Dec 9.\nOct 14, Nina Walsh: Heads up, Fekrekisex is slipping to Nov 19.\nOct 14, Ben Quintero: Setting Trifigen launch date to Nov 24.\nSep 9, Farah Petrov: Confirming Vuve launch date of Nov 9.\nOct 25, Caleb Lee: I think Razuduna moves to Dec 5, can someone confirm?\nSep 21, Esme Ruiz: Confirming Zovepis launch date of Dec 12.\nOct 30, Nina Walsh: Updating Torasex to Nov 22 per vendor call.\nOct 2, Caleb Lee: Puzinuo is scheduled to launch Nov 29.\nOct 24, Nina Walsh: Pidaen launch moved to Nov 18.\nSep 7, Farah Petrov: Zovepis launch confirmed for Dec 12.\nSep 29, Bianca Ortiz: Confirming Gelasa launch date of Nov 30.\nOct 16, Dana Varga: Toras launch set to Dec 7.\nSep 19, Nina Walsh: Leredrirra launch set to Nov 19.\nOct 5, Tom Xu: I think Borin stays at Nov 15, can someone confirm?\nOct 27, Dana Varga: Please keep Molurar at Dec 6 as confirmed.\nOct 3, Caleb Lee: Rudidao launch set to Dec 8.\nSep 23, Mateo Brooks: Dranevox still launches Dec 9.\nOct 4, Caleb Lee: Confirming Zathirra launch date of Nov 5.\nSep 11, Farah Petrov: Thothan still launches Dec 18.\nOct 25, Caleb Lee: Hearing that Legixia will launch Nov 25 instead.\nOct 26, Nina Walsh: Confirming Zovepison launch date of Nov 29.\nOct 17, Ben Quintero: Setting Krurux launch date to Nov 20.\nOct 13, Nina Walsh: Vendor says Krogiis now targets Nov 29.\nSep 20, Wes Silva: Setting Fustunexa launch date to Dec 19.\nOct 27, Marcus Nakamura: Vendor says Kinatix still targets Dec 17.\nSep 18, Wes Silva: Mofarra launch set to Dec 18.\nOct 24, Hana Dubois: Heads up, Trutro is on track for Dec 7.\nOct 28, Nina Walsh: Legixia now launches Nov 28.\nSep 4, Wes Silva: Bitatero is scheduled to launch Dec 4.\nOct 29, Nina Walsh: I think Vimeex moves to Dec 17, can someone confirm?\nSep 22, Wes Silva: Trivoria is scheduled to launch Dec 13.\nOct 2, Ximena Ivanova: Setting Gedox launch date to Dec 10.\nOct 24, Wes Silva: Setting Thibruo launch date to Nov 14.\nSep 28, Farah Petrov: Reconfirming Krothen for Nov 5 after review.\nSep 28, Ben Quintero: Krogi launch confirmed for Nov 5.\nSep 27, Wes Silva: Confirming Patrula launch date of Dec 3.\nOct 29, Hana Dubois: I think Fopidrul stays at Nov 21, can someone confirm?\nOct 19, Esme Ruiz: Setting Dimen launch date to Dec 1.\nSep 27, Omar Rahman: Confirming Kotri launch date of Nov 12.\nOct 21, Bianca Ortiz: Dimunaon launch set to Dec 6.\nSep 30, Esme Ruiz: Konepar still launches Nov 28.\nSep 27, Nina Walsh: Thovien launch set to Dec 6.\nSep 2, Caleb Lee: Sikrora is scheduled to launch Dec 16.\nOct 15, Nina Walsh: Nefodaon now launches Nov 14.\nOct 22, Marcus Nakamura: Vendor says Pufon still targets Dec 8.\nSep 5, Wes Silva: Setting Puzinuis launch date to Dec 8.\nSep 22, Bianca Ortiz: Kugosturon launch set to Nov 6.\nOct 30, Hana Dubois: I think Fekrekis stays at Nov 15, can someone confirm?\nSep 2, Nina Walsh: Koneparra is scheduled to launch Dec 9.\nSep 17, Mateo Brooks: Brotibra is scheduled to launch Dec 16.\nOct 31, Marcus Nakamura: Vendor says Fustunex still targets Dec 12.\nSep 27, Bianca Ortiz: Hearing that Pidaen will launch Nov 10 instead.\nSep 10, Bianca Ortiz: Changing Ladrakreo launch date to Dec 14.\nOct 11, Ben Quintero: Kugostur is scheduled to launch Dec 2.\nSep 22, Gavin Tanaka: Kinatix launch set to Dec 17.\nSep 28, Mateo Brooks: Setting Trutro launch date to Dec 7.\nOct 1, Ivan Haddad: I think Konepar stays at Nov 28, can someone confirm?\nSep 15, Nina Walsh: Litholra launch set to Nov 11.\nOct 25, Caleb Lee: Confirming Godibrinis launch date of Dec 5.\nSep 15, Farah Petrov: Setting Nathu launch date to Dec 13.\nSep 10, Mateo Brooks: Setting Feruzos launch date to Nov 23.\nOct 6, Umar Eriksen: Hearing that Zestu will launch Dec 6 as planned.\nSep 18, Caleb Lee: Setting Zestuex launch date to Dec 14.\nSep 21, Nina Walsh: Mogarra is scheduled to launch Nov 30.\nSep 2, Caleb Lee: Setting Vokaxon launch date to Dec 8.\nOct 28, Jade Bauer: Vendor says Dimuna still targets Dec 11.\nSep 17, Caleb Lee: Hearing that Litholra will launch Nov 30 instead.\nSep 22, Ivan Haddad: Hearing that Thothan will launch Dec 18 as planned.\nOct 31, Bianca Ortiz: Updating Rudidao to Nov 10 per vendor call.\nSep 26, Caleb Lee: Luzimiex is scheduled to launch Nov 30.\nOct 2, Wes Silva: Heads up, Sofifaren is slipping to Nov 17.\nOct 7, Caleb Lee: Vendor says Zestuex now targets Nov 28.\nOct 24, Nina Walsh: Changing Vititrixa launch date to Nov 20.\nSep 13, Mateo Brooks: Leredrir launch set to Dec 5.\nSep 17, Caleb Lee: Setting Razudunia launch date to Nov 18.\nSep 20, Bianca Ortiz: Hearing that Bosia will launch Nov 30 instead.\nSep 24, Bianca Ortiz: Setting Sofifaren launch date to Nov 25.\nSep 13, Kofi Ueda: Kridumas is scheduled to launch Dec 13.\nOct 8, Umar Eriksen: Hearing that Nathu will launch Dec 13 as planned.\nSep 17, Kofi Ueda: Setting Mobrutol launch date to Nov 20.\nOct 3, Omar Rahman: Keeping Moste at Dec 10 per vendor call.\nSep 21, Caleb Lee: Thapoen is scheduled to launch Nov 12.\nSep 20, Mateo Brooks: Keeping Bosi at Dec 18 per vendor call.\nSep 20, Nina Walsh: Setting Gedoxis launch date to Dec 1.\nSep 26, Dana Varga: Dranevox launch confirmed for Dec 9.\nSep 12, Caleb Lee: Setting Trifigenis launch date to Nov 4.\nOct 18, Caleb Lee: Kugeon launch confirmed for Nov 9.\nOct 10, Nina Walsh: Hearing that Kugosturon will launch Nov 15 instead.\nSep 20, Gavin Tanaka: Setting Gemo launch date to Dec 13.\nOct 22, Yusuf Lindqvist: Hearing that Vuve will launch Nov 9 as planned.\nSep 29, Dana Varga: Keeping Feruzos at Nov 23 per vendor call.\nSep 28, Caleb Lee: Updating Torasex to Nov 14 per vendor call.\nSep 9, Gavin Tanaka: Setting Lithol launch date to Nov 14.\nOct 9, Yusuf Lindqvist: Hearing that Berun will launch Dec 12 as planned.\nOct 13, Nina Walsh: Razudunis launch confirmed for Dec 8.\nSep 9, Bianca Ortiz: Fustunexo launch set to Nov 3.\nOct 17, Tom Xu: Vendor says Kuge still targets Nov 22.\nSep 26, Mateo Brooks: Davin is scheduled to launch Nov 9.\nOct 17, Ivan Haddad: Hearing that Thepugu will launch Nov 4 as planned.\nOct 26, Nina Walsh: Confirming Fustunexo launch date of Nov 4.\nSep 23, Esme Ruiz: Bosi launch confirmed for Dec 18.\nOct 20, Nina Walsh: Updating Sikrora to Nov 12 per vendor call.\nOct 18, Yusuf Lindqvist: I think Trivor stays at Dec 3, can someone confirm?\nSep 23, Nina Walsh: Updating Torason to Nov 14 per vendor call.\nSep 9, Nina Walsh: Tibadraris is scheduled to launch Nov 5.\nSep 8, Mateo Brooks: Midrur launch set to Dec 11.\nOct 23, Yusuf Lindqvist: I think Moste stays at Dec 10, can someone confirm?\nSep 22, Gavin Tanaka: Moku is scheduled to launch Nov 18.\nOct 3, Omar Rahman: Trazi launch confirmed for Nov 12.\nOct 19, Esme Ruiz: Confirming Krolen launch date of Dec 8.\n\nTICKET EXPORT\nSep 16, Caleb Lee: Gelasa is scheduled to launch Nov 6.\nSep 13, Wes Silva: Setting Kruruxon launch date to Dec 8.\nSep 7, Wes Silva: Torasis is scheduled to launch Nov 11.\nOct 25, Wes Silva: Krogiis now launches Dec 13.\nSep 5, Nina Walsh: Zifixo is scheduled to launch Nov 12.\nSep 11, Omar Rahman: Trivor still launches Dec 3.\nSep 15, Wes Silva: Setting Dimunao launch date to Nov 4.\nSep 26, Nina Walsh: Sikroia is scheduled to launch Nov 19.\nOct 18, Omar Rahman: Gelas launch set to Nov 7.\nSep 22, Wes Silva: Gedoxis launch moved to Dec 12.\nSep 21, Omar Rahman: Keeping Balon at Nov 22 per vendor call.\nSep 11, Gavin Tanaka: Setting Kamaso launch date to Nov 25.\nOct 29, Jade Bauer: I think Thovi stays at Nov 5, can someone confirm?\nOct 10, Bianca Ortiz: Razudunia now launches Nov 24.\nOct 9, Nina Walsh: Lethuex launch set to Nov 14.\nSep 30, Wes Silva: Updating Zathiren to Nov 16 per vendor call.\nSep 20, Kofi Ueda: Please keep Kuge at Nov 22 as confirmed.\nSep 21, Gavin Tanaka: Berun launch set to Dec 12.\nSep 16, Farah Petrov: Keeping Thothan at Dec 18 per vendor call.\nOct 8, Nina Walsh: Changing Razudunia launch date to Nov 23.\nSep 30, Kofi Ueda: Setting Sikro launch date to Nov 6.\nSep 19, Wes Silva: Setting Nuladruxia launch date to Nov 29.\nOct 12, Bianca Ortiz: I think Rurora moves to Nov 18, can someone confirm?\nSep 14, Farah Petrov: Leredrir still launches Dec 5.\nOct 23, Bianca Ortiz: Borina launch set to Nov 27.\nOct 30, Esme Ruiz: Reconfirming Sino for Nov 8 after review.\nSep 17, Caleb Lee: Litholon launch confirmed for Nov 21.\nSep 10, Wes Silva: Zathirra launch set to Nov 24.\nSep 2, Kofi Ueda: Setting Fekrekis launch date to Nov 15.\nSep 15, Kofi Ueda: Zifix is scheduled to launch Nov 11.\nOct 24, Caleb Lee: Hearing that Nefodaia will launch Nov 13 instead.\nOct 24, Nina Walsh: Setting Nathuex launch date to Dec 15.\nSep 21, Esme Ruiz: Ladrakre still launches Nov 5.\nSep 28, Bianca Ortiz: Setting Zathiro launch date to Nov 29.\nSep 8, Caleb Lee: Bitaterex is scheduled to launch Nov 3.\nOct 23, Ben Quintero: Reconfirming Kinatix for Dec 17 after review.\nSep 8, Kofi Ueda: Keeping Ladrakre at Nov 5 per vendor call.\nOct 28, Bianca Ortiz: Vuveon launch moved to Nov 9.\nSep 26, Bianca Ortiz: Setting Mofaria launch date to Dec 8.\nOct 3, Dana Varga: Moku launch confirmed for Nov 18.\nOct 15, Bianca Ortiz: Zovepison launch set to Nov 16.\nOct 29, Wes Silva: Changing Fustunexex launch date to Nov 6.\nSep 24, Esme Ruiz: Krutan launch confirmed for Nov 8.\nOct 18, Marcus Nakamura: Heads up, Luzimi is on track for Dec 11.\nOct 26, Ben Quintero: Gestitra launch set to Nov 23.\nOct 13, Bianca Ortiz: Confirming Sikroia launch date of Nov 19.\nOct 12, Bianca Ortiz: Krogiis is scheduled to launch Nov 11.\nSep 11, Gavin Tanaka: Reaffirming Zovepis at Dec 12; the Sep 7 entry was checked.\nOct 15, Ben Quintero: Vokax launch confirmed for Dec 9.\nOct 3, Esme Ruiz: Staven still launches Nov 17.\nOct 29, Caleb Lee: Razudunen launch moved to Nov 7.\nSep 25, Mateo Brooks: Setting Vime launch date to Dec 2.\nOct 21, Omar Rahman: Keeping Kinatix at Dec 17 per vendor call.\nSep 13, Wes Silva: Confirming Litholia launch date of Nov 26.\nSep 8, Wes Silva: Trazia launch set to Nov 12.\nSep 5, Bianca Ortiz: Fustunexra launch set to Dec 2.\nSep 28, Wes Silva: Updating Vimeon to Nov 16 per vendor call.\nSep 26, Bianca Ortiz: Vendor says Vokaxon now targets Nov 18.\nOct 11, Bianca Ortiz: Mokuia is scheduled to launch Nov 18.\nSep 21, Mateo Brooks: Luzimi launch set to Dec 11.\nSep 3, Caleb Lee: Litholia launch set to Nov 21.\nOct 4, Ximena Ivanova: Reaffirming Moste at Dec 10; the Oct 3 entry was checked.\nOct 26, Nina Walsh: Trifigenis now launches Nov 23.\nSep 25, Omar Rahman: Drusanis launch confirmed for Dec 16.\nOct 17, Esme Ruiz: Setting Pida launch date to Dec 11.\nSep 30, Ximena Ivanova: Keeping Kuge at Nov 22 per vendor call.\nOct 27, Nina Walsh: Updating Patrulis to Dec 3 per vendor call.\nOct 23, Bianca Ortiz: Setting Godibrinia launch date to Nov 19.\nOct 8, Esme Ruiz: Luzimi launch confirmed for Dec 11.\nOct 3, Dana Varga: Keeping Vinevi at Dec 14 per vendor call.\nSep 17, Nina Walsh: Razuduna is scheduled to launch Nov 27.\nSep 10, Mateo Brooks: Semu launch set to Nov 9.\nOct 2, Caleb Lee: Updating Balonra to Dec 12 per vendor call.\nOct 5, Ben Quintero: Ketobron launch confirmed for Nov 19.\nOct 16, Wes Silva: Vendor says Kugeon now targets Dec 19.\nSep 24, Mateo Brooks: Razudun launch set to Nov 6.\nSep 16, Kofi Ueda: Zathir is scheduled to launch Dec 17.\nSep 18, Bianca Ortiz: Vuveon launch set to Nov 8.\nSep 6, Caleb Lee: Berunia launch set to Dec 2.\nSep 19, Farah Petrov: Keeping Balon at Nov 22 per vendor call.\nOct 26, Nina Walsh: Gudrusen is scheduled to launch Nov 30.\nSep 15, Wes Silva: Bosia launch set to Dec 14.\nOct 26, Bianca Ortiz: Setting Ritilo launch date to Nov 6.\nOct 24, Ben Quintero: Reconfirming Krolen for Dec 8 after review.\nOct 21, Dana Varga: Confirming Gedox launch date of Dec 10.\nOct 11, Esme Ruiz: Setting Trosex launch date to Dec 8.\nOct 23, Ben Quintero: Reconfirming Gemo for Dec 13 after review.\nSep 15, Wes Silva: Vizoo is scheduled to launch Nov 12.\nOct 27, Umar Eriksen: Hearing that Legix will launch Dec 2 as planned.\nSep 18, Caleb Lee: Vineviia is scheduled to launch Nov 28.\nSep 27, Wes Silva: I think Zathiren moves to Dec 4, can someone confirm?\nSep 7, Farah Petrov: Krothen launch confirmed for Nov 5.\nOct 4, Ben Quintero: Confirming Sofifar launch date of Nov 21.\nSep 8, Caleb Lee: Fekrekisis launch moved to Dec 5.\nSep 21, Gavin Tanaka: Reaffirming Legix at Dec 2; the Sep 20 entry was checked.\nOct 23, Umar Eriksen: Heads up, Rudida is on track for Nov 9.\nOct 30, Bianca Ortiz: Pufonis launch set to Dec 14.\nSep 7, Farah Petrov: Vuve launch set to Nov 9.\nOct 21, Caleb Lee: Zathiro now launches Nov 26.\nSep 23, Nina Walsh: Gelasen launch set to Nov 4.\nOct 10, Wes Silva: Zifixra is scheduled to launch Dec 2.\nOct 3, Omar Rahman: Nuladrux launch set to Nov 20.\nSep 4, Wes Silva: Setting Kugeon launch date to Dec 13.\nOct 17, Wes Silva: I think Sikroia moves to Dec 12, can someone confirm?\nOct 28, Umar Eriksen: Heads up, Tropas is on track for Nov 14.\nOct 31, Caleb Lee: Confirming Gemora launch date of Dec 7.\nOct 31, Nina Walsh: Updating Vimeon to Dec 1 per vendor call.\nSep 29, Mateo Brooks: Femes launch set to Dec 15.\nSep 8, Caleb Lee: Setting Torasex launch date to Nov 15.\nSep 23, Caleb Lee: Setting Vimeon launch date to Dec 15.\nSep 17, Farah Petrov: Kugibu still launches Dec 11.\nSep 18, Wes Silva: Vendor says Fustunexra now targets Dec 18.\nSep 22, Nina Walsh: Vendor says Fustunexa now targets Nov 30.\nOct 6, Dana Varga: Keeping Molurar at Dec 6 per vendor call.\nSep 26, Farah Petrov: Konepar still launches Nov 28.\nSep 25, Nina Walsh: Kridumasa launch set to Nov 21.\nOct 6, Tom Xu: Vendor says Bitater still targets Dec 4.\nOct 6, Bianca Ortiz: Krutania launch set to Nov 15.\nOct 6, Bianca Ortiz: Heads up, Krolenex is slipping to Dec 19.\nOct 11, Marcus Nakamura: I think Patrul stays at Nov 22, can someone confirm?\nSep 2, Kofi Ueda: Zutral is scheduled to launch Nov 12.\nSep 24, Gavin Tanaka: Tropas launch set to Nov 14.\nSep 19, Gavin Tanaka: Thapo launch confirmed for Dec 1.\nOct 18, Bianca Ortiz: Vendor says Razudunis now targets Nov 25.\nSep 22, Bianca Ortiz: Krolenex is scheduled to launch Nov 4.\nSep 7, Caleb Lee: Heads up, Trazio is slipping to Nov 21.\nOct 27, Nina Walsh: Heads up, Sofifaro is slipping to Dec 9.\nSep 29, Bianca Ortiz: Vititrixia is scheduled to launch Nov 10.\nOct 17, Wes Silva: Setting Patrulex launch date to Nov 18.\nSep 28, Caleb Lee: Vimeex is scheduled to launch Dec 4.\nOct 9, Nina Walsh: Thothana launch confirmed for Dec 19.\nOct 30, Tom Xu: Vendor says Godibrin still targets Nov 6.\nSep 14, Mateo Brooks: Kuge launch set to Nov 22.\nSep 16, Bianca Ortiz: Setting Pidaen launch date to Nov 14.\nSep 29, Nina Walsh: Patrulis launch confirmed for Nov 14.\nOct 7, Umar Eriksen: Hearing that Davin will launch Nov 9 as planned.\nSep 10, Bianca Ortiz: Setting Zathiren launch date to Dec 17.\nOct 27, Yusuf Lindqvist: I think Ladrakre stays at Nov 5, can someone confirm?\nOct 9, Wes Silva: Heads up, Bitatero is slipping to Nov 8.\nSep 24, Caleb Lee: Confirming Rudidara launch date of Dec 5.\nSep 24, Farah Petrov: Setting Kikros launch date to Nov 29.\nOct 17, Hana Dubois: Heads up, Stipuvon is on track for Nov 3.\nSep 30, Esme Ruiz: Keeping Puzinu at Nov 15 per vendor call.\nOct 15, Marcus Nakamura: Heads up, Kikros is on track for Nov 29.\nSep 19, Kofi Ueda: Krolen is scheduled to launch Dec 8.\nOct 8, Omar Rahman: Setting Dimuna launch date to Dec 11.\nSep 15, Caleb Lee: Rodora launch set to Nov 30.\nOct 25, Wes Silva: Heads up, Thothana is slipping to Dec 8.\nSep 21, Caleb Lee: I think Zovepisa moves to Dec 2, can someone confirm?\nSep 26, Bianca Ortiz: Mofarra launch confirmed for Dec 9.\nOct 31, Jade Bauer: Hearing that Kugostur will launch Dec 2 as planned.\nOct 18, Ben Quintero: Setting Mogar launch date to Nov 8.\nOct 13, Dana Varga: Thapo launch confirmed for Dec 1.\nOct 20, Caleb Lee: Setting Ketobronex launch date to Nov 30.\nSep 30, Wes Silva: Godibrinis is scheduled to launch Dec 8.\nOct 28, Bianca Ortiz: Vendor says Vizoo now targets Nov 25.\nOct 23, Wes Silva: Setting Thapoex launch date to Nov 18.\nSep 14, Caleb Lee: Nuladruxon is scheduled to launch Dec 9.\nOct 1, Ivan Haddad: Heads up, Zifix is on track for Nov 11.\nOct 4, Nina Walsh: Setting Vinevion launch date to Nov 7.\nOct 7, Ximena Ivanova: Gudrus launch set to Nov 3.\nSep 12, Nina Walsh: Setting Sipinis launch date to Nov 11.\nOct 9, Caleb Lee: Hearing that Torason will launch Dec 13 instead.\nSep 23, Caleb Lee: Setting Kikrosis launch date to Nov 6.\nOct 18, Caleb Lee: Changing Trazio launch date to Nov 9."
+}

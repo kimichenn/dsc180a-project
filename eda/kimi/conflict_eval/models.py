@@ -25,6 +25,8 @@ class ModelConfig:
     reasoning: str | None = None  # provider-specific effort / thinking level
     temperature: float | None = None  # None = provider default
     max_output_tokens: int = 16000
+    input_price: float | None = None  # USD per 1M tokens, for cost estimates
+    output_price: float | None = None
 
     def record(self) -> dict:
         return {
@@ -120,7 +122,9 @@ class AnthropicClient:
             request["output_config"] = {"effort": c.reasoning}
         if c.temperature is not None:
             request["extra_body"] = {"temperature": c.temperature}  # rejected by Claude Opus 5.5
-        response = self._client.messages.create(**request)
+        # Streaming keeps long outputs (large max_tokens) under the SDK's request timeout.
+        with self._client.messages.stream(**request) as stream:
+            response = stream.get_final_message()
         text = "".join(block.text for block in response.content if block.type == "text")
         return Completion(text, response.stop_reason, response.model, _as_dict(response.usage))
 
