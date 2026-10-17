@@ -1,7 +1,7 @@
 # Diagnostic small models (proposal: "Smaller models" after a ceiling result).
 # Results from these do not count as evidence for the frontier-model question.
 # Same reasoning level as the frontier runs, so the only change is model size.
-# Run with: python -m conflict_eval run stage0 --models-config config/small_models.toml
+# Run with: python -m conflict_eval run stage0 --models-config config/v3_small_models.toml
 
 [gpt-small]
 provider = "openai"

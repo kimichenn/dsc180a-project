@@ -1,0 +1,57 @@
+== Coverage ==
+break phase, profile P0: 240 calls, 4 models, N 20, 50, 100, 200, 400, 800
+reruns for a missing ANSWER line: 2  |  format failures: 0  |  truncated: 5 (past the output limit: 5)  |  used a tool: 0
+tokens: 2,120,903 in, 647,257 out  |  harness: 2.1.283 (Claude Code), codex-cli 0.162.0-alpha.17.2
+
+== Accuracy (correct/calls, accuracy, Wilson 95% interval); format failures and truncations count as wrong ==
+n                                      20                   50                   100                  200                  400                  800
+model        version                                                                                                                               
+gpt          conflict  5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]
+             control   5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]   3/5  60% [23%-88%]
+claude       conflict  5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]   4/5  80% [38%-96%]  5/5 100% [57%-100%]
+             control   5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]
+gpt-small    conflict   4/5  80% [38%-96%]   3/5  60% [23%-88%]    0/5   0% [0%-43%]    0/5   0% [0%-43%]    0/5   0% [0%-43%]    0/5   0% [0%-43%]
+             control    4/5  80% [38%-96%]   2/5  40% [12%-77%]    0/5   0% [0%-43%]    1/5  20% [4%-62%]    1/5  20% [4%-62%]    0/5   0% [0%-43%]
+claude-small conflict  5/5 100% [57%-100%]  5/5 100% [57%-100%]   4/5  80% [38%-96%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]    0/5   0% [0%-43%]
+             control   5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]  5/5 100% [57%-100%]   4/5  80% [38%-96%]
+
+== Conflict - control accuracy (points) ==
+n            20   50   100  200  400  800
+model                                    
+gpt           +0   +0   +0   +0   +0  +40
+claude        +0   +0   +0   +0  -20   +0
+gpt-small     +0  +20   +0  -20  -20   +0
+claude-small  +0   +0  -20   +0   +0  -80
+
+== Break points (smallest N with accuracy <= 50%) ==
+  gpt           conflict  none   control  none
+  claude        conflict  none   control  none
+  gpt-small     conflict   100   control    50
+  claude-small  conflict   800   control  none
+
+== Error categories (calls per category; the first matching lure wins) ==
+category               correct  ignore_nested  missed_one_update  other  format_failure  truncated
+model        version                                                                              
+gpt          conflict       30              0                  0      0               0          0
+             control        28              0                  2      0               0          0
+claude       conflict       29              0                  1      0               0          0
+             control        30              0                  0      0               0          0
+gpt-small    conflict        7              1                  5     17               0          0
+             control         8              0                  3     19               0          0
+claude-small conflict       24              1                  0      0               0          5
+             control        29              0                  1      0               0          0
+
+== Responses past the output limit (scored as truncated) ==
+  n800_seed3|conflict|none|claude-small: 53,773 output tokens, answer would score as other
+  n800_seed5|conflict|none|claude-small: 57,391 output tokens, answer would score as other
+  n800_seed4|conflict|none|claude-small: 59,612 output tokens, answer would score as correct
+  n800_seed1|conflict|none|claude-small: 60,243 output tokens, answer would score as missed_one_update
+  n800_seed2|conflict|none|claude-small: 95,149 output tokens, answer would score as other
+
+== Decision ==
+FLAG gpt-small: control breaks at N=50, no later than conflict (100). Length and tracking, not conflict, explain this model's drop.
+
+gpt, claude stay above 50% conflict accuracy at N=800 under P0.
+Escalate to P1 (withdraw_ref=description). N=1600 fits every flagship's context window, so it is added. The small models already have break points, so only the flagships run:
+  python -m chain run break --profile P1 --models gpt claude --levels 20 50 100 200 400 800 1600 --out results/v5/break_P1
+

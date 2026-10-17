@@ -11,19 +11,16 @@ from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
-from conflict_eval.models import ModelClient, ModelConfig
-from conflict_eval.runner import FatalModelError, generate_with_retries, git_commit
 from eventlog.checks import check_log
 from eventlog.dials import SEEDS, Dials, stage_settings
 from eventlog.generator import Log, generate
 from eventlog.prompts import INSTRUCTIONS, build_prompt
 from eventlog.scoring import parse_answer
+from harness.calls import FatalModelError, generate_with_retries
+from harness.models import ModelClient, ModelConfig
+from harness.runs import CHARS_PER_TOKEN, RESPONSES_FILE, load_responses, token_counts
 
-RESPONSES_FILE = "responses.jsonl"
-MANIFEST_FILE = "manifest.json"
 LOGS_DIR = "logs"
-# Measured on the Stage A logs: the made-up project names split into many tokens, most of all for Claude.
-CHARS_PER_TOKEN = {"openai": 3.0, "anthropic": 1.8, "google": 2.8}
 
 
 @dataclass(frozen=True)
@@ -82,30 +79,6 @@ def save_logs(run_dir: Path, logs: dict[str, Log]) -> None:
 def load_log_files(run_dir: Path) -> dict[str, dict]:
     folder = Path(run_dir) / LOGS_DIR
     return {path.stem: json.loads(path.read_text()) for path in sorted(folder.glob("*.json"))}
-
-
-def read_rows(run_dir: Path) -> list[dict]:
-    path = Path(run_dir) / RESPONSES_FILE
-    if not path.exists():
-        return []
-    return [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
-
-
-def load_responses(run_dir: Path) -> list[dict]:
-    """The latest successful response per job."""
-    latest = {}
-    for row in read_rows(run_dir):
-        if row.get("error") is None:
-            latest[row["job_id"]] = row
-    return list(latest.values())
-
-
-def token_counts(usage: dict) -> tuple[int, int]:
-    """(input, output) tokens from any provider's usage block; output includes reasoning tokens."""
-    if "prompt_token_count" in usage:  # Gemini
-        output = (usage.get("candidates_token_count") or 0) + (usage.get("thoughts_token_count") or 0)
-        return usage.get("prompt_token_count") or 0, output
-    return usage.get("input_tokens") or 0, usage.get("output_tokens") or 0
 
 
 def estimate_cost(jobs: list[Job], logs: dict[str, Log], configs: dict[str, ModelConfig], response_format: str, output_tokens: int) -> list[dict]:
@@ -197,27 +170,3 @@ def _execute(job: Job, client: ModelClient, log_file: dict, response_format: str
         timestamp=datetime.now(timezone.utc).isoformat(timespec="seconds"),
     )
     return row
-
-
-def write_manifest(run_dir: Path, fixed: dict) -> dict:
-    """Record the run controls; refuse to mix two different plans in one run directory."""
-    run_dir = Path(run_dir)
-    run_dir.mkdir(parents=True, exist_ok=True)
-    path = run_dir / MANIFEST_FILE
-    fixed = json.loads(json.dumps(fixed))
-    now = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    if path.exists():
-        manifest = json.loads(path.read_text())
-        for key, value in fixed.items():
-            if manifest.get(key) != value:
-                raise ValueError(f"{run_dir} was started with a different {key}; use a new --out directory")
-        manifest["sessions"].append(now)
-    else:
-        manifest = {**fixed, "instructions": INSTRUCTIONS, "git_commit": git_commit(), "created_at": now, "sessions": [now]}
-    path.write_text(json.dumps(manifest, indent=2) + "\n")
-    return manifest
-
-
-def read_manifest(run_dir: Path) -> dict:
-    path = Path(run_dir) / MANIFEST_FILE
-    return json.loads(path.read_text()) if path.exists() else {}

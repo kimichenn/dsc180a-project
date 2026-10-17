@@ -1,0 +1,178 @@
+[
+    {
+        "name": "plain note",
+        "rule": "A message from another office states a new budget figure. It does not change the budget.",
+        "project": "Kavel",
+        "question": "What is Kavel's budget now?",
+        "lines": [
+            "#001  2025-09-02  Finance Office: Kavel budget set to $800K.",
+            "#002  2025-09-03  Engineering email: Kavel budget is going to $950K.",
+            "#003  2025-09-05  Finance Office: Kavel budget increased by $40K.",
+            "#004  2025-09-06  PMO note: Kavel kickoff moved to Building 4.",
+            "#005  2025-09-08  Vendor call: Heard Kavel's budget is now $1000K.",
+            "#006  2025-09-09  Finance Office: Kavel budget decreased by $15K."
+        ],
+        "work": "800 (#001) + 40 (#003) - 15 (#006) = 825. #002 and #005 are from Engineering and Vendor, so they don't count; #004 is not about the budget.",
+        "expected": 825
+    },
+    {
+        "name": "relative note",
+        "rule": "Messages from other offices that state a change (up or down by an amount) do not change the budget.",
+        "project": "Drumo",
+        "question": "What is Drumo's budget now?",
+        "lines": [
+            "#001  2025-09-02  Finance Office: Drumo budget set to $1200K.",
+            "#002  2025-09-04  Finance Office: Drumo budget decreased by $60K.",
+            "#003  2025-09-05  Operations chat: Hearing Drumo's budget goes up $100K.",
+            "#004  2025-09-06  Finance Office: Drumo budget increased by $25K.",
+            "#005  2025-09-08  Sales update: Expect Drumo's budget to drop by $50K.",
+            "#006  2025-09-09  Finance Office: Drumo budget increased by $10K.",
+            "#007  2025-09-10  Legal email: Drumo budget is going down by $30K."
+        ],
+        "work": "1200 (#001) - 60 (#002) + 25 (#004) + 10 (#006) = 1175. #003, #005, #007 are from other teams and don't count.",
+        "expected": 1175
+    },
+    {
+        "name": "note in official wording",
+        "rule": "Only the author decides whether a record counts. Other offices using the Finance Office's exact wording still do not change the budget.",
+        "project": "Tesivar",
+        "question": "What is Tesivar's budget now?",
+        "lines": [
+            "#001  2025-09-02  Finance Office: Tesivar budget set to $600K.",
+            "#002  2025-09-03  Engineering email: Tesivar budget set to $900K.",
+            "#003  2025-09-04  Finance Office: Tesivar budget increased by $50K.",
+            "#004  2025-09-06  PMO note: Tesivar budget increased by $200K.",
+            "#005  2025-09-07  Finance Office: Tesivar budget decreased by $20K.",
+            "#006  2025-09-09  Marketing email: Tesivar budget set to $750K per the revised plan."
+        ],
+        "work": "600 (#001) + 50 (#003) - 20 (#005) = 630. #002, #004, #006 use Finance wording but come from Engineering, PMO, Marketing, so they don't count.",
+        "expected": 630
+    },
+    {
+        "name": "withdraw an adjust",
+        "rule": "A withdrawn increase or decrease counts as if it never happened; later updates still apply.",
+        "project": "Lupra",
+        "question": "What is Lupra's budget now?",
+        "lines": [
+            "#001  2025-09-02  Finance Office: Lupra budget set to $1500K.",
+            "#002  2025-09-03  Finance Office: Lupra budget increased by $80K.",
+            "#003  2025-09-05  Finance Office: Lupra budget decreased by $35K.",
+            "#004  2025-09-06  Finance Office: Withdraw update #003.",
+            "#005  2025-09-08  Facilities ticket: Lupra design review moved to Room 2B.",
+            "#006  2025-09-09  Finance Office: Lupra budget increased by $15K."
+        ],
+        "work": "#004 withdraws #003 (-35). 1500 (#001) + 80 (#002) + 15 (#006) = 1595.",
+        "expected": 1595
+    },
+    {
+        "name": "withdraw a non-latest update",
+        "rule": "A withdrawal removes the update it names, not the most recent one.",
+        "project": "Brenix",
+        "question": "What is Brenix's budget now?",
+        "lines": [
+            "#001  2025-09-02  Finance Office: Brenix budget set to $900K.",
+            "#002  2025-09-03  Finance Office: Brenix budget increased by $120K.",
+            "#003  2025-09-04  Finance Office: Brenix budget decreased by $40K.",
+            "#004  2025-09-06  Finance Office: Brenix budget increased by $30K.",
+            "#005  2025-09-07  Finance Office: Withdraw update #002.",
+            "#006  2025-09-08  Finance Office: Brenix budget decreased by $10K.",
+            "#007  2025-09-10  Engineering email: Brenix budget is going up to $1100K."
+        ],
+        "work": "#005 withdraws #002 (+120), not the latest update. 900 (#001) - 40 (#003) + 30 (#004) - 10 (#006) = 880. #007 is from Engineering.",
+        "expected": 880
+    },
+    {
+        "name": "withdraw a set",
+        "rule": "A withdrawn set counts as if it never happened: the budget before it, plus every other update in order.",
+        "project": "Sotha",
+        "question": "What is Sotha's budget now?",
+        "lines": [
+            "#001  2025-09-02  Finance Office: Sotha budget set to $700K.",
+            "#002  2025-09-03  Finance Office: Sotha budget increased by $50K.",
+            "#003  2025-09-05  Finance Office: Sotha budget set to $1000K.",
+            "#004  2025-09-06  Finance Office: Sotha budget increased by $20K.",
+            "#005  2025-09-07  Vendor call: Sotha budget should land at $1050K.",
+            "#006  2025-09-09  Finance Office: Withdraw update #003.",
+            "#007  2025-09-10  Finance Office: Sotha budget decreased by $5K."
+        ],
+        "work": "#006 withdraws the set in #003, so it never happened. 700 (#001) + 50 (#002) + 20 (#004) - 5 (#007) = 765. #005 is from a vendor.",
+        "expected": 765
+    },
+    {
+        "name": "withdraw a withdrawal",
+        "rule": "Withdrawing a withdrawal restores the update it had withdrawn.",
+        "project": "Mirel",
+        "question": "What is Mirel's budget now?",
+        "lines": [
+            "#001  2025-09-02  Finance Office: Mirel budget set to $1100K.",
+            "#002  2025-09-04  Finance Office: Mirel budget increased by $60K.",
+            "#003  2025-09-05  Finance Office: Withdraw update #002.",
+            "#004  2025-09-06  PMO note: Mirel weekly sync moved to Thursdays.",
+            "#005  2025-09-08  Finance Office: Mirel budget decreased by $25K.",
+            "#006  2025-09-09  Finance Office: Withdraw update #003.",
+            "#007  2025-09-10  Finance Office: Mirel budget increased by $10K."
+        ],
+        "work": "#006 withdraws #003, so #003's withdrawal of #002 is cancelled and #002 (+60) applies. 1100 + 60 (#002) - 25 (#005) + 10 (#007) = 1145.",
+        "expected": 1145
+    },
+    {
+        "name": "three levels of withdrawal",
+        "rule": "Withdrawals of withdrawals chain: each level flips the one below it.",
+        "project": "Vondak",
+        "question": "What is Vondak's budget now?",
+        "lines": [
+            "#001  2025-09-02  Finance Office: Vondak budget set to $2000K.",
+            "#002  2025-09-03  Finance Office: Vondak budget decreased by $150K.",
+            "#003  2025-09-04  Finance Office: Withdraw update #002.",
+            "#004  2025-09-06  Finance Office: Vondak budget increased by $40K.",
+            "#005  2025-09-07  Finance Office: Withdraw update #003.",
+            "#006  2025-09-08  Legal email: Vondak budget is going up by $75K.",
+            "#007  2025-09-10  Finance Office: Withdraw update #005.",
+            "#008  2025-09-11  Finance Office: Vondak budget decreased by $20K."
+        ],
+        "work": "Newest first: #007 stands, so #005 is cancelled; #003 then stands, so #002 (-150) is withdrawn. 2000 (#001) + 40 (#004) - 20 (#008) = 2020. #006 is from Legal.",
+        "expected": 2020
+    },
+    {
+        "name": "later set replaces earlier updates",
+        "rule": "An active set replaces the budget; only updates after it change it further.",
+        "project": "Pelko",
+        "question": "What is Pelko's budget now?",
+        "lines": [
+            "#001  2025-09-02  Finance Office: Pelko budget set to $500K.",
+            "#002  2025-09-03  Finance Office: Pelko budget increased by $45K.",
+            "#003  2025-09-05  Finance Office: Withdraw update #002.",
+            "#004  2025-09-06  Finance Office: Pelko budget increased by $30K.",
+            "#005  2025-09-07  Finance Office: Pelko budget set to $820K after review.",
+            "#006  2025-09-09  Operations chat: Pretty sure Pelko's budget is $900K now.",
+            "#007  2025-09-10  Finance Office: Pelko budget decreased by $40K.",
+            "#008  2025-09-11  Finance Office: Pelko invoice batch FC-4821 archived.",
+            "#009  2025-09-12  Finance Office: Pelko budget increased by $5K."
+        ],
+        "work": "#005 sets the budget to 820, replacing everything before it. 820 - 40 (#007) + 5 (#009) = 785. #006 is from Operations; #008 is not about the budget.",
+        "expected": 785
+    },
+    {
+        "name": "another project's records",
+        "rule": "Records about another project, including withdrawals of its updates, do not change this project's budget.",
+        "project": "Ralto",
+        "other_projects": [
+            "Gisep"
+        ],
+        "question": "What is Ralto's budget now?",
+        "lines": [
+            "#001  2025-09-02  Finance Office: Ralto budget set to $950K.",
+            "#002  2025-09-03  Finance Office: Gisep budget set to $1400K.",
+            "#003  2025-09-04  Finance Office: Ralto budget increased by $35K.",
+            "#004  2025-09-05  Finance Office: Gisep budget decreased by $90K.",
+            "#005  2025-09-07  Finance Office: Withdraw update #004.",
+            "#006  2025-09-08  PMO note: Ralto budget is going to $1200K.",
+            "#007  2025-09-09  Finance Office: Ralto budget decreased by $10K.",
+            "#008  2025-09-11  Finance Office: Withdraw update #003.",
+            "#009  2025-09-12  Finance Office: Gisep budget increased by $55K.",
+            "#010  2025-09-13  Engineering email: Ralto risk register updated with 6 new items."
+        ],
+        "work": "Only Ralto records: #001 sets 950, #003 (+35) is withdrawn by #008, #007 is -10, so 950 - 10 = 940. #002, #004, #005, #009 are about Gisep; #006 is from the PMO.",
+        "expected": 940
+    }
+]

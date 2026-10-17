@@ -8,11 +8,8 @@ import random
 import sys
 from pathlib import Path
 
-from dotenv import dotenv_values
-
 from conflict_eval import analysis
 from conflict_eval.design import STAGES, build_trials, make_design
-from conflict_eval.models import API_KEY_ENV, load_model_configs, make_client
 from conflict_eval.prompts import (
     DISTANCES,
     DOC_ORDERS,
@@ -24,7 +21,6 @@ from conflict_eval.prompts import (
     build_prompt,
 )
 from conflict_eval.runner import (
-    FatalModelError,
     load_responses,
     read_manifest,
     run_trials,
@@ -33,19 +29,18 @@ from conflict_eval.runner import (
 from conflict_eval.scenarios import QUESTION_TYPES, load_filler, load_scenarios
 from conflict_eval.scoring import alternative_label, append_label, load_labels, score_rows
 from conflict_eval.validation import validate
+from harness.calls import FatalModelError
+from harness.models import API_KEY_ENV, load_env, load_model_configs, make_client
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DEFAULT_SCENARIOS = BASE_DIR / "data" / "scenarios.json"
-DEFAULT_FILLER = BASE_DIR / "data" / "filler.json"
-DEFAULT_MODELS = BASE_DIR / "config" / "models.toml"
-RESULTS_DIR = BASE_DIR / "results"
+DEFAULT_SCENARIOS = BASE_DIR / "data" / "v3" / "scenarios.json"
+DEFAULT_FILLER = BASE_DIR / "data" / "v3" / "filler.json"
+DEFAULT_MODELS = BASE_DIR / "config" / "v3_models.toml"
+RESULTS_DIR = BASE_DIR / "results" / "v3"
 
 
 def main(argv: list[str] | None = None) -> int:
-    # Keys in .env win over ones exported in the shell; blank entries fall back to the shell.
-    for key, value in dotenv_values(BASE_DIR / ".env").items():
-        if value:
-            os.environ[key] = value
+    load_env(BASE_DIR / ".env")
     args = _parser().parse_args(argv)
     try:
         return args.handler(args)
@@ -113,7 +108,7 @@ def cmd_run(args) -> int:
     configs = {name: configs[name] for name in names}
 
     trials = build_trials(design, scenarios, names, args.seed)
-    # Runs from another model config get their own folder, e.g. results/small_models/stage0_rung0.
+    # Runs from another model config get their own folder, e.g. results/v3/v3_small_models/stage0_rung0.
     results = RESULTS_DIR if args.models_config == DEFAULT_MODELS else RESULTS_DIR / args.models_config.stem
     out = args.out or results / f"{design.stage}_rung{design.rung}"
     done = {row["trial_id"] for row in load_responses(out)}
@@ -227,12 +222,12 @@ def _parser() -> argparse.ArgumentParser:
     run.add_argument("--distance", nargs="+", choices=DISTANCES, help="override the stage's distances")
     run.add_argument("--rule", nargs="+", choices=RULE_PLACEMENTS, help="override the stage's rule placements")
     run.add_argument("--generations", type=int, help="override generations per cell")
-    run.add_argument("--models", nargs="+", help="model aliases from models.toml (default: all)")
+    run.add_argument("--models", nargs="+", help="model aliases from the config (default: all)")
     run.add_argument("--models-config", type=Path, default=DEFAULT_MODELS)
     run.add_argument("--only", nargs="+", metavar="ID", help="restrict to these scenario ids")
     run.add_argument("--seed", type=int, default=0, help="trial-order shuffle seed")
     run.add_argument("--workers", type=int, default=4, help="concurrent requests")
-    run.add_argument("--out", type=Path, help="run directory (default: results/[<config>/]<stage>_rung<N>)")
+    run.add_argument("--out", type=Path, help="run directory (default: results/v3/[<config>/]<stage>_rung<N>)")
     run.add_argument("--dry-run", action="store_true", help="build trials and show one prompt; no API calls")
     run.set_defaults(handler=cmd_run)
 

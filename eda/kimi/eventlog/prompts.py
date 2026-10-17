@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from conflict_eval.prompts import Prompt
+from harness.prompts import Prompt
 
 _ANSWER_FORMAT = "`ANSWER: ` followed by the project names separated by commas, or `ANSWER: none`."
 COMMON_INSTRUCTION = (

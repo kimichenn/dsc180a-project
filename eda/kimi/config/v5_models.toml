@@ -1,0 +1,38 @@
+# v5 models: the GPT and Claude flagships and small models from the v4 configs, all at "low", the
+# lowest reasoning level each allows (neither flagship can turn reasoning off).
+#
+# Every model runs through a logged-in subscription CLI, so nothing bills an API key
+# (harness/subscriptions.py): Codex on the ChatGPT login, Claude Code on the Claude login.
+# Gemini is left out: Gemini CLI no longer accepts personal Google sign-in, so it would need the
+# API. To add it back, copy the [gemini] / [gemini-small] tables from v4_models.toml and
+# v4_small_models.toml (with a context_window); API calls count against the runner's $10 budget
+# (chain/runner.py BUDGET_USD).
+# context_window is in input tokens; a (model, N) pair whose prompt is longer is skipped.
+
+[gpt]
+provider = "codex"
+model = "gpt-6-astra"
+reasoning = "low"
+max_output_tokens = 32000        # not settable through codex exec; the server default applies
+context_window = 272000          # from the Codex model catalog
+
+[claude]
+provider = "claude-code"
+model = "claude-opus-5-5"
+reasoning = "low"                # --effort; thinking cannot be disabled on Claude Opus 5.5
+max_output_tokens = 32000
+context_window = 1000000
+
+[gpt-small]
+provider = "codex"
+model = "gpt-6-luna"
+reasoning = "low"
+max_output_tokens = 32000
+context_window = 272000
+
+[claude-small]
+provider = "claude-code"
+model = "claude-haiku-5-5"
+reasoning = "low"
+max_output_tokens = 32000
+context_window = 1000000

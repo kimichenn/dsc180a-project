@@ -9,25 +9,21 @@ import sys
 from dataclasses import asdict, replace
 from pathlib import Path
 
-from dotenv import dotenv_values
-
-from conflict_eval.models import API_KEY_ENV, load_model_configs, make_client
-from conflict_eval.runner import FatalModelError
 from eventlog import analysis
 from eventlog.checks import check_hand_logs, check_log
 from eventlog.dials import CONFLICT_DIALS, LOWEST, SEEDS, STAGE_A_STEPS, Dials, dials_for, parse_overrides
 from eventlog.generator import TRAP_TYPES, generate
-from eventlog.prompts import RESPONSE_FORMATS, build_prompt
+from eventlog.prompts import INSTRUCTIONS, RESPONSE_FORMATS, build_prompt
 from eventlog.runner import (
     estimate_cost,
     load_log_files,
-    load_responses,
     plan,
-    read_manifest,
     run_jobs,
     save_logs,
-    write_manifest,
 )
+from harness.calls import FatalModelError
+from harness.models import API_KEY_ENV, load_env, load_model_configs, make_client
+from harness.runs import load_responses, read_manifest, write_manifest
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 HAND_LOGS = BASE_DIR / "data" / "v4" / "hand_logs.json"
@@ -37,10 +33,7 @@ ASSUMED_OUTPUT_TOKENS = {"working": 5000, "final_only": 2000}  # includes hidden
 
 
 def main(argv: list[str] | None = None) -> int:
-    # Keys in .env win over ones exported in the shell; blank entries fall back to the shell.
-    for key, value in dotenv_values(BASE_DIR / ".env").items():
-        if value:
-            os.environ[key] = value
+    load_env(BASE_DIR / ".env")
     args = _parser().parse_args(argv)
     try:
         return args.handler(args)
@@ -137,7 +130,7 @@ def cmd_run(args) -> int:
         "models": {name: asdict(config) for name, config in configs.items()},
         "seeds": list(SEEDS[args.stage]),
         "shuffle_seed": args.seed,
-    })
+    }, created={"instructions": INSTRUCTIONS})
     save_logs(out, logs)
     clients = {name: make_client(config) for name, config in configs.items()}
     summary = run_jobs(jobs, load_log_files(out), clients, out, args.response_format, args.workers)

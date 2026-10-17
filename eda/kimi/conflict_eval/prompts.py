@@ -19,6 +19,7 @@ from dataclasses import dataclass
 from datetime import date
 
 from conflict_eval.scenarios import FillerPassage, Scenario
+from harness.prompts import Prompt
 
 COMMON_INSTRUCTION = (
     "You will answer a question about a fictional scenario. "
@@ -63,11 +64,6 @@ class Block:
     date: date | None = None
     role: str = ""  # claims only: governing | competing | extra. Never rendered.
 
-
-@dataclass
-class Prompt:
-    system: str
-    messages: list[dict[str, str]]
 
 
 def system_prompt(instruction: str) -> str:

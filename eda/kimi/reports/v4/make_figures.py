@@ -1,18 +1,22 @@
-"""Figure for the EDA report, computed from the raw event-log runs. Run from eda/kimi:
+"""Figure for the v4 EDA report, computed from the raw event-log runs:
 
-    python report/make_figures.py
+    python reports/v4/make_figures.py
 """
 
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 
 import matplotlib.pyplot as plt
 
-from eventlog.runner import load_log_files, load_responses
-from eventlog.scoring import normalize_name, parse_answer
+BASE = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(BASE))  # the experiment packages live in eda/kimi
 
-BASE = Path(__file__).resolve().parent.parent
+from eventlog.runner import load_log_files  # noqa: E402
+from eventlog.scoring import normalize_name, parse_answer  # noqa: E402
+from harness.runs import load_responses  # noqa: E402
+
 RUNS = [BASE / "results/v4/A_step0", BASE / "results/v4/v4_small_models/A_step0"]
 MODELS = {  # config alias -> display name, in plotting order (top to bottom)
     "gpt": "GPT-6 Astra",

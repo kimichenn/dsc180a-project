@@ -1,32 +1,40 @@
 """One client per provider behind a common generate(prompt) -> Completion interface.
 
 Every call is a fresh, stateless request with no tools, so there is no browsing,
-retrieval, or memory. Settings come from config/models.toml and stay fixed for a study.
+retrieval, or memory. Settings come from an experiment's config/*_models.toml and stay
+fixed for a study.
+The claude-code and codex providers run the logged-in CLIs instead, so calls bill to a
+subscription rather than an API key (see harness/subscriptions.py).
 """
 
 from __future__ import annotations
 
+import os
 import tomllib
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Protocol
 
-from conflict_eval.prompts import Prompt
+from dotenv import dotenv_values
+
+from harness.prompts import Prompt
 
 API_KEY_ENV = {"openai": "OPENAI_API_KEY", "anthropic": "ANTHROPIC_API_KEY", "google": "GEMINI_API_KEY"}
+SUBSCRIPTION_PROVIDERS = ("claude-code", "codex")
 SDK_RETRIES = 5
 
 
 @dataclass(frozen=True)
 class ModelConfig:
     name: str  # short alias used in results, e.g. "gpt"
-    provider: str  # openai | anthropic | google
+    provider: str  # openai | anthropic | google (API key), or claude-code | codex (subscription CLI)
     model: str  # exact API identifier
     reasoning: str | None = None  # provider-specific effort / thinking level
     temperature: float | None = None  # None = provider default
     max_output_tokens: int = 16000
     input_price: float | None = None  # USD per 1M tokens, for cost estimates
     output_price: float | None = None
+    context_window: int | None = None  # input tokens; longer prompts are skipped
 
     def record(self) -> dict:
         return {
@@ -52,17 +60,28 @@ class ModelClient(Protocol):
     def generate(self, prompt: Prompt) -> Completion: ...
 
 
+def load_env(path: Path) -> None:
+    """Load API keys from a .env file. Keys in it win over ones exported in the shell; blank entries fall back to the shell."""
+    for key, value in dotenv_values(path).items():
+        if value:
+            os.environ[key] = value
+
+
 def load_model_configs(path: Path) -> dict[str, ModelConfig]:
     with open(path, "rb") as f:
         table = tomllib.load(f)
     configs = {name: ModelConfig(name=name, **settings) for name, settings in table.items()}
     for config in configs.values():
-        if config.provider not in API_KEY_ENV:
+        if config.provider not in API_KEY_ENV and config.provider not in SUBSCRIPTION_PROVIDERS:
             raise ValueError(f"{config.name}: unknown provider {config.provider!r}")
     return configs
 
 
 def make_client(config: ModelConfig) -> ModelClient:
+    if config.provider in SUBSCRIPTION_PROVIDERS:
+        from harness.subscriptions import ClaudeCodeClient, CodexClient
+
+        return {"claude-code": ClaudeCodeClient, "codex": CodexClient}[config.provider](config)
     clients = {"openai": OpenAIClient, "anthropic": AnthropicClient, "google": GeminiClient}
     return clients[config.provider](config)
 

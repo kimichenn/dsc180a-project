@@ -1,0 +1,90 @@
+{
+  "phase": "break",
+  "profile_name": "P0",
+  "profile": {
+    "note_rate": 0.3,
+    "withdraw_rate": 0.15,
+    "nested_withdraw": true,
+    "withdraw_target": "any",
+    "relative_rate": 1.0,
+    "relative_notes": true,
+    "withdraw_ref": "id",
+    "n_entities": 1,
+    "response_format": "working",
+    "neutral_rate": 0.1
+  },
+  "levels": [
+    20,
+    50,
+    100,
+    200,
+    400,
+    800
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "models_config": "config/v5_models.toml",
+  "models": {
+    "gpt": {
+      "name": "gpt",
+      "provider": "codex",
+      "model": "gpt-6-astra",
+      "reasoning": "low",
+      "temperature": null,
+      "max_output_tokens": 32000,
+      "input_price": null,
+      "output_price": null,
+      "context_window": 272000
+    },
+    "claude": {
+      "name": "claude",
+      "provider": "claude-code",
+      "model": "claude-opus-5-5",
+      "reasoning": "low",
+      "temperature": null,
+      "max_output_tokens": 32000,
+      "input_price": null,
+      "output_price": null,
+      "context_window": 1000000
+    },
+    "gpt-small": {
+      "name": "gpt-small",
+      "provider": "codex",
+      "model": "gpt-6-luna",
+      "reasoning": "low",
+      "temperature": null,
+      "max_output_tokens": 32000,
+      "input_price": null,
+      "output_price": null,
+      "context_window": 272000
+    },
+    "claude-small": {
+      "name": "claude-small",
+      "provider": "claude-code",
+      "model": "claude-haiku-5-5",
+      "reasoning": "low",
+      "temperature": null,
+      "max_output_tokens": 32000,
+      "input_price": null,
+      "output_price": null,
+      "context_window": 1000000
+    }
+  },
+  "system_prompt": "You will answer a question about records from a fictional organization. Use only the information supplied. You may work through the records before answering. End your response with one line in the form `ANSWER: $<number>K`.",
+  "shuffle_seed": 0,
+  "instructions": {
+    "none": null,
+    "warning": "The provided context may contain conflicting information. Answer carefully.",
+    "skill": "When answering from provided context:\n\n1. Identify the claims relevant to the question.\n2. Check whether any relevant claims disagree.\n3. If they disagree, apply the source-authority and update rules stated in the context to determine which claim governs.\n4. If an authoritative source explicitly supersedes an earlier value, use the updated value.\n5. When the answer depends on many items, determine the governing value for each item before combining them.\n6. If the provided rules do not resolve the conflict, say that it cannot be resolved.\n7. Give a definite answer when the available evidence does resolve it."
+  },
+  "git_commit": "df5b4f57d2cdc31b88cc2dac93415c965aee26ba",
+  "created_at": "2026-10-17T02:26:19+00:00",
+  "sessions": [
+    "2026-10-17T02:26:19+00:00"
+  ]
+}

@@ -1,0 +1,241 @@
+job_id,chain_id,model,provider,model_id,n,seed,version,instruction,expected,value,category,answered_as,correct,format_failure,truncated,over_limit,used_tool,attempts,input_tokens,output_tokens,latency_s,harness
+n50_seed3|control|none|gpt-small,n50_seed3,gpt-small,codex,gpt-6-luna,50,3,control,none,1665,1435,other,other,False,False,False,False,False,1,1670,43,3.52,codex-cli 0.162.0-alpha.17.2
+n50_seed2|control|none|gpt,n50_seed2,gpt,codex,gpt-6-astra,50,2,control,none,1310,1310,correct,correct,True,False,False,False,False,1,1612,165,6.71,codex-cli 0.162.0-alpha.17.2
+n100_seed5|conflict|none|gpt,n100_seed5,gpt,codex,gpt-6-astra,100,5,conflict,none,1590,1590,correct,correct,True,False,False,False,False,1,2865,321,9.72,codex-cli 0.162.0-alpha.17.2
+n50_seed5|control|none|gpt-small,n50_seed5,gpt-small,codex,gpt-6-luna,50,5,control,none,910,880,other,other,False,False,False,False,False,1,1593,39,3.65,codex-cli 0.162.0-alpha.17.2
+n100_seed4|conflict|none|gpt-small,n100_seed4,gpt-small,codex,gpt-6-luna,100,4,conflict,none,1540,1595,missed_one_update,missed_one_update,False,False,False,False,False,1,2857,61,4.07,codex-cli 0.162.0-alpha.17.2
+n20_seed1|control|none|gpt,n20_seed1,gpt,codex,gpt-6-astra,20,1,control,none,1965,1965,correct,correct,True,False,False,False,False,1,929,57,4.51,codex-cli 0.162.0-alpha.17.2
+n200_seed5|conflict|none|gpt,n200_seed5,gpt,codex,gpt-6-astra,200,5,conflict,none,1005,1005,correct,correct,True,False,False,False,False,1,5234,446,15.1,codex-cli 0.162.0-alpha.17.2
+n50_seed4|conflict|none|gpt,n50_seed4,gpt,codex,gpt-6-astra,50,4,conflict,none,820,820,correct,correct,True,False,False,False,False,1,1642,193,8.12,codex-cli 0.162.0-alpha.17.2
+n800_seed2|control|none|claude,n800_seed2,claude,claude-code,claude-opus-5-5,800,2,control,none,2500,2500,correct,correct,True,False,False,False,False,1,27513,2034,22.32,2.1.283 (Claude Code)
+n100_seed4|conflict|none|claude-small,n100_seed4,claude-small,claude-code,claude-haiku-5-5,100,4,conflict,none,1540,1540,correct,correct,True,False,False,False,False,1,3832,3207,13.83,2.1.283 (Claude Code)
+n100_seed5|control|none|gpt-small,n100_seed5,gpt-small,codex,gpt-6-luna,100,5,control,none,1590,1420,other,other,False,False,False,False,False,1,2814,50,3.23,codex-cli 0.162.0-alpha.17.2
+n100_seed2|conflict|none|claude-small,n100_seed2,claude-small,claude-code,claude-haiku-5-5,100,2,conflict,none,910,910,correct,correct,True,False,False,False,False,1,3879,2927,13.86,2.1.283 (Claude Code)
+n100_seed2|conflict|none|claude,n100_seed2,claude,claude-code,claude-opus-5-5,100,2,conflict,none,910,910,correct,correct,True,False,False,False,False,1,3910,1562,13.44,2.1.283 (Claude Code)
+n200_seed1|control|none|claude,n200_seed1,claude,claude-code,claude-opus-5-5,200,1,control,none,2165,2165,correct,correct,True,False,False,False,False,1,7138,959,10.02,2.1.283 (Claude Code)
+n50_seed5|conflict|none|claude,n50_seed5,claude,claude-code,claude-opus-5-5,50,5,conflict,none,910,910,correct,correct,True,False,False,False,False,1,2197,724,8.01,2.1.283 (Claude Code)
+n100_seed3|control|none|claude-small,n100_seed3,claude-small,claude-code,claude-haiku-5-5,100,3,control,none,1535,1535,correct,correct,True,False,False,False,False,1,3839,968,5.08,2.1.283 (Claude Code)
+n50_seed5|control|none|gpt,n50_seed5,gpt,codex,gpt-6-astra,50,5,control,none,910,910,correct,correct,True,False,False,False,False,1,1593,206,9.78,codex-cli 0.162.0-alpha.17.2
+n50_seed3|conflict|none|gpt,n50_seed3,gpt,codex,gpt-6-astra,50,3,conflict,none,1665,1665,correct,correct,True,False,False,False,False,1,1665,228,7.66,codex-cli 0.162.0-alpha.17.2
+n100_seed5|control|none|claude-small,n100_seed5,claude-small,claude-code,claude-haiku-5-5,100,5,control,none,1590,1590,correct,correct,True,False,False,False,False,1,3935,668,4.75,2.1.283 (Claude Code)
+n50_seed4|control|none|gpt-small,n50_seed4,gpt-small,codex,gpt-6-luna,50,4,control,none,820,820,correct,correct,True,False,False,False,False,1,1608,96,3.81,codex-cli 0.162.0-alpha.17.2
+n800_seed3|conflict|none|claude,n800_seed3,claude,claude-code,claude-opus-5-5,800,3,conflict,none,1235,1235,correct,correct,True,False,False,False,False,1,26715,5749,44.34,2.1.283 (Claude Code)
+n400_seed4|control|none|claude,n400_seed4,claude,claude-code,claude-opus-5-5,400,4,control,none,1695,1695,correct,correct,True,False,False,False,False,1,14035,1343,13.3,2.1.283 (Claude Code)
+n400_seed2|control|none|gpt-small,n400_seed2,gpt-small,codex,gpt-6-luna,400,2,control,none,1615,1035,other,other,False,False,False,False,False,1,9942,11,3.91,codex-cli 0.162.0-alpha.17.2
+n100_seed4|control|none|gpt,n100_seed4,gpt,codex,gpt-6-astra,100,4,control,none,1540,1540,correct,correct,True,False,False,False,False,1,2811,237,7.86,codex-cli 0.162.0-alpha.17.2
+n400_seed5|control|none|claude,n400_seed5,claude,claude-code,claude-opus-5-5,400,5,control,none,820,820,correct,correct,True,False,False,False,False,1,14032,1314,14.74,2.1.283 (Claude Code)
+n200_seed4|control|none|gpt,n200_seed4,gpt,codex,gpt-6-astra,200,4,control,none,1690,1690,correct,correct,True,False,False,False,False,1,5219,494,12.09,codex-cli 0.162.0-alpha.17.2
+n400_seed2|conflict|none|gpt,n400_seed2,gpt,codex,gpt-6-astra,400,2,conflict,none,1615,1615,correct,correct,True,False,False,False,False,1,10164,905,25.5,codex-cli 0.162.0-alpha.17.2
+n200_seed2|conflict|none|claude-small,n200_seed2,claude-small,claude-code,claude-haiku-5-5,200,2,conflict,none,1645,1645,correct,correct,True,False,False,False,False,1,7042,4375,19.08,2.1.283 (Claude Code)
+n50_seed1|conflict|none|gpt,n50_seed1,gpt,codex,gpt-6-astra,50,1,conflict,none,855,855,correct,correct,True,False,False,False,False,1,1676,194,7.31,codex-cli 0.162.0-alpha.17.2
+n400_seed4|control|none|gpt,n400_seed4,gpt,codex,gpt-6-astra,400,4,control,none,1695,1695,correct,correct,True,False,False,False,False,1,10382,632,15.44,codex-cli 0.162.0-alpha.17.2
+n800_seed3|control|none|claude-small,n800_seed3,claude-small,claude-code,claude-haiku-5-5,800,3,control,none,1235,1230,missed_one_update,missed_one_update,False,False,False,False,False,1,27384,6881,24.34,2.1.283 (Claude Code)
+n100_seed3|conflict|none|claude,n100_seed3,claude,claude-code,claude-opus-5-5,100,3,conflict,none,1535,1535,correct,correct,True,False,False,False,False,1,3790,1593,15.37,2.1.283 (Claude Code)
+n200_seed3|conflict|none|claude,n200_seed3,claude,claude-code,claude-opus-5-5,200,3,conflict,none,2370,2370,correct,correct,True,False,False,False,False,1,7112,1786,15.74,2.1.283 (Claude Code)
+n20_seed2|control|none|claude,n20_seed2,claude,claude-code,claude-opus-5-5,20,2,control,none,1595,1595,correct,correct,True,False,False,False,False,1,1262,292,5.17,2.1.283 (Claude Code)
+n800_seed5|control|none|claude-small,n800_seed5,claude-small,claude-code,claude-haiku-5-5,800,5,control,none,2185,2185,correct,correct,True,False,False,False,False,1,28418,3668,14.72,2.1.283 (Claude Code)
+n20_seed1|conflict|none|claude-small,n20_seed1,claude-small,claude-code,claude-haiku-5-5,20,1,conflict,none,1965,1965,correct,correct,True,False,False,False,False,1,1250,911,5.63,2.1.283 (Claude Code)
+n800_seed5|control|none|gpt,n800_seed5,gpt,codex,gpt-6-astra,800,5,control,none,2185,2190,missed_one_update,missed_one_update,False,False,False,False,False,1,20475,1599,28.74,codex-cli 0.162.0-alpha.17.2
+n50_seed1|control|none|claude,n50_seed1,claude,claude-code,claude-opus-5-5,50,1,control,none,855,855,correct,correct,True,False,False,False,False,1,2342,401,5.13,2.1.283 (Claude Code)
+n100_seed5|conflict|none|claude-small,n100_seed5,claude-small,claude-code,claude-haiku-5-5,100,5,conflict,none,1590,1590,correct,correct,True,False,False,False,False,1,3820,1675,7.77,2.1.283 (Claude Code)
+n400_seed5|conflict|none|gpt,n400_seed5,gpt,codex,gpt-6-astra,400,5,conflict,none,820,820,correct,correct,True,False,False,False,False,1,10567,1017,23.63,codex-cli 0.162.0-alpha.17.2
+n800_seed5|control|none|gpt-small,n800_seed5,gpt-small,codex,gpt-6-luna,800,5,control,none,2185,3765,other,other,False,False,False,False,False,1,20475,54,3.07,codex-cli 0.162.0-alpha.17.2
+n50_seed5|control|none|claude,n50_seed5,claude,claude-code,claude-opus-5-5,50,5,control,none,910,910,correct,correct,True,False,False,False,False,1,2257,510,7.89,2.1.283 (Claude Code)
+n100_seed4|control|none|claude,n100_seed4,claude,claude-code,claude-opus-5-5,100,4,control,none,1540,1540,correct,correct,True,False,False,False,False,1,3943,863,16.53,2.1.283 (Claude Code)
+n20_seed5|control|none|gpt-small,n20_seed5,gpt-small,codex,gpt-6-luna,20,5,control,none,1065,1065,correct,correct,True,False,False,False,False,1,902,32,3.64,codex-cli 0.162.0-alpha.17.2
+n100_seed4|control|none|claude-small,n100_seed4,claude-small,claude-code,claude-haiku-5-5,100,4,control,none,1540,1540,correct,correct,True,False,False,False,False,1,3909,1364,6.27,2.1.283 (Claude Code)
+n20_seed2|conflict|none|claude-small,n20_seed2,claude-small,claude-code,claude-haiku-5-5,20,2,conflict,none,1595,1595,correct,correct,True,False,False,False,False,1,1221,768,4.97,2.1.283 (Claude Code)
+n400_seed1|conflict|none|claude-small,n400_seed1,claude-small,claude-code,claude-haiku-5-5,400,1,conflict,none,2130,2130,correct,correct,True,False,False,False,False,1,13712,9078,33.99,2.1.283 (Claude Code)
+n400_seed5|conflict|none|claude-small,n400_seed5,claude-small,claude-code,claude-haiku-5-5,400,5,conflict,none,820,820,correct,correct,True,False,False,False,False,1,13569,18249,64.07,2.1.283 (Claude Code)
+n200_seed2|control|none|claude-small,n200_seed2,claude-small,claude-code,claude-haiku-5-5,200,2,control,none,1645,1645,correct,correct,True,False,False,False,False,1,7214,1958,8.07,2.1.283 (Claude Code)
+n200_seed3|control|none|claude,n200_seed3,claude,claude-code,claude-opus-5-5,200,3,control,none,2370,2370,correct,correct,True,False,False,False,False,1,7347,1063,10.78,2.1.283 (Claude Code)
+n20_seed5|control|none|claude,n20_seed5,claude,claude-code,claude-opus-5-5,20,5,control,none,1065,1065,correct,correct,True,False,False,False,False,1,1301,177,3.93,2.1.283 (Claude Code)
+n800_seed1|conflict|none|claude,n800_seed1,claude,claude-code,claude-opus-5-5,800,1,conflict,none,2265,2265,correct,correct,True,False,False,False,False,1,26653,5325,43.62,2.1.283 (Claude Code)
+n100_seed1|conflict|none|claude-small,n100_seed1,claude-small,claude-code,claude-haiku-5-5,100,1,conflict,none,1380,1355,ignore_nested,ignore_nested,False,False,False,False,False,1,3841,2815,12.3,2.1.283 (Claude Code)
+n800_seed2|conflict|none|gpt,n800_seed2,gpt,codex,gpt-6-astra,800,2,conflict,none,2500,2500,correct,correct,True,False,False,False,False,1,20057,2313,42.44,codex-cli 0.162.0-alpha.17.2
+n800_seed1|conflict|none|gpt-small,n800_seed1,gpt-small,codex,gpt-6-luna,800,1,conflict,none,2265,1935,other,other,False,False,False,False,False,1,20020,10,3.64,codex-cli 0.162.0-alpha.17.2
+n50_seed1|control|none|claude-small,n50_seed1,claude-small,claude-code,claude-haiku-5-5,50,1,control,none,855,855,correct,correct,True,False,False,False,False,1,2309,558,3.8,2.1.283 (Claude Code)
+n20_seed4|conflict|none|gpt,n20_seed4,gpt,codex,gpt-6-astra,20,4,conflict,none,1455,1455,correct,correct,True,False,False,False,False,1,905,96,6.59,codex-cli 0.162.0-alpha.17.2
+n400_seed1|conflict|none|claude,n400_seed1,claude,claude-code,claude-opus-5-5,400,1,conflict,none,2130,2130,correct,correct,True,False,False,False,False,1,13743,2762,22.87,2.1.283 (Claude Code)
+n20_seed5|control|none|claude-small,n20_seed5,claude-small,claude-code,claude-haiku-5-5,20,5,control,none,1065,1065,correct,correct,True,False,False,False,False,1,1268,341,3.16,2.1.283 (Claude Code)
+n400_seed2|control|none|claude,n400_seed2,claude,claude-code,claude-opus-5-5,400,2,control,none,1615,1615,correct,correct,True,False,False,False,False,1,13528,1377,13.37,2.1.283 (Claude Code)
+n800_seed5|conflict|none|gpt-small,n800_seed5,gpt-small,codex,gpt-6-luna,800,5,conflict,none,2185,2370,other,other,False,False,False,False,False,1,20731,55,3.46,codex-cli 0.162.0-alpha.17.2
+n100_seed5|control|none|claude,n100_seed5,claude,claude-code,claude-opus-5-5,100,5,control,none,1590,1590,correct,correct,True,False,False,False,False,1,3969,731,7.62,2.1.283 (Claude Code)
+n800_seed2|conflict|none|gpt-small,n800_seed2,gpt-small,codex,gpt-6-luna,800,2,conflict,none,2500,1550,other,other,False,False,False,False,False,2,40114,454,10.14,codex-cli 0.162.0-alpha.17.2
+n800_seed3|control|none|gpt-small,n800_seed3,gpt-small,codex,gpt-6-luna,800,3,control,none,1235,1570,other,other,False,False,False,False,False,1,19659,881,9.8,codex-cli 0.162.0-alpha.17.2
+n20_seed4|conflict|none|gpt-small,n20_seed4,gpt-small,codex,gpt-6-luna,20,4,conflict,none,1455,1455,correct,correct,True,False,False,False,False,1,905,229,4.24,codex-cli 0.162.0-alpha.17.2
+n200_seed3|conflict|none|gpt-small,n200_seed3,gpt-small,codex,gpt-6-luna,200,3,conflict,none,2370,1935,other,other,False,False,False,False,False,1,5325,50,3.85,codex-cli 0.162.0-alpha.17.2
+n200_seed4|control|none|gpt-small,n200_seed4,gpt-small,codex,gpt-6-luna,200,4,control,none,1690,830,other,other,False,False,False,False,False,1,5219,9,3.38,codex-cli 0.162.0-alpha.17.2
+n50_seed4|conflict|none|claude-small,n50_seed4,claude-small,claude-code,claude-haiku-5-5,50,4,conflict,none,820,820,correct,correct,True,False,False,False,False,1,2161,1342,6.7,2.1.283 (Claude Code)
+n20_seed3|conflict|none|gpt,n20_seed3,gpt,codex,gpt-6-astra,20,3,conflict,none,495,495,correct,correct,True,False,False,False,False,1,911,113,4.92,codex-cli 0.162.0-alpha.17.2
+n200_seed5|conflict|none|gpt-small,n200_seed5,gpt-small,codex,gpt-6-luna,200,5,conflict,none,1005,1350,other,other,False,False,False,False,False,1,5234,1272,11.77,codex-cli 0.162.0-alpha.17.2
+n200_seed4|conflict|none|gpt-small,n200_seed4,gpt-small,codex,gpt-6-luna,200,4,conflict,none,1690,1310,other,other,False,False,False,False,False,1,5325,1253,10.54,codex-cli 0.162.0-alpha.17.2
+n100_seed3|control|none|claude,n100_seed3,claude,claude-code,claude-opus-5-5,100,3,control,none,1535,1535,correct,correct,True,False,False,False,False,1,3872,911,8.55,2.1.283 (Claude Code)
+n20_seed1|control|none|claude,n20_seed1,claude,claude-code,claude-opus-5-5,20,1,control,none,1965,1965,correct,correct,True,False,False,False,False,1,1309,221,4.4,2.1.283 (Claude Code)
+n50_seed1|conflict|none|claude,n50_seed1,claude,claude-code,claude-opus-5-5,50,1,conflict,none,855,855,correct,correct,True,False,False,False,False,1,2264,794,9.06,2.1.283 (Claude Code)
+n200_seed2|control|none|gpt,n200_seed2,gpt,codex,gpt-6-astra,200,2,control,none,1645,1645,correct,correct,True,False,False,False,False,1,5213,318,9.39,codex-cli 0.162.0-alpha.17.2
+n400_seed2|conflict|none|claude-small,n400_seed2,claude-small,claude-code,claude-haiku-5-5,400,2,conflict,none,1615,1615,correct,correct,True,False,False,False,False,1,13147,17926,62.14,2.1.283 (Claude Code)
+n400_seed1|control|none|gpt,n400_seed1,gpt,codex,gpt-6-astra,400,1,control,none,2130,2130,correct,correct,True,False,False,False,False,1,10434,557,15.67,codex-cli 0.162.0-alpha.17.2
+n800_seed5|conflict|none|gpt,n800_seed5,gpt,codex,gpt-6-astra,800,5,conflict,none,2185,2185,correct,correct,True,False,False,False,False,1,20731,2460,46.32,codex-cli 0.162.0-alpha.17.2
+n400_seed5|conflict|none|gpt-small,n400_seed5,gpt-small,codex,gpt-6-luna,400,5,conflict,none,820,315,other,other,False,False,False,False,False,1,10567,9,3.76,codex-cli 0.162.0-alpha.17.2
+n400_seed3|conflict|none|claude,n400_seed3,claude,claude-code,claude-opus-5-5,400,3,conflict,none,1985,1985,correct,correct,True,False,False,False,False,1,13599,3248,24.2,2.1.283 (Claude Code)
+n200_seed5|control|none|claude-small,n200_seed5,claude-small,claude-code,claude-haiku-5-5,200,5,control,none,1005,1005,correct,correct,True,False,False,False,False,1,7054,1962,8.01,2.1.283 (Claude Code)
+n200_seed2|conflict|none|claude,n200_seed2,claude,claude-code,claude-opus-5-5,200,2,conflict,none,1645,1645,correct,correct,True,False,False,False,False,1,7075,2832,20.7,2.1.283 (Claude Code)
+n50_seed5|conflict|none|gpt-small,n50_seed5,gpt-small,codex,gpt-6-luna,50,5,conflict,none,910,910,correct,correct,True,False,False,False,False,1,1611,337,6.63,codex-cli 0.162.0-alpha.17.2
+n400_seed2|conflict|none|gpt-small,n400_seed2,gpt-small,codex,gpt-6-luna,400,2,conflict,none,1615,1455,other,other,False,False,False,False,False,1,10164,42,3.25,codex-cli 0.162.0-alpha.17.2
+n800_seed3|conflict|none|gpt-small,n800_seed3,gpt-small,codex,gpt-6-luna,800,3,conflict,none,1235,850,other,other,False,False,False,False,False,1,19982,334,6.23,codex-cli 0.162.0-alpha.17.2
+n20_seed3|control|none|gpt,n20_seed3,gpt,codex,gpt-6-astra,20,3,control,none,495,495,correct,correct,True,False,False,False,False,1,903,64,4.96,codex-cli 0.162.0-alpha.17.2
+n800_seed4|conflict|none|gpt,n800_seed4,gpt,codex,gpt-6-astra,800,4,conflict,none,1240,1240,correct,correct,True,False,False,False,False,1,20072,2002,40.61,codex-cli 0.162.0-alpha.17.2
+n100_seed4|conflict|none|claude,n100_seed4,claude,claude-code,claude-opus-5-5,100,4,conflict,none,1540,1540,correct,correct,True,False,False,False,False,1,3866,1296,10.96,2.1.283 (Claude Code)
+n20_seed2|conflict|none|claude,n20_seed2,claude,claude-code,claude-opus-5-5,20,2,conflict,none,1595,1595,correct,correct,True,False,False,False,False,1,1254,459,5.86,2.1.283 (Claude Code)
+n20_seed4|control|none|gpt,n20_seed4,gpt,codex,gpt-6-astra,20,4,control,none,1455,1455,correct,correct,True,False,False,False,False,1,903,60,4.54,codex-cli 0.162.0-alpha.17.2
+n100_seed3|conflict|none|gpt-small,n100_seed3,gpt-small,codex,gpt-6-luna,100,3,conflict,none,1535,1565,other,other,False,False,False,False,False,1,2886,43,4.03,codex-cli 0.162.0-alpha.17.2
+n50_seed3|conflict|none|claude,n50_seed3,claude,claude-code,claude-opus-5-5,50,3,conflict,none,1665,1665,correct,correct,True,False,False,False,False,1,2236,798,8.15,2.1.283 (Claude Code)
+n20_seed1|control|none|gpt-small,n20_seed1,gpt-small,codex,gpt-6-luna,20,1,control,none,1965,1965,correct,correct,True,False,False,False,False,1,929,58,4.68,codex-cli 0.162.0-alpha.17.2
+n800_seed3|control|none|gpt,n800_seed3,gpt,codex,gpt-6-astra,800,3,control,none,1235,1235,correct,correct,True,False,False,False,False,1,19659,1131,26.15,codex-cli 0.162.0-alpha.17.2
+n20_seed5|conflict|none|gpt-small,n20_seed5,gpt-small,codex,gpt-6-luna,20,5,conflict,none,1065,1065,correct,correct,True,False,False,False,False,1,903,174,3.85,codex-cli 0.162.0-alpha.17.2
+n200_seed1|control|none|claude-small,n200_seed1,claude-small,claude-code,claude-haiku-5-5,200,1,control,none,2165,2165,correct,correct,True,False,False,False,False,1,7103,1429,6.26,2.1.283 (Claude Code)
+n100_seed5|conflict|none|gpt-small,n100_seed5,gpt-small,codex,gpt-6-luna,100,5,conflict,none,1590,1880,other,other,False,False,False,False,False,1,2865,53,3.78,codex-cli 0.162.0-alpha.17.2
+n20_seed3|conflict|none|claude-small,n20_seed3,claude-small,claude-code,claude-haiku-5-5,20,3,conflict,none,495,495,correct,correct,True,False,False,False,False,1,1223,643,4.8,2.1.283 (Claude Code)
+n100_seed2|control|none|claude,n100_seed2,claude,claude-code,claude-opus-5-5,100,2,control,none,910,910,correct,correct,True,False,False,False,False,1,4072,533,6.36,2.1.283 (Claude Code)
+n20_seed2|conflict|none|gpt,n20_seed2,gpt,codex,gpt-6-astra,20,2,conflict,none,1595,1595,correct,correct,True,False,False,False,False,1,898,121,6.68,codex-cli 0.162.0-alpha.17.2
+n400_seed5|control|none|claude-small,n400_seed5,claude-small,claude-code,claude-haiku-5-5,400,5,control,none,820,820,correct,correct,True,False,False,False,False,1,13999,5058,18.48,2.1.283 (Claude Code)
+n50_seed2|conflict|none|gpt,n50_seed2,gpt,codex,gpt-6-astra,50,2,conflict,none,1310,1310,correct,correct,True,False,False,False,False,1,1642,225,8.6,codex-cli 0.162.0-alpha.17.2
+n800_seed4|control|none|claude,n800_seed4,claude,claude-code,claude-opus-5-5,800,4,control,none,1240,1240,correct,correct,True,False,False,False,False,1,27420,2001,17.26,2.1.283 (Claude Code)
+n400_seed5|conflict|none|claude,n400_seed5,claude,claude-code,claude-opus-5-5,400,5,conflict,none,820,820,correct,correct,True,False,False,False,False,1,13601,2736,21.58,2.1.283 (Claude Code)
+n400_seed4|control|none|claude-small,n400_seed4,claude-small,claude-code,claude-haiku-5-5,400,4,control,none,1695,1695,correct,correct,True,False,False,False,False,1,14001,2217,9.83,2.1.283 (Claude Code)
+n20_seed3|conflict|none|claude,n20_seed3,claude,claude-code,claude-opus-5-5,20,3,conflict,none,495,495,correct,correct,True,False,False,False,False,1,1256,447,6.06,2.1.283 (Claude Code)
+n800_seed1|control|none|claude-small,n800_seed1,claude-small,claude-code,claude-haiku-5-5,800,1,control,none,2265,2265,correct,correct,True,False,False,False,False,1,27430,4039,16.16,2.1.283 (Claude Code)
+n50_seed5|conflict|none|claude-small,n50_seed5,claude-small,claude-code,claude-haiku-5-5,50,5,conflict,none,910,910,correct,correct,True,False,False,False,False,1,2163,1490,7.33,2.1.283 (Claude Code)
+n50_seed1|control|none|gpt,n50_seed1,gpt,codex,gpt-6-astra,50,1,control,none,855,855,correct,correct,True,False,False,False,False,1,1665,149,6.16,codex-cli 0.162.0-alpha.17.2
+n50_seed3|control|none|gpt,n50_seed3,gpt,codex,gpt-6-astra,50,3,control,none,1665,1665,correct,correct,True,False,False,False,False,1,1670,148,6.17,codex-cli 0.162.0-alpha.17.2
+n800_seed3|control|none|claude,n800_seed3,claude,claude-code,claude-opus-5-5,800,3,control,none,1235,1235,correct,correct,True,False,False,False,False,1,27417,3300,29.06,2.1.283 (Claude Code)
+n100_seed1|control|none|gpt-small,n100_seed1,gpt-small,codex,gpt-6-luna,100,1,control,none,1380,1120,other,other,False,False,False,False,False,1,2802,45,3.3,codex-cli 0.162.0-alpha.17.2
+n100_seed5|control|none|gpt,n100_seed5,gpt,codex,gpt-6-astra,100,5,control,none,1590,1590,correct,correct,True,False,False,False,False,1,2814,212,6.99,codex-cli 0.162.0-alpha.17.2
+n100_seed2|conflict|none|gpt,n100_seed2,gpt,codex,gpt-6-astra,100,2,conflict,none,910,910,correct,correct,True,False,False,False,False,1,2949,352,10.29,codex-cli 0.162.0-alpha.17.2
+n50_seed2|control|none|gpt-small,n50_seed2,gpt-small,codex,gpt-6-luna,50,2,control,none,1310,1215,other,other,False,False,False,False,False,1,1612,38,2.9,codex-cli 0.162.0-alpha.17.2
+n50_seed4|control|none|claude,n50_seed4,claude,claude-code,claude-opus-5-5,50,4,control,none,820,820,correct,correct,True,False,False,False,False,1,2237,424,6.08,2.1.283 (Claude Code)
+n800_seed2|control|none|gpt,n800_seed2,gpt,codex,gpt-6-astra,800,2,control,none,2500,2400,missed_one_update,missed_one_update,False,False,False,False,False,1,19688,1732,30.6,codex-cli 0.162.0-alpha.17.2
+n800_seed5|control|none|claude,n800_seed5,claude,claude-code,claude-opus-5-5,800,5,control,none,2185,2185,correct,correct,True,False,False,False,False,1,28453,3297,24.07,2.1.283 (Claude Code)
+n50_seed2|control|none|claude,n50_seed2,claude,claude-code,claude-opus-5-5,50,2,control,none,1310,1310,correct,correct,True,False,False,False,False,1,2256,478,5.6,2.1.283 (Claude Code)
+n200_seed4|control|none|claude,n200_seed4,claude,claude-code,claude-opus-5-5,200,4,control,none,1690,1690,correct,correct,True,False,False,False,False,1,7371,561,7.01,2.1.283 (Claude Code)
+n100_seed3|control|none|gpt-small,n100_seed3,gpt-small,codex,gpt-6-luna,100,3,control,none,1535,905,other,other,False,False,False,False,False,1,2834,45,6.4,codex-cli 0.162.0-alpha.17.2
+n800_seed1|control|none|gpt,n800_seed1,gpt,codex,gpt-6-astra,800,1,control,none,2265,2265,correct,correct,True,False,False,False,False,1,19623,1565,27.88,codex-cli 0.162.0-alpha.17.2
+n50_seed3|control|none|claude-small,n50_seed3,claude-small,claude-code,claude-haiku-5-5,50,3,control,none,1665,1665,correct,correct,True,False,False,False,False,1,2285,893,4.95,2.1.283 (Claude Code)
+n100_seed4|conflict|none|gpt,n100_seed4,gpt,codex,gpt-6-astra,100,4,conflict,none,1540,1540,correct,correct,True,False,False,False,False,1,2857,276,9.8,codex-cli 0.162.0-alpha.17.2
+n800_seed2|control|none|gpt-small,n800_seed2,gpt-small,codex,gpt-6-luna,800,2,control,none,2500,1550,other,other,False,False,False,False,False,1,19688,1402,10.89,codex-cli 0.162.0-alpha.17.2
+n400_seed4|conflict|none|gpt,n400_seed4,gpt,codex,gpt-6-astra,400,4,conflict,none,1695,1695,correct,correct,True,False,False,False,False,1,10573,955,20.47,codex-cli 0.162.0-alpha.17.2
+n50_seed1|conflict|none|gpt-small,n50_seed1,gpt-small,codex,gpt-6-luna,50,1,conflict,none,855,855,correct,correct,True,False,False,False,False,1,1676,291,4.85,codex-cli 0.162.0-alpha.17.2
+n100_seed1|conflict|none|gpt-small,n100_seed1,gpt-small,codex,gpt-6-luna,100,1,conflict,none,1380,1270,missed_one_update,missed_one_update,False,False,False,False,False,1,2851,45,2.99,codex-cli 0.162.0-alpha.17.2
+n50_seed1|conflict|none|claude-small,n50_seed1,claude-small,claude-code,claude-haiku-5-5,50,1,conflict,none,855,855,correct,correct,True,False,False,False,False,1,2231,1389,6.94,2.1.283 (Claude Code)
+n20_seed5|control|none|gpt,n20_seed5,gpt,codex,gpt-6-astra,20,5,control,none,1065,1065,correct,correct,True,False,False,False,False,1,902,60,4.29,codex-cli 0.162.0-alpha.17.2
+n20_seed5|conflict|none|claude-small,n20_seed5,claude-small,claude-code,claude-haiku-5-5,20,5,conflict,none,1065,1065,correct,correct,True,False,False,False,False,1,1241,617,4.33,2.1.283 (Claude Code)
+n20_seed2|control|none|claude-small,n20_seed2,claude-small,claude-code,claude-haiku-5-5,20,2,control,none,1595,1595,correct,correct,True,False,False,False,False,1,1229,437,3.71,2.1.283 (Claude Code)
+n20_seed2|conflict|none|gpt-small,n20_seed2,gpt-small,codex,gpt-6-luna,20,2,conflict,none,1595,1595,correct,correct,True,False,False,False,False,1,898,129,4.04,codex-cli 0.162.0-alpha.17.2
+n20_seed4|control|none|claude,n20_seed4,claude,claude-code,claude-opus-5-5,20,4,control,none,1455,1455,correct,correct,True,False,False,False,False,1,1296,289,4.4,2.1.283 (Claude Code)
+n400_seed3|conflict|none|gpt,n400_seed3,gpt,codex,gpt-6-astra,400,3,conflict,none,1985,1985,correct,correct,True,False,False,False,False,1,10202,1245,25.6,codex-cli 0.162.0-alpha.17.2
+n400_seed5|control|none|gpt-small,n400_seed5,gpt-small,codex,gpt-6-luna,400,5,control,none,820,265,other,other,False,False,False,False,False,1,10449,43,2.9,codex-cli 0.162.0-alpha.17.2
+n200_seed1|control|none|gpt,n200_seed1,gpt,codex,gpt-6-astra,200,1,control,none,2165,2165,correct,correct,True,False,False,False,False,1,5219,306,9.33,codex-cli 0.162.0-alpha.17.2
+n20_seed5|conflict|none|gpt,n20_seed5,gpt,codex,gpt-6-astra,20,5,conflict,none,1065,1065,correct,correct,True,False,False,False,False,1,903,127,7.1,codex-cli 0.162.0-alpha.17.2
+n200_seed2|conflict|none|gpt-small,n200_seed2,gpt-small,codex,gpt-6-luna,200,2,conflict,none,1645,1190,other,other,False,False,False,False,False,1,5266,798,8.81,codex-cli 0.162.0-alpha.17.2
+n50_seed4|control|none|gpt,n50_seed4,gpt,codex,gpt-6-astra,50,4,control,none,820,820,correct,correct,True,False,False,False,False,1,1608,168,7.21,codex-cli 0.162.0-alpha.17.2
+n200_seed4|control|none|claude-small,n200_seed4,claude-small,claude-code,claude-haiku-5-5,200,4,control,none,1690,1690,correct,correct,True,False,False,False,False,1,7337,981,5.27,2.1.283 (Claude Code)
+n400_seed2|conflict|none|claude,n400_seed2,claude,claude-code,claude-opus-5-5,400,2,conflict,none,1615,1640,missed_one_update,missed_one_update,False,False,False,False,False,1,13180,2761,21.87,2.1.283 (Claude Code)
+n400_seed3|control|none|claude-small,n400_seed3,claude-small,claude-code,claude-haiku-5-5,400,3,control,none,1985,1985,correct,correct,True,False,False,False,False,1,14013,2350,9.28,2.1.283 (Claude Code)
+n400_seed5|control|none|gpt,n400_seed5,gpt,codex,gpt-6-astra,400,5,control,none,820,820,correct,correct,True,False,False,False,False,1,10449,699,15.36,codex-cli 0.162.0-alpha.17.2
+n400_seed3|control|none|gpt,n400_seed3,gpt,codex,gpt-6-astra,400,3,control,none,1985,1985,correct,correct,True,False,False,False,False,1,10026,620,13.96,codex-cli 0.162.0-alpha.17.2
+n800_seed3|conflict|none|claude-small,n800_seed3,claude-small,claude-code,claude-haiku-5-5,800,3,conflict,none,1235,1430,truncated,other,False,False,True,True,False,1,53426,53773,195.87,2.1.283 (Claude Code)
+n400_seed1|control|none|claude-small,n400_seed1,claude-small,claude-code,claude-haiku-5-5,400,1,control,none,2130,2130,correct,correct,True,False,False,False,False,1,14074,2139,8.85,2.1.283 (Claude Code)
+n50_seed2|control|none|claude-small,n50_seed2,claude-small,claude-code,claude-haiku-5-5,50,2,control,none,1310,1310,correct,correct,True,False,False,False,False,1,2223,644,4.38,2.1.283 (Claude Code)
+n200_seed3|control|none|claude-small,n200_seed3,claude-small,claude-code,claude-haiku-5-5,200,3,control,none,2370,2370,correct,correct,True,False,False,False,False,1,7315,1003,5.52,2.1.283 (Claude Code)
+n200_seed1|conflict|none|claude-small,n200_seed1,claude-small,claude-code,claude-haiku-5-5,200,1,conflict,none,2165,2165,correct,correct,True,False,False,False,False,1,6933,3425,13.63,2.1.283 (Claude Code)
+n800_seed4|control|none|claude-small,n800_seed4,claude-small,claude-code,claude-haiku-5-5,800,4,control,none,1240,1240,correct,correct,True,False,False,False,False,1,27387,5489,21.3,2.1.283 (Claude Code)
+n200_seed5|conflict|none|claude,n200_seed5,claude,claude-code,claude-opus-5-5,200,5,conflict,none,1005,1005,correct,correct,True,False,False,False,False,1,6867,2270,17.71,2.1.283 (Claude Code)
+n400_seed4|control|none|gpt-small,n400_seed4,gpt-small,codex,gpt-6-luna,400,4,control,none,1695,1695,correct,correct,True,False,False,False,False,1,10382,1525,13.46,codex-cli 0.162.0-alpha.17.2
+n20_seed1|control|none|claude-small,n20_seed1,claude-small,claude-code,claude-haiku-5-5,20,1,control,none,1965,1965,correct,correct,True,False,False,False,False,1,1276,515,3.93,2.1.283 (Claude Code)
+n400_seed4|conflict|none|claude,n400_seed4,claude,claude-code,claude-opus-5-5,400,4,conflict,none,1695,1695,correct,correct,True,False,False,False,False,1,13624,2940,27.64,2.1.283 (Claude Code)
+n50_seed3|conflict|none|claude-small,n50_seed3,claude-small,claude-code,claude-haiku-5-5,50,3,conflict,none,1665,1665,correct,correct,True,False,False,False,False,1,2204,1301,9.2,2.1.283 (Claude Code)
+n800_seed5|conflict|none|claude,n800_seed5,claude,claude-code,claude-opus-5-5,800,5,conflict,none,2185,2185,correct,correct,True,False,False,False,False,1,27528,6161,49.1,2.1.283 (Claude Code)
+n20_seed4|control|none|gpt-small,n20_seed4,gpt-small,codex,gpt-6-luna,20,4,control,none,1455,1615,other,other,False,False,False,False,False,1,903,60,3.98,codex-cli 0.162.0-alpha.17.2
+n200_seed3|control|none|gpt,n200_seed3,gpt,codex,gpt-6-astra,200,3,control,none,2370,2370,correct,correct,True,False,False,False,False,1,5205,290,8.91,codex-cli 0.162.0-alpha.17.2
+n800_seed5|conflict|none|claude-small,n800_seed5,claude-small,claude-code,claude-haiku-5-5,800,5,conflict,none,2185,1985,truncated,other,False,False,True,True,False,1,55052,57391,213.13,2.1.283 (Claude Code)
+n100_seed1|control|none|gpt,n100_seed1,gpt,codex,gpt-6-astra,100,1,control,none,1380,1380,correct,correct,True,False,False,False,False,1,2802,201,8.57,codex-cli 0.162.0-alpha.17.2
+n20_seed1|conflict|none|gpt-small,n20_seed1,gpt-small,codex,gpt-6-luna,20,1,conflict,none,1965,1980,ignore_nested,ignore_nested,False,False,False,False,False,1,934,95,3.53,codex-cli 0.162.0-alpha.17.2
+n400_seed3|control|none|gpt-small,n400_seed3,gpt-small,codex,gpt-6-luna,400,3,control,none,1985,1860,missed_one_update,missed_one_update,False,False,False,False,False,1,10026,1139,10.8,codex-cli 0.162.0-alpha.17.2
+n100_seed3|conflict|none|claude-small,n100_seed3,claude-small,claude-code,claude-haiku-5-5,100,3,conflict,none,1535,1535,correct,correct,True,False,False,False,False,1,3758,3056,13.9,2.1.283 (Claude Code)
+n200_seed5|control|none|claude,n200_seed5,claude,claude-code,claude-opus-5-5,200,5,control,none,1005,1005,correct,correct,True,False,False,False,False,1,7088,1013,9.23,2.1.283 (Claude Code)
+n20_seed4|conflict|none|claude-small,n20_seed4,claude-small,claude-code,claude-haiku-5-5,20,4,conflict,none,1455,1455,correct,correct,True,False,False,False,False,1,1243,646,4.55,2.1.283 (Claude Code)
+n50_seed1|control|none|gpt-small,n50_seed1,gpt-small,codex,gpt-6-luna,50,1,control,none,855,855,correct,correct,True,False,False,False,False,1,1665,136,3.65,codex-cli 0.162.0-alpha.17.2
+n800_seed4|conflict|none|claude-small,n800_seed4,claude-small,claude-code,claude-haiku-5-5,800,4,conflict,none,1240,1240,truncated,correct,False,False,True,True,False,1,53426,59612,187.45,2.1.283 (Claude Code)
+n200_seed3|control|none|gpt-small,n200_seed3,gpt-small,codex,gpt-6-luna,200,3,control,none,2370,1900,other,other,False,False,False,False,False,1,5205,10,3.23,codex-cli 0.162.0-alpha.17.2
+n50_seed4|conflict|none|claude,n50_seed4,claude,claude-code,claude-opus-5-5,50,4,conflict,none,820,820,correct,correct,True,False,False,False,False,1,2193,736,8.94,2.1.283 (Claude Code)
+n50_seed5|conflict|none|gpt,n50_seed5,gpt,codex,gpt-6-astra,50,5,conflict,none,910,910,correct,correct,True,False,False,False,False,1,1611,214,8.07,codex-cli 0.162.0-alpha.17.2
+n20_seed4|conflict|none|claude,n20_seed4,claude,claude-code,claude-opus-5-5,20,4,conflict,none,1455,1455,correct,correct,True,False,False,False,False,1,1276,476,6.04,2.1.283 (Claude Code)
+n50_seed2|conflict|none|gpt-small,n50_seed2,gpt-small,codex,gpt-6-luna,50,2,conflict,none,1310,1035,other,other,False,False,False,False,False,1,1642,51,3.53,codex-cli 0.162.0-alpha.17.2
+n100_seed2|control|none|gpt,n100_seed2,gpt,codex,gpt-6-astra,100,2,control,none,910,910,correct,correct,True,False,False,False,False,1,2920,177,8.66,codex-cli 0.162.0-alpha.17.2
+n100_seed3|control|none|gpt,n100_seed3,gpt,codex,gpt-6-astra,100,3,control,none,1535,1535,correct,correct,True,False,False,False,False,1,2834,200,7.0,codex-cli 0.162.0-alpha.17.2
+n200_seed4|conflict|none|gpt,n200_seed4,gpt,codex,gpt-6-astra,200,4,conflict,none,1690,1690,correct,correct,True,False,False,False,False,1,5325,467,11.86,codex-cli 0.162.0-alpha.17.2
+n20_seed1|conflict|none|gpt,n20_seed1,gpt,codex,gpt-6-astra,20,1,conflict,none,1965,1965,correct,correct,True,False,False,False,False,1,934,135,6.06,codex-cli 0.162.0-alpha.17.2
+n400_seed1|conflict|none|gpt,n400_seed1,gpt,codex,gpt-6-astra,400,1,conflict,none,2130,2130,correct,correct,True,False,False,False,False,1,10616,1115,23.66,codex-cli 0.162.0-alpha.17.2
+n400_seed4|conflict|none|claude-small,n400_seed4,claude-small,claude-code,claude-haiku-5-5,400,4,conflict,none,1695,1695,correct,correct,True,False,False,False,False,1,13591,11290,42.89,2.1.283 (Claude Code)
+n400_seed1|control|none|gpt-small,n400_seed1,gpt-small,codex,gpt-6-luna,400,1,control,none,2130,2875,other,other,False,False,False,False,False,1,10434,51,3.25,codex-cli 0.162.0-alpha.17.2
+n100_seed2|conflict|none|gpt-small,n100_seed2,gpt-small,codex,gpt-6-luna,100,2,conflict,none,910,880,missed_one_update,missed_one_update,False,False,False,False,False,1,2949,621,6.57,codex-cli 0.162.0-alpha.17.2
+n400_seed1|control|none|claude,n400_seed1,claude,claude-code,claude-opus-5-5,400,1,control,none,2130,2130,correct,correct,True,False,False,False,False,1,14107,1195,15.11,2.1.283 (Claude Code)
+n20_seed2|control|none|gpt-small,n20_seed2,gpt-small,codex,gpt-6-luna,20,2,control,none,1595,1595,correct,correct,True,False,False,False,False,1,896,59,3.31,codex-cli 0.162.0-alpha.17.2
+n20_seed2|control|none|gpt,n20_seed2,gpt,codex,gpt-6-astra,20,2,control,none,1595,1595,correct,correct,True,False,False,False,False,1,896,60,4.3,codex-cli 0.162.0-alpha.17.2
+n200_seed1|conflict|none|gpt-small,n200_seed1,gpt-small,codex,gpt-6-luna,200,1,conflict,none,2165,2070,missed_one_update,missed_one_update,False,False,False,False,False,1,5325,36,3.57,codex-cli 0.162.0-alpha.17.2
+n400_seed3|conflict|none|gpt-small,n400_seed3,gpt-small,codex,gpt-6-luna,400,3,conflict,none,1985,1280,other,other,False,False,False,False,False,2,20404,965,14.88,codex-cli 0.162.0-alpha.17.2
+n20_seed3|control|none|claude,n20_seed3,claude,claude-code,claude-opus-5-5,20,3,control,none,495,495,correct,correct,True,False,False,False,False,1,1265,229,4.23,2.1.283 (Claude Code)
+n800_seed1|conflict|none|claude-small,n800_seed1,claude-small,claude-code,claude-haiku-5-5,800,1,conflict,none,2265,2310,truncated,missed_one_update,False,False,True,True,False,1,53300,60243,662.67,2.1.283 (Claude Code)
+n200_seed2|control|none|claude,n200_seed2,claude,claude-code,claude-opus-5-5,200,2,control,none,1645,1645,correct,correct,True,False,False,False,False,1,7247,985,9.03,2.1.283 (Claude Code)
+n800_seed4|conflict|none|gpt-small,n800_seed4,gpt-small,codex,gpt-6-luna,800,4,conflict,none,1240,775,other,other,False,False,False,False,False,1,20072,9,3.06,codex-cli 0.162.0-alpha.17.2
+n100_seed2|control|none|claude-small,n100_seed2,claude-small,claude-code,claude-haiku-5-5,100,2,control,none,910,910,correct,correct,True,False,False,False,False,1,4037,976,6.07,2.1.283 (Claude Code)
+n800_seed2|control|none|claude-small,n800_seed2,claude-small,claude-code,claude-haiku-5-5,800,2,control,none,2500,2500,correct,correct,True,False,False,False,False,1,27479,4827,18.97,2.1.283 (Claude Code)
+n200_seed1|control|none|gpt-small,n200_seed1,gpt-small,codex,gpt-6-luna,200,1,control,none,2165,2165,correct,correct,True,False,False,False,False,1,5219,804,7.28,codex-cli 0.162.0-alpha.17.2
+n50_seed2|conflict|none|claude,n50_seed2,claude,claude-code,claude-opus-5-5,50,2,conflict,none,1310,1310,correct,correct,True,False,False,False,False,1,2235,814,8.23,2.1.283 (Claude Code)
+n200_seed4|conflict|none|claude-small,n200_seed4,claude-small,claude-code,claude-haiku-5-5,200,4,conflict,none,1690,1690,correct,correct,True,False,False,False,False,1,7104,3175,12.45,2.1.283 (Claude Code)
+n100_seed1|conflict|none|gpt,n100_seed1,gpt,codex,gpt-6-astra,100,1,conflict,none,1380,1380,correct,correct,True,False,False,False,False,1,2851,344,9.71,codex-cli 0.162.0-alpha.17.2
+n100_seed1|control|none|claude-small,n100_seed1,claude-small,claude-code,claude-haiku-5-5,100,1,control,none,1380,1380,correct,correct,True,False,False,False,False,1,3925,867,5.19,2.1.283 (Claude Code)
+n400_seed2|control|none|gpt,n400_seed2,gpt,codex,gpt-6-astra,400,2,control,none,1615,1615,correct,correct,True,False,False,False,False,1,9942,637,20.61,codex-cli 0.162.0-alpha.17.2
+n200_seed2|control|none|gpt-small,n200_seed2,gpt-small,codex,gpt-6-luna,200,2,control,none,1645,1560,missed_one_update,missed_one_update,False,False,False,False,False,1,5213,10,3.16,codex-cli 0.162.0-alpha.17.2
+n100_seed1|conflict|none|claude,n100_seed1,claude,claude-code,claude-opus-5-5,100,1,conflict,none,1380,1380,correct,correct,True,False,False,False,False,1,3876,1304,11.69,2.1.283 (Claude Code)
+n100_seed3|conflict|none|gpt,n100_seed3,gpt,codex,gpt-6-astra,100,3,conflict,none,1535,1535,correct,correct,True,False,False,False,False,1,2886,396,11.08,codex-cli 0.162.0-alpha.17.2
+n200_seed1|conflict|none|gpt,n200_seed1,gpt,codex,gpt-6-astra,200,1,conflict,none,2165,2165,correct,correct,True,False,False,False,False,1,5325,516,15.64,codex-cli 0.162.0-alpha.17.2
+n800_seed1|control|none|claude,n800_seed1,claude,claude-code,claude-opus-5-5,800,1,control,none,2265,2265,correct,correct,True,False,False,False,False,1,27462,2164,20.72,2.1.283 (Claude Code)
+n20_seed5|conflict|none|claude,n20_seed5,claude,claude-code,claude-opus-5-5,20,5,conflict,none,1065,1065,correct,correct,True,False,False,False,False,1,1274,449,5.66,2.1.283 (Claude Code)
+n20_seed3|control|none|gpt-small,n20_seed3,gpt-small,codex,gpt-6-luna,20,3,control,none,495,495,correct,correct,True,False,False,False,False,1,903,54,3.0,codex-cli 0.162.0-alpha.17.2
+n400_seed4|conflict|none|gpt-small,n400_seed4,gpt-small,codex,gpt-6-luna,400,4,conflict,none,1695,1430,other,other,False,False,False,False,False,1,10573,513,7.64,codex-cli 0.162.0-alpha.17.2
+n400_seed3|control|none|claude,n400_seed3,claude,claude-code,claude-opus-5-5,400,3,control,none,1985,1985,correct,correct,True,False,False,False,False,1,14048,1316,12.19,2.1.283 (Claude Code)
+n20_seed4|control|none|claude-small,n20_seed4,claude-small,claude-code,claude-haiku-5-5,20,4,control,none,1455,1455,correct,correct,True,False,False,False,False,1,1262,335,3.18,2.1.283 (Claude Code)
+n50_seed5|control|none|claude-small,n50_seed5,claude-small,claude-code,claude-haiku-5-5,50,5,control,none,910,910,correct,correct,True,False,False,False,False,1,2225,825,4.51,2.1.283 (Claude Code)
+n400_seed1|conflict|none|gpt-small,n400_seed1,gpt-small,codex,gpt-6-luna,400,1,conflict,none,2130,2275,missed_one_update,missed_one_update,False,False,False,False,False,1,10616,43,3.26,codex-cli 0.162.0-alpha.17.2
+n200_seed4|conflict|none|claude,n200_seed4,claude,claude-code,claude-opus-5-5,200,4,conflict,none,1690,1690,correct,correct,True,False,False,False,False,1,7138,1572,13.3,2.1.283 (Claude Code)
+n50_seed3|conflict|none|gpt-small,n50_seed3,gpt-small,codex,gpt-6-luna,50,3,conflict,none,1665,1445,other,other,False,False,False,False,False,1,1665,227,5.27,codex-cli 0.162.0-alpha.17.2
+n800_seed4|control|none|gpt,n800_seed4,gpt,codex,gpt-6-astra,800,4,control,none,1240,1240,correct,correct,True,False,False,False,False,1,19642,1533,23.09,codex-cli 0.162.0-alpha.17.2
+n800_seed2|conflict|none|claude-small,n800_seed2,claude-small,claude-code,claude-haiku-5-5,800,2,conflict,none,2500,2670,truncated,other,False,False,True,True,False,1,80160,95149,311.84,2.1.283 (Claude Code)
+n200_seed3|conflict|none|claude-small,n200_seed3,claude-small,claude-code,claude-haiku-5-5,200,3,conflict,none,2370,2370,correct,correct,True,False,False,False,False,1,7078,6887,26.47,2.1.283 (Claude Code)
+n20_seed3|conflict|none|gpt-small,n20_seed3,gpt-small,codex,gpt-6-luna,20,3,conflict,none,495,495,correct,correct,True,False,False,False,False,1,911,85,4.58,codex-cli 0.162.0-alpha.17.2
+n800_seed1|control|none|gpt-small,n800_seed1,gpt-small,codex,gpt-6-luna,800,1,control,none,2265,1690,other,other,False,False,False,False,False,1,19623,45,3.21,codex-cli 0.162.0-alpha.17.2
+n400_seed2|control|none|claude-small,n400_seed2,claude-small,claude-code,claude-haiku-5-5,400,2,control,none,1615,1615,correct,correct,True,False,False,False,False,1,13494,2271,9.59,2.1.283 (Claude Code)
+n20_seed3|control|none|claude-small,n20_seed3,claude-small,claude-code,claude-haiku-5-5,20,3,control,none,495,495,correct,correct,True,False,False,False,False,1,1230,325,3.13,2.1.283 (Claude Code)
+n200_seed5|conflict|none|claude-small,n200_seed5,claude-small,claude-code,claude-haiku-5-5,200,5,conflict,none,1005,1005,correct,correct,True,False,False,False,False,1,6834,4132,15.68,2.1.283 (Claude Code)
+n50_seed2|conflict|none|claude-small,n50_seed2,claude-small,claude-code,claude-haiku-5-5,50,2,conflict,none,1310,1310,correct,correct,True,False,False,False,False,1,2201,1355,7.07,2.1.283 (Claude Code)
+n200_seed5|control|none|gpt-small,n200_seed5,gpt-small,codex,gpt-6-luna,200,5,control,none,1005,1170,other,other,False,False,False,False,False,1,5181,48,3.85,codex-cli 0.162.0-alpha.17.2
+n50_seed3|control|none|claude,n50_seed3,claude,claude-code,claude-opus-5-5,50,3,control,none,1665,1665,correct,correct,True,False,False,False,False,1,2315,461,6.02,2.1.283 (Claude Code)
+n200_seed5|control|none|gpt,n200_seed5,gpt,codex,gpt-6-astra,200,5,control,none,1005,1005,correct,correct,True,False,False,False,False,1,5181,318,9.44,codex-cli 0.162.0-alpha.17.2
+n100_seed1|control|none|claude,n100_seed1,claude,claude-code,claude-opus-5-5,100,1,control,none,1380,1380,correct,correct,True,False,False,False,False,1,3957,897,8.85,2.1.283 (Claude Code)
+n50_seed4|control|none|claude-small,n50_seed4,claude-small,claude-code,claude-haiku-5-5,50,4,control,none,820,820,correct,correct,True,False,False,False,False,1,2204,981,5.35,2.1.283 (Claude Code)
+n200_seed2|conflict|none|gpt,n200_seed2,gpt,codex,gpt-6-astra,200,2,conflict,none,1645,1645,correct,correct,True,False,False,False,False,1,5266,624,15.73,codex-cli 0.162.0-alpha.17.2
+n100_seed2|control|none|gpt-small,n100_seed2,gpt-small,codex,gpt-6-luna,100,2,control,none,910,1020,missed_one_update,missed_one_update,False,False,False,False,False,1,2920,38,3.87,codex-cli 0.162.0-alpha.17.2
+n800_seed3|conflict|none|gpt,n800_seed3,gpt,codex,gpt-6-astra,800,3,conflict,none,1235,1235,correct,correct,True,False,False,False,False,1,19982,2048,44.06,codex-cli 0.162.0-alpha.17.2
+n200_seed3|conflict|none|gpt,n200_seed3,gpt,codex,gpt-6-astra,200,3,conflict,none,2370,2370,correct,correct,True,False,False,False,False,1,5325,633,15.35,codex-cli 0.162.0-alpha.17.2
+n200_seed1|conflict|none|claude,n200_seed1,claude,claude-code,claude-opus-5-5,200,1,conflict,none,2165,2165,correct,correct,True,False,False,False,False,1,6966,2136,16.73,2.1.283 (Claude Code)
+n50_seed4|conflict|none|gpt-small,n50_seed4,gpt-small,codex,gpt-6-luna,50,4,conflict,none,820,820,correct,correct,True,False,False,False,False,1,1642,387,5.48,codex-cli 0.162.0-alpha.17.2
+n800_seed1|conflict|none|gpt,n800_seed1,gpt,codex,gpt-6-astra,800,1,conflict,none,2265,2265,correct,correct,True,False,False,False,False,1,20020,1858,34.7,codex-cli 0.162.0-alpha.17.2
+n100_seed4|control|none|gpt-small,n100_seed4,gpt-small,codex,gpt-6-luna,100,4,control,none,1540,1880,other,other,False,False,False,False,False,1,2811,38,3.24,codex-cli 0.162.0-alpha.17.2
+n20_seed1|conflict|none|claude,n20_seed1,claude,claude-code,claude-opus-5-5,20,1,conflict,none,1965,1965,correct,correct,True,False,False,False,False,1,1281,427,6.15,2.1.283 (Claude Code)
+n800_seed4|control|none|gpt-small,n800_seed4,gpt-small,codex,gpt-6-luna,800,4,control,none,1240,3510,other,other,False,False,False,False,False,1,19642,57,6.97,codex-cli 0.162.0-alpha.17.2
+n800_seed2|conflict|none|claude,n800_seed2,claude,claude-code,claude-opus-5-5,800,2,conflict,none,2500,2500,correct,correct,True,False,False,False,False,1,26694,5687,43.17,2.1.283 (Claude Code)
+n100_seed5|conflict|none|claude,n100_seed5,claude,claude-code,claude-opus-5-5,100,5,conflict,none,1590,1590,correct,correct,True,False,False,False,False,1,3854,1109,9.73,2.1.283 (Claude Code)
+n400_seed3|conflict|none|claude-small,n400_seed3,claude-small,claude-code,claude-haiku-5-5,400,3,conflict,none,1985,1985,correct,correct,True,False,False,False,False,1,13568,11238,40.69,2.1.283 (Claude Code)
+n800_seed4|conflict|none|claude,n800_seed4,claude,claude-code,claude-opus-5-5,800,4,conflict,none,1240,1240,correct,correct,True,False,False,False,False,1,26714,5786,43.63,2.1.283 (Claude Code)

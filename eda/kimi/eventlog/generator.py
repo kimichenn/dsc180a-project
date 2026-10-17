@@ -14,6 +14,7 @@ from functools import cached_property
 
 from eventlog.dials import Dials
 from eventlog.resolver import Person, Policy, Record, resolve
+from harness.names import codenames
 
 YEAR = 2025
 MEMO_DATE = date(YEAR, 9, 1)
@@ -69,9 +70,6 @@ LAST_NAMES = (
     "Moreau", "Nakamura", "Ortiz", "Petrov", "Quintero", "Rahman", "Silva", "Tanaka", "Ueda", "Varga", "Walsh",
     "Xu", "Yilmaz", "Zimmer", "Abbott", "Bauer", "Castillo", "Dubois", "Eriksen", "Fischer",
 )
-_ONSETS = ("b", "d", "f", "g", "k", "l", "m", "n", "p", "r", "s", "t", "v", "z", "br", "dr", "kr", "tr", "st", "th")
-_VOWELS = ("a", "e", "i", "o", "u")
-_CODAS = ("", "", "", "n", "r", "l", "s", "x")
 _SUFFIXES = ("ra", "on", "is", "ex", "a", "o", "en", "ia")
 
 
@@ -262,7 +260,7 @@ def generate(dials: Dials, seed: int) -> Log:
     budget_threshold = rng.choice((2.5, 3.0, 3.5)) if dials.two_conditions else None
 
     taken: set[str] = set()
-    names = _codenames(rng, dials.n_projects, taken)
+    names = codenames(rng, dials.n_projects, taken)
     n_trapped = round(dials.trap_density * dials.n_projects)
     plans = _trap_plans(rng, dials, n_trapped) + [[] for _ in range(dials.n_projects - n_trapped)]
     on_time = [i % 2 == 0 for i in range(n_trapped)]  # trapped projects: half included, half excluded
@@ -464,17 +462,6 @@ def _other_events(rng, name: str, staff: list[Person], start_id: int) -> list[Ev
         )
         for i, (kind, offset) in enumerate(zip(kinds, days))
     ]
-
-
-def _codenames(rng, count: int, taken: set[str]) -> list[str]:
-    names = []
-    while len(names) < count:
-        syllables = "".join(rng.choice(_ONSETS) + rng.choice(_VOWELS) for _ in range(rng.choice((2, 2, 3))))
-        name = (syllables + rng.choice(_CODAS)).capitalize()
-        if len(name) <= 8 and name.lower() not in taken:
-            taken.add(name.lower())
-            names.append(name)
-    return names
 
 
 def _similar_name(rng, names: list[str], taken: set[str]) -> str:

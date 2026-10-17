@@ -1,0 +1,13 @@
+job_id,model,model_id,n,seed,version,expected,value,category,answered_as,format_failure,truncated,over_limit,output_tokens
+n1600_seed4|control|none|gpt,gpt,gpt-6-astra,1600,4,control,1755,1690,missed_one_update,missed_one_update,False,False,False,2133
+n3200_seed1|conflict|none|gpt,gpt,gpt-6-astra,3200,1,conflict,1490,1470,missed_one_update,missed_one_update,False,False,False,6975
+n3200_seed5|conflict|none|claude,claude,claude-opus-5-5,3200,5,conflict,1760,1750,missed_one_update,missed_one_update,False,False,False,31669
+n3200_seed2|conflict|none|gpt,gpt,gpt-6-astra,3200,2,conflict,1045,1030,missed_one_update,missed_one_update,False,False,False,179
+n1600_seed1|conflict|none|claude,claude,claude-opus-5-5,1600,1,conflict,2320,2445,missed_one_update,missed_one_update,False,False,False,12132
+n1600_seed3|conflict|none|claude,claude,claude-opus-5-5,1600,3,conflict,1150,1060,missed_one_update,missed_one_update,False,False,False,11391
+n3200_seed2|control|none|gpt,gpt,gpt-6-astra,3200,2,control,1045,1350,other,other,False,False,False,6405
+n3200_seed4|conflict|none|claude,claude,claude-opus-5-5,3200,4,conflict,2195,2200,missed_one_update,missed_one_update,False,False,False,615
+n1600_seed5|conflict|none|claude,claude,claude-opus-5-5,1600,5,conflict,2375,2320,missed_one_update,missed_one_update,False,False,False,13140
+n3200_seed3|control|none|gpt,gpt,gpt-6-astra,3200,3,control,1580,1585,missed_one_update,missed_one_update,False,False,False,4435
+n1600_seed4|conflict|none|claude,claude,claude-opus-5-5,1600,4,conflict,1755,1905,missed_one_update,missed_one_update,False,False,False,12765
+n3200_seed2|conflict|none|claude,claude,claude-opus-5-5,3200,2,conflict,1045,1125,missed_one_update,missed_one_update,False,False,False,27104

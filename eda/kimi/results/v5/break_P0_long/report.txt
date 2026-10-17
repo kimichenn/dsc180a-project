@@ -1,0 +1,36 @@
+== Coverage ==
+break phase, profile P0: 40 calls, 2 models, N 1600, 3200
+reruns for a missing ANSWER line: 0  |  format failures: 0  |  truncated: 0 (past the output limit: 0)  |  used a tool: 0
+tokens: 3,066,708 in, 360,610 out  |  harness: 2.1.283 (Claude Code), codex-cli 0.162.0-alpha.17.2
+
+== Accuracy (correct/calls, accuracy, Wilson 95% interval); format failures and truncations count as wrong ==
+n                               1600                 3200
+model  version                                           
+gpt    conflict  5/5 100% [57%-100%]   3/5  60% [23%-88%]
+       control    4/5  80% [38%-96%]   3/5  60% [23%-88%]
+claude conflict    1/5  20% [4%-62%]   2/5  40% [12%-77%]
+       control   5/5 100% [57%-100%]  5/5 100% [57%-100%]
+
+== Conflict - control accuracy (points) ==
+n      1600 3200
+model           
+gpt     +20   +0
+claude  -80  -60
+
+== Break points (smallest N with accuracy <= 50%) ==
+  gpt           conflict  none   control  none
+  claude        conflict  1600   control  none
+
+== Error categories (calls per category; the first matching lure wins) ==
+category         correct  missed_one_update  other  format_failure  truncated
+model  version                                                               
+gpt    conflict        8                  2      0               0          0
+       control         7                  2      1               0          0
+claude conflict        3                  7      0               0          0
+       control        10                  0      0               0          0
+
+== Decision ==
+gpt stay above 50% conflict accuracy at N=3200 under P0.
+Escalate to P1 (withdraw_ref=description). N=6400 fits every flagship's context window, so it is added. The small models already have break points, so only the flagships run:
+  python -m chain run break --profile P1 --models gpt claude --levels 1600 3200 6400 --out results/v5/break_P1
+

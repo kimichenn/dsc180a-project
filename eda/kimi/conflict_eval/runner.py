@@ -8,7 +8,6 @@ from __future__ import annotations
 
 import hashlib
 import json
-import subprocess
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -17,18 +16,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from conflict_eval.design import Design, Trial
-from conflict_eval.models import ModelClient, ModelConfig, is_fatal
 from conflict_eval.prompts import INSTRUCTIONS, build_prompt
 from conflict_eval.scenarios import FillerPassage
+from harness.calls import FatalModelError, generate_with_retries, git_commit
+from harness.models import ModelClient, ModelConfig
 
 RESPONSES_FILE = "responses.jsonl"
 MANIFEST_FILE = "manifest.json"
-ATTEMPTS = 3  # on top of the SDKs' own retries
-BACKOFF_S = 10
-
-
-class FatalModelError(RuntimeError):
-    """A request error that will repeat on every trial, such as a bad key or unknown model."""
 
 
 @dataclass
@@ -123,18 +117,6 @@ def _execute(trial: Trial, client: ModelClient, filler: list[FillerPassage]) -> 
     return row
 
 
-def generate_with_retries(client: ModelClient, prompt):
-    for attempt in range(ATTEMPTS):
-        try:
-            return client.generate(prompt)
-        except Exception as error:
-            if is_fatal(error):
-                raise FatalModelError(f"{client.config.name}: {type(error).__name__}: {error}") from error
-            if attempt == ATTEMPTS - 1:
-                raise
-            time.sleep(BACKOFF_S * 2**attempt)
-
-
 def write_manifest(
     run_dir: Path,
     design: Design,
@@ -189,11 +171,3 @@ def read_manifest(run_dir: Path) -> dict:
 
 def _jsonable(value):
     return json.loads(json.dumps(value))
-
-
-def git_commit() -> str | None:
-    try:
-        result = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True, text=True, check=True)
-        return result.stdout.strip()
-    except (OSError, subprocess.CalledProcessError):
-        return None

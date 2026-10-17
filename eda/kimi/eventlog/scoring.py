@@ -5,8 +5,8 @@ from __future__ import annotations
 import re
 
 from eventlog.generator import TRAP_TYPES
+from harness.answers import ANSWER_LINE
 
-_ANSWER_LINE = re.compile(r"^[\s*_#>`-]*(?:final\s+)?answer[\s*_`]*:(.*)$", re.IGNORECASE | re.MULTILINE)
 _SEPARATORS = re.compile(r",|;|\band\b", re.IGNORECASE)
 
 
@@ -20,7 +20,7 @@ def normalize_name(name: str) -> str:
 def parse_answer(response: str | None) -> list[str] | None:
     """Names from the last ANSWER line, [] for 'none', or None when there is no answer line."""
     text = response or ""
-    matches = list(_ANSWER_LINE.finditer(text))
+    matches = list(ANSWER_LINE.finditer(text))
     if not matches:
         return None
     body = matches[-1].group(1).strip()
