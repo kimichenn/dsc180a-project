@@ -1,0 +1,14 @@
+Ledger:
+R00001 | Approval Office | Orion | Authorize route AMBER. Requires: none.
+R00002 | Evidence Office | Orion | Issue evidence. Requires: none.
+R00003 | Evidence Office | Orion | Issue evidence. Requires: R00002.
+R00004 | Approval Office | Orion | Authorize route BLUE. Requires: R00003.
+R00005 | Audit Office | Orion | Withdraw R00002.
+R00006 | Audit Office | Orion | Withdraw R00005.
+R00007 | Audit Office | Orion | Withdraw R00006.
+R00008 | Team | Orion | Orion's approved route is BLUE.
+
+End of ledger.
+Non-evidence padding (contains no records):
+
+Which route is authorized for Orion at the end of the ledger?

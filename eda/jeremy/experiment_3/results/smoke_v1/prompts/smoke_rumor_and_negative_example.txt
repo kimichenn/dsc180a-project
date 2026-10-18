@@ -1,0 +1,9 @@
+Ledger:
+R00001 | Finance Office | Set Orion opening budget to $10K.
+R00002 | Finance Office | Adjust Orion budget by -40K.
+R00003 | Planning Team | The budget is $900K.
+
+End of ledger.
+Non-evidence padding (contains no records):
+
+What is the final budget for Orion, in thousands? Finish with ANSWER: $<integer>K.

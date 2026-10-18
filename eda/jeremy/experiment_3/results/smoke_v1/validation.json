@@ -1,0 +1,112 @@
+{
+  "worlds": [
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 0,
+        "max_withdrawal_chain": 0,
+        "nested_withdrawals": 0,
+        "record_counts": {
+          "initial": 1
+        },
+        "surviving_adjustments": 0
+      },
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "example": 54
+      },
+      "record_counts": {
+        "example": 1
+      },
+      "world_id": "smoke_opening_balance"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 0,
+        "max_withdrawal_chain": 1,
+        "nested_withdrawals": 0,
+        "record_counts": {
+          "adjustment": 2,
+          "initial": 1,
+          "withdrawal": 1
+        },
+        "surviving_adjustments": 1
+      },
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "example": 96
+      },
+      "record_counts": {
+        "example": 4
+      },
+      "world_id": "smoke_one_withdrawal"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 0,
+        "max_withdrawal_chain": 2,
+        "nested_withdrawals": 1,
+        "record_counts": {
+          "adjustment": 1,
+          "initial": 1,
+          "withdrawal": 2
+        },
+        "surviving_adjustments": 1
+      },
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "example": 97
+      },
+      "record_counts": {
+        "example": 4
+      },
+      "world_id": "smoke_reinstatement"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 1,
+        "max_withdrawal_chain": 0,
+        "nested_withdrawals": 0,
+        "record_counts": {
+          "adjustment": 1,
+          "initial": 1,
+          "message": 1
+        },
+        "surviving_adjustments": 1
+      },
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "example": 79
+      },
+      "record_counts": {
+        "example": 3
+      },
+      "world_id": "smoke_rumor_and_negative"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 0,
+        "max_withdrawal_chain": 3,
+        "nested_withdrawals": 2,
+        "record_counts": {
+          "adjustment": 1,
+          "initial": 1,
+          "withdrawal": 3
+        },
+        "surviving_adjustments": 0
+      },
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "example": 112
+      },
+      "record_counts": {
+        "example": 5
+      },
+      "world_id": "smoke_triple_withdrawal"
+    }
+  ]
+}

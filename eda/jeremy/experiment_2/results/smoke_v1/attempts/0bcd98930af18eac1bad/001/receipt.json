@@ -1,0 +1,28 @@
+{
+  "attempt": 1,
+  "cli_version": "codex-cli 0.162.0-alpha.17.2",
+  "elapsed_seconds": 0.237,
+  "events": {
+    "cache_write_input_tokens": null,
+    "cached_input_tokens": null,
+    "errors": [],
+    "event_counts": {},
+    "final_messages": [],
+    "input_tokens": null,
+    "invalid_json_lines": [],
+    "output_tokens": null,
+    "reasoning_output_tokens": null,
+    "reported_models": [],
+    "unexpected_events": [],
+    "unexpected_items": [],
+    "usage_missing_reason": "missing_reported_usage",
+    "usage_raw": []
+  },
+  "execution_status": "execution_error",
+  "finished_at": "2026-10-18T05:15:57.375741+00:00",
+  "response": "",
+  "returncode": 1,
+  "started_at": "2026-10-18T05:15:57.138635+00:00",
+  "stderr_tail": "WARNING: proceeding, even though we could not create PATH aliases: Operation not permitted (os error 1)\n2026-10-18T05:15:57.336566Z  WARN codex_state::runtime::logs_maintenance: failed to prune diagnostic logs: error returned from database: (code: 8) attempt to write a readonly database\n2026-10-18T05:15:57.337084Z  WARN codex_state::runtime::logs_maintenance: failed to checkpoint diagnostic logs: error returned from database: (code: 8) attempt to write a readonly database\nError: failed to initialize in-process app-server client: Operation not permitted (os error 1)\n",
+  "trial_id": "0bcd98930af18eac1bad"
+}

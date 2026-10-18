@@ -1,0 +1,22 @@
+{
+  "models": ["gpt-6-astra", "gpt-6.1-sol", "gpt-6-sol", "gpt-6-luna"],
+  "efforts": ["none", "low", "medium", "high"],
+  "schedule_seed": 180,
+  "tokenizer": {"kind": "characters", "characters_per_token": 4},
+  "token_match_tolerance": 0.02,
+  "timeout_seconds": 900,
+  "max_attempts": 3,
+  "profiles": {
+    "smoke": {"worlds": 5, "contexts": ["example"], "instructions": ["none"]},
+    "development": {
+      "worlds": 5, "seed_start": 100000, "depths": [2, 4, 8],
+      "records": 1600, "projects": 20, "approvals": 8, "summaries": 8,
+      "contexts": ["C", "RG"], "instructions": ["none"]
+    },
+    "confirmation": {
+      "worlds": 30, "seed_start": 200000, "depths": [4],
+      "records": 1600, "projects": 20, "approvals": 8, "summaries": 8,
+      "contexts": ["C", "G", "R", "RG"], "instructions": ["none", "neutral", "skill"]
+    }
+  }
+}

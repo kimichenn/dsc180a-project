@@ -1,0 +1,376 @@
+{
+  "allow_estimated_tokens": false,
+  "artifact_hashes": {
+    "baselines.csv": "b7fdfbb9dba1745e2fc3c16c08dabb0f9f5cbb63f424a2b413cc982115af43a8",
+    "instructions/neutral.md": "6c055f1a9c38336d22b88e81a5b2e0177bc162aa71d8d6462f49a7ef34b2d243",
+    "instructions/none.md": "e7bd5a543f86aa92b1a4acfabccb6298dea6417e5f0abb43f43e5d6d85f520a0",
+    "instructions/skill.md": "893a7783d9fad8b648ab7d934ba158f9fd58b0c5f03f08229ee1b81c97a7df0c",
+    "prompts/s100000_d02_C.txt": "0b375cc0ec8d2bf0f0202b2594b8cef64e88cca09c44e37fecc143f2db3aa884",
+    "prompts/s100000_d02_G.txt": "390f28c63fde4516d4dc3bf207943faf5e4bf8753c86032e7e40f622bb198275",
+    "prompts/s100000_d02_R.txt": "7b01d4c0a801099435dc020ed73ad8eb8fa264e0d3ff1d8534d1a71520cbb4bf",
+    "prompts/s100000_d02_RG.txt": "ebbc2656a5ef0e8964fbb275293e1b1c7b06cb16ade8e4994e198c6be58edd45",
+    "prompts/s100000_d04_C.txt": "9b6744f37de504fb3140167d6836b01089f1941b721bf5c726903ce4bf925fd5",
+    "prompts/s100000_d04_G.txt": "3c0da02f577298575c56042b8ab8fdbbd0c42e296e13ab0800af64bfbad38625",
+    "prompts/s100000_d04_R.txt": "fa13a95ec28a2a81bfd6fb3ee5720fc1ff29a4aea33c7b0ca2b5f24dada7c018",
+    "prompts/s100000_d04_RG.txt": "ea39c75ac7cfdff4ad787aa326103e303e336171a93a28026f8a408313515b8c",
+    "prompts/s100000_d08_C.txt": "28ecddfcdf873e19ee234c911e0abcec312615197dac62c6f6bba2160074f534",
+    "prompts/s100000_d08_G.txt": "ad754083d9e3d06a02cfc53449c1c7389b31170812ef58b3d77a622ac29f9339",
+    "prompts/s100000_d08_R.txt": "ee2a4ec0b188810b34e320d3aa264aab65ed4e6c7a16ba92d5b905cfa8c053d8",
+    "prompts/s100000_d08_RG.txt": "5f2a2c79802f2f311dd2bafc9f97cb9b8174ee5f0a09af43404462c167a8ba3f",
+    "prompts/s100001_d02_C.txt": "e7524c4ca2cbcca51eacc458ae2ef13ecddd85e47933cccbedc13605a00a7e9e",
+    "prompts/s100001_d02_G.txt": "a852f93d1e7df1e8724ab3bae075a250195e37a0e9650d9c2c4641d0dfcc30c0",
+    "prompts/s100001_d02_R.txt": "86796871897e1be241412735aa8b1cee56ece33aaaa5df5ded9aa7c69a23ad7f",
+    "prompts/s100001_d02_RG.txt": "ac45c613bc4cf6844d3e08efc47534971f4624f4e72efbc851cb502385b73c74",
+    "prompts/s100001_d04_C.txt": "d6856c3ea9c7bc431656888666f2ee3365269472606a1d542417355059e1262e",
+    "prompts/s100001_d04_G.txt": "eb7cb0e0e988ff809ef180d590baadb80146d4d797bf3d31a414640f79fd77fd",
+    "prompts/s100001_d04_R.txt": "e952be199ca2265cc37734f1178c5ca141202b7feadc1ad80c0f25b927702552",
+    "prompts/s100001_d04_RG.txt": "1e9b4eb570cc8d3c67cbc743360a211e99e8a00e36fd89dd574dbd28f5f6becd",
+    "prompts/s100001_d08_C.txt": "552bceecc1f296cd3fe8e7630311e5c23b7d9c5435d9b7d9bca6c791aa26c353",
+    "prompts/s100001_d08_G.txt": "5412e328d691a6567ca0cadf72c15cb540baeaf7055d9e85dc662316caa7c661",
+    "prompts/s100001_d08_R.txt": "7287d4a2c7674dda538090b24926db860cb6e16e158ac90eb963a5f0baded678",
+    "prompts/s100001_d08_RG.txt": "462f3bc7c6b73ba08956286ca8f8b9bc5f459263ae970dd8c2a8519359915ded",
+    "prompts/s100002_d02_C.txt": "fe82fcf73203d747666eee37094d62d950a377327dadc3bf06dc6983fc668299",
+    "prompts/s100002_d02_G.txt": "f880d00b36be84116afa189bbf80ffb6a6fbe0bf848b6a884422931a67d7f0a7",
+    "prompts/s100002_d02_R.txt": "065226497d2221878fbed2d057d1ece7a7c9b4563ca0a308b68e068aa01a1887",
+    "prompts/s100002_d02_RG.txt": "95847b39d96a2fe7f4ed3265d9bcfd12a39c78e2710fb88051ce03d383603fd8",
+    "prompts/s100002_d04_C.txt": "abe3b0b55e8cf576d69b4d517af396bc58b69393e7e17c951949f28c5ff8fc36",
+    "prompts/s100002_d04_G.txt": "c425ddd4e8106cd7fb79c36dc1e84c2809aed9ecac8634b4382776c9fd1fc813",
+    "prompts/s100002_d04_R.txt": "79f32e60c8546b1773e1737a60afe4437019d121c452e39f2fdefc9ec9735341",
+    "prompts/s100002_d04_RG.txt": "055c4ffb25b8c55dc552c13d90026063957478f7358f9a5b1af28624afd83682",
+    "prompts/s100002_d08_C.txt": "26638c87de0604e1c66f04e1fc396ff009121abfcac660b14fe43f297c4f61f9",
+    "prompts/s100002_d08_G.txt": "94b73c1b67a901ccb7b0a01ef66599ecd0ab54ddde6c2af342598bf2dc0ccabd",
+    "prompts/s100002_d08_R.txt": "5d2f7d6e9b896dd2ee22304821f5f287e9a806b9b9999ddb53215c488aa75a95",
+    "prompts/s100002_d08_RG.txt": "4163ee87b384d58d35c674609956156bc7dc5947666fb2c3582ee70721ba8481",
+    "prompts/s100003_d02_C.txt": "9ee8d3af54b345f0355f20be8df5263b9e0115eab223e43b672eb5a728941052",
+    "prompts/s100003_d02_G.txt": "68a550bba7dfe23fae06a7a429d62b1391c2625676a8048a410cedf80c1488cf",
+    "prompts/s100003_d02_R.txt": "c0c35bbe805d484954eb9406a37252ae82ca124d62c9f648b362fa00adcfeffa",
+    "prompts/s100003_d02_RG.txt": "f5d2eb40c0b32feef168bb9167d3764011c669328d6cef95e470dbf11bdc0db0",
+    "prompts/s100003_d04_C.txt": "6a33dae7ffea17373b731d8827d99c7faac4cf1795e2e4253b6dcb33d4b7432c",
+    "prompts/s100003_d04_G.txt": "8e97391828fb1ec337030f11067c39ef2ea4b26c2e3fdb32c48699a3442ab676",
+    "prompts/s100003_d04_R.txt": "2c35653e645992d418101e262e23225f2978950e1bea37d4d8881b446d1a4271",
+    "prompts/s100003_d04_RG.txt": "94d062360238e203548fbac35651429de84667e590b69b338e35493d14bf37ac",
+    "prompts/s100003_d08_C.txt": "52d65d55be3381657b15cfd56a78fdb9b982171643e9d68917fb5a93c23710bf",
+    "prompts/s100003_d08_G.txt": "0a9294c386807d71e2ba10e63cc166bbb8628e1c1c73555044a39db455372429",
+    "prompts/s100003_d08_R.txt": "b115099bf250e441fec28163a5a349ea70366b9e473221a60298557bea5b47e3",
+    "prompts/s100003_d08_RG.txt": "fc2efa672c4e02b8756ed375af35bfa16de73936d6e6f09a46973067b1b008fa",
+    "prompts/s100004_d02_C.txt": "cc0619d3b4cf6722937b1851b8c80ede5157ba0b4edcfdbbd68773d67aa26d62",
+    "prompts/s100004_d02_G.txt": "2a3b6c796d6bb5beb35cec8464bd1424c1c11b78985b2eaab42e0a8b0f7a7076",
+    "prompts/s100004_d02_R.txt": "90e068c24c16d3be17e77bbe40c5661553eac2fb45f3d3ecc7f9904c9f130162",
+    "prompts/s100004_d02_RG.txt": "aa1b4dd673466c4613817958831d4123b25900298d7709878d275b0e0c2eb13d",
+    "prompts/s100004_d04_C.txt": "72c90b7da9b661446a327ae35e6d4a1d86ea9339aa7dbe6f72e53a06bf230a82",
+    "prompts/s100004_d04_G.txt": "c985bce78110e6692d9d8c2b830a199506a026edebc467d32661d5ae8f15b3c9",
+    "prompts/s100004_d04_R.txt": "b25a52a224dc98d2cd8fe645c9185fdbc19aa03e177fcb1cab38fe1b8a4e6d6d",
+    "prompts/s100004_d04_RG.txt": "604d99d865f98eede216ecccd99f4d9eb3a060992d654d0b06a4991bc4470ffb",
+    "prompts/s100004_d08_C.txt": "351d025d3e5e43010051e7ecd3c1492520826872c4df414555375884dfb1ad41",
+    "prompts/s100004_d08_G.txt": "25182aef0c34a41ff94844b7b079e93fbbaf5b9cf6a1c4d02998acf568d9ed45",
+    "prompts/s100004_d08_R.txt": "e6c4f40f74f0862ea20037e27d79f5d02ea7a484fc46cb2495c3f34901421003",
+    "prompts/s100004_d08_RG.txt": "b16b1e73e86282fc15b5f8fc2c6dbf3f8e48d16f1dfc0e2a5a54fa3bcf8c4e5e",
+    "trials.jsonl": "47fec8d0f4d5c691eb52a5de68052a4b7fb71c4c05c18bc4f4d8fc5ba67dd4ea",
+    "unsupported_combinations.csv": "5c82558a11125b8a9bc96e59d320da11f13aa274288ad850d9270498ac341f39",
+    "validation.json": "baaa1b9900c72eb4aec3a9d96f9cf05a1ffaa9bf2ac1ffa0a2fc32737bfce203",
+    "worlds.jsonl": "06c7ec7acc20d190401f8df1fc1f5fd763a263eaed7f6f156849acf746adca1d"
+  },
+  "config": {
+    "efforts": [
+      "none",
+      "low",
+      "medium",
+      "high"
+    ],
+    "max_attempts": 3,
+    "models": [
+      "gpt-6-astra",
+      "gpt-6.1-sol",
+      "gpt-6-sol",
+      "gpt-6-luna"
+    ],
+    "profiles": {
+      "confirmation": {
+        "approvals": 8,
+        "contexts": [
+          "C",
+          "G",
+          "R",
+          "RG"
+        ],
+        "depths": [
+          4
+        ],
+        "instructions": [
+          "none",
+          "neutral",
+          "skill"
+        ],
+        "projects": 20,
+        "records": 1600,
+        "seed_start": 200000,
+        "summaries": 8,
+        "worlds": 30
+      },
+      "development": {
+        "approvals": 8,
+        "contexts": [
+          "C",
+          "RG"
+        ],
+        "depths": [
+          2,
+          4,
+          8
+        ],
+        "instructions": [
+          "none"
+        ],
+        "projects": 20,
+        "records": 1600,
+        "seed_start": 100000,
+        "summaries": 8,
+        "worlds": 5
+      },
+      "smoke": {
+        "contexts": [
+          "example"
+        ],
+        "instructions": [
+          "none"
+        ],
+        "worlds": 5
+      }
+    },
+    "schedule_seed": 180,
+    "timeout_seconds": 900,
+    "token_match_tolerance": 0.02,
+    "tokenizer": {
+      "characters_per_token": 4,
+      "kind": "characters"
+    }
+  },
+  "created_at": "2026-10-18T05:40:48.440745+00:00",
+  "development_reviewed": false,
+  "generation_limit": {
+    "enforced": false,
+    "reason": "No verified Codex CLI output-token cap",
+    "requested_tokens": 32000
+  },
+  "limitations": [
+    "Codex harness; requested model is not a pinned served checkpoint",
+    "Model catalog is cached; live availability can differ",
+    "Usage accounting is retained as reported; output/reasoning fields are not added together",
+    "Exact prompt token matching unverified"
+  ],
+  "manifest_sha256": "776c41afd1da653d488e6e955bac6e967fc0c83024cdd9de2e2544655470ed89",
+  "model_catalog": {
+    "client_version": "0.162.0",
+    "fetched_at": "2026-10-18T05:40:02.670122Z",
+    "models": [
+      {
+        "context_window": 500000,
+        "default_effort": "low",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6.1-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6-astra",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-6-luna",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-reserve",
+        "visibility": "hide"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "low",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-5.6-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-5.6-terra",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-5.6-luna",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "codex-auto-review",
+        "visibility": "hide"
+      }
+    ],
+    "source": "/Users/jeremycheng/.codex/models_cache.json"
+  },
+  "planned_trials": 360,
+  "schema_version": 1,
+  "source_hashes": {
+    "collection.py": "46614d75283a1af1426d0ebea19ac174600ed36a42da807a851bebc7290bc8c8",
+    "ledger.py": "b0fcea25f6197654daed49fedc76a52e2e99a6dc49979c23222983bc5a7a9a2c",
+    "planning.py": "e554bf1af2705fde1ce9103a6fb4c4897026797bda06160bd6fb902f4a96fabc",
+    "run.py": "caeecd685020b10a712723168245eb1c8b8fd2f9a3510985f65821e7867f38fc"
+  },
+  "stage": "development",
+  "supported_combinations": [
+    {
+      "effort": "low",
+      "model": "gpt-6-astra"
+    },
+    {
+      "effort": "medium",
+      "model": "gpt-6-astra"
+    },
+    {
+      "effort": "high",
+      "model": "gpt-6-astra"
+    },
+    {
+      "effort": "low",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "effort": "medium",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "effort": "high",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "effort": "low",
+      "model": "gpt-6-sol"
+    },
+    {
+      "effort": "medium",
+      "model": "gpt-6-sol"
+    },
+    {
+      "effort": "high",
+      "model": "gpt-6-sol"
+    },
+    {
+      "effort": "low",
+      "model": "gpt-6-luna"
+    },
+    {
+      "effort": "medium",
+      "model": "gpt-6-luna"
+    },
+    {
+      "effort": "high",
+      "model": "gpt-6-luna"
+    }
+  ],
+  "tokenizer": {
+    "characters_per_token": 4,
+    "kind": "characters"
+  },
+  "unsupported_combinations": [
+    {
+      "effort": "none",
+      "model": "gpt-6-astra",
+      "reason": "effort_not_advertised_by_codex"
+    },
+    {
+      "effort": "none",
+      "model": "gpt-6.1-sol",
+      "reason": "effort_not_advertised_by_codex"
+    },
+    {
+      "effort": "none",
+      "model": "gpt-6-sol",
+      "reason": "effort_not_advertised_by_codex"
+    },
+    {
+      "effort": "none",
+      "model": "gpt-6-luna",
+      "reason": "effort_not_advertised_by_codex"
+    }
+  ]
+}

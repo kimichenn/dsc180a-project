@@ -1,0 +1,84 @@
+{
+  "efforts": [
+    "high"
+  ],
+  "max_attempts": 3,
+  "models": [
+    "gpt-6-luna"
+  ],
+  "profiles": {
+    "confirmation": {
+      "approvals": 8,
+      "contexts": [
+        "C",
+        "RG"
+      ],
+      "depths": [
+        16
+      ],
+      "instructions": [
+        "none"
+      ],
+      "projects": 20,
+      "records": 1600,
+      "seed_start": 200000,
+      "summaries": 8,
+      "worlds": 30
+    },
+    "development": {
+      "approvals": 8,
+      "contexts": [
+        "C",
+        "RG"
+      ],
+      "depths": [
+        16
+      ],
+      "instructions": [
+        "none"
+      ],
+      "projects": 20,
+      "records": 1600,
+      "seed_start": 100000,
+      "summaries": 8,
+      "worlds": 5
+    },
+    "smoke": {
+      "contexts": [
+        "example"
+      ],
+      "instructions": [
+        "none"
+      ],
+      "worlds": 5
+    }
+  },
+  "schedule_seed": 180,
+  "timeout_seconds": 900,
+  "token_match_tolerance": 0.02,
+  "tokenizer": {
+    "characters_per_token": 4,
+    "kind": "characters"
+  },
+  "study_amendment": {
+    "recorded_at": "2026-10-18T06:34:44.194901+00:00",
+    "design": "Focused fresh-world confirmation selected after development; primary contrast is Luna high C minus RG, no added instruction.",
+    "selection_evidence": "results/development_depth16_v1/effort_findings.md",
+    "selection_evidence_sha256": "d1abb769cbd884736201e072ecc07a29ba82e776227e79684511ec13c09e2590",
+    "changes_from_original_plan": [
+      "Select Luna high rather than all models at medium as primary",
+      "Collect C and RG with no added instruction; defer G/R ablations and instruction treatments"
+    ],
+    "complete_eligible_trials_before_assessment": 60,
+    "thresholds": {
+      "clean_correct_min": 27,
+      "rg_correct_max": 18,
+      "paired_gap_pp_min": 30,
+      "bootstrap_interval_excludes_zero": true,
+      "valid_format_min_per_condition": 29
+    },
+    "token_matching": "Explicitly retain character-based estimates; exact matching unverified. Audit reported input usage per matched pair.",
+    "scope": "A Luna-specific result; not evidence that Astra fails or that all frontier models fail.",
+    "no_optional_stopping": "Complete the frozen plan before assessing success; preserve failed attempts and report incomplete coverage if execution cannot be completed."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "instruction_token_counts": {
+    "neutral": 103,
+    "skill": 104
+  },
+  "worlds": [
+    {
+      "answer_agreement": true,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "example": 104
+      },
+      "record_counts": {
+        "example": 4
+      },
+      "world_id": "smoke_clean_chain"
+    },
+    {
+      "answer_agreement": true,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "example": 117
+      },
+      "record_counts": {
+        "example": 5
+      },
+      "world_id": "smoke_single_withdrawal"
+    },
+    {
+      "answer_agreement": true,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "example": 129
+      },
+      "record_counts": {
+        "example": 6
+      },
+      "world_id": "smoke_reinstatement"
+    },
+    {
+      "answer_agreement": true,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "example": 155
+      },
+      "record_counts": {
+        "example": 8
+      },
+      "world_id": "smoke_nested_cancellation"
+    },
+    {
+      "answer_agreement": true,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "example": 155
+      },
+      "record_counts": {
+        "example": 7
+      },
+      "world_id": "smoke_shared_evidence"
+    }
+  ]
+}

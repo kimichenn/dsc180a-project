@@ -1,0 +1,321 @@
+{
+  "allow_estimated_tokens": false,
+  "artifact_hashes": {
+    "baselines.csv": "f47d9f514e92b49e170338c590e0e2eddd1c3cd4ba6de500d0ff6bb21a4f8ba0",
+    "instructions/neutral.md": "6c055f1a9c38336d22b88e81a5b2e0177bc162aa71d8d6462f49a7ef34b2d243",
+    "instructions/none.md": "e7bd5a543f86aa92b1a4acfabccb6298dea6417e5f0abb43f43e5d6d85f520a0",
+    "instructions/skill.md": "893a7783d9fad8b648ab7d934ba158f9fd58b0c5f03f08229ee1b81c97a7df0c",
+    "prompts/smoke_clean_chain_example.txt": "f9c0bf6f9d9fa1f898d27474c90e0558e03c7972b99f1660874a23e5b728d8e8",
+    "prompts/smoke_nested_cancellation_example.txt": "df6663384cd26106f18ad9ea28b33d3877141363537b9019df9993512483b3e7",
+    "prompts/smoke_reinstatement_example.txt": "6c4e1ab0fa05025c724508ee0c62a85cda94afecf308281f2d7f18391fcf5ded",
+    "prompts/smoke_shared_evidence_example.txt": "42491649f50b913513448fc950e37a554e30c361114b2fc7ef70ebe4c871ee03",
+    "prompts/smoke_single_withdrawal_example.txt": "06832c62979c42039a0f073c091d9243a5052a9d2ae826bd577d939418090cee",
+    "trials.jsonl": "06c5f03d4a54749ee3ee304fb07be7f95252421cad1a9c731bea5a4f3bd540bd",
+    "unsupported_combinations.csv": "5c82558a11125b8a9bc96e59d320da11f13aa274288ad850d9270498ac341f39",
+    "validation.json": "3efec9a1c3d0f5f9517b6baaacfd8e6f000d4e96db06b75806c59657e40486ce",
+    "worlds.jsonl": "96df74af1fe8fff467f67e737cfe0bf7ac05e21182d93510a06df7e03d9c2ebe"
+  },
+  "config": {
+    "efforts": [
+      "none",
+      "low",
+      "medium",
+      "high"
+    ],
+    "max_attempts": 3,
+    "models": [
+      "gpt-6-astra",
+      "gpt-6.1-sol",
+      "gpt-6-sol",
+      "gpt-6-luna"
+    ],
+    "profiles": {
+      "confirmation": {
+        "approvals": 8,
+        "contexts": [
+          "C",
+          "G",
+          "R",
+          "RG"
+        ],
+        "depths": [
+          4
+        ],
+        "instructions": [
+          "none",
+          "neutral",
+          "skill"
+        ],
+        "projects": 20,
+        "records": 1600,
+        "seed_start": 200000,
+        "summaries": 8,
+        "worlds": 30
+      },
+      "development": {
+        "approvals": 8,
+        "contexts": [
+          "C",
+          "RG"
+        ],
+        "depths": [
+          2,
+          4,
+          8
+        ],
+        "instructions": [
+          "none"
+        ],
+        "projects": 20,
+        "records": 1600,
+        "seed_start": 100000,
+        "summaries": 8,
+        "worlds": 5
+      },
+      "smoke": {
+        "contexts": [
+          "example"
+        ],
+        "instructions": [
+          "none"
+        ],
+        "worlds": 5
+      }
+    },
+    "schedule_seed": 180,
+    "timeout_seconds": 900,
+    "token_match_tolerance": 0.02,
+    "tokenizer": {
+      "characters_per_token": 4,
+      "kind": "characters"
+    }
+  },
+  "created_at": "2026-10-18T05:15:56.729089+00:00",
+  "development_reviewed": false,
+  "generation_limit": {
+    "enforced": false,
+    "reason": "No verified Codex CLI output-token cap",
+    "requested_tokens": 32000
+  },
+  "limitations": [
+    "Codex harness; requested model is not a pinned served checkpoint",
+    "Model catalog is cached; live availability can differ",
+    "Usage accounting is retained as reported; output/reasoning fields are not added together",
+    "Exact prompt token matching unverified"
+  ],
+  "manifest_sha256": "1552de9dfa5f1e104644eed911d2c3737a0157932f32b7e2e6e66551ffb2d3c0",
+  "model_catalog": {
+    "client_version": "0.162.0",
+    "fetched_at": "2026-10-18T05:14:59.138004Z",
+    "models": [
+      {
+        "context_window": 500000,
+        "default_effort": "low",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6.1-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6-astra",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-6-luna",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-reserve",
+        "visibility": "hide"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "low",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-5.6-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-5.6-terra",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-5.6-luna",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "codex-auto-review",
+        "visibility": "hide"
+      }
+    ],
+    "source": "/Users/jeremycheng/.codex/models_cache.json"
+  },
+  "planned_trials": 60,
+  "schema_version": 1,
+  "source_hashes": {
+    "collection.py": "015e0083293c0cbd5a24b31e0cfaa79997346e30b416635de8c94f8d5035122f",
+    "ledger.py": "b0fcea25f6197654daed49fedc76a52e2e99a6dc49979c23222983bc5a7a9a2c",
+    "planning.py": "e554bf1af2705fde1ce9103a6fb4c4897026797bda06160bd6fb902f4a96fabc",
+    "run.py": "caeecd685020b10a712723168245eb1c8b8fd2f9a3510985f65821e7867f38fc"
+  },
+  "stage": "smoke",
+  "supported_combinations": [
+    {
+      "effort": "low",
+      "model": "gpt-6-astra"
+    },
+    {
+      "effort": "medium",
+      "model": "gpt-6-astra"
+    },
+    {
+      "effort": "high",
+      "model": "gpt-6-astra"
+    },
+    {
+      "effort": "low",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "effort": "medium",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "effort": "high",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "effort": "low",
+      "model": "gpt-6-sol"
+    },
+    {
+      "effort": "medium",
+      "model": "gpt-6-sol"
+    },
+    {
+      "effort": "high",
+      "model": "gpt-6-sol"
+    },
+    {
+      "effort": "low",
+      "model": "gpt-6-luna"
+    },
+    {
+      "effort": "medium",
+      "model": "gpt-6-luna"
+    },
+    {
+      "effort": "high",
+      "model": "gpt-6-luna"
+    }
+  ],
+  "tokenizer": {
+    "characters_per_token": 4,
+    "kind": "characters"
+  },
+  "unsupported_combinations": [
+    {
+      "effort": "none",
+      "model": "gpt-6-astra",
+      "reason": "effort_not_advertised_by_codex"
+    },
+    {
+      "effort": "none",
+      "model": "gpt-6.1-sol",
+      "reason": "effort_not_advertised_by_codex"
+    },
+    {
+      "effort": "none",
+      "model": "gpt-6-sol",
+      "reason": "effort_not_advertised_by_codex"
+    },
+    {
+      "effort": "none",
+      "model": "gpt-6-luna",
+      "reason": "effort_not_advertised_by_codex"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "instruction_token_counts": {
+    "neutral": 103,
+    "skill": 104
+  },
+  "worlds": [
+    {
+      "answer_agreement": true,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 34181,
+        "G": 34273,
+        "R": 33972,
+        "RG": 34064
+      },
+      "record_counts": {
+        "C": 1600,
+        "G": 1600,
+        "R": 1600,
+        "RG": 1600
+      },
+      "world_id": "s100000_d16"
+    },
+    {
+      "answer_agreement": true,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 34181,
+        "G": 34275,
+        "R": 33995,
+        "RG": 34089
+      },
+      "record_counts": {
+        "C": 1600,
+        "G": 1600,
+        "R": 1600,
+        "RG": 1600
+      },
+      "world_id": "s100001_d16"
+    },
+    {
+      "answer_agreement": true,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 34188,
+        "G": 34280,
+        "R": 33983,
+        "RG": 34075
+      },
+      "record_counts": {
+        "C": 1600,
+        "G": 1600,
+        "R": 1600,
+        "RG": 1600
+      },
+      "world_id": "s100002_d16"
+    },
+    {
+      "answer_agreement": true,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 34184,
+        "G": 34278,
+        "R": 34039,
+        "RG": 34133
+      },
+      "record_counts": {
+        "C": 1600,
+        "G": 1600,
+        "R": 1600,
+        "RG": 1600
+      },
+      "world_id": "s100003_d16"
+    },
+    {
+      "answer_agreement": true,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 34191,
+        "G": 34283,
+        "R": 34032,
+        "RG": 34124
+      },
+      "record_counts": {
+        "C": 1600,
+        "G": 1600,
+        "R": 1600,
+        "RG": 1600
+      },
+      "world_id": "s100004_d16"
+    }
+  ]
+}

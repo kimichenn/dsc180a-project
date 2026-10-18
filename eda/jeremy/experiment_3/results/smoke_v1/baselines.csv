@@ -1,0 +1,16 @@
+world_id,records,context,baseline,returned_budget_k,correct
+smoke_opening_balance,1,example,ignore_withdrawals,100,True
+smoke_opening_balance,1,example,treat_all_withdrawals_as_permanent,100,True
+smoke_opening_balance,1,example,last_team_claim,,
+smoke_one_withdrawal,4,example,ignore_withdrawals,225,False
+smoke_one_withdrawal,4,example,treat_all_withdrawals_as_permanent,185,True
+smoke_one_withdrawal,4,example,last_team_claim,,
+smoke_reinstatement,4,example,ignore_withdrawals,840,True
+smoke_reinstatement,4,example,treat_all_withdrawals_as_permanent,800,False
+smoke_reinstatement,4,example,last_team_claim,,
+smoke_rumor_and_negative,3,example,ignore_withdrawals,-30,True
+smoke_rumor_and_negative,3,example,treat_all_withdrawals_as_permanent,-30,True
+smoke_rumor_and_negative,3,example,last_team_claim,900,False
+smoke_triple_withdrawal,5,example,ignore_withdrawals,220,False
+smoke_triple_withdrawal,5,example,treat_all_withdrawals_as_permanent,200,True
+smoke_triple_withdrawal,5,example,last_team_claim,,

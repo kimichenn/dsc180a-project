@@ -1,0 +1,25 @@
+{
+  "authentication": "ChatGPT",
+  "cli_version": "codex-cli 0.162.0-alpha.17.2",
+  "codex_bin": "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+  "overrides": {
+    "agents.enabled": false,
+    "features.apps": false,
+    "features.hooks": false,
+    "features.image_generation": false,
+    "features.memories": false,
+    "features.multi_agent": false,
+    "features.multi_agent_v2": false,
+    "features.plugins": false,
+    "features.remote_plugin": false,
+    "features.shell_tool": false,
+    "features.skill_search": false,
+    "features.skip_host_skill_discovery": true,
+    "features.view_image": false,
+    "forced_login_method": "chatgpt",
+    "model_provider": "openai",
+    "project_doc_max_bytes": 0,
+    "suppress_unstable_features_warning": true,
+    "web_search": "disabled"
+  }
+}

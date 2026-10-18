@@ -1,0 +1,30 @@
+{
+  "models": [
+    "gpt-6-astra"
+  ],
+  "efforts": [
+    "medium"
+  ],
+  "max_attempts": 3,
+  "timeout_seconds": 900,
+  "schedule_seed": 180,
+  "token_match_tolerance": 0.02,
+  "tokenizer": {
+    "kind": "characters",
+    "characters_per_token": 4
+  },
+  "profiles": {
+    "smoke": {
+      "worlds": 5,
+      "contexts": [
+        "example"
+      ],
+      "instructions": [
+        "none"
+      ]
+    }
+  },
+  "study_plan": {
+    "purpose": "Five tiny interface checks only; excluded from development analysis."
+  }
+}

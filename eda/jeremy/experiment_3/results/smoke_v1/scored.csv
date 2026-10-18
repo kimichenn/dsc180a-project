@@ -1,0 +1,6 @@
+context,effort,experimental_prompt_tokens,instruction,model,prompt_path,prompt_tokens_exact,records,seed,stage,system_path,trial_id,world_id,attempt,outcome,correct,budget_correct,format_valid,eligible,audit_issues,expected_budget_k,returned_budget_k,error_k,absolute_error_k
+example,medium,467,none,gpt-6-astra,prompts/smoke_triple_withdrawal_example.txt,False,5,,smoke,instructions/none.md,5529809ebf9ef27d9a79,smoke_triple_withdrawal,1,correct,True,True,True,True,[],200,200,0,0
+example,medium,433,none,gpt-6-astra,prompts/smoke_rumor_and_negative_example.txt,False,3,,smoke,instructions/none.md,10e208c0453b49cf63b9,smoke_rumor_and_negative,1,correct,True,True,True,True,[],-30,-30,0,0
+example,medium,452,none,gpt-6-astra,prompts/smoke_reinstatement_example.txt,False,4,,smoke,instructions/none.md,855d3b7a87ea7cde9b2d,smoke_reinstatement,1,correct,True,True,True,True,[],840,840,0,0
+example,medium,408,none,gpt-6-astra,prompts/smoke_opening_balance_example.txt,False,1,,smoke,instructions/none.md,69d89218359cd07c29e3,smoke_opening_balance,1,correct,True,True,True,True,[],100,100,0,0
+example,medium,451,none,gpt-6-astra,prompts/smoke_one_withdrawal_example.txt,False,4,,smoke,instructions/none.md,253ca1f9e065ed7674a2,smoke_one_withdrawal,1,correct,True,True,True,True,[],185,185,0,0

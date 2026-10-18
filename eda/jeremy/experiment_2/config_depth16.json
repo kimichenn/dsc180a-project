@@ -1,0 +1,73 @@
+{
+  "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+  ],
+  "max_attempts": 3,
+  "models": [
+    "gpt-6-astra",
+    "gpt-6.1-sol",
+    "gpt-6-sol",
+    "gpt-6-luna"
+  ],
+  "profiles": {
+    "confirmation": {
+      "approvals": 8,
+      "contexts": [
+        "C",
+        "G",
+        "R",
+        "RG"
+      ],
+      "depths": [
+        4
+      ],
+      "instructions": [
+        "none",
+        "neutral",
+        "skill"
+      ],
+      "projects": 20,
+      "records": 1600,
+      "seed_start": 200000,
+      "summaries": 8,
+      "worlds": 30
+    },
+    "development": {
+      "approvals": 8,
+      "contexts": [
+        "C",
+        "RG"
+      ],
+      "depths": [
+        16
+      ],
+      "instructions": [
+        "none"
+      ],
+      "projects": 20,
+      "records": 1600,
+      "seed_start": 100000,
+      "summaries": 8,
+      "worlds": 5
+    },
+    "smoke": {
+      "contexts": [
+        "example"
+      ],
+      "instructions": [
+        "none"
+      ],
+      "worlds": 5
+    }
+  },
+  "schedule_seed": 180,
+  "timeout_seconds": 900,
+  "token_match_tolerance": 0.02,
+  "tokenizer": {
+    "characters_per_token": 4,
+    "kind": "characters"
+  }
+}

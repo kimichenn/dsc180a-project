@@ -1,0 +1,47 @@
+{
+  "attempt": 1,
+  "cli_version": "codex-cli 0.162.0-alpha.17.2",
+  "elapsed_seconds": 5.097,
+  "events": {
+    "cache_write_input_tokens": 0,
+    "cached_input_tokens": 0,
+    "errors": [],
+    "event_counts": {
+      "item.completed": 1,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "final_messages": [
+      "{\"route\":\"CORAL\",\"approval_id\":\"R01103\"}"
+    ],
+    "input_tokens": 43291,
+    "invalid_json_lines": [],
+    "output_tokens": 45,
+    "reasoning_output_tokens": 26,
+    "reported_models": [],
+    "unexpected_events": [],
+    "unexpected_items": [],
+    "usage_missing_reason": null,
+    "usage_raw": [
+      {
+        "event_type": "turn.completed",
+        "line_event_index": 3,
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 43291,
+          "output_tokens": 45,
+          "reasoning_output_tokens": 26
+        }
+      }
+    ]
+  },
+  "execution_status": "completed",
+  "finished_at": "2026-10-18T05:53:13.050569+00:00",
+  "response": "{\"route\":\"CORAL\",\"approval_id\":\"R01103\"}",
+  "returncode": 0,
+  "started_at": "2026-10-18T05:53:07.955193+00:00",
+  "stderr_tail": "",
+  "trial_id": "1bcbfb8555e755f31ac0"
+}

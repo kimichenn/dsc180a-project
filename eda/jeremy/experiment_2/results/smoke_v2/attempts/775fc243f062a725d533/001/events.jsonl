@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a14d84-b8d1-7bb2-a203-a7006cf74748"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"route\":\"BLUE\",\"approval_id\":\"R00004\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":10718,"cached_input_tokens":3200,"cache_write_input_tokens":0,"output_tokens":33,"reasoning_output_tokens":15}}

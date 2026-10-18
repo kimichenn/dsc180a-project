@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a14db3-61a8-7f33-867e-8b6d9c23f42f"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"route\":\"CORAL\",\"approval_id\":\"R01341\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":43713,"cached_input_tokens":9600,"cache_write_input_tokens":0,"output_tokens":216,"reasoning_output_tokens":197}}

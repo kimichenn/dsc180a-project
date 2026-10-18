@@ -1,0 +1,212 @@
+{
+  "allow_estimated_tokens": false,
+  "artifact_hashes": {
+    "baselines.csv": "3e8b3e64b627feb0a518138082aad45c996c8c40df15a192768ff2c9ebc4a213",
+    "instructions/none.md": "0f06336c3e7511c54a52116020ea354a78d87e67199395f2e3da8dadfd53cbfb",
+    "prompts/smoke_one_withdrawal_example.txt": "f5a90ee9e9fd0c498e9cfdafc474271599611e2ed2e1adabd7c32f040dcf0c3c",
+    "prompts/smoke_opening_balance_example.txt": "0a88dd4773a94e24f908e9332a6ec4b4c034a91310d1bc283f8e1bd5d78dac4f",
+    "prompts/smoke_reinstatement_example.txt": "ef90ed8933dea21efa731100b868c93529eb27f7562087751f8bf5e5a8dd3bc9",
+    "prompts/smoke_rumor_and_negative_example.txt": "d2fa1f5dfeaec58f6b7a1587dce4d53336980271ab73ad24bd39e55f6d05f60e",
+    "prompts/smoke_triple_withdrawal_example.txt": "9b23842cc2b21841589a67cd84bce7ee645f0931d17ecf2eb44dd06c3ac2766e",
+    "trials.jsonl": "b5028640c9de0298c6934ac8b37daa35494a64e3b2a6d68e92f2b505c65d8465",
+    "unsupported_combinations.csv": "06b08195d228aff6e7cc6ce638cb0d27f538760130e4952020ae8df89df979e2",
+    "validation.json": "0002c91cd9882a4a49eb8fdac5674752b8f3ba40145acaf146d9d9575958c5ff",
+    "worlds.jsonl": "aa8b2e3e0df92d8f6390f217e0ce63e425c074f998256ac82ddd54b16c4d2a4a"
+  },
+  "config": {
+    "efforts": [
+      "medium"
+    ],
+    "max_attempts": 3,
+    "models": [
+      "gpt-6-astra"
+    ],
+    "profiles": {
+      "smoke": {
+        "contexts": [
+          "example"
+        ],
+        "instructions": [
+          "none"
+        ],
+        "worlds": 5
+      }
+    },
+    "schedule_seed": 180,
+    "study_plan": {
+      "purpose": "Five tiny interface checks only; excluded from development analysis."
+    },
+    "timeout_seconds": 900,
+    "token_match_tolerance": 0.02,
+    "tokenizer": {
+      "characters_per_token": 4,
+      "kind": "characters"
+    }
+  },
+  "created_at": "2026-10-18T06:43:04.697242+00:00",
+  "development_reviewed": false,
+  "experiment": "dense_budget_v1",
+  "generation_limit": {
+    "enforced": false,
+    "reason": "No verified Codex CLI output-token cap",
+    "requested_tokens": 32000
+  },
+  "limitations": [
+    "New task inspired by Kimi v5, not an exact replication or extension of Experiment 2 accuracy",
+    "Codex harness; requested model is not a pinned served checkpoint",
+    "Model catalog is cached; live availability can differ",
+    "Usage accounting is retained as reported; output/reasoning fields are not added together",
+    "Exact prompt token matching unverified"
+  ],
+  "manifest_sha256": "10799f0d8472c5c26dc3e726b31054707a5d6403647559aba8c9670fff240bae",
+  "model_catalog": {
+    "client_version": "0.162.0",
+    "fetched_at": "2026-10-18T06:40:37.212954Z",
+    "models": [
+      {
+        "context_window": 500000,
+        "default_effort": "low",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6.1-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6-astra",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-6-luna",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-reserve",
+        "visibility": "hide"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "low",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-5.6-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-5.6-terra",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-5.6-luna",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "codex-auto-review",
+        "visibility": "hide"
+      }
+    ],
+    "source": "/Users/jeremycheng/.codex/models_cache.json"
+  },
+  "planned_trials": 5,
+  "schema_version": 1,
+  "source_hashes": {
+    "collection.py": "5b7ba12a49f1d98bad1e046c0fb7ddc95c4f454e26667d0b2fc0ca42eed44a7f",
+    "ledger.py": "1a7032cc8152f9e6bfda7a10ea2952b61aa76490e7ad8b5ace3ef4b5bb2b4401",
+    "planning.py": "4fc175ec00e19e52c02a34b316f4901564b6c9ece201a7bd0bcfca6e9476ae2b",
+    "run.py": "13705007ef4f4841819ab38b56a17cff2cc1a766014f87fc272170939b64ebcf",
+    "token_matching.py": "0c19e6d2c3ef2f0ed099f6df82e672bc081f9e4386732d634b107c15ac820a47"
+  },
+  "stage": "smoke",
+  "supported_combinations": [
+    {
+      "effort": "medium",
+      "model": "gpt-6-astra"
+    }
+  ],
+  "tokenizer": {
+    "characters_per_token": 4,
+    "kind": "characters"
+  },
+  "unsupported_combinations": []
+}

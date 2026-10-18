@@ -1,0 +1,334 @@
+{
+  "allow_estimated_tokens": false,
+  "artifact_hashes": {
+    "baselines.csv": "69abf279ab7eb6f2ce363ccbc37b256bfe0edae7927a903f00ec31f956f0bbc6",
+    "instructions/neutral.md": "6c055f1a9c38336d22b88e81a5b2e0177bc162aa71d8d6462f49a7ef34b2d243",
+    "instructions/none.md": "e7bd5a543f86aa92b1a4acfabccb6298dea6417e5f0abb43f43e5d6d85f520a0",
+    "instructions/skill.md": "893a7783d9fad8b648ab7d934ba158f9fd58b0c5f03f08229ee1b81c97a7df0c",
+    "prompts/s100000_d16_C.txt": "05f3e436c56e529212ca2b304ab23464f77caca744710f12074449e9bcac3da5",
+    "prompts/s100000_d16_G.txt": "42f0dc87a328b58ca9053be0130d7cddba1ac7cb38a37d2045bd8a7d3343a882",
+    "prompts/s100000_d16_R.txt": "67da34933a81c0b7c90bf5af0975fa1534b7f07ae96ce595a20a3db00c50e4d3",
+    "prompts/s100000_d16_RG.txt": "24a137645a8a6e8901553fb7e3639102213be3c9f446f3699a0940b10f6fae00",
+    "prompts/s100001_d16_C.txt": "4d1f1f3f3b61a9469e1843747383ad4fc7ca595c189d683c65f727ed43a5c4b3",
+    "prompts/s100001_d16_G.txt": "db0c6b5dde918afa1546b3fd13c07bc0449d71debd00cced9d2aec8fcf4c9d39",
+    "prompts/s100001_d16_R.txt": "6fff5a0e86b2f0c3cc6ff4793d5563dd7a472c473dd9d48fdbc1fda65acfc24c",
+    "prompts/s100001_d16_RG.txt": "8db5e351fa2783ab8333cf9d36290bfaaa892fef5a7a3628083c1c60dc92b371",
+    "prompts/s100002_d16_C.txt": "9ae7d1887fce2623b115a0a0653ea97de05769dfa5ae0b55bf5ba8a142be0c95",
+    "prompts/s100002_d16_G.txt": "bab275b98ec610fa9a72ef6f2770b917c28a00397fccce65286bfe28353384a1",
+    "prompts/s100002_d16_R.txt": "5bcea5eab1d3782ae2694d78a2060ec17706143df8a87db5e661143163be54a0",
+    "prompts/s100002_d16_RG.txt": "6c29d8ef83567c8544f0bff76201d8408a745eb8081e58e3b0797ec8d095b6ea",
+    "prompts/s100003_d16_C.txt": "823c6d18aca0f99c4568b25d1335c45f21cd86e9bc7b2831929cba4e0ae06f38",
+    "prompts/s100003_d16_G.txt": "35201619ef8b57abd75358a89b17c1e228d9dbe9c52621b79f9bf601c3b904d4",
+    "prompts/s100003_d16_R.txt": "01069adf26b4bdf365428e986e7fc338d9f9e51699d57cdb59766a2cef735d9b",
+    "prompts/s100003_d16_RG.txt": "2a24230f3ab32ea7cee36a72733c13b146252e7cfb7fbd5003e992101a59bb35",
+    "prompts/s100004_d16_C.txt": "c5404481fcecc1614ea66bd0e9543ce0f93df11cc4d6e3f9edaf910cad812604",
+    "prompts/s100004_d16_G.txt": "0358025f1f5b46e90c35d314a132e717202ecb3d4052126d8190c39688e60431",
+    "prompts/s100004_d16_R.txt": "485ed31e9dbf873eb4e3df8c7b6c17219bfcf15a5687d1f86275e7e6ff5a93a2",
+    "prompts/s100004_d16_RG.txt": "ea721d3a66162394c9c933821f40e0b8c3e086cfde451384e5fd6bd935981361",
+    "trials.jsonl": "3da30b87cb33515f51946bbc1c994501e321e150b00434f7abd008b817120a57",
+    "unsupported_combinations.csv": "5c82558a11125b8a9bc96e59d320da11f13aa274288ad850d9270498ac341f39",
+    "validation.json": "0f24f960c911bd15d26449cc6ffd17d6b3cbd1af1865f5c3cc54a7506e9ad905",
+    "worlds.jsonl": "5e4ca47815138170959b777ac44779e749216ae5e5cb75c35370d4c66384c993"
+  },
+  "config": {
+    "efforts": [
+      "none",
+      "low",
+      "medium",
+      "high"
+    ],
+    "max_attempts": 3,
+    "models": [
+      "gpt-6-astra",
+      "gpt-6.1-sol",
+      "gpt-6-sol",
+      "gpt-6-luna"
+    ],
+    "profiles": {
+      "confirmation": {
+        "approvals": 8,
+        "contexts": [
+          "C",
+          "G",
+          "R",
+          "RG"
+        ],
+        "depths": [
+          4
+        ],
+        "instructions": [
+          "none",
+          "neutral",
+          "skill"
+        ],
+        "projects": 20,
+        "records": 1600,
+        "seed_start": 200000,
+        "summaries": 8,
+        "worlds": 30
+      },
+      "development": {
+        "approvals": 8,
+        "contexts": [
+          "C",
+          "RG"
+        ],
+        "depths": [
+          16
+        ],
+        "instructions": [
+          "none"
+        ],
+        "projects": 20,
+        "records": 1600,
+        "seed_start": 100000,
+        "summaries": 8,
+        "worlds": 5
+      },
+      "smoke": {
+        "contexts": [
+          "example"
+        ],
+        "instructions": [
+          "none"
+        ],
+        "worlds": 5
+      }
+    },
+    "schedule_seed": 180,
+    "timeout_seconds": 900,
+    "token_match_tolerance": 0.02,
+    "tokenizer": {
+      "characters_per_token": 4,
+      "kind": "characters"
+    }
+  },
+  "created_at": "2026-10-18T06:15:23.496722+00:00",
+  "development_reviewed": false,
+  "generation_limit": {
+    "enforced": false,
+    "reason": "No verified Codex CLI output-token cap",
+    "requested_tokens": 32000
+  },
+  "limitations": [
+    "Codex harness; requested model is not a pinned served checkpoint",
+    "Model catalog is cached; live availability can differ",
+    "Usage accounting is retained as reported; output/reasoning fields are not added together",
+    "Exact prompt token matching unverified"
+  ],
+  "manifest_sha256": "902c479043583914c673167a6ccebb3bc823bc6b2e464aa6276c6936ac6f498f",
+  "model_catalog": {
+    "client_version": "0.162.0",
+    "fetched_at": "2026-10-18T06:13:34.592014Z",
+    "models": [
+      {
+        "context_window": 500000,
+        "default_effort": "low",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6.1-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6-astra",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-6-luna",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-reserve",
+        "visibility": "hide"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "low",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-5.6-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-5.6-terra",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-5.6-luna",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "codex-auto-review",
+        "visibility": "hide"
+      }
+    ],
+    "source": "/Users/jeremycheng/.codex/models_cache.json"
+  },
+  "planned_trials": 120,
+  "schema_version": 1,
+  "source_hashes": {
+    "collection.py": "46614d75283a1af1426d0ebea19ac174600ed36a42da807a851bebc7290bc8c8",
+    "ledger.py": "b0fcea25f6197654daed49fedc76a52e2e99a6dc49979c23222983bc5a7a9a2c",
+    "planning.py": "e554bf1af2705fde1ce9103a6fb4c4897026797bda06160bd6fb902f4a96fabc",
+    "run.py": "caeecd685020b10a712723168245eb1c8b8fd2f9a3510985f65821e7867f38fc"
+  },
+  "stage": "development",
+  "supported_combinations": [
+    {
+      "effort": "low",
+      "model": "gpt-6-astra"
+    },
+    {
+      "effort": "medium",
+      "model": "gpt-6-astra"
+    },
+    {
+      "effort": "high",
+      "model": "gpt-6-astra"
+    },
+    {
+      "effort": "low",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "effort": "medium",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "effort": "high",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "effort": "low",
+      "model": "gpt-6-sol"
+    },
+    {
+      "effort": "medium",
+      "model": "gpt-6-sol"
+    },
+    {
+      "effort": "high",
+      "model": "gpt-6-sol"
+    },
+    {
+      "effort": "low",
+      "model": "gpt-6-luna"
+    },
+    {
+      "effort": "medium",
+      "model": "gpt-6-luna"
+    },
+    {
+      "effort": "high",
+      "model": "gpt-6-luna"
+    }
+  ],
+  "tokenizer": {
+    "characters_per_token": 4,
+    "kind": "characters"
+  },
+  "unsupported_combinations": [
+    {
+      "effort": "none",
+      "model": "gpt-6-astra",
+      "reason": "effort_not_advertised_by_codex"
+    },
+    {
+      "effort": "none",
+      "model": "gpt-6.1-sol",
+      "reason": "effort_not_advertised_by_codex"
+    },
+    {
+      "effort": "none",
+      "model": "gpt-6-sol",
+      "reason": "effort_not_advertised_by_codex"
+    },
+    {
+      "effort": "none",
+      "model": "gpt-6-luna",
+      "reason": "effort_not_advertised_by_codex"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "models": ["gpt-6-astra", "gpt-6.1-sol", "gpt-6-sol"],
+  "efforts": ["none", "low", "medium", "high"],
+  "max_attempts": 3,
+  "timeout_seconds": 900,
+  "schedule_seed": 180,
+  "token_match_tolerance": 0.02,
+  "tokenizer": {"kind": "characters", "characters_per_token": 4},
+  "profiles": {
+    "smoke": {
+      "worlds": 5,
+      "contexts": ["example"],
+      "instructions": ["none"]
+    },
+    "development": {
+      "worlds": 5,
+      "seed_start": 300000,
+      "record_counts": [3200],
+      "nested_rate": 0.35,
+      "contexts": ["C", "RG"],
+      "instructions": ["none"]
+    },
+    "confirmation": {
+      "worlds": 30,
+      "seed_start": 400000,
+      "record_counts": [3200],
+      "nested_rate": 0.35,
+      "contexts": ["C", "RG"],
+      "instructions": ["none"]
+    }
+  },
+  "study_plan": {
+    "purpose": "Find and characterize flagship errors on dense cumulative ledgers, then test fresh worlds.",
+    "primary_effort": "medium",
+    "primary_screen_calls": 30,
+    "primary_screen_worlds_per_model_and_condition": 5,
+    "followup_efforts": ["low", "high"],
+    "do_not_stop_at_first_wrong_answer": true,
+    "conflict_candidate": "C >= 4/5 and RG <= 3/5 at the same effort; exploratory selection only",
+    "general_failure_candidate": "Any verified wrong numeric answer is a case study; do not infer a population rate from a selected failure",
+    "confirmation_rule": "Choose one model/effort after reviewing development, freeze 30 fresh C/RG pairs, and complete all pairs. For a conflict-specific effect require C >= 27/30, RG <= 18/30, a >= 30 percentage point paired gap with its 95% interval excluding zero, and >= 29/30 valid-format responses per condition.",
+    "all_models_correct_rule": "Complete the same-world high/low comparisons; only then preregister a larger answer-relevant workload in a new run.",
+    "claims": "Separate wrong budgets, abstentions, formatting failures, and infrastructure failures. Report each model and effort separately. Low is not reasoning off."
+  }
+}

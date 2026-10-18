@@ -1,0 +1,5 @@
+model,instruction,depth,context,left_effort,right_effort,matched_worlds,accuracy_gap_pp,bootstrap_low_pp,bootstrap_high_pp
+gpt-6-astra,none,16,C,medium,low,5,0,0,0
+gpt-6-astra,none,16,RG,medium,low,5,0,0,0
+gpt-6-luna,none,16,C,high,medium,5,20.0,0,60.0
+gpt-6-luna,none,16,RG,high,medium,5,0,-60.0,60.0

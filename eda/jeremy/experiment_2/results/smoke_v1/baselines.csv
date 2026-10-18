@@ -1,0 +1,11 @@
+world_id,depth,context,baseline,returned_route,returned_approval_id,route_correct,correct
+smoke_clean_chain,2,example,latest_approval,BLUE,R00004,True,True
+smoke_clean_chain,2,example,most_repeated_route,,,False,
+smoke_single_withdrawal,2,example,latest_approval,BLUE,R00004,False,False
+smoke_single_withdrawal,2,example,most_repeated_route,,,False,
+smoke_reinstatement,2,example,latest_approval,BLUE,R00004,True,True
+smoke_reinstatement,2,example,most_repeated_route,,,False,
+smoke_nested_cancellation,2,example,latest_approval,BLUE,R00004,False,False
+smoke_nested_cancellation,2,example,most_repeated_route,BLUE,,False,
+smoke_shared_evidence,2,example,latest_approval,CORAL,R00006,False,False
+smoke_shared_evidence,2,example,most_repeated_route,,,False,
