@@ -1,0 +1,11 @@
+model,question_id,subtype,difficulty,A,B,C,D,misleading_drop_pp,skill_gain_pp
+qwen3-1.7b,P01,distractor,basic,1.0,1.0,1.0,1.0,0.0,0.0
+qwen3-1.7b,P02,update,basic,1.0,1.0,1.0,1.0,0.0,0.0
+qwen3-1.7b,P03,distractor,calculation,1.0,1.0,1.0,1.0,0.0,0.0
+qwen3-1.7b,P04,update,calculation,1.0,1.0,1.0,1.0,0.0,0.0
+qwen3-1.7b,P05,update,calculation,0.0,0.0,1.0,1.0,0.0,100.0
+qwen3-4b,P01,distractor,basic,1.0,1.0,1.0,1.0,0.0,0.0
+qwen3-4b,P02,update,basic,1.0,1.0,0.0,1.0,0.0,0.0
+qwen3-4b,P03,distractor,calculation,1.0,1.0,1.0,1.0,0.0,0.0
+qwen3-4b,P04,update,calculation,1.0,1.0,1.0,1.0,0.0,0.0
+qwen3-4b,P05,update,calculation,1.0,1.0,1.0,1.0,0.0,0.0

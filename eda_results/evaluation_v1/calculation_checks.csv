@@ -1,0 +1,54 @@
+question_id,entity_a,entity_b,calculation_rule,calculated_a,calculated_b,expected,answer_without_calculation,misleading_answer
+P03,Pine,Maple,Pine must keep 60 units in reserve. Maple must keep 20 units in reserve. Each can ship its stock count minus its own reserve.,110,130,Maple,Pine,Pine
+P04,Willow,Aspen,"After arrival, Willow needs 7 hours of processing and Aspen needs 1 hours. Each is ready for collection at its arrival time plus its own processing time.",15,13,Aspen,Willow,Willow
+P05,Spruce,Elm,Spruce uses 4 material units per kit. Elm uses 7 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,40,30,Spruce,Elm,Elm
+E11,Yarrow,Zephyr,Yarrow must keep 50 units in reserve. Zephyr must keep 10 units in reserve. Each can ship its stock count minus its own reserve.,70,90,Zephyr,Yarrow,Yarrow
+E12,Acorn,Beryl,"After arrival, Acorn needs 6 hours of processing and Beryl needs 1 hours. Each is ready for collection at its arrival time plus its own processing time.",15,13,Beryl,Acorn,Acorn
+E13,Clover,Dune,Clover uses 7 material units per kit. Dune uses 4 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,30,45,Dune,Clover,Clover
+E14,Ember,Fern,Each item sold by Ember earns 8 dollars. Each item sold by Fern earns 4 dollars. Revenue is number of items sold times its own price per item.,144,96,Ember,Fern,Fern
+E15,Grove,Hazel,Grove must keep 5 units in reserve. Hazel must keep 35 units in reserve. Each can ship its stock count minus its own reserve.,80,70,Grove,Hazel,Hazel
+E16,Indigo,Jasper,"After arrival, Indigo needs 1 hours of processing and Jasper needs 8 hours. Each is ready for collection at its arrival time plus its own processing time.",15,18,Indigo,Jasper,Jasper
+E17,Kelvin,Linden,Kelvin uses 3 material units per kit. Linden uses 5 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,48,40,Kelvin,Linden,Linden
+E18,Mallow,Nimbus,Each item sold by Mallow earns 2 dollars. Each item sold by Nimbus earns 5 dollars. Revenue is number of items sold times its own price per item.,60,100,Nimbus,Mallow,Mallow
+E19,Opal,Petal,Opal must keep 100 units in reserve. Petal must keep 20 units in reserve. Each can ship its stock count minus its own reserve.,160,200,Petal,Opal,Opal
+E20,Robin,Sorrel,"After arrival, Robin needs 1 hours of processing and Sorrel needs 8 hours. Each is ready for collection at its arrival time plus its own processing time.",13,16,Robin,Sorrel,Sorrel
+E41,Thyme,Glacier,Thyme must keep 30 units in reserve. Glacier must keep 70 units in reserve. Each can ship its stock count minus its own reserve.,90,85,Thyme,Glacier,Glacier
+E42,Copper,Spinel,"After arrival, Copper needs 11 hours of processing and Spinel needs 3 hours. Each is ready for collection at its arrival time plus its own processing time.",22,20,Spinel,Copper,Copper
+E43,Jade,Rook,Jade uses 3 material units per kit. Rook uses 2 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,30,37,Rook,Jade,Jade
+E44,Coral,Tamarack,Each item sold by Coral earns 3 dollars. Each item sold by Tamarack earns 2 dollars. Revenue is number of items sold times its own price per item.,135,94,Coral,Tamarack,Tamarack
+E45,Mica,Laurel,Mica must keep 15 units in reserve. Laurel must keep 120 units in reserve. Each can ship its stock count minus its own reserve.,215,135,Mica,Laurel,Laurel
+E46,Nutmeg,Bramble,"After arrival, Nutmeg needs 4 hours of processing and Bramble needs 11 hours. Each is ready for collection at its arrival time plus its own processing time.",12,17,Nutmeg,Bramble,Bramble
+E47,Verbena,Cairn,Verbena uses 4 material units per kit. Cairn uses 6 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,31,28,Verbena,Cairn,Cairn
+E48,Linnet,Puffin,Each item sold by Linnet earns 11 dollars. Each item sold by Puffin earns 5 dollars. Revenue is number of items sold times its own price per item.,308,265,Linnet,Puffin,Puffin
+E49,Lark,Boulder,Lark must keep 115 units in reserve. Boulder must keep 95 units in reserve. Each can ship its stock count minus its own reserve.,120,135,Boulder,Lark,Lark
+E50,Tide,Cypress,"After arrival, Tide needs 8 hours of processing and Cypress needs 12 hours. Each is ready for collection at its arrival time plus its own processing time.",15,17,Tide,Cypress,Cypress
+E51,Briarwood,Pinyon,Briarwood uses 2 material units per kit. Pinyon uses 4 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,58,53,Briarwood,Pinyon,Pinyon
+E52,Calla,Oriole,Each item sold by Calla earns 3 dollars. Each item sold by Oriole earns 2 dollars. Revenue is number of items sold times its own price per item.,129,96,Calla,Oriole,Oriole
+E53,Crocus,Holly,Crocus must keep 5 units in reserve. Holly must keep 85 units in reserve. Each can ship its stock count minus its own reserve.,320,305,Crocus,Holly,Holly
+E54,Bobcat,Jasmine,"After arrival, Bobcat needs 12 hours of processing and Jasmine needs 2 hours. Each is ready for collection at its arrival time plus its own processing time.",33,29,Jasmine,Bobcat,Bobcat
+E55,Marsh,Sedge,Marsh uses 2 material units per kit. Sedge uses 7 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,41,17,Marsh,Sedge,Sedge
+E56,Delta,Cliff,Each item sold by Delta earns 4 dollars. Each item sold by Cliff earns 3 dollars. Revenue is number of items sold times its own price per item.,140,138,Delta,Cliff,Cliff
+E57,Breeze,Mesa,Breeze must keep 80 units in reserve. Mesa must keep 5 units in reserve. Each can ship its stock count minus its own reserve.,20,80,Mesa,Breeze,Breeze
+E58,Heather,Dogwood,"After arrival, Heather needs 2 hours of processing and Dogwood needs 11 hours. Each is ready for collection at its arrival time plus its own processing time.",16,18,Heather,Dogwood,Dogwood
+E59,Tupelo,Elmira,Tupelo uses 4 material units per kit. Elmira uses 2 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,31,36,Elmira,Tupelo,Tupelo
+E60,Beacon,Flora,Each item sold by Beacon earns 7 dollars. Each item sold by Flora earns 4 dollars. Revenue is number of items sold times its own price per item.,217,140,Beacon,Flora,Flora
+E81,Crane,Moss,Crane must keep 5 units in reserve. Moss must keep 60 units in reserve. Each can ship its stock count minus its own reserve.,240,200,Crane,Moss,Moss
+E82,Canary,Gull,"After arrival, Canary needs 3 hours of processing and Gull needs 12 hours. Each is ready for collection at its arrival time plus its own processing time.",11,14,Canary,Gull,Gull
+E83,Garnet,Bay,Garnet uses 8 material units per kit. Bay uses 9 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,32,30,Garnet,Bay,Bay
+E84,Cranberry,Iris,Each item sold by Cranberry earns 6 dollars. Each item sold by Iris earns 5 dollars. Revenue is number of items sold times its own price per item.,318,280,Cranberry,Iris,Iris
+E85,Chert,Lagoon,Chert must keep 75 units in reserve. Lagoon must keep 120 units in reserve. Each can ship its stock count minus its own reserve.,260,255,Chert,Lagoon,Lagoon
+E86,Rush,Anchor,"After arrival, Rush needs 2 hours of processing and Anchor needs 8 hours. Each is ready for collection at its arrival time plus its own processing time.",13,17,Rush,Anchor,Anchor
+E87,Starling,Merlin,Starling uses 2 material units per kit. Merlin uses 5 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,57,45,Starling,Merlin,Merlin
+E88,Lynx,Vireo,Each item sold by Lynx earns 6 dollars. Each item sold by Vireo earns 10 dollars. Revenue is number of items sold times its own price per item.,246,270,Vireo,Lynx,Lynx
+E89,Lotus,Osprey,Lotus must keep 100 units in reserve. Osprey must keep 25 units in reserve. Each can ship its stock count minus its own reserve.,35,105,Osprey,Lotus,Lotus
+E90,Frost,Pike,"After arrival, Frost needs 6 hours of processing and Pike needs 9 hours. Each is ready for collection at its arrival time plus its own processing time.",10,12,Frost,Pike,Pike
+E91,Prairie,Birchwood,Prairie uses 4 material units per kit. Birchwood uses 8 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,43,40,Prairie,Birchwood,Birchwood
+E92,Kelp,Ash,Each item sold by Kelp earns 9 dollars. Each item sold by Ash earns 4 dollars. Revenue is number of items sold times its own price per item.,261,216,Kelp,Ash,Ash
+E93,Drift,Granite,Drift must keep 35 units in reserve. Granite must keep 120 units in reserve. Each can ship its stock count minus its own reserve.,215,150,Drift,Granite,Granite
+E94,Cobble,Basil,"After arrival, Cobble needs 12 hours of processing and Basil needs 5 hours. Each is ready for collection at its arrival time plus its own processing time.",34,31,Basil,Cobble,Cobble
+E95,Mint,Harbor,Mint uses 9 material units per kit. Harbor uses 4 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,17,21,Harbor,Mint,Mint
+E96,Gecko,Oak,Each item sold by Gecko earns 3 dollars. Each item sold by Oak earns 12 dollars. Revenue is number of items sold times its own price per item.,87,132,Oak,Gecko,Gecko
+E97,Anvil,Wisteria,Anvil must keep 110 units in reserve. Wisteria must keep 40 units in reserve. Each can ship its stock count minus its own reserve.,180,220,Wisteria,Anvil,Anvil
+E98,Rowan,Lilac,"After arrival, Rowan needs 7 hours of processing and Lilac needs 2 hours. Each is ready for collection at its arrival time plus its own processing time.",30,28,Lilac,Rowan,Rowan
+E99,Raven,Peony,Raven uses 7 material units per kit. Peony uses 8 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,40,36,Raven,Peony,Peony
+E100,Alcove,Zinnia,Each item sold by Alcove earns 8 dollars. Each item sold by Zinnia earns 12 dollars. Revenue is number of items sold times its own price per item.,216,312,Zinnia,Alcove,Alcove

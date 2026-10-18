@@ -1,7 +1,7 @@
 {
   "models": {
-    "qwen3-4b": {"model_id": "Qwen/Qwen3-4B", "revision": "main"},
-    "qwen3-8b": {"model_id": "Qwen/Qwen3-8B", "revision": "main"}
+    "qwen3-1.7b": {"model_id": "Qwen/Qwen3-1.7B", "revision": "main"},
+    "qwen3-4b": {"model_id": "Qwen/Qwen3-4B", "revision": "main"}
   },
   "repetitions": {"pilot": 1, "evaluation": 3},
   "seed": 180,

@@ -1,0 +1,1700 @@
+{
+  "created_at": "2026-10-13T22:31:19+00:00",
+  "design_sha256": "7aa190260b991e468cfc8a4b3099e884bfd51a8e3bc3bafb388daca82eea5476",
+  "design": {
+    "phase": "pilot",
+    "config": {
+      "models": {
+        "qwen3-1.7b": {
+          "model_id": "Qwen/Qwen3-1.7B",
+          "revision": "main"
+        },
+        "qwen3-4b": {
+          "model_id": "Qwen/Qwen3-4B",
+          "revision": "main"
+        }
+      },
+      "repetitions": {
+        "pilot": 1,
+        "evaluation": 3
+      },
+      "seed": 180,
+      "device": "auto",
+      "dtype": "auto",
+      "quantization": "none",
+      "enable_thinking": false,
+      "generation": {
+        "do_sample": true,
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "max_new_tokens": 512
+      },
+      "max_attempts": 3
+    },
+    "questions": [
+      {
+        "question_id": "P01",
+        "phase": "pilot",
+        "subtype": "distractor",
+        "difficulty": "basic",
+        "domain": "inventory",
+        "entity_a": "Cedar",
+        "entity_b": "Birch",
+        "metric": "stock count",
+        "unit": "units",
+        "correct_value": 140,
+        "misleading_value": 70,
+        "other_value": 100,
+        "operation": "identity",
+        "parameter_a": 0,
+        "parameter_b": 0,
+        "comparison": "larger",
+        "calculation_rule": "Compare the stated values directly.",
+        "question": "Which entity has the larger stock count, Cedar or Birch?",
+        "claim_order": "governing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "P02",
+        "phase": "pilot",
+        "subtype": "update",
+        "difficulty": "basic",
+        "domain": "scheduling",
+        "entity_a": "Meadow",
+        "entity_b": "Brook",
+        "metric": "start time",
+        "unit": "hours after the start of Monday",
+        "correct_value": 7,
+        "misleading_value": 15,
+        "other_value": 11,
+        "operation": "identity",
+        "parameter_a": 0,
+        "parameter_b": 0,
+        "comparison": "smaller",
+        "calculation_rule": "Compare the stated values directly.",
+        "question": "Which entity has the smaller start time, Meadow or Brook?",
+        "claim_order": "competing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "P03",
+        "phase": "pilot",
+        "subtype": "distractor",
+        "difficulty": "calculation",
+        "domain": "inventory",
+        "entity_a": "Pine",
+        "entity_b": "Maple",
+        "metric": "stock count",
+        "unit": "units",
+        "correct_value": 170,
+        "misleading_value": 230,
+        "other_value": 150,
+        "operation": "subtract",
+        "parameter_a": 60,
+        "parameter_b": 20,
+        "comparison": "larger",
+        "calculation_rule": "Pine must keep 60 units in reserve. Maple must keep 20 units in reserve. Each can ship its stock count minus its own reserve.",
+        "question": "Which entity can ship more units, Pine or Maple?",
+        "claim_order": "governing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "P04",
+        "phase": "pilot",
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "delivery",
+        "entity_a": "Willow",
+        "entity_b": "Aspen",
+        "metric": "arrival time",
+        "unit": "hours after the start of Monday",
+        "correct_value": 8,
+        "misleading_value": 4,
+        "other_value": 12,
+        "operation": "add",
+        "parameter_a": 7,
+        "parameter_b": 1,
+        "comparison": "smaller",
+        "calculation_rule": "After arrival, Willow needs 7 hours of processing and Aspen needs 1 hours. Each is ready for collection at its arrival time plus its own processing time.",
+        "question": "Which entity is ready for collection earlier, Willow or Aspen?",
+        "claim_order": "competing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "P05",
+        "phase": "pilot",
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "production",
+        "entity_a": "Spruce",
+        "entity_b": "Elm",
+        "metric": "available material",
+        "unit": "units",
+        "correct_value": 160,
+        "misleading_value": 90,
+        "other_value": 210,
+        "operation": "divide_floor",
+        "parameter_a": 4,
+        "parameter_b": 7,
+        "comparison": "larger",
+        "calculation_rule": "Spruce uses 4 material units per kit. Elm uses 7 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.",
+        "question": "Which entity can make more complete kits, Spruce or Elm?",
+        "claim_order": "governing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E01",
+        "phase": "evaluation",
+        "subtype": "distractor",
+        "difficulty": "basic",
+        "domain": "inventory",
+        "entity_a": "Aster",
+        "entity_b": "Briar",
+        "metric": "stock count",
+        "unit": "units",
+        "correct_value": 120,
+        "misleading_value": 80,
+        "other_value": 100,
+        "operation": "identity",
+        "parameter_a": 0,
+        "parameter_b": 0,
+        "comparison": "larger",
+        "calculation_rule": "Compare the stated values directly.",
+        "question": "Which entity has the larger stock count, Aster or Briar?",
+        "claim_order": "governing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E02",
+        "phase": "evaluation",
+        "subtype": "distractor",
+        "difficulty": "basic",
+        "domain": "temperature",
+        "entity_a": "Cobalt",
+        "entity_b": "Flint",
+        "metric": "temperature",
+        "unit": "degrees Celsius",
+        "correct_value": 65,
+        "misleading_value": 95,
+        "other_value": 80,
+        "operation": "identity",
+        "parameter_a": 0,
+        "parameter_b": 0,
+        "comparison": "larger",
+        "calculation_rule": "Compare the stated values directly.",
+        "question": "Which entity has the larger temperature, Cobalt or Flint?",
+        "claim_order": "competing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E03",
+        "phase": "evaluation",
+        "subtype": "distractor",
+        "difficulty": "basic",
+        "domain": "delivery",
+        "entity_a": "Heron",
+        "entity_b": "Ibis",
+        "metric": "arrival time",
+        "unit": "hours after the start of Monday",
+        "correct_value": 10,
+        "misleading_value": 18,
+        "other_value": 14,
+        "operation": "identity",
+        "parameter_a": 0,
+        "parameter_b": 0,
+        "comparison": "smaller",
+        "calculation_rule": "Compare the stated values directly.",
+        "question": "Which entity has the smaller arrival time, Heron or Ibis?",
+        "claim_order": "governing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E04",
+        "phase": "evaluation",
+        "subtype": "distractor",
+        "difficulty": "basic",
+        "domain": "duration",
+        "entity_a": "Juniper",
+        "entity_b": "Kalmia",
+        "metric": "processing duration",
+        "unit": "minutes",
+        "correct_value": 70,
+        "misleading_value": 40,
+        "other_value": 55,
+        "operation": "identity",
+        "parameter_a": 0,
+        "parameter_b": 0,
+        "comparison": "smaller",
+        "calculation_rule": "Compare the stated values directly.",
+        "question": "Which entity has the smaller processing duration, Juniper or Kalmia?",
+        "claim_order": "competing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E05",
+        "phase": "evaluation",
+        "subtype": "distractor",
+        "difficulty": "basic",
+        "domain": "capacity",
+        "entity_a": "Larch",
+        "entity_b": "Myrtle",
+        "metric": "seating capacity",
+        "unit": "seats",
+        "correct_value": 45,
+        "misleading_value": 25,
+        "other_value": 35,
+        "operation": "identity",
+        "parameter_a": 0,
+        "parameter_b": 0,
+        "comparison": "larger",
+        "calculation_rule": "Compare the stated values directly.",
+        "question": "Which entity has the larger seating capacity, Larch or Myrtle?",
+        "claim_order": "governing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E06",
+        "phase": "evaluation",
+        "subtype": "update",
+        "difficulty": "basic",
+        "domain": "capacity",
+        "entity_a": "Nectar",
+        "entity_b": "Olive",
+        "metric": "seating capacity",
+        "unit": "seats",
+        "correct_value": 40,
+        "misleading_value": 70,
+        "other_value": 55,
+        "operation": "identity",
+        "parameter_a": 0,
+        "parameter_b": 0,
+        "comparison": "larger",
+        "calculation_rule": "Compare the stated values directly.",
+        "question": "Which entity has the larger seating capacity, Nectar or Olive?",
+        "claim_order": "competing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E07",
+        "phase": "evaluation",
+        "subtype": "update",
+        "difficulty": "basic",
+        "domain": "inventory",
+        "entity_a": "Pebble",
+        "entity_b": "Quartz",
+        "metric": "stock count",
+        "unit": "units",
+        "correct_value": 95,
+        "misleading_value": 65,
+        "other_value": 80,
+        "operation": "identity",
+        "parameter_a": 0,
+        "parameter_b": 0,
+        "comparison": "larger",
+        "calculation_rule": "Compare the stated values directly.",
+        "question": "Which entity has the larger stock count, Pebble or Quartz?",
+        "claim_order": "governing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E08",
+        "phase": "evaluation",
+        "subtype": "update",
+        "difficulty": "basic",
+        "domain": "cost",
+        "entity_a": "Reed",
+        "entity_b": "Sage",
+        "metric": "price",
+        "unit": "dollars",
+        "correct_value": 38,
+        "misleading_value": 18,
+        "other_value": 28,
+        "operation": "identity",
+        "parameter_a": 0,
+        "parameter_b": 0,
+        "comparison": "smaller",
+        "calculation_rule": "Compare the stated values directly.",
+        "question": "Which entity has the smaller price, Reed or Sage?",
+        "claim_order": "competing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E09",
+        "phase": "evaluation",
+        "subtype": "update",
+        "difficulty": "basic",
+        "domain": "scheduling",
+        "entity_a": "Thistle",
+        "entity_b": "Umber",
+        "metric": "start time",
+        "unit": "hours after the start of Monday",
+        "correct_value": 9,
+        "misleading_value": 15,
+        "other_value": 12,
+        "operation": "identity",
+        "parameter_a": 0,
+        "parameter_b": 0,
+        "comparison": "smaller",
+        "calculation_rule": "Compare the stated values directly.",
+        "question": "Which entity has the smaller start time, Thistle or Umber?",
+        "claim_order": "governing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E10",
+        "phase": "evaluation",
+        "subtype": "update",
+        "difficulty": "basic",
+        "domain": "inventory",
+        "entity_a": "Violet",
+        "entity_b": "Walnut",
+        "metric": "stock count",
+        "unit": "units",
+        "correct_value": 230,
+        "misleading_value": 310,
+        "other_value": 270,
+        "operation": "identity",
+        "parameter_a": 0,
+        "parameter_b": 0,
+        "comparison": "larger",
+        "calculation_rule": "Compare the stated values directly.",
+        "question": "Which entity has the larger stock count, Violet or Walnut?",
+        "claim_order": "competing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E11",
+        "phase": "evaluation",
+        "subtype": "distractor",
+        "difficulty": "calculation",
+        "domain": "inventory",
+        "entity_a": "Yarrow",
+        "entity_b": "Zephyr",
+        "metric": "stock count",
+        "unit": "units",
+        "correct_value": 120,
+        "misleading_value": 160,
+        "other_value": 100,
+        "operation": "subtract",
+        "parameter_a": 50,
+        "parameter_b": 10,
+        "comparison": "larger",
+        "calculation_rule": "Yarrow must keep 50 units in reserve. Zephyr must keep 10 units in reserve. Each can ship its stock count minus its own reserve.",
+        "question": "Which entity can ship more units, Yarrow or Zephyr?",
+        "claim_order": "governing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E12",
+        "phase": "evaluation",
+        "subtype": "distractor",
+        "difficulty": "calculation",
+        "domain": "delivery",
+        "entity_a": "Acorn",
+        "entity_b": "Beryl",
+        "metric": "arrival time",
+        "unit": "hours after the start of Monday",
+        "correct_value": 9,
+        "misleading_value": 5,
+        "other_value": 12,
+        "operation": "add",
+        "parameter_a": 6,
+        "parameter_b": 1,
+        "comparison": "smaller",
+        "calculation_rule": "After arrival, Acorn needs 6 hours of processing and Beryl needs 1 hours. Each is ready for collection at its arrival time plus its own processing time.",
+        "question": "Which entity is ready for collection earlier, Acorn or Beryl?",
+        "claim_order": "competing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E13",
+        "phase": "evaluation",
+        "subtype": "distractor",
+        "difficulty": "calculation",
+        "domain": "production",
+        "entity_a": "Clover",
+        "entity_b": "Dune",
+        "metric": "available material",
+        "unit": "units",
+        "correct_value": 210,
+        "misleading_value": 350,
+        "other_value": 180,
+        "operation": "divide_floor",
+        "parameter_a": 7,
+        "parameter_b": 4,
+        "comparison": "larger",
+        "calculation_rule": "Clover uses 7 material units per kit. Dune uses 4 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.",
+        "question": "Which entity can make more complete kits, Clover or Dune?",
+        "claim_order": "governing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E14",
+        "phase": "evaluation",
+        "subtype": "distractor",
+        "difficulty": "calculation",
+        "domain": "revenue",
+        "entity_a": "Ember",
+        "entity_b": "Fern",
+        "metric": "number of items sold",
+        "unit": "items",
+        "correct_value": 18,
+        "misleading_value": 10,
+        "other_value": 24,
+        "operation": "multiply",
+        "parameter_a": 8,
+        "parameter_b": 4,
+        "comparison": "larger",
+        "calculation_rule": "Each item sold by Ember earns 8 dollars. Each item sold by Fern earns 4 dollars. Revenue is number of items sold times its own price per item.",
+        "question": "Which entity earns more revenue, Ember or Fern?",
+        "claim_order": "competing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E15",
+        "phase": "evaluation",
+        "subtype": "distractor",
+        "difficulty": "calculation",
+        "domain": "inventory",
+        "entity_a": "Grove",
+        "entity_b": "Hazel",
+        "metric": "stock count",
+        "unit": "units",
+        "correct_value": 85,
+        "misleading_value": 65,
+        "other_value": 105,
+        "operation": "subtract",
+        "parameter_a": 5,
+        "parameter_b": 35,
+        "comparison": "larger",
+        "calculation_rule": "Grove must keep 5 units in reserve. Hazel must keep 35 units in reserve. Each can ship its stock count minus its own reserve.",
+        "question": "Which entity can ship more units, Grove or Hazel?",
+        "claim_order": "governing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E16",
+        "phase": "evaluation",
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "delivery",
+        "entity_a": "Indigo",
+        "entity_b": "Jasper",
+        "metric": "arrival time",
+        "unit": "hours after the start of Monday",
+        "correct_value": 14,
+        "misleading_value": 20,
+        "other_value": 10,
+        "operation": "add",
+        "parameter_a": 1,
+        "parameter_b": 8,
+        "comparison": "smaller",
+        "calculation_rule": "After arrival, Indigo needs 1 hours of processing and Jasper needs 8 hours. Each is ready for collection at its arrival time plus its own processing time.",
+        "question": "Which entity is ready for collection earlier, Indigo or Jasper?",
+        "claim_order": "competing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E17",
+        "phase": "evaluation",
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "production",
+        "entity_a": "Kelvin",
+        "entity_b": "Linden",
+        "metric": "available material",
+        "unit": "units",
+        "correct_value": 144,
+        "misleading_value": 105,
+        "other_value": 200,
+        "operation": "divide_floor",
+        "parameter_a": 3,
+        "parameter_b": 5,
+        "comparison": "larger",
+        "calculation_rule": "Kelvin uses 3 material units per kit. Linden uses 5 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.",
+        "question": "Which entity can make more complete kits, Kelvin or Linden?",
+        "claim_order": "governing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E18",
+        "phase": "evaluation",
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "revenue",
+        "entity_a": "Mallow",
+        "entity_b": "Nimbus",
+        "metric": "number of items sold",
+        "unit": "items",
+        "correct_value": 30,
+        "misleading_value": 60,
+        "other_value": 20,
+        "operation": "multiply",
+        "parameter_a": 2,
+        "parameter_b": 5,
+        "comparison": "larger",
+        "calculation_rule": "Each item sold by Mallow earns 2 dollars. Each item sold by Nimbus earns 5 dollars. Revenue is number of items sold times its own price per item.",
+        "question": "Which entity earns more revenue, Mallow or Nimbus?",
+        "claim_order": "competing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E19",
+        "phase": "evaluation",
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "inventory",
+        "entity_a": "Opal",
+        "entity_b": "Petal",
+        "metric": "stock count",
+        "unit": "units",
+        "correct_value": 260,
+        "misleading_value": 320,
+        "other_value": 220,
+        "operation": "subtract",
+        "parameter_a": 100,
+        "parameter_b": 20,
+        "comparison": "larger",
+        "calculation_rule": "Opal must keep 100 units in reserve. Petal must keep 20 units in reserve. Each can ship its stock count minus its own reserve.",
+        "question": "Which entity can ship more units, Opal or Petal?",
+        "claim_order": "governing_first",
+        "provenance": "eda"
+      },
+      {
+        "question_id": "E20",
+        "phase": "evaluation",
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "delivery",
+        "entity_a": "Robin",
+        "entity_b": "Sorrel",
+        "metric": "arrival time",
+        "unit": "hours after the start of Monday",
+        "correct_value": 12,
+        "misleading_value": 20,
+        "other_value": 8,
+        "operation": "add",
+        "parameter_a": 1,
+        "parameter_b": 8,
+        "comparison": "smaller",
+        "calculation_rule": "After arrival, Robin needs 1 hours of processing and Sorrel needs 8 hours. Each is ready for collection at its arrival time plus its own processing time.",
+        "question": "Which entity is ready for collection earlier, Robin or Sorrel?",
+        "claim_order": "competing_first",
+        "provenance": "eda"
+      }
+    ],
+    "skill": "When answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format.",
+    "runner_sha256": "8cc745faf37c7bc5a811ab4e21e342c7cc8b20803db07a52b13a0022f5fee293",
+    "trials": [
+      {
+        "trial_id": "pilot|P03|qwen3-1.7b|D|1",
+        "phase": "pilot",
+        "question_id": "P03",
+        "model": "qwen3-1.7b",
+        "condition": "D",
+        "misleading_info": true,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 1536020333,
+        "subtype": "distractor",
+        "difficulty": "calculation",
+        "domain": "inventory",
+        "question": "Which entity can ship more units, Pine or Maple?",
+        "expected": "Maple",
+        "alternative": "Pine",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Maple's stock count is 150 units.\n\nPine must keep 60 units in reserve. Maple must keep 20 units in reserve. Each can ship its stock count minus its own reserve.\n\nOfficial register: Pine's stock count is 170 units.\n\nUnverified team estimate: Pine's stock count is 230 units.\n\nWhich entity can ship more units, Pine or Maple?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P04|qwen3-1.7b|B|1",
+        "phase": "pilot",
+        "question_id": "P04",
+        "model": "qwen3-1.7b",
+        "condition": "B",
+        "misleading_info": true,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 3822729733,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "delivery",
+        "question": "Which entity is ready for collection earlier, Willow or Aspen?",
+        "expected": "Aspen",
+        "alternative": "Willow",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Willow. The official register for Aspen is unchanged.\n\nOfficial register: Aspen's arrival time is 12 hours after the start of Monday.\n\nAfter arrival, Willow needs 7 hours of processing and Aspen needs 1 hours. Each is ready for collection at its arrival time plus its own processing time.\n\nArchived record, June 1: Willow's arrival time is 4 hours after the start of Monday.\n\nOfficial notice, June 3: Willow's arrival time is 8 hours after the start of Monday.\n\nWhich entity is ready for collection earlier, Willow or Aspen?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P05|qwen3-1.7b|D|1",
+        "phase": "pilot",
+        "question_id": "P05",
+        "model": "qwen3-1.7b",
+        "condition": "D",
+        "misleading_info": true,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 3587231381,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "production",
+        "question": "Which entity can make more complete kits, Spruce or Elm?",
+        "expected": "Spruce",
+        "alternative": "Elm",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Spruce. The official register for Elm is unchanged.\n\nOfficial register: Elm's available material is 210 units.\n\nSpruce uses 4 material units per kit. Elm uses 7 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.\n\nOfficial notice, June 3: Spruce's available material is 160 units.\n\nArchived record, June 1: Spruce's available material is 90 units.\n\nWhich entity can make more complete kits, Spruce or Elm?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P04|qwen3-1.7b|A|1",
+        "phase": "pilot",
+        "question_id": "P04",
+        "model": "qwen3-1.7b",
+        "condition": "A",
+        "misleading_info": false,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 3822729733,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "delivery",
+        "question": "Which entity is ready for collection earlier, Willow or Aspen?",
+        "expected": "Aspen",
+        "alternative": "Willow",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Willow. The official register for Aspen is unchanged.\n\nOfficial register: Aspen's arrival time is 12 hours after the start of Monday.\n\nAfter arrival, Willow needs 7 hours of processing and Aspen needs 1 hours. Each is ready for collection at its arrival time plus its own processing time.\n\nArchived record, June 1: Willow's arrival time is 8 hours after the start of Monday.\n\nOfficial notice, June 3: Willow's arrival time is 8 hours after the start of Monday.\n\nWhich entity is ready for collection earlier, Willow or Aspen?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P02|qwen3-1.7b|C|1",
+        "phase": "pilot",
+        "question_id": "P02",
+        "model": "qwen3-1.7b",
+        "condition": "C",
+        "misleading_info": false,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 1679525624,
+        "subtype": "update",
+        "difficulty": "basic",
+        "domain": "scheduling",
+        "question": "Which entity has the smaller start time, Meadow or Brook?",
+        "expected": "Meadow",
+        "alternative": "Brook",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Meadow. The official register for Brook is unchanged.\n\nOfficial register: Brook's start time is 11 hours after the start of Monday.\n\nCompare the stated values directly.\n\nArchived record, June 1: Meadow's start time is 7 hours after the start of Monday.\n\nOfficial notice, June 3: Meadow's start time is 7 hours after the start of Monday.\n\nWhich entity has the smaller start time, Meadow or Brook?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P02|qwen3-1.7b|B|1",
+        "phase": "pilot",
+        "question_id": "P02",
+        "model": "qwen3-1.7b",
+        "condition": "B",
+        "misleading_info": true,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 1679525624,
+        "subtype": "update",
+        "difficulty": "basic",
+        "domain": "scheduling",
+        "question": "Which entity has the smaller start time, Meadow or Brook?",
+        "expected": "Meadow",
+        "alternative": "Brook",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Meadow. The official register for Brook is unchanged.\n\nOfficial register: Brook's start time is 11 hours after the start of Monday.\n\nCompare the stated values directly.\n\nArchived record, June 1: Meadow's start time is 15 hours after the start of Monday.\n\nOfficial notice, June 3: Meadow's start time is 7 hours after the start of Monday.\n\nWhich entity has the smaller start time, Meadow or Brook?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P03|qwen3-1.7b|C|1",
+        "phase": "pilot",
+        "question_id": "P03",
+        "model": "qwen3-1.7b",
+        "condition": "C",
+        "misleading_info": false,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 1536020333,
+        "subtype": "distractor",
+        "difficulty": "calculation",
+        "domain": "inventory",
+        "question": "Which entity can ship more units, Pine or Maple?",
+        "expected": "Maple",
+        "alternative": "Pine",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Maple's stock count is 150 units.\n\nPine must keep 60 units in reserve. Maple must keep 20 units in reserve. Each can ship its stock count minus its own reserve.\n\nOfficial register: Pine's stock count is 170 units.\n\nUnverified team estimate: Pine's stock count is 170 units.\n\nWhich entity can ship more units, Pine or Maple?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P01|qwen3-1.7b|B|1",
+        "phase": "pilot",
+        "question_id": "P01",
+        "model": "qwen3-1.7b",
+        "condition": "B",
+        "misleading_info": true,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 869212719,
+        "subtype": "distractor",
+        "difficulty": "basic",
+        "domain": "inventory",
+        "question": "Which entity has the larger stock count, Cedar or Birch?",
+        "expected": "Cedar",
+        "alternative": "Birch",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Birch's stock count is 100 units.\n\nCompare the stated values directly.\n\nOfficial register: Cedar's stock count is 140 units.\n\nUnverified team estimate: Cedar's stock count is 70 units.\n\nWhich entity has the larger stock count, Cedar or Birch?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P05|qwen3-1.7b|C|1",
+        "phase": "pilot",
+        "question_id": "P05",
+        "model": "qwen3-1.7b",
+        "condition": "C",
+        "misleading_info": false,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 3587231381,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "production",
+        "question": "Which entity can make more complete kits, Spruce or Elm?",
+        "expected": "Spruce",
+        "alternative": "Elm",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Spruce. The official register for Elm is unchanged.\n\nOfficial register: Elm's available material is 210 units.\n\nSpruce uses 4 material units per kit. Elm uses 7 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.\n\nOfficial notice, June 3: Spruce's available material is 160 units.\n\nArchived record, June 1: Spruce's available material is 160 units.\n\nWhich entity can make more complete kits, Spruce or Elm?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P05|qwen3-1.7b|B|1",
+        "phase": "pilot",
+        "question_id": "P05",
+        "model": "qwen3-1.7b",
+        "condition": "B",
+        "misleading_info": true,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 3587231381,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "production",
+        "question": "Which entity can make more complete kits, Spruce or Elm?",
+        "expected": "Spruce",
+        "alternative": "Elm",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Spruce. The official register for Elm is unchanged.\n\nOfficial register: Elm's available material is 210 units.\n\nSpruce uses 4 material units per kit. Elm uses 7 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.\n\nOfficial notice, June 3: Spruce's available material is 160 units.\n\nArchived record, June 1: Spruce's available material is 90 units.\n\nWhich entity can make more complete kits, Spruce or Elm?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P04|qwen3-1.7b|C|1",
+        "phase": "pilot",
+        "question_id": "P04",
+        "model": "qwen3-1.7b",
+        "condition": "C",
+        "misleading_info": false,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 3822729733,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "delivery",
+        "question": "Which entity is ready for collection earlier, Willow or Aspen?",
+        "expected": "Aspen",
+        "alternative": "Willow",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Willow. The official register for Aspen is unchanged.\n\nOfficial register: Aspen's arrival time is 12 hours after the start of Monday.\n\nAfter arrival, Willow needs 7 hours of processing and Aspen needs 1 hours. Each is ready for collection at its arrival time plus its own processing time.\n\nArchived record, June 1: Willow's arrival time is 8 hours after the start of Monday.\n\nOfficial notice, June 3: Willow's arrival time is 8 hours after the start of Monday.\n\nWhich entity is ready for collection earlier, Willow or Aspen?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P04|qwen3-1.7b|D|1",
+        "phase": "pilot",
+        "question_id": "P04",
+        "model": "qwen3-1.7b",
+        "condition": "D",
+        "misleading_info": true,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 3822729733,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "delivery",
+        "question": "Which entity is ready for collection earlier, Willow or Aspen?",
+        "expected": "Aspen",
+        "alternative": "Willow",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Willow. The official register for Aspen is unchanged.\n\nOfficial register: Aspen's arrival time is 12 hours after the start of Monday.\n\nAfter arrival, Willow needs 7 hours of processing and Aspen needs 1 hours. Each is ready for collection at its arrival time plus its own processing time.\n\nArchived record, June 1: Willow's arrival time is 4 hours after the start of Monday.\n\nOfficial notice, June 3: Willow's arrival time is 8 hours after the start of Monday.\n\nWhich entity is ready for collection earlier, Willow or Aspen?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P02|qwen3-1.7b|D|1",
+        "phase": "pilot",
+        "question_id": "P02",
+        "model": "qwen3-1.7b",
+        "condition": "D",
+        "misleading_info": true,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 1679525624,
+        "subtype": "update",
+        "difficulty": "basic",
+        "domain": "scheduling",
+        "question": "Which entity has the smaller start time, Meadow or Brook?",
+        "expected": "Meadow",
+        "alternative": "Brook",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Meadow. The official register for Brook is unchanged.\n\nOfficial register: Brook's start time is 11 hours after the start of Monday.\n\nCompare the stated values directly.\n\nArchived record, June 1: Meadow's start time is 15 hours after the start of Monday.\n\nOfficial notice, June 3: Meadow's start time is 7 hours after the start of Monday.\n\nWhich entity has the smaller start time, Meadow or Brook?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P05|qwen3-1.7b|A|1",
+        "phase": "pilot",
+        "question_id": "P05",
+        "model": "qwen3-1.7b",
+        "condition": "A",
+        "misleading_info": false,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 3587231381,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "production",
+        "question": "Which entity can make more complete kits, Spruce or Elm?",
+        "expected": "Spruce",
+        "alternative": "Elm",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Spruce. The official register for Elm is unchanged.\n\nOfficial register: Elm's available material is 210 units.\n\nSpruce uses 4 material units per kit. Elm uses 7 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.\n\nOfficial notice, June 3: Spruce's available material is 160 units.\n\nArchived record, June 1: Spruce's available material is 160 units.\n\nWhich entity can make more complete kits, Spruce or Elm?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P03|qwen3-1.7b|B|1",
+        "phase": "pilot",
+        "question_id": "P03",
+        "model": "qwen3-1.7b",
+        "condition": "B",
+        "misleading_info": true,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 1536020333,
+        "subtype": "distractor",
+        "difficulty": "calculation",
+        "domain": "inventory",
+        "question": "Which entity can ship more units, Pine or Maple?",
+        "expected": "Maple",
+        "alternative": "Pine",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Maple's stock count is 150 units.\n\nPine must keep 60 units in reserve. Maple must keep 20 units in reserve. Each can ship its stock count minus its own reserve.\n\nOfficial register: Pine's stock count is 170 units.\n\nUnverified team estimate: Pine's stock count is 230 units.\n\nWhich entity can ship more units, Pine or Maple?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P01|qwen3-1.7b|D|1",
+        "phase": "pilot",
+        "question_id": "P01",
+        "model": "qwen3-1.7b",
+        "condition": "D",
+        "misleading_info": true,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 869212719,
+        "subtype": "distractor",
+        "difficulty": "basic",
+        "domain": "inventory",
+        "question": "Which entity has the larger stock count, Cedar or Birch?",
+        "expected": "Cedar",
+        "alternative": "Birch",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Birch's stock count is 100 units.\n\nCompare the stated values directly.\n\nOfficial register: Cedar's stock count is 140 units.\n\nUnverified team estimate: Cedar's stock count is 70 units.\n\nWhich entity has the larger stock count, Cedar or Birch?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P03|qwen3-1.7b|A|1",
+        "phase": "pilot",
+        "question_id": "P03",
+        "model": "qwen3-1.7b",
+        "condition": "A",
+        "misleading_info": false,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 1536020333,
+        "subtype": "distractor",
+        "difficulty": "calculation",
+        "domain": "inventory",
+        "question": "Which entity can ship more units, Pine or Maple?",
+        "expected": "Maple",
+        "alternative": "Pine",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Maple's stock count is 150 units.\n\nPine must keep 60 units in reserve. Maple must keep 20 units in reserve. Each can ship its stock count minus its own reserve.\n\nOfficial register: Pine's stock count is 170 units.\n\nUnverified team estimate: Pine's stock count is 170 units.\n\nWhich entity can ship more units, Pine or Maple?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P01|qwen3-1.7b|A|1",
+        "phase": "pilot",
+        "question_id": "P01",
+        "model": "qwen3-1.7b",
+        "condition": "A",
+        "misleading_info": false,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 869212719,
+        "subtype": "distractor",
+        "difficulty": "basic",
+        "domain": "inventory",
+        "question": "Which entity has the larger stock count, Cedar or Birch?",
+        "expected": "Cedar",
+        "alternative": "Birch",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Birch's stock count is 100 units.\n\nCompare the stated values directly.\n\nOfficial register: Cedar's stock count is 140 units.\n\nUnverified team estimate: Cedar's stock count is 140 units.\n\nWhich entity has the larger stock count, Cedar or Birch?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P01|qwen3-1.7b|C|1",
+        "phase": "pilot",
+        "question_id": "P01",
+        "model": "qwen3-1.7b",
+        "condition": "C",
+        "misleading_info": false,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 869212719,
+        "subtype": "distractor",
+        "difficulty": "basic",
+        "domain": "inventory",
+        "question": "Which entity has the larger stock count, Cedar or Birch?",
+        "expected": "Cedar",
+        "alternative": "Birch",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Birch's stock count is 100 units.\n\nCompare the stated values directly.\n\nOfficial register: Cedar's stock count is 140 units.\n\nUnverified team estimate: Cedar's stock count is 140 units.\n\nWhich entity has the larger stock count, Cedar or Birch?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P02|qwen3-1.7b|A|1",
+        "phase": "pilot",
+        "question_id": "P02",
+        "model": "qwen3-1.7b",
+        "condition": "A",
+        "misleading_info": false,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 1679525624,
+        "subtype": "update",
+        "difficulty": "basic",
+        "domain": "scheduling",
+        "question": "Which entity has the smaller start time, Meadow or Brook?",
+        "expected": "Meadow",
+        "alternative": "Brook",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Meadow. The official register for Brook is unchanged.\n\nOfficial register: Brook's start time is 11 hours after the start of Monday.\n\nCompare the stated values directly.\n\nArchived record, June 1: Meadow's start time is 7 hours after the start of Monday.\n\nOfficial notice, June 3: Meadow's start time is 7 hours after the start of Monday.\n\nWhich entity has the smaller start time, Meadow or Brook?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P03|qwen3-4b|D|1",
+        "phase": "pilot",
+        "question_id": "P03",
+        "model": "qwen3-4b",
+        "condition": "D",
+        "misleading_info": true,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 1536020333,
+        "subtype": "distractor",
+        "difficulty": "calculation",
+        "domain": "inventory",
+        "question": "Which entity can ship more units, Pine or Maple?",
+        "expected": "Maple",
+        "alternative": "Pine",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Maple's stock count is 150 units.\n\nPine must keep 60 units in reserve. Maple must keep 20 units in reserve. Each can ship its stock count minus its own reserve.\n\nOfficial register: Pine's stock count is 170 units.\n\nUnverified team estimate: Pine's stock count is 230 units.\n\nWhich entity can ship more units, Pine or Maple?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P04|qwen3-4b|B|1",
+        "phase": "pilot",
+        "question_id": "P04",
+        "model": "qwen3-4b",
+        "condition": "B",
+        "misleading_info": true,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 3822729733,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "delivery",
+        "question": "Which entity is ready for collection earlier, Willow or Aspen?",
+        "expected": "Aspen",
+        "alternative": "Willow",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Willow. The official register for Aspen is unchanged.\n\nOfficial register: Aspen's arrival time is 12 hours after the start of Monday.\n\nAfter arrival, Willow needs 7 hours of processing and Aspen needs 1 hours. Each is ready for collection at its arrival time plus its own processing time.\n\nArchived record, June 1: Willow's arrival time is 4 hours after the start of Monday.\n\nOfficial notice, June 3: Willow's arrival time is 8 hours after the start of Monday.\n\nWhich entity is ready for collection earlier, Willow or Aspen?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P05|qwen3-4b|D|1",
+        "phase": "pilot",
+        "question_id": "P05",
+        "model": "qwen3-4b",
+        "condition": "D",
+        "misleading_info": true,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 3587231381,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "production",
+        "question": "Which entity can make more complete kits, Spruce or Elm?",
+        "expected": "Spruce",
+        "alternative": "Elm",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Spruce. The official register for Elm is unchanged.\n\nOfficial register: Elm's available material is 210 units.\n\nSpruce uses 4 material units per kit. Elm uses 7 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.\n\nOfficial notice, June 3: Spruce's available material is 160 units.\n\nArchived record, June 1: Spruce's available material is 90 units.\n\nWhich entity can make more complete kits, Spruce or Elm?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P04|qwen3-4b|A|1",
+        "phase": "pilot",
+        "question_id": "P04",
+        "model": "qwen3-4b",
+        "condition": "A",
+        "misleading_info": false,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 3822729733,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "delivery",
+        "question": "Which entity is ready for collection earlier, Willow or Aspen?",
+        "expected": "Aspen",
+        "alternative": "Willow",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Willow. The official register for Aspen is unchanged.\n\nOfficial register: Aspen's arrival time is 12 hours after the start of Monday.\n\nAfter arrival, Willow needs 7 hours of processing and Aspen needs 1 hours. Each is ready for collection at its arrival time plus its own processing time.\n\nArchived record, June 1: Willow's arrival time is 8 hours after the start of Monday.\n\nOfficial notice, June 3: Willow's arrival time is 8 hours after the start of Monday.\n\nWhich entity is ready for collection earlier, Willow or Aspen?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P02|qwen3-4b|C|1",
+        "phase": "pilot",
+        "question_id": "P02",
+        "model": "qwen3-4b",
+        "condition": "C",
+        "misleading_info": false,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 1679525624,
+        "subtype": "update",
+        "difficulty": "basic",
+        "domain": "scheduling",
+        "question": "Which entity has the smaller start time, Meadow or Brook?",
+        "expected": "Meadow",
+        "alternative": "Brook",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Meadow. The official register for Brook is unchanged.\n\nOfficial register: Brook's start time is 11 hours after the start of Monday.\n\nCompare the stated values directly.\n\nArchived record, June 1: Meadow's start time is 7 hours after the start of Monday.\n\nOfficial notice, June 3: Meadow's start time is 7 hours after the start of Monday.\n\nWhich entity has the smaller start time, Meadow or Brook?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P02|qwen3-4b|B|1",
+        "phase": "pilot",
+        "question_id": "P02",
+        "model": "qwen3-4b",
+        "condition": "B",
+        "misleading_info": true,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 1679525624,
+        "subtype": "update",
+        "difficulty": "basic",
+        "domain": "scheduling",
+        "question": "Which entity has the smaller start time, Meadow or Brook?",
+        "expected": "Meadow",
+        "alternative": "Brook",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Meadow. The official register for Brook is unchanged.\n\nOfficial register: Brook's start time is 11 hours after the start of Monday.\n\nCompare the stated values directly.\n\nArchived record, June 1: Meadow's start time is 15 hours after the start of Monday.\n\nOfficial notice, June 3: Meadow's start time is 7 hours after the start of Monday.\n\nWhich entity has the smaller start time, Meadow or Brook?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P03|qwen3-4b|C|1",
+        "phase": "pilot",
+        "question_id": "P03",
+        "model": "qwen3-4b",
+        "condition": "C",
+        "misleading_info": false,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 1536020333,
+        "subtype": "distractor",
+        "difficulty": "calculation",
+        "domain": "inventory",
+        "question": "Which entity can ship more units, Pine or Maple?",
+        "expected": "Maple",
+        "alternative": "Pine",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Maple's stock count is 150 units.\n\nPine must keep 60 units in reserve. Maple must keep 20 units in reserve. Each can ship its stock count minus its own reserve.\n\nOfficial register: Pine's stock count is 170 units.\n\nUnverified team estimate: Pine's stock count is 170 units.\n\nWhich entity can ship more units, Pine or Maple?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P01|qwen3-4b|B|1",
+        "phase": "pilot",
+        "question_id": "P01",
+        "model": "qwen3-4b",
+        "condition": "B",
+        "misleading_info": true,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 869212719,
+        "subtype": "distractor",
+        "difficulty": "basic",
+        "domain": "inventory",
+        "question": "Which entity has the larger stock count, Cedar or Birch?",
+        "expected": "Cedar",
+        "alternative": "Birch",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Birch's stock count is 100 units.\n\nCompare the stated values directly.\n\nOfficial register: Cedar's stock count is 140 units.\n\nUnverified team estimate: Cedar's stock count is 70 units.\n\nWhich entity has the larger stock count, Cedar or Birch?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P05|qwen3-4b|C|1",
+        "phase": "pilot",
+        "question_id": "P05",
+        "model": "qwen3-4b",
+        "condition": "C",
+        "misleading_info": false,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 3587231381,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "production",
+        "question": "Which entity can make more complete kits, Spruce or Elm?",
+        "expected": "Spruce",
+        "alternative": "Elm",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Spruce. The official register for Elm is unchanged.\n\nOfficial register: Elm's available material is 210 units.\n\nSpruce uses 4 material units per kit. Elm uses 7 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.\n\nOfficial notice, June 3: Spruce's available material is 160 units.\n\nArchived record, June 1: Spruce's available material is 160 units.\n\nWhich entity can make more complete kits, Spruce or Elm?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P05|qwen3-4b|B|1",
+        "phase": "pilot",
+        "question_id": "P05",
+        "model": "qwen3-4b",
+        "condition": "B",
+        "misleading_info": true,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 3587231381,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "production",
+        "question": "Which entity can make more complete kits, Spruce or Elm?",
+        "expected": "Spruce",
+        "alternative": "Elm",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Spruce. The official register for Elm is unchanged.\n\nOfficial register: Elm's available material is 210 units.\n\nSpruce uses 4 material units per kit. Elm uses 7 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.\n\nOfficial notice, June 3: Spruce's available material is 160 units.\n\nArchived record, June 1: Spruce's available material is 90 units.\n\nWhich entity can make more complete kits, Spruce or Elm?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P04|qwen3-4b|C|1",
+        "phase": "pilot",
+        "question_id": "P04",
+        "model": "qwen3-4b",
+        "condition": "C",
+        "misleading_info": false,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 3822729733,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "delivery",
+        "question": "Which entity is ready for collection earlier, Willow or Aspen?",
+        "expected": "Aspen",
+        "alternative": "Willow",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Willow. The official register for Aspen is unchanged.\n\nOfficial register: Aspen's arrival time is 12 hours after the start of Monday.\n\nAfter arrival, Willow needs 7 hours of processing and Aspen needs 1 hours. Each is ready for collection at its arrival time plus its own processing time.\n\nArchived record, June 1: Willow's arrival time is 8 hours after the start of Monday.\n\nOfficial notice, June 3: Willow's arrival time is 8 hours after the start of Monday.\n\nWhich entity is ready for collection earlier, Willow or Aspen?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P04|qwen3-4b|D|1",
+        "phase": "pilot",
+        "question_id": "P04",
+        "model": "qwen3-4b",
+        "condition": "D",
+        "misleading_info": true,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 3822729733,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "delivery",
+        "question": "Which entity is ready for collection earlier, Willow or Aspen?",
+        "expected": "Aspen",
+        "alternative": "Willow",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Willow. The official register for Aspen is unchanged.\n\nOfficial register: Aspen's arrival time is 12 hours after the start of Monday.\n\nAfter arrival, Willow needs 7 hours of processing and Aspen needs 1 hours. Each is ready for collection at its arrival time plus its own processing time.\n\nArchived record, June 1: Willow's arrival time is 4 hours after the start of Monday.\n\nOfficial notice, June 3: Willow's arrival time is 8 hours after the start of Monday.\n\nWhich entity is ready for collection earlier, Willow or Aspen?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P02|qwen3-4b|D|1",
+        "phase": "pilot",
+        "question_id": "P02",
+        "model": "qwen3-4b",
+        "condition": "D",
+        "misleading_info": true,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 1679525624,
+        "subtype": "update",
+        "difficulty": "basic",
+        "domain": "scheduling",
+        "question": "Which entity has the smaller start time, Meadow or Brook?",
+        "expected": "Meadow",
+        "alternative": "Brook",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Meadow. The official register for Brook is unchanged.\n\nOfficial register: Brook's start time is 11 hours after the start of Monday.\n\nCompare the stated values directly.\n\nArchived record, June 1: Meadow's start time is 15 hours after the start of Monday.\n\nOfficial notice, June 3: Meadow's start time is 7 hours after the start of Monday.\n\nWhich entity has the smaller start time, Meadow or Brook?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P05|qwen3-4b|A|1",
+        "phase": "pilot",
+        "question_id": "P05",
+        "model": "qwen3-4b",
+        "condition": "A",
+        "misleading_info": false,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 3587231381,
+        "subtype": "update",
+        "difficulty": "calculation",
+        "domain": "production",
+        "question": "Which entity can make more complete kits, Spruce or Elm?",
+        "expected": "Spruce",
+        "alternative": "Elm",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Spruce. The official register for Elm is unchanged.\n\nOfficial register: Elm's available material is 210 units.\n\nSpruce uses 4 material units per kit. Elm uses 7 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.\n\nOfficial notice, June 3: Spruce's available material is 160 units.\n\nArchived record, June 1: Spruce's available material is 160 units.\n\nWhich entity can make more complete kits, Spruce or Elm?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P03|qwen3-4b|B|1",
+        "phase": "pilot",
+        "question_id": "P03",
+        "model": "qwen3-4b",
+        "condition": "B",
+        "misleading_info": true,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 1536020333,
+        "subtype": "distractor",
+        "difficulty": "calculation",
+        "domain": "inventory",
+        "question": "Which entity can ship more units, Pine or Maple?",
+        "expected": "Maple",
+        "alternative": "Pine",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Maple's stock count is 150 units.\n\nPine must keep 60 units in reserve. Maple must keep 20 units in reserve. Each can ship its stock count minus its own reserve.\n\nOfficial register: Pine's stock count is 170 units.\n\nUnverified team estimate: Pine's stock count is 230 units.\n\nWhich entity can ship more units, Pine or Maple?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P01|qwen3-4b|D|1",
+        "phase": "pilot",
+        "question_id": "P01",
+        "model": "qwen3-4b",
+        "condition": "D",
+        "misleading_info": true,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 869212719,
+        "subtype": "distractor",
+        "difficulty": "basic",
+        "domain": "inventory",
+        "question": "Which entity has the larger stock count, Cedar or Birch?",
+        "expected": "Cedar",
+        "alternative": "Birch",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Birch's stock count is 100 units.\n\nCompare the stated values directly.\n\nOfficial register: Cedar's stock count is 140 units.\n\nUnverified team estimate: Cedar's stock count is 70 units.\n\nWhich entity has the larger stock count, Cedar or Birch?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P03|qwen3-4b|A|1",
+        "phase": "pilot",
+        "question_id": "P03",
+        "model": "qwen3-4b",
+        "condition": "A",
+        "misleading_info": false,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 1536020333,
+        "subtype": "distractor",
+        "difficulty": "calculation",
+        "domain": "inventory",
+        "question": "Which entity can ship more units, Pine or Maple?",
+        "expected": "Maple",
+        "alternative": "Pine",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Maple's stock count is 150 units.\n\nPine must keep 60 units in reserve. Maple must keep 20 units in reserve. Each can ship its stock count minus its own reserve.\n\nOfficial register: Pine's stock count is 170 units.\n\nUnverified team estimate: Pine's stock count is 170 units.\n\nWhich entity can ship more units, Pine or Maple?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P01|qwen3-4b|A|1",
+        "phase": "pilot",
+        "question_id": "P01",
+        "model": "qwen3-4b",
+        "condition": "A",
+        "misleading_info": false,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 869212719,
+        "subtype": "distractor",
+        "difficulty": "basic",
+        "domain": "inventory",
+        "question": "Which entity has the larger stock count, Cedar or Birch?",
+        "expected": "Cedar",
+        "alternative": "Birch",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Birch's stock count is 100 units.\n\nCompare the stated values directly.\n\nOfficial register: Cedar's stock count is 140 units.\n\nUnverified team estimate: Cedar's stock count is 140 units.\n\nWhich entity has the larger stock count, Cedar or Birch?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P01|qwen3-4b|C|1",
+        "phase": "pilot",
+        "question_id": "P01",
+        "model": "qwen3-4b",
+        "condition": "C",
+        "misleading_info": false,
+        "skill_used": true,
+        "repetition": 1,
+        "seed": 869212719,
+        "subtype": "distractor",
+        "difficulty": "basic",
+        "domain": "inventory",
+        "question": "Which entity has the larger stock count, Cedar or Birch?",
+        "expected": "Cedar",
+        "alternative": "Birch",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario.\n\nWhen answering from the supplied scenario:\n1. Identify the facts needed to answer the question.\n2. Check whether the relevant claims disagree.\n3. Apply the stated source-authority and update rules to determine which claim governs. Accept a valid official correction; do not prefer a claim merely because it is recent or confident.\n4. Perform the required calculation using the governing facts.\n5. If the supplied evidence does not resolve the question, state that it cannot be determined.\n6. Give the best-supported final answer in the requested format."
+          },
+          {
+            "role": "user",
+            "content": "The official register is the source of record. The team estimate is unverified and cannot override the register. Both claims describe the same situation.\n\nOfficial register: Birch's stock count is 100 units.\n\nCompare the stated values directly.\n\nOfficial register: Cedar's stock count is 140 units.\n\nUnverified team estimate: Cedar's stock count is 140 units.\n\nWhich entity has the larger stock count, Cedar or Birch?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      },
+      {
+        "trial_id": "pilot|P02|qwen3-4b|A|1",
+        "phase": "pilot",
+        "question_id": "P02",
+        "model": "qwen3-4b",
+        "condition": "A",
+        "misleading_info": false,
+        "skill_used": false,
+        "repetition": 1,
+        "seed": 1679525624,
+        "subtype": "update",
+        "difficulty": "basic",
+        "domain": "scheduling",
+        "question": "Which entity has the smaller start time, Meadow or Brook?",
+        "expected": "Meadow",
+        "alternative": "Brook",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Use only the supplied facts and source rules about this fictional scenario."
+          },
+          {
+            "role": "user",
+            "content": "The official notice dated June 3 supersedes the archived June 1 record for Meadow. The official register for Brook is unchanged.\n\nOfficial register: Brook's start time is 11 hours after the start of Monday.\n\nCompare the stated values directly.\n\nArchived record, June 1: Meadow's start time is 7 hours after the start of Monday.\n\nOfficial notice, June 3: Meadow's start time is 7 hours after the start of Monday.\n\nWhich entity has the smaller start time, Meadow or Brook?\n\nGive a brief explanation. End with exactly one line: Final answer: <entity name>. If the facts do not determine an answer, end with Final answer: Cannot determine."
+          }
+        ]
+      }
+    ]
+  },
+  "models": {
+    "qwen3-1.7b": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+    },
+    "qwen3-4b": {
+      "model_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+    }
+  },
+  "runtime": {
+    "backend": "transformers",
+    "python": "3.11.9",
+    "platform": "Linux-6.1.0-53-amd64-x86_64-with-glibc2.35",
+    "device": "cuda",
+    "dtype": "float16",
+    "quantization": "none",
+    "packages": {
+      "torch": "2.5.1+cu121",
+      "transformers": "4.57.6",
+      "huggingface-hub": "0.36.2",
+      "accelerate": "1.15.0"
+    }
+  },
+  "pilot_reviewed": false
+}

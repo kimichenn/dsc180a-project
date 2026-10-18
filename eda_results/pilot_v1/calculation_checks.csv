@@ -1,0 +1,14 @@
+question_id,entity_a,entity_b,calculation_rule,calculated_a,calculated_b,expected,answer_without_calculation,misleading_answer
+P03,Pine,Maple,Pine must keep 60 units in reserve. Maple must keep 20 units in reserve. Each can ship its stock count minus its own reserve.,110,130,Maple,Pine,Pine
+P04,Willow,Aspen,"After arrival, Willow needs 7 hours of processing and Aspen needs 1 hours. Each is ready for collection at its arrival time plus its own processing time.",15,13,Aspen,Willow,Willow
+P05,Spruce,Elm,Spruce uses 4 material units per kit. Elm uses 7 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,40,30,Spruce,Elm,Elm
+E11,Yarrow,Zephyr,Yarrow must keep 50 units in reserve. Zephyr must keep 10 units in reserve. Each can ship its stock count minus its own reserve.,70,90,Zephyr,Yarrow,Yarrow
+E12,Acorn,Beryl,"After arrival, Acorn needs 6 hours of processing and Beryl needs 1 hours. Each is ready for collection at its arrival time plus its own processing time.",15,13,Beryl,Acorn,Acorn
+E13,Clover,Dune,Clover uses 7 material units per kit. Dune uses 4 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,30,45,Dune,Clover,Clover
+E14,Ember,Fern,Each item sold by Ember earns 8 dollars. Each item sold by Fern earns 4 dollars. Revenue is number of items sold times its own price per item.,144,96,Ember,Fern,Fern
+E15,Grove,Hazel,Grove must keep 5 units in reserve. Hazel must keep 35 units in reserve. Each can ship its stock count minus its own reserve.,80,70,Grove,Hazel,Hazel
+E16,Indigo,Jasper,"After arrival, Indigo needs 1 hours of processing and Jasper needs 8 hours. Each is ready for collection at its arrival time plus its own processing time.",15,18,Indigo,Jasper,Jasper
+E17,Kelvin,Linden,Kelvin uses 3 material units per kit. Linden uses 5 material units per kit. Only whole kits count; divide available material by the entity-specific units per kit and round down.,48,40,Kelvin,Linden,Linden
+E18,Mallow,Nimbus,Each item sold by Mallow earns 2 dollars. Each item sold by Nimbus earns 5 dollars. Revenue is number of items sold times its own price per item.,60,100,Nimbus,Mallow,Mallow
+E19,Opal,Petal,Opal must keep 100 units in reserve. Petal must keep 20 units in reserve. Each can ship its stock count minus its own reserve.,160,200,Petal,Opal,Opal
+E20,Robin,Sorrel,"After arrival, Robin needs 1 hours of processing and Sorrel needs 8 hours. Each is ready for collection at its arrival time plus its own processing time.",13,16,Robin,Sorrel,Sorrel

@@ -1,0 +1,9 @@
+model,subtype,difficulty,questions,A,B,C,D
+qwen3-1.7b,distractor,basic,1,100.0,100.0,100.0,100.0
+qwen3-1.7b,distractor,calculation,1,100.0,100.0,100.0,100.0
+qwen3-1.7b,update,basic,1,100.0,100.0,100.0,100.0
+qwen3-1.7b,update,calculation,2,50.0,50.0,100.0,100.0
+qwen3-4b,distractor,basic,1,100.0,100.0,100.0,100.0
+qwen3-4b,distractor,calculation,1,100.0,100.0,100.0,100.0
+qwen3-4b,update,basic,1,100.0,100.0,0.0,100.0
+qwen3-4b,update,calculation,2,100.0,100.0,100.0,100.0

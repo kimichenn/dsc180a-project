@@ -1,0 +1,26 @@
+{"review_id": "866a7bc5e5b7ffc649037a96", "label": "correct", "notes": "Correct entity; final-answer line malformed ('Final answer:' duplicated).", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "3d4a56f89e982453ecfe8ce6", "label": "abstained", "notes": "Answered 'Cannot determine' (inline, not on its own line).", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "73159f342b7e2e14c6e30540", "label": "abstained", "notes": "Truncated at 512 tokens before comparing; no entity chosen.", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "ca4716fdd9ef38327aea50f7", "label": "correct", "notes": "Correct entity; final-answer line malformed (inline at end of paragraph).", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "f75a4de3cc5b6a804cbafee9", "label": "correct", "notes": "Correct entity; final-answer line malformed ('Final answer:' duplicated).", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "3e2cd97fd014d6d356243508", "label": "abstained", "notes": "Truncated at 512 tokens; computed 34 vs 31 but never stated which is earlier.", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "279b7b6143f19af1c3deaa1a", "label": "correct", "notes": "Correct entity; final-answer line malformed ('Final answer:' duplicated).", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "4a37860d2b00548bd07d53c5", "label": "correct", "notes": "Correct entity; final-answer line malformed (step number before final answer).", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "d409b1bcf9f44f98f56c90a4", "label": "abstained", "notes": "Truncated at 512 tokens mid-calculation; no entity chosen.", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "4021f05c8acde01b8c94aa8c", "label": "correct", "notes": "Truncated at 512 tokens after explicitly concluding 'Robin is ready for collection earlier'.", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "213992597f7a416cdb4b545a", "label": "abstained", "notes": "Truncated at 512 tokens mid-sentence ('Since 31 hours < 34'); no entity named.", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "4fe6baf0c281470d66391381", "label": "correct", "notes": "Correct entity; final-answer line malformed (inline after 'The best-supported final answer is:').", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "1c9ab1870351c4e982b114c5", "label": "correct", "notes": "Correct entity; final-answer line malformed ('Final answer:' duplicated).", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "5f581eb36d6d6d21ecd39288", "label": "correct", "notes": "Correct entity; final-answer line malformed ('Final answer:' duplicated).", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "ac36eb45ea072530835dc644", "label": "correct", "notes": "Correct entity; final-answer line malformed ('Final answer:' duplicated).", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "4541b0a0894966ec6b9b3dff", "label": "correct", "notes": "Correct entity; final-answer line malformed ('Final answer:' duplicated).", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "3148b3c0fe90c39afbe0bd51", "label": "abstained", "notes": "Truncated at 512 tokens; computed 30 vs 28 but never stated which is earlier.", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "bff54c13b80f97aa9b0e9068", "label": "other_error", "notes": "Answered 'Official register' instead of an entity; no comparison made.", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "70d911c64007d098c1f40750", "label": "other_error", "notes": "Answered 'Official register' instead of an entity; no comparison made.", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "4db8222233ff852477d3cb3f", "label": "correct", "notes": "Correct entity; final-answer line malformed (inline after 'The best-supported final answer is:').", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "8901ac826f5f1393f49a7443", "label": "other_error", "notes": "Answered 'Official register' instead of an entity; no comparison made.", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "816f2a3bf2ddc66c26005aa5", "label": "abstained", "notes": "Truncated at 512 tokens; computed 11 vs 14, cut off at 'Canary is ready' before stating a comparison.", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "896792c654581d0e66e6af1b", "label": "correct", "notes": "Truncated at 512 tokens after explicitly concluding 'Basil is ready for collection earlier'.", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "0e91b07c14840ff049658d65", "label": "correct", "notes": "Correct entity; final-answer line malformed ('Final answer:' duplicated).", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "52667f2c840cf4ec68dd5383", "label": "correct", "notes": "Correct entity; final-answer line malformed (inline after 'The best-supported final answer is:').", "labeled_at": "2026-10-14T01:09:16+00:00"}
+{"review_id": "f78a7d1ba0be41666e0bc0ff", "label": "correct", "notes": "Correct entity; final-answer line malformed ('Final answer:' duplicated).", "labeled_at": "2026-10-14T01:09:16+00:00"}

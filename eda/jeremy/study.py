@@ -28,7 +28,9 @@ CONDITIONS = {
     "C": {"misleading_info": False, "skill_used": True},
     "D": {"misleading_info": True, "skill_used": True},
 }
-LABELS = {"correct", "adopted_misleading", "abstained", "other_error"}
+# "matches_misleading" records the answer only; on calculation items it is also the
+# answer produced by skipping the arithmetic, so it is not evidence of adoption.
+LABELS = {"correct", "matches_misleading", "abstained", "other_error"}
 COMMON = "Use only the supplied facts and source rules about this fictional scenario."
 OUTPUT_RULE = (
     "Give a brief explanation. End with exactly one line: Final answer: <entity name>. "
@@ -233,8 +235,8 @@ class LocalQwenBackend:
             raise RuntimeError("The tokenizer template changed from the frozen run.")
         self.model = AutoModelForCausalLM.from_pretrained(
             model["model_id"], revision=model["revision"], torch_dtype=self.dtype,
-            low_cpu_mem_usage=True, trust_remote_code=False,
-        ).to(self.device).eval()
+            device_map=self.device, trust_remote_code=False,
+        ).eval()
 
     def generate(self, trial):
         from transformers import set_seed
@@ -285,13 +287,15 @@ def run_lock(run_dir):
         path.unlink(missing_ok=True)
 
 
-def run_path(root, run_name):
+def run_path(root, run_name, *, results_root=None):
     if not re.fullmatch(r"[A-Za-z0-9_-]+", run_name):
         raise ValueError("Use a simple run name such as pilot_v1 or evaluation_v1.")
-    return Path(root) / "runs" / run_name
+    directory = Path(results_root) if results_root is not None else Path(root) / "runs"
+    return directory / run_name
 
 
-def collect(root, phase, run_name, *, pilot_reviewed=False, max_new_trials=None, backend=None):
+def collect(root, phase, run_name, *, pilot_reviewed=False, max_new_trials=None, backend=None,
+            results_root=None):
     """Freeze inputs on first call; resume without regenerating completed trials.
 
     Actual model calls require invoking this function; the notebook defaults to
@@ -306,7 +310,7 @@ def collect(root, phase, run_name, *, pilot_reviewed=False, max_new_trials=None,
     trials = build_trials(questions, config, skill, phase)
     if not trials:
         raise ValueError("No trials for this phase.")
-    run_dir = run_path(root, run_name)
+    run_dir = run_path(root, run_name, results_root=results_root)
     run_dir.mkdir(parents=True, exist_ok=True)
     design = {"phase": phase, "config": config, "questions": questions, "skill": skill,
               "runner_sha256": digest(Path(__file__).read_text()), "trials": trials}
@@ -386,7 +390,7 @@ def auto_score(response, expected, alternative, misleading_info, status="ok"):
     if normalized == normalize_answer(expected):
         label = "correct"
     elif normalized == normalize_answer(alternative):
-        label = "adopted_misleading" if misleading_info else "other_error"
+        label = "matches_misleading" if misleading_info else "other_error"
     elif normalized in ("cannot determine", "insufficient information", "unknown", "undetermined"):
         label = "abstained"
     else:
@@ -419,6 +423,9 @@ def result_frame(trials, run_dir):
         row["label_source"] = "auto" if row["label"] else "pending"
         if row["review_id"] in manual and row["status"] in ("ok", "truncated"):
             row["label"] = manual[row["review_id"]]["label"]
+            # Keep append-only review records intact while reading older labels.
+            if row["label"] == "adopted_misleading":
+                row["label"] = "matches_misleading"
             if row["label"] not in LABELS:
                 raise ValueError("Invalid manual label.")
             row["label_source"] = "manual"
@@ -427,20 +434,26 @@ def result_frame(trials, run_dir):
     return pd.DataFrame(output)
 
 
-def load_results(root, phase, run_name):
-    """Existing runs are analyzed using their frozen snapshots, not edited inputs."""
-    directory = run_path(root, run_name)
+def load_run_design(root, phase, run_name, *, results_root=None):
+    """Use the frozen design for every part of an existing run's analysis."""
+    directory = run_path(root, run_name, results_root=results_root)
     manifest_path = directory / "manifest.json"
     if manifest_path.exists():
         manifest = json.loads(manifest_path.read_text())
         design = manifest["design"]
         if design["phase"] != phase:
             raise ValueError("Run name belongs to a different phase.")
-        trials, config = design["trials"], design["config"]
-    else:
-        questions, config, skill = load_study(root)
-        trials = build_trials(questions, config, skill, phase)
-    return result_frame(trials, directory), config
+        return design
+    questions, config, skill = load_study(root)
+    return {"phase": phase, "questions": questions, "config": config, "skill": skill,
+            "trials": build_trials(questions, config, skill, phase)}
+
+
+def load_results(root, phase, run_name, *, results_root=None):
+    """Existing runs are analyzed using their frozen snapshots, not edited inputs."""
+    design = load_run_design(root, phase, run_name, results_root=results_root)
+    directory = run_path(root, run_name, results_root=results_root)
+    return result_frame(design["trials"], directory), design["config"]
 
 
 def summarize(frame, repetitions):
@@ -515,7 +528,7 @@ def apply_review(frame, directory):
         if original["status"] not in ("ok", "truncated"):
             raise ValueError("Cannot score an execution failure or missing response.")
         label = ("correct" if choice == "expected" else
-                 "adopted_misleading" if choice == "alternative" and original["misleading_info"] else
+                 "matches_misleading" if choice == "alternative" and original["misleading_info"] else
                  "other_error" if choice == "alternative" else choice)
         pending.append({"review_id": row["review_id"], "label": label,
                         "notes": row["notes"], "labeled_at": utc_now()})
@@ -540,6 +553,10 @@ def export_results(frame, repetitions, directory):
             accuracy.round(2).to_string(), "", "Effects in percentage points:", effects.round(2).to_string(), "",
             "## Interpretation to complete", "", "- Describe any accuracy drop under misleading information.",
             "- Describe skill gains and any change in clean-condition accuracy.",
+            "- A positive reduction_in_drop_pp can result from lower clean-with-skill accuracy alone; "
+            "report D-B (skill_gain_under_misleading_pp) alongside C-A (baseline_skill_gain_pp).",
+            "- matches_misleading records only a final-answer match to the misleading answer, not its cause. "
+            "Skipping arithmetic can produce the same answer; this label does not establish adoption of misinformation.",
             "- Include representative errors and report ceiling or weak-baseline results.",
             "- These are repeated measurements of a small authored set, not independent benchmark items.",
             "- This single-turn study does not measure drift or establish a general model-size effect.",
