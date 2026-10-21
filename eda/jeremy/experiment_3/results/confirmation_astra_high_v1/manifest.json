@@ -1,0 +1,418 @@
+{
+  "allow_estimated_tokens": true,
+  "artifact_hashes": {
+    "baselines.csv": "1027e3d19a388d1a0606f2f899db249a83bd780371fbb37951fcea5c7b936012",
+    "instructions/none.md": "0f06336c3e7511c54a52116020ea354a78d87e67199395f2e3da8dadfd53cbfb",
+    "prompts/s400000_n3200_C.txt": "37670bc4a2821d06e6475e089a2d8df85f684d6f38b63dc13096635e0449bc83",
+    "prompts/s400000_n3200_G.txt": "5b4b341162085f78e9ffc56b3f2b2972157b4ffbeada41d70aaadac29920aace",
+    "prompts/s400000_n3200_R.txt": "72d5f6203fd6dba331f88659e64d7b4d8be1eb3788464fe1a49404b26fa8e7aa",
+    "prompts/s400000_n3200_RG.txt": "33c904eefad86bbfb975f4db0b84fd04559426e2adb925e094194f370284c678",
+    "prompts/s400001_n3200_C.txt": "097cc1af88132b214c552269d297bc3147b9824c8f886a9b604c8b76d6648aca",
+    "prompts/s400001_n3200_G.txt": "de5918ad5470c226dcf92e0ebadf074e76068179d791dab44ea0bb8ff404acac",
+    "prompts/s400001_n3200_R.txt": "97d920a99b87a747c2036c500d5af3848b61867b5965202a03833f95b66e2387",
+    "prompts/s400001_n3200_RG.txt": "41d9c1aaa5bd88ceeb68b4bd7a3fc328a6ccbc645a14e9085e67f490dd46c4f5",
+    "prompts/s400002_n3200_C.txt": "de9234b369710f6e419f577c116b91151c655d7ea57fa346789722af54026fb5",
+    "prompts/s400002_n3200_G.txt": "2578582c4e546c38d4a550c6259a6f320d6be14500560cfc8fc3bea689432b1e",
+    "prompts/s400002_n3200_R.txt": "96faf7586c21cb0ebfbf57c17502809381b79934958fd25562925ef9f124f287",
+    "prompts/s400002_n3200_RG.txt": "cd1c6619f08903276893a581e027185d0db6b32daf0808ae928c98a1e61921b0",
+    "prompts/s400003_n3200_C.txt": "4604d46dd18312a8ca66d410d0e848b8ae04f4710f72cdab47cf41dd982bc07c",
+    "prompts/s400003_n3200_G.txt": "4c5bd486600c967c20cb717b9e3be237a54069b03cda6b11b0c7655129b190a6",
+    "prompts/s400003_n3200_R.txt": "717f8d6ba1d5e8ca14ebf71ae245f10d4b8cc26cc352d1315d185631e7e0c7ca",
+    "prompts/s400003_n3200_RG.txt": "fc4d6eb639345616885b09884b455000f9ac43f82b230600ec379d25c696372e",
+    "prompts/s400004_n3200_C.txt": "66a676dc2e1d338b1714c0f017a6ddf69f474606c6bfb809998637b37ea9a6b9",
+    "prompts/s400004_n3200_G.txt": "560612ff942050f6d7bf05b908c07bf615044dff007cde39c28f518b6050c075",
+    "prompts/s400004_n3200_R.txt": "c654459460e7cc9f54bcf3c7d6a0b0c04fcd17a7f608503c907d44ba4a87245f",
+    "prompts/s400004_n3200_RG.txt": "65f95de48a871a554049ade8b04db7ce678c31ddb25ccbcc412ee1c94fea600d",
+    "prompts/s400005_n3200_C.txt": "7a8bcfd804697332c6063dd6916f90f26b0ba67a51acafdcb6903a1bb2e36ba7",
+    "prompts/s400005_n3200_G.txt": "818c8a88912d2596846e246cbf067993c1ef7d2ed8a5c414095f3909bb5db08e",
+    "prompts/s400005_n3200_R.txt": "8dc918ae1fc458d03e62c047f30e12190dff64fee763da37e2582af8351b4f65",
+    "prompts/s400005_n3200_RG.txt": "1bba3fa89bc1a37e3b71d1db58c4474e6bd981d418e4ae5df2a7e83789316154",
+    "prompts/s400006_n3200_C.txt": "b0d020268b89460607030a22e1391aeab028fe99a3e918ae89292fb80208c1f8",
+    "prompts/s400006_n3200_G.txt": "e7cbed37ce92e004364ae9ce9111f0f0865da3acb16dbe1cf72f40e9d75c84d1",
+    "prompts/s400006_n3200_R.txt": "cb6ee5fffef3c73a0d66ad205e5ee9f3f59c0aaa1f3365afcd75d5a92d94e738",
+    "prompts/s400006_n3200_RG.txt": "c358f86c0d1fe79195e3eba6b55f74c28d0dbaf1f48a6a2d3ee46f71ab371e0d",
+    "prompts/s400007_n3200_C.txt": "409fe06436e2e957a7e56906c62f470830ae61321f3358390364232194960610",
+    "prompts/s400007_n3200_G.txt": "aecc18cb7ce3ee9eb2382f4a306fbbb2bdc89ae211d4d30e68d0bdd991076089",
+    "prompts/s400007_n3200_R.txt": "c927e2ccc00d12e3e1ba546fe747bb3ed009783c84fea0c95e4098e468129e9a",
+    "prompts/s400007_n3200_RG.txt": "ec3015859a92010fd451a91d78554a6d17eecbdeffd526ac1c3ab72f23719f18",
+    "prompts/s400008_n3200_C.txt": "c7b0e691bca2c73cb7eb33bfff9f887655eb2514be22233429bb87a741e47a83",
+    "prompts/s400008_n3200_G.txt": "a9c1da3426a3953a9ed49961a2363327912fbb04b5da220757cd735d92681eb5",
+    "prompts/s400008_n3200_R.txt": "2e917db0924729b56726a9f240de14e1e9852ecce1fc5b3ff558eaa542e467e9",
+    "prompts/s400008_n3200_RG.txt": "64d2ffc5d64a2c685da4fccf0eedf8ac958dc81fa48dbb37df96cdc4822d6fa1",
+    "prompts/s400009_n3200_C.txt": "bf3845bdd34a2fe8583c2c879cb6c651175fbcb702dbae2b4f6e212dab0b10c8",
+    "prompts/s400009_n3200_G.txt": "f80d03aa7718795fe4194050b1c3606087a996617542bc9f833989fc461ce502",
+    "prompts/s400009_n3200_R.txt": "ec28234620a24c9c41e8a479e1fd77cafd00b3de26730b0d0c71223ac8fd52a8",
+    "prompts/s400009_n3200_RG.txt": "442804c5b5d57e111891bd40d154b9622c33d55d98649941956cfe4ea4ee41b6",
+    "prompts/s400010_n3200_C.txt": "f467a14f6602728fa0881452bca3f63e72e94ea4a3d47814f53cdd2697337e44",
+    "prompts/s400010_n3200_G.txt": "58d6f689f0d4ba21b2acdbf404b40f5d18ee67c23e97c958c98787700ea780a0",
+    "prompts/s400010_n3200_R.txt": "0c39eb5a6d76183780f1cf5d434aeab6c280adb6e07de1353fb69c4191c5050c",
+    "prompts/s400010_n3200_RG.txt": "208ea59925373eca6487972a3cc6cbd8264e8f7e0e9bf48bfb8ff0cc1e78b864",
+    "prompts/s400011_n3200_C.txt": "7e3d325a1f1d7a4017a6392ea375e9606eb37c79d79dbdd34bab77ea218a3e9d",
+    "prompts/s400011_n3200_G.txt": "eff128ddb3d86db8ee60422a03f42420bd20b8910f876d84913b4a4a1671fdf2",
+    "prompts/s400011_n3200_R.txt": "c836349927aa38eb7ecb4acc95c3ac360d2ffc04b749243905669a6d93e77203",
+    "prompts/s400011_n3200_RG.txt": "ade157dd685d7e39aa4c68008a18a70ce294067a0bff3b98ff4f51e5132a7527",
+    "prompts/s400012_n3200_C.txt": "aeae78bb83b364a3959b27f6fb24985d1885be5d331f0688b5b6aadb65428b57",
+    "prompts/s400012_n3200_G.txt": "b3333d4673e3b7b7572847ae7e48a7887085f930e243cf4401488836e3ff17e3",
+    "prompts/s400012_n3200_R.txt": "924b561a4522afb38d649a572b52d1d2837699539806b5236533d1419d2d23cf",
+    "prompts/s400012_n3200_RG.txt": "6f59db2e70b326435da33e4f5adb30f33cb7cef0fad2391152e2882080883707",
+    "prompts/s400013_n3200_C.txt": "2fcb2d34b2e5adfa1e57983c017ef57be48ec78a2d312a68cdac994d41cdd04d",
+    "prompts/s400013_n3200_G.txt": "53502089e2852354b66425f3b1ea6ddad371ab4e12165e54e3ea81cb4cdd3c3e",
+    "prompts/s400013_n3200_R.txt": "9cdf39f444ba9efa2a2aa8165ca332d5b016c334a8ca93487aa552e6251076b6",
+    "prompts/s400013_n3200_RG.txt": "a245509595c00eced33de5ff14c1fa9bbf5f084d60f0b84129f11eaefce760ba",
+    "prompts/s400014_n3200_C.txt": "ad71e28faf0fc75a54e7a19f4d7f5da3c29b9f7829b51e565586251b002865e4",
+    "prompts/s400014_n3200_G.txt": "9e63a085ac9dec6cd613e1da97ee2239dee65c9e6ad236ad70d027fa662ea2fd",
+    "prompts/s400014_n3200_R.txt": "8d918c00f05d831261d9b647402e50cc5760efe44ddea691ff017a3256f4bd5c",
+    "prompts/s400014_n3200_RG.txt": "c1b92a30706b2d54f1fa4f9326682c4da1d76bf7ffba1bc0cfd63a981976d52a",
+    "prompts/s400015_n3200_C.txt": "d50453a06e01ab740d1af5386656fabc1cd8c1ba1a739829d898653cff6fe18e",
+    "prompts/s400015_n3200_G.txt": "8f8def500bc3abc68370f967772f8a8923e9aef4f7a07aa081a80cdebed15788",
+    "prompts/s400015_n3200_R.txt": "25943fddcf916547bfa8d0f7f496c86fd5ad22948f58dbecf687bcae1d18dfea",
+    "prompts/s400015_n3200_RG.txt": "78c7596aadef75e30eb393451cd4240e9412225a783ea25634105b8b267425c5",
+    "prompts/s400016_n3200_C.txt": "2a3ef3efa662c0fbb2d9373d00f9a65437bcb86b09b0f1102855590ad7580514",
+    "prompts/s400016_n3200_G.txt": "466730a10d3e3f0eb2f044ba3e8f32c14ee9f3fd6326ea650f339faef2502ff9",
+    "prompts/s400016_n3200_R.txt": "64490e9aa0e19ee43302d321637e010d23f3e2ad30b5b8027e973a9a26d56ac8",
+    "prompts/s400016_n3200_RG.txt": "58f709a357017ffb93f4e0ecd696bc62361a7506d7d28d15ac9b945273b537db",
+    "prompts/s400017_n3200_C.txt": "713a56b7319a47c1294865bb9d0b6e84443ab5dbab8852c4f103ee53fde0ac0a",
+    "prompts/s400017_n3200_G.txt": "00309a5c2bd2fb3a04a0a52e71993914ac3d88fdf51584da99e722aa46e23917",
+    "prompts/s400017_n3200_R.txt": "54733dffb07e7540d8b686c00f475d1deb67c47098f44c72b2a3c05f99933466",
+    "prompts/s400017_n3200_RG.txt": "a68f7cf9be56cb88c3959cd85d8c9d99ae2ae933c674c2e376d25283288a8fc6",
+    "prompts/s400018_n3200_C.txt": "d73afed64783f6380d9b5b8313bf0b483dc6e8a59e36a46c7762f609687275b5",
+    "prompts/s400018_n3200_G.txt": "a0ec7b8b05da47e532b7d453c0de729ff4cfa5462e3e4ddbbaf7e33792c050a2",
+    "prompts/s400018_n3200_R.txt": "820c3b6568c0840476eacb95b9b75944349aafc09d8f82c76ca95ddcc2886a9d",
+    "prompts/s400018_n3200_RG.txt": "e30d36124fbc8c2505534e787412bf659263c31a1d3475d6066d1906f9865dfe",
+    "prompts/s400019_n3200_C.txt": "9d9ff8209956fe19e013e7bf830ae852fcd49e113dff521c526ad445077fbaf9",
+    "prompts/s400019_n3200_G.txt": "64e926085fc28028d1cfa3d6a0f17e890b178c395a0dd010e9d1c0f45c88f8f8",
+    "prompts/s400019_n3200_R.txt": "0550ba1198aa8dd9a48e170fd2da4b67f1e67192511480c90fd628bf615df012",
+    "prompts/s400019_n3200_RG.txt": "1fa64f6d0779cbfbd12169682c1b50cd280c787adbcb86a1aae7cc3cb2551f85",
+    "prompts/s400020_n3200_C.txt": "4433a8ca5220e734e4e234282030a1c0ad21e6d1f3e186eb23f35089f7211ad5",
+    "prompts/s400020_n3200_G.txt": "61547674a698aca073ac3b50c2f2f4693e1c5454eb7307c70ce45f5924e92d04",
+    "prompts/s400020_n3200_R.txt": "7b481c4d35338738f2d782f135b8448a4c66f1c672d4da0b2a5781bc9abb30c8",
+    "prompts/s400020_n3200_RG.txt": "b3a62a521d06c20b875c37d5971c85771ca872b20e9c386c74478e674dce04c3",
+    "prompts/s400021_n3200_C.txt": "ee3f0c570ec10044e1188ea2ed7ce59c11f3be8a1f4605a48f95a47ccb453136",
+    "prompts/s400021_n3200_G.txt": "2aaf05d41c78f14b0f2e6c8251f523b01e19ad88d24c4822b7d46e48675f4e32",
+    "prompts/s400021_n3200_R.txt": "984cd24952cd1fa0444c25740271a6f0f20de940e6edee49ecfc8b8a572c81c5",
+    "prompts/s400021_n3200_RG.txt": "5c343fe9f323dd164e2d39ff4546abbf28a0a1485a5ee1cf2d083930de70a4f6",
+    "prompts/s400022_n3200_C.txt": "36bc853a5e31db3b8af0ab63488b6312086886f6e1d35a3e93e5ec3d026d0b03",
+    "prompts/s400022_n3200_G.txt": "dc6c464f0cfb1621476e57cc371e9f4196b0902bd06113ea8e4261819478a603",
+    "prompts/s400022_n3200_R.txt": "f3a258ec3fc7d8fc87ac904415bddda68f8c412e475db7a9140e60847885fda0",
+    "prompts/s400022_n3200_RG.txt": "7c37d8872cc3fbce854ddb05cf77008644e7de2ef597b5bd69aeebc1ddd476d4",
+    "prompts/s400023_n3200_C.txt": "38b0e6b969c725b300822d7bee816ea5801618ac36df726c76e6d25b8acb89cf",
+    "prompts/s400023_n3200_G.txt": "3360d90bd05d844b77fd79cb09789922d52dbc57d230342081212034f353f711",
+    "prompts/s400023_n3200_R.txt": "069552443e67824f5aadc0dcf198455366a86b7480123a1a55fdc993351b4421",
+    "prompts/s400023_n3200_RG.txt": "040cd2d1d89365d2a983f4a0e6f8472d2a1b35ef0c3ebd5bdfc9c8dd922a55ed",
+    "prompts/s400024_n3200_C.txt": "eecb8ff3977cb1948bc6d82837c9455ee99a651b78cc81a49acbd0ac7208d3ad",
+    "prompts/s400024_n3200_G.txt": "3a6632a90cbb389acf40ed2f9f893c028a30b168f37ac7c3844a223820d5c22e",
+    "prompts/s400024_n3200_R.txt": "21047f4e172be0717b301bf8fce99633b620a3c73055c7c1d348742dae5102bf",
+    "prompts/s400024_n3200_RG.txt": "bb4219b0820b5a1a1c6ea6dbdccd110c2e04da39e6b0ef1c1a584f0a9294c4aa",
+    "prompts/s400025_n3200_C.txt": "71e60629ecd8ce4c236d5204369f1b8a31678eac61370c34c758ffb0c8e02878",
+    "prompts/s400025_n3200_G.txt": "49a26ccf97c1767b781a29af09477a28cc6020bd10bfe10896dd8fbc2bbc0773",
+    "prompts/s400025_n3200_R.txt": "fc6dc4c07e0b338965a7f77c2267b7f4bd7b14f270082618a342b9ab324d98c1",
+    "prompts/s400025_n3200_RG.txt": "1d3c552902542fb3fd57faf773f517842291477f8f2afdc979035f426c392bec",
+    "prompts/s400026_n3200_C.txt": "23b70b91386ccfcd2f11fc9c9c9dd1fee40ed5b45be2637577cca513f883391a",
+    "prompts/s400026_n3200_G.txt": "e6a1b8db985cc3d4e698019b56997d79c78adbaccc1b842581f8a99a77f5d0de",
+    "prompts/s400026_n3200_R.txt": "fdf7fa8ba1c030aee4109e210637ba00527548e14e975f487cf5c0e37ebf8fd6",
+    "prompts/s400026_n3200_RG.txt": "fc8dc86d9a8aa71a2d9d3b456c2597420b5f4fa97906a66b2aa8f3191253da6a",
+    "prompts/s400027_n3200_C.txt": "77cf22dda9b8a49a4cede28094948715be83b70c3c5a975fa5b5f9bdabff223e",
+    "prompts/s400027_n3200_G.txt": "c96b170b0b1235997febc035e6f05e76969a7058ab8caca604d8de1ff34f72c5",
+    "prompts/s400027_n3200_R.txt": "6e1a5a26be08983c02998277c2b3f22d4968cb0ffedb9bb423b05e191be43970",
+    "prompts/s400027_n3200_RG.txt": "76ad5b0cb24d609ed03c59f7439ba3d2bdec47039cf4567053436afc76dd04dc",
+    "prompts/s400028_n3200_C.txt": "00f53b1069fcd7d4b55269d796dda0aff3a14f98e2b462e372cdb2a10f813476",
+    "prompts/s400028_n3200_G.txt": "fbb0600e68dc543e47dcc1eef7c0a5dfde2254a9a7a75f15b839535579e2a082",
+    "prompts/s400028_n3200_R.txt": "5428dcad0bc58651ce03bb043fb1d3fbcbb679e3ae7d4b50181a25af5c1931a6",
+    "prompts/s400028_n3200_RG.txt": "1e839dab803fb1931679fa5e97b836191c08d8b6cba43086e9bd2fbe43eb6d04",
+    "prompts/s400029_n3200_C.txt": "946425381e87caa682384af766bdeb5173372895282a67183dcc1d8314db85c9",
+    "prompts/s400029_n3200_G.txt": "8b1f92891024aca4598d089e984b1f56f23e517ef9a6be7c3b205d6fb2c6708b",
+    "prompts/s400029_n3200_R.txt": "5c0ffd31d64a991f8220315d6677809ac01dee556a3bd6e4be32bba5728b2cf8",
+    "prompts/s400029_n3200_RG.txt": "e4d8e1999cae4b4b8c66eefdad2693f66663307a4a94d9280d9cd2819d7cad47",
+    "runtime_expected.json": "a766a7329d038cec1320e551c7aa33e119e7032e5e443c873ddf5681c8f34b1d",
+    "tokenizer_calibration.json": "c4c68a29035089421e5e0cc02f3d729471f6a4c01e3e729c2b51fb8b8921437f",
+    "trials.jsonl": "e4a2032ff04b7b758cea756ab20e2994b27a2a0ea121805699bb630bc391be39",
+    "unsupported_combinations.csv": "06b08195d228aff6e7cc6ce638cb0d27f538760130e4952020ae8df89df979e2",
+    "validation.json": "8b4679cd07e720de31fd4d7b93f38e01c932040facf3e4f65c908a5731ed8f97",
+    "worlds.jsonl": "73aa5a6a974c3aac34cf7020f92f6d812e839674013b87916bbfc7294d4ea5ec"
+  },
+  "calibration_runtime_matches_collection": false,
+  "config": {
+    "collection_runtime": {
+      "path": "runtime_snapshot.json",
+      "sha256": "a766a7329d038cec1320e551c7aa33e119e7032e5e443c873ddf5681c8f34b1d"
+    },
+    "efforts": [
+      "high"
+    ],
+    "max_attempts": 3,
+    "models": [
+      "gpt-6-astra"
+    ],
+    "pair_adjacent_schedule": true,
+    "profiles": {
+      "confirmation": {
+        "contexts": [
+          "C",
+          "RG"
+        ],
+        "instructions": [
+          "none"
+        ],
+        "nested_rate": 0.35,
+        "record_counts": [
+          3200
+        ],
+        "seed_start": 400000,
+        "worlds": 30
+      },
+      "development": {
+        "contexts": [
+          "C",
+          "RG"
+        ],
+        "instructions": [
+          "none"
+        ],
+        "nested_rate": 0.35,
+        "record_counts": [
+          3200
+        ],
+        "seed_start": 300000,
+        "worlds": 5
+      },
+      "smoke": {
+        "contexts": [
+          "example"
+        ],
+        "instructions": [
+          "none"
+        ],
+        "worlds": 5
+      }
+    },
+    "reported_input_matching": {
+      "enabled": true,
+      "on_failure": "stop_and_preserve_all_attempts",
+      "tolerance": 0.02
+    },
+    "schedule_seed": 180,
+    "study_plan": {
+      "bootstrap": "2000 paired world resamples using the preserved analysis implementation; one selected model/effort.",
+      "confirmation_rule": "Complete all 30 pairs. Require C >= 27/30, RG <= 18/30, paired accuracy gap >= 30 percentage points with the 95% paired bootstrap interval excluding zero, valid-format outputs >= 29/30 in each condition, and all 30 reported input-length pairs within 2%.",
+      "fresh_worlds": "Seeds 400000 through 400029; do not pool with the five development worlds.",
+      "primary_contexts": [
+        "C",
+        "RG"
+      ],
+      "primary_effort": "high",
+      "primary_instruction": "none",
+      "primary_metric": "Paired C minus RG exact-answer accuracy; abstentions and wrong budgets reported separately.",
+      "purpose": "Confirm the selected Astra-high C/RG pattern on 30 fresh paired worlds with corrected token matching.",
+      "scope": "Combined withdrawal and misleading-message contrast; no claim to isolate misinformation or demonstrate a skill benefit.",
+      "selection": "Exploratory selection from the completed 90-trial development screen: Astra-high C 5/5, RG 3/5 with one wrong budget and one abstention.",
+      "stop_rules": "Stop for infrastructure/interface failures or missing/mismatched input usage; never stop for a wrong answer or abstention.",
+      "token_counting": "Local o200k_base text counts calibrated on saved Astra input deltas; exact served tokenizer/framing unverified. Live reported input audit required."
+    },
+    "timeout_seconds": 900,
+    "token_match_tolerance": 0.001,
+    "tokenizer": {
+      "encoding": "o200k_base",
+      "kind": "tiktoken"
+    },
+    "tokenizer_calibration": {
+      "path": "tokenizer_calibration.json",
+      "sha256": "c4c68a29035089421e5e0cc02f3d729471f6a4c01e3e729c2b51fb8b8921437f"
+    }
+  },
+  "created_at": "2026-10-19T16:41:41.885520+00:00",
+  "development_reviewed": true,
+  "experiment": "dense_budget_token_matched_v2",
+  "generation_limit": {
+    "enforced": false,
+    "reason": "No verified Codex CLI output-token cap",
+    "requested_tokens": 32000
+  },
+  "limitations": [
+    "New task inspired by Kimi v5, not an exact replication or extension of Experiment 2 accuracy",
+    "Codex harness; requested model is not a pinned served checkpoint",
+    "Model catalog is cached; live availability can differ",
+    "Usage accounting is retained as reported; output/reasoning fields are not added together",
+    "Local text counts empirically calibrated; server tokenizer/framing not independently verified",
+    "Actual reported C/RG input counts must pass the frozen tolerance before confirmation claims",
+    "C/RG combines withdrawals and misleading messages; no added skill"
+  ],
+  "manifest_sha256": "46f7e48f324597c23474f5febf643767a1d09634d44362878b34c468b1979100",
+  "model_catalog": {
+    "client_version": "0.163.0",
+    "fetched_at": "2026-10-19T16:40:07.331837Z",
+    "models": [
+      {
+        "context_window": 500000,
+        "default_effort": "low",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6.1-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6-astra",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-reserve",
+        "visibility": "hide"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-6-luna",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "low",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-5.6-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-5.6-terra",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-5.6-luna",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "codex-auto-review",
+        "visibility": "hide"
+      }
+    ],
+    "source": "/Users/jeremycheng/.codex/models_cache.json"
+  },
+  "planned_trials": 60,
+  "required_runtime": {
+    "authentication": "ChatGPT",
+    "cli_version": "codex-cli 0.163.0-alpha.10.2",
+    "codex_bin": "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+    "overrides": {
+      "agents.enabled": false,
+      "features.apps": false,
+      "features.hooks": false,
+      "features.image_generation": false,
+      "features.memories": false,
+      "features.multi_agent": false,
+      "features.multi_agent_v2": false,
+      "features.plugins": false,
+      "features.remote_plugin": false,
+      "features.shell_tool": false,
+      "features.skill_search": false,
+      "features.skip_host_skill_discovery": true,
+      "features.view_image": false,
+      "forced_login_method": "chatgpt",
+      "model_provider": "openai",
+      "project_doc_max_bytes": 0,
+      "suppress_unstable_features_warning": true,
+      "web_search": "disabled"
+    }
+  },
+  "schema_version": 2,
+  "source_hashes": {
+    "calibrate_tokens.py": "bf703d577f4f80c617cd2817f0d79e3eae97474292919413271aa95ef62e8179",
+    "collection.py": "0ce57413870c9836ecae97bc382cd76d0b38a38ca494547a824637194168463d",
+    "input_matching.py": "d9d23f4e5528aeccd656523d5dd8a2d6a9e0656dc416206ea1414881c7e0faf6",
+    "ledger.py": "1a7032cc8152f9e6bfda7a10ea2952b61aa76490e7ad8b5ace3ef4b5bb2b4401",
+    "planning.py": "86188186ae139032ecf40db3ca73f2defb04e2e2a265d4f2b57029923939e7b9",
+    "run.py": "13705007ef4f4841819ab38b56a17cff2cc1a766014f87fc272170939b64ebcf",
+    "token_matching.py": "875ec88bcdf369ad6fd81ba5651df90957b127c150f6244d50c36ba2d12825cd"
+  },
+  "stage": "confirmation",
+  "supported_combinations": [
+    {
+      "effort": "high",
+      "model": "gpt-6-astra"
+    }
+  ],
+  "tokenizer": {
+    "encoding": "o200k_base",
+    "kind": "tiktoken",
+    "version": "0.14.0"
+  },
+  "unsupported_combinations": []
+}

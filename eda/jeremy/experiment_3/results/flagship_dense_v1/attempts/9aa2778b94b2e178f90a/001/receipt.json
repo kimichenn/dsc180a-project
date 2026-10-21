@@ -1,0 +1,47 @@
+{
+  "attempt": 1,
+  "cli_version": "codex-cli 0.162.0-alpha.17.2",
+  "elapsed_seconds": 184.952,
+  "events": {
+    "cache_write_input_tokens": 0,
+    "cached_input_tokens": 0,
+    "errors": [],
+    "event_counts": {
+      "item.completed": 1,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "final_messages": [
+      "ANSWER: $1595K"
+    ],
+    "input_tokens": 57213,
+    "invalid_json_lines": [],
+    "output_tokens": 13230,
+    "reasoning_output_tokens": 13218,
+    "reported_models": [],
+    "unexpected_events": [],
+    "unexpected_items": [],
+    "usage_missing_reason": null,
+    "usage_raw": [
+      {
+        "event_type": "turn.completed",
+        "line_event_index": 3,
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 57213,
+          "output_tokens": 13230,
+          "reasoning_output_tokens": 13218
+        }
+      }
+    ]
+  },
+  "execution_status": "completed",
+  "finished_at": "2026-10-18T22:40:41.235222+00:00",
+  "response": "ANSWER: $1595K",
+  "returncode": 0,
+  "started_at": "2026-10-18T22:37:36.287330+00:00",
+  "stderr_tail": "",
+  "trial_id": "9aa2778b94b2e178f90a"
+}

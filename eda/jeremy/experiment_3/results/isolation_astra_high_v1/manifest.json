@@ -1,0 +1,380 @@
+{
+  "allow_estimated_tokens": true,
+  "artifact_hashes": {
+    "baselines.csv": "02ef713228fa87ba126277a1f2af0aa38ffd7884b2f9488b260bf37e4bece2f2",
+    "instructions/none.md": "0f06336c3e7511c54a52116020ea354a78d87e67199395f2e3da8dadfd53cbfb",
+    "prompts/s500000_n3200_C.txt": "0e2111aaa3de04ed1914a9ff418bbfd130bf8202cd21dbd654a9ea2ad57c7f2d",
+    "prompts/s500000_n3200_G.txt": "72921f9549c930e3a10da9cee5f8334aa6e19ebc6cb11926edfeed755453f822",
+    "prompts/s500000_n3200_R.txt": "f04d80cca4b82fa476cdef7f97c73dc77935ef75446f8e773998a011b6d6d127",
+    "prompts/s500000_n3200_RG.txt": "55ef0fade5e883bffd602519541d7333646b1ce6d17783d1cb411aedcbf51b04",
+    "prompts/s500001_n3200_C.txt": "c17d9418613c847b4a5b9660a46deb0b53bdbfcf553dcd553614f5fb046ba4ea",
+    "prompts/s500001_n3200_G.txt": "696f85e7164b675e41bcf5a8fb334182771bcc2896043cc86c3514ff0965261a",
+    "prompts/s500001_n3200_R.txt": "f282fe967b6feb6733beb84639217625598fda7d5a6860353a1e12ea1375a197",
+    "prompts/s500001_n3200_RG.txt": "f9c61821f8b55530c1289f8d3da15d5f22a7f6068c951a432d5aff2d4aa151f2",
+    "prompts/s500002_n3200_C.txt": "9e620b23a12b10ec4cdd53733ff90024ebb00724b938b93ea3224d4b67e10499",
+    "prompts/s500002_n3200_G.txt": "27fce54d904bcaf91e2a29fb3ca239df0b60edef41c269ba7c2dc108d32db0eb",
+    "prompts/s500002_n3200_R.txt": "10d78c0ded8a81af7fede5f9d7698871a3fad5c7951cea27b97a1d66a99cca9c",
+    "prompts/s500002_n3200_RG.txt": "7ca328b9c995ed3c7c3d19b8207db40037f9526b73b69ef26224e34a90e811ef",
+    "prompts/s500003_n3200_C.txt": "1aea7cc719283feb949ba17fea3938553ddb18712638f55c1ee4c94b0580b12a",
+    "prompts/s500003_n3200_G.txt": "1852eba1e4f56435567cc72cf17488c64b738541a92707dc7c2b7775f41898d2",
+    "prompts/s500003_n3200_R.txt": "cd7f31d8e8a5525ddf45cf7f366e0cbcdf5e45ea6b26fa6e6683f3dd98c39455",
+    "prompts/s500003_n3200_RG.txt": "59c8270f0337bdd313b0913cb6de814587e88030f85cc73027d1815d0e1f49b9",
+    "prompts/s500004_n3200_C.txt": "a8a99b900da87aa61ef0d74a85f1517448c7478777fb7dc773aadfe1a3ee4314",
+    "prompts/s500004_n3200_G.txt": "d9d93df925dde36399b9f2b1dc0825309b60ac4447bf29d158dc002da178ab22",
+    "prompts/s500004_n3200_R.txt": "5c38dd8e5f19247258950e79995d2c29e92b87d9baf0eecfd577aee83096bda1",
+    "prompts/s500004_n3200_RG.txt": "c9068d735c5961c25b1ddb33eb6eee4f40d7d9b34218845a4c9fbd02293e0784",
+    "prompts/s500005_n3200_C.txt": "91a60242b6b03350e40b9d3a91f3430a5ecf3edd5b64c9056db8ed5f029f776a",
+    "prompts/s500005_n3200_G.txt": "edfc6ed02ad83f50f0321cf2fba405c5a66a6b2e72eb850247ebb01d8bc66c49",
+    "prompts/s500005_n3200_R.txt": "a38269ef92d14d3e078d77f6b903df7c4cd85d6f10710e818fe309b7b2168bf5",
+    "prompts/s500005_n3200_RG.txt": "9ee57dd1343f0f3c1c7db65846d63bf1834439cff4dcf6b17dec4417fe66d780",
+    "prompts/s500006_n3200_C.txt": "c5876ac5aaf081c4f33ae6dd82aa9d2cea2751be431a75c5a422e62ccf14bd60",
+    "prompts/s500006_n3200_G.txt": "840103883c8d84859d0df462fceaad65c4667f3b5b6b3cdd5e3399ee883c6c66",
+    "prompts/s500006_n3200_R.txt": "d0648994cf1f873f720ab055493aa39225e847f49bbe975ec5f3c8f0ee07aae2",
+    "prompts/s500006_n3200_RG.txt": "aef2daa44b338c6779cbe3003cc437cdfb87820942abf3ec5ec8fdbc89525dc1",
+    "prompts/s500007_n3200_C.txt": "5e240df7ecc6c7654ae2bd27aa2fb279ae14526e03024c119a1dda2af00ab9dd",
+    "prompts/s500007_n3200_G.txt": "9e7e1d42ec7b9d8649f6a71e3316e5a00a9499c8efe94394b53f11cce5d8d09c",
+    "prompts/s500007_n3200_R.txt": "665268854d15d2bb72d20ed17e42eb9776b227543f5a6be8b739f49c240f1728",
+    "prompts/s500007_n3200_RG.txt": "fc800b08937b897857bab8673a6bbd01ab95356d80b9b7dd9bd291384744e716",
+    "prompts/s500008_n3200_C.txt": "a01198707ddbe7550e592d3a5c0e2b516eb727c381f2aa97942b10b48ff39c36",
+    "prompts/s500008_n3200_G.txt": "81590d04e756a6b6621da8f24fe8ed738d155e2bc727341e74102a61da68292d",
+    "prompts/s500008_n3200_R.txt": "34626803ad002db9244563561d23e58412ca7341aa9c9876b6ab8bd8910a7f4f",
+    "prompts/s500008_n3200_RG.txt": "410f0904eaeae8728ac29c8f20e0059ef5e990cc4ee4cab69855b609a822992c",
+    "prompts/s500009_n3200_C.txt": "7092652bf19360541dbd1b5585a444d5fa3f78558cf4dc6996e22db3a44aa438",
+    "prompts/s500009_n3200_G.txt": "8e4f1f7046ff313b29891e36de91b3774488fa3cd23b2144d97300ac6d4eeb09",
+    "prompts/s500009_n3200_R.txt": "1e2248ec50532711b8e051d55085c04a8c2c3b3c793991168bf2eee62dc165f4",
+    "prompts/s500009_n3200_RG.txt": "e5ab2f3dd95f22c9de76f4c404422f2580bcb5a44f051336fb1997053cedeada",
+    "prompts/s500010_n3200_C.txt": "31eeb852e58226a4787de18e3aa7775fa46db410750541013da81ccf282c4b1f",
+    "prompts/s500010_n3200_G.txt": "f63fc45f47f35cf201445cc6e90ecc4a5f92df182885fb5d3301bf23431b3940",
+    "prompts/s500010_n3200_R.txt": "3953db3f8b8d997ba07d7aa63a3120a2a39d0491e4684924305aa59918b1770e",
+    "prompts/s500010_n3200_RG.txt": "7fc06f2326da36a405625c5193d808e9db1b18d10c3b8b2012cb6d52ed06dfe3",
+    "prompts/s500011_n3200_C.txt": "4a40b59888ea9e318ecdec6bb88211f8d0403d9697c7e8b86a88ea04e8272b63",
+    "prompts/s500011_n3200_G.txt": "af3be3f037501fb61e823ccc42dd45420d8a8d1e24a6d3cb13d615c3ad844bb1",
+    "prompts/s500011_n3200_R.txt": "cc6b52ab387430eb63a68c6e28f84226a3fa6e90e0e0b3afc37c5e24bdb7d039",
+    "prompts/s500011_n3200_RG.txt": "96f4364221284f2473b6af1420f757ffd2250098189e2d6611c3fc2292e0a98e",
+    "prompts/s500012_n3200_C.txt": "1ea901288dab8709886e118c607e28d3cfb1f2fe294f70e3240e1deb242efd90",
+    "prompts/s500012_n3200_G.txt": "8589f29bd03905aef9574b409a86d8f8031012f447f8b414542af24ceebc8886",
+    "prompts/s500012_n3200_R.txt": "3a441d3b8e1c03c851cd307233233b3cb1530551b7c1f8cf677327ef737a138a",
+    "prompts/s500012_n3200_RG.txt": "a039d9a2d9fbe9579d9b6578f4a8f245a798fb0a1bfb8be854e040ac25b4aeff",
+    "prompts/s500013_n3200_C.txt": "76748097763db51d012227484388f3bda10023b07215e2224ccc3d4a399916c2",
+    "prompts/s500013_n3200_G.txt": "78a1670af1abc8df044a9deaaf831f59d5640a602e2a651b4b81a7eda10fdb2e",
+    "prompts/s500013_n3200_R.txt": "d7ac9a3c6f23356dbdfd308c928a84dba0d58a99c5de9a4aa54fc16281e1da1b",
+    "prompts/s500013_n3200_RG.txt": "0b8fa1afcb29570a72d2c0eabaf9a3af9f8feb31f20cc60bdac79c167ab570be",
+    "prompts/s500014_n3200_C.txt": "9111b0ac51bb4e1a36f43513b525377bbd41b97bfd8e585ff0b30a1a08c0d3a4",
+    "prompts/s500014_n3200_G.txt": "b04ca25704782e0d5486cf7d0f7aae776894e27b084f0b175af39287fc062913",
+    "prompts/s500014_n3200_R.txt": "46c30e3bd3747e4f6ff190e4fbcf735d4e3407e93312f358b543d381cbcec760",
+    "prompts/s500014_n3200_RG.txt": "db8182ae5255f5c2e5a09cb6c0013b7e5b6766972e510fdd7e7f3a908bf1882a",
+    "prompts/s500015_n3200_C.txt": "e3cac51d1cd600a7a4c980ee5521362aa3ac9fb3fb90bd75c7c1c5ad980796fe",
+    "prompts/s500015_n3200_G.txt": "239b3df5db5a3f5c7be9b328dd46b6a2457dcb627c319f9128b0dc484c0f09ac",
+    "prompts/s500015_n3200_R.txt": "c968b78a9f709c39651f064e6cad57d5bd697e51b2b2880e67fe7c321205be3d",
+    "prompts/s500015_n3200_RG.txt": "838456e6d92005a4d914da3c78393aed547b7b1dd3b74ed148058d651ba5ab22",
+    "prompts/s500016_n3200_C.txt": "7d6697e12d8cb96f2227afc99be26a54158c0a26893aa74c5e099d236b397db0",
+    "prompts/s500016_n3200_G.txt": "f04b6732374a53ec1ccb8d9c82fc73bf488c25f61c1d7eb33c07014d65a89d7f",
+    "prompts/s500016_n3200_R.txt": "525148a6e40d5eb5fa934399efd3b47dd3cf5132bf41fb2d007a1229d7a46ddd",
+    "prompts/s500016_n3200_RG.txt": "fa768ad3e5bc3c354533689b1df8e0e313e1cb09171a18f0f5bea53d57feba77",
+    "prompts/s500017_n3200_C.txt": "50144b40127f3a39b8e286309350c77b8ec3e5f70f99094039643815f74a5c6d",
+    "prompts/s500017_n3200_G.txt": "05d5ca48a247a21cda4956ea091f8dc0aedc834c820ebdfbc8c8343cc115d43e",
+    "prompts/s500017_n3200_R.txt": "98e1157439405aac6347f8aacb17f3366a6acd0d2e0ef3c5b6da46b8bbc08444",
+    "prompts/s500017_n3200_RG.txt": "767fa9945dc06cb760e3cae66ed63d6fd485cc8290be44d47a1d06ef83f12a15",
+    "prompts/s500018_n3200_C.txt": "a6297e993befd5de4a6866ce41e208163f2bb5e2c24feb119fa691de2b9c03d4",
+    "prompts/s500018_n3200_G.txt": "4b6607e6a899c918e7ba43c0f31c33d72e073aeb89ebd89377da33bbdbecf912",
+    "prompts/s500018_n3200_R.txt": "968e40b7e2ec984ca91553ffba5eb3ce92a04079cc18ba05bbe0bfe07fc4c0c4",
+    "prompts/s500018_n3200_RG.txt": "b67cf22d92463f34a553fc5cd62df730932994787a51d25849905dce666167bc",
+    "prompts/s500019_n3200_C.txt": "df6ae4bc1a07ff63c1b6e0e4d080648a0c1c68048517d7f2199aa9a4602a67b7",
+    "prompts/s500019_n3200_G.txt": "ef4ba52b192ad7026acf07703a2f9c15ed27b0c071da4d27f3386a6a871e4fd0",
+    "prompts/s500019_n3200_R.txt": "4b3726091bb75b297f83a782acc6105f5cfb2d7c5c8b382e223916379c8f7b83",
+    "prompts/s500019_n3200_RG.txt": "75dbb889cb2bfd71c5cc30615d7f59459b4480933699737ff12fdb7575509e33",
+    "prompts/s500020_n3200_C.txt": "4671264d408dca4104d4d8993d6a14ad6ff0cbcd6dc615e053bcaa97372f38f6",
+    "prompts/s500020_n3200_G.txt": "23f2a7faaa3d4f68f0b7a4fa33ed6a3c6d891417db68ff0b42d849e49191c2ee",
+    "prompts/s500020_n3200_R.txt": "5fc4504588285f5080f659f42634015ac263e363102a15a5b4a5f5ab1112a06d",
+    "prompts/s500020_n3200_RG.txt": "987911efcaafecab9bc71910945092ed07afad0c9ab496c323b3b5edc6d77e2f",
+    "prompts/s500021_n3200_C.txt": "d64037c981fb5a4288209d76c9d4027888df9f4ecb7b37c89b0ce3720e7c6b7f",
+    "prompts/s500021_n3200_G.txt": "87e2c37c5b0464cf1b9322a7a13c7e295bfeb4d5aa13ad676d1684c39e95cc6c",
+    "prompts/s500021_n3200_R.txt": "ae389591db557411168a8651e07ae67bdd2cae4cde5543d69e4fbef1d0986ea1",
+    "prompts/s500021_n3200_RG.txt": "ce1c7457bc220ded02021528839b3241667176c014a0fe2e3462920955b46779",
+    "prompts/s500022_n3200_C.txt": "c35c80fba59e4f206697b618cc523ff649a4237dca3554461517dbfcf4369c8d",
+    "prompts/s500022_n3200_G.txt": "0ec44109a4f24e24a8562dee03a9b2fe07f1c903548b57dab7a0844c59d3f992",
+    "prompts/s500022_n3200_R.txt": "d2d3663c366fd787162810383b7fa49e2537f521dba51ec098fa92727a13cd2a",
+    "prompts/s500022_n3200_RG.txt": "783dd6413a094de5745e98ab846ba97af6122c4182ce607cd87bafb6e9d78848",
+    "prompts/s500023_n3200_C.txt": "7ec64daabc7e1bd1d5ee7674361b0e3953c3bf64f6b86904d6c1484b8c9cbbbb",
+    "prompts/s500023_n3200_G.txt": "5f76bfac7aaa6516f5d3b05d0c788a1426f4a763c7a9985f420b4b6dc1326edf",
+    "prompts/s500023_n3200_R.txt": "4bff0495c0da04690e1ae16f297b132b59696eec383f69aaa1a71e65961c1a21",
+    "prompts/s500023_n3200_RG.txt": "fa9cee4f23a128d017482166b2da45da40ddf5268533b2d396ff28ba26e8e781",
+    "prompts/s500024_n3200_C.txt": "b18519ba6a349ec37ddadfb320eb36844cd2e1cd18d26adf0e7bd5111c3ea611",
+    "prompts/s500024_n3200_G.txt": "6c86c708e059039ccef84f1a65207b1983e1c3fba88850b7098b709d7f2f8062",
+    "prompts/s500024_n3200_R.txt": "5b831b69d2e3f6746d6a182d4390c13fb3f29c59ba6256aebce52064c7663539",
+    "prompts/s500024_n3200_RG.txt": "01617a5e9eac24693f16f6831509c865df2c2a29fb323a57cbfdc668473945ba",
+    "prompts/s500025_n3200_C.txt": "edc4d4e5f935aa9398776ca5f57fa35c7f68b1cd8a27b995bbd99d52bbd3bd5a",
+    "prompts/s500025_n3200_G.txt": "aea8920c0ab1242d91e8e6acc364f9832cf9c3426b7cacd293099286e2f5e4de",
+    "prompts/s500025_n3200_R.txt": "30a22966d871403e62b7c38eda9dda0f624ca8238ec2b9b0bfe0fd44e0c73143",
+    "prompts/s500025_n3200_RG.txt": "72be130cffe739b7ac8a653fdc081b58c0908a19157ec983619819017be9bece",
+    "prompts/s500026_n3200_C.txt": "e879408068ca2148a77de9b5a74957e5c5d93bcbfe5e983d335f5318f933939e",
+    "prompts/s500026_n3200_G.txt": "88b76b102ed4295532d7444a5da31a392b3fc805ece3e97c1a0b3c937489b853",
+    "prompts/s500026_n3200_R.txt": "599799801067d7202fddef0930504b50f8121b95b49cb02389e88a6676511234",
+    "prompts/s500026_n3200_RG.txt": "a572b581b204ae9533d14ea9055adec90873c3eaab67e2f1e1ea719e07fe7a5c",
+    "prompts/s500027_n3200_C.txt": "4e85e49a9f0f9a22eaff6f7cc015ec6bb670dccc915796e2de6b189adb7f303c",
+    "prompts/s500027_n3200_G.txt": "b831508968d455b585b0d99a4ab3329984491c75f4517ccb2788f5bb1a4500d1",
+    "prompts/s500027_n3200_R.txt": "f58b841fa207de492769fa751304d11dc648bd6d92c0bcd3c4eeb1f58388e485",
+    "prompts/s500027_n3200_RG.txt": "31a6d924381dcdceba91a14ee28b2b90c7bf14037b212a48605d45898f8d9618",
+    "prompts/s500028_n3200_C.txt": "890677a9a07c1f79f23d9db9b67afb1e6c9e818eb4846cca63b09cd379a4fee0",
+    "prompts/s500028_n3200_G.txt": "59813ccc879884838d5e167f11b31161aa729055d4f703f7775423bcc7538029",
+    "prompts/s500028_n3200_R.txt": "66268fc4ddbc1dc1645c64bd82624c41cda606615f5381d70630d886c147d89e",
+    "prompts/s500028_n3200_RG.txt": "f25037df6888c3a03dc911299a7ee03c3be4778fb6ddf0f4847f17137fcc0cd8",
+    "prompts/s500029_n3200_C.txt": "ae8c2ee2b758fb4414fbead28a856a428e9da041586ce4378053c72de74f7093",
+    "prompts/s500029_n3200_G.txt": "a2ba0f5ee190bde63595446724bfbaa7007a062cb2c4414e8385a80c6a6ffafc",
+    "prompts/s500029_n3200_R.txt": "3ef218b6be5c6c07c73b48fc1081040b7d31508cb70f16cd0679b261347afe2b",
+    "prompts/s500029_n3200_RG.txt": "cb606ce4098d34221439aa2c44db676171311294bed5ea6230f59bd0008902d0",
+    "runtime_expected.json": "a766a7329d038cec1320e551c7aa33e119e7032e5e443c873ddf5681c8f34b1d",
+    "tokenizer_calibration.json": "c4c68a29035089421e5e0cc02f3d729471f6a4c01e3e729c2b51fb8b8921437f",
+    "trials.jsonl": "c5d3a6e4b2e01c8bf35ee92705870a5561e5281458d21e745c41186365913997",
+    "unsupported_combinations.csv": "06b08195d228aff6e7cc6ce638cb0d27f538760130e4952020ae8df89df979e2",
+    "validation.json": "52bc7ebf5cb5882da1366cca1eef1dddbee306f4941f0c6e97d1bd9b799b584f",
+    "worlds.jsonl": "0c126bc24ed3a5e905e048cc260f08eddbc13e1ea316e91f6b27ed9c7b11de23"
+  },
+  "calibration_runtime_matches_collection": false,
+  "config": {
+    "collection_runtime": {
+      "path": "runtime_snapshot.json",
+      "sha256": "a766a7329d038cec1320e551c7aa33e119e7032e5e443c873ddf5681c8f34b1d"
+    },
+    "efforts": [
+      "high"
+    ],
+    "max_attempts": 3,
+    "models": [
+      "gpt-6-astra"
+    ],
+    "pair_adjacent_schedule": true,
+    "profiles": {
+      "confirmation": {
+        "contexts": [
+          "R",
+          "RG"
+        ],
+        "instructions": [
+          "none"
+        ],
+        "nested_rate": 0.35,
+        "record_counts": [
+          3200
+        ],
+        "seed_start": 500000,
+        "worlds": 30
+      },
+      "development": {
+        "contexts": [
+          "C",
+          "RG"
+        ],
+        "instructions": [
+          "none"
+        ],
+        "nested_rate": 0.35,
+        "record_counts": [
+          3200
+        ],
+        "seed_start": 300000,
+        "worlds": 5
+      },
+      "smoke": {
+        "contexts": [
+          "example"
+        ],
+        "instructions": [
+          "none"
+        ],
+        "worlds": 5
+      }
+    },
+    "reported_input_matching": {
+      "enabled": true,
+      "on_failure": "stop_and_preserve_all_attempts",
+      "tolerance": 0.02
+    },
+    "schedule_seed": 180,
+    "study_plan": {
+      "bootstrap": "2000 paired world resamples with seed 180. Paired exact test conditions on discordant pairs; abstentions count as incorrect in primary accuracy.",
+      "confirmation_rule": "Complete all 30 fresh pairs. Evidence of an added misleading-message penalty requires a positive R-minus-RG accuracy gap, its 95% paired bootstrap interval entirely above zero, and two-sided exact paired discordance (McNemar/binomial) p < 0.05. Require at least 29/30 valid-format outputs per condition, 60 eligible trials, and all 30 reported input-length pairs within 2%. Report all effect sizes and outcomes even when the rule is not met.",
+      "effect_size": "No 30-percentage-point target for this different contrast. The original C/RG thresholds remain unchanged. This 30-pair follow-up may miss small effects; a nonsignificant result does not demonstrate equivalence.",
+      "fresh_worlds": "Seeds 500000 through 500029; disjoint from development and confirmation_astra_high_v1. Analyze separately.",
+      "primary_contexts": [
+        "R",
+        "RG"
+      ],
+      "primary_effort": "high",
+      "primary_instruction": "none",
+      "primary_metric": "Paired R minus RG exact-answer accuracy; report wrong budgets and abstentions separately.",
+      "purpose": "Test whether misleading messages reduce accuracy when all budget adjustments and withdrawals are held fixed.",
+      "scope": "R/RG changes misleading message content while keeping all official records, authors, positions, withdrawals, and answer keys fixed. Equal total input length does not prove identical token positions. Tests this message substitution at a fixed withdrawal workload; no claim about a skill benefit, internal mechanism, or equivalence after a null result.",
+      "selection": "Follow-up to confirmation_astra_high_v1: C 30/30 versus RG 22/30; the combined-conflict run missed its full predeclared threshold. This is a separate contrast on fresh worlds, not a retry or changed criterion for that run.",
+      "stop_rules": "Stop for infrastructure/interface failures or missing/mismatched input usage; never stop for wrong answers or abstentions. Never retry completed wrong answers, abstentions, or malformed outputs.",
+      "token_counting": "Use the preserved o200k_base calibration from saved development C/RG inputs; transfer to R/RG is unverified until the live reported-input audit. Exact server tokenizer/framing remains unverified."
+    },
+    "timeout_seconds": 900,
+    "token_match_tolerance": 0.001,
+    "tokenizer": {
+      "encoding": "o200k_base",
+      "kind": "tiktoken"
+    },
+    "tokenizer_calibration": {
+      "path": "tokenizer_calibration.json",
+      "sha256": "c4c68a29035089421e5e0cc02f3d729471f6a4c01e3e729c2b51fb8b8921437f"
+    }
+  },
+  "created_at": "2026-10-20T23:53:49.117244+00:00",
+  "development_reviewed": true,
+  "experiment": "dense_budget_misleading_isolation_v1",
+  "generation_limit": {
+    "enforced": false,
+    "reason": "No verified Codex CLI output-token cap",
+    "requested_tokens": 32000
+  },
+  "limitations": [
+    "New task inspired by Kimi v5, not an exact replication or extension of Experiment 2 accuracy",
+    "Codex harness; requested model is not a pinned served checkpoint",
+    "Model catalog is cached; live availability can differ",
+    "Usage accounting is retained as reported; output/reasoning fields are not added together",
+    "Local text counts empirically calibrated; server tokenizer/framing not independently verified",
+    "Actual reported R/RG input counts must pass the frozen tolerance before inference",
+    "Tokenizer calibration used development C/RG inputs; transfer to R/RG requires the live audit",
+    "R/RG replaces misleading messages with neutral messages at fixed withdrawals; no added skill",
+    "A null result with 30 pairs does not establish equivalence or absence of an effect"
+  ],
+  "manifest_sha256": "544a77e008d96a2a5d262df004a2b3b1d833e52e575ff8d48b4f20e816e074ba",
+  "model_catalog": {
+    "client_version": "0.154.0",
+    "fetched_at": "2026-10-20T23:52:04.203812Z",
+    "models": [
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-6-astra",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-reserve",
+        "visibility": "hide"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "low",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-5.6-sol",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "model": "gpt-5.6-terra",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "gpt-5.6-luna",
+        "visibility": "list"
+      },
+      {
+        "context_window": 272000,
+        "default_effort": "medium",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "model": "codex-auto-review",
+        "visibility": "hide"
+      }
+    ],
+    "source": "/Users/jeremycheng/.codex/models_cache.json"
+  },
+  "planned_trials": 60,
+  "required_runtime": {
+    "authentication": "ChatGPT",
+    "cli_version": "codex-cli 0.163.0-alpha.10.2",
+    "codex_bin": "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+    "overrides": {
+      "agents.enabled": false,
+      "features.apps": false,
+      "features.hooks": false,
+      "features.image_generation": false,
+      "features.memories": false,
+      "features.multi_agent": false,
+      "features.multi_agent_v2": false,
+      "features.plugins": false,
+      "features.remote_plugin": false,
+      "features.shell_tool": false,
+      "features.skill_search": false,
+      "features.skip_host_skill_discovery": true,
+      "features.view_image": false,
+      "forced_login_method": "chatgpt",
+      "model_provider": "openai",
+      "project_doc_max_bytes": 0,
+      "suppress_unstable_features_warning": true,
+      "web_search": "disabled"
+    }
+  },
+  "schema_version": 3,
+  "source_hashes": {
+    "calibrate_tokens.py": "bf703d577f4f80c617cd2817f0d79e3eae97474292919413271aa95ef62e8179",
+    "collection.py": "d340cfc0e0ff2f221e209b2ae90e1ae97fa3d97a37bea609c42217be1cb0ed69",
+    "input_matching.py": "8068810bb435802f9f287347a28bdaf0a96689d15da8030ea651cfe5331214af",
+    "ledger.py": "1a7032cc8152f9e6bfda7a10ea2952b61aa76490e7ad8b5ace3ef4b5bb2b4401",
+    "planning.py": "449f0fb885cbb2bf42e92ed41214435cf0414264c053e280ec683ca5eecc5e11",
+    "run.py": "92a0574295f5c8dc2d081dbceb0f66dcea0ffab6a67a74051e56678de385742c",
+    "token_matching.py": "875ec88bcdf369ad6fd81ba5651df90957b127c150f6244d50c36ba2d12825cd"
+  },
+  "stage": "confirmation",
+  "supported_combinations": [
+    {
+      "effort": "high",
+      "model": "gpt-6-astra"
+    }
+  ],
+  "tokenizer": {
+    "encoding": "o200k_base",
+    "kind": "tiktoken",
+    "version": "0.14.0"
+  },
+  "unsupported_combinations": []
+}

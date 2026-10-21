@@ -1,0 +1,107 @@
+{
+  "R_RG_only_misleading_messages_differ": true,
+  "all_raw_events_responses_and_prompts_match": true,
+  "both_answer_solvers_agree": true,
+  "checked_at": "2026-10-21T15:32:43.020192+00:00",
+  "cli_version": "codex-cli 0.163.0-alpha.10.2",
+  "criteria": {
+    "60_eligible_trials": true,
+    "95_percent_interval_above_zero": false,
+    "all_input_pairs_pass": true,
+    "exact_two_sided_p_below_0_05": false,
+    "positive_R_minus_RG_gap": false,
+    "valid_format_at_least_29_each": true
+  },
+  "first_started_at": "2026-10-20T23:58:09.982384+00:00",
+  "frozen_artifacts_and_sources_intact": true,
+  "input_audit": {
+    "failed_pairs": 0,
+    "matched_pairs": 30,
+    "pending_pairs": 0,
+    "planned_pairs": 30,
+    "status": "passed"
+  },
+  "last_finished_at": "2026-10-21T05:58:53.082262+00:00",
+  "manifest_sha256": "544a77e008d96a2a5d262df004a2b3b1d833e52e575ff8d48b4f20e816e074ba",
+  "max_reported_input_gap_percent": 0.00900360144057623,
+  "meets_predeclared_harm_rule": false,
+  "new_model_requests": 0,
+  "no_tools_or_interface_errors": true,
+  "outcomes_by_condition": {
+    "R": {
+      "abstained": 7,
+      "correct": 21,
+      "wrong_budget": 2
+    },
+    "RG": {
+      "abstained": 2,
+      "correct": 24,
+      "wrong_budget": 4
+    }
+  },
+  "paired_effect": {
+    "accuracy_gap_pp": -10.0,
+    "bootstrap_high_pp": 10.0,
+    "bootstrap_low_pp": -33.33333333333333,
+    "effort": "high",
+    "exact_p_two_sided": 0.548828125,
+    "instruction": "none",
+    "left_context": "R",
+    "left_only_correct": 4,
+    "matched_worlds": 30,
+    "model": "gpt-6-astra",
+    "records": 3200,
+    "right_context": "RG",
+    "right_only_correct": 7
+  },
+  "paired_outcome_transitions": [
+    {
+      "R": "abstained",
+      "RG": "correct",
+      "worlds": 6
+    },
+    {
+      "R": "abstained",
+      "RG": "wrong_budget",
+      "worlds": 1
+    },
+    {
+      "R": "correct",
+      "RG": "abstained",
+      "worlds": 2
+    },
+    {
+      "R": "correct",
+      "RG": "correct",
+      "worlds": 17
+    },
+    {
+      "R": "correct",
+      "RG": "wrong_budget",
+      "worlds": 2
+    },
+    {
+      "R": "wrong_budget",
+      "RG": "correct",
+      "worlds": 1
+    },
+    {
+      "R": "wrong_budget",
+      "RG": "wrong_budget",
+      "worlds": 1
+    }
+  ],
+  "planned_trials": 60,
+  "requested_effort": "high",
+  "requested_model": "gpt-6-astra",
+  "run": "isolation_astra_high_v1",
+  "summed_attempt_seconds": 21598.215,
+  "tokens": {
+    "input_tokens": 3990698,
+    "output_tokens": 1142657,
+    "reasoning_output_tokens": 1141956
+  },
+  "verified_receipts": 60,
+  "verified_worlds": 30,
+  "wall_clock_seconds": 21643.099878
+}

@@ -1,0 +1,964 @@
+{
+  "worlds": [
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 9,
+        "nested_withdrawals": 184,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1221
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56681,
+        "G": 56681,
+        "R": 56681,
+        "RG": 56681
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500000_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 7,
+        "nested_withdrawals": 163,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1197
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500001_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 6,
+        "nested_withdrawals": 159,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1217
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500002_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 5,
+        "nested_withdrawals": 158,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1201
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500003_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 7,
+        "nested_withdrawals": 174,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1217
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500004_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 6,
+        "nested_withdrawals": 169,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1221
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500005_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 5,
+        "nested_withdrawals": 152,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1181
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500006_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 6,
+        "nested_withdrawals": 172,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1223
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56681,
+        "G": 56681,
+        "R": 56681,
+        "RG": 56681
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500007_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 7,
+        "nested_withdrawals": 177,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1215
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500008_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 5,
+        "nested_withdrawals": 169,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1223
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56681,
+        "G": 56681,
+        "R": 56681,
+        "RG": 56681
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500009_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 6,
+        "nested_withdrawals": 161,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1213
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500010_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 5,
+        "nested_withdrawals": 167,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1207
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500011_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 5,
+        "nested_withdrawals": 163,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1197
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500012_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 5,
+        "nested_withdrawals": 173,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1219
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500013_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 6,
+        "nested_withdrawals": 154,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1187
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 55721,
+        "G": 55721,
+        "R": 55721,
+        "RG": 55721
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500014_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 7,
+        "nested_withdrawals": 163,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1219
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500015_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 6,
+        "nested_withdrawals": 161,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1199
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500016_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 5,
+        "nested_withdrawals": 177,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1221
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 57642,
+        "G": 57642,
+        "R": 57642,
+        "RG": 57642
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500017_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 6,
+        "nested_withdrawals": 155,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1191
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500018_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 10,
+        "nested_withdrawals": 174,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1209
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 55722,
+        "G": 55722,
+        "R": 55722,
+        "RG": 55722
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500019_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 5,
+        "nested_withdrawals": 175,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1215
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500020_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 7,
+        "nested_withdrawals": 171,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1213
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500021_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 9,
+        "nested_withdrawals": 187,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1235
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56681,
+        "G": 56681,
+        "R": 56681,
+        "RG": 56681
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500022_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 7,
+        "nested_withdrawals": 178,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1205
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 55722,
+        "G": 55722,
+        "R": 55722,
+        "RG": 55722
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500023_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 6,
+        "nested_withdrawals": 160,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1207
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500024_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 6,
+        "nested_withdrawals": 176,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1225
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500025_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 6,
+        "nested_withdrawals": 162,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1203
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500026_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 8,
+        "nested_withdrawals": 173,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1219
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 55721,
+        "G": 55721,
+        "R": 55721,
+        "RG": 55721
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500027_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 7,
+        "nested_withdrawals": 163,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1205
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 55721,
+        "G": 55721,
+        "R": 55721,
+        "RG": 55721
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500028_n3200"
+    },
+    {
+      "answer_agreement": true,
+      "diagnostics": {
+        "gossip_records": 960,
+        "max_withdrawal_chain": 7,
+        "nested_withdrawals": 168,
+        "record_counts": {
+          "adjustment": 1439,
+          "initial": 1,
+          "message": 1280,
+          "withdrawal": 480
+        },
+        "surviving_adjustments": 1217
+      },
+      "isolation_changed_messages": 960,
+      "local_max_gap_tokens": 0,
+      "local_relative_gap": 0.0,
+      "matching_exact_for_all_models": false,
+      "prompt_token_counts": {
+        "C": 56682,
+        "G": 56682,
+        "R": 56682,
+        "RG": 56682
+      },
+      "record_counts": {
+        "C": 3200,
+        "G": 3200,
+        "R": 3200,
+        "RG": 3200
+      },
+      "world_id": "s500029_n3200"
+    }
+  ]
+}

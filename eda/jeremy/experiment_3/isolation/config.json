@@ -1,0 +1,89 @@
+{
+  "models": [
+    "gpt-6-astra"
+  ],
+  "efforts": [
+    "high"
+  ],
+  "max_attempts": 3,
+  "timeout_seconds": 900,
+  "schedule_seed": 180,
+  "token_match_tolerance": 0.001,
+  "tokenizer": {
+    "kind": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "profiles": {
+    "smoke": {
+      "worlds": 5,
+      "contexts": [
+        "example"
+      ],
+      "instructions": [
+        "none"
+      ]
+    },
+    "development": {
+      "worlds": 5,
+      "seed_start": 300000,
+      "record_counts": [
+        3200
+      ],
+      "nested_rate": 0.35,
+      "contexts": [
+        "C",
+        "RG"
+      ],
+      "instructions": [
+        "none"
+      ]
+    },
+    "confirmation": {
+      "worlds": 30,
+      "seed_start": 500000,
+      "record_counts": [
+        3200
+      ],
+      "nested_rate": 0.35,
+      "contexts": [
+        "R",
+        "RG"
+      ],
+      "instructions": [
+        "none"
+      ]
+    }
+  },
+  "study_plan": {
+    "purpose": "Test whether misleading messages reduce accuracy when all budget adjustments and withdrawals are held fixed.",
+    "selection": "Follow-up to confirmation_astra_high_v1: C 30/30 versus RG 22/30; the combined-conflict run missed its full predeclared threshold. This is a separate contrast on fresh worlds, not a retry or changed criterion for that run.",
+    "primary_effort": "high",
+    "primary_contexts": [
+      "R",
+      "RG"
+    ],
+    "primary_instruction": "none",
+    "primary_metric": "Paired R minus RG exact-answer accuracy; report wrong budgets and abstentions separately.",
+    "confirmation_rule": "Complete all 30 fresh pairs. Evidence of an added misleading-message penalty requires a positive R-minus-RG accuracy gap, its 95% paired bootstrap interval entirely above zero, and two-sided exact paired discordance (McNemar/binomial) p < 0.05. Require at least 29/30 valid-format outputs per condition, 60 eligible trials, and all 30 reported input-length pairs within 2%. Report all effect sizes and outcomes even when the rule is not met.",
+    "bootstrap": "2000 paired world resamples with seed 180. Paired exact test conditions on discordant pairs; abstentions count as incorrect in primary accuracy.",
+    "effect_size": "No 30-percentage-point target for this different contrast. The original C/RG thresholds remain unchanged. This 30-pair follow-up may miss small effects; a nonsignificant result does not demonstrate equivalence.",
+    "stop_rules": "Stop for infrastructure/interface failures or missing/mismatched input usage; never stop for wrong answers or abstentions. Never retry completed wrong answers, abstentions, or malformed outputs.",
+    "fresh_worlds": "Seeds 500000 through 500029; disjoint from development and confirmation_astra_high_v1. Analyze separately.",
+    "scope": "R/RG changes misleading message content while keeping all official records, authors, positions, withdrawals, and answer keys fixed. Equal total input length does not prove identical token positions. Tests this message substitution at a fixed withdrawal workload; no claim about a skill benefit, internal mechanism, or equivalence after a null result.",
+    "token_counting": "Use the preserved o200k_base calibration from saved development C/RG inputs; transfer to R/RG is unverified until the live reported-input audit. Exact server tokenizer/framing remains unverified."
+  },
+  "tokenizer_calibration": {
+    "path": "tokenizer_calibration.json",
+    "sha256": "c4c68a29035089421e5e0cc02f3d729471f6a4c01e3e729c2b51fb8b8921437f"
+  },
+  "reported_input_matching": {
+    "enabled": true,
+    "tolerance": 0.02,
+    "on_failure": "stop_and_preserve_all_attempts"
+  },
+  "pair_adjacent_schedule": true,
+  "collection_runtime": {
+    "path": "runtime_snapshot.json",
+    "sha256": "a766a7329d038cec1320e551c7aa33e119e7032e5e443c873ddf5681c8f34b1d"
+  }
+}

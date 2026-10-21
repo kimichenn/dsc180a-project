@@ -1,6 +1,10 @@
 # Experiment 3: dense budget ledgers for flagship models
 
-The goal is to find reproducible errors in **GPT-6 Astra, GPT-6.1 Sol, and GPT-6 Sol**, then determine whether misleading records cause additional errors. This is a development screen, not a confirmed finding.
+The goal is to find reproducible errors in **GPT-6 Astra, GPT-6.1 Sol, and GPT-6 Sol**, then determine whether misleading records cause additional errors.
+
+The **baseline/isolation stage is complete**: 90 development trials, 60 Astra-high C/RG confirmation trials, and 60 Astra-high R/RG isolation trials. See [results and conclusions](results_v1.md). C/RG showed a 26.7-point accuracy gap but missed its full predeclared rule. R/RG showed no statistically reliable added accuracy penalty from misleading messages (R 21/30, RG 24/30; exact paired p = 0.549). No added skill has been tested.
+
+The completed follow-ups use separate [confirmation](confirmation/README.md) and [isolation](isolation/README.md) harnesses. The original development instructions below remain for reproducibility; the existing runs have no unfinished trials.
 
 Experiment 2 asks for one winning approval; many records can be ignored once that approval is established. Here the model must calculate a final budget from **every surviving adjustment**. There is one opening balance and no later reset that lets it discard earlier arithmetic. This changes the task substantially, so these results belong in a separate experiment.
 

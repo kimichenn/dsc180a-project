@@ -1,0 +1,23 @@
+{
+  "calibration_runtime_matches_collection": false,
+  "collected_trials": 0,
+  "collection_runtime": "codex-cli 0.163.0-alpha.10.2",
+  "encodings_checked": [
+    "o200k_base",
+    "cl100k_base"
+  ],
+  "independent_solver_agreement": true,
+  "local_C_RG_max_gap_tokens": 1,
+  "offline_tests_passed": 32,
+  "original_runs_preserved": true,
+  "planned_trials": 60,
+  "raw_server_counts_verified_on_new_run": false,
+  "records_and_question_unchanged": true,
+  "reported_input_guard_tolerance": 0.02,
+  "seed_end": 400029,
+  "seed_start": 400000,
+  "task_input_tokens_max": 57929,
+  "task_input_tokens_min": 56009,
+  "task_input_tokens_total": 3403613,
+  "worlds": 30
+}

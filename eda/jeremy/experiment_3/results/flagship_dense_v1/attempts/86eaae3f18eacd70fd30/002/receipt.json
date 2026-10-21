@@ -1,0 +1,31 @@
+{
+  "attempt": 2,
+  "cli_version": "codex-cli 0.162.0-alpha.17.2",
+  "elapsed_seconds": 4.081,
+  "events": {
+    "cache_write_input_tokens": null,
+    "cached_input_tokens": null,
+    "errors": [],
+    "event_counts": {
+      "thread.started": 1,
+      "turn.started": 1
+    },
+    "final_messages": [],
+    "input_tokens": null,
+    "invalid_json_lines": [],
+    "output_tokens": null,
+    "reasoning_output_tokens": null,
+    "reported_models": [],
+    "unexpected_events": [],
+    "unexpected_items": [],
+    "usage_missing_reason": "missing_reported_usage",
+    "usage_raw": []
+  },
+  "execution_status": "interrupted",
+  "finished_at": "2026-10-18T22:22:42.304692+00:00",
+  "response": "",
+  "returncode": -15,
+  "started_at": "2026-10-18T22:22:38.223313+00:00",
+  "stderr_tail": "",
+  "trial_id": "86eaae3f18eacd70fd30"
+}

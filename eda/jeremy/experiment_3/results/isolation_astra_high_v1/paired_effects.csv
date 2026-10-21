@@ -1,0 +1,2 @@
+model,effort,instruction,records,left_context,right_context,matched_worlds,accuracy_gap_pp,bootstrap_low_pp,bootstrap_high_pp,left_only_correct,right_only_correct,exact_p_two_sided
+gpt-6-astra,high,none,3200,R,RG,30,-10.0,-33.33333333333333,10.0,4,7,0.548828125

@@ -1,0 +1,30 @@
+{
+  "source_directory": "../confirmation",
+  "source_sha256": {
+    "ledger.py": "1a7032cc8152f9e6bfda7a10ea2952b61aa76490e7ad8b5ace3ef4b5bb2b4401",
+    "planning.py": "86188186ae139032ecf40db3ca73f2defb04e2e2a265d4f2b57029923939e7b9",
+    "collection.py": "0ce57413870c9836ecae97bc382cd76d0b38a38ca494547a824637194168463d",
+    "run.py": "13705007ef4f4841819ab38b56a17cff2cc1a766014f87fc272170939b64ebcf",
+    "token_matching.py": "875ec88bcdf369ad6fd81ba5651df90957b127c150f6244d50c36ba2d12825cd",
+    "calibrate_tokens.py": "bf703d577f4f80c617cd2817f0d79e3eae97474292919413271aa95ef62e8179",
+    "input_matching.py": "d9d23f4e5528aeccd656523d5dd8a2d6a9e0656dc416206ea1414881c7e0faf6",
+    "tokenizer_calibration.json": "c4c68a29035089421e5e0cc02f3d729471f6a4c01e3e729c2b51fb8b8921437f",
+    "runtime_snapshot.json": "a766a7329d038cec1320e551c7aa33e119e7032e5e443c873ddf5681c8f34b1d",
+    "instructions/common.md": "0f06336c3e7511c54a52116020ea354a78d87e67199395f2e3da8dadfd53cbfb"
+  },
+  "unchanged_copies": [
+    "ledger.py",
+    "token_matching.py",
+    "calibrate_tokens.py",
+    "tokenizer_calibration.json",
+    "runtime_snapshot.json",
+    "instructions/common.md"
+  ],
+  "changes": [
+    "Validate and schedule only R/RG isolation pairs in the confirmation stage.",
+    "Audit reported R/RG input lengths with the preserved 2% stop rule.",
+    "Add paired discordant counts and the exact two-sided paired test.",
+    "Freeze 30 new worlds at seeds 500000 through 500029 and a separate inference rule."
+  ],
+  "new_model_requests": 0
+}

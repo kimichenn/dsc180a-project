@@ -1,0 +1,22 @@
+{
+  "all_keys_agree": true,
+  "changed_messages_per_pair": 960,
+  "contexts": [
+    "R",
+    "RG"
+  ],
+  "live_runtime_matches_frozen": true,
+  "max_local_pair_token_gap": 0,
+  "new_model_requests": 0,
+  "note": "Local matching is verified; live reported-input audit remains pending.",
+  "official_records_and_positions_identical": true,
+  "offline_tests_passed": 41,
+  "only_false_messages_replaced": true,
+  "planned_trials": 60,
+  "previous_confirmation_files_unchanged": 637,
+  "prior_artifact_snapshot": "/private/tmp/dsc180a-isolation-original-hashes.json",
+  "prior_run_seeds_disjoint": true,
+  "seed_end": 500029,
+  "seed_start": 500000,
+  "worlds": 30
+}

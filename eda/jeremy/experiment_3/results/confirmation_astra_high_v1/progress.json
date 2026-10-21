@@ -1,0 +1,19 @@
+{
+  "attempted_trials": 60,
+  "attempts": 60,
+  "eligible_trials": 60,
+  "input_matching": {
+    "failed_pairs": 0,
+    "matched_pairs": 30,
+    "pending_pairs": 0,
+    "planned_pairs": 30,
+    "status": "passed"
+  },
+  "not_collected": 0,
+  "outcomes": {
+    "abstained": 2,
+    "correct": 52,
+    "wrong_budget": 6
+  },
+  "planned_trials": 60
+}

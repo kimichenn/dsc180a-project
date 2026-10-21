@@ -1,0 +1,88 @@
+{
+  "models": [
+    "gpt-6-astra"
+  ],
+  "efforts": [
+    "high"
+  ],
+  "max_attempts": 3,
+  "timeout_seconds": 900,
+  "schedule_seed": 180,
+  "token_match_tolerance": 0.001,
+  "tokenizer": {
+    "kind": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "profiles": {
+    "smoke": {
+      "worlds": 5,
+      "contexts": [
+        "example"
+      ],
+      "instructions": [
+        "none"
+      ]
+    },
+    "development": {
+      "worlds": 5,
+      "seed_start": 300000,
+      "record_counts": [
+        3200
+      ],
+      "nested_rate": 0.35,
+      "contexts": [
+        "C",
+        "RG"
+      ],
+      "instructions": [
+        "none"
+      ]
+    },
+    "confirmation": {
+      "worlds": 30,
+      "seed_start": 400000,
+      "record_counts": [
+        3200
+      ],
+      "nested_rate": 0.35,
+      "contexts": [
+        "C",
+        "RG"
+      ],
+      "instructions": [
+        "none"
+      ]
+    }
+  },
+  "study_plan": {
+    "purpose": "Confirm the selected Astra-high C/RG pattern on 30 fresh paired worlds with corrected token matching.",
+    "selection": "Exploratory selection from the completed 90-trial development screen: Astra-high C 5/5, RG 3/5 with one wrong budget and one abstention.",
+    "primary_effort": "high",
+    "primary_contexts": [
+      "C",
+      "RG"
+    ],
+    "primary_instruction": "none",
+    "primary_metric": "Paired C minus RG exact-answer accuracy; abstentions and wrong budgets reported separately.",
+    "confirmation_rule": "Complete all 30 pairs. Require C >= 27/30, RG <= 18/30, paired accuracy gap >= 30 percentage points with the 95% paired bootstrap interval excluding zero, valid-format outputs >= 29/30 in each condition, and all 30 reported input-length pairs within 2%.",
+    "bootstrap": "2000 paired world resamples using the preserved analysis implementation; one selected model/effort.",
+    "stop_rules": "Stop for infrastructure/interface failures or missing/mismatched input usage; never stop for a wrong answer or abstention.",
+    "fresh_worlds": "Seeds 400000 through 400029; do not pool with the five development worlds.",
+    "scope": "Combined withdrawal and misleading-message contrast; no claim to isolate misinformation or demonstrate a skill benefit.",
+    "token_counting": "Local o200k_base text counts calibrated on saved Astra input deltas; exact served tokenizer/framing unverified. Live reported input audit required."
+  },
+  "tokenizer_calibration": {
+    "path": "tokenizer_calibration.json",
+    "sha256": "c4c68a29035089421e5e0cc02f3d729471f6a4c01e3e729c2b51fb8b8921437f"
+  },
+  "reported_input_matching": {
+    "enabled": true,
+    "tolerance": 0.02,
+    "on_failure": "stop_and_preserve_all_attempts"
+  },
+  "pair_adjacent_schedule": true,
+  "collection_runtime": {
+    "path": "runtime_snapshot.json",
+    "sha256": "a766a7329d038cec1320e551c7aa33e119e7032e5e443c873ddf5681c8f34b1d"
+  }
+}
