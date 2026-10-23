@@ -1,0 +1,42 @@
+# Main run: 20 logs * 4 versions * 2 skill settings * 3 repeats = 480 calls per model.
+# DRAFT until step 3: after the trial run, set each model's effort (fallback rule), add the skill arm
+# to `instructions` once its wording is frozen in experiment/prompts.py, then prepare and commit the run.
+# If calls run short, the schedule already goes log by log, so stopping early keeps whole logs
+# (the proposal cuts to 15 logs before cutting repeats or versions).
+description = "Main run: 20 logs, all four versions, 3 repeats per prompt, both models"
+
+[design]
+seed_start = 700000
+logs = 20
+versions = ["C", "G", "R", "RG"]
+instructions = ["none"]    # becomes ["none", "skill"] once we add skills
+repeats = 3
+schedule_seed = 180
+
+[generator]
+records = 1600
+adjust_share = 0.45
+withdraw_share = 0.15
+gossip_share = 0.30
+nested_rate = 0.35
+relative_gossip_share = 0.5
+amount_step = 5
+amount_max = 150
+unique_amount_max = 600
+budget_min = 200
+budget_max = 3000
+
+[collection]
+timeout_seconds = 1800
+
+[models.claude]
+provider = "claude-code"
+model = "claude-opus-5-5"
+effort = "low"
+max_output_tokens = 32000
+
+[models.gpt]
+provider = "codex"
+model = "gpt-6-astra"
+effort = "low"
+max_output_tokens = 32000  # Codex cannot enforce it; longer responses are flagged hit_length_limit, as for Claude

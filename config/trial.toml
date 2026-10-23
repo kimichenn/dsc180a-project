@@ -1,0 +1,41 @@
+# Trial run (proposal step 2): about 5 throwaway logs on the merged generator, before freezing the main run.
+# It checks that N = 1,600 and low effort still hold (fallback: a model with fewer than 4 of 5 clean
+# logs right moves to medium), times a call, and is where the skill wording gets finalized.
+# Its logs are throwaway: the main run uses different seeds.
+description = "Trial run: 5 throwaway logs, all four versions, both models at low effort"
+
+[design]
+seed_start = 600000        # disjoint from every EDA seed (Kimi v5: 1-5, 1001+; Jeremy Exp 3: 300000-500029)
+logs = 5
+versions = ["C", "G", "R", "RG"]
+instructions = ["none"]    # the skill arm is added once its wording exists (experiment/prompts.py INSTRUCTIONS)
+repeats = 1
+schedule_seed = 180
+
+[generator]
+records = 1600
+adjust_share = 0.45        # Finance changes, counting the opening budget
+withdraw_share = 0.15
+gossip_share = 0.30        # filler gets the remaining 10%
+nested_rate = 0.35         # Jeremy's Exp 3
+relative_gossip_share = 0.5  # half the gossip states a change, as in v5
+amount_step = 5            # regular changes: multiples of $5K up to amount_max, as in both EDAs
+amount_max = 150
+unique_amount_max = 600    # changes a withdrawal touches and claimed changes: unique non-multiples of 5 up to this
+budget_min = 200           # the true budget stays in this range ($K), as in Kimi's v5
+budget_max = 3000
+
+[collection]
+timeout_seconds = 1800
+
+[models.claude]
+provider = "claude-code"
+model = "claude-opus-5-5"
+effort = "low"
+max_output_tokens = 32000
+
+[models.gpt]
+provider = "codex"
+model = "gpt-6-astra"
+effort = "low"
+max_output_tokens = 32000  # Codex cannot enforce it; longer responses are flagged hit_length_limit, as for Claude

@@ -1,0 +1,172 @@
+[
+  {
+    "name": "worked example",
+    "project": "Kavel",
+    "rule": "The proposal's example: gossip does not count, and a withdrawn update counts as if it never happened.",
+    "lines": [
+      "#001  Finance Office: Kavel budget set to $800K.",
+      "#002  Engineering email: Kavel budget is going up to $950K.",
+      "#003  Finance Office: Kavel budget increased by $40K.",
+      "#004  Finance Office: Kavel budget decreased by $15K.",
+      "#005  Finance Office: Withdraw update #003.",
+      "#006  Finance Office: Kavel budget increased by $25K."
+    ],
+    "work": "800 (#001) - 15 (#004) + 25 (#006) = 810. #005 withdraws #003 (+40). #002 is from Engineering.",
+    "expected": 810,
+    "checked_by": "Kimi"
+  },
+  {
+    "name": "gossip states a figure",
+    "project": "Kavel",
+    "rule": "A message from anyone but the Finance Office does not change the budget, even when it names a figure.",
+    "lines": [
+      "#001  Finance Office: Kavel budget set to $800K.",
+      "#002  Engineering email: Kavel budget is going to $950K.",
+      "#003  Finance Office: Kavel budget increased by $40K.",
+      "#004  PMO note: Kavel kickoff moved to Building 4.",
+      "#005  Vendor call: Heard Kavel's budget is now $1000K.",
+      "#006  Finance Office: Kavel budget decreased by $15K."
+    ],
+    "work": "800 (#001) + 40 (#003) - 15 (#006) = 825. #002 and #005 are from Engineering and a vendor; #004 is not about the budget.",
+    "expected": 825,
+    "checked_by": "Kimi"
+  },
+  {
+    "name": "gossip states a change",
+    "project": "Drumo",
+    "rule": "Messages from other offices that state a change do not change the budget either.",
+    "lines": [
+      "#001  Finance Office: Drumo budget set to $1200K.",
+      "#002  Finance Office: Drumo budget decreased by $60K.",
+      "#003  Operations chat: Hearing Drumo's budget goes up $100K.",
+      "#004  Finance Office: Drumo budget increased by $25K.",
+      "#005  Sales update: Expect Drumo's budget to drop by $50K.",
+      "#006  Finance Office: Drumo budget increased by $10K.",
+      "#007  Legal email: Drumo budget is going down by $30K."
+    ],
+    "work": "1200 (#001) - 60 (#002) + 25 (#004) + 10 (#006) = 1175. #003, #005, #007 are from other teams.",
+    "expected": 1175,
+    "checked_by": "Kimi"
+  },
+  {
+    "name": "gossip in Finance wording",
+    "project": "Tesivar",
+    "rule": "Only the author decides whether a record counts; other offices using the Finance Office's exact wording still do not change the budget.",
+    "lines": [
+      "#001  Finance Office: Tesivar budget set to $600K.",
+      "#002  Engineering email: Tesivar budget set to $900K.",
+      "#003  Finance Office: Tesivar budget increased by $50K.",
+      "#004  PMO note: Tesivar budget increased by $200K.",
+      "#005  Finance Office: Tesivar budget decreased by $20K.",
+      "#006  Marketing email: Tesivar budget set to $750K per the revised plan."
+    ],
+    "work": "600 (#001) + 50 (#003) - 20 (#005) = 630. #002, #004, #006 use Finance wording but come from Engineering, the PMO, and Marketing.",
+    "expected": 630,
+    "checked_by": "Kimi"
+  },
+  {
+    "name": "withdraw an adjustment",
+    "project": "Lupra",
+    "rule": "A withdrawn increase or decrease counts as if it never happened; later updates still apply.",
+    "lines": [
+      "#001  Finance Office: Lupra budget set to $1500K.",
+      "#002  Finance Office: Lupra budget increased by $80K.",
+      "#003  Finance Office: Lupra budget decreased by $35K.",
+      "#004  Finance Office: Withdraw update #003.",
+      "#005  Facilities ticket: Lupra design review moved to Room 2B.",
+      "#006  Finance Office: Lupra budget increased by $15K."
+    ],
+    "work": "#004 withdraws #003 (-35). 1500 (#001) + 80 (#002) + 15 (#006) = 1595.",
+    "expected": 1595,
+    "checked_by": "Kimi"
+  },
+  {
+    "name": "withdraw a non-latest update",
+    "project": "Brenix",
+    "rule": "A withdrawal removes the update it names, not the most recent one.",
+    "lines": [
+      "#001  Finance Office: Brenix budget set to $900K.",
+      "#002  Finance Office: Brenix budget increased by $120K.",
+      "#003  Finance Office: Brenix budget decreased by $40K.",
+      "#004  Finance Office: Brenix budget increased by $30K.",
+      "#005  Finance Office: Withdraw update #002.",
+      "#006  Finance Office: Brenix budget decreased by $10K.",
+      "#007  Engineering email: Brenix budget is going up to $1100K."
+    ],
+    "work": "#005 withdraws #002 (+120), not the latest update. 900 (#001) - 40 (#003) + 30 (#004) - 10 (#006) = 880. #007 is from Engineering.",
+    "expected": 880,
+    "checked_by": "Kimi"
+  },
+  {
+    "name": "withdraw a withdrawal",
+    "project": "Mirel",
+    "rule": "Withdrawing a withdrawal restores the update it had withdrawn.",
+    "lines": [
+      "#001  Finance Office: Mirel budget set to $1100K.",
+      "#002  Finance Office: Mirel budget increased by $60K.",
+      "#003  Finance Office: Withdraw update #002.",
+      "#004  PMO note: Mirel weekly sync moved to Thursdays.",
+      "#005  Finance Office: Mirel budget decreased by $25K.",
+      "#006  Finance Office: Withdraw update #003.",
+      "#007  Finance Office: Mirel budget increased by $10K."
+    ],
+    "work": "#006 withdraws #003, so #003's withdrawal of #002 never happened and #002 (+60) applies. 1100 + 60 (#002) - 25 (#005) + 10 (#007) = 1145.",
+    "expected": 1145,
+    "checked_by": "Kimi"
+  },
+  {
+    "name": "three levels of withdrawal",
+    "project": "Vondak",
+    "rule": "Withdrawals of withdrawals chain: each level flips the one below it.",
+    "lines": [
+      "#001  Finance Office: Vondak budget set to $2000K.",
+      "#002  Finance Office: Vondak budget decreased by $150K.",
+      "#003  Finance Office: Withdraw update #002.",
+      "#004  Finance Office: Vondak budget increased by $40K.",
+      "#005  Finance Office: Withdraw update #003.",
+      "#006  Legal email: Vondak budget is going up by $75K.",
+      "#007  Finance Office: Withdraw update #005.",
+      "#008  Finance Office: Vondak budget decreased by $20K."
+    ],
+    "work": "Newest first: #007 stands, so #005 is cancelled; #003 then stands, so #002 (-150) is withdrawn. 2000 (#001) + 40 (#004) - 20 (#008) = 2020. #006 is from Legal.",
+    "expected": 2020,
+    "checked_by": "Kimi"
+  },
+  {
+    "name": "four levels of withdrawal",
+    "project": "Nopa",
+    "rule": "An even number of stacked withdrawals leaves the update in place.",
+    "lines": [
+      "#001  Finance Office: Nopa budget set to $1000K.",
+      "#002  Finance Office: Nopa budget increased by $37K.",
+      "#003  Finance Office: Withdraw update #002.",
+      "#004  Sales update: Nopa budget is going to $1200K.",
+      "#005  Finance Office: Withdraw update #003.",
+      "#006  Finance Office: Nopa budget decreased by $12K.",
+      "#007  Finance Office: Withdraw update #005.",
+      "#008  Finance Office: Withdraw update #007."
+    ],
+    "work": "Newest first: #008 stands, so #007 is cancelled; #005 then stands, so #003 is cancelled; #002 (+37) applies. 1000 (#001) + 37 (#002) - 12 (#006) = 1025. #004 is from Sales.",
+    "expected": 1025,
+    "checked_by": "Kimi"
+  },
+  {
+    "name": "two chains",
+    "project": "Ostra",
+    "rule": "Each withdrawal acts on its own target; a cancelled withdrawal restores only the update it named.",
+    "lines": [
+      "#001  Finance Office: Ostra budget set to $1250K.",
+      "#002  Finance Office: Ostra budget increased by $63K.",
+      "#003  Finance Office: Ostra budget decreased by $28K.",
+      "#004  Marketing email: Pretty sure Ostra's budget is $1400K now.",
+      "#005  Finance Office: Withdraw update #003.",
+      "#006  Finance Office: Withdraw update #002.",
+      "#007  Finance Office: Ostra budget increased by $15K.",
+      "#008  Finance Office: Withdraw update #005; it was entered in error.",
+      "#009  Finance Office: Ostra finance review moved to Room 2C."
+    ],
+    "work": "#008 cancels #005, so #003 (-28) applies. #006 withdraws #002 (+63). 1250 (#001) - 28 (#003) + 15 (#007) = 1237. #004 is from Marketing; #009 is not about the budget.",
+    "expected": 1237,
+    "checked_by": "Kimi"
+  }
+]
