@@ -107,6 +107,13 @@ def withdraw(rng: random.Random, target: int, width: int) -> str:
     return rng.choice(WITHDRAW).format(t=f"{target:0{width}d}")
 
 
+def reversal(project: str, amount: int, line: str) -> str:
+    """E's line for what a withdrawal does: a plain Finance change in the wording closest in length
+    to the withdrawal line it replaces, so E stays the same length as R."""
+    options = [template.format(p=project, d="increased" if amount > 0 else "decreased", v=abs(amount)) for template in ADJUST]
+    return min(options, key=lambda option: abs(len(option) - len(line)))
+
+
 def gossip_claim(rng: random.Random, project: str, claim: int, budget: int) -> str:
     template, up, down = rng.choice(GOSSIP_CLAIM)
     return template.format(p=project, d=up if claim > budget else down, v=claim)
@@ -138,10 +145,13 @@ def question(project: str) -> str:
     return f"What is {project}'s budget now?"
 
 
-def render_log(records: list[Record]) -> str:
+def record_lines(records: list[Record]) -> list[str]:
     width = id_width(len(records))
-    lines = [f"#{r.id:0{width}d}  {r.author}: {r.text}" for r in records]
-    return f"{POLICY}\n\nRECORDS\n" + "\n".join(lines)
+    return [f"#{r.id:0{width}d}  {r.author}: {r.text}" for r in records]
+
+
+def render_log(records: list[Record]) -> str:
+    return f"{POLICY}\n\nRECORDS\n" + "\n".join(record_lines(records))
 
 
 LINE = re.compile(r"^#(\d+)\s+(.+?):\s+(.*)$")

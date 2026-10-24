@@ -4,8 +4,8 @@ This **DSC 180A capstone** tests whether language models can work out a project'
 
 We ask three questions:
 
-1. Do models fail because they trust false claims, miss canceled updates, or both?
-2. Can a **conflict-resolution skill** (a written guide added to the prompt) reduce those failures without hurting accuracy on clean logs?
+1. Do models struggle with canceled updates (withdrawals) or with the arithmetic?
+2. Can a **conflict-resolution skill** (a written guide added to the prompt) reduce withdrawal errors?
 3. Does a model give the same answer when it sees the exact same prompt several times?
 
 ## The task
@@ -21,33 +21,33 @@ The model reads a chronological log and answers: **What is the budget now?** Onl
 #006  Finance Office: Kavel budget increased by $25K.
 ```
 
-The answer is **$810K**: $800K − $15K + $25K. The Engineering claim does not count, and #005 cancels the $40K increase in #003.
+The answer is **\$810K**: \$800K − \$15K + \$25K. The Engineering claim does not count, and #005 cancels the \$40K increase in #003.
 
 ## Experimental design
 
-Exploratory runs suggest withdrawals cause more trouble than gossip. We test this using four versions of each log:
+The main study compares four versions of each log:
 
-| Version             | Gossip | Withdrawals, including withdrawals of withdrawals |
-| ------------------- | ------ | ------------------------------------------------- |
-| C: clean            | No     | No                                                |
-| G: gossip only      | Yes    | No                                                |
-| R: withdrawals only | No     | Yes                                               |
-| RG: both            | Yes    | Yes                                               |
+| Version                    | What the log contains                                             |
+| -------------------------- | ----------------------------------------------------------------- |
+| C: clean                   | No gossip or withdrawals                                          |
+| R: withdrawals             | Withdrawals, including withdrawals of withdrawals                 |
+| RG: withdrawals and gossip | Both                                                              |
+| E: explicit reversals      | Withdrawals replaced by equivalent budget increases or decreases  |
 
-All four have **the same correct answer and number of records**, with similar text lengths. Excluded records become harmless filler; removing withdrawals also removes the Finance changes they ultimately cancel. This lets us isolate the effect of each conflict type.
+All versions have **the same correct answer and number of records**, with similar text lengths. Comparing R with E helps separate withdrawal logic from arithmetic difficulty.
 
-We wish to compare **Claude Opus 5.5 and GPT-6 Astra** at **1,600 records per log**, starting at low reasoning effort.
+We plan to compare **Claude Opus 5.5 and GPT-6 Astra** at **1,600 records per log**.
 
-- **Pilot:** [config/trial.toml](config/trial.toml) uses five throwaway logs to check difficulty and timing. A model scoring below 4/5 on clean logs will move to medium effort before the main run.
-- **Main study:** The planned design is 20 new logs \* 4 versions \* 2 instruction settings (skill off/on) \* 3 repeats = **480 calls per model**. The skill must improve conflict handling without lowering the accuracy for the clean version.
+- **Pilot:** [config/trial.toml](config/trial.toml) checks difficulty and timing with five logs across all four versions, without the skill (**20 calls per model**).
+- **Main study:** [config/main.toml](config/main.toml) uses 20 new logs, four versions, skill off/on, and three repeats (**480 calls per model**).
 
 ## What we measure
 
 - **Accuracy:** Does the final `ANSWER` line match the answer key?
-- **Failure type:** Does a wrong number match counting gossip, missing a withdrawal, or dropping a restored update? Distinctive dollar amounts help identify possible mistakes, though they cannot prove the model's reasoning. We also track other errors, missing answers, and output cutoffs.
+- **Failure type:** Does a wrong answer match a withdrawal, gossip, or arithmetic mistake? Distinctive dollar amounts help identify possible errors, though they cannot prove the model's reasoning. We also track missing answers and output cutoffs.
 - **Consistency:** Across three repeats, is each log always, sometimes, or never answered correctly? Does a consistently wrong answer stay the same?
 
-We average repeats within each log, then compare versions on the same logs with 95% bootstrap confidence intervals.
+We compare versions and skill settings on the same logs, averaging repeats within each log and reporting 95% confidence intervals.
 
 Two independent solvers must agree on every version. Validation also checks [hand-worked examples](data/hand_logs.json) and confirms the rendered text gives the expected answer.
 
@@ -61,7 +61,7 @@ python -m experiment validate
 python -m experiment preview --seed 1 --records 40
 ```
 
-`validate` checks the generator, solvers, and scoring. `preview` prints a small log, its answer key, and an explanation of each record.
+`validate` checks the generator, solvers, and scoring. `preview` shows R and E side by side with an answer key and record explanations; use `--versions` to choose other versions.
 
 For live runs, install and sign in to the **Claude Code and Codex CLIs** with subscriptions that can access the configured models. Then check access and prepare the pilot:
 

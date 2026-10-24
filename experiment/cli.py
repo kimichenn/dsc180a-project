@@ -12,7 +12,7 @@ from dataclasses import replace
 from pathlib import Path
 
 from experiment import runs, text
-from experiment.checks import check_hand_logs, check_world
+from experiment.checks import check_hand_logs, check_scoring, check_world
 from experiment.clients import ClientError, make_client
 from experiment.collect import collect, pending
 from experiment.config import GeneratorSettings, load_config
@@ -46,8 +46,10 @@ def cmd_validate(args) -> int:
         print(f"  {len(unchecked)} not yet checked by a person: work each out from its lines, then put your name in checked_by")
 
     settings = load_config(args.config).generator if args.config else GeneratorSettings()
+    others = [v for v in VERSIONS if v != "C"]
     print(f"\nGenerated worlds ({_relative(args.config) if args.config else 'default generator settings'}), {args.seeds} seeds per size:")
-    print(f"  {'records':>7} {'worlds':>6} {'bad':>4} {'attempts':>8} {'chains':>6} {'nested':>6} {'depth':>5} {'G vs C':>7} {'R vs C':>7} {'RG vs C':>7} {'secs':>5}")
+    print(f"  {'records':>7} {'worlds':>6} {'bad':>4} {'attempts':>8} {'chains':>6} {'nested':>6} {'depth':>5} "
+          + " ".join(f"{v + ' vs C':>7}" for v in others) + f" {'secs':>5}")
     bad = 0
     for n in args.records:
         sized = replace(settings, records=n)
@@ -60,7 +62,7 @@ def cmd_validate(args) -> int:
                 size_bad += 1
                 print(f"  - N={n} seed {seed}: {error}")
                 continue
-            found = check_world(world, sized) + _check_scoring(world)
+            found = check_world(world, sized) + check_scoring(world)
             if found:
                 size_bad += 1
                 print(f"  - N={n} seed {seed}: {'; '.join(found[:3])}")
@@ -69,54 +71,43 @@ def cmd_validate(args) -> int:
         if not worlds:
             continue
         diagnostics = [w.diagnostics() for w in worlds]
-        gap = {v: max(abs(d["length_vs_C"][v]) for d in diagnostics) for v in ("G", "R", "RG")}
+        gaps = " ".join(f"{max(abs(d['length_vs_C'][v]) for d in diagnostics):>7.1%}" for v in others)
         print(
             f"  {n:>7} {len(worlds):>6} {size_bad:>4} "
             f"{statistics.mean(w.attempts for w in worlds):>8.2f} {statistics.median(d['chains'] for d in diagnostics):>6.0f} "
             f"{statistics.median(d['nested_chains'] for d in diagnostics):>6.0f} {max(d['max_chain_depth'] for d in diagnostics):>5} "
-            f"{gap['G']:>7.1%} {gap['R']:>7.1%} {gap['RG']:>7.1%} {time.monotonic() - started:>5.1f}"
+            f"{gaps} {time.monotonic() - started:>5.1f}"
         )
     print("  (attempts: mean generator resamples; chains, nested: medians; depth: the longest chain; X vs C: the largest length gap)")
-    print("\nRead one world by hand: python -m experiment preview --seed 1 --records 40")
+    print("\nRead one world by hand: python -m experiment preview --seed 1 --records 40 --versions R E")
     return 0 if not problems and not bad else 1
-
-
-def _check_scoring(world: World) -> list[str]:
-    """Answers built to land in each bucket must land there, and in a version without the records
-    behind a mistake, its value must land somewhere else."""
-    key = world.key
-    answer = key["answer"]
-    first = {bucket: key["buckets"]["RG"][bucket][0]["value"] for bucket in MISTAKES}
-    cases = [(answer, "C", "correct", False), (answer, "RG", "correct", True), (None, "RG", "gave_up", False),
-             (None, "RG", "cut_off", True), (first["missed_withdrawal"], "RG", "missed_withdrawal", True)]
-    cases += [(value, "RG", bucket, False) for bucket, value in first.items()]
-    cases += [(first["counted_gossip"], "R", "other", False), (first["missed_withdrawal"], "C", "other", False),
-              (first["dropped_reinstated"], "C", "off_by_one_regular", False)]  # in C it is an ordinary change
-    problems = []
-    for value, version, want, hit_limit in cases:
-        response = "I cannot work this out." if value is None else f"Working...\nANSWER: ${value}K"
-        got = score(response, key, version, hit_limit)["bucket"]
-        if got != want:
-            problems.append(f"scoring: {value} on {version} is {got}, expected {want}")
-    return problems
 
 
 def cmd_preview(args) -> int:
     settings = replace(load_config(args.config).generator if args.config else GeneratorSettings(), records=args.records)
     world = generate(args.seed, settings)
-    print(user_prompt(world.version(args.version), world.project))
-    key = world.key
     width = text.id_width(world.n)
+    if len(args.versions) == 1:
+        print(user_prompt(world.version(args.versions[0]), world.project))
+    else:
+        columns = [text.record_lines(world.version(v)) for v in args.versions]
+        column_width = max(len(line) for column in columns[:-1] for line in column)
+        print(f"{text.POLICY}\n\nRECORDS, side by side (* marks lines that differ)")
+        print("   " + " | ".join(v.ljust(column_width) for v in args.versions[:-1]) + " | " + args.versions[-1])
+        for row in zip(*columns):
+            mark = "*" if len(set(row)) > 1 else " "
+            print(f" {mark} " + " | ".join(cell.ljust(column_width) for cell in row[:-1]) + " | " + row[-1])
+        print(f"\nQuestion: {text.question(world.project)}")
+
+    key = world.key
     print(f"\n===== ANSWER KEY =====\n{world.world_id}, project {world.project}, {world.attempts} generator attempt(s); answer {world.answer}")
-    for version in VERSIONS:
-        print(f"lures {version:2}: " + " | ".join(f"{name} {value}" for name, value in key["lures"][version].items()))
-        print("   single mistakes: " + ", ".join(f"{b} {len(key['buckets'][version][b])}" for b in MISTAKES))
-    mistakes = {i: (b, m["value"]) for b in MISTAKES for m in key["buckets"]["RG"][b] for i in m["record_ids"]}
-    print("\nwithdrawal chains, and the answer if any withdrawal in one is mishandled (RG):")
+    print("single-mistake values (the same in every version): " + ", ".join(f"{b} {len(key['buckets'][b])}" for b in MISTAKES))
+    mistakes = {i: (b, m["value"]) for b in MISTAKES for m in key["buckets"][b] for i in m["record_ids"]}
+    print("\nwithdrawal chains, E's line for each withdrawal, and the answer if any withdrawal in one is mishandled:")
     for c in world.chains:
-        stack = " <- ".join(f"#{w:0{width}d}" for w in c.withdrawals)
+        stack = " <- ".join(f"#{w:0{width}d} (E {world.records[w - 1].reversal:+d})" for w in c.withdrawals)
         bucket, value = mistakes[c.adjust_id]
-        print(f"  #{c.adjust_id:0{width}d} {c.amount:+d} <- {stack}  depth {c.depth}, {'counts' if c.active else 'withdrawn'}: {bucket} {value}")
+        print(f"  #{c.adjust_id:0{width}d} {c.amount:+d} <- {stack}  depth {c.depth}, {'reinstated' if c.active else 'withdrawn'}: {bucket} {value}")
     print("\ntrace (last column: the versions that show the record; the others show filler):")
     budget = None
     for r in world.records:
@@ -127,16 +118,16 @@ def cmd_preview(args) -> int:
             budget += r.amount if world.active[r.id] else 0
             note = f"{r.amount:+d} -> {budget}" if world.active[r.id] else f"{r.amount:+d} withdrawn"
         elif r.kind == "withdraw":
-            note = f"withdraw #{r.target:0{width}d}" + ("" if world.active[r.id] else " (itself withdrawn)")
+            note = f"withdraw #{r.target:0{width}d} (E {r.reversal:+d})" + ("" if world.active[r.id] else ", itself withdrawn")
         elif r.kind == "gossip":
             note = f"claims {r.amount:+d} change" if r.relative else f"claims budget {r.amount}"
         else:
             note = ""
         shown = ",".join(v for v in VERSIONS if not world.switched_off(r, v))
-        print(f"  #{r.id:0{width}d}  {r.kind:8} {note:34} {shown}")
+        print(f"  #{r.id:0{width}d}  {r.kind:8} {note:40} {shown}")
     diagnostics = world.diagnostics()
-    print("\nlength vs C: " + ", ".join(f"{v} {diagnostics['length_vs_C'][v]:+.1%}" for v in ("G", "R", "RG")))
-    problems = check_world(world, settings)
+    print("\nlength vs C: " + ", ".join(f"{v} {diagnostics['length_vs_C'][v]:+.1%}" for v in VERSIONS if v != "C"))
+    problems = check_world(world, settings) + check_scoring(world)
     print("checks: " + ("all passed" if not problems else "; ".join(problems)))
     return 0 if not problems else 1
 
@@ -160,7 +151,7 @@ def cmd_check(args) -> int:
             bad += 1
             print(f"{name:10} FAILED  {error}")
             continue
-        scored = score(completion.text, key, "RG", hit_length_limit(completion.usage, completion.stop_reason, spec.max_output_tokens))
+        scored = score(completion.text, key, hit_length_limit(completion.usage, completion.stop_reason, spec.max_output_tokens))
         problems = ([] if scored["correct"] else [f"wrong answer (expected {key['answer']})"]) + completion.audit
         bad += bool(problems)
         usage = completion.usage
@@ -273,10 +264,10 @@ def _parser() -> argparse.ArgumentParser:
     validate.add_argument("--seeds", type=int, default=20, help="seeds per size")
     validate.set_defaults(handler=cmd_validate)
 
-    preview = commands.add_parser("preview", help="print one world's prompt, answer key, chains, and a record-by-record trace")
+    preview = commands.add_parser("preview", help="print one world's log (or two side by side), answer key, chains, and a trace")
     preview.add_argument("--seed", type=int, default=1)
     preview.add_argument("--records", type=int, default=40)
-    preview.add_argument("--version", choices=VERSIONS, default="RG")
+    preview.add_argument("--versions", nargs="+", choices=VERSIONS, default=["R", "E"], help="one version, or several side by side")
     preview.add_argument("--config", type=Path, help="use this run config's generator settings")
     preview.set_defaults(handler=cmd_preview)
 

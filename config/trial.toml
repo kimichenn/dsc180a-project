@@ -1,14 +1,13 @@
-# Trial run (proposal step 2): about 5 throwaway logs on the merged generator, before freezing the main run.
+# Trial run: 5 throwaway logs, all four main versions, no skill, 1 repeat (20 calls per model).
 # It checks that N = 1,600 and low effort still hold (fallback: a model with fewer than 4 of 5 clean
-# logs right moves to medium), times a call, and is where the skill wording gets finalized.
-# Its logs are throwaway: the main run uses different seeds.
-description = "Trial run: 5 throwaway logs, all four versions, both models at low effort"
+# logs right moves to medium) and times a call. The main run uses different seeds.
+description = "Trial run: 5 throwaway logs, versions C/R/RG/E, no skill, both models at low effort"
 
 [design]
 seed_start = 600000        # disjoint from every EDA seed (Kimi v5: 1-5, 1001+; Jeremy Exp 3: 300000-500029)
 logs = 5
-versions = ["C", "G", "R", "RG"]
-instructions = ["none"]    # the skill arm is added once its wording exists (experiment/prompts.py INSTRUCTIONS)
+versions = ["C", "R", "RG", "E"]
+instructions = ["none"]
 repeats = 1
 schedule_seed = 180
 

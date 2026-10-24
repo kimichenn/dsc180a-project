@@ -120,6 +120,6 @@ def _report(summary: Summary, streak: Counter, trial: Trial, record: dict, prefi
         summary.stopped.setdefault(model, f"{record['file']} failed the audit ({'; '.join(record['audit'])}); inspect it before collecting more")
         print(f"{prefix}  NOT ELIGIBLE: {'; '.join(record['audit'])}  {record['elapsed_s']:.0f}s  {tokens}", flush=True)
         return
-    scored = score(record["response"], key, trial.version, hit_length_limit(usage, record["stop_reason"], max_output_tokens))
+    scored = score(record["response"], key, hit_length_limit(usage, record["stop_reason"], max_output_tokens))
     summary.outcomes[scored["bucket"]] += 1
     print(f"{prefix}  {scored['bucket']} ({scored['value']} vs {scored['expected']})  {record['elapsed_s']:.0f}s  {tokens}", flush=True)

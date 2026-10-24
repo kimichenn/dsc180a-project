@@ -11,9 +11,14 @@ Buckets, in the order they are assigned (d = answer - correct budget):
     off_by_one_regular       |d| = the amount of one change no withdrawal touches
     other                    anything else, such as several mistakes at once
 A response that hit the output limit is still scored on its final ANSWER line when it has one;
-hit_length_limit flags it, by the same rule for every model. The single-mistake values come from solvers.flipped, so a mishandled nested withdrawal lands in
-its bucket straight from the solver. Each version has only the buckets its records allow, and the
-generator resamples any log where two buckets share a value or one equals the answer.
+hit_length_limit flags it, by the same rule for every model.
+
+Each bucket's values come from the records' roles in the full log, so a mistake on a record lands in
+the same bucket in every version: dropping a change that R reinstates is dropped_reinstated in C and
+E too. That makes C and E baselines for how often each bucket turns up without withdrawals. The
+values come from solvers.flipped, so a mishandled nested withdrawal lands in its bucket straight
+from the solver, and the generator resamples any log where two buckets share a value or one equals
+the answer.
 """
 
 from __future__ import annotations
@@ -68,7 +73,7 @@ def hit_length_limit(usage: dict, stop_reason: str | None, max_output_tokens: in
 
 
 def mistake_values(records: list[Record]) -> dict[str, list[dict]]:
-    """Every answer one mistake gives on this version of the log, by bucket, with the records it points to."""
+    """Every answer one mistake gives on the full log, by bucket, with the records it points to."""
     answer = solvers.solve_backward(records)
     active = solvers.active_status(records)
     found: dict[str, dict[int, list[int]]] = {bucket: {} for bucket in MISTAKES}
@@ -78,11 +83,9 @@ def mistake_values(records: list[Record]) -> dict[str, list[dict]]:
         if record_id is not None and record_id not in ids:
             ids.append(record_id)
 
-    withdrawals = [r for r in records if r.kind == "withdraw"]
-    if withdrawals:
-        add("ignored_all_withdrawals", solvers.lures(records)["ignore_withdrawals"])
+    add("ignored_all_withdrawals", records[0].amount + sum(r.amount for r in records if r.kind == "adjust"))
     bottoms = set()
-    for w in withdrawals:
+    for w in (r for r in records if r.kind == "withdraw"):
         # Mishandling any withdrawal in a chain flips the change at its bottom; that change is the match.
         bottom = w
         while bottom.kind == "withdraw":
@@ -99,21 +102,18 @@ def mistake_values(records: list[Record]) -> dict[str, list[dict]]:
     return {bucket: [{"value": v, "record_ids": ids} for v, ids in values.items()] for bucket, values in found.items()}
 
 
-def score(response: str | None, key: dict, version: str, hit_limit: bool = False) -> dict:
-    """key is a world's answer key (World.key): its answer, lures, and each version's mistake values."""
+def score(response: str | None, key: dict, hit_limit: bool = False) -> dict:
+    """key is a world's answer key (World.key): its answer and the values each mistake bucket holds."""
     value = parse_answer(response)
     answer = key["answer"]
-    lures = key["lures"][version]
-    result = {
-        "value": value, "expected": answer, "error": None if value is None else value - answer, "hit_length_limit": hit_limit,
-        "record_ids": None, "lure": None if value in (None, answer) else next((n for n in solvers.LURES if lures[n] == value), None),
-    }
+    result = {"value": value, "expected": answer, "error": None if value is None else value - answer,
+              "hit_length_limit": hit_limit, "record_ids": None}
     if value == answer:
         return {**result, "bucket": "correct", "correct": True}
     if value is None:
         return {**result, "bucket": "cut_off" if hit_limit else "gave_up", "correct": False}
     for bucket in MISTAKES:
-        match = next((m for m in key["buckets"][version][bucket] if m["value"] == value), None)
+        match = next((m for m in key["buckets"][bucket] if m["value"] == value), None)
         if match is not None:
             return {**result, "bucket": bucket, "correct": False, "record_ids": match["record_ids"]}
     return {**result, "bucket": "other", "correct": False}

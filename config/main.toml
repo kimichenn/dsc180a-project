@@ -1,15 +1,14 @@
 # Main run: 20 logs * 4 versions * 2 skill settings * 3 repeats = 480 calls per model.
-# DRAFT until step 3: after the trial run, set each model's effort (fallback rule), add the skill arm
-# to `instructions` once its wording is frozen in experiment/prompts.py, then prepare and commit the run.
-# If calls run short, the schedule already goes log by log, so stopping early keeps whole logs
-# (the proposal cuts to 15 logs before cutting repeats or versions).
-description = "Main run: 20 logs, all four versions, 3 repeats per prompt, both models"
+# Before preparing it: set each model's effort from the trial run, and paste the skill into
+# SKILL in experiment/prompts.py (prepare refuses while it is empty). Then prepare and commit the run.
+# The schedule goes log by log, so a run cut short still has whole logs.
+description = "Main run: 20 logs, versions C/R/RG/E, with and without the skill, 3 repeats, both models"
 
 [design]
-seed_start = 700000
+seed_start = 700000        # fresh: disjoint from the trial run and every EDA seed
 logs = 20
-versions = ["C", "G", "R", "RG"]
-instructions = ["none"]    # becomes ["none", "skill"] once we add skills
+versions = ["C", "R", "RG", "E"]
+instructions = ["none", "skill"]
 repeats = 3
 schedule_seed = 180
 

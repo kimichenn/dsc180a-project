@@ -1,11 +1,12 @@
-"""Two independent answer solvers, single-mistake answers, withdrawal chains, and lures.
+"""Two independent answer solvers, single-mistake answers, and withdrawal chains.
 
 Both solvers read only each record's kind, amount, and target, never the generator's plan
 (Jeremy's Exp 3):
 - solve_backward resolves status from the newest record back (a record is active unless an
   active withdrawal names it), then adds every active adjustment to the opening budget.
 - solve_forward replays the log in order; when a withdrawal arrives it toggles the record it
-  names and every record down that record's chain of targets.
+  names and every record down that record's chain of targets. The replay also gives what each
+  withdrawal does to the budget when it arrives, which version E states as a plain change.
 
 flipped (Kimi's v5) gives the answer with one record handled the wrong way. Scoring uses it to
 name the single mistake behind a wrong answer.
@@ -13,12 +14,10 @@ name the single mistake behind a wrong answer.
 
 from __future__ import annotations
 
+from collections.abc import Iterator
 from dataclasses import dataclass
 
 from experiment.records import FINANCE, OFFICIAL, Record
-
-LURES = ("ignore_withdrawals", "ignore_nested", "withdraw_pops_latest", "last_number")
-WITHDRAWAL_LURES = ("ignore_withdrawals", "ignore_nested", "withdraw_pops_latest")
 
 
 @dataclass(frozen=True)
@@ -84,15 +83,16 @@ def solve_backward(records: list[Record]) -> int:
     return records[0].amount + sum(r.amount for r in records if r.kind == "adjust" and active[r.id])
 
 
-def solve_forward(records: list[Record]) -> int:
-    budget, by_id, active = 0, {}, {}
+def replay(records: list[Record]) -> Iterator[tuple[Record, int]]:
+    """Each record with how much it moves the budget when it arrives, replaying the log in order."""
+    by_id: dict[int, Record] = {}
+    active: dict[int, bool] = {}
     for r in records:
         by_id[r.id] = r
-        if r.kind == "opening":
-            budget = r.amount
-        elif r.kind == "adjust":
+        delta = 0
+        if r.kind in ("opening", "adjust"):
             active[r.id] = True
-            budget += r.amount
+            delta = r.amount
         elif r.kind == "withdraw":
             active[r.id] = True
             target = r.target
@@ -100,10 +100,19 @@ def solve_forward(records: list[Record]) -> int:
                 active[target] = not active[target]
                 victim = by_id[target]
                 if victim.kind == "adjust":
-                    budget += victim.amount if active[target] else -victim.amount
+                    delta = victim.amount if active[target] else -victim.amount
                     break
                 target = victim.target
-    return budget
+        yield r, delta
+
+
+def solve_forward(records: list[Record]) -> int:
+    return sum(delta for _, delta in replay(records))
+
+
+def reversals(records: list[Record]) -> dict[int, int]:
+    """What each withdrawal does to the budget when it arrives: it reverses or re-applies the change at the bottom of its chain."""
+    return {r.id: delta for r, delta in replay(records) if r.kind == "withdraw"}
 
 
 def flipped(records: list[Record], record_id: int) -> int:
@@ -142,30 +151,3 @@ def chains(records: list[Record]) -> list[Chain]:
                 stack.append(current)
             out.append(Chain(r.id, r.amount, tuple(stack), active[r.id]))
     return out
-
-
-def lures(records: list[Record]) -> dict[str, int]:
-    """The answer each wrong strategy gives on this version of the log (the answer itself when
-    the version has nothing for the strategy to get wrong)."""
-    opening = records[0].amount
-    adjusts = [r for r in records if r.kind == "adjust"]
-    named = {r.target for r in records if r.kind == "withdraw"}
-    figures = [r.amount for r in records if r.kind in ("opening", "adjust", "gossip")]
-    return {
-        "ignore_withdrawals": opening + sum(r.amount for r in adjusts),
-        # withdrawals of withdrawals do nothing, so every adjustment a withdrawal names stays withdrawn
-        "ignore_nested": opening + sum(r.amount for r in adjusts if r.id not in named),
-        "withdraw_pops_latest": _pops_latest(records),
-        "last_number": abs(figures[-1]),
-    }
-
-
-def _pops_latest(records: list[Record]) -> int:
-    """Each withdrawal undoes the most recent still-applied adjustment, whatever it names."""
-    applied = []
-    for r in records:
-        if r.kind == "adjust":
-            applied.append(r.amount)
-        elif r.kind == "withdraw" and applied:
-            applied.pop()
-    return records[0].amount + sum(applied)

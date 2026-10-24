@@ -1,13 +1,13 @@
-"""One line of a budget log, and the four versions of a log.
+"""One line of a budget log, and the versions of a log.
 
-Every version has the same records at the same positions. A version switches some records off:
-their line becomes harmless filler from the same author, so all four versions have the same
-length and the same answer.
+Every version has the same records at the same positions and the same answer. A version switches
+some records off: their line becomes harmless filler from the same author.
 
-    C   clean: no gossip, no withdrawals
-    G   gossip only
-    R   withdrawals only
-    RG  gossip and withdrawals (the full log)
+    C   clean: no gossip, no withdrawals (withdrawals and the changes they cancel are filler)
+    R   withdrawals
+    RG  withdrawals and gossip (the full log)
+    E   R with every withdrawal rewritten as the plain Finance change it amounts to (explicit reversals)
+    G   gossip only (a backup; not in the main run)
 """
 
 from __future__ import annotations
@@ -17,7 +17,9 @@ from dataclasses import dataclass
 FINANCE = "Finance Office"
 KINDS = ("opening", "adjust", "withdraw", "gossip", "filler")
 OFFICIAL = ("opening", "adjust", "withdraw")  # only the Finance Office writes these
-VERSIONS = ("C", "G", "R", "RG")
+VERSIONS = ("C", "R", "RG", "E", "G")
+KEEPS_GOSSIP = ("RG", "G")
+KEEPS_WITHDRAWALS = ("R", "RG", "E")  # E keeps them as explicit reversals
 
 
 @dataclass(frozen=True)
@@ -30,11 +32,5 @@ class Record:
     relative: bool = False  # gossip only: amount is a claimed change ("goes up $40K"), not a budget
     text: str = ""  # what the line says after "Author: "
     filler: str = ""  # what it says instead when a version switches the record off
-
-
-def has_gossip(version: str) -> bool:
-    return "G" in version
-
-
-def has_withdrawals(version: str) -> bool:
-    return "R" in version
+    reversal: int | None = None  # withdraw only: the signed change it makes, which E states outright
+    reversal_text: str = ""  # withdraw only: E's line for that change

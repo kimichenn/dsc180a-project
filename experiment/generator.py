@@ -1,4 +1,4 @@
-"""Generate a world: a budget log whose four versions share one answer.
+"""Generate a world: a budget log whose versions share one answer.
 
 1. Layout (Jeremy's Exp 3): each position draws a record kind in proportion to how many of that
    kind are left. A withdrawal names a random earlier adjustment, or, with probability
@@ -8,19 +8,22 @@
    change a withdrawal touches (withdrawn or reinstated) and every claimed change gets a size that
    is not a multiple of 5 and that no other record uses, so a wrong answer off by that size points
    to exactly one record.
-3. Wording comes from text.py. The answer always comes from the solvers, never from this plan,
-   and generate() resamples until every check in checks.py passes.
+3. Wording comes from text.py. Each withdrawal also gets the plain change it amounts to (from
+   the forward replay) and a line for it, which version E shows instead of the withdrawal.
+4. The answer always comes from the solvers, never from this plan, and generate() resamples
+   until every check in checks.py passes.
 """
 
 from __future__ import annotations
 
 import random
+from dataclasses import replace
 
 from experiment import text
 from experiment.checks import check_world
 from experiment.config import GeneratorSettings
 from experiment.records import FINANCE, Record
-from experiment.solvers import active_status
+from experiment.solvers import active_status, reversals
 from experiment.world import World
 
 MAX_ATTEMPTS = 200
@@ -127,6 +130,9 @@ def _attempt(rng: random.Random, seed: int, project: str, settings: GeneratorSet
         # What the line says when a version switches it off; opening and filler are never switched off.
         filler = text.filler_like(rng, project, author, body) if kind in ("adjust", "withdraw", "gossip") else ""
         records.append(Record(rid, kind, author, amount, target, is_relative, body, filler))
+    effects = reversals(records)
+    records = [replace(r, reversal=effects[r.id], reversal_text=text.reversal(project, effects[r.id], r.text)) if r.kind == "withdraw" else r
+               for r in records]
     return World(f"s{seed}_n{settings.records}", seed, project, records)
 
 

@@ -1,4 +1,4 @@
-"""A generated log (a "world"): its records, its four versions, and its answer key."""
+"""A generated log (a "world"): its records, its versions, and its answer key."""
 
 from __future__ import annotations
 
@@ -7,7 +7,7 @@ from dataclasses import asdict, dataclass, replace
 from functools import cached_property
 
 from experiment import scoring, solvers, text
-from experiment.records import VERSIONS, Record, has_gossip, has_withdrawals
+from experiment.records import KEEPS_GOSSIP, KEEPS_WITHDRAWALS, VERSIONS, Record
 
 
 @dataclass
@@ -35,33 +35,36 @@ class World:
         return solvers.chains(self.records)
 
     def switched_off(self, record: Record, version: str) -> bool:
-        """Gossip is off without G. Without R, withdrawals and the adjustments they cancel are off;
-        adjustments that end up active stay, so the answer does not change."""
+        """Gossip is off unless the version keeps gossip. Withdrawals and the adjustments they cancel
+        are off unless it keeps withdrawals; adjustments that end up active stay, so the answer holds."""
         if record.kind == "gossip":
-            return not has_gossip(version)
+            return version not in KEEPS_GOSSIP
         if record.kind == "withdraw" or (record.kind == "adjust" and not self.active[record.id]):
-            return not has_withdrawals(version)
+            return version not in KEEPS_WITHDRAWALS
         return False
 
     def version(self, version: str) -> list[Record]:
         if version not in VERSIONS:
             raise ValueError(f"unknown version {version!r}")
-        return [
-            replace(r, kind="filler", amount=None, target=None, relative=False, text=r.filler) if self.switched_off(r, version) else r
-            for r in self.records
-        ]
+        records = []
+        for r in self.records:
+            if self.switched_off(r, version):
+                r = replace(r, kind="filler", amount=None, target=None, relative=False, text=r.filler)
+            elif version == "E" and r.kind == "withdraw":
+                r = replace(r, kind="adjust", amount=r.reversal, target=None, text=r.reversal_text)
+            records.append(r)
+        return records
 
     def render(self, version: str) -> str:
         return text.render_log(self.version(version))
 
     @cached_property
     def key(self) -> dict:
-        """The answer key scoring uses: the answer, each version's lures and single-mistake values, and the chains."""
-        versions = {v: self.version(v) for v in VERSIONS}
+        """The answer key scoring uses. Buckets come from each record's role in the full log, so a
+        mistake on a record lands in the same bucket in every version."""
         return {
             "answer": self.answer,
-            "lures": {v: solvers.lures(records) for v, records in versions.items()},
-            "buckets": {v: scoring.mistake_values(records) for v, records in versions.items()},
+            "buckets": scoring.mistake_values(self.records),
             "chains": [{**asdict(c), "depth": c.depth} for c in self.chains],
         }
 

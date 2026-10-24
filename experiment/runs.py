@@ -2,7 +2,7 @@
 
 runs/<name>/
     manifest.json                  the config, each world's answer, and a hash of every frozen file
-    worlds/<world>.json            each world's records and answer key (answer, lures, withdrawal chains)
+    worlds/<world>.json            each world's records and answer key (answer, single-mistake values, chains)
     prompts/<world>_<version>.txt  the exact user message
     system/<instruction>.txt       the exact system prompt
     trials.jsonl                   one row per call, in collection order
@@ -35,7 +35,7 @@ from experiment.world import World
 
 SCHEMA = 1
 REPO_ROOT = Path(__file__).resolve().parent.parent
-KEY_FIELDS = ("answer", "lures", "buckets", "chains")
+KEY_FIELDS = ("answer", "buckets", "chains")
 
 
 @dataclass(frozen=True)
@@ -69,7 +69,7 @@ class Run:
 
     @cached_property
     def keys(self) -> dict[str, dict]:
-        """Each world's answer key (answer, lures, single-mistake values, chains), by world id."""
+        """Each world's answer key (answer, single-mistake values, chains), by world id."""
         keys = {}
         for world_id in self.manifest["worlds"]:
             data = json.loads((self.path / "worlds" / f"{world_id}.json").read_text())
