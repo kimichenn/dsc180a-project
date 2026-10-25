@@ -1,16 +1,28 @@
-# Main run: 20 logs * 4 versions * 2 skill settings * 3 repeats = 480 calls per model.
-# Before preparing it: set each model's effort from the trial run, and paste the skill into
-# SKILL in experiment/prompts.py (prepare refuses while it is empty). Then prepare and commit the run.
-# The schedule goes log by log, so a run cut short still has whole logs.
-description = "Main run: 20 logs, versions C/R/RG/E, with and without the skill, 3 repeats, both models"
+# Main run, per model:
+#   tier 1: 30 logs * versions C/R/RG/E * no skill/skill * repeats 1-3 = 720 calls
+#   tier 2: 10 of those logs * R/RG * no skill/skill * repeats 4-10  = 280 calls
+# Before preparing it, paste the skill into SKILL in experiment/prompts.py and commit: prepare refuses
+# the main run while the skill is empty or the working tree has uncommitted changes. Then prepare and
+# commit the run. The schedule goes log by log, so a run cut short still has whole logs.
+purpose = "main"
+description = "Main run: 30 logs, versions C/R/RG/E, with and without the skill, 3 repeats; 10 logs get 10 repeats in R and RG"
 
 [design]
-seed_start = 700000        # fresh: disjoint from the trial run and every EDA seed
-logs = 20
+seed_start = 700000        # fresh: disjoint from both trials (600000+, 610000+) and every EDA seed (1-5, 1001+, 300000-500029)
+schedule_seed = 180
+selection_seed = 181       # picks the tier-2 logs
+
+[design.tier1]
+logs = 30
 versions = ["C", "R", "RG", "E"]
 instructions = ["none", "skill"]
 repeats = 3
-schedule_seed = 180
+
+[design.tier2]
+logs = 10
+versions = ["R", "RG"]
+instructions = ["none", "skill"]
+repeats = 10               # in all, counting tier 1's 3
 
 [generator]
 records = 1600
@@ -23,7 +35,7 @@ amount_step = 5
 amount_max = 150
 unique_amount_max = 600
 budget_min = 200
-budget_max = 3000
+budget_max = 5000
 
 [collection]
 timeout_seconds = 1800

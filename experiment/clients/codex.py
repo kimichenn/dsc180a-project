@@ -1,9 +1,10 @@
 """GPT through `codex exec` (Codex CLI) on the ChatGPT login.
 
-Codex adds agent context from several places; each setting below removes one (Kimi checked them
-with `codex debug prompt-input`: with all of them the model sees only our instructions and the
-user message, plus one tool, request_user_input, that `codex exec` cannot answer). The JSON
-event stream is then audited as in Jeremy's Exp 3: one fresh turn, no tool items, no errors.
+Codex adds agent context from several places; each setting below removes one (checked with
+`codex debug prompt-input`: with all of them the model sees only our instructions and the user
+message, plus one tool, request_user_input, that `codex exec` cannot answer). The JSON event
+stream is then audited. Anything but one fresh turn with no error events, from the requested model,
+is a harness failure; a tool item is the model's own doing, so it is flagged and the call still counts.
 """
 
 from __future__ import annotations
@@ -148,14 +149,17 @@ class CodexClient:
         usage = {key: reported.get(key) for key in ("input_tokens", "cached_input_tokens", "output_tokens", "reasoning_output_tokens")}
         tools = sorted({item.get("type", "unknown") for item in items if item.get("type") not in _NOT_TOOLS})
         served = sorted({e["model"] for e in events if isinstance(e.get("model"), str)})
-        audit = [f"used a tool ({', '.join(tools)})"] if tools else []
+        flags = [f"used a tool ({', '.join(tools)})"] if tools else []
+        harness = []
         if counts["thread.started"] != 1 or counts["turn.started"] != 1 or counts["turn.completed"] != 1:
-            audit.append("not exactly one fresh turn")
+            harness.append("not exactly one fresh turn")
         if errors:
-            audit.append("error events: " + " | ".join(errors)[:300])
+            harness.append("error events: " + " | ".join(errors)[:300])
         if unreadable or set(counts) - _KNOWN_EVENTS:
-            audit.append("unexpected event stream")
+            harness.append("unexpected event stream")
         if served and served != [s.model]:
-            audit.append(f"served {', '.join(served)}")
+            harness.append(f"served {', '.join(served)}")
+        thread = next((e.get("thread_id") for e in events if e.get("type") == "thread.started"), None)
         raw = {"events": events, "stderr_tail": stderr[-2000:]}
-        return Completion(messages[-1] if messages else "", usage, served[0] if len(served) == 1 else None, "completed", audit, raw)
+        return Completion(messages[-1] if messages else "", usage, served[0] if len(served) == 1 else None, "completed", thread,
+                          harness, flags, raw)

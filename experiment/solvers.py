@@ -1,20 +1,22 @@
-"""Two independent answer solvers, single-mistake answers, and withdrawal chains.
+"""Two independent answer solvers, the running budget, single-mistake answers, and withdrawal chains.
 
-Both solvers read only each record's kind, amount, and target, never the generator's plan
-(Jeremy's Exp 3):
+Both solvers read only each record's kind, amount, and target, never the generator's plan:
 - solve_backward resolves status from the newest record back (a record is active unless an
   active withdrawal names it), then adds every active adjustment to the opening budget.
-- solve_forward replays the log in order; when a withdrawal arrives it toggles the record it
-  names and every record down that record's chain of targets. The replay also gives what each
-  withdrawal does to the budget when it arrives, which version E states as a plain change.
+- solve_forward replays the log in order (Ledger); when a withdrawal arrives it toggles the record it
+  names and every record down that record's chain of targets.
 
-flipped (Kimi's v5) gives the answer with one record handled the wrong way. Scoring uses it to
-name the single mistake behind a wrong answer.
+The forward replay is also the running budget a reader tracks: each change counts when it appears,
+and each withdrawal undoes or restores its change when it appears. The generator steers that budget
+and the checks keep it in range, and what each withdrawal does to it when it arrives is the plain
+change version E states instead.
+
+flipped gives the answer with one record handled the wrong way. Scoring uses it for the signatures
+that point to one record, so each carries the exact signed effect of that mistake.
 """
 
 from __future__ import annotations
 
-from collections.abc import Iterator
 from dataclasses import dataclass
 
 from experiment.records import FINANCE, OFFICIAL, Record
@@ -27,11 +29,40 @@ class Chain:
     adjust_id: int
     amount: int
     withdrawals: tuple[int, ...]
-    active: bool  # whether the adjustment counts at the end of the log
+    active: bool  # whether the adjustment counts at the end of the log: restored (even depth) or cancelled (odd)
 
     @property
     def depth(self) -> int:
         return len(self.withdrawals)
+
+
+class Ledger:
+    """The budget while the log is read in order, one record at a time."""
+
+    def __init__(self) -> None:
+        self.budget = 0
+        self._records: dict[int, Record] = {}
+        self._active: dict[int, bool] = {}
+
+    def apply(self, record: Record) -> int:
+        """Read one more record and return how much it moves the budget."""
+        self._records[record.id] = record
+        delta = 0
+        if record.kind in ("opening", "adjust"):
+            self._active[record.id] = True
+            delta = record.amount
+        elif record.kind == "withdraw":
+            self._active[record.id] = True
+            target = record.target
+            while True:  # each withdrawal down the chain flips, until the change at its bottom
+                self._active[target] = not self._active[target]
+                victim = self._records[target]
+                if victim.kind == "adjust":
+                    delta = victim.amount if self._active[target] else -victim.amount
+                    break
+                target = victim.target
+        self.budget += delta
+        return delta
 
 
 def check_structure(records: list[Record]) -> list[str]:
@@ -83,36 +114,18 @@ def solve_backward(records: list[Record]) -> int:
     return records[0].amount + sum(r.amount for r in records if r.kind == "adjust" and active[r.id])
 
 
-def replay(records: list[Record]) -> Iterator[tuple[Record, int]]:
-    """Each record with how much it moves the budget when it arrives, replaying the log in order."""
-    by_id: dict[int, Record] = {}
-    active: dict[int, bool] = {}
+def running_budgets(records: list[Record]) -> list[int]:
+    """The budget after each record, reading the log in order."""
+    ledger = Ledger()
+    budgets = []
     for r in records:
-        by_id[r.id] = r
-        delta = 0
-        if r.kind in ("opening", "adjust"):
-            active[r.id] = True
-            delta = r.amount
-        elif r.kind == "withdraw":
-            active[r.id] = True
-            target = r.target
-            while True:
-                active[target] = not active[target]
-                victim = by_id[target]
-                if victim.kind == "adjust":
-                    delta = victim.amount if active[target] else -victim.amount
-                    break
-                target = victim.target
-        yield r, delta
+        ledger.apply(r)
+        budgets.append(ledger.budget)
+    return budgets
 
 
 def solve_forward(records: list[Record]) -> int:
-    return sum(delta for _, delta in replay(records))
-
-
-def reversals(records: list[Record]) -> dict[int, int]:
-    """What each withdrawal does to the budget when it arrives: it reverses or re-applies the change at the bottom of its chain."""
-    return {r.id: delta for r, delta in replay(records) if r.kind == "withdraw"}
+    return running_budgets(records)[-1]
 
 
 def flipped(records: list[Record], record_id: int) -> int:

@@ -6,7 +6,7 @@
 
 from __future__ import annotations
 
-from experiment.clients.base import Client, ClientError, Completion, FatalClientError, UsageLimitError, stop_all
+from experiment.clients.base import Client, ClientError, Completion, FatalClientError, InterruptedCallError, UsageLimitError, stop_all
 from experiment.config import ModelSpec
 
 
@@ -21,4 +21,4 @@ def make_client(spec: ModelSpec) -> Client:
     return CodexClient(spec)
 
 
-__all__ = ["Client", "ClientError", "Completion", "FatalClientError", "UsageLimitError", "make_client", "stop_all"]
+__all__ = ["Client", "ClientError", "Completion", "FatalClientError", "InterruptedCallError", "UsageLimitError", "make_client", "stop_all"]

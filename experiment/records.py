@@ -7,7 +7,6 @@ some records off: their line becomes harmless filler from the same author.
     R   withdrawals
     RG  withdrawals and gossip (the full log)
     E   R with every withdrawal rewritten as the plain Finance change it amounts to (explicit reversals)
-    G   gossip only (a backup; not in the main run)
 """
 
 from __future__ import annotations
@@ -17,8 +16,8 @@ from dataclasses import dataclass
 FINANCE = "Finance Office"
 KINDS = ("opening", "adjust", "withdraw", "gossip", "filler")
 OFFICIAL = ("opening", "adjust", "withdraw")  # only the Finance Office writes these
-VERSIONS = ("C", "R", "RG", "E", "G")
-KEEPS_GOSSIP = ("RG", "G")
+VERSIONS = ("C", "R", "RG", "E")
+KEEPS_GOSSIP = ("RG",)
 KEEPS_WITHDRAWALS = ("R", "RG", "E")  # E keeps them as explicit reversals
 
 

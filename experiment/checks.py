@@ -9,8 +9,8 @@ from pathlib import Path
 
 from experiment import solvers, text
 from experiment.config import GeneratorSettings
-from experiment.records import KEEPS_GOSSIP, VERSIONS, Record
-from experiment.scoring import MISTAKES, score
+from experiment.records import FINANCE, KEEPS_GOSSIP, VERSIONS, Record
+from experiment.scoring import RECORD_SIGNATURES, UNIQUE_SIGNATURES, WITHDRAWAL_SIGNATURES, score
 from experiment.world import World
 
 
@@ -26,35 +26,28 @@ def check_world(world: World, settings: GeneratorSettings) -> list[str]:
         if solvers.check_structure(records):
             problems.append(f"{version}: {solvers.check_structure(records)[0]}")
             continue
-        # Jeremy's two solvers must agree on every version.
+        # The two independent solvers must agree on every version.
         if solvers.solve_backward(records) != answer or solvers.solve_forward(records) != answer:
             problems.append(f"{version}: the two solvers do not both give {answer}")
         if ("gossip" in kinds) != (version in KEEPS_GOSSIP) or ("withdraw" in kinds) != (version in ("R", "RG")):
             problems.append(f"{version}: has the wrong kinds of records ({', '.join(sorted(kinds))})")
         problems += _check_rendering(records, version, answer)
+        problems += _check_range(records, version, settings)
 
     if {c.active for c in world.chains} != {True, False}:
         problems.append("needs both a withdrawn change and one a withdrawal of a withdrawal reinstates")
     problems += _check_explicit(world)
     problems += _check_amounts(world, settings)
-    problems += _check_buckets(world.key["buckets"], answer)
+    problems += _check_signatures(world.key["signatures"])
     problems += _check_chain_mistakes(world)
-
-    budget = world.records[0].amount
-    for r in world.records:
-        if r.kind == "adjust" and world.active[r.id]:
-            budget += r.amount
-            if not settings.budget_min <= budget <= settings.budget_max:
-                problems.append(f"#{r.id}: true budget {budget} outside {settings.budget_min}-{settings.budget_max}")
-                break
     if world.project.lower() in text.VOCABULARY:
         problems.append(f"project name {world.project!r} is a word the log uses")
     return problems
 
 
 def _check_rendering(records: list[Record], version: str, answer: int) -> list[str]:
-    """Kimi's v5 check: the rendered text, read back using only the policy's wording, gives the same
-    official records and the same answer, so the solvers and the prompt cannot disagree."""
+    """The rendered text, read back using only the policy's wording, gives the same official records
+    and the same answer, so the solvers and the prompt cannot disagree."""
     try:
         parsed = text.parse_log(text.render_log(records))
     except ValueError as error:
@@ -67,6 +60,16 @@ def _check_rendering(records: list[Record], version: str, answer: int) -> list[s
             return [f"{version}: #{want.id} reads back as {got.kind} {got.amount or got.target}, generated as {want.kind}"]
     if len(parsed) != len(records) or {solvers.solve_backward(parsed), solvers.solve_forward(parsed)} != {answer}:
         return [f"{version}: rendered text does not resolve to {answer}"]
+    return []
+
+
+def _check_range(records: list[Record], version: str, settings: GeneratorSettings) -> list[str]:
+    """The budget a reader tracks while reading this version in order stays in range after every record.
+    R, RG, and E share one: a change counts from when it appears until a withdrawal (or E's plain
+    reversal) undoes it. C shows only the changes that survive, so a cancelled change never counts."""
+    for r, budget in zip(records, solvers.running_budgets(records)):
+        if not settings.budget_min <= budget <= settings.budget_max:
+            return [f"{version}: running budget {budget} after #{r.id} is outside {settings.budget_min}-{settings.budget_max}"]
     return []
 
 
@@ -98,58 +101,83 @@ def _check_amounts(world: World, settings: GeneratorSettings) -> list[str]:
     return problems
 
 
-def _check_buckets(buckets: dict[str, list[dict]], answer: int) -> list[str]:
-    """No bucket's values overlap another bucket's or equal the answer, so every wrong answer has one bucket."""
+def _check_signatures(signatures: dict[str, list[dict]]) -> list[str]:
+    """No collisions among the signatures built from unique sizes: each error points to one record,
+    belongs to one signature, and is not the correct answer. Reset values and multiples of $5K are
+    many-valued by nature and may overlap any signature; their coverage and the C and E baselines
+    measure that instead."""
     owner: dict[int, str] = {}
-    for bucket in MISTAKES:
-        for match in buckets[bucket]:
-            value = match["value"]
-            if value == answer:
-                return [f"a {bucket} answer equals the correct answer"]
-            if owner.setdefault(value, bucket) != bucket:
-                return [f"{value} is both {owner[value]} and {bucket}"]
+    for name in UNIQUE_SIGNATURES:
+        for entry in signatures[name]:
+            error = entry["error"]
+            if error == 0:
+                return [f"a {name} answer equals the correct answer"]
+            if len(entry["records"]) != 1:
+                return [f"{name} error {error:+d} points to {len(entry['records'])} records"]
+            if owner.setdefault(error, name) != name:
+                return [f"error {error:+d} is both {owner[error]} and {name}"]
     return []
 
 
 def _check_chain_mistakes(world: World) -> list[str]:
-    """flipped() on any withdrawal in a chain must move the answer by exactly the change at its
-    bottom: +amount if it ends withdrawn, -amount if a withdrawal of a withdrawal restored it."""
-    matches = [(i, m["value"]) for b in ("missed_withdrawal", "dropped_reinstated") for m in world.key["buckets"][b] for i in m["record_ids"]]
-    by_change, counts = dict(matches), Counter(i for i, _ in matches)
+    """flipped() on any withdrawal in a chain must move the answer by exactly the change at its bottom:
+    by its amount if it ends cancelled (counting it), by minus its amount if a withdrawal of a
+    withdrawal restored it (dropping it)."""
+    errors: dict[int, list[int]] = {}
+    for name in WITHDRAWAL_SIGNATURES:
+        for entry in world.key["signatures"][name]:
+            for record_id in entry["records"]:
+                errors.setdefault(record_id, []).append(entry["error"])
     problems = []
     for c in world.chains:
-        expected = world.answer + (-c.amount if c.active else c.amount)
-        if counts[c.adjust_id] != 1 or by_change.get(c.adjust_id) != expected:
-            problems.append(f"chain at #{c.adjust_id}: mishandling it gives {by_change.get(c.adjust_id)}, expected {expected}")
+        expected = -c.amount if c.active else c.amount
+        if errors.get(c.adjust_id) != [expected]:
+            problems.append(f"chain at #{c.adjust_id}: mishandling it gives errors {errors.get(c.adjust_id)}, expected {expected:+d}")
     return problems
 
 
 def check_scoring(world: World) -> list[str]:
-    """Answers built to land in each bucket must land there. Mistakes are also made for real, by
-    removing one line and re-solving, to confirm a record keeps its bucket in every version."""
+    """Answers built to have each status and signature must score that way. Mistakes are also made for
+    real, by changing one line and re-solving, to confirm a record matches its signature in every version."""
     key, answer = world.key, world.answer
-    cases = [(f"ANSWER: ${answer}K", False, "correct", None), (f"ANSWER: ${answer}K", True, "correct", None),
-             ("I cannot work this out.", False, "gave_up", None), ("Working through the records...", True, "cut_off", None)]
-    cases += [(f"ANSWER: ${key['buckets'][b][0]['value']}K", False, b, None) for b in MISTAKES]
+    signatures = key["signatures"]
+    # (response, hit the limit, status, a signature it must match, that match's candidate records)
+    cases: list[tuple[str, bool, str, str | None, list[int] | None]] = [
+        (f"ANSWER: ${answer}K", False, "correct", None, None), (f"ANSWER: ${answer}K", True, "correct", None, None),
+        ("I cannot work this out.", False, "gave_up", None, None), ("Working through the records...", True, "cut_off", None, None),
+    ]
+    cases += [(f"ANSWER: ${answer + signatures[s][0]['error']}K", False, "wrong_number", s, signatures[s][0]["records"])
+              for s in RECORD_SIGNATURES if signatures[s]]
+    covered = {entry["error"] for s in RECORD_SIGNATURES for entry in signatures[s]}
+    unmatched = next(e for e in range(1, 10 ** 6) if e % 5 and e not in covered)
+    cases += [(f"ANSWER: ${answer + 5}K", False, "wrong_number", "multiple_of_5k", []),
+              (f"ANSWER: ${answer + unmatched}K", False, "wrong_number", "unmatched", [])]
 
-    def without(version: str, record_id: int) -> int:
-        records = [replace(r, kind="filler", amount=None, target=None) if r.id == record_id else r for r in world.version(version)]
-        return solvers.solve_backward(records)
+    def solved(version: str, record_id: int, **change) -> int:
+        """The answer to a version with one record changed."""
+        return solvers.solve_backward([replace(r, **change) if r.id == record_id else r for r in world.version(version)])
 
+    as_filler = {"kind": "filler", "amount": None, "target": None}
     withdrawn = next(c for c in world.chains if not c.active)
     reinstated = next(c for c in world.chains if c.active)
     for c in (withdrawn, reinstated):
-        bucket = "dropped_reinstated" if c.active else "missed_withdrawal"
+        name = "matches_restored_amount" if c.active else "matches_withdrawn_amount"
         # R: ignore the last withdrawal in the chain. E: skip the last explicit reversal.
-        cases += [(f"ANSWER: ${without(v, c.withdrawals[-1])}K", False, bucket, [c.adjust_id]) for v in ("R", "E")]
-    # C shows the reinstated change as an ordinary line; dropping it is still dropped_reinstated.
-    cases.append((f"ANSWER: ${without('C', reinstated.adjust_id)}K", False, "dropped_reinstated", [reinstated.adjust_id]))
+        cases += [(f"ANSWER: ${solved(v, c.withdrawals[-1], **as_filler)}K", False, "wrong_number", name, [c.adjust_id]) for v in ("R", "E")]
+    # C shows the reinstated change as an ordinary line; dropping it still matches the restored amount.
+    cases.append((f"ANSWER: ${solved('C', reinstated.adjust_id, **as_filler)}K", False, "wrong_number",
+                  "matches_restored_amount", [reinstated.adjust_id]))
+    # RG: count one claimed change as if the Finance Office had made it.
+    for claim in [r for r in world.records if r.kind == "gossip" and r.relative][:1]:
+        cases.append((f"ANSWER: ${solved('RG', claim.id, kind='adjust', author=FINANCE)}K", False, "wrong_number",
+                      "matches_relative_gossip", [claim.id]))
 
     problems = []
-    for response, hit_limit, want, ids in cases:
+    for response, hit_limit, status, signature, ids in cases:
         got = score(response, key, hit_limit)
-        if got["bucket"] != want or (ids is not None and got["record_ids"] != ids):
-            problems.append(f"scoring: {response!r} is {got['bucket']} {got['record_ids']}, expected {want} {ids or ''}")
+        matched = got["signatures"]
+        if got["status"] != status or (signature is not None and matched.get(signature) != ids):
+            problems.append(f"scoring: {response!r} is {got['status']} {matched}, expected {status} {signature or ''} {ids or ''}")
     return problems
 
 

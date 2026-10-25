@@ -1,8 +1,7 @@
 """Everything the model reads: the policy, each record's wording, project names, and the rendered log.
 
-The wording is Kimi's v5 (POLICY, templates, filler). parse_lines reads a rendered log back using
-only what the policy says decides a record (its author and wording), so checks can confirm the
-text says what the generator meant.
+parse_lines reads a rendered log back using only what the policy says decides a record (its author
+and wording), so checks can confirm the text says what the generator meant.
 """
 
 from __future__ import annotations
@@ -25,8 +24,8 @@ OTHER_AUTHORS = (
 OPENING = ("{p} budget set to ${v}K.", "{p} budget set to ${v}K after review.", "{p} budget set to ${v}K per the revised plan.")
 ADJUST = ("{p} budget {d} by ${v}K.", "{p} budget {d} by ${v}K after review.", "{p} budget {d} by ${v}K per the revised plan.")
 WITHDRAW = ("Withdraw update #{t}.", "Withdraw update #{t}; it was entered in error.")
-# Gossip states a budget figure (direction words, when a template has them, compare it to the true
-# budget) or a change ("goes up $40K"). Half of it is each, as in v5.
+# Gossip states a budget figure (direction words, when a template has them, compare it to the running
+# budget) or a change ("goes up $40K"); relative_gossip_share sets how much of it is each.
 GOSSIP_CLAIM = (
     ("{p} budget is going {d} to ${v}K.", "up", "down"),
     ("{p} budget is going to ${v}K.", "", ""),

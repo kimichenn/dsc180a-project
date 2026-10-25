@@ -38,16 +38,18 @@ All versions have **the same correct answer and number of records**, with simila
 
 We plan to compare **Claude Opus 5.5 and GPT-6 Astra** at **1,600 records per log**.
 
-- **Pilot:** [config/trial.toml](config/trial.toml) checks difficulty and timing with five logs across all four versions, without the skill (**20 calls per model**).
-- **Main study:** [config/main.toml](config/main.toml) uses 20 new logs, four versions, skill off/on, and three repeats (**480 calls per model**).
+- **Pilot:** [config/trial.toml](config/trial.toml) checks the setup and repeatability on five logs, with and without the skill (**48 calls per model**). Pilot data are kept separate from the main study.
+- **Main study:** [config/main.toml](config/main.toml) uses 30 new logs, all four versions, skill off/on, and three repeats. Ten randomly selected logs get additional repeats in R and RG, reaching ten repeats (**1,000 calls per model** in total).
+
+The archived `runs/trial_v1` uses an older run format (code at commit `043da3e`).
 
 ## What we measure
 
-- **Accuracy:** Does the final `ANSWER` line match the answer key?
-- **Failure type:** Does a wrong answer match a withdrawal, gossip, or arithmetic mistake? Distinctive dollar amounts help identify possible errors, though they cannot prove the model's reasoning. We also track missing answers and output cutoffs.
-- **Consistency:** Across three repeats, is each log always, sometimes, or never answered correctly? Does a consistently wrong answer stay the same?
+- **Accuracy:** Does the final `ANSWER` line match the answer key? Missing answers count as wrong.
+- **Error signatures:** Do wrong numbers match patterns associated with withdrawal, gossip, or arithmetic mistakes? These matches suggest possible errors but cannot prove the model's reasoning.
+- **Repeatability:** How often do repeated prompts produce the same answer, and is that answer correct?
 
-We compare versions and skill settings on the same logs, averaging repeats within each log and reporting 95% confidence intervals.
+We compare versions and skill settings on the same logs, using the first three repeats for accuracy comparisons and reporting 95% confidence intervals. Extra repeats are used only to describe repeatability.
 
 Two independent solvers must agree on every version. Validation also checks [hand-worked examples](data/hand_logs.json) and confirms the rendered text gives the expected answer.
 
@@ -63,22 +65,24 @@ python -m experiment preview --seed 1 --records 40
 
 `validate` checks the generator, solvers, and scoring. `preview` shows R and E side by side with an answer key and record explanations; use `--versions` to choose other versions.
 
-For live runs, install and sign in to the **Claude Code and Codex CLIs** with subscriptions that can access the configured models. Then check access and prepare the pilot:
+For live runs, install and sign in to the **Claude Code and Codex CLIs** with subscriptions that can access the configured models. Fill in `SKILL` in [experiment/prompts.py](experiment/prompts.py) before preparing the pilot. Preparing the main study also requires a clean, committed working tree.
+
+Check access and prepare the pilot:
 
 ```bash
 python -m experiment check
-python -m experiment prepare config/trial.toml runs/trial_v1
+python -m experiment prepare config/trial.toml runs/trial_v2
 ```
 
 `check` makes one small live call per model. `prepare` freezes logs, prompts, answer keys, settings, and call order without model calls.
 
 ```bash
-python -m experiment collect runs/trial_v1
-python -m experiment status runs/trial_v1
-python -m experiment analyze runs/trial_v1
+python -m experiment collect runs/trial_v2
+python -m experiment status runs/trial_v2
+python -m experiment analyze runs/trial_v2
 ```
 
-`collect` saves responses and call metadata. Each call uses a fresh session with tools and personal agent context disabled. Rerun it to resume. Select one model with `--models claude` or `--models gpt`, and share saved attempts through Git.
+`collect` saves responses and call metadata, using a fresh session with tools and personal agent context disabled for each call. Rerun it to resume; failed calls get up to three attempts, while completed valid responses are kept regardless of correctness. Select one model with `--models claude` or `--models gpt`, and share saved attempts through Git.
 
 `status` shows progress. `analyze` writes CSV tables and a text report to `runs/<name>/analysis/`. Each command supports `--help`.
 
@@ -90,7 +94,7 @@ These synthetic logs test performance under explicit budget rules. The distincti
 
 | Path                                       | Purpose                                                     |
 | ------------------------------------------ | ----------------------------------------------------------- |
-| [config/](config/)                         | Pilot and draft main-study settings                         |
+| [config/](config/)                         | Pilot and main-study settings                               |
 | [data/hand_logs.json](data/hand_logs.json) | Worked examples for validation                              |
 | [experiment/](experiment/)                 | Generator, solvers, prompts, clients, scoring, and analysis |
 | `runs/<name>/`                             | Frozen inputs, recorded attempts, and generated analysis    |

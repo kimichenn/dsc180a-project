@@ -53,6 +53,20 @@ class ClaudeCodeClient:
         # modelUsage can include Claude Code's own background calls; the answer comes from the requested model.
         served = data.get("modelUsage") or {}
         model = s.model if s.model in served else max(served, key=lambda m: served[m].get("outputTokens") or 0, default=None)
-        audit = [] if model in (None, s.model) else [f"served {model}"]
+        harness = [] if model in (None, s.model) else [f"served {model}"]
         raw = {key: value for key, value in data.items() if key != "result"}
-        return Completion(data.get("result") or "", usage, model, data.get("stop_reason") or data.get("subtype"), audit, raw)
+        return Completion(data.get("result") or "", usage, model, data.get("stop_reason") or data.get("subtype"), data.get("session_id"),
+                          harness, _tool_use(data), raw)
+
+
+def _tool_use(data: dict) -> list[str]:
+    """What the model tried beyond answering: tool requests Claude Code denied (the call has no tools)
+    and server-side tools such as web search."""
+    flags = []
+    denied = sorted({d.get("tool_name", "unknown") if isinstance(d, dict) else str(d) for d in data.get("permission_denials") or []})
+    if denied:
+        flags.append(f"denied tool requests ({', '.join(denied)})")
+    server = {name: n for name, n in ((data.get("usage") or {}).get("server_tool_use") or {}).items() if n}
+    if server:
+        flags.append("used server-side tools (" + ", ".join(f"{name} {n}" for name, n in sorted(server.items())) + ")")
+    return flags

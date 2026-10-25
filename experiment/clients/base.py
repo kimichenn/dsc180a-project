@@ -35,7 +35,12 @@ class Completion:
     usage: dict  # input_tokens, cached_input_tokens, output_tokens, reasoning_output_tokens (None when not reported)
     served_model: str | None
     stop_reason: str | None
-    audit: list[str] = field(default_factory=list)  # why the call is not a clean, tool-free, single-turn answer
+    session_id: str | None  # the CLI's id for the session, which must be new for every call
+    # Why the call does not count: the harness went wrong, not the model (another model, not one fresh
+    # turn, CLI errors). collect retries it.
+    harness_failures: list[str] = field(default_factory=list)
+    # What the model did beyond answering, such as trying a tool. The call still counts and is scored.
+    model_flags: list[str] = field(default_factory=list)
     raw: dict = field(default_factory=dict)  # the CLI's own output, minus the response text
 
 
@@ -45,6 +50,10 @@ class ClientError(RuntimeError):
 
 class UsageLimitError(ClientError):
     """The subscription hit its usage limit. Stop this model and collect again later."""
+
+
+class InterruptedCallError(ClientError):
+    """The call was stopped because collect was interrupted (Ctrl-C)."""
 
 
 class FatalClientError(ClientError):
@@ -79,6 +88,7 @@ def environment(**extra: str) -> dict[str, str]:
 # Every CLI call still running, so an interrupted collect can stop them (each runs in its own process group).
 _running: set[subprocess.Popen] = set()
 _running_lock = threading.Lock()
+_stopping = threading.Event()  # set once stop_all has killed the running calls
 
 
 def run_cli(provider: str, cmd: list[str], stdin: str, cwd: str, env: dict[str, str], timeout: int) -> tuple[int, str, str]:
@@ -100,12 +110,15 @@ def run_cli(provider: str, cmd: list[str], stdin: str, cwd: str, env: dict[str, 
         with _running_lock:
             _running.discard(process)
     if process.returncode < 0:
-        raise ClientError(f"{provider}: killed by signal {-process.returncode} (collect interrupted?)")
+        if _stopping.is_set():
+            raise InterruptedCallError(f"{provider}: stopped when collect was interrupted")
+        raise ClientError(f"{provider}: killed by signal {-process.returncode}")
     return process.returncode, stdout, stderr
 
 
 def stop_all() -> None:
     """Kill every CLI call still running (on Ctrl-C)."""
+    _stopping.set()
     with _running_lock:
         processes = list(_running)
     for process in processes:

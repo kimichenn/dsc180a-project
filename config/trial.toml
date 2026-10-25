@@ -1,28 +1,41 @@
-# Trial run: 5 throwaway logs, all four main versions, no skill, 1 repeat (20 calls per model).
-# It checks that N = 1,600 and low effort still hold (fallback: a model with fewer than 4 of 5 clean
-# logs right moves to medium) and times a call. The main run uses different seeds.
-description = "Trial run: 5 throwaway logs, versions C/R/RG/E, no skill, both models at low effort"
+# Second trial run (runs/trial_v2), per model:
+#   tier 1: 5 new logs * versions C/R/RG/E * no skill/skill * 1 repeat = 40 calls
+#   tier 2: 2 of those logs * R * no skill * repeats 2-5             =  8 calls
+# It checks the skill arm, output length, whether repeats vary, and that every call is a fresh
+# session with the same model settings. Development data: never analyzed as evidence or pooled with
+# the main run, which uses different seeds. It has skill arms, so it prepares only once SKILL is filled in.
+purpose = "development"
+description = "Trial v2: 5 new logs, all 8 cells once; 2 logs get 5 repeats in R without the skill"
 
 [design]
-seed_start = 600000        # disjoint from every EDA seed (Kimi v5: 1-5, 1001+; Jeremy Exp 3: 300000-500029)
+seed_start = 610000        # disjoint from the first trial (600000-600004), the main run (700000+), and every EDA seed (1-5, 1001+, 300000-500029)
+schedule_seed = 180
+selection_seed = 181       # picks the tier-2 logs
+
+[design.tier1]
 logs = 5
 versions = ["C", "R", "RG", "E"]
-instructions = ["none"]
+instructions = ["none", "skill"]
 repeats = 1
-schedule_seed = 180
+
+[design.tier2]
+logs = 2
+versions = ["R"]
+instructions = ["none"]
+repeats = 5                # in all, counting tier 1's 1
 
 [generator]
 records = 1600
 adjust_share = 0.45        # Finance changes, counting the opening budget
 withdraw_share = 0.15
 gossip_share = 0.30        # filler gets the remaining 10%
-nested_rate = 0.35         # Jeremy's Exp 3
-relative_gossip_share = 0.5  # half the gossip states a change, as in v5
-amount_step = 5            # regular changes: multiples of $5K up to amount_max, as in both EDAs
+nested_rate = 0.35         # chance a withdrawal names an earlier withdrawal, when one is free
+relative_gossip_share = 0.5  # half the gossip states a change, half a budget figure
+amount_step = 5            # regular changes: multiples of $5K up to amount_max
 amount_max = 150
 unique_amount_max = 600    # changes a withdrawal touches and claimed changes: unique non-multiples of 5 up to this
-budget_min = 200           # the true budget stays in this range ($K), as in Kimi's v5
-budget_max = 3000
+budget_min = 200           # every version's running budget stays in this range ($K)
+budget_max = 5000
 
 [collection]
 timeout_seconds = 1800

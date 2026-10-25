@@ -1,8 +1,8 @@
 """Run directories: freeze a run before any call, check it is unchanged before collecting, and keep every attempt.
 
 runs/<name>/
-    manifest.json                  the config, each world's answer, and a hash of every frozen file
-    worlds/<world>.json            each world's records and answer key (answer, single-mistake values, chains)
+    manifest.json                  the config, the code's commit, the skill's hash, each world's answer, and a hash of every frozen file
+    worlds/<world>.json            each world's records and answer key (answer, signature values, chains)
     prompts/<world>_<version>.txt  the exact user message
     system/<instruction>.txt       the exact system prompt
     trials.jsonl                   one row per call, in collection order
@@ -22,20 +22,23 @@ import os
 import random
 import re
 import subprocess
+from collections import Counter
 from contextlib import contextmanager
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from functools import cached_property
 from pathlib import Path
 
-from experiment.config import RunConfig, config_from_dict, config_to_dict
+from experiment.config import RunConfig, Tier, config_from_dict, config_to_dict
 from experiment.generator import generate
-from experiment.prompts import Prompt, system_prompt, user_prompt
+from experiment.prompts import SKILL, Prompt, system_prompt, user_prompt
 from experiment.world import World
 
-SCHEMA = 1
+SCHEMA = 2
 REPO_ROOT = Path(__file__).resolve().parent.parent
-KEY_FIELDS = ("answer", "buckets", "chains")
+KEY_FIELDS = ("answer", "signatures", "chains")
+MAX_CALL_ATTEMPTS = 3  # a call that fails this often is given up on
+UNCOUNTED_ERRORS = ("UsageLimitError", "InterruptedCallError")
 
 
 @dataclass(frozen=True)
@@ -47,6 +50,7 @@ class Trial:
     instruction: str
     model: str
     repeat: int
+    tier: int  # 1, or 2 for a tier-2 log's repeats past tier 1's
 
     @property
     def prompt_file(self) -> str:
@@ -69,7 +73,7 @@ class Run:
 
     @cached_property
     def keys(self) -> dict[str, dict]:
-        """Each world's answer key (answer, single-mistake values, chains), by world id."""
+        """Each world's answer key (answer, signature values, chains), by world id."""
         keys = {}
         for world_id in self.manifest["worlds"]:
             data = json.loads((self.path / "worlds" / f"{world_id}.json").read_text())
@@ -93,8 +97,10 @@ def prepare(config: RunConfig, config_file: Path, run_dir: Path, operator: str) 
     run_dir = Path(run_dir)
     if run_dir.exists():
         raise ValueError(f"{run_dir} already exists; collect into it, or prepare a new run name")
-    systems = {name: system_prompt(name) for name in config.instructions}
     state = git_state()  # before writing, so the new run itself does not count as uncommitted work
+    if config.purpose == "main":
+        check_frozen(config, run_dir, state)
+    systems = {name: system_prompt(name) for name in config.tier1.instructions}
     worlds = [generate(seed, config.generator) for seed in config.seeds]
     trials = schedule(config, worlds)
 
@@ -104,19 +110,22 @@ def prepare(config: RunConfig, config_file: Path, run_dir: Path, operator: str) 
         (run_dir / "system" / f"{name}.txt").write_text(text)
     for world in worlds:
         (run_dir / "worlds" / f"{world.world_id}.json").write_text(_world_json(world))
-        for version in config.versions:
+        for version in config.tier1.versions:
             (run_dir / "prompts" / f"{world.world_id}_{version}.txt").write_text(user_prompt(world.version(version), world.project))
     _write_jsonl(run_dir / "trials.jsonl", [asdict(t) for t in trials])
     frozen = sorted(p for p in run_dir.rglob("*") if p.is_file())
+    tier2 = set(config.tier2_seeds)
     manifest = {
         "schema": SCHEMA,
         "run": run_dir.name,
         "created_at": now(),
         "created_by": operator,
         **state,
+        "skill_sha256": hashlib.sha256(SKILL.encode()).hexdigest(),
         "config_file": _relative(config_file),
         "config": config_to_dict(config),
-        "worlds": {w.world_id: {"seed": w.seed, "project": w.project, "answer": w.answer, **w.diagnostics()} for w in worlds},
+        "worlds": {w.world_id: {"seed": w.seed, "project": w.project, "answer": w.answer, "tier2": w.seed in tier2, **w.diagnostics()}
+                   for w in worlds},
         "trials": len(trials),
         "files": {str(p.relative_to(run_dir)): sha256(p) for p in frozen},
     }
@@ -124,18 +133,45 @@ def prepare(config: RunConfig, config_file: Path, run_dir: Path, operator: str) 
     return Run(run_dir, manifest, trials)
 
 
+def check_frozen(config: RunConfig, run_dir: Path, state: dict) -> None:
+    """The main run is collected once and is the study's evidence, so it is prepared only from
+    committed code with the final skill text, and only on logs no other run has used."""
+    if not SKILL.strip():
+        raise ValueError("the main run needs the skill: paste its text into SKILL in experiment/prompts.py and commit it")
+    if state["git_dirty"] is not False:
+        raise ValueError("the main run is prepared only from a clean, committed working tree: commit or stash every change first")
+    reused = sorted(_seeds_in_runs(Path(run_dir).parent).intersection(config.seeds))
+    if reused:
+        raise ValueError(f"seeds {', '.join(map(str, reused[:5]))} are already used by another run; the main run needs fresh logs")
+
+
+def _seeds_in_runs(folder: Path) -> set[int]:
+    """Every seed a prepared run in folder generated its logs from."""
+    return {w["seed"] for path in folder.glob("*/manifest.json") for w in json.loads(path.read_text())["worlds"].values()}
+
+
 def schedule(config: RunConfig, worlds: list[World]) -> list[Trial]:
-    """Every call, in collection order: world by world, so a run cut short still has whole worlds
-    (the proposal cuts logs before repeats or versions); shuffled within each world."""
+    """Every call, in collection order: world by world, so a run cut short still has whole worlds;
+    shuffled within each world. A tier-2 world keeps its place, and its extra repeats join its
+    block, so they are collected alongside its tier-1 repeats."""
     rng = random.Random(config.schedule_seed)
+    tier2 = set(config.tier2_seeds)
     trials: list[Trial] = []
     for world in worlds:
-        block = [(v, i, m, r) for v in config.versions for i in config.instructions for m in config.models for r in range(1, config.repeats + 1)]
+        block = _cells(config, 1, config.tier1, 1)
+        if world.seed in tier2:
+            block += _cells(config, 2, config.tier2, config.tier1.repeats + 1)
         rng.shuffle(block)
-        for version, instruction, model, repeat in block:
+        for tier, version, instruction, model, repeat in block:
             trial_id = f"{world.world_id}_{version}_{instruction}_{model}_r{repeat}"
-            trials.append(Trial(trial_id, len(trials), world.world_id, version, instruction, model, repeat))
+            trials.append(Trial(trial_id, len(trials), world.world_id, version, instruction, model, repeat, tier))
     return trials
+
+
+def _cells(config: RunConfig, tier: int, design: Tier, first_repeat: int) -> list[tuple[int, str, str, str, int]]:
+    """One world's calls in a tier: (tier, version, instruction, model, repeat) for repeats first_repeat..design.repeats."""
+    return [(tier, v, i, m, r) for v in design.versions for i in design.instructions for m in config.models
+            for r in range(first_repeat, design.repeats + 1)]
 
 
 def load(run_dir: Path) -> Run:
@@ -177,12 +213,27 @@ def read_attempts(run: Run) -> list[dict]:
 
 
 def counted(attempts: list[dict]) -> dict[str, dict]:
-    """The attempt each trial counts: its earliest completed, eligible one."""
+    """The attempt each trial counts: its earliest valid one, completed with no harness failure."""
     chosen: dict[str, dict] = {}
     for attempt in sorted(attempts, key=lambda a: a["started_at"]):
         if attempt["status"] == "completed" and attempt["eligible"]:
             chosen.setdefault(attempt["trial_id"], attempt)
     return chosen
+
+
+def counts_toward_cap(attempt: dict) -> bool:
+    """A failed attempt that uses up one of a call's MAX_CALL_ATTEMPTS: a harness failure or any saved
+    error except a usage-limit stop or a Ctrl-C, which say nothing about the call."""
+    if attempt["status"] == "completed":
+        return not attempt["eligible"]
+    return attempt["error_type"] not in UNCOUNTED_ERRORS
+
+
+def left_out(attempts: list[dict]) -> set[str]:
+    """Trials that failed MAX_CALL_ATTEMPTS times with no valid attempt: never called again, and left out of the analysis."""
+    valid = counted(attempts)
+    failed = Counter(a["trial_id"] for a in attempts if counts_toward_cap(a))
+    return {trial for trial, n in failed.items() if n >= MAX_CALL_ATTEMPTS and trial not in valid}
 
 
 @contextmanager

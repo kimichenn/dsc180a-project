@@ -1,11 +1,15 @@
 """Make a run's calls: resumable, concurrent, and safe to split between people and machines.
 
-A trial is done once it has a completed, eligible attempt. The next collect retries everything
-else: errors (timeouts, usage limits, CLI failures) and completed calls that failed the audit (used
-a tool, served another model, more than one turn). Wrong answers and gave-ups are never retried.
-A model stops for the session at its first audit failure, its usage limit, a fatal error (not
-logged in, model unavailable), or three errors in a row; its calls in flight still finish and are
-saved, and the other models keep going.
+A trial is done once it has a valid attempt: completed, with no harness failure. The next collect
+retries every other trial, up to runs.MAX_CALL_ATTEMPTS failed attempts each. A failed attempt is an
+error (a timeout, a CLI failure, output that is not JSON) or a harness failure: another model served,
+not exactly one fresh turn, error events, a missing or reused session ID, or no output token count.
+Usage-limit stops and Ctrl-C do not use up an attempt. A trial that fails every attempt is left out
+of the analysis. A valid call is never rerun, whatever its outcome: a wrong number, a gave-up, a
+cut-off, or something the model did itself, such as trying a tool, which is flagged and scored like
+any other answer. A model stops for the session at its usage limit, a fatal error (not logged in,
+model unavailable), or three failed calls in a row; its calls in flight still finish and are saved,
+and the other models keep going.
 
 Each model gets its own lane, with its own Limits, so one subscription's pace never holds back the
 other's. Calls run on threads: each one waits on a CLI subprocess, so there is no Python work to
@@ -16,16 +20,17 @@ from __future__ import annotations
 
 import hashlib
 import sys
+import threading
 import time
 from collections import Counter, deque
 from concurrent.futures import FIRST_COMPLETED, Future, ThreadPoolExecutor, wait
 from dataclasses import asdict, dataclass, field
 
-from experiment.clients import Client, ClientError, FatalClientError, UsageLimitError, stop_all
-from experiment.runs import Run, Trial, counted, git_state, now, read_attempts, write_attempt
+from experiment.clients import Client, ClientError, Completion, FatalClientError, UsageLimitError, stop_all
+from experiment.runs import Run, Trial, counted, git_state, left_out, now, read_attempts, write_attempt
 from experiment.scoring import hit_length_limit, score
 
-MAX_ERRORS_IN_A_ROW = 3
+MAX_FAILURES_IN_A_ROW = 3
 
 
 @dataclass(frozen=True)
@@ -71,7 +76,7 @@ class _Lane:
 @dataclass
 class Summary:
     calls: int = 0
-    outcomes: Counter = field(default_factory=Counter)  # answer buckets, plus "error" and "not eligible"
+    outcomes: Counter = field(default_factory=Counter)  # answer statuses, plus "error" and "harness failure"
     stopped: dict[str, str] = field(default_factory=dict)  # model -> why it stopped
     interrupted: bool = False
 
@@ -84,12 +89,41 @@ def in_shard(trial: Trial, shard: tuple[int, int] | None) -> bool:
     return int(hashlib.sha256(trial.trial_id.encode()).hexdigest(), 16) % n == k - 1
 
 
+class SessionIds:
+    """Every session ID the run has seen, so a call that reports one again is caught as a harness failure."""
+
+    def __init__(self, attempts: list[dict]):
+        self._seen = {a["session_id"] for a in attempts if a.get("session_id")}
+        self._lock = threading.Lock()  # calls finish on several threads
+
+    def is_new(self, session_id: str) -> bool:
+        """Record session_id; False if the run had already seen it."""
+        with self._lock:
+            new = session_id not in self._seen
+            self._seen.add(session_id)
+            return new
+
+
 def pending(run: Run, models: list[str] | None = None, shard: tuple[int, int] | None = None) -> list[Trial]:
-    done = counted(read_attempts(run))
+    """The selected trials with no valid attempt and attempts left."""
+    attempts = read_attempts(run)
+    done = counted(attempts).keys() | left_out(attempts)
     return [t for t in run.trials if t.trial_id not in done and (not models or t.model in models) and in_shard(t, shard)]
 
 
-def call(run: Run, trial: Trial, client: Client, session: dict) -> dict:
+def harness_failures(completion: Completion, sessions: SessionIds) -> list[str]:
+    """The client's own harness checks, plus the ones both CLIs share: a new session ID and an output token count."""
+    failures = list(completion.harness_failures)
+    if not completion.session_id:
+        failures.append("no session id")
+    elif not sessions.is_new(completion.session_id):
+        failures.append(f"session {completion.session_id} was already used in this run")
+    if completion.usage.get("output_tokens") is None:
+        failures.append("no output token count")
+    return failures
+
+
+def call(run: Run, trial: Trial, client: Client, session: dict, sessions: SessionIds) -> dict:
     """One call; its attempt file is written before this returns, whatever happened."""
     spec = client.spec
     prompt = run.prompt(trial)
@@ -105,10 +139,11 @@ def call(run: Run, trial: Trial, client: Client, session: dict) -> dict:
     except ClientError as error:
         record.update(status="error", error_type=type(error).__name__, error=str(error), eligible=False)
     else:
+        failures = harness_failures(completion, sessions)
         record.update(
             status="completed", error=None, response=completion.text, usage=completion.usage,
-            served_model=completion.served_model, stop_reason=completion.stop_reason,
-            audit=completion.audit, eligible=not completion.audit, raw=completion.raw,
+            served_model=completion.served_model, stop_reason=completion.stop_reason, session_id=completion.session_id,
+            harness_failures=failures, model_flags=completion.model_flags, eligible=not failures, raw=completion.raw,
         )
     record.update(finished_at=now(), elapsed_s=round(time.monotonic() - started, 1))
     record["file"] = str(write_attempt(run, record).relative_to(run.path))
@@ -118,6 +153,7 @@ def call(run: Run, trial: Trial, client: Client, session: dict) -> dict:
 def collect(run: Run, clients: dict[str, Client], trials: list[Trial], operator: str, limits: dict[str, Limits]) -> Summary:
     """Make the trials' calls, each model in schedule order within its own Limits."""
     session = {"operator": operator, **git_state()}
+    sessions = SessionIds(read_attempts(run))
     summary = Summary()
     lanes = {model: _Lane(client, limits[model]) for model, client in clients.items()}
     for trial in trials:
@@ -132,7 +168,7 @@ def collect(run: Run, clients: dict[str, Client], trials: list[Trial], operator:
             for lane in lanes.values():
                 if lane.seconds_to_start(clock) == 0:
                     trial = lane.start(clock)
-                    running[pool.submit(call, run, trial, lane.client, session)] = trial
+                    running[pool.submit(call, run, trial, lane.client, session, sessions)] = trial
             waits = [s for lane in lanes.values() if (s := lane.seconds_to_start(clock)) is not None]
             if not running and not waits:
                 break
@@ -150,7 +186,8 @@ def collect(run: Run, clients: dict[str, Client], trials: list[Trial], operator:
     except KeyboardInterrupt:
         stop_all()
         summary.interrupted = True
-        print("\nInterrupted: the calls in flight were stopped and saved as errors; the next collect retries them.", file=sys.stderr)
+        print("\nInterrupted: the calls in flight were stopped and saved as errors; the next collect retries them "
+              "without using up an attempt.", file=sys.stderr)
     finally:
         pool.shutdown(wait=True, cancel_futures=True)
     return summary
@@ -158,22 +195,20 @@ def collect(run: Run, clients: dict[str, Client], trials: list[Trial], operator:
 
 def _report(summary: Summary, streak: Counter, trial: Trial, record: dict, prefix: str, key: dict, max_output_tokens: int) -> None:
     model = trial.model
-    if record["status"] == "error":
-        summary.outcomes["error"] += 1
+    if record["status"] == "error" or not record["eligible"]:
+        harness = record["status"] == "completed"
+        problem = "harness failure: " + "; ".join(record["harness_failures"]) if harness else record["error"]
+        summary.outcomes["harness failure" if harness else "error"] += 1
         streak[model] += 1
-        print(f"{prefix}  ERROR {record['error']}", flush=True)
-        fatal = record["error_type"] in (UsageLimitError.__name__, FatalClientError.__name__)
-        if (fatal or streak[model] >= MAX_ERRORS_IN_A_ROW) and model not in summary.stopped:
-            summary.stopped[model] = record["error"] if fatal else f"{MAX_ERRORS_IN_A_ROW} errors in a row; last: {record['error']}"
+        print(f"{prefix}  FAILED {problem}", flush=True)
+        fatal = record.get("error_type") in (UsageLimitError.__name__, FatalClientError.__name__)
+        if (fatal or streak[model] >= MAX_FAILURES_IN_A_ROW) and model not in summary.stopped:
+            summary.stopped[model] = problem if fatal else f"{MAX_FAILURES_IN_A_ROW} failed calls in a row; last: {problem}"
         return
     streak[model] = 0
     usage = record["usage"]
     tokens = f"in {usage.get('input_tokens') or 0:,} out {usage.get('output_tokens') or 0:,}"
-    if not record["eligible"]:
-        summary.outcomes["not eligible"] += 1
-        summary.stopped.setdefault(model, f"{record['file']} failed the audit ({'; '.join(record['audit'])}); inspect it before collecting more")
-        print(f"{prefix}  NOT ELIGIBLE: {'; '.join(record['audit'])}  {record['elapsed_s']:.0f}s  {tokens}", flush=True)
-        return
     scored = score(record["response"], key, hit_length_limit(usage, record["stop_reason"], max_output_tokens))
-    summary.outcomes[scored["bucket"]] += 1
-    print(f"{prefix}  {scored['bucket']} ({scored['value']} vs {scored['expected']})  {record['elapsed_s']:.0f}s  {tokens}", flush=True)
+    summary.outcomes[scored["status"]] += 1
+    flagged = f"  flagged: {'; '.join(record['model_flags'])}" if record["model_flags"] else ""
+    print(f"{prefix}  {scored['status']} ({scored['value']} vs {scored['expected']}){flagged}  {record['elapsed_s']:.0f}s  {tokens}", flush=True)

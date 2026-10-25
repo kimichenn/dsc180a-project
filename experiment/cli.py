@@ -11,7 +11,7 @@ from collections import Counter
 from dataclasses import replace
 from pathlib import Path
 
-from experiment import runs, text
+from experiment import runs, solvers, text
 from experiment.checks import check_hand_logs, check_scoring, check_world
 from experiment.clients import ClientError, make_client
 from experiment.collect import Limits, collect, pending
@@ -19,7 +19,7 @@ from experiment.config import GeneratorSettings, load_config
 from experiment.generator import generate
 from experiment.prompts import Prompt, system_prompt, user_prompt
 from experiment.records import VERSIONS
-from experiment.scoring import MISTAKES, hit_length_limit, score
+from experiment.scoring import RECORD_SIGNATURES, WITHDRAWAL_SIGNATURES, hit_length_limit, score
 from experiment.world import World
 
 ROOT = runs.REPO_ROOT
@@ -99,32 +99,30 @@ def cmd_preview(args) -> int:
             print(f" {mark} " + " | ".join(cell.ljust(column_width) for cell in row[:-1]) + " | " + row[-1])
         print(f"\nQuestion: {text.question(world.project)}")
 
-    key = world.key
+    signatures = world.key["signatures"]
     print(f"\n===== ANSWER KEY =====\n{world.world_id}, project {world.project}, {world.attempts} generator attempt(s); answer {world.answer}")
-    print("single-mistake values (the same in every version): " + ", ".join(f"{b} {len(key['buckets'][b])}" for b in MISTAKES))
-    mistakes = {i: (b, m["value"]) for b in MISTAKES for m in key["buckets"][b] for i in m["record_ids"]}
-    print("\nwithdrawal chains, E's line for each withdrawal, and the answer if any withdrawal in one is mishandled:")
+    print("signature errors (the same in every version): " + ", ".join(f"{name} {len(signatures[name])}" for name in RECORD_SIGNATURES)
+          + ", multiple_of_5k any")
+    matches = {e["records"][0]: (name, e["error"]) for name in WITHDRAWAL_SIGNATURES for e in signatures[name]}
+    print("\nwithdrawal chains, E's line for each withdrawal, and the error that matches the chain's signature:")
     for c in world.chains:
         stack = " <- ".join(f"#{w:0{width}d} (E {world.records[w - 1].reversal:+d})" for w in c.withdrawals)
-        bucket, value = mistakes[c.adjust_id]
-        print(f"  #{c.adjust_id:0{width}d} {c.amount:+d} <- {stack}  depth {c.depth}, {'reinstated' if c.active else 'withdrawn'}: {bucket} {value}")
-    print("\ntrace (last column: the versions that show the record; the others show filler):")
-    budget = None
-    for r in world.records:
+        name, error = matches[c.adjust_id]
+        print(f"  #{c.adjust_id:0{width}d} {c.amount:+d} <- {stack}  depth {c.depth}, {'reinstated' if c.active else 'withdrawn'}: {name} {error:+d}")
+    print("\ntrace of the full log read in order, with the running budget (last column: the versions that show the record):")
+    for r, budget in zip(world.records, solvers.running_budgets(world.records)):
         if r.kind == "opening":
-            budget = r.amount
             note = f"set {r.amount} -> {budget}"
         elif r.kind == "adjust":
-            budget += r.amount if world.active[r.id] else 0
-            note = f"{r.amount:+d} -> {budget}" if world.active[r.id] else f"{r.amount:+d} withdrawn"
+            note = f"{r.amount:+d} -> {budget}" + ("" if world.active[r.id] else ", withdrawn later")
         elif r.kind == "withdraw":
-            note = f"withdraw #{r.target:0{width}d} (E {r.reversal:+d})" + ("" if world.active[r.id] else ", itself withdrawn")
+            note = f"withdraw #{r.target:0{width}d}: {r.reversal:+d} -> {budget}" + ("" if world.active[r.id] else ", itself withdrawn later")
         elif r.kind == "gossip":
-            note = f"claims {r.amount:+d} change" if r.relative else f"claims budget {r.amount}"
+            note = f"claims a {r.amount:+d} change" if r.relative else f"claims budget {r.amount} (running {budget})"
         else:
             note = ""
         shown = ",".join(v for v in VERSIONS if not world.switched_off(r, v))
-        print(f"  #{r.id:0{width}d}  {r.kind:8} {note:40} {shown}")
+        print(f"  #{r.id:0{width}d}  {r.kind:8} {note:52} {shown}")
     diagnostics = world.diagnostics()
     print("\nlength vs C: " + ", ".join(f"{v} {diagnostics['length_vs_C'][v]:+.1%}" for v in VERSIONS if v != "C"))
     problems = check_world(world, settings) + check_scoring(world)
@@ -152,7 +150,7 @@ def cmd_check(args) -> int:
             print(f"{name:10} FAILED  {error}")
             continue
         scored = score(completion.text, key, hit_length_limit(completion.usage, completion.stop_reason, spec.max_output_tokens))
-        problems = ([] if scored["correct"] else [f"wrong answer (expected {key['answer']})"]) + completion.audit
+        problems = ([] if scored["correct"] else [f"wrong answer (expected {key['answer']})"]) + completion.harness_failures + completion.model_flags
         bad += bool(problems)
         usage = completion.usage
         print(
@@ -166,15 +164,15 @@ def cmd_check(args) -> int:
 def cmd_prepare(args) -> int:
     config = load_config(args.config)
     run = runs.prepare(config, args.config, args.run, runs.operator_name(args.operator))
-    c = config
-    print(
-        f"Prepared {_relative(run.path)}: {c.logs} logs x {len(c.versions)} versions x {len(c.instructions)} instructions "
-        f"x {c.repeats} repeats x {len(c.models)} models = {len(run.trials)} calls. No model calls were made."
-    )
-    print(f"  {'world':16} {'project':9} {'answer':>6} {'chains':>6} {'nested':>6}  length vs C (G, R, RG)")
+    t1, t2, models = config.tier1, config.tier2, len(config.models)
+    print(f"Prepared {_relative(run.path)}, a {config.purpose} run: {len(run.trials)} calls. No model calls were made.")
+    print(f"  tier 1: {t1.logs} logs x {len(t1.versions)} versions x {len(t1.instructions)} instructions x repeats 1-{t1.repeats} x {models} models")
+    print(f"  tier 2: {t2.logs} logs x {len(t2.versions)} versions x {len(t2.instructions)} instructions "
+          f"x repeats {t1.repeats + 1}-{t2.repeats} x {models} models")
+    print(f"  {'world':16} {'project':9} {'answer':>6} {'chains':>6} {'nested':>6} {'tier 2':>6}  length vs C (R, RG, E)")
     for world_id, w in run.manifest["worlds"].items():
-        gaps = ", ".join(f"{w['length_vs_C'][v]:+.1%}" for v in ("G", "R", "RG"))
-        print(f"  {world_id:16} {w['project']:9} {w['answer']:>6} {w['chains']:>6} {w['nested_chains']:>6}  {gaps}")
+        gaps = ", ".join(f"{w['length_vs_C'][v]:+.1%}" for v in ("R", "RG", "E"))
+        print(f"  {world_id:16} {w['project']:9} {w['answer']:>6} {w['chains']:>6} {w['nested_chains']:>6} {'yes' if w['tier2'] else '':>6}  {gaps}")
     print(f"\nNext: commit {_relative(run.path)} so everyone collects the same frozen plan, then\n  python -m experiment collect {_relative(run.path)}")
     return 0
 
@@ -182,18 +180,20 @@ def cmd_prepare(args) -> int:
 def cmd_status(args) -> int:
     run = runs.load(args.run)
     attempts = runs.read_attempts(run)
-    chosen = runs.counted(attempts)
+    chosen, given_up = runs.counted(attempts), runs.left_out(attempts)
     print(f"{_relative(run.path)}: {len(chosen)} of {len(run.trials)} calls done")
-    print(f"  {'model':10} {'done':>5} {'left':>5} {'errors':>6} {'not eligible':>12}  done by          CLI versions")
+    print(f"  {'model':10} {'done':>5} {'left':>5} {'failed':>6} {'left out':>8}  done by          CLI versions")
     for name in run.config.models:
         planned = [t for t in run.trials if t.model == name]
         mine = [a for a in attempts if a["model"] == name]
         done = Counter(chosen[t.trial_id]["operator"] for t in planned if t.trial_id in chosen)
-        errors = sum(a["status"] == "error" for a in mine)
-        ineligible = sum(a["status"] == "completed" and not a["eligible"] for a in mine)
+        out = sum(t.trial_id in given_up for t in planned)
+        failed = sum(runs.counts_toward_cap(a) for a in mine)
         versions = sorted({a["client_version"] for a in mine})
         by = ", ".join(f"{op} {count}" for op, count in done.most_common()) or "-"
-        print(f"  {name:10} {sum(done.values()):>5} {len(planned) - sum(done.values()):>5} {errors:>6} {ineligible:>12}  {by:16} {', '.join(versions) or '-'}")
+        print(f"  {name:10} {sum(done.values()):>5} {len(planned) - sum(done.values()) - out:>5} {failed:>6} {out:>8}  {by:16} "
+              f"{', '.join(versions) or '-'}")
+    print(f"  (failed: attempts that used up one of a call's {runs.MAX_CALL_ATTEMPTS}; left out: calls that failed all of them)")
     return 0
 
 
@@ -302,15 +302,16 @@ def _parser() -> argparse.ArgumentParser:
 
     prepare = commands.add_parser("prepare", help="generate a run's logs and freeze its call schedule (no model calls)")
     prepare.add_argument("config", type=Path, help="run config, e.g. config/trial.toml")
-    prepare.add_argument("run", type=Path, help="new run directory, e.g. runs/trial_v1")
+    prepare.add_argument("run", type=Path, help="new run directory, e.g. runs/trial_v2")
     prepare.add_argument("--operator", help="your name in the manifest (default: $EXPERIMENT_OPERATOR or git user.name)")
     prepare.set_defaults(handler=cmd_prepare)
 
-    status = commands.add_parser("status", help="calls done and left per model, who ran them, and with which CLI versions")
+    status = commands.add_parser("status", help="calls done, left, failed, and left out per model, who ran them, and with which CLI versions")
     status.add_argument("run", type=Path)
     status.set_defaults(handler=cmd_status)
 
-    collect_ = commands.add_parser("collect", help="make a run's remaining calls; rerun it to resume")
+    collect_ = commands.add_parser("collect", help=f"make a run's remaining calls; rerun it to resume (a failed call is retried, "
+                                                     f"up to {runs.MAX_CALL_ATTEMPTS} attempts)")
     collect_.add_argument("run", type=Path)
     collect_.add_argument("--models", nargs="+", help="only these models (default: all in the run)")
     collect_.add_argument("--shard", type=_shard, help="only shard K of N (e.g. 1/2), to split one model's calls between people")

@@ -60,11 +60,11 @@ class World:
 
     @cached_property
     def key(self) -> dict:
-        """The answer key scoring uses. Buckets come from each record's role in the full log, so a
-        mistake on a record lands in the same bucket in every version."""
+        """The answer key scoring uses. Signatures come from each record's role in the full log, so a
+        mistake on a record matches the same signature in every version."""
         return {
             "answer": self.answer,
-            "buckets": scoring.mistake_values(self.records),
+            "signatures": scoring.signature_errors(self.records),
             "chains": [{**asdict(c), "depth": c.depth} for c in self.chains],
         }
 

@@ -6,6 +6,7 @@ from there. Editing a config file never changes a run that already exists.
 
 from __future__ import annotations
 
+import random
 import tomllib
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
@@ -13,6 +14,9 @@ from pathlib import Path
 from experiment.records import VERSIONS
 
 PROVIDERS = ("claude-code", "codex")
+# main: the study's evidence, prepared once from committed code. development: trials that check the
+# setup; their logs are never analyzed as evidence or pooled with the main run.
+PURPOSES = ("main", "development")
 
 
 @dataclass(frozen=True)
@@ -30,8 +34,8 @@ class GeneratorSettings:
     amount_step: int = 5
     amount_max: int = 150
     unique_amount_max: int = 600
-    budget_min: int = 200  # the true budget stays in this range at every step ($K)
-    budget_max: int = 3000
+    budget_min: int = 200  # every version's running budget stays in this range at every step ($K)
+    budget_max: int = 5000
 
     def __post_init__(self):
         shares = (self.adjust_share, self.withdraw_share, self.gossip_share)
@@ -60,30 +64,60 @@ class ModelSpec:
 
 
 @dataclass(frozen=True)
-class RunConfig:
-    description: str
-    seed_start: int
+class Tier:
+    """Some logs, each with every version x instruction cell repeated `repeats` times."""
+
     logs: int
     versions: tuple[str, ...]
     instructions: tuple[str, ...]
     repeats: int
+
+    def __post_init__(self):
+        if self.logs < 1 or self.repeats < 1:
+            raise ValueError("a tier needs at least one log and one repeat")
+        unknown = set(self.versions) - set(VERSIONS)
+        if unknown or not self.versions or len(set(self.versions)) != len(self.versions):
+            raise ValueError(f"versions must be distinct values from {', '.join(VERSIONS)}")
+        if not self.instructions or len(set(self.instructions)) != len(self.instructions):
+            raise ValueError("instructions must be distinct and not empty")
+
+
+@dataclass(frozen=True)
+class RunConfig:
+    description: str
+    purpose: str  # one of PURPOSES
+    seed_start: int
     schedule_seed: int
+    selection_seed: int  # picks which logs get tier 2
+    tier1: Tier  # every log
+    # Some of tier 1's logs, cells, and instructions again, up to tier2.repeats in all: its repeats
+    # continue tier 1's numbering, so it adds repeats tier1.repeats + 1 .. tier2.repeats.
+    tier2: Tier
     timeout_seconds: int
     generator: GeneratorSettings
     models: dict[str, ModelSpec] = field(default_factory=dict)
 
     def __post_init__(self):
-        if self.logs < 1 or self.repeats < 1 or self.timeout_seconds < 1:
-            raise ValueError("logs, repeats, and timeout_seconds must be positive")
-        unknown = set(self.versions) - set(VERSIONS)
-        if unknown or not self.versions or len(set(self.versions)) != len(self.versions):
-            raise ValueError(f"versions must be distinct values from {', '.join(VERSIONS)}")
+        if self.purpose not in PURPOSES:
+            raise ValueError(f"purpose must be one of {', '.join(PURPOSES)}")
+        if self.timeout_seconds < 1:
+            raise ValueError("timeout_seconds must be positive")
+        t1, t2 = self.tier1, self.tier2
+        if t2.logs > t1.logs or not set(t2.versions) <= set(t1.versions) or not set(t2.instructions) <= set(t1.instructions):
+            raise ValueError("tier 2 must take its logs, versions, and instructions from tier 1")
+        if t2.repeats <= t1.repeats:
+            raise ValueError("tier 2's repeats count tier 1's, so it needs more of them")
         if not self.models:
             raise ValueError("a run needs at least one model")
 
     @property
     def seeds(self) -> range:
-        return range(self.seed_start, self.seed_start + self.logs)
+        return range(self.seed_start, self.seed_start + self.tier1.logs)
+
+    @property
+    def tier2_seeds(self) -> list[int]:
+        """The logs that also get tier 2: a random draw, fixed by selection_seed."""
+        return sorted(random.Random(self.selection_seed).sample(self.seeds, self.tier2.logs))
 
 
 def load_config(path: Path) -> RunConfig:
@@ -92,12 +126,12 @@ def load_config(path: Path) -> RunConfig:
     design = data["design"]
     return RunConfig(
         description=data.get("description", ""),
+        purpose=data["purpose"],
         seed_start=design["seed_start"],
-        logs=design["logs"],
-        versions=tuple(design["versions"]),
-        instructions=tuple(design["instructions"]),
-        repeats=design["repeats"],
         schedule_seed=design["schedule_seed"],
+        selection_seed=design["selection_seed"],
+        tier1=_tier(design["tier1"]),
+        tier2=_tier(design["tier2"]),
         timeout_seconds=data.get("collection", {}).get("timeout_seconds", 1800),
         generator=GeneratorSettings(**data.get("generator", {})),
         models={name: ModelSpec(name=name, **spec) for name, spec in data["models"].items()},
@@ -109,10 +143,15 @@ def config_to_dict(config: RunConfig) -> dict:
 
 
 def config_from_dict(data: dict) -> RunConfig:
+    nested = ("tier1", "tier2", "generator", "models")
     return RunConfig(
-        **{k: v for k, v in data.items() if k not in ("generator", "models", "versions", "instructions")},
-        versions=tuple(data["versions"]),
-        instructions=tuple(data["instructions"]),
+        **{k: v for k, v in data.items() if k not in nested},
+        tier1=_tier(data["tier1"]),
+        tier2=_tier(data["tier2"]),
         generator=GeneratorSettings(**data["generator"]),
         models={name: ModelSpec(**spec) for name, spec in data["models"].items()},
     )
+
+
+def _tier(data: dict) -> Tier:
+    return Tier(data["logs"], tuple(data["versions"]), tuple(data["instructions"]), data["repeats"])

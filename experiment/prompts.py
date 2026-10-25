@@ -12,7 +12,7 @@ SYSTEM = (
     "You may work through the records before answering. End your response with one line in the form `ANSWER: $<number>K`."
 )
 # The conflict-resolution skill, added after SYSTEM in the "skill" arm: paste the final text here.
-# Until it is filled in, a run that asks for the "skill" arm refuses to prepare.
+# Until it is filled in, a run that asks for the "skill" arm refuses to prepare, and so does the main run.
 SKILL = ""
 # Text added after SYSTEM in each instruction arm.
 INSTRUCTIONS = {"none": "", "skill": SKILL}
