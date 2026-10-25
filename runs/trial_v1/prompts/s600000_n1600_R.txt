@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Durikul budget set to $540K after review.
+#0002  Engineering email: Durikul kickoff moved to Building 6.
+#0003  Finance Office: Durikul budget increased by $501K after review.
+#0004  Finance Office: Durikul budget increased by $95K per the revised plan.
+#0005  Marketing email: Durikul documentation moved to the shared drive.
+#0006  Finance Office: Durikul budget increased by $65K per the revised plan.
+#0007  Finance Office: Durikul budget increased by $492K per the revised plan.
+#0008  Legal email: Durikul design review moved to Room 6C.
+#0009  Finance Office: Withdraw update #0003; it was entered in error.
+#0010  Engineering email: Durikul design review moved to Room 6B.
+#0011  Finance Office: Durikul budget increased by $10K per the revised plan.
+#0012  Marketing email: Durikul test environment back online.
+#0013  Finance Office: Durikul budget increased by $38K per the revised plan.
+#0014  Finance Office: Durikul budget decreased by $4K.
+#0015  Finance Office: Durikul budget increased by $549K.
+#0016  Finance Office: Durikul budget decreased by $145K per the revised plan.
+#0017  Operations chat: Durikul design review moved to Room 3D.
+#0018  Finance Office: Durikul budget increased by $140K per the revised plan.
+#0019  Engineering email: Durikul weekly sync moved to Mondays.
+#0020  Finance Office: Durikul budget increased by $80K.
+#0021  Finance Office: Durikul budget increased by $542K.
+#0022  Marketing email: Durikul test environment back online.
+#0023  Finance Office: Durikul budget increased by $479K.
+#0024  Finance Office: Durikul purchase order FC-2884 closed.
+#0025  Finance Office: Withdraw update #0021.
+#0026  Finance Office: Durikul budget decreased by $513K per the revised plan.
+#0027  Finance Office: Durikul audit notes filed.
+#0028  Legal email: Durikul test environment back online.
+#0029  Finance Office: Durikul budget increased by $63K.
+#0030  Finance Office: Durikul budget increased by $135K per the revised plan.
+#0031  Finance Office: Durikul budget increased by $256K.
+#0032  Finance Office: Withdraw update #0015.
+#0033  Engineering email: Durikul sprint 29 retrospective notes posted.
+#0034  Finance Office: Durikul budget decreased by $90K per the revised plan.
+#0035  Finance Office: Durikul budget increased by $139K per the revised plan.
+#0036  Finance Office: Durikul budget increased by $428K.
+#0037  Finance Office: Durikul budget increased by $20K after review.
+#0038  Finance Office: Durikul budget decreased by $125K.
+#0039  Legal email: Durikul security review passed.
+#0040  Finance Office: Durikul budget increased by $140K after review.
+#0041  Finance Office: Durikul budget increased by $372K per the revised plan.
+#0042  Finance Office: Durikul budget increased by $115K after review.
+#0043  Finance Office: Durikul budget increased by $527K per the revised plan.
+#0044  Finance Office: Durikul budget increased by $50K after review.
+#0045  Finance Office: Durikul receipts scanned.
+#0046  Legal email: Durikul kickoff moved to Building 3.
+#0047  Finance Office: Durikul budget increased by $301K.
+#0048  Finance Office: Withdraw update #0026.
+#0049  Legal email: Durikul status report filed for week 33.
+#0050  Finance Office: Durikul receipts scanned.
+#0051  Sales update: Durikul site visit confirmed for Wednesday.
+#0052  Legal email: Durikul status report filed for week 42.
+#0053  Finance Office: Withdraw update #0009; it was entered in error.
+#0054  Operations chat: Durikul kickoff moved to Building 6.
+#0055  Finance Office: Withdraw update #0036.
+#0056  Finance Office: Withdraw update #0013; it was entered in error.
+#0057  Finance Office: Durikul budget increased by $469K after review.
+#0058  Finance Office: Durikul budget decreased by $87K per the revised plan.
+#0059  PMO note: Durikul demo rescheduled to Tuesday afternoon.
+#0060  Finance Office: Durikul budget decreased by $15K per the revised plan.
+#0061  Facilities ticket: Durikul status report filed for week 14.
+#0062  Operations chat: Durikul site visit confirmed for Friday.
+#0063  Engineering email: Durikul test environment back online.
+#0064  Facilities ticket: Durikul kickoff moved to Building 2.
+#0065  Finance Office: Withdraw update #0014; it was entered in error.
+#0066  Operations chat: Durikul kickoff moved to Building 9.
+#0067  Facilities ticket: Durikul sprint 6 retrospective notes posted.
+#0068  Sales update: Durikul risk register updated with 6 new items.
+#0069  Finance Office: Durikul budget decreased by $80K.
+#0070  Finance Office: Durikul budget decreased by $507K per the revised plan.
+#0071  Finance Office: Durikul budget decreased by $85K per the revised plan.
+#0072  Finance Office: Durikul budget decreased by $494K per the revised plan.
+#0073  Finance Office: Durikul budget decreased by $374K after review.
+#0074  Finance Office: Durikul budget decreased by $68K per the revised plan.
+#0075  Finance Office: Durikul budget decreased by $75K per the revised plan.
+#0076  Finance Office: Durikul budget decreased by $140K after review.
+#0077  Finance Office: Durikul budget increased by $5K per the revised plan.
+#0078  Finance Office: Durikul budget decreased by $60K.
+#0079  Operations chat: Durikul weekly sync moved to Wednesdays.
+#0080  Finance Office: Durikul budget decreased by $5K after review.
+#0081  Finance Office: Durikul budget decreased by $45K per the revised plan.
+#0082  Finance Office: Durikul budget decreased by $153K after review.
+#0083  Sales update: Durikul weekly sync moved to Fridays.
+#0084  Vendor call: Durikul weekly sync moved to Mondays.
+#0085  Finance Office: Durikul budget decreased by $238K after review.
+#0086  Vendor call: Durikul weekly sync moved to Mondays.
+#0087  Finance Office: Durikul budget increased by $120K per the revised plan.
+#0088  Finance Office: Durikul budget increased by $309K after review.
+#0089  Finance Office: Durikul budget decreased by $71K after review.
+#0090  Sales update: Durikul security review passed.
+#0091  Finance Office: Withdraw update #0056; it was entered in error.
+#0092  Finance Office: Durikul budget increased by $150K after review.
+#0093  Finance Office: Durikul budget increased by $140K per the revised plan.
+#0094  Finance Office: Durikul budget decreased by $30K per the revised plan.
+#0095  Finance Office: Durikul budget decreased by $152K.
+#0096  Finance Office: Durikul budget increased by $5K.
+#0097  PMO note: Durikul sprint 28 retrospective notes posted.
+#0098  Finance Office: Durikul budget decreased by $85K per the revised plan.
+#0099  Marketing email: Durikul status report filed for week 7.
+#0100  Finance Office: Durikul budget increased by $106K per the revised plan.
+#0101  Finance Office: Durikul budget increased by $123K per the revised plan.
+#0102  Finance Office: Durikul budget decreased by $592K after review.
+#0103  Engineering email: Durikul risk register updated with 7 new items.
+#0104  Facilities ticket: Durikul security review passed.
+#0105  Finance Office: Durikul budget increased by $30K per the revised plan.
+#0106  Finance Office: Durikul budget decreased by $596K after review.
+#0107  Finance Office: Durikul quarterly audit scheduled for Tuesday.
+#0108  Finance Office: Durikul budget increased by $90K after review.
+#0109  Sales update: Durikul kickoff moved to Building 6.
+#0110  Vendor call: Durikul weekly sync moved to Fridays.
+#0111  Facilities ticket: Durikul test environment back online.
+#0112  PMO note: Durikul weekly sync moved to Fridays.
+#0113  Finance Office: Durikul budget decreased by $60K.
+#0114  Finance Office: Withdraw update #0065; it was entered in error.
+#0115  Sales update: Durikul kickoff moved to Building 4.
+#0116  Vendor call: Durikul site visit confirmed for Tuesday.
+#0117  Legal email: Durikul design review moved to Room 2D.
+#0118  Sales update: Durikul security review passed.
+#0119  Operations chat: Durikul status report filed for week 8.
+#0120  Facilities ticket: Durikul weekly sync moved to Tuesdays.
+#0121  Finance Office: Withdraw update #0114; it was entered in error.
+#0122  Finance Office: Withdraw update #0085.
+#0123  Finance Office: Withdraw update #0121; it was entered in error.
+#0124  Operations chat: Durikul weekly sync moved to Fridays.
+#0125  Finance Office: Durikul budget decreased by $422K after review.
+#0126  Vendor call: Durikul kickoff moved to Building 6.
+#0127  Finance Office: Durikul budget decreased by $176K.
+#0128  Engineering email: Durikul site visit confirmed for Monday.
+#0129  Engineering email: Durikul weekly sync moved to Wednesdays.
+#0130  Vendor call: Durikul status report filed for week 9.
+#0131  Legal email: Durikul test environment back online.
+#0132  Legal email: Durikul sprint 48 retrospective notes posted.
+#0133  Vendor call: Durikul weekly sync moved to Mondays.
+#0134  Finance Office: Durikul budget increased by $411K per the revised plan.
+#0135  Finance Office: Durikul budget decreased by $226K after review.
+#0136  Finance Office: Durikul budget increased by $10K.
+#0137  Marketing email: Durikul site visit confirmed for Thursday.
+#0138  Vendor call: Durikul site visit confirmed for Friday.
+#0139  Finance Office: Durikul budget increased by $75K after review.
+#0140  Finance Office: Durikul budget increased by $277K.
+#0141  Facilities ticket: Durikul test environment back online.
+#0142  Finance Office: Durikul budget increased by $20K.
+#0143  Finance Office: Withdraw update #0122.
+#0144  Sales update: Durikul weekly sync moved to Tuesdays.
+#0145  Finance Office: Durikul budget increased by $60K.
+#0146  Finance Office: Withdraw update #0140.
+#0147  Finance Office: Durikul budget increased by $105K per the revised plan.
+#0148  Marketing email: Durikul status report filed for week 19.
+#0149  Marketing email: Durikul security review passed.
+#0150  Marketing email: Durikul design review moved to Room 2A.
+#0151  Vendor call: Durikul status report filed for week 17.
+#0152  Finance Office: Withdraw update #0041; it was entered in error.
+#0153  Finance Office: Durikul cost center code changed to FC-2523.
+#0154  Finance Office: Withdraw update #0007.
+#0155  Finance Office: Durikul budget decreased by $2K per the revised plan.
+#0156  Finance Office: Durikul budget increased by $25K per the revised plan.
+#0157  Marketing email: Durikul kickoff moved to Building 9.
+#0158  Marketing email: Durikul test environment back online.
+#0159  Legal email: Durikul status report filed for week 22.
+#0160  Finance Office: Durikul budget increased by $80K after review.
+#0161  Marketing email: Durikul status report filed for week 6.
+#0162  Finance Office: Durikul budget increased by $125K per the revised plan.
+#0163  Finance Office: Durikul budget decreased by $253K per the revised plan.
+#0164  Finance Office: Durikul budget decreased by $136K per the revised plan.
+#0165  Vendor call: Durikul kickoff moved to Building 6.
+#0166  Finance Office: Durikul budget increased by $35K after review.
+#0167  Finance Office: Durikul budget increased by $1K after review.
+#0168  Sales update: Durikul test environment back online.
+#0169  Facilities ticket: Durikul weekly sync moved to Thursdays.
+#0170  Operations chat: Durikul weekly sync moved to Mondays.
+#0171  Finance Office: Withdraw update #0055.
+#0172  Finance Office: Durikul budget decreased by $130K after review.
+#0173  PMO note: Durikul test environment back online.
+#0174  Finance Office: Durikul budget increased by $25K.
+#0175  Finance Office: Durikul budget increased by $70K.
+#0176  Finance Office: Durikul budget increased by $25K after review.
+#0177  Finance Office: Durikul budget increased by $174K.
+#0178  Marketing email: Durikul design review moved to Room 2C.
+#0179  Sales update: Durikul status report filed for week 24.
+#0180  Marketing email: Durikul design review moved to Room 1A.
+#0181  Finance Office: Durikul budget decreased by $35K per the revised plan.
+#0182  Finance Office: Withdraw update #0023.
+#0183  Facilities ticket: Durikul test environment back online.
+#0184  Marketing email: Durikul weekly sync moved to Wednesdays.
+#0185  Finance Office: Durikul budget decreased by $466K.
+#0186  Finance Office: Durikul budget decreased by $189K per the revised plan.
+#0187  Finance Office: Durikul budget decreased by $20K after review.
+#0188  PMO note: Durikul test environment back online.
+#0189  Engineering email: Durikul weekly sync moved to Thursdays.
+#0190  Finance Office: Durikul finance review moved to Room 4B.
+#0191  Vendor call: Durikul design review moved to Room 6B.
+#0192  PMO note: Durikul design review moved to Room 3B.
+#0193  Facilities ticket: Durikul kickoff moved to Building 7.
+#0194  Legal email: Durikul documentation moved to the shared drive.
+#0195  Legal email: Durikul test environment back online.
+#0196  Finance Office: Durikul invoice batch FC-4657 archived.
+#0197  Finance Office: Durikul budget decreased by $65K after review.
+#0198  Finance Office: Durikul budget increased by $361K.
+#0199  Vendor call: Durikul status report filed for week 32.
+#0200  Finance Office: Durikul budget increased by $19K per the revised plan.
+#0201  Operations chat: Durikul weekly sync moved to Thursdays.
+#0202  Finance Office: Durikul budget decreased by $348K per the revised plan.
+#0203  Finance Office: Durikul budget decreased by $55K.
+#0204  Marketing email: Durikul weekly sync moved to Wednesdays.
+#0205  Finance Office: Durikul budget increased by $80K.
+#0206  Engineering email: Durikul weekly sync moved to Mondays.
+#0207  PMO note: Durikul test environment back online.
+#0208  Finance Office: Durikul budget increased by $497K after review.
+#0209  Finance Office: Durikul budget increased by $50K per the revised plan.
+#0210  Sales update: Durikul weekly sync moved to Mondays.
+#0211  Finance Office: Withdraw update #0031.
+#0212  Finance Office: Withdraw update #0134; it was entered in error.
+#0213  Legal email: Durikul kickoff moved to Building 2.
+#0214  Facilities ticket: Durikul kickoff moved to Building 4.
+#0215  Operations chat: Durikul sprint 14 retrospective notes posted.
+#0216  Finance Office: Durikul budget decreased by $10K per the revised plan.
+#0217  Finance Office: Withdraw update #0163; it was entered in error.
+#0218  Finance Office: Durikul budget decreased by $5K.
+#0219  Finance Office: Durikul budget increased by $20K.
+#0220  Operations chat: Durikul vendor onboarding call scheduled for Tuesday.
+#0221  Finance Office: Durikul budget decreased by $65K.
+#0222  Vendor call: Durikul test environment back online.
+#0223  Facilities ticket: Durikul test environment back online.
+#0224  Facilities ticket: Durikul status report filed for week 20.
+#0225  Finance Office: Withdraw update #0185.
+#0226  Finance Office: Durikul budget increased by $164K.
+#0227  Finance Office: Durikul audit notes filed.
+#0228  Finance Office: Durikul budget decreased by $5K per the revised plan.
+#0229  PMO note: Durikul test environment back online.
+#0230  Facilities ticket: Durikul security review passed.
+#0231  Finance Office: Durikul budget increased by $177K.
+#0232  Finance Office: Durikul budget increased by $47K.
+#0233  Finance Office: Durikul budget increased by $145K after review.
+#0234  Finance Office: Durikul budget increased by $35K after review.
+#0235  Finance Office: Durikul budget increased by $105K.
+#0236  Vendor call: Durikul status report filed for week 3.
+#0237  Finance Office: Durikul budget decreased by $289K after review.
+#0238  Sales update: Durikul test environment back online.
+#0239  Finance Office: Durikul budget increased by $30K per the revised plan.
+#0240  Legal email: Durikul kickoff moved to Building 9.
+#0241  Finance Office: Durikul budget increased by $55K per the revised plan.
+#0242  Finance Office: Durikul budget decreased by $125K after review.
+#0243  Finance Office: Withdraw update #0155.
+#0244  Finance Office: Durikul budget increased by $50K after review.
+#0245  Finance Office: Durikul budget decreased by $437K after review.
+#0246  Operations chat: Durikul kickoff moved to Building 4.
+#0247  PMO note: Durikul documentation moved to the shared drive.
+#0248  PMO note: Durikul status report filed for week 17.
+#0249  Engineering email: Durikul status report filed for week 23.
+#0250  Finance Office: Durikul budget increased by $276K after review.
+#0251  Finance Office: Withdraw update #0217.
+#0252  Finance Office: Durikul budget decreased by $120K after review.
+#0253  Engineering email: Durikul kickoff moved to Building 2.
+#0254  Finance Office: Durikul budget decreased by $35K.
+#0255  Finance Office: Durikul budget increased by $201K per the revised plan.
+#0256  Finance Office: Durikul budget increased by $115K.
+#0257  Finance Office: Withdraw update #0106.
+#0258  Marketing email: Durikul design review moved to Room 5A.
+#0259  Finance Office: Durikul budget decreased by $15K.
+#0260  Marketing email: Durikul kickoff moved to Building 5.
+#0261  Finance Office: Durikul budget increased by $548K per the revised plan.
+#0262  Facilities ticket: Durikul test environment back online.
+#0263  Finance Office: Durikul budget increased by $557K after review.
+#0264  Finance Office: Durikul budget increased by $96K.
+#0265  Vendor call: Durikul security review passed.
+#0266  Legal email: Durikul status report filed for week 13.
+#0267  Finance Office: Durikul budget increased by $434K after review.
+#0268  Engineering email: Durikul design review moved to Room 5B.
+#0269  Finance Office: Durikul budget decreased by $80K.
+#0270  Finance Office: Durikul budget decreased by $135K.
+#0271  Vendor call: Durikul weekly sync moved to Mondays.
+#0272  Finance Office: Withdraw update #0264.
+#0273  Finance Office: Durikul budget decreased by $125K per the revised plan.
+#0274  Finance Office: Durikul budget increased by $436K after review.
+#0275  Engineering email: Durikul vendor onboarding call scheduled for Tuesday.
+#0276  Finance Office: Durikul budget increased by $125K.
+#0277  Finance Office: Withdraw update #0073; it was entered in error.
+#0278  Operations chat: Durikul test environment back online.
+#0279  Finance Office: Durikul budget decreased by $587K after review.
+#0280  Finance Office: Durikul budget increased by $331K after review.
+#0281  Finance Office: Durikul budget increased by $120K after review.
+#0282  Finance Office: Durikul purchase order FC-5911 closed.
+#0283  Marketing email: Durikul security review passed.
+#0284  Finance Office: Withdraw update #0263; it was entered in error.
+#0285  Finance Office: Durikul budget decreased by $40K per the revised plan.
+#0286  Finance Office: Durikul budget increased by $70K.
+#0287  Finance Office: Durikul budget increased by $156K.
+#0288  Finance Office: Withdraw update #0146.
+#0289  Finance Office: Durikul budget increased by $523K per the revised plan.
+#0290  Vendor call: Durikul security review passed.
+#0291  PMO note: Durikul risk register updated with 6 new items.
+#0292  Finance Office: Durikul audit notes filed.
+#0293  Facilities ticket: Durikul design review moved to Room 5A.
+#0294  Finance Office: Durikul budget increased by $76K per the revised plan.
+#0295  Vendor call: Durikul test environment back online.
+#0296  Operations chat: Durikul kickoff moved to Building 8.
+#0297  Finance Office: Durikul receipts scanned.
+#0298  Sales update: Durikul status report filed for week 19.
+#0299  Finance Office: Durikul budget increased by $79K per the revised plan.
+#0300  Finance Office: Durikul budget increased by $467K.
+#0301  Finance Office: Durikul budget increased by $24K per the revised plan.
+#0302  Finance Office: Durikul budget increased by $15K per the revised plan.
+#0303  Engineering email: Durikul test environment back online.
+#0304  PMO note: Durikul kickoff moved to Building 6.
+#0305  Finance Office: Withdraw update #0212.
+#0306  Engineering email: Durikul security review passed.
+#0307  Finance Office: Durikul budget increased by $140K per the revised plan.
+#0308  Finance Office: Withdraw update #0123; it was entered in error.
+#0309  Finance Office: Durikul budget increased by $5K after review.
+#0310  Legal email: Durikul design review moved to Room 6C.
+#0311  Finance Office: Withdraw update #0048.
+#0312  Finance Office: Durikul budget decreased by $15K.
+#0313  Finance Office: Withdraw update #0091; it was entered in error.
+#0314  Finance Office: Durikul budget increased by $115K after review.
+#0315  Finance Office: Durikul budget decreased by $75K per the revised plan.
+#0316  Finance Office: Durikul budget increased by $5K.
+#0317  Finance Office: Durikul budget increased by $45K per the revised plan.
+#0318  Finance Office: Durikul budget decreased by $120K per the revised plan.
+#0319  Finance Office: Durikul budget increased by $543K per the revised plan.
+#0320  Finance Office: Durikul budget increased by $36K per the revised plan.
+#0321  Finance Office: Durikul budget increased by $105K after review.
+#0322  Finance Office: Durikul budget increased by $145K.
+#0323  Finance Office: Durikul budget decreased by $181K after review.
+#0324  Finance Office: Durikul quarterly audit scheduled for Thursday.
+#0325  Operations chat: Durikul kickoff moved to Building 9.
+#0326  Finance Office: Withdraw update #0135; it was entered in error.
+#0327  Finance Office: Durikul finance review moved to Room 6A.
+#0328  Finance Office: Durikul budget increased by $20K per the revised plan.
+#0329  Finance Office: Withdraw update #0127; it was entered in error.
+#0330  Finance Office: Withdraw update #0186; it was entered in error.
+#0331  Legal email: Durikul site visit confirmed for Friday.
+#0332  Finance Office: Durikul budget increased by $594K per the revised plan.
+#0333  Finance Office: Durikul budget increased by $20K after review.
+#0334  Finance Office: Durikul invoice batch FC-8689 archived.
+#0335  Finance Office: Durikul budget decreased by $130K after review.
+#0336  Finance Office: Durikul budget decreased by $517K.
+#0337  PMO note: Durikul weekly sync moved to Wednesdays.
+#0338  Finance Office: Withdraw update #0332; it was entered in error.
+#0339  Finance Office: Durikul budget decreased by $546K per the revised plan.
+#0340  Facilities ticket: Durikul design review moved to Room 6D.
+#0341  Vendor call: Durikul test environment back online.
+#0342  Legal email: Durikul weekly sync moved to Mondays.
+#0343  Sales update: Durikul design review moved to Room 3B.
+#0344  Finance Office: Durikul budget decreased by $521K after review.
+#0345  Finance Office: Durikul budget increased by $531K per the revised plan.
+#0346  Finance Office: Durikul budget decreased by $377K after review.
+#0347  Finance Office: Durikul budget decreased by $439K.
+#0348  Engineering email: Durikul kickoff moved to Building 3.
+#0349  Finance Office: Durikul budget decreased by $148K.
+#0350  Legal email: Durikul site visit confirmed for Friday.
+#0351  Operations chat: Durikul kickoff moved to Building 9.
+#0352  Finance Office: Durikul budget increased by $5K per the revised plan.
+#0353  Operations chat: Durikul sprint 27 retrospective notes posted.
+#0354  Sales update: Durikul test environment back online.
+#0355  Finance Office: Durikul budget increased by $90K.
+#0356  Finance Office: Durikul budget decreased by $50K per the revised plan.
+#0357  Finance Office: Durikul budget increased by $120K per the revised plan.
+#0358  Finance Office: Withdraw update #0125.
+#0359  Finance Office: Durikul budget decreased by $65K after review.
+#0360  Sales update: Durikul weekly sync moved to Mondays.
+#0361  Engineering email: Durikul test environment back online.
+#0362  Legal email: Durikul design review moved to Room 6B.
+#0363  Finance Office: Durikul budget decreased by $45K.
+#0364  Finance Office: Withdraw update #0058; it was entered in error.
+#0365  Finance Office: Durikul budget increased by $442K after review.
+#0366  Vendor call: Durikul kickoff moved to Building 3.
+#0367  Finance Office: Durikul budget increased by $110K.
+#0368  Finance Office: Durikul budget increased by $242K.
+#0369  PMO note: Durikul demo rescheduled to Tuesday afternoon.
+#0370  Facilities ticket: Durikul weekly sync moved to Thursdays.
+#0371  Finance Office: Durikul budget decreased by $332K.
+#0372  Finance Office: Durikul budget decreased by $65K per the revised plan.
+#0373  Marketing email: Durikul demo rescheduled to Friday afternoon.
+#0374  Marketing email: Durikul status report filed for week 39.
+#0375  Legal email: Durikul kickoff moved to Building 4.
+#0376  Facilities ticket: Durikul test environment back online.
+#0377  Finance Office: Durikul budget increased by $15K.
+#0378  Finance Office: Durikul budget increased by $40K.
+#0379  Engineering email: Durikul weekly sync moved to Mondays.
+#0380  Marketing email: Durikul design review moved to Room 3C.
+#0381  Finance Office: Durikul purchase order FC-3192 closed.
+#0382  Finance Office: Durikul budget increased by $90K.
+#0383  Sales update: Durikul status report filed for week 17.
+#0384  Vendor call: Durikul weekly sync moved to Wednesdays.
+#0385  Finance Office: Durikul budget decreased by $342K after review.
+#0386  Finance Office: Durikul budget increased by $75K per the revised plan.
+#0387  Engineering email: Durikul weekly sync moved to Thursdays.
+#0388  Vendor call: Durikul weekly sync moved to Tuesdays.
+#0389  Engineering email: Durikul kickoff moved to Building 6.
+#0390  Facilities ticket: Durikul weekly sync moved to Thursdays.
+#0391  Marketing email: Durikul site visit confirmed for Thursday.
+#0392  Marketing email: Durikul design review moved to Room 6B.
+#0393  Marketing email: Durikul test environment back online.
+#0394  Engineering email: Durikul documentation moved to the shared drive.
+#0395  Finance Office: Durikul budget increased by $362K per the revised plan.
+#0396  Finance Office: Durikul budget increased by $40K per the revised plan.
+#0397  Sales update: Durikul security review passed.
+#0398  Finance Office: Withdraw update #0308.
+#0399  Finance Office: Durikul budget decreased by $90K.
+#0400  Finance Office: Withdraw update #0358; it was entered in error.
+#0401  Finance Office: Withdraw update #0287; it was entered in error.
+#0402  Marketing email: Durikul test environment back online.
+#0403  Finance Office: Withdraw update #0368; it was entered in error.
+#0404  Finance Office: Withdraw update #0339.
+#0405  Finance Office: Durikul budget decreased by $120K.
+#0406  Facilities ticket: Durikul site visit confirmed for Tuesday.
+#0407  Finance Office: Durikul budget decreased by $553K after review.
+#0408  Facilities ticket: Durikul kickoff moved to Building 9.
+#0409  Finance Office: Durikul budget increased by $25K per the revised plan.
+#0410  Finance Office: Durikul budget decreased by $130K after review.
+#0411  Finance Office: Withdraw update #0164; it was entered in error.
+#0412  PMO note: Durikul status report filed for week 39.
+#0413  Finance Office: Durikul budget decreased by $452K per the revised plan.
+#0414  Sales update: Durikul kickoff moved to Building 5.
+#0415  Finance Office: Durikul budget increased by $514K per the revised plan.
+#0416  Finance Office: Durikul finance review moved to Room 4A.
+#0417  PMO note: Durikul weekly sync moved to Thursdays.
+#0418  Legal email: Durikul test environment back online.
+#0419  Finance Office: Durikul budget increased by $10K.
+#0420  Finance Office: Durikul budget decreased by $125K after review.
+#0421  Finance Office: Durikul budget decreased by $40K.
+#0422  Sales update: Durikul site visit confirmed for Friday.
+#0423  Vendor call: Durikul status report filed for week 4.
+#0424  Finance Office: Withdraw update #0413.
+#0425  Finance Office: Durikul budget increased by $110K per the revised plan.
+#0426  PMO note: Durikul test environment back online.
+#0427  Vendor call: Durikul status report filed for week 45.
+#0428  Finance Office: Withdraw update #0032; it was entered in error.
+#0429  Finance Office: Durikul budget decreased by $145K.
+#0430  Finance Office: Durikul budget decreased by $15K after review.
+#0431  Facilities ticket: Durikul kickoff moved to Building 2.
+#0432  Finance Office: Durikul budget increased by $438K.
+#0433  Finance Office: Durikul budget increased by $50K.
+#0434  Legal email: Durikul demo rescheduled to Friday afternoon.
+#0435  Finance Office: Durikul budget decreased by $564K after review.
+#0436  Engineering email: Durikul weekly sync moved to Thursdays.
+#0437  Marketing email: Durikul test environment back online.
+#0438  Finance Office: Durikul budget increased by $110K after review.
+#0439  Finance Office: Durikul budget decreased by $140K.
+#0440  Finance Office: Durikul budget decreased by $115K per the revised plan.
+#0441  Sales update: Durikul site visit confirmed for Thursday.
+#0442  Finance Office: Durikul audit notes filed.
+#0443  Finance Office: Durikul budget decreased by $140K.
+#0444  Facilities ticket: Durikul kickoff moved to Building 7.
+#0445  Finance Office: Durikul budget increased by $75K after review.
+#0446  Finance Office: Withdraw update #0371.
+#0447  Facilities ticket: Durikul test environment back online.
+#0448  Finance Office: Durikul budget decreased by $419K.
+#0449  Sales update: Durikul weekly sync moved to Fridays.
+#0450  Finance Office: Durikul budget decreased by $443K per the revised plan.
+#0451  Marketing email: Durikul kickoff moved to Building 9.
+#0452  Legal email: Durikul kickoff moved to Building 6.
+#0453  Legal email: Durikul status report filed for week 11.
+#0454  Finance Office: Durikul budget increased by $105K.
+#0455  Finance Office: Withdraw update #0299; it was entered in error.
+#0456  Engineering email: Durikul weekly sync moved to Tuesdays.
+#0457  Sales update: Durikul kickoff moved to Building 7.
+#0458  Marketing email: Durikul test environment back online.
+#0459  Legal email: Durikul design review moved to Room 6B.
+#0460  Finance Office: Durikul audit notes filed.
+#0461  Finance Office: Durikul budget increased by $216K per the revised plan.
+#0462  Finance Office: Durikul budget increased by $85K per the revised plan.
+#0463  Operations chat: Durikul design review moved to Room 6B.
+#0464  Finance Office: Durikul budget decreased by $25K.
+#0465  Finance Office: Durikul budget increased by $115K after review.
+#0466  Finance Office: Durikul budget increased by $593K per the revised plan.
+#0467  Marketing email: Durikul test environment back online.
+#0468  Finance Office: Durikul budget decreased by $100K after review.
+#0469  Engineering email: Durikul site visit confirmed for Thursday.
+#0470  Finance Office: Durikul budget increased by $55K per the revised plan.
+#0471  Finance Office: Durikul budget increased by $70K.
+#0472  Facilities ticket: Durikul test environment back online.
+#0473  Finance Office: Durikul budget decreased by $95K per the revised plan.
+#0474  Finance Office: Withdraw update #0294.
+#0475  Finance Office: Withdraw update #0349; it was entered in error.
+#0476  Finance Office: Durikul budget increased by $120K per the revised plan.
+#0477  Finance Office: Durikul budget increased by $125K after review.
+#0478  Finance Office: Durikul budget decreased by $54K per the revised plan.
+#0479  Operations chat: Durikul sprint 40 retrospective notes posted.
+#0480  PMO note: Durikul status report filed for week 45.
+#0481  Operations chat: Durikul kickoff moved to Building 2.
+#0482  Finance Office: Durikul budget decreased by $39K per the revised plan.
+#0483  Finance Office: Withdraw update #0198.
+#0484  Legal email: Durikul weekly sync moved to Fridays.
+#0485  Finance Office: Withdraw update #0345; it was entered in error.
+#0486  Facilities ticket: Durikul test environment back online.
+#0487  Finance Office: Durikul budget decreased by $90K.
+#0488  Finance Office: Durikul budget increased by $130K after review.
+#0489  PMO note: Durikul site visit confirmed for Friday.
+#0490  Legal email: Durikul sprint 31 retrospective notes posted.
+#0491  Operations chat: Durikul status report filed for week 6.
+#0492  Sales update: Durikul site visit confirmed for Tuesday.
+#0493  Finance Office: Durikul budget increased by $246K after review.
+#0494  Engineering email: Durikul kickoff moved to Building 7.
+#0495  Finance Office: Durikul budget decreased by $212K after review.
+#0496  Finance Office: Withdraw update #0074.
+#0497  Finance Office: Durikul budget increased by $472K per the revised plan.
+#0498  Finance Office: Withdraw update #0277.
+#0499  Finance Office: Withdraw update #0407.
+#0500  Finance Office: Durikul budget decreased by $55K.
+#0501  Finance Office: Durikul budget decreased by $15K after review.
+#0502  Facilities ticket: Durikul status report filed for week 48.
+#0503  Finance Office: Durikul budget decreased by $227K after review.
+#0504  Finance Office: Durikul budget increased by $70K.
+#0505  Marketing email: Durikul status report filed for week 8.
+#0506  Sales update: Durikul design review moved to Room 5B.
+#0507  Finance Office: Durikul budget increased by $115K per the revised plan.
+#0508  Vendor call: Durikul weekly sync moved to Wednesdays.
+#0509  Vendor call: Durikul weekly sync moved to Wednesdays.
+#0510  Finance Office: Durikul budget decreased by $70K per the revised plan.
+#0511  Operations chat: Durikul test environment back online.
+#0512  Finance Office: Durikul budget increased by $20K per the revised plan.
+#0513  Finance Office: Durikul budget increased by $125K per the revised plan.
+#0514  Finance Office: Durikul budget decreased by $15K.
+#0515  Finance Office: Withdraw update #0143; it was entered in error.
+#0516  Finance Office: Durikul budget decreased by $80K.
+#0517  Legal email: Durikul vendor onboarding call scheduled for Thursday.
+#0518  Finance Office: Durikul purchase order FC-4606 closed.
+#0519  Facilities ticket: Durikul site visit confirmed for Wednesday.
+#0520  Finance Office: Durikul budget increased by $75K after review.
+#0521  Finance Office: Withdraw update #0323; it was entered in error.
+#0522  Finance Office: Durikul budget decreased by $120K.
+#0523  Facilities ticket: Durikul demo rescheduled to Friday afternoon.
+#0524  Finance Office: Withdraw update #0101; it was entered in error.
+#0525  Finance Office: Durikul budget increased by $65K after review.
+#0526  Operations chat: Durikul demo rescheduled to Friday afternoon.
+#0527  Finance Office: Durikul budget increased by $130K per the revised plan.
+#0528  Sales update: Durikul test environment back online.
+#0529  Engineering email: Durikul status report filed for week 9.
+#0530  Operations chat: Durikul kickoff moved to Building 3.
+#0531  Finance Office: Durikul budget increased by $80K.
+#0532  Finance Office: Withdraw update #0245; it was entered in error.
+#0533  Finance Office: Withdraw update #0395; it was entered in error.
+#0534  Finance Office: Durikul budget increased by $85K.
+#0535  Finance Office: Durikul budget increased by $5K.
+#0536  Finance Office: Withdraw update #0503.
+#0537  Sales update: Durikul demo rescheduled to Tuesday afternoon.
+#0538  Finance Office: Durikul budget increased by $80K.
+#0539  Finance Office: Durikul budget increased by $34K.
+#0540  PMO note: Durikul weekly sync moved to Fridays.
+#0541  Finance Office: Durikul budget increased by $346K.
+#0542  Finance Office: Withdraw update #0496; it was entered in error.
+#0543  Finance Office: Withdraw update #0424.
+#0544  Finance Office: Withdraw update #0289.
+#0545  Finance Office: Withdraw update #0232.
+#0546  Finance Office: Durikul budget increased by $110K per the revised plan.
+#0547  Vendor call: Durikul weekly sync moved to Mondays.
+#0548  Finance Office: Durikul budget increased by $70K.
+#0549  Finance Office: Withdraw update #0336; it was entered in error.
+#0550  Finance Office: Durikul budget increased by $85K per the revised plan.
+#0551  Finance Office: Durikul budget increased by $312K after review.
+#0552  Finance Office: Durikul budget increased by $105K.
+#0553  Finance Office: Durikul budget decreased by $90K per the revised plan.
+#0554  Operations chat: Durikul test environment back online.
+#0555  Finance Office: Durikul budget increased by $140K.
+#0556  Finance Office: Durikul budget decreased by $85K after review.
+#0557  Sales update: Durikul design review moved to Room 1D.
+#0558  Finance Office: Durikul budget increased by $125K after review.
+#0559  Finance Office: Withdraw update #0035.
+#0560  Finance Office: Durikul cost center code changed to FC-4713.
+#0561  Marketing email: Durikul demo rescheduled to Tuesday afternoon.
+#0562  Legal email: Durikul site visit confirmed for Friday.
+#0563  Marketing email: Durikul test environment back online.
+#0564  Finance Office: Durikul budget decreased by $110K per the revised plan.
+#0565  Finance Office: Withdraw update #0043; it was entered in error.
+#0566  Finance Office: Durikul budget increased by $324K after review.
+#0567  Finance Office: Withdraw update #0446.
+#0568  Finance Office: Durikul budget decreased by $20K after review.
+#0569  Finance Office: Durikul budget decreased by $207K after review.
+#0570  Finance Office: Durikul budget decreased by $40K after review.
+#0571  Finance Office: Withdraw update #0364; it was entered in error.
+#0572  Legal email: Durikul kickoff moved to Building 7.
+#0573  Finance Office: Durikul budget decreased by $75K per the revised plan.
+#0574  Engineering email: Durikul kickoff moved to Building 7.
+#0575  Finance Office: Durikul budget increased by $145K.
+#0576  Finance Office: Durikul budget decreased by $115K per the revised plan.
+#0577  Vendor call: Durikul status report filed for week 8.
+#0578  Finance Office: Durikul budget increased by $145K per the revised plan.
+#0579  Operations chat: Durikul sprint 17 retrospective notes posted.
+#0580  Finance Office: Durikul budget decreased by $150K.
+#0581  Legal email: Durikul status report filed for week 40.
+#0582  Vendor call: Durikul risk register updated with 2 new items.
+#0583  Finance Office: Durikul budget decreased by $357K per the revised plan.
+#0584  Finance Office: Withdraw update #0300; it was entered in error.
+#0585  Facilities ticket: Durikul design review moved to Room 6B.
+#0586  Finance Office: Durikul budget decreased by $85K per the revised plan.
+#0587  Engineering email: Durikul demo rescheduled to Tuesday afternoon.
+#0588  Legal email: Durikul test environment back online.
+#0589  Finance Office: Durikul budget decreased by $60K per the revised plan.
+#0590  Finance Office: Durikul budget increased by $140K after review.
+#0591  Finance Office: Durikul budget decreased by $232K after review.
+#0592  Finance Office: Durikul budget decreased by $115K per the revised plan.
+#0593  Finance Office: Withdraw update #0177; it was entered in error.
+#0594  Finance Office: Withdraw update #0226.
+#0595  Finance Office: Withdraw update #0569; it was entered in error.
+#0596  Finance Office: Withdraw update #0400.
+#0597  Legal email: Durikul kickoff moved to Building 9.
+#0598  Finance Office: Durikul budget decreased by $150K.
+#0599  Finance Office: Durikul budget increased by $33K after review.
+#0600  Finance Office: Durikul budget increased by $25K.
+#0601  Marketing email: Durikul design review moved to Room 5B.
+#0602  Finance Office: Durikul budget decreased by $459K.
+#0603  Finance Office: Durikul budget increased by $30K per the revised plan.
+#0604  Engineering email: Durikul test environment back online.
+#0605  Finance Office: Durikul budget increased by $70K per the revised plan.
+#0606  Legal email: Durikul weekly sync moved to Tuesdays.
+#0607  Finance Office: Durikul budget increased by $82K per the revised plan.
+#0608  Finance Office: Durikul budget increased by $588K after review.
+#0609  Finance Office: Durikul budget increased by $237K after review.
+#0610  Vendor call: Durikul test environment back online.
+#0611  PMO note: Durikul kickoff moved to Building 9.
+#0612  Finance Office: Withdraw update #0532.
+#0613  Finance Office: Withdraw update #0448; it was entered in error.
+#0614  Operations chat: Durikul test environment back online.
+#0615  Marketing email: Durikul site visit confirmed for Wednesday.
+#0616  Sales update: Durikul test environment back online.
+#0617  Legal email: Durikul kickoff moved to Building 4.
+#0618  Finance Office: Durikul budget increased by $15K.
+#0619  Marketing email: Durikul status report filed for week 10.
+#0620  Operations chat: Durikul demo rescheduled to Monday afternoon.
+#0621  Finance Office: Durikul budget decreased by $105K.
+#0622  Operations chat: Durikul site visit confirmed for Monday.
+#0623  Finance Office: Durikul budget increased by $336K.
+#0624  Finance Office: Withdraw update #0571; it was entered in error.
+#0625  Finance Office: Durikul budget decreased by $140K.
+#0626  Sales update: Durikul site visit confirmed for Monday.
+#0627  Marketing email: Durikul test environment back online.
+#0628  Finance Office: Withdraw update #0536; it was entered in error.
+#0629  Finance Office: Durikul budget increased by $65K per the revised plan.
+#0630  Finance Office: Durikul budget increased by $448K after review.
+#0631  Vendor call: Durikul site visit confirmed for Monday.
+#0632  Finance Office: Durikul budget increased by $85K after review.
+#0633  Finance Office: Withdraw update #0326.
+#0634  Finance Office: Durikul budget decreased by $85K.
+#0635  Finance Office: Durikul budget increased by $20K.
+#0636  Finance Office: Durikul budget increased by $120K per the revised plan.
+#0637  Finance Office: Durikul budget increased by $130K per the revised plan.
+#0638  Finance Office: Withdraw update #0053.
+#0639  Engineering email: Durikul kickoff moved to Building 5.
+#0640  Operations chat: Durikul status report filed for week 23.
+#0641  Vendor call: Durikul design review moved to Room 1C.
+#0642  PMO note: Durikul vendor onboarding call scheduled for Wednesday.
+#0643  Operations chat: Durikul test environment back online.
+#0644  Finance Office: Durikul budget decreased by $125K.
+#0645  Finance Office: Durikul budget decreased by $131K per the revised plan.
+#0646  Finance Office: Withdraw update #0320; it was entered in error.
+#0647  Finance Office: Durikul budget increased by $231K per the revised plan.
+#0648  Marketing email: Durikul weekly sync moved to Fridays.
+#0649  Finance Office: Durikul budget decreased by $222K after review.
+#0650  Finance Office: Durikul budget increased by $104K.
+#0651  Finance Office: Withdraw update #0466.
+#0652  Legal email: Durikul status report filed for week 11.
+#0653  Finance Office: Durikul budget decreased by $145K per the revised plan.
+#0654  Finance Office: Durikul budget increased by $130K.
+#0655  Finance Office: Withdraw update #0623; it was entered in error.
+#0656  Sales update: Durikul status report filed for week 18.
+#0657  Operations chat: Durikul weekly sync moved to Fridays.
+#0658  Marketing email: Durikul documentation moved to the shared drive.
+#0659  Finance Office: Durikul budget increased by $130K.
+#0660  Finance Office: Durikul budget increased by $471K.
+#0661  Legal email: Durikul weekly sync moved to Wednesdays.
+#0662  Finance Office: Durikul budget increased by $554K per the revised plan.
+#0663  Vendor call: Durikul design review moved to Room 5D.
+#0664  Finance Office: Durikul budget increased by $166K per the revised plan.
+#0665  Finance Office: Durikul budget decreased by $20K after review.
+#0666  Vendor call: Durikul security review passed.
+#0667  Vendor call: Durikul kickoff moved to Building 8.
+#0668  Finance Office: Durikul budget decreased by $75K.
+#0669  Operations chat: Durikul documentation moved to the shared drive.
+#0670  Facilities ticket: Durikul test environment back online.
+#0671  Legal email: Durikul kickoff moved to Building 4.
+#0672  Finance Office: Withdraw update #0415; it was entered in error.
+#0673  Finance Office: Durikul budget increased by $257K after review.
+#0674  Finance Office: Durikul budget increased by $90K.
+#0675  PMO note: Durikul weekly sync moved to Wednesdays.
+#0676  Finance Office: Withdraw update #0646.
+#0677  Finance Office: Durikul budget increased by $85K after review.
+#0678  Finance Office: Withdraw update #0225.
+#0679  PMO note: Durikul status report filed for week 27.
+#0680  Finance Office: Durikul budget increased by $55K after review.
+#0681  Finance Office: Durikul budget increased by $5K after review.
+#0682  Finance Office: Durikul audit notes filed.
+#0683  Finance Office: Durikul budget increased by $75K after review.
+#0684  Finance Office: Durikul budget increased by $50K after review.
+#0685  Finance Office: Durikul budget decreased by $35K.
+#0686  Legal email: Durikul kickoff moved to Building 2.
+#0687  Finance Office: Durikul budget increased by $25K.
+#0688  Finance Office: Durikul budget increased by $110K.
+#0689  Finance Office: Durikul budget decreased by $55K after review.
+#0690  Engineering email: Durikul risk register updated with 7 new items.
+#0691  Vendor call: Durikul kickoff moved to Building 7.
+#0692  Finance Office: Durikul finance review moved to Room 4B.
+#0693  Finance Office: Durikul budget decreased by $100K per the revised plan.
+#0694  Finance Office: Durikul budget decreased by $20K after review.
+#0695  Finance Office: Durikul budget increased by $70K per the revised plan.
+#0696  Engineering email: Durikul status report filed for week 39.
+#0697  Finance Office: Durikul budget decreased by $55K per the revised plan.
+#0698  Operations chat: Durikul status report filed for week 34.
+#0699  Operations chat: Durikul sprint 38 retrospective notes posted.
+#0700  Finance Office: Durikul budget increased by $110K per the revised plan.
+#0701  Finance Office: Durikul budget decreased by $50K after review.
+#0702  Legal email: Durikul sprint 48 retrospective notes posted.
+#0703  Finance Office: Withdraw update #0082.
+#0704  Finance Office: Durikul budget increased by $292K after review.
+#0705  Legal email: Durikul design review moved to Room 4C.
+#0706  Legal email: Durikul design review moved to Room 2B.
+#0707  Marketing email: Durikul site visit confirmed for Thursday.
+#0708  Finance Office: Durikul budget increased by $75K after review.
+#0709  Sales update: Durikul security review passed.
+#0710  Finance Office: Durikul budget increased by $90K after review.
+#0711  Finance Office: Durikul budget increased by $135K per the revised plan.
+#0712  Finance Office: Durikul budget increased by $80K.
+#0713  Finance Office: Durikul budget decreased by $95K per the revised plan.
+#0714  Finance Office: Durikul budget increased by $267K after review.
+#0715  Finance Office: Durikul budget increased by $140K after review.
+#0716  Facilities ticket: Durikul sprint 20 retrospective notes posted.
+#0717  Finance Office: Durikul budget increased by $135K after review.
+#0718  Finance Office: Withdraw update #0542; it was entered in error.
+#0719  Facilities ticket: Durikul test environment back online.
+#0720  PMO note: Durikul weekly sync moved to Mondays.
+#0721  Sales update: Durikul design review moved to Room 1B.
+#0722  Finance Office: Durikul budget decreased by $30K.
+#0723  Operations chat: Durikul design review moved to Room 5C.
+#0724  Facilities ticket: Durikul design review moved to Room 1C.
+#0725  Finance Office: Durikul budget increased by $90K after review.
+#0726  Vendor call: Durikul test environment back online.
+#0727  Finance Office: Withdraw update #0672.
+#0728  Finance Office: Durikul budget decreased by $85K.
+#0729  Finance Office: Durikul budget increased by $349K per the revised plan.
+#0730  Finance Office: Durikul budget decreased by $403K per the revised plan.
+#0731  Finance Office: Durikul budget decreased by $130K after review.
+#0732  Finance Office: Withdraw update #0495.
+#0733  Finance Office: Withdraw update #0584; it was entered in error.
+#0734  Engineering email: Durikul sprint 4 retrospective notes posted.
+#0735  Finance Office: Reminder: Durikul expense reports are due Friday.
+#0736  Engineering email: Durikul demo rescheduled to Friday afternoon.
+#0737  Legal email: Durikul security review passed.
+#0738  Finance Office: Withdraw update #0338.
+#0739  Finance Office: Durikul budget decreased by $491K.
+#0740  Finance Office: Durikul audit notes filed.
+#0741  PMO note: Durikul test environment back online.
+#0742  Finance Office: Durikul budget decreased by $80K after review.
+#0743  PMO note: Durikul test environment back online.
+#0744  Finance Office: Withdraw update #0167.
+#0745  Finance Office: Withdraw update #0313; it was entered in error.
+#0746  Finance Office: Durikul budget increased by $135K after review.
+#0747  Finance Office: Durikul budget increased by $65K after review.
+#0748  Finance Office: Durikul budget decreased by $115K.
+#0749  Finance Office: Durikul budget increased by $10K.
+#0750  Finance Office: Durikul budget decreased by $397K per the revised plan.
+#0751  Finance Office: Durikul budget increased by $70K after review.
+#0752  Facilities ticket: Durikul design review moved to Room 6A.
+#0753  Finance Office: Durikul budget decreased by $45K per the revised plan.
+#0754  Finance Office: Durikul budget increased by $239K after review.
+#0755  Finance Office: Withdraw update #0655.
+#0756  Finance Office: Durikul budget increased by $60K per the revised plan.
+#0757  Marketing email: Durikul design review moved to Room 2A.
+#0758  Finance Office: Withdraw update #0208; it was entered in error.
+#0759  Finance Office: Durikul budget decreased by $95K per the revised plan.
+#0760  Finance Office: Durikul budget increased by $15K.
+#0761  Finance Office: Durikul budget increased by $90K after review.
+#0762  Finance Office: Durikul budget decreased by $130K.
+#0763  Finance Office: Durikul budget increased by $150K after review.
+#0764  Marketing email: Durikul documentation moved to the shared drive.
+#0765  Operations chat: Durikul site visit confirmed for Monday.
+#0766  Finance Office: Withdraw update #0088.
+#0767  Sales update: Durikul security review passed.
+#0768  Finance Office: Durikul budget decreased by $55K.
+#0769  Vendor call: Durikul status report filed for week 43.
+#0770  Legal email: Durikul risk register updated with 8 new items.
+#0771  Finance Office: Withdraw update #0202.
+#0772  Finance Office: Withdraw update #0057.
+#0773  Finance Office: Durikul purchase order FC-3833 closed.
+#0774  Engineering email: Durikul status report filed for week 32.
+#0775  Finance Office: Durikul budget increased by $10K per the revised plan.
+#0776  Finance Office: Durikul budget increased by $444K after review.
+#0777  Finance Office: Durikul budget decreased by $130K per the revised plan.
+#0778  Finance Office: Durikul budget decreased by $70K per the revised plan.
+#0779  Finance Office: Durikul budget decreased by $145K after review.
+#0780  Finance Office: Durikul receipts scanned.
+#0781  Finance Office: Durikul budget increased by $115K per the revised plan.
+#0782  Legal email: Durikul status report filed for week 45.
+#0783  Finance Office: Durikul budget decreased by $90K.
+#0784  Finance Office: Durikul budget decreased by $120K after review.
+#0785  Finance Office: Durikul budget decreased by $388K per the revised plan.
+#0786  Vendor call: Durikul site visit confirmed for Friday.
+#0787  Sales update: Durikul status report filed for week 25.
+#0788  Sales update: Durikul status report filed for week 21.
+#0789  Finance Office: Durikul budget increased by $75K after review.
+#0790  Finance Office: Durikul budget decreased by $115K.
+#0791  Marketing email: Durikul risk register updated with 6 new items.
+#0792  Finance Office: Durikul budget decreased by $40K per the revised plan.
+#0793  Finance Office: Durikul budget decreased by $55K.
+#0794  Finance Office: Withdraw update #0613.
+#0795  Sales update: Durikul demo rescheduled to Thursday afternoon.
+#0796  Facilities ticket: Durikul test environment back online.
+#0797  Marketing email: Durikul design review moved to Room 2D.
+#0798  Finance Office: Durikul budget increased by $477K.
+#0799  Operations chat: Durikul kickoff moved to Building 8.
+#0800  Finance Office: Durikul budget increased by $91K after review.
+#0801  Finance Office: Durikul budget decreased by $135K after review.
+#0802  Legal email: Durikul weekly sync moved to Mondays.
+#0803  Finance Office: Durikul budget decreased by $5K per the revised plan.
+#0804  Legal email: Durikul sprint 7 retrospective notes posted.
+#0805  Finance Office: Withdraw update #0703; it was entered in error.
+#0806  Legal email: Durikul kickoff moved to Building 7.
+#0807  Finance Office: Durikul budget increased by $105K.
+#0808  Marketing email: Durikul site visit confirmed for Tuesday.
+#0809  Operations chat: Durikul design review moved to Room 3C.
+#0810  PMO note: Durikul status report filed for week 36.
+#0811  Facilities ticket: Durikul status report filed for week 11.
+#0812  Finance Office: Durikul budget decreased by $105K after review.
+#0813  Finance Office: Durikul budget increased by $67K per the revised plan.
+#0814  Finance Office: Durikul audit notes filed.
+#0815  Engineering email: Durikul design review moved to Room 5D.
+#0816  Finance Office: Durikul budget increased by $468K after review.
+#0817  Facilities ticket: Durikul kickoff moved to Building 4.
+#0818  Finance Office: Durikul budget decreased by $45K per the revised plan.
+#0819  Engineering email: Durikul test environment back online.
+#0820  Finance Office: Withdraw update #0766.
+#0821  Finance Office: Withdraw update #0280.
+#0822  Finance Office: Withdraw update #0279; it was entered in error.
+#0823  Finance Office: Durikul budget increased by $5K after review.
+#0824  Legal email: Durikul status report filed for week 45.
+#0825  Legal email: Durikul weekly sync moved to Fridays.
+#0826  PMO note: Durikul status report filed for week 9.
+#0827  Finance Office: Withdraw update #0664.
+#0828  Facilities ticket: Durikul status report filed for week 2.
+#0829  Legal email: Durikul weekly sync moved to Tuesdays.
+#0830  Legal email: Durikul kickoff moved to Building 2.
+#0831  Finance Office: Durikul budget decreased by $130K per the revised plan.
+#0832  Finance Office: Durikul budget increased by $115K after review.
+#0833  Finance Office: Durikul budget decreased by $110K per the revised plan.
+#0834  Finance Office: Durikul budget decreased by $25K per the revised plan.
+#0835  Finance Office: Durikul budget decreased by $10K per the revised plan.
+#0836  Finance Office: Durikul budget increased by $85K per the revised plan.
+#0837  Finance Office: Durikul budget increased by $98K after review.
+#0838  Operations chat: Durikul test environment back online.
+#0839  Finance Office: Durikul budget decreased by $45K per the revised plan.
+#0840  PMO note: Durikul sprint 7 retrospective notes posted.
+#0841  Finance Office: Withdraw update #0100.
+#0842  Finance Office: Durikul budget increased by $135K after review.
+#0843  Engineering email: Durikul site visit confirmed for Monday.
+#0844  Finance Office: Durikul budget decreased by $100K after review.
+#0845  Vendor call: Durikul kickoff moved to Building 9.
+#0846  Legal email: Durikul site visit confirmed for Friday.
+#0847  Finance Office: Durikul budget increased by $95K.
+#0848  Finance Office: Durikul budget decreased by $130K per the revised plan.
+#0849  Finance Office: Durikul budget decreased by $105K per the revised plan.
+#0850  Finance Office: Durikul budget increased by $261K per the revised plan.
+#0851  Finance Office: Durikul budget decreased by $90K.
+#0852  Finance Office: Withdraw update #0822.
+#0853  Finance Office: Durikul budget decreased by $55K.
+#0854  Finance Office: Durikul budget decreased by $100K per the revised plan.
+#0855  Facilities ticket: Durikul status report filed for week 32.
+#0856  Finance Office: Durikul budget increased by $105K after review.
+#0857  Finance Office: Durikul budget decreased by $110K.
+#0858  Sales update: Durikul kickoff moved to Building 6.
+#0859  Finance Office: Durikul budget increased by $90K after review.
+#0860  Finance Office: Withdraw update #0095.
+#0861  Finance Office: Withdraw update #0047.
+#0862  Finance Office: Durikul budget increased by $140K per the revised plan.
+#0863  PMO note: Durikul test environment back online.
+#0864  Finance Office: Durikul budget increased by $103K per the revised plan.
+#0865  Vendor call: Durikul risk register updated with 9 new items.
+#0866  Legal email: Durikul weekly sync moved to Mondays.
+#0867  Vendor call: Durikul weekly sync moved to Fridays.
+#0868  Finance Office: Durikul budget increased by $145K per the revised plan.
+#0869  Marketing email: Durikul kickoff moved to Building 3.
+#0870  Engineering email: Durikul status report filed for week 9.
+#0871  Finance Office: Durikul budget decreased by $145K.
+#0872  Vendor call: Durikul design review moved to Room 1B.
+#0873  Legal email: Durikul status report filed for week 41.
+#0874  Finance Office: Withdraw update #0591.
+#0875  Finance Office: Durikul budget increased by $113K.
+#0876  Marketing email: Durikul test environment back online.
+#0877  Finance Office: Durikul budget decreased by $119K.
+#0878  Marketing email: Durikul documentation moved to the shared drive.
+#0879  Finance Office: Durikul budget increased by $55K after review.
+#0880  Finance Office: Durikul budget increased by $40K per the revised plan.
+#0881  Finance Office: Durikul budget increased by $125K after review.
+#0882  Sales update: Durikul test environment back online.
+#0883  Engineering email: Durikul test environment back online.
+#0884  Finance Office: Durikul budget decreased by $145K after review.
+#0885  Finance Office: Durikul budget decreased by $55K.
+#0886  Finance Office: Withdraw update #0029; it was entered in error.
+#0887  PMO note: Durikul status report filed for week 33.
+#0888  Finance Office: Durikul budget increased by $135K per the revised plan.
+#0889  Legal email: Durikul vendor onboarding call scheduled for Friday.
+#0890  Finance Office: Durikul budget increased by $135K per the revised plan.
+#0891  Finance Office: Durikul budget decreased by $40K after review.
+#0892  Engineering email: Durikul site visit confirmed for Thursday.
+#0893  Finance Office: Durikul budget decreased by $70K after review.
+#0894  Finance Office: Durikul budget decreased by $80K after review.
+#0895  Legal email: Durikul weekly sync moved to Tuesdays.
+#0896  Finance Office: Durikul budget decreased by $20K after review.
+#0897  Marketing email: Durikul design review moved to Room 6A.
+#0898  Finance Office: Durikul budget decreased by $55K.
+#0899  Finance Office: Durikul cost center code changed to FC-5360.
+#0900  Finance Office: Reminder: Durikul expense reports are due Friday.
+#0901  Finance Office: Durikul budget increased by $50K.
+#0902  Finance Office: Withdraw update #0070; it was entered in error.
+#0903  Finance Office: Durikul budget increased by $65K per the revised plan.
+#0904  Finance Office: Durikul budget increased by $130K per the revised plan.
+#0905  Finance Office: Durikul budget decreased by $75K.
+#0906  Finance Office: Durikul budget increased by $15K.
+#0907  Finance Office: Durikul budget decreased by $105K per the revised plan.
+#0908  PMO note: Durikul kickoff moved to Building 4.
+#0909  Finance Office: Durikul budget increased by $59K.
+#0910  Finance Office: Withdraw update #0607; it was entered in error.
+#0911  Finance Office: Durikul budget increased by $35K.
+#0912  Finance Office: Withdraw update #0497; it was entered in error.
+#0913  Finance Office: Durikul budget decreased by $150K after review.
+#0914  Finance Office: Durikul budget decreased by $100K after review.
+#0915  Finance Office: Withdraw update #0583.
+#0916  Finance Office: Durikul budget increased by $15K per the revised plan.
+#0917  Legal email: Durikul test environment back online.
+#0918  Finance Office: Durikul budget increased by $150K after review.
+#0919  Finance Office: Withdraw update #0909.
+#0920  Finance Office: Durikul budget increased by $115K per the revised plan.
+#0921  Finance Office: Withdraw update #0267.
+#0922  Finance Office: Withdraw update #0428.
+#0923  Sales update: Durikul design review moved to Room 6C.
+#0924  Finance Office: Withdraw update #0860; it was entered in error.
+#0925  Finance Office: Durikul budget increased by $15K.
+#0926  Finance Office: Withdraw update #0567.
+#0927  Finance Office: Withdraw update #0754.
+#0928  Legal email: Durikul site visit confirmed for Monday.
+#0929  Finance Office: Durikul finance review moved to Room 2B.
+#0930  Finance Office: Withdraw update #0875; it was entered in error.
+#0931  Finance Office: Durikul budget decreased by $90K per the revised plan.
+#0932  Finance Office: Durikul budget increased by $150K after review.
+#0933  Vendor call: Durikul kickoff moved to Building 2.
+#0934  Finance Office: Durikul budget decreased by $150K.
+#0935  Facilities ticket: Durikul kickoff moved to Building 7.
+#0936  Finance Office: Durikul budget increased by $95K per the revised plan.
+#0937  Finance Office: Durikul budget decreased by $25K per the revised plan.
+#0938  Engineering email: Durikul weekly sync moved to Wednesdays.
+#0939  Finance Office: Durikul budget decreased by $90K per the revised plan.
+#0940  Finance Office: Durikul budget decreased by $125K after review.
+#0941  Finance Office: Durikul budget increased by $120K.
+#0942  Sales update: Durikul sprint 7 retrospective notes posted.
+#0943  Finance Office: Durikul budget decreased by $100K per the revised plan.
+#0944  Engineering email: Durikul site visit confirmed for Monday.
+#0945  Finance Office: Durikul budget increased by $50K.
+#0946  Legal email: Durikul site visit confirmed for Tuesday.
+#0947  Legal email: Durikul security review passed.
+#0948  Finance Office: Durikul budget decreased by $62K.
+#0949  Finance Office: Durikul budget increased by $40K after review.
+#0950  Finance Office: Durikul budget increased by $102K.
+#0951  Sales update: Durikul sprint 14 retrospective notes posted.
+#0952  Operations chat: Durikul test environment back online.
+#0953  Finance Office: Durikul budget decreased by $20K per the revised plan.
+#0954  Finance Office: Durikul budget increased by $25K after review.
+#0955  Finance Office: Withdraw update #0211.
+#0956  Operations chat: Durikul site visit confirmed for Friday.
+#0957  Sales update: Durikul test environment back online.
+#0958  Legal email: Durikul status report filed for week 12.
+#0959  Finance Office: Withdraw update #0545; it was entered in error.
+#0960  Finance Office: Durikul budget decreased by $70K per the revised plan.
+#0961  PMO note: Durikul kickoff moved to Building 3.
+#0962  Finance Office: Withdraw update #0154; it was entered in error.
+#0963  Facilities ticket: Durikul design review moved to Room 1D.
+#0964  Finance Office: Withdraw update #0435.
+#0965  Legal email: Durikul security review passed.
+#0966  Finance Office: Durikul budget decreased by $70K per the revised plan.
+#0967  Finance Office: Reminder: Durikul expense reports are due Tuesday.
+#0968  Finance Office: Withdraw update #0565.
+#0969  Finance Office: Durikul budget decreased by $65K after review.
+#0970  Engineering email: Durikul sprint 11 retrospective notes posted.
+#0971  Finance Office: Durikul budget increased by $498K after review.
+#0972  Finance Office: Durikul budget increased by $100K.
+#0973  Engineering email: Durikul status report filed for week 45.
+#0974  Finance Office: Durikul budget increased by $145K per the revised plan.
+#0975  Legal email: Durikul site visit confirmed for Thursday.
+#0976  Legal email: Durikul kickoff moved to Building 2.
+#0977  Finance Office: Durikul budget increased by $55K per the revised plan.
+#0978  Finance Office: Durikul finance review moved to Room 1C.
+#0979  Finance Office: Durikul budget decreased by $15K after review.
+#0980  Finance Office: Withdraw update #0200; it was entered in error.
+#0981  Facilities ticket: Durikul weekly sync moved to Tuesdays.
+#0982  Finance Office: Withdraw update #0676; it was entered in error.
+#0983  Finance Office: Durikul budget decreased by $145K after review.
+#0984  Finance Office: Durikul budget decreased by $65K per the revised plan.
+#0985  Finance Office: Withdraw update #0729.
+#0986  Finance Office: Durikul budget increased by $599K after review.
+#0987  Marketing email: Durikul sprint 46 retrospective notes posted.
+#0988  Finance Office: Durikul budget increased by $179K.
+#0989  Finance Office: Withdraw update #0794.
+#0990  Finance Office: Durikul budget increased by $50K after review.
+#0991  Finance Office: Withdraw update #0152; it was entered in error.
+#0992  Finance Office: Durikul cost center code changed to FC-9920.
+#0993  Finance Office: Withdraw update #0805.
+#0994  Legal email: Durikul test environment back online.
+#0995  Finance Office: Durikul budget decreased by $262K after review.
+#0996  Sales update: Durikul security review passed.
+#0997  Operations chat: Durikul status report filed for week 43.
+#0998  Vendor call: Durikul weekly sync moved to Thursdays.
+#0999  Sales update: Durikul weekly sync moved to Fridays.
+#1000  Finance Office: Withdraw update #0347.
+#1001  Finance Office: Durikul budget decreased by $120K per the revised plan.
+#1002  PMO note: Durikul site visit confirmed for Friday.
+#1003  Vendor call: Durikul status report filed for week 46.
+#1004  Finance Office: Durikul budget increased by $25K per the revised plan.
+#1005  Sales update: Durikul site visit confirmed for Wednesday.
+#1006  Finance Office: Durikul budget increased by $90K.
+#1007  Finance Office: Durikul budget decreased by $135K.
+#1008  Vendor call: Durikul status report filed for week 10.
+#1009  Finance Office: Durikul budget increased by $30K.
+#1010  Marketing email: Durikul test environment back online.
+#1011  Marketing email: Durikul kickoff moved to Building 4.
+#1012  Finance Office: Durikul budget decreased by $30K.
+#1013  Finance Office: Withdraw update #0499.
+#1014  Vendor call: Durikul test environment back online.
+#1015  Finance Office: Durikul budget decreased by $146K after review.
+#1016  PMO note: Durikul security review passed.
+#1017  Operations chat: Durikul demo rescheduled to Monday afternoon.
+#1018  Marketing email: Durikul weekly sync moved to Thursdays.
+#1019  Finance Office: Durikul budget decreased by $105K per the revised plan.
+#1020  Finance Office: Durikul budget increased by $105K after review.
+#1021  Engineering email: Durikul risk register updated with 7 new items.
+#1022  Sales update: Durikul test environment back online.
+#1023  Finance Office: Durikul budget increased by $35K after review.
+#1024  Legal email: Durikul kickoff moved to Building 7.
+#1025  Finance Office: Durikul budget decreased by $130K per the revised plan.
+#1026  Finance Office: Durikul budget increased by $65K.
+#1027  Vendor call: Durikul weekly sync moved to Fridays.
+#1028  Finance Office: Withdraw update #0647.
+#1029  Finance Office: Durikul budget increased by $45K per the revised plan.
+#1030  Facilities ticket: Durikul documentation moved to the shared drive.
+#1031  Finance Office: Durikul budget increased by $35K per the revised plan.
+#1032  Finance Office: Withdraw update #0403.
+#1033  Finance Office: Durikul budget decreased by $55K after review.
+#1034  Finance Office: Durikul budget increased by $5K.
+#1035  Finance Office: Withdraw update #0650; it was entered in error.
+#1036  Finance Office: Withdraw update #0255; it was entered in error.
+#1037  Operations chat: Durikul security review passed.
+#1038  Finance Office: Withdraw update #0237; it was entered in error.
+#1039  Operations chat: Durikul site visit confirmed for Thursday.
+#1040  Finance Office: Durikul budget increased by $95K after review.
+#1041  Finance Office: Durikul budget increased by $95K.
+#1042  Engineering email: Durikul demo rescheduled to Friday afternoon.
+#1043  Facilities ticket: Durikul site visit confirmed for Friday.
+#1044  Finance Office: Durikul budget decreased by $140K after review.
+#1045  Legal email: Durikul design review moved to Room 4C.
+#1046  Finance Office: Durikul budget increased by $100K.
+#1047  Sales update: Durikul kickoff moved to Building 2.
+#1048  Finance Office: Durikul budget increased by $42K per the revised plan.
+#1049  Finance Office: Durikul budget increased by $52K per the revised plan.
+#1050  PMO note: Durikul test environment back online.
+#1051  Marketing email: Durikul site visit confirmed for Wednesday.
+#1052  Legal email: Durikul design review moved to Room 3C.
+#1053  Finance Office: Withdraw update #0566.
+#1054  Legal email: Durikul design review moved to Room 5B.
+#1055  Finance Office: Durikul budget increased by $130K per the revised plan.
+#1056  Finance Office: Durikul invoice batch FC-6014 archived.
+#1057  Finance Office: Withdraw update #0800; it was entered in error.
+#1058  Finance Office: Durikul budget decreased by $50K per the revised plan.
+#1059  Finance Office: Durikul budget increased by $25K.
+#1060  Finance Office: Durikul budget increased by $80K per the revised plan.
+#1061  Finance Office: Durikul budget increased by $45K per the revised plan.
+#1062  Finance Office: Durikul budget decreased by $100K after review.
+#1063  Finance Office: Withdraw update #0089.
+#1064  Finance Office: Withdraw update #0730.
+#1065  Finance Office: Withdraw update #0609.
+#1066  Legal email: Durikul weekly sync moved to Tuesdays.
+#1067  PMO note: Durikul status report filed for week 35.
+#1068  Finance Office: Durikul budget increased by $115K.
+#1069  Finance Office: Durikul budget increased by $100K per the revised plan.
+#1070  Facilities ticket: Durikul status report filed for week 33.
+#1071  Finance Office: Durikul budget increased by $30K after review.
+#1072  Finance Office: Durikul budget increased by $140K per the revised plan.
+#1073  Finance Office: Durikul budget decreased by $145K per the revised plan.
+#1074  Finance Office: Durikul budget decreased by $40K after review.
+#1075  Finance Office: Withdraw update #0813; it was entered in error.
+#1076  Sales update: Durikul design review moved to Room 5D.
+#1077  Sales update: Durikul kickoff moved to Building 4.
+#1078  Sales update: Durikul kickoff moved to Building 2.
+#1079  Engineering email: Durikul test environment back online.
+#1080  Legal email: Durikul site visit confirmed for Monday.
+#1081  Finance Office: Withdraw update #0301; it was entered in error.
+#1082  Finance Office: Durikul budget increased by $35K after review.
+#1083  Finance Office: Durikul budget increased by $55K after review.
+#1084  Finance Office: Durikul budget decreased by $311K after review.
+#1085  Finance Office: Durikul budget decreased by $45K.
+#1086  Engineering email: Durikul demo rescheduled to Monday afternoon.
+#1087  Finance Office: Durikul budget increased by $214K.
+#1088  Finance Office: Durikul audit notes filed.
+#1089  Finance Office: Durikul budget increased by $130K after review.
+#1090  Finance Office: Durikul budget decreased by $10K per the revised plan.
+#1091  Engineering email: Durikul site visit confirmed for Monday.
+#1092  Finance Office: Durikul budget decreased by $20K after review.
+#1093  Finance Office: Durikul budget decreased by $20K.
+#1094  Finance Office: Durikul budget decreased by $120K per the revised plan.
+#1095  Sales update: Durikul site visit confirmed for Friday.
+#1096  Legal email: Durikul site visit confirmed for Tuesday.
+#1097  Finance Office: Withdraw update #0955.
+#1098  Marketing email: Durikul design review moved to Room 1D.
+#1099  Finance Office: Withdraw update #0461; it was entered in error.
+#1100  PMO note: Durikul security review passed.
+#1101  Finance Office: Durikul budget decreased by $115K per the revised plan.
+#1102  Finance Office: Withdraw update #0745.
+#1103  Vendor call: Durikul site visit confirmed for Tuesday.
+#1104  Marketing email: Durikul test environment back online.
+#1105  Finance Office: Withdraw update #0714.
+#1106  Vendor call: Durikul weekly sync moved to Tuesdays.
+#1107  Marketing email: Durikul kickoff moved to Building 6.
+#1108  Finance Office: Durikul budget decreased by $125K after review.
+#1109  Sales update: Durikul sprint 9 retrospective notes posted.
+#1110  Legal email: Durikul design review moved to Room 6B.
+#1111  Finance Office: Withdraw update #1048; it was entered in error.
+#1112  Operations chat: Durikul risk register updated with 9 new items.
+#1113  Finance Office: Withdraw update #0305; it was entered in error.
+#1114  Finance Office: Durikul budget decreased by $25K after review.
+#1115  Finance Office: Durikul budget decreased by $5K per the revised plan.
+#1116  Operations chat: Durikul site visit confirmed for Monday.
+#1117  Finance Office: Durikul budget increased by $50K per the revised plan.
+#1118  Finance Office: Durikul budget increased by $30K per the revised plan.
+#1119  Marketing email: Durikul design review moved to Room 1D.
+#1120  Operations chat: Durikul site visit confirmed for Tuesday.
+#1121  Finance Office: Durikul budget increased by $95K per the revised plan.
+#1122  Finance Office: Durikul budget increased by $50K.
+#1123  Finance Office: Durikul budget increased by $130K after review.
+#1124  Finance Office: Withdraw update #0816; it was entered in error.
+#1125  Facilities ticket: Durikul design review moved to Room 4D.
+#1126  Vendor call: Durikul design review moved to Room 3C.
+#1127  Engineering email: Durikul test environment back online.
+#1128  Finance Office: Durikul budget decreased by $75K per the revised plan.
+#1129  Finance Office: Durikul budget increased by $25K after review.
+#1130  PMO note: Durikul design review moved to Room 2C.
+#1131  Finance Office: Withdraw update #0915.
+#1132  Finance Office: Withdraw update #0971.
+#1133  Finance Office: Withdraw update #1015.
+#1134  Operations chat: Durikul kickoff moved to Building 7.
+#1135  Finance Office: Durikul budget decreased by $65K after review.
+#1136  Finance Office: Withdraw update #0785.
+#1137  Finance Office: Durikul budget increased by $60K after review.
+#1138  PMO note: Durikul design review moved to Room 5A.
+#1139  Vendor call: Durikul kickoff moved to Building 6.
+#1140  Operations chat: Durikul status report filed for week 21.
+#1141  Finance Office: Durikul budget decreased by $50K per the revised plan.
+#1142  Finance Office: Durikul budget increased by $80K.
+#1143  Finance Office: Withdraw update #0450; it was entered in error.
+#1144  Finance Office: Withdraw update #0968; it was entered in error.
+#1145  Finance Office: Withdraw update #1084; it was entered in error.
+#1146  Finance Office: Durikul budget increased by $80K.
+#1147  Finance Office: Withdraw update #0274.
+#1148  Vendor call: Durikul design review moved to Room 3D.
+#1149  Operations chat: Durikul weekly sync moved to Mondays.
+#1150  Finance Office: Durikul budget increased by $145K after review.
+#1151  Finance Office: Withdraw update #0861.
+#1152  Finance Office: Durikul budget decreased by $120K.
+#1153  Finance Office: Durikul finance review moved to Room 4C.
+#1154  Operations chat: Durikul design review moved to Room 5D.
+#1155  Operations chat: Durikul status report filed for week 8.
+#1156  Finance Office: Durikul budget decreased by $50K per the revised plan.
+#1157  Finance Office: Durikul budget increased by $125K per the revised plan.
+#1158  Finance Office: Durikul budget decreased by $25K after review.
+#1159  Finance Office: Durikul budget decreased by $70K per the revised plan.
+#1160  PMO note: Durikul design review moved to Room 4C.
+#1161  Finance Office: Withdraw update #0102; it was entered in error.
+#1162  Finance Office: Withdraw update #0980; it was entered in error.
+#1163  Legal email: Durikul weekly sync moved to Mondays.
+#1164  Sales update: Durikul risk register updated with 3 new items.
+#1165  Finance Office: Withdraw update #0521; it was entered in error.
+#1166  Finance Office: Durikul budget increased by $50K after review.
+#1167  Legal email: Durikul kickoff moved to Building 4.
+#1168  Facilities ticket: Durikul site visit confirmed for Thursday.
+#1169  Finance Office: Durikul budget increased by $105K after review.
+#1170  Finance Office: Withdraw update #0645; it was entered in error.
+#1171  Finance Office: Durikul budget increased by $70K after review.
+#1172  Facilities ticket: Durikul security review passed.
+#1173  Operations chat: Durikul design review moved to Room 4B.
+#1174  Sales update: Durikul documentation moved to the shared drive.
+#1175  Finance Office: Durikul finance review moved to Room 6B.
+#1176  Finance Office: Durikul budget increased by $150K.
+#1177  Finance Office: Durikul budget increased by $30K after review.
+#1178  Facilities ticket: Durikul kickoff moved to Building 2.
+#1179  Finance Office: Durikul budget increased by $120K.
+#1180  Legal email: Durikul weekly sync moved to Tuesdays.
+#1181  Vendor call: Durikul design review moved to Room 3C.
+#1182  Finance Office: Durikul budget decreased by $130K after review.
+#1183  Finance Office: Durikul budget decreased by $15K.
+#1184  Finance Office: Durikul budget increased by $95K after review.
+#1185  Legal email: Durikul design review moved to Room 1D.
+#1186  Marketing email: Durikul design review moved to Room 5A.
+#1187  Sales update: Durikul security review passed.
+#1188  Marketing email: Durikul kickoff moved to Building 5.
+#1189  Sales update: Durikul kickoff moved to Building 3.
+#1190  Finance Office: Durikul budget increased by $5K after review.
+#1191  Finance Office: Durikul budget decreased by $134K.
+#1192  Vendor call: Durikul site visit confirmed for Thursday.
+#1193  Finance Office: Withdraw update #0798.
+#1194  Finance Office: Durikul budget decreased by $35K.
+#1195  Engineering email: Durikul test environment back online.
+#1196  Finance Office: Durikul budget decreased by $40K.
+#1197  Finance Office: Durikul budget increased by $15K per the revised plan.
+#1198  Finance Office: Durikul budget decreased by $35K after review.
+#1199  Marketing email: Durikul status report filed for week 29.
+#1200  Finance Office: Durikul budget decreased by $80K after review.
+#1201  Finance Office: Withdraw update #1063.
+#1202  Finance Office: Withdraw update #0649.
+#1203  Finance Office: Withdraw update #0850; it was entered in error.
+#1204  Operations chat: Durikul documentation moved to the shared drive.
+#1205  PMO note: Durikul weekly sync moved to Thursdays.
+#1206  Finance Office: Durikul budget decreased by $20K.
+#1207  Vendor call: Durikul demo rescheduled to Thursday afternoon.
+#1208  Finance Office: Durikul budget decreased by $65K.
+#1209  Finance Office: Durikul budget increased by $65K after review.
+#1210  Finance Office: Durikul budget decreased by $150K per the revised plan.
+#1211  Finance Office: Durikul budget increased by $130K per the revised plan.
+#1212  Sales update: Durikul kickoff moved to Building 7.
+#1213  Vendor call: Durikul site visit confirmed for Wednesday.
+#1214  Finance Office: Durikul budget increased by $80K per the revised plan.
+#1215  Finance Office: Durikul budget increased by $140K after review.
+#1216  Finance Office: Withdraw update #0733; it was entered in error.
+#1217  PMO note: Durikul kickoff moved to Building 7.
+#1218  Finance Office: Durikul budget increased by $85K.
+#1219  Finance Office: Durikul budget increased by $120K per the revised plan.
+#1220  Finance Office: Durikul budget decreased by $145K after review.
+#1221  Finance Office: Durikul budget increased by $40K per the revised plan.
+#1222  Finance Office: Durikul budget increased by $65K per the revised plan.
+#1223  Finance Office: Withdraw update #0995.
+#1224  Finance Office: Durikul budget decreased by $473K.
+#1225  Vendor call: Durikul documentation moved to the shared drive.
+#1226  Facilities ticket: Durikul demo rescheduled to Friday afternoon.
+#1227  Finance Office: Durikul budget increased by $70K.
+#1228  Finance Office: Durikul budget decreased by $100K.
+#1229  Operations chat: Durikul weekly sync moved to Thursdays.
+#1230  Finance Office: Durikul budget decreased by $70K per the revised plan.
+#1231  Engineering email: Durikul status report filed for week 45.
+#1232  Finance Office: Durikul budget decreased by $25K.
+#1233  Finance Office: Durikul budget increased by $150K per the revised plan.
+#1234  Finance Office: Durikul budget increased by $110K after review.
+#1235  Finance Office: Durikul budget decreased by $110K after review.
+#1236  Finance Office: Durikul budget decreased by $69K per the revised plan.
+#1237  Facilities ticket: Durikul design review moved to Room 2C.
+#1238  Facilities ticket: Durikul status report filed for week 32.
+#1239  Finance Office: Withdraw update #0231; it was entered in error.
+#1240  Finance Office: Durikul budget decreased by $115K after review.
+#1241  Engineering email: Durikul security review passed.
+#1242  Engineering email: Durikul site visit confirmed for Thursday.
+#1243  Finance Office: Durikul invoice batch FC-4060 archived.
+#1244  Finance Office: Withdraw update #0346; it was entered in error.
+#1245  Vendor call: Durikul security review passed.
+#1246  Finance Office: Durikul quarterly audit scheduled for Monday.
+#1247  Finance Office: Durikul budget decreased by $40K.
+#1248  Finance Office: Durikul budget increased by $110K.
+#1249  Finance Office: Durikul budget increased by $125K.
+#1250  Finance Office: Durikul budget increased by $70K per the revised plan.
+#1251  Finance Office: Durikul finance review moved to Room 3B.
+#1252  Finance Office: Durikul budget decreased by $65K.
+#1253  Finance Office: Durikul budget decreased by $10K.
+#1254  Finance Office: Durikul budget increased by $463K.
+#1255  Finance Office: Durikul budget increased by $15K.
+#1256  Finance Office: Withdraw update #1224; it was entered in error.
+#1257  Finance Office: Durikul budget increased by $95K after review.
+#1258  Marketing email: Durikul status report filed for week 13.
+#1259  Finance Office: Durikul audit notes filed.
+#1260  Finance Office: Durikul budget decreased by $95K per the revised plan.
+#1261  Finance Office: Durikul budget increased by $86K after review.
+#1262  Finance Office: Durikul budget decreased by $70K after review.
+#1263  Finance Office: Durikul budget decreased by $65K per the revised plan.
+#1264  Finance Office: Durikul budget increased by $10K after review.
+#1265  Finance Office: Durikul budget decreased by $5K.
+#1266  PMO note: Durikul design review moved to Room 1C.
+#1267  Finance Office: Durikul budget decreased by $85K after review.
+#1268  Finance Office: Durikul budget increased by $65K.
+#1269  Finance Office: Durikul budget decreased by $10K after review.
+#1270  Finance Office: Withdraw update #0319; it was entered in error.
+#1271  Finance Office: Durikul budget decreased by $150K after review.
+#1272  Finance Office: Withdraw update #1013; it was entered in error.
+#1273  PMO note: Durikul status report filed for week 20.
+#1274  Operations chat: Durikul status report filed for week 7.
+#1275  Legal email: Durikul test environment back online.
+#1276  Finance Office: Durikul budget decreased by $40K.
+#1277  Finance Office: Durikul budget decreased by $95K after review.
+#1278  Finance Office: Durikul budget increased by $150K.
+#1279  Legal email: Durikul weekly sync moved to Fridays.
+#1280  PMO note: Durikul security review passed.
+#1281  Finance Office: Withdraw update #1075.
+#1282  Finance Office: Withdraw update #0991.
+#1283  Finance Office: Durikul budget increased by $15K.
+#1284  Legal email: Durikul security review passed.
+#1285  Finance Office: Withdraw update #0837; it was entered in error.
+#1286  Facilities ticket: Durikul demo rescheduled to Tuesday afternoon.
+#1287  Finance Office: Durikul finance review moved to Room 2C.
+#1288  Legal email: Durikul kickoff moved to Building 3.
+#1289  Finance Office: Durikul budget decreased by $35K per the revised plan.
+#1290  Finance Office: Durikul budget decreased by $60K.
+#1291  Finance Office: Durikul budget decreased by $287K per the revised plan.
+#1292  Finance Office: Durikul budget increased by $10K.
+#1293  Finance Office: Durikul budget decreased by $150K per the revised plan.
+#1294  Sales update: Durikul security review passed.
+#1295  Finance Office: Withdraw update #0986.
+#1296  Finance Office: Withdraw update #0182; it was entered in error.
+#1297  Finance Office: Withdraw update #0864; it was entered in error.
+#1298  Finance Office: Withdraw update #0261; it was entered in error.
+#1299  Vendor call: Durikul kickoff moved to Building 7.
+#1300  Finance Office: Durikul budget decreased by $150K.
+#1301  Vendor call: Durikul test environment back online.
+#1302  Finance Office: Durikul budget increased by $75K after review.
+#1303  Sales update: Durikul test environment back online.
+#1304  Operations chat: Durikul weekly sync moved to Wednesdays.
+#1305  Finance Office: Withdraw update #1202.
+#1306  Engineering email: Durikul risk register updated with 7 new items.
+#1307  Finance Office: Withdraw update #0385; it was entered in error.
+#1308  Finance Office: Durikul budget increased by $130K per the revised plan.
+#1309  Finance Office: Durikul budget decreased by $25K.
+#1310  Legal email: Durikul weekly sync moved to Tuesdays.
+#1311  Finance Office: Durikul budget increased by $70K per the revised plan.
+#1312  Finance Office: Withdraw update #0551; it was entered in error.
+#1313  Finance Office: Withdraw update #1147.
+#1314  Finance Office: Withdraw update #1102; it was entered in error.
+#1315  Finance Office: Durikul audit notes filed.
+#1316  Operations chat: Durikul test environment back online.
+#1317  Facilities ticket: Durikul status report filed for week 35.
+#1318  Finance Office: Durikul budget increased by $65K per the revised plan.
+#1319  Finance Office: Durikul budget increased by $85K per the revised plan.
+#1320  Finance Office: Durikul budget increased by $105K after review.
+#1321  Vendor call: Durikul status report filed for week 40.
+#1322  Marketing email: Durikul documentation moved to the shared drive.
+#1323  Vendor call: Durikul weekly sync moved to Wednesdays.
+#1324  Facilities ticket: Durikul design review moved to Room 6C.
+#1325  Finance Office: Withdraw update #1087; it was entered in error.
+#1326  Finance Office: Withdraw update #0630.
+#1327  PMO note: Durikul weekly sync moved to Tuesdays.
+#1328  Engineering email: Durikul demo rescheduled to Friday afternoon.
+#1329  Finance Office: Durikul budget decreased by $105K after review.
+#1330  Finance Office: Withdraw update #0250; it was entered in error.
+#1331  Finance Office: Durikul budget decreased by $105K.
+#1332  Marketing email: Durikul kickoff moved to Building 8.
+#1333  Engineering email: Durikul status report filed for week 36.
+#1334  Finance Office: Durikul budget decreased by $95K per the revised plan.
+#1335  Finance Office: Durikul budget decreased by $95K after review.
+#1336  Engineering email: Durikul kickoff moved to Building 5.
+#1337  Finance Office: Durikul budget increased by $85K after review.
+#1338  Legal email: Durikul design review moved to Room 2A.
+#1339  Vendor call: Durikul test environment back online.
+#1340  Finance Office: Withdraw update #0877.
+#1341  Finance Office: Withdraw update #0541; it was entered in error.
+#1342  Operations chat: Durikul sprint 6 retrospective notes posted.
+#1343  Finance Office: Durikul budget decreased by $150K per the revised plan.
+#1344  Operations chat: Durikul kickoff moved to Building 9.
+#1345  Engineering email: Durikul kickoff moved to Building 4.
+#1346  Finance Office: Durikul budget decreased by $20K per the revised plan.
+#1347  Finance Office: Durikul budget increased by $89K after review.
+#1348  Finance Office: Durikul budget decreased by $35K after review.
+#1349  PMO note: Durikul kickoff moved to Building 2.
+#1350  Operations chat: Durikul kickoff moved to Building 6.
+#1351  Engineering email: Durikul kickoff moved to Building 2.
+#1352  Finance Office: Durikul budget decreased by $140K after review.
+#1353  Marketing email: Durikul risk register updated with 5 new items.
+#1354  Sales update: Durikul test environment back online.
+#1355  Finance Office: Withdraw update #0599.
+#1356  Finance Office: Durikul budget decreased by $150K per the revised plan.
+#1357  Finance Office: Durikul budget decreased by $60K per the revised plan.
+#1358  Operations chat: Durikul weekly sync moved to Fridays.
+#1359  Facilities ticket: Durikul test environment back online.
+#1360  Finance Office: Withdraw update #0739.
+#1361  Finance Office: Durikul budget increased by $20K after review.
+#1362  Vendor call: Durikul site visit confirmed for Monday.
+#1363  Finance Office: Durikul budget decreased by $60K.
+#1364  Finance Office: Durikul budget increased by $5K after review.
+#1365  Vendor call: Durikul status report filed for week 36.
+#1366  Finance Office: Durikul budget decreased by $110K per the revised plan.
+#1367  Operations chat: Durikul kickoff moved to Building 5.
+#1368  Legal email: Durikul status report filed for week 21.
+#1369  Finance Office: Durikul budget decreased by $110K.
+#1370  Finance Office: Durikul budget decreased by $25K.
+#1371  Finance Office: Durikul budget decreased by $135K.
+#1372  Finance Office: Withdraw update #1291.
+#1373  Finance Office: Withdraw update #1124; it was entered in error.
+#1374  Finance Office: Withdraw update #0478; it was entered in error.
+#1375  Finance Office: Durikul budget increased by $577K after review.
+#1376  Finance Office: Durikul budget decreased by $258K.
+#1377  Vendor call: Durikul design review moved to Room 1D.
+#1378  Vendor call: Durikul weekly sync moved to Tuesdays.
+#1379  Vendor call: Durikul test environment back online.
+#1380  Sales update: Durikul test environment back online.
+#1381  Finance Office: Durikul budget increased by $45K per the revised plan.
+#1382  Finance Office: Withdraw update #1325; it was entered in error.
+#1383  Marketing email: Durikul design review moved to Room 5C.
+#1384  Vendor call: Durikul test environment back online.
+#1385  Finance Office: Withdraw update #1307; it was entered in error.
+#1386  Finance Office: Withdraw update #1254; it was entered in error.
+#1387  Sales update: Durikul status report filed for week 23.
+#1388  Facilities ticket: Durikul design review moved to Room 5C.
+#1389  PMO note: Durikul weekly sync moved to Fridays.
+#1390  Finance Office: Durikul budget increased by $115K per the revised plan.
+#1391  Finance Office: Durikul budget decreased by $60K.
+#1392  Finance Office: Durikul budget increased by $135K after review.
+#1393  Finance Office: Durikul budget decreased by $15K after review.
+#1394  Operations chat: Durikul status report filed for week 10.
+#1395  Finance Office: Withdraw update #1376.
+#1396  Finance Office: Withdraw update #1143; it was entered in error.
+#1397  Facilities ticket: Durikul weekly sync moved to Mondays.
+#1398  Facilities ticket: Durikul risk register updated with 5 new items.
+#1399  Finance Office: Durikul budget increased by $45K after review.
+#1400  Finance Office: Durikul budget increased by $25K after review.
+#1401  Finance Office: Durikul budget decreased by $85K.
+#1402  Facilities ticket: Durikul weekly sync moved to Fridays.
+#1403  PMO note: Durikul demo rescheduled to Monday afternoon.
+#1404  Finance Office: Durikul budget decreased by $45K after review.
+#1405  Engineering email: Durikul test environment back online.
+#1406  Sales update: Durikul test environment back online.
+#1407  Marketing email: Durikul test environment back online.
+#1408  Finance Office: Durikul budget decreased by $95K.
+#1409  Finance Office: Durikul budget increased by $20K.
+#1410  Finance Office: Durikul budget increased by $150K.
+#1411  Finance Office: Durikul budget decreased by $65K.
+#1412  Finance Office: Durikul budget increased by $80K per the revised plan.
+#1413  Finance Office: Durikul budget increased by $45K.
+#1414  Facilities ticket: Durikul risk register updated with 2 new items.
+#1415  Engineering email: Durikul security review passed.
+#1416  Finance Office: Durikul budget decreased by $10K.
+#1417  Finance Office: Durikul budget decreased by $562K per the revised plan.
+#1418  Finance Office: Withdraw update #0596; it was entered in error.
+#1419  Vendor call: Durikul security review passed.
+#1420  Finance Office: Withdraw update #0072; it was entered in error.
+#1421  Marketing email: Durikul kickoff moved to Building 9.
+#1422  Finance Office: Durikul audit notes filed.
+#1423  Finance Office: Durikul budget increased by $105K.
+#1424  Finance Office: Durikul budget increased by $40K after review.
+#1425  Finance Office: Withdraw update #0673.
+#1426  Facilities ticket: Durikul security review passed.
+#1427  Finance Office: Durikul budget increased by $125K after review.
+#1428  Finance Office: Withdraw update #1347; it was entered in error.
+#1429  Finance Office: Durikul budget decreased by $65K.
+#1430  Finance Office: Withdraw update #0772.
+#1431  Finance Office: Durikul budget increased by $100K after review.
+#1432  Operations chat: Durikul status report filed for week 34.
+#1433  Finance Office: Reminder: Durikul expense reports are due Tuesday.
+#1434  Finance Office: Durikul budget increased by $55K per the revised plan.
+#1435  Facilities ticket: Durikul test environment back online.
+#1436  Finance Office: Durikul budget decreased by $85K after review.
+#1437  Finance Office: Durikul budget increased by $25K after review.
+#1438  Vendor call: Durikul security review passed.
+#1439  Vendor call: Durikul risk register updated with 5 new items.
+#1440  Finance Office: Durikul budget decreased by $85K after review.
+#1441  Finance Office: Withdraw update #0660.
+#1442  Finance Office: Withdraw update #0432; it was entered in error.
+#1443  Finance Office: Durikul budget increased by $140K after review.
+#1444  Finance Office: Durikul budget increased by $110K after review.
+#1445  Finance Office: Durikul budget decreased by $5K after review.
+#1446  Finance Office: Durikul budget decreased by $100K after review.
+#1447  Marketing email: Durikul test environment back online.
+#1448  Legal email: Durikul weekly sync moved to Wednesdays.
+#1449  Finance Office: Durikul budget increased by $5K after review.
+#1450  Finance Office: Durikul budget decreased by $65K after review.
+#1451  Finance Office: Durikul budget decreased by $70K after review.
+#1452  Finance Office: Durikul budget decreased by $150K after review.
+#1453  Operations chat: Durikul weekly sync moved to Fridays.
+#1454  Finance Office: Withdraw update #0493.
+#1455  Finance Office: Withdraw update #0950.
+#1456  Finance Office: Durikul budget increased by $50K after review.
+#1457  Finance Office: Durikul budget decreased by $75K.
+#1458  Finance Office: Withdraw update #1420.
+#1459  Operations chat: Durikul security review passed.
+#1460  Finance Office: Durikul budget increased by $50K.
+#1461  Finance Office: Durikul budget decreased by $105K.
+#1462  Finance Office: Durikul budget decreased by $150K.
+#1463  Finance Office: Withdraw update #1049; it was entered in error.
+#1464  Finance Office: Durikul budget decreased by $60K.
+#1465  Marketing email: Durikul kickoff moved to Building 5.
+#1466  Finance Office: Withdraw update #1236; it was entered in error.
+#1467  Finance Office: Durikul budget decreased by $20K.
+#1468  Finance Office: Withdraw update #1191; it was entered in error.
+#1469  Finance Office: Durikul budget increased by $40K.
+#1470  Finance Office: Durikul budget increased by $80K.
+#1471  Finance Office: Durikul budget decreased by $145K.
+#1472  Sales update: Durikul risk register updated with 4 new items.
+#1473  Finance Office: Durikul budget decreased by $150K after review.
+#1474  Finance Office: Durikul budget increased by $65K.
+#1475  Finance Office: Durikul budget decreased by $135K after review.
+#1476  Finance Office: Durikul budget increased by $75K after review.
+#1477  Finance Office: Durikul budget increased by $55K after review.
+#1478  Finance Office: Durikul budget increased by $50K after review.
+#1479  Finance Office: Withdraw update #0482; it was entered in error.
+#1480  Sales update: Durikul site visit confirmed for Friday.
+#1481  Facilities ticket: Durikul test environment back online.
+#1482  Finance Office: Withdraw update #0602.
+#1483  Finance Office: Withdraw update #0344.
+#1484  Finance Office: Durikul budget increased by $110K per the revised plan.
+#1485  Marketing email: Durikul weekly sync moved to Tuesdays.
+#1486  Finance Office: Durikul budget decreased by $15K after review.
+#1487  Finance Office: Durikul budget decreased by $80K per the revised plan.
+#1488  Sales update: Durikul weekly sync moved to Tuesdays.
+#1489  Finance Office: Withdraw update #0988; it was entered in error.
+#1490  Finance Office: Withdraw update #0662; it was entered in error.
+#1491  Finance Office: Withdraw update #1375.
+#1492  Finance Office: Withdraw update #0704; it was entered in error.
+#1493  Finance Office: Durikul budget decreased by $75K after review.
+#1494  Finance Office: Withdraw update #1482; it was entered in error.
+#1495  Finance Office: Durikul budget increased by $15K after review.
+#1496  Sales update: Durikul design review moved to Room 2A.
+#1497  Facilities ticket: Durikul sprint 48 retrospective notes posted.
+#1498  Finance Office: Durikul budget increased by $95K after review.
+#1499  Vendor call: Durikul site visit confirmed for Monday.
+#1500  Marketing email: Durikul documentation moved to the shared drive.
+#1501  Engineering email: Durikul risk register updated with 5 new items.
+#1502  Finance Office: Durikul budget increased by $15K after review.
+#1503  Finance Office: Durikul budget decreased by $110K after review.
+#1504  Legal email: Durikul design review moved to Room 2A.
+#1505  Finance Office: Durikul budget increased by $140K per the revised plan.
+#1506  Finance Office: Durikul budget increased by $20K.
+#1507  Finance Office: Durikul budget decreased by $130K after review.
+#1508  Finance Office: Durikul budget increased by $120K.
+#1509  Marketing email: Durikul kickoff moved to Building 2.
+#1510  Finance Office: Durikul budget decreased by $130K.
+#1511  Finance Office: Durikul budget increased by $35K per the revised plan.
+#1512  PMO note: Durikul security review passed.
+#1513  Finance Office: Withdraw update #0820; it was entered in error.
+#1514  Finance Office: Durikul budget increased by $150K.
+#1515  Finance Office: Durikul budget increased by $45K per the revised plan.
+#1516  Finance Office: Durikul budget decreased by $120K after review.
+#1517  Finance Office: Durikul budget decreased by $60K.
+#1518  Finance Office: Durikul invoice batch FC-8904 archived.
+#1519  Finance Office: Withdraw update #1417; it was entered in error.
+#1520  Vendor call: Durikul test environment back online.
+#1521  Finance Office: Durikul budget decreased by $140K.
+#1522  Finance Office: Durikul budget increased by $35K after review.
+#1523  Legal email: Durikul demo rescheduled to Friday afternoon.
+#1524  Vendor call: Durikul design review moved to Room 2B.
+#1525  Finance Office: Durikul budget increased by $140K after review.
+#1526  Finance Office: Durikul receipts scanned.
+#1527  Finance Office: Durikul budget increased by $120K.
+#1528  Finance Office: Durikul budget decreased by $65K after review.
+#1529  Marketing email: Durikul kickoff moved to Building 9.
+#1530  Finance Office: Durikul budget decreased by $80K per the revised plan.
+#1531  Legal email: Durikul weekly sync moved to Tuesdays.
+#1532  Finance Office: Durikul budget increased by $15K.
+#1533  Finance Office: Durikul budget decreased by $60K.
+#1534  Finance Office: Durikul budget increased by $65K after review.
+#1535  Finance Office: Durikul budget increased by $20K per the revised plan.
+#1536  Engineering email: Durikul security review passed.
+#1537  Vendor call: Durikul test environment back online.
+#1538  Facilities ticket: Durikul kickoff moved to Building 9.
+#1539  Legal email: Durikul sprint 11 retrospective notes posted.
+#1540  Finance Office: Durikul budget increased by $55K after review.
+#1541  Legal email: Durikul design review moved to Room 6B.
+#1542  Facilities ticket: Durikul kickoff moved to Building 3.
+#1543  Marketing email: Durikul weekly sync moved to Tuesdays.
+#1544  Finance Office: Withdraw update #1133; it was entered in error.
+#1545  Finance Office: Durikul budget increased by $85K after review.
+#1546  Finance Office: Durikul budget decreased by $50K per the revised plan.
+#1547  Finance Office: Durikul budget increased by $50K.
+#1548  Facilities ticket: Durikul demo rescheduled to Tuesday afternoon.
+#1549  Finance Office: Withdraw update #1261; it was entered in error.
+#1550  PMO note: Durikul sprint 5 retrospective notes posted.
+#1551  Finance Office: Durikul budget increased by $90K.
+#1552  Vendor call: Durikul weekly sync moved to Mondays.
+#1553  Finance Office: Durikul budget decreased by $125K after review.
+#1554  Finance Office: Durikul budget decreased by $75K.
+#1555  Finance Office: Withdraw update #0365; it was entered in error.
+#1556  Vendor call: Durikul kickoff moved to Building 7.
+#1557  Finance Office: Withdraw update #0776.
+#1558  Vendor call: Durikul kickoff moved to Building 9.
+#1559  Legal email: Durikul kickoff moved to Building 5.
+#1560  Finance Office: Durikul budget increased by $80K per the revised plan.
+#1561  Finance Office: Durikul budget decreased by $55K per the revised plan.
+#1562  Finance Office: Durikul budget increased by $80K per the revised plan.
+#1563  Finance Office: Durikul budget increased by $70K after review.
+#1564  PMO note: Durikul site visit confirmed for Monday.
+#1565  Finance Office: Durikul budget increased by $55K per the revised plan.
+#1566  PMO note: Durikul sprint 36 retrospective notes posted.
+#1567  Legal email: Durikul kickoff moved to Building 8.
+#1568  Finance Office: Durikul audit notes filed.
+#1569  Finance Office: Withdraw update #0750; it was entered in error.
+#1570  Finance Office: Durikul budget increased by $75K.
+#1571  Finance Office: Withdraw update #1281; it was entered in error.
+#1572  Vendor call: Durikul sprint 13 retrospective notes posted.
+#1573  Finance Office: Reminder: Durikul expense reports are due Thursday.
+#1574  Finance Office: Withdraw update #0539; it was entered in error.
+#1575  Finance Office: Durikul budget increased by $35K after review.
+#1576  Finance Office: Durikul budget decreased by $95K.
+#1577  Finance Office: Durikul budget decreased by $5K.
+#1578  Finance Office: Durikul budget increased by $70K.
+#1579  PMO note: Durikul weekly sync moved to Fridays.
+#1580  Vendor call: Durikul weekly sync moved to Thursdays.
+#1581  Operations chat: Durikul documentation moved to the shared drive.
+#1582  Operations chat: Durikul weekly sync moved to Thursdays.
+#1583  Finance Office: Durikul budget increased by $30K after review.
+#1584  Finance Office: Durikul budget increased by $140K per the revised plan.
+#1585  Finance Office: Durikul budget increased by $85K.
+#1586  Finance Office: Durikul budget decreased by $15K.
+#1587  Finance Office: Durikul budget increased by $20K after review.
+#1588  Legal email: Durikul kickoff moved to Building 8.
+#1589  Legal email: Durikul weekly sync moved to Thursdays.
+#1590  PMO note: Durikul status report filed for week 39.
+#1591  Finance Office: Durikul budget decreased by $50K.
+#1592  PMO note: Durikul weekly sync moved to Mondays.
+#1593  Operations chat: Durikul weekly sync moved to Thursdays.
+#1594  Engineering email: Durikul design review moved to Room 4A.
+#1595  Engineering email: Durikul status report filed for week 16.
+#1596  Finance Office: Durikul budget decreased by $105K per the revised plan.
+#1597  Finance Office: Withdraw update #0608.
+#1598  Operations chat: Durikul sprint 9 retrospective notes posted.
+#1599  Finance Office: Withdraw update #0948.
+#1600  Finance Office: Durikul budget increased by $15K.
+
+Question: What is Durikul's budget now?
