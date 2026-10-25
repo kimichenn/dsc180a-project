@@ -1,0 +1,63 @@
+{
+ "trial_id": "s600002_n1600_C_none_gpt_r1",
+ "order": 22,
+ "world_id": "s600002_n1600",
+ "version": "C",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "kimi-chen",
+ "git_commit": "164a0f019c482e3ab0347bd37f7091b88691be1b",
+ "git_dirty": false,
+ "client_version": "codex-cli 0.164.0-alpha.11.1",
+ "prompt_sha256": "8d72f80a0736ada9969791d6b226a48e0b9a1580757b7651d23988d613e29c83",
+ "started_at": "2026-10-25T06:48:06+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Applying all Finance Office budget changes in order, starting from $560K, gives a final budget of **$1,640K**. No withdrawals appear in the records.\n\nANSWER: $1640K",
+ "usage": {
+  "input_tokens": 27020,
+  "cached_input_tokens": 0,
+  "output_tokens": 3061,
+  "reasoning_output_tokens": 3014
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a171d1-07ef-7cc2-ba19-f1d880717250"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Applying all Finance Office budget changes in order, starting from $560K, gives a final budget of **$1,640K**. No withdrawals appear in the records.\n\nANSWER: $1640K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 27020,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3061,
+     "reasoning_output_tokens": 3014
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-10-25T06:48:49+00:00",
+ "elapsed_s": 43.0
+}

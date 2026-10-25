@@ -1,0 +1,63 @@
+{
+ "trial_id": "s600003_n1600_C_none_gpt_r1",
+ "order": 31,
+ "world_id": "s600003_n1600",
+ "version": "C",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "kimi-chen",
+ "git_commit": "164a0f019c482e3ab0347bd37f7091b88691be1b",
+ "git_dirty": false,
+ "client_version": "codex-cli 0.164.0-alpha.11.1",
+ "prompt_sha256": "f43fa987831e89f3c914b7d881cb9d8579126becea9ccf31a0417307b6e56b68",
+ "started_at": "2026-10-25T06:49:32+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Ruge\u2019s initial budget was $1,930K. The Finance Office\u2019s subsequent budget updates total a net increase of $565K. No withdrawals appear in the records.\n\nANSWER: $2495K",
+ "usage": {
+  "input_tokens": 26978,
+  "cached_input_tokens": 0,
+  "output_tokens": 3196,
+  "reasoning_output_tokens": 3149
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a171d2-57cf-70c1-a91d-1326975b2376"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Ruge\u2019s initial budget was $1,930K. The Finance Office\u2019s subsequent budget updates total a net increase of $565K. No withdrawals appear in the records.\n\nANSWER: $2495K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 26978,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3196,
+     "reasoning_output_tokens": 3149
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-10-25T06:50:12+00:00",
+ "elapsed_s": 40.1
+}

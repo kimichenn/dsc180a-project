@@ -1,0 +1,63 @@
+{
+ "trial_id": "s600000_n1600_C_none_gpt_r1",
+ "order": 1,
+ "world_id": "s600000_n1600",
+ "version": "C",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "kimi-chen",
+ "git_commit": "164a0f019c482e3ab0347bd37f7091b88691be1b",
+ "git_dirty": false,
+ "client_version": "codex-cli 0.164.0-alpha.11.1",
+ "prompt_sha256": "e477ff1aad2a05f982e2e5344a0418a445ba9299bb7c433dd98f802478caab76",
+ "started_at": "2026-10-25T06:42:16+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Starting from $540K, all subsequent Finance Office budget changes total a net increase of $676K. No withdrawals appear in the records.\n\nANSWER: $1216K",
+ "usage": {
+  "input_tokens": 26972,
+  "cached_input_tokens": 0,
+  "output_tokens": 2879,
+  "reasoning_output_tokens": 2839
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a171cb-b0af-7e11-8356-807734e3aa8a"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Starting from $540K, all subsequent Finance Office budget changes total a net increase of $676K. No withdrawals appear in the records.\n\nANSWER: $1216K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 26972,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2879,
+     "reasoning_output_tokens": 2839
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-10-25T06:43:00+00:00",
+ "elapsed_s": 43.8
+}
