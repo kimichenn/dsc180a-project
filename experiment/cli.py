@@ -14,7 +14,7 @@ from pathlib import Path
 from experiment import runs, text
 from experiment.checks import check_hand_logs, check_scoring, check_world
 from experiment.clients import ClientError, make_client
-from experiment.collect import collect, pending
+from experiment.collect import Limits, collect, pending
 from experiment.config import GeneratorSettings, load_config
 from experiment.generator import generate
 from experiment.prompts import Prompt, system_prompt, user_prompt
@@ -200,9 +200,13 @@ def cmd_status(args) -> int:
 def cmd_collect(args) -> int:
     run = runs.load(args.run)
     operator = runs.operator_name(args.operator)
-    unknown = set(args.models or []) - set(run.config.models)
+    workers, per_minute = dict(args.workers or []), dict(args.calls_per_minute or [])
+    unknown = (set(args.models or []) | set(workers) | set(per_minute)) - set(run.config.models) - {None}
     if unknown:
         raise ValueError(f"not in this run: {', '.join(sorted(unknown))} (it has {', '.join(run.config.models)})")
+    limits = {
+        m: Limits(_for_model(workers, m, Limits.workers), _for_model(per_minute, m, Limits.calls_per_minute)) for m in run.config.models
+    }
     todo = pending(run, args.models, args.shard)
     if args.max_calls is not None:
         todo = todo[: args.max_calls]
@@ -219,9 +223,11 @@ def cmd_collect(args) -> int:
     if not todo:
         return 1
     counts = Counter(t.model for t in todo)
-    print(f"{len(todo)} calls as {operator}: " + ", ".join(f"{m} {n} ({clients[m].version})" for m, n in sorted(counts.items())))
+    print(f"{len(todo)} calls as {operator}: " + ", ".join(
+        f"{m} {n} ({clients[m].version}; {limits[m].workers} at once, {limits[m].calls_per_minute:g}/min)" for m, n in sorted(counts.items())
+    ))
     with runs.collect_lock(run, operator):
-        summary = collect(run, clients, todo, operator, args.workers)
+        summary = collect(run, clients, todo, operator, limits)
     print(f"\n{summary.calls} calls: " + ", ".join(f"{k} {v}" for k, v in summary.outcomes.most_common()))
     for model, reason in summary.stopped.items():
         print(f"stopped {model}: {reason}")
@@ -247,6 +253,24 @@ def _shard(value: str) -> tuple[int, int]:
     if not 1 <= k <= n:
         raise argparse.ArgumentTypeError("need 1 <= K <= N")
     return k, n
+
+
+def _per_model(number: type):
+    """An argparse type for N (every model) or MODEL=N (one model): (model or None, N)."""
+
+    def parse(value: str) -> tuple[str | None, int | float]:
+        model, _, amount = value.rpartition("=")
+        try:
+            return model or None, number(amount)
+        except ValueError:
+            raise argparse.ArgumentTypeError(f"use N or MODEL=N, e.g. 3 or claude=3 (got {value!r})") from None
+
+    return parse
+
+
+def _for_model(values: dict, model: str, default):
+    """The model's own MODEL=N, else a bare N, else the default."""
+    return values.get(model, values.get(None, default))
 
 
 def _relative(path: Path) -> str:
@@ -291,7 +315,10 @@ def _parser() -> argparse.ArgumentParser:
     collect_.add_argument("--models", nargs="+", help="only these models (default: all in the run)")
     collect_.add_argument("--shard", type=_shard, help="only shard K of N (e.g. 1/2), to split one model's calls between people")
     collect_.add_argument("--max-calls", type=int, help="stop after this many calls")
-    collect_.add_argument("--workers", type=int, default=1, help="calls at once (default 1)")
+    collect_.add_argument("--workers", type=_per_model(int), nargs="+", metavar="[MODEL=]N",
+                          help=f"calls in flight at once per model, e.g. 2 or claude=4 gpt=1 (default {Limits.workers})")
+    collect_.add_argument("--calls-per-minute", type=_per_model(float), nargs="+", metavar="[MODEL=]N",
+                          help=f"new calls per minute per model, spaced evenly (default {Limits.calls_per_minute:g})")
     collect_.add_argument("--operator", help="your name on each attempt (default: $EXPERIMENT_OPERATOR or git user.name)")
     collect_.set_defaults(handler=cmd_collect)
 

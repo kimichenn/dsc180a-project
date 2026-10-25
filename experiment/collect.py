@@ -4,7 +4,12 @@ A trial is done once it has a completed, eligible attempt. The next collect retr
 else: errors (timeouts, usage limits, CLI failures) and completed calls that failed the audit (used
 a tool, served another model, more than one turn). Wrong answers and gave-ups are never retried.
 A model stops for the session at its first audit failure, its usage limit, a fatal error (not
-logged in, model unavailable), or three errors in a row; the other models keep going.
+logged in, model unavailable), or three errors in a row; its calls in flight still finish and are
+saved, and the other models keep going.
+
+Each model gets its own lane, with its own Limits, so one subscription's pace never holds back the
+other's. Calls run on threads: each one waits on a CLI subprocess, so there is no Python work to
+spread across processes.
 """
 
 from __future__ import annotations
@@ -12,8 +17,8 @@ from __future__ import annotations
 import hashlib
 import sys
 import time
-from collections import Counter
-from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait
+from collections import Counter, deque
+from concurrent.futures import FIRST_COMPLETED, Future, ThreadPoolExecutor, wait
 from dataclasses import asdict, dataclass, field
 
 from experiment.clients import Client, ClientError, FatalClientError, UsageLimitError, stop_all
@@ -21,6 +26,46 @@ from experiment.runs import Run, Trial, counted, git_state, now, read_attempts, 
 from experiment.scoring import hit_length_limit, score
 
 MAX_ERRORS_IN_A_ROW = 3
+
+
+@dataclass(frozen=True)
+class Limits:
+    """How hard collect pushes one model's subscription.
+
+    Neither CLI's subscription publishes a per-minute or concurrency cap: both meter usage in 5-hour
+    and weekly windows, which parallel calls only spend sooner. Both CLIs also retry a 429 themselves
+    before failing, and the failure then stops the model like a usage limit. So these defaults keep
+    bursts down; they do not enforce a known quota.
+    """
+
+    workers: int = 3  # calls in flight at once
+    calls_per_minute: float = 6  # call starts are spaced 60 / calls_per_minute seconds apart
+
+    def __post_init__(self):
+        if self.workers < 1 or self.calls_per_minute <= 0:
+            raise ValueError("workers must be at least 1 and calls_per_minute must be positive")
+
+
+@dataclass
+class _Lane:
+    """One model's calls still to start, how many are in flight, and when pacing allows the next."""
+
+    client: Client
+    limits: Limits
+    queue: deque[Trial] = field(default_factory=deque)
+    in_flight: int = 0
+    next_start: float = 0.0  # time.monotonic()
+
+    def seconds_to_start(self, clock: float) -> float | None:
+        """0 if a call can start now; None if none can start until a call finishes (or none is left)."""
+        if not self.queue or self.in_flight >= self.limits.workers:
+            return None
+        return max(0.0, self.next_start - clock)
+
+    def start(self, clock: float) -> Trial:
+        self.in_flight += 1
+        self.next_start = clock + 60 / self.limits.calls_per_minute
+        return self.queue.popleft()
 
 
 @dataclass
@@ -70,29 +115,38 @@ def call(run: Run, trial: Trial, client: Client, session: dict) -> dict:
     return record
 
 
-def collect(run: Run, clients: dict[str, Client], trials: list[Trial], operator: str, workers: int = 1) -> Summary:
+def collect(run: Run, clients: dict[str, Client], trials: list[Trial], operator: str, limits: dict[str, Limits]) -> Summary:
+    """Make the trials' calls, each model in schedule order within its own Limits."""
     session = {"operator": operator, **git_state()}
     summary = Summary()
-    queue = list(trials)
+    lanes = {model: _Lane(client, limits[model]) for model, client in clients.items()}
+    for trial in trials:
+        lanes[trial.model].queue.append(trial)
     streak: Counter = Counter()
-    running = {}
+    running: dict[Future, Trial] = {}
     width = len(str(len(trials)))
-    pool = ThreadPoolExecutor(max_workers=workers)
+    pool = ThreadPoolExecutor(max_workers=sum(lane.limits.workers for lane in lanes.values()))
     try:
-        while queue or running:
-            while len(running) < workers and queue:
-                trial = queue.pop(0)
-                if trial.model not in summary.stopped:
-                    running[pool.submit(call, run, trial, clients[trial.model], session)] = trial
-            if not running:
+        while True:
+            clock = time.monotonic()
+            for lane in lanes.values():
+                if lane.seconds_to_start(clock) == 0:
+                    trial = lane.start(clock)
+                    running[pool.submit(call, run, trial, lane.client, session)] = trial
+            waits = [s for lane in lanes.values() if (s := lane.seconds_to_start(clock)) is not None]
+            if not running and not waits:
                 break
-            finished, _ = wait(running, return_when=FIRST_COMPLETED)
+            # Wake for the first call to finish, or for the next start pacing allows, whichever is sooner.
+            finished, _ = wait(running, timeout=min(waits, default=None), return_when=FIRST_COMPLETED)
             for future in finished:
                 trial = running.pop(future)
-                record = future.result()
+                lane = lanes[trial.model]
+                lane.in_flight -= 1
                 summary.calls += 1
                 prefix = f"[{summary.calls:>{width}}/{len(trials)}] {trial.world_id} {trial.version:2} {trial.instruction} {trial.model} r{trial.repeat}"
-                _report(summary, streak, trial, record, prefix, run.keys[trial.world_id], clients[trial.model].spec.max_output_tokens)
+                _report(summary, streak, trial, future.result(), prefix, run.keys[trial.world_id], lane.client.spec.max_output_tokens)
+                if trial.model in summary.stopped:
+                    lane.queue.clear()
     except KeyboardInterrupt:
         stop_all()
         summary.interrupted = True
