@@ -137,7 +137,7 @@ def check_frozen(config: RunConfig, run_dir: Path, state: dict) -> None:
     """The main run is collected once and is the study's evidence, so it is prepared only from
     committed code with the final skill text, and only on logs no other run has used."""
     if not SKILL.strip():
-        raise ValueError("the main run needs the skill: paste its text into SKILL in experiment/prompts.py and commit it")
+        raise ValueError("the main run needs the skill: fill in experiment/skills/workflow_v2.md and commit it")
     if state["git_dirty"] is not False:
         raise ValueError("the main run is prepared only from a clean, committed working tree: commit or stash every change first")
     reused = sorted(_seeds_in_runs(Path(run_dir).parent).intersection(config.seeds))

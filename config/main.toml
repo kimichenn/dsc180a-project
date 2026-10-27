@@ -1,7 +1,6 @@
 # Main run, per model:
 #   tier 1: 30 logs * versions C/R/RG/E * no skill/skill * repeats 1-3 = 720 calls
 #   tier 2: 10 of those logs * R/RG * no skill/skill * repeats 4-10  = 280 calls
-# Before preparing it, paste the skill into SKILL in experiment/prompts.py and commit: prepare refuses
 # the main run while the skill is empty or the working tree has uncommitted changes. Then prepare and
 # commit the run. The schedule goes log by log, so a run cut short still has whole logs.
 purpose = "main"

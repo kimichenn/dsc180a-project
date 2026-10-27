@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from pathlib import Path
 
 from experiment import text
 from experiment.records import Record
@@ -11,9 +12,9 @@ SYSTEM = (
     "You will answer a question about records from a fictional organization. Use only the information supplied. "
     "You may work through the records before answering. End your response with one line in the form `ANSWER: $<number>K`."
 )
-# The conflict-resolution skill, added after SYSTEM in the "skill" arm: paste the final text here.
-# Until it is filled in, a run that asks for the "skill" arm refuses to prepare, and so does the main run.
-SKILL = ""
+# Workflow V2, added after SYSTEM in the "skill" arm.
+SKILL_FILE = Path(__file__).resolve().parent / "skills" / "workflow_v2.md"
+SKILL = SKILL_FILE.read_text(encoding="utf-8").strip()
 # Text added after SYSTEM in each instruction arm.
 INSTRUCTIONS = {"none": "", "skill": SKILL}
 
@@ -29,7 +30,7 @@ def system_prompt(instruction: str) -> str:
         raise ValueError(f"unknown instruction {instruction!r}; defined: {', '.join(INSTRUCTIONS)}")
     extra = INSTRUCTIONS[instruction].strip()
     if instruction != "none" and not extra:
-        raise ValueError(f"instruction {instruction!r} has no text yet; write it in experiment/prompts.py first")
+        raise ValueError(f"instruction {instruction!r} has no text yet; write it in {SKILL_FILE} first")
     return f"{SYSTEM}\n\n{extra}" if extra else SYSTEM
 
 

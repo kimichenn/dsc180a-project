@@ -65,7 +65,7 @@ python -m experiment preview --seed 1 --records 40
 
 `validate` checks the generator, solvers, and scoring. `preview` shows R and E side by side with an answer key and record explanations; use `--versions` to choose other versions.
 
-For live runs, install and sign in to the **Claude Code and Codex CLIs** with subscriptions that can access the configured models. Fill in `SKILL` in [experiment/prompts.py](experiment/prompts.py) before preparing the pilot. Preparing the main study also requires a clean, committed working tree.
+For live runs, install and sign in to the **Claude Code and Codex CLIs** with subscriptions that can access the configured models. The `skill` arm loads Workflow V2 from [experiment/skills/workflow_v2.md](experiment/skills/workflow_v2.md) through [experiment/prompts.py](experiment/prompts.py). Preparing the main study also requires a clean, committed working tree.
 
 Check access and prepare the pilot:
 
