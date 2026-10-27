@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Musufu budget set to $2250K.
+#0002  Finance Office: Musufu budget increased by $347K per the revised plan.
+#0003  Finance Office: Withdraw update #0002; it was entered in error.
+#0004  Operations chat: Musufu budget is going down by $384K.
+#0005  Finance Office: Musufu budget decreased by $6K per the revised plan.
+#0006  Sales update: Musufu budget is going up by $587K.
+#0007  Finance Office: Musufu budget increased by $100K.
+#0008  Finance Office: Musufu budget decreased by $17K.
+#0009  Engineering email: Pretty sure Musufu's budget is $2210K now.
+#0010  Engineering email: Musufu budget is going down to $1820K.
+#0011  Finance Office: Musufu budget increased by $216K.
+#0012  Facilities ticket: Pretty sure Musufu's budget is $2970K now.
+#0013  Vendor call: Heard Musufu's budget is now $2910K.
+#0014  Facilities ticket: Musufu kickoff moved to Building 2.
+#0015  PMO note: Heard Musufu's budget is now $2140K.
+#0016  Vendor call: Hearing Musufu's budget goes down $473K.
+#0017  Operations chat: Pretty sure Musufu's budget is $2420K now.
+#0018  Engineering email: Musufu budget is going to $2200K.
+#0019  Marketing email: Musufu documentation moved to the shared drive.
+#0020  Engineering email: Musufu budget is going to $2210K.
+#0021  Finance Office: Musufu budget increased by $178K per the revised plan.
+#0022  Marketing email: Hearing Musufu's budget goes down $139K.
+#0023  Marketing email: Musufu budget is going to $2310K.
+#0024  Facilities ticket: Heard Musufu's budget is now $2260K.
+#0025  Finance Office: Musufu budget increased by $227K after review.
+#0026  PMO note: Musufu security review passed.
+#0027  Finance Office: Musufu budget decreased by $12K per the revised plan.
+#0028  PMO note: Expect Musufu's budget to drop by $259K.
+#0029  Operations chat: Sounds like Musufu gets $283K more.
+#0030  Legal email: Musufu budget is going to $3650K.
+#0031  Sales update: Pretty sure Musufu's budget is $2960K now.
+#0032  PMO note: Musufu site visit confirmed for Wednesday.
+#0033  Finance Office: Musufu budget increased by $567K after review.
+#0034  Engineering email: Musufu vendor onboarding call scheduled for Tuesday.
+#0035  Finance Office: Musufu budget increased by $392K.
+#0036  Finance Office: Musufu budget decreased by $401K per the revised plan.
+#0037  Finance Office: Musufu budget increased by $39K.
+#0038  Finance Office: Withdraw update #0003.
+#0039  Operations chat: Musufu budget is going down by $293K.
+#0040  Finance Office: Musufu budget increased by $70K.
+#0041  Finance Office: Musufu budget decreased by $312K.
+#0042  Finance Office: Withdraw update #0041; it was entered in error.
+#0043  Finance Office: Withdraw update #0005; it was entered in error.
+#0044  Marketing email: Sounds like Musufu gets $374K more.
+#0045  Finance Office: Musufu budget increased by $129K after review.
+#0046  Marketing email: Expect Musufu's budget to drop by $256K.
+#0047  Finance Office: Withdraw update #0021; it was entered in error.
+#0048  Finance Office: Musufu budget decreased by $467K per the revised plan.
+#0049  Finance Office: Musufu budget decreased by $376K.
+#0050  Finance Office: Musufu budget decreased by $589K per the revised plan.
+#0051  Finance Office: Musufu budget decreased by $597K per the revised plan.
+#0052  Sales update: Musufu test environment back online.
+#0053  Finance Office: Withdraw update #0027; it was entered in error.
+#0054  Finance Office: Musufu budget increased by $40K after review.
+#0055  Finance Office: Musufu budget decreased by $45K.
+#0056  Finance Office: Musufu budget decreased by $45K per the revised plan.
+#0057  Facilities ticket: Hearing Musufu's budget goes down $302K.
+#0058  Finance Office: Withdraw update #0047; it was entered in error.
+#0059  Operations chat: Musufu test environment back online.
+#0060  Finance Office: Musufu budget increased by $61K per the revised plan.
+#0061  Operations chat: Heard Musufu's budget is now $2230K.
+#0062  Finance Office: Musufu budget decreased by $507K.
+#0063  Marketing email: Musufu budget should land at $1440K.
+#0064  Facilities ticket: Musufu security review passed.
+#0065  Finance Office: Musufu budget decreased by $482K.
+#0066  Finance Office: Musufu budget increased by $5K after review.
+#0067  Finance Office: Withdraw update #0035.
+#0068  Finance Office: Musufu budget increased by $177K after review.
+#0069  Finance Office: Musufu invoice batch FC-5580 archived.
+#0070  Finance Office: Musufu budget increased by $5K per the revised plan.
+#0071  Finance Office: Musufu budget increased by $524K.
+#0072  Legal email: Musufu budget should land at $1730K.
+#0073  Finance Office: Musufu budget increased by $55K after review.
+#0074  Sales update: Musufu demo rescheduled to Wednesday afternoon.
+#0075  Legal email: Heard Musufu's budget is now $1840K.
+#0076  Finance Office: Withdraw update #0025; it was entered in error.
+#0077  Finance Office: Musufu budget decreased by $65K after review.
+#0078  Finance Office: Musufu budget increased by $11K after review.
+#0079  Finance Office: Musufu cost center code changed to FC-5316.
+#0080  Finance Office: Musufu budget increased by $40K per the revised plan.
+#0081  Finance Office: Musufu budget increased by $100K.
+#0082  Finance Office: Musufu budget increased by $539K.
+#0083  Engineering email: Expect Musufu's budget to drop by $361K.
+#0084  Finance Office: Musufu budget increased by $582K per the revised plan.
+#0085  Operations chat: Musufu demo rescheduled to Friday afternoon.
+#0086  Sales update: Musufu weekly sync moved to Wednesdays.
+#0087  Finance Office: Musufu budget increased by $25K after review.
+#0088  Legal email: Hearing Musufu's budget goes down $7K.
+#0089  Facilities ticket: Musufu budget is going down by $109K.
+#0090  Legal email: Musufu sprint 11 retrospective notes posted.
+#0091  Finance Office: Musufu receipts scanned.
+#0092  Finance Office: Withdraw update #0053.
+#0093  Finance Office: Musufu budget decreased by $55K.
+#0094  Operations chat: Musufu budget is going up by $192K.
+#0095  Sales update: Sounds like Musufu gets $529K less.
+#0096  Finance Office: Musufu budget increased by $135K after review.
+#0097  Engineering email: Expect Musufu's budget to rise by $44K.
+#0098  Operations chat: Musufu budget is going down by $592K.
+#0099  Finance Office: Musufu budget decreased by $100K.
+#0100  Marketing email: Sounds like Musufu gets $454K more.
+#0101  Finance Office: Musufu budget increased by $27K.
+#0102  Finance Office: Musufu budget increased by $488K after review.
+#0103  Engineering email: Pretty sure Musufu's budget is $2800K now.
+#0104  Finance Office: Musufu budget increased by $14K per the revised plan.
+#0105  Finance Office: Musufu budget increased by $478K.
+#0106  Finance Office: Musufu budget decreased by $105K after review.
+#0107  Finance Office: Musufu budget decreased by $226K per the revised plan.
+#0108  Finance Office: Withdraw update #0048; it was entered in error.
+#0109  Facilities ticket: Hearing Musufu's budget goes down $174K.
+#0110  Finance Office: Withdraw update #0038; it was entered in error.
+#0111  Marketing email: Musufu budget is going up to $4210K.
+#0112  Vendor call: Musufu budget is going up by $262K.
+#0113  Finance Office: Musufu budget increased by $65K after review.
+#0114  Finance Office: Musufu invoice batch FC-4547 archived.
+#0115  Marketing email: Musufu status report filed for week 12.
+#0116  Legal email: Musufu budget should land at $3860K.
+#0117  Finance Office: Musufu budget decreased by $25K per the revised plan.
+#0118  Sales update: Heard Musufu's budget is now $2350K.
+#0119  Facilities ticket: Musufu budget should land at $3300K.
+#0120  Finance Office: Withdraw update #0105.
+#0121  Engineering email: Hearing Musufu's budget goes down $489K.
+#0122  Finance Office: Musufu budget increased by $150K after review.
+#0123  Marketing email: Pretty sure Musufu's budget is $3620K now.
+#0124  Finance Office: Musufu budget decreased by $579K per the revised plan.
+#0125  Finance Office: Musufu budget decreased by $80K after review.
+#0126  Finance Office: Musufu budget increased by $105K after review.
+#0127  Finance Office: Musufu budget increased by $55K after review.
+#0128  Engineering email: Musufu budget is going down by $522K.
+#0129  Sales update: Pretty sure Musufu's budget is $2680K now.
+#0130  Finance Office: Musufu budget increased by $82K after review.
+#0131  Engineering email: Musufu budget is going up to $2910K.
+#0132  Vendor call: Heard Musufu's budget is now $3100K.
+#0133  Finance Office: Withdraw update #0060; it was entered in error.
+#0134  Finance Office: Musufu budget decreased by $10K after review.
+#0135  Finance Office: Musufu budget decreased by $130K after review.
+#0136  Finance Office: Musufu budget increased by $391K per the revised plan.
+#0137  Finance Office: Musufu budget increased by $241K.
+#0138  Finance Office: Musufu budget decreased by $398K per the revised plan.
+#0139  Finance Office: Musufu invoice batch FC-1787 archived.
+#0140  Finance Office: Withdraw update #0133.
+#0141  Finance Office: Withdraw update #0130; it was entered in error.
+#0142  Finance Office: Withdraw update #0076; it was entered in error.
+#0143  Finance Office: Withdraw update #0092.
+#0144  Finance Office: Musufu budget decreased by $150K after review.
+#0145  Engineering email: Musufu budget should land at $3670K.
+#0146  Vendor call: Hearing Musufu's budget goes down $403K.
+#0147  Finance Office: Musufu cost center code changed to FC-9323.
+#0148  PMO note: Musufu budget is going down by $116K.
+#0149  Facilities ticket: Pretty sure Musufu's budget is $1910K now.
+#0150  Operations chat: Hearing Musufu's budget goes down $434K.
+#0151  Finance Office: Withdraw update #0058.
+#0152  Finance Office: Musufu budget increased by $90K per the revised plan.
+#0153  Engineering email: Musufu budget is going down by $3K.
+#0154  Facilities ticket: Musufu budget is going up to $2850K.
+#0155  Finance Office: Musufu budget increased by $342K after review.
+#0156  Engineering email: Sounds like Musufu gets $133K more.
+#0157  Finance Office: Musufu budget decreased by $93K after review.
+#0158  Sales update: Hearing Musufu's budget goes down $134K.
+#0159  Finance Office: Musufu budget decreased by $135K after review.
+#0160  Finance Office: Musufu budget increased by $197K after review.
+#0161  Operations chat: Expect Musufu's budget to drop by $258K.
+#0162  PMO note: Hearing Musufu's budget goes down $79K.
+#0163  Finance Office: Musufu budget increased by $5K.
+#0164  Vendor call: Musufu budget is going to $2200K.
+#0165  PMO note: Musufu budget is going up by $83K.
+#0166  Finance Office: Musufu budget increased by $40K per the revised plan.
+#0167  Finance Office: Withdraw update #0067; it was entered in error.
+#0168  Finance Office: Musufu budget decreased by $90K.
+#0169  Finance Office: Musufu budget decreased by $267K after review.
+#0170  Sales update: Musufu budget is going down to $2880K.
+#0171  Sales update: Heard Musufu's budget is now $3840K.
+#0172  Finance Office: Withdraw update #0036; it was entered in error.
+#0173  Finance Office: Withdraw update #0140; it was entered in error.
+#0174  Finance Office: Musufu budget increased by $474K after review.
+#0175  Sales update: Musufu demo rescheduled to Tuesday afternoon.
+#0176  Finance Office: Musufu finance review moved to Room 1A.
+#0177  Finance Office: Musufu budget increased by $40K after review.
+#0178  Finance Office: Withdraw update #0071; it was entered in error.
+#0179  Operations chat: Musufu budget is going down to $2340K.
+#0180  Engineering email: Musufu documentation moved to the shared drive.
+#0181  Finance Office: Musufu budget decreased by $120K per the revised plan.
+#0182  PMO note: Musufu kickoff moved to Building 4.
+#0183  Facilities ticket: Musufu budget is going to $4020K.
+#0184  Finance Office: Musufu budget decreased by $588K.
+#0185  Finance Office: Musufu budget increased by $146K after review.
+#0186  Marketing email: Hearing Musufu's budget goes up $393K.
+#0187  Finance Office: Musufu budget decreased by $100K.
+#0188  Facilities ticket: Expect Musufu's budget to drop by $348K.
+#0189  Operations chat: Musufu budget should land at $3490K.
+#0190  Finance Office: Musufu purchase order FC-3559 closed.
+#0191  Finance Office: Withdraw update #0141; it was entered in error.
+#0192  Finance Office: Withdraw update #0084; it was entered in error.
+#0193  Finance Office: Musufu budget decreased by $206K.
+#0194  Marketing email: Musufu budget is going down to $1460K.
+#0195  Vendor call: Musufu test environment back online.
+#0196  Sales update: Musufu budget is going up to $2230K.
+#0197  Finance Office: Musufu budget decreased by $336K.
+#0198  Finance Office: Musufu budget decreased by $508K per the revised plan.
+#0199  Finance Office: Musufu budget decreased by $15K per the revised plan.
+#0200  Finance Office: Musufu budget increased by $35K.
+#0201  Finance Office: Musufu budget decreased by $10K.
+#0202  Finance Office: Reminder: Musufu expense reports are due Wednesday.
+#0203  Finance Office: Withdraw update #0065.
+#0204  Finance Office: Musufu budget decreased by $50K per the revised plan.
+#0205  Finance Office: Musufu budget increased by $458K.
+#0206  Facilities ticket: Musufu budget is going up to $2510K.
+#0207  PMO note: Hearing Musufu's budget goes down $337K.
+#0208  Finance Office: Musufu budget increased by $266K.
+#0209  Operations chat: Hearing Musufu's budget goes up $29K.
+#0210  Finance Office: Musufu budget increased by $50K.
+#0211  Marketing email: Musufu design review moved to Room 2D.
+#0212  Finance Office: Musufu budget increased by $103K per the revised plan.
+#0213  Marketing email: Pretty sure Musufu's budget is $1900K now.
+#0214  Finance Office: Musufu budget decreased by $5K after review.
+#0215  Finance Office: Musufu budget decreased by $10K.
+#0216  Engineering email: Expect Musufu's budget to drop by $494K.
+#0217  Finance Office: Musufu budget increased by $362K.
+#0218  Finance Office: Withdraw update #0110.
+#0219  Vendor call: Musufu budget is going to $3120K.
+#0220  Finance Office: Withdraw update #0193.
+#0221  Finance Office: Musufu budget decreased by $568K after review.
+#0222  Engineering email: Expect Musufu's budget to rise by $273K.
+#0223  Finance Office: Musufu budget increased by $35K after review.
+#0224  Finance Office: Musufu budget decreased by $45K after review.
+#0225  Engineering email: Musufu budget should land at $2530K.
+#0226  Finance Office: Musufu cost center code changed to FC-3612.
+#0227  Finance Office: Musufu budget decreased by $90K per the revised plan.
+#0228  Legal email: Musufu budget is going up to $2910K.
+#0229  Finance Office: Musufu budget decreased by $60K after review.
+#0230  Finance Office: Musufu budget increased by $110K.
+#0231  Finance Office: Musufu budget decreased by $101K per the revised plan.
+#0232  Marketing email: Pretty sure Musufu's budget is $2640K now.
+#0233  Finance Office: Musufu budget increased by $218K after review.
+#0234  Finance Office: Musufu budget decreased by $120K.
+#0235  Facilities ticket: Hearing Musufu's budget goes down $239K.
+#0236  Facilities ticket: Musufu documentation moved to the shared drive.
+#0237  Finance Office: Withdraw update #0138; it was entered in error.
+#0238  Finance Office: Musufu budget decreased by $368K per the revised plan.
+#0239  Finance Office: Withdraw update #0217.
+#0240  Sales update: Pretty sure Musufu's budget is $2960K now.
+#0241  Finance Office: Musufu budget increased by $135K.
+#0242  Finance Office: Musufu budget decreased by $100K.
+#0243  Marketing email: Musufu budget is going up to $2660K.
+#0244  Finance Office: Withdraw update #0107; it was entered in error.
+#0245  Facilities ticket: Musufu budget is going down by $422K.
+#0246  Finance Office: Musufu budget decreased by $80K after review.
+#0247  Finance Office: Withdraw update #0212.
+#0248  Finance Office: Musufu budget increased by $135K per the revised plan.
+#0249  Finance Office: Musufu budget increased by $163K.
+#0250  Finance Office: Musufu budget increased by $576K.
+#0251  Operations chat: Musufu site visit confirmed for Thursday.
+#0252  Finance Office: Musufu budget increased by $35K per the revised plan.
+#0253  Finance Office: Musufu budget decreased by $135K.
+#0254  Facilities ticket: Expect Musufu's budget to rise by $81K.
+#0255  Finance Office: Musufu budget increased by $85K.
+#0256  Legal email: Musufu design review moved to Room 3C.
+#0257  Finance Office: Musufu budget decreased by $301K.
+#0258  Sales update: Sounds like Musufu gets $108K less.
+#0259  Marketing email: Musufu test environment back online.
+#0260  Engineering email: Musufu budget is going up to $3950K.
+#0261  Engineering email: Musufu sprint 10 retrospective notes posted.
+#0262  Finance Office: Musufu budget decreased by $122K.
+#0263  Finance Office: Musufu budget increased by $41K after review.
+#0264  Engineering email: Musufu budget is going to $2910K.
+#0265  Finance Office: Withdraw update #0247.
+#0266  Finance Office: Withdraw update #0078; it was entered in error.
+#0267  Marketing email: Hearing Musufu's budget goes up $138K.
+#0268  Finance Office: Musufu budget increased by $40K per the revised plan.
+#0269  Finance Office: Musufu purchase order FC-6495 closed.
+#0270  Legal email: Musufu budget is going to $2730K.
+#0271  Finance Office: Musufu budget increased by $75K per the revised plan.
+#0272  Finance Office: Withdraw update #0051; it was entered in error.
+#0273  Finance Office: Musufu budget decreased by $203K per the revised plan.
+#0274  Finance Office: Musufu budget increased by $10K.
+#0275  Finance Office: Musufu budget decreased by $110K per the revised plan.
+#0276  Finance Office: Musufu budget increased by $25K per the revised plan.
+#0277  Finance Office: Withdraw update #0249.
+#0278  Facilities ticket: Musufu budget should land at $2960K.
+#0279  Finance Office: Musufu budget increased by $40K per the revised plan.
+#0280  Finance Office: Musufu quarterly audit scheduled for Wednesday.
+#0281  Finance Office: Musufu budget increased by $95K after review.
+#0282  Finance Office: Withdraw update #0197.
+#0283  Marketing email: Musufu kickoff moved to Building 8.
+#0284  Finance Office: Musufu budget increased by $60K after review.
+#0285  Finance Office: Musufu budget decreased by $115K per the revised plan.
+#0286  PMO note: Musufu design review moved to Room 3C.
+#0287  Finance Office: Musufu budget decreased by $125K per the revised plan.
+#0288  Engineering email: Sounds like Musufu gets $596K more.
+#0289  Finance Office: Musufu budget decreased by $78K per the revised plan.
+#0290  Facilities ticket: Hearing Musufu's budget goes up $311K.
+#0291  Finance Office: Musufu budget decreased by $95K.
+#0292  Finance Office: Withdraw update #0262.
+#0293  Finance Office: Withdraw update #0008; it was entered in error.
+#0294  Engineering email: Heard Musufu's budget is now $2700K.
+#0295  Finance Office: Musufu budget increased by $40K per the revised plan.
+#0296  Finance Office: Musufu budget decreased by $5K.
+#0297  Legal email: Sounds like Musufu gets $123K less.
+#0298  Finance Office: Musufu budget increased by $153K after review.
+#0299  Finance Office: Musufu budget increased by $194K after review.
+#0300  Finance Office: Musufu budget decreased by $23K after review.
+#0301  PMO note: Expect Musufu's budget to drop by $22K.
+#0302  Finance Office: Musufu budget decreased by $30K after review.
+#0303  Finance Office: Musufu budget increased by $65K after review.
+#0304  Finance Office: Musufu budget decreased by $248K after review.
+#0305  Finance Office: Musufu budget decreased by $309K.
+#0306  Finance Office: Withdraw update #0143; it was entered in error.
+#0307  Engineering email: Heard Musufu's budget is now $4340K.
+#0308  Finance Office: Withdraw update #0220; it was entered in error.
+#0309  Finance Office: Musufu cost center code changed to FC-1346.
+#0310  Finance Office: Withdraw update #0045.
+#0311  Engineering email: Musufu budget should land at $3390K.
+#0312  Finance Office: Musufu budget increased by $35K after review.
+#0313  Finance Office: Withdraw update #0208; it was entered in error.
+#0314  Legal email: Sounds like Musufu gets $383K less.
+#0315  Marketing email: Expect Musufu's budget to rise by $294K.
+#0316  Finance Office: Musufu budget increased by $399K after review.
+#0317  Finance Office: Musufu budget increased by $136K.
+#0318  Marketing email: Musufu security review passed.
+#0319  Finance Office: Musufu budget decreased by $35K per the revised plan.
+#0320  Finance Office: Reminder: Musufu expense reports are due Monday.
+#0321  PMO note: Musufu budget is going to $3070K.
+#0322  Operations chat: Musufu budget is going up by $88K.
+#0323  Finance Office: Musufu budget decreased by $553K after review.
+#0324  Finance Office: Withdraw update #0305; it was entered in error.
+#0325  Legal email: Musufu security review passed.
+#0326  Finance Office: Withdraw update #0304.
+#0327  Finance Office: Musufu budget increased by $105K per the revised plan.
+#0328  Finance Office: Musufu quarterly audit scheduled for Wednesday.
+#0329  Finance Office: Musufu budget decreased by $70K after review.
+#0330  Finance Office: Withdraw update #0299; it was entered in error.
+#0331  Finance Office: Musufu budget decreased by $72K after review.
+#0332  Vendor call: Hearing Musufu's budget goes up $429K.
+#0333  Engineering email: Musufu budget is going up by $382K.
+#0334  Finance Office: Musufu budget increased by $10K after review.
+#0335  PMO note: Sounds like Musufu gets $352K less.
+#0336  Finance Office: Musufu budget increased by $75K per the revised plan.
+#0337  Marketing email: Musufu budget is going down to $2240K.
+#0338  Legal email: Expect Musufu's budget to drop by $223K.
+#0339  Marketing email: Musufu documentation moved to the shared drive.
+#0340  Finance Office: Withdraw update #0298; it was entered in error.
+#0341  Finance Office: Musufu budget increased by $130K.
+#0342  Finance Office: Musufu budget increased by $110K.
+#0343  Operations chat: Musufu vendor onboarding call scheduled for Wednesday.
+#0344  Finance Office: Musufu budget decreased by $105K per the revised plan.
+#0345  Finance Office: Musufu budget increased by $50K per the revised plan.
+#0346  Finance Office: Musufu budget increased by $346K after review.
+#0347  Finance Office: Withdraw update #0108.
+#0348  Sales update: Expect Musufu's budget to rise by $264K.
+#0349  Finance Office: Musufu budget increased by $45K.
+#0350  Finance Office: Musufu budget decreased by $30K per the revised plan.
+#0351  Finance Office: Musufu budget decreased by $70K.
+#0352  Finance Office: Musufu budget increased by $199K.
+#0353  Finance Office: Withdraw update #0173; it was entered in error.
+#0354  Sales update: Musufu budget should land at $2720K.
+#0355  Finance Office: Musufu budget increased by $130K per the revised plan.
+#0356  Finance Office: Musufu budget decreased by $15K per the revised plan.
+#0357  Operations chat: Musufu budget is going down to $2780K.
+#0358  Legal email: Musufu budget is going up by $421K.
+#0359  Sales update: Musufu budget is going up by $184K.
+#0360  Operations chat: Musufu design review moved to Room 6D.
+#0361  Finance Office: Musufu budget decreased by $204K after review.
+#0362  Finance Office: Musufu budget decreased by $70K per the revised plan.
+#0363  Finance Office: Musufu budget decreased by $237K after review.
+#0364  Finance Office: Musufu budget decreased by $150K after review.
+#0365  Finance Office: Musufu budget decreased by $110K after review.
+#0366  Facilities ticket: Musufu budget is going to $3010K.
+#0367  PMO note: Hearing Musufu's budget goes up $406K.
+#0368  Finance Office: Musufu budget decreased by $125K after review.
+#0369  Finance Office: Withdraw update #0104.
+#0370  Legal email: Musufu demo rescheduled to Friday afternoon.
+#0371  Finance Office: Withdraw update #0172.
+#0372  Finance Office: Musufu budget increased by $100K after review.
+#0373  Finance Office: Musufu budget decreased by $75K.
+#0374  Finance Office: Withdraw update #0049.
+#0375  Vendor call: Musufu budget is going down by $359K.
+#0376  Finance Office: Withdraw update #0218.
+#0377  Engineering email: Musufu budget is going to $2820K.
+#0378  Finance Office: Musufu budget increased by $10K per the revised plan.
+#0379  Finance Office: Musufu budget increased by $90K.
+#0380  Operations chat: Heard Musufu's budget is now $2080K.
+#0381  PMO note: Musufu risk register updated with 2 new items.
+#0382  Finance Office: Withdraw update #0250; it was entered in error.
+#0383  Sales update: Musufu design review moved to Room 6D.
+#0384  Facilities ticket: Pretty sure Musufu's budget is $1490K now.
+#0385  Engineering email: Hearing Musufu's budget goes up $457K.
+#0386  Finance Office: Musufu budget decreased by $65K.
+#0387  Finance Office: Musufu budget decreased by $50K.
+#0388  Finance Office: Withdraw update #0042.
+#0389  Marketing email: Musufu design review moved to Room 4D.
+#0390  Finance Office: Withdraw update #0306.
+#0391  Operations chat: Musufu budget is going down by $292K.
+#0392  Sales update: Musufu design review moved to Room 6B.
+#0393  Finance Office: Musufu budget decreased by $125K.
+#0394  Finance Office: Musufu budget increased by $90K after review.
+#0395  Operations chat: Hearing Musufu's budget goes up $414K.
+#0396  Finance Office: Withdraw update #0346; it was entered in error.
+#0397  Facilities ticket: Musufu budget is going up by $356K.
+#0398  Finance Office: Musufu budget increased by $243K after review.
+#0399  Facilities ticket: Musufu test environment back online.
+#0400  Finance Office: Withdraw update #0160.
+#0401  Finance Office: Musufu budget increased by $135K.
+#0402  Vendor call: Heard Musufu's budget is now $870K.
+#0403  Sales update: Heard Musufu's budget is now $850K.
+#0404  Finance Office: Musufu budget increased by $75K.
+#0405  Operations chat: Musufu vendor onboarding call scheduled for Thursday.
+#0406  Engineering email: Musufu budget should land at $860K.
+#0407  Finance Office: Musufu budget increased by $58K per the revised plan.
+#0408  Marketing email: Musufu budget is going down by $558K.
+#0409  Finance Office: Musufu budget decreased by $45K.
+#0410  Finance Office: Musufu budget increased by $52K.
+#0411  Finance Office: Musufu budget decreased by $18K.
+#0412  Finance Office: Withdraw update #0331.
+#0413  Finance Office: Musufu budget decreased by $313K after review.
+#0414  Operations chat: Heard Musufu's budget is now $810K.
+#0415  Finance Office: Musufu budget decreased by $45K after review.
+#0416  Finance Office: Musufu receipts scanned.
+#0417  Finance Office: Withdraw update #0273; it was entered in error.
+#0418  Legal email: Musufu demo rescheduled to Monday afternoon.
+#0419  Finance Office: Withdraw update #0363.
+#0420  Finance Office: Musufu budget increased by $100K after review.
+#0421  Finance Office: Musufu budget increased by $236K.
+#0422  Finance Office: Musufu budget increased by $140K after review.
+#0423  Finance Office: Musufu budget decreased by $60K per the revised plan.
+#0424  Finance Office: Musufu budget decreased by $132K per the revised plan.
+#0425  Finance Office: Musufu budget increased by $448K.
+#0426  Finance Office: Musufu budget decreased by $76K.
+#0427  Facilities ticket: Pretty sure Musufu's budget is $1860K now.
+#0428  Marketing email: Expect Musufu's budget to rise by $126K.
+#0429  Finance Office: Withdraw update #0178; it was entered in error.
+#0430  Engineering email: Musufu budget is going down to $2360K.
+#0431  Marketing email: Expect Musufu's budget to rise by $504K.
+#0432  PMO note: Sounds like Musufu gets $263K less.
+#0433  Finance Office: Musufu budget decreased by $100K after review.
+#0434  Operations chat: Musufu budget is going to $2040K.
+#0435  Finance Office: Musufu budget increased by $432K.
+#0436  Finance Office: Musufu budget increased by $25K.
+#0437  Marketing email: Musufu budget is going down by $369K.
+#0438  Finance Office: Musufu budget decreased by $75K after review.
+#0439  Sales update: Musufu test environment back online.
+#0440  Finance Office: Musufu budget increased by $40K after review.
+#0441  Finance Office: Musufu budget increased by $208K after review.
+#0442  Finance Office: Musufu audit notes filed.
+#0443  Finance Office: Musufu budget increased by $55K.
+#0444  Finance Office: Musufu budget increased by $279K per the revised plan.
+#0445  Finance Office: Musufu budget decreased by $207K per the revised plan.
+#0446  Finance Office: Withdraw update #0398; it was entered in error.
+#0447  Finance Office: Musufu budget increased by $45K after review.
+#0448  Finance Office: Musufu budget decreased by $35K per the revised plan.
+#0449  PMO note: Musufu risk register updated with 8 new items.
+#0450  Finance Office: Musufu audit notes filed.
+#0451  Finance Office: Musufu budget increased by $115K per the revised plan.
+#0452  Finance Office: Musufu budget decreased by $140K per the revised plan.
+#0453  Facilities ticket: Expect Musufu's budget to rise by $517K.
+#0454  Engineering email: Musufu budget is going down to $2380K.
+#0455  Finance Office: Musufu budget increased by $80K.
+#0456  Legal email: Musufu weekly sync moved to Wednesdays.
+#0457  Finance Office: Musufu budget decreased by $45K.
+#0458  Facilities ticket: Musufu demo rescheduled to Tuesday afternoon.
+#0459  Finance Office: Musufu budget increased by $90K.
+#0460  Finance Office: Musufu budget decreased by $140K.
+#0461  Finance Office: Musufu budget decreased by $481K after review.
+#0462  Finance Office: Musufu budget increased by $75K.
+#0463  Vendor call: Musufu budget is going to $1710K.
+#0464  Finance Office: Musufu budget decreased by $299K per the revised plan.
+#0465  Finance Office: Musufu budget increased by $130K.
+#0466  Vendor call: Sounds like Musufu gets $444K more.
+#0467  Finance Office: Withdraw update #0424; it was entered in error.
+#0468  Finance Office: Musufu budget increased by $145K per the revised plan.
+#0469  Legal email: Sounds like Musufu gets $157K more.
+#0470  Legal email: Expect Musufu's budget to rise by $64K.
+#0471  Finance Office: Musufu budget increased by $140K.
+#0472  Vendor call: Musufu budget should land at $3710K.
+#0473  Finance Office: Musufu budget increased by $329K per the revised plan.
+#0474  Sales update: Expect Musufu's budget to rise by $544K.
+#0475  Legal email: Expect Musufu's budget to drop by $416K.
+#0476  Finance Office: Withdraw update #0444; it was entered in error.
+#0477  PMO note: Musufu budget is going up by $98K.
+#0478  Finance Office: Musufu receipts scanned.
+#0479  Finance Office: Withdraw update #0316.
+#0480  Vendor call: Musufu budget should land at $3170K.
+#0481  Operations chat: Heard Musufu's budget is now $2810K.
+#0482  Vendor call: Musufu budget is going to $1970K.
+#0483  Finance Office: Musufu purchase order FC-1858 closed.
+#0484  Finance Office: Musufu budget increased by $8K after review.
+#0485  Sales update: Sounds like Musufu gets $418K less.
+#0486  Marketing email: Pretty sure Musufu's budget is $2090K now.
+#0487  Finance Office: Withdraw update #0037; it was entered in error.
+#0488  Finance Office: Musufu budget decreased by $125K after review.
+#0489  Finance Office: Musufu budget increased by $413K.
+#0490  Finance Office: Musufu budget decreased by $151K after review.
+#0491  Finance Office: Musufu budget decreased by $85K per the revised plan.
+#0492  Marketing email: Heard Musufu's budget is now $1660K.
+#0493  Finance Office: Musufu budget decreased by $99K per the revised plan.
+#0494  Finance Office: Musufu budget increased by $496K.
+#0495  Engineering email: Pretty sure Musufu's budget is $3320K now.
+#0496  Finance Office: Musufu budget increased by $25K per the revised plan.
+#0497  Finance Office: Withdraw update #0411; it was entered in error.
+#0498  Finance Office: Withdraw update #0410.
+#0499  Facilities ticket: Sounds like Musufu gets $363K more.
+#0500  Engineering email: Musufu budget is going down to $2350K.
+#0501  Finance Office: Musufu budget increased by $65K per the revised plan.
+#0502  Finance Office: Musufu budget increased by $115K per the revised plan.
+#0503  Finance Office: Withdraw update #0136.
+#0504  Finance Office: Musufu budget increased by $50K per the revised plan.
+#0505  Vendor call: Musufu budget is going to $2180K.
+#0506  Finance Office: Withdraw update #0493; it was entered in error.
+#0507  Finance Office: Musufu budget decreased by $90K.
+#0508  Legal email: Heard Musufu's budget is now $1910K.
+#0509  Finance Office: Musufu budget decreased by $246K after review.
+#0510  Finance Office: Withdraw update #0101.
+#0511  Finance Office: Musufu budget decreased by $328K.
+#0512  Sales update: Musufu budget is going to $1430K.
+#0513  Finance Office: Musufu budget decreased by $466K per the revised plan.
+#0514  Finance Office: Musufu budget decreased by $135K after review.
+#0515  Finance Office: Musufu budget decreased by $110K per the revised plan.
+#0516  Finance Office: Musufu budget increased by $212K per the revised plan.
+#0517  Finance Office: Musufu budget decreased by $110K per the revised plan.
+#0518  Finance Office: Musufu quarterly audit scheduled for Friday.
+#0519  Finance Office: Musufu budget decreased by $5K after review.
+#0520  Finance Office: Withdraw update #0513; it was entered in error.
+#0521  Finance Office: Musufu budget decreased by $102K.
+#0522  Finance Office: Musufu budget increased by $252K.
+#0523  Legal email: Musufu budget should land at $2630K.
+#0524  Facilities ticket: Hearing Musufu's budget goes up $472K.
+#0525  Operations chat: Musufu budget is going up by $47K.
+#0526  Vendor call: Musufu budget is going down by $559K.
+#0527  Finance Office: Musufu budget increased by $145K after review.
+#0528  Finance Office: Musufu budget increased by $110K per the revised plan.
+#0529  Finance Office: Musufu budget increased by $65K.
+#0530  Finance Office: Musufu budget increased by $10K.
+#0531  Finance Office: Musufu budget decreased by $15K.
+#0532  PMO note: Sounds like Musufu gets $277K more.
+#0533  Finance Office: Musufu budget decreased by $5K.
+#0534  PMO note: Pretty sure Musufu's budget is $1870K now.
+#0535  Finance Office: Withdraw update #0237; it was entered in error.
+#0536  Sales update: Pretty sure Musufu's budget is $2230K now.
+#0537  Legal email: Musufu budget is going to $1720K.
+#0538  Finance Office: Musufu budget increased by $25K.
+#0539  PMO note: Expect Musufu's budget to rise by $447K.
+#0540  Finance Office: Musufu budget increased by $125K per the revised plan.
+#0541  Operations chat: Expect Musufu's budget to rise by $62K.
+#0542  PMO note: Musufu budget should land at $2840K.
+#0543  Finance Office: Musufu quarterly audit scheduled for Wednesday.
+#0544  Finance Office: Musufu budget decreased by $150K per the revised plan.
+#0545  Engineering email: Musufu budget is going down by $201K.
+#0546  PMO note: Musufu budget should land at $1410K.
+#0547  Finance Office: Musufu budget increased by $85K per the revised plan.
+#0548  Finance Office: Musufu budget decreased by $187K.
+#0549  Finance Office: Musufu budget increased by $110K per the revised plan.
+#0550  Engineering email: Musufu budget is going up by $306K.
+#0551  Finance Office: Musufu budget decreased by $331K per the revised plan.
+#0552  Sales update: Musufu budget is going up by $142K.
+#0553  Finance Office: Musufu budget increased by $371K per the revised plan.
+#0554  Finance Office: Musufu budget decreased by $35K after review.
+#0555  Finance Office: Withdraw update #0293; it was entered in error.
+#0556  Operations chat: Musufu budget is going up to $2430K.
+#0557  Operations chat: Musufu vendor onboarding call scheduled for Wednesday.
+#0558  Finance Office: Musufu budget increased by $95K per the revised plan.
+#0559  Finance Office: Musufu budget decreased by $10K after review.
+#0560  Finance Office: Musufu budget increased by $50K.
+#0561  Operations chat: Musufu site visit confirmed for Friday.
+#0562  PMO note: Sounds like Musufu gets $282K less.
+#0563  Finance Office: Reminder: Musufu expense reports are due Friday.
+#0564  Finance Office: Withdraw update #0522.
+#0565  Legal email: Musufu budget should land at $1810K.
+#0566  Finance Office: Musufu budget increased by $120K per the revised plan.
+#0567  Engineering email: Sounds like Musufu gets $354K less.
+#0568  Marketing email: Heard Musufu's budget is now $1960K.
+#0569  Facilities ticket: Heard Musufu's budget is now $2000K.
+#0570  Finance Office: Withdraw update #0221.
+#0571  Vendor call: Hearing Musufu's budget goes down $463K.
+#0572  Facilities ticket: Hearing Musufu's budget goes down $53K.
+#0573  Finance Office: Withdraw update #0347; it was entered in error.
+#0574  Finance Office: Musufu budget increased by $135K per the revised plan.
+#0575  Vendor call: Musufu weekly sync moved to Wednesdays.
+#0576  Finance Office: Musufu budget decreased by $31K per the revised plan.
+#0577  Finance Office: Musufu budget decreased by $70K per the revised plan.
+#0578  Engineering email: Expect Musufu's budget to rise by $373K.
+#0579  Finance Office: Musufu budget increased by $125K after review.
+#0580  Finance Office: Withdraw update #0570; it was entered in error.
+#0581  Finance Office: Withdraw update #0509.
+#0582  Finance Office: Musufu budget increased by $145K after review.
+#0583  Finance Office: Withdraw update #0490.
+#0584  PMO note: Musufu budget is going down by $338K.
+#0585  Finance Office: Musufu budget decreased by $90K per the revised plan.
+#0586  Finance Office: Musufu budget decreased by $55K.
+#0587  Finance Office: Musufu budget decreased by $54K after review.
+#0588  Finance Office: Musufu budget increased by $35K per the revised plan.
+#0589  Finance Office: Musufu budget increased by $125K after review.
+#0590  Finance Office: Musufu budget increased by $125K per the revised plan.
+#0591  Finance Office: Musufu budget decreased by $284K per the revised plan.
+#0592  Finance Office: Reminder: Musufu expense reports are due Monday.
+#0593  Facilities ticket: Pretty sure Musufu's budget is $3930K now.
+#0594  Sales update: Musufu budget is going up by $417K.
+#0595  Finance Office: Musufu budget decreased by $45K after review.
+#0596  Finance Office: Withdraw update #0521; it was entered in error.
+#0597  Finance Office: Musufu budget decreased by $125K.
+#0598  Finance Office: Musufu budget increased by $100K per the revised plan.
+#0599  Finance Office: Musufu budget decreased by $125K after review.
+#0600  Facilities ticket: Musufu budget should land at $3060K.
+#0601  Finance Office: Withdraw update #0473.
+#0602  Finance Office: Musufu budget increased by $125K after review.
+#0603  Finance Office: Musufu budget increased by $143K per the revised plan.
+#0604  Finance Office: Musufu budget increased by $80K per the revised plan.
+#0605  Finance Office: Musufu budget decreased by $85K after review.
+#0606  Legal email: Musufu budget is going to $3670K.
+#0607  Finance Office: Musufu budget increased by $105K per the revised plan.
+#0608  Finance Office: Musufu budget increased by $176K per the revised plan.
+#0609  Marketing email: Heard Musufu's budget is now $2630K.
+#0610  Facilities ticket: Expect Musufu's budget to rise by $91K.
+#0611  Finance Office: Musufu quarterly audit scheduled for Wednesday.
+#0612  Vendor call: Sounds like Musufu gets $512K more.
+#0613  Finance Office: Musufu receipts scanned.
+#0614  Sales update: Expect Musufu's budget to rise by $479K.
+#0615  Sales update: Expect Musufu's budget to rise by $436K.
+#0616  Sales update: Expect Musufu's budget to drop by $456K.
+#0617  Finance Office: Withdraw update #0407.
+#0618  Finance Office: Musufu budget decreased by $42K.
+#0619  Finance Office: Withdraw update #0263; it was entered in error.
+#0620  Finance Office: Musufu budget increased by $50K.
+#0621  Finance Office: Musufu budget increased by $65K per the revised plan.
+#0622  Sales update: Musufu budget should land at $3320K.
+#0623  Marketing email: Pretty sure Musufu's budget is $3080K now.
+#0624  Finance Office: Musufu budget decreased by $130K per the revised plan.
+#0625  Vendor call: Hearing Musufu's budget goes down $196K.
+#0626  Vendor call: Musufu budget should land at $2350K.
+#0627  Marketing email: Expect Musufu's budget to drop by $523K.
+#0628  Finance Office: Musufu budget increased by $110K.
+#0629  Finance Office: Musufu budget increased by $65K after review.
+#0630  Engineering email: Heard Musufu's budget is now $2140K.
+#0631  Marketing email: Heard Musufu's budget is now $2870K.
+#0632  Vendor call: Musufu budget is going up by $304K.
+#0633  Finance Office: Musufu budget increased by $45K.
+#0634  Operations chat: Pretty sure Musufu's budget is $4130K now.
+#0635  Finance Office: Musufu budget decreased by $531K after review.
+#0636  Finance Office: Musufu budget increased by $125K per the revised plan.
+#0637  Operations chat: Expect Musufu's budget to drop by $584K.
+#0638  Operations chat: Musufu demo rescheduled to Thursday afternoon.
+#0639  Finance Office: Musufu receipts scanned.
+#0640  Finance Office: Musufu budget decreased by $5K per the revised plan.
+#0641  Finance Office: Musufu budget decreased by $20K after review.
+#0642  Finance Office: Musufu budget decreased by $75K per the revised plan.
+#0643  Finance Office: Musufu budget decreased by $60K after review.
+#0644  Legal email: Musufu budget is going to $3170K.
+#0645  Finance Office: Musufu budget increased by $20K after review.
+#0646  Legal email: Musufu budget is going to $2200K.
+#0647  Marketing email: Musufu documentation moved to the shared drive.
+#0648  Finance Office: Musufu budget increased by $30K.
+#0649  Finance Office: Musufu budget decreased by $95K per the revised plan.
+#0650  Vendor call: Musufu status report filed for week 46.
+#0651  PMO note: Musufu budget is going to $3370K.
+#0652  Vendor call: Expect Musufu's budget to drop by $527K.
+#0653  Finance Office: Withdraw update #0382; it was entered in error.
+#0654  PMO note: Sounds like Musufu gets $281K less.
+#0655  Finance Office: Musufu budget increased by $85K after review.
+#0656  Vendor call: Hearing Musufu's budget goes down $598K.
+#0657  Finance Office: Musufu budget increased by $353K per the revised plan.
+#0658  Finance Office: Withdraw update #0587.
+#0659  Finance Office: Musufu budget decreased by $105K.
+#0660  Finance Office: Musufu budget decreased by $15K.
+#0661  Operations chat: Pretty sure Musufu's budget is $2660K now.
+#0662  Legal email: Hearing Musufu's budget goes down $112K.
+#0663  Operations chat: Musufu budget is going down by $77K.
+#0664  Finance Office: Musufu budget increased by $100K.
+#0665  Finance Office: Musufu budget increased by $428K after review.
+#0666  Marketing email: Expect Musufu's budget to drop by $43K.
+#0667  Finance Office: Musufu budget decreased by $40K.
+#0668  Finance Office: Musufu budget decreased by $10K per the revised plan.
+#0669  Finance Office: Musufu budget decreased by $5K per the revised plan.
+#0670  Finance Office: Musufu budget decreased by $4K.
+#0671  Finance Office: Musufu budget increased by $65K.
+#0672  Vendor call: Musufu budget is going down by $117K.
+#0673  Operations chat: Musufu test environment back online.
+#0674  Finance Office: Musufu budget increased by $80K.
+#0675  Finance Office: Withdraw update #0043; it was entered in error.
+#0676  Marketing email: Sounds like Musufu gets $71K less.
+#0677  Finance Office: Musufu budget increased by $120K.
+#0678  Finance Office: Musufu budget increased by $115K.
+#0679  Finance Office: Musufu budget increased by $5K after review.
+#0680  Finance Office: Musufu budget decreased by $140K after review.
+#0681  Finance Office: Musufu budget decreased by $140K per the revised plan.
+#0682  Finance Office: Musufu finance review moved to Room 3A.
+#0683  Marketing email: Musufu budget is going down to $2870K.
+#0684  Finance Office: Musufu budget increased by $547K.
+#0685  Engineering email: Musufu budget is going up by $439K.
+#0686  Finance Office: Musufu budget decreased by $85K after review.
+#0687  Operations chat: Musufu documentation moved to the shared drive.
+#0688  Finance Office: Musufu budget increased by $549K.
+#0689  Engineering email: Pretty sure Musufu's budget is $4800K now.
+#0690  Sales update: Musufu risk register updated with 4 new items.
+#0691  Engineering email: Expect Musufu's budget to drop by $334K.
+#0692  Finance Office: Musufu budget decreased by $125K.
+#0693  Finance Office: Withdraw update #0352.
+#0694  Finance Office: Withdraw update #0157; it was entered in error.
+#0695  Legal email: Musufu demo rescheduled to Monday afternoon.
+#0696  Finance Office: Musufu cost center code changed to FC-4300.
+#0697  Marketing email: Musufu budget is going to $3530K.
+#0698  Finance Office: Musufu budget increased by $145K.
+#0699  Finance Office: Musufu budget decreased by $433K.
+#0700  Operations chat: Musufu budget is going up by $127K.
+#0701  Legal email: Expect Musufu's budget to rise by $92K.
+#0702  Operations chat: Musufu budget is going up to $4800K.
+#0703  Finance Office: Withdraw update #0657; it was entered in error.
+#0704  Vendor call: Expect Musufu's budget to rise by $247K.
+#0705  Finance Office: Musufu invoice batch FC-1783 archived.
+#0706  PMO note: Sounds like Musufu gets $477K more.
+#0707  Sales update: Hearing Musufu's budget goes up $599K.
+#0708  Finance Office: Musufu budget increased by $65K.
+#0709  Engineering email: Musufu budget should land at $4800K.
+#0710  Finance Office: Musufu budget increased by $105K after review.
+#0711  Finance Office: Musufu budget decreased by $60K after review.
+#0712  Finance Office: Musufu budget decreased by $75K after review.
+#0713  PMO note: Musufu budget is going up by $532K.
+#0714  Finance Office: Musufu budget decreased by $85K after review.
+#0715  Finance Office: Musufu budget decreased by $274K per the revised plan.
+#0716  Sales update: Sounds like Musufu gets $521K more.
+#0717  Finance Office: Musufu budget decreased by $50K per the revised plan.
+#0718  PMO note: Expect Musufu's budget to rise by $387K.
+#0719  Operations chat: Expect Musufu's budget to rise by $324K.
+#0720  Finance Office: Withdraw update #0421; it was entered in error.
+#0721  Finance Office: Musufu budget decreased by $150K after review.
+#0722  Vendor call: Sounds like Musufu gets $303K less.
+#0723  Finance Office: Musufu budget increased by $542K after review.
+#0724  Engineering email: Musufu weekly sync moved to Mondays.
+#0725  Finance Office: Musufu budget decreased by $65K per the revised plan.
+#0726  Sales update: Musufu budget is going down by $269K.
+#0727  Finance Office: Musufu budget increased by $268K per the revised plan.
+#0728  Sales update: Musufu budget is going up by $183K.
+#0729  Operations chat: Heard Musufu's budget is now $4800K.
+#0730  Operations chat: Heard Musufu's budget is now $4790K.
+#0731  Finance Office: Musufu budget increased by $193K.
+#0732  Sales update: Expect Musufu's budget to rise by $137K.
+#0733  Finance Office: Withdraw update #0720; it was entered in error.
+#0734  Finance Office: Musufu budget decreased by $251K after review.
+#0735  Finance Office: Musufu budget decreased by $55K.
+#0736  Facilities ticket: Musufu budget should land at $4800K.
+#0737  Legal email: Musufu kickoff moved to Building 9.
+#0738  Finance Office: Musufu budget decreased by $30K after review.
+#0739  Sales update: Heard Musufu's budget is now $4770K.
+#0740  Finance Office: Musufu budget increased by $25K.
+#0741  Marketing email: Expect Musufu's budget to rise by $188K.
+#0742  Finance Office: Musufu budget decreased by $60K after review.
+#0743  Finance Office: Withdraw update #0489.
+#0744  Finance Office: Musufu budget decreased by $513K per the revised plan.
+#0745  Vendor call: Expect Musufu's budget to rise by $502K.
+#0746  Finance Office: Musufu budget decreased by $90K per the revised plan.
+#0747  Finance Office: Musufu budget decreased by $167K after review.
+#0748  Vendor call: Musufu documentation moved to the shared drive.
+#0749  Engineering email: Musufu budget is going down by $172K.
+#0750  Finance Office: Withdraw update #0675; it was entered in error.
+#0751  Finance Office: Musufu budget decreased by $100K per the revised plan.
+#0752  PMO note: Musufu budget is going down by $541K.
+#0753  Operations chat: Hearing Musufu's budget goes up $152K.
+#0754  Finance Office: Musufu budget decreased by $45K.
+#0755  Legal email: Musufu demo rescheduled to Friday afternoon.
+#0756  Finance Office: Withdraw update #0417; it was entered in error.
+#0757  Finance Office: Musufu budget increased by $254K after review.
+#0758  Finance Office: Musufu budget increased by $125K after review.
+#0759  Marketing email: Pretty sure Musufu's budget is $3360K now.
+#0760  Finance Office: Withdraw update #0619; it was entered in error.
+#0761  Finance Office: Musufu budget increased by $75K.
+#0762  Vendor call: Musufu budget is going to $2420K.
+#0763  Sales update: Musufu budget is going up by $154K.
+#0764  Finance Office: Withdraw update #0361.
+#0765  Finance Office: Musufu budget decreased by $15K after review.
+#0766  Legal email: Sounds like Musufu gets $189K less.
+#0767  Finance Office: Musufu budget decreased by $25K after review.
+#0768  PMO note: Hearing Musufu's budget goes down $1K.
+#0769  Finance Office: Musufu budget increased by $453K after review.
+#0770  Vendor call: Hearing Musufu's budget goes up $56K.
+#0771  Finance Office: Musufu budget increased by $75K after review.
+#0772  Finance Office: Musufu budget decreased by $10K after review.
+#0773  Finance Office: Musufu budget decreased by $130K after review.
+#0774  Finance Office: Musufu budget increased by $110K.
+#0775  Finance Office: Withdraw update #0551; it was entered in error.
+#0776  Finance Office: Musufu budget increased by $135K after review.
+#0777  Finance Office: Withdraw update #0548; it was entered in error.
+#0778  PMO note: Expect Musufu's budget to drop by $497K.
+#0779  Sales update: Musufu site visit confirmed for Monday.
+#0780  Finance Office: Musufu quarterly audit scheduled for Thursday.
+#0781  Finance Office: Musufu budget decreased by $105K per the revised plan.
+#0782  Finance Office: Musufu budget decreased by $593K per the revised plan.
+#0783  Finance Office: Musufu budget decreased by $10K per the revised plan.
+#0784  Engineering email: Sounds like Musufu gets $358K more.
+#0785  Finance Office: Withdraw update #0317.
+#0786  Finance Office: Musufu budget increased by $35K after review.
+#0787  Legal email: Musufu budget should land at $3080K.
+#0788  Facilities ticket: Musufu budget should land at $4800K.
+#0789  Finance Office: Reminder: Musufu expense reports are due Thursday.
+#0790  Facilities ticket: Hearing Musufu's budget goes up $426K.
+#0791  Finance Office: Musufu budget decreased by $25K.
+#0792  Operations chat: Pretty sure Musufu's budget is $4800K now.
+#0793  Vendor call: Heard Musufu's budget is now $3890K.
+#0794  Finance Office: Withdraw update #0142; it was entered in error.
+#0795  Finance Office: Musufu budget increased by $45K.
+#0796  Engineering email: Musufu demo rescheduled to Thursday afternoon.
+#0797  Finance Office: Musufu budget decreased by $318K.
+#0798  Sales update: Musufu budget is going up to $3780K.
+#0799  Vendor call: Musufu test environment back online.
+#0800  Vendor call: Sounds like Musufu gets $33K less.
+#0801  Finance Office: Musufu budget decreased by $15K per the revised plan.
+#0802  Engineering email: Musufu budget is going up to $3160K.
+#0803  Sales update: Expect Musufu's budget to rise by $566K.
+#0804  Facilities ticket: Musufu budget is going to $2470K.
+#0805  Marketing email: Musufu budget is going down to $2500K.
+#0806  Finance Office: Musufu budget decreased by $120K per the revised plan.
+#0807  Finance Office: Musufu budget decreased by $556K per the revised plan.
+#0808  Legal email: Musufu vendor onboarding call scheduled for Wednesday.
+#0809  Finance Office: Withdraw update #0185.
+#0810  Facilities ticket: Heard Musufu's budget is now $1770K.
+#0811  PMO note: Heard Musufu's budget is now $2880K.
+#0812  Engineering email: Musufu budget is going up to $2620K.
+#0813  Finance Office: Musufu budget decreased by $115K per the revised plan.
+#0814  Vendor call: Musufu security review passed.
+#0815  Finance Office: Musufu budget decreased by $105K per the revised plan.
+#0816  Finance Office: Musufu budget decreased by $105K after review.
+#0817  Finance Office: Withdraw update #0124; it was entered in error.
+#0818  Finance Office: Withdraw update #0435; it was entered in error.
+#0819  Facilities ticket: Musufu budget should land at $2170K.
+#0820  Sales update: Musufu budget is going up by $9K.
+#0821  Finance Office: Musufu budget increased by $80K.
+#0822  Vendor call: Musufu budget is going to $2730K.
+#0823  Finance Office: Withdraw update #0653.
+#0824  Finance Office: Musufu budget decreased by $55K after review.
+#0825  Finance Office: Musufu budget increased by $115K per the revised plan.
+#0826  Engineering email: Heard Musufu's budget is now $1800K.
+#0827  Finance Office: Musufu budget increased by $45K.
+#0828  Finance Office: Musufu budget increased by $45K after review.
+#0829  Finance Office: Musufu budget increased by $30K per the revised plan.
+#0830  Finance Office: Musufu budget increased by $15K after review.
+#0831  Finance Office: Withdraw update #0699.
+#0832  Sales update: Musufu budget is going to $2240K.
+#0833  Operations chat: Musufu budget should land at $2710K.
+#0834  Finance Office: Musufu budget decreased by $125K per the revised plan.
+#0835  Operations chat: Musufu budget is going to $2220K.
+#0836  Finance Office: Musufu budget increased by $90K.
+#0837  Finance Office: Musufu budget decreased by $60K per the revised plan.
+#0838  Finance Office: Musufu budget increased by $120K.
+#0839  Finance Office: Musufu budget increased by $145K.
+#0840  Marketing email: Musufu budget is going up by $168K.
+#0841  Finance Office: Musufu budget decreased by $130K per the revised plan.
+#0842  Finance Office: Musufu budget decreased by $145K.
+#0843  Finance Office: Musufu budget decreased by $50K.
+#0844  Finance Office: Musufu budget decreased by $40K.
+#0845  Finance Office: Withdraw update #0192.
+#0846  Finance Office: Musufu budget decreased by $85K after review.
+#0847  Operations chat: Musufu budget is going up by $333K.
+#0848  Finance Office: Musufu budget decreased by $105K.
+#0849  PMO note: Musufu budget is going down by $308K.
+#0850  Finance Office: Musufu budget increased by $115K per the revised plan.
+#0851  Finance Office: Musufu budget increased by $75K per the revised plan.
+#0852  Finance Office: Musufu budget decreased by $130K per the revised plan.
+#0853  Finance Office: Musufu budget increased by $145K after review.
+#0854  Finance Office: Withdraw update #0757.
+#0855  Finance Office: Musufu budget decreased by $509K.
+#0856  Finance Office: Musufu budget increased by $95K.
+#0857  Finance Office: Musufu budget increased by $50K per the revised plan.
+#0858  Finance Office: Musufu budget decreased by $120K per the revised plan.
+#0859  Finance Office: Musufu budget increased by $501K per the revised plan.
+#0860  PMO note: Hearing Musufu's budget goes up $173K.
+#0861  Finance Office: Withdraw update #0809.
+#0862  PMO note: Heard Musufu's budget is now $3250K.
+#0863  Finance Office: Withdraw update #0484.
+#0864  Finance Office: Musufu budget decreased by $65K.
+#0865  Operations chat: Musufu budget is going up to $2890K.
+#0866  Finance Office: Musufu budget increased by $70K per the revised plan.
+#0867  PMO note: Expect Musufu's budget to drop by $209K.
+#0868  Finance Office: Musufu budget increased by $30K per the revised plan.
+#0869  Finance Office: Musufu budget increased by $468K after review.
+#0870  Finance Office: Musufu budget increased by $100K after review.
+#0871  Finance Office: Musufu budget increased by $70K per the revised plan.
+#0872  Finance Office: Musufu budget increased by $85K per the revised plan.
+#0873  Finance Office: Withdraw update #0869.
+#0874  Finance Office: Musufu budget increased by $15K after review.
+#0875  Finance Office: Musufu budget increased by $57K.
+#0876  Finance Office: Musufu budget decreased by $95K.
+#0877  Finance Office: Musufu budget decreased by $69K.
+#0878  Sales update: Musufu budget is going up by $159K.
+#0879  Finance Office: Withdraw update #0608; it was entered in error.
+#0880  Finance Office: Musufu budget decreased by $115K per the revised plan.
+#0881  Vendor call: Expect Musufu's budget to rise by $32K.
+#0882  Operations chat: Pretty sure Musufu's budget is $2310K now.
+#0883  Operations chat: Musufu budget should land at $2180K.
+#0884  Finance Office: Musufu budget increased by $40K after review.
+#0885  Finance Office: Musufu budget decreased by $115K per the revised plan.
+#0886  Finance Office: Musufu budget increased by $25K per the revised plan.
+#0887  Legal email: Pretty sure Musufu's budget is $1730K now.
+#0888  Finance Office: Musufu budget increased by $100K after review.
+#0889  Finance Office: Withdraw update #0693; it was entered in error.
+#0890  Finance Office: Musufu budget increased by $35K per the revised plan.
+#0891  Finance Office: Withdraw update #0441; it was entered in error.
+#0892  Operations chat: Hearing Musufu's budget goes down $327K.
+#0893  Finance Office: Musufu budget decreased by $135K per the revised plan.
+#0894  Finance Office: Musufu budget increased by $438K per the revised plan.
+#0895  PMO note: Musufu site visit confirmed for Wednesday.
+#0896  Finance Office: Withdraw update #0308; it was entered in error.
+#0897  Facilities ticket: Musufu budget is going down by $408K.
+#0898  Finance Office: Withdraw update #0266; it was entered in error.
+#0899  Finance Office: Musufu budget increased by $67K after review.
+#0900  Engineering email: Musufu budget is going down by $424K.
+#0901  Finance Office: Musufu budget increased by $25K.
+#0902  Finance Office: Withdraw update #0292.
+#0903  Finance Office: Musufu budget increased by $344K per the revised plan.
+#0904  Finance Office: Musufu budget decreased by $60K after review.
+#0905  Finance Office: Musufu budget increased by $65K after review.
+#0906  Marketing email: Musufu budget is going up to $3440K.
+#0907  Finance Office: Musufu budget decreased by $20K per the revised plan.
+#0908  Vendor call: Musufu budget should land at $4450K.
+#0909  Finance Office: Musufu budget increased by $120K after review.
+#0910  Finance Office: Musufu budget decreased by $140K after review.
+#0911  Operations chat: Heard Musufu's budget is now $2480K.
+#0912  Finance Office: Withdraw update #0903; it was entered in error.
+#0913  Finance Office: Musufu budget decreased by $423K per the revised plan.
+#0914  Marketing email: Musufu budget is going to $3080K.
+#0915  Finance Office: Musufu budget decreased by $65K per the revised plan.
+#0916  Finance Office: Musufu budget increased by $120K per the revised plan.
+#0917  Finance Office: Withdraw update #0782; it was entered in error.
+#0918  Finance Office: Withdraw update #0425; it was entered in error.
+#0919  Finance Office: Musufu budget decreased by $115K after review.
+#0920  Sales update: Pretty sure Musufu's budget is $2290K now.
+#0921  Sales update: Hearing Musufu's budget goes down $561K.
+#0922  Finance Office: Musufu budget increased by $55K.
+#0923  Finance Office: Musufu budget increased by $95K per the revised plan.
+#0924  Finance Office: Withdraw update #0764; it was entered in error.
+#0925  Sales update: Heard Musufu's budget is now $2330K.
+#0926  Sales update: Musufu budget is going down by $332K.
+#0927  Finance Office: Musufu invoice batch FC-2832 archived.
+#0928  Finance Office: Musufu budget increased by $75K after review.
+#0929  Finance Office: Withdraw update #0461.
+#0930  Legal email: Hearing Musufu's budget goes down $37K.
+#0931  Facilities ticket: Musufu budget should land at $3360K.
+#0932  Finance Office: Musufu budget decreased by $135K per the revised plan.
+#0933  Finance Office: Musufu budget increased by $50K.
+#0934  Finance Office: Musufu budget decreased by $486K per the revised plan.
+#0935  Engineering email: Musufu budget is going down by $296K.
+#0936  Facilities ticket: Musufu budget is going down by $164K.
+#0937  Facilities ticket: Expect Musufu's budget to rise by $317K.
+#0938  Facilities ticket: Musufu vendor onboarding call scheduled for Thursday.
+#0939  Marketing email: Hearing Musufu's budget goes up $119K.
+#0940  Finance Office: Musufu budget decreased by $85K after review.
+#0941  Finance Office: Musufu budget increased by $110K.
+#0942  Finance Office: Musufu budget decreased by $191K.
+#0943  Facilities ticket: Musufu budget should land at $1760K.
+#0944  Finance Office: Musufu budget decreased by $60K per the revised plan.
+#0945  Legal email: Musufu test environment back online.
+#0946  Marketing email: Pretty sure Musufu's budget is $2950K now.
+#0947  PMO note: Pretty sure Musufu's budget is $1870K now.
+#0948  Finance Office: Musufu budget decreased by $70K per the revised plan.
+#0949  Finance Office: Withdraw update #0727.
+#0950  Finance Office: Musufu budget increased by $100K after review.
+#0951  Finance Office: Musufu budget increased by $125K.
+#0952  Finance Office: Musufu budget increased by $70K.
+#0953  Finance Office: Withdraw update #0238; it was entered in error.
+#0954  Finance Office: Musufu budget decreased by $20K.
+#0955  Finance Office: Musufu budget decreased by $45K after review.
+#0956  Facilities ticket: Sounds like Musufu gets $28K more.
+#0957  Finance Office: Musufu budget increased by $10K.
+#0958  Finance Office: Musufu budget increased by $80K per the revised plan.
+#0959  Engineering email: Expect Musufu's budget to rise by $409K.
+#0960  Engineering email: Musufu risk register updated with 8 new items.
+#0961  Finance Office: Musufu budget increased by $10K per the revised plan.
+#0962  Finance Office: Withdraw update #0155; it was entered in error.
+#0963  Finance Office: Musufu budget decreased by $90K.
+#0964  Operations chat: Sounds like Musufu gets $182K less.
+#0965  Finance Office: Withdraw update #0942; it was entered in error.
+#0966  Finance Office: Musufu budget increased by $130K after review.
+#0967  Finance Office: Withdraw update #0520.
+#0968  Finance Office: Musufu budget decreased by $75K.
+#0969  PMO note: Musufu risk register updated with 9 new items.
+#0970  Finance Office: Musufu budget decreased by $503K per the revised plan.
+#0971  Facilities ticket: Expect Musufu's budget to drop by $533K.
+#0972  Finance Office: Withdraw update #0231.
+#0973  Finance Office: Musufu budget decreased by $80K per the revised plan.
+#0974  Finance Office: Musufu budget decreased by $10K.
+#0975  Engineering email: Musufu budget is going down by $526K.
+#0976  Finance Office: Withdraw update #0426.
+#0977  Finance Office: Musufu budget increased by $85K per the revised plan.
+#0978  Finance Office: Musufu budget decreased by $10K per the revised plan.
+#0979  Finance Office: Withdraw update #0591; it was entered in error.
+#0980  Marketing email: Musufu budget is going to $2520K.
+#0981  Engineering email: Musufu sprint 26 retrospective notes posted.
+#0982  Legal email: Sounds like Musufu gets $404K less.
+#0983  Operations chat: Hearing Musufu's budget goes up $511K.
+#0984  Engineering email: Musufu budget is going to $1400K.
+#0985  Operations chat: Hearing Musufu's budget goes down $499K.
+#0986  Finance Office: Musufu budget increased by $130K per the revised plan.
+#0987  Finance Office: Withdraw update #0494.
+#0988  Finance Office: Musufu budget increased by $125K after review.
+#0989  Finance Office: Musufu budget decreased by $100K.
+#0990  Operations chat: Musufu budget should land at $1530K.
+#0991  Finance Office: Musufu budget decreased by $10K after review.
+#0992  Finance Office: Musufu budget decreased by $150K.
+#0993  Vendor call: Musufu sprint 39 retrospective notes posted.
+#0994  Finance Office: Withdraw update #0374.
+#0995  Marketing email: Pretty sure Musufu's budget is $1060K now.
+#0996  Finance Office: Musufu budget decreased by $412K per the revised plan.
+#0997  Engineering email: Expect Musufu's budget to rise by $253K.
+#0998  Finance Office: Musufu budget increased by $85K after review.
+#0999  Finance Office: Musufu budget increased by $326K per the revised plan.
+#1000  Finance Office: Musufu budget decreased by $95K per the revised plan.
+#1001  Finance Office: Musufu budget increased by $145K.
+#1002  Operations chat: Musufu budget is going up by $13K.
+#1003  Finance Office: Musufu budget decreased by $60K.
+#1004  PMO note: Hearing Musufu's budget goes down $562K.
+#1005  Finance Office: Withdraw update #0313.
+#1006  Finance Office: Musufu budget decreased by $149K after review.
+#1007  Engineering email: Musufu budget is going up by $461K.
+#1008  Vendor call: Sounds like Musufu gets $573K less.
+#1009  Finance Office: Musufu budget decreased by $36K after review.
+#1010  Finance Office: Musufu budget decreased by $105K per the revised plan.
+#1011  Finance Office: Withdraw update #0289.
+#1012  Finance Office: Musufu budget increased by $75K after review.
+#1013  Finance Office: Musufu budget increased by $25K per the revised plan.
+#1014  Vendor call: Expect Musufu's budget to rise by $574K.
+#1015  Finance Office: Musufu budget decreased by $35K per the revised plan.
+#1016  Finance Office: Musufu budget decreased by $10K per the revised plan.
+#1017  PMO note: Musufu documentation moved to the shared drive.
+#1018  Operations chat: Musufu budget is going down by $572K.
+#1019  Finance Office: Withdraw update #0744.
+#1020  Finance Office: Musufu budget increased by $95K after review.
+#1021  Finance Office: Musufu budget increased by $427K after review.
+#1022  Engineering email: Musufu budget is going up by $24K.
+#1023  Finance Office: Musufu budget decreased by $85K after review.
+#1024  Finance Office: Musufu budget increased by $130K per the revised plan.
+#1025  Finance Office: Musufu budget increased by $45K per the revised plan.
+#1026  Finance Office: Withdraw update #0553.
+#1027  PMO note: Pretty sure Musufu's budget is $1890K now.
+#1028  Finance Office: Musufu budget increased by $15K after review.
+#1029  Engineering email: Hearing Musufu's budget goes up $249K.
+#1030  Finance Office: Withdraw update #0011.
+#1031  PMO note: Musufu budget is going to $1540K.
+#1032  Finance Office: Musufu budget increased by $80K per the revised plan.
+#1033  Finance Office: Withdraw update #0769.
+#1034  Facilities ticket: Musufu budget is going down to $1080K.
+#1035  Marketing email: Heard Musufu's budget is now $1840K.
+#1036  Marketing email: Musufu budget is going up by $419K.
+#1037  Finance Office: Musufu budget increased by $60K after review.
+#1038  Finance Office: Withdraw update #0818; it was entered in error.
+#1039  Legal email: Musufu test environment back online.
+#1040  Finance Office: Musufu budget increased by $30K per the revised plan.
+#1041  Finance Office: Withdraw update #0413.
+#1042  Finance Office: Musufu budget decreased by $35K after review.
+#1043  Finance Office: Musufu budget increased by $20K.
+#1044  Finance Office: Musufu budget decreased by $120K after review.
+#1045  Engineering email: Heard Musufu's budget is now $2140K.
+#1046  Marketing email: Musufu budget is going to $1960K.
+#1047  Finance Office: Withdraw update #0859; it was entered in error.
+#1048  Engineering email: Musufu kickoff moved to Building 2.
+#1049  Finance Office: Musufu budget decreased by $25K.
+#1050  Finance Office: Musufu budget decreased by $35K after review.
+#1051  Finance Office: Withdraw update #0184; it was entered in error.
+#1052  Finance Office: Withdraw update #0445.
+#1053  Finance Office: Withdraw update #0576.
+#1054  Finance Office: Musufu budget increased by $15K per the revised plan.
+#1055  Finance Office: Musufu finance review moved to Room 4A.
+#1056  Operations chat: Expect Musufu's budget to drop by $577K.
+#1057  Engineering email: Heard Musufu's budget is now $2820K.
+#1058  Finance Office: Musufu budget decreased by $557K.
+#1059  Marketing email: Pretty sure Musufu's budget is $2270K now.
+#1060  Vendor call: Pretty sure Musufu's budget is $2300K now.
+#1061  Finance Office: Musufu budget decreased by $145K.
+#1062  Vendor call: Musufu budget is going up to $2210K.
+#1063  Finance Office: Withdraw update #0174.
+#1064  Operations chat: Hearing Musufu's budget goes up $84K.
+#1065  Finance Office: Musufu budget decreased by $85K per the revised plan.
+#1066  Finance Office: Withdraw update #0205.
+#1067  Finance Office: Musufu budget increased by $95K.
+#1068  Finance Office: Withdraw update #0369; it was entered in error.
+#1069  Finance Office: Musufu budget decreased by $105K after review.
+#1070  Finance Office: Withdraw update #0877.
+#1071  Finance Office: Musufu budget increased by $10K after review.
+#1072  Marketing email: Musufu kickoff moved to Building 2.
+#1073  PMO note: Musufu budget is going down to $530K.
+#1074  Finance Office: Musufu budget increased by $20K per the revised plan.
+#1075  Finance Office: Musufu budget decreased by $65K after review.
+#1076  Finance Office: Musufu budget increased by $554K.
+#1077  Finance Office: Musufu budget decreased by $272K per the revised plan.
+#1078  Legal email: Expect Musufu's budget to rise by $551K.
+#1079  Marketing email: Musufu kickoff moved to Building 8.
+#1080  Sales update: Musufu budget is going to $680K.
+#1081  Finance Office: Musufu budget decreased by $100K after review.
+#1082  Finance Office: Musufu budget decreased by $298K after review.
+#1083  Vendor call: Expect Musufu's budget to rise by $314K.
+#1084  Finance Office: Withdraw update #0583; it was entered in error.
+#1085  Finance Office: Reminder: Musufu expense reports are due Thursday.
+#1086  Finance Office: Withdraw update #1009.
+#1087  Finance Office: Withdraw update #0580.
+#1088  Finance Office: Musufu budget decreased by $50K.
+#1089  Finance Office: Musufu budget increased by $80K per the revised plan.
+#1090  Finance Office: Musufu budget increased by $110K after review.
+#1091  Finance Office: Musufu budget increased by $65K.
+#1092  Finance Office: Musufu budget increased by $80K after review.
+#1093  Finance Office: Musufu budget increased by $105K per the revised plan.
+#1094  Marketing email: Musufu budget is going up to $1640K.
+#1095  Finance Office: Withdraw update #0464.
+#1096  Engineering email: Musufu design review moved to Room 4D.
+#1097  Facilities ticket: Musufu budget is going to $1370K.
+#1098  Finance Office: Musufu budget increased by $10K per the revised plan.
+#1099  Finance Office: Withdraw update #1082; it was entered in error.
+#1100  Finance Office: Withdraw update #0775; it was entered in error.
+#1101  Legal email: Expect Musufu's budget to rise by $528K.
+#1102  Finance Office: Musufu budget increased by $60K after review.
+#1103  Finance Office: Withdraw update #0794.
+#1104  Finance Office: Musufu budget decreased by $68K.
+#1105  Finance Office: Withdraw update #0747.
+#1106  Finance Office: Musufu budget decreased by $60K after review.
+#1107  Operations chat: Sounds like Musufu gets $131K more.
+#1108  Finance Office: Musufu budget increased by $45K.
+#1109  Sales update: Hearing Musufu's budget goes up $63K.
+#1110  Facilities ticket: Musufu status report filed for week 3.
+#1111  Finance Office: Withdraw update #0715.
+#1112  Finance Office: Musufu budget decreased by $75K.
+#1113  Sales update: Heard Musufu's budget is now $3120K.
+#1114  Finance Office: Musufu budget increased by $130K after review.
+#1115  Finance Office: Musufu budget increased by $5K after review.
+#1116  Finance Office: Withdraw update #1033; it was entered in error.
+#1117  Finance Office: Musufu budget increased by $10K.
+#1118  Finance Office: Withdraw update #0033.
+#1119  Finance Office: Musufu budget decreased by $85K per the revised plan.
+#1120  Finance Office: Musufu budget decreased by $135K.
+#1121  Finance Office: Musufu budget decreased by $145K after review.
+#1122  Finance Office: Musufu budget decreased by $20K per the revised plan.
+#1123  Operations chat: Pretty sure Musufu's budget is $2580K now.
+#1124  Finance Office: Withdraw update #0323.
+#1125  Finance Office: Musufu budget increased by $75K.
+#1126  Marketing email: Musufu budget should land at $2290K.
+#1127  Finance Office: Musufu budget decreased by $110K.
+#1128  Operations chat: Musufu status report filed for week 7.
+#1129  Engineering email: Hearing Musufu's budget goes down $402K.
+#1130  Finance Office: Musufu budget increased by $115K after review.
+#1131  Finance Office: Musufu budget increased by $26K after review.
+#1132  Finance Office: Musufu budget decreased by $65K.
+#1133  Finance Office: Musufu budget increased by $20K.
+#1134  Vendor call: Hearing Musufu's budget goes up $564K.
+#1135  Finance Office: Withdraw update #1068; it was entered in error.
+#1136  Finance Office: Musufu budget decreased by $130K after review.
+#1137  Finance Office: Withdraw update #0137; it was entered in error.
+#1138  Finance Office: Musufu budget increased by $431K after review.
+#1139  Finance Office: Reminder: Musufu expense reports are due Monday.
+#1140  Finance Office: Reminder: Musufu expense reports are due Monday.
+#1141  Finance Office: Musufu budget decreased by $85K after review.
+#1142  Finance Office: Musufu budget increased by $70K.
+#1143  Finance Office: Withdraw update #1058.
+#1144  Engineering email: Pretty sure Musufu's budget is $2210K now.
+#1145  Finance Office: Musufu budget decreased by $125K per the revised plan.
+#1146  Finance Office: Withdraw update #0151.
+#1147  Finance Office: Withdraw update #1135.
+#1148  Finance Office: Withdraw update #0618.
+#1149  Marketing email: Expect Musufu's budget to rise by $221K.
+#1150  Finance Office: Withdraw update #0670; it was entered in error.
+#1151  Finance Office: Musufu budget decreased by $145K after review.
+#1152  Finance Office: Musufu budget increased by $100K per the revised plan.
+#1153  Engineering email: Musufu budget is going down by $449K.
+#1154  Finance Office: Musufu budget decreased by $100K per the revised plan.
+#1155  Finance Office: Musufu budget increased by $50K after review.
+#1156  Finance Office: Musufu budget increased by $145K after review.
+#1157  PMO note: Heard Musufu's budget is now $3780K.
+#1158  Finance Office: Musufu budget increased by $60K per the revised plan.
+#1159  Marketing email: Heard Musufu's budget is now $3160K.
+#1160  Legal email: Hearing Musufu's budget goes down $322K.
+#1161  Finance Office: Withdraw update #0917; it was entered in error.
+#1162  Engineering email: Musufu design review moved to Room 5A.
+#1163  Vendor call: Musufu budget should land at $2140K.
+#1164  Finance Office: Withdraw update #0487; it was entered in error.
+#1165  Finance Office: Musufu budget increased by $70K.
+#1166  Finance Office: Musufu audit notes filed.
+#1167  Finance Office: Musufu budget decreased by $150K per the revised plan.
+#1168  Finance Office: Musufu budget increased by $70K.
+#1169  Facilities ticket: Musufu test environment back online.
+#1170  Finance Office: Musufu budget increased by $95K after review.
+#1171  Finance Office: Musufu budget increased by $140K per the revised plan.
+#1172  Finance Office: Musufu budget decreased by $95K.
+#1173  Marketing email: Sounds like Musufu gets $394K less.
+#1174  Finance Office: Musufu budget increased by $145K.
+#1175  Finance Office: Musufu budget decreased by $38K per the revised plan.
+#1176  Finance Office: Musufu budget decreased by $110K after review.
+#1177  Finance Office: Musufu quarterly audit scheduled for Thursday.
+#1178  Facilities ticket: Musufu budget should land at $3790K.
+#1179  Finance Office: Musufu budget decreased by $60K per the revised plan.
+#1180  Legal email: Musufu budget should land at $3530K.
+#1181  Finance Office: Musufu budget decreased by $100K per the revised plan.
+#1182  Finance Office: Withdraw update #0898; it was entered in error.
+#1183  PMO note: Heard Musufu's budget is now $2660K.
+#1184  Finance Office: Musufu budget decreased by $59K.
+#1185  Finance Office: Withdraw update #0999.
+#1186  Legal email: Hearing Musufu's budget goes down $271K.
+#1187  Finance Office: Musufu audit notes filed.
+#1188  Engineering email: Pretty sure Musufu's budget is $2230K now.
+#1189  Finance Office: Musufu budget increased by $110K per the revised plan.
+#1190  Vendor call: Musufu budget should land at $2650K.
+#1191  Finance Office: Musufu budget decreased by $451K after review.
+#1192  Facilities ticket: Musufu documentation moved to the shared drive.
+#1193  Finance Office: Musufu budget increased by $50K.
+#1194  Finance Office: Musufu budget increased by $60K.
+#1195  Finance Office: Musufu budget decreased by $150K after review.
+#1196  Finance Office: Withdraw update #1021.
+#1197  Facilities ticket: Expect Musufu's budget to drop by $351K.
+#1198  Finance Office: Withdraw update #0875.
+#1199  Finance Office: Musufu budget decreased by $75K per the revised plan.
+#1200  Finance Office: Musufu purchase order FC-5095 closed.
+#1201  Finance Office: Withdraw update #1138.
+#1202  Finance Office: Withdraw update #0300.
+#1203  Finance Office: Musufu budget decreased by $35K.
+#1204  Facilities ticket: Pretty sure Musufu's budget is $1080K now.
+#1205  Finance Office: Musufu budget decreased by $25K after review.
+#1206  Finance Office: Withdraw update #0516.
+#1207  Finance Office: Musufu budget decreased by $10K per the revised plan.
+#1208  Sales update: Expect Musufu's budget to rise by $569K.
+#1209  Facilities ticket: Sounds like Musufu gets $386K more.
+#1210  Finance Office: Musufu budget increased by $25K.
+#1211  Marketing email: Sounds like Musufu gets $339K more.
+#1212  Facilities ticket: Musufu budget is going down to $520K.
+#1213  Vendor call: Pretty sure Musufu's budget is $520K now.
+#1214  PMO note: Musufu budget is going up by $546K.
+#1215  Finance Office: Musufu budget increased by $20K.
+#1216  Finance Office: Musufu budget increased by $45K.
+#1217  Marketing email: Musufu risk register updated with 8 new items.
+#1218  Finance Office: Musufu budget decreased by $125K after review.
+#1219  Finance Office: Musufu budget increased by $86K after review.
+#1220  Finance Office: Musufu budget decreased by $40K per the revised plan.
+#1221  Finance Office: Musufu budget increased by $70K per the revised plan.
+#1222  Finance Office: Musufu budget increased by $130K.
+#1223  Engineering email: Musufu budget should land at $870K.
+#1224  Finance Office: Withdraw update #1047; it was entered in error.
+#1225  Finance Office: Musufu budget decreased by $80K per the revised plan.
+#1226  Finance Office: Musufu budget increased by $15K after review.
+#1227  Finance Office: Musufu budget increased by $130K per the revised plan.
+#1228  Finance Office: Musufu budget decreased by $110K per the revised plan.
+#1229  Finance Office: Musufu cost center code changed to FC-2170.
+#1230  Finance Office: Musufu budget increased by $135K.
+#1231  Finance Office: Musufu budget decreased by $105K.
+#1232  Finance Office: Musufu budget increased by $110K.
+#1233  Finance Office: Musufu budget increased by $85K per the revised plan.
+#1234  Finance Office: Withdraw update #0068.
+#1235  Engineering email: Musufu demo rescheduled to Wednesday afternoon.
+#1236  Finance Office: Musufu budget decreased by $130K.
+#1237  Finance Office: Musufu budget decreased by $140K after review.
+#1238  Vendor call: Musufu site visit confirmed for Wednesday.
+#1239  Finance Office: Musufu budget decreased by $60K.
+#1240  Vendor call: Musufu budget is going to $820K.
+#1241  Operations chat: Musufu budget is going down to $950K.
+#1242  Finance Office: Withdraw update #0899.
+#1243  Legal email: Sounds like Musufu gets $186K less.
+#1244  Finance Office: Musufu budget increased by $80K.
+#1245  Finance Office: Musufu budget decreased by $90K per the revised plan.
+#1246  Finance Office: Withdraw update #0929.
+#1247  Finance Office: Musufu budget increased by $5K after review.
+#1248  Legal email: Musufu weekly sync moved to Mondays.
+#1249  Vendor call: Musufu status report filed for week 7.
+#1250  Finance Office: Reminder: Musufu expense reports are due Tuesday.
+#1251  Finance Office: Withdraw update #1191.
+#1252  Finance Office: Withdraw update #1051; it was entered in error.
+#1253  Finance Office: Musufu budget increased by $120K after review.
+#1254  PMO note: Hearing Musufu's budget goes up $66K.
+#1255  Finance Office: Musufu budget increased by $30K after review.
+#1256  Operations chat: Musufu weekly sync moved to Fridays.
+#1257  Facilities ticket: Musufu design review moved to Room 4C.
+#1258  Facilities ticket: Heard Musufu's budget is now $690K.
+#1259  Finance Office: Musufu budget increased by $90K.
+#1260  PMO note: Sounds like Musufu gets $366K more.
+#1261  Finance Office: Withdraw update #1104; it was entered in error.
+#1262  Finance Office: Musufu budget increased by $105K.
+#1263  Operations chat: Heard Musufu's budget is now $690K.
+#1264  Finance Office: Musufu budget increased by $30K after review.
+#1265  Finance Office: Musufu budget increased by $130K.
+#1266  Finance Office: Musufu budget increased by $110K per the revised plan.
+#1267  Finance Office: Withdraw update #1219; it was entered in error.
+#1268  Finance Office: Musufu budget increased by $10K after review.
+#1269  Finance Office: Withdraw update #1150.
+#1270  Finance Office: Musufu budget increased by $90K after review.
+#1271  Finance Office: Musufu budget decreased by $10K after review.
+#1272  Finance Office: Withdraw update #0996; it was entered in error.
+#1273  Finance Office: Musufu budget increased by $115K per the revised plan.
+#1274  Finance Office: Withdraw update #0497.
+#1275  Facilities ticket: Heard Musufu's budget is now $1330K.
+#1276  Finance Office: Musufu budget increased by $5K.
+#1277  Operations chat: Musufu budget is going to $1610K.
+#1278  PMO note: Musufu budget is going down by $388K.
+#1279  Finance Office: Musufu budget decreased by $125K after review.
+#1280  Finance Office: Musufu budget decreased by $125K per the revised plan.
+#1281  Finance Office: Musufu budget increased by $40K after review.
+#1282  Vendor call: Pretty sure Musufu's budget is $1660K now.
+#1283  Finance Office: Musufu budget decreased by $105K.
+#1284  Finance Office: Withdraw update #0353.
+#1285  Finance Office: Musufu budget increased by $10K.
+#1286  Finance Office: Withdraw update #1182; it was entered in error.
+#1287  Finance Office: Musufu budget increased by $145K.
+#1288  Finance Office: Musufu budget increased by $130K after review.
+#1289  Marketing email: Musufu budget should land at $1570K.
+#1290  Finance Office: Musufu budget increased by $5K.
+#1291  Operations chat: Musufu budget is going to $1830K.
+#1292  Finance Office: Musufu budget increased by $5K after review.
+#1293  Sales update: Expect Musufu's budget to drop by $487K.
+#1294  Legal email: Pretty sure Musufu's budget is $1280K now.
+#1295  Finance Office: Musufu budget increased by $60K.
+#1296  Marketing email: Expect Musufu's budget to rise by $452K.
+#1297  PMO note: Musufu site visit confirmed for Thursday.
+#1298  Operations chat: Sounds like Musufu gets $242K less.
+#1299  Facilities ticket: Musufu budget is going to $1890K.
+#1300  Finance Office: Musufu budget decreased by $150K per the revised plan.
+#1301  Finance Office: Musufu budget decreased by $40K after review.
+#1302  Finance Office: Musufu budget decreased by $60K after review.
+#1303  Finance Office: Musufu budget increased by $55K after review.
+#1304  Finance Office: Musufu budget decreased by $15K.
+#1305  Finance Office: Musufu budget decreased by $65K after review.
+#1306  Finance Office: Withdraw update #1100.
+#1307  Finance Office: Musufu budget increased by $120K after review.
+#1308  Finance Office: Musufu budget increased by $45K after review.
+#1309  Engineering email: Heard Musufu's budget is now $2190K.
+#1310  Engineering email: Heard Musufu's budget is now $1560K.
+#1311  Finance Office: Withdraw update #1038.
+#1312  Operations chat: Musufu budget should land at $1600K.
+#1313  Finance Office: Musufu budget decreased by $85K per the revised plan.
+#1314  Finance Office: Musufu budget decreased by $20K after review.
+#1315  Engineering email: Hearing Musufu's budget goes down $214K.
+#1316  Finance Office: Withdraw update #0050; it was entered in error.
+#1317  Legal email: Heard Musufu's budget is now $1730K.
+#1318  Facilities ticket: Musufu budget should land at $1680K.
+#1319  Finance Office: Withdraw update #1202; it was entered in error.
+#1320  Finance Office: Musufu budget increased by $145K per the revised plan.
+#1321  Finance Office: Musufu budget increased by $85K per the revised plan.
+#1322  Finance Office: Musufu budget increased by $35K per the revised plan.
+#1323  Finance Office: Withdraw update #0082; it was entered in error.
+#1324  Vendor call: Sounds like Musufu gets $378K less.
+#1325  Finance Office: Withdraw update #0777.
+#1326  Finance Office: Musufu budget increased by $95K after review.
+#1327  Finance Office: Musufu budget increased by $145K after review.
+#1328  Finance Office: Musufu budget increased by $140K after review.
+#1329  Marketing email: Heard Musufu's budget is now $1360K.
+#1330  Finance Office: Musufu budget increased by $591K.
+#1331  Vendor call: Sounds like Musufu gets $2K more.
+#1332  Operations chat: Musufu budget is going to $2990K.
+#1333  Finance Office: Withdraw update #0797.
+#1334  Finance Office: Withdraw update #0257.
+#1335  Finance Office: Musufu budget increased by $85K after review.
+#1336  Marketing email: Musufu budget is going down by $586K.
+#1337  Finance Office: Musufu budget increased by $105K after review.
+#1338  Finance Office: Musufu budget increased by $120K per the revised plan.
+#1339  PMO note: Musufu budget is going to $4450K.
+#1340  Marketing email: Hearing Musufu's budget goes up $106K.
+#1341  Finance Office: Musufu budget increased by $30K per the revised plan.
+#1342  Finance Office: Musufu budget decreased by $105K after review.
+#1343  Finance Office: Withdraw update #1325.
+#1344  Finance Office: Withdraw update #1030; it was entered in error.
+#1345  Operations chat: Musufu budget should land at $2780K.
+#1346  Sales update: Musufu budget is going to $2940K.
+#1347  Finance Office: Musufu budget increased by $65K.
+#1348  Finance Office: Withdraw update #0506.
+#1349  Finance Office: Musufu budget decreased by $105K.
+#1350  Sales update: Expect Musufu's budget to drop by $536K.
+#1351  Finance Office: Musufu budget increased by $110K.
+#1352  Finance Office: Musufu budget increased by $20K after review.
+#1353  Finance Office: Withdraw update #0169.
+#1354  Engineering email: Expect Musufu's budget to rise by $147K.
+#1355  Sales update: Musufu budget is going to $3700K.
+#1356  Finance Office: Musufu budget increased by $35K per the revised plan.
+#1357  Finance Office: Musufu budget decreased by $50K.
+#1358  PMO note: Musufu budget is going down to $3230K.
+#1359  Finance Office: Musufu budget increased by $25K after review.
+#1360  Finance Office: Musufu budget decreased by $75K after review.
+#1361  Finance Office: Musufu budget decreased by $110K per the revised plan.
+#1362  Finance Office: Musufu budget increased by $40K per the revised plan.
+#1363  Operations chat: Sounds like Musufu gets $389K less.
+#1364  Engineering email: Sounds like Musufu gets $257K less.
+#1365  Finance Office: Musufu budget increased by $140K.
+#1366  Finance Office: Musufu budget decreased by $100K per the revised plan.
+#1367  Legal email: Pretty sure Musufu's budget is $2960K now.
+#1368  Finance Office: Musufu budget increased by $75K after review.
+#1369  Finance Office: Musufu budget decreased by $75K per the revised plan.
+#1370  Finance Office: Musufu budget increased by $25K after review.
+#1371  Finance Office: Musufu budget increased by $130K.
+#1372  Finance Office: Musufu budget increased by $105K.
+#1373  Finance Office: Musufu budget increased by $135K after review.
+#1374  Legal email: Musufu weekly sync moved to Mondays.
+#1375  Finance Office: Musufu budget increased by $50K per the revised plan.
+#1376  Finance Office: Musufu budget increased by $35K after review.
+#1377  Finance Office: Withdraw update #0603.
+#1378  Finance Office: Withdraw update #1224.
+#1379  Operations chat: Musufu budget should land at $4730K.
+#1380  Facilities ticket: Musufu budget is going up by $534K.
+#1381  Finance Office: Withdraw update #1234.
+#1382  Finance Office: Musufu budget increased by $70K.
+#1383  PMO note: Expect Musufu's budget to rise by $367K.
+#1384  Marketing email: Expect Musufu's budget to rise by $278K.
+#1385  Operations chat: Musufu test environment back online.
+#1386  Vendor call: Musufu budget should land at $3340K.
+#1387  Finance Office: Musufu budget increased by $10K.
+#1388  Finance Office: Musufu budget decreased by $5K.
+#1389  Finance Office: Musufu budget increased by $55K per the revised plan.
+#1390  Facilities ticket: Hearing Musufu's budget goes down $104K.
+#1391  Finance Office: Musufu budget increased by $50K.
+#1392  Finance Office: Withdraw update #0688.
+#1393  Operations chat: Musufu budget should land at $2970K.
+#1394  Engineering email: Musufu weekly sync moved to Thursdays.
+#1395  Finance Office: Musufu budget increased by $135K.
+#1396  Sales update: Musufu design review moved to Room 5A.
+#1397  Marketing email: Musufu demo rescheduled to Friday afternoon.
+#1398  Legal email: Hearing Musufu's budget goes up $244K.
+#1399  Engineering email: Expect Musufu's budget to rise by $181K.
+#1400  Operations chat: Pretty sure Musufu's budget is $2540K now.
+#1401  Operations chat: Heard Musufu's budget is now $4800K.
+#1402  Facilities ticket: Musufu kickoff moved to Building 8.
+#1403  Finance Office: Musufu budget decreased by $55K.
+#1404  Finance Office: Musufu budget decreased by $125K.
+#1405  Finance Office: Musufu budget decreased by $140K.
+#1406  Sales update: Sounds like Musufu gets $462K less.
+#1407  Operations chat: Musufu budget is going up by $563K.
+#1408  Finance Office: Withdraw update #0734.
+#1409  Vendor call: Heard Musufu's budget is now $3360K.
+#1410  Finance Office: Musufu budget increased by $90K per the revised plan.
+#1411  Engineering email: Musufu design review moved to Room 6D.
+#1412  Finance Office: Musufu audit notes filed.
+#1413  Vendor call: Musufu vendor onboarding call scheduled for Friday.
+#1414  Marketing email: Hearing Musufu's budget goes down $113K.
+#1415  Finance Office: Musufu budget decreased by $45K per the revised plan.
+#1416  Finance Office: Musufu budget increased by $140K.
+#1417  Facilities ticket: Pretty sure Musufu's budget is $4250K now.
+#1418  Finance Office: Musufu budget increased by $20K after review.
+#1419  Finance Office: Musufu budget increased by $140K after review.
+#1420  Finance Office: Musufu budget decreased by $120K per the revised plan.
+#1421  Engineering email: Musufu budget is going up to $3760K.
+#1422  Facilities ticket: Expect Musufu's budget to rise by $437K.
+#1423  Finance Office: Withdraw update #1131.
+#1424  Finance Office: Withdraw update #1184; it was entered in error.
+#1425  Engineering email: Musufu weekly sync moved to Thursdays.
+#1426  Finance Office: Musufu budget increased by $135K per the revised plan.
+#1427  Marketing email: Musufu demo rescheduled to Friday afternoon.
+#1428  Finance Office: Withdraw update #0233; it was entered in error.
+#1429  Finance Office: Withdraw update #0807; it was entered in error.
+#1430  Engineering email: Musufu risk register updated with 8 new items.
+#1431  Operations chat: Musufu risk register updated with 5 new items.
+#1432  Operations chat: Expect Musufu's budget to rise by $357K.
+#1433  Finance Office: Musufu budget decreased by $25K.
+#1434  Legal email: Musufu budget is going up to $4800K.
+#1435  Sales update: Musufu budget should land at $3040K.
+#1436  Operations chat: Expect Musufu's budget to drop by $48K.
+#1437  Finance Office: Withdraw update #1175.
+#1438  Finance Office: Musufu budget decreased by $15K after review.
+#1439  Finance Office: Musufu receipts scanned.
+#1440  Marketing email: Hearing Musufu's budget goes down $288K.
+#1441  PMO note: Musufu budget is going to $4800K.
+#1442  Finance Office: Musufu audit notes filed.
+#1443  Finance Office: Withdraw update #1423.
+#1444  Finance Office: Musufu budget increased by $55K after review.
+#1445  Finance Office: Musufu budget decreased by $25K.
+#1446  Vendor call: Musufu budget is going up by $594K.
+#1447  Finance Office: Withdraw update #1274.
+#1448  Finance Office: Musufu budget decreased by $115K per the revised plan.
+#1449  Operations chat: Heard Musufu's budget is now $3940K.
+#1450  Finance Office: Musufu budget increased by $145K after review.
+#1451  Finance Office: Musufu budget decreased by $110K after review.
+#1452  Finance Office: Musufu budget decreased by $140K per the revised plan.
+#1453  Finance Office: Withdraw update #0102.
+#1454  Finance Office: Withdraw update #0665; it was entered in error.
+#1455  Finance Office: Musufu budget decreased by $15K per the revised plan.
+#1456  Finance Office: Musufu budget increased by $5K per the revised plan.
+#1457  PMO note: Musufu site visit confirmed for Wednesday.
+#1458  Finance Office: Withdraw update #1330; it was entered in error.
+#1459  Finance Office: Musufu budget decreased by $125K per the revised plan.
+#1460  Vendor call: Heard Musufu's budget is now $2930K.
+#1461  Legal email: Musufu budget is going up to $2630K.
+#1462  Finance Office: Musufu budget increased by $150K per the revised plan.
+#1463  Finance Office: Withdraw update #1006; it was entered in error.
+#1464  Legal email: Musufu budget is going to $2890K.
+#1465  Finance Office: Musufu budget increased by $35K after review.
+#1466  Legal email: Sounds like Musufu gets $74K less.
+#1467  Finance Office: Musufu budget decreased by $110K after review.
+#1468  Finance Office: Musufu budget decreased by $50K after review.
+#1469  Finance Office: Musufu budget increased by $25K after review.
+#1470  PMO note: Musufu demo rescheduled to Wednesday afternoon.
+#1471  Finance Office: Withdraw update #1447; it was entered in error.
+#1472  Finance Office: Musufu budget increased by $537K.
+#1473  Vendor call: Musufu budget is going up to $3430K.
+#1474  Finance Office: Musufu budget increased by $35K after review.
+#1475  Finance Office: Withdraw update #0062; it was entered in error.
+#1476  Facilities ticket: Expect Musufu's budget to rise by $464K.
+#1477  Facilities ticket: Musufu budget is going down by $141K.
+#1478  Legal email: Sounds like Musufu gets $548K more.
+#1479  Finance Office: Musufu budget increased by $25K after review.
+#1480  Vendor call: Musufu vendor onboarding call scheduled for Thursday.
+#1481  Finance Office: Musufu budget decreased by $5K after review.
+#1482  Finance Office: Musufu budget decreased by $60K per the revised plan.
+#1483  Finance Office: Musufu budget decreased by $145K after review.
+#1484  PMO note: Musufu budget is going up to $4670K.
+#1485  Finance Office: Musufu budget decreased by $120K after review.
+#1486  Finance Office: Musufu budget increased by $80K after review.
+#1487  Facilities ticket: Pretty sure Musufu's budget is $3080K now.
+#1488  Finance Office: Musufu budget increased by $60K.
+#1489  Finance Office: Withdraw update #0601; it was entered in error.
+#1490  Operations chat: Musufu kickoff moved to Building 4.
+#1491  Finance Office: Musufu budget increased by $120K per the revised plan.
+#1492  Finance Office: Musufu budget increased by $5K per the revised plan.
+#1493  Finance Office: Withdraw update #1428; it was entered in error.
+#1494  Finance Office: Musufu receipts scanned.
+#1495  Facilities ticket: Pretty sure Musufu's budget is $4800K now.
+#1496  Finance Office: Withdraw update #0913.
+#1497  Finance Office: Musufu budget decreased by $150K per the revised plan.
+#1498  Sales update: Hearing Musufu's budget goes up $493K.
+#1499  Sales update: Musufu budget is going up by $471K.
+#1500  Legal email: Pretty sure Musufu's budget is $4800K now.
+#1501  Finance Office: Musufu budget increased by $105K after review.
+#1502  Finance Office: Musufu budget decreased by $120K after review.
+#1503  Finance Office: Musufu budget increased by $35K.
+#1504  Vendor call: Sounds like Musufu gets $211K less.
+#1505  Finance Office: Musufu budget decreased by $125K.
+#1506  Finance Office: Musufu budget increased by $10K.
+#1507  Marketing email: Heard Musufu's budget is now $3910K.
+#1508  Finance Office: Musufu budget decreased by $135K.
+#1509  Finance Office: Musufu budget decreased by $20K after review.
+#1510  Finance Office: Withdraw update #1164; it was entered in error.
+#1511  Finance Office: Withdraw update #0723; it was entered in error.
+#1512  Finance Office: Musufu budget decreased by $105K.
+#1513  Marketing email: Expect Musufu's budget to drop by $498K.
+#1514  Finance Office: Musufu budget increased by $150K.
+#1515  Finance Office: Musufu budget decreased by $30K per the revised plan.
+#1516  Marketing email: Musufu risk register updated with 3 new items.
+#1517  Vendor call: Musufu risk register updated with 6 new items.
+#1518  PMO note: Musufu budget should land at $2760K.
+#1519  Engineering email: Pretty sure Musufu's budget is $4800K now.
+#1520  Vendor call: Musufu weekly sync moved to Wednesdays.
+#1521  Finance Office: Musufu budget decreased by $20K.
+#1522  Finance Office: Musufu budget increased by $145K after review.
+#1523  Finance Office: Musufu budget increased by $105K.
+#1524  PMO note: Musufu budget is going up by $321K.
+#1525  Finance Office: Musufu budget increased by $25K.
+#1526  Legal email: Sounds like Musufu gets $484K more.
+#1527  Finance Office: Withdraw update #1472; it was entered in error.
+#1528  Finance Office: Withdraw update #1284.
+#1529  Finance Office: Withdraw update #1077; it was entered in error.
+#1530  Finance Office: Withdraw update #0635.
+#1531  Finance Office: Withdraw update #0894; it was entered in error.
+#1532  Finance Office: Musufu budget decreased by $45K after review.
+#1533  Marketing email: Musufu documentation moved to the shared drive.
+#1534  Finance Office: Musufu budget decreased by $65K per the revised plan.
+#1535  Marketing email: Musufu budget is going down to $3450K.
+#1536  Finance Office: Musufu receipts scanned.
+#1537  Marketing email: Musufu budget is going down to $2800K.
+#1538  Legal email: Musufu budget is going to $4050K.
+#1539  Sales update: Musufu budget is going to $3930K.
+#1540  Finance Office: Musufu budget decreased by $20K.
+#1541  Facilities ticket: Musufu budget is going down by $232K.
+#1542  Facilities ticket: Pretty sure Musufu's budget is $4720K now.
+#1543  Operations chat: Pretty sure Musufu's budget is $3980K now.
+#1544  Finance Office: Withdraw update #1111; it was entered in error.
+#1545  Engineering email: Musufu budget is going up by $51K.
+#1546  Finance Office: Musufu budget decreased by $150K.
+#1547  Finance Office: Musufu budget increased by $90K after review.
+#1548  Marketing email: Musufu demo rescheduled to Monday afternoon.
+#1549  Engineering email: Hearing Musufu's budget goes down $96K.
+#1550  Finance Office: Withdraw update #0970; it was entered in error.
+#1551  Finance Office: Musufu budget decreased by $75K per the revised plan.
+#1552  Finance Office: Musufu budget increased by $45K.
+#1553  Finance Office: Musufu budget decreased by $60K after review.
+#1554  Finance Office: Musufu budget decreased by $90K.
+#1555  Operations chat: Hearing Musufu's budget goes up $222K.
+#1556  Finance Office: Withdraw update #1087; it was entered in error.
+#1557  Finance Office: Musufu budget increased by $5K.
+#1558  Finance Office: Musufu budget decreased by $65K.
+#1559  Finance Office: Musufu budget decreased by $150K per the revised plan.
+#1560  Finance Office: Withdraw update #0198; it was entered in error.
+#1561  Finance Office: Musufu budget increased by $95K per the revised plan.
+#1562  Finance Office: Musufu budget increased by $55K per the revised plan.
+#1563  Finance Office: Musufu budget decreased by $125K after review.
+#1564  Finance Office: Musufu budget decreased by $110K per the revised plan.
+#1565  Finance Office: Reminder: Musufu expense reports are due Monday.
+#1566  Finance Office: Musufu budget increased by $115K per the revised plan.
+#1567  Finance Office: Musufu receipts scanned.
+#1568  Sales update: Musufu budget is going down to $2940K.
+#1569  Finance Office: Withdraw update #0511; it was entered in error.
+#1570  Engineering email: Heard Musufu's budget is now $4800K.
+#1571  Legal email: Musufu budget is going up by $443K.
+#1572  Finance Office: Withdraw update #1076; it was entered in error.
+#1573  Finance Office: Musufu budget decreased by $65K after review.
+#1574  PMO note: Musufu demo rescheduled to Tuesday afternoon.
+#1575  Engineering email: Musufu budget is going up to $3720K.
+#1576  Finance Office: Musufu budget decreased by $140K after review.
+#1577  Finance Office: Musufu budget increased by $10K.
+#1578  PMO note: Musufu demo rescheduled to Friday afternoon.
+#1579  Operations chat: Pretty sure Musufu's budget is $3000K now.
+#1580  Finance Office: Musufu budget increased by $90K.
+#1581  Finance Office: Withdraw update #0934.
+#1582  Legal email: Pretty sure Musufu's budget is $4300K now.
+#1583  Finance Office: Musufu budget increased by $105K per the revised plan.
+#1584  Finance Office: Musufu budget increased by $110K per the revised plan.
+#1585  PMO note: Sounds like Musufu gets $291K more.
+#1586  Finance Office: Musufu budget increased by $5K per the revised plan.
+#1587  Finance Office: Musufu budget increased by $90K per the revised plan.
+#1588  Vendor call: Sounds like Musufu gets $287K less.
+#1589  Legal email: Pretty sure Musufu's budget is $4800K now.
+#1590  Finance Office: Withdraw update #0731.
+#1591  Finance Office: Musufu budget increased by $135K after review.
+#1592  Finance Office: Musufu budget decreased by $85K after review.
+#1593  Finance Office: Withdraw update #0684; it was entered in error.
+#1594  Finance Office: Withdraw update #0855.
+#1595  Sales update: Hearing Musufu's budget goes up $234K.
+#1596  Finance Office: Musufu budget increased by $100K per the revised plan.
+#1597  Finance Office: Musufu budget increased by $60K per the revised plan.
+#1598  Finance Office: Musufu budget increased by $25K per the revised plan.
+#1599  Finance Office: Musufu budget increased by $150K.
+#1600  Finance Office: Musufu budget decreased by $105K.
+
+Question: What is Musufu's budget now?

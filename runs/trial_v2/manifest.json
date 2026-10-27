@@ -1,0 +1,254 @@
+{
+ "schema": 2,
+ "run": "trial_v2",
+ "created_at": "2026-10-27T20:39:08+00:00",
+ "created_by": "kimi-chen",
+ "git_commit": "0cd22c78fec36703d3a75c6f579e55ee85783013",
+ "git_dirty": false,
+ "skill_sha256": "c42e2e9551523a1800072ba862718314f4bbf74e6fa27d5fce270e49953c0f9e",
+ "config_file": "config/trial.toml",
+ "config": {
+  "description": "Trial v2: 5 new logs, all 8 cells once; 2 logs get 5 repeats in R without the skill",
+  "purpose": "development",
+  "seed_start": 610000,
+  "schedule_seed": 180,
+  "selection_seed": 181,
+  "tier1": {
+   "logs": 5,
+   "versions": [
+    "C",
+    "R",
+    "RG",
+    "E"
+   ],
+   "instructions": [
+    "none",
+    "skill"
+   ],
+   "repeats": 1
+  },
+  "tier2": {
+   "logs": 2,
+   "versions": [
+    "R"
+   ],
+   "instructions": [
+    "none"
+   ],
+   "repeats": 5
+  },
+  "timeout_seconds": 1800,
+  "generator": {
+   "records": 1600,
+   "adjust_share": 0.45,
+   "withdraw_share": 0.15,
+   "gossip_share": 0.3,
+   "nested_rate": 0.35,
+   "relative_gossip_share": 0.5,
+   "amount_step": 5,
+   "amount_max": 150,
+   "unique_amount_max": 600,
+   "budget_min": 200,
+   "budget_max": 5000
+  },
+  "models": {
+   "claude": {
+    "name": "claude",
+    "provider": "claude-code",
+    "model": "claude-opus-5-5",
+    "effort": "low",
+    "max_output_tokens": 32000
+   },
+   "gpt": {
+    "name": "gpt",
+    "provider": "codex",
+    "model": "gpt-6-astra",
+    "effort": "low",
+    "max_output_tokens": 32000
+   }
+  }
+ },
+ "worlds": {
+  "s610000_n1600": {
+   "seed": 610000,
+   "project": "Vililux",
+   "answer": 3372,
+   "tier2": true,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "withdraw": 240,
+    "filler": 160,
+    "gossip": 480
+   },
+   "relative_gossip": 236,
+   "surviving_adjustments": 627,
+   "chains": 141,
+   "nested_chains": 64,
+   "max_chain_depth": 8,
+   "chars": {
+    "C": 104211,
+    "R": 103768,
+    "RG": 103466,
+    "E": 105263
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0043,
+    "RG": -0.0071,
+    "E": 0.0101
+   }
+  },
+  "s610001_n1600": {
+   "seed": 610001,
+   "project": "Thaza",
+   "answer": 3123,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 243,
+   "surviving_adjustments": 605,
+   "chains": 157,
+   "nested_chains": 54,
+   "max_chain_depth": 7,
+   "chars": {
+    "C": 100892,
+    "R": 100525,
+    "RG": 100288,
+    "E": 101519
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0036,
+    "RG": -0.006,
+    "E": 0.0062
+   }
+  },
+  "s610002_n1600": {
+   "seed": 610002,
+   "project": "Musufu",
+   "answer": 3908,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480,
+    "filler": 160
+   },
+   "relative_gossip": 241,
+   "surviving_adjustments": 601,
+   "chains": 158,
+   "nested_chains": 51,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 103244,
+    "R": 102766,
+    "RG": 102527,
+    "E": 103898
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0046,
+    "RG": -0.0069,
+    "E": 0.0063
+   }
+  },
+  "s610003_n1600": {
+   "seed": 610003,
+   "project": "Debas",
+   "answer": 1444,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "filler": 160,
+    "withdraw": 240,
+    "gossip": 480
+   },
+   "relative_gossip": 241,
+   "surviving_adjustments": 607,
+   "chains": 151,
+   "nested_chains": 59,
+   "max_chain_depth": 4,
+   "chars": {
+    "C": 101351,
+    "R": 101383,
+    "RG": 101045,
+    "E": 102331
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": 0.0003,
+    "RG": -0.003,
+    "E": 0.0097
+   }
+  },
+  "s610004_n1600": {
+   "seed": 610004,
+   "project": "Kagi",
+   "answer": 2453,
+   "tier2": true,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480,
+    "filler": 160
+   },
+   "relative_gossip": 255,
+   "surviving_adjustments": 623,
+   "chains": 141,
+   "nested_chains": 60,
+   "max_chain_depth": 11,
+   "chars": {
+    "C": 99926,
+    "R": 100021,
+    "RG": 99680,
+    "E": 100652
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": 0.001,
+    "RG": -0.0025,
+    "E": 0.0073
+   }
+  }
+ },
+ "trials": 96,
+ "files": {
+  "prompts/s610000_n1600_C.txt": "211e81081d933f5889633a44cd9ba1ee05506e3b7849749bc066ee58de9e9257",
+  "prompts/s610000_n1600_E.txt": "ecfa6456775a57fc6494d8a46dde238ef159e578f488788d747b9f6f2790e724",
+  "prompts/s610000_n1600_R.txt": "a3351a55f8e068334eb7029282c36367019a3262cc0e5b258ef33647052ce976",
+  "prompts/s610000_n1600_RG.txt": "8088f0acc25606764bf3285de28b54ebefb75e07607da175ebfe0e8716110e69",
+  "prompts/s610001_n1600_C.txt": "12cd96607e07cc0f498e5837efbd9c07d1f266d7c68412bb1f00f1f7f0f74657",
+  "prompts/s610001_n1600_E.txt": "1cb951fe1c4858ca6629585a6840b45cab864d76545fc7cad1a058fe77f537d2",
+  "prompts/s610001_n1600_R.txt": "035ce54d557681569865839b4581209fd51140b7bd3f361c7fb286a5aee98bf5",
+  "prompts/s610001_n1600_RG.txt": "92063463aa2a425f01c12ff76aaed80d35fc7320df7a73d4979dfff707ab7ae9",
+  "prompts/s610002_n1600_C.txt": "643bd7cea29432ccbadf902e8afd29f531d986272cdacc5d0ffaa635a7e17375",
+  "prompts/s610002_n1600_E.txt": "2e6313ec06b42d14bafd6d450b08dae2ff7468ccb90f64564ae7fd64501c763b",
+  "prompts/s610002_n1600_R.txt": "540a05fb8122cbcf029959fee08a28c05c88e6ddf034b689b4191718152fc207",
+  "prompts/s610002_n1600_RG.txt": "d2044b974be33ba2bace0880202f3106fd5855b165d155b7cb0008ed5f26aa2a",
+  "prompts/s610003_n1600_C.txt": "ef9ff3b7d7bac267b5d0545e257fa09bdb8d3af619bb61d0c37830a0be1ad99a",
+  "prompts/s610003_n1600_E.txt": "b840f8f82fd3628974e2e9f3c935685236834ef555ee9f143cef4694add189f1",
+  "prompts/s610003_n1600_R.txt": "6b983f43831df68695c515465973b36681bf5618b8f73913bbd7717aed4a9d85",
+  "prompts/s610003_n1600_RG.txt": "bb57162d9e9a050940f60ddc8cc45e7d4cce64c4d915438a304db0a0ad881831",
+  "prompts/s610004_n1600_C.txt": "91e7eda2de204b83f6fcb5364687c59f754794842e630dce7bfce3a8a7d1c403",
+  "prompts/s610004_n1600_E.txt": "07c44f70312cce0721d5b556fb0ffa26991662514db6d24185c560493e1f4275",
+  "prompts/s610004_n1600_R.txt": "ca0be515e3bd005fd1ef2a0a501fbbea8c30db0662f004fc860d6f73fa94fcc3",
+  "prompts/s610004_n1600_RG.txt": "4f3f92a114af4efbb52f2068d95175bbd2d8865fc7054f6352b1ac84e1a6114b",
+  "system/none.txt": "1ce17b4898ab5d23a356446da214cf7ef1fbe464e94cecb20ee09d0750aaf2aa",
+  "system/skill.txt": "f1a865a77a3376cd74ebf23fee4a8497885f32f4141f25492683782035d52881",
+  "trials.jsonl": "5ddc585615a42886b0d1b7fa0db3717190671c564398da14a35f89a818261fe2",
+  "worlds/s610000_n1600.json": "047c87dcf17d68295b94035b7f73689db1efe5e9f2071a3eb74b02698a5b4cd5",
+  "worlds/s610001_n1600.json": "107d665b62dc5cd5c9c16f366942c91db3073f48c16e1a05d7c21e43fa4f6e9c",
+  "worlds/s610002_n1600.json": "ad11654e41d02d2fa144938cbf46e0a9f752a1f220c5ade930aedcc144de5e7e",
+  "worlds/s610003_n1600.json": "b538df8613a7bbbaca506c456b1738aebd009bfa249ab79617555c9d32092c75",
+  "worlds/s610004_n1600.json": "7fe2fc34d52e79fe39758bed2699885a3a3a13611b1436feb47d1c7fd46acdd6"
+ }
+}

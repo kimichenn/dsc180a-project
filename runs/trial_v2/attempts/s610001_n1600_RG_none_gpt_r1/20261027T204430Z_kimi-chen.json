@@ -1,0 +1,66 @@
+{
+ "trial_id": "s610001_n1600_RG_none_gpt_r1",
+ "order": 24,
+ "world_id": "s610001_n1600",
+ "version": "RG",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 1,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "kimi-chen",
+ "git_commit": "0cd22c78fec36703d3a75c6f579e55ee85783013",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.164.0-alpha.11.1",
+ "prompt_sha256": "b01413cbae5c2b40db9bb88d2e81fc1f78e09bc6d3f853185dc57b77082796a4",
+ "started_at": "2026-10-27T20:44:30+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Applying only Finance Office budget updates, and resolving all withdrawals\u2014including withdrawals of withdrawals\u2014Thaza\u2019s current budget is **$3,123K**.\n\nANSWER: $3123K",
+ "usage": {
+  "input_tokens": 28550,
+  "cached_input_tokens": 0,
+  "output_tokens": 4122,
+  "reasoning_output_tokens": 4080
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a17f1b-7e48-7ce2-8e94-4b17e1f8d1d9",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a17f1b-7e48-7ce2-8e94-4b17e1f8d1d9"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Applying only Finance Office budget updates, and resolving all withdrawals\u2014including withdrawals of withdrawals\u2014Thaza\u2019s current budget is **$3,123K**.\n\nANSWER: $3123K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 28550,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 4122,
+     "reasoning_output_tokens": 4080
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-10-27T20:45:39+00:00",
+ "elapsed_s": 68.8
+}

@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Vililux budget set to $2550K per the revised plan.
+#0002  Finance Office: Vililux budget increased by $218K.
+#0003  Finance Office: Withdraw update #0002.
+#0004  Finance Office: Vililux budget increased by $221K per the revised plan.
+#0005  Finance Office: Reminder: Vililux expense reports are due Tuesday.
+#0006  Finance Office: Vililux budget increased by $483K after review.
+#0007  Finance Office: Vililux budget increased by $116K after review.
+#0008  Finance Office: Vililux budget increased by $110K per the revised plan.
+#0009  Finance Office: Withdraw update #0006; it was entered in error.
+#0010  Sales update: Sounds like Vililux gets $201K less.
+#0011  Finance Office: Vililux budget decreased by $20K per the revised plan.
+#0012  Finance Office: Vililux budget decreased by $289K per the revised plan.
+#0013  Finance Office: Vililux budget decreased by $82K after review.
+#0014  Facilities ticket: Sounds like Vililux gets $157K more.
+#0015  Finance Office: Vililux budget decreased by $70K after review.
+#0016  Finance Office: Vililux budget decreased by $10K after review.
+#0017  Finance Office: Vililux budget decreased by $339K after review.
+#0018  Finance Office: Vililux budget increased by $553K.
+#0019  Engineering email: Vililux budget should land at $3060K.
+#0020  Finance Office: Vililux budget increased by $139K after review.
+#0021  Finance Office: Withdraw update #0009; it was entered in error.
+#0022  Finance Office: Vililux budget increased by $140K.
+#0023  Finance Office: Vililux budget decreased by $329K after review.
+#0024  Facilities ticket: Pretty sure Vililux's budget is $2720K now.
+#0025  Sales update: Vililux budget is going up by $387K.
+#0026  Finance Office: Vililux audit notes filed.
+#0027  Sales update: Pretty sure Vililux's budget is $3400K now.
+#0028  Facilities ticket: Heard Vililux's budget is now $3740K.
+#0029  Finance Office: Vililux budget decreased by $379K after review.
+#0030  Marketing email: Vililux weekly sync moved to Tuesdays.
+#0031  Sales update: Sounds like Vililux gets $66K less.
+#0032  Facilities ticket: Sounds like Vililux gets $163K more.
+#0033  Finance Office: Vililux budget increased by $112K per the revised plan.
+#0034  Legal email: Vililux budget is going to $3370K.
+#0035  Vendor call: Vililux budget is going to $3120K.
+#0036  Facilities ticket: Vililux sprint 21 retrospective notes posted.
+#0037  Finance Office: Withdraw update #0020; it was entered in error.
+#0038  Finance Office: Vililux budget increased by $95K.
+#0039  PMO note: Vililux demo rescheduled to Tuesday afternoon.
+#0040  Finance Office: Vililux budget decreased by $80K.
+#0041  Finance Office: Vililux budget increased by $527K per the revised plan.
+#0042  PMO note: Vililux design review moved to Room 4B.
+#0043  PMO note: Hearing Vililux's budget goes up $42K.
+#0044  Finance Office: Vililux budget decreased by $299K per the revised plan.
+#0045  Finance Office: Vililux audit notes filed.
+#0046  Finance Office: Vililux budget decreased by $518K.
+#0047  Finance Office: Vililux budget increased by $20K after review.
+#0048  Facilities ticket: Hearing Vililux's budget goes down $591K.
+#0049  Operations chat: Vililux budget is going up by $491K.
+#0050  Finance Office: Vililux budget increased by $314K per the revised plan.
+#0051  Finance Office: Withdraw update #0003.
+#0052  Finance Office: Vililux budget decreased by $90K.
+#0053  Finance Office: Vililux budget increased by $453K per the revised plan.
+#0054  Finance Office: Vililux budget increased by $384K per the revised plan.
+#0055  Finance Office: Vililux budget increased by $124K.
+#0056  Vendor call: Vililux test environment back online.
+#0057  Operations chat: Vililux budget is going up to $4370K.
+#0058  Finance Office: Vililux invoice batch FC-6979 archived.
+#0059  Finance Office: Withdraw update #0044.
+#0060  Finance Office: Vililux budget decreased by $54K per the revised plan.
+#0061  Facilities ticket: Hearing Vililux's budget goes down $1K.
+#0062  Finance Office: Withdraw update #0059; it was entered in error.
+#0063  Finance Office: Vililux budget increased by $557K after review.
+#0064  Finance Office: Vililux budget decreased by $55K after review.
+#0065  Finance Office: Vililux budget increased by $359K.
+#0066  Finance Office: Vililux budget decreased by $10K per the revised plan.
+#0067  Finance Office: Vililux budget decreased by $556K.
+#0068  Finance Office: Vililux budget decreased by $243K.
+#0069  Finance Office: Withdraw update #0007.
+#0070  Marketing email: Vililux budget is going down to $3660K.
+#0071  Finance Office: Withdraw update #0062.
+#0072  Operations chat: Vililux documentation moved to the shared drive.
+#0073  Finance Office: Vililux budget increased by $73K per the revised plan.
+#0074  Operations chat: Pretty sure Vililux's budget is $4790K now.
+#0075  Finance Office: Vililux budget decreased by $110K per the revised plan.
+#0076  Marketing email: Hearing Vililux's budget goes down $271K.
+#0077  Finance Office: Vililux quarterly audit scheduled for Friday.
+#0078  Finance Office: Reminder: Vililux expense reports are due Wednesday.
+#0079  Finance Office: Vililux budget decreased by $120K.
+#0080  Finance Office: Vililux budget increased by $478K per the revised plan.
+#0081  Finance Office: Vililux budget decreased by $25K after review.
+#0082  Vendor call: Vililux documentation moved to the shared drive.
+#0083  Finance Office: Vililux budget decreased by $78K.
+#0084  Facilities ticket: Vililux budget should land at $3930K.
+#0085  Finance Office: Vililux budget increased by $135K.
+#0086  Finance Office: Withdraw update #0018; it was entered in error.
+#0087  Finance Office: Vililux budget decreased by $237K per the revised plan.
+#0088  Finance Office: Vililux budget increased by $105K after review.
+#0089  Finance Office: Vililux budget decreased by $596K per the revised plan.
+#0090  Finance Office: Withdraw update #0046; it was entered in error.
+#0091  Facilities ticket: Expect Vililux's budget to drop by $22K.
+#0092  Vendor call: Pretty sure Vililux's budget is $4800K now.
+#0093  Finance Office: Vililux budget decreased by $493K after review.
+#0094  Finance Office: Vililux budget increased by $151K.
+#0095  Engineering email: Vililux test environment back online.
+#0096  Operations chat: Sounds like Vililux gets $287K less.
+#0097  Finance Office: Vililux budget decreased by $178K.
+#0098  Finance Office: Vililux budget decreased by $110K.
+#0099  Sales update: Vililux budget is going up by $118K.
+#0100  Finance Office: Vililux budget increased by $130K after review.
+#0101  Finance Office: Vililux budget decreased by $67K after review.
+#0102  Finance Office: Vililux budget decreased by $120K per the revised plan.
+#0103  Finance Office: Withdraw update #0094.
+#0104  Finance Office: Vililux budget decreased by $20K after review.
+#0105  Finance Office: Vililux budget increased by $35K per the revised plan.
+#0106  Sales update: Vililux budget is going up to $3110K.
+#0107  Finance Office: Vililux budget decreased by $70K per the revised plan.
+#0108  PMO note: Vililux budget is going up by $597K.
+#0109  Finance Office: Vililux budget decreased by $140K per the revised plan.
+#0110  Finance Office: Vililux budget decreased by $337K per the revised plan.
+#0111  Sales update: Hearing Vililux's budget goes up $321K.
+#0112  Finance Office: Vililux budget decreased by $95K per the revised plan.
+#0113  Legal email: Vililux budget should land at $1920K.
+#0114  Marketing email: Hearing Vililux's budget goes up $464K.
+#0115  Legal email: Vililux documentation moved to the shared drive.
+#0116  Sales update: Vililux status report filed for week 48.
+#0117  Finance Office: Vililux budget decreased by $15K.
+#0118  Finance Office: Vililux budget decreased by $95K after review.
+#0119  Finance Office: Vililux budget decreased by $334K per the revised plan.
+#0120  Finance Office: Withdraw update #0083; it was entered in error.
+#0121  Facilities ticket: Sounds like Vililux gets $251K less.
+#0122  Facilities ticket: Hearing Vililux's budget goes down $258K.
+#0123  Finance Office: Vililux budget decreased by $15K.
+#0124  Finance Office: Vililux budget decreased by $85K after review.
+#0125  Operations chat: Vililux budget should land at $2040K.
+#0126  Engineering email: Heard Vililux's budget is now $1660K.
+#0127  Finance Office: Vililux budget increased by $578K per the revised plan.
+#0128  Finance Office: Vililux budget decreased by $55K after review.
+#0129  Finance Office: Vililux budget increased by $25K per the revised plan.
+#0130  PMO note: Vililux budget is going up to $3070K.
+#0131  Finance Office: Vililux budget decreased by $311K after review.
+#0132  Finance Office: Withdraw update #0041; it was entered in error.
+#0133  Finance Office: Withdraw update #0017; it was entered in error.
+#0134  Finance Office: Reminder: Vililux expense reports are due Monday.
+#0135  Finance Office: Vililux budget increased by $5K per the revised plan.
+#0136  Finance Office: Vililux audit notes filed.
+#0137  Marketing email: Sounds like Vililux gets $481K more.
+#0138  Operations chat: Vililux risk register updated with 5 new items.
+#0139  Finance Office: Withdraw update #0087; it was entered in error.
+#0140  Sales update: Vililux risk register updated with 4 new items.
+#0141  Finance Office: Vililux budget increased by $132K per the revised plan.
+#0142  Marketing email: Vililux status report filed for week 43.
+#0143  Legal email: Hearing Vililux's budget goes up $86K.
+#0144  Operations chat: Pretty sure Vililux's budget is $2140K now.
+#0145  Finance Office: Withdraw update #0071; it was entered in error.
+#0146  Finance Office: Vililux budget decreased by $283K per the revised plan.
+#0147  Finance Office: Vililux budget decreased by $10K.
+#0148  Vendor call: Vililux budget should land at $1510K.
+#0149  Finance Office: Vililux budget decreased by $40K per the revised plan.
+#0150  Legal email: Vililux site visit confirmed for Wednesday.
+#0151  Finance Office: Vililux budget increased by $125K.
+#0152  Finance Office: Withdraw update #0145.
+#0153  Finance Office: Vililux budget decreased by $382K per the revised plan.
+#0154  Finance Office: Vililux budget decreased by $30K per the revised plan.
+#0155  Finance Office: Withdraw update #0101.
+#0156  Finance Office: Vililux budget decreased by $20K per the revised plan.
+#0157  Finance Office: Vililux budget decreased by $110K per the revised plan.
+#0158  Finance Office: Withdraw update #0133; it was entered in error.
+#0159  Finance Office: Vililux budget increased by $80K.
+#0160  Operations chat: Vililux budget should land at $1530K.
+#0161  Facilities ticket: Vililux budget is going up to $1520K.
+#0162  Marketing email: Hearing Vililux's budget goes up $391K.
+#0163  Vendor call: Hearing Vililux's budget goes up $103K.
+#0164  Finance Office: Vililux budget decreased by $55K after review.
+#0165  Operations chat: Vililux budget is going to $1150K.
+#0166  Finance Office: Vililux budget increased by $348K per the revised plan.
+#0167  Finance Office: Withdraw update #0131.
+#0168  Finance Office: Vililux budget increased by $247K.
+#0169  Facilities ticket: Vililux budget should land at $2840K.
+#0170  Vendor call: Vililux design review moved to Room 5C.
+#0171  Finance Office: Vililux budget increased by $25K per the revised plan.
+#0172  Sales update: Vililux budget is going to $2390K.
+#0173  Finance Office: Vililux budget increased by $85K per the revised plan.
+#0174  Finance Office: Withdraw update #0167.
+#0175  Finance Office: Vililux budget decreased by $52K.
+#0176  Finance Office: Vililux budget decreased by $58K per the revised plan.
+#0177  Facilities ticket: Sounds like Vililux gets $17K less.
+#0178  Operations chat: Vililux budget is going down by $496K.
+#0179  Facilities ticket: Sounds like Vililux gets $32K less.
+#0180  Sales update: Expect Vililux's budget to rise by $317K.
+#0181  Finance Office: Vililux budget increased by $100K per the revised plan.
+#0182  Finance Office: Vililux budget increased by $145K per the revised plan.
+#0183  Finance Office: Withdraw update #0053.
+#0184  Marketing email: Pretty sure Vililux's budget is $1320K now.
+#0185  Finance Office: Vililux budget decreased by $303K after review.
+#0186  Finance Office: Withdraw update #0093.
+#0187  Finance Office: Vililux budget decreased by $100K per the revised plan.
+#0188  Legal email: Heard Vililux's budget is now $1470K.
+#0189  Finance Office: Withdraw update #0168.
+#0190  Operations chat: Vililux budget is going down to $1010K.
+#0191  Operations chat: Vililux budget is going up to $1550K.
+#0192  Finance Office: Vililux budget decreased by $130K.
+#0193  PMO note: Hearing Vililux's budget goes down $479K.
+#0194  Finance Office: Withdraw update #0152; it was entered in error.
+#0195  Finance Office: Withdraw update #0021.
+#0196  Vendor call: Vililux budget is going to $540K.
+#0197  PMO note: Expect Vililux's budget to rise by $306K.
+#0198  Finance Office: Vililux budget increased by $383K after review.
+#0199  Finance Office: Vililux receipts scanned.
+#0200  Finance Office: Vililux budget increased by $50K per the revised plan.
+#0201  Finance Office: Vililux budget increased by $75K.
+#0202  Finance Office: Vililux budget decreased by $114K.
+#0203  Finance Office: Vililux budget increased by $130K after review.
+#0204  Finance Office: Vililux budget decreased by $120K after review.
+#0205  PMO note: Vililux budget should land at $1050K.
+#0206  Sales update: Vililux budget should land at $840K.
+#0207  Finance Office: Withdraw update #0055; it was entered in error.
+#0208  Vendor call: Vililux budget should land at $620K.
+#0209  Finance Office: Vililux budget decreased by $115K per the revised plan.
+#0210  Finance Office: Vililux budget increased by $509K per the revised plan.
+#0211  PMO note: Heard Vililux's budget is now $900K.
+#0212  Legal email: Heard Vililux's budget is now $1270K.
+#0213  Finance Office: Vililux budget increased by $492K after review.
+#0214  Finance Office: Vililux budget increased by $125K per the revised plan.
+#0215  PMO note: Vililux weekly sync moved to Fridays.
+#0216  Legal email: Pretty sure Vililux's budget is $2130K now.
+#0217  Legal email: Vililux security review passed.
+#0218  Vendor call: Heard Vililux's budget is now $1930K.
+#0219  Finance Office: Vililux budget increased by $336K.
+#0220  Finance Office: Vililux budget decreased by $25K per the revised plan.
+#0221  Facilities ticket: Vililux test environment back online.
+#0222  Finance Office: Vililux budget increased by $40K after review.
+#0223  Legal email: Vililux budget is going up by $186K.
+#0224  Vendor call: Hearing Vililux's budget goes down $361K.
+#0225  Operations chat: Vililux budget is going up by $558K.
+#0226  Engineering email: Hearing Vililux's budget goes down $238K.
+#0227  Finance Office: Withdraw update #0219.
+#0228  Finance Office: Vililux budget increased by $369K per the revised plan.
+#0229  Sales update: Sounds like Vililux gets $436K less.
+#0230  Finance Office: Vililux budget increased by $293K.
+#0231  Operations chat: Vililux budget is going up by $72K.
+#0232  Marketing email: Sounds like Vililux gets $449K more.
+#0233  Finance Office: Vililux budget increased by $228K.
+#0234  Finance Office: Vililux budget increased by $135K after review.
+#0235  Operations chat: Vililux budget is going up by $166K.
+#0236  Finance Office: Reminder: Vililux expense reports are due Tuesday.
+#0237  Finance Office: Vililux budget decreased by $99K.
+#0238  Finance Office: Vililux budget increased by $392K.
+#0239  Finance Office: Withdraw update #0060; it was entered in error.
+#0240  Finance Office: Withdraw update #0089.
+#0241  Engineering email: Vililux budget is going to $2990K.
+#0242  Finance Office: Withdraw update #0054; it was entered in error.
+#0243  Finance Office: Vililux receipts scanned.
+#0244  Vendor call: Heard Vililux's budget is now $2690K.
+#0245  Finance Office: Withdraw update #0176.
+#0246  Finance Office: Withdraw update #0242.
+#0247  Finance Office: Vililux budget decreased by $25K after review.
+#0248  PMO note: Vililux budget is going up to $4800K.
+#0249  Finance Office: Withdraw update #0237; it was entered in error.
+#0250  Finance Office: Vililux budget increased by $115K.
+#0251  Finance Office: Withdraw update #0146.
+#0252  Finance Office: Withdraw update #0103; it was entered in error.
+#0253  Finance Office: Vililux budget decreased by $125K per the revised plan.
+#0254  Facilities ticket: Vililux budget is going down by $548K.
+#0255  Finance Office: Vililux budget decreased by $30K.
+#0256  Sales update: Hearing Vililux's budget goes down $198K.
+#0257  Engineering email: Vililux budget is going to $3510K.
+#0258  Finance Office: Withdraw update #0198; it was entered in error.
+#0259  PMO note: Vililux budget is going to $4800K.
+#0260  Finance Office: Vililux budget decreased by $40K per the revised plan.
+#0261  Finance Office: Vililux budget increased by $456K after review.
+#0262  Finance Office: Vililux budget decreased by $75K.
+#0263  Finance Office: Withdraw update #0065.
+#0264  Finance Office: Vililux budget increased by $69K per the revised plan.
+#0265  Finance Office: Vililux budget decreased by $81K per the revised plan.
+#0266  Finance Office: Withdraw update #0120; it was entered in error.
+#0267  Finance Office: Withdraw update #0185.
+#0268  Vendor call: Sounds like Vililux gets $298K less.
+#0269  Sales update: Vililux budget is going to $4680K.
+#0270  Finance Office: Vililux budget decreased by $208K after review.
+#0271  Finance Office: Vililux budget decreased by $90K.
+#0272  Finance Office: Vililux budget increased by $115K.
+#0273  Finance Office: Vililux budget decreased by $313K.
+#0274  Finance Office: Withdraw update #0239.
+#0275  Finance Office: Withdraw update #0228.
+#0276  Finance Office: Vililux budget decreased by $135K per the revised plan.
+#0277  Finance Office: Vililux budget increased by $75K after review.
+#0278  Engineering email: Pretty sure Vililux's budget is $3490K now.
+#0279  Finance Office: Vililux budget decreased by $10K.
+#0280  Finance Office: Withdraw update #0245.
+#0281  Finance Office: Withdraw update #0186.
+#0282  Finance Office: Vililux budget decreased by $40K.
+#0283  Finance Office: Vililux budget decreased by $353K.
+#0284  Finance Office: Vililux budget decreased by $145K.
+#0285  Marketing email: Vililux sprint 35 retrospective notes posted.
+#0286  Finance Office: Withdraw update #0274; it was entered in error.
+#0287  Finance Office: Withdraw update #0195.
+#0288  Finance Office: Vililux budget increased by $592K.
+#0289  Finance Office: Vililux budget decreased by $80K after review.
+#0290  Finance Office: Vililux audit notes filed.
+#0291  Finance Office: Vililux budget increased by $90K.
+#0292  Vendor call: Vililux budget is going to $2810K.
+#0293  Finance Office: Withdraw update #0037.
+#0294  Operations chat: Vililux vendor onboarding call scheduled for Friday.
+#0295  Finance Office: Vililux budget decreased by $593K per the revised plan.
+#0296  Finance Office: Vililux budget increased by $357K per the revised plan.
+#0297  Finance Office: Vililux audit notes filed.
+#0298  Finance Office: Vililux budget decreased by $476K.
+#0299  Finance Office: Vililux invoice batch FC-7462 archived.
+#0300  Finance Office: Vililux budget decreased by $158K per the revised plan.
+#0301  PMO note: Vililux budget is going down to $2210K.
+#0302  Engineering email: Sounds like Vililux gets $576K less.
+#0303  Finance Office: Vililux budget increased by $140K per the revised plan.
+#0304  Sales update: Sounds like Vililux gets $249K more.
+#0305  Finance Office: Vililux budget increased by $327K per the revised plan.
+#0306  Finance Office: Withdraw update #0210; it was entered in error.
+#0307  Engineering email: Vililux budget is going to $1900K.
+#0308  Finance Office: Vililux budget increased by $12K.
+#0309  Finance Office: Vililux budget increased by $197K.
+#0310  Finance Office: Withdraw update #0308.
+#0311  PMO note: Vililux budget should land at $3360K.
+#0312  Legal email: Vililux design review moved to Room 3C.
+#0313  Finance Office: Vililux finance review moved to Room 4B.
+#0314  Engineering email: Vililux status report filed for week 10.
+#0315  Sales update: Expect Vililux's budget to drop by $352K.
+#0316  Engineering email: Vililux site visit confirmed for Friday.
+#0317  PMO note: Vililux budget should land at $2550K.
+#0318  Finance Office: Vililux budget increased by $65K after review.
+#0319  Finance Office: Vililux budget increased by $90K per the revised plan.
+#0320  Operations chat: Hearing Vililux's budget goes down $326K.
+#0321  Marketing email: Sounds like Vililux gets $562K less.
+#0322  Finance Office: Vililux budget increased by $150K per the revised plan.
+#0323  Finance Office: Vililux budget increased by $274K.
+#0324  Engineering email: Heard Vililux's budget is now $2760K.
+#0325  Finance Office: Vililux budget decreased by $466K per the revised plan.
+#0326  Finance Office: Vililux budget decreased by $140K per the revised plan.
+#0327  Finance Office: Vililux budget decreased by $482K after review.
+#0328  Marketing email: Vililux budget is going up by $61K.
+#0329  Finance Office: Withdraw update #0012.
+#0330  Facilities ticket: Sounds like Vililux gets $89K less.
+#0331  Legal email: Hearing Vililux's budget goes down $98K.
+#0332  Finance Office: Vililux budget increased by $45K per the revised plan.
+#0333  Finance Office: Withdraw update #0174.
+#0334  Engineering email: Expect Vililux's budget to drop by $146K.
+#0335  Marketing email: Hearing Vililux's budget goes up $514K.
+#0336  Finance Office: Vililux budget increased by $121K after review.
+#0337  Finance Office: Vililux budget increased by $75K.
+#0338  Finance Office: Vililux budget decreased by $25K after review.
+#0339  Finance Office: Vililux budget decreased by $90K per the revised plan.
+#0340  Finance Office: Withdraw update #0227.
+#0341  Marketing email: Hearing Vililux's budget goes down $467K.
+#0342  Finance Office: Withdraw update #0298; it was entered in error.
+#0343  Finance Office: Withdraw update #0213; it was entered in error.
+#0344  Finance Office: Vililux budget decreased by $45K after review.
+#0345  Finance Office: Vililux budget decreased by $10K after review.
+#0346  PMO note: Expect Vililux's budget to rise by $304K.
+#0347  Facilities ticket: Hearing Vililux's budget goes down $448K.
+#0348  Operations chat: Expect Vililux's budget to drop by $291K.
+#0349  Finance Office: Withdraw update #0023; it was entered in error.
+#0350  Finance Office: Vililux budget decreased by $50K after review.
+#0351  Finance Office: Vililux budget increased by $487K.
+#0352  Finance Office: Vililux budget increased by $85K per the revised plan.
+#0353  Finance Office: Withdraw update #0158; it was entered in error.
+#0354  Sales update: Vililux budget should land at $3380K.
+#0355  Finance Office: Vililux budget increased by $70K per the revised plan.
+#0356  Engineering email: Expect Vililux's budget to drop by $499K.
+#0357  Finance Office: Withdraw update #0097; it was entered in error.
+#0358  Finance Office: Vililux budget decreased by $35K per the revised plan.
+#0359  Finance Office: Vililux budget increased by $506K per the revised plan.
+#0360  PMO note: Expect Vililux's budget to drop by $199K.
+#0361  Finance Office: Vililux cost center code changed to FC-5049.
+#0362  Finance Office: Vililux budget decreased by $140K.
+#0363  Finance Office: Vililux budget decreased by $70K.
+#0364  Sales update: Heard Vililux's budget is now $4800K.
+#0365  Finance Office: Withdraw update #0141; it was entered in error.
+#0366  Sales update: Vililux budget is going to $4800K.
+#0367  Sales update: Vililux risk register updated with 7 new items.
+#0368  Finance Office: Vililux audit notes filed.
+#0369  Sales update: Vililux kickoff moved to Building 5.
+#0370  Finance Office: Withdraw update #0336; it was entered in error.
+#0371  Finance Office: Vililux budget increased by $75K.
+#0372  Finance Office: Vililux budget decreased by $70K per the revised plan.
+#0373  Finance Office: Vililux budget decreased by $150K.
+#0374  Finance Office: Vililux budget increased by $202K per the revised plan.
+#0375  Finance Office: Vililux budget decreased by $150K after review.
+#0376  Finance Office: Vililux receipts scanned.
+#0377  Finance Office: Withdraw update #0175.
+#0378  PMO note: Pretty sure Vililux's budget is $3500K now.
+#0379  Finance Office: Vililux budget increased by $10K after review.
+#0380  Marketing email: Expect Vililux's budget to rise by $432K.
+#0381  Finance Office: Vililux audit notes filed.
+#0382  Finance Office: Vililux budget decreased by $125K per the revised plan.
+#0383  Finance Office: Vililux budget decreased by $80K per the revised plan.
+#0384  Finance Office: Vililux budget decreased by $207K after review.
+#0385  Sales update: Heard Vililux's budget is now $3930K.
+#0386  Finance Office: Vililux budget increased by $40K per the revised plan.
+#0387  Operations chat: Hearing Vililux's budget goes up $117K.
+#0388  Finance Office: Withdraw update #0233; it was entered in error.
+#0389  Finance Office: Withdraw update #0329.
+#0390  Finance Office: Vililux budget decreased by $15K.
+#0391  Marketing email: Expect Vililux's budget to drop by $172K.
+#0392  Finance Office: Vililux budget decreased by $80K per the revised plan.
+#0393  Finance Office: Withdraw update #0351.
+#0394  Finance Office: Vililux finance review moved to Room 3C.
+#0395  Finance Office: Withdraw update #0246.
+#0396  Finance Office: Vililux receipts scanned.
+#0397  Finance Office: Vililux budget decreased by $523K after review.
+#0398  Finance Office: Withdraw update #0139; it was entered in error.
+#0399  Sales update: Heard Vililux's budget is now $1760K.
+#0400  Operations chat: Vililux budget is going to $2480K.
+#0401  Finance Office: Vililux budget decreased by $153K after review.
+#0402  Finance Office: Vililux budget decreased by $95K per the revised plan.
+#0403  Vendor call: Expect Vililux's budget to rise by $537K.
+#0404  Finance Office: Withdraw update #0063; it was entered in error.
+#0405  Finance Office: Withdraw update #0207; it was entered in error.
+#0406  Finance Office: Vililux budget decreased by $60K.
+#0407  Finance Office: Vililux budget decreased by $105K.
+#0408  Operations chat: Pretty sure Vililux's budget is $940K now.
+#0409  Finance Office: Vililux budget decreased by $65K after review.
+#0410  Legal email: Vililux sprint 16 retrospective notes posted.
+#0411  Finance Office: Vililux budget decreased by $217K after review.
+#0412  Finance Office: Withdraw update #0305.
+#0413  Finance Office: Vililux budget increased by $40K.
+#0414  Finance Office: Vililux budget increased by $140K per the revised plan.
+#0415  Sales update: Pretty sure Vililux's budget is $840K now.
+#0416  Finance Office: Vililux budget increased by $381K per the revised plan.
+#0417  Vendor call: Heard Vililux's budget is now $1170K.
+#0418  Marketing email: Heard Vililux's budget is now $1280K.
+#0419  Finance Office: Vililux budget decreased by $110K per the revised plan.
+#0420  PMO note: Heard Vililux's budget is now $720K.
+#0421  Finance Office: Vililux budget decreased by $5K after review.
+#0422  Facilities ticket: Vililux budget is going to $660K.
+#0423  Finance Office: Withdraw update #0411.
+#0424  Finance Office: Withdraw update #0068; it was entered in error.
+#0425  Engineering email: Vililux vendor onboarding call scheduled for Tuesday.
+#0426  Sales update: Heard Vililux's budget is now $1740K.
+#0427  Engineering email: Vililux kickoff moved to Building 7.
+#0428  Legal email: Expect Vililux's budget to rise by $569K.
+#0429  Finance Office: Withdraw update #0327.
+#0430  Legal email: Pretty sure Vililux's budget is $2120K now.
+#0431  Finance Office: Vililux budget decreased by $65K after review.
+#0432  Engineering email: Pretty sure Vililux's budget is $1250K now.
+#0433  Finance Office: Withdraw update #0033.
+#0434  Sales update: Vililux budget is going to $2110K.
+#0435  Finance Office: Vililux budget increased by $50K after review.
+#0436  Finance Office: Vililux budget decreased by $444K per the revised plan.
+#0437  Engineering email: Vililux weekly sync moved to Mondays.
+#0438  Sales update: Vililux budget is going to $1670K.
+#0439  Finance Office: Vililux budget increased by $140K.
+#0440  Finance Office: Vililux purchase order FC-5670 closed.
+#0441  Finance Office: Vililux budget decreased by $120K after review.
+#0442  Finance Office: Vililux budget decreased by $15K after review.
+#0443  Finance Office: Withdraw update #0189.
+#0444  Vendor call: Heard Vililux's budget is now $1430K.
+#0445  Legal email: Sounds like Vililux gets $37K less.
+#0446  Finance Office: Vililux budget decreased by $25K.
+#0447  Finance Office: Withdraw update #0436.
+#0448  Engineering email: Hearing Vililux's budget goes down $184K.
+#0449  PMO note: Vililux budget should land at $1570K.
+#0450  Marketing email: Heard Vililux's budget is now $1650K.
+#0451  Legal email: Sounds like Vililux gets $452K less.
+#0452  Finance Office: Withdraw update #0266.
+#0453  Finance Office: Vililux budget decreased by $110K per the revised plan.
+#0454  Engineering email: Vililux budget should land at $1760K.
+#0455  Vendor call: Vililux budget should land at $2460K.
+#0456  Finance Office: Withdraw update #0412.
+#0457  Sales update: Vililux site visit confirmed for Tuesday.
+#0458  Finance Office: Vililux budget decreased by $5K after review.
+#0459  Finance Office: Vililux budget decreased by $120K.
+#0460  Finance Office: Vililux budget increased by $150K per the revised plan.
+#0461  Finance Office: Vililux budget increased by $70K per the revised plan.
+#0462  Finance Office: Vililux budget decreased by $80K.
+#0463  Finance Office: Withdraw update #0270; it was entered in error.
+#0464  Finance Office: Vililux budget decreased by $15K per the revised plan.
+#0465  PMO note: Vililux budget is going to $2190K.
+#0466  Sales update: Heard Vililux's budget is now $2950K.
+#0467  Finance Office: Vililux budget increased by $105K after review.
+#0468  Finance Office: Withdraw update #0110; it was entered in error.
+#0469  Finance Office: Vililux budget increased by $125K after review.
+#0470  Finance Office: Withdraw update #0398.
+#0471  Finance Office: Withdraw update #0365; it was entered in error.
+#0472  Finance Office: Vililux budget increased by $5K after review.
+#0473  Vendor call: Sounds like Vililux gets $543K less.
+#0474  Finance Office: Vililux budget decreased by $489K per the revised plan.
+#0475  Finance Office: Vililux budget increased by $177K after review.
+#0476  Marketing email: Heard Vililux's budget is now $3800K.
+#0477  Finance Office: Vililux budget decreased by $362K.
+#0478  Finance Office: Vililux budget decreased by $80K.
+#0479  Finance Office: Vililux budget increased by $246K per the revised plan.
+#0480  PMO note: Pretty sure Vililux's budget is $2770K now.
+#0481  Finance Office: Vililux budget decreased by $50K after review.
+#0482  Finance Office: Vililux budget decreased by $140K.
+#0483  Finance Office: Vililux budget decreased by $65K.
+#0484  Operations chat: Vililux budget should land at $2090K.
+#0485  PMO note: Vililux budget is going up to $3450K.
+#0486  Finance Office: Vililux budget increased by $519K per the revised plan.
+#0487  Finance Office: Vililux budget decreased by $105K after review.
+#0488  Finance Office: Withdraw update #0267.
+#0489  Finance Office: Vililux budget decreased by $75K.
+#0490  Marketing email: Hearing Vililux's budget goes up $252K.
+#0491  Finance Office: Vililux budget increased by $90K after review.
+#0492  Finance Office: Vililux budget decreased by $125K.
+#0493  Marketing email: Vililux budget is going down to $2220K.
+#0494  Finance Office: Vililux budget increased by $20K per the revised plan.
+#0495  PMO note: Heard Vililux's budget is now $3630K.
+#0496  Finance Office: Withdraw update #0447.
+#0497  Finance Office: Withdraw update #0263.
+#0498  Finance Office: Vililux budget increased by $551K after review.
+#0499  Finance Office: Vililux budget increased by $203K.
+#0500  Finance Office: Vililux budget decreased by $45K after review.
+#0501  Finance Office: Vililux budget increased by $135K per the revised plan.
+#0502  Finance Office: Vililux budget decreased by $130K.
+#0503  Finance Office: Vililux budget decreased by $35K after review.
+#0504  Finance Office: Vililux budget increased by $95K after review.
+#0505  Finance Office: Withdraw update #0340.
+#0506  Vendor call: Pretty sure Vililux's budget is $3910K now.
+#0507  Finance Office: Vililux budget increased by $100K per the revised plan.
+#0508  Marketing email: Hearing Vililux's budget goes down $173K.
+#0509  Finance Office: Vililux budget decreased by $95K.
+#0510  Operations chat: Vililux budget is going up to $3160K.
+#0511  Facilities ticket: Sounds like Vililux gets $8K less.
+#0512  Legal email: Sounds like Vililux gets $503K less.
+#0513  Sales update: Sounds like Vililux gets $408K more.
+#0514  Marketing email: Hearing Vililux's budget goes up $567K.
+#0515  Marketing email: Vililux demo rescheduled to Wednesday afternoon.
+#0516  Sales update: Vililux budget should land at $3410K.
+#0517  Finance Office: Vililux budget decreased by $60K.
+#0518  Facilities ticket: Vililux design review moved to Room 3C.
+#0519  Finance Office: Vililux budget increased by $80K.
+#0520  Finance Office: Withdraw update #0251.
+#0521  Finance Office: Vililux budget increased by $579K per the revised plan.
+#0522  Finance Office: Vililux budget decreased by $120K.
+#0523  Finance Office: Vililux quarterly audit scheduled for Tuesday.
+#0524  Finance Office: Vililux budget increased by $90K per the revised plan.
+#0525  Marketing email: Vililux budget is going up by $39K.
+#0526  Finance Office: Withdraw update #0265.
+#0527  Finance Office: Vililux budget increased by $71K after review.
+#0528  Finance Office: Vililux budget decreased by $403K per the revised plan.
+#0529  Finance Office: Vililux budget increased by $15K after review.
+#0530  Finance Office: Vililux budget increased by $45K.
+#0531  Sales update: Vililux budget is going down by $587K.
+#0532  Finance Office: Withdraw update #0429; it was entered in error.
+#0533  Finance Office: Withdraw update #0470.
+#0534  Finance Office: Vililux budget increased by $50K per the revised plan.
+#0535  Finance Office: Vililux budget increased by $393K after review.
+#0536  Finance Office: Vililux budget decreased by $20K.
+#0537  Finance Office: Vililux budget increased by $150K per the revised plan.
+#0538  Finance Office: Reminder: Vililux expense reports are due Tuesday.
+#0539  Legal email: Hearing Vililux's budget goes up $494K.
+#0540  Marketing email: Hearing Vililux's budget goes up $148K.
+#0541  Finance Office: Withdraw update #0401.
+#0542  Finance Office: Vililux budget increased by $95K per the revised plan.
+#0543  Finance Office: Vililux budget decreased by $115K per the revised plan.
+#0544  Finance Office: Vililux budget increased by $50K per the revised plan.
+#0545  Engineering email: Vililux budget should land at $3180K.
+#0546  Finance Office: Withdraw update #0086; it was entered in error.
+#0547  Finance Office: Vililux budget increased by $5K per the revised plan.
+#0548  Vendor call: Vililux sprint 41 retrospective notes posted.
+#0549  Finance Office: Vililux budget decreased by $130K per the revised plan.
+#0550  Finance Office: Withdraw update #0505.
+#0551  Finance Office: Vililux budget decreased by $150K per the revised plan.
+#0552  Sales update: Pretty sure Vililux's budget is $3340K now.
+#0553  PMO note: Vililux documentation moved to the shared drive.
+#0554  Finance Office: Withdraw update #0541; it was entered in error.
+#0555  Legal email: Vililux budget should land at $2800K.
+#0556  Engineering email: Vililux design review moved to Room 4B.
+#0557  Finance Office: Withdraw update #0069; it was entered in error.
+#0558  Finance Office: Vililux budget increased by $80K after review.
+#0559  Finance Office: Withdraw update #0249; it was entered in error.
+#0560  Finance Office: Vililux budget decreased by $55K.
+#0561  Finance Office: Vililux budget increased by $219K per the revised plan.
+#0562  Finance Office: Vililux budget increased by $110K per the revised plan.
+#0563  PMO note: Vililux site visit confirmed for Tuesday.
+#0564  Finance Office: Vililux budget decreased by $50K after review.
+#0565  Engineering email: Vililux design review moved to Room 5D.
+#0566  Facilities ticket: Heard Vililux's budget is now $2790K.
+#0567  Engineering email: Vililux budget is going down to $3510K.
+#0568  Finance Office: Vililux budget increased by $140K after review.
+#0569  Finance Office: Vililux budget increased by $150K.
+#0570  Finance Office: Vililux budget increased by $130K after review.
+#0571  Finance Office: Withdraw update #0073.
+#0572  Legal email: Vililux budget should land at $4800K.
+#0573  Sales update: Vililux status report filed for week 11.
+#0574  Finance Office: Vililux budget decreased by $130K.
+#0575  Finance Office: Withdraw update #0370; it was entered in error.
+#0576  Finance Office: Vililux budget decreased by $50K per the revised plan.
+#0577  Finance Office: Vililux budget decreased by $125K per the revised plan.
+#0578  Finance Office: Withdraw update #0535.
+#0579  Finance Office: Withdraw update #0559.
+#0580  Finance Office: Vililux budget increased by $150K per the revised plan.
+#0581  Finance Office: Withdraw update #0423; it was entered in error.
+#0582  PMO note: Vililux budget is going to $4240K.
+#0583  Sales update: Heard Vililux's budget is now $2760K.
+#0584  Finance Office: Vililux budget increased by $338K after review.
+#0585  Finance Office: Withdraw update #0499.
+#0586  Legal email: Vililux budget is going up by $204K.
+#0587  Finance Office: Vililux budget increased by $110K.
+#0588  Finance Office: Vililux budget decreased by $120K.
+#0589  Finance Office: Vililux budget increased by $40K.
+#0590  Legal email: Heard Vililux's budget is now $4800K.
+#0591  Finance Office: Vililux budget increased by $135K.
+#0592  Finance Office: Vililux budget decreased by $60K.
+#0593  Vendor call: Vililux budget is going down by $133K.
+#0594  Finance Office: Withdraw update #0310.
+#0595  Finance Office: Withdraw update #0013; it was entered in error.
+#0596  Facilities ticket: Sounds like Vililux gets $547K more.
+#0597  Facilities ticket: Heard Vililux's budget is now $4300K.
+#0598  PMO note: Vililux demo rescheduled to Thursday afternoon.
+#0599  Finance Office: Withdraw update #0397.
+#0600  Finance Office: Withdraw update #0554.
+#0601  PMO note: Pretty sure Vililux's budget is $4800K now.
+#0602  Finance Office: Vililux invoice batch FC-2648 archived.
+#0603  Finance Office: Vililux budget decreased by $15K per the revised plan.
+#0604  Finance Office: Vililux budget increased by $288K after review.
+#0605  Finance Office: Vililux budget decreased by $196K per the revised plan.
+#0606  Finance Office: Vililux budget decreased by $60K after review.
+#0607  Facilities ticket: Vililux demo rescheduled to Wednesday afternoon.
+#0608  Marketing email: Vililux budget should land at $3920K.
+#0609  Finance Office: Vililux budget decreased by $40K per the revised plan.
+#0610  PMO note: Pretty sure Vililux's budget is $4520K now.
+#0611  Vendor call: Sounds like Vililux gets $533K less.
+#0612  Finance Office: Vililux budget decreased by $80K after review.
+#0613  Finance Office: Vililux budget decreased by $10K per the revised plan.
+#0614  Legal email: Vililux budget is going to $4710K.
+#0615  Finance Office: Vililux budget decreased by $60K.
+#0616  Engineering email: Vililux budget is going up to $4800K.
+#0617  Finance Office: Vililux budget increased by $145K per the revised plan.
+#0618  Engineering email: Vililux security review passed.
+#0619  Finance Office: Vililux budget decreased by $70K.
+#0620  Finance Office: Vililux budget decreased by $507K after review.
+#0621  Sales update: Hearing Vililux's budget goes down $404K.
+#0622  Finance Office: Reminder: Vililux expense reports are due Thursday.
+#0623  Finance Office: Vililux budget increased by $417K after review.
+#0624  Sales update: Heard Vililux's budget is now $4730K.
+#0625  Vendor call: Vililux budget is going down by $284K.
+#0626  Finance Office: Withdraw update #0486.
+#0627  Finance Office: Vililux budget increased by $50K per the revised plan.
+#0628  Operations chat: Hearing Vililux's budget goes down $127K.
+#0629  Finance Office: Withdraw update #0600.
+#0630  Operations chat: Expect Vililux's budget to rise by $256K.
+#0631  Finance Office: Vililux budget increased by $120K per the revised plan.
+#0632  Operations chat: Vililux sprint 47 retrospective notes posted.
+#0633  Legal email: Sounds like Vililux gets $521K more.
+#0634  Engineering email: Expect Vililux's budget to drop by $241K.
+#0635  Finance Office: Vililux budget increased by $30K.
+#0636  PMO note: Sounds like Vililux gets $47K more.
+#0637  Finance Office: Withdraw update #0579; it was entered in error.
+#0638  Finance Office: Vililux budget increased by $130K after review.
+#0639  Finance Office: Vililux budget increased by $45K per the revised plan.
+#0640  Legal email: Vililux weekly sync moved to Fridays.
+#0641  Finance Office: Vililux budget increased by $214K after review.
+#0642  Finance Office: Vililux budget increased by $100K per the revised plan.
+#0643  Finance Office: Vililux budget increased by $130K after review.
+#0644  Operations chat: Vililux budget is going to $4800K.
+#0645  Vendor call: Hearing Vililux's budget goes down $513K.
+#0646  Finance Office: Vililux budget decreased by $25K per the revised plan.
+#0647  Operations chat: Hearing Vililux's budget goes down $277K.
+#0648  Finance Office: Withdraw update #0599; it was entered in error.
+#0649  Finance Office: Withdraw update #0050.
+#0650  Facilities ticket: Sounds like Vililux gets $44K more.
+#0651  Finance Office: Vililux budget increased by $45K per the revised plan.
+#0652  Finance Office: Vililux budget increased by $110K.
+#0653  Finance Office: Vililux budget increased by $95K.
+#0654  Finance Office: Vililux budget increased by $145K after review.
+#0655  Sales update: Sounds like Vililux gets $28K less.
+#0656  Finance Office: Vililux budget increased by $65K.
+#0657  PMO note: Vililux budget is going down by $443K.
+#0658  Finance Office: Withdraw update #0325; it was entered in error.
+#0659  Finance Office: Vililux budget decreased by $80K per the revised plan.
+#0660  Finance Office: Withdraw update #0416.
+#0661  PMO note: Vililux status report filed for week 35.
+#0662  Finance Office: Vililux budget increased by $100K.
+#0663  Finance Office: Withdraw update #0374; it was entered in error.
+#0664  Operations chat: Vililux risk register updated with 2 new items.
+#0665  Finance Office: Vililux budget decreased by $30K.
+#0666  Finance Office: Vililux budget decreased by $85K after review.
+#0667  Facilities ticket: Pretty sure Vililux's budget is $3150K now.
+#0668  Finance Office: Vililux budget decreased by $364K.
+#0669  Engineering email: Pretty sure Vililux's budget is $2890K now.
+#0670  Legal email: Vililux budget should land at $3300K.
+#0671  Finance Office: Vililux budget decreased by $145K.
+#0672  Finance Office: Vililux budget decreased by $50K.
+#0673  Finance Office: Vililux budget increased by $25K after review.
+#0674  Finance Office: Vililux budget increased by $135K after review.
+#0675  Facilities ticket: Vililux budget is going up by $16K.
+#0676  Marketing email: Hearing Vililux's budget goes down $316K.
+#0677  Finance Office: Withdraw update #0584; it was entered in error.
+#0678  Finance Office: Vililux budget increased by $5K.
+#0679  Operations chat: Vililux sprint 40 retrospective notes posted.
+#0680  Finance Office: Vililux budget decreased by $397K after review.
+#0681  Finance Office: Vililux budget decreased by $62K after review.
+#0682  Finance Office: Withdraw update #0479.
+#0683  Finance Office: Vililux budget decreased by $130K.
+#0684  Sales update: Heard Vililux's budget is now $3210K.
+#0685  Finance Office: Vililux budget decreased by $130K per the revised plan.
+#0686  Finance Office: Vililux budget increased by $224K per the revised plan.
+#0687  Finance Office: Vililux budget decreased by $105K.
+#0688  Legal email: Heard Vililux's budget is now $3190K.
+#0689  Marketing email: Vililux risk register updated with 8 new items.
+#0690  Operations chat: Vililux budget should land at $3300K.
+#0691  Sales update: Pretty sure Vililux's budget is $1770K now.
+#0692  Vendor call: Vililux budget is going to $3260K.
+#0693  Finance Office: Vililux budget increased by $70K per the revised plan.
+#0694  Finance Office: Vililux budget increased by $115K after review.
+#0695  Finance Office: Vililux budget increased by $145K per the revised plan.
+#0696  Legal email: Vililux budget should land at $3120K.
+#0697  Facilities ticket: Vililux budget should land at $3540K.
+#0698  Facilities ticket: Sounds like Vililux gets $149K less.
+#0699  Finance Office: Vililux budget increased by $104K after review.
+#0700  Finance Office: Vililux receipts scanned.
+#0701  Finance Office: Withdraw update #0127; it was entered in error.
+#0702  Finance Office: Vililux budget decreased by $25K.
+#0703  Sales update: Heard Vililux's budget is now $2300K.
+#0704  Engineering email: Sounds like Vililux gets $123K more.
+#0705  Finance Office: Withdraw update #0561; it was entered in error.
+#0706  Finance Office: Withdraw update #0389; it was entered in error.
+#0707  Finance Office: Vililux budget decreased by $150K after review.
+#0708  Finance Office: Vililux budget decreased by $140K after review.
+#0709  Sales update: Sounds like Vililux gets $323K more.
+#0710  Finance Office: Vililux budget increased by $40K per the revised plan.
+#0711  Finance Office: Vililux purchase order FC-5123 closed.
+#0712  Finance Office: Vililux budget decreased by $75K per the revised plan.
+#0713  Legal email: Expect Vililux's budget to drop by $206K.
+#0714  Finance Office: Vililux budget decreased by $45K after review.
+#0715  Finance Office: Vililux budget decreased by $30K per the revised plan.
+#0716  Finance Office: Vililux budget increased by $115K.
+#0717  Finance Office: Vililux budget decreased by $18K.
+#0718  Finance Office: Vililux budget increased by $25K.
+#0719  Engineering email: Hearing Vililux's budget goes up $101K.
+#0720  Legal email: Hearing Vililux's budget goes up $372K.
+#0721  Finance Office: Vililux quarterly audit scheduled for Wednesday.
+#0722  Finance Office: Withdraw update #0119; it was entered in error.
+#0723  Finance Office: Vililux budget decreased by $301K per the revised plan.
+#0724  Finance Office: Withdraw update #0264.
+#0725  Finance Office: Vililux budget decreased by $532K.
+#0726  Marketing email: Vililux budget is going up by $64K.
+#0727  Finance Office: Withdraw update #0705; it was entered in error.
+#0728  Finance Office: Vililux budget decreased by $45K per the revised plan.
+#0729  Finance Office: Vililux budget increased by $63K per the revised plan.
+#0730  Finance Office: Vililux budget decreased by $85K per the revised plan.
+#0731  Vendor call: Vililux budget should land at $1620K.
+#0732  Finance Office: Withdraw update #0641.
+#0733  Finance Office: Vililux budget decreased by $100K per the revised plan.
+#0734  Finance Office: Vililux budget increased by $125K per the revised plan.
+#0735  Finance Office: Vililux budget decreased by $10K per the revised plan.
+#0736  Vendor call: Vililux budget is going up by $266K.
+#0737  Finance Office: Vililux budget decreased by $35K.
+#0738  Finance Office: Vililux budget increased by $40K.
+#0739  Finance Office: Vililux budget increased by $145K after review.
+#0740  Sales update: Vililux budget is going up by $176K.
+#0741  Finance Office: Withdraw update #0668.
+#0742  Legal email: Vililux demo rescheduled to Tuesday afternoon.
+#0743  Finance Office: Withdraw update #0377; it was entered in error.
+#0744  Finance Office: Vililux budget increased by $30K per the revised plan.
+#0745  Finance Office: Vililux budget decreased by $75K after review.
+#0746  Facilities ticket: Vililux weekly sync moved to Tuesdays.
+#0747  Finance Office: Vililux budget increased by $45K.
+#0748  Finance Office: Vililux budget decreased by $100K per the revised plan.
+#0749  Finance Office: Vililux budget increased by $474K.
+#0750  Vendor call: Vililux budget is going down to $1930K.
+#0751  Finance Office: Vililux audit notes filed.
+#0752  Finance Office: Vililux budget decreased by $50K per the revised plan.
+#0753  Finance Office: Vililux budget decreased by $131K per the revised plan.
+#0754  Finance Office: Withdraw update #0273.
+#0755  Finance Office: Withdraw update #0238; it was entered in error.
+#0756  Finance Office: Vililux budget increased by $75K.
+#0757  Marketing email: Pretty sure Vililux's budget is $2730K now.
+#0758  Finance Office: Withdraw update #0729.
+#0759  Finance Office: Vililux budget increased by $100K per the revised plan.
+#0760  Operations chat: Expect Vililux's budget to drop by $399K.
+#0761  Vendor call: Sounds like Vililux gets $538K more.
+#0762  Finance Office: Vililux budget decreased by $484K.
+#0763  PMO note: Hearing Vililux's budget goes up $136K.
+#0764  Finance Office: Vililux budget increased by $110K.
+#0765  Legal email: Pretty sure Vililux's budget is $2270K now.
+#0766  Finance Office: Vililux budget decreased by $55K.
+#0767  Legal email: Vililux budget is going up by $262K.
+#0768  Sales update: Vililux budget is going up to $2230K.
+#0769  Finance Office: Withdraw update #0528; it was entered in error.
+#0770  Finance Office: Vililux budget decreased by $25K after review.
+#0771  Finance Office: Vililux budget decreased by $110K.
+#0772  Finance Office: Vililux budget increased by $9K per the revised plan.
+#0773  Facilities ticket: Sounds like Vililux gets $573K more.
+#0774  Finance Office: Withdraw update #0080.
+#0775  Marketing email: Hearing Vililux's budget goes down $233K.
+#0776  Facilities ticket: Pretty sure Vililux's budget is $1680K now.
+#0777  Finance Office: Vililux budget increased by $70K per the revised plan.
+#0778  Finance Office: Vililux budget decreased by $120K after review.
+#0779  Finance Office: Withdraw update #0527; it was entered in error.
+#0780  Finance Office: Withdraw update #0295.
+#0781  Facilities ticket: Vililux security review passed.
+#0782  Finance Office: Vililux budget increased by $80K per the revised plan.
+#0783  Finance Office: Vililux budget increased by $437K per the revised plan.
+#0784  Finance Office: Vililux budget increased by $150K after review.
+#0785  Finance Office: Vililux budget increased by $110K per the revised plan.
+#0786  Finance Office: Vililux budget increased by $125K after review.
+#0787  Vendor call: Vililux demo rescheduled to Friday afternoon.
+#0788  Legal email: Expect Vililux's budget to rise by $97K.
+#0789  Finance Office: Vililux budget decreased by $150K.
+#0790  Marketing email: Heard Vililux's budget is now $2140K.
+#0791  Finance Office: Vililux budget decreased by $100K per the revised plan.
+#0792  Finance Office: Withdraw update #0605; it was entered in error.
+#0793  Finance Office: Vililux budget increased by $10K per the revised plan.
+#0794  Finance Office: Withdraw update #0741.
+#0795  Facilities ticket: Hearing Vililux's budget goes down $92K.
+#0796  Legal email: Pretty sure Vililux's budget is $2580K now.
+#0797  Legal email: Heard Vililux's budget is now $3250K.
+#0798  Facilities ticket: Hearing Vililux's budget goes down $36K.
+#0799  Finance Office: Vililux budget increased by $100K per the revised plan.
+#0800  Finance Office: Vililux budget decreased by $10K after review.
+#0801  Operations chat: Expect Vililux's budget to rise by $582K.
+#0802  Engineering email: Vililux budget is going down to $2460K.
+#0803  Operations chat: Vililux budget is going to $2870K.
+#0804  Finance Office: Vililux budget decreased by $125K per the revised plan.
+#0805  Finance Office: Vililux budget decreased by $85K per the revised plan.
+#0806  Finance Office: Vililux finance review moved to Room 4A.
+#0807  Vendor call: Vililux demo rescheduled to Monday afternoon.
+#0808  Finance Office: Vililux budget increased by $140K per the revised plan.
+#0809  Facilities ticket: Vililux budget is going to $1780K.
+#0810  Finance Office: Vililux budget decreased by $115K per the revised plan.
+#0811  Finance Office: Vililux budget decreased by $105K.
+#0812  Finance Office: Vililux budget decreased by $14K after review.
+#0813  Finance Office: Withdraw update #0706; it was entered in error.
+#0814  Finance Office: Vililux budget decreased by $517K per the revised plan.
+#0815  Legal email: Vililux budget is going down by $259K.
+#0816  Finance Office: Vililux budget decreased by $25K per the revised plan.
+#0817  Finance Office: Vililux budget decreased by $90K after review.
+#0818  Operations chat: Pretty sure Vililux's budget is $1300K now.
+#0819  Operations chat: Sounds like Vililux gets $253K more.
+#0820  Finance Office: Vililux budget increased by $50K after review.
+#0821  Finance Office: Vililux budget increased by $145K.
+#0822  Finance Office: Vililux budget decreased by $140K.
+#0823  Finance Office: Vililux budget decreased by $95K after review.
+#0824  Finance Office: Vililux budget decreased by $15K per the revised plan.
+#0825  Facilities ticket: Sounds like Vililux gets $413K more.
+#0826  Finance Office: Vililux budget increased by $100K after review.
+#0827  Finance Office: Vililux budget decreased by $15K.
+#0828  PMO note: Vililux site visit confirmed for Tuesday.
+#0829  PMO note: Hearing Vililux's budget goes up $33K.
+#0830  Finance Office: Vililux budget decreased by $130K after review.
+#0831  Marketing email: Expect Vililux's budget to drop by $461K.
+#0832  Operations chat: Vililux budget is going up to $1470K.
+#0833  Finance Office: Vililux budget decreased by $35K after review.
+#0834  Marketing email: Sounds like Vililux gets $248K more.
+#0835  Facilities ticket: Vililux budget is going up to $1310K.
+#0836  Operations chat: Vililux budget is going up to $1280K.
+#0837  Finance Office: Vililux budget increased by $526K after review.
+#0838  Finance Office: Vililux budget decreased by $55K after review.
+#0839  Engineering email: Vililux budget should land at $2190K.
+#0840  Operations chat: Expect Vililux's budget to rise by $302K.
+#0841  Finance Office: Vililux budget increased by $95K per the revised plan.
+#0842  PMO note: Expect Vililux's budget to drop by $477K.
+#0843  Finance Office: Vililux budget increased by $150K per the revised plan.
+#0844  Marketing email: Vililux budget is going down by $11K.
+#0845  Finance Office: Vililux budget increased by $388K.
+#0846  Sales update: Sounds like Vililux gets $354K more.
+#0847  Finance Office: Vililux budget increased by $100K per the revised plan.
+#0848  Finance Office: Vililux budget decreased by $20K after review.
+#0849  Marketing email: Sounds like Vililux gets $164K less.
+#0850  Finance Office: Withdraw update #0723.
+#0851  Engineering email: Sounds like Vililux gets $584K less.
+#0852  Finance Office: Vililux budget increased by $396K per the revised plan.
+#0853  Finance Office: Vililux budget decreased by $70K per the revised plan.
+#0854  Finance Office: Vililux budget increased by $20K after review.
+#0855  Vendor call: Vililux test environment back online.
+#0856  Finance Office: Vililux budget increased by $378K per the revised plan.
+#0857  Finance Office: Vililux budget decreased by $100K after review.
+#0858  Finance Office: Vililux invoice batch FC-1506 archived.
+#0859  Finance Office: Vililux budget increased by $60K.
+#0860  Finance Office: Vililux budget increased by $90K.
+#0861  Legal email: Pretty sure Vililux's budget is $2670K now.
+#0862  Vendor call: Hearing Vililux's budget goes down $421K.
+#0863  Finance Office: Withdraw update #0280.
+#0864  Finance Office: Vililux budget increased by $95K.
+#0865  Marketing email: Expect Vililux's budget to drop by $222K.
+#0866  Marketing email: Vililux budget is going up by $294K.
+#0867  Finance Office: Vililux budget decreased by $95K.
+#0868  Sales update: Heard Vililux's budget is now $3120K.
+#0869  Finance Office: Withdraw update #0258; it was entered in error.
+#0870  Finance Office: Withdraw update #0388.
+#0871  Finance Office: Vililux budget increased by $105K after review.
+#0872  Legal email: Vililux budget should land at $4800K.
+#0873  Finance Office: Vililux budget decreased by $15K per the revised plan.
+#0874  Finance Office: Vililux budget increased by $85K per the revised plan.
+#0875  Finance Office: Vililux budget increased by $90K.
+#0876  Finance Office: Vililux finance review moved to Room 1C.
+#0877  Finance Office: Vililux budget increased by $55K after review.
+#0878  Finance Office: Vililux budget increased by $135K after review.
+#0879  Finance Office: Vililux budget decreased by $90K after review.
+#0880  Finance Office: Vililux budget increased by $105K per the revised plan.
+#0881  Finance Office: Vililux budget decreased by $90K.
+#0882  Finance Office: Vililux budget increased by $85K after review.
+#0883  Marketing email: Vililux budget is going to $4570K.
+#0884  Finance Office: Vililux budget increased by $40K after review.
+#0885  Finance Office: Vililux budget increased by $85K after review.
+#0886  Operations chat: Sounds like Vililux gets $119K more.
+#0887  Finance Office: Vililux budget increased by $115K after review.
+#0888  Finance Office: Vililux budget decreased by $40K.
+#0889  PMO note: Pretty sure Vililux's budget is $4800K now.
+#0890  Marketing email: Vililux weekly sync moved to Thursdays.
+#0891  Legal email: Sounds like Vililux gets $169K less.
+#0892  PMO note: Pretty sure Vililux's budget is $4800K now.
+#0893  PMO note: Heard Vililux's budget is now $4190K.
+#0894  Legal email: Sounds like Vililux gets $368K less.
+#0895  Engineering email: Pretty sure Vililux's budget is $4460K now.
+#0896  Finance Office: Vililux budget increased by $145K after review.
+#0897  Finance Office: Vililux budget decreased by $105K.
+#0898  Vendor call: Hearing Vililux's budget goes down $24K.
+#0899  Engineering email: Heard Vililux's budget is now $4680K.
+#0900  Finance Office: Vililux budget decreased by $135K.
+#0901  Finance Office: Vililux budget decreased by $552K.
+#0902  Finance Office: Vililux budget increased by $125K per the revised plan.
+#0903  Finance Office: Vililux budget increased by $566K per the revised plan.
+#0904  Finance Office: Vililux budget decreased by $5K.
+#0905  Marketing email: Vililux budget is going up to $4800K.
+#0906  Legal email: Pretty sure Vililux's budget is $4700K now.
+#0907  Facilities ticket: Pretty sure Vililux's budget is $4800K now.
+#0908  Finance Office: Vililux budget decreased by $55K per the revised plan.
+#0909  Finance Office: Withdraw update #0090; it was entered in error.
+#0910  Finance Office: Vililux budget decreased by $108K.
+#0911  Facilities ticket: Vililux budget is going up by $128K.
+#0912  Finance Office: Withdraw update #0901.
+#0913  Finance Office: Vililux budget decreased by $85K.
+#0914  Finance Office: Reminder: Vililux expense reports are due Friday.
+#0915  Finance Office: Vililux budget decreased by $105K per the revised plan.
+#0916  Vendor call: Vililux budget is going to $4800K.
+#0917  Legal email: Vililux vendor onboarding call scheduled for Monday.
+#0918  Vendor call: Vililux budget is going up to $4800K.
+#0919  Finance Office: Vililux budget increased by $145K.
+#0920  Finance Office: Vililux budget decreased by $115K.
+#0921  Finance Office: Vililux budget decreased by $30K per the revised plan.
+#0922  Finance Office: Vililux budget decreased by $80K.
+#0923  Finance Office: Vililux budget increased by $105K per the revised plan.
+#0924  Finance Office: Vililux budget decreased by $10K per the revised plan.
+#0925  Finance Office: Vililux budget decreased by $85K after review.
+#0926  Finance Office: Withdraw update #0758.
+#0927  Finance Office: Vililux budget decreased by $140K per the revised plan.
+#0928  Finance Office: Vililux budget decreased by $110K after review.
+#0929  Finance Office: Vililux budget decreased by $30K.
+#0930  Legal email: Heard Vililux's budget is now $4800K.
+#0931  Sales update: Vililux documentation moved to the shared drive.
+#0932  PMO note: Vililux status report filed for week 31.
+#0933  Finance Office: Vililux budget increased by $105K per the revised plan.
+#0934  Finance Office: Vililux budget decreased by $85K after review.
+#0935  Marketing email: Vililux budget should land at $3520K.
+#0936  Engineering email: Vililux budget is going up by $168K.
+#0937  Finance Office: Vililux budget decreased by $105K after review.
+#0938  Engineering email: Vililux budget is going to $4800K.
+#0939  Finance Office: Withdraw update #0287.
+#0940  Vendor call: Sounds like Vililux gets $122K more.
+#0941  Operations chat: Vililux budget is going to $3780K.
+#0942  Vendor call: Vililux risk register updated with 3 new items.
+#0943  Finance Office: Reminder: Vililux expense reports are due Monday.
+#0944  Finance Office: Vililux cost center code changed to FC-1185.
+#0945  Finance Office: Vililux budget decreased by $65K per the revised plan.
+#0946  Finance Office: Vililux budget increased by $140K per the revised plan.
+#0947  Operations chat: Hearing Vililux's budget goes down $171K.
+#0948  Finance Office: Vililux invoice batch FC-1762 archived.
+#0949  Finance Office: Vililux budget decreased by $45K after review.
+#0950  Finance Office: Vililux budget increased by $137K per the revised plan.
+#0951  Finance Office: Vililux budget increased by $90K after review.
+#0952  Finance Office: Vililux budget decreased by $70K.
+#0953  Finance Office: Vililux budget increased by $20K after review.
+#0954  Finance Office: Withdraw update #0814; it was entered in error.
+#0955  Engineering email: Heard Vililux's budget is now $4140K.
+#0956  Finance Office: Withdraw update #0772.
+#0957  Finance Office: Vililux budget increased by $100K.
+#0958  Finance Office: Vililux budget decreased by $80K per the revised plan.
+#0959  Legal email: Vililux budget is going down by $296K.
+#0960  Operations chat: Pretty sure Vililux's budget is $4800K now.
+#0961  Sales update: Vililux budget is going up by $254K.
+#0962  PMO note: Sounds like Vililux gets $423K more.
+#0963  Finance Office: Withdraw update #0623.
+#0964  Finance Office: Withdraw update #0856.
+#0965  Finance Office: Vililux budget increased by $65K after review.
+#0966  PMO note: Sounds like Vililux gets $192K less.
+#0967  Finance Office: Withdraw update #0343; it was entered in error.
+#0968  Finance Office: Withdraw update #0870; it was entered in error.
+#0969  Finance Office: Vililux budget decreased by $40K per the revised plan.
+#0970  Finance Office: Vililux budget increased by $75K per the revised plan.
+#0971  Legal email: Hearing Vililux's budget goes up $371K.
+#0972  Finance Office: Vililux budget decreased by $15K per the revised plan.
+#0973  Finance Office: Vililux budget increased by $25K after review.
+#0974  Finance Office: Vililux budget decreased by $130K.
+#0975  Finance Office: Vililux budget increased by $70K after review.
+#0976  Finance Office: Vililux budget increased by $75K.
+#0977  Finance Office: Withdraw update #0604; it was entered in error.
+#0978  Operations chat: Heard Vililux's budget is now $4600K.
+#0979  Finance Office: Vililux budget decreased by $100K per the revised plan.
+#0980  Finance Office: Vililux budget increased by $25K after review.
+#0981  PMO note: Vililux budget should land at $3900K.
+#0982  Sales update: Vililux budget is going down to $3400K.
+#0983  Sales update: Vililux documentation moved to the shared drive.
+#0984  Legal email: Vililux budget is going up to $3750K.
+#0985  Operations chat: Vililux demo rescheduled to Wednesday afternoon.
+#0986  Finance Office: Vililux budget decreased by $75K per the revised plan.
+#0987  Finance Office: Vililux budget increased by $269K.
+#0988  Finance Office: Vililux budget increased by $156K per the revised plan.
+#0989  Finance Office: Vililux budget increased by $140K.
+#0990  PMO note: Vililux demo rescheduled to Wednesday afternoon.
+#0991  Finance Office: Vililux budget increased by $140K.
+#0992  Facilities ticket: Expect Vililux's budget to rise by $79K.
+#0993  Finance Office: Vililux budget increased by $135K per the revised plan.
+#0994  Vendor call: Vililux design review moved to Room 5D.
+#0995  Finance Office: Vililux budget increased by $100K per the revised plan.
+#0996  Facilities ticket: Expect Vililux's budget to drop by $471K.
+#0997  Finance Office: Vililux budget increased by $40K.
+#0998  Finance Office: Withdraw update #0384; it was entered in error.
+#0999  Finance Office: Vililux budget decreased by $75K.
+#1000  Facilities ticket: Sounds like Vililux gets $278K more.
+#1001  Legal email: Vililux budget should land at $3520K.
+#1002  Finance Office: Vililux budget decreased by $130K.
+#1003  Finance Office: Vililux budget increased by $35K per the revised plan.
+#1004  Finance Office: Vililux budget increased by $297K.
+#1005  Finance Office: Withdraw update #0988.
+#1006  Finance Office: Vililux budget decreased by $95K after review.
+#1007  PMO note: Vililux budget should land at $4170K.
+#1008  Finance Office: Vililux budget decreased by $60K per the revised plan.
+#1009  Finance Office: Vililux budget decreased by $115K after review.
+#1010  Legal email: Vililux sprint 37 retrospective notes posted.
+#1011  Finance Office: Withdraw update #1004; it was entered in error.
+#1012  Finance Office: Vililux budget increased by $541K after review.
+#1013  Finance Office: Vililux budget decreased by $25K per the revised plan.
+#1014  PMO note: Vililux budget is going up to $4800K.
+#1015  Facilities ticket: Vililux weekly sync moved to Fridays.
+#1016  Legal email: Expect Vililux's budget to rise by $377K.
+#1017  Facilities ticket: Vililux budget should land at $4620K.
+#1018  Operations chat: Sounds like Vililux gets $572K less.
+#1019  Finance Office: Vililux budget decreased by $504K.
+#1020  Finance Office: Vililux budget increased by $80K after review.
+#1021  Sales update: Vililux sprint 47 retrospective notes posted.
+#1022  Finance Office: Vililux budget decreased by $90K.
+#1023  Finance Office: Withdraw update #0837.
+#1024  Sales update: Hearing Vililux's budget goes up $29K.
+#1025  Legal email: Expect Vililux's budget to drop by $312K.
+#1026  Finance Office: Vililux budget decreased by $110K after review.
+#1027  Finance Office: Vililux budget decreased by $55K.
+#1028  Operations chat: Hearing Vililux's budget goes up $236K.
+#1029  Finance Office: Vililux budget increased by $80K per the revised plan.
+#1030  Vendor call: Hearing Vililux's budget goes down $193K.
+#1031  Marketing email: Hearing Vililux's budget goes up $181K.
+#1032  Finance Office: Vililux budget decreased by $140K.
+#1033  Finance Office: Vililux purchase order FC-1130 closed.
+#1034  Finance Office: Vililux budget increased by $80K.
+#1035  Finance Office: Vililux budget decreased by $30K per the revised plan.
+#1036  Finance Office: Vililux budget increased by $40K after review.
+#1037  Finance Office: Vililux purchase order FC-1623 closed.
+#1038  Vendor call: Pretty sure Vililux's budget is $4280K now.
+#1039  Finance Office: Vililux budget increased by $135K after review.
+#1040  Finance Office: Vililux budget increased by $13K after review.
+#1041  Finance Office: Withdraw update #0261.
+#1042  Finance Office: Vililux budget increased by $105K.
+#1043  Finance Office: Vililux budget decreased by $120K after review.
+#1044  Finance Office: Vililux budget increased by $90K after review.
+#1045  Finance Office: Vililux budget increased by $105K per the revised plan.
+#1046  Vendor call: Hearing Vililux's budget goes up $498K.
+#1047  Sales update: Heard Vililux's budget is now $4560K.
+#1048  Finance Office: Vililux budget decreased by $105K after review.
+#1049  Finance Office: Vililux budget decreased by $115K per the revised plan.
+#1050  Finance Office: Vililux budget decreased by $110K after review.
+#1051  Vendor call: Hearing Vililux's budget goes down $363K.
+#1052  Finance Office: Withdraw update #0153.
+#1053  Sales update: Hearing Vililux's budget goes up $34K.
+#1054  Engineering email: Vililux site visit confirmed for Wednesday.
+#1055  Finance Office: Vililux budget decreased by $130K after review.
+#1056  Finance Office: Withdraw update #0051; it was entered in error.
+#1057  Legal email: Sounds like Vililux gets $257K more.
+#1058  Finance Office: Vililux budget increased by $20K after review.
+#1059  Finance Office: Vililux budget decreased by $45K.
+#1060  Finance Office: Vililux budget increased by $115K after review.
+#1061  Finance Office: Withdraw update #0571; it was entered in error.
+#1062  Finance Office: Vililux budget decreased by $10K after review.
+#1063  Vendor call: Heard Vililux's budget is now $3880K.
+#1064  Finance Office: Withdraw update #0699; it was entered in error.
+#1065  Vendor call: Expect Vililux's budget to rise by $438K.
+#1066  Facilities ticket: Expect Vililux's budget to drop by $586K.
+#1067  Finance Office: Vililux budget increased by $229K.
+#1068  Finance Office: Vililux budget decreased by $125K.
+#1069  Finance Office: Withdraw update #0677; it was entered in error.
+#1070  Finance Office: Vililux budget decreased by $20K after review.
+#1071  Engineering email: Vililux site visit confirmed for Thursday.
+#1072  Finance Office: Withdraw update #0202; it was entered in error.
+#1073  Finance Office: Vililux invoice batch FC-4388 archived.
+#1074  Marketing email: Vililux budget is going down to $3490K.
+#1075  Marketing email: Vililux budget is going to $3370K.
+#1076  Finance Office: Vililux budget increased by $30K.
+#1077  Finance Office: Vililux budget increased by $135K per the revised plan.
+#1078  Marketing email: Heard Vililux's budget is now $4780K.
+#1079  Operations chat: Vililux sprint 17 retrospective notes posted.
+#1080  Finance Office: Vililux budget increased by $55K.
+#1081  Finance Office: Vililux budget decreased by $599K per the revised plan.
+#1082  Finance Office: Withdraw update #0404; it was entered in error.
+#1083  Finance Office: Vililux budget decreased by $40K.
+#1084  Finance Office: Vililux budget decreased by $25K.
+#1085  Finance Office: Withdraw update #0475.
+#1086  Finance Office: Vililux budget decreased by $462K after review.
+#1087  Finance Office: Vililux budget decreased by $145K per the revised plan.
+#1088  Finance Office: Vililux budget increased by $20K after review.
+#1089  Marketing email: Vililux demo rescheduled to Friday afternoon.
+#1090  Marketing email: Vililux budget is going to $2080K.
+#1091  Finance Office: Vililux budget increased by $105K per the revised plan.
+#1092  Finance Office: Vililux purchase order FC-3901 closed.
+#1093  Facilities ticket: Expect Vililux's budget to drop by $231K.
+#1094  Finance Office: Vililux budget decreased by $35K per the revised plan.
+#1095  Legal email: Pretty sure Vililux's budget is $2470K now.
+#1096  Finance Office: Vililux budget increased by $144K after review.
+#1097  PMO note: Heard Vililux's budget is now $2490K.
+#1098  Finance Office: Vililux budget increased by $95K.
+#1099  Finance Office: Withdraw update #1012; it was entered in error.
+#1100  Finance Office: Vililux budget decreased by $75K per the revised plan.
+#1101  Finance Office: Vililux budget increased by $10K after review.
+#1102  Vendor call: Heard Vililux's budget is now $3540K.
+#1103  Finance Office: Vililux budget increased by $30K.
+#1104  Finance Office: Vililux budget decreased by $120K per the revised plan.
+#1105  Finance Office: Vililux budget decreased by $40K per the revised plan.
+#1106  Facilities ticket: Vililux status report filed for week 34.
+#1107  Finance Office: Withdraw update #0845.
+#1108  Finance Office: Vililux budget decreased by $30K per the revised plan.
+#1109  Finance Office: Vililux budget decreased by $50K after review.
+#1110  Finance Office: Vililux budget decreased by $105K after review.
+#1111  Marketing email: Hearing Vililux's budget goes down $508K.
+#1112  Finance Office: Withdraw update #0283; it was entered in error.
+#1113  PMO note: Vililux documentation moved to the shared drive.
+#1114  Facilities ticket: Expect Vililux's budget to rise by $96K.
+#1115  Marketing email: Vililux budget is going to $2900K.
+#1116  Finance Office: Withdraw update #0620; it was entered in error.
+#1117  Finance Office: Vililux budget increased by $125K after review.
+#1118  Finance Office: Vililux budget decreased by $145K per the revised plan.
+#1119  Facilities ticket: Heard Vililux's budget is now $3310K.
+#1120  Marketing email: Vililux budget is going to $2140K.
+#1121  Finance Office: Vililux budget decreased by $10K after review.
+#1122  Finance Office: Vililux budget increased by $5K.
+#1123  Finance Office: Withdraw update #1081; it was entered in error.
+#1124  Finance Office: Reminder: Vililux expense reports are due Monday.
+#1125  Operations chat: Vililux budget is going down to $3060K.
+#1126  Finance Office: Withdraw update #0288; it was entered in error.
+#1127  Vendor call: Vililux budget is going up to $3480K.
+#1128  Finance Office: Vililux budget decreased by $105K.
+#1129  Finance Office: Withdraw update #1112.
+#1130  Finance Office: Vililux budget increased by $140K per the revised plan.
+#1131  Facilities ticket: Sounds like Vililux gets $2K less.
+#1132  Legal email: Hearing Vililux's budget goes up $212K.
+#1133  Marketing email: Vililux budget is going down by $373K.
+#1134  Marketing email: Vililux budget is going to $2030K.
+#1135  Finance Office: Vililux budget increased by $125K after review.
+#1136  Finance Office: Vililux budget increased by $140K per the revised plan.
+#1137  Legal email: Vililux budget is going up by $281K.
+#1138  PMO note: Expect Vililux's budget to drop by $113K.
+#1139  Finance Office: Vililux budget increased by $125K after review.
+#1140  Finance Office: Vililux budget decreased by $594K per the revised plan.
+#1141  Finance Office: Withdraw update #0762; it was entered in error.
+#1142  Finance Office: Vililux budget increased by $70K.
+#1143  Finance Office: Withdraw update #0732.
+#1144  Engineering email: Sounds like Vililux gets $282K more.
+#1145  Finance Office: Vililux budget increased by $90K per the revised plan.
+#1146  Finance Office: Vililux budget decreased by $65K after review.
+#1147  Finance Office: Withdraw update #1140; it was entered in error.
+#1148  Finance Office: Vililux budget increased by $84K.
+#1149  Finance Office: Vililux audit notes filed.
+#1150  Finance Office: Vililux budget decreased by $10K.
+#1151  Marketing email: Vililux budget should land at $4800K.
+#1152  Operations chat: Vililux budget is going to $2640K.
+#1153  Facilities ticket: Vililux budget is going up by $111K.
+#1154  Facilities ticket: Vililux budget is going down by $568K.
+#1155  Finance Office: Withdraw update #0575.
+#1156  Finance Office: Vililux budget increased by $135K after review.
+#1157  Engineering email: Vililux budget is going to $3070K.
+#1158  Finance Office: Vililux budget increased by $15K after review.
+#1159  Engineering email: Vililux budget is going up to $4500K.
+#1160  Engineering email: Vililux budget should land at $4800K.
+#1161  Finance Office: Vililux budget decreased by $150K.
+#1162  Operations chat: Vililux status report filed for week 43.
+#1163  Facilities ticket: Expect Vililux's budget to drop by $292K.
+#1164  Finance Office: Withdraw update #1019.
+#1165  Operations chat: Vililux budget is going up by $41K.
+#1166  Finance Office: Vililux budget decreased by $105K.
+#1167  Finance Office: Withdraw update #1096.
+#1168  Finance Office: Vililux budget increased by $309K after review.
+#1169  Finance Office: Vililux quarterly audit scheduled for Wednesday.
+#1170  Vendor call: Vililux budget is going down by $211K.
+#1171  Finance Office: Vililux budget decreased by $10K.
+#1172  Finance Office: Withdraw update #1129.
+#1173  Finance Office: Vililux budget decreased by $65K.
+#1174  Finance Office: Vililux budget decreased by $10K after review.
+#1175  Sales update: Vililux design review moved to Room 6D.
+#1176  Operations chat: Pretty sure Vililux's budget is $4800K now.
+#1177  Finance Office: Withdraw update #1148; it was entered in error.
+#1178  Vendor call: Vililux budget is going up to $4800K.
+#1179  Finance Office: Vililux invoice batch FC-8272 archived.
+#1180  Finance Office: Withdraw update #0296.
+#1181  Marketing email: Expect Vililux's budget to drop by $154K.
+#1182  Finance Office: Vililux budget decreased by $40K.
+#1183  Operations chat: Heard Vililux's budget is now $2760K.
+#1184  Finance Office: Vililux budget increased by $20K.
+#1185  PMO note: Pretty sure Vililux's budget is $3850K now.
+#1186  Finance Office: Vililux budget decreased by $20K per the revised plan.
+#1187  Facilities ticket: Vililux budget is going up by $441K.
+#1188  Legal email: Heard Vililux's budget is now $3130K.
+#1189  PMO note: Pretty sure Vililux's budget is $4730K now.
+#1190  Finance Office: Vililux budget increased by $55K after review.
+#1191  Finance Office: Withdraw update #0812.
+#1192  Finance Office: Withdraw update #0433; it was entered in error.
+#1193  Finance Office: Withdraw update #0471; it was entered in error.
+#1194  Finance Office: Withdraw update #0194.
+#1195  Finance Office: Vililux budget decreased by $100K per the revised plan.
+#1196  Finance Office: Withdraw update #1086.
+#1197  Sales update: Vililux status report filed for week 21.
+#1198  PMO note: Vililux risk register updated with 4 new items.
+#1199  Finance Office: Vililux budget decreased by $120K per the revised plan.
+#1200  Finance Office: Vililux budget decreased by $120K after review.
+#1201  Finance Office: Vililux invoice batch FC-9645 archived.
+#1202  Finance Office: Withdraw update #0463.
+#1203  Finance Office: Vililux budget increased by $80K after review.
+#1204  Legal email: Pretty sure Vililux's budget is $4800K now.
+#1205  Finance Office: Vililux budget increased by $90K per the revised plan.
+#1206  Finance Office: Vililux budget decreased by $5K.
+#1207  Finance Office: Withdraw update #1202; it was entered in error.
+#1208  Engineering email: Vililux budget is going to $4310K.
+#1209  Finance Office: Vililux budget increased by $80K.
+#1210  Marketing email: Sounds like Vililux gets $106K less.
+#1211  Facilities ticket: Hearing Vililux's budget goes up $272K.
+#1212  Finance Office: Vililux budget decreased by $125K after review.
+#1213  Finance Office: Vililux budget decreased by $30K.
+#1214  Finance Office: Vililux budget increased by $5K per the revised plan.
+#1215  Finance Office: Withdraw update #1168.
+#1216  Sales update: Expect Vililux's budget to rise by $141K.
+#1217  Finance Office: Vililux budget decreased by $95K after review.
+#1218  Finance Office: Vililux budget increased by $125K per the revised plan.
+#1219  Finance Office: Vililux budget increased by $30K after review.
+#1220  Legal email: Vililux budget should land at $3020K.
+#1221  Operations chat: Vililux budget is going down by $234K.
+#1222  Finance Office: Vililux budget increased by $35K after review.
+#1223  Finance Office: Vililux budget decreased by $135K per the revised plan.
+#1224  Sales update: Vililux budget is going down to $3180K.
+#1225  Finance Office: Vililux budget increased by $95K.
+#1226  Finance Office: Vililux purchase order FC-4755 closed.
+#1227  Vendor call: Hearing Vililux's budget goes down $427K.
+#1228  Legal email: Vililux budget should land at $3660K.
+#1229  Marketing email: Vililux budget is going up to $4800K.
+#1230  Legal email: Hearing Vililux's budget goes up $577K.
+#1231  Vendor call: Vililux test environment back online.
+#1232  Finance Office: Withdraw update #0686.
+#1233  Finance Office: Vililux budget increased by $65K.
+#1234  Finance Office: Vililux budget decreased by $15K.
+#1235  Finance Office: Vililux invoice batch FC-8487 archived.
+#1236  Finance Office: Vililux budget decreased by $90K after review.
+#1237  Engineering email: Vililux kickoff moved to Building 3.
+#1238  Legal email: Pretty sure Vililux's budget is $4120K now.
+#1239  Finance Office: Vililux budget increased by $125K after review.
+#1240  Legal email: Vililux budget should land at $3430K.
+#1241  Finance Office: Vililux budget decreased by $105K after review.
+#1242  Finance Office: Withdraw update #0987; it was entered in error.
+#1243  Marketing email: Pretty sure Vililux's budget is $3320K now.
+#1244  Finance Office: Vililux budget increased by $135K.
+#1245  Finance Office: Vililux budget increased by $80K.
+#1246  Finance Office: Vililux budget decreased by $50K per the revised plan.
+#1247  Finance Office: Vililux budget increased by $25K after review.
+#1248  Finance Office: Vililux budget increased by $110K per the revised plan.
+#1249  Finance Office: Vililux audit notes filed.
+#1250  Vendor call: Heard Vililux's budget is now $3360K.
+#1251  PMO note: Vililux budget is going up by $188K.
+#1252  Finance Office: Vililux budget increased by $150K per the revised plan.
+#1253  Finance Office: Vililux budget decreased by $60K after review.
+#1254  Marketing email: Hearing Vililux's budget goes down $349K.
+#1255  Finance Office: Vililux budget decreased by $95K after review.
+#1256  Finance Office: Vililux budget decreased by $10K.
+#1257  Finance Office: Vililux budget decreased by $5K per the revised plan.
+#1258  Finance Office: Withdraw update #0753.
+#1259  Engineering email: Vililux weekly sync moved to Mondays.
+#1260  PMO note: Hearing Vililux's budget goes down $83K.
+#1261  Legal email: Heard Vililux's budget is now $3720K.
+#1262  Marketing email: Hearing Vililux's budget goes up $497K.
+#1263  Finance Office: Withdraw update #1258.
+#1264  Finance Office: Withdraw update #0682; it was entered in error.
+#1265  Finance Office: Vililux budget increased by $25K.
+#1266  Finance Office: Withdraw update #0912.
+#1267  Sales update: Vililux design review moved to Room 4D.
+#1268  Legal email: Vililux budget is going up by $307K.
+#1269  Finance Office: Withdraw update #0309; it was entered in error.
+#1270  Finance Office: Vililux receipts scanned.
+#1271  Vendor call: Vililux budget is going down by $279K.
+#1272  Finance Office: Withdraw update #1126; it was entered in error.
+#1273  Marketing email: Vililux status report filed for week 39.
+#1274  Finance Office: Vililux budget increased by $105K per the revised plan.
+#1275  Finance Office: Vililux budget decreased by $115K after review.
+#1276  Vendor call: Vililux demo rescheduled to Thursday afternoon.
+#1277  Finance Office: Vililux budget increased by $50K.
+#1278  Finance Office: Vililux budget increased by $140K.
+#1279  Vendor call: Expect Vililux's budget to drop by $439K.
+#1280  Facilities ticket: Vililux budget should land at $4800K.
+#1281  Finance Office: Vililux budget increased by $40K.
+#1282  Finance Office: Vililux budget decreased by $40K.
+#1283  Finance Office: Vililux budget increased by $60K per the revised plan.
+#1284  Sales update: Expect Vililux's budget to rise by $143K.
+#1285  Finance Office: Vililux budget decreased by $105K after review.
+#1286  Finance Office: Vililux budget increased by $105K after review.
+#1287  Operations chat: Vililux budget is going down by $472K.
+#1288  Finance Office: Vililux budget decreased by $115K.
+#1289  Finance Office: Vililux budget increased by $120K.
+#1290  Vendor call: Hearing Vililux's budget goes down $6K.
+#1291  Finance Office: Vililux budget decreased by $45K after review.
+#1292  Finance Office: Vililux budget decreased by $140K.
+#1293  Engineering email: Hearing Vililux's budget goes up $431K.
+#1294  Finance Office: Withdraw update #0359.
+#1295  Operations chat: Expect Vililux's budget to rise by $189K.
+#1296  Sales update: Vililux budget is going down by $446K.
+#1297  Vendor call: Expect Vililux's budget to rise by $273K.
+#1298  Marketing email: Expect Vililux's budget to drop by $459K.
+#1299  Finance Office: Vililux budget increased by $25K.
+#1300  Finance Office: Withdraw update #0903; it was entered in error.
+#1301  Sales update: Vililux budget is going to $2430K.
+#1302  Marketing email: Sounds like Vililux gets $501K less.
+#1303  Finance Office: Vililux budget decreased by $80K after review.
+#1304  Marketing email: Vililux budget is going down to $2940K.
+#1305  Finance Office: Withdraw update #0521.
+#1306  PMO note: Sounds like Vililux gets $386K less.
+#1307  Finance Office: Vililux budget decreased by $100K.
+#1308  Finance Office: Vililux budget decreased by $10K per the revised plan.
+#1309  Finance Office: Withdraw update #1192; it was entered in error.
+#1310  Legal email: Vililux budget is going to $2420K.
+#1311  Finance Office: Vililux budget increased by $70K per the revised plan.
+#1312  Facilities ticket: Sounds like Vililux gets $333K less.
+#1313  Finance Office: Vililux budget decreased by $85K per the revised plan.
+#1314  Finance Office: Vililux budget increased by $125K per the revised plan.
+#1315  Finance Office: Vililux budget decreased by $30K per the revised plan.
+#1316  Finance Office: Vililux budget decreased by $140K per the revised plan.
+#1317  Finance Office: Vililux budget decreased by $125K per the revised plan.
+#1318  Finance Office: Vililux budget increased by $80K after review.
+#1319  Finance Office: Vililux budget increased by $25K.
+#1320  Legal email: Vililux budget is going to $1810K.
+#1321  Finance Office: Vililux budget decreased by $31K per the revised plan.
+#1322  Finance Office: Vililux budget decreased by $140K after review.
+#1323  Sales update: Heard Vililux's budget is now $2480K.
+#1324  Finance Office: Vililux budget increased by $130K.
+#1325  Facilities ticket: Vililux budget is going up to $2860K.
+#1326  Finance Office: Withdraw update #1294; it was entered in error.
+#1327  Finance Office: Vililux budget decreased by $55K per the revised plan.
+#1328  Facilities ticket: Heard Vililux's budget is now $1920K.
+#1329  Legal email: Vililux budget should land at $3480K.
+#1330  Finance Office: Withdraw update #0286; it was entered in error.
+#1331  Finance Office: Vililux budget decreased by $5K.
+#1332  Sales update: Vililux budget is going down to $2350K.
+#1333  Finance Office: Withdraw update #0964.
+#1334  Sales update: Vililux budget is going down by $126K.
+#1335  PMO note: Vililux status report filed for week 47.
+#1336  Engineering email: Vililux documentation moved to the shared drive.
+#1337  Finance Office: Withdraw update #0004.
+#1338  Finance Office: Withdraw update #1067.
+#1339  Finance Office: Vililux budget increased by $60K.
+#1340  Finance Office: Vililux budget increased by $70K per the revised plan.
+#1341  Legal email: Heard Vililux's budget is now $1950K.
+#1342  Finance Office: Withdraw update #0323.
+#1343  Finance Office: Vililux budget increased by $95K per the revised plan.
+#1344  Finance Office: Vililux budget decreased by $5K.
+#1345  Finance Office: Vililux budget decreased by $45K.
+#1346  Finance Office: Vililux budget decreased by $95K per the revised plan.
+#1347  Sales update: Sounds like Vililux gets $56K less.
+#1348  Finance Office: Vililux budget decreased by $70K.
+#1349  Finance Office: Vililux budget decreased by $115K after review.
+#1350  Engineering email: Vililux test environment back online.
+#1351  PMO note: Vililux budget is going up by $422K.
+#1352  Finance Office: Withdraw update #0680; it was entered in error.
+#1353  Finance Office: Withdraw update #0681; it was entered in error.
+#1354  Finance Office: Vililux budget increased by $20K.
+#1355  Finance Office: Withdraw update #0783; it was entered in error.
+#1356  Facilities ticket: Pretty sure Vililux's budget is $2390K now.
+#1357  Finance Office: Vililux budget increased by $145K.
+#1358  Finance Office: Withdraw update #0067; it was entered in error.
+#1359  Legal email: Vililux budget is going up by $26K.
+#1360  Finance Office: Vililux budget decreased by $100K after review.
+#1361  Legal email: Vililux documentation moved to the shared drive.
+#1362  Sales update: Expect Vililux's budget to drop by $451K.
+#1363  Finance Office: Vililux quarterly audit scheduled for Wednesday.
+#1364  Finance Office: Vililux budget decreased by $35K.
+#1365  Finance Office: Withdraw update #0498; it was entered in error.
+#1366  Marketing email: Sounds like Vililux gets $416K more.
+#1367  Operations chat: Hearing Vililux's budget goes up $588K.
+#1368  Marketing email: Expect Vililux's budget to drop by $458K.
+#1369  Vendor call: Expect Vililux's budget to drop by $268K.
+#1370  Engineering email: Vililux budget should land at $2110K.
+#1371  Sales update: Vililux budget is going to $1710K.
+#1372  Operations chat: Vililux budget is going to $2440K.
+#1373  Finance Office: Vililux budget decreased by $40K per the revised plan.
+#1374  Finance Office: Vililux budget decreased by $60K after review.
+#1375  Finance Office: Vililux budget decreased by $145K.
+#1376  Sales update: Vililux budget should land at $1780K.
+#1377  Finance Office: Vililux budget decreased by $120K per the revised plan.
+#1378  Finance Office: Vililux budget decreased by $55K after review.
+#1379  Finance Office: Withdraw update #0578; it was entered in error.
+#1380  Finance Office: Withdraw update #1061.
+#1381  Finance Office: Vililux budget decreased by $75K after review.
+#1382  PMO note: Vililux budget is going to $2370K.
+#1383  Finance Office: Vililux budget increased by $140K per the revised plan.
+#1384  Operations chat: Sounds like Vililux gets $516K less.
+#1385  Finance Office: Vililux budget increased by $85K per the revised plan.
+#1386  Vendor call: Vililux budget should land at $1920K.
+#1387  Finance Office: Vililux budget increased by $45K per the revised plan.
+#1388  Finance Office: Withdraw update #1342; it was entered in error.
+#1389  Marketing email: Pretty sure Vililux's budget is $2990K now.
+#1390  Finance Office: Vililux budget decreased by $60K after review.
+#1391  Marketing email: Pretty sure Vililux's budget is $2240K now.
+#1392  Finance Office: Vililux budget decreased by $10K per the revised plan.
+#1393  Finance Office: Vililux budget decreased by $95K.
+#1394  Finance Office: Vililux budget increased by $130K per the revised plan.
+#1395  Vendor call: Vililux weekly sync moved to Wednesdays.
+#1396  Operations chat: Pretty sure Vililux's budget is $2350K now.
+#1397  Finance Office: Vililux budget decreased by $70K per the revised plan.
+#1398  Finance Office: Vililux budget decreased by $145K after review.
+#1399  Finance Office: Vililux budget increased by $130K.
+#1400  Finance Office: Vililux budget increased by $10K after review.
+#1401  PMO note: Vililux budget is going to $2340K.
+#1402  Finance Office: Vililux purchase order FC-7850 closed.
+#1403  Finance Office: Withdraw update #1191.
+#1404  Sales update: Vililux budget should land at $1730K.
+#1405  PMO note: Vililux weekly sync moved to Fridays.
+#1406  Finance Office: Vililux budget decreased by $50K.
+#1407  Operations chat: Expect Vililux's budget to rise by $433K.
+#1408  Finance Office: Vililux budget decreased by $120K.
+#1409  Finance Office: Vililux finance review moved to Room 5D.
+#1410  Finance Office: Vililux budget increased by $65K after review.
+#1411  Finance Office: Vililux budget increased by $10K per the revised plan.
+#1412  Finance Office: Withdraw update #0474.
+#1413  Finance Office: Vililux budget increased by $10K after review.
+#1414  Operations chat: Pretty sure Vililux's budget is $2890K now.
+#1415  Legal email: Pretty sure Vililux's budget is $2240K now.
+#1416  Operations chat: Expect Vililux's budget to drop by $347K.
+#1417  Finance Office: Withdraw update #1177; it was entered in error.
+#1418  Finance Office: Vililux budget increased by $5K per the revised plan.
+#1419  Finance Office: Vililux budget decreased by $55K after review.
+#1420  PMO note: Vililux budget is going down to $2430K.
+#1421  Finance Office: Withdraw update #0230; it was entered in error.
+#1422  Finance Office: Vililux budget decreased by $25K per the revised plan.
+#1423  Engineering email: Vililux demo rescheduled to Tuesday afternoon.
+#1424  Finance Office: Vililux budget increased by $30K after review.
+#1425  Operations chat: Sounds like Vililux gets $174K more.
+#1426  Finance Office: Withdraw update #0300.
+#1427  Finance Office: Vililux budget increased by $45K per the revised plan.
+#1428  Finance Office: Vililux budget decreased by $30K after review.
+#1429  Legal email: Vililux budget is going down by $242K.
+#1430  Finance Office: Withdraw update #0717.
+#1431  Finance Office: Vililux budget increased by $110K per the revised plan.
+#1432  Finance Office: Vililux budget decreased by $50K.
+#1433  Facilities ticket: Vililux budget should land at $3650K.
+#1434  Finance Office: Vililux budget decreased by $150K.
+#1435  Finance Office: Vililux budget increased by $135K.
+#1436  Finance Office: Withdraw update #0585.
+#1437  Finance Office: Withdraw update #1215.
+#1438  Legal email: Vililux budget should land at $4200K.
+#1439  Facilities ticket: Vililux budget is going down by $426K.
+#1440  Legal email: Expect Vililux's budget to rise by $59K.
+#1441  Finance Office: Withdraw update #0526; it was entered in error.
+#1442  Finance Office: Vililux budget increased by $15K.
+#1443  Marketing email: Sounds like Vililux gets $7K more.
+#1444  Finance Office: Vililux budget increased by $10K after review.
+#1445  Finance Office: Vililux budget increased by $125K per the revised plan.
+#1446  Finance Office: Vililux budget increased by $100K after review.
+#1447  Finance Office: Vililux budget increased by $105K after review.
+#1448  Operations chat: Sounds like Vililux gets $549K more.
+#1449  Finance Office: Vililux budget increased by $40K per the revised plan.
+#1450  Engineering email: Vililux design review moved to Room 2A.
+#1451  Finance Office: Vililux budget increased by $120K per the revised plan.
+#1452  Finance Office: Withdraw update #1321.
+#1453  Finance Office: Vililux budget decreased by $70K.
+#1454  Finance Office: Vililux budget increased by $40K after review.
+#1455  Finance Office: Vililux budget decreased by $559K per the revised plan.
+#1456  Finance Office: Vililux budget increased by $95K after review.
+#1457  Finance Office: Withdraw update #0950; it was entered in error.
+#1458  Finance Office: Vililux budget increased by $35K.
+#1459  Finance Office: Vililux budget increased by $10K per the revised plan.
+#1460  Finance Office: Vililux budget increased by $45K per the revised plan.
+#1461  Finance Office: Vililux budget increased by $20K.
+#1462  PMO note: Vililux sprint 20 retrospective notes posted.
+#1463  Finance Office: Vililux budget decreased by $5K per the revised plan.
+#1464  Facilities ticket: Vililux budget is going to $3550K.
+#1465  Sales update: Vililux risk register updated with 9 new items.
+#1466  Finance Office: Vililux budget decreased by $25K.
+#1467  PMO note: Vililux design review moved to Room 5D.
+#1468  Finance Office: Vililux budget increased by $50K per the revised plan.
+#1469  Marketing email: Vililux budget is going to $3280K.
+#1470  Finance Office: Vililux budget increased by $150K after review.
+#1471  Marketing email: Vililux budget is going up by $341K.
+#1472  Finance Office: Vililux budget increased by $90K.
+#1473  Finance Office: Vililux budget increased by $30K after review.
+#1474  Legal email: Expect Vililux's budget to rise by $531K.
+#1475  Finance Office: Vililux budget increased by $75K per the revised plan.
+#1476  Finance Office: Vililux cost center code changed to FC-4825.
+#1477  Marketing email: Vililux budget is going to $3120K.
+#1478  Finance Office: Vililux budget increased by $110K after review.
+#1479  Vendor call: Vililux budget is going to $3900K.
+#1480  Facilities ticket: Vililux weekly sync moved to Tuesdays.
+#1481  Finance Office: Vililux budget increased by $115K.
+#1482  Legal email: Vililux budget is going up by $564K.
+#1483  Sales update: Vililux budget is going to $4230K.
+#1484  Finance Office: Vililux budget decreased by $75K per the revised plan.
+#1485  Finance Office: Vililux budget decreased by $318K.
+#1486  Engineering email: Vililux budget is going down by $402K.
+#1487  Sales update: Vililux budget is going up by $167K.
+#1488  Finance Office: Withdraw update #0910.
+#1489  Finance Office: Vililux budget increased by $125K.
+#1490  Finance Office: Vililux budget increased by $15K per the revised plan.
+#1491  Legal email: Vililux budget is going to $3070K.
+#1492  Finance Office: Vililux receipts scanned.
+#1493  Finance Office: Vililux budget decreased by $60K per the revised plan.
+#1494  Finance Office: Vililux budget increased by $30K per the revised plan.
+#1495  Sales update: Vililux budget is going to $3430K.
+#1496  Sales update: Vililux budget should land at $4450K.
+#1497  PMO note: Expect Vililux's budget to rise by $488K.
+#1498  Finance Office: Vililux budget decreased by $95K per the revised plan.
+#1499  Finance Office: Vililux budget increased by $15K.
+#1500  Finance Office: Withdraw update #0852.
+#1501  Vendor call: Expect Vililux's budget to drop by $463K.
+#1502  Finance Office: Vililux budget increased by $539K after review.
+#1503  Finance Office: Vililux budget decreased by $50K after review.
+#1504  Facilities ticket: Vililux budget is going up by $23K.
+#1505  Finance Office: Vililux budget increased by $130K.
+#1506  Finance Office: Vililux budget increased by $65K after review.
+#1507  Sales update: Vililux budget is going down to $2910K.
+#1508  Engineering email: Sounds like Vililux gets $356K more.
+#1509  Finance Office: Vililux budget increased by $125K per the revised plan.
+#1510  Finance Office: Withdraw update #0725; it was entered in error.
+#1511  Finance Office: Vililux budget increased by $90K after review.
+#1512  PMO note: Vililux kickoff moved to Building 9.
+#1513  Finance Office: Vililux invoice batch FC-8728 archived.
+#1514  Finance Office: Vililux budget decreased by $115K per the revised plan.
+#1515  Sales update: Pretty sure Vililux's budget is $4800K now.
+#1516  Marketing email: Pretty sure Vililux's budget is $4800K now.
+#1517  Finance Office: Withdraw update #1040.
+#1518  Finance Office: Vililux budget increased by $135K per the revised plan.
+#1519  Finance Office: Vililux budget decreased by $60K.
+#1520  Finance Office: Vililux budget decreased by $145K per the revised plan.
+#1521  Legal email: Vililux budget is going down to $3740K.
+#1522  Operations chat: Hearing Vililux's budget goes up $447K.
+#1523  Finance Office: Vililux budget decreased by $105K per the revised plan.
+#1524  Finance Office: Vililux budget increased by $145K after review.
+#1525  Facilities ticket: Expect Vililux's budget to drop by $46K.
+#1526  Finance Office: Vililux budget increased by $95K.
+#1527  Finance Office: Vililux budget decreased by $50K after review.
+#1528  Marketing email: Expect Vililux's budget to rise by $38K.
+#1529  Finance Office: Vililux budget increased by $55K after review.
+#1530  Vendor call: Vililux budget should land at $3710K.
+#1531  PMO note: Vililux security review passed.
+#1532  Finance Office: Withdraw update #1194.
+#1533  Operations chat: Hearing Vililux's budget goes down $94K.
+#1534  Operations chat: Vililux kickoff moved to Building 7.
+#1535  Facilities ticket: Vililux budget should land at $3390K.
+#1536  Finance Office: Vililux budget increased by $75K.
+#1537  Finance Office: Vililux budget decreased by $25K per the revised plan.
+#1538  Operations chat: Heard Vililux's budget is now $4180K.
+#1539  PMO note: Vililux budget is going up by $142K.
+#1540  Marketing email: Vililux budget should land at $3600K.
+#1541  Finance Office: Withdraw update #0557; it was entered in error.
+#1542  Engineering email: Vililux budget is going to $4540K.
+#1543  Finance Office: Vililux budget decreased by $10K after review.
+#1544  Marketing email: Vililux budget is going to $4800K.
+#1545  Finance Office: Vililux budget increased by $95K per the revised plan.
+#1546  Finance Office: Vililux budget decreased by $45K.
+#1547  Finance Office: Vililux budget decreased by $50K.
+#1548  Finance Office: Withdraw update #0477.
+#1549  Finance Office: Vililux budget decreased by $45K after review.
+#1550  Finance Office: Vililux budget increased by $60K per the revised plan.
+#1551  Marketing email: Expect Vililux's budget to drop by $561K.
+#1552  Finance Office: Withdraw update #0155.
+#1553  Facilities ticket: Vililux budget is going to $4800K.
+#1554  Finance Office: Vililux budget increased by $25K after review.
+#1555  Finance Office: Vililux budget decreased by $115K.
+#1556  Finance Office: Vililux cost center code changed to FC-6656.
+#1557  Finance Office: Vililux budget decreased by $150K.
+#1558  PMO note: Hearing Vililux's budget goes up $134K.
+#1559  Finance Office: Withdraw update #1502.
+#1560  Finance Office: Vililux budget increased by $70K after review.
+#1561  Operations chat: Sounds like Vililux gets $398K more.
+#1562  Finance Office: Vililux budget decreased by $65K per the revised plan.
+#1563  Finance Office: Vililux finance review moved to Room 6D.
+#1564  Finance Office: Vililux budget decreased by $45K per the revised plan.
+#1565  Finance Office: Vililux receipts scanned.
+#1566  Finance Office: Vililux budget increased by $45K.
+#1567  Finance Office: Vililux budget increased by $5K after review.
+#1568  Finance Office: Withdraw update #0780.
+#1569  Finance Office: Vililux cost center code changed to FC-2207.
+#1570  Finance Office: Vililux audit notes filed.
+#1571  Legal email: Vililux budget is going to $2650K.
+#1572  Finance Office: Vililux budget increased by $90K per the revised plan.
+#1573  Finance Office: Vililux budget increased by $60K per the revised plan.
+#1574  Finance Office: Vililux budget increased by $40K.
+#1575  Finance Office: Withdraw update #0954; it was entered in error.
+#1576  Operations chat: Hearing Vililux's budget goes up $332K.
+#1577  Vendor call: Heard Vililux's budget is now $3260K.
+#1578  PMO note: Hearing Vililux's budget goes up $583K.
+#1579  Finance Office: Withdraw update #0749; it was entered in error.
+#1580  Finance Office: Withdraw update #1455; it was entered in error.
+#1581  Finance Office: Vililux budget increased by $65K.
+#1582  Finance Office: Withdraw update #0029.
+#1583  Finance Office: Vililux budget increased by $120K after review.
+#1584  Finance Office: Vililux budget decreased by $145K.
+#1585  Operations chat: Vililux budget is going up to $3490K.
+#1586  Finance Office: Withdraw update #0166; it was entered in error.
+#1587  Finance Office: Vililux budget increased by $55K.
+#1588  Legal email: Vililux budget is going down by $574K.
+#1589  Vendor call: Hearing Vililux's budget goes down $319K.
+#1590  Finance Office: Vililux budget decreased by $10K after review.
+#1591  Marketing email: Pretty sure Vililux's budget is $3340K now.
+#1592  Sales update: Vililux status report filed for week 28.
+#1593  PMO note: Vililux budget is going down by $21K.
+#1594  Finance Office: Vililux budget increased by $5K.
+#1595  Finance Office: Withdraw update #1517; it was entered in error.
+#1596  Finance Office: Vililux budget decreased by $40K.
+#1597  Finance Office: Reminder: Vililux expense reports are due Friday.
+#1598  Operations chat: Expect Vililux's budget to rise by $529K.
+#1599  Finance Office: Withdraw update #1485.
+#1600  Finance Office: Vililux budget increased by $100K.
+
+Question: What is Vililux's budget now?
