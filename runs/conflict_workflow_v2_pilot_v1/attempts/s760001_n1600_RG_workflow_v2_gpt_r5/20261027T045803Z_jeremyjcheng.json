@@ -1,0 +1,63 @@
+{
+ "trial_id": "s760001_n1600_RG_workflow_v2_gpt_r5",
+ "order": 133,
+ "world_id": "s760001_n1600",
+ "version": "RG",
+ "instruction": "workflow_v2",
+ "model": "gpt",
+ "repeat": 5,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.164.0-alpha.11.1",
+ "prompt_sha256": "e25aa4a4f216eea5b2d39ba7b1b227c0663f4a75281205ff1c902a4ff30dc782",
+ "started_at": "2026-10-27T04:58:03+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "ANSWER: $1003K",
+ "usage": {
+  "input_tokens": 29400,
+  "cached_input_tokens": 0,
+  "output_tokens": 3277,
+  "reasoning_output_tokens": 3265
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a17bb8-ffc2-7b83-a402-d6af24cca296"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "ANSWER: $1003K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 29400,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3277,
+     "reasoning_output_tokens": 3265
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-27T04:58:04.102317Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-27T04:58:04.103329Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-27T04:58:04.129176Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-27T04:58:04.129842Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-27T04:58:04.130427Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-27T04:58:04.131121Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-27T04:58:04.156677Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-27T04:59:36.084271Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a17bb8-ffc2-7b83-a402-d6af24cca296.1793077084099635000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-27T04:59:36+00:00",
+ "elapsed_s": 92.5
+}

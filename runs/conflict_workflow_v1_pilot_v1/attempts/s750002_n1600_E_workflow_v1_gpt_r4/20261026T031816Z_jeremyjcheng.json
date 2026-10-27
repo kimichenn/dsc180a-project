@@ -1,0 +1,63 @@
+{
+ "trial_id": "s750002_n1600_E_workflow_v1_gpt_r4",
+ "order": 177,
+ "world_id": "s750002_n1600",
+ "version": "E",
+ "instruction": "workflow_v1",
+ "model": "gpt",
+ "repeat": 4,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "298a930f180788253572d3f9eb8c4424313332c33f5abe48ff5b1769c308ca82",
+ "started_at": "2026-10-26T03:18:16+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Kregis\u2019s current budget is **$1,294K**.\n\nOnly Finance Office budget updates count. There are no withdrawals in the supplied records; non-budget messages have no effect.\n\n| Records | Net budget change | Budget after segment |\n|---|---:|---:|\n| #0001 | Set to $580K | $580K |\n| #0002\u2013#0200 | +$2,151K | $2,731K |\n| #0201\u2013#0400 | \u2212$1,726K | $1,005K |\n| #0401\u2013#0600 | +$1,659K | $2,664K |\n| #0601\u2013#0800 | +$326K | $2,990K |\n| #0801\u2013#1000 | \u2212$2,020K | $970K |\n| #1001\u2013#1200 | +$123K | $1,093K |\n| #1201\u2013#1400 | +$1,226K | $2,319K |\n| #1401\u2013#1600 | \u2212$1,025K | $1,294K |\n\nThe changes total **+$714K**, giving $580K + $714K = **$1,294K**.\n\nANSWER: $1294K",
+ "usage": {
+  "input_tokens": 30380,
+  "cached_input_tokens": 0,
+  "output_tokens": 2291,
+  "reasoning_output_tokens": 2011
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a17637-45b5-73b1-a5c6-e4a415e18be9"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Kregis\u2019s current budget is **$1,294K**.\n\nOnly Finance Office budget updates count. There are no withdrawals in the supplied records; non-budget messages have no effect.\n\n| Records | Net budget change | Budget after segment |\n|---|---:|---:|\n| #0001 | Set to $580K | $580K |\n| #0002\u2013#0200 | +$2,151K | $2,731K |\n| #0201\u2013#0400 | \u2212$1,726K | $1,005K |\n| #0401\u2013#0600 | +$1,659K | $2,664K |\n| #0601\u2013#0800 | +$326K | $2,990K |\n| #0801\u2013#1000 | \u2212$2,020K | $970K |\n| #1001\u2013#1200 | +$123K | $1,093K |\n| #1201\u2013#1400 | +$1,226K | $2,319K |\n| #1401\u2013#1600 | \u2212$1,025K | $1,294K |\n\nThe changes total **+$714K**, giving $580K + $714K = **$1,294K**.\n\nANSWER: $1294K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 30380,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2291,
+     "reasoning_output_tokens": 2011
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T03:18:16.250282Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:18:16.278726Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:18:16.279819Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:18:16.280927Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:18:16.281976Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:18:16.282988Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:18:16.284065Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:18:16.285200Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:18:16.300887Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T03:22:02.106344Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a17637-45b5-73b1-a5c6-e4a415e18be9.1792984696246478000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T03:22:02+00:00",
+ "elapsed_s": 226.5
+}

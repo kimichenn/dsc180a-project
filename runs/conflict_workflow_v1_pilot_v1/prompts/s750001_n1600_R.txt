@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Pedrene budget set to $1870K.
+#0002  Marketing email: Pedrene design review moved to Room 6A.
+#0003  Finance Office: Pedrene budget increased by $95K per the revised plan.
+#0004  Sales update: Pedrene kickoff moved to Building 4.
+#0005  PMO note: Pedrene demo rescheduled to Wednesday afternoon.
+#0006  Finance Office: Pedrene budget decreased by $35K after review.
+#0007  Finance Office: Pedrene budget increased by $598K.
+#0008  Sales update: Pedrene test environment back online.
+#0009  Legal email: Pedrene test environment back online.
+#0010  Facilities ticket: Pedrene risk register updated with 4 new items.
+#0011  Sales update: Pedrene status report filed for week 20.
+#0012  Engineering email: Pedrene site visit confirmed for Thursday.
+#0013  Finance Office: Pedrene budget decreased by $392K per the revised plan.
+#0014  Finance Office: Pedrene budget decreased by $95K per the revised plan.
+#0015  Facilities ticket: Pedrene status report filed for week 12.
+#0016  Finance Office: Pedrene budget increased by $75K after review.
+#0017  Facilities ticket: Pedrene status report filed for week 23.
+#0018  Finance Office: Pedrene budget increased by $241K per the revised plan.
+#0019  Finance Office: Pedrene budget increased by $292K.
+#0020  PMO note: Pedrene status report filed for week 40.
+#0021  Finance Office: Withdraw update #0018; it was entered in error.
+#0022  Sales update: Pedrene kickoff moved to Building 6.
+#0023  Finance Office: Pedrene budget decreased by $329K after review.
+#0024  Facilities ticket: Pedrene weekly sync moved to Mondays.
+#0025  Engineering email: Pedrene kickoff moved to Building 5.
+#0026  Marketing email: Pedrene weekly sync moved to Tuesdays.
+#0027  Vendor call: Pedrene weekly sync moved to Tuesdays.
+#0028  Vendor call: Pedrene security review passed.
+#0029  Finance Office: Pedrene budget increased by $318K per the revised plan.
+#0030  Sales update: Pedrene security review passed.
+#0031  Finance Office: Pedrene budget increased by $50K.
+#0032  Vendor call: Pedrene design review moved to Room 4B.
+#0033  Vendor call: Pedrene site visit confirmed for Tuesday.
+#0034  Marketing email: Pedrene status report filed for week 36.
+#0035  Finance Office: Pedrene budget decreased by $159K after review.
+#0036  Finance Office: Pedrene budget decreased by $88K after review.
+#0037  Finance Office: Pedrene budget decreased by $61K.
+#0038  Sales update: Pedrene site visit confirmed for Friday.
+#0039  Marketing email: Pedrene weekly sync moved to Mondays.
+#0040  Finance Office: Pedrene budget decreased by $377K.
+#0041  Legal email: Pedrene site visit confirmed for Tuesday.
+#0042  Marketing email: Pedrene site visit confirmed for Monday.
+#0043  Facilities ticket: Pedrene test environment back online.
+#0044  Finance Office: Pedrene quarterly audit scheduled for Friday.
+#0045  Finance Office: Pedrene receipts scanned.
+#0046  Finance Office: Pedrene budget increased by $20K after review.
+#0047  Finance Office: Withdraw update #0037; it was entered in error.
+#0048  Finance Office: Withdraw update #0019; it was entered in error.
+#0049  Vendor call: Pedrene test environment back online.
+#0050  Finance Office: Pedrene budget decreased by $463K.
+#0051  Finance Office: Pedrene budget increased by $135K per the revised plan.
+#0052  Vendor call: Pedrene sprint 33 retrospective notes posted.
+#0053  Finance Office: Pedrene budget decreased by $279K per the revised plan.
+#0054  Legal email: Pedrene test environment back online.
+#0055  Finance Office: Pedrene budget decreased by $20K per the revised plan.
+#0056  Finance Office: Reminder: Pedrene expense reports are due Wednesday.
+#0057  Finance Office: Pedrene budget increased by $363K per the revised plan.
+#0058  Finance Office: Pedrene budget decreased by $100K after review.
+#0059  Finance Office: Pedrene budget decreased by $248K.
+#0060  Vendor call: Pedrene security review passed.
+#0061  Operations chat: Pedrene test environment back online.
+#0062  Finance Office: Pedrene budget decreased by $371K.
+#0063  Finance Office: Withdraw update #0062; it was entered in error.
+#0064  Finance Office: Pedrene budget increased by $516K after review.
+#0065  Finance Office: Pedrene budget increased by $95K after review.
+#0066  Finance Office: Pedrene budget decreased by $344K per the revised plan.
+#0067  Finance Office: Pedrene budget increased by $85K.
+#0068  Marketing email: Pedrene test environment back online.
+#0069  Marketing email: Pedrene status report filed for week 6.
+#0070  Finance Office: Reminder: Pedrene expense reports are due Tuesday.
+#0071  Finance Office: Pedrene budget increased by $332K per the revised plan.
+#0072  Operations chat: Pedrene test environment back online.
+#0073  Finance Office: Withdraw update #0036.
+#0074  Finance Office: Withdraw update #0047.
+#0075  Finance Office: Withdraw update #0064.
+#0076  Finance Office: Withdraw update #0007.
+#0077  Finance Office: Pedrene budget increased by $140K after review.
+#0078  Legal email: Pedrene security review passed.
+#0079  Finance Office: Pedrene budget decreased by $50K after review.
+#0080  Finance Office: Pedrene budget increased by $553K after review.
+#0081  PMO note: Pedrene design review moved to Room 6B.
+#0082  Finance Office: Pedrene budget decreased by $70K per the revised plan.
+#0083  Finance Office: Pedrene budget increased by $5K after review.
+#0084  Finance Office: Withdraw update #0059; it was entered in error.
+#0085  Finance Office: Pedrene budget decreased by $75K.
+#0086  Finance Office: Pedrene budget decreased by $135K.
+#0087  Finance Office: Pedrene invoice batch FC-8084 archived.
+#0088  Vendor call: Pedrene weekly sync moved to Tuesdays.
+#0089  Finance Office: Pedrene budget decreased by $135K after review.
+#0090  Finance Office: Pedrene budget increased by $529K per the revised plan.
+#0091  Engineering email: Pedrene test environment back online.
+#0092  Finance Office: Pedrene audit notes filed.
+#0093  Finance Office: Withdraw update #0066; it was entered in error.
+#0094  Sales update: Pedrene risk register updated with 9 new items.
+#0095  Operations chat: Pedrene sprint 28 retrospective notes posted.
+#0096  Finance Office: Pedrene budget decreased by $268K.
+#0097  Engineering email: Pedrene status report filed for week 3.
+#0098  Finance Office: Withdraw update #0076.
+#0099  Finance Office: Pedrene budget decreased by $135K per the revised plan.
+#0100  Finance Office: Withdraw update #0063; it was entered in error.
+#0101  Finance Office: Pedrene budget decreased by $150K per the revised plan.
+#0102  Finance Office: Pedrene budget decreased by $588K.
+#0103  Finance Office: Pedrene budget increased by $358K after review.
+#0104  Sales update: Pedrene weekly sync moved to Mondays.
+#0105  Finance Office: Pedrene budget increased by $87K.
+#0106  Finance Office: Pedrene budget increased by $105K.
+#0107  Operations chat: Pedrene site visit confirmed for Wednesday.
+#0108  Finance Office: Pedrene budget decreased by $140K per the revised plan.
+#0109  Finance Office: Pedrene budget increased by $50K.
+#0110  Finance Office: Pedrene budget increased by $107K per the revised plan.
+#0111  Legal email: Pedrene kickoff moved to Building 9.
+#0112  Finance Office: Withdraw update #0105.
+#0113  Finance Office: Pedrene purchase order FC-9930 closed.
+#0114  Finance Office: Pedrene budget decreased by $202K per the revised plan.
+#0115  PMO note: Pedrene test environment back online.
+#0116  Engineering email: Pedrene sprint 4 retrospective notes posted.
+#0117  Finance Office: Withdraw update #0035.
+#0118  Vendor call: Pedrene test environment back online.
+#0119  Finance Office: Withdraw update #0098; it was entered in error.
+#0120  Sales update: Pedrene design review moved to Room 4B.
+#0121  Finance Office: Pedrene budget increased by $142K.
+#0122  Finance Office: Pedrene budget decreased by $105K after review.
+#0123  Legal email: Pedrene kickoff moved to Building 2.
+#0124  Vendor call: Pedrene status report filed for week 13.
+#0125  Facilities ticket: Pedrene kickoff moved to Building 4.
+#0126  Legal email: Pedrene design review moved to Room 1B.
+#0127  Operations chat: Pedrene test environment back online.
+#0128  Finance Office: Pedrene budget increased by $467K per the revised plan.
+#0129  Finance Office: Pedrene budget increased by $589K per the revised plan.
+#0130  Finance Office: Pedrene budget decreased by $262K.
+#0131  Engineering email: Pedrene weekly sync moved to Thursdays.
+#0132  Marketing email: Pedrene security review passed.
+#0133  Finance Office: Pedrene budget decreased by $50K per the revised plan.
+#0134  Finance Office: Withdraw update #0096; it was entered in error.
+#0135  Finance Office: Pedrene budget decreased by $244K.
+#0136  Facilities ticket: Pedrene kickoff moved to Building 4.
+#0137  Finance Office: Pedrene budget decreased by $150K per the revised plan.
+#0138  Finance Office: Pedrene budget increased by $55K per the revised plan.
+#0139  Finance Office: Pedrene budget decreased by $423K.
+#0140  Finance Office: Pedrene budget increased by $468K per the revised plan.
+#0141  Finance Office: Pedrene budget decreased by $374K per the revised plan.
+#0142  Facilities ticket: Pedrene design review moved to Room 4A.
+#0143  Legal email: Pedrene sprint 33 retrospective notes posted.
+#0144  Finance Office: Pedrene budget increased by $581K after review.
+#0145  Finance Office: Pedrene budget decreased by $206K.
+#0146  Finance Office: Pedrene budget increased by $18K per the revised plan.
+#0147  Sales update: Pedrene status report filed for week 7.
+#0148  Finance Office: Pedrene budget decreased by $422K after review.
+#0149  Finance Office: Pedrene budget increased by $130K after review.
+#0150  Finance Office: Withdraw update #0102.
+#0151  Engineering email: Pedrene weekly sync moved to Mondays.
+#0152  Operations chat: Pedrene kickoff moved to Building 9.
+#0153  Finance Office: Pedrene budget decreased by $95K.
+#0154  Finance Office: Pedrene budget decreased by $11K after review.
+#0155  Sales update: Pedrene vendor onboarding call scheduled for Tuesday.
+#0156  Finance Office: Pedrene budget decreased by $127K after review.
+#0157  Vendor call: Pedrene weekly sync moved to Thursdays.
+#0158  Finance Office: Pedrene budget increased by $548K after review.
+#0159  Finance Office: Pedrene budget decreased by $105K.
+#0160  Finance Office: Pedrene budget decreased by $95K per the revised plan.
+#0161  Marketing email: Pedrene status report filed for week 13.
+#0162  Vendor call: Pedrene weekly sync moved to Mondays.
+#0163  Finance Office: Pedrene budget increased by $110K.
+#0164  Finance Office: Pedrene budget decreased by $242K per the revised plan.
+#0165  Finance Office: Withdraw update #0144.
+#0166  Finance Office: Pedrene budget increased by $162K after review.
+#0167  PMO note: Pedrene kickoff moved to Building 7.
+#0168  Finance Office: Withdraw update #0073; it was entered in error.
+#0169  Legal email: Pedrene sprint 20 retrospective notes posted.
+#0170  Legal email: Pedrene sprint 27 retrospective notes posted.
+#0171  Sales update: Pedrene kickoff moved to Building 7.
+#0172  Finance Office: Pedrene budget increased by $181K.
+#0173  Finance Office: Pedrene budget decreased by $70K.
+#0174  Finance Office: Pedrene budget decreased by $10K per the revised plan.
+#0175  Vendor call: Pedrene weekly sync moved to Fridays.
+#0176  Finance Office: Pedrene budget decreased by $228K.
+#0177  Vendor call: Pedrene test environment back online.
+#0178  Finance Office: Pedrene budget decreased by $75K per the revised plan.
+#0179  PMO note: Pedrene weekly sync moved to Mondays.
+#0180  Operations chat: Pedrene security review passed.
+#0181  Finance Office: Pedrene budget increased by $259K per the revised plan.
+#0182  Finance Office: Withdraw update #0057.
+#0183  Finance Office: Pedrene budget decreased by $40K.
+#0184  Finance Office: Withdraw update #0165; it was entered in error.
+#0185  Finance Office: Withdraw update #0100.
+#0186  Finance Office: Pedrene budget decreased by $528K after review.
+#0187  Finance Office: Pedrene budget decreased by $90K.
+#0188  Finance Office: Pedrene budget increased by $469K.
+#0189  Marketing email: Pedrene kickoff moved to Building 5.
+#0190  Finance Office: Pedrene budget increased by $10K after review.
+#0191  Finance Office: Pedrene budget decreased by $75K.
+#0192  Finance Office: Pedrene finance review moved to Room 1D.
+#0193  Finance Office: Withdraw update #0166.
+#0194  Finance Office: Pedrene budget increased by $99K per the revised plan.
+#0195  Finance Office: Withdraw update #0146.
+#0196  Finance Office: Pedrene budget decreased by $362K after review.
+#0197  Finance Office: Pedrene budget increased by $246K.
+#0198  Finance Office: Pedrene budget increased by $491K.
+#0199  Operations chat: Pedrene site visit confirmed for Thursday.
+#0200  Marketing email: Pedrene weekly sync moved to Fridays.
+#0201  Finance Office: Pedrene budget increased by $55K after review.
+#0202  Finance Office: Withdraw update #0193; it was entered in error.
+#0203  Finance Office: Pedrene budget decreased by $337K.
+#0204  Finance Office: Pedrene budget increased by $25K per the revised plan.
+#0205  Operations chat: Pedrene kickoff moved to Building 3.
+#0206  Marketing email: Pedrene security review passed.
+#0207  Sales update: Pedrene test environment back online.
+#0208  Finance Office: Pedrene budget increased by $542K.
+#0209  Marketing email: Pedrene weekly sync moved to Mondays.
+#0210  Marketing email: Pedrene status report filed for week 22.
+#0211  Finance Office: Pedrene budget decreased by $120K after review.
+#0212  PMO note: Pedrene status report filed for week 4.
+#0213  Facilities ticket: Pedrene risk register updated with 5 new items.
+#0214  Finance Office: Pedrene budget decreased by $64K after review.
+#0215  Finance Office: Pedrene budget increased by $145K per the revised plan.
+#0216  Finance Office: Withdraw update #0021.
+#0217  Finance Office: Pedrene budget decreased by $478K after review.
+#0218  Finance Office: Pedrene budget decreased by $287K.
+#0219  Finance Office: Pedrene budget increased by $105K after review.
+#0220  Legal email: Pedrene weekly sync moved to Tuesdays.
+#0221  Finance Office: Pedrene budget increased by $100K.
+#0222  Engineering email: Pedrene weekly sync moved to Fridays.
+#0223  Finance Office: Pedrene budget decreased by $95K after review.
+#0224  Finance Office: Pedrene budget decreased by $45K.
+#0225  Marketing email: Pedrene site visit confirmed for Friday.
+#0226  Vendor call: Pedrene kickoff moved to Building 8.
+#0227  Marketing email: Pedrene test environment back online.
+#0228  Finance Office: Pedrene budget increased by $509K after review.
+#0229  Marketing email: Pedrene security review passed.
+#0230  Finance Office: Pedrene budget decreased by $70K.
+#0231  Sales update: Pedrene sprint 32 retrospective notes posted.
+#0232  Finance Office: Withdraw update #0128; it was entered in error.
+#0233  Finance Office: Pedrene budget increased by $150K per the revised plan.
+#0234  Facilities ticket: Pedrene weekly sync moved to Fridays.
+#0235  Finance Office: Pedrene budget increased by $97K.
+#0236  PMO note: Pedrene sprint 43 retrospective notes posted.
+#0237  Finance Office: Pedrene budget increased by $25K.
+#0238  Facilities ticket: Pedrene documentation moved to the shared drive.
+#0239  Finance Office: Withdraw update #0048.
+#0240  Legal email: Pedrene risk register updated with 4 new items.
+#0241  Facilities ticket: Pedrene weekly sync moved to Fridays.
+#0242  Engineering email: Pedrene weekly sync moved to Fridays.
+#0243  Operations chat: Pedrene weekly sync moved to Mondays.
+#0244  Finance Office: Withdraw update #0117; it was entered in error.
+#0245  Finance Office: Withdraw update #0181; it was entered in error.
+#0246  Finance Office: Pedrene budget decreased by $434K per the revised plan.
+#0247  Finance Office: Pedrene budget increased by $84K per the revised plan.
+#0248  Finance Office: Withdraw update #0080; it was entered in error.
+#0249  Engineering email: Pedrene status report filed for week 17.
+#0250  Finance Office: Withdraw update #0176.
+#0251  Finance Office: Pedrene budget increased by $60K per the revised plan.
+#0252  Legal email: Pedrene risk register updated with 4 new items.
+#0253  Engineering email: Pedrene site visit confirmed for Tuesday.
+#0254  Finance Office: Pedrene budget decreased by $289K.
+#0255  Finance Office: Pedrene budget increased by $45K after review.
+#0256  Finance Office: Withdraw update #0208.
+#0257  Finance Office: Pedrene budget increased by $264K per the revised plan.
+#0258  Vendor call: Pedrene status report filed for week 43.
+#0259  Vendor call: Pedrene design review moved to Room 3A.
+#0260  Finance Office: Pedrene budget decreased by $115K per the revised plan.
+#0261  Sales update: Pedrene documentation moved to the shared drive.
+#0262  Legal email: Pedrene design review moved to Room 3C.
+#0263  Marketing email: Pedrene kickoff moved to Building 9.
+#0264  PMO note: Pedrene test environment back online.
+#0265  Finance Office: Pedrene budget increased by $39K after review.
+#0266  Finance Office: Withdraw update #0145.
+#0267  Finance Office: Pedrene budget increased by $110K after review.
+#0268  Finance Office: Pedrene receipts scanned.
+#0269  Finance Office: Withdraw update #0130.
+#0270  Vendor call: Pedrene security review passed.
+#0271  Finance Office: Pedrene budget decreased by $40K after review.
+#0272  Sales update: Pedrene site visit confirmed for Wednesday.
+#0273  Operations chat: Pedrene design review moved to Room 3C.
+#0274  Legal email: Pedrene kickoff moved to Building 6.
+#0275  Finance Office: Pedrene budget increased by $507K.
+#0276  Sales update: Pedrene design review moved to Room 5B.
+#0277  Vendor call: Pedrene site visit confirmed for Thursday.
+#0278  Finance Office: Pedrene budget decreased by $70K after review.
+#0279  Facilities ticket: Pedrene site visit confirmed for Friday.
+#0280  Finance Office: Pedrene budget increased by $135K.
+#0281  Finance Office: Pedrene budget increased by $178K.
+#0282  Finance Office: Pedrene budget decreased by $135K after review.
+#0283  Vendor call: Pedrene status report filed for week 13.
+#0284  Sales update: Pedrene test environment back online.
+#0285  Operations chat: Pedrene sprint 3 retrospective notes posted.
+#0286  Marketing email: Pedrene weekly sync moved to Tuesdays.
+#0287  Finance Office: Pedrene budget decreased by $426K per the revised plan.
+#0288  Finance Office: Pedrene budget decreased by $193K.
+#0289  Finance Office: Pedrene budget decreased by $451K after review.
+#0290  Finance Office: Pedrene budget increased by $135K.
+#0291  Finance Office: Withdraw update #0148.
+#0292  Finance Office: Withdraw update #0184.
+#0293  Facilities ticket: Pedrene status report filed for week 27.
+#0294  Finance Office: Pedrene budget decreased by $5K.
+#0295  Finance Office: Withdraw update #0256.
+#0296  Finance Office: Pedrene budget decreased by $219K.
+#0297  Operations chat: Pedrene weekly sync moved to Mondays.
+#0298  Legal email: Pedrene design review moved to Room 1B.
+#0299  Facilities ticket: Pedrene sprint 45 retrospective notes posted.
+#0300  Vendor call: Pedrene weekly sync moved to Mondays.
+#0301  Finance Office: Pedrene budget increased by $559K after review.
+#0302  Finance Office: Withdraw update #0139; it was entered in error.
+#0303  PMO note: Pedrene kickoff moved to Building 8.
+#0304  Finance Office: Pedrene budget decreased by $192K per the revised plan.
+#0305  Finance Office: Withdraw update #0254; it was entered in error.
+#0306  Facilities ticket: Pedrene documentation moved to the shared drive.
+#0307  Operations chat: Pedrene demo rescheduled to Wednesday afternoon.
+#0308  PMO note: Pedrene design review moved to Room 6B.
+#0309  Vendor call: Pedrene design review moved to Room 4C.
+#0310  Marketing email: Pedrene site visit confirmed for Monday.
+#0311  Finance Office: Pedrene budget increased by $115K.
+#0312  Finance Office: Withdraw update #0275; it was entered in error.
+#0313  Finance Office: Withdraw update #0203; it was entered in error.
+#0314  Finance Office: Withdraw update #0232; it was entered in error.
+#0315  Sales update: Pedrene demo rescheduled to Tuesday afternoon.
+#0316  Finance Office: Pedrene budget decreased by $307K after review.
+#0317  Sales update: Pedrene weekly sync moved to Tuesdays.
+#0318  Finance Office: Withdraw update #0182; it was entered in error.
+#0319  Finance Office: Pedrene budget decreased by $252K after review.
+#0320  Finance Office: Pedrene budget decreased by $40K after review.
+#0321  Finance Office: Pedrene budget decreased by $184K per the revised plan.
+#0322  Finance Office: Pedrene budget decreased by $179K.
+#0323  Marketing email: Pedrene security review passed.
+#0324  Finance Office: Pedrene budget increased by $25K per the revised plan.
+#0325  Facilities ticket: Pedrene status report filed for week 46.
+#0326  Finance Office: Withdraw update #0029; it was entered in error.
+#0327  Finance Office: Pedrene budget decreased by $105K after review.
+#0328  Finance Office: Pedrene budget decreased by $75K.
+#0329  Finance Office: Pedrene budget decreased by $519K after review.
+#0330  Facilities ticket: Pedrene test environment back online.
+#0331  Finance Office: Pedrene budget increased by $70K after review.
+#0332  PMO note: Pedrene demo rescheduled to Monday afternoon.
+#0333  Marketing email: Pedrene weekly sync moved to Wednesdays.
+#0334  Finance Office: Pedrene budget decreased by $3K.
+#0335  Finance Office: Pedrene budget decreased by $115K after review.
+#0336  Sales update: Pedrene kickoff moved to Building 5.
+#0337  Finance Office: Withdraw update #0040; it was entered in error.
+#0338  Finance Office: Pedrene budget increased by $85K.
+#0339  Vendor call: Pedrene documentation moved to the shared drive.
+#0340  Finance Office: Withdraw update #0319; it was entered in error.
+#0341  Finance Office: Pedrene budget decreased by $85K.
+#0342  Finance Office: Pedrene budget increased by $80K.
+#0343  Marketing email: Pedrene kickoff moved to Building 7.
+#0344  Finance Office: Withdraw update #0257.
+#0345  Finance Office: Pedrene budget increased by $75K per the revised plan.
+#0346  Finance Office: Pedrene budget increased by $118K per the revised plan.
+#0347  Finance Office: Pedrene budget decreased by $45K per the revised plan.
+#0348  Vendor call: Pedrene security review passed.
+#0349  Sales update: Pedrene kickoff moved to Building 9.
+#0350  Engineering email: Pedrene status report filed for week 31.
+#0351  Marketing email: Pedrene security review passed.
+#0352  Finance Office: Pedrene budget decreased by $89K.
+#0353  Finance Office: Pedrene budget increased by $75K per the revised plan.
+#0354  Finance Office: Withdraw update #0288; it was entered in error.
+#0355  Finance Office: Pedrene budget increased by $140K.
+#0356  Finance Office: Withdraw update #0316; it was entered in error.
+#0357  Finance Office: Withdraw update #0134; it was entered in error.
+#0358  Legal email: Pedrene design review moved to Room 4B.
+#0359  Finance Office: Pedrene budget increased by $104K.
+#0360  Finance Office: Pedrene budget increased by $85K.
+#0361  Engineering email: Pedrene design review moved to Room 2D.
+#0362  Engineering email: Pedrene site visit confirmed for Friday.
+#0363  PMO note: Pedrene site visit confirmed for Wednesday.
+#0364  Finance Office: Withdraw update #0245; it was entered in error.
+#0365  Finance Office: Pedrene budget decreased by $105K after review.
+#0366  Finance Office: Pedrene budget increased by $80K per the revised plan.
+#0367  Finance Office: Pedrene budget increased by $100K.
+#0368  Finance Office: Pedrene budget decreased by $55K after review.
+#0369  Finance Office: Pedrene budget decreased by $273K after review.
+#0370  PMO note: Pedrene security review passed.
+#0371  Marketing email: Pedrene site visit confirmed for Monday.
+#0372  Sales update: Pedrene weekly sync moved to Tuesdays.
+#0373  Vendor call: Pedrene test environment back online.
+#0374  Finance Office: Pedrene budget decreased by $115K.
+#0375  Finance Office: Withdraw update #0185.
+#0376  PMO note: Pedrene test environment back online.
+#0377  Legal email: Pedrene sprint 46 retrospective notes posted.
+#0378  Finance Office: Pedrene budget increased by $145K.
+#0379  Finance Office: Pedrene budget increased by $45K after review.
+#0380  Finance Office: Pedrene budget decreased by $341K after review.
+#0381  Finance Office: Pedrene budget decreased by $40K per the revised plan.
+#0382  Finance Office: Pedrene budget decreased by $120K after review.
+#0383  Finance Office: Pedrene budget increased by $85K after review.
+#0384  Legal email: Pedrene sprint 32 retrospective notes posted.
+#0385  Finance Office: Pedrene budget decreased by $538K per the revised plan.
+#0386  Legal email: Pedrene kickoff moved to Building 8.
+#0387  Sales update: Pedrene status report filed for week 34.
+#0388  Finance Office: Pedrene budget increased by $489K after review.
+#0389  Finance Office: Pedrene budget decreased by $55K per the revised plan.
+#0390  Finance Office: Withdraw update #0129; it was entered in error.
+#0391  Finance Office: Pedrene budget increased by $95K per the revised plan.
+#0392  PMO note: Pedrene site visit confirmed for Tuesday.
+#0393  Legal email: Pedrene kickoff moved to Building 6.
+#0394  Finance Office: Pedrene budget decreased by $10K per the revised plan.
+#0395  Legal email: Pedrene status report filed for week 3.
+#0396  Finance Office: Pedrene budget increased by $145K.
+#0397  Finance Office: Pedrene budget increased by $105K after review.
+#0398  Finance Office: Pedrene budget increased by $110K after review.
+#0399  Operations chat: Pedrene status report filed for week 2.
+#0400  Finance Office: Withdraw update #0385; it was entered in error.
+#0401  PMO note: Pedrene status report filed for week 27.
+#0402  Finance Office: Pedrene budget decreased by $130K after review.
+#0403  Facilities ticket: Pedrene design review moved to Room 1C.
+#0404  Finance Office: Withdraw update #0074; it was entered in error.
+#0405  Finance Office: Pedrene receipts scanned.
+#0406  Operations chat: Pedrene design review moved to Room 4A.
+#0407  Finance Office: Pedrene budget increased by $55K after review.
+#0408  Finance Office: Pedrene budget decreased by $156K per the revised plan.
+#0409  Finance Office: Pedrene budget increased by $186K.
+#0410  Finance Office: Pedrene budget decreased by $294K per the revised plan.
+#0411  Operations chat: Pedrene test environment back online.
+#0412  Finance Office: Pedrene budget decreased by $145K per the revised plan.
+#0413  Finance Office: Withdraw update #0302; it was entered in error.
+#0414  Legal email: Pedrene status report filed for week 39.
+#0415  Finance Office: Pedrene budget increased by $5K.
+#0416  Facilities ticket: Pedrene test environment back online.
+#0417  Finance Office: Pedrene budget decreased by $338K per the revised plan.
+#0418  Finance Office: Pedrene budget increased by $27K after review.
+#0419  Finance Office: Pedrene budget increased by $30K after review.
+#0420  Finance Office: Pedrene budget decreased by $157K per the revised plan.
+#0421  Finance Office: Pedrene budget increased by $35K.
+#0422  Facilities ticket: Pedrene design review moved to Room 2C.
+#0423  Finance Office: Pedrene budget increased by $35K per the revised plan.
+#0424  Operations chat: Pedrene test environment back online.
+#0425  Legal email: Pedrene demo rescheduled to Friday afternoon.
+#0426  Finance Office: Pedrene budget decreased by $145K after review.
+#0427  Finance Office: Pedrene budget increased by $171K per the revised plan.
+#0428  PMO note: Pedrene weekly sync moved to Thursdays.
+#0429  Facilities ticket: Pedrene design review moved to Room 3B.
+#0430  Finance Office: Withdraw update #0141; it was entered in error.
+#0431  Operations chat: Pedrene test environment back online.
+#0432  Finance Office: Withdraw update #0250.
+#0433  Finance Office: Pedrene budget decreased by $60K after review.
+#0434  Finance Office: Withdraw update #0417.
+#0435  Legal email: Pedrene test environment back online.
+#0436  Finance Office: Pedrene budget decreased by $92K after review.
+#0437  Facilities ticket: Pedrene weekly sync moved to Wednesdays.
+#0438  PMO note: Pedrene vendor onboarding call scheduled for Thursday.
+#0439  Sales update: Pedrene design review moved to Room 5D.
+#0440  Engineering email: Pedrene status report filed for week 39.
+#0441  Finance Office: Withdraw update #0135.
+#0442  Sales update: Pedrene demo rescheduled to Friday afternoon.
+#0443  Finance Office: Pedrene budget decreased by $95K per the revised plan.
+#0444  Sales update: Pedrene site visit confirmed for Monday.
+#0445  Engineering email: Pedrene security review passed.
+#0446  Facilities ticket: Pedrene site visit confirmed for Monday.
+#0447  Sales update: Pedrene weekly sync moved to Mondays.
+#0448  Finance Office: Pedrene budget decreased by $80K per the revised plan.
+#0449  Marketing email: Pedrene sprint 44 retrospective notes posted.
+#0450  Operations chat: Pedrene design review moved to Room 1D.
+#0451  Legal email: Pedrene site visit confirmed for Friday.
+#0452  Marketing email: Pedrene risk register updated with 6 new items.
+#0453  Finance Office: Withdraw update #0156.
+#0454  Finance Office: Withdraw update #0354.
+#0455  Sales update: Pedrene site visit confirmed for Tuesday.
+#0456  Vendor call: Pedrene status report filed for week 36.
+#0457  Finance Office: Pedrene budget decreased by $95K.
+#0458  Finance Office: Pedrene budget decreased by $233K after review.
+#0459  Finance Office: Withdraw update #0334.
+#0460  Operations chat: Pedrene site visit confirmed for Friday.
+#0461  Engineering email: Pedrene site visit confirmed for Friday.
+#0462  Sales update: Pedrene kickoff moved to Building 4.
+#0463  Finance Office: Pedrene budget decreased by $85K.
+#0464  Sales update: Pedrene status report filed for week 16.
+#0465  Facilities ticket: Pedrene status report filed for week 44.
+#0466  Finance Office: Withdraw update #0289; it was entered in error.
+#0467  Finance Office: Pedrene budget decreased by $95K.
+#0468  Finance Office: Pedrene budget increased by $90K.
+#0469  Finance Office: Pedrene budget decreased by $80K after review.
+#0470  Finance Office: Withdraw update #0318; it was entered in error.
+#0471  Facilities ticket: Pedrene test environment back online.
+#0472  Finance Office: Pedrene budget increased by $25K after review.
+#0473  Finance Office: Pedrene budget increased by $115K per the revised plan.
+#0474  Finance Office: Pedrene budget decreased by $95K after review.
+#0475  Finance Office: Withdraw update #0172; it was entered in error.
+#0476  Finance Office: Pedrene budget increased by $75K per the revised plan.
+#0477  Engineering email: Pedrene security review passed.
+#0478  Legal email: Pedrene weekly sync moved to Thursdays.
+#0479  Finance Office: Pedrene budget increased by $386K after review.
+#0480  Finance Office: Pedrene budget increased by $312K.
+#0481  Finance Office: Withdraw update #0217; it was entered in error.
+#0482  Finance Office: Pedrene budget decreased by $140K.
+#0483  Finance Office: Pedrene budget decreased by $75K after review.
+#0484  Engineering email: Pedrene test environment back online.
+#0485  Legal email: Pedrene kickoff moved to Building 2.
+#0486  Finance Office: Pedrene budget increased by $1K.
+#0487  Finance Office: Pedrene budget decreased by $115K after review.
+#0488  Finance Office: Pedrene budget decreased by $93K.
+#0489  Finance Office: Pedrene budget increased by $10K per the revised plan.
+#0490  Finance Office: Pedrene budget increased by $373K per the revised plan.
+#0491  Finance Office: Pedrene budget increased by $45K after review.
+#0492  Finance Office: Withdraw update #0112.
+#0493  Operations chat: Pedrene kickoff moved to Building 9.
+#0494  Finance Office: Pedrene budget decreased by $115K per the revised plan.
+#0495  Finance Office: Withdraw update #0266.
+#0496  Finance Office: Withdraw update #0196.
+#0497  Legal email: Pedrene sprint 42 retrospective notes posted.
+#0498  Vendor call: Pedrene site visit confirmed for Monday.
+#0499  Engineering email: Pedrene weekly sync moved to Fridays.
+#0500  Finance Office: Withdraw update #0301.
+#0501  Finance Office: Pedrene purchase order FC-8074 closed.
+#0502  Finance Office: Pedrene budget increased by $135K per the revised plan.
+#0503  Legal email: Pedrene weekly sync moved to Mondays.
+#0504  Finance Office: Pedrene budget decreased by $105K per the revised plan.
+#0505  Finance Office: Withdraw update #0380.
+#0506  Finance Office: Withdraw update #0427; it was entered in error.
+#0507  Finance Office: Withdraw update #0454.
+#0508  Marketing email: Pedrene weekly sync moved to Tuesdays.
+#0509  PMO note: Pedrene site visit confirmed for Monday.
+#0510  Finance Office: Pedrene budget decreased by $496K per the revised plan.
+#0511  Facilities ticket: Pedrene test environment back online.
+#0512  Sales update: Pedrene status report filed for week 27.
+#0513  Finance Office: Pedrene budget increased by $25K.
+#0514  Finance Office: Pedrene budget decreased by $70K after review.
+#0515  Marketing email: Pedrene weekly sync moved to Mondays.
+#0516  Finance Office: Withdraw update #0194.
+#0517  Finance Office: Pedrene budget decreased by $130K.
+#0518  Finance Office: Pedrene budget decreased by $25K per the revised plan.
+#0519  Sales update: Pedrene weekly sync moved to Mondays.
+#0520  Marketing email: Pedrene design review moved to Room 6A.
+#0521  Finance Office: Pedrene budget decreased by $25K.
+#0522  Facilities ticket: Pedrene site visit confirmed for Friday.
+#0523  Operations chat: Pedrene security review passed.
+#0524  Finance Office: Pedrene budget decreased by $5K per the revised plan.
+#0525  Finance Office: Withdraw update #0479.
+#0526  Finance Office: Pedrene budget increased by $125K after review.
+#0527  Facilities ticket: Pedrene test environment back online.
+#0528  Finance Office: Pedrene budget decreased by $140K.
+#0529  Legal email: Pedrene design review moved to Room 4C.
+#0530  Finance Office: Pedrene budget increased by $65K after review.
+#0531  Finance Office: Pedrene budget increased by $15K per the revised plan.
+#0532  Finance Office: Pedrene budget increased by $150K.
+#0533  Facilities ticket: Pedrene test environment back online.
+#0534  Finance Office: Withdraw update #0218; it was entered in error.
+#0535  Legal email: Pedrene status report filed for week 12.
+#0536  Operations chat: Pedrene site visit confirmed for Thursday.
+#0537  Finance Office: Pedrene budget decreased by $35K.
+#0538  PMO note: Pedrene security review passed.
+#0539  Finance Office: Pedrene budget increased by $135K.
+#0540  PMO note: Pedrene site visit confirmed for Monday.
+#0541  Marketing email: Pedrene security review passed.
+#0542  Finance Office: Withdraw update #0295.
+#0543  PMO note: Pedrene kickoff moved to Building 5.
+#0544  Finance Office: Pedrene budget decreased by $80K after review.
+#0545  Finance Office: Pedrene budget increased by $543K.
+#0546  Finance Office: Withdraw update #0496.
+#0547  Finance Office: Pedrene budget increased by $75K after review.
+#0548  Facilities ticket: Pedrene test environment back online.
+#0549  Finance Office: Pedrene budget increased by $20K per the revised plan.
+#0550  Finance Office: Withdraw update #0114; it was entered in error.
+#0551  Finance Office: Pedrene budget increased by $50K per the revised plan.
+#0552  Finance Office: Pedrene budget decreased by $30K after review.
+#0553  Finance Office: Withdraw update #0214; it was entered in error.
+#0554  Facilities ticket: Pedrene sprint 45 retrospective notes posted.
+#0555  Finance Office: Withdraw update #0023; it was entered in error.
+#0556  Finance Office: Pedrene budget increased by $352K per the revised plan.
+#0557  Finance Office: Pedrene budget decreased by $20K after review.
+#0558  Finance Office: Pedrene budget decreased by $70K after review.
+#0559  Finance Office: Pedrene budget increased by $98K.
+#0560  Finance Office: Withdraw update #0103; it was entered in error.
+#0561  Vendor call: Pedrene test environment back online.
+#0562  Legal email: Pedrene demo rescheduled to Friday afternoon.
+#0563  Finance Office: Pedrene budget increased by $54K.
+#0564  Finance Office: Withdraw update #0525; it was entered in error.
+#0565  Finance Office: Pedrene budget increased by $158K per the revised plan.
+#0566  Finance Office: Pedrene budget increased by $15K after review.
+#0567  Legal email: Pedrene risk register updated with 3 new items.
+#0568  Finance Office: Withdraw update #0430; it was entered in error.
+#0569  Finance Office: Pedrene budget increased by $201K.
+#0570  Facilities ticket: Pedrene design review moved to Room 6D.
+#0571  Finance Office: Pedrene budget decreased by $145K.
+#0572  Facilities ticket: Pedrene weekly sync moved to Wednesdays.
+#0573  Engineering email: Pedrene weekly sync moved to Mondays.
+#0574  Finance Office: Pedrene budget decreased by $105K.
+#0575  Finance Office: Pedrene invoice batch FC-8890 archived.
+#0576  Finance Office: Pedrene budget decreased by $10K per the revised plan.
+#0577  Finance Office: Pedrene budget decreased by $25K.
+#0578  Finance Office: Withdraw update #0550.
+#0579  Vendor call: Pedrene weekly sync moved to Thursdays.
+#0580  Engineering email: Pedrene documentation moved to the shared drive.
+#0581  Sales update: Pedrene test environment back online.
+#0582  Finance Office: Pedrene budget increased by $25K.
+#0583  Sales update: Pedrene weekly sync moved to Thursdays.
+#0584  Finance Office: Pedrene audit notes filed.
+#0585  Legal email: Pedrene vendor onboarding call scheduled for Thursday.
+#0586  Operations chat: Pedrene design review moved to Room 2D.
+#0587  Sales update: Pedrene status report filed for week 4.
+#0588  Sales update: Pedrene site visit confirmed for Monday.
+#0589  Engineering email: Pedrene test environment back online.
+#0590  Finance Office: Pedrene budget increased by $150K.
+#0591  Finance Office: Pedrene budget increased by $15K after review.
+#0592  Finance Office: Pedrene budget decreased by $5K.
+#0593  Finance Office: Withdraw update #0168.
+#0594  Finance Office: Pedrene budget increased by $25K.
+#0595  Finance Office: Withdraw update #0313.
+#0596  Finance Office: Pedrene budget decreased by $361K after review.
+#0597  Finance Office: Pedrene budget increased by $69K per the revised plan.
+#0598  Legal email: Pedrene status report filed for week 30.
+#0599  Finance Office: Pedrene budget decreased by $120K after review.
+#0600  Marketing email: Pedrene documentation moved to the shared drive.
+#0601  Facilities ticket: Pedrene weekly sync moved to Thursdays.
+#0602  Finance Office: Pedrene budget increased by $110K.
+#0603  Finance Office: Pedrene budget increased by $55K.
+#0604  Finance Office: Pedrene budget decreased by $105K per the revised plan.
+#0605  Finance Office: Pedrene budget increased by $359K per the revised plan.
+#0606  Finance Office: Withdraw update #0418; it was entered in error.
+#0607  Facilities ticket: Pedrene demo rescheduled to Tuesday afternoon.
+#0608  Finance Office: Pedrene budget increased by $23K per the revised plan.
+#0609  Engineering email: Pedrene weekly sync moved to Mondays.
+#0610  Marketing email: Pedrene status report filed for week 3.
+#0611  Finance Office: Pedrene budget decreased by $40K per the revised plan.
+#0612  Finance Office: Pedrene budget increased by $105K.
+#0613  Finance Office: Pedrene budget decreased by $55K after review.
+#0614  Finance Office: Pedrene budget increased by $20K per the revised plan.
+#0615  Finance Office: Pedrene budget increased by $115K after review.
+#0616  Finance Office: Pedrene budget increased by $65K.
+#0617  Finance Office: Pedrene budget decreased by $70K.
+#0618  Finance Office: Pedrene budget decreased by $95K per the revised plan.
+#0619  Finance Office: Pedrene budget decreased by $120K.
+#0620  Finance Office: Withdraw update #0597.
+#0621  Finance Office: Pedrene budget decreased by $319K per the revised plan.
+#0622  Finance Office: Pedrene budget decreased by $70K after review.
+#0623  Finance Office: Pedrene budget decreased by $60K after review.
+#0624  Finance Office: Pedrene budget increased by $130K.
+#0625  Vendor call: Pedrene design review moved to Room 1A.
+#0626  Finance Office: Pedrene budget increased by $552K after review.
+#0627  Finance Office: Pedrene budget decreased by $106K after review.
+#0628  Finance Office: Pedrene budget increased by $30K after review.
+#0629  Finance Office: Pedrene budget decreased by $25K per the revised plan.
+#0630  Engineering email: Pedrene vendor onboarding call scheduled for Wednesday.
+#0631  Finance Office: Pedrene invoice batch FC-3093 archived.
+#0632  Sales update: Pedrene test environment back online.
+#0633  Finance Office: Pedrene purchase order FC-5782 closed.
+#0634  Finance Office: Withdraw update #0420.
+#0635  Legal email: Pedrene demo rescheduled to Tuesday afternoon.
+#0636  Finance Office: Pedrene budget increased by $339K after review.
+#0637  Finance Office: Withdraw update #0432.
+#0638  Finance Office: Pedrene finance review moved to Room 1D.
+#0639  Engineering email: Pedrene kickoff moved to Building 9.
+#0640  Finance Office: Pedrene budget increased by $153K per the revised plan.
+#0641  Finance Office: Withdraw update #0500; it was entered in error.
+#0642  Finance Office: Pedrene budget decreased by $130K.
+#0643  Operations chat: Pedrene status report filed for week 39.
+#0644  Facilities ticket: Pedrene kickoff moved to Building 4.
+#0645  Facilities ticket: Pedrene design review moved to Room 2D.
+#0646  Finance Office: Pedrene budget decreased by $135K after review.
+#0647  Finance Office: Pedrene budget decreased by $145K.
+#0648  Finance Office: Withdraw update #0164; it was entered in error.
+#0649  Finance Office: Pedrene budget decreased by $314K.
+#0650  Finance Office: Withdraw update #0050; it was entered in error.
+#0651  Finance Office: Withdraw update #0228.
+#0652  Marketing email: Pedrene test environment back online.
+#0653  Vendor call: Pedrene status report filed for week 43.
+#0654  Finance Office: Pedrene budget increased by $90K.
+#0655  Finance Office: Pedrene budget increased by $145K per the revised plan.
+#0656  Facilities ticket: Pedrene design review moved to Room 6B.
+#0657  Finance Office: Pedrene budget increased by $417K.
+#0658  Finance Office: Pedrene budget decreased by $313K.
+#0659  Finance Office: Pedrene budget decreased by $494K.
+#0660  Finance Office: Pedrene budget increased by $30K per the revised plan.
+#0661  Operations chat: Pedrene design review moved to Room 6D.
+#0662  Finance Office: Pedrene budget increased by $56K.
+#0663  Finance Office: Pedrene budget decreased by $5K.
+#0664  Sales update: Pedrene security review passed.
+#0665  Finance Office: Withdraw update #0369.
+#0666  Finance Office: Withdraw update #0296; it was entered in error.
+#0667  Finance Office: Pedrene budget decreased by $60K per the revised plan.
+#0668  Finance Office: Pedrene budget decreased by $50K per the revised plan.
+#0669  Finance Office: Pedrene budget increased by $15K.
+#0670  Finance Office: Pedrene budget increased by $70K.
+#0671  Finance Office: Pedrene budget decreased by $120K after review.
+#0672  Sales update: Pedrene security review passed.
+#0673  Finance Office: Pedrene budget increased by $40K.
+#0674  Finance Office: Withdraw update #0649.
+#0675  Legal email: Pedrene test environment back online.
+#0676  Finance Office: Pedrene budget decreased by $100K after review.
+#0677  PMO note: Pedrene kickoff moved to Building 8.
+#0678  Finance Office: Withdraw update #0304.
+#0679  Sales update: Pedrene design review moved to Room 6C.
+#0680  Facilities ticket: Pedrene test environment back online.
+#0681  Finance Office: Withdraw update #0486.
+#0682  Engineering email: Pedrene test environment back online.
+#0683  Legal email: Pedrene documentation moved to the shared drive.
+#0684  Finance Office: Withdraw update #0188; it was entered in error.
+#0685  Finance Office: Withdraw update #0560; it was entered in error.
+#0686  Finance Office: Pedrene budget decreased by $140K after review.
+#0687  Finance Office: Withdraw update #0084.
+#0688  Finance Office: Pedrene budget increased by $25K after review.
+#0689  Engineering email: Pedrene test environment back online.
+#0690  Finance Office: Pedrene budget increased by $25K per the revised plan.
+#0691  Finance Office: Withdraw update #0388.
+#0692  Vendor call: Pedrene kickoff moved to Building 4.
+#0693  Finance Office: Pedrene budget decreased by $5K per the revised plan.
+#0694  Operations chat: Pedrene test environment back online.
+#0695  Legal email: Pedrene site visit confirmed for Friday.
+#0696  Finance Office: Pedrene budget decreased by $55K per the revised plan.
+#0697  Finance Office: Pedrene budget decreased by $145K.
+#0698  Finance Office: Pedrene budget increased by $60K.
+#0699  Finance Office: Pedrene budget increased by $80K per the revised plan.
+#0700  Finance Office: Pedrene budget increased by $31K per the revised plan.
+#0701  Finance Office: Pedrene budget decreased by $397K after review.
+#0702  Sales update: Pedrene test environment back online.
+#0703  Facilities ticket: Pedrene design review moved to Room 5B.
+#0704  Sales update: Pedrene kickoff moved to Building 4.
+#0705  Finance Office: Pedrene budget decreased by $45K after review.
+#0706  PMO note: Pedrene site visit confirmed for Thursday.
+#0707  Engineering email: Pedrene weekly sync moved to Thursdays.
+#0708  Finance Office: Pedrene budget increased by $35K after review.
+#0709  Vendor call: Pedrene weekly sync moved to Wednesdays.
+#0710  Finance Office: Withdraw update #0121.
+#0711  Finance Office: Withdraw update #0568.
+#0712  Finance Office: Pedrene budget decreased by $20K.
+#0713  Engineering email: Pedrene site visit confirmed for Thursday.
+#0714  Engineering email: Pedrene site visit confirmed for Friday.
+#0715  Finance Office: Pedrene budget increased by $65K after review.
+#0716  Finance Office: Pedrene budget increased by $55K per the revised plan.
+#0717  Finance Office: Pedrene budget decreased by $35K.
+#0718  Finance Office: Withdraw update #0648; it was entered in error.
+#0719  Finance Office: Pedrene budget decreased by $63K per the revised plan.
+#0720  Operations chat: Pedrene weekly sync moved to Fridays.
+#0721  Finance Office: Pedrene budget increased by $130K per the revised plan.
+#0722  Vendor call: Pedrene demo rescheduled to Monday afternoon.
+#0723  Finance Office: Pedrene budget increased by $110K per the revised plan.
+#0724  Marketing email: Pedrene test environment back online.
+#0725  Engineering email: Pedrene weekly sync moved to Mondays.
+#0726  Engineering email: Pedrene weekly sync moved to Fridays.
+#0727  Finance Office: Withdraw update #0593; it was entered in error.
+#0728  Finance Office: Pedrene quarterly audit scheduled for Monday.
+#0729  Operations chat: Pedrene design review moved to Room 5D.
+#0730  PMO note: Pedrene status report filed for week 14.
+#0731  Finance Office: Withdraw update #0436; it was entered in error.
+#0732  Finance Office: Pedrene budget increased by $40K per the revised plan.
+#0733  Finance Office: Pedrene budget increased by $100K after review.
+#0734  PMO note: Pedrene site visit confirmed for Monday.
+#0735  PMO note: Pedrene site visit confirmed for Tuesday.
+#0736  Vendor call: Pedrene weekly sync moved to Mondays.
+#0737  Finance Office: Pedrene budget decreased by $45K per the revised plan.
+#0738  Finance Office: Pedrene budget increased by $253K after review.
+#0739  Finance Office: Pedrene budget increased by $438K per the revised plan.
+#0740  Finance Office: Pedrene budget decreased by $105K per the revised plan.
+#0741  Finance Office: Pedrene budget decreased by $10K.
+#0742  Finance Office: Pedrene budget increased by $40K after review.
+#0743  Vendor call: Pedrene demo rescheduled to Tuesday afternoon.
+#0744  Operations chat: Pedrene kickoff moved to Building 2.
+#0745  Finance Office: Pedrene finance review moved to Room 1B.
+#0746  Operations chat: Pedrene test environment back online.
+#0747  Vendor call: Pedrene kickoff moved to Building 3.
+#0748  Finance Office: Pedrene budget decreased by $42K.
+#0749  Finance Office: Pedrene budget increased by $35K after review.
+#0750  Finance Office: Pedrene invoice batch FC-3319 archived.
+#0751  Legal email: Pedrene kickoff moved to Building 7.
+#0752  Finance Office: Pedrene finance review moved to Room 1C.
+#0753  Operations chat: Pedrene design review moved to Room 6A.
+#0754  Sales update: Pedrene weekly sync moved to Mondays.
+#0755  Finance Office: Pedrene budget increased by $15K.
+#0756  Finance Office: Pedrene budget decreased by $150K.
+#0757  Finance Office: Pedrene budget increased by $80K.
+#0758  Legal email: Pedrene design review moved to Room 3A.
+#0759  Finance Office: Pedrene budget increased by $25K per the revised plan.
+#0760  Facilities ticket: Pedrene status report filed for week 40.
+#0761  Finance Office: Pedrene cost center code changed to FC-7124.
+#0762  Finance Office: Withdraw update #0312.
+#0763  Finance Office: Withdraw update #0198.
+#0764  Finance Office: Pedrene budget decreased by $30K per the revised plan.
+#0765  Finance Office: Pedrene budget decreased by $90K per the revised plan.
+#0766  Engineering email: Pedrene site visit confirmed for Tuesday.
+#0767  Facilities ticket: Pedrene weekly sync moved to Tuesdays.
+#0768  Finance Office: Pedrene budget decreased by $25K after review.
+#0769  Finance Office: Pedrene budget increased by $125K.
+#0770  Finance Office: Pedrene budget decreased by $15K per the revised plan.
+#0771  Vendor call: Pedrene weekly sync moved to Tuesdays.
+#0772  Finance Office: Withdraw update #0691.
+#0773  PMO note: Pedrene security review passed.
+#0774  Legal email: Pedrene status report filed for week 19.
+#0775  Finance Office: Pedrene budget decreased by $151K per the revised plan.
+#0776  Facilities ticket: Pedrene kickoff moved to Building 5.
+#0777  Finance Office: Withdraw update #0322; it was entered in error.
+#0778  PMO note: Pedrene demo rescheduled to Monday afternoon.
+#0779  Finance Office: Pedrene budget decreased by $140K after review.
+#0780  Engineering email: Pedrene test environment back online.
+#0781  Facilities ticket: Pedrene site visit confirmed for Friday.
+#0782  Finance Office: Pedrene budget decreased by $115K.
+#0783  Legal email: Pedrene sprint 7 retrospective notes posted.
+#0784  Finance Office: Pedrene budget decreased by $70K per the revised plan.
+#0785  Finance Office: Pedrene budget decreased by $90K.
+#0786  Marketing email: Pedrene status report filed for week 2.
+#0787  Finance Office: Pedrene budget increased by $70K per the revised plan.
+#0788  Marketing email: Pedrene weekly sync moved to Thursdays.
+#0789  Finance Office: Pedrene budget decreased by $117K after review.
+#0790  Finance Office: Pedrene budget decreased by $583K.
+#0791  Sales update: Pedrene kickoff moved to Building 2.
+#0792  Finance Office: Pedrene budget increased by $105K.
+#0793  Marketing email: Pedrene kickoff moved to Building 6.
+#0794  Engineering email: Pedrene design review moved to Room 3D.
+#0795  Operations chat: Pedrene status report filed for week 9.
+#0796  Finance Office: Pedrene budget decreased by $20K per the revised plan.
+#0797  Facilities ticket: Pedrene kickoff moved to Building 7.
+#0798  Vendor call: Pedrene test environment back online.
+#0799  Finance Office: Pedrene budget decreased by $100K after review.
+#0800  PMO note: Pedrene kickoff moved to Building 7.
+#0801  Finance Office: Pedrene budget decreased by $110K after review.
+#0802  Finance Office: Withdraw update #0340; it was entered in error.
+#0803  Finance Office: Pedrene budget decreased by $25K.
+#0804  Finance Office: Withdraw update #0247.
+#0805  Finance Office: Pedrene budget decreased by $145K per the revised plan.
+#0806  Legal email: Pedrene kickoff moved to Building 8.
+#0807  Finance Office: Pedrene budget increased by $15K after review.
+#0808  Finance Office: Pedrene budget decreased by $85K.
+#0809  Vendor call: Pedrene test environment back online.
+#0810  Finance Office: Pedrene budget increased by $524K.
+#0811  Sales update: Pedrene kickoff moved to Building 2.
+#0812  Finance Office: Pedrene budget decreased by $95K per the revised plan.
+#0813  Finance Office: Pedrene budget increased by $100K per the revised plan.
+#0814  Finance Office: Pedrene budget decreased by $166K after review.
+#0815  Finance Office: Withdraw update #0244; it was entered in error.
+#0816  Finance Office: Pedrene budget decreased by $183K after review.
+#0817  Finance Office: Pedrene budget decreased by $40K per the revised plan.
+#0818  Finance Office: Pedrene budget increased by $10K after review.
+#0819  Finance Office: Withdraw update #0488.
+#0820  Sales update: Pedrene design review moved to Room 4D.
+#0821  Finance Office: Pedrene budget increased by $15K per the revised plan.
+#0822  Finance Office: Pedrene budget decreased by $75K per the revised plan.
+#0823  Facilities ticket: Pedrene sprint 46 retrospective notes posted.
+#0824  Finance Office: Pedrene budget increased by $125K.
+#0825  Operations chat: Pedrene weekly sync moved to Wednesdays.
+#0826  Marketing email: Pedrene weekly sync moved to Wednesdays.
+#0827  Finance Office: Pedrene budget increased by $5K per the revised plan.
+#0828  Finance Office: Withdraw update #0748.
+#0829  Finance Office: Pedrene budget decreased by $283K after review.
+#0830  Finance Office: Pedrene budget increased by $95K.
+#0831  Finance Office: Pedrene budget decreased by $401K per the revised plan.
+#0832  Finance Office: Withdraw update #0459; it was entered in error.
+#0833  Finance Office: Pedrene budget decreased by $501K per the revised plan.
+#0834  Sales update: Pedrene security review passed.
+#0835  Vendor call: Pedrene status report filed for week 38.
+#0836  Vendor call: Pedrene test environment back online.
+#0837  Finance Office: Pedrene budget increased by $60K per the revised plan.
+#0838  Finance Office: Pedrene budget increased by $125K per the revised plan.
+#0839  Finance Office: Pedrene budget increased by $45K.
+#0840  Finance Office: Pedrene budget decreased by $10K per the revised plan.
+#0841  PMO note: Pedrene security review passed.
+#0842  Vendor call: Pedrene security review passed.
+#0843  Finance Office: Pedrene budget decreased by $145K per the revised plan.
+#0844  Finance Office: Pedrene budget increased by $110K per the revised plan.
+#0845  Finance Office: Pedrene budget decreased by $30K per the revised plan.
+#0846  Finance Office: Withdraw update #0828; it was entered in error.
+#0847  Finance Office: Withdraw update #0329; it was entered in error.
+#0848  Finance Office: Pedrene budget decreased by $110K per the revised plan.
+#0849  Finance Office: Withdraw update #0658.
+#0850  Finance Office: Pedrene budget increased by $65K per the revised plan.
+#0851  Finance Office: Pedrene budget decreased by $135K per the revised plan.
+#0852  Operations chat: Pedrene kickoff moved to Building 3.
+#0853  Legal email: Pedrene site visit confirmed for Tuesday.
+#0854  Operations chat: Pedrene weekly sync moved to Thursdays.
+#0855  Finance Office: Withdraw update #0110.
+#0856  Finance Office: Pedrene budget increased by $145K.
+#0857  Finance Office: Pedrene budget decreased by $45K after review.
+#0858  Finance Office: Pedrene budget decreased by $55K.
+#0859  Vendor call: Pedrene sprint 8 retrospective notes posted.
+#0860  Marketing email: Pedrene status report filed for week 14.
+#0861  PMO note: Pedrene design review moved to Room 6A.
+#0862  Legal email: Pedrene site visit confirmed for Friday.
+#0863  Operations chat: Pedrene demo rescheduled to Thursday afternoon.
+#0864  Finance Office: Pedrene budget increased by $110K after review.
+#0865  Finance Office: Withdraw update #0790; it was entered in error.
+#0866  Finance Office: Pedrene quarterly audit scheduled for Friday.
+#0867  PMO note: Pedrene weekly sync moved to Fridays.
+#0868  Finance Office: Withdraw update #0013.
+#0869  Finance Office: Withdraw update #0534.
+#0870  Finance Office: Pedrene budget increased by $579K.
+#0871  Finance Office: Pedrene budget decreased by $70K.
+#0872  Finance Office: Pedrene budget increased by $120K.
+#0873  Finance Office: Pedrene budget increased by $103K per the revised plan.
+#0874  Marketing email: Pedrene status report filed for week 13.
+#0875  Legal email: Pedrene security review passed.
+#0876  Finance Office: Pedrene budget increased by $115K after review.
+#0877  Facilities ticket: Pedrene site visit confirmed for Friday.
+#0878  Finance Office: Pedrene budget decreased by $40K.
+#0879  Finance Office: Pedrene budget decreased by $85K per the revised plan.
+#0880  Sales update: Pedrene site visit confirmed for Wednesday.
+#0881  Finance Office: Withdraw update #0739; it was entered in error.
+#0882  Legal email: Pedrene weekly sync moved to Tuesdays.
+#0883  Legal email: Pedrene vendor onboarding call scheduled for Friday.
+#0884  PMO note: Pedrene design review moved to Room 6B.
+#0885  Finance Office: Pedrene budget decreased by $45K after review.
+#0886  Vendor call: Pedrene design review moved to Room 2C.
+#0887  PMO note: Pedrene site visit confirmed for Monday.
+#0888  Finance Office: Withdraw update #0559; it was entered in error.
+#0889  Finance Office: Pedrene budget decreased by $198K after review.
+#0890  PMO note: Pedrene sprint 44 retrospective notes posted.
+#0891  Finance Office: Pedrene budget increased by $145K.
+#0892  PMO note: Pedrene vendor onboarding call scheduled for Tuesday.
+#0893  Finance Office: Pedrene budget increased by $15K after review.
+#0894  Marketing email: Pedrene kickoff moved to Building 9.
+#0895  Finance Office: Withdraw update #0480.
+#0896  Finance Office: Pedrene budget decreased by $65K.
+#0897  Finance Office: Pedrene budget increased by $15K per the revised plan.
+#0898  Finance Office: Withdraw update #0627; it was entered in error.
+#0899  Engineering email: Pedrene kickoff moved to Building 5.
+#0900  Finance Office: Pedrene budget decreased by $70K after review.
+#0901  Operations chat: Pedrene kickoff moved to Building 3.
+#0902  Operations chat: Pedrene security review passed.
+#0903  Finance Office: Pedrene budget decreased by $50K.
+#0904  Finance Office: Pedrene budget increased by $20K per the revised plan.
+#0905  Finance Office: Pedrene budget decreased by $35K per the revised plan.
+#0906  Finance Office: Pedrene budget decreased by $30K per the revised plan.
+#0907  Facilities ticket: Pedrene site visit confirmed for Tuesday.
+#0908  Finance Office: Reminder: Pedrene expense reports are due Thursday.
+#0909  Finance Office: Pedrene budget decreased by $15K after review.
+#0910  Operations chat: Pedrene design review moved to Room 2B.
+#0911  Finance Office: Pedrene budget decreased by $65K.
+#0912  PMO note: Pedrene weekly sync moved to Mondays.
+#0913  Finance Office: Pedrene budget decreased by $15K.
+#0914  Finance Office: Pedrene budget increased by $90K.
+#0915  Marketing email: Pedrene kickoff moved to Building 9.
+#0916  Finance Office: Withdraw update #0608.
+#0917  PMO note: Pedrene site visit confirmed for Friday.
+#0918  Finance Office: Withdraw update #0870.
+#0919  Finance Office: Pedrene budget decreased by $55K.
+#0920  Marketing email: Pedrene design review moved to Room 1C.
+#0921  Finance Office: Withdraw update #0810.
+#0922  Legal email: Pedrene test environment back online.
+#0923  Finance Office: Pedrene budget increased by $100K.
+#0924  Finance Office: Pedrene budget decreased by $85K.
+#0925  Finance Office: Withdraw update #0490; it was entered in error.
+#0926  Finance Office: Withdraw update #0814; it was entered in error.
+#0927  PMO note: Pedrene site visit confirmed for Monday.
+#0928  Operations chat: Pedrene status report filed for week 26.
+#0929  Finance Office: Pedrene budget increased by $50K after review.
+#0930  Finance Office: Pedrene budget increased by $95K per the revised plan.
+#0931  Vendor call: Pedrene kickoff moved to Building 4.
+#0932  Finance Office: Pedrene budget increased by $571K per the revised plan.
+#0933  Vendor call: Pedrene status report filed for week 30.
+#0934  PMO note: Pedrene test environment back online.
+#0935  Finance Office: Pedrene budget decreased by $20K.
+#0936  Finance Office: Pedrene budget decreased by $40K per the revised plan.
+#0937  Finance Office: Pedrene budget decreased by $90K after review.
+#0938  Finance Office: Pedrene budget decreased by $95K.
+#0939  Finance Office: Pedrene budget increased by $10K per the revised plan.
+#0940  Finance Office: Pedrene budget decreased by $55K per the revised plan.
+#0941  Finance Office: Pedrene budget decreased by $130K.
+#0942  Finance Office: Withdraw update #0701; it was entered in error.
+#0943  Finance Office: Pedrene budget increased by $5K after review.
+#0944  Operations chat: Pedrene site visit confirmed for Thursday.
+#0945  Sales update: Pedrene weekly sync moved to Fridays.
+#0946  Finance Office: Pedrene budget increased by $100K per the revised plan.
+#0947  Finance Office: Withdraw update #0458; it was entered in error.
+#0948  Finance Office: Pedrene budget decreased by $130K after review.
+#0949  Vendor call: Pedrene weekly sync moved to Thursdays.
+#0950  Finance Office: Pedrene budget decreased by $10K after review.
+#0951  Finance Office: Withdraw update #0569; it was entered in error.
+#0952  Finance Office: Withdraw update #0154; it was entered in error.
+#0953  Finance Office: Pedrene budget decreased by $105K after review.
+#0954  Vendor call: Pedrene test environment back online.
+#0955  Finance Office: Pedrene budget increased by $150K after review.
+#0956  Finance Office: Pedrene budget increased by $125K after review.
+#0957  Sales update: Pedrene site visit confirmed for Friday.
+#0958  Finance Office: Withdraw update #0235; it was entered in error.
+#0959  Finance Office: Pedrene budget increased by $130K after review.
+#0960  Legal email: Pedrene design review moved to Room 5B.
+#0961  Vendor call: Pedrene weekly sync moved to Tuesdays.
+#0962  Finance Office: Pedrene budget increased by $130K after review.
+#0963  Finance Office: Withdraw update #0202; it was entered in error.
+#0964  Finance Office: Pedrene budget increased by $35K.
+#0965  Finance Office: Pedrene budget increased by $449K after review.
+#0966  Finance Office: Pedrene budget increased by $115K.
+#0967  Marketing email: Pedrene weekly sync moved to Wednesdays.
+#0968  Finance Office: Withdraw update #0831.
+#0969  Finance Office: Withdraw update #0596.
+#0970  Finance Office: Pedrene audit notes filed.
+#0971  PMO note: Pedrene weekly sync moved to Mondays.
+#0972  Finance Office: Withdraw update #0053.
+#0973  Finance Office: Withdraw update #0093; it was entered in error.
+#0974  Finance Office: Pedrene budget decreased by $145K per the revised plan.
+#0975  Facilities ticket: Pedrene site visit confirmed for Friday.
+#0976  Finance Office: Pedrene budget increased by $130K after review.
+#0977  Operations chat: Pedrene demo rescheduled to Friday afternoon.
+#0978  Vendor call: Pedrene design review moved to Room 1D.
+#0979  Finance Office: Pedrene budget increased by $231K.
+#0980  Engineering email: Pedrene demo rescheduled to Friday afternoon.
+#0981  Facilities ticket: Pedrene security review passed.
+#0982  Finance Office: Pedrene budget decreased by $90K.
+#0983  Finance Office: Withdraw update #0958; it was entered in error.
+#0984  Marketing email: Pedrene test environment back online.
+#0985  Marketing email: Pedrene weekly sync moved to Fridays.
+#0986  Finance Office: Pedrene budget increased by $45K per the revised plan.
+#0987  Finance Office: Pedrene budget increased by $100K per the revised plan.
+#0988  PMO note: Pedrene test environment back online.
+#0989  Finance Office: Pedrene budget decreased by $85K per the revised plan.
+#0990  Finance Office: Pedrene budget decreased by $25K.
+#0991  Finance Office: Pedrene budget decreased by $100K.
+#0992  Finance Office: Pedrene budget decreased by $5K.
+#0993  Finance Office: Pedrene budget decreased by $125K per the revised plan.
+#0994  Marketing email: Pedrene kickoff moved to Building 9.
+#0995  Finance Office: Pedrene budget decreased by $75K after review.
+#0996  Finance Office: Withdraw update #0865.
+#0997  Finance Office: Withdraw update #0321; it was entered in error.
+#0998  Finance Office: Pedrene budget decreased by $50K after review.
+#0999  Finance Office: Pedrene budget decreased by $45K.
+#1000  Finance Office: Pedrene budget decreased by $110K.
+#1001  Finance Office: Withdraw update #0965.
+#1002  Finance Office: Pedrene budget increased by $150K after review.
+#1003  Finance Office: Pedrene budget decreased by $135K.
+#1004  Finance Office: Pedrene budget increased by $100K per the revised plan.
+#1005  Finance Office: Pedrene budget decreased by $25K after review.
+#1006  Marketing email: Pedrene status report filed for week 23.
+#1007  Finance Office: Withdraw update #0738.
+#1008  Legal email: Pedrene security review passed.
+#1009  Finance Office: Pedrene budget increased by $140K after review.
+#1010  Finance Office: Reminder: Pedrene expense reports are due Wednesday.
+#1011  PMO note: Pedrene security review passed.
+#1012  Engineering email: Pedrene vendor onboarding call scheduled for Friday.
+#1013  Sales update: Pedrene test environment back online.
+#1014  Finance Office: Pedrene budget increased by $20K.
+#1015  Finance Office: Pedrene budget increased by $35K.
+#1016  Finance Office: Pedrene budget increased by $20K after review.
+#1017  Finance Office: Pedrene budget increased by $125K.
+#1018  PMO note: Pedrene design review moved to Room 1A.
+#1019  Finance Office: Withdraw update #0186.
+#1020  Finance Office: Pedrene budget decreased by $125K.
+#1021  Finance Office: Pedrene budget increased by $125K.
+#1022  Operations chat: Pedrene design review moved to Room 2A.
+#1023  Finance Office: Pedrene budget increased by $30K.
+#1024  Finance Office: Withdraw update #0662.
+#1025  Facilities ticket: Pedrene weekly sync moved to Fridays.
+#1026  Engineering email: Pedrene test environment back online.
+#1027  Legal email: Pedrene demo rescheduled to Monday afternoon.
+#1028  PMO note: Pedrene test environment back online.
+#1029  PMO note: Pedrene kickoff moved to Building 2.
+#1030  Finance Office: Withdraw update #0979.
+#1031  Operations chat: Pedrene security review passed.
+#1032  Finance Office: Withdraw update #0090; it was entered in error.
+#1033  Operations chat: Pedrene demo rescheduled to Thursday afternoon.
+#1034  Finance Office: Pedrene budget decreased by $60K per the revised plan.
+#1035  Finance Office: Pedrene budget decreased by $65K after review.
+#1036  Finance Office: Withdraw update #0140.
+#1037  Finance Office: Pedrene budget increased by $125K per the revised plan.
+#1038  Finance Office: Pedrene budget increased by $85K.
+#1039  Finance Office: Pedrene budget increased by $25K per the revised plan.
+#1040  Vendor call: Pedrene design review moved to Room 6A.
+#1041  Operations chat: Pedrene status report filed for week 7.
+#1042  Marketing email: Pedrene weekly sync moved to Tuesdays.
+#1043  Legal email: Pedrene security review passed.
+#1044  Finance Office: Pedrene budget increased by $120K.
+#1045  Finance Office: Pedrene budget increased by $85K per the revised plan.
+#1046  Facilities ticket: Pedrene kickoff moved to Building 2.
+#1047  Finance Office: Pedrene budget increased by $135K per the revised plan.
+#1048  Finance Office: Pedrene budget increased by $60K per the revised plan.
+#1049  Finance Office: Pedrene budget decreased by $30K after review.
+#1050  Vendor call: Pedrene test environment back online.
+#1051  Legal email: Pedrene documentation moved to the shared drive.
+#1052  Finance Office: Pedrene budget increased by $90K after review.
+#1053  Finance Office: Withdraw update #0265; it was entered in error.
+#1054  Legal email: Pedrene kickoff moved to Building 6.
+#1055  Vendor call: Pedrene security review passed.
+#1056  Finance Office: Pedrene budget decreased by $35K per the revised plan.
+#1057  Finance Office: Pedrene budget increased by $30K after review.
+#1058  Finance Office: Withdraw update #0563.
+#1059  Operations chat: Pedrene demo rescheduled to Thursday afternoon.
+#1060  Finance Office: Withdraw update #0505.
+#1061  Engineering email: Pedrene demo rescheduled to Monday afternoon.
+#1062  Finance Office: Pedrene budget decreased by $168K.
+#1063  Sales update: Pedrene kickoff moved to Building 4.
+#1064  Finance Office: Withdraw update #1062; it was entered in error.
+#1065  Finance Office: Withdraw update #0071; it was entered in error.
+#1066  Finance Office: Pedrene budget decreased by $135K.
+#1067  Sales update: Pedrene test environment back online.
+#1068  Marketing email: Pedrene test environment back online.
+#1069  Finance Office: Pedrene budget increased by $105K after review.
+#1070  Finance Office: Pedrene budget increased by $40K per the revised plan.
+#1071  Finance Office: Pedrene budget decreased by $30K.
+#1072  Finance Office: Pedrene budget increased by $145K per the revised plan.
+#1073  Finance Office: Pedrene budget increased by $45K per the revised plan.
+#1074  Finance Office: Withdraw update #0287.
+#1075  Facilities ticket: Pedrene security review passed.
+#1076  Finance Office: Pedrene budget decreased by $100K per the revised plan.
+#1077  Finance Office: Pedrene budget increased by $20K per the revised plan.
+#1078  Finance Office: Pedrene budget increased by $459K after review.
+#1079  Finance Office: Pedrene budget increased by $137K.
+#1080  Finance Office: Pedrene budget decreased by $20K after review.
+#1081  Finance Office: Pedrene budget decreased by $10K after review.
+#1082  Operations chat: Pedrene weekly sync moved to Thursdays.
+#1083  Legal email: Pedrene documentation moved to the shared drive.
+#1084  Marketing email: Pedrene status report filed for week 13.
+#1085  Engineering email: Pedrene design review moved to Room 3C.
+#1086  Finance Office: Pedrene budget increased by $25K per the revised plan.
+#1087  Facilities ticket: Pedrene status report filed for week 2.
+#1088  Finance Office: Pedrene budget increased by $125K after review.
+#1089  Vendor call: Pedrene weekly sync moved to Tuesdays.
+#1090  Finance Office: Withdraw update #0352; it was entered in error.
+#1091  Legal email: Pedrene sprint 2 retrospective notes posted.
+#1092  Facilities ticket: Pedrene site visit confirmed for Thursday.
+#1093  Finance Office: Pedrene budget increased by $40K after review.
+#1094  Finance Office: Pedrene budget decreased by $135K.
+#1095  Vendor call: Pedrene weekly sync moved to Tuesdays.
+#1096  Finance Office: Pedrene budget increased by $50K after review.
+#1097  Vendor call: Pedrene kickoff moved to Building 2.
+#1098  Finance Office: Pedrene budget increased by $140K per the revised plan.
+#1099  Finance Office: Pedrene budget increased by $120K.
+#1100  PMO note: Pedrene weekly sync moved to Mondays.
+#1101  Legal email: Pedrene test environment back online.
+#1102  Finance Office: Withdraw update #0542.
+#1103  Finance Office: Pedrene budget decreased by $90K per the revised plan.
+#1104  Finance Office: Pedrene budget decreased by $135K after review.
+#1105  Finance Office: Pedrene budget decreased by $120K after review.
+#1106  Finance Office: Pedrene budget decreased by $70K after review.
+#1107  Vendor call: Pedrene site visit confirmed for Wednesday.
+#1108  Finance Office: Pedrene budget decreased by $55K per the revised plan.
+#1109  Marketing email: Pedrene security review passed.
+#1110  Finance Office: Pedrene purchase order FC-2576 closed.
+#1111  Finance Office: Withdraw update #0710.
+#1112  Marketing email: Pedrene risk register updated with 5 new items.
+#1113  Finance Office: Pedrene budget increased by $130K.
+#1114  Finance Office: Pedrene budget increased by $10K.
+#1115  PMO note: Pedrene test environment back online.
+#1116  Finance Office: Pedrene budget decreased by $568K.
+#1117  Finance Office: Pedrene budget increased by $50K.
+#1118  Legal email: Pedrene kickoff moved to Building 7.
+#1119  Finance Office: Pedrene budget decreased by $135K after review.
+#1120  Marketing email: Pedrene status report filed for week 38.
+#1121  Finance Office: Pedrene budget decreased by $40K.
+#1122  Finance Office: Pedrene budget decreased by $45K after review.
+#1123  Finance Office: Pedrene budget increased by $65K per the revised plan.
+#1124  Finance Office: Pedrene budget increased by $85K.
+#1125  Sales update: Pedrene sprint 23 retrospective notes posted.
+#1126  Finance Office: Pedrene budget increased by $95K after review.
+#1127  Finance Office: Pedrene budget increased by $149K per the revised plan.
+#1128  Finance Office: Withdraw update #0659; it was entered in error.
+#1129  Finance Office: Pedrene budget decreased by $60K per the revised plan.
+#1130  Finance Office: Pedrene budget decreased by $115K per the revised plan.
+#1131  Finance Office: Pedrene budget decreased by $95K after review.
+#1132  Finance Office: Pedrene budget decreased by $446K per the revised plan.
+#1133  Finance Office: Pedrene budget increased by $20K.
+#1134  Finance Office: Pedrene budget increased by $70K per the revised plan.
+#1135  Finance Office: Pedrene budget increased by $45K after review.
+#1136  Sales update: Pedrene design review moved to Room 5A.
+#1137  Finance Office: Pedrene budget increased by $145K after review.
+#1138  Finance Office: Pedrene budget increased by $120K per the revised plan.
+#1139  Finance Office: Pedrene budget decreased by $60K per the revised plan.
+#1140  Operations chat: Pedrene design review moved to Room 5A.
+#1141  Marketing email: Pedrene status report filed for week 19.
+#1142  Finance Office: Withdraw update #0545; it was entered in error.
+#1143  Operations chat: Pedrene status report filed for week 32.
+#1144  PMO note: Pedrene test environment back online.
+#1145  Finance Office: Pedrene budget decreased by $135K.
+#1146  Finance Office: Pedrene quarterly audit scheduled for Wednesday.
+#1147  Finance Office: Pedrene budget decreased by $120K.
+#1148  Finance Office: Pedrene purchase order FC-8625 closed.
+#1149  Finance Office: Withdraw update #0640; it was entered in error.
+#1150  Finance Office: Withdraw update #0636; it was entered in error.
+#1151  Finance Office: Withdraw update #0829.
+#1152  Vendor call: Pedrene weekly sync moved to Tuesdays.
+#1153  Finance Office: Pedrene budget increased by $9K after review.
+#1154  Legal email: Pedrene sprint 13 retrospective notes posted.
+#1155  Finance Office: Pedrene budget increased by $90K per the revised plan.
+#1156  Finance Office: Pedrene budget increased by $120K after review.
+#1157  Finance Office: Pedrene budget decreased by $65K per the revised plan.
+#1158  PMO note: Pedrene design review moved to Room 5B.
+#1159  Vendor call: Pedrene sprint 41 retrospective notes posted.
+#1160  Sales update: Pedrene weekly sync moved to Mondays.
+#1161  Legal email: Pedrene site visit confirmed for Friday.
+#1162  Finance Office: Reminder: Pedrene expense reports are due Tuesday.
+#1163  Finance Office: Withdraw update #0305; it was entered in error.
+#1164  Finance Office: Pedrene budget increased by $120K after review.
+#1165  Engineering email: Pedrene test environment back online.
+#1166  Sales update: Pedrene test environment back online.
+#1167  Finance Office: Withdraw update #0605; it was entered in error.
+#1168  Finance Office: Reminder: Pedrene expense reports are due Friday.
+#1169  Finance Office: Pedrene budget increased by $55K.
+#1170  Finance Office: Withdraw update #0075; it was entered in error.
+#1171  Finance Office: Pedrene budget decreased by $125K after review.
+#1172  Engineering email: Pedrene status report filed for week 10.
+#1173  Finance Office: Pedrene budget increased by $135K per the revised plan.
+#1174  Finance Office: Pedrene budget decreased by $482K.
+#1175  Facilities ticket: Pedrene site visit confirmed for Friday.
+#1176  Operations chat: Pedrene weekly sync moved to Thursdays.
+#1177  Legal email: Pedrene security review passed.
+#1178  Finance Office: Pedrene budget decreased by $110K after review.
+#1179  Finance Office: Pedrene budget increased by $85K after review.
+#1180  Facilities ticket: Pedrene site visit confirmed for Monday.
+#1181  Finance Office: Pedrene budget decreased by $25K per the revised plan.
+#1182  Legal email: Pedrene kickoff moved to Building 6.
+#1183  Finance Office: Pedrene budget increased by $140K.
+#1184  Finance Office: Pedrene budget increased by $35K.
+#1185  Finance Office: Withdraw update #0678.
+#1186  Marketing email: Pedrene weekly sync moved to Wednesdays.
+#1187  Finance Office: Pedrene budget increased by $75K.
+#1188  Finance Office: Pedrene budget increased by $60K after review.
+#1189  Finance Office: Pedrene budget increased by $70K per the revised plan.
+#1190  Finance Office: Reminder: Pedrene expense reports are due Tuesday.
+#1191  Vendor call: Pedrene sprint 28 retrospective notes posted.
+#1192  Finance Office: Withdraw update #0364.
+#1193  Finance Office: Pedrene budget decreased by $141K after review.
+#1194  Finance Office: Pedrene budget decreased by $25K.
+#1195  PMO note: Pedrene weekly sync moved to Thursdays.
+#1196  Finance Office: Withdraw update #0621; it was entered in error.
+#1197  Legal email: Pedrene test environment back online.
+#1198  Engineering email: Pedrene kickoff moved to Building 6.
+#1199  Facilities ticket: Pedrene site visit confirmed for Monday.
+#1200  Finance Office: Pedrene budget decreased by $40K after review.
+#1201  Finance Office: Pedrene budget increased by $120K.
+#1202  Finance Office: Withdraw update #0481; it was entered in error.
+#1203  Finance Office: Pedrene budget increased by $125K.
+#1204  Sales update: Pedrene weekly sync moved to Mondays.
+#1205  Finance Office: Pedrene budget increased by $15K after review.
+#1206  Facilities ticket: Pedrene test environment back online.
+#1207  Finance Office: Pedrene budget increased by $473K per the revised plan.
+#1208  Finance Office: Pedrene budget increased by $35K per the revised plan.
+#1209  Sales update: Pedrene security review passed.
+#1210  Finance Office: Withdraw update #1167.
+#1211  Finance Office: Pedrene budget increased by $50K after review.
+#1212  Finance Office: Withdraw update #0952.
+#1213  Finance Office: Pedrene budget decreased by $60K per the revised plan.
+#1214  Finance Office: Withdraw update #0197; it was entered in error.
+#1215  Finance Office: Pedrene budget decreased by $130K after review.
+#1216  Legal email: Pedrene site visit confirmed for Wednesday.
+#1217  Finance Office: Pedrene budget increased by $5K.
+#1218  Operations chat: Pedrene design review moved to Room 5A.
+#1219  Finance Office: Pedrene budget decreased by $135K.
+#1220  Marketing email: Pedrene sprint 48 retrospective notes posted.
+#1221  Finance Office: Pedrene budget increased by $130K.
+#1222  Finance Office: Pedrene budget increased by $55K after review.
+#1223  Facilities ticket: Pedrene test environment back online.
+#1224  Finance Office: Withdraw update #0410; it was entered in error.
+#1225  Finance Office: Withdraw update #0727; it was entered in error.
+#1226  Finance Office: Pedrene budget decreased by $70K.
+#1227  Finance Office: Withdraw update #1212.
+#1228  Sales update: Pedrene security review passed.
+#1229  Finance Office: Pedrene budget increased by $55K after review.
+#1230  Finance Office: Pedrene budget decreased by $35K after review.
+#1231  Sales update: Pedrene weekly sync moved to Mondays.
+#1232  Finance Office: Pedrene budget increased by $50K.
+#1233  Finance Office: Pedrene budget decreased by $15K per the revised plan.
+#1234  Finance Office: Withdraw update #0357.
+#1235  Finance Office: Pedrene budget decreased by $145K.
+#1236  Finance Office: Pedrene budget increased by $487K per the revised plan.
+#1237  Vendor call: Pedrene vendor onboarding call scheduled for Wednesday.
+#1238  Finance Office: Pedrene budget increased by $60K.
+#1239  Vendor call: Pedrene test environment back online.
+#1240  Finance Office: Pedrene budget increased by $110K per the revised plan.
+#1241  Finance Office: Pedrene budget decreased by $125K.
+#1242  Finance Office: Withdraw update #1214; it was entered in error.
+#1243  Operations chat: Pedrene status report filed for week 26.
+#1244  Finance Office: Pedrene budget increased by $10K.
+#1245  Engineering email: Pedrene test environment back online.
+#1246  Finance Office: Withdraw update #1078; it was entered in error.
+#1247  Sales update: Pedrene status report filed for week 41.
+#1248  Finance Office: Withdraw update #0441.
+#1249  Finance Office: Pedrene budget increased by $75K after review.
+#1250  Finance Office: Withdraw update #1207; it was entered in error.
+#1251  Marketing email: Pedrene site visit confirmed for Friday.
+#1252  Legal email: Pedrene test environment back online.
+#1253  Finance Office: Pedrene budget decreased by $5K per the revised plan.
+#1254  Finance Office: Pedrene budget increased by $120K.
+#1255  Finance Office: Withdraw update #0158.
+#1256  Finance Office: Pedrene budget increased by $378K.
+#1257  Finance Office: Withdraw update #0239; it was entered in error.
+#1258  Finance Office: Pedrene budget increased by $50K.
+#1259  Facilities ticket: Pedrene vendor onboarding call scheduled for Wednesday.
+#1260  Vendor call: Pedrene test environment back online.
+#1261  Finance Office: Pedrene budget increased by $145K.
+#1262  Legal email: Pedrene design review moved to Room 3D.
+#1263  Operations chat: Pedrene site visit confirmed for Tuesday.
+#1264  Facilities ticket: Pedrene design review moved to Room 1A.
+#1265  Finance Office: Pedrene budget decreased by $95K.
+#1266  Finance Office: Pedrene budget decreased by $70K.
+#1267  Finance Office: Pedrene budget decreased by $85K.
+#1268  Finance Office: Withdraw update #1079; it was entered in error.
+#1269  Legal email: Pedrene site visit confirmed for Tuesday.
+#1270  Finance Office: Withdraw update #0409.
+#1271  Finance Office: Pedrene budget decreased by $35K.
+#1272  Finance Office: Withdraw update #0819.
+#1273  Finance Office: Pedrene budget increased by $40K per the revised plan.
+#1274  Vendor call: Pedrene kickoff moved to Building 5.
+#1275  Finance Office: Pedrene purchase order FC-3603 closed.
+#1276  Finance Office: Withdraw update #0873.
+#1277  Finance Office: Pedrene finance review moved to Room 5D.
+#1278  Finance Office: Pedrene budget increased by $30K.
+#1279  Finance Office: Pedrene budget increased by $593K.
+#1280  Sales update: Pedrene design review moved to Room 6A.
+#1281  Finance Office: Withdraw update #1256.
+#1282  PMO note: Pedrene status report filed for week 8.
+#1283  Finance Office: Withdraw update #0731; it was entered in error.
+#1284  Finance Office: Pedrene budget decreased by $140K.
+#1285  Finance Office: Pedrene budget increased by $223K per the revised plan.
+#1286  Finance Office: Pedrene budget decreased by $28K per the revised plan.
+#1287  Legal email: Pedrene sprint 5 retrospective notes posted.
+#1288  Finance Office: Pedrene budget decreased by $50K per the revised plan.
+#1289  Vendor call: Pedrene site visit confirmed for Monday.
+#1290  Finance Office: Pedrene budget decreased by $40K per the revised plan.
+#1291  Finance Office: Withdraw update #0816; it was entered in error.
+#1292  Finance Office: Pedrene budget decreased by $20K.
+#1293  PMO note: Pedrene status report filed for week 39.
+#1294  Finance Office: Pedrene budget increased by $45K per the revised plan.
+#1295  Marketing email: Pedrene weekly sync moved to Thursdays.
+#1296  Finance Office: Pedrene budget increased by $35K after review.
+#1297  Finance Office: Pedrene budget decreased by $115K per the revised plan.
+#1298  Finance Office: Pedrene budget increased by $145K per the revised plan.
+#1299  Engineering email: Pedrene site visit confirmed for Monday.
+#1300  Finance Office: Pedrene budget decreased by $120K after review.
+#1301  Legal email: Pedrene risk register updated with 7 new items.
+#1302  Finance Office: Pedrene budget decreased by $120K.
+#1303  Finance Office: Pedrene budget increased by $105K per the revised plan.
+#1304  Facilities ticket: Pedrene status report filed for week 32.
+#1305  Finance Office: Withdraw update #0119.
+#1306  Finance Office: Pedrene budget increased by $110K per the revised plan.
+#1307  Finance Office: Pedrene budget decreased by $40K after review.
+#1308  Finance Office: Withdraw update #1286.
+#1309  Finance Office: Pedrene budget increased by $50K after review.
+#1310  Sales update: Pedrene site visit confirmed for Friday.
+#1311  Operations chat: Pedrene design review moved to Room 4B.
+#1312  PMO note: Pedrene design review moved to Room 1C.
+#1313  Engineering email: Pedrene status report filed for week 14.
+#1314  PMO note: Pedrene test environment back online.
+#1315  Marketing email: Pedrene test environment back online.
+#1316  Facilities ticket: Pedrene kickoff moved to Building 4.
+#1317  Finance Office: Pedrene budget increased by $110K after review.
+#1318  Finance Office: Pedrene budget decreased by $115K after review.
+#1319  Engineering email: Pedrene weekly sync moved to Fridays.
+#1320  Finance Office: Pedrene budget decreased by $130K per the revised plan.
+#1321  Finance Office: Withdraw update #0314.
+#1322  Finance Office: Pedrene budget increased by $135K per the revised plan.
+#1323  Operations chat: Pedrene status report filed for week 14.
+#1324  Sales update: Pedrene design review moved to Room 4C.
+#1325  Finance Office: Pedrene budget decreased by $150K after review.
+#1326  Operations chat: Pedrene status report filed for week 22.
+#1327  PMO note: Pedrene weekly sync moved to Wednesdays.
+#1328  Finance Office: Pedrene budget increased by $80K.
+#1329  PMO note: Pedrene design review moved to Room 6C.
+#1330  Engineering email: Pedrene vendor onboarding call scheduled for Monday.
+#1331  Vendor call: Pedrene weekly sync moved to Mondays.
+#1332  Finance Office: Withdraw update #1153.
+#1333  Finance Office: Pedrene budget increased by $55K.
+#1334  Finance Office: Pedrene budget increased by $105K after review.
+#1335  Finance Office: Pedrene budget increased by $35K.
+#1336  Legal email: Pedrene status report filed for week 47.
+#1337  Finance Office: Pedrene budget increased by $85K per the revised plan.
+#1338  Finance Office: Withdraw update #1174.
+#1339  Vendor call: Pedrene test environment back online.
+#1340  Engineering email: Pedrene test environment back online.
+#1341  Marketing email: Pedrene kickoff moved to Building 5.
+#1342  Marketing email: Pedrene risk register updated with 8 new items.
+#1343  Finance Office: Pedrene budget decreased by $406K after review.
+#1344  Finance Office: Pedrene budget increased by $150K.
+#1345  Finance Office: Withdraw update #0681; it was entered in error.
+#1346  Finance Office: Pedrene budget increased by $30K per the revised plan.
+#1347  Finance Office: Withdraw update #0719; it was entered in error.
+#1348  Sales update: Pedrene test environment back online.
+#1349  Finance Office: Pedrene budget increased by $70K.
+#1350  Finance Office: Pedrene budget decreased by $85K per the revised plan.
+#1351  Finance Office: Pedrene budget increased by $135K.
+#1352  PMO note: Pedrene documentation moved to the shared drive.
+#1353  Facilities ticket: Pedrene design review moved to Room 5A.
+#1354  Operations chat: Pedrene demo rescheduled to Friday afternoon.
+#1355  Finance Office: Pedrene budget decreased by $100K after review.
+#1356  Finance Office: Pedrene budget decreased by $115K per the revised plan.
+#1357  Finance Office: Pedrene budget decreased by $20K per the revised plan.
+#1358  Finance Office: Pedrene budget decreased by $105K after review.
+#1359  Finance Office: Withdraw update #0969; it was entered in error.
+#1360  Finance Office: Pedrene budget decreased by $20K after review.
+#1361  Finance Office: Pedrene budget increased by $50K.
+#1362  Finance Office: Pedrene budget decreased by $120K after review.
+#1363  PMO note: Pedrene kickoff moved to Building 6.
+#1364  Vendor call: Pedrene kickoff moved to Building 3.
+#1365  Marketing email: Pedrene kickoff moved to Building 5.
+#1366  Marketing email: Pedrene design review moved to Room 6B.
+#1367  Finance Office: Withdraw update #0802; it was entered in error.
+#1368  Sales update: Pedrene risk register updated with 5 new items.
+#1369  Finance Office: Pedrene budget decreased by $45K per the revised plan.
+#1370  Sales update: Pedrene test environment back online.
+#1371  Finance Office: Pedrene budget increased by $150K.
+#1372  Finance Office: Pedrene budget decreased by $130K per the revised plan.
+#1373  Finance Office: Pedrene budget decreased by $15K per the revised plan.
+#1374  Finance Office: Pedrene budget decreased by $145K per the revised plan.
+#1375  Finance Office: Pedrene budget increased by $70K.
+#1376  Finance Office: Pedrene budget increased by $45K.
+#1377  Finance Office: Pedrene budget decreased by $45K after review.
+#1378  PMO note: Pedrene sprint 33 retrospective notes posted.
+#1379  Legal email: Pedrene weekly sync moved to Tuesdays.
+#1380  Finance Office: Pedrene budget increased by $90K after review.
+#1381  Engineering email: Pedrene design review moved to Room 1B.
+#1382  Marketing email: Pedrene demo rescheduled to Friday afternoon.
+#1383  Finance Office: Pedrene budget increased by $95K.
+#1384  Facilities ticket: Pedrene weekly sync moved to Fridays.
+#1385  Vendor call: Pedrene design review moved to Room 3C.
+#1386  Engineering email: Pedrene test environment back online.
+#1387  Finance Office: Pedrene budget increased by $90K after review.
+#1388  Finance Office: Pedrene budget decreased by $100K per the revised plan.
+#1389  Operations chat: Pedrene risk register updated with 8 new items.
+#1390  Finance Office: Withdraw update #0700; it was entered in error.
+#1391  PMO note: Pedrene test environment back online.
+#1392  Finance Office: Pedrene finance review moved to Room 3A.
+#1393  Finance Office: Withdraw update #0408.
+#1394  Vendor call: Pedrene design review moved to Room 4A.
+#1395  Operations chat: Pedrene sprint 7 retrospective notes posted.
+#1396  Vendor call: Pedrene design review moved to Room 6D.
+#1397  Finance Office: Withdraw update #0889; it was entered in error.
+#1398  Finance Office: Pedrene budget decreased by $100K per the revised plan.
+#1399  Operations chat: Pedrene status report filed for week 16.
+#1400  Operations chat: Pedrene kickoff moved to Building 7.
+#1401  Vendor call: Pedrene sprint 39 retrospective notes posted.
+#1402  Legal email: Pedrene weekly sync moved to Thursdays.
+#1403  Finance Office: Pedrene budget decreased by $95K per the revised plan.
+#1404  Finance Office: Pedrene budget decreased by $110K per the revised plan.
+#1405  Finance Office: Pedrene purchase order FC-2815 closed.
+#1406  Legal email: Pedrene site visit confirmed for Friday.
+#1407  Marketing email: Pedrene kickoff moved to Building 7.
+#1408  Finance Office: Pedrene budget increased by $15K.
+#1409  PMO note: Pedrene kickoff moved to Building 4.
+#1410  Finance Office: Pedrene budget increased by $55K after review.
+#1411  Operations chat: Pedrene design review moved to Room 6A.
+#1412  Finance Office: Withdraw update #0921.
+#1413  Finance Office: Pedrene budget decreased by $80K after review.
+#1414  Finance Office: Withdraw update #1236.
+#1415  Finance Office: Withdraw update #0246; it was entered in error.
+#1416  Finance Office: Pedrene budget increased by $120K per the revised plan.
+#1417  Finance Office: Pedrene budget increased by $145K per the revised plan.
+#1418  Finance Office: Pedrene budget increased by $114K per the revised plan.
+#1419  Marketing email: Pedrene test environment back online.
+#1420  Sales update: Pedrene site visit confirmed for Monday.
+#1421  Marketing email: Pedrene weekly sync moved to Mondays.
+#1422  Finance Office: Pedrene budget increased by $105K.
+#1423  Facilities ticket: Pedrene site visit confirmed for Friday.
+#1424  Finance Office: Pedrene budget increased by $35K after review.
+#1425  Finance Office: Pedrene budget increased by $110K after review.
+#1426  Finance Office: Pedrene budget decreased by $105K.
+#1427  Legal email: Pedrene weekly sync moved to Fridays.
+#1428  Finance Office: Pedrene budget increased by $85K.
+#1429  Sales update: Pedrene kickoff moved to Building 9.
+#1430  Finance Office: Pedrene budget decreased by $130K per the revised plan.
+#1431  Finance Office: Pedrene budget increased by $140K.
+#1432  Finance Office: Pedrene budget increased by $45K after review.
+#1433  Legal email: Pedrene design review moved to Room 5B.
+#1434  Finance Office: Pedrene budget decreased by $30K.
+#1435  Finance Office: Pedrene budget decreased by $95K per the revised plan.
+#1436  Finance Office: Withdraw update #1127; it was entered in error.
+#1437  Engineering email: Pedrene test environment back online.
+#1438  Facilities ticket: Pedrene site visit confirmed for Wednesday.
+#1439  Finance Office: Pedrene budget decreased by $75K per the revised plan.
+#1440  Operations chat: Pedrene site visit confirmed for Wednesday.
+#1441  Operations chat: Pedrene status report filed for week 5.
+#1442  Finance Office: Pedrene budget decreased by $70K after review.
+#1443  Finance Office: Pedrene purchase order FC-5033 closed.
+#1444  Finance Office: Pedrene budget decreased by $145K per the revised plan.
+#1445  Legal email: Pedrene test environment back online.
+#1446  Facilities ticket: Pedrene weekly sync moved to Tuesdays.
+#1447  Finance Office: Pedrene budget decreased by $135K per the revised plan.
+#1448  Finance Office: Pedrene budget increased by $45K.
+#1449  PMO note: Pedrene documentation moved to the shared drive.
+#1450  Finance Office: Pedrene budget increased by $145K.
+#1451  Facilities ticket: Pedrene status report filed for week 19.
+#1452  Finance Office: Withdraw update #0932; it was entered in error.
+#1453  Engineering email: Pedrene test environment back online.
+#1454  Finance Office: Pedrene budget increased by $10K per the revised plan.
+#1455  Finance Office: Pedrene budget increased by $50K after review.
+#1456  Marketing email: Pedrene security review passed.
+#1457  Finance Office: Withdraw update #0626.
+#1458  Facilities ticket: Pedrene kickoff moved to Building 2.
+#1459  Engineering email: Pedrene kickoff moved to Building 6.
+#1460  Finance Office: Pedrene budget increased by $65K after review.
+#1461  Finance Office: Withdraw update #0359; it was entered in error.
+#1462  Finance Office: Pedrene budget decreased by $85K after review.
+#1463  Finance Office: Pedrene budget increased by $85K after review.
+#1464  Finance Office: Pedrene budget increased by $95K.
+#1465  Finance Office: Pedrene budget increased by $115K.
+#1466  Finance Office: Pedrene budget increased by $90K.
+#1467  Finance Office: Pedrene budget decreased by $70K after review.
+#1468  Vendor call: Pedrene site visit confirmed for Wednesday.
+#1469  Finance Office: Pedrene budget increased by $85K per the revised plan.
+#1470  Finance Office: Pedrene budget decreased by $130K after review.
+#1471  Finance Office: Pedrene budget increased by $130K after review.
+#1472  Finance Office: Pedrene budget increased by $80K after review.
+#1473  Facilities ticket: Pedrene kickoff moved to Building 8.
+#1474  Finance Office: Pedrene budget increased by $120K.
+#1475  Finance Office: Pedrene budget decreased by $135K after review.
+#1476  Legal email: Pedrene weekly sync moved to Tuesdays.
+#1477  Finance Office: Withdraw update #0996.
+#1478  Finance Office: Pedrene budget increased by $125K per the revised plan.
+#1479  Finance Office: Pedrene budget increased by $90K.
+#1480  Finance Office: Pedrene budget increased by $115K.
+#1481  Finance Office: Withdraw update #0346; it was entered in error.
+#1482  Finance Office: Pedrene budget increased by $85K.
+#1483  Finance Office: Withdraw update #1132.
+#1484  Marketing email: Pedrene status report filed for week 14.
+#1485  Vendor call: Pedrene weekly sync moved to Mondays.
+#1486  Marketing email: Pedrene kickoff moved to Building 6.
+#1487  Facilities ticket: Pedrene site visit confirmed for Tuesday.
+#1488  Finance Office: Pedrene budget decreased by $90K per the revised plan.
+#1489  Finance Office: Pedrene budget decreased by $15K per the revised plan.
+#1490  Finance Office: Pedrene budget decreased by $130K per the revised plan.
+#1491  Sales update: Pedrene design review moved to Room 2B.
+#1492  Legal email: Pedrene test environment back online.
+#1493  Engineering email: Pedrene status report filed for week 23.
+#1494  Finance Office: Pedrene budget increased by $30K.
+#1495  Sales update: Pedrene kickoff moved to Building 3.
+#1496  Finance Office: Pedrene budget increased by $25K.
+#1497  Operations chat: Pedrene weekly sync moved to Fridays.
+#1498  Finance Office: Pedrene budget increased by $75K per the revised plan.
+#1499  Finance Office: Pedrene budget decreased by $10K per the revised plan.
+#1500  Finance Office: Withdraw update #1343; it was entered in error.
+#1501  Engineering email: Pedrene design review moved to Room 6B.
+#1502  Finance Office: Withdraw update #1285; it was entered in error.
+#1503  Finance Office: Pedrene budget decreased by $125K per the revised plan.
+#1504  Sales update: Pedrene documentation moved to the shared drive.
+#1505  Facilities ticket: Pedrene test environment back online.
+#1506  Finance Office: Pedrene budget decreased by $65K.
+#1507  Finance Office: Pedrene budget increased by $145K per the revised plan.
+#1508  Finance Office: Pedrene budget decreased by $50K per the revised plan.
+#1509  Finance Office: Pedrene budget increased by $105K.
+#1510  Vendor call: Pedrene design review moved to Room 4C.
+#1511  Finance Office: Pedrene budget decreased by $150K after review.
+#1512  Finance Office: Pedrene budget decreased by $10K per the revised plan.
+#1513  Finance Office: Withdraw update #0775.
+#1514  Facilities ticket: Pedrene sprint 26 retrospective notes posted.
+#1515  Finance Office: Withdraw update #0674; it was entered in error.
+#1516  Finance Office: Pedrene budget decreased by $40K after review.
+#1517  Finance Office: Withdraw update #1279.
+#1518  Finance Office: Pedrene budget increased by $150K after review.
+#1519  Finance Office: Pedrene budget decreased by $40K per the revised plan.
+#1520  Vendor call: Pedrene sprint 10 retrospective notes posted.
+#1521  Finance Office: Pedrene budget decreased by $45K after review.
+#1522  Finance Office: Pedrene budget decreased by $15K after review.
+#1523  Finance Office: Pedrene budget decreased by $100K after review.
+#1524  Vendor call: Pedrene kickoff moved to Building 2.
+#1525  Finance Office: Pedrene budget decreased by $55K.
+#1526  Finance Office: Withdraw update #0711; it was entered in error.
+#1527  Finance Office: Pedrene invoice batch FC-4668 archived.
+#1528  Engineering email: Pedrene weekly sync moved to Mondays.
+#1529  Finance Office: Pedrene budget increased by $25K after review.
+#1530  Vendor call: Pedrene test environment back online.
+#1531  Finance Office: Pedrene budget decreased by $105K.
+#1532  Facilities ticket: Pedrene kickoff moved to Building 2.
+#1533  Finance Office: Pedrene receipts scanned.
+#1534  Sales update: Pedrene risk register updated with 7 new items.
+#1535  Finance Office: Withdraw update #0565; it was entered in error.
+#1536  Finance Office: Pedrene budget decreased by $125K.
+#1537  Facilities ticket: Pedrene test environment back online.
+#1538  Finance Office: Pedrene budget decreased by $5K after review.
+#1539  PMO note: Pedrene site visit confirmed for Tuesday.
+#1540  PMO note: Pedrene weekly sync moved to Tuesdays.
+#1541  Finance Office: Withdraw update #1116.
+#1542  PMO note: Pedrene design review moved to Room 4C.
+#1543  Vendor call: Pedrene vendor onboarding call scheduled for Thursday.
+#1544  Finance Office: Withdraw update #1224.
+#1545  Legal email: Pedrene weekly sync moved to Fridays.
+#1546  Finance Office: Withdraw update #0556; it was entered in error.
+#1547  Finance Office: Pedrene budget decreased by $145K.
+#1548  Finance Office: Pedrene budget increased by $25K.
+#1549  Sales update: Pedrene test environment back online.
+#1550  Finance Office: Pedrene budget increased by $70K.
+#1551  Finance Office: Withdraw update #1193.
+#1552  Finance Office: Withdraw update #1418.
+#1553  Facilities ticket: Pedrene site visit confirmed for Thursday.
+#1554  Sales update: Pedrene site visit confirmed for Thursday.
+#1555  Finance Office: Pedrene audit notes filed.
+#1556  Finance Office: Pedrene budget increased by $5K.
+#1557  Finance Office: Withdraw update #0833; it was entered in error.
+#1558  Finance Office: Pedrene budget increased by $25K after review.
+#1559  Engineering email: Pedrene design review moved to Room 6D.
+#1560  Finance Office: Pedrene budget decreased by $135K.
+#1561  Finance Office: Withdraw update #0510.
+#1562  Facilities ticket: Pedrene kickoff moved to Building 9.
+#1563  Finance Office: Withdraw update #0815; it was entered in error.
+#1564  Marketing email: Pedrene kickoff moved to Building 8.
+#1565  Finance Office: Pedrene budget decreased by $25K after review.
+#1566  Engineering email: Pedrene demo rescheduled to Monday afternoon.
+#1567  Finance Office: Pedrene budget decreased by $135K.
+#1568  Finance Office: Pedrene budget increased by $45K.
+#1569  Finance Office: Pedrene budget increased by $20K.
+#1570  Finance Office: Withdraw update #0400.
+#1571  Finance Office: Pedrene budget decreased by $80K per the revised plan.
+#1572  Finance Office: Pedrene budget increased by $90K per the revised plan.
+#1573  Finance Office: Pedrene budget increased by $30K.
+#1574  Finance Office: Withdraw update #0657.
+#1575  Finance Office: Withdraw update #1563.
+#1576  Finance Office: Withdraw update #0281.
+#1577  Finance Office: Pedrene receipts scanned.
+#1578  Finance Office: Pedrene budget increased by $30K per the revised plan.
+#1579  PMO note: Pedrene kickoff moved to Building 6.
+#1580  Finance Office: Pedrene budget increased by $30K after review.
+#1581  Sales update: Pedrene design review moved to Room 5A.
+#1582  Marketing email: Pedrene weekly sync moved to Mondays.
+#1583  Finance Office: Pedrene invoice batch FC-7819 archived.
+#1584  Engineering email: Pedrene weekly sync moved to Wednesdays.
+#1585  PMO note: Pedrene status report filed for week 27.
+#1586  Finance Office: Pedrene budget increased by $70K.
+#1587  Finance Office: Withdraw update #0789.
+#1588  Facilities ticket: Pedrene kickoff moved to Building 7.
+#1589  Finance Office: Pedrene budget decreased by $100K after review.
+#1590  Finance Office: Pedrene budget increased by $95K after review.
+#1591  PMO note: Pedrene weekly sync moved to Fridays.
+#1592  Finance Office: Pedrene budget increased by $95K per the revised plan.
+#1593  Finance Office: Pedrene budget increased by $15K per the revised plan.
+#1594  Vendor call: Pedrene test environment back online.
+#1595  Finance Office: Pedrene budget decreased by $70K.
+#1596  Finance Office: Pedrene budget decreased by $5K after review.
+#1597  Finance Office: Pedrene budget increased by $45K.
+#1598  Finance Office: Pedrene quarterly audit scheduled for Wednesday.
+#1599  Legal email: Pedrene security review passed.
+#1600  Finance Office: Pedrene budget increased by $55K.
+
+Question: What is Pedrene's budget now?

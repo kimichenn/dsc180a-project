@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Mastis budget set to $1220K.
+#0002  Finance Office: Mastis budget increased by $85K after review.
+#0003  Facilities ticket: Mastis status report filed for week 30.
+#0004  Finance Office: Mastis budget decreased by $110K per the revised plan.
+#0005  Vendor call: Mastis kickoff moved to Building 5.
+#0006  Finance Office: Mastis budget increased by $82K.
+#0007  Finance Office: Mastis budget decreased by $284K after review.
+#0008  Legal email: Mastis kickoff moved to Building 4.
+#0009  Finance Office: Withdraw update #0006; it was entered in error.
+#0010  Finance Office: Mastis budget increased by $214K after review.
+#0011  Finance Office: Mastis budget increased by $297K.
+#0012  Legal email: Mastis demo rescheduled to Monday afternoon.
+#0013  Finance Office: Mastis budget decreased by $216K after review.
+#0014  PMO note: Mastis demo rescheduled to Thursday afternoon.
+#0015  Finance Office: Mastis budget increased by $454K.
+#0016  Marketing email: Mastis weekly sync moved to Fridays.
+#0017  Operations chat: Mastis site visit confirmed for Wednesday.
+#0018  Finance Office: Mastis budget decreased by $558K after review.
+#0019  Finance Office: Mastis budget increased by $88K.
+#0020  Finance Office: Mastis budget increased by $336K after review.
+#0021  Facilities ticket: Mastis weekly sync moved to Tuesdays.
+#0022  Vendor call: Mastis design review moved to Room 6A.
+#0023  Legal email: Mastis design review moved to Room 3D.
+#0024  Finance Office: Mastis budget decreased by $392K after review.
+#0025  Vendor call: Mastis vendor onboarding call scheduled for Thursday.
+#0026  Finance Office: Withdraw update #0009.
+#0027  Sales update: Mastis site visit confirmed for Friday.
+#0028  Operations chat: Mastis test environment back online.
+#0029  Engineering email: Mastis test environment back online.
+#0030  Finance Office: Mastis budget increased by $36K after review.
+#0031  Finance Office: Mastis budget decreased by $384K after review.
+#0032  Finance Office: Mastis budget increased by $448K.
+#0033  Marketing email: Mastis sprint 2 retrospective notes posted.
+#0034  Finance Office: Mastis budget increased by $66K after review.
+#0035  Finance Office: Mastis budget increased by $182K per the revised plan.
+#0036  Sales update: Mastis demo rescheduled to Monday afternoon.
+#0037  Finance Office: Withdraw update #0018.
+#0038  Finance Office: Mastis cost center code changed to FC-6577.
+#0039  Finance Office: Mastis budget increased by $95K after review.
+#0040  Operations chat: Mastis test environment back online.
+#0041  Sales update: Mastis status report filed for week 43.
+#0042  PMO note: Mastis demo rescheduled to Tuesday afternoon.
+#0043  Finance Office: Mastis budget increased by $105K.
+#0044  Finance Office: Mastis budget increased by $576K per the revised plan.
+#0045  Operations chat: Mastis status report filed for week 44.
+#0046  Finance Office: Withdraw update #0019; it was entered in error.
+#0047  Finance Office: Mastis budget increased by $62K per the revised plan.
+#0048  Finance Office: Mastis budget decreased by $60K per the revised plan.
+#0049  Sales update: Mastis design review moved to Room 1A.
+#0050  Finance Office: Mastis budget decreased by $589K after review.
+#0051  Legal email: Mastis design review moved to Room 6B.
+#0052  Marketing email: Mastis status report filed for week 43.
+#0053  Marketing email: Mastis design review moved to Room 3C.
+#0054  Finance Office: Withdraw update #0010; it was entered in error.
+#0055  Operations chat: Mastis design review moved to Room 2C.
+#0056  Finance Office: Mastis budget decreased by $116K.
+#0057  Finance Office: Mastis budget increased by $40K after review.
+#0058  Sales update: Mastis weekly sync moved to Mondays.
+#0059  Finance Office: Mastis budget decreased by $50K per the revised plan.
+#0060  Sales update: Mastis design review moved to Room 4A.
+#0061  Finance Office: Mastis budget increased by $76K.
+#0062  Finance Office: Withdraw update #0037.
+#0063  Finance Office: Mastis budget increased by $304K after review.
+#0064  Sales update: Mastis site visit confirmed for Friday.
+#0065  Finance Office: Mastis budget decreased by $20K.
+#0066  Finance Office: Mastis budget increased by $105K after review.
+#0067  Finance Office: Mastis budget increased by $389K after review.
+#0068  Finance Office: Mastis budget decreased by $70K per the revised plan.
+#0069  Finance Office: Withdraw update #0062.
+#0070  Finance Office: Mastis budget decreased by $100K after review.
+#0071  Finance Office: Mastis budget increased by $162K per the revised plan.
+#0072  Finance Office: Mastis budget decreased by $273K per the revised plan.
+#0073  Finance Office: Mastis budget decreased by $135K.
+#0074  Finance Office: Mastis budget increased by $103K after review.
+#0075  Finance Office: Mastis budget decreased by $90K after review.
+#0076  Finance Office: Withdraw update #0026.
+#0077  PMO note: Mastis test environment back online.
+#0078  Finance Office: Mastis budget increased by $313K per the revised plan.
+#0079  Finance Office: Mastis budget decreased by $120K after review.
+#0080  Finance Office: Mastis budget increased by $40K.
+#0081  Finance Office: Withdraw update #0044.
+#0082  Finance Office: Mastis budget increased by $110K per the revised plan.
+#0083  Finance Office: Mastis budget decreased by $309K after review.
+#0084  Vendor call: Mastis status report filed for week 7.
+#0085  Finance Office: Mastis budget increased by $83K.
+#0086  Operations chat: Mastis demo rescheduled to Friday afternoon.
+#0087  Finance Office: Mastis budget decreased by $418K after review.
+#0088  Sales update: Mastis test environment back online.
+#0089  Finance Office: Mastis budget increased by $125K per the revised plan.
+#0090  Finance Office: Withdraw update #0069.
+#0091  Finance Office: Mastis budget increased by $368K after review.
+#0092  Sales update: Mastis site visit confirmed for Thursday.
+#0093  Operations chat: Mastis design review moved to Room 2D.
+#0094  Legal email: Mastis design review moved to Room 5D.
+#0095  Finance Office: Mastis budget decreased by $518K.
+#0096  PMO note: Mastis design review moved to Room 4D.
+#0097  Finance Office: Withdraw update #0046.
+#0098  Finance Office: Withdraw update #0015.
+#0099  Finance Office: Mastis budget increased by $5K.
+#0100  Finance Office: Withdraw update #0030.
+#0101  Finance Office: Mastis budget increased by $573K.
+#0102  Operations chat: Mastis security review passed.
+#0103  Finance Office: Mastis budget increased by $357K.
+#0104  Legal email: Mastis demo rescheduled to Wednesday afternoon.
+#0105  Finance Office: Withdraw update #0083.
+#0106  Facilities ticket: Mastis security review passed.
+#0107  PMO note: Mastis site visit confirmed for Thursday.
+#0108  Marketing email: Mastis kickoff moved to Building 8.
+#0109  Operations chat: Mastis risk register updated with 3 new items.
+#0110  Marketing email: Mastis design review moved to Room 5C.
+#0111  Operations chat: Mastis weekly sync moved to Mondays.
+#0112  PMO note: Mastis test environment back online.
+#0113  Finance Office: Mastis budget decreased by $543K after review.
+#0114  Finance Office: Withdraw update #0024.
+#0115  Finance Office: Mastis budget increased by $107K after review.
+#0116  Finance Office: Mastis budget increased by $34K per the revised plan.
+#0117  Vendor call: Mastis documentation moved to the shared drive.
+#0118  Vendor call: Mastis weekly sync moved to Thursdays.
+#0119  Finance Office: Mastis budget increased by $157K.
+#0120  Operations chat: Mastis test environment back online.
+#0121  Legal email: Mastis status report filed for week 31.
+#0122  PMO note: Mastis test environment back online.
+#0123  Finance Office: Withdraw update #0100.
+#0124  Operations chat: Mastis kickoff moved to Building 7.
+#0125  Marketing email: Mastis design review moved to Room 1D.
+#0126  Finance Office: Withdraw update #0020.
+#0127  Finance Office: Mastis budget decreased by $557K per the revised plan.
+#0128  Finance Office: Withdraw update #0095; it was entered in error.
+#0129  Finance Office: Mastis budget increased by $100K.
+#0130  Finance Office: Withdraw update #0071.
+#0131  Engineering email: Mastis security review passed.
+#0132  Finance Office: Mastis budget decreased by $236K.
+#0133  Finance Office: Mastis budget decreased by $527K per the revised plan.
+#0134  Finance Office: Mastis budget decreased by $264K.
+#0135  Finance Office: Mastis budget increased by $135K after review.
+#0136  Finance Office: Withdraw update #0035; it was entered in error.
+#0137  Finance Office: Withdraw update #0013; it was entered in error.
+#0138  Finance Office: Mastis purchase order FC-5528 closed.
+#0139  Finance Office: Mastis budget increased by $115K.
+#0140  Vendor call: Mastis weekly sync moved to Thursdays.
+#0141  Finance Office: Mastis budget increased by $39K after review.
+#0142  Finance Office: Withdraw update #0134.
+#0143  Finance Office: Mastis budget increased by $322K per the revised plan.
+#0144  Finance Office: Withdraw update #0078; it was entered in error.
+#0145  Finance Office: Withdraw update #0072.
+#0146  PMO note: Mastis risk register updated with 7 new items.
+#0147  Sales update: Mastis weekly sync moved to Fridays.
+#0148  Marketing email: Mastis weekly sync moved to Tuesdays.
+#0149  Finance Office: Mastis budget increased by $135K after review.
+#0150  Finance Office: Withdraw update #0050.
+#0151  Vendor call: Mastis status report filed for week 28.
+#0152  Finance Office: Mastis budget decreased by $135K per the revised plan.
+#0153  Finance Office: Mastis budget increased by $135K.
+#0154  Legal email: Mastis kickoff moved to Building 7.
+#0155  Engineering email: Mastis security review passed.
+#0156  Finance Office: Mastis budget decreased by $80K.
+#0157  Finance Office: Mastis budget decreased by $15K.
+#0158  Finance Office: Mastis budget increased by $247K after review.
+#0159  Finance Office: Withdraw update #0119.
+#0160  Vendor call: Mastis weekly sync moved to Mondays.
+#0161  Facilities ticket: Mastis design review moved to Room 4A.
+#0162  Marketing email: Mastis test environment back online.
+#0163  PMO note: Mastis test environment back online.
+#0164  Finance Office: Mastis budget increased by $95K after review.
+#0165  Finance Office: Withdraw update #0116.
+#0166  Finance Office: Mastis budget decreased by $24K.
+#0167  Finance Office: Withdraw update #0047.
+#0168  Finance Office: Mastis budget decreased by $105K after review.
+#0169  Engineering email: Mastis test environment back online.
+#0170  Finance Office: Withdraw update #0166.
+#0171  Finance Office: Mastis audit notes filed.
+#0172  Finance Office: Mastis receipts scanned.
+#0173  Operations chat: Mastis weekly sync moved to Fridays.
+#0174  Facilities ticket: Mastis design review moved to Room 5B.
+#0175  Finance Office: Withdraw update #0074.
+#0176  Finance Office: Mastis budget increased by $30K.
+#0177  Facilities ticket: Mastis status report filed for week 35.
+#0178  Sales update: Mastis site visit confirmed for Tuesday.
+#0179  Facilities ticket: Mastis design review moved to Room 3A.
+#0180  Facilities ticket: Mastis weekly sync moved to Wednesdays.
+#0181  Facilities ticket: Mastis kickoff moved to Building 7.
+#0182  PMO note: Mastis kickoff moved to Building 6.
+#0183  Finance Office: Mastis budget decreased by $29K per the revised plan.
+#0184  Vendor call: Mastis status report filed for week 37.
+#0185  Marketing email: Mastis kickoff moved to Building 5.
+#0186  Finance Office: Mastis budget decreased by $449K after review.
+#0187  Engineering email: Mastis weekly sync moved to Thursdays.
+#0188  Finance Office: Mastis budget decreased by $130K after review.
+#0189  Finance Office: Withdraw update #0105; it was entered in error.
+#0190  Finance Office: Withdraw update #0158.
+#0191  Finance Office: Mastis budget decreased by $25K after review.
+#0192  Finance Office: Mastis budget increased by $5K after review.
+#0193  Marketing email: Mastis design review moved to Room 3B.
+#0194  Finance Office: Withdraw update #0127; it was entered in error.
+#0195  Finance Office: Mastis budget decreased by $10K per the revised plan.
+#0196  Facilities ticket: Mastis kickoff moved to Building 2.
+#0197  Finance Office: Mastis cost center code changed to FC-9083.
+#0198  Finance Office: Mastis budget decreased by $145K after review.
+#0199  Legal email: Mastis status report filed for week 44.
+#0200  Finance Office: Mastis budget increased by $431K after review.
+#0201  Finance Office: Withdraw update #0076.
+#0202  Finance Office: Mastis budget decreased by $105K.
+#0203  Marketing email: Mastis site visit confirmed for Thursday.
+#0204  Legal email: Mastis test environment back online.
+#0205  Finance Office: Mastis budget decreased by $25K after review.
+#0206  Vendor call: Mastis weekly sync moved to Fridays.
+#0207  Finance Office: Mastis budget increased by $508K per the revised plan.
+#0208  Finance Office: Mastis budget increased by $318K per the revised plan.
+#0209  Finance Office: Withdraw update #0032.
+#0210  Engineering email: Mastis test environment back online.
+#0211  PMO note: Mastis kickoff moved to Building 2.
+#0212  Finance Office: Mastis budget increased by $5K per the revised plan.
+#0213  Finance Office: Withdraw update #0103.
+#0214  Finance Office: Withdraw update #0085; it was entered in error.
+#0215  Finance Office: Mastis budget increased by $354K.
+#0216  Facilities ticket: Mastis status report filed for week 7.
+#0217  PMO note: Mastis security review passed.
+#0218  Finance Office: Mastis budget decreased by $80K.
+#0219  Finance Office: Mastis budget increased by $70K after review.
+#0220  Finance Office: Mastis invoice batch FC-9844 archived.
+#0221  Finance Office: Mastis budget increased by $55K after review.
+#0222  Finance Office: Withdraw update #0054.
+#0223  Legal email: Mastis weekly sync moved to Thursdays.
+#0224  Finance Office: Mastis budget increased by $50K per the revised plan.
+#0225  Finance Office: Mastis budget decreased by $579K.
+#0226  Vendor call: Mastis design review moved to Room 6A.
+#0227  Engineering email: Mastis risk register updated with 8 new items.
+#0228  Finance Office: Withdraw update #0189.
+#0229  Finance Office: Mastis budget decreased by $316K per the revised plan.
+#0230  Legal email: Mastis design review moved to Room 3A.
+#0231  Vendor call: Mastis site visit confirmed for Monday.
+#0232  Finance Office: Mastis audit notes filed.
+#0233  Marketing email: Mastis test environment back online.
+#0234  Vendor call: Mastis weekly sync moved to Fridays.
+#0235  Finance Office: Mastis invoice batch FC-7730 archived.
+#0236  Finance Office: Mastis budget decreased by $65K after review.
+#0237  Finance Office: Mastis receipts scanned.
+#0238  Finance Office: Mastis budget increased by $80K per the revised plan.
+#0239  Engineering email: Mastis kickoff moved to Building 3.
+#0240  Finance Office: Mastis budget decreased by $25K per the revised plan.
+#0241  Finance Office: Mastis budget increased by $125K per the revised plan.
+#0242  Finance Office: Withdraw update #0133.
+#0243  Facilities ticket: Mastis weekly sync moved to Fridays.
+#0244  Legal email: Mastis risk register updated with 8 new items.
+#0245  Finance Office: Mastis budget decreased by $140K.
+#0246  Finance Office: Mastis budget increased by $5K.
+#0247  Finance Office: Mastis budget increased by $115K.
+#0248  Vendor call: Mastis design review moved to Room 2C.
+#0249  Finance Office: Mastis budget increased by $402K after review.
+#0250  Finance Office: Mastis budget decreased by $140K after review.
+#0251  Facilities ticket: Mastis kickoff moved to Building 4.
+#0252  Operations chat: Mastis test environment back online.
+#0253  Finance Office: Mastis budget decreased by $146K after review.
+#0254  Finance Office: Mastis budget increased by $145K after review.
+#0255  Finance Office: Mastis budget decreased by $130K.
+#0256  Engineering email: Mastis design review moved to Room 1C.
+#0257  Vendor call: Mastis sprint 15 retrospective notes posted.
+#0258  Finance Office: Mastis budget decreased by $135K after review.
+#0259  Finance Office: Mastis budget decreased by $3K per the revised plan.
+#0260  Finance Office: Mastis budget increased by $70K.
+#0261  Engineering email: Mastis design review moved to Room 3C.
+#0262  Finance Office: Withdraw update #0194; it was entered in error.
+#0263  Marketing email: Mastis sprint 18 retrospective notes posted.
+#0264  Finance Office: Mastis budget increased by $386K after review.
+#0265  Finance Office: Mastis budget decreased by $110K per the revised plan.
+#0266  Facilities ticket: Mastis design review moved to Room 1A.
+#0267  Finance Office: Withdraw update #0249.
+#0268  Vendor call: Mastis status report filed for week 41.
+#0269  Engineering email: Mastis documentation moved to the shared drive.
+#0270  Finance Office: Mastis finance review moved to Room 1D.
+#0271  Legal email: Mastis test environment back online.
+#0272  PMO note: Mastis demo rescheduled to Monday afternoon.
+#0273  PMO note: Mastis kickoff moved to Building 3.
+#0274  Finance Office: Mastis purchase order FC-7969 closed.
+#0275  Vendor call: Mastis status report filed for week 36.
+#0276  Finance Office: Withdraw update #0264.
+#0277  Vendor call: Mastis security review passed.
+#0278  Finance Office: Mastis budget increased by $373K per the revised plan.
+#0279  Finance Office: Mastis budget increased by $125K per the revised plan.
+#0280  Finance Office: Withdraw update #0242; it was entered in error.
+#0281  Legal email: Mastis test environment back online.
+#0282  Finance Office: Mastis budget increased by $363K per the revised plan.
+#0283  Facilities ticket: Mastis kickoff moved to Building 2.
+#0284  Finance Office: Mastis budget increased by $30K per the revised plan.
+#0285  Finance Office: Withdraw update #0145.
+#0286  Finance Office: Mastis budget decreased by $115K.
+#0287  Finance Office: Mastis budget decreased by $80K per the revised plan.
+#0288  Finance Office: Mastis budget decreased by $416K after review.
+#0289  Finance Office: Mastis budget decreased by $60K.
+#0290  Finance Office: Mastis budget decreased by $130K.
+#0291  Finance Office: Mastis budget increased by $135K per the revised plan.
+#0292  Legal email: Mastis security review passed.
+#0293  Finance Office: Mastis budget increased by $145K per the revised plan.
+#0294  PMO note: Mastis test environment back online.
+#0295  Finance Office: Mastis budget increased by $311K.
+#0296  Finance Office: Mastis budget increased by $80K.
+#0297  Finance Office: Mastis budget decreased by $10K after review.
+#0298  Facilities ticket: Mastis kickoff moved to Building 4.
+#0299  Finance Office: Mastis budget increased by $35K after review.
+#0300  Vendor call: Mastis weekly sync moved to Fridays.
+#0301  Finance Office: Mastis budget increased by $60K per the revised plan.
+#0302  Finance Office: Mastis budget increased by $25K per the revised plan.
+#0303  Finance Office: Mastis budget decreased by $145K.
+#0304  Facilities ticket: Mastis risk register updated with 8 new items.
+#0305  PMO note: Mastis weekly sync moved to Fridays.
+#0306  Finance Office: Mastis budget increased by $65K.
+#0307  Legal email: Mastis weekly sync moved to Tuesdays.
+#0308  Finance Office: Mastis budget increased by $90K.
+#0309  Finance Office: Mastis budget decreased by $10K after review.
+#0310  Legal email: Mastis site visit confirmed for Friday.
+#0311  Finance Office: Mastis budget decreased by $382K after review.
+#0312  Finance Office: Withdraw update #0280; it was entered in error.
+#0313  Finance Office: Withdraw update #0207; it was entered in error.
+#0314  Finance Office: Mastis audit notes filed.
+#0315  Facilities ticket: Mastis site visit confirmed for Wednesday.
+#0316  Finance Office: Withdraw update #0253; it was entered in error.
+#0317  Finance Office: Mastis budget increased by $288K per the revised plan.
+#0318  Legal email: Mastis sprint 3 retrospective notes posted.
+#0319  Finance Office: Mastis budget increased by $133K.
+#0320  Engineering email: Mastis status report filed for week 17.
+#0321  Vendor call: Mastis kickoff moved to Building 4.
+#0322  Finance Office: Mastis budget decreased by $120K after review.
+#0323  Vendor call: Mastis test environment back online.
+#0324  Finance Office: Withdraw update #0141.
+#0325  Operations chat: Mastis site visit confirmed for Monday.
+#0326  Finance Office: Mastis budget decreased by $379K per the revised plan.
+#0327  Finance Office: Withdraw update #0034; it was entered in error.
+#0328  Finance Office: Mastis budget increased by $291K after review.
+#0329  Finance Office: Withdraw update #0007.
+#0330  Operations chat: Mastis weekly sync moved to Wednesdays.
+#0331  Engineering email: Mastis weekly sync moved to Mondays.
+#0332  Finance Office: Mastis budget decreased by $227K.
+#0333  Finance Office: Mastis budget decreased by $115K after review.
+#0334  Finance Office: Mastis budget decreased by $50K.
+#0335  Finance Office: Mastis budget increased by $2K after review.
+#0336  Vendor call: Mastis design review moved to Room 5B.
+#0337  Finance Office: Withdraw update #0328; it was entered in error.
+#0338  Finance Office: Mastis budget increased by $55K per the revised plan.
+#0339  Finance Office: Mastis budget increased by $5K after review.
+#0340  Operations chat: Mastis kickoff moved to Building 7.
+#0341  Vendor call: Mastis documentation moved to the shared drive.
+#0342  Finance Office: Mastis budget increased by $75K after review.
+#0343  Finance Office: Mastis budget decreased by $65K per the revised plan.
+#0344  Vendor call: Mastis sprint 29 retrospective notes posted.
+#0345  Legal email: Mastis sprint 5 retrospective notes posted.
+#0346  Finance Office: Mastis budget increased by $40K per the revised plan.
+#0347  Finance Office: Mastis audit notes filed.
+#0348  Finance Office: Mastis budget decreased by $65K.
+#0349  Facilities ticket: Mastis kickoff moved to Building 7.
+#0350  Operations chat: Mastis kickoff moved to Building 7.
+#0351  Finance Office: Mastis budget increased by $80K after review.
+#0352  Finance Office: Withdraw update #0183.
+#0353  Finance Office: Mastis budget decreased by $169K per the revised plan.
+#0354  Legal email: Mastis kickoff moved to Building 2.
+#0355  Finance Office: Mastis budget increased by $503K.
+#0356  Finance Office: Withdraw update #0087; it was entered in error.
+#0357  Finance Office: Withdraw update #0225.
+#0358  Legal email: Mastis risk register updated with 5 new items.
+#0359  Finance Office: Mastis budget increased by $469K per the revised plan.
+#0360  Facilities ticket: Mastis design review moved to Room 6D.
+#0361  Marketing email: Mastis kickoff moved to Building 5.
+#0362  Legal email: Mastis weekly sync moved to Mondays.
+#0363  Legal email: Mastis weekly sync moved to Tuesdays.
+#0364  Finance Office: Mastis budget decreased by $49K after review.
+#0365  Finance Office: Mastis budget decreased by $493K.
+#0366  Finance Office: Withdraw update #0123; it was entered in error.
+#0367  Finance Office: Mastis budget decreased by $35K.
+#0368  Finance Office: Mastis budget decreased by $326K.
+#0369  Finance Office: Mastis budget increased by $45K.
+#0370  Finance Office: Withdraw update #0136.
+#0371  Vendor call: Mastis site visit confirmed for Thursday.
+#0372  Sales update: Mastis kickoff moved to Building 5.
+#0373  Finance Office: Withdraw update #0159.
+#0374  Finance Office: Mastis budget increased by $20K.
+#0375  Finance Office: Mastis budget decreased by $75K per the revised plan.
+#0376  Finance Office: Mastis budget decreased by $70K per the revised plan.
+#0377  Operations chat: Mastis design review moved to Room 4D.
+#0378  Engineering email: Mastis weekly sync moved to Fridays.
+#0379  Finance Office: Mastis budget decreased by $20K after review.
+#0380  Marketing email: Mastis weekly sync moved to Wednesdays.
+#0381  Finance Office: Mastis budget increased by $110K.
+#0382  Operations chat: Mastis design review moved to Room 5A.
+#0383  Finance Office: Withdraw update #0081.
+#0384  Sales update: Mastis kickoff moved to Building 2.
+#0385  Finance Office: Withdraw update #0222.
+#0386  Vendor call: Mastis risk register updated with 9 new items.
+#0387  Finance Office: Mastis budget increased by $60K after review.
+#0388  Finance Office: Mastis budget decreased by $60K per the revised plan.
+#0389  Finance Office: Mastis budget decreased by $110K after review.
+#0390  Finance Office: Mastis budget increased by $312K per the revised plan.
+#0391  Finance Office: Mastis budget decreased by $45K per the revised plan.
+#0392  Vendor call: Mastis kickoff moved to Building 9.
+#0393  Sales update: Mastis design review moved to Room 1A.
+#0394  Finance Office: Mastis budget increased by $5K per the revised plan.
+#0395  Finance Office: Mastis budget increased by $105K after review.
+#0396  Finance Office: Mastis cost center code changed to FC-9316.
+#0397  Finance Office: Withdraw update #0355.
+#0398  Finance Office: Mastis budget increased by $150K after review.
+#0399  Finance Office: Mastis budget decreased by $100K after review.
+#0400  Finance Office: Mastis budget increased by $10K after review.
+#0401  Vendor call: Mastis test environment back online.
+#0402  Engineering email: Mastis design review moved to Room 1D.
+#0403  Finance Office: Mastis budget decreased by $472K.
+#0404  PMO note: Mastis security review passed.
+#0405  Operations chat: Mastis kickoff moved to Building 4.
+#0406  Finance Office: Mastis budget decreased by $75K after review.
+#0407  Operations chat: Mastis status report filed for week 8.
+#0408  Marketing email: Mastis documentation moved to the shared drive.
+#0409  Finance Office: Withdraw update #0214; it was entered in error.
+#0410  Operations chat: Mastis weekly sync moved to Fridays.
+#0411  Finance Office: Withdraw update #0364; it was entered in error.
+#0412  Finance Office: Mastis budget increased by $55K.
+#0413  Sales update: Mastis site visit confirmed for Wednesday.
+#0414  Engineering email: Mastis sprint 12 retrospective notes posted.
+#0415  Facilities ticket: Mastis risk register updated with 7 new items.
+#0416  Finance Office: Mastis budget increased by $90K.
+#0417  Finance Office: Mastis budget decreased by $10K after review.
+#0418  Engineering email: Mastis documentation moved to the shared drive.
+#0419  Finance Office: Mastis budget decreased by $125K.
+#0420  Finance Office: Mastis budget increased by $559K per the revised plan.
+#0421  Finance Office: Withdraw update #0126.
+#0422  Finance Office: Mastis budget decreased by $30K after review.
+#0423  PMO note: Mastis test environment back online.
+#0424  Finance Office: Mastis budget decreased by $95K.
+#0425  Finance Office: Mastis budget decreased by $55K.
+#0426  Finance Office: Mastis budget increased by $135K per the revised plan.
+#0427  Finance Office: Mastis budget decreased by $80K after review.
+#0428  Finance Office: Mastis budget increased by $140K.
+#0429  Finance Office: Mastis budget decreased by $105K after review.
+#0430  Finance Office: Mastis budget increased by $237K per the revised plan.
+#0431  Finance Office: Mastis budget decreased by $50K per the revised plan.
+#0432  Finance Office: Mastis budget decreased by $476K.
+#0433  Finance Office: Mastis budget increased by $130K after review.
+#0434  Finance Office: Mastis budget decreased by $139K per the revised plan.
+#0435  Finance Office: Withdraw update #0150.
+#0436  Finance Office: Mastis budget increased by $224K after review.
+#0437  Legal email: Mastis status report filed for week 37.
+#0438  Legal email: Mastis status report filed for week 38.
+#0439  Marketing email: Mastis weekly sync moved to Fridays.
+#0440  Finance Office: Mastis audit notes filed.
+#0441  Finance Office: Mastis budget increased by $35K.
+#0442  Finance Office: Mastis budget decreased by $140K.
+#0443  Finance Office: Withdraw update #0229; it was entered in error.
+#0444  Finance Office: Mastis budget increased by $334K per the revised plan.
+#0445  Finance Office: Withdraw update #0282.
+#0446  Sales update: Mastis kickoff moved to Building 7.
+#0447  Facilities ticket: Mastis kickoff moved to Building 3.
+#0448  PMO note: Mastis design review moved to Room 1C.
+#0449  Finance Office: Mastis budget increased by $10K per the revised plan.
+#0450  Finance Office: Reminder: Mastis expense reports are due Wednesday.
+#0451  Operations chat: Mastis status report filed for week 43.
+#0452  Finance Office: Mastis budget decreased by $135K per the revised plan.
+#0453  Finance Office: Mastis budget increased by $120K.
+#0454  Operations chat: Mastis site visit confirmed for Monday.
+#0455  Finance Office: Withdraw update #0295.
+#0456  Finance Office: Mastis budget increased by $154K per the revised plan.
+#0457  Finance Office: Mastis budget increased by $25K after review.
+#0458  Finance Office: Mastis budget increased by $5K.
+#0459  Finance Office: Mastis budget decreased by $45K after review.
+#0460  Finance Office: Mastis budget decreased by $125K.
+#0461  Finance Office: Mastis budget increased by $71K.
+#0462  Finance Office: Withdraw update #0067.
+#0463  Finance Office: Mastis budget increased by $35K per the revised plan.
+#0464  Vendor call: Mastis risk register updated with 2 new items.
+#0465  Marketing email: Mastis test environment back online.
+#0466  Marketing email: Mastis test environment back online.
+#0467  Finance Office: Withdraw update #0430.
+#0468  Finance Office: Withdraw update #0209; it was entered in error.
+#0469  Finance Office: Mastis budget decreased by $308K per the revised plan.
+#0470  Finance Office: Mastis budget increased by $80K after review.
+#0471  Finance Office: Mastis budget increased by $80K after review.
+#0472  Legal email: Mastis test environment back online.
+#0473  Finance Office: Mastis budget increased by $30K per the revised plan.
+#0474  Finance Office: Mastis budget decreased by $65K.
+#0475  Finance Office: Withdraw update #0215.
+#0476  Finance Office: Mastis budget decreased by $117K.
+#0477  Finance Office: Mastis budget increased by $20K.
+#0478  Finance Office: Withdraw update #0332.
+#0479  Finance Office: Withdraw update #0476.
+#0480  Finance Office: Mastis budget decreased by $491K per the revised plan.
+#0481  Finance Office: Mastis receipts scanned.
+#0482  Vendor call: Mastis kickoff moved to Building 9.
+#0483  Finance Office: Withdraw update #0357.
+#0484  Legal email: Mastis test environment back online.
+#0485  Engineering email: Mastis security review passed.
+#0486  Finance Office: Mastis budget increased by $125K.
+#0487  Finance Office: Mastis budget decreased by $115K.
+#0488  Finance Office: Withdraw update #0031.
+#0489  Finance Office: Reminder: Mastis expense reports are due Friday.
+#0490  Finance Office: Mastis budget increased by $10K after review.
+#0491  Facilities ticket: Mastis kickoff moved to Building 8.
+#0492  Sales update: Mastis sprint 26 retrospective notes posted.
+#0493  Finance Office: Mastis budget decreased by $140K.
+#0494  Facilities ticket: Mastis status report filed for week 33.
+#0495  Facilities ticket: Mastis documentation moved to the shared drive.
+#0496  Marketing email: Mastis kickoff moved to Building 3.
+#0497  Finance Office: Mastis budget increased by $15K.
+#0498  Finance Office: Mastis budget increased by $90K after review.
+#0499  PMO note: Mastis status report filed for week 26.
+#0500  Finance Office: Mastis budget increased by $17K after review.
+#0501  Finance Office: Mastis budget increased by $294K after review.
+#0502  Finance Office: Withdraw update #0467; it was entered in error.
+#0503  Finance Office: Mastis budget increased by $40K after review.
+#0504  PMO note: Mastis sprint 21 retrospective notes posted.
+#0505  Facilities ticket: Mastis kickoff moved to Building 7.
+#0506  Legal email: Mastis weekly sync moved to Tuesdays.
+#0507  Finance Office: Mastis budget increased by $75K.
+#0508  Finance Office: Withdraw update #0061.
+#0509  PMO note: Mastis status report filed for week 18.
+#0510  Sales update: Mastis test environment back online.
+#0511  Finance Office: Withdraw update #0317.
+#0512  Finance Office: Mastis budget decreased by $70K.
+#0513  Finance Office: Mastis budget decreased by $50K per the revised plan.
+#0514  PMO note: Mastis weekly sync moved to Thursdays.
+#0515  Finance Office: Mastis budget decreased by $75K per the revised plan.
+#0516  Finance Office: Mastis budget increased by $105K.
+#0517  Finance Office: Mastis budget increased by $60K per the revised plan.
+#0518  Finance Office: Withdraw update #0200; it was entered in error.
+#0519  Finance Office: Mastis budget increased by $70K after review.
+#0520  Finance Office: Mastis budget increased by $502K.
+#0521  Legal email: Mastis design review moved to Room 4A.
+#0522  Facilities ticket: Mastis test environment back online.
+#0523  Finance Office: Mastis budget increased by $150K after review.
+#0524  Finance Office: Mastis budget increased by $20K per the revised plan.
+#0525  Finance Office: Mastis budget increased by $276K after review.
+#0526  Finance Office: Mastis budget increased by $125K per the revised plan.
+#0527  Finance Office: Withdraw update #0115.
+#0528  Finance Office: Mastis budget increased by $20K after review.
+#0529  Finance Office: Mastis budget decreased by $60K.
+#0530  Vendor call: Mastis sprint 11 retrospective notes posted.
+#0531  Finance Office: Mastis budget decreased by $5K per the revised plan.
+#0532  Finance Office: Mastis budget increased by $10K.
+#0533  Finance Office: Mastis budget increased by $135K.
+#0534  Engineering email: Mastis kickoff moved to Building 4.
+#0535  Finance Office: Mastis budget decreased by $70K per the revised plan.
+#0536  Finance Office: Mastis budget increased by $85K per the revised plan.
+#0537  Finance Office: Mastis budget decreased by $105K per the revised plan.
+#0538  Finance Office: Mastis budget increased by $35K after review.
+#0539  Finance Office: Withdraw update #0420; it was entered in error.
+#0540  Finance Office: Mastis budget decreased by $55K.
+#0541  Finance Office: Mastis budget decreased by $562K after review.
+#0542  PMO note: Mastis demo rescheduled to Monday afternoon.
+#0543  Legal email: Mastis test environment back online.
+#0544  Vendor call: Mastis test environment back online.
+#0545  Finance Office: Mastis budget increased by $65K per the revised plan.
+#0546  Finance Office: Mastis budget increased by $588K.
+#0547  Vendor call: Mastis design review moved to Room 1C.
+#0548  Finance Office: Mastis budget decreased by $252K after review.
+#0549  Legal email: Mastis site visit confirmed for Friday.
+#0550  Finance Office: Mastis budget increased by $50K.
+#0551  Sales update: Mastis kickoff moved to Building 2.
+#0552  Finance Office: Mastis budget increased by $65K.
+#0553  Vendor call: Mastis site visit confirmed for Tuesday.
+#0554  Operations chat: Mastis status report filed for week 20.
+#0555  PMO note: Mastis weekly sync moved to Fridays.
+#0556  Engineering email: Mastis kickoff moved to Building 6.
+#0557  Marketing email: Mastis status report filed for week 35.
+#0558  Facilities ticket: Mastis security review passed.
+#0559  Finance Office: Mastis budget increased by $50K.
+#0560  Vendor call: Mastis kickoff moved to Building 8.
+#0561  Engineering email: Mastis status report filed for week 25.
+#0562  Finance Office: Mastis budget increased by $105K after review.
+#0563  Finance Office: Mastis budget decreased by $25K after review.
+#0564  Finance Office: Mastis budget increased by $50K after review.
+#0565  Finance Office: Mastis budget increased by $211K.
+#0566  Finance Office: Mastis budget decreased by $266K after review.
+#0567  Finance Office: Mastis budget increased by $30K per the revised plan.
+#0568  Finance Office: Mastis budget increased by $65K per the revised plan.
+#0569  Vendor call: Mastis kickoff moved to Building 8.
+#0570  Legal email: Mastis test environment back online.
+#0571  Finance Office: Mastis budget increased by $15K per the revised plan.
+#0572  PMO note: Mastis design review moved to Room 6C.
+#0573  Finance Office: Mastis cost center code changed to FC-1988.
+#0574  Finance Office: Withdraw update #0278.
+#0575  PMO note: Mastis site visit confirmed for Tuesday.
+#0576  Finance Office: Withdraw update #0455; it was entered in error.
+#0577  Finance Office: Mastis budget decreased by $251K per the revised plan.
+#0578  Marketing email: Mastis design review moved to Room 3B.
+#0579  Finance Office: Mastis budget decreased by $25K after review.
+#0580  Finance Office: Mastis budget increased by $333K after review.
+#0581  Finance Office: Withdraw update #0576; it was entered in error.
+#0582  Legal email: Mastis documentation moved to the shared drive.
+#0583  Finance Office: Mastis budget increased by $349K per the revised plan.
+#0584  Finance Office: Mastis budget decreased by $10K after review.
+#0585  Facilities ticket: Mastis test environment back online.
+#0586  Vendor call: Mastis status report filed for week 41.
+#0587  Finance Office: Withdraw update #0326; it was entered in error.
+#0588  Finance Office: Withdraw update #0546.
+#0589  Legal email: Mastis sprint 16 retrospective notes posted.
+#0590  Marketing email: Mastis weekly sync moved to Thursdays.
+#0591  PMO note: Mastis design review moved to Room 3A.
+#0592  Finance Office: Withdraw update #0577; it was entered in error.
+#0593  Finance Office: Mastis budget increased by $244K after review.
+#0594  Finance Office: Mastis budget decreased by $80K.
+#0595  Finance Office: Mastis budget increased by $80K after review.
+#0596  Finance Office: Mastis budget increased by $140K per the revised plan.
+#0597  Legal email: Mastis test environment back online.
+#0598  Finance Office: Mastis budget increased by $221K after review.
+#0599  Finance Office: Withdraw update #0056.
+#0600  Marketing email: Mastis kickoff moved to Building 3.
+#0601  Legal email: Mastis weekly sync moved to Tuesdays.
+#0602  Finance Office: Mastis budget decreased by $10K.
+#0603  Finance Office: Mastis budget decreased by $70K per the revised plan.
+#0604  Marketing email: Mastis weekly sync moved to Mondays.
+#0605  Legal email: Mastis design review moved to Room 4C.
+#0606  Finance Office: Withdraw update #0352.
+#0607  Marketing email: Mastis demo rescheduled to Thursday afternoon.
+#0608  Marketing email: Mastis site visit confirmed for Monday.
+#0609  Finance Office: Mastis budget decreased by $70K per the revised plan.
+#0610  Finance Office: Mastis budget decreased by $35K per the revised plan.
+#0611  Finance Office: Mastis budget decreased by $95K after review.
+#0612  Finance Office: Mastis budget decreased by $140K.
+#0613  Finance Office: Withdraw update #0132; it was entered in error.
+#0614  Finance Office: Mastis budget decreased by $30K after review.
+#0615  Finance Office: Withdraw update #0469; it was entered in error.
+#0616  Finance Office: Mastis budget decreased by $106K.
+#0617  Engineering email: Mastis weekly sync moved to Mondays.
+#0618  Finance Office: Mastis budget increased by $35K per the revised plan.
+#0619  Finance Office: Mastis budget decreased by $20K.
+#0620  Finance Office: Mastis budget decreased by $60K after review.
+#0621  Finance Office: Mastis budget decreased by $538K.
+#0622  Finance Office: Withdraw update #0101; it was entered in error.
+#0623  Finance Office: Mastis budget decreased by $135K after review.
+#0624  Sales update: Mastis test environment back online.
+#0625  Finance Office: Mastis budget increased by $145K after review.
+#0626  Vendor call: Mastis sprint 46 retrospective notes posted.
+#0627  Finance Office: Mastis budget increased by $578K after review.
+#0628  Finance Office: Mastis budget decreased by $135K.
+#0629  Finance Office: Mastis budget decreased by $292K per the revised plan.
+#0630  Legal email: Mastis weekly sync moved to Wednesdays.
+#0631  Finance Office: Mastis budget increased by $483K after review.
+#0632  Finance Office: Mastis budget decreased by $85K.
+#0633  Finance Office: Withdraw update #0593.
+#0634  Finance Office: Mastis budget decreased by $60K.
+#0635  Finance Office: Mastis budget decreased by $90K per the revised plan.
+#0636  Engineering email: Mastis security review passed.
+#0637  Marketing email: Mastis kickoff moved to Building 8.
+#0638  Finance Office: Mastis budget decreased by $20K after review.
+#0639  Finance Office: Mastis budget decreased by $135K after review.
+#0640  Finance Office: Mastis budget decreased by $115K after review.
+#0641  Sales update: Mastis design review moved to Room 5A.
+#0642  Legal email: Mastis sprint 39 retrospective notes posted.
+#0643  Sales update: Mastis weekly sync moved to Wednesdays.
+#0644  Finance Office: Mastis budget increased by $145K.
+#0645  Facilities ticket: Mastis status report filed for week 31.
+#0646  Finance Office: Mastis budget increased by $75K.
+#0647  Facilities ticket: Mastis design review moved to Room 1D.
+#0648  Sales update: Mastis kickoff moved to Building 3.
+#0649  Finance Office: Withdraw update #0259; it was entered in error.
+#0650  Finance Office: Mastis budget increased by $25K.
+#0651  Finance Office: Mastis invoice batch FC-8377 archived.
+#0652  Finance Office: Mastis budget increased by $40K.
+#0653  Finance Office: Mastis budget decreased by $110K per the revised plan.
+#0654  Facilities ticket: Mastis design review moved to Room 5B.
+#0655  PMO note: Mastis site visit confirmed for Friday.
+#0656  Vendor call: Mastis kickoff moved to Building 6.
+#0657  Finance Office: Mastis budget decreased by $411K after review.
+#0658  Finance Office: Mastis budget decreased by $60K.
+#0659  Finance Office: Mastis budget increased by $81K.
+#0660  Finance Office: Withdraw update #0581; it was entered in error.
+#0661  Finance Office: Withdraw update #0288.
+#0662  Finance Office: Withdraw update #0063.
+#0663  Finance Office: Withdraw update #0616.
+#0664  Finance Office: Mastis budget increased by $324K.
+#0665  Finance Office: Mastis budget decreased by $20K per the revised plan.
+#0666  Sales update: Mastis sprint 35 retrospective notes posted.
+#0667  PMO note: Mastis site visit confirmed for Wednesday.
+#0668  Finance Office: Mastis budget decreased by $492K after review.
+#0669  PMO note: Mastis site visit confirmed for Thursday.
+#0670  Finance Office: Mastis budget decreased by $467K per the revised plan.
+#0671  Finance Office: Mastis budget increased by $20K after review.
+#0672  Finance Office: Mastis cost center code changed to FC-6956.
+#0673  Finance Office: Mastis budget increased by $10K after review.
+#0674  Finance Office: Mastis budget increased by $80K after review.
+#0675  Finance Office: Mastis budget increased by $140K per the revised plan.
+#0676  Finance Office: Withdraw update #0165; it was entered in error.
+#0677  Finance Office: Withdraw update #0502.
+#0678  PMO note: Mastis test environment back online.
+#0679  Finance Office: Withdraw update #0313; it was entered in error.
+#0680  Finance Office: Mastis budget increased by $568K.
+#0681  Finance Office: Mastis budget increased by $115K after review.
+#0682  Finance Office: Mastis budget decreased by $35K.
+#0683  Marketing email: Mastis security review passed.
+#0684  Finance Office: Mastis budget increased by $140K after review.
+#0685  Finance Office: Mastis budget increased by $90K per the revised plan.
+#0686  Engineering email: Mastis weekly sync moved to Thursdays.
+#0687  Vendor call: Mastis sprint 7 retrospective notes posted.
+#0688  Facilities ticket: Mastis design review moved to Room 4B.
+#0689  Finance Office: Mastis budget increased by $125K.
+#0690  Finance Office: Withdraw update #0434.
+#0691  Finance Office: Withdraw update #0276.
+#0692  PMO note: Mastis weekly sync moved to Fridays.
+#0693  Finance Office: Mastis budget decreased by $135K after review.
+#0694  Sales update: Mastis site visit confirmed for Monday.
+#0695  Finance Office: Mastis budget decreased by $163K.
+#0696  Finance Office: Withdraw update #0444; it was entered in error.
+#0697  Engineering email: Mastis demo rescheduled to Monday afternoon.
+#0698  Finance Office: Mastis budget decreased by $45K.
+#0699  PMO note: Mastis kickoff moved to Building 3.
+#0700  Operations chat: Mastis weekly sync moved to Wednesdays.
+#0701  Finance Office: Mastis budget increased by $45K.
+#0702  Finance Office: Mastis budget decreased by $130K after review.
+#0703  Finance Office: Mastis budget decreased by $25K per the revised plan.
+#0704  Marketing email: Mastis site visit confirmed for Wednesday.
+#0705  Vendor call: Mastis weekly sync moved to Wednesdays.
+#0706  Finance Office: Withdraw update #0629.
+#0707  Finance Office: Mastis budget increased by $351K per the revised plan.
+#0708  Finance Office: Withdraw update #0627.
+#0709  Finance Office: Mastis budget decreased by $148K per the revised plan.
+#0710  Engineering email: Mastis sprint 39 retrospective notes posted.
+#0711  Finance Office: Mastis budget decreased by $150K.
+#0712  Engineering email: Mastis test environment back online.
+#0713  Marketing email: Mastis design review moved to Room 1D.
+#0714  Finance Office: Mastis purchase order FC-4059 closed.
+#0715  Finance Office: Mastis budget decreased by $50K.
+#0716  Finance Office: Mastis budget decreased by $145K after review.
+#0717  Finance Office: Mastis budget decreased by $478K.
+#0718  Finance Office: Mastis budget increased by $6K.
+#0719  Finance Office: Mastis budget increased by $145K after review.
+#0720  Finance Office: Withdraw update #0659; it was entered in error.
+#0721  Sales update: Mastis status report filed for week 4.
+#0722  Finance Office: Mastis budget decreased by $35K.
+#0723  Finance Office: Mastis budget increased by $10K after review.
+#0724  Finance Office: Mastis budget decreased by $50K.
+#0725  Vendor call: Mastis status report filed for week 30.
+#0726  Marketing email: Mastis weekly sync moved to Mondays.
+#0727  Sales update: Mastis sprint 25 retrospective notes posted.
+#0728  Finance Office: Mastis budget increased by $60K after review.
+#0729  Finance Office: Mastis budget decreased by $261K per the revised plan.
+#0730  Operations chat: Mastis status report filed for week 20.
+#0731  Sales update: Mastis security review passed.
+#0732  Marketing email: Mastis test environment back online.
+#0733  Vendor call: Mastis weekly sync moved to Tuesdays.
+#0734  Finance Office: Mastis budget increased by $150K after review.
+#0735  Marketing email: Mastis kickoff moved to Building 3.
+#0736  Finance Office: Mastis budget increased by $521K per the revised plan.
+#0737  Legal email: Mastis site visit confirmed for Friday.
+#0738  Sales update: Mastis kickoff moved to Building 4.
+#0739  Facilities ticket: Mastis vendor onboarding call scheduled for Tuesday.
+#0740  Engineering email: Mastis security review passed.
+#0741  Facilities ticket: Mastis test environment back online.
+#0742  Finance Office: Mastis budget increased by $60K.
+#0743  Finance Office: Withdraw update #0359.
+#0744  Finance Office: Withdraw update #0397.
+#0745  Finance Office: Withdraw update #0690; it was entered in error.
+#0746  Finance Office: Withdraw update #0729.
+#0747  Finance Office: Mastis budget increased by $519K per the revised plan.
+#0748  Finance Office: Mastis budget decreased by $115K.
+#0749  Finance Office: Mastis budget increased by $95K per the revised plan.
+#0750  Finance Office: Mastis budget increased by $135K.
+#0751  Finance Office: Withdraw update #0142; it was entered in error.
+#0752  Finance Office: Withdraw update #0631; it was entered in error.
+#0753  PMO note: Mastis kickoff moved to Building 6.
+#0754  Sales update: Mastis weekly sync moved to Wednesdays.
+#0755  Finance Office: Mastis budget decreased by $419K.
+#0756  Finance Office: Withdraw update #0114; it was entered in error.
+#0757  Finance Office: Withdraw update #0368.
+#0758  Facilities ticket: Mastis kickoff moved to Building 9.
+#0759  Finance Office: Mastis budget decreased by $145K per the revised plan.
+#0760  Finance Office: Mastis audit notes filed.
+#0761  Finance Office: Mastis budget increased by $150K.
+#0762  Finance Office: Withdraw update #0747.
+#0763  Facilities ticket: Mastis status report filed for week 48.
+#0764  Sales update: Mastis kickoff moved to Building 6.
+#0765  Sales update: Mastis weekly sync moved to Thursdays.
+#0766  Finance Office: Mastis budget increased by $130K after review.
+#0767  Vendor call: Mastis site visit confirmed for Monday.
+#0768  Finance Office: Withdraw update #0456.
+#0769  PMO note: Mastis status report filed for week 9.
+#0770  Operations chat: Mastis risk register updated with 6 new items.
+#0771  Finance Office: Mastis budget increased by $86K per the revised plan.
+#0772  Vendor call: Mastis test environment back online.
+#0773  Finance Office: Mastis budget increased by $130K after review.
+#0774  Marketing email: Mastis site visit confirmed for Friday.
+#0775  Facilities ticket: Mastis design review moved to Room 4B.
+#0776  Finance Office: Mastis budget increased by $135K.
+#0777  Sales update: Mastis kickoff moved to Building 4.
+#0778  Vendor call: Mastis weekly sync moved to Fridays.
+#0779  Marketing email: Mastis security review passed.
+#0780  Finance Office: Mastis budget increased by $50K after review.
+#0781  Vendor call: Mastis status report filed for week 26.
+#0782  Finance Office: Mastis budget increased by $65K.
+#0783  Operations chat: Mastis sprint 20 retrospective notes posted.
+#0784  Finance Office: Mastis budget increased by $50K.
+#0785  Finance Office: Withdraw update #0468; it was entered in error.
+#0786  Finance Office: Mastis budget increased by $15K per the revised plan.
+#0787  Finance Office: Mastis budget increased by $105K after review.
+#0788  Finance Office: Mastis budget increased by $115K.
+#0789  Finance Office: Mastis budget increased by $105K after review.
+#0790  Finance Office: Withdraw update #0329; it was entered in error.
+#0791  Engineering email: Mastis sprint 8 retrospective notes posted.
+#0792  PMO note: Mastis security review passed.
+#0793  Finance Office: Mastis budget increased by $95K.
+#0794  Finance Office: Mastis budget decreased by $140K per the revised plan.
+#0795  Legal email: Mastis demo rescheduled to Wednesday afternoon.
+#0796  Sales update: Mastis status report filed for week 47.
+#0797  Finance Office: Mastis budget increased by $135K after review.
+#0798  Vendor call: Mastis weekly sync moved to Tuesdays.
+#0799  PMO note: Mastis kickoff moved to Building 8.
+#0800  Finance Office: Mastis budget increased by $85K.
+#0801  Finance Office: Mastis budget increased by $145K.
+#0802  Marketing email: Mastis test environment back online.
+#0803  Finance Office: Mastis budget increased by $35K.
+#0804  Finance Office: Mastis budget decreased by $135K per the revised plan.
+#0805  PMO note: Mastis test environment back online.
+#0806  Finance Office: Mastis budget decreased by $70K after review.
+#0807  Finance Office: Mastis budget decreased by $50K.
+#0808  Finance Office: Mastis budget increased by $105K per the revised plan.
+#0809  Legal email: Mastis weekly sync moved to Tuesdays.
+#0810  Sales update: Mastis test environment back online.
+#0811  Finance Office: Mastis finance review moved to Room 6D.
+#0812  Finance Office: Mastis budget increased by $15K after review.
+#0813  Engineering email: Mastis test environment back online.
+#0814  Marketing email: Mastis site visit confirmed for Wednesday.
+#0815  Finance Office: Withdraw update #0664.
+#0816  Finance Office: Mastis budget increased by $30K per the revised plan.
+#0817  Engineering email: Mastis site visit confirmed for Wednesday.
+#0818  Marketing email: Mastis security review passed.
+#0819  PMO note: Mastis design review moved to Room 5A.
+#0820  PMO note: Mastis security review passed.
+#0821  Operations chat: Mastis security review passed.
+#0822  Finance Office: Mastis budget increased by $484K after review.
+#0823  Finance Office: Mastis budget decreased by $145K.
+#0824  Finance Office: Mastis budget increased by $120K after review.
+#0825  Finance Office: Mastis budget increased by $422K.
+#0826  Operations chat: Mastis kickoff moved to Building 4.
+#0827  Finance Office: Withdraw update #0680; it was entered in error.
+#0828  Finance Office: Mastis budget increased by $80K per the revised plan.
+#0829  Finance Office: Mastis budget increased by $40K.
+#0830  Finance Office: Withdraw update #0335.
+#0831  Operations chat: Mastis kickoff moved to Building 2.
+#0832  Finance Office: Mastis budget increased by $135K.
+#0833  Finance Office: Mastis budget increased by $110K per the revised plan.
+#0834  Sales update: Mastis vendor onboarding call scheduled for Wednesday.
+#0835  Facilities ticket: Mastis design review moved to Room 2B.
+#0836  Finance Office: Mastis budget increased by $10K per the revised plan.
+#0837  Finance Office: Mastis finance review moved to Room 6A.
+#0838  Finance Office: Mastis budget increased by $85K.
+#0839  Finance Office: Mastis budget increased by $5K after review.
+#0840  Finance Office: Mastis budget increased by $70K after review.
+#0841  Finance Office: Mastis budget increased by $75K.
+#0842  Finance Office: Mastis quarterly audit scheduled for Friday.
+#0843  Finance Office: Withdraw update #0588.
+#0844  Sales update: Mastis site visit confirmed for Monday.
+#0845  Finance Office: Mastis budget decreased by $35K after review.
+#0846  Finance Office: Mastis budget decreased by $30K.
+#0847  Finance Office: Mastis budget decreased by $85K.
+#0848  Finance Office: Mastis budget decreased by $20K.
+#0849  Vendor call: Mastis kickoff moved to Building 5.
+#0850  Vendor call: Mastis test environment back online.
+#0851  PMO note: Mastis weekly sync moved to Thursdays.
+#0852  Vendor call: Mastis design review moved to Room 6A.
+#0853  Engineering email: Mastis sprint 22 retrospective notes posted.
+#0854  Finance Office: Withdraw update #0167; it was entered in error.
+#0855  Legal email: Mastis status report filed for week 45.
+#0856  Finance Office: Mastis budget decreased by $45K after review.
+#0857  Engineering email: Mastis sprint 12 retrospective notes posted.
+#0858  Operations chat: Mastis weekly sync moved to Tuesdays.
+#0859  PMO note: Mastis test environment back online.
+#0860  Facilities ticket: Mastis site visit confirmed for Thursday.
+#0861  Finance Office: Mastis budget increased by $426K after review.
+#0862  Finance Office: Withdraw update #0744.
+#0863  Finance Office: Mastis budget increased by $341K.
+#0864  Finance Office: Mastis budget decreased by $80K.
+#0865  Finance Office: Mastis budget increased by $120K after review.
+#0866  Sales update: Mastis design review moved to Room 6D.
+#0867  Marketing email: Mastis status report filed for week 45.
+#0868  Engineering email: Mastis demo rescheduled to Monday afternoon.
+#0869  Finance Office: Withdraw update #0175; it was entered in error.
+#0870  PMO note: Mastis sprint 45 retrospective notes posted.
+#0871  Finance Office: Withdraw update #0436; it was entered in error.
+#0872  Engineering email: Mastis kickoff moved to Building 3.
+#0873  Operations chat: Mastis weekly sync moved to Wednesdays.
+#0874  Finance Office: Mastis budget decreased by $100K per the revised plan.
+#0875  Sales update: Mastis status report filed for week 19.
+#0876  Operations chat: Mastis test environment back online.
+#0877  Engineering email: Mastis weekly sync moved to Thursdays.
+#0878  Finance Office: Mastis budget increased by $55K per the revised plan.
+#0879  Finance Office: Mastis budget increased by $30K.
+#0880  Marketing email: Mastis site visit confirmed for Monday.
+#0881  PMO note: Mastis site visit confirmed for Monday.
+#0882  Finance Office: Mastis budget decreased by $35K.
+#0883  Vendor call: Mastis design review moved to Room 1D.
+#0884  Finance Office: Reminder: Mastis expense reports are due Wednesday.
+#0885  Vendor call: Mastis design review moved to Room 6D.
+#0886  Finance Office: Mastis budget increased by $135K per the revised plan.
+#0887  Finance Office: Mastis quarterly audit scheduled for Wednesday.
+#0888  Engineering email: Mastis weekly sync moved to Thursdays.
+#0889  Finance Office: Withdraw update #0186.
+#0890  Vendor call: Mastis documentation moved to the shared drive.
+#0891  Legal email: Mastis site visit confirmed for Friday.
+#0892  Finance Office: Mastis budget increased by $25K per the revised plan.
+#0893  Finance Office: Withdraw update #0501; it was entered in error.
+#0894  Finance Office: Mastis budget decreased by $110K after review.
+#0895  Vendor call: Mastis status report filed for week 45.
+#0896  PMO note: Mastis design review moved to Room 2B.
+#0897  Finance Office: Mastis budget decreased by $60K.
+#0898  PMO note: Mastis status report filed for week 18.
+#0899  Finance Office: Mastis budget increased by $110K after review.
+#0900  Finance Office: Mastis budget decreased by $140K after review.
+#0901  Finance Office: Mastis budget decreased by $140K per the revised plan.
+#0902  Finance Office: Withdraw update #0708.
+#0903  Operations chat: Mastis kickoff moved to Building 5.
+#0904  Finance Office: Mastis budget increased by $120K.
+#0905  Finance Office: Withdraw update #0825.
+#0906  Engineering email: Mastis site visit confirmed for Thursday.
+#0907  Vendor call: Mastis weekly sync moved to Thursdays.
+#0908  Finance Office: Mastis cost center code changed to FC-3525.
+#0909  Finance Office: Mastis budget increased by $120K per the revised plan.
+#0910  Marketing email: Mastis test environment back online.
+#0911  Finance Office: Withdraw update #0461; it was entered in error.
+#0912  Finance Office: Mastis budget increased by $15K.
+#0913  Finance Office: Withdraw update #0366; it was entered in error.
+#0914  Finance Office: Mastis cost center code changed to FC-2660.
+#0915  Operations chat: Mastis status report filed for week 25.
+#0916  Finance Office: Mastis budget decreased by $115K per the revised plan.
+#0917  PMO note: Mastis sprint 43 retrospective notes posted.
+#0918  Marketing email: Mastis design review moved to Room 2D.
+#0919  Finance Office: Withdraw update #0421.
+#0920  Finance Office: Mastis budget increased by $145K after review.
+#0921  Finance Office: Withdraw update #0541; it was entered in error.
+#0922  Finance Office: Mastis budget increased by $135K after review.
+#0923  Finance Office: Mastis budget decreased by $80K.
+#0924  Finance Office: Mastis budget decreased by $75K.
+#0925  Engineering email: Mastis kickoff moved to Building 2.
+#0926  Finance Office: Mastis budget decreased by $35K.
+#0927  Finance Office: Mastis budget decreased by $130K per the revised plan.
+#0928  Vendor call: Mastis weekly sync moved to Mondays.
+#0929  Finance Office: Withdraw update #0011; it was entered in error.
+#0930  Finance Office: Mastis budget increased by $15K.
+#0931  Finance Office: Mastis budget increased by $150K per the revised plan.
+#0932  Finance Office: Mastis budget increased by $15K after review.
+#0933  Vendor call: Mastis site visit confirmed for Thursday.
+#0934  Finance Office: Mastis budget increased by $15K per the revised plan.
+#0935  Finance Office: Mastis budget increased by $120K.
+#0936  Facilities ticket: Mastis design review moved to Room 2B.
+#0937  Finance Office: Mastis purchase order FC-7501 closed.
+#0938  Finance Office: Mastis quarterly audit scheduled for Tuesday.
+#0939  Finance Office: Mastis budget decreased by $100K per the revised plan.
+#0940  Finance Office: Mastis budget decreased by $5K.
+#0941  Marketing email: Mastis demo rescheduled to Monday afternoon.
+#0942  Finance Office: Withdraw update #0709.
+#0943  Operations chat: Mastis status report filed for week 6.
+#0944  Finance Office: Mastis budget decreased by $217K.
+#0945  Sales update: Mastis weekly sync moved to Fridays.
+#0946  Finance Office: Mastis budget decreased by $55K.
+#0947  Finance Office: Mastis budget increased by $95K.
+#0948  Sales update: Mastis design review moved to Room 3B.
+#0949  Finance Office: Mastis budget decreased by $5K.
+#0950  Finance Office: Mastis budget decreased by $140K.
+#0951  Finance Office: Mastis budget increased by $140K.
+#0952  Sales update: Mastis test environment back online.
+#0953  Finance Office: Mastis budget increased by $60K after review.
+#0954  Finance Office: Mastis budget increased by $248K.
+#0955  Vendor call: Mastis weekly sync moved to Wednesdays.
+#0956  Finance Office: Mastis budget increased by $25K.
+#0957  Finance Office: Mastis budget decreased by $125K after review.
+#0958  Operations chat: Mastis weekly sync moved to Wednesdays.
+#0959  Operations chat: Mastis test environment back online.
+#0960  Finance Office: Withdraw update #0445.
+#0961  Sales update: Mastis design review moved to Room 3C.
+#0962  Engineering email: Mastis site visit confirmed for Monday.
+#0963  Finance Office: Mastis budget increased by $150K after review.
+#0964  Finance Office: Mastis budget decreased by $95K per the revised plan.
+#0965  Finance Office: Mastis budget decreased by $65K.
+#0966  Finance Office: Withdraw update #0411; it was entered in error.
+#0967  Sales update: Mastis weekly sync moved to Mondays.
+#0968  Finance Office: Mastis budget decreased by $30K after review.
+#0969  Finance Office: Mastis budget decreased by $80K after review.
+#0970  Operations chat: Mastis documentation moved to the shared drive.
+#0971  Engineering email: Mastis weekly sync moved to Fridays.
+#0972  Finance Office: Mastis budget decreased by $60K after review.
+#0973  Finance Office: Withdraw update #0736.
+#0974  Finance Office: Withdraw update #0337; it was entered in error.
+#0975  Operations chat: Mastis weekly sync moved to Wednesdays.
+#0976  Legal email: Mastis security review passed.
+#0977  Finance Office: Withdraw update #0443; it was entered in error.
+#0978  Finance Office: Mastis budget increased by $90K.
+#0979  Finance Office: Mastis budget increased by $5K after review.
+#0980  Finance Office: Mastis quarterly audit scheduled for Wednesday.
+#0981  Finance Office: Mastis budget decreased by $110K after review.
+#0982  Legal email: Mastis status report filed for week 15.
+#0983  Finance Office: Mastis budget increased by $453K per the revised plan.
+#0984  Finance Office: Mastis budget increased by $145K.
+#0985  Finance Office: Withdraw update #0695; it was entered in error.
+#0986  Finance Office: Mastis budget decreased by $65K after review.
+#0987  PMO note: Mastis weekly sync moved to Tuesdays.
+#0988  Finance Office: Mastis budget decreased by $70K after review.
+#0989  Finance Office: Withdraw update #0462; it was entered in error.
+#0990  Sales update: Mastis status report filed for week 37.
+#0991  Finance Office: Mastis budget decreased by $30K after review.
+#0992  Finance Office: Mastis budget decreased by $75K.
+#0993  Facilities ticket: Mastis demo rescheduled to Friday afternoon.
+#0994  Finance Office: Mastis budget decreased by $598K.
+#0995  Legal email: Mastis site visit confirmed for Tuesday.
+#0996  Operations chat: Mastis weekly sync moved to Tuesdays.
+#0997  Finance Office: Mastis budget increased by $65K per the revised plan.
+#0998  Finance Office: Mastis budget decreased by $60K per the revised plan.
+#0999  Finance Office: Mastis budget decreased by $115K per the revised plan.
+#1000  Finance Office: Mastis budget increased by $391K.
+#1001  Finance Office: Mastis budget decreased by $40K per the revised plan.
+#1002  Finance Office: Withdraw update #0771.
+#1003  Marketing email: Mastis test environment back online.
+#1004  Finance Office: Mastis budget decreased by $125K.
+#1005  Sales update: Mastis weekly sync moved to Thursdays.
+#1006  Finance Office: Withdraw update #0746.
+#1007  Facilities ticket: Mastis design review moved to Room 4C.
+#1008  Finance Office: Withdraw update #0657; it was entered in error.
+#1009  Operations chat: Mastis security review passed.
+#1010  Marketing email: Mastis site visit confirmed for Monday.
+#1011  Finance Office: Mastis budget increased by $25K.
+#1012  Finance Office: Withdraw update #0670.
+#1013  Sales update: Mastis documentation moved to the shared drive.
+#1014  Finance Office: Mastis budget increased by $21K.
+#1015  Sales update: Mastis status report filed for week 29.
+#1016  Finance Office: Mastis receipts scanned.
+#1017  Finance Office: Mastis budget decreased by $60K per the revised plan.
+#1018  Sales update: Mastis weekly sync moved to Wednesdays.
+#1019  Finance Office: Mastis budget decreased by $90K after review.
+#1020  Vendor call: Mastis weekly sync moved to Wednesdays.
+#1021  Finance Office: Mastis budget decreased by $30K after review.
+#1022  Sales update: Mastis site visit confirmed for Thursday.
+#1023  Finance Office: Mastis budget decreased by $115K per the revised plan.
+#1024  Finance Office: Mastis budget decreased by $70K after review.
+#1025  Finance Office: Withdraw update #1014.
+#1026  Finance Office: Mastis budget decreased by $55K per the revised plan.
+#1027  Vendor call: Mastis vendor onboarding call scheduled for Tuesday.
+#1028  Operations chat: Mastis kickoff moved to Building 6.
+#1029  Finance Office: Mastis budget increased by $5K after review.
+#1030  Finance Office: Mastis budget decreased by $90K after review.
+#1031  Operations chat: Mastis security review passed.
+#1032  Vendor call: Mastis sprint 9 retrospective notes posted.
+#1033  Finance Office: Withdraw update #0208.
+#1034  Engineering email: Mastis kickoff moved to Building 8.
+#1035  Finance Office: Mastis budget increased by $145K.
+#1036  Finance Office: Withdraw update #0097.
+#1037  Sales update: Mastis weekly sync moved to Wednesdays.
+#1038  Finance Office: Mastis budget decreased by $65K after review.
+#1039  Finance Office: Mastis budget increased by $10K.
+#1040  Finance Office: Withdraw update #0583; it was entered in error.
+#1041  Finance Office: Mastis budget decreased by $90K.
+#1042  Finance Office: Withdraw update #0660.
+#1043  Vendor call: Mastis test environment back online.
+#1044  Finance Office: Mastis budget decreased by $499K.
+#1045  Vendor call: Mastis security review passed.
+#1046  Legal email: Mastis site visit confirmed for Monday.
+#1047  Sales update: Mastis design review moved to Room 2A.
+#1048  Engineering email: Mastis weekly sync moved to Tuesdays.
+#1049  Finance Office: Withdraw update #0893.
+#1050  Finance Office: Mastis budget decreased by $85K.
+#1051  Finance Office: Mastis budget increased by $35K after review.
+#1052  Finance Office: Mastis budget decreased by $115K after review.
+#1053  Vendor call: Mastis design review moved to Room 5C.
+#1054  Vendor call: Mastis weekly sync moved to Mondays.
+#1055  Finance Office: Mastis budget decreased by $65K.
+#1056  Finance Office: Withdraw update #0113; it was entered in error.
+#1057  Vendor call: Mastis kickoff moved to Building 7.
+#1058  Sales update: Mastis test environment back online.
+#1059  Finance Office: Mastis budget increased by $30K.
+#1060  Finance Office: Mastis budget increased by $150K per the revised plan.
+#1061  Operations chat: Mastis vendor onboarding call scheduled for Friday.
+#1062  Finance Office: Mastis budget increased by $40K after review.
+#1063  Finance Office: Mastis budget increased by $140K.
+#1064  Finance Office: Mastis budget increased by $140K.
+#1065  Engineering email: Mastis sprint 34 retrospective notes posted.
+#1066  Sales update: Mastis test environment back online.
+#1067  Finance Office: Mastis budget increased by $10K.
+#1068  Finance Office: Mastis budget decreased by $110K after review.
+#1069  Finance Office: Mastis budget increased by $90K after review.
+#1070  Finance Office: Withdraw update #0365; it was entered in error.
+#1071  Vendor call: Mastis test environment back online.
+#1072  Finance Office: Mastis budget increased by $20K.
+#1073  Finance Office: Mastis budget increased by $140K per the revised plan.
+#1074  Sales update: Mastis design review moved to Room 1D.
+#1075  Legal email: Mastis weekly sync moved to Tuesdays.
+#1076  Finance Office: Withdraw update #0319.
+#1077  Engineering email: Mastis test environment back online.
+#1078  Marketing email: Mastis kickoff moved to Building 4.
+#1079  Finance Office: Mastis budget increased by $115K after review.
+#1080  Operations chat: Mastis weekly sync moved to Tuesdays.
+#1081  Finance Office: Withdraw update #0520.
+#1082  Finance Office: Mastis budget increased by $75K after review.
+#1083  Finance Office: Withdraw update #0390; it was entered in error.
+#1084  Finance Office: Mastis budget increased by $80K.
+#1085  Facilities ticket: Mastis weekly sync moved to Fridays.
+#1086  Finance Office: Mastis budget increased by $5K.
+#1087  Finance Office: Mastis budget increased by $10K per the revised plan.
+#1088  Finance Office: Mastis budget decreased by $65K per the revised plan.
+#1089  Finance Office: Withdraw update #0863; it was entered in error.
+#1090  Finance Office: Mastis budget decreased by $50K after review.
+#1091  Facilities ticket: Mastis site visit confirmed for Wednesday.
+#1092  Finance Office: Mastis budget decreased by $55K.
+#1093  Finance Office: Withdraw update #0755; it was entered in error.
+#1094  Finance Office: Mastis budget increased by $45K after review.
+#1095  Sales update: Mastis demo rescheduled to Tuesday afternoon.
+#1096  Finance Office: Withdraw update #0994; it was entered in error.
+#1097  Sales update: Mastis kickoff moved to Building 9.
+#1098  Facilities ticket: Mastis status report filed for week 37.
+#1099  Finance Office: Mastis budget decreased by $60K after review.
+#1100  Vendor call: Mastis security review passed.
+#1101  Finance Office: Mastis budget decreased by $130K.
+#1102  Finance Office: Mastis budget increased by $35K.
+#1103  Vendor call: Mastis kickoff moved to Building 8.
+#1104  Legal email: Mastis weekly sync moved to Mondays.
+#1105  Finance Office: Mastis budget increased by $100K after review.
+#1106  Legal email: Mastis security review passed.
+#1107  Finance Office: Mastis budget decreased by $55K after review.
+#1108  Finance Office: Withdraw update #0598; it was entered in error.
+#1109  Vendor call: Mastis kickoff moved to Building 5.
+#1110  Finance Office: Mastis budget decreased by $150K per the revised plan.
+#1111  Vendor call: Mastis demo rescheduled to Friday afternoon.
+#1112  Sales update: Mastis status report filed for week 20.
+#1113  Finance Office: Withdraw update #0649.
+#1114  Finance Office: Withdraw update #0370; it was entered in error.
+#1115  Vendor call: Mastis test environment back online.
+#1116  Finance Office: Withdraw update #1000.
+#1117  Operations chat: Mastis site visit confirmed for Thursday.
+#1118  Finance Office: Mastis quarterly audit scheduled for Monday.
+#1119  Finance Office: Withdraw update #0480; it was entered in error.
+#1120  Finance Office: Mastis budget decreased by $150K per the revised plan.
+#1121  Finance Office: Mastis budget increased by $30K per the revised plan.
+#1122  Finance Office: Mastis budget increased by $35K per the revised plan.
+#1123  Finance Office: Mastis budget decreased by $80K.
+#1124  Vendor call: Mastis weekly sync moved to Tuesdays.
+#1125  Finance Office: Mastis budget increased by $140K.
+#1126  Operations chat: Mastis design review moved to Room 4D.
+#1127  Finance Office: Mastis budget increased by $105K per the revised plan.
+#1128  Finance Office: Mastis budget decreased by $95K.
+#1129  Finance Office: Mastis budget increased by $135K after review.
+#1130  Operations chat: Mastis design review moved to Room 5D.
+#1131  Sales update: Mastis test environment back online.
+#1132  Operations chat: Mastis site visit confirmed for Tuesday.
+#1133  Finance Office: Mastis budget decreased by $20K after review.
+#1134  Finance Office: Mastis budget decreased by $90K.
+#1135  Finance Office: Mastis budget decreased by $100K.
+#1136  Legal email: Mastis test environment back online.
+#1137  Finance Office: Mastis budget decreased by $40K.
+#1138  Finance Office: Mastis finance review moved to Room 1C.
+#1139  Marketing email: Mastis status report filed for week 38.
+#1140  Marketing email: Mastis kickoff moved to Building 6.
+#1141  Legal email: Mastis test environment back online.
+#1142  Finance Office: Mastis budget increased by $85K per the revised plan.
+#1143  Legal email: Mastis test environment back online.
+#1144  Finance Office: Mastis budget decreased by $20K after review.
+#1145  Finance Office: Mastis budget increased by $10K per the revised plan.
+#1146  Finance Office: Mastis budget increased by $110K per the revised plan.
+#1147  Engineering email: Mastis test environment back online.
+#1148  Sales update: Mastis weekly sync moved to Mondays.
+#1149  Finance Office: Mastis budget decreased by $115K after review.
+#1150  Vendor call: Mastis status report filed for week 32.
+#1151  Finance Office: Mastis budget decreased by $25K per the revised plan.
+#1152  Facilities ticket: Mastis status report filed for week 31.
+#1153  Finance Office: Mastis budget increased by $75K.
+#1154  Operations chat: Mastis sprint 41 retrospective notes posted.
+#1155  Facilities ticket: Mastis kickoff moved to Building 8.
+#1156  Engineering email: Mastis design review moved to Room 5B.
+#1157  Finance Office: Mastis budget increased by $105K per the revised plan.
+#1158  Marketing email: Mastis design review moved to Room 2D.
+#1159  PMO note: Mastis kickoff moved to Building 5.
+#1160  Engineering email: Mastis sprint 34 retrospective notes posted.
+#1161  Finance Office: Mastis budget decreased by $60K per the revised plan.
+#1162  Finance Office: Withdraw update #0137; it was entered in error.
+#1163  Finance Office: Withdraw update #0668; it was entered in error.
+#1164  Finance Office: Withdraw update #0983.
+#1165  Finance Office: Mastis budget decreased by $57K after review.
+#1166  Facilities ticket: Mastis site visit confirmed for Tuesday.
+#1167  Finance Office: Withdraw update #1164.
+#1168  Finance Office: Mastis budget increased by $70K.
+#1169  Finance Office: Mastis budget decreased by $35K.
+#1170  Finance Office: Mastis budget increased by $197K.
+#1171  Finance Office: Mastis budget increased by $10K per the revised plan.
+#1172  Vendor call: Mastis weekly sync moved to Thursdays.
+#1173  Finance Office: Mastis budget decreased by $164K per the revised plan.
+#1174  Finance Office: Mastis budget increased by $90K after review.
+#1175  Finance Office: Mastis budget increased by $70K per the revised plan.
+#1176  Finance Office: Mastis budget decreased by $145K.
+#1177  Finance Office: Withdraw update #1170; it was entered in error.
+#1178  Engineering email: Mastis security review passed.
+#1179  Finance Office: Mastis budget increased by $35K after review.
+#1180  Vendor call: Mastis site visit confirmed for Friday.
+#1181  Engineering email: Mastis status report filed for week 31.
+#1182  Sales update: Mastis kickoff moved to Building 4.
+#1183  Finance Office: Withdraw update #0944; it was entered in error.
+#1184  Finance Office: Mastis budget increased by $35K after review.
+#1185  Finance Office: Mastis budget decreased by $35K.
+#1186  Finance Office: Withdraw update #1093.
+#1187  Finance Office: Withdraw update #0707; it was entered in error.
+#1188  Facilities ticket: Mastis weekly sync moved to Wednesdays.
+#1189  Finance Office: Mastis budget increased by $95K per the revised plan.
+#1190  Sales update: Mastis site visit confirmed for Wednesday.
+#1191  Finance Office: Mastis budget increased by $5K.
+#1192  Marketing email: Mastis weekly sync moved to Wednesdays.
+#1193  Operations chat: Mastis test environment back online.
+#1194  Finance Office: Withdraw update #0752; it was entered in error.
+#1195  Finance Office: Mastis budget decreased by $75K.
+#1196  Engineering email: Mastis site visit confirmed for Tuesday.
+#1197  Marketing email: Mastis site visit confirmed for Friday.
+#1198  PMO note: Mastis weekly sync moved to Tuesdays.
+#1199  Finance Office: Mastis budget decreased by $359K per the revised plan.
+#1200  Finance Office: Mastis invoice batch FC-5484 archived.
+#1201  Engineering email: Mastis weekly sync moved to Fridays.
+#1202  Finance Office: Mastis budget decreased by $498K per the revised plan.
+#1203  Finance Office: Mastis budget decreased by $130K.
+#1204  Finance Office: Mastis budget increased by $95K after review.
+#1205  Finance Office: Mastis budget increased by $15K per the revised plan.
+#1206  Finance Office: Mastis budget increased by $15K per the revised plan.
+#1207  Finance Office: Mastis budget decreased by $140K.
+#1208  Operations chat: Mastis design review moved to Room 4B.
+#1209  Finance Office: Mastis budget decreased by $135K per the revised plan.
+#1210  Legal email: Mastis weekly sync moved to Tuesdays.
+#1211  Sales update: Mastis documentation moved to the shared drive.
+#1212  Facilities ticket: Mastis design review moved to Room 5A.
+#1213  Finance Office: Mastis budget increased by $20K per the revised plan.
+#1214  Operations chat: Mastis demo rescheduled to Tuesday afternoon.
+#1215  Facilities ticket: Mastis status report filed for week 12.
+#1216  PMO note: Mastis test environment back online.
+#1217  Finance Office: Mastis budget decreased by $60K after review.
+#1218  Finance Office: Withdraw update #0679; it was entered in error.
+#1219  Finance Office: Mastis budget decreased by $15K after review.
+#1220  Sales update: Mastis site visit confirmed for Monday.
+#1221  Finance Office: Mastis budget increased by $125K.
+#1222  Finance Office: Mastis budget decreased by $135K.
+#1223  Finance Office: Mastis budget increased by $135K after review.
+#1224  Legal email: Mastis test environment back online.
+#1225  Finance Office: Mastis budget increased by $105K.
+#1226  Operations chat: Mastis design review moved to Room 5C.
+#1227  Finance Office: Mastis budget increased by $140K per the revised plan.
+#1228  Finance Office: Withdraw update #0432.
+#1229  Sales update: Mastis kickoff moved to Building 9.
+#1230  Finance Office: Mastis budget increased by $5K per the revised plan.
+#1231  Finance Office: Mastis budget increased by $45K per the revised plan.
+#1232  Finance Office: Mastis budget increased by $105K per the revised plan.
+#1233  Facilities ticket: Mastis design review moved to Room 4C.
+#1234  Finance Office: Withdraw update #0662; it was entered in error.
+#1235  Finance Office: Mastis budget increased by $55K.
+#1236  Finance Office: Mastis budget increased by $105K after review.
+#1237  Finance Office: Mastis budget decreased by $105K per the revised plan.
+#1238  Finance Office: Mastis budget increased by $100K after review.
+#1239  Finance Office: Mastis budget increased by $150K.
+#1240  Finance Office: Mastis budget increased by $161K after review.
+#1241  Legal email: Mastis design review moved to Room 1D.
+#1242  Vendor call: Mastis documentation moved to the shared drive.
+#1243  Legal email: Mastis weekly sync moved to Wednesdays.
+#1244  Finance Office: Mastis budget increased by $15K.
+#1245  Finance Office: Mastis budget decreased by $90K after review.
+#1246  Legal email: Mastis site visit confirmed for Monday.
+#1247  Finance Office: Mastis budget decreased by $80K after review.
+#1248  Facilities ticket: Mastis risk register updated with 9 new items.
+#1249  Finance Office: Mastis budget decreased by $140K.
+#1250  Sales update: Mastis security review passed.
+#1251  Finance Office: Mastis budget decreased by $60K.
+#1252  Finance Office: Withdraw update #0488; it was entered in error.
+#1253  Sales update: Mastis design review moved to Room 6D.
+#1254  Vendor call: Mastis status report filed for week 46.
+#1255  Finance Office: Mastis budget decreased by $396K after review.
+#1256  Finance Office: Mastis budget increased by $140K.
+#1257  Engineering email: Mastis design review moved to Room 1D.
+#1258  Operations chat: Mastis sprint 21 retrospective notes posted.
+#1259  Finance Office: Mastis budget increased by $140K per the revised plan.
+#1260  Legal email: Mastis test environment back online.
+#1261  Vendor call: Mastis vendor onboarding call scheduled for Friday.
+#1262  PMO note: Mastis test environment back online.
+#1263  Finance Office: Mastis budget increased by $35K after review.
+#1264  Finance Office: Withdraw update #0130.
+#1265  Finance Office: Mastis budget increased by $10K per the revised plan.
+#1266  Finance Office: Withdraw update #0403.
+#1267  Finance Office: Mastis budget increased by $45K after review.
+#1268  Finance Office: Withdraw update #0483.
+#1269  Marketing email: Mastis test environment back online.
+#1270  Legal email: Mastis weekly sync moved to Tuesdays.
+#1271  Finance Office: Mastis budget decreased by $45K after review.
+#1272  Operations chat: Mastis weekly sync moved to Wednesdays.
+#1273  Finance Office: Mastis budget increased by $130K after review.
+#1274  Legal email: Mastis test environment back online.
+#1275  Vendor call: Mastis site visit confirmed for Wednesday.
+#1276  Finance Office: Withdraw update #1108; it was entered in error.
+#1277  Finance Office: Mastis budget decreased by $105K per the revised plan.
+#1278  Finance Office: Mastis budget decreased by $40K per the revised plan.
+#1279  Finance Office: Withdraw update #0143; it was entered in error.
+#1280  Finance Office: Mastis budget decreased by $45K per the revised plan.
+#1281  Vendor call: Mastis kickoff moved to Building 2.
+#1282  Finance Office: Mastis cost center code changed to FC-3512.
+#1283  PMO note: Mastis site visit confirmed for Tuesday.
+#1284  PMO note: Mastis weekly sync moved to Thursdays.
+#1285  Finance Office: Mastis budget decreased by $339K per the revised plan.
+#1286  Finance Office: Withdraw update #1033; it was entered in error.
+#1287  Finance Office: Mastis budget decreased by $115K per the revised plan.
+#1288  Marketing email: Mastis security review passed.
+#1289  PMO note: Mastis site visit confirmed for Wednesday.
+#1290  Vendor call: Mastis kickoff moved to Building 8.
+#1291  Finance Office: Mastis budget increased by $5K after review.
+#1292  Finance Office: Mastis budget decreased by $45K per the revised plan.
+#1293  Finance Office: Reminder: Mastis expense reports are due Friday.
+#1294  Finance Office: Mastis budget increased by $30K.
+#1295  Finance Office: Withdraw update #0565.
+#1296  Facilities ticket: Mastis test environment back online.
+#1297  Finance Office: Mastis budget increased by $75K after review.
+#1298  Marketing email: Mastis weekly sync moved to Wednesdays.
+#1299  PMO note: Mastis sprint 3 retrospective notes posted.
+#1300  Operations chat: Mastis kickoff moved to Building 3.
+#1301  Finance Office: Mastis budget decreased by $95K.
+#1302  Finance Office: Mastis budget increased by $140K per the revised plan.
+#1303  Engineering email: Mastis documentation moved to the shared drive.
+#1304  Finance Office: Mastis budget increased by $75K after review.
+#1305  Finance Office: Mastis budget decreased by $45K.
+#1306  Finance Office: Withdraw update #1165; it was entered in error.
+#1307  Finance Office: Mastis budget decreased by $50K per the revised plan.
+#1308  Finance Office: Mastis budget increased by $40K per the revised plan.
+#1309  Marketing email: Mastis weekly sync moved to Fridays.
+#1310  Finance Office: Mastis budget decreased by $110K.
+#1311  Sales update: Mastis demo rescheduled to Wednesday afternoon.
+#1312  Vendor call: Mastis status report filed for week 33.
+#1313  Marketing email: Mastis site visit confirmed for Tuesday.
+#1314  Finance Office: Mastis budget increased by $60K.
+#1315  Finance Office: Mastis budget decreased by $90K per the revised plan.
+#1316  Finance Office: Mastis budget decreased by $70K.
+#1317  Finance Office: Mastis budget decreased by $110K.
+#1318  Sales update: Mastis risk register updated with 5 new items.
+#1319  Vendor call: Mastis kickoff moved to Building 3.
+#1320  Finance Office: Mastis budget increased by $35K per the revised plan.
+#1321  Finance Office: Withdraw update #1096; it was entered in error.
+#1322  Finance Office: Mastis budget increased by $20K.
+#1323  Operations chat: Mastis kickoff moved to Building 2.
+#1324  Operations chat: Mastis security review passed.
+#1325  Facilities ticket: Mastis weekly sync moved to Mondays.
+#1326  Finance Office: Mastis budget increased by $95K after review.
+#1327  Finance Office: Mastis budget increased by $80K per the revised plan.
+#1328  Finance Office: Mastis budget increased by $45K after review.
+#1329  Finance Office: Mastis budget decreased by $25K.
+#1330  Finance Office: Withdraw update #1255; it was entered in error.
+#1331  Facilities ticket: Mastis test environment back online.
+#1332  Finance Office: Mastis budget increased by $55K after review.
+#1333  Finance Office: Mastis budget increased by $150K after review.
+#1334  Finance Office: Mastis finance review moved to Room 6A.
+#1335  Finance Office: Mastis budget increased by $45K after review.
+#1336  Finance Office: Withdraw update #0902; it was entered in error.
+#1337  Finance Office: Mastis budget decreased by $10K.
+#1338  Vendor call: Mastis security review passed.
+#1339  Finance Office: Mastis budget increased by $135K after review.
+#1340  Finance Office: Mastis budget increased by $209K per the revised plan.
+#1341  Finance Office: Mastis budget increased by $145K.
+#1342  Finance Office: Mastis budget increased by $85K per the revised plan.
+#1343  Vendor call: Mastis status report filed for week 9.
+#1344  Marketing email: Mastis sprint 47 retrospective notes posted.
+#1345  Finance Office: Mastis budget increased by $90K after review.
+#1346  Sales update: Mastis status report filed for week 28.
+#1347  Finance Office: Mastis budget decreased by $145K.
+#1348  Legal email: Mastis design review moved to Room 3A.
+#1349  Finance Office: Mastis budget decreased by $90K.
+#1350  Finance Office: Mastis budget increased by $95K per the revised plan.
+#1351  Sales update: Mastis site visit confirmed for Monday.
+#1352  Finance Office: Mastis budget increased by $50K.
+#1353  Finance Office: Withdraw update #0580; it was entered in error.
+#1354  Facilities ticket: Mastis weekly sync moved to Mondays.
+#1355  Finance Office: Mastis budget decreased by $50K after review.
+#1356  PMO note: Mastis kickoff moved to Building 7.
+#1357  Finance Office: Mastis budget increased by $65K.
+#1358  Operations chat: Mastis status report filed for week 38.
+#1359  Finance Office: Mastis budget decreased by $234K per the revised plan.
+#1360  Finance Office: Mastis budget decreased by $412K per the revised plan.
+#1361  Facilities ticket: Mastis test environment back online.
+#1362  Finance Office: Withdraw update #0661; it was entered in error.
+#1363  Finance Office: Withdraw update #0353; it was entered in error.
+#1364  PMO note: Mastis test environment back online.
+#1365  Finance Office: Withdraw update #1285; it was entered in error.
+#1366  Vendor call: Mastis sprint 25 retrospective notes posted.
+#1367  Finance Office: Mastis finance review moved to Room 5D.
+#1368  Finance Office: Mastis budget increased by $75K.
+#1369  Facilities ticket: Mastis test environment back online.
+#1370  Finance Office: Mastis budget increased by $35K after review.
+#1371  Finance Office: Mastis budget decreased by $30K.
+#1372  Finance Office: Mastis budget increased by $105K.
+#1373  Finance Office: Mastis budget increased by $574K after review.
+#1374  Finance Office: Mastis budget decreased by $55K per the revised plan.
+#1375  Finance Office: Mastis budget increased by $130K.
+#1376  Finance Office: Mastis budget increased by $95K.
+#1377  Operations chat: Mastis weekly sync moved to Mondays.
+#1378  Vendor call: Mastis status report filed for week 41.
+#1379  Facilities ticket: Mastis design review moved to Room 2B.
+#1380  Finance Office: Mastis budget increased by $120K after review.
+#1381  Finance Office: Withdraw update #1365.
+#1382  Finance Office: Withdraw update #1363; it was entered in error.
+#1383  Vendor call: Mastis test environment back online.
+#1384  Finance Office: Mastis budget decreased by $145K per the revised plan.
+#1385  Finance Office: Mastis budget decreased by $85K.
+#1386  Sales update: Mastis weekly sync moved to Fridays.
+#1387  Finance Office: Withdraw update #0091; it was entered in error.
+#1388  Finance Office: Withdraw update #0500; it was entered in error.
+#1389  Finance Office: Mastis audit notes filed.
+#1390  Finance Office: Mastis budget decreased by $110K after review.
+#1391  Finance Office: Mastis budget increased by $85K after review.
+#1392  Finance Office: Withdraw update #0525.
+#1393  Finance Office: Withdraw update #0324.
+#1394  Facilities ticket: Mastis test environment back online.
+#1395  Finance Office: Withdraw update #0548; it was entered in error.
+#1396  Finance Office: Withdraw update #1373.
+#1397  Finance Office: Withdraw update #0790; it was entered in error.
+#1398  Finance Office: Mastis budget decreased by $90K.
+#1399  Finance Office: Mastis budget decreased by $95K per the revised plan.
+#1400  Finance Office: Withdraw update #0228.
+#1401  Finance Office: Mastis budget increased by $50K.
+#1402  Finance Office: Withdraw update #1044.
+#1403  Finance Office: Withdraw update #0861.
+#1404  Facilities ticket: Mastis test environment back online.
+#1405  Finance Office: Mastis budget increased by $80K.
+#1406  Operations chat: Mastis test environment back online.
+#1407  Sales update: Mastis status report filed for week 25.
+#1408  PMO note: Mastis documentation moved to the shared drive.
+#1409  Legal email: Mastis test environment back online.
+#1410  Operations chat: Mastis design review moved to Room 2A.
+#1411  PMO note: Mastis test environment back online.
+#1412  Finance Office: Mastis budget increased by $5K per the revised plan.
+#1413  Finance Office: Withdraw update #1360; it was entered in error.
+#1414  Finance Office: Withdraw update #1186.
+#1415  Finance Office: Mastis budget increased by $135K after review.
+#1416  Finance Office: Mastis budget increased by $90K per the revised plan.
+#1417  Finance Office: Mastis budget decreased by $115K after review.
+#1418  Finance Office: Mastis budget decreased by $50K after review.
+#1419  Legal email: Mastis site visit confirmed for Monday.
+#1420  Finance Office: Withdraw update #1240; it was entered in error.
+#1421  Finance Office: Mastis finance review moved to Room 5C.
+#1422  Finance Office: Mastis budget increased by $95K.
+#1423  Finance Office: Withdraw update #0889.
+#1424  Finance Office: Mastis budget decreased by $125K after review.
+#1425  Finance Office: Mastis budget increased by $110K per the revised plan.
+#1426  Finance Office: Mastis budget increased by $15K.
+#1427  Finance Office: Mastis invoice batch FC-3050 archived.
+#1428  Operations chat: Mastis test environment back online.
+#1429  Finance Office: Mastis budget increased by $5K per the revised plan.
+#1430  Finance Office: Mastis budget increased by $65K.
+#1431  PMO note: Mastis security review passed.
+#1432  Legal email: Mastis test environment back online.
+#1433  Finance Office: Mastis budget decreased by $50K.
+#1434  Finance Office: Mastis budget decreased by $55K per the revised plan.
+#1435  Finance Office: Mastis budget increased by $90K after review.
+#1436  Finance Office: Mastis budget decreased by $55K after review.
+#1437  Operations chat: Mastis documentation moved to the shared drive.
+#1438  Legal email: Mastis sprint 44 retrospective notes posted.
+#1439  Finance Office: Withdraw update #0960; it was entered in error.
+#1440  Finance Office: Mastis budget increased by $95K per the revised plan.
+#1441  Legal email: Mastis sprint 25 retrospective notes posted.
+#1442  Engineering email: Mastis weekly sync moved to Thursdays.
+#1443  Marketing email: Mastis kickoff moved to Building 2.
+#1444  Finance Office: Mastis budget increased by $105K.
+#1445  Marketing email: Mastis design review moved to Room 4C.
+#1446  Vendor call: Mastis weekly sync moved to Fridays.
+#1447  Finance Office: Mastis budget increased by $30K after review.
+#1448  Finance Office: Mastis budget decreased by $105K per the revised plan.
+#1449  Finance Office: Withdraw update #1194.
+#1450  Finance Office: Mastis budget increased by $35K after review.
+#1451  Engineering email: Mastis documentation moved to the shared drive.
+#1452  Finance Office: Mastis budget increased by $150K after review.
+#1453  Vendor call: Mastis site visit confirmed for Thursday.
+#1454  Finance Office: Mastis budget increased by $60K per the revised plan.
+#1455  Finance Office: Mastis budget increased by $45K per the revised plan.
+#1456  Finance Office: Withdraw update #0311; it was entered in error.
+#1457  Operations chat: Mastis test environment back online.
+#1458  Finance Office: Withdraw update #1173.
+#1459  Finance Office: Mastis budget increased by $120K after review.
+#1460  Finance Office: Mastis budget increased by $40K after review.
+#1461  Finance Office: Mastis budget increased by $115K.
+#1462  Finance Office: Withdraw update #1359; it was entered in error.
+#1463  PMO note: Mastis test environment back online.
+#1464  Marketing email: Mastis weekly sync moved to Tuesdays.
+#1465  Finance Office: Mastis budget increased by $80K after review.
+#1466  Finance Office: Mastis budget decreased by $35K after review.
+#1467  Finance Office: Mastis budget decreased by $25K.
+#1468  Marketing email: Mastis design review moved to Room 5A.
+#1469  Finance Office: Mastis budget increased by $110K per the revised plan.
+#1470  Sales update: Mastis site visit confirmed for Thursday.
+#1471  Engineering email: Mastis test environment back online.
+#1472  Finance Office: Mastis budget decreased by $10K after review.
+#1473  Finance Office: Mastis budget increased by $75K.
+#1474  Finance Office: Mastis budget decreased by $130K.
+#1475  Finance Office: Mastis budget decreased by $30K.
+#1476  Finance Office: Mastis budget increased by $50K.
+#1477  Sales update: Mastis vendor onboarding call scheduled for Thursday.
+#1478  Engineering email: Mastis kickoff moved to Building 5.
+#1479  Finance Office: Mastis budget decreased by $20K per the revised plan.
+#1480  Finance Office: Withdraw update #1202; it was entered in error.
+#1481  PMO note: Mastis kickoff moved to Building 9.
+#1482  Finance Office: Mastis budget decreased by $286K.
+#1483  Finance Office: Mastis budget decreased by $25K per the revised plan.
+#1484  Operations chat: Mastis status report filed for week 7.
+#1485  Finance Office: Mastis budget decreased by $80K per the revised plan.
+#1486  Finance Office: Mastis budget increased by $40K per the revised plan.
+#1487  Finance Office: Withdraw update #0566.
+#1488  Finance Office: Mastis budget increased by $70K.
+#1489  Finance Office: Mastis budget increased by $80K per the revised plan.
+#1490  Operations chat: Mastis status report filed for week 12.
+#1491  Finance Office: Withdraw update #0822; it was entered in error.
+#1492  Finance Office: Mastis budget increased by $95K after review.
+#1493  Finance Office: Mastis budget increased by $70K after review.
+#1494  Facilities ticket: Mastis sprint 46 retrospective notes posted.
+#1495  Finance Office: Mastis budget decreased by $20K after review.
+#1496  Finance Office: Mastis budget decreased by $120K after review.
+#1497  Finance Office: Mastis budget decreased by $10K.
+#1498  PMO note: Mastis test environment back online.
+#1499  Engineering email: Mastis design review moved to Room 2C.
+#1500  Finance Office: Mastis budget decreased by $130K per the revised plan.
+#1501  Engineering email: Mastis demo rescheduled to Monday afternoon.
+#1502  Finance Office: Withdraw update #1286; it was entered in error.
+#1503  Finance Office: Mastis budget decreased by $45K.
+#1504  Finance Office: Mastis budget increased by $95K per the revised plan.
+#1505  Facilities ticket: Mastis design review moved to Room 4C.
+#1506  Finance Office: Withdraw update #0327.
+#1507  Finance Office: Withdraw update #1439; it was entered in error.
+#1508  Finance Office: Withdraw update #1393; it was entered in error.
+#1509  Finance Office: Withdraw update #0954.
+#1510  Engineering email: Mastis test environment back online.
+#1511  Marketing email: Mastis weekly sync moved to Mondays.
+#1512  Sales update: Mastis sprint 8 retrospective notes posted.
+#1513  Finance Office: Withdraw update #1199; it was entered in error.
+#1514  Finance Office: Mastis budget increased by $10K after review.
+#1515  Engineering email: Mastis kickoff moved to Building 5.
+#1516  Finance Office: Mastis budget decreased by $95K after review.
+#1517  Finance Office: Mastis budget increased by $35K per the revised plan.
+#1518  Legal email: Mastis test environment back online.
+#1519  Finance Office: Mastis budget decreased by $110K per the revised plan.
+#1520  Finance Office: Mastis budget increased by $75K.
+#1521  Finance Office: Mastis budget increased by $150K per the revised plan.
+#1522  PMO note: Mastis status report filed for week 29.
+#1523  Finance Office: Mastis budget decreased by $5K after review.
+#1524  Finance Office: Mastis budget decreased by $20K.
+#1525  Marketing email: Mastis status report filed for week 35.
+#1526  Finance Office: Mastis budget decreased by $15K after review.
+#1527  Finance Office: Mastis budget decreased by $35K.
+#1528  Facilities ticket: Mastis status report filed for week 33.
+#1529  Finance Office: Mastis budget increased by $25K per the revised plan.
+#1530  Finance Office: Withdraw update #1056.
+#1531  Sales update: Mastis weekly sync moved to Mondays.
+#1532  PMO note: Mastis security review passed.
+#1533  Facilities ticket: Mastis test environment back online.
+#1534  Finance Office: Withdraw update #0717; it was entered in error.
+#1535  Finance Office: Mastis budget increased by $105K after review.
+#1536  Finance Office: Withdraw update #1414.
+#1537  Legal email: Mastis status report filed for week 22.
+#1538  Facilities ticket: Mastis status report filed for week 21.
+#1539  Finance Office: Mastis budget decreased by $55K.
+#1540  Finance Office: Mastis budget increased by $120K.
+#1541  Marketing email: Mastis weekly sync moved to Mondays.
+#1542  Finance Office: Mastis budget decreased by $70K.
+#1543  Finance Office: Mastis budget decreased by $25K after review.
+#1544  Facilities ticket: Mastis sprint 32 retrospective notes posted.
+#1545  Finance Office: Withdraw update #1340; it was entered in error.
+#1546  Finance Office: Mastis budget increased by $40K after review.
+#1547  Finance Office: Withdraw update #1482.
+#1548  Finance Office: Mastis budget increased by $5K after review.
+#1549  Finance Office: Withdraw update #0621.
+#1550  Finance Office: Mastis budget increased by $150K.
+#1551  Finance Office: Mastis budget decreased by $145K after review.
+#1552  Finance Office: Withdraw update #1040; it was entered in error.
+#1553  Finance Office: Mastis budget decreased by $110K.
+#1554  Marketing email: Mastis site visit confirmed for Monday.
+#1555  Finance Office: Withdraw update #0385.
+#1556  Finance Office: Withdraw update #0677; it was entered in error.
+#1557  Finance Office: Mastis budget increased by $125K after review.
+#1558  Finance Office: Mastis budget decreased by $85K.
+#1559  Operations chat: Mastis design review moved to Room 5C.
+#1560  Operations chat: Mastis kickoff moved to Building 2.
+#1561  Finance Office: Mastis budget decreased by $40K per the revised plan.
+#1562  Finance Office: Mastis budget decreased by $30K after review.
+#1563  Finance Office: Withdraw update #0478.
+#1564  Marketing email: Mastis test environment back online.
+#1565  Finance Office: Withdraw update #0691.
+#1566  Finance Office: Mastis budget increased by $40K after review.
+#1567  Finance Office: Mastis budget decreased by $25K.
+#1568  Finance Office: Mastis budget increased by $120K after review.
+#1569  Legal email: Mastis weekly sync moved to Wednesdays.
+#1570  Finance Office: Withdraw update #1563.
+#1571  Finance Office: Mastis budget decreased by $135K after review.
+#1572  Vendor call: Mastis test environment back online.
+#1573  Finance Office: Mastis budget increased by $45K.
+#1574  Finance Office: Mastis budget decreased by $150K.
+#1575  Vendor call: Mastis status report filed for week 42.
+#1576  Finance Office: Withdraw update #0718; it was entered in error.
+#1577  Vendor call: Mastis weekly sync moved to Tuesdays.
+#1578  Vendor call: Mastis design review moved to Room 6B.
+#1579  PMO note: Mastis weekly sync moved to Fridays.
+#1580  Facilities ticket: Mastis weekly sync moved to Mondays.
+#1581  Legal email: Mastis risk register updated with 4 new items.
+#1582  Finance Office: Mastis budget decreased by $30K.
+#1583  Vendor call: Mastis site visit confirmed for Wednesday.
+#1584  Marketing email: Mastis weekly sync moved to Tuesdays.
+#1585  Finance Office: Mastis budget increased by $40K after review.
+#1586  Finance Office: Mastis budget increased by $35K per the revised plan.
+#1587  Finance Office: Mastis budget increased by $95K.
+#1588  Finance Office: Mastis budget decreased by $85K per the revised plan.
+#1589  Finance Office: Mastis budget increased by $15K after review.
+#1590  Finance Office: Mastis budget increased by $20K after review.
+#1591  Engineering email: Mastis sprint 37 retrospective notes posted.
+#1592  Sales update: Mastis test environment back online.
+#1593  Marketing email: Mastis weekly sync moved to Mondays.
+#1594  Finance Office: Mastis budget increased by $135K after review.
+#1595  Finance Office: Mastis budget decreased by $115K after review.
+#1596  Finance Office: Mastis budget increased by $115K per the revised plan.
+#1597  Operations chat: Mastis kickoff moved to Building 2.
+#1598  Finance Office: Withdraw update #1534.
+#1599  Finance Office: Mastis budget decreased by $90K per the revised plan.
+#1600  Sales update: Mastis documentation moved to the shared drive.
+
+Question: What is Mastis's budget now?

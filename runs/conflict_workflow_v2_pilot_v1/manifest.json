@@ -1,0 +1,292 @@
+{
+ "schema": 1,
+ "run": "conflict_workflow_v2_pilot_v1",
+ "created_at": "2026-10-26T05:21:54+00:00",
+ "created_by": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "config_file": "config/conflict_workflow_v2_pilot.toml",
+ "config": {
+  "description": "Structured general conflict-resolution workflow v2 versus no skill: five fresh chronological logs, ten repeats per condition",
+  "seed_start": 760000,
+  "logs": 5,
+  "versions": [
+   "C",
+   "R",
+   "RG",
+   "E"
+  ],
+  "instructions": [
+   "none",
+   "workflow_v2"
+  ],
+  "repeats": 10,
+  "schedule_seed": 184,
+  "timeout_seconds": 1800,
+  "generator": {
+   "chronological": true,
+   "max_attempts": 500000,
+   "records": 1600,
+   "adjust_share": 0.45,
+   "withdraw_share": 0.15,
+   "gossip_share": 0.3,
+   "nested_rate": 0.35,
+   "relative_gossip_share": 0.5,
+   "amount_step": 5,
+   "amount_max": 150,
+   "unique_amount_max": 600,
+   "budget_min": 200,
+   "budget_max": 3000
+  },
+  "models": {
+   "gpt": {
+    "name": "gpt",
+    "provider": "codex",
+    "model": "gpt-6-astra",
+    "effort": "low",
+    "max_output_tokens": 32000
+   }
+  },
+  "repeatability": {
+   "logs": 0,
+   "repeats": 10,
+   "selection_seed": 1801,
+   "versions": [
+    "R",
+    "RG"
+   ]
+  },
+  "frozen_skill_sha256": "",
+  "frozen_instruction_sha256": {
+   "none": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "workflow_v2": "c42e2e9551523a1800072ba862718314f4bbf74e6fa27d5fce270e49953c0f9e"
+  }
+ },
+ "uncollected_worlds_from": null,
+ "worlds": {
+  "s760000_n1600": {
+   "seed": 760000,
+   "project": "Mele",
+   "answer": 1658,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 253,
+   "surviving_adjustments": 595,
+   "chains": 166,
+   "nested_chains": 55,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 99227,
+    "R": 99374,
+    "RG": 99103,
+    "E": 100121,
+    "G": 98956
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": 0.0015,
+    "RG": -0.0012,
+    "E": 0.009,
+    "G": -0.0027
+   }
+  },
+  "s760001_n1600": {
+   "seed": 760001,
+   "project": "Sofokus",
+   "answer": 1003,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 236,
+   "surviving_adjustments": 587,
+   "chains": 162,
+   "nested_chains": 50,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 104781,
+    "R": 104157,
+    "RG": 103830,
+    "E": 105614,
+    "G": 104454
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.006,
+    "RG": -0.0091,
+    "E": 0.0079,
+    "G": -0.0031
+   }
+  },
+  "s760002_n1600": {
+   "seed": 760002,
+   "project": "Tubrin",
+   "answer": 2552,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 223,
+   "surviving_adjustments": 611,
+   "chains": 151,
+   "nested_chains": 59,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 103193,
+    "R": 103122,
+    "RG": 102784,
+    "E": 104054,
+    "G": 102855
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0007,
+    "RG": -0.004,
+    "E": 0.0083,
+    "G": -0.0033
+   }
+  },
+  "s760003_n1600": {
+   "seed": 760003,
+   "project": "Thitron",
+   "answer": 2146,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 240,
+   "surviving_adjustments": 601,
+   "chains": 154,
+   "nested_chains": 51,
+   "max_chain_depth": 8,
+   "chars": {
+    "C": 104624,
+    "R": 104445,
+    "RG": 104147,
+    "E": 105650,
+    "G": 104326
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0017,
+    "RG": -0.0046,
+    "E": 0.0098,
+    "G": -0.0028
+   }
+  },
+  "s760004_n1600": {
+   "seed": 760004,
+   "project": "Kovin",
+   "answer": 1735,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 245,
+   "surviving_adjustments": 623,
+   "chains": 136,
+   "nested_chains": 57,
+   "max_chain_depth": 8,
+   "chars": {
+    "C": 101328,
+    "R": 101112,
+    "RG": 100752,
+    "E": 102100,
+    "G": 100968
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0021,
+    "RG": -0.0057,
+    "E": 0.0076,
+    "G": -0.0036
+   }
+  }
+ },
+ "trials": 400,
+ "repeatability_worlds": [],
+ "skill_sha256": null,
+ "instruction_sha256": {
+  "none": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "workflow_v2": "c42e2e9551523a1800072ba862718314f4bbf74e6fa27d5fce270e49953c0f9e"
+ },
+ "files": {
+  "PROTOCOL.md": "9c4dc957eed03e36c4b5cd8dbfcd40cb5c21123b9d421ac8cea854b20f22df6e",
+  "config.toml": "05ac25886aef5b5b336b288ab8f7c8f1f4e5274bf8b2d7a4e68c36e2c5410441",
+  "prompts/s760000_n1600_C.txt": "3b2b25712915511068a6aa5d1bfc4005b48aa1f2573d3273ebe520bc9965050d",
+  "prompts/s760000_n1600_E.txt": "a81cf61623bbe594f872457ab433920df13a3881819b2d9be36e8646a5089a72",
+  "prompts/s760000_n1600_R.txt": "ddc6a8ec8cda6e67b80b5977992964bc871afb384736201663b7e41f5aa02fc9",
+  "prompts/s760000_n1600_RG.txt": "23aa987f033c82cb70185f019ad2ad8ef825aaafa3fe790440122d94a582c183",
+  "prompts/s760001_n1600_C.txt": "83591fe1d5a40684cde78b2f5d33a98744a88040986f7ca2a57355bee2d98fcf",
+  "prompts/s760001_n1600_E.txt": "7e7342d5e3ea70251fb18c0300d48fd114a525c35b8d22678b932309ed4a9a2b",
+  "prompts/s760001_n1600_R.txt": "8c8aec69c752529f6e1cb562d3f02b73683ccf8927be8517b51be5a2ba342374",
+  "prompts/s760001_n1600_RG.txt": "97c965f9502c61cc8f868d43dc6f66d2acc3ca7d2c4d337d314a1a018fb7ac6f",
+  "prompts/s760002_n1600_C.txt": "63d0db97aeaab3cf5d00a871e8e70593bfcd7ff423527480b6c46ef4f64831a2",
+  "prompts/s760002_n1600_E.txt": "2ac9acb563f8b008e212c4485b5591c9a2089fe1f93163b67aad3a9b951e1d6b",
+  "prompts/s760002_n1600_R.txt": "6f59817e8847c2e9c9dcb9ba824953d1f16fbb543d6d5752013263a3e2b65f72",
+  "prompts/s760002_n1600_RG.txt": "6b259596a2a4efa209c0b4c9931ef3988997d6a10a3b9298375659886a63c5b7",
+  "prompts/s760003_n1600_C.txt": "390389ade86342ec4af39bbb5edffa8329789a7465334286c6326552a9be70dc",
+  "prompts/s760003_n1600_E.txt": "74118cf84bbf21fd8ce2f37a47b3f19f3ffb64f964c1121e322dba2952d0a7b1",
+  "prompts/s760003_n1600_R.txt": "9240204204968c24b3d9f44ebaf54a1b6d260938629402aecbf29cfe88ff06c7",
+  "prompts/s760003_n1600_RG.txt": "d1df03d54482530012cafe104782daf4771b5b768baba51b547b986a62457435",
+  "prompts/s760004_n1600_C.txt": "5e2374a695ddcb7027fd4068eb8ce364666d513335775215cff1b4cc18ce21bf",
+  "prompts/s760004_n1600_E.txt": "02f427704e24d96d25e74144cf27b8bdac4752d4ab1006a4406c87fe7b44ae41",
+  "prompts/s760004_n1600_R.txt": "a32df41f32ab69f70a62bcd8661f653eabdee283101fb00303dc7030f048693b",
+  "prompts/s760004_n1600_RG.txt": "263bffd06dd09dfe1ea4dc799c017397e59358fc0011c2e4a2a1ce1a1cdf7a95",
+  "source/experiment/__init__.py": "c760795d5ca9fa2556afde41cc60c71cbc6a09392f0f6378d21923c088fcaa96",
+  "source/experiment/__main__.py": "04ecb63342dd3e2eb6a2f1d4f9efb8f533bf5206b8ecdd774cd41a2201a84b5a",
+  "source/experiment/analysis.py": "c7419631f2017966475c92eaf510637a43e0653c95df5d61a92ab2a04880cc31",
+  "source/experiment/checks.py": "fba7d695634fd078ea8773eec68e63adfcd43c84fadb6c9e322de072837ac272",
+  "source/experiment/cli.py": "f93a5790266419e712f2cfd99f000dc60531751439e15f9a3495bd3e9df1d2ff",
+  "source/experiment/clients/__init__.py": "011dcb373064d82fed54881109e4c77f0f97b23af1d55688531dbbab7a417db0",
+  "source/experiment/clients/base.py": "9e61ad02adad87074f01895a2e3660603f28e6b54e5c4dc3f92407961386e263",
+  "source/experiment/clients/claude_code.py": "bdf703841c69633bfaf89473b0b39e2aa6a46bf859245e4b428beb89655ec501",
+  "source/experiment/clients/codex.py": "a13d891d8bb97a31cf53739e0c9c6cf73d6261301a92922027fec1506a7b8aeb",
+  "source/experiment/collect.py": "64f01d37123fa767fb17e8e842ea2bed86396fc7cd7b0f683943ba73a6a21321",
+  "source/experiment/config.py": "5acf123aaf010efa5dd128c47f1de86cd479c71b6373f514c78aeea5d7dc715f",
+  "source/experiment/generator.py": "0e75e3c754a03fa23a3acce2c2d4b7e509aaa5a54a9700041cabaa25c9b4a01c",
+  "source/experiment/pilot.py": "a6d2a3517400934e712f18645e7b3b6adb4f8e38bc1c171f767cbfc291f29731",
+  "source/experiment/prompts.py": "879860b3fca977e06b6617b3611c696bc61bedf24faccabff5f936c5f1c0452e",
+  "source/experiment/records.py": "bef456baf91ecf12cf295e038360218b7a82b55d8fc6ebe4ea511377027a908d",
+  "source/experiment/repeat_report.py": "04b9f97e611a7b0e84a169e7b4c09a314d854f3a86756a7a38f2a4ce87bfff6c",
+  "source/experiment/runs.py": "bab3b0afb3348edfdcd394b3d8826b14246f1389b9bc5a8688ca60c769901336",
+  "source/experiment/scoring.py": "d8507d961b16d7f3b3cae2c0a2a10e8c5daa85a9dc80551c4c0de6cadc38235a",
+  "source/experiment/screen_report.py": "c5e0eb829ceeee565625aca1cfb2197593c52eac71ef7c733e33b06ee350a2b6",
+  "source/experiment/skills/budget-chronological-replay/SKILL.md": "af343d85f5eb1938544707d9c88af1079a9d55bae8ca42982c6bfb822b24de6b",
+  "source/experiment/skills/budget-withdrawal-ledger/SKILL.md": "adb22872ab14218a916a1a3ac9c1608bd71d9550df579e98e8d84776d2c2d5a1",
+  "source/experiment/skills/conflict-resolution-audit/SKILL.md": "d38ae267bbb79711f73e8ad9c2bbe1192478e88826f4c351935ff6badde0bb75",
+  "source/experiment/skills/conflict-resolution-ledger/SKILL.md": "91ef7b67afd2d923865c1345b6e3202ee342fb2f2e424fb0582bfc83a6344b6c",
+  "source/experiment/skills/conflict-resolution-minimal/SKILL.md": "42ca78a1e13ea864f5b6cc33e3e886c65cf58272062a92d89ad8e9447c0e3f9c",
+  "source/experiment/skills/conflict-resolution-minimal-v3/SKILL.md": "44fe7b4cab7f71b3b432f823517965f7cfdabc0e6ccff741258bd5c473311ae7",
+  "source/experiment/skills/conflict-resolution-workflow-v1/SKILL.md": "2cee6881b43733286e68ee873da3d10802d73aa334bee3222f4486891fce7e67",
+  "source/experiment/skills/conflict-resolution-workflow-v2/SKILL.md": "6211eb96c2704370d71c4238c53c5b06c072d922ffa9bf516ce8903b11ac745d",
+  "source/experiment/solvers.py": "bee1bca44ed35ed98eee446d04505af162783ffa8c22a9ab427baf28142ad704",
+  "source/experiment/text.py": "509ef6b91328ddeb27776eef485617f2ee4baa6f85cb3a19dda5704a597dd414",
+  "source/experiment/world.py": "676b52a00349e8f415bf35a2672d89f72f8941bc2b61a6461373629ecde98467",
+  "system/none.txt": "1ce17b4898ab5d23a356446da214cf7ef1fbe464e94cecb20ee09d0750aaf2aa",
+  "system/workflow_v2.txt": "f1a865a77a3376cd74ebf23fee4a8497885f32f4141f25492683782035d52881",
+  "trials.jsonl": "48fac83938d68dc344aef92e22a50cf9ec3256d00ed6507e1dfa941338f2ee14",
+  "worlds/s760000_n1600.json": "1bb4b64b15c8d8d7c4fd8dc9a1f874a9fcf62af3fc32620c5f8568ca8ca8543a",
+  "worlds/s760001_n1600.json": "eb09af38e999f56b368a2eb3fd5b44ca9a241d69f73c3e8ef2368a00ede61a2b",
+  "worlds/s760002_n1600.json": "2c793c93c94c5f4c13269ab53eb92f912252a6a393bbeb82edd53d37b83bbd28",
+  "worlds/s760003_n1600.json": "d2c1949678437b1dc3135c0dfdadeb007598b9e553bea1ccd61c2151ecbd564c",
+  "worlds/s760004_n1600.json": "5d4ee6b92190446502d79287f6c38065fa1f1e87d77641a6ae0931ff7c0e86e4"
+ }
+}

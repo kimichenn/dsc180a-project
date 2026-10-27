@@ -1,0 +1,26 @@
+skill_drafts_pilot_v1: development skill screen
+Development screen: three general and two budget-specific drafts versus no skill; five repeats
+Collected 360/360 eligible responses.
+Matched comparisons use only logs complete across every version, instruction, and repeat.
+Development data only. No significance tests or claims of generalization to other tasks.
+
+gpt: 3/3 complete logs; 5 repeats per condition.
+Instruction    C       R       RG      E       Overall R/RG gain   C/E gain
+none           100.0%  80.0%   66.7%   80.0%   81.7%     +0.0 pp    +0.0 pp
+ledger_v2      86.7%   66.7%   73.3%   93.3%   80.0%     -3.3 pp    +0.0 pp
+audit_v2       93.3%   86.7%   60.0%   73.3%   78.3%     -0.0 pp    -6.7 pp
+minimal_v2     93.3%   66.7%   86.7%   80.0%   81.7%     +3.3 pp    -3.3 pp
+budget_backward_v2 0.0%    26.7%   26.7%   13.3%   16.7%    -46.7 pp   -83.3 pp
+budget_forward_v2 66.7%   46.7%   80.0%   40.0%   58.3%    -10.0 pp   -36.7 pp
+none: per-log R/RG gains [+0.0, +0.0, +0.0] pp; mean exact-answer pair agreement 65.8%; mean output tokens 3675.
+ledger_v2: per-log R/RG gains [-10.0, +20.0, -20.0] pp; mean exact-answer pair agreement 65.0%; mean output tokens 3747.
+audit_v2: per-log R/RG gains [-0.0, +10.0, -10.0] pp; mean exact-answer pair agreement 60.8%; mean output tokens 4079.
+minimal_v2: per-log R/RG gains [-10.0, -10.0, +30.0] pp; mean exact-answer pair agreement 67.5%; mean output tokens 3956.
+budget_backward_v2: per-log R/RG gains [-50.0, -60.0, -30.0] pp; mean exact-answer pair agreement 3.3%; mean output tokens 4290.
+budget_forward_v2: per-log R/RG gains [-20.0, -10.0, +0.0] pp; mean exact-answer pair agreement 41.7%; mean output tokens 4566.
+
+R/RG and C/E gains compare each candidate with the same no-skill logs.
+Repeats measure within-question variation; the independent sample is the number of logs.
+A leading draft needs a fresh validation pilot before any large study.
+Missing calls stay missing; completed responses without a numeric answer count as wrong.
+Wrong numerical answers are not assigned a causal mechanism from their offset.

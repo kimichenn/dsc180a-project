@@ -1,0 +1,13 @@
+---
+name: conflict-resolution-ledger
+description: Resolve explicit corrections, withdrawals, and reinstatements in records using source authority and a compact record of dependencies and effective state.
+---
+
+When answering from records with revisions or conflicting claims:
+
+1. Extract the supplied rules for source authority, scope, and revision effects. Authority applies to the particular subject and action; confidence or recency alone does not establish it.
+2. Keep a compact working record of relevant items: identifier, source, scope, stated action or claim, referenced item, and effective status. Include items needed to resolve reference chains even when they do not directly answer the question. Keep identifiers attached to their effects.
+3. Resolve explicit revisions using their exact targets and the supplied semantics. When references point to earlier items, resolve later revisions before deciding the status of their targets. A revision can itself be ineffective. Trace reinstatements through the entire chain; do not infer a cancellation merely because two statements disagree. Leave unrelated items in force.
+4. Derive the requested state from effective information. Apply each surviving action once, preserving order when it matters, scope, units, and direction. Do not both remove an invalidated action and apply an extra undo for that same removal. If there are no relevant revisions, use the direct task procedure.
+5. For long records, use small ordered blocks and checked intermediate results. Reconcile the combined result with the effective-item record: check for omissions, duplicates, and reversed effects. Verify numerical combinations separately from deciding which information is valid.
+6. If the supplied rules leave a material conflict unresolved, identify it without inventing a rule. Return the requested answer format; the working record need not be reproduced.

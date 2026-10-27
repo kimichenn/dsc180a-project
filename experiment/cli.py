@@ -62,7 +62,7 @@ def cmd_validate(args) -> int:
                 size_bad += 1
                 print(f"  - N={n} seed {seed}: {error}")
                 continue
-            found = check_world(world, sized) + check_scoring(world)
+            found = check_world(world, sized) + ([] if sized.chronological else check_scoring(world))
             if found:
                 size_bad += 1
                 print(f"  - N={n} seed {seed}: {'; '.join(found[:3])}")
@@ -165,11 +165,11 @@ def cmd_check(args) -> int:
 
 def cmd_prepare(args) -> int:
     config = load_config(args.config)
-    run = runs.prepare(config, args.config, args.run, runs.operator_name(args.operator))
+    run = runs.prepare(config, args.config, args.run, runs.operator_name(args.operator), args.workers, args.reuse_worlds)
     c = config
     print(
         f"Prepared {_relative(run.path)}: {c.logs} logs x {len(c.versions)} versions x {len(c.instructions)} instructions "
-        f"x {c.repeats} repeats x {len(c.models)} models = {len(run.trials)} calls. No model calls were made."
+        f"x {c.repeats} base repeats x {len(c.models)} models, plus configured extra repeats = {len(run.trials)} calls. No model calls were made."
     )
     print(f"  {'world':16} {'project':9} {'answer':>6} {'chains':>6} {'nested':>6}  length vs C (G, R, RG)")
     for world_id, w in run.manifest["worlds"].items():
@@ -199,6 +199,7 @@ def cmd_status(args) -> int:
 
 def cmd_collect(args) -> int:
     run = runs.load(args.run)
+    runs.verify_collection_source(run)
     operator = runs.operator_name(args.operator)
     workers, per_minute = dict(args.workers or []), dict(args.calls_per_minute or [])
     unknown = (set(args.models or []) | set(workers) | set(per_minute)) - set(run.config.models) - {None}
@@ -242,6 +243,27 @@ def cmd_analyze(args) -> int:
     run = runs.load(args.run)
     print(analyze(run))
     print(f"\nTables: {_relative(run.path / 'analysis')}/")
+    return 0
+
+
+def cmd_pilot_report(args) -> int:
+    from experiment.pilot import pilot_report
+
+    print(pilot_report(runs.load(args.run)))
+    return 0
+
+
+def cmd_repeat_report(args) -> int:
+    from experiment.repeat_report import repeat_report
+
+    print(repeat_report(runs.load(args.run)))
+    return 0
+
+
+def cmd_screen_report(args) -> int:
+    from experiment.screen_report import screen_report
+
+    print(screen_report(runs.load(args.run)))
     return 0
 
 
@@ -304,6 +326,8 @@ def _parser() -> argparse.ArgumentParser:
     prepare.add_argument("config", type=Path, help="run config, e.g. config/trial.toml")
     prepare.add_argument("run", type=Path, help="new run directory, e.g. runs/trial_v1")
     prepare.add_argument("--operator", help="your name in the manifest (default: $EXPERIMENT_OPERATOR or git user.name)")
+    prepare.add_argument("--workers", type=int, default=1, help="parallel local generator workers; no model calls")
+    prepare.add_argument("--reuse-worlds", type=Path, help="reuse matching frozen worlds only from a run with no model attempts")
     prepare.set_defaults(handler=cmd_prepare)
 
     status = commands.add_parser("status", help="calls done and left per model, who ran them, and with which CLI versions")
@@ -325,4 +349,15 @@ def _parser() -> argparse.ArgumentParser:
     analyze = commands.add_parser("analyze", help="score every collected call and write the tables to <run>/analysis/")
     analyze.add_argument("run", type=Path)
     analyze.set_defaults(handler=cmd_analyze)
+
+    pilot = commands.add_parser("pilot-report", help="descriptive paired skill gains; no significance tests (no dependencies)")
+    pilot.add_argument("run", type=Path)
+    pilot.set_defaults(handler=cmd_pilot_report)
+    repeat = commands.add_parser("repeat-report", help="paired accuracy and repeatability for the frozen repeated study")
+    repeat.add_argument("run", type=Path)
+    repeat.set_defaults(handler=cmd_repeat_report)
+
+    screen = commands.add_parser("screen-report", help="descriptive matched comparisons for multiple skill drafts")
+    screen.add_argument("run", type=Path)
+    screen.set_defaults(handler=cmd_screen_report)
     return parser

@@ -1,0 +1,29 @@
+skill_pilot_v1: exploratory skill pilot
+General conflict-resolution skill v1: exploratory pilot using legacy generator, 5 new logs, all 8 cells, one repeat
+Collected 40/80 planned eligible responses.
+Development data only; do not pool with the main study.
+No significance tests: these results guide piloting, not efficacy claims.
+
+claude
+Version  No skill (right/done/planned)  Skill (right/done/planned)  Paired gain (pp; logs)
+C        0/0/5                          0/0/5                       pending
+R        0/0/5                          0/0/5                       pending
+RG       0/0/5                          0/0/5                       pending
+E        0/0/5                          0/0/5                       pending
+R/RG average paired skill gain: pending complete R and RG pairs.
+Response status: no responses
+
+gpt
+Version  No skill (right/done/planned)  Skill (right/done/planned)  Paired gain (pp; logs)
+C        4/5/5                          5/5/5                       +20.0; n=5
+R        3/5/5                          1/5/5                       -40.0; n=5
+RG       3/5/5                          4/5/5                       +20.0; n=5
+E        3/5/5                          5/5/5                       +40.0; n=5
+R/RG average paired skill gain: -10.0 percentage points across 5 complete logs.
+Response status: correct=28, wrong_number=12
+none output tokens: mean 3550, max 5397.
+skill output tokens: mean 3906, max 5763.
+
+Paired gains use only logs with every planned repeat in the compared cells.
+Cell counts include all observed responses, including incomplete pairs.
+One repeat cannot measure repeatability. See PILOT_NOTES.md for run limitations.

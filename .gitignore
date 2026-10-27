@@ -219,8 +219,15 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Experiment runs: commit everything except what `analyze` rebuilds and a live collect's lock
-runs/*/analysis/
+# Keep result reports, failure reviews, and their supporting checkpoint audits.
+# Other generated analysis tables can be rebuilt from the frozen inputs and attempts.
+runs/*/analysis/*
+!runs/*/analysis/*_report.txt
+!runs/*/analysis/*_failure_review.md
+!runs/*/analysis/*_checkpoint_audit.csv
+
+# Machine-local launcher state and temporary collection files.
+runs/*_job.json
 runs/*/.collect.lock
 runs/**/*.tmp
 .DS_Store

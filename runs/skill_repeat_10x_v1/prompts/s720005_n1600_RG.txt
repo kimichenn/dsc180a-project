@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Basex budget set to $690K per the revised plan.
+#0002  Finance Office: Basex budget increased by $61K.
+#0003  Finance Office: Basex budget increased by $439K after review.
+#0004  Sales update: Sounds like Basex gets $387K less.
+#0005  Sales update: Basex security review passed.
+#0006  Vendor call: Pretty sure Basex's budget is $1250K now.
+#0007  Finance Office: Basex budget increased by $409K.
+#0008  Sales update: Expect Basex's budget to rise by $27K.
+#0009  Marketing email: Expect Basex's budget to drop by $303K.
+#0010  Sales update: Basex budget is going to $2070K.
+#0011  Facilities ticket: Basex security review passed.
+#0012  Finance Office: Basex budget decreased by $117K.
+#0013  Operations chat: Basex budget is going to $1970K.
+#0014  Finance Office: Basex budget increased by $45K.
+#0015  Finance Office: Basex budget increased by $209K.
+#0016  Finance Office: Basex budget decreased by $464K after review.
+#0017  Finance Office: Basex budget increased by $40K per the revised plan.
+#0018  Finance Office: Basex budget decreased by $5K.
+#0019  Finance Office: Basex budget increased by $384K after review.
+#0020  Finance Office: Basex budget decreased by $341K per the revised plan.
+#0021  Finance Office: Basex budget increased by $432K.
+#0022  Finance Office: Basex budget increased by $389K.
+#0023  Finance Office: Basex budget decreased by $258K.
+#0024  Finance Office: Basex budget decreased by $45K per the revised plan.
+#0025  Finance Office: Withdraw update #0002.
+#0026  Sales update: Expect Basex's budget to drop by $2K.
+#0027  Finance Office: Basex budget increased by $529K after review.
+#0028  Finance Office: Basex budget increased by $110K.
+#0029  Vendor call: Sounds like Basex gets $531K more.
+#0030  Finance Office: Basex budget increased by $192K.
+#0031  Engineering email: Basex budget is going up to $2800K.
+#0032  Facilities ticket: Basex budget is going to $2800K.
+#0033  Finance Office: Withdraw update #0025.
+#0034  Finance Office: Withdraw update #0033; it was entered in error.
+#0035  Marketing email: Basex budget is going down by $306K.
+#0036  Finance Office: Withdraw update #0034; it was entered in error.
+#0037  Finance Office: Basex budget decreased by $523K per the revised plan.
+#0038  Finance Office: Withdraw update #0003; it was entered in error.
+#0039  Finance Office: Basex budget increased by $224K.
+#0040  Facilities ticket: Basex budget is going down to $1610K.
+#0041  PMO note: Basex budget is going to $2610K.
+#0042  Finance Office: Withdraw update #0019; it was entered in error.
+#0043  PMO note: Basex budget is going to $2080K.
+#0044  Vendor call: Hearing Basex's budget goes up $594K.
+#0045  Finance Office: Basex budget increased by $135K.
+#0046  Finance Office: Basex budget increased by $518K per the revised plan.
+#0047  Finance Office: Basex budget decreased by $137K per the revised plan.
+#0048  Finance Office: Basex budget decreased by $368K per the revised plan.
+#0049  Vendor call: Basex test environment back online.
+#0050  Finance Office: Withdraw update #0037; it was entered in error.
+#0051  Finance Office: Basex budget decreased by $207K after review.
+#0052  Finance Office: Basex budget increased by $184K per the revised plan.
+#0053  Finance Office: Withdraw update #0046; it was entered in error.
+#0054  Finance Office: Withdraw update #0020; it was entered in error.
+#0055  Finance Office: Basex budget decreased by $15K per the revised plan.
+#0056  Vendor call: Pretty sure Basex's budget is $2470K now.
+#0057  Facilities ticket: Basex test environment back online.
+#0058  Finance Office: Basex budget decreased by $95K.
+#0059  Finance Office: Basex budget increased by $33K.
+#0060  Operations chat: Basex site visit confirmed for Friday.
+#0061  Finance Office: Basex budget increased by $256K.
+#0062  Finance Office: Basex budget increased by $35K.
+#0063  Finance Office: Withdraw update #0050.
+#0064  Finance Office: Withdraw update #0063.
+#0065  Engineering email: Hearing Basex's budget goes down $169K.
+#0066  Finance Office: Withdraw update #0064; it was entered in error.
+#0067  Finance Office: Basex budget increased by $24K per the revised plan.
+#0068  Finance Office: Basex budget decreased by $20K.
+#0069  Facilities ticket: Expect Basex's budget to rise by $121K.
+#0070  Engineering email: Basex budget should land at $1620K.
+#0071  Finance Office: Withdraw update #0067; it was entered in error.
+#0072  Finance Office: Withdraw update #0047.
+#0073  Finance Office: Withdraw update #0012; it was entered in error.
+#0074  Operations chat: Sounds like Basex gets $38K more.
+#0075  Facilities ticket: Basex vendor onboarding call scheduled for Monday.
+#0076  Engineering email: Basex budget is going to $1850K.
+#0077  Finance Office: Withdraw update #0023; it was entered in error.
+#0078  Sales update: Basex weekly sync moved to Wednesdays.
+#0079  Sales update: Expect Basex's budget to drop by $168K.
+#0080  Marketing email: Basex budget is going down by $304K.
+#0081  Finance Office: Basex budget decreased by $90K after review.
+#0082  Finance Office: Basex budget decreased by $60K per the revised plan.
+#0083  Finance Office: Withdraw update #0054; it was entered in error.
+#0084  Finance Office: Basex budget increased by $30K per the revised plan.
+#0085  Finance Office: Basex budget decreased by $153K per the revised plan.
+#0086  Engineering email: Basex demo rescheduled to Tuesday afternoon.
+#0087  Sales update: Hearing Basex's budget goes down $261K.
+#0088  Finance Office: Withdraw update #0085.
+#0089  Sales update: Basex budget is going down by $97K.
+#0090  Vendor call: Basex budget is going up by $201K.
+#0091  Finance Office: Basex audit notes filed.
+#0092  Finance Office: Basex budget decreased by $135K per the revised plan.
+#0093  Finance Office: Withdraw update #0015; it was entered in error.
+#0094  Marketing email: Basex budget should land at $1010K.
+#0095  PMO note: Basex budget is going up to $1450K.
+#0096  Vendor call: Basex budget is going up by $148K.
+#0097  Finance Office: Basex budget increased by $197K per the revised plan.
+#0098  Sales update: Expect Basex's budget to drop by $431K.
+#0099  Finance Office: Withdraw update #0097; it was entered in error.
+#0100  Engineering email: Pretty sure Basex's budget is $1340K now.
+#0101  Finance Office: Basex budget increased by $105K per the revised plan.
+#0102  Vendor call: Heard Basex's budget is now $1260K.
+#0103  Finance Office: Basex budget decreased by $25K after review.
+#0104  Finance Office: Basex budget decreased by $444K.
+#0105  Finance Office: Withdraw update #0007; it was entered in error.
+#0106  Finance Office: Withdraw update #0048.
+#0107  Finance Office: Basex budget decreased by $80K after review.
+#0108  Finance Office: Basex budget increased by $60K after review.
+#0109  Finance Office: Basex budget increased by $88K per the revised plan.
+#0110  Finance Office: Basex budget decreased by $65K per the revised plan.
+#0111  Finance Office: Basex budget decreased by $126K.
+#0112  Engineering email: Basex budget should land at $740K.
+#0113  Finance Office: Basex budget increased by $105K per the revised plan.
+#0114  Finance Office: Withdraw update #0059.
+#0115  Legal email: Basex budget is going down by $127K.
+#0116  Engineering email: Basex budget is going up by $233K.
+#0117  Finance Office: Basex budget increased by $124K after review.
+#0118  Finance Office: Basex budget decreased by $559K after review.
+#0119  Facilities ticket: Basex security review passed.
+#0120  Finance Office: Basex budget increased by $60K.
+#0121  Finance Office: Basex budget increased by $524K.
+#0122  Engineering email: Basex design review moved to Room 1A.
+#0123  Finance Office: Withdraw update #0027; it was entered in error.
+#0124  Operations chat: Expect Basex's budget to drop by $339K.
+#0125  Finance Office: Basex budget increased by $356K after review.
+#0126  Finance Office: Withdraw update #0042; it was entered in error.
+#0127  Finance Office: Basex finance review moved to Room 1B.
+#0128  Finance Office: Basex budget decreased by $282K after review.
+#0129  Finance Office: Basex budget increased by $32K per the revised plan.
+#0130  Finance Office: Withdraw update #0039.
+#0131  Vendor call: Basex budget should land at $940K.
+#0132  Finance Office: Basex budget decreased by $247K after review.
+#0133  Operations chat: Basex site visit confirmed for Friday.
+#0134  Finance Office: Basex budget increased by $176K.
+#0135  Finance Office: Withdraw update #0117; it was entered in error.
+#0136  Finance Office: Basex budget increased by $426K after review.
+#0137  Finance Office: Basex budget increased by $150K.
+#0138  Finance Office: Basex budget increased by $503K.
+#0139  Finance Office: Basex budget increased by $60K.
+#0140  Finance Office: Withdraw update #0125; it was entered in error.
+#0141  Finance Office: Basex invoice batch FC-6877 archived.
+#0142  Finance Office: Basex budget decreased by $110K per the revised plan.
+#0143  Finance Office: Basex budget increased by $135K after review.
+#0144  Finance Office: Basex budget increased by $472K.
+#0145  Finance Office: Basex budget increased by $21K.
+#0146  Finance Office: Withdraw update #0022.
+#0147  PMO note: Basex budget is going to $1890K.
+#0148  Facilities ticket: Hearing Basex's budget goes down $211K.
+#0149  Finance Office: Basex budget increased by $379K.
+#0150  Finance Office: Basex budget increased by $5K.
+#0151  Facilities ticket: Expect Basex's budget to rise by $111K.
+#0152  Finance Office: Basex budget increased by $55K per the revised plan.
+#0153  Finance Office: Withdraw update #0093; it was entered in error.
+#0154  Finance Office: Basex budget decreased by $100K after review.
+#0155  Legal email: Pretty sure Basex's budget is $2200K now.
+#0156  Finance Office: Basex budget decreased by $60K after review.
+#0157  Finance Office: Basex budget decreased by $481K.
+#0158  Finance Office: Basex budget increased by $57K per the revised plan.
+#0159  Finance Office: Basex purchase order FC-5550 closed.
+#0160  Finance Office: Basex budget increased by $120K per the revised plan.
+#0161  Marketing email: Basex budget is going to $2430K.
+#0162  PMO note: Pretty sure Basex's budget is $2450K now.
+#0163  Finance Office: Basex budget decreased by $105K after review.
+#0164  Finance Office: Basex budget decreased by $100K.
+#0165  Finance Office: Basex budget increased by $30K per the revised plan.
+#0166  Sales update: Hearing Basex's budget goes up $163K.
+#0167  Finance Office: Basex budget decreased by $42K after review.
+#0168  Finance Office: Basex budget increased by $271K per the revised plan.
+#0169  Finance Office: Withdraw update #0073.
+#0170  PMO note: Sounds like Basex gets $509K less.
+#0171  Finance Office: Basex budget decreased by $65K after review.
+#0172  Finance Office: Basex budget increased by $13K.
+#0173  Finance Office: Basex budget decreased by $130K after review.
+#0174  PMO note: Basex budget should land at $1210K.
+#0175  Finance Office: Basex budget decreased by $60K per the revised plan.
+#0176  Finance Office: Basex budget decreased by $25K after review.
+#0177  Finance Office: Basex budget decreased by $534K.
+#0178  Finance Office: Basex budget increased by $35K per the revised plan.
+#0179  Finance Office: Basex budget decreased by $35K.
+#0180  Legal email: Expect Basex's budget to drop by $349K.
+#0181  Finance Office: Basex budget increased by $302K per the revised plan.
+#0182  Finance Office: Basex budget increased by $159K.
+#0183  Finance Office: Basex budget increased by $120K per the revised plan.
+#0184  Sales update: Basex budget should land at $1800K.
+#0185  Finance Office: Basex budget decreased by $105K after review.
+#0186  Finance Office: Basex budget decreased by $83K after review.
+#0187  Marketing email: Pretty sure Basex's budget is $1430K now.
+#0188  Finance Office: Basex budget decreased by $15K.
+#0189  Finance Office: Basex budget increased by $314K per the revised plan.
+#0190  Legal email: Basex budget is going down by $62K.
+#0191  Finance Office: Basex budget increased by $125K.
+#0192  Finance Office: Basex budget decreased by $35K.
+#0193  Legal email: Pretty sure Basex's budget is $1390K now.
+#0194  Finance Office: Basex budget decreased by $100K per the revised plan.
+#0195  Finance Office: Basex audit notes filed.
+#0196  PMO note: Expect Basex's budget to rise by $63K.
+#0197  Finance Office: Basex budget decreased by $35K after review.
+#0198  Finance Office: Basex audit notes filed.
+#0199  Finance Office: Basex budget decreased by $74K.
+#0200  Sales update: Basex budget is going down to $1030K.
+#0201  Vendor call: Basex budget is going down to $1180K.
+#0202  Sales update: Basex budget should land at $1130K.
+#0203  Finance Office: Withdraw update #0128.
+#0204  Finance Office: Withdraw update #0126; it was entered in error.
+#0205  Marketing email: Expect Basex's budget to rise by $441K.
+#0206  Operations chat: Heard Basex's budget is now $1550K.
+#0207  PMO note: Heard Basex's budget is now $1600K.
+#0208  Finance Office: Basex budget increased by $125K per the revised plan.
+#0209  Facilities ticket: Sounds like Basex gets $551K less.
+#0210  Finance Office: Basex budget increased by $105K after review.
+#0211  Engineering email: Basex budget is going up to $1640K.
+#0212  Finance Office: Basex budget decreased by $135K after review.
+#0213  Finance Office: Basex budget decreased by $50K after review.
+#0214  Finance Office: Basex budget decreased by $103K after review.
+#0215  Finance Office: Basex budget decreased by $59K after review.
+#0216  Finance Office: Withdraw update #0172; it was entered in error.
+#0217  Finance Office: Basex budget decreased by $598K after review.
+#0218  Finance Office: Basex budget increased by $66K after review.
+#0219  Sales update: Expect Basex's budget to rise by $329K.
+#0220  Vendor call: Heard Basex's budget is now $740K.
+#0221  Finance Office: Basex budget increased by $152K per the revised plan.
+#0222  Finance Office: Basex budget increased by $120K per the revised plan.
+#0223  Operations chat: Expect Basex's budget to drop by $486K.
+#0224  Facilities ticket: Expect Basex's budget to rise by $442K.
+#0225  Finance Office: Basex budget increased by $120K per the revised plan.
+#0226  PMO note: Basex budget is going down to $1030K.
+#0227  Finance Office: Basex budget decreased by $90K.
+#0228  Facilities ticket: Hearing Basex's budget goes down $599K.
+#0229  Vendor call: Sounds like Basex gets $474K less.
+#0230  Facilities ticket: Hearing Basex's budget goes up $371K.
+#0231  Finance Office: Basex budget increased by $583K.
+#0232  Finance Office: Withdraw update #0016.
+#0233  Finance Office: Basex budget increased by $15K after review.
+#0234  Engineering email: Hearing Basex's budget goes up $542K.
+#0235  PMO note: Expect Basex's budget to drop by $319K.
+#0236  Finance Office: Basex budget decreased by $100K after review.
+#0237  Finance Office: Basex finance review moved to Room 3D.
+#0238  Finance Office: Basex budget increased by $140K per the revised plan.
+#0239  Finance Office: Basex budget decreased by $100K per the revised plan.
+#0240  Finance Office: Basex budget decreased by $417K per the revised plan.
+#0241  Finance Office: Basex budget decreased by $115K after review.
+#0242  Facilities ticket: Basex budget is going to $1650K.
+#0243  Finance Office: Withdraw update #0177.
+#0244  Finance Office: Basex budget decreased by $493K after review.
+#0245  Facilities ticket: Basex risk register updated with 4 new items.
+#0246  Operations chat: Hearing Basex's budget goes down $116K.
+#0247  Legal email: Hearing Basex's budget goes down $14K.
+#0248  Engineering email: Basex demo rescheduled to Wednesday afternoon.
+#0249  PMO note: Basex budget should land at $1700K.
+#0250  Facilities ticket: Basex budget is going to $1560K.
+#0251  Operations chat: Expect Basex's budget to drop by $288K.
+#0252  Finance Office: Basex budget decreased by $75K.
+#0253  Finance Office: Basex budget increased by $150K per the revised plan.
+#0254  Finance Office: Basex budget increased by $351K per the revised plan.
+#0255  Finance Office: Basex budget increased by $95K after review.
+#0256  Finance Office: Basex budget decreased by $494K after review.
+#0257  Finance Office: Basex budget increased by $301K.
+#0258  Finance Office: Basex budget increased by $316K.
+#0259  Finance Office: Withdraw update #0153.
+#0260  Finance Office: Basex budget increased by $274K per the revised plan.
+#0261  Facilities ticket: Basex budget should land at $2700K.
+#0262  Finance Office: Basex budget increased by $65K per the revised plan.
+#0263  Finance Office: Basex budget increased by $150K after review.
+#0264  Finance Office: Basex budget decreased by $277K after review.
+#0265  Finance Office: Withdraw update #0157; it was entered in error.
+#0266  Finance Office: Basex budget decreased by $50K after review.
+#0267  Operations chat: Sounds like Basex gets $19K less.
+#0268  Finance Office: Basex budget decreased by $130K.
+#0269  Finance Office: Basex budget increased by $45K after review.
+#0270  Marketing email: Expect Basex's budget to drop by $456K.
+#0271  Finance Office: Basex budget decreased by $125K per the revised plan.
+#0272  Finance Office: Basex budget increased by $105K.
+#0273  Finance Office: Basex budget increased by $65K after review.
+#0274  Finance Office: Basex budget decreased by $476K per the revised plan.
+#0275  Finance Office: Basex cost center code changed to FC-7774.
+#0276  Legal email: Pretty sure Basex's budget is $1780K now.
+#0277  Finance Office: Basex budget decreased by $105K after review.
+#0278  Finance Office: Basex budget increased by $576K after review.
+#0279  Finance Office: Basex budget decreased by $145K after review.
+#0280  Finance Office: Withdraw update #0136.
+#0281  Finance Office: Basex budget decreased by $60K.
+#0282  Operations chat: Heard Basex's budget is now $1890K.
+#0283  Finance Office: Basex budget decreased by $581K after review.
+#0284  Finance Office: Basex budget decreased by $125K after review.
+#0285  Finance Office: Withdraw update #0105.
+#0286  Finance Office: Basex budget decreased by $125K.
+#0287  Finance Office: Basex budget increased by $264K.
+#0288  Finance Office: Withdraw update #0144.
+#0289  Finance Office: Withdraw update #0260; it was entered in error.
+#0290  Legal email: Basex budget should land at $1360K.
+#0291  Finance Office: Withdraw update #0111; it was entered in error.
+#0292  Finance Office: Withdraw update #0104; it was entered in error.
+#0293  Facilities ticket: Pretty sure Basex's budget is $1310K now.
+#0294  Finance Office: Basex budget increased by $119K per the revised plan.
+#0295  Finance Office: Withdraw update #0217.
+#0296  Engineering email: Basex design review moved to Room 2B.
+#0297  Vendor call: Hearing Basex's budget goes up $537K.
+#0298  Finance Office: Basex budget decreased by $90K per the revised plan.
+#0299  Finance Office: Basex cost center code changed to FC-7300.
+#0300  Finance Office: Withdraw update #0146; it was entered in error.
+#0301  Sales update: Basex demo rescheduled to Wednesday afternoon.
+#0302  Finance Office: Basex receipts scanned.
+#0303  Finance Office: Withdraw update #0158.
+#0304  Sales update: Heard Basex's budget is now $2800K.
+#0305  Finance Office: Basex budget increased by $386K per the revised plan.
+#0306  Marketing email: Basex budget is going to $2800K.
+#0307  Sales update: Hearing Basex's budget goes down $98K.
+#0308  Finance Office: Basex budget increased by $25K per the revised plan.
+#0309  Vendor call: Basex security review passed.
+#0310  Operations chat: Hearing Basex's budget goes down $133K.
+#0311  Finance Office: Basex budget decreased by $462K.
+#0312  Finance Office: Basex budget decreased by $577K per the revised plan.
+#0313  Marketing email: Heard Basex's budget is now $2500K.
+#0314  Finance Office: Basex budget increased by $100K per the revised plan.
+#0315  Finance Office: Basex budget decreased by $141K after review.
+#0316  Finance Office: Basex budget increased by $104K.
+#0317  Finance Office: Basex budget increased by $15K after review.
+#0318  Finance Office: Withdraw update #0186.
+#0319  PMO note: Heard Basex's budget is now $2040K.
+#0320  Marketing email: Pretty sure Basex's budget is $1980K now.
+#0321  Finance Office: Basex budget increased by $30K after review.
+#0322  Finance Office: Basex budget decreased by $321K per the revised plan.
+#0323  Marketing email: Basex budget is going up to $1850K.
+#0324  Finance Office: Withdraw update #0300.
+#0325  Finance Office: Basex budget increased by $536K per the revised plan.
+#0326  PMO note: Heard Basex's budget is now $2010K.
+#0327  Finance Office: Basex budget increased by $237K.
+#0328  Finance Office: Withdraw update #0324; it was entered in error.
+#0329  Finance Office: Basex budget decreased by $553K per the revised plan.
+#0330  Legal email: Expect Basex's budget to rise by $16K.
+#0331  Finance Office: Basex budget increased by $140K after review.
+#0332  Finance Office: Withdraw update #0315; it was entered in error.
+#0333  Facilities ticket: Basex budget is going up by $182K.
+#0334  Facilities ticket: Heard Basex's budget is now $1810K.
+#0335  Finance Office: Basex budget increased by $212K after review.
+#0336  Finance Office: Basex budget increased by $90K per the revised plan.
+#0337  Finance Office: Basex budget decreased by $203K per the revised plan.
+#0338  Facilities ticket: Hearing Basex's budget goes up $37K.
+#0339  Finance Office: Basex budget decreased by $140K after review.
+#0340  Finance Office: Basex budget increased by $145K.
+#0341  Finance Office: Basex budget decreased by $113K after review.
+#0342  Finance Office: Basex budget decreased by $110K per the revised plan.
+#0343  Marketing email: Heard Basex's budget is now $2800K.
+#0344  Finance Office: Basex budget decreased by $453K.
+#0345  Operations chat: Sounds like Basex gets $399K more.
+#0346  Finance Office: Basex budget decreased by $136K after review.
+#0347  Finance Office: Basex budget decreased by $120K after review.
+#0348  Finance Office: Withdraw update #0316.
+#0349  Sales update: Expect Basex's budget to rise by $398K.
+#0350  Finance Office: Basex budget increased by $145K after review.
+#0351  Finance Office: Withdraw update #0322; it was entered in error.
+#0352  Finance Office: Basex budget decreased by $572K per the revised plan.
+#0353  Facilities ticket: Heard Basex's budget is now $1100K.
+#0354  Finance Office: Basex budget decreased by $120K.
+#0355  Finance Office: Basex budget increased by $427K after review.
+#0356  Engineering email: Basex sprint 36 retrospective notes posted.
+#0357  Finance Office: Withdraw update #0355; it was entered in error.
+#0358  PMO note: Pretty sure Basex's budget is $1180K now.
+#0359  PMO note: Basex budget is going down to $1040K.
+#0360  Finance Office: Withdraw update #0328.
+#0361  Facilities ticket: Basex budget is going to $1020K.
+#0362  Finance Office: Basex budget increased by $55K per the revised plan.
+#0363  Finance Office: Basex budget increased by $508K after review.
+#0364  Facilities ticket: Pretty sure Basex's budget is $1800K now.
+#0365  Vendor call: Sounds like Basex gets $193K more.
+#0366  Finance Office: Basex budget increased by $459K.
+#0367  Finance Office: Basex budget decreased by $95K after review.
+#0368  Legal email: Sounds like Basex gets $112K more.
+#0369  Finance Office: Basex budget increased by $100K after review.
+#0370  Finance Office: Basex budget decreased by $80K after review.
+#0371  Finance Office: Withdraw update #0254.
+#0372  Legal email: Basex weekly sync moved to Thursdays.
+#0373  Finance Office: Basex budget decreased by $123K per the revised plan.
+#0374  Finance Office: Basex budget decreased by $5K.
+#0375  Finance Office: Withdraw update #0204; it was entered in error.
+#0376  PMO note: Basex budget is going up to $1790K.
+#0377  Marketing email: Basex budget should land at $1370K.
+#0378  Finance Office: Basex budget increased by $60K.
+#0379  Finance Office: Basex budget decreased by $50K per the revised plan.
+#0380  Finance Office: Basex budget decreased by $115K.
+#0381  Finance Office: Withdraw update #0352; it was entered in error.
+#0382  Finance Office: Basex budget decreased by $130K per the revised plan.
+#0383  Sales update: Basex site visit confirmed for Tuesday.
+#0384  Finance Office: Basex budget increased by $150K.
+#0385  PMO note: Basex weekly sync moved to Tuesdays.
+#0386  Engineering email: Basex demo rescheduled to Tuesday afternoon.
+#0387  Finance Office: Basex budget decreased by $143K per the revised plan.
+#0388  Sales update: Basex budget is going down by $219K.
+#0389  Finance Office: Basex budget increased by $60K after review.
+#0390  PMO note: Basex demo rescheduled to Tuesday afternoon.
+#0391  Vendor call: Heard Basex's budget is now $1450K.
+#0392  Finance Office: Basex budget increased by $289K per the revised plan.
+#0393  Finance Office: Withdraw update #0218; it was entered in error.
+#0394  Marketing email: Basex budget is going up to $2730K.
+#0395  Legal email: Basex budget is going to $2510K.
+#0396  Finance Office: Basex budget decreased by $30K per the revised plan.
+#0397  Finance Office: Basex finance review moved to Room 2D.
+#0398  Finance Office: Basex budget increased by $75K after review.
+#0399  Finance Office: Basex budget decreased by $15K per the revised plan.
+#0400  Finance Office: Withdraw update #0036; it was entered in error.
+#0401  Finance Office: Withdraw update #0360.
+#0402  Operations chat: Basex budget should land at $2160K.
+#0403  Marketing email: Heard Basex's budget is now $2800K.
+#0404  Finance Office: Basex budget decreased by $114K.
+#0405  Finance Office: Basex receipts scanned.
+#0406  Vendor call: Basex test environment back online.
+#0407  Finance Office: Basex budget increased by $50K per the revised plan.
+#0408  Finance Office: Withdraw update #0199; it was entered in error.
+#0409  Finance Office: Basex budget decreased by $120K.
+#0410  Finance Office: Withdraw update #0121.
+#0411  Finance Office: Withdraw update #0312.
+#0412  Finance Office: Basex budget increased by $105K.
+#0413  Facilities ticket: Basex test environment back online.
+#0414  Finance Office: Basex budget decreased by $120K.
+#0415  Finance Office: Basex budget decreased by $392K per the revised plan.
+#0416  PMO note: Hearing Basex's budget goes down $228K.
+#0417  Finance Office: Withdraw update #0030; it was entered in error.
+#0418  Facilities ticket: Sounds like Basex gets $188K less.
+#0419  Finance Office: Basex budget decreased by $35K after review.
+#0420  Operations chat: Basex budget should land at $1320K.
+#0421  Finance Office: Basex budget decreased by $135K per the revised plan.
+#0422  Finance Office: Withdraw update #0400; it was entered in error.
+#0423  Finance Office: Basex budget increased by $105K after review.
+#0424  Finance Office: Basex budget decreased by $90K per the revised plan.
+#0425  Finance Office: Basex budget increased by $236K.
+#0426  Operations chat: Basex risk register updated with 5 new items.
+#0427  Finance Office: Basex budget increased by $65K per the revised plan.
+#0428  Finance Office: Basex budget decreased by $10K per the revised plan.
+#0429  Finance Office: Basex budget decreased by $497K per the revised plan.
+#0430  Finance Office: Basex budget decreased by $85K per the revised plan.
+#0431  Finance Office: Withdraw update #0371; it was entered in error.
+#0432  Facilities ticket: Basex budget is going up to $2330K.
+#0433  Vendor call: Sounds like Basex gets $364K more.
+#0434  Legal email: Expect Basex's budget to rise by $278K.
+#0435  Finance Office: Withdraw update #0387; it was entered in error.
+#0436  Operations chat: Basex security review passed.
+#0437  Finance Office: Basex budget increased by $25K after review.
+#0438  Sales update: Hearing Basex's budget goes up $162K.
+#0439  Operations chat: Expect Basex's budget to drop by $423K.
+#0440  Finance Office: Basex budget decreased by $115K per the revised plan.
+#0441  Marketing email: Expect Basex's budget to rise by $332K.
+#0442  Finance Office: Withdraw update #0264; it was entered in error.
+#0443  Engineering email: Basex status report filed for week 7.
+#0444  Finance Office: Reminder: Basex expense reports are due Tuesday.
+#0445  Finance Office: Withdraw update #0038.
+#0446  Finance Office: Basex budget increased by $135K.
+#0447  PMO note: Basex budget should land at $2660K.
+#0448  Finance Office: Withdraw update #0366; it was entered in error.
+#0449  Finance Office: Basex quarterly audit scheduled for Friday.
+#0450  Finance Office: Basex budget increased by $40K.
+#0451  Operations chat: Basex budget is going up by $507K.
+#0452  Finance Office: Basex budget decreased by $110K.
+#0453  Finance Office: Basex cost center code changed to FC-4338.
+#0454  Legal email: Basex documentation moved to the shared drive.
+#0455  Facilities ticket: Basex documentation moved to the shared drive.
+#0456  Finance Office: Basex budget increased by $406K.
+#0457  Finance Office: Basex budget increased by $135K per the revised plan.
+#0458  Finance Office: Basex budget decreased by $5K.
+#0459  Facilities ticket: Basex budget is going down by $249K.
+#0460  Finance Office: Basex budget decreased by $402K per the revised plan.
+#0461  Finance Office: Withdraw update #0214; it was entered in error.
+#0462  Finance Office: Withdraw update #0287; it was entered in error.
+#0463  Finance Office: Basex budget decreased by $140K.
+#0464  Engineering email: Hearing Basex's budget goes up $292K.
+#0465  Finance Office: Basex budget increased by $30K.
+#0466  Finance Office: Basex budget increased by $105K after review.
+#0467  Finance Office: Basex budget decreased by $70K.
+#0468  Sales update: Basex security review passed.
+#0469  Facilities ticket: Basex budget is going to $1660K.
+#0470  Finance Office: Basex budget decreased by $120K per the revised plan.
+#0471  Facilities ticket: Expect Basex's budget to rise by $328K.
+#0472  Finance Office: Basex budget decreased by $504K after review.
+#0473  Operations chat: Expect Basex's budget to rise by $477K.
+#0474  Engineering email: Basex budget is going up by $586K.
+#0475  Finance Office: Basex budget decreased by $45K after review.
+#0476  PMO note: Basex security review passed.
+#0477  Finance Office: Withdraw update #0425; it was entered in error.
+#0478  Operations chat: Sounds like Basex gets $466K less.
+#0479  Finance Office: Basex budget increased by $130K per the revised plan.
+#0480  Finance Office: Basex budget increased by $45K.
+#0481  Operations chat: Expect Basex's budget to rise by $566K.
+#0482  Finance Office: Withdraw update #0123.
+#0483  Finance Office: Withdraw update #0477.
+#0484  Finance Office: Basex budget decreased by $55K after review.
+#0485  Legal email: Heard Basex's budget is now $2480K.
+#0486  Finance Office: Basex budget decreased by $55K per the revised plan.
+#0487  Finance Office: Basex budget decreased by $125K.
+#0488  Marketing email: Heard Basex's budget is now $1390K.
+#0489  Finance Office: Basex budget decreased by $65K after review.
+#0490  PMO note: Pretty sure Basex's budget is $1950K now.
+#0491  Operations chat: Basex budget is going down to $1390K.
+#0492  Finance Office: Withdraw update #0232.
+#0493  Finance Office: Withdraw update #0285.
+#0494  Finance Office: Basex budget increased by $120K per the revised plan.
+#0495  Engineering email: Hearing Basex's budget goes down $118K.
+#0496  Finance Office: Withdraw update #0327.
+#0497  Finance Office: Basex budget increased by $26K.
+#0498  Finance Office: Withdraw update #0404; it was entered in error.
+#0499  Finance Office: Basex budget decreased by $40K after review.
+#0500  Legal email: Basex security review passed.
+#0501  Finance Office: Basex receipts scanned.
+#0502  Sales update: Expect Basex's budget to drop by $517K.
+#0503  Finance Office: Basex budget decreased by $100K after review.
+#0504  Finance Office: Basex budget increased by $50K after review.
+#0505  Finance Office: Withdraw update #0189.
+#0506  Finance Office: Basex budget increased by $166K after review.
+#0507  Finance Office: Basex budget decreased by $80K after review.
+#0508  Finance Office: Basex budget decreased by $55K.
+#0509  Marketing email: Basex budget is going up by $558K.
+#0510  Finance Office: Withdraw update #0244.
+#0511  Finance Office: Basex budget decreased by $179K.
+#0512  Finance Office: Basex budget decreased by $25K.
+#0513  Finance Office: Basex budget increased by $5K after review.
+#0514  Vendor call: Basex budget should land at $1040K.
+#0515  Engineering email: Basex budget is going up by $106K.
+#0516  Finance Office: Basex budget decreased by $8K.
+#0517  Finance Office: Basex budget decreased by $34K.
+#0518  Legal email: Hearing Basex's budget goes up $221K.
+#0519  Operations chat: Basex budget is going up by $506K.
+#0520  Facilities ticket: Basex budget is going to $810K.
+#0521  Finance Office: Basex budget increased by $226K per the revised plan.
+#0522  Operations chat: Basex budget is going up to $1290K.
+#0523  Operations chat: Basex security review passed.
+#0524  Finance Office: Withdraw update #0344; it was entered in error.
+#0525  Marketing email: Basex budget is going down by $64K.
+#0526  Engineering email: Sounds like Basex gets $297K more.
+#0527  Finance Office: Basex budget decreased by $5K after review.
+#0528  Finance Office: Withdraw update #0231.
+#0529  Finance Office: Basex budget increased by $150K after review.
+#0530  Finance Office: Basex budget decreased by $30K after review.
+#0531  Finance Office: Basex budget decreased by $120K after review.
+#0532  Finance Office: Basex budget decreased by $54K after review.
+#0533  Finance Office: Basex budget increased by $30K after review.
+#0534  Finance Office: Withdraw update #0337; it was entered in error.
+#0535  Finance Office: Basex budget increased by $60K per the revised plan.
+#0536  Finance Office: Basex budget increased by $80K after review.
+#0537  Facilities ticket: Pretty sure Basex's budget is $1180K now.
+#0538  Finance Office: Withdraw update #0130; it was entered in error.
+#0539  Finance Office: Withdraw update #0483.
+#0540  Engineering email: Basex budget is going down to $960K.
+#0541  Vendor call: Basex security review passed.
+#0542  Legal email: Sounds like Basex gets $571K less.
+#0543  Finance Office: Basex budget increased by $281K.
+#0544  PMO note: Expect Basex's budget to rise by $396K.
+#0545  PMO note: Basex budget should land at $1630K.
+#0546  Finance Office: Withdraw update #0442; it was entered in error.
+#0547  Marketing email: Sounds like Basex gets $492K more.
+#0548  Finance Office: Basex budget decreased by $60K per the revised plan.
+#0549  Engineering email: Basex demo rescheduled to Monday afternoon.
+#0550  Finance Office: Basex budget increased by $105K.
+#0551  Marketing email: Basex budget should land at $1010K.
+#0552  Finance Office: Basex invoice batch FC-7999 archived.
+#0553  Finance Office: Withdraw update #0240.
+#0554  Legal email: Basex budget is going down by $183K.
+#0555  Vendor call: Basex design review moved to Room 3C.
+#0556  Finance Office: Withdraw update #0393; it was entered in error.
+#0557  Facilities ticket: Basex budget is going to $1400K.
+#0558  Finance Office: Basex budget increased by $140K.
+#0559  Finance Office: Basex budget increased by $95K.
+#0560  Finance Office: Basex budget increased by $204K.
+#0561  Vendor call: Heard Basex's budget is now $1690K.
+#0562  Finance Office: Withdraw update #0294; it was entered in error.
+#0563  PMO note: Hearing Basex's budget goes down $178K.
+#0564  Finance Office: Basex invoice batch FC-9947 archived.
+#0565  Engineering email: Sounds like Basex gets $434K less.
+#0566  Sales update: Heard Basex's budget is now $2310K.
+#0567  Finance Office: Basex budget increased by $65K.
+#0568  Facilities ticket: Basex weekly sync moved to Thursdays.
+#0569  PMO note: Basex site visit confirmed for Monday.
+#0570  Vendor call: Basex budget should land at $2800K.
+#0571  Finance Office: Basex budget increased by $377K.
+#0572  Finance Office: Withdraw update #0373.
+#0573  Legal email: Heard Basex's budget is now $2800K.
+#0574  Finance Office: Basex budget decreased by $95K.
+#0575  Finance Office: Withdraw update #0543; it was entered in error.
+#0576  Finance Office: Withdraw update #0357; it was entered in error.
+#0577  Finance Office: Withdraw update #0182; it was entered in error.
+#0578  Finance Office: Basex budget decreased by $150K per the revised plan.
+#0579  Finance Office: Basex budget decreased by $448K per the revised plan.
+#0580  Finance Office: Basex budget decreased by $45K after review.
+#0581  Finance Office: Basex budget decreased by $80K after review.
+#0582  Finance Office: Withdraw update #0517.
+#0583  Facilities ticket: Expect Basex's budget to drop by $196K.
+#0584  Finance Office: Basex budget decreased by $105K after review.
+#0585  Legal email: Expect Basex's budget to drop by $99K.
+#0586  Engineering email: Basex budget should land at $2380K.
+#0587  PMO note: Basex budget should land at $2460K.
+#0588  Legal email: Basex budget is going up by $397K.
+#0589  Finance Office: Basex budget increased by $20K per the revised plan.
+#0590  Operations chat: Pretty sure Basex's budget is $2060K now.
+#0591  Finance Office: Basex budget increased by $521K after review.
+#0592  PMO note: Hearing Basex's budget goes up $361K.
+#0593  Finance Office: Basex budget increased by $10K per the revised plan.
+#0594  Finance Office: Basex budget decreased by $30K.
+#0595  Finance Office: Basex budget increased by $469K per the revised plan.
+#0596  PMO note: Basex risk register updated with 7 new items.
+#0597  Legal email: Expect Basex's budget to rise by $77K.
+#0598  Finance Office: Basex budget decreased by $105K after review.
+#0599  Finance Office: Basex budget decreased by $95K after review.
+#0600  Facilities ticket: Basex budget should land at $2800K.
+#0601  Finance Office: Basex budget decreased by $150K per the revised plan.
+#0602  PMO note: Basex budget is going to $2630K.
+#0603  Finance Office: Basex budget increased by $65K.
+#0604  Finance Office: Basex budget decreased by $100K per the revised plan.
+#0605  Finance Office: Withdraw update #0129; it was entered in error.
+#0606  Finance Office: Basex budget decreased by $251K per the revised plan.
+#0607  Facilities ticket: Heard Basex's budget is now $2420K.
+#0608  Finance Office: Basex budget increased by $55K after review.
+#0609  Finance Office: Basex receipts scanned.
+#0610  Finance Office: Basex audit notes filed.
+#0611  Finance Office: Basex budget decreased by $17K per the revised plan.
+#0612  Finance Office: Basex budget decreased by $125K.
+#0613  Finance Office: Basex budget increased by $60K.
+#0614  Finance Office: Basex budget increased by $145K.
+#0615  Finance Office: Basex budget increased by $10K after review.
+#0616  Finance Office: Withdraw update #0538; it was entered in error.
+#0617  Finance Office: Basex budget decreased by $413K after review.
+#0618  Finance Office: Basex quarterly audit scheduled for Thursday.
+#0619  Finance Office: Basex budget decreased by $60K after review.
+#0620  Finance Office: Withdraw update #0256.
+#0621  Finance Office: Basex budget increased by $10K.
+#0622  Finance Office: Withdraw update #0021; it was entered in error.
+#0623  Finance Office: Basex budget increased by $15K after review.
+#0624  Finance Office: Basex budget increased by $150K after review.
+#0625  Vendor call: Heard Basex's budget is now $1620K.
+#0626  Finance Office: Basex budget increased by $206K per the revised plan.
+#0627  Finance Office: Withdraw update #0132; it was entered in error.
+#0628  Finance Office: Basex budget increased by $145K.
+#0629  Finance Office: Basex budget increased by $120K.
+#0630  Engineering email: Basex budget is going up to $2760K.
+#0631  Finance Office: Basex budget decreased by $132K after review.
+#0632  Finance Office: Basex budget decreased by $12K.
+#0633  Finance Office: Withdraw update #0571.
+#0634  Finance Office: Basex budget decreased by $229K.
+#0635  Legal email: Hearing Basex's budget goes up $171K.
+#0636  Finance Office: Withdraw update #0052.
+#0637  Finance Office: Withdraw update #0472.
+#0638  Finance Office: Basex budget increased by $35K per the revised plan.
+#0639  Engineering email: Basex sprint 36 retrospective notes posted.
+#0640  Operations chat: Expect Basex's budget to rise by $293K.
+#0641  Sales update: Basex budget is going up by $489K.
+#0642  Engineering email: Basex budget is going up to $2480K.
+#0643  Engineering email: Basex budget is going to $2710K.
+#0644  Finance Office: Withdraw update #0289; it was entered in error.
+#0645  Facilities ticket: Basex budget is going up by $49K.
+#0646  Operations chat: Basex budget should land at $2770K.
+#0647  PMO note: Basex site visit confirmed for Thursday.
+#0648  Finance Office: Basex budget decreased by $120K after review.
+#0649  Finance Office: Basex budget decreased by $145K.
+#0650  Finance Office: Withdraw update #0510.
+#0651  Legal email: Hearing Basex's budget goes down $424K.
+#0652  Facilities ticket: Basex budget is going down by $324K.
+#0653  Finance Office: Basex budget decreased by $65K.
+#0654  Sales update: Basex budget should land at $1500K.
+#0655  Finance Office: Basex budget increased by $28K.
+#0656  Finance Office: Basex budget increased by $80K.
+#0657  Finance Office: Basex budget increased by $90K per the revised plan.
+#0658  Marketing email: Basex budget should land at $1560K.
+#0659  Legal email: Expect Basex's budget to rise by $516K.
+#0660  Finance Office: Withdraw update #0516; it was entered in error.
+#0661  Finance Office: Withdraw update #0348.
+#0662  Finance Office: Basex budget decreased by $105K after review.
+#0663  Finance Office: Basex budget increased by $90K.
+#0664  Operations chat: Expect Basex's budget to drop by $101K.
+#0665  Finance Office: Basex cost center code changed to FC-3506.
+#0666  Finance Office: Basex budget increased by $30K.
+#0667  Operations chat: Basex budget is going down by $447K.
+#0668  Facilities ticket: Expect Basex's budget to drop by $177K.
+#0669  Finance Office: Basex budget increased by $35K per the revised plan.
+#0670  Facilities ticket: Basex budget should land at $2120K.
+#0671  Engineering email: Expect Basex's budget to drop by $22K.
+#0672  Operations chat: Basex budget is going up by $149K.
+#0673  Finance Office: Withdraw update #0203.
+#0674  Finance Office: Basex budget decreased by $125K after review.
+#0675  Finance Office: Basex budget decreased by $125K per the revised plan.
+#0676  Finance Office: Basex budget decreased by $45K per the revised plan.
+#0677  Sales update: Pretty sure Basex's budget is $1670K now.
+#0678  Finance Office: Withdraw update #0408; it was entered in error.
+#0679  Finance Office: Basex budget decreased by $591K per the revised plan.
+#0680  Finance Office: Basex budget decreased by $140K per the revised plan.
+#0681  Sales update: Sounds like Basex gets $502K more.
+#0682  PMO note: Basex documentation moved to the shared drive.
+#0683  Finance Office: Basex budget increased by $150K after review.
+#0684  Finance Office: Basex budget decreased by $145K after review.
+#0685  Finance Office: Basex budget increased by $363K after review.
+#0686  Finance Office: Basex budget decreased by $279K after review.
+#0687  Finance Office: Basex budget increased by $238K per the revised plan.
+#0688  Vendor call: Basex budget should land at $790K.
+#0689  Finance Office: Basex budget decreased by $150K.
+#0690  Marketing email: Basex budget is going up by $422K.
+#0691  Finance Office: Basex audit notes filed.
+#0692  Finance Office: Basex budget increased by $140K per the revised plan.
+#0693  PMO note: Basex budget should land at $940K.
+#0694  Sales update: Basex budget should land at $1120K.
+#0695  Finance Office: Basex budget decreased by $45K after review.
+#0696  Operations chat: Expect Basex's budget to rise by $569K.
+#0697  Engineering email: Sounds like Basex gets $262K more.
+#0698  Finance Office: Basex budget increased by $115K after review.
+#0699  Finance Office: Basex budget decreased by $105K after review.
+#0700  PMO note: Basex budget is going down by $438K.
+#0701  Finance Office: Basex budget increased by $266K after review.
+#0702  PMO note: Basex budget is going down to $1030K.
+#0703  Finance Office: Basex budget increased by $55K.
+#0704  Finance Office: Basex budget increased by $110K after review.
+#0705  Facilities ticket: Sounds like Basex gets $311K more.
+#0706  PMO note: Basex budget should land at $1660K.
+#0707  Finance Office: Basex budget decreased by $85K per the revised plan.
+#0708  Legal email: Expect Basex's budget to drop by $342K.
+#0709  Sales update: Basex budget is going up to $1560K.
+#0710  Vendor call: Expect Basex's budget to drop by $253K.
+#0711  Finance Office: Basex budget decreased by $393K after review.
+#0712  Finance Office: Basex budget increased by $125K.
+#0713  Legal email: Pretty sure Basex's budget is $730K now.
+#0714  Finance Office: Basex budget decreased by $408K per the revised plan.
+#0715  Finance Office: Basex budget increased by $428K.
+#0716  Finance Office: Basex receipts scanned.
+#0717  Finance Office: Withdraw update #0521; it was entered in error.
+#0718  Marketing email: Basex vendor onboarding call scheduled for Monday.
+#0719  PMO note: Basex budget should land at $570K.
+#0720  Marketing email: Basex budget is going up by $138K.
+#0721  Operations chat: Sounds like Basex gets $299K more.
+#0722  Finance Office: Basex budget increased by $533K after review.
+#0723  Engineering email: Basex status report filed for week 16.
+#0724  Sales update: Basex kickoff moved to Building 5.
+#0725  Finance Office: Withdraw update #0532.
+#0726  Finance Office: Basex budget increased by $91K per the revised plan.
+#0727  Finance Office: Basex budget decreased by $110K.
+#0728  Finance Office: Basex budget increased by $10K per the revised plan.
+#0729  Finance Office: Basex budget increased by $75K per the revised plan.
+#0730  Finance Office: Basex budget decreased by $95K after review.
+#0731  Finance Office: Basex budget decreased by $519K after review.
+#0732  Marketing email: Expect Basex's budget to rise by $86K.
+#0733  Facilities ticket: Basex budget is going down by $167K.
+#0734  Finance Office: Basex budget decreased by $115K per the revised plan.
+#0735  Vendor call: Basex budget is going up by $468K.
+#0736  Finance Office: Basex budget increased by $100K per the revised plan.
+#0737  Finance Office: Basex budget increased by $15K per the revised plan.
+#0738  Engineering email: Basex kickoff moved to Building 2.
+#0739  Finance Office: Basex budget increased by $145K after review.
+#0740  Finance Office: Withdraw update #0167; it was entered in error.
+#0741  PMO note: Basex budget is going up by $346K.
+#0742  Finance Office: Withdraw update #0456.
+#0743  Finance Office: Basex budget increased by $40K.
+#0744  Marketing email: Sounds like Basex gets $376K more.
+#0745  Finance Office: Basex budget increased by $120K.
+#0746  Facilities ticket: Basex budget is going up to $760K.
+#0747  Engineering email: Sounds like Basex gets $333K less.
+#0748  Finance Office: Basex budget decreased by $60K per the revised plan.
+#0749  Marketing email: Heard Basex's budget is now $730K.
+#0750  Finance Office: Basex budget increased by $10K.
+#0751  Finance Office: Basex budget increased by $35K after review.
+#0752  Operations chat: Basex budget is going to $890K.
+#0753  Finance Office: Basex receipts scanned.
+#0754  Finance Office: Withdraw update #0686; it was entered in error.
+#0755  Engineering email: Sounds like Basex gets $81K more.
+#0756  Finance Office: Withdraw update #0258; it was entered in error.
+#0757  Finance Office: Basex budget increased by $100K per the revised plan.
+#0758  Engineering email: Hearing Basex's budget goes up $467K.
+#0759  Vendor call: Basex risk register updated with 6 new items.
+#0760  Finance Office: Basex budget decreased by $65K per the revised plan.
+#0761  Facilities ticket: Sounds like Basex gets $239K less.
+#0762  Finance Office: Basex budget increased by $130K per the revised plan.
+#0763  Finance Office: Basex budget decreased by $15K per the revised plan.
+#0764  Vendor call: Basex budget should land at $840K.
+#0765  Finance Office: Basex budget decreased by $574K per the revised plan.
+#0766  Sales update: Expect Basex's budget to rise by $129K.
+#0767  Marketing email: Basex budget is going to $300K.
+#0768  Finance Office: Basex budget increased by $82K after review.
+#0769  Finance Office: Basex budget decreased by $15K.
+#0770  Engineering email: Hearing Basex's budget goes up $343K.
+#0771  PMO note: Expect Basex's budget to drop by $92K.
+#0772  Sales update: Basex demo rescheduled to Thursday afternoon.
+#0773  Finance Office: Basex budget increased by $70K.
+#0774  Finance Office: Basex budget increased by $172K.
+#0775  Finance Office: Basex budget increased by $543K after review.
+#0776  Engineering email: Pretty sure Basex's budget is $870K now.
+#0777  Finance Office: Basex purchase order FC-1766 closed.
+#0778  Finance Office: Basex budget increased by $309K after review.
+#0779  Operations chat: Heard Basex's budget is now $1360K.
+#0780  Finance Office: Basex budget decreased by $15K per the revised plan.
+#0781  Finance Office: Basex budget increased by $512K per the revised plan.
+#0782  Finance Office: Basex budget decreased by $105K after review.
+#0783  Finance Office: Basex budget increased by $75K after review.
+#0784  Finance Office: Basex budget increased by $15K per the revised plan.
+#0785  Engineering email: Heard Basex's budget is now $2180K.
+#0786  Finance Office: Basex budget increased by $78K per the revised plan.
+#0787  Finance Office: Basex budget increased by $60K after review.
+#0788  Finance Office: Basex budget increased by $145K per the revised plan.
+#0789  Finance Office: Basex budget decreased by $140K.
+#0790  Finance Office: Withdraw update #0335; it was entered in error.
+#0791  Finance Office: Basex budget increased by $60K.
+#0792  PMO note: Basex documentation moved to the shared drive.
+#0793  Marketing email: Basex risk register updated with 2 new items.
+#0794  Finance Office: Basex budget decreased by $115K per the revised plan.
+#0795  Facilities ticket: Expect Basex's budget to rise by $347K.
+#0796  Finance Office: Basex budget decreased by $110K.
+#0797  Finance Office: Basex budget increased by $120K per the revised plan.
+#0798  PMO note: Pretty sure Basex's budget is $2180K now.
+#0799  Finance Office: Basex budget decreased by $76K after review.
+#0800  Finance Office: Basex budget increased by $95K after review.
+#0801  Marketing email: Basex budget is going down by $331K.
+#0802  Facilities ticket: Heard Basex's budget is now $1260K.
+#0803  Finance Office: Basex budget decreased by $30K per the revised plan.
+#0804  Finance Office: Withdraw update #0626.
+#0805  Finance Office: Basex budget increased by $45K per the revised plan.
+#0806  Finance Office: Withdraw update #0799.
+#0807  Facilities ticket: Basex demo rescheduled to Monday afternoon.
+#0808  Finance Office: Basex budget increased by $344K per the revised plan.
+#0809  Finance Office: Basex budget increased by $40K.
+#0810  Finance Office: Withdraw update #0632; it was entered in error.
+#0811  Finance Office: Basex budget increased by $45K.
+#0812  Finance Office: Basex budget decreased by $382K.
+#0813  Engineering email: Basex demo rescheduled to Friday afternoon.
+#0814  Marketing email: Basex demo rescheduled to Monday afternoon.
+#0815  Finance Office: Basex budget increased by $35K after review.
+#0816  Finance Office: Basex budget increased by $578K after review.
+#0817  Vendor call: Pretty sure Basex's budget is $1750K now.
+#0818  Finance Office: Withdraw update #0461; it was entered in error.
+#0819  Legal email: Basex budget is going to $2690K.
+#0820  Finance Office: Basex cost center code changed to FC-2003.
+#0821  Finance Office: Withdraw update #0553.
+#0822  Finance Office: Basex budget increased by $35K per the revised plan.
+#0823  Finance Office: Basex budget increased by $130K after review.
+#0824  Facilities ticket: Basex design review moved to Room 3C.
+#0825  Sales update: Pretty sure Basex's budget is $2550K now.
+#0826  PMO note: Basex risk register updated with 9 new items.
+#0827  Finance Office: Basex budget decreased by $90K.
+#0828  Finance Office: Basex budget increased by $115K after review.
+#0829  Finance Office: Basex budget decreased by $15K after review.
+#0830  PMO note: Basex site visit confirmed for Monday.
+#0831  Engineering email: Sounds like Basex gets $134K more.
+#0832  Marketing email: Pretty sure Basex's budget is $2280K now.
+#0833  Finance Office: Basex budget decreased by $140K.
+#0834  Sales update: Hearing Basex's budget goes up $9K.
+#0835  Finance Office: Withdraw update #0274.
+#0836  Finance Office: Basex budget increased by $120K after review.
+#0837  Marketing email: Basex weekly sync moved to Mondays.
+#0838  Marketing email: Sounds like Basex gets $51K more.
+#0839  Finance Office: Basex budget increased by $65K per the revised plan.
+#0840  Finance Office: Basex budget decreased by $145K after review.
+#0841  Finance Office: Basex budget increased by $241K after review.
+#0842  Finance Office: Withdraw update #0168; it was entered in error.
+#0843  Legal email: Basex design review moved to Room 5C.
+#0844  Finance Office: Withdraw update #0775; it was entered in error.
+#0845  Facilities ticket: Basex status report filed for week 16.
+#0846  Finance Office: Basex budget decreased by $105K per the revised plan.
+#0847  Finance Office: Basex budget decreased by $65K after review.
+#0848  Finance Office: Basex purchase order FC-4868 closed.
+#0849  Finance Office: Basex budget decreased by $10K.
+#0850  Finance Office: Basex budget decreased by $120K per the revised plan.
+#0851  Vendor call: Basex test environment back online.
+#0852  Finance Office: Basex budget decreased by $150K.
+#0853  Finance Office: Basex budget increased by $473K.
+#0854  Marketing email: Basex risk register updated with 6 new items.
+#0855  Finance Office: Basex budget increased by $135K per the revised plan.
+#0856  Finance Office: Basex budget increased by $268K after review.
+#0857  Finance Office: Basex budget decreased by $120K.
+#0858  Marketing email: Sounds like Basex gets $156K more.
+#0859  Finance Office: Withdraw update #0786.
+#0860  Finance Office: Basex budget increased by $95K.
+#0861  Facilities ticket: Pretty sure Basex's budget is $2390K now.
+#0862  Finance Office: Basex purchase order FC-1788 closed.
+#0863  Finance Office: Basex budget decreased by $298K.
+#0864  Finance Office: Basex budget increased by $100K per the revised plan.
+#0865  Sales update: Basex budget is going down by $514K.
+#0866  Finance Office: Withdraw update #0505; it was entered in error.
+#0867  Finance Office: Basex budget decreased by $416K after review.
+#0868  Finance Office: Basex budget decreased by $105K per the revised plan.
+#0869  Finance Office: Basex budget decreased by $483K.
+#0870  Finance Office: Withdraw update #0138.
+#0871  Finance Office: Withdraw update #0634; it was entered in error.
+#0872  Finance Office: Withdraw update #0714.
+#0873  Finance Office: Basex audit notes filed.
+#0874  Facilities ticket: Basex budget should land at $1750K.
+#0875  Finance Office: Withdraw update #0498; it was entered in error.
+#0876  Marketing email: Basex budget should land at $1650K.
+#0877  Facilities ticket: Basex documentation moved to the shared drive.
+#0878  Finance Office: Withdraw update #0591.
+#0879  Finance Office: Basex budget increased by $10K after review.
+#0880  Finance Office: Basex budget decreased by $10K.
+#0881  Finance Office: Basex budget increased by $150K per the revised plan.
+#0882  Finance Office: Basex budget decreased by $40K.
+#0883  Vendor call: Basex budget is going up by $352K.
+#0884  Facilities ticket: Basex budget is going up by $498K.
+#0885  Legal email: Sounds like Basex gets $213K more.
+#0886  Vendor call: Heard Basex's budget is now $910K.
+#0887  Finance Office: Withdraw update #0701; it was entered in error.
+#0888  PMO note: Basex weekly sync moved to Mondays.
+#0889  Finance Office: Basex budget decreased by $45K after review.
+#0890  Finance Office: Basex budget increased by $10K per the revised plan.
+#0891  Finance Office: Withdraw update #0066.
+#0892  Vendor call: Hearing Basex's budget goes up $359K.
+#0893  Finance Office: Basex budget increased by $40K after review.
+#0894  Sales update: Sounds like Basex gets $478K less.
+#0895  Finance Office: Basex budget decreased by $145K after review.
+#0896  Finance Office: Withdraw update #0460; it was entered in error.
+#0897  Engineering email: Hearing Basex's budget goes down $547K.
+#0898  Finance Office: Basex budget increased by $140K per the revised plan.
+#0899  Finance Office: Basex budget decreased by $95K after review.
+#0900  Finance Office: Basex budget increased by $75K after review.
+#0901  Finance Office: Basex budget decreased by $60K.
+#0902  Finance Office: Withdraw update #0863; it was entered in error.
+#0903  Engineering email: Sounds like Basex gets $227K more.
+#0904  Finance Office: Reminder: Basex expense reports are due Wednesday.
+#0905  PMO note: Basex budget is going to $1590K.
+#0906  Finance Office: Basex budget increased by $140K.
+#0907  Finance Office: Basex budget decreased by $130K per the revised plan.
+#0908  Finance Office: Basex budget increased by $60K.
+#0909  Engineering email: Heard Basex's budget is now $1300K.
+#0910  Vendor call: Basex budget is going up to $1900K.
+#0911  Finance Office: Basex budget decreased by $5K per the revised plan.
+#0912  Finance Office: Basex budget increased by $15K per the revised plan.
+#0913  Engineering email: Basex site visit confirmed for Friday.
+#0914  Facilities ticket: Basex design review moved to Room 4C.
+#0915  Finance Office: Withdraw update #0818.
+#0916  Finance Office: Basex budget decreased by $65K.
+#0917  Finance Office: Withdraw update #0511.
+#0918  Finance Office: Basex budget decreased by $60K after review.
+#0919  Finance Office: Basex budget decreased by $115K.
+#0920  Operations chat: Expect Basex's budget to rise by $394K.
+#0921  Finance Office: Basex budget decreased by $80K per the revised plan.
+#0922  Finance Office: Basex budget decreased by $130K.
+#0923  Finance Office: Basex budget decreased by $130K.
+#0924  Sales update: Basex sprint 29 retrospective notes posted.
+#0925  PMO note: Basex kickoff moved to Building 7.
+#0926  Finance Office: Basex budget decreased by $150K per the revised plan.
+#0927  Finance Office: Basex budget increased by $130K.
+#0928  Finance Office: Basex budget increased by $60K per the revised plan.
+#0929  Finance Office: Withdraw update #0867; it was entered in error.
+#0930  Engineering email: Basex budget should land at $1540K.
+#0931  Finance Office: Basex budget decreased by $65K per the revised plan.
+#0932  Finance Office: Basex budget increased by $10K.
+#0933  Finance Office: Basex budget increased by $20K per the revised plan.
+#0934  Finance Office: Basex budget increased by $20K after review.
+#0935  Finance Office: Withdraw update #0257.
+#0936  Finance Office: Basex receipts scanned.
+#0937  Finance Office: Withdraw update #0083.
+#0938  Finance Office: Basex finance review moved to Room 2B.
+#0939  Finance Office: Basex budget increased by $50K per the revised plan.
+#0940  Finance Office: Basex budget increased by $130K per the revised plan.
+#0941  Finance Office: Reminder: Basex expense reports are due Tuesday.
+#0942  Finance Office: Basex budget increased by $449K per the revised plan.
+#0943  Finance Office: Basex budget decreased by $15K.
+#0944  Sales update: Expect Basex's budget to drop by $388K.
+#0945  Facilities ticket: Basex budget is going down by $336K.
+#0946  Sales update: Basex demo rescheduled to Friday afternoon.
+#0947  Operations chat: Heard Basex's budget is now $2800K.
+#0948  Marketing email: Expect Basex's budget to drop by $511K.
+#0949  Legal email: Expect Basex's budget to drop by $526K.
+#0950  Finance Office: Withdraw update #0875; it was entered in error.
+#0951  Finance Office: Basex budget decreased by $5K per the revised plan.
+#0952  Finance Office: Basex budget increased by $25K.
+#0953  Marketing email: Basex budget should land at $2800K.
+#0954  Finance Office: Basex budget decreased by $100K after review.
+#0955  Finance Office: Basex budget increased by $65K per the revised plan.
+#0956  Engineering email: Heard Basex's budget is now $2800K.
+#0957  Finance Office: Basex budget decreased by $135K.
+#0958  Finance Office: Basex budget decreased by $1K per the revised plan.
+#0959  Finance Office: Basex budget decreased by $75K after review.
+#0960  Finance Office: Basex budget increased by $85K after review.
+#0961  Marketing email: Expect Basex's budget to drop by $373K.
+#0962  PMO note: Basex budget is going up to $2800K.
+#0963  Finance Office: Withdraw update #0808; it was entered in error.
+#0964  Finance Office: Basex budget increased by $130K after review.
+#0965  Finance Office: Basex budget decreased by $105K after review.
+#0966  Finance Office: Withdraw update #0715.
+#0967  Finance Office: Basex budget decreased by $50K.
+#0968  PMO note: Basex budget is going up to $2070K.
+#0969  Operations chat: Basex budget is going to $2450K.
+#0970  Legal email: Basex budget should land at $1430K.
+#0971  Finance Office: Basex budget decreased by $80K after review.
+#0972  Finance Office: Basex budget increased by $55K.
+#0973  Finance Office: Basex budget increased by $20K per the revised plan.
+#0974  Finance Office: Basex audit notes filed.
+#0975  Finance Office: Withdraw update #0765; it was entered in error.
+#0976  Finance Office: Withdraw update #0140; it was entered in error.
+#0977  Finance Office: Basex budget increased by $95K.
+#0978  Finance Office: Withdraw update #0524.
+#0979  Vendor call: Basex budget is going up by $443K.
+#0980  Finance Office: Basex budget decreased by $276K per the revised plan.
+#0981  Engineering email: Basex budget is going down to $1530K.
+#0982  Finance Office: Basex budget increased by $15K per the revised plan.
+#0983  Facilities ticket: Expect Basex's budget to drop by $437K.
+#0984  Facilities ticket: Heard Basex's budget is now $2180K.
+#0985  Finance Office: Basex budget increased by $312K.
+#0986  Marketing email: Basex budget should land at $2600K.
+#0987  Finance Office: Basex budget increased by $457K after review.
+#0988  Finance Office: Basex budget decreased by $40K after review.
+#0989  PMO note: Expect Basex's budget to drop by $214K.
+#0990  Finance Office: Withdraw update #0181.
+#0991  Finance Office: Withdraw update #0149.
+#0992  Finance Office: Basex budget decreased by $90K after review.
+#0993  Finance Office: Withdraw update #0051.
+#0994  Finance Office: Basex budget increased by $140K per the revised plan.
+#0995  Finance Office: Basex budget decreased by $10K per the revised plan.
+#0996  Finance Office: Basex budget decreased by $573K per the revised plan.
+#0997  Operations chat: Pretty sure Basex's budget is $1610K now.
+#0998  Engineering email: Basex budget is going up by $568K.
+#0999  Finance Office: Withdraw update #0341; it was entered in error.
+#1000  Finance Office: Basex budget decreased by $463K per the revised plan.
+#1001  Finance Office: Basex budget decreased by $50K per the revised plan.
+#1002  Finance Office: Withdraw update #0363; it was entered in error.
+#1003  Engineering email: Basex budget should land at $1010K.
+#1004  Finance Office: Basex budget decreased by $135K.
+#1005  Finance Office: Basex budget increased by $150K after review.
+#1006  Finance Office: Withdraw update #0329; it was entered in error.
+#1007  Operations chat: Pretty sure Basex's budget is $1520K now.
+#1008  Finance Office: Basex budget decreased by $20K after review.
+#1009  Finance Office: Basex budget decreased by $130K after review.
+#1010  Legal email: Basex budget should land at $1710K.
+#1011  Sales update: Basex budget should land at $1370K.
+#1012  Finance Office: Withdraw update #0835; it was entered in error.
+#1013  Sales update: Basex budget is going down by $348K.
+#1014  Finance Office: Withdraw update #0869; it was entered in error.
+#1015  Finance Office: Basex invoice batch FC-7344 archived.
+#1016  Finance Office: Basex budget decreased by $120K per the revised plan.
+#1017  Finance Office: Basex budget increased by $70K.
+#1018  Finance Office: Withdraw update #0145.
+#1019  Finance Office: Basex budget increased by $20K.
+#1020  Engineering email: Basex risk register updated with 3 new items.
+#1021  PMO note: Basex budget should land at $1700K.
+#1022  Finance Office: Basex budget increased by $95K after review.
+#1023  PMO note: Basex budget is going up to $1850K.
+#1024  Finance Office: Basex budget decreased by $130K.
+#1025  Finance Office: Basex budget decreased by $15K per the revised plan.
+#1026  Finance Office: Withdraw update #0853.
+#1027  Vendor call: Pretty sure Basex's budget is $810K now.
+#1028  Finance Office: Basex budget decreased by $5K per the revised plan.
+#1029  Finance Office: Withdraw update #0560.
+#1030  Finance Office: Basex budget increased by $120K after review.
+#1031  PMO note: Expect Basex's budget to rise by $429K.
+#1032  Vendor call: Sounds like Basex gets $68K more.
+#1033  Finance Office: Withdraw update #0999; it was entered in error.
+#1034  Engineering email: Pretty sure Basex's budget is $580K now.
+#1035  Finance Office: Basex budget increased by $70K.
+#1036  Finance Office: Withdraw update #0259; it was entered in error.
+#1037  Finance Office: Basex budget increased by $40K after review.
+#1038  Finance Office: Withdraw update #0985; it was entered in error.
+#1039  Vendor call: Sounds like Basex gets $199K more.
+#1040  Marketing email: Pretty sure Basex's budget is $600K now.
+#1041  Finance Office: Basex budget increased by $20K per the revised plan.
+#1042  Finance Office: Basex budget increased by $140K per the revised plan.
+#1043  Finance Office: Basex budget increased by $145K after review.
+#1044  Finance Office: Withdraw update #0685; it was entered in error.
+#1045  Finance Office: Basex budget decreased by $35K per the revised plan.
+#1046  Sales update: Basex budget is going up to $530K.
+#1047  Finance Office: Withdraw update #0283.
+#1048  Finance Office: Basex quarterly audit scheduled for Tuesday.
+#1049  Facilities ticket: Basex kickoff moved to Building 7.
+#1050  Finance Office: Basex budget increased by $40K.
+#1051  Finance Office: Basex budget increased by $15K.
+#1052  PMO note: Expect Basex's budget to rise by $131K.
+#1053  Sales update: Heard Basex's budget is now $1330K.
+#1054  Finance Office: Basex budget increased by $334K.
+#1055  Vendor call: Hearing Basex's budget goes up $158K.
+#1056  Finance Office: Basex budget decreased by $50K per the revised plan.
+#1057  Finance Office: Basex budget increased by $125K per the revised plan.
+#1058  Engineering email: Expect Basex's budget to drop by $383K.
+#1059  Vendor call: Basex budget is going up to $1970K.
+#1060  Finance Office: Basex budget increased by $40K.
+#1061  Engineering email: Basex design review moved to Room 1C.
+#1062  Engineering email: Basex budget is going up to $1650K.
+#1063  Finance Office: Basex budget increased by $150K per the revised plan.
+#1064  Finance Office: Withdraw update #0215; it was entered in error.
+#1065  Marketing email: Basex budget is going to $1790K.
+#1066  Operations chat: Expect Basex's budget to drop by $248K.
+#1067  Finance Office: Reminder: Basex expense reports are due Wednesday.
+#1068  Finance Office: Basex budget increased by $85K per the revised plan.
+#1069  Finance Office: Withdraw update #0422.
+#1070  Engineering email: Sounds like Basex gets $592K more.
+#1071  Finance Office: Basex budget decreased by $5K.
+#1072  Marketing email: Basex demo rescheduled to Monday afternoon.
+#1073  Finance Office: Basex audit notes filed.
+#1074  Legal email: Heard Basex's budget is now $2070K.
+#1075  Finance Office: Basex budget increased by $80K per the revised plan.
+#1076  Finance Office: Basex budget decreased by $10K.
+#1077  Finance Office: Withdraw update #0497; it was entered in error.
+#1078  Finance Office: Withdraw update #0631; it was entered in error.
+#1079  Finance Office: Withdraw update #0756.
+#1080  Finance Office: Basex budget increased by $95K after review.
+#1081  Engineering email: Heard Basex's budget is now $2800K.
+#1082  Finance Office: Withdraw update #0655; it was entered in error.
+#1083  Finance Office: Basex budget increased by $100K per the revised plan.
+#1084  Marketing email: Basex budget is going down to $1720K.
+#1085  Finance Office: Basex budget increased by $135K after review.
+#1086  Finance Office: Basex budget increased by $5K per the revised plan.
+#1087  Sales update: Sounds like Basex gets $546K less.
+#1088  PMO note: Expect Basex's budget to drop by $471K.
+#1089  Finance Office: Basex budget decreased by $5K.
+#1090  Finance Office: Basex budget decreased by $115K per the revised plan.
+#1091  Marketing email: Hearing Basex's budget goes down $588K.
+#1092  Finance Office: Withdraw update #0109.
+#1093  Finance Office: Basex budget increased by $100K per the revised plan.
+#1094  PMO note: Basex budget is going down by $458K.
+#1095  Finance Office: Withdraw update #0305; it was entered in error.
+#1096  Finance Office: Basex budget increased by $55K.
+#1097  Finance Office: Basex budget increased by $150K after review.
+#1098  Vendor call: Basex security review passed.
+#1099  Vendor call: Sounds like Basex gets $596K more.
+#1100  PMO note: Expect Basex's budget to drop by $259K.
+#1101  Finance Office: Basex budget decreased by $20K after review.
+#1102  Engineering email: Expect Basex's budget to rise by $93K.
+#1103  Finance Office: Basex budget decreased by $120K after review.
+#1104  Finance Office: Basex budget decreased by $95K.
+#1105  Finance Office: Withdraw update #0611; it was entered in error.
+#1106  Vendor call: Basex budget should land at $1540K.
+#1107  Legal email: Pretty sure Basex's budget is $2600K now.
+#1108  Marketing email: Sounds like Basex gets $401K less.
+#1109  Finance Office: Basex budget increased by $115K per the revised plan.
+#1110  Finance Office: Basex budget decreased by $35K.
+#1111  Legal email: Sounds like Basex gets $446K less.
+#1112  Finance Office: Basex budget decreased by $20K.
+#1113  Finance Office: Withdraw update #0431.
+#1114  Finance Office: Basex budget increased by $110K after review.
+#1115  Finance Office: Basex budget increased by $85K after review.
+#1116  Finance Office: Basex budget decreased by $30K per the revised plan.
+#1117  Finance Office: Basex budget decreased by $90K.
+#1118  Finance Office: Withdraw update #1105.
+#1119  Finance Office: Basex budget increased by $75K after review.
+#1120  PMO note: Basex budget is going down by $223K.
+#1121  PMO note: Basex budget is going up by $541K.
+#1122  Finance Office: Basex budget increased by $110K per the revised plan.
+#1123  Engineering email: Sounds like Basex gets $567K more.
+#1124  Vendor call: Hearing Basex's budget goes up $491K.
+#1125  Vendor call: Basex budget is going down by $217K.
+#1126  Facilities ticket: Expect Basex's budget to rise by $128K.
+#1127  Legal email: Basex budget is going up by $307K.
+#1128  Finance Office: Basex budget decreased by $45K.
+#1129  Operations chat: Basex budget is going up by $487K.
+#1130  Finance Office: Withdraw update #0841.
+#1131  Finance Office: Basex budget decreased by $45K after review.
+#1132  Finance Office: Basex budget increased by $95K.
+#1133  Finance Office: Basex budget increased by $100K per the revised plan.
+#1134  Engineering email: Basex budget should land at $2230K.
+#1135  Finance Office: Basex budget decreased by $55K.
+#1136  Finance Office: Basex receipts scanned.
+#1137  Finance Office: Basex budget increased by $145K after review.
+#1138  Finance Office: Withdraw update #0993; it was entered in error.
+#1139  Finance Office: Basex budget decreased by $15K per the revised plan.
+#1140  Finance Office: Withdraw update #1095.
+#1141  Facilities ticket: Basex status report filed for week 48.
+#1142  Finance Office: Basex budget increased by $120K after review.
+#1143  Finance Office: Basex budget increased by $80K.
+#1144  Engineering email: Basex budget is going up by $202K.
+#1145  Sales update: Basex test environment back online.
+#1146  Finance Office: Basex budget increased by $45K after review.
+#1147  PMO note: Basex budget is going up by $52K.
+#1148  Finance Office: Basex budget decreased by $597K after review.
+#1149  Finance Office: Basex budget increased by $120K after review.
+#1150  Finance Office: Basex budget increased by $150K after review.
+#1151  Finance Office: Basex budget decreased by $20K.
+#1152  Finance Office: Basex budget decreased by $135K per the revised plan.
+#1153  Finance Office: Withdraw update #0726; it was entered in error.
+#1154  Finance Office: Basex budget decreased by $135K per the revised plan.
+#1155  Marketing email: Basex vendor onboarding call scheduled for Monday.
+#1156  Finance Office: Basex budget decreased by $20K per the revised plan.
+#1157  Sales update: Basex budget is going down to $1440K.
+#1158  Finance Office: Basex budget decreased by $50K per the revised plan.
+#1159  Finance Office: Withdraw update #0942; it was entered in error.
+#1160  Sales update: Hearing Basex's budget goes down $252K.
+#1161  Finance Office: Basex budget increased by $115K per the revised plan.
+#1162  Facilities ticket: Basex budget is going to $1610K.
+#1163  Finance Office: Withdraw update #0778.
+#1164  Finance Office: Basex budget increased by $140K per the revised plan.
+#1165  Facilities ticket: Pretty sure Basex's budget is $1410K now.
+#1166  PMO note: Sounds like Basex gets $284K less.
+#1167  Marketing email: Basex budget is going up to $1150K.
+#1168  Finance Office: Basex budget decreased by $40K.
+#1169  Finance Office: Withdraw update #0134.
+#1170  Marketing email: Basex budget should land at $1200K.
+#1171  Finance Office: Basex budget increased by $100K after review.
+#1172  Facilities ticket: Basex budget is going up to $1350K.
+#1173  Sales update: Basex sprint 24 retrospective notes posted.
+#1174  Legal email: Hearing Basex's budget goes up $527K.
+#1175  Facilities ticket: Heard Basex's budget is now $1020K.
+#1176  Finance Office: Basex budget decreased by $90K after review.
+#1177  PMO note: Basex demo rescheduled to Friday afternoon.
+#1178  Legal email: Sounds like Basex gets $369K less.
+#1179  Finance Office: Basex budget decreased by $30K.
+#1180  Operations chat: Basex budget is going up by $89K.
+#1181  Finance Office: Withdraw update #0392; it was entered in error.
+#1182  Finance Office: Basex budget increased by $45K.
+#1183  Finance Office: Basex budget increased by $189K.
+#1184  Finance Office: Withdraw update #1183.
+#1185  Finance Office: Withdraw update #0280; it was entered in error.
+#1186  Finance Office: Basex budget decreased by $65K after review.
+#1187  Finance Office: Withdraw update #1148.
+#1188  Finance Office: Basex budget increased by $150K per the revised plan.
+#1189  Finance Office: Withdraw update #0595.
+#1190  Engineering email: Basex budget is going up to $1690K.
+#1191  Finance Office: Withdraw update #0958.
+#1192  Finance Office: Basex budget decreased by $110K after review.
+#1193  Facilities ticket: Expect Basex's budget to rise by $461K.
+#1194  Operations chat: Basex budget is going to $860K.
+#1195  Legal email: Basex budget is going down by $246K.
+#1196  Finance Office: Basex budget decreased by $145K.
+#1197  Sales update: Basex budget is going down by $94K.
+#1198  Finance Office: Basex budget decreased by $50K.
+#1199  Operations chat: Pretty sure Basex's budget is $1060K now.
+#1200  Finance Office: Withdraw update #0871.
+#1201  Finance Office: Basex budget increased by $75K.
+#1202  Finance Office: Withdraw update #0768.
+#1203  PMO note: Expect Basex's budget to rise by $381K.
+#1204  Finance Office: Basex budget decreased by $45K after review.
+#1205  Finance Office: Basex finance review moved to Room 6C.
+#1206  PMO note: Basex budget should land at $500K.
+#1207  Legal email: Pretty sure Basex's budget is $560K now.
+#1208  Facilities ticket: Heard Basex's budget is now $930K.
+#1209  Finance Office: Basex budget increased by $110K.
+#1210  Marketing email: Basex budget is going down by $337K.
+#1211  Finance Office: Basex budget increased by $25K after review.
+#1212  Finance Office: Basex budget decreased by $65K.
+#1213  Facilities ticket: Hearing Basex's budget goes down $267K.
+#1214  Legal email: Basex budget is going to $880K.
+#1215  Marketing email: Expect Basex's budget to rise by $564K.
+#1216  Sales update: Basex budget is going up by $501K.
+#1217  Finance Office: Withdraw update #0622; it was entered in error.
+#1218  Finance Office: Basex budget decreased by $125K.
+#1219  PMO note: Basex demo rescheduled to Monday afternoon.
+#1220  Operations chat: Basex design review moved to Room 4D.
+#1221  Sales update: Heard Basex's budget is now $770K.
+#1222  Legal email: Hearing Basex's budget goes down $39K.
+#1223  Engineering email: Expect Basex's budget to rise by $582K.
+#1224  Finance Office: Basex quarterly audit scheduled for Thursday.
+#1225  Finance Office: Withdraw update #1000; it was entered in error.
+#1226  Facilities ticket: Pretty sure Basex's budget is $1570K now.
+#1227  Finance Office: Basex budget decreased by $372K per the revised plan.
+#1228  Finance Office: Basex audit notes filed.
+#1229  Finance Office: Basex invoice batch FC-7356 archived.
+#1230  Finance Office: Withdraw update #0617.
+#1231  Finance Office: Withdraw update #1064; it was entered in error.
+#1232  Finance Office: Basex budget decreased by $105K after review.
+#1233  Operations chat: Pretty sure Basex's budget is $1010K now.
+#1234  Legal email: Basex budget is going to $1450K.
+#1235  Finance Office: Basex budget decreased by $70K per the revised plan.
+#1236  Engineering email: Basex budget is going to $1260K.
+#1237  Finance Office: Withdraw update #0606.
+#1238  Finance Office: Withdraw update #0990.
+#1239  Finance Office: Basex budget decreased by $55K after review.
+#1240  Marketing email: Basex sprint 37 retrospective notes posted.
+#1241  Finance Office: Withdraw update #0415.
+#1242  Finance Office: Basex budget decreased by $10K.
+#1243  Finance Office: Basex budget decreased by $55K.
+#1244  Finance Office: Basex budget decreased by $30K after review.
+#1245  Finance Office: Basex budget increased by $15K.
+#1246  Finance Office: Basex budget decreased by $65K after review.
+#1247  Finance Office: Withdraw update #0243; it was entered in error.
+#1248  Marketing email: Basex budget should land at $2060K.
+#1249  Finance Office: Basex budget increased by $55K per the revised plan.
+#1250  Finance Office: Basex budget decreased by $150K per the revised plan.
+#1251  Finance Office: Basex budget decreased by $140K after review.
+#1252  Finance Office: Withdraw update #0774; it was entered in error.
+#1253  Finance Office: Basex budget increased by $110K per the revised plan.
+#1254  Vendor call: Basex budget is going to $1430K.
+#1255  PMO note: Basex budget should land at $1380K.
+#1256  Finance Office: Basex budget increased by $30K after review.
+#1257  Finance Office: Withdraw update #0687; it was entered in error.
+#1258  Operations chat: Hearing Basex's budget goes up $378K.
+#1259  Finance Office: Basex budget increased by $85K per the revised plan.
+#1260  Operations chat: Sounds like Basex gets $222K more.
+#1261  Finance Office: Basex budget decreased by $145K.
+#1262  PMO note: Sounds like Basex gets $482K more.
+#1263  Vendor call: Hearing Basex's budget goes up $23K.
+#1264  Finance Office: Basex budget decreased by $115K.
+#1265  Finance Office: Basex budget decreased by $145K per the revised plan.
+#1266  Legal email: Basex budget is going down by $391K.
+#1267  Engineering email: Sounds like Basex gets $7K more.
+#1268  Finance Office: Basex budget decreased by $55K per the revised plan.
+#1269  PMO note: Sounds like Basex gets $556K more.
+#1270  Finance Office: Basex budget increased by $20K per the revised plan.
+#1271  Finance Office: Basex budget decreased by $5K.
+#1272  Finance Office: Basex budget increased by $120K.
+#1273  Finance Office: Basex budget increased by $80K after review.
+#1274  Sales update: Basex sprint 16 retrospective notes posted.
+#1275  Finance Office: Basex budget increased by $135K per the revised plan.
+#1276  Operations chat: Sounds like Basex gets $513K less.
+#1277  Vendor call: Pretty sure Basex's budget is $1370K now.
+#1278  Finance Office: Basex budget decreased by $75K per the revised plan.
+#1279  Facilities ticket: Heard Basex's budget is now $1000K.
+#1280  Finance Office: Basex budget decreased by $40K.
+#1281  Operations chat: Basex status report filed for week 11.
+#1282  Finance Office: Basex budget decreased by $326K after review.
+#1283  Finance Office: Basex budget increased by $10K per the revised plan.
+#1284  Finance Office: Basex budget decreased by $10K after review.
+#1285  Vendor call: Basex sprint 32 retrospective notes posted.
+#1286  Engineering email: Basex budget is going down to $500K.
+#1287  Finance Office: Basex budget increased by $5K after review.
+#1288  Finance Office: Withdraw update #0937; it was entered in error.
+#1289  Finance Office: Basex budget increased by $35K per the revised plan.
+#1290  Finance Office: Basex budget increased by $125K per the revised plan.
+#1291  Engineering email: Basex budget should land at $350K.
+#1292  Finance Office: Basex budget increased by $10K per the revised plan.
+#1293  Finance Office: Withdraw update #0996.
+#1294  Finance Office: Withdraw update #0722.
+#1295  Marketing email: Basex budget is going up by $294K.
+#1296  Finance Office: Basex finance review moved to Room 1B.
+#1297  Finance Office: Basex budget increased by $50K.
+#1298  Finance Office: Withdraw update #0731; it was entered in error.
+#1299  Finance Office: Basex budget increased by $80K.
+#1300  Vendor call: Basex sprint 37 retrospective notes posted.
+#1301  Finance Office: Withdraw update #1026.
+#1302  Finance Office: Basex budget decreased by $115K per the revised plan.
+#1303  PMO note: Sounds like Basex gets $286K less.
+#1304  Finance Office: Basex budget increased by $50K after review.
+#1305  Finance Office: Withdraw update #0812; it was entered in error.
+#1306  Finance Office: Basex budget increased by $145K.
+#1307  Finance Office: Basex budget decreased by $105K per the revised plan.
+#1308  Operations chat: Basex budget should land at $1670K.
+#1309  Finance Office: Withdraw update #0579.
+#1310  Sales update: Basex budget is going down to $1720K.
+#1311  Vendor call: Sounds like Basex gets $147K more.
+#1312  Facilities ticket: Basex budget is going up by $273K.
+#1313  Finance Office: Basex budget decreased by $130K per the revised plan.
+#1314  Sales update: Basex budget is going up to $2470K.
+#1315  Marketing email: Basex design review moved to Room 6C.
+#1316  Finance Office: Basex budget increased by $20K per the revised plan.
+#1317  Operations chat: Sounds like Basex gets $532K more.
+#1318  Finance Office: Basex budget decreased by $100K per the revised plan.
+#1319  Legal email: Basex risk register updated with 8 new items.
+#1320  Finance Office: Basex budget increased by $95K per the revised plan.
+#1321  Legal email: Basex budget is going up by $186K.
+#1322  Operations chat: Basex budget is going to $2800K.
+#1323  Sales update: Basex budget is going down by $579K.
+#1324  Sales update: Basex test environment back online.
+#1325  Engineering email: Pretty sure Basex's budget is $1890K now.
+#1326  Finance Office: Basex budget decreased by $45K.
+#1327  Engineering email: Hearing Basex's budget goes down $164K.
+#1328  Marketing email: Heard Basex's budget is now $2800K.
+#1329  Finance Office: Basex budget decreased by $70K.
+#1330  Vendor call: Expect Basex's budget to rise by $283K.
+#1331  Facilities ticket: Basex budget is going to $2190K.
+#1332  Marketing email: Hearing Basex's budget goes down $353K.
+#1333  Vendor call: Basex budget should land at $1960K.
+#1334  Finance Office: Basex budget decreased by $135K.
+#1335  Finance Office: Basex budget decreased by $120K.
+#1336  Vendor call: Basex design review moved to Room 1D.
+#1337  Finance Office: Basex budget decreased by $35K after review.
+#1338  Finance Office: Basex budget increased by $90K per the revised plan.
+#1339  Finance Office: Withdraw update #0679.
+#1340  PMO note: Basex budget should land at $2690K.
+#1341  Finance Office: Withdraw update #0987.
+#1342  Legal email: Pretty sure Basex's budget is $1690K now.
+#1343  Marketing email: Heard Basex's budget is now $2560K.
+#1344  Operations chat: Expect Basex's budget to drop by $552K.
+#1345  Finance Office: Basex budget increased by $150K after review.
+#1346  Vendor call: Basex sprint 12 retrospective notes posted.
+#1347  Vendor call: Basex budget is going up by $257K.
+#1348  Finance Office: Basex budget decreased by $25K after review.
+#1349  Finance Office: Basex budget decreased by $115K.
+#1350  Finance Office: Withdraw update #0576.
+#1351  Legal email: Expect Basex's budget to drop by $216K.
+#1352  Finance Office: Withdraw update #0620; it was entered in error.
+#1353  Finance Office: Basex budget decreased by $499K after review.
+#1354  Facilities ticket: Heard Basex's budget is now $540K.
+#1355  Finance Office: Basex budget decreased by $140K after review.
+#1356  Legal email: Basex budget is going down to $430K.
+#1357  Legal email: Heard Basex's budget is now $540K.
+#1358  Finance Office: Basex budget decreased by $140K after review.
+#1359  Marketing email: Pretty sure Basex's budget is $460K now.
+#1360  Finance Office: Basex budget increased by $140K.
+#1361  Finance Office: Basex budget increased by $5K.
+#1362  Finance Office: Basex budget increased by $130K.
+#1363  Finance Office: Basex budget increased by $115K per the revised plan.
+#1364  Finance Office: Basex budget decreased by $70K after review.
+#1365  Legal email: Hearing Basex's budget goes up $562K.
+#1366  Finance Office: Basex budget increased by $20K per the revised plan.
+#1367  Finance Office: Withdraw update #1227; it was entered in error.
+#1368  Finance Office: Basex budget increased by $85K per the revised plan.
+#1369  Engineering email: Heard Basex's budget is now $1000K.
+#1370  Legal email: Basex budget is going to $1140K.
+#1371  Marketing email: Basex budget should land at $920K.
+#1372  Finance Office: Basex budget increased by $85K after review.
+#1373  Finance Office: Withdraw update #0816; it was entered in error.
+#1374  Finance Office: Basex budget increased by $102K per the revised plan.
+#1375  PMO note: Basex budget is going up to $960K.
+#1376  Engineering email: Basex budget is going up to $1040K.
+#1377  Vendor call: Basex budget is going to $970K.
+#1378  Sales update: Hearing Basex's budget goes up $254K.
+#1379  Finance Office: Basex budget decreased by $90K after review.
+#1380  Finance Office: Basex budget increased by $150K after review.
+#1381  Finance Office: Basex budget increased by $85K after review.
+#1382  Finance Office: Basex budget decreased by $25K per the revised plan.
+#1383  Finance Office: Withdraw update #0061; it was entered in error.
+#1384  PMO note: Basex budget is going down to $490K.
+#1385  Operations chat: Basex risk register updated with 5 new items.
+#1386  Finance Office: Withdraw update #0978.
+#1387  Finance Office: Basex receipts scanned.
+#1388  Marketing email: Basex weekly sync moved to Tuesdays.
+#1389  Finance Office: Withdraw update #1353.
+#1390  PMO note: Expect Basex's budget to rise by $46K.
+#1391  Finance Office: Basex budget increased by $80K after review.
+#1392  Finance Office: Basex budget increased by $45K after review.
+#1393  Finance Office: Basex budget decreased by $90K after review.
+#1394  Finance Office: Basex budget decreased by $65K.
+#1395  Finance Office: Basex budget decreased by $366K per the revised plan.
+#1396  Finance Office: Basex budget decreased by $130K.
+#1397  Legal email: Sounds like Basex gets $73K more.
+#1398  Finance Office: Basex finance review moved to Room 6C.
+#1399  Engineering email: Expect Basex's budget to drop by $539K.
+#1400  Finance Office: Withdraw update #0915.
+#1401  Finance Office: Basex finance review moved to Room 5A.
+#1402  PMO note: Basex sprint 5 retrospective notes posted.
+#1403  Finance Office: Basex budget decreased by $85K after review.
+#1404  Finance Office: Basex budget decreased by $45K.
+#1405  Finance Office: Withdraw update #0278.
+#1406  Facilities ticket: Expect Basex's budget to rise by $419K.
+#1407  Facilities ticket: Basex budget is going up to $300K.
+#1408  Finance Office: Basex budget decreased by $45K after review.
+#1409  Finance Office: Basex budget increased by $145K.
+#1410  Finance Office: Withdraw update #0429.
+#1411  Finance Office: Basex budget decreased by $120K after review.
+#1412  Marketing email: Sounds like Basex gets $367K more.
+#1413  Marketing email: Basex budget is going to $560K.
+#1414  Finance Office: Basex budget increased by $95K.
+#1415  Finance Office: Basex budget decreased by $95K after review.
+#1416  Operations chat: Basex test environment back online.
+#1417  PMO note: Basex site visit confirmed for Friday.
+#1418  Finance Office: Basex budget decreased by $115K.
+#1419  Operations chat: Sounds like Basex gets $414K more.
+#1420  Finance Office: Basex budget decreased by $45K per the revised plan.
+#1421  Marketing email: Basex budget should land at $430K.
+#1422  Legal email: Basex budget is going up by $584K.
+#1423  Legal email: Hearing Basex's budget goes up $232K.
+#1424  Legal email: Basex risk register updated with 3 new items.
+#1425  Finance Office: Withdraw update #1395; it was entered in error.
+#1426  Finance Office: Basex budget decreased by $130K per the revised plan.
+#1427  Marketing email: Basex test environment back online.
+#1428  Sales update: Expect Basex's budget to rise by $317K.
+#1429  Finance Office: Withdraw update #0711.
+#1430  Finance Office: Withdraw update #0445.
+#1431  Vendor call: Expect Basex's budget to rise by $452K.
+#1432  Finance Office: Basex budget decreased by $90K.
+#1433  Finance Office: Basex budget increased by $140K.
+#1434  Finance Office: Basex budget increased by $20K.
+#1435  Finance Office: Basex budget decreased by $90K after review.
+#1436  Engineering email: Basex budget is going to $1010K.
+#1437  Facilities ticket: Expect Basex's budget to drop by $157K.
+#1438  Vendor call: Pretty sure Basex's budget is $590K now.
+#1439  Finance Office: Basex budget increased by $50K.
+#1440  Facilities ticket: Basex design review moved to Room 3D.
+#1441  Legal email: Expect Basex's budget to rise by $71K.
+#1442  Finance Office: Withdraw update #1202; it was entered in error.
+#1443  Marketing email: Sounds like Basex gets $323K less.
+#1444  Finance Office: Basex budget increased by $15K.
+#1445  Finance Office: Basex budget decreased by $30K.
+#1446  Finance Office: Basex budget increased by $549K per the revised plan.
+#1447  Finance Office: Withdraw update #1374.
+#1448  Legal email: Basex weekly sync moved to Wednesdays.
+#1449  Finance Office: Basex budget increased by $65K after review.
+#1450  Finance Office: Basex budget increased by $140K.
+#1451  Finance Office: Basex budget increased by $287K.
+#1452  Finance Office: Basex budget decreased by $20K per the revised plan.
+#1453  Finance Office: Basex budget increased by $45K.
+#1454  Finance Office: Basex budget decreased by $15K per the revised plan.
+#1455  Finance Office: Basex budget decreased by $15K per the revised plan.
+#1456  Finance Office: Basex finance review moved to Room 2A.
+#1457  Finance Office: Basex budget increased by $90K per the revised plan.
+#1458  PMO note: Basex site visit confirmed for Friday.
+#1459  Finance Office: Basex budget increased by $150K.
+#1460  Vendor call: Hearing Basex's budget goes down $122K.
+#1461  Vendor call: Basex budget should land at $2700K.
+#1462  Sales update: Basex budget should land at $2740K.
+#1463  Finance Office: Basex budget increased by $90K.
+#1464  Vendor call: Pretty sure Basex's budget is $2800K now.
+#1465  Finance Office: Withdraw update #0346.
+#1466  Finance Office: Basex budget increased by $95K.
+#1467  Facilities ticket: Basex budget is going down to $2120K.
+#1468  Engineering email: Basex budget is going up by $108K.
+#1469  Finance Office: Basex budget decreased by $65K.
+#1470  Finance Office: Basex budget decreased by $10K per the revised plan.
+#1471  Finance Office: Withdraw update #0325.
+#1472  Finance Office: Basex budget decreased by $20K after review.
+#1473  Finance Office: Basex budget increased by $10K.
+#1474  Finance Office: Basex budget decreased by $135K after review.
+#1475  Finance Office: Basex budget decreased by $55K.
+#1476  Finance Office: Basex budget increased by $45K.
+#1477  Finance Office: Basex budget increased by $15K after review.
+#1478  Marketing email: Basex budget is going down to $1160K.
+#1479  Finance Office: Withdraw update #0221.
+#1480  Finance Office: Basex budget increased by $55K after review.
+#1481  Finance Office: Basex budget increased by $60K after review.
+#1482  Finance Office: Basex budget decreased by $25K per the revised plan.
+#1483  Finance Office: Basex budget decreased by $95K.
+#1484  Finance Office: Withdraw update #0980; it was entered in error.
+#1485  Finance Office: Basex budget decreased by $100K per the revised plan.
+#1486  Engineering email: Basex budget is going to $2010K.
+#1487  Finance Office: Basex budget decreased by $15K per the revised plan.
+#1488  Finance Office: Basex budget increased by $75K.
+#1489  Legal email: Basex design review moved to Room 4B.
+#1490  Marketing email: Heard Basex's budget is now $1410K.
+#1491  Finance Office: Basex budget decreased by $35K.
+#1492  PMO note: Sounds like Basex gets $272K more.
+#1493  Finance Office: Basex budget increased by $115K after review.
+#1494  Finance Office: Basex budget decreased by $120K after review.
+#1495  Legal email: Basex sprint 11 retrospective notes posted.
+#1496  Finance Office: Basex budget decreased by $130K.
+#1497  Finance Office: Basex budget increased by $65K per the revised plan.
+#1498  Engineering email: Pretty sure Basex's budget is $1420K now.
+#1499  Vendor call: Basex budget should land at $1450K.
+#1500  Facilities ticket: Expect Basex's budget to rise by $418K.
+#1501  Facilities ticket: Basex budget is going down to $1180K.
+#1502  Finance Office: Basex budget decreased by $105K after review.
+#1503  Finance Office: Basex budget decreased by $145K.
+#1504  Finance Office: Basex budget increased by $5K.
+#1505  Finance Office: Basex budget decreased by $140K per the revised plan.
+#1506  Finance Office: Basex purchase order FC-7275 closed.
+#1507  Finance Office: Basex budget decreased by $140K per the revised plan.
+#1508  Finance Office: Basex budget decreased by $110K per the revised plan.
+#1509  Finance Office: Basex budget increased by $30K per the revised plan.
+#1510  Sales update: Basex budget is going up to $1260K.
+#1511  Finance Office: Basex budget increased by $140K.
+#1512  Vendor call: Basex budget is going down by $41K.
+#1513  Sales update: Pretty sure Basex's budget is $1410K now.
+#1514  Facilities ticket: Basex site visit confirmed for Wednesday.
+#1515  Finance Office: Basex budget decreased by $20K per the revised plan.
+#1516  Facilities ticket: Basex vendor onboarding call scheduled for Tuesday.
+#1517  Facilities ticket: Basex budget is going to $1190K.
+#1518  Finance Office: Basex budget increased by $70K.
+#1519  Finance Office: Basex budget increased by $50K.
+#1520  Legal email: Sounds like Basex gets $407K more.
+#1521  Legal email: Basex budget is going down by $109K.
+#1522  Legal email: Basex budget should land at $1340K.
+#1523  Finance Office: Basex budget increased by $60K.
+#1524  Marketing email: Basex budget is going to $1230K.
+#1525  Finance Office: Withdraw update #1373.
+#1526  Finance Office: Basex budget increased by $75K per the revised plan.
+#1527  Legal email: Pretty sure Basex's budget is $1600K now.
+#1528  Operations chat: Hearing Basex's budget goes up $58K.
+#1529  Finance Office: Basex budget increased by $120K per the revised plan.
+#1530  Finance Office: Withdraw update #0311.
+#1531  Vendor call: Basex budget should land at $2040K.
+#1532  Finance Office: Basex budget decreased by $125K.
+#1533  Operations chat: Pretty sure Basex's budget is $2800K now.
+#1534  Engineering email: Expect Basex's budget to drop by $173K.
+#1535  Finance Office: Basex budget decreased by $5K.
+#1536  Finance Office: Basex budget decreased by $130K per the revised plan.
+#1537  Engineering email: Sounds like Basex gets $3K less.
+#1538  Finance Office: Basex budget increased by $20K after review.
+#1539  Vendor call: Sounds like Basex gets $308K less.
+#1540  Engineering email: Basex budget should land at $1670K.
+#1541  Finance Office: Basex budget decreased by $90K per the revised plan.
+#1542  Finance Office: Withdraw update #1451; it was entered in error.
+#1543  Marketing email: Basex budget should land at $1800K.
+#1544  Finance Office: Basex budget increased by $135K.
+#1545  Finance Office: Basex budget decreased by $65K.
+#1546  Finance Office: Basex purchase order FC-9462 closed.
+#1547  Sales update: Basex budget is going to $1390K.
+#1548  Finance Office: Basex budget increased by $105K per the revised plan.
+#1549  Vendor call: Basex budget should land at $1860K.
+#1550  Sales update: Basex budget is going down to $1930K.
+#1551  Finance Office: Basex budget increased by $15K.
+#1552  Facilities ticket: Heard Basex's budget is now $2580K.
+#1553  Finance Office: Basex budget decreased by $60K per the revised plan.
+#1554  Finance Office: Basex budget increased by $40K after review.
+#1555  Finance Office: Withdraw update #0118.
+#1556  Operations chat: Pretty sure Basex's budget is $2800K now.
+#1557  Engineering email: Pretty sure Basex's budget is $2800K now.
+#1558  Finance Office: Basex budget decreased by $95K per the revised plan.
+#1559  Finance Office: Basex budget increased by $130K after review.
+#1560  Marketing email: Basex budget is going up to $2800K.
+#1561  Finance Office: Basex budget decreased by $150K per the revised plan.
+#1562  Engineering email: Expect Basex's budget to drop by $563K.
+#1563  Finance Office: Basex budget decreased by $145K.
+#1564  Finance Office: Withdraw update #0539.
+#1565  Finance Office: Basex budget decreased by $50K per the revised plan.
+#1566  Legal email: Basex risk register updated with 4 new items.
+#1567  Finance Office: Basex budget decreased by $105K after review.
+#1568  Finance Office: Withdraw update #1054.
+#1569  Engineering email: Heard Basex's budget is now $2300K.
+#1570  Operations chat: Basex site visit confirmed for Wednesday.
+#1571  Finance Office: Basex audit notes filed.
+#1572  Marketing email: Basex security review passed.
+#1573  Finance Office: Withdraw update #1446.
+#1574  Finance Office: Basex budget decreased by $100K per the revised plan.
+#1575  Finance Office: Basex budget increased by $30K.
+#1576  Finance Office: Basex budget increased by $20K per the revised plan.
+#1577  Marketing email: Basex budget is going up to $1900K.
+#1578  Finance Office: Basex budget increased by $35K.
+#1579  Finance Office: Basex budget increased by $105K after review.
+#1580  Finance Office: Basex budget increased by $70K after review.
+#1581  Finance Office: Withdraw update #0856; it was entered in error.
+#1582  Finance Office: Withdraw update #1282; it was entered in error.
+#1583  Finance Office: Basex budget increased by $55K after review.
+#1584  Finance Office: Withdraw update #0506; it was entered in error.
+#1585  Finance Office: Withdraw update #1542.
+#1586  Finance Office: Basex budget increased by $105K after review.
+#1587  Vendor call: Basex test environment back online.
+#1588  Finance Office: Basex budget increased by $125K per the revised plan.
+#1589  Finance Office: Withdraw update #0963.
+#1590  Finance Office: Basex budget increased by $105K.
+#1591  Finance Office: Basex budget decreased by $65K per the revised plan.
+#1592  Vendor call: Sounds like Basex gets $358K less.
+#1593  Finance Office: Basex budget increased by $150K.
+#1594  Finance Office: Withdraw update #0781; it was entered in error.
+#1595  Finance Office: Basex budget increased by $40K after review.
+#1596  Finance Office: Basex budget decreased by $135K per the revised plan.
+#1597  Operations chat: Basex budget is going up by $479K.
+#1598  Vendor call: Basex budget should land at $2080K.
+#1599  Finance Office: Basex budget increased by $100K per the revised plan.
+#1600  Engineering email: Basex budget is going to $1670K.
+
+Question: What is Basex's budget now?

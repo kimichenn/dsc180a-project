@@ -1,0 +1,1175 @@
+{
+ "schema": 1,
+ "run": "skill_repeat_10x_v1",
+ "created_at": "2026-10-25T23:43:20+00:00",
+ "created_by": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "config_file": "config/skill_repeat_10x.toml",
+ "config": {
+  "description": "GPT repeat study: 30 fresh logs, chronological generator, 10 repeats in every condition",
+  "seed_start": 720000,
+  "logs": 30,
+  "versions": [
+   "C",
+   "R",
+   "RG",
+   "E"
+  ],
+  "instructions": [
+   "none",
+   "skill"
+  ],
+  "repeats": 10,
+  "schedule_seed": 180,
+  "timeout_seconds": 1800,
+  "generator": {
+   "chronological": true,
+   "max_attempts": 500000,
+   "records": 1600,
+   "adjust_share": 0.45,
+   "withdraw_share": 0.15,
+   "gossip_share": 0.3,
+   "nested_rate": 0.35,
+   "relative_gossip_share": 0.5,
+   "amount_step": 5,
+   "amount_max": 150,
+   "unique_amount_max": 600,
+   "budget_min": 200,
+   "budget_max": 3000
+  },
+  "models": {
+   "gpt": {
+    "name": "gpt",
+    "provider": "codex",
+    "model": "gpt-6-astra",
+    "effort": "low",
+    "max_output_tokens": 32000
+   }
+  },
+  "repeatability": {
+   "logs": 0,
+   "repeats": 10,
+   "selection_seed": 1801,
+   "versions": [
+    "R",
+    "RG"
+   ]
+  },
+  "frozen_skill_sha256": "110dc3202c110644d473c29e0d5bfff26ca008eecc7e0a8b2930a91c8eda946a"
+ },
+ "uncollected_worlds_from": "runs/skill_repeat_v2",
+ "worlds": {
+  "s720000_n1600": {
+   "seed": 720000,
+   "project": "Sobrix",
+   "answer": 1396,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "filler": 160,
+    "gossip": 480,
+    "withdraw": 240
+   },
+   "relative_gossip": 238,
+   "surviving_adjustments": 593,
+   "chains": 163,
+   "nested_chains": 50,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 102673,
+    "R": 102466,
+    "RG": 102131,
+    "E": 103584,
+    "G": 102338
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.002,
+    "RG": -0.0053,
+    "E": 0.0089,
+    "G": -0.0033
+   }
+  },
+  "s720001_n1600": {
+   "seed": 720001,
+   "project": "Stilu",
+   "answer": 2132,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 248,
+   "surviving_adjustments": 593,
+   "chains": 162,
+   "nested_chains": 54,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 101271,
+    "R": 101011,
+    "RG": 100709,
+    "E": 102024,
+    "G": 100969
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0026,
+    "RG": -0.0055,
+    "E": 0.0074,
+    "G": -0.003
+   }
+  },
+  "s720002_n1600": {
+   "seed": 720002,
+   "project": "Kekro",
+   "answer": 1696,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "withdraw": 240,
+    "filler": 160,
+    "gossip": 480
+   },
+   "relative_gossip": 238,
+   "surviving_adjustments": 613,
+   "chains": 150,
+   "nested_chains": 58,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 101551,
+    "R": 101368,
+    "RG": 100973,
+    "E": 102346,
+    "G": 101156
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0018,
+    "RG": -0.0057,
+    "E": 0.0078,
+    "G": -0.0039
+   }
+  },
+  "s720003_n1600": {
+   "seed": 720003,
+   "project": "Fumux",
+   "answer": 1637,
+   "kinds": {
+    "opening": 1,
+    "filler": 160,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480
+   },
+   "relative_gossip": 229,
+   "surviving_adjustments": 611,
+   "chains": 154,
+   "nested_chains": 60,
+   "max_chain_depth": 7,
+   "chars": {
+    "C": 102104,
+    "R": 101941,
+    "RG": 101667,
+    "E": 102706,
+    "G": 101830
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0016,
+    "RG": -0.0043,
+    "E": 0.0059,
+    "G": -0.0027
+   }
+  },
+  "s720004_n1600": {
+   "seed": 720004,
+   "project": "Pebres",
+   "answer": 1295,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480,
+    "filler": 160
+   },
+   "relative_gossip": 246,
+   "surviving_adjustments": 607,
+   "chains": 150,
+   "nested_chains": 60,
+   "max_chain_depth": 7,
+   "chars": {
+    "C": 102470,
+    "R": 102018,
+    "RG": 101718,
+    "E": 103330,
+    "G": 102170
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0044,
+    "RG": -0.0073,
+    "E": 0.0084,
+    "G": -0.0029
+   }
+  },
+  "s720005_n1600": {
+   "seed": 720005,
+   "project": "Basex",
+   "answer": 2210,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 238,
+   "surviving_adjustments": 591,
+   "chains": 165,
+   "nested_chains": 46,
+   "max_chain_depth": 7,
+   "chars": {
+    "C": 101302,
+    "R": 101149,
+    "RG": 100817,
+    "E": 102035,
+    "G": 100970
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0015,
+    "RG": -0.0048,
+    "E": 0.0072,
+    "G": -0.0033
+   }
+  },
+  "s720006_n1600": {
+   "seed": 720006,
+   "project": "Brikebis",
+   "answer": 250,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 246,
+   "surviving_adjustments": 613,
+   "chains": 149,
+   "nested_chains": 56,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 105632,
+    "R": 104928,
+    "RG": 104626,
+    "E": 106661,
+    "G": 105330
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0067,
+    "RG": -0.0095,
+    "E": 0.0097,
+    "G": -0.0029
+   }
+  },
+  "s720007_n1600": {
+   "seed": 720007,
+   "project": "Brevox",
+   "answer": 1572,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480,
+    "filler": 160
+   },
+   "relative_gossip": 237,
+   "surviving_adjustments": 625,
+   "chains": 147,
+   "nested_chains": 67,
+   "max_chain_depth": 4,
+   "chars": {
+    "C": 102873,
+    "R": 102413,
+    "RG": 102233,
+    "E": 103568,
+    "G": 102693
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0045,
+    "RG": -0.0062,
+    "E": 0.0068,
+    "G": -0.0017
+   }
+  },
+  "s720008_n1600": {
+   "seed": 720008,
+   "project": "Brimima",
+   "answer": 1841,
+   "kinds": {
+    "opening": 1,
+    "filler": 160,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480
+   },
+   "relative_gossip": 245,
+   "surviving_adjustments": 603,
+   "chains": 162,
+   "nested_chains": 56,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 104594,
+    "R": 103985,
+    "RG": 103640,
+    "E": 105469,
+    "G": 104249
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0058,
+    "RG": -0.0091,
+    "E": 0.0084,
+    "G": -0.0033
+   }
+  },
+  "s720009_n1600": {
+   "seed": 720009,
+   "project": "Fadren",
+   "answer": 327,
+   "kinds": {
+    "opening": 1,
+    "filler": 160,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240
+   },
+   "relative_gossip": 250,
+   "surviving_adjustments": 591,
+   "chains": 158,
+   "nested_chains": 50,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 102443,
+    "R": 101944,
+    "RG": 101535,
+    "E": 103291,
+    "G": 102034
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0049,
+    "RG": -0.0089,
+    "E": 0.0083,
+    "G": -0.004
+   }
+  },
+  "s720010_n1600": {
+   "seed": 720010,
+   "project": "Sivix",
+   "answer": 900,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 237,
+   "surviving_adjustments": 599,
+   "chains": 157,
+   "nested_chains": 52,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 101290,
+    "R": 101244,
+    "RG": 101015,
+    "E": 102036,
+    "G": 101061
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0005,
+    "RG": -0.0027,
+    "E": 0.0074,
+    "G": -0.0023
+   }
+  },
+  "s720011_n1600": {
+   "seed": 720011,
+   "project": "Puvux",
+   "answer": 1774,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 232,
+   "surviving_adjustments": 615,
+   "chains": 151,
+   "nested_chains": 56,
+   "max_chain_depth": 8,
+   "chars": {
+    "C": 100829,
+    "R": 100504,
+    "RG": 100155,
+    "E": 101651,
+    "G": 100480
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0032,
+    "RG": -0.0067,
+    "E": 0.0082,
+    "G": -0.0035
+   }
+  },
+  "s720012_n1600": {
+   "seed": 720012,
+   "project": "Fipus",
+   "answer": 2582,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 212,
+   "surviving_adjustments": 611,
+   "chains": 155,
+   "nested_chains": 61,
+   "max_chain_depth": 4,
+   "chars": {
+    "C": 101394,
+    "R": 101469,
+    "RG": 100992,
+    "E": 102278,
+    "G": 100917
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": 0.0007,
+    "RG": -0.004,
+    "E": 0.0087,
+    "G": -0.0047
+   }
+  },
+  "s720013_n1600": {
+   "seed": 720013,
+   "project": "Dravene",
+   "answer": 945,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 233,
+   "surviving_adjustments": 601,
+   "chains": 155,
+   "nested_chains": 53,
+   "max_chain_depth": 8,
+   "chars": {
+    "C": 104593,
+    "R": 104370,
+    "RG": 104065,
+    "E": 105559,
+    "G": 104288
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0021,
+    "RG": -0.005,
+    "E": 0.0092,
+    "G": -0.0029
+   }
+  },
+  "s720014_n1600": {
+   "seed": 720014,
+   "project": "Titelin",
+   "answer": 1525,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 241,
+   "surviving_adjustments": 611,
+   "chains": 152,
+   "nested_chains": 62,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 104298,
+    "R": 103664,
+    "RG": 103346,
+    "E": 105146,
+    "G": 103980
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0061,
+    "RG": -0.0091,
+    "E": 0.0081,
+    "G": -0.003
+   }
+  },
+  "s720015_n1600": {
+   "seed": 720015,
+   "project": "Notivi",
+   "answer": 2591,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 243,
+   "surviving_adjustments": 597,
+   "chains": 158,
+   "nested_chains": 55,
+   "max_chain_depth": 4,
+   "chars": {
+    "C": 102654,
+    "R": 102351,
+    "RG": 102109,
+    "E": 103421,
+    "G": 102412
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.003,
+    "RG": -0.0053,
+    "E": 0.0075,
+    "G": -0.0024
+   }
+  },
+  "s720016_n1600": {
+   "seed": 720016,
+   "project": "Fotagin",
+   "answer": 1730,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 249,
+   "surviving_adjustments": 601,
+   "chains": 160,
+   "nested_chains": 52,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 104594,
+    "R": 104131,
+    "RG": 103731,
+    "E": 105432,
+    "G": 104194
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0044,
+    "RG": -0.0083,
+    "E": 0.008,
+    "G": -0.0038
+   }
+  },
+  "s720017_n1600": {
+   "seed": 720017,
+   "project": "Polil",
+   "answer": 1869,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "filler": 160,
+    "adjust": 719,
+    "withdraw": 240
+   },
+   "relative_gossip": 243,
+   "surviving_adjustments": 601,
+   "chains": 157,
+   "nested_chains": 52,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 100968,
+    "R": 100812,
+    "RG": 100538,
+    "E": 101699,
+    "G": 100694
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0015,
+    "RG": -0.0043,
+    "E": 0.0072,
+    "G": -0.0027
+   }
+  },
+  "s720018_n1600": {
+   "seed": 720018,
+   "project": "Zupul",
+   "answer": 2673,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 228,
+   "surviving_adjustments": 599,
+   "chains": 163,
+   "nested_chains": 53,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 101667,
+    "R": 101605,
+    "RG": 101169,
+    "E": 102431,
+    "G": 101231
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0006,
+    "RG": -0.0049,
+    "E": 0.0075,
+    "G": -0.0043
+   }
+  },
+  "s720019_n1600": {
+   "seed": 720019,
+   "project": "Thithis",
+   "answer": 2053,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 239,
+   "surviving_adjustments": 597,
+   "chains": 159,
+   "nested_chains": 51,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 104074,
+    "R": 103583,
+    "RG": 103237,
+    "E": 105020,
+    "G": 103728
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0047,
+    "RG": -0.008,
+    "E": 0.0091,
+    "G": -0.0033
+   }
+  },
+  "s720020_n1600": {
+   "seed": 720020,
+   "project": "Buku",
+   "answer": 347,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 240,
+   "surviving_adjustments": 615,
+   "chains": 150,
+   "nested_chains": 59,
+   "max_chain_depth": 8,
+   "chars": {
+    "C": 99290,
+    "R": 99414,
+    "RG": 98969,
+    "E": 100013,
+    "G": 98845
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": 0.0012,
+    "RG": -0.0032,
+    "E": 0.0073,
+    "G": -0.0045
+   }
+  },
+  "s720021_n1600": {
+   "seed": 720021,
+   "project": "Mastis",
+   "answer": 1929,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 242,
+   "surviving_adjustments": 617,
+   "chains": 146,
+   "nested_chains": 60,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 102063,
+    "R": 101559,
+    "RG": 101306,
+    "E": 102825,
+    "G": 101810
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0049,
+    "RG": -0.0074,
+    "E": 0.0075,
+    "G": -0.0025
+   }
+  },
+  "s720022_n1600": {
+   "seed": 720022,
+   "project": "Sabrux",
+   "answer": 1887,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 251,
+   "surviving_adjustments": 609,
+   "chains": 151,
+   "nested_chains": 56,
+   "max_chain_depth": 8,
+   "chars": {
+    "C": 103093,
+    "R": 102918,
+    "RG": 102546,
+    "E": 103982,
+    "G": 102721
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0017,
+    "RG": -0.0053,
+    "E": 0.0086,
+    "G": -0.0036
+   }
+  },
+  "s720023_n1600": {
+   "seed": 720023,
+   "project": "Driful",
+   "answer": 2039,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480,
+    "filler": 160
+   },
+   "relative_gossip": 231,
+   "surviving_adjustments": 589,
+   "chains": 165,
+   "nested_chains": 52,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 102204,
+    "R": 101980,
+    "RG": 101642,
+    "E": 103160,
+    "G": 101866
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0022,
+    "RG": -0.0055,
+    "E": 0.0094,
+    "G": -0.0033
+   }
+  },
+  "s720024_n1600": {
+   "seed": 720024,
+   "project": "Dremu",
+   "answer": 2583,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 244,
+   "surviving_adjustments": 591,
+   "chains": 168,
+   "nested_chains": 52,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 101192,
+    "R": 101134,
+    "RG": 100908,
+    "E": 102097,
+    "G": 100966
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0006,
+    "RG": -0.0028,
+    "E": 0.0089,
+    "G": -0.0022
+   }
+  },
+  "s720025_n1600": {
+   "seed": 720025,
+   "project": "Rithifo",
+   "answer": 1340,
+   "kinds": {
+    "opening": 1,
+    "filler": 160,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480
+   },
+   "relative_gossip": 238,
+   "surviving_adjustments": 593,
+   "chains": 164,
+   "nested_chains": 48,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 104501,
+    "R": 104101,
+    "RG": 103806,
+    "E": 105430,
+    "G": 104206
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0038,
+    "RG": -0.0067,
+    "E": 0.0089,
+    "G": -0.0028
+   }
+  },
+  "s720026_n1600": {
+   "seed": 720026,
+   "project": "Vetripu",
+   "answer": 573,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 229,
+   "surviving_adjustments": 605,
+   "chains": 154,
+   "nested_chains": 55,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 104687,
+    "R": 104327,
+    "RG": 104011,
+    "E": 105618,
+    "G": 104371
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0034,
+    "RG": -0.0065,
+    "E": 0.0089,
+    "G": -0.003
+   }
+  },
+  "s720027_n1600": {
+   "seed": 720027,
+   "project": "Bonuko",
+   "answer": 1359,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 241,
+   "surviving_adjustments": 609,
+   "chains": 149,
+   "nested_chains": 54,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 102943,
+    "R": 102480,
+    "RG": 102101,
+    "E": 103639,
+    "G": 102564
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0045,
+    "RG": -0.0082,
+    "E": 0.0068,
+    "G": -0.0037
+   }
+  },
+  "s720028_n1600": {
+   "seed": 720028,
+   "project": "Peder",
+   "answer": 1808,
+   "kinds": {
+    "opening": 1,
+    "filler": 160,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480
+   },
+   "relative_gossip": 250,
+   "surviving_adjustments": 603,
+   "chains": 159,
+   "nested_chains": 56,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 101200,
+    "R": 100965,
+    "RG": 100689,
+    "E": 102014,
+    "G": 100924
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0023,
+    "RG": -0.005,
+    "E": 0.008,
+    "G": -0.0027
+   }
+  },
+  "s720029_n1600": {
+   "seed": 720029,
+   "project": "Thoso",
+   "answer": 389,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 229,
+   "surviving_adjustments": 605,
+   "chains": 150,
+   "nested_chains": 53,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 101230,
+    "R": 101117,
+    "RG": 100789,
+    "E": 102021,
+    "G": 100902
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0011,
+    "RG": -0.0044,
+    "E": 0.0078,
+    "G": -0.0032
+   }
+  }
+ },
+ "trials": 2400,
+ "repeatability_worlds": [],
+ "skill_sha256": "110dc3202c110644d473c29e0d5bfff26ca008eecc7e0a8b2930a91c8eda946a",
+ "files": {
+  "PROTOCOL.md": "516cd44b018da9d8687c274809bfcef4abac398ed178ece272716e6dfdd9b008",
+  "config.toml": "1805929f459589bff7a913f65796be0720f6a86b36cd8cd77f40b33c34581b5c",
+  "prompts/s720000_n1600_C.txt": "8f62cb3ead685a99ccd31e14be99d4bf05f0503ac4eae530d226e328cc597244",
+  "prompts/s720000_n1600_E.txt": "68da92652b03d52252dd523e4d4878b8a36eee209ad80b136a2ec1bcb78e0a28",
+  "prompts/s720000_n1600_R.txt": "f150532417eb53ae07134ef6981436846b79d499b3b68eead255012dabcf936c",
+  "prompts/s720000_n1600_RG.txt": "d02a1e8ae156b4e7413f32c18888e022fcc169234237a11a4f88fce0e3e24b20",
+  "prompts/s720001_n1600_C.txt": "bca473a32ef3c6a135eb022af13fb1b24a5587efaceb70955c039c81312fad5c",
+  "prompts/s720001_n1600_E.txt": "6b5be0b5120a3b3382dd1b50abd2966eaa54410ac0548dfdf2a9bc42d125866e",
+  "prompts/s720001_n1600_R.txt": "c8de45d040df795857830b669f5430625f9798e33e2c89ce40b82c2e0f895a8c",
+  "prompts/s720001_n1600_RG.txt": "13cbc098f35936d9d7cc7fc0c2b6549b45c25546eb433a36d165eef4ec775cfd",
+  "prompts/s720002_n1600_C.txt": "5cae7b369646b884bdc685435cd6bd035d8439c60f33fdab75b692dd97075856",
+  "prompts/s720002_n1600_E.txt": "e71bbb6603ee27d530e70ddbb744d137de28fc0e480c7a9dc2e5a26de0e4112f",
+  "prompts/s720002_n1600_R.txt": "c0c34b94945f7b7dfa0cfb62dc1fe214e6a5c065fc9716f5527c6d0e585c58f8",
+  "prompts/s720002_n1600_RG.txt": "47503f113fda74f9afda17d471e62b8262e23f0922af599154bfaee4f20e491e",
+  "prompts/s720003_n1600_C.txt": "140eea6bf95bda2e47978fef9528cbac96a64f614cdb50fa88d135b4eeeb21f9",
+  "prompts/s720003_n1600_E.txt": "6e8057c784c4a7d08e73819dd2f08908cb8dcb6b52b6cbca0e9d3f17d8f9ebe9",
+  "prompts/s720003_n1600_R.txt": "665966bfe94edb23799f91d1ebaade56ccab8728a4999e4dc1d7220fc42c5956",
+  "prompts/s720003_n1600_RG.txt": "9fcc853fd75aa82b1edc3fad69efb976bfe510357c3713043485176fc15a29bc",
+  "prompts/s720004_n1600_C.txt": "62c6905dde5bf2dd83b04cedc2eaa1a5fe2bf529b07969381ac314f5b72a62fb",
+  "prompts/s720004_n1600_E.txt": "6fb3909547e978a7ff0635a027e2106af14c8c23e2300c5d8a9e931f3783d642",
+  "prompts/s720004_n1600_R.txt": "14a82363d633699d1fdf692aa6db9e9e399fa6b0e58f3af960edde91c5cad76a",
+  "prompts/s720004_n1600_RG.txt": "b67bf2dbfa7c7702c4ae12a9da53e4da8782cf8478eb38c53184b53f81f76390",
+  "prompts/s720005_n1600_C.txt": "cb70cca766e945bed0f8641b5e33d3dfee83eb1ee277247541ffa072aea80f43",
+  "prompts/s720005_n1600_E.txt": "b762cb02aabae5ad6c0fe433963f1e260d37cffff5f38b7135c9a6f7493eb298",
+  "prompts/s720005_n1600_R.txt": "5064d891207f87e883853527ce9a120e172b723f3ca7f124ebbfbb77e76273e0",
+  "prompts/s720005_n1600_RG.txt": "680773bf0f973a5ba6e68697723843405fd499ef72744a578eb8bd110dc728b3",
+  "prompts/s720006_n1600_C.txt": "1670e8fca1b1fe5f19fec02b5cfb66eed7534991f5594f69d505b9829a8d9658",
+  "prompts/s720006_n1600_E.txt": "7e3ad0d8df2113964ae7234db36cdc26578be49a093e9e93952276beb27761ce",
+  "prompts/s720006_n1600_R.txt": "79dee9879e3dea16b9b4d21abd0e9488f32bbdd361b4890578f170a7f428c14b",
+  "prompts/s720006_n1600_RG.txt": "e240d89234270e2085000c9c705b8f28f2116b0ee8b86f8f88bf90571211e9e8",
+  "prompts/s720007_n1600_C.txt": "4bf5d6ab15283e8a93ef73d17647fba3bee0c7d367959588967722a05ff80d0f",
+  "prompts/s720007_n1600_E.txt": "0cb80833cee013963a1f71b1d995867a4fe9d77f1a6793e0a9437d073232c0bf",
+  "prompts/s720007_n1600_R.txt": "bfde9343b26b977b5586e769385c7a09c59e6bec78e848fa1a92f3a7455e49fb",
+  "prompts/s720007_n1600_RG.txt": "0b774aeb35c1f505a986a906871adb5f2be7693cb45f6e627e3ef0ed3c0b5e0d",
+  "prompts/s720008_n1600_C.txt": "c40270570a2de5a1abf711d8c1abaadd55c83dce83106efaf93647dab6034f4a",
+  "prompts/s720008_n1600_E.txt": "20bad4bbd466b617ae2eb7e8ae9a91274d7cf7f33dc66fd8136a6b9598d4d8bd",
+  "prompts/s720008_n1600_R.txt": "3bf4a068af893cd5f7ada2bae051d24b90329f1ba80574f52822b47ccddd8db9",
+  "prompts/s720008_n1600_RG.txt": "ae2747ff3798a16006fed3dbe5abb8d6174ddc3a16eb40fd4bb737edadf5d1fa",
+  "prompts/s720009_n1600_C.txt": "1a2359bc18db28315060ff83848eeeeabad93099a8b01eae632bac36591ca108",
+  "prompts/s720009_n1600_E.txt": "096f121700ea657590ca59b60fdb6901f2276f8afd7bd8594fb645d3e06d34de",
+  "prompts/s720009_n1600_R.txt": "05d93be654de1e787d1801d429ec8445c60554d142fab5c80fd90acb37640e3f",
+  "prompts/s720009_n1600_RG.txt": "426571151acb070faed2063cb6e391ce1ac224da24e9d7b0b9892318446cd936",
+  "prompts/s720010_n1600_C.txt": "a77f356e5bb03188a34d5f4c5536f0c96f5975fb44b8ea80c2b44c4100229cb3",
+  "prompts/s720010_n1600_E.txt": "2d361b981a797d697de3e27bbb7994d836c2806710a63741b201cbf70bc73d0b",
+  "prompts/s720010_n1600_R.txt": "3cb0e45462b503899835e7d5c48a7555c62002ad9bb355a0b4335e2dc3b1234a",
+  "prompts/s720010_n1600_RG.txt": "f02a76f3757cecb24d469b7be9d432b5f88fb396e6aea83a2383c3ffa05871d2",
+  "prompts/s720011_n1600_C.txt": "e95e1db46894c6d7cc59e62a69dee2e1d0abab1f202e9bcf4ed064d6381a8247",
+  "prompts/s720011_n1600_E.txt": "d70c901ed2f4466ebf85c180826be1f088aab66e541ff9c3203d5419e57a1f42",
+  "prompts/s720011_n1600_R.txt": "f2335dc3980c59ea192d0d0ea0b0187494b62f3c40922bbde9aa70ef89e77399",
+  "prompts/s720011_n1600_RG.txt": "a6a96a7cee854040a2370988571151e517cf79eb7c929ca1691f64b063e901c6",
+  "prompts/s720012_n1600_C.txt": "facca8dd7ec84c7577e3d9a7d56578a1cb95f224ecaf042731750a4294fd7def",
+  "prompts/s720012_n1600_E.txt": "eeaa38394cc71f06c3e0ac5d86b5d994a69bd7f5559a4c6f614f956e5328406d",
+  "prompts/s720012_n1600_R.txt": "2fd6387a700c0782ce4d16db2a011985a486d1e576b5b62589798ee475d059f2",
+  "prompts/s720012_n1600_RG.txt": "6ff5c12f0e488eba7f3159851f66d20e1e29f94c3e38d2ee499a6f0252b0dcf1",
+  "prompts/s720013_n1600_C.txt": "22e76fafdc67295f6285df1fea8f7fb4fee70643b7a925d1bb1c4bd7176a1654",
+  "prompts/s720013_n1600_E.txt": "533ad04d41fb9370637f073a68a1c9cd542b79a8a7c65c85569dd888d839115f",
+  "prompts/s720013_n1600_R.txt": "d3dc2725c281db9142d0b2afbc1468f020807b631fde867e91b364695bc04a8f",
+  "prompts/s720013_n1600_RG.txt": "3a02685f6d30003b7a4a32d3e3b0f22a3ca52fc9ee46c637ed5b5681f296fd16",
+  "prompts/s720014_n1600_C.txt": "815b19e484022c84b79f0c65fa514e7ba1450b502abfcd5ca317c4a50ea25c7d",
+  "prompts/s720014_n1600_E.txt": "1817efc09c5bd9fd4d8acde90d5a05afa953d57b119b7196fdbb01a298a39be8",
+  "prompts/s720014_n1600_R.txt": "ca08142035e5fe1de79379853948fede0a7e41a37a2b615e9a5f666a10f3c960",
+  "prompts/s720014_n1600_RG.txt": "7721672e785c4d719b4d6ddc10575601645206d17b45fa9b84a390e935e1d43c",
+  "prompts/s720015_n1600_C.txt": "0098b6300522897551656c5219b2feecfbbd5408d47fc489d4d28da8b65ab290",
+  "prompts/s720015_n1600_E.txt": "a5ac0defd95a058671f54a7fc4ec4034def6cbbb5e21b910d65bfc0838bc2c48",
+  "prompts/s720015_n1600_R.txt": "01ddd3c82c4df57f66ebf65bc3ec50ff914965fe9f3eaff2cf7a86128b905f99",
+  "prompts/s720015_n1600_RG.txt": "a37f051ad714087dc8b1e1981582cc8809e5fac5a18652e1de3810fe15c14f6c",
+  "prompts/s720016_n1600_C.txt": "b1bba8b4d834b0a21878cc46204e8d675f6a73291d57ad7da0ae9759ef8947de",
+  "prompts/s720016_n1600_E.txt": "dc2d31bd6f786c2fc494b7d49358327601a9427e5b2bf696ea0de7d5333449a0",
+  "prompts/s720016_n1600_R.txt": "fddc2231f103fe93869315f43c1810a9033c84c5da85dd71fc6574428bb5789c",
+  "prompts/s720016_n1600_RG.txt": "e93f35291e2803141f6b4ba9fc42c85e54081d7415d83eb04f3c2e5f68b80571",
+  "prompts/s720017_n1600_C.txt": "b99cd39c4b1cd2c959944d3b06636cf79d95564aea3b988045305f9ea81a96dd",
+  "prompts/s720017_n1600_E.txt": "7c72ff92f90fa17b634b40d1dcb7f9bb650ae32801e6cdd267a5c569da3c0f9c",
+  "prompts/s720017_n1600_R.txt": "d92135082dca168ad04ee3016f942d2be133e04cf0201a4c8e56dc04826d311f",
+  "prompts/s720017_n1600_RG.txt": "060420e7470112c072177718b373ef9e94360cfb05713b55d73d6e181b1e7184",
+  "prompts/s720018_n1600_C.txt": "8861eb83154a9a0a2532449e54fc3317000174c4c16f378ee8b109d880e7fa9a",
+  "prompts/s720018_n1600_E.txt": "3920af70fcffd0affd81da5f801f078e40984948427057e04f09043d28605ff4",
+  "prompts/s720018_n1600_R.txt": "dd6756997324abc69115675f154a3feb5a13b5764f9fd45b1981434eeead9d0f",
+  "prompts/s720018_n1600_RG.txt": "d4a3e3949140d00dc3ebbf3f369298b08fff5b38c579229b2b425eddf18043d8",
+  "prompts/s720019_n1600_C.txt": "e270cb763d054d2e96a7cb2c6efbe2cf9ec57189d3069e4621154383dbbff9c5",
+  "prompts/s720019_n1600_E.txt": "20384a4be6ff71d8f7869039cc19560d0e73a37d8b4b6bf7af20e8e97880ac80",
+  "prompts/s720019_n1600_R.txt": "955e77c1eba3289cd257e600a0afdf59ccfb75892832632a9b31a4a18cb856c2",
+  "prompts/s720019_n1600_RG.txt": "6db9ff753b51a3ad5940a46ebda143a3019dcdefc00010f7e969833d790f0614",
+  "prompts/s720020_n1600_C.txt": "e73e4cb52599ca03108ad09b497050040dcb9c12c69579a07379ff1b23f9ed09",
+  "prompts/s720020_n1600_E.txt": "6b5f950a7971c073eb07ef353f2da3042d9483d7689db70b30229aca84e1d433",
+  "prompts/s720020_n1600_R.txt": "eda29868ab288435f5cfa0fa614173da48296a9ae04e2488d2f3ed6d75857128",
+  "prompts/s720020_n1600_RG.txt": "be654e6f1edc2ebb29995f3cb3dc01d185e75042ec90934fc5a6a45e210123fe",
+  "prompts/s720021_n1600_C.txt": "0558ca88c3c9fe129f75d4ca07b7c4ed1baedded3e6f70192b2447e52c6d902f",
+  "prompts/s720021_n1600_E.txt": "dff36c7700855dd46a2259c32d0d8ef385b00a070c7ff6d8fbd1887cdec4d015",
+  "prompts/s720021_n1600_R.txt": "22b81acd62e1b24746b7bd3ed59ad8fe2012d40d04afcc0718611c1cc52a6872",
+  "prompts/s720021_n1600_RG.txt": "298a540b8d38f157532e27278c79ae8c7d60d571f4b83966f18728a9a09385da",
+  "prompts/s720022_n1600_C.txt": "b07688632a02dab25f14144586ad68d762d487ba7ece80b18ac5297b61d5e83e",
+  "prompts/s720022_n1600_E.txt": "3f67cc3171a6f98f16cfcc5070ad89553b756f8e8b6e7afc654869344010c3b2",
+  "prompts/s720022_n1600_R.txt": "1dec4150eb401d2c3537e9381934798b1e389d89862b59ec30d357453b492486",
+  "prompts/s720022_n1600_RG.txt": "ec15ac1e35e0c5daa150bf9297f05231ba3d2ef492700485bbd294a3f3ae977b",
+  "prompts/s720023_n1600_C.txt": "aabd4862e559e8e9fd0e6d2cf7b9858012085c6e4cd6043713fb2aaa8e036139",
+  "prompts/s720023_n1600_E.txt": "e04393e2762b2d3bcaa49e2570403713ddc2005f68ff89d1b79a1c02a558631b",
+  "prompts/s720023_n1600_R.txt": "65deb99b8942c2f30531cbe0c3feca42891aab4e4c845a319e05078505a74e6b",
+  "prompts/s720023_n1600_RG.txt": "fa4c61375a7464acea989ca4799a63f9f27f2a7c31eec7454eb106f46de26396",
+  "prompts/s720024_n1600_C.txt": "3d7c7c210b462623b5271612b69a99416226bf3eaee8814d3d77ca9b66118c97",
+  "prompts/s720024_n1600_E.txt": "a4b94307addd5ab978ffb673006b071986bd955a5873f1810591700c361bf4c8",
+  "prompts/s720024_n1600_R.txt": "f0f9ed937a65a8c1b9af2f7d7296a6ec3cdcf1908e54c8762ee7042b505b1fea",
+  "prompts/s720024_n1600_RG.txt": "fa02326c75f8f92209167f9a8d48bcb9ead8088dad30055e46f0f769a2c24725",
+  "prompts/s720025_n1600_C.txt": "4417184cdb9b33bc1aaa7d69fcc19aea3739be39e0f23da5975c6beb51e17529",
+  "prompts/s720025_n1600_E.txt": "afed2d21a398b3e58f9dcb5922c2623721dafed361988bcdc8fa07d51c1e597d",
+  "prompts/s720025_n1600_R.txt": "f19fe547b07673739d3fa7c84f1d8334854b690d8fa976634217e41cec641e53",
+  "prompts/s720025_n1600_RG.txt": "0f02f6f047bb52f07da2c0bf8e6cf3553f3fca4337fa41322889607d32eba6d4",
+  "prompts/s720026_n1600_C.txt": "6e0835620a360a984b2040e1f5bd11a1a20c81339535c68390527277f846e62a",
+  "prompts/s720026_n1600_E.txt": "558f28321743f4d31f2bd4df36d93a85a78790b49f0880a731c2bdb8e3098923",
+  "prompts/s720026_n1600_R.txt": "442aa2cd5904e3181f4170a2ee150cecdccf237de4581821dd98221dc6615cff",
+  "prompts/s720026_n1600_RG.txt": "05db2dce8f02924e781ae5a99caf5422b72a0b47cffbb1a6dff64dd630c7338c",
+  "prompts/s720027_n1600_C.txt": "d0ebb87f923d3cf5788365ee66751e6da9d5221e6b98b0db865dadfa52502a8e",
+  "prompts/s720027_n1600_E.txt": "e9436eec7d3dbd0ab4efc630d23c719deee37a11dafca1400c85fa34cf972561",
+  "prompts/s720027_n1600_R.txt": "c38d3bd9a98ddc6ca9a7ae9f1a7a0fda88acf9f0e51d7547fa62572c9a26d1b6",
+  "prompts/s720027_n1600_RG.txt": "cafa9f68cb93b0485c1218601cb2e39ae84fe94c8ba39994e51cbde9290b6da2",
+  "prompts/s720028_n1600_C.txt": "20eb2e37c24feda99fe2ae471b5ff18c94809596c6422b3c99e713fdd2e23499",
+  "prompts/s720028_n1600_E.txt": "45e1f0fe2bf05b58fe79c901c7ea0b2fb1d1630b98c76fc041f25170c6b6906d",
+  "prompts/s720028_n1600_R.txt": "4e0f4775554432f40e89fd1a173cf58de33b0146375870089448559ab7296c7e",
+  "prompts/s720028_n1600_RG.txt": "378962db120165c0c3267dd5071a2a7eadd76c58c4b6deb681e1d74532fadc66",
+  "prompts/s720029_n1600_C.txt": "fdc5b8acee4efcdff1cfe77b71ff686ca97b4a4e47890ff3b15f6056559ee953",
+  "prompts/s720029_n1600_E.txt": "ebb3da2ad33a80d3e897d3fd6a066e4de851adafc04e9b6a69909fed6cb91b0d",
+  "prompts/s720029_n1600_R.txt": "c6375388e05a9f5ad63ca23650b9dc8101a19191c98b147972b30dde7adb3a0d",
+  "prompts/s720029_n1600_RG.txt": "d6ae0744e652ed90ac9b5e60ca177c8fac2a0c79f10105531b6c1f9e08d46570",
+  "source/experiment/__init__.py": "c760795d5ca9fa2556afde41cc60c71cbc6a09392f0f6378d21923c088fcaa96",
+  "source/experiment/__main__.py": "04ecb63342dd3e2eb6a2f1d4f9efb8f533bf5206b8ecdd774cd41a2201a84b5a",
+  "source/experiment/analysis.py": "c7419631f2017966475c92eaf510637a43e0653c95df5d61a92ab2a04880cc31",
+  "source/experiment/checks.py": "fba7d695634fd078ea8773eec68e63adfcd43c84fadb6c9e322de072837ac272",
+  "source/experiment/cli.py": "55cc2f601a4890d30925f0fde273b8f5f102645771d1f07bb6b40e5837f77db1",
+  "source/experiment/clients/__init__.py": "011dcb373064d82fed54881109e4c77f0f97b23af1d55688531dbbab7a417db0",
+  "source/experiment/clients/base.py": "9e61ad02adad87074f01895a2e3660603f28e6b54e5c4dc3f92407961386e263",
+  "source/experiment/clients/claude_code.py": "bdf703841c69633bfaf89473b0b39e2aa6a46bf859245e4b428beb89655ec501",
+  "source/experiment/clients/codex.py": "a13d891d8bb97a31cf53739e0c9c6cf73d6261301a92922027fec1506a7b8aeb",
+  "source/experiment/collect.py": "64f01d37123fa767fb17e8e842ea2bed86396fc7cd7b0f683943ba73a6a21321",
+  "source/experiment/config.py": "2ca94e083a3229ae113794911f5bbff69695e9a134dbfc59d2eafa3c437b7f4f",
+  "source/experiment/generator.py": "0e75e3c754a03fa23a3acce2c2d4b7e509aaa5a54a9700041cabaa25c9b4a01c",
+  "source/experiment/pilot.py": "4b90ad373d8291e5042bd7bf69396a45afb17f89c7298784d4683e73ccbc17cd",
+  "source/experiment/prompts.py": "36d9934038348c3098cdc0b4a641770fb9c434e28d9ed9520e7126b582bd98ae",
+  "source/experiment/records.py": "bef456baf91ecf12cf295e038360218b7a82b55d8fc6ebe4ea511377027a908d",
+  "source/experiment/repeat_report.py": "9e2152f8644b50ef28b0bc0d426b4e2abce5b33926be717d9a030314336bfc47",
+  "source/experiment/runs.py": "9d29b0b51dd6b8e58164dcd0828245f4b2cd51f279e1feb5577c1a7581d0e0ab",
+  "source/experiment/scoring.py": "d8507d961b16d7f3b3cae2c0a2a10e8c5daa85a9dc80551c4c0de6cadc38235a",
+  "source/experiment/solvers.py": "bee1bca44ed35ed98eee446d04505af162783ffa8c22a9ab427baf28142ad704",
+  "source/experiment/text.py": "509ef6b91328ddeb27776eef485617f2ee4baa6f85cb3a19dda5704a597dd414",
+  "source/experiment/world.py": "676b52a00349e8f415bf35a2672d89f72f8941bc2b61a6461373629ecde98467",
+  "system/none.txt": "1ce17b4898ab5d23a356446da214cf7ef1fbe464e94cecb20ee09d0750aaf2aa",
+  "system/skill.txt": "263b3c006372a4de2f6706efa49cffe2153daceee46ee0676395b60d956c86c6",
+  "trials.jsonl": "0a64caa23ec41e4e28d4a1baf96b2f38d84503c75d891c1e425aeb98c5b270fd",
+  "worlds/s720000_n1600.json": "c5473276c7b9f20e5f1160336bca4662c8ae11891fe8ab101521ee1cd9cfceac",
+  "worlds/s720001_n1600.json": "ae77fba35ce11bbb469d8cb678292cd236631b06cabecc54b0475ea750169f6d",
+  "worlds/s720002_n1600.json": "7a3d49f283cd535e1bfff1809ff0a74c5107c19ea329bf372388fcbb4bf298e1",
+  "worlds/s720003_n1600.json": "2f1029d7ba2b6a013c09b23e2a132aee72311cfcb0ca62565e66c8dfab4e06b6",
+  "worlds/s720004_n1600.json": "ae45489c9d67a308787f5290906050d88870e3b195a085cc8e44cfd577419e6f",
+  "worlds/s720005_n1600.json": "bd6ddfe7dbbb0503483c8730f628ce91ab88ee8329e49a22195df30dcf68d741",
+  "worlds/s720006_n1600.json": "e5ac5789af78dac0bd0f5434d70f97107ba03cb8b4b6b66e8617fca7ac29261d",
+  "worlds/s720007_n1600.json": "b2cfdc8c8c5c74af0109219c25ca28bbb9e48a05caf1c47920021ab520c8e383",
+  "worlds/s720008_n1600.json": "d3ac1737cae64fb126c21ed19f7c9b73c109d146cf266b684c0caa523f2f9ea6",
+  "worlds/s720009_n1600.json": "4cceae565a967126b6a202c828f1032881bfabd8e2b340a0e26eab1446b9cbb8",
+  "worlds/s720010_n1600.json": "8961773c0c17655f38c6dca602331ee380a29d5887dbfad356699f71595d90d2",
+  "worlds/s720011_n1600.json": "e5b6b1a7fae2e287da68e880539a14999c0ab9c627e91912d00c84cfa9c0bebc",
+  "worlds/s720012_n1600.json": "ed90d629cac4dd293c073979b52dc684db0585b091fc62cbed39cade06fa9031",
+  "worlds/s720013_n1600.json": "21414ae89ee130831fd277fc7015705a0546cec42b7f984c3b8a383f4a29fb5d",
+  "worlds/s720014_n1600.json": "6fdfec38d13eebd51a10dd310c879e6d1c413cbf07b326c1e2654e53f5fe5653",
+  "worlds/s720015_n1600.json": "90a3155b7f4baac9d5573f7ba33f4daf0a79c683d7efa0febdf875d4ed55238d",
+  "worlds/s720016_n1600.json": "fdb3918c9c06a740604547b5ea6252abeefeca5e13e083ae734adb18e3051439",
+  "worlds/s720017_n1600.json": "a1cd54b2dc16bbf13e7ae9381bcd35921ddb368759a80b750a42c918dbe0a01f",
+  "worlds/s720018_n1600.json": "77d1f7f8658e41453f50804685b0b75cd4164c02ba4aeb053befb1a80e705550",
+  "worlds/s720019_n1600.json": "05879714e2f4ee9b20c7f2aa94589a00ae49e987f6c72af350ba7399cfe78c47",
+  "worlds/s720020_n1600.json": "a5e08a0d41c2789df579931aeb1eac77571092c559b9741eeca075a3e4a2aba3",
+  "worlds/s720021_n1600.json": "9d2d0256f7305c351716a79b25b033059f65b509eb96003b09983603d5e120f7",
+  "worlds/s720022_n1600.json": "cd248b137cd89e8763f04cf054241dd923cd80624935da49ba1e889853b1e711",
+  "worlds/s720023_n1600.json": "fb62bba6cc832e8a2607b476ff1ebc416f3985ba473c681a48215a68ebd29316",
+  "worlds/s720024_n1600.json": "61aa8df0417b4deca0d51ce5d9bb61a53fabd93377de81d0b56139f18f5e1301",
+  "worlds/s720025_n1600.json": "407292b6c72970719b7658c4057d223217688c2be9018753eb7e72e97c5d26dc",
+  "worlds/s720026_n1600.json": "6c3174d140263fd1a0c79b8737875f8d47beca87d910b010f44a026fd092f251",
+  "worlds/s720027_n1600.json": "b0c540d7f25adf356e5c4fd3fed896cca0e30db1827c5349387fd52e8674c825",
+  "worlds/s720028_n1600.json": "443e1abc4b9a322119c86e393b28605178ff8c909f0420413b0935e9214bfbb1",
+  "worlds/s720029_n1600.json": "323a4ee6ee4235b3637cfd39c1234df3b747d7f499a1628e790f1ca76acdbc59"
+ }
+}

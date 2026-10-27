@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Kekro budget set to $1800K.
+#0002  Finance Office: Kekro budget increased by $63K.
+#0003  Finance Office: Kekro budget decreased by $65K per the revised plan.
+#0004  Finance Office: Withdraw update #0002.
+#0005  Finance Office: Kekro budget increased by $130K per the revised plan.
+#0006  Finance Office: Kekro budget decreased by $49K per the revised plan.
+#0007  Vendor call: Kekro test environment back online.
+#0008  Facilities ticket: Kekro kickoff moved to Building 6.
+#0009  Engineering email: Hearing Kekro's budget goes down $558K.
+#0010  Vendor call: Kekro vendor onboarding call scheduled for Thursday.
+#0011  Finance Office: Withdraw update #0004.
+#0012  Engineering email: Hearing Kekro's budget goes down $119K.
+#0013  Legal email: Pretty sure Kekro's budget is $1330K now.
+#0014  Vendor call: Sounds like Kekro gets $389K more.
+#0015  Facilities ticket: Kekro budget should land at $1560K.
+#0016  Vendor call: Hearing Kekro's budget goes up $499K.
+#0017  PMO note: Hearing Kekro's budget goes up $411K.
+#0018  Finance Office: Kekro budget increased by $328K after review.
+#0019  Engineering email: Heard Kekro's budget is now $2180K.
+#0020  Finance Office: Kekro budget decreased by $60K after review.
+#0021  Finance Office: Kekro budget decreased by $372K per the revised plan.
+#0022  Finance Office: Kekro budget decreased by $89K per the revised plan.
+#0023  Finance Office: Kekro budget decreased by $59K.
+#0024  Facilities ticket: Expect Kekro's budget to drop by $293K.
+#0025  Finance Office: Kekro budget decreased by $404K per the revised plan.
+#0026  Engineering email: Kekro demo rescheduled to Monday afternoon.
+#0027  Facilities ticket: Heard Kekro's budget is now $1640K.
+#0028  Finance Office: Kekro budget decreased by $125K per the revised plan.
+#0029  Legal email: Kekro status report filed for week 40.
+#0030  Sales update: Kekro budget is going down to $780K.
+#0031  Legal email: Kekro budget is going to $1370K.
+#0032  Finance Office: Withdraw update #0022; it was entered in error.
+#0033  Finance Office: Kekro budget decreased by $45K after review.
+#0034  Facilities ticket: Pretty sure Kekro's budget is $1480K now.
+#0035  Finance Office: Kekro budget decreased by $72K after review.
+#0036  Vendor call: Kekro budget is going down by $76K.
+#0037  Marketing email: Expect Kekro's budget to rise by $48K.
+#0038  Finance Office: Kekro budget increased by $562K per the revised plan.
+#0039  Finance Office: Kekro budget decreased by $5K after review.
+#0040  Finance Office: Kekro budget increased by $304K after review.
+#0041  Finance Office: Kekro budget decreased by $70K after review.
+#0042  Finance Office: Kekro budget increased by $138K after review.
+#0043  Finance Office: Kekro budget increased by $40K after review.
+#0044  Finance Office: Kekro budget increased by $544K after review.
+#0045  Facilities ticket: Pretty sure Kekro's budget is $2800K now.
+#0046  Finance Office: Kekro budget decreased by $451K per the revised plan.
+#0047  Finance Office: Kekro budget decreased by $5K per the revised plan.
+#0048  PMO note: Heard Kekro's budget is now $2630K.
+#0049  Finance Office: Kekro budget increased by $469K after review.
+#0050  Finance Office: Kekro budget decreased by $40K per the revised plan.
+#0051  Finance Office: Withdraw update #0049; it was entered in error.
+#0052  Finance Office: Kekro budget increased by $15K.
+#0053  Finance Office: Withdraw update #0023; it was entered in error.
+#0054  Finance Office: Withdraw update #0040.
+#0055  Operations chat: Kekro risk register updated with 2 new items.
+#0056  Vendor call: Kekro budget should land at $2450K.
+#0057  Finance Office: Kekro budget decreased by $198K per the revised plan.
+#0058  Finance Office: Kekro budget increased by $144K per the revised plan.
+#0059  Finance Office: Kekro budget decreased by $135K per the revised plan.
+#0060  Operations chat: Kekro test environment back online.
+#0061  Marketing email: Expect Kekro's budget to rise by $583K.
+#0062  Finance Office: Kekro budget decreased by $50K per the revised plan.
+#0063  Finance Office: Kekro budget decreased by $397K.
+#0064  Finance Office: Kekro budget decreased by $143K.
+#0065  Facilities ticket: Heard Kekro's budget is now $1330K.
+#0066  Finance Office: Kekro budget increased by $40K.
+#0067  Finance Office: Withdraw update #0006; it was entered in error.
+#0068  Sales update: Kekro design review moved to Room 6D.
+#0069  Legal email: Kekro status report filed for week 29.
+#0070  Engineering email: Hearing Kekro's budget goes up $574K.
+#0071  Vendor call: Hearing Kekro's budget goes up $318K.
+#0072  Finance Office: Kekro budget decreased by $15K.
+#0073  Finance Office: Kekro budget decreased by $95K.
+#0074  Finance Office: Kekro budget decreased by $25K.
+#0075  Facilities ticket: Kekro demo rescheduled to Monday afternoon.
+#0076  Engineering email: Sounds like Kekro gets $281K more.
+#0077  Facilities ticket: Kekro budget should land at $940K.
+#0078  Facilities ticket: Hearing Kekro's budget goes down $21K.
+#0079  Finance Office: Kekro budget decreased by $32K after review.
+#0080  Finance Office: Kekro budget decreased by $542K.
+#0081  Sales update: Hearing Kekro's budget goes up $521K.
+#0082  Vendor call: Sounds like Kekro gets $274K more.
+#0083  Vendor call: Kekro budget is going to $540K.
+#0084  Finance Office: Kekro budget increased by $40K per the revised plan.
+#0085  Finance Office: Withdraw update #0051; it was entered in error.
+#0086  Finance Office: Kekro budget decreased by $158K per the revised plan.
+#0087  Legal email: Pretty sure Kekro's budget is $1110K now.
+#0088  Finance Office: Kekro budget increased by $40K.
+#0089  Finance Office: Withdraw update #0053.
+#0090  Finance Office: Withdraw update #0044.
+#0091  Marketing email: Heard Kekro's budget is now $300K.
+#0092  Engineering email: Heard Kekro's budget is now $300K.
+#0093  PMO note: Kekro budget is going up to $300K.
+#0094  Finance Office: Kekro budget increased by $60K.
+#0095  Finance Office: Kekro budget increased by $384K per the revised plan.
+#0096  PMO note: Kekro budget is going down by $12K.
+#0097  Marketing email: Kekro budget is going to $880K.
+#0098  Finance Office: Kekro budget increased by $10K per the revised plan.
+#0099  Facilities ticket: Expect Kekro's budget to rise by $532K.
+#0100  Finance Office: Kekro budget increased by $497K after review.
+#0101  Finance Office: Kekro budget increased by $30K after review.
+#0102  Legal email: Kekro budget is going up to $1480K.
+#0103  Engineering email: Kekro vendor onboarding call scheduled for Thursday.
+#0104  Finance Office: Withdraw update #0046; it was entered in error.
+#0105  Marketing email: Kekro budget is going up by $549K.
+#0106  Finance Office: Kekro budget decreased by $243K after review.
+#0107  Operations chat: Kekro budget is going up by $539K.
+#0108  Finance Office: Kekro budget increased by $238K per the revised plan.
+#0109  PMO note: Heard Kekro's budget is now $1800K.
+#0110  Finance Office: Kekro budget decreased by $35K per the revised plan.
+#0111  Legal email: Sounds like Kekro gets $104K less.
+#0112  Finance Office: Kekro budget increased by $474K.
+#0113  Operations chat: Kekro budget should land at $2520K.
+#0114  Finance Office: Kekro budget increased by $92K per the revised plan.
+#0115  Operations chat: Kekro budget is going to $2480K.
+#0116  Finance Office: Kekro cost center code changed to FC-4485.
+#0117  Finance Office: Withdraw update #0063.
+#0118  Finance Office: Withdraw update #0117; it was entered in error.
+#0119  Vendor call: Kekro budget is going up by $563K.
+#0120  Operations chat: Kekro budget should land at $2250K.
+#0121  Finance Office: Kekro budget decreased by $130K.
+#0122  Finance Office: Withdraw update #0089.
+#0123  Finance Office: Kekro budget increased by $100K.
+#0124  Finance Office: Kekro budget increased by $130K after review.
+#0125  Finance Office: Kekro budget increased by $87K after review.
+#0126  PMO note: Expect Kekro's budget to drop by $258K.
+#0127  Finance Office: Kekro budget decreased by $80K after review.
+#0128  Legal email: Kekro demo rescheduled to Monday afternoon.
+#0129  Marketing email: Kekro budget is going to $1920K.
+#0130  Finance Office: Kekro budget increased by $457K per the revised plan.
+#0131  Finance Office: Kekro budget decreased by $150K.
+#0132  Finance Office: Withdraw update #0085.
+#0133  Marketing email: Kekro budget is going down by $446K.
+#0134  Finance Office: Kekro budget increased by $70K after review.
+#0135  Finance Office: Kekro budget increased by $327K.
+#0136  Finance Office: Kekro budget decreased by $567K after review.
+#0137  Finance Office: Kekro budget decreased by $171K per the revised plan.
+#0138  Facilities ticket: Kekro budget is going to $1510K.
+#0139  Finance Office: Kekro budget decreased by $541K after review.
+#0140  Finance Office: Kekro budget decreased by $2K after review.
+#0141  Finance Office: Kekro budget increased by $20K per the revised plan.
+#0142  Legal email: Kekro risk register updated with 3 new items.
+#0143  Finance Office: Kekro budget decreased by $15K.
+#0144  PMO note: Kekro risk register updated with 3 new items.
+#0145  PMO note: Expect Kekro's budget to drop by $587K.
+#0146  Finance Office: Withdraw update #0106; it was entered in error.
+#0147  Facilities ticket: Kekro design review moved to Room 3D.
+#0148  Marketing email: Pretty sure Kekro's budget is $1400K now.
+#0149  Finance Office: Kekro budget decreased by $228K per the revised plan.
+#0150  Finance Office: Withdraw update #0080; it was entered in error.
+#0151  Engineering email: Kekro site visit confirmed for Friday.
+#0152  Finance Office: Kekro budget increased by $70K after review.
+#0153  Facilities ticket: Kekro budget is going up by $11K.
+#0154  Finance Office: Kekro budget decreased by $15K after review.
+#0155  Finance Office: Kekro budget decreased by $25K per the revised plan.
+#0156  Finance Office: Withdraw update #0114; it was entered in error.
+#0157  Operations chat: Expect Kekro's budget to rise by $478K.
+#0158  Finance Office: Kekro audit notes filed.
+#0159  Finance Office: Kekro budget increased by $268K per the revised plan.
+#0160  Finance Office: Withdraw update #0067; it was entered in error.
+#0161  Vendor call: Kekro design review moved to Room 2D.
+#0162  Finance Office: Kekro budget decreased by $140K per the revised plan.
+#0163  Vendor call: Kekro budget is going down by $524K.
+#0164  Sales update: Pretty sure Kekro's budget is $2060K now.
+#0165  Finance Office: Kekro budget decreased by $353K after review.
+#0166  Finance Office: Kekro budget increased by $422K after review.
+#0167  Finance Office: Kekro budget increased by $70K after review.
+#0168  Engineering email: Kekro budget is going up by $147K.
+#0169  Marketing email: Kekro budget is going up to $2390K.
+#0170  Finance Office: Reminder: Kekro expense reports are due Wednesday.
+#0171  Finance Office: Kekro budget increased by $222K.
+#0172  Operations chat: Kekro risk register updated with 7 new items.
+#0173  Finance Office: Kekro budget decreased by $31K.
+#0174  Finance Office: Kekro budget decreased by $94K per the revised plan.
+#0175  Finance Office: Kekro budget decreased by $212K per the revised plan.
+#0176  Finance Office: Kekro budget increased by $65K.
+#0177  Sales update: Kekro test environment back online.
+#0178  Finance Office: Kekro receipts scanned.
+#0179  Facilities ticket: Kekro budget is going down to $1930K.
+#0180  Finance Office: Kekro budget decreased by $15K.
+#0181  Finance Office: Kekro budget increased by $187K after review.
+#0182  Finance Office: Kekro budget decreased by $90K.
+#0183  Vendor call: Sounds like Kekro gets $599K more.
+#0184  Vendor call: Sounds like Kekro gets $237K more.
+#0185  Finance Office: Kekro budget decreased by $135K after review.
+#0186  Finance Office: Kekro budget decreased by $506K per the revised plan.
+#0187  Finance Office: Kekro budget decreased by $140K after review.
+#0188  Finance Office: Kekro budget decreased by $85K per the revised plan.
+#0189  Finance Office: Withdraw update #0175; it was entered in error.
+#0190  Finance Office: Withdraw update #0150; it was entered in error.
+#0191  Operations chat: Kekro budget is going up by $571K.
+#0192  Finance Office: Withdraw update #0149; it was entered in error.
+#0193  Finance Office: Withdraw update #0173; it was entered in error.
+#0194  Finance Office: Kekro budget increased by $44K after review.
+#0195  Finance Office: Kekro budget increased by $251K.
+#0196  PMO note: Pretty sure Kekro's budget is $1520K now.
+#0197  Legal email: Sounds like Kekro gets $331K more.
+#0198  Finance Office: Kekro budget increased by $120K after review.
+#0199  Operations chat: Pretty sure Kekro's budget is $2000K now.
+#0200  Finance Office: Kekro budget decreased by $148K after review.
+#0201  Finance Office: Withdraw update #0135.
+#0202  Finance Office: Kekro budget decreased by $146K per the revised plan.
+#0203  Engineering email: Kekro budget should land at $880K.
+#0204  Legal email: Kekro budget should land at $740K.
+#0205  PMO note: Kekro budget is going up by $128K.
+#0206  Finance Office: Withdraw update #0160; it was entered in error.
+#0207  Finance Office: Withdraw update #0174.
+#0208  Vendor call: Kekro budget is going up by $471K.
+#0209  Marketing email: Kekro budget is going to $900K.
+#0210  PMO note: Kekro budget should land at $1400K.
+#0211  Finance Office: Kekro budget increased by $329K.
+#0212  Finance Office: Kekro budget decreased by $60K.
+#0213  Finance Office: Kekro budget decreased by $179K.
+#0214  Finance Office: Withdraw update #0189; it was entered in error.
+#0215  Finance Office: Kekro budget decreased by $150K.
+#0216  Vendor call: Kekro budget is going down to $760K.
+#0217  Finance Office: Kekro budget increased by $90K after review.
+#0218  Finance Office: Withdraw update #0125.
+#0219  PMO note: Kekro weekly sync moved to Wednesdays.
+#0220  Vendor call: Expect Kekro's budget to rise by $556K.
+#0221  Marketing email: Kekro documentation moved to the shared drive.
+#0222  Finance Office: Kekro budget decreased by $25K after review.
+#0223  Finance Office: Kekro budget decreased by $41K after review.
+#0224  Sales update: Sounds like Kekro gets $391K less.
+#0225  Finance Office: Kekro budget decreased by $18K.
+#0226  Finance Office: Kekro budget decreased by $299K.
+#0227  Marketing email: Kekro status report filed for week 47.
+#0228  Finance Office: Withdraw update #0190.
+#0229  Facilities ticket: Kekro budget should land at $710K.
+#0230  Finance Office: Withdraw update #0226; it was entered in error.
+#0231  Finance Office: Kekro budget decreased by $172K after review.
+#0232  Engineering email: Expect Kekro's budget to rise by $359K.
+#0233  Operations chat: Kekro budget is going down by $573K.
+#0234  Finance Office: Kekro budget increased by $140K per the revised plan.
+#0235  Finance Office: Kekro budget decreased by $463K per the revised plan.
+#0236  Finance Office: Kekro budget decreased by $25K.
+#0237  Vendor call: Sounds like Kekro gets $336K less.
+#0238  Engineering email: Kekro kickoff moved to Building 7.
+#0239  Finance Office: Kekro budget increased by $25K after review.
+#0240  Sales update: Kekro budget is going up to $920K.
+#0241  Finance Office: Kekro budget increased by $412K.
+#0242  Finance Office: Kekro budget increased by $70K per the revised plan.
+#0243  Finance Office: Withdraw update #0192; it was entered in error.
+#0244  Finance Office: Kekro budget decreased by $60K.
+#0245  Finance Office: Kekro budget decreased by $15K per the revised plan.
+#0246  Finance Office: Kekro budget decreased by $45K.
+#0247  Engineering email: Expect Kekro's budget to rise by $577K.
+#0248  Engineering email: Sounds like Kekro gets $176K less.
+#0249  Facilities ticket: Kekro budget is going to $1250K.
+#0250  Finance Office: Kekro budget increased by $10K per the revised plan.
+#0251  Finance Office: Kekro audit notes filed.
+#0252  Finance Office: Kekro quarterly audit scheduled for Tuesday.
+#0253  PMO note: Kekro budget is going up to $1220K.
+#0254  Legal email: Kekro budget is going to $1240K.
+#0255  Finance Office: Withdraw update #0166; it was entered in error.
+#0256  Vendor call: Pretty sure Kekro's budget is $610K now.
+#0257  Finance Office: Kekro budget increased by $203K.
+#0258  Finance Office: Kekro budget increased by $188K per the revised plan.
+#0259  Finance Office: Withdraw update #0025.
+#0260  Sales update: Kekro budget is going up by $118K.
+#0261  Finance Office: Withdraw update #0186.
+#0262  Finance Office: Withdraw update #0228.
+#0263  Marketing email: Kekro budget is going to $920K.
+#0264  Sales update: Pretty sure Kekro's budget is $1440K now.
+#0265  PMO note: Kekro budget is going to $1580K.
+#0266  Legal email: Kekro documentation moved to the shared drive.
+#0267  Finance Office: Kekro budget increased by $85K.
+#0268  Finance Office: Withdraw update #0132.
+#0269  Finance Office: Kekro budget increased by $140K after review.
+#0270  Engineering email: Kekro budget is going to $2460K.
+#0271  Engineering email: Hearing Kekro's budget goes up $436K.
+#0272  Finance Office: Kekro budget decreased by $125K per the revised plan.
+#0273  Finance Office: Kekro budget increased by $105K.
+#0274  Finance Office: Kekro budget decreased by $248K.
+#0275  Finance Office: Withdraw update #0171; it was entered in error.
+#0276  Finance Office: Kekro budget decreased by $75K per the revised plan.
+#0277  Finance Office: Kekro budget decreased by $433K after review.
+#0278  Marketing email: Hearing Kekro's budget goes up $428K.
+#0279  Finance Office: Withdraw update #0274; it was entered in error.
+#0280  PMO note: Expect Kekro's budget to drop by $486K.
+#0281  Finance Office: Kekro budget increased by $383K per the revised plan.
+#0282  Finance Office: Kekro budget increased by $70K.
+#0283  Finance Office: Kekro budget increased by $90K per the revised plan.
+#0284  Marketing email: Kekro budget should land at $1990K.
+#0285  Finance Office: Kekro budget increased by $110K per the revised plan.
+#0286  Operations chat: Kekro sprint 18 retrospective notes posted.
+#0287  Finance Office: Kekro budget increased by $10K per the revised plan.
+#0288  Finance Office: Kekro budget increased by $50K after review.
+#0289  Vendor call: Kekro test environment back online.
+#0290  Legal email: Kekro budget should land at $2090K.
+#0291  PMO note: Kekro status report filed for week 38.
+#0292  Legal email: Kekro design review moved to Room 5A.
+#0293  Vendor call: Heard Kekro's budget is now $1970K.
+#0294  Finance Office: Kekro budget increased by $100K per the revised plan.
+#0295  Legal email: Pretty sure Kekro's budget is $1710K now.
+#0296  Finance Office: Withdraw update #0122.
+#0297  Legal email: Expect Kekro's budget to rise by $67K.
+#0298  Sales update: Heard Kekro's budget is now $2430K.
+#0299  Engineering email: Heard Kekro's budget is now $1830K.
+#0300  Finance Office: Kekro budget increased by $50K per the revised plan.
+#0301  Finance Office: Kekro budget increased by $241K after review.
+#0302  PMO note: Kekro vendor onboarding call scheduled for Tuesday.
+#0303  Finance Office: Kekro budget decreased by $65K.
+#0304  Engineering email: Kekro demo rescheduled to Wednesday afternoon.
+#0305  PMO note: Kekro site visit confirmed for Tuesday.
+#0306  Finance Office: Withdraw update #0159; it was entered in error.
+#0307  Marketing email: Kekro vendor onboarding call scheduled for Friday.
+#0308  Finance Office: Withdraw update #0146; it was entered in error.
+#0309  Marketing email: Kekro weekly sync moved to Thursdays.
+#0310  Finance Office: Withdraw update #0213.
+#0311  Finance Office: Withdraw update #0194; it was entered in error.
+#0312  Vendor call: Kekro budget is going down by $142K.
+#0313  Finance Office: Kekro budget increased by $75K per the revised plan.
+#0314  Finance Office: Withdraw update #0165.
+#0315  Engineering email: Kekro budget is going to $1690K.
+#0316  Finance Office: Withdraw update #0038.
+#0317  Finance Office: Withdraw update #0243; it was entered in error.
+#0318  Finance Office: Kekro budget decreased by $40K after review.
+#0319  Finance Office: Withdraw update #0306.
+#0320  Finance Office: Kekro budget increased by $392K after review.
+#0321  Finance Office: Withdraw update #0279.
+#0322  Finance Office: Kekro budget increased by $257K.
+#0323  Finance Office: Withdraw update #0086; it was entered in error.
+#0324  Finance Office: Kekro budget decreased by $10K.
+#0325  Finance Office: Kekro budget decreased by $150K per the revised plan.
+#0326  Vendor call: Kekro budget is going up to $2800K.
+#0327  Facilities ticket: Kekro budget should land at $2800K.
+#0328  Finance Office: Kekro budget decreased by $581K after review.
+#0329  Finance Office: Kekro budget decreased by $130K after review.
+#0330  Marketing email: Sounds like Kekro gets $458K less.
+#0331  Operations chat: Sounds like Kekro gets $334K less.
+#0332  PMO note: Sounds like Kekro gets $247K less.
+#0333  Sales update: Pretty sure Kekro's budget is $2190K now.
+#0334  Facilities ticket: Kekro budget is going down by $557K.
+#0335  Sales update: Hearing Kekro's budget goes up $377K.
+#0336  Finance Office: Kekro budget increased by $437K after review.
+#0337  Legal email: Heard Kekro's budget is now $1600K.
+#0338  Engineering email: Kekro budget is going up to $2800K.
+#0339  Finance Office: Kekro budget decreased by $90K.
+#0340  Finance Office: Kekro budget decreased by $110K per the revised plan.
+#0341  Operations chat: Kekro budget is going up by $333K.
+#0342  Finance Office: Kekro budget increased by $135K.
+#0343  Finance Office: Kekro budget decreased by $29K per the revised plan.
+#0344  Marketing email: Expect Kekro's budget to drop by $124K.
+#0345  Sales update: Kekro budget is going down to $1580K.
+#0346  Marketing email: Hearing Kekro's budget goes down $99K.
+#0347  Vendor call: Heard Kekro's budget is now $1960K.
+#0348  Engineering email: Expect Kekro's budget to rise by $122K.
+#0349  Finance Office: Kekro budget increased by $150K per the revised plan.
+#0350  Finance Office: Withdraw update #0140; it was entered in error.
+#0351  Marketing email: Kekro budget is going down by $529K.
+#0352  Finance Office: Kekro budget increased by $306K.
+#0353  Sales update: Kekro kickoff moved to Building 5.
+#0354  Legal email: Sounds like Kekro gets $163K less.
+#0355  Finance Office: Kekro budget decreased by $90K after review.
+#0356  Finance Office: Kekro budget decreased by $194K after review.
+#0357  Finance Office: Kekro purchase order FC-6084 closed.
+#0358  Finance Office: Kekro budget increased by $358K.
+#0359  Finance Office: Withdraw update #0257.
+#0360  Engineering email: Kekro budget is going up by $352K.
+#0361  Finance Office: Kekro finance review moved to Room 1B.
+#0362  Finance Office: Kekro budget increased by $206K after review.
+#0363  Finance Office: Withdraw update #0358; it was entered in error.
+#0364  Finance Office: Kekro budget increased by $507K per the revised plan.
+#0365  Finance Office: Withdraw update #0079; it was entered in error.
+#0366  Finance Office: Withdraw update #0352.
+#0367  Marketing email: Sounds like Kekro gets $102K less.
+#0368  Finance Office: Kekro budget decreased by $55K per the revised plan.
+#0369  Finance Office: Kekro budget decreased by $566K after review.
+#0370  Marketing email: Sounds like Kekro gets $209K more.
+#0371  Finance Office: Kekro budget decreased by $597K after review.
+#0372  Finance Office: Kekro budget decreased by $363K per the revised plan.
+#0373  Finance Office: Kekro budget increased by $346K.
+#0374  Finance Office: Withdraw update #0200.
+#0375  Finance Office: Withdraw update #0139; it was entered in error.
+#0376  Finance Office: Kekro budget increased by $35K.
+#0377  Finance Office: Kekro budget decreased by $25K after review.
+#0378  Finance Office: Kekro budget increased by $25K per the revised plan.
+#0379  Finance Office: Kekro budget increased by $169K.
+#0380  Finance Office: Kekro budget decreased by $65K per the revised plan.
+#0381  Engineering email: Kekro test environment back online.
+#0382  Finance Office: Kekro budget increased by $531K per the revised plan.
+#0383  Finance Office: Kekro budget decreased by $69K after review.
+#0384  PMO note: Kekro sprint 23 retrospective notes posted.
+#0385  Finance Office: Kekro budget decreased by $150K after review.
+#0386  Finance Office: Kekro budget decreased by $105K per the revised plan.
+#0387  Finance Office: Kekro budget increased by $55K.
+#0388  Legal email: Pretty sure Kekro's budget is $1790K now.
+#0389  Finance Office: Withdraw update #0364.
+#0390  Finance Office: Kekro budget increased by $80K per the revised plan.
+#0391  Finance Office: Kekro budget increased by $70K per the revised plan.
+#0392  Marketing email: Expect Kekro's budget to drop by $219K.
+#0393  Vendor call: Sounds like Kekro gets $488K less.
+#0394  PMO note: Kekro budget is going up by $184K.
+#0395  Finance Office: Kekro budget increased by $135K per the revised plan.
+#0396  Legal email: Hearing Kekro's budget goes down $277K.
+#0397  Finance Office: Kekro budget increased by $5K after review.
+#0398  Finance Office: Kekro budget decreased by $5K after review.
+#0399  Finance Office: Kekro budget increased by $10K.
+#0400  Facilities ticket: Hearing Kekro's budget goes up $588K.
+#0401  Finance Office: Kekro budget increased by $95K per the revised plan.
+#0402  Finance Office: Kekro budget increased by $145K.
+#0403  Finance Office: Kekro budget increased by $135K per the revised plan.
+#0404  Finance Office: Kekro budget decreased by $394K after review.
+#0405  Finance Office: Kekro budget increased by $80K.
+#0406  Finance Office: Withdraw update #0100; it was entered in error.
+#0407  Finance Office: Kekro budget decreased by $95K after review.
+#0408  Finance Office: Withdraw update #0112.
+#0409  PMO note: Kekro budget is going to $1170K.
+#0410  PMO note: Pretty sure Kekro's budget is $1040K now.
+#0411  Finance Office: Withdraw update #0363.
+#0412  Facilities ticket: Kekro kickoff moved to Building 2.
+#0413  Sales update: Kekro vendor onboarding call scheduled for Friday.
+#0414  Engineering email: Hearing Kekro's budget goes down $173K.
+#0415  Marketing email: Kekro security review passed.
+#0416  Marketing email: Kekro risk register updated with 6 new items.
+#0417  Facilities ticket: Kekro security review passed.
+#0418  Finance Office: Kekro budget increased by $83K per the revised plan.
+#0419  Finance Office: Withdraw update #0137; it was entered in error.
+#0420  Engineering email: Hearing Kekro's budget goes down $424K.
+#0421  Finance Office: Kekro budget increased by $105K per the revised plan.
+#0422  Vendor call: Kekro budget should land at $1780K.
+#0423  Finance Office: Kekro budget decreased by $513K.
+#0424  Vendor call: Sounds like Kekro gets $103K more.
+#0425  Finance Office: Withdraw update #0406.
+#0426  Finance Office: Kekro purchase order FC-2599 closed.
+#0427  PMO note: Kekro site visit confirmed for Wednesday.
+#0428  Finance Office: Kekro budget increased by $75K.
+#0429  Finance Office: Withdraw update #0425.
+#0430  Finance Office: Kekro budget increased by $35K per the revised plan.
+#0431  Marketing email: Kekro sprint 31 retrospective notes posted.
+#0432  Finance Office: Kekro budget increased by $296K.
+#0433  Finance Office: Kekro budget decreased by $110K per the revised plan.
+#0434  Sales update: Kekro status report filed for week 4.
+#0435  Marketing email: Heard Kekro's budget is now $1660K.
+#0436  Vendor call: Heard Kekro's budget is now $2010K.
+#0437  Finance Office: Withdraw update #0382; it was entered in error.
+#0438  Vendor call: Kekro kickoff moved to Building 8.
+#0439  Finance Office: Withdraw update #0389.
+#0440  Operations chat: Kekro weekly sync moved to Mondays.
+#0441  Finance Office: Kekro budget decreased by $75K after review.
+#0442  Finance Office: Kekro budget increased by $398K per the revised plan.
+#0443  Finance Office: Kekro budget decreased by $75K per the revised plan.
+#0444  Finance Office: Kekro budget decreased by $51K per the revised plan.
+#0445  Finance Office: Kekro budget increased by $10K.
+#0446  Finance Office: Kekro budget increased by $152K after review.
+#0447  Operations chat: Kekro sprint 17 retrospective notes posted.
+#0448  Finance Office: Kekro budget decreased by $582K.
+#0449  Finance Office: Kekro budget increased by $115K per the revised plan.
+#0450  Finance Office: Withdraw update #0021.
+#0451  Finance Office: Withdraw update #0281; it was entered in error.
+#0452  Finance Office: Kekro budget decreased by $25K.
+#0453  Finance Office: Kekro budget decreased by $100K per the revised plan.
+#0454  Vendor call: Sounds like Kekro gets $421K more.
+#0455  Legal email: Kekro budget should land at $1370K.
+#0456  Finance Office: Withdraw update #0225.
+#0457  Finance Office: Kekro budget increased by $125K per the revised plan.
+#0458  Finance Office: Withdraw update #0359; it was entered in error.
+#0459  Finance Office: Withdraw update #0042; it was entered in error.
+#0460  Finance Office: Withdraw update #0090; it was entered in error.
+#0461  Facilities ticket: Heard Kekro's budget is now $1580K.
+#0462  Legal email: Kekro test environment back online.
+#0463  Finance Office: Kekro budget increased by $70K per the revised plan.
+#0464  Finance Office: Withdraw update #0259.
+#0465  Finance Office: Withdraw update #0018; it was entered in error.
+#0466  Vendor call: Kekro sprint 33 retrospective notes posted.
+#0467  Finance Office: Kekro budget decreased by $332K.
+#0468  Finance Office: Kekro budget increased by $38K per the revised plan.
+#0469  Finance Office: Kekro budget increased by $130K per the revised plan.
+#0470  Finance Office: Kekro budget decreased by $45K per the revised plan.
+#0471  Finance Office: Kekro budget decreased by $45K.
+#0472  Finance Office: Kekro budget increased by $30K after review.
+#0473  Finance Office: Withdraw update #0130.
+#0474  Legal email: Hearing Kekro's budget goes down $408K.
+#0475  Sales update: Heard Kekro's budget is now $670K.
+#0476  Finance Office: Withdraw update #0231.
+#0477  Marketing email: Heard Kekro's budget is now $970K.
+#0478  Sales update: Kekro budget is going down to $940K.
+#0479  Facilities ticket: Expect Kekro's budget to rise by $161K.
+#0480  Sales update: Kekro demo rescheduled to Friday afternoon.
+#0481  Finance Office: Kekro budget decreased by $150K after review.
+#0482  Finance Office: Kekro budget decreased by $1K.
+#0483  Finance Office: Kekro budget increased by $75K.
+#0484  Finance Office: Withdraw update #0320.
+#0485  Facilities ticket: Kekro budget is going up by $477K.
+#0486  Finance Office: Kekro budget decreased by $343K.
+#0487  Finance Office: Kekro budget increased by $232K.
+#0488  Finance Office: Kekro budget increased by $105K per the revised plan.
+#0489  PMO note: Expect Kekro's budget to rise by $96K.
+#0490  Finance Office: Kekro budget increased by $140K per the revised plan.
+#0491  Operations chat: Kekro budget is going to $900K.
+#0492  Facilities ticket: Pretty sure Kekro's budget is $780K now.
+#0493  Finance Office: Kekro budget increased by $35K per the revised plan.
+#0494  Operations chat: Kekro site visit confirmed for Friday.
+#0495  Finance Office: Withdraw update #0444; it was entered in error.
+#0496  Finance Office: Kekro budget decreased by $88K per the revised plan.
+#0497  Finance Office: Kekro budget decreased by $434K after review.
+#0498  Finance Office: Kekro budget increased by $105K per the revised plan.
+#0499  Sales update: Sounds like Kekro gets $349K more.
+#0500  Marketing email: Expect Kekro's budget to rise by $213K.
+#0501  Sales update: Sounds like Kekro gets $509K more.
+#0502  Finance Office: Kekro budget increased by $291K per the revised plan.
+#0503  Facilities ticket: Heard Kekro's budget is now $660K.
+#0504  Sales update: Hearing Kekro's budget goes up $564K.
+#0505  Vendor call: Sounds like Kekro gets $591K more.
+#0506  Sales update: Kekro vendor onboarding call scheduled for Monday.
+#0507  Finance Office: Kekro budget decreased by $135K after review.
+#0508  Finance Office: Kekro budget increased by $30K after review.
+#0509  PMO note: Kekro demo rescheduled to Monday afternoon.
+#0510  Facilities ticket: Kekro budget should land at $590K.
+#0511  Vendor call: Expect Kekro's budget to rise by $82K.
+#0512  Finance Office: Kekro budget decreased by $130K after review.
+#0513  Finance Office: Kekro budget increased by $227K.
+#0514  Finance Office: Kekro budget increased by $25K after review.
+#0515  Finance Office: Kekro budget increased by $344K.
+#0516  Finance Office: Kekro budget decreased by $276K after review.
+#0517  Operations chat: Pretty sure Kekro's budget is $880K now.
+#0518  Engineering email: Sounds like Kekro gets $116K less.
+#0519  Finance Office: Kekro cost center code changed to FC-9754.
+#0520  Facilities ticket: Kekro budget is going to $520K.
+#0521  Sales update: Kekro documentation moved to the shared drive.
+#0522  Engineering email: Kekro budget is going to $600K.
+#0523  Finance Office: Withdraw update #0408.
+#0524  Finance Office: Withdraw update #0379; it was entered in error.
+#0525  Finance Office: Withdraw update #0108.
+#0526  Finance Office: Reminder: Kekro expense reports are due Friday.
+#0527  Marketing email: Pretty sure Kekro's budget is $660K now.
+#0528  Finance Office: Kekro budget decreased by $100K per the revised plan.
+#0529  Sales update: Kekro budget is going to $880K.
+#0530  Finance Office: Withdraw update #0343.
+#0531  Finance Office: Withdraw update #0468.
+#0532  Finance Office: Withdraw update #0429.
+#0533  Sales update: Kekro budget is going to $950K.
+#0534  Finance Office: Kekro budget increased by $115K per the revised plan.
+#0535  Finance Office: Kekro budget increased by $10K per the revised plan.
+#0536  Operations chat: Kekro budget should land at $1080K.
+#0537  Legal email: Kekro budget should land at $1440K.
+#0538  Finance Office: Kekro budget increased by $35K per the revised plan.
+#0539  Marketing email: Kekro kickoff moved to Building 2.
+#0540  Finance Office: Withdraw update #0513.
+#0541  Finance Office: Kekro budget decreased by $85K.
+#0542  Finance Office: Kekro budget decreased by $95K.
+#0543  Marketing email: Kekro sprint 10 retrospective notes posted.
+#0544  Finance Office: Kekro budget decreased by $30K per the revised plan.
+#0545  Finance Office: Kekro budget increased by $45K.
+#0546  Vendor call: Kekro security review passed.
+#0547  Finance Office: Kekro budget decreased by $348K after review.
+#0548  Legal email: Expect Kekro's budget to rise by $123K.
+#0549  Finance Office: Kekro budget increased by $438K per the revised plan.
+#0550  Facilities ticket: Expect Kekro's budget to rise by $16K.
+#0551  Finance Office: Kekro budget decreased by $35K after review.
+#0552  Finance Office: Kekro budget decreased by $27K.
+#0553  Finance Office: Kekro budget decreased by $130K after review.
+#0554  Finance Office: Kekro budget increased by $55K after review.
+#0555  Finance Office: Kekro budget decreased by $55K.
+#0556  Finance Office: Kekro budget decreased by $130K after review.
+#0557  Facilities ticket: Heard Kekro's budget is now $940K.
+#0558  Finance Office: Kekro budget decreased by $125K per the revised plan.
+#0559  Finance Office: Kekro budget increased by $15K after review.
+#0560  Finance Office: Withdraw update #0206.
+#0561  Finance Office: Kekro budget decreased by $100K.
+#0562  Engineering email: Pretty sure Kekro's budget is $580K now.
+#0563  Finance Office: Kekro budget increased by $100K.
+#0564  Engineering email: Kekro budget should land at $680K.
+#0565  Finance Office: Kekro budget increased by $140K after review.
+#0566  Finance Office: Kekro budget increased by $120K per the revised plan.
+#0567  Finance Office: Kekro budget decreased by $60K after review.
+#0568  Finance Office: Kekro budget decreased by $75K after review.
+#0569  Finance Office: Kekro budget increased by $115K per the revised plan.
+#0570  Finance Office: Kekro budget increased by $40K.
+#0571  Finance Office: Withdraw update #0223.
+#0572  Finance Office: Withdraw update #0487.
+#0573  Finance Office: Kekro budget increased by $60K after review.
+#0574  Finance Office: Kekro budget decreased by $269K per the revised plan.
+#0575  Finance Office: Kekro budget increased by $40K after review.
+#0576  Engineering email: Kekro risk register updated with 4 new items.
+#0577  Finance Office: Kekro budget increased by $65K.
+#0578  Finance Office: Kekro budget increased by $115K.
+#0579  Finance Office: Withdraw update #0308.
+#0580  Finance Office: Kekro audit notes filed.
+#0581  Finance Office: Withdraw update #0258.
+#0582  Finance Office: Kekro budget increased by $90K after review.
+#0583  Finance Office: Kekro budget increased by $120K.
+#0584  Operations chat: Kekro budget is going up to $1200K.
+#0585  Legal email: Pretty sure Kekro's budget is $800K now.
+#0586  Finance Office: Withdraw update #0524.
+#0587  Finance Office: Kekro budget increased by $35K after review.
+#0588  Finance Office: Kekro budget increased by $10K per the revised plan.
+#0589  Finance Office: Kekro budget increased by $5K per the revised plan.
+#0590  Finance Office: Kekro budget increased by $115K.
+#0591  Finance Office: Kekro budget decreased by $502K.
+#0592  Sales update: Sounds like Kekro gets $512K less.
+#0593  Finance Office: Withdraw update #0328.
+#0594  Finance Office: Withdraw update #0446; it was entered in error.
+#0595  Finance Office: Withdraw update #0516.
+#0596  Finance Office: Kekro budget increased by $60K per the revised plan.
+#0597  Operations chat: Expect Kekro's budget to rise by $287K.
+#0598  Marketing email: Kekro budget is going down by $347K.
+#0599  Marketing email: Pretty sure Kekro's budget is $1870K now.
+#0600  Finance Office: Kekro budget increased by $105K after review.
+#0601  Finance Office: Kekro budget increased by $50K.
+#0602  Finance Office: Withdraw update #0572; it was entered in error.
+#0603  Finance Office: Kekro budget decreased by $14K per the revised plan.
+#0604  Facilities ticket: Hearing Kekro's budget goes up $317K.
+#0605  Marketing email: Kekro budget should land at $1610K.
+#0606  Finance Office: Kekro budget increased by $110K per the revised plan.
+#0607  PMO note: Kekro budget should land at $2640K.
+#0608  Finance Office: Kekro budget decreased by $30K after review.
+#0609  Finance Office: Kekro cost center code changed to FC-9416.
+#0610  Finance Office: Kekro cost center code changed to FC-1169.
+#0611  Legal email: Hearing Kekro's budget goes down $492K.
+#0612  Finance Office: Kekro budget increased by $207K.
+#0613  Finance Office: Kekro budget increased by $10K per the revised plan.
+#0614  Finance Office: Withdraw update #0366; it was entered in error.
+#0615  Finance Office: Kekro budget decreased by $30K after review.
+#0616  Finance Office: Withdraw update #0230.
+#0617  Finance Office: Kekro purchase order FC-7480 closed.
+#0618  Finance Office: Kekro budget decreased by $70K after review.
+#0619  Finance Office: Kekro budget decreased by $115K per the revised plan.
+#0620  Finance Office: Kekro budget increased by $5K after review.
+#0621  Finance Office: Kekro budget decreased by $266K per the revised plan.
+#0622  Finance Office: Withdraw update #0448; it was entered in error.
+#0623  Sales update: Expect Kekro's budget to drop by $361K.
+#0624  Operations chat: Heard Kekro's budget is now $1670K.
+#0625  Facilities ticket: Kekro budget is going to $1860K.
+#0626  Finance Office: Withdraw update #0622.
+#0627  Finance Office: Kekro budget increased by $80K per the revised plan.
+#0628  Marketing email: Pretty sure Kekro's budget is $1730K now.
+#0629  Finance Office: Withdraw update #0277.
+#0630  Finance Office: Kekro budget decreased by $35K.
+#0631  Finance Office: Kekro budget decreased by $70K per the revised plan.
+#0632  Finance Office: Withdraw update #0603; it was entered in error.
+#0633  Facilities ticket: Heard Kekro's budget is now $2220K.
+#0634  Finance Office: Kekro budget increased by $150K per the revised plan.
+#0635  Facilities ticket: Pretty sure Kekro's budget is $2800K now.
+#0636  Sales update: Heard Kekro's budget is now $2100K.
+#0637  Finance Office: Kekro budget decreased by $303K after review.
+#0638  Operations chat: Hearing Kekro's budget goes down $178K.
+#0639  Finance Office: Kekro budget increased by $131K after review.
+#0640  Finance Office: Kekro budget increased by $20K after review.
+#0641  Facilities ticket: Sounds like Kekro gets $393K less.
+#0642  Finance Office: Kekro budget decreased by $115K after review.
+#0643  Engineering email: Kekro test environment back online.
+#0644  PMO note: Sounds like Kekro gets $47K more.
+#0645  Finance Office: Kekro budget decreased by $43K after review.
+#0646  Finance Office: Kekro budget increased by $5K after review.
+#0647  Finance Office: Kekro budget decreased by $70K per the revised plan.
+#0648  Finance Office: Kekro budget decreased by $95K per the revised plan.
+#0649  Operations chat: Kekro design review moved to Room 6D.
+#0650  PMO note: Kekro security review passed.
+#0651  Operations chat: Kekro budget is going up to $1870K.
+#0652  Finance Office: Kekro budget increased by $45K.
+#0653  Vendor call: Kekro budget is going to $1410K.
+#0654  Finance Office: Kekro budget increased by $39K.
+#0655  Facilities ticket: Pretty sure Kekro's budget is $1690K now.
+#0656  Sales update: Kekro documentation moved to the shared drive.
+#0657  Legal email: Kekro budget is going down to $1570K.
+#0658  Finance Office: Kekro budget decreased by $70K.
+#0659  Finance Office: Kekro budget increased by $10K after review.
+#0660  Finance Office: Withdraw update #0552.
+#0661  Finance Office: Withdraw update #0193; it was entered in error.
+#0662  PMO note: Expect Kekro's budget to rise by $112K.
+#0663  Legal email: Kekro budget should land at $2130K.
+#0664  Legal email: Expect Kekro's budget to rise by $536K.
+#0665  Finance Office: Kekro budget increased by $467K.
+#0666  Finance Office: Kekro budget increased by $46K per the revised plan.
+#0667  Finance Office: Kekro budget decreased by $140K per the revised plan.
+#0668  Finance Office: Kekro budget decreased by $514K after review.
+#0669  Finance Office: Kekro budget increased by $90K per the revised plan.
+#0670  Finance Office: Kekro budget increased by $60K after review.
+#0671  Marketing email: Heard Kekro's budget is now $1970K.
+#0672  Finance Office: Kekro budget decreased by $45K after review.
+#0673  Finance Office: Kekro budget decreased by $362K after review.
+#0674  Finance Office: Withdraw update #0497; it was entered in error.
+#0675  PMO note: Hearing Kekro's budget goes down $28K.
+#0676  Finance Office: Withdraw update #0549; it was entered in error.
+#0677  Finance Office: Withdraw update #0373; it was entered in error.
+#0678  Finance Office: Withdraw update #0654.
+#0679  Facilities ticket: Kekro budget is going to $780K.
+#0680  Facilities ticket: Kekro risk register updated with 6 new items.
+#0681  Finance Office: Kekro cost center code changed to FC-4595.
+#0682  Engineering email: Pretty sure Kekro's budget is $1240K now.
+#0683  Finance Office: Kekro budget decreased by $55K.
+#0684  Finance Office: Withdraw update #0095; it was entered in error.
+#0685  Finance Office: Kekro budget decreased by $55K.
+#0686  PMO note: Heard Kekro's budget is now $630K.
+#0687  Legal email: Kekro budget should land at $610K.
+#0688  Finance Office: Kekro budget decreased by $25K after review.
+#0689  Finance Office: Kekro budget increased by $153K after review.
+#0690  Legal email: Kekro budget is going down by $289K.
+#0691  Sales update: Hearing Kekro's budget goes up $259K.
+#0692  Finance Office: Kekro budget increased by $166K.
+#0693  Finance Office: Kekro budget increased by $5K after review.
+#0694  Finance Office: Kekro budget increased by $35K after review.
+#0695  Finance Office: Kekro budget increased by $80K after review.
+#0696  Finance Office: Kekro budget increased by $85K per the revised plan.
+#0697  Marketing email: Expect Kekro's budget to drop by $283K.
+#0698  Finance Office: Kekro budget increased by $189K.
+#0699  Finance Office: Kekro budget increased by $35K.
+#0700  Operations chat: Expect Kekro's budget to rise by $58K.
+#0701  Finance Office: Kekro budget increased by $65K after review.
+#0702  Finance Office: Kekro budget increased by $70K after review.
+#0703  Facilities ticket: Hearing Kekro's budget goes down $578K.
+#0704  Finance Office: Kekro budget decreased by $40K after review.
+#0705  Engineering email: Kekro budget should land at $1170K.
+#0706  Sales update: Kekro budget is going up to $1910K.
+#0707  PMO note: Kekro budget should land at $1570K.
+#0708  Finance Office: Kekro budget decreased by $15K.
+#0709  Finance Office: Kekro budget decreased by $30K.
+#0710  Facilities ticket: Kekro risk register updated with 5 new items.
+#0711  Finance Office: Kekro budget decreased by $100K after review.
+#0712  PMO note: Kekro status report filed for week 11.
+#0713  Finance Office: Withdraw update #0383; it was entered in error.
+#0714  Finance Office: Kekro budget decreased by $50K.
+#0715  Finance Office: Withdraw update #0211.
+#0716  Finance Office: Kekro budget increased by $5K after review.
+#0717  Finance Office: Kekro budget increased by $80K after review.
+#0718  Finance Office: Withdraw update #0645.
+#0719  Vendor call: Kekro weekly sync moved to Fridays.
+#0720  Finance Office: Kekro budget decreased by $70K.
+#0721  Facilities ticket: Pretty sure Kekro's budget is $1280K now.
+#0722  Finance Office: Kekro budget increased by $130K.
+#0723  Finance Office: Withdraw update #0369.
+#0724  PMO note: Kekro budget is going to $1230K.
+#0725  Finance Office: Kekro budget decreased by $95K.
+#0726  Finance Office: Kekro budget decreased by $20K per the revised plan.
+#0727  Finance Office: Kekro budget increased by $115K per the revised plan.
+#0728  Finance Office: Kekro budget decreased by $326K.
+#0729  Finance Office: Kekro budget decreased by $73K per the revised plan.
+#0730  Finance Office: Kekro receipts scanned.
+#0731  Finance Office: Kekro budget increased by $15K after review.
+#0732  Finance Office: Withdraw update #0356; it was entered in error.
+#0733  Finance Office: Kekro budget decreased by $75K.
+#0734  Legal email: Kekro budget is going to $1960K.
+#0735  Finance Office: Kekro invoice batch FC-2194 archived.
+#0736  PMO note: Kekro weekly sync moved to Mondays.
+#0737  Finance Office: Withdraw update #0057.
+#0738  Finance Office: Kekro budget increased by $5K per the revised plan.
+#0739  Finance Office: Kekro budget decreased by $115K per the revised plan.
+#0740  Finance Office: Kekro budget decreased by $10K per the revised plan.
+#0741  Finance Office: Withdraw update #0728; it was entered in error.
+#0742  Finance Office: Withdraw update #0404.
+#0743  Marketing email: Kekro budget is going up by $484K.
+#0744  Finance Office: Withdraw update #0673; it was entered in error.
+#0745  Finance Office: Kekro budget increased by $140K after review.
+#0746  Finance Office: Kekro budget decreased by $45K per the revised plan.
+#0747  Finance Office: Kekro budget decreased by $30K after review.
+#0748  PMO note: Kekro budget is going down by $538K.
+#0749  Finance Office: Kekro budget increased by $140K after review.
+#0750  Finance Office: Kekro budget decreased by $20K per the revised plan.
+#0751  PMO note: Kekro budget is going down to $2670K.
+#0752  Marketing email: Sounds like Kekro gets $489K less.
+#0753  Facilities ticket: Kekro budget is going up to $2800K.
+#0754  Marketing email: Kekro budget is going to $2800K.
+#0755  Vendor call: Kekro budget is going up to $2800K.
+#0756  Finance Office: Withdraw update #0729.
+#0757  Legal email: Kekro budget is going down to $2800K.
+#0758  Finance Office: Kekro budget decreased by $95K after review.
+#0759  Finance Office: Kekro budget decreased by $25K after review.
+#0760  Finance Office: Kekro cost center code changed to FC-5389.
+#0761  Finance Office: Withdraw update #0540; it was entered in error.
+#0762  Finance Office: Kekro budget decreased by $414K.
+#0763  Facilities ticket: Expect Kekro's budget to rise by $34K.
+#0764  Operations chat: Expect Kekro's budget to drop by $106K.
+#0765  Engineering email: Kekro budget should land at $2800K.
+#0766  Finance Office: Withdraw update #0515.
+#0767  Operations chat: Expect Kekro's budget to drop by $337K.
+#0768  Engineering email: Kekro budget is going down by $368K.
+#0769  Facilities ticket: Pretty sure Kekro's budget is $2710K now.
+#0770  Operations chat: Kekro security review passed.
+#0771  Facilities ticket: Kekro budget is going down by $351K.
+#0772  Finance Office: Kekro budget decreased by $90K.
+#0773  Finance Office: Kekro budget increased by $145K after review.
+#0774  Vendor call: Hearing Kekro's budget goes up $278K.
+#0775  Facilities ticket: Kekro budget is going up by $231K.
+#0776  Finance Office: Kekro budget increased by $135K after review.
+#0777  Finance Office: Kekro budget decreased by $115K per the revised plan.
+#0778  Operations chat: Hearing Kekro's budget goes down $553K.
+#0779  Finance Office: Kekro budget increased by $90K per the revised plan.
+#0780  Finance Office: Kekro budget increased by $55K.
+#0781  PMO note: Expect Kekro's budget to rise by $272K.
+#0782  Operations chat: Sounds like Kekro gets $527K less.
+#0783  Marketing email: Heard Kekro's budget is now $1780K.
+#0784  Finance Office: Kekro purchase order FC-8765 closed.
+#0785  Finance Office: Withdraw update #0322; it was entered in error.
+#0786  Finance Office: Withdraw update #0660.
+#0787  Finance Office: Kekro budget increased by $50K after review.
+#0788  Finance Office: Kekro budget increased by $120K after review.
+#0789  Vendor call: Pretty sure Kekro's budget is $2320K now.
+#0790  Finance Office: Reminder: Kekro expense reports are due Friday.
+#0791  Legal email: Kekro budget is going to $1930K.
+#0792  Finance Office: Withdraw update #0296; it was entered in error.
+#0793  Finance Office: Kekro budget decreased by $100K.
+#0794  Operations chat: Kekro budget should land at $2310K.
+#0795  Finance Office: Kekro budget decreased by $145K.
+#0796  Finance Office: Kekro audit notes filed.
+#0797  Finance Office: Withdraw update #0482.
+#0798  Finance Office: Kekro budget increased by $20K.
+#0799  Marketing email: Pretty sure Kekro's budget is $2800K now.
+#0800  Finance Office: Withdraw update #0311; it was entered in error.
+#0801  Finance Office: Kekro budget increased by $115K per the revised plan.
+#0802  Finance Office: Kekro budget increased by $65K per the revised plan.
+#0803  Finance Office: Withdraw update #0301.
+#0804  Finance Office: Kekro budget decreased by $561K after review.
+#0805  Marketing email: Expect Kekro's budget to drop by $596K.
+#0806  Finance Office: Kekro budget decreased by $5K.
+#0807  Vendor call: Kekro budget is going to $1810K.
+#0808  Vendor call: Kekro demo rescheduled to Friday afternoon.
+#0809  Finance Office: Kekro budget decreased by $65K.
+#0810  Finance Office: Kekro budget increased by $135K.
+#0811  Finance Office: Kekro budget increased by $589K after review.
+#0812  Finance Office: Kekro budget decreased by $55K after review.
+#0813  Finance Office: Withdraw update #0761; it was entered in error.
+#0814  Finance Office: Kekro budget increased by $40K per the revised plan.
+#0815  Vendor call: Kekro budget is going down to $1550K.
+#0816  Finance Office: Reminder: Kekro expense reports are due Tuesday.
+#0817  Finance Office: Kekro budget decreased by $286K.
+#0818  Legal email: Hearing Kekro's budget goes up $154K.
+#0819  Finance Office: Kekro budget decreased by $409K after review.
+#0820  Finance Office: Kekro budget decreased by $20K after review.
+#0821  Finance Office: Kekro budget increased by $150K per the revised plan.
+#0822  Finance Office: Kekro budget decreased by $30K.
+#0823  Finance Office: Kekro budget decreased by $70K per the revised plan.
+#0824  Finance Office: Kekro budget increased by $239K after review.
+#0825  Finance Office: Kekro budget decreased by $50K.
+#0826  Finance Office: Kekro budget increased by $80K.
+#0827  Sales update: Hearing Kekro's budget goes down $217K.
+#0828  Finance Office: Withdraw update #0637; it was entered in error.
+#0829  Finance Office: Kekro budget increased by $100K.
+#0830  Finance Office: Kekro budget decreased by $221K after review.
+#0831  Finance Office: Kekro budget decreased by $35K per the revised plan.
+#0832  Facilities ticket: Kekro vendor onboarding call scheduled for Wednesday.
+#0833  Finance Office: Kekro budget decreased by $100K per the revised plan.
+#0834  Engineering email: Kekro budget should land at $2140K.
+#0835  Finance Office: Kekro budget increased by $75K after review.
+#0836  Finance Office: Withdraw update #0202; it was entered in error.
+#0837  Finance Office: Kekro budget decreased by $20K.
+#0838  Finance Office: Kekro budget decreased by $60K after review.
+#0839  PMO note: Pretty sure Kekro's budget is $1960K now.
+#0840  Legal email: Kekro budget is going up by $17K.
+#0841  Vendor call: Kekro budget is going up by $493K.
+#0842  Facilities ticket: Heard Kekro's budget is now $1940K.
+#0843  Finance Office: Kekro quarterly audit scheduled for Tuesday.
+#0844  Finance Office: Kekro budget decreased by $10K.
+#0845  Marketing email: Kekro budget is going up to $2150K.
+#0846  Finance Office: Kekro budget increased by $20K per the revised plan.
+#0847  Marketing email: Hearing Kekro's budget goes up $23K.
+#0848  Finance Office: Kekro budget increased by $113K after review.
+#0849  Finance Office: Kekro budget decreased by $25K per the revised plan.
+#0850  Finance Office: Kekro budget decreased by $10K.
+#0851  Legal email: Expect Kekro's budget to rise by $3K.
+#0852  Vendor call: Kekro vendor onboarding call scheduled for Monday.
+#0853  Facilities ticket: Kekro budget is going up by $52K.
+#0854  Finance Office: Kekro budget decreased by $120K after review.
+#0855  Finance Office: Kekro invoice batch FC-7547 archived.
+#0856  Operations chat: Kekro budget is going up by $401K.
+#0857  PMO note: Sounds like Kekro gets $139K less.
+#0858  Finance Office: Kekro budget decreased by $75K after review.
+#0859  Facilities ticket: Expect Kekro's budget to drop by $406K.
+#0860  Finance Office: Withdraw update #0486.
+#0861  PMO note: Sounds like Kekro gets $324K less.
+#0862  Finance Office: Kekro budget increased by $35K after review.
+#0863  Finance Office: Kekro budget decreased by $125K after review.
+#0864  Finance Office: Kekro budget increased by $135K.
+#0865  Marketing email: Heard Kekro's budget is now $2140K.
+#0866  Finance Office: Kekro finance review moved to Room 3B.
+#0867  Finance Office: Kekro budget decreased by $80K per the revised plan.
+#0868  Finance Office: Kekro budget increased by $20K.
+#0869  Finance Office: Kekro budget increased by $45K after review.
+#0870  Finance Office: Withdraw update #0595; it was entered in error.
+#0871  Sales update: Hearing Kekro's budget goes down $77K.
+#0872  Finance Office: Kekro budget decreased by $319K after review.
+#0873  Engineering email: Heard Kekro's budget is now $1970K.
+#0874  Finance Office: Kekro budget decreased by $80K per the revised plan.
+#0875  Engineering email: Kekro risk register updated with 2 new items.
+#0876  Facilities ticket: Pretty sure Kekro's budget is $950K now.
+#0877  Vendor call: Kekro budget is going down by $452K.
+#0878  Finance Office: Withdraw update #0460; it was entered in error.
+#0879  Finance Office: Withdraw update #0766.
+#0880  Finance Office: Kekro budget decreased by $262K per the revised plan.
+#0881  Finance Office: Kekro budget decreased by $526K.
+#0882  Finance Office: Kekro budget decreased by $15K after review.
+#0883  Finance Office: Kekro budget increased by $145K after review.
+#0884  Finance Office: Kekro budget increased by $159K.
+#0885  Operations chat: Heard Kekro's budget is now $880K.
+#0886  Facilities ticket: Heard Kekro's budget is now $810K.
+#0887  Legal email: Pretty sure Kekro's budget is $870K now.
+#0888  Marketing email: Pretty sure Kekro's budget is $690K now.
+#0889  Sales update: Kekro sprint 36 retrospective notes posted.
+#0890  Finance Office: Kekro budget increased by $90K.
+#0891  Finance Office: Kekro budget increased by $10K.
+#0892  Finance Office: Kekro budget decreased by $30K after review.
+#0893  Finance Office: Withdraw update #0365; it was entered in error.
+#0894  Finance Office: Kekro budget increased by $80K per the revised plan.
+#0895  Finance Office: Kekro budget decreased by $45K.
+#0896  Finance Office: Kekro budget decreased by $356K after review.
+#0897  Operations chat: Kekro budget is going up by $518K.
+#0898  Finance Office: Kekro cost center code changed to FC-3627.
+#0899  Finance Office: Kekro budget decreased by $6K per the revised plan.
+#0900  Finance Office: Kekro budget increased by $130K.
+#0901  Finance Office: Withdraw update #0321.
+#0902  Finance Office: Kekro budget decreased by $50K after review.
+#0903  Operations chat: Kekro weekly sync moved to Tuesdays.
+#0904  Vendor call: Kekro budget is going to $530K.
+#0905  Finance Office: Kekro budget increased by $80K after review.
+#0906  Finance Office: Kekro budget decreased by $20K after review.
+#0907  Finance Office: Kekro budget decreased by $110K per the revised plan.
+#0908  Finance Office: Withdraw update #0035.
+#0909  Facilities ticket: Sounds like Kekro gets $396K more.
+#0910  Finance Office: Kekro budget increased by $55K.
+#0911  Engineering email: Sounds like Kekro gets $292K more.
+#0912  Marketing email: Pretty sure Kekro's budget is $910K now.
+#0913  Finance Office: Kekro budget decreased by $125K per the revised plan.
+#0914  Marketing email: Kekro budget is going down to $470K.
+#0915  Operations chat: Kekro budget is going to $670K.
+#0916  Finance Office: Kekro budget increased by $45K per the revised plan.
+#0917  PMO note: Pretty sure Kekro's budget is $600K now.
+#0918  Finance Office: Kekro budget increased by $100K.
+#0919  Finance Office: Kekro budget decreased by $45K.
+#0920  Finance Office: Kekro budget decreased by $197K per the revised plan.
+#0921  Finance Office: Kekro budget decreased by $60K.
+#0922  Finance Office: Withdraw update #0800; it was entered in error.
+#0923  Vendor call: Hearing Kekro's budget goes up $339K.
+#0924  Marketing email: Sounds like Kekro gets $81K more.
+#0925  Marketing email: Kekro budget is going up by $157K.
+#0926  Finance Office: Withdraw update #0451; it was entered in error.
+#0927  Engineering email: Kekro demo rescheduled to Monday afternoon.
+#0928  Finance Office: Withdraw update #0612.
+#0929  Finance Office: Kekro budget increased by $70K per the revised plan.
+#0930  Facilities ticket: Kekro budget is going to $570K.
+#0931  Finance Office: Kekro receipts scanned.
+#0932  Operations chat: Pretty sure Kekro's budget is $720K now.
+#0933  Finance Office: Withdraw update #0692.
+#0934  Finance Office: Withdraw update #0922; it was entered in error.
+#0935  Finance Office: Kekro invoice batch FC-7843 archived.
+#0936  Finance Office: Kekro budget decreased by $9K.
+#0937  Finance Office: Kekro budget increased by $211K after review.
+#0938  Finance Office: Kekro budget increased by $84K after review.
+#0939  Finance Office: Kekro budget increased by $150K per the revised plan.
+#0940  Finance Office: Withdraw update #0411.
+#0941  Facilities ticket: Kekro budget is going up by $579K.
+#0942  Marketing email: Hearing Kekro's budget goes up $417K.
+#0943  Vendor call: Kekro documentation moved to the shared drive.
+#0944  Sales update: Heard Kekro's budget is now $820K.
+#0945  Finance Office: Kekro budget increased by $60K.
+#0946  Vendor call: Kekro budget is going up by $137K.
+#0947  Finance Office: Kekro budget increased by $110K after review.
+#0948  Finance Office: Kekro budget increased by $105K per the revised plan.
+#0949  Marketing email: Kekro budget should land at $1110K.
+#0950  Finance Office: Withdraw update #0423; it was entered in error.
+#0951  PMO note: Pretty sure Kekro's budget is $1570K now.
+#0952  Finance Office: Kekro budget decreased by $105K.
+#0953  Finance Office: Withdraw update #0201; it was entered in error.
+#0954  PMO note: Sounds like Kekro gets $427K less.
+#0955  Finance Office: Kekro budget decreased by $125K.
+#0956  Finance Office: Kekro budget decreased by $70K per the revised plan.
+#0957  Legal email: Hearing Kekro's budget goes down $367K.
+#0958  Finance Office: Kekro budget increased by $130K per the revised plan.
+#0959  Finance Office: Kekro budget increased by $50K.
+#0960  Finance Office: Kekro budget decreased by $5K per the revised plan.
+#0961  Finance Office: Kekro budget decreased by $60K per the revised plan.
+#0962  Vendor call: Kekro budget is going down by $42K.
+#0963  Engineering email: Pretty sure Kekro's budget is $1800K now.
+#0964  Finance Office: Kekro budget increased by $130K.
+#0965  Legal email: Kekro budget is going down to $1440K.
+#0966  Finance Office: Kekro budget increased by $35K.
+#0967  Operations chat: Kekro budget is going up by $132K.
+#0968  Finance Office: Kekro budget increased by $130K.
+#0969  Finance Office: Kekro budget decreased by $50K per the revised plan.
+#0970  Finance Office: Withdraw update #0523; it was entered in error.
+#0971  Finance Office: Kekro budget decreased by $60K after review.
+#0972  Vendor call: Kekro budget is going to $1730K.
+#0973  Finance Office: Withdraw update #0104; it was entered in error.
+#0974  Operations chat: Kekro sprint 43 retrospective notes posted.
+#0975  Legal email: Hearing Kekro's budget goes up $584K.
+#0976  Legal email: Kekro budget is going to $630K.
+#0977  Finance Office: Kekro budget decreased by $5K.
+#0978  Finance Office: Withdraw update #0350; it was entered in error.
+#0979  Operations chat: Heard Kekro's budget is now $1060K.
+#0980  Finance Office: Kekro budget decreased by $338K after review.
+#0981  Finance Office: Withdraw update #0591.
+#0982  Finance Office: Kekro budget increased by $130K.
+#0983  Engineering email: Kekro budget is going up by $141K.
+#0984  Engineering email: Heard Kekro's budget is now $1220K.
+#0985  Finance Office: Kekro budget decreased by $65K per the revised plan.
+#0986  Finance Office: Kekro budget decreased by $140K.
+#0987  Finance Office: Withdraw update #0819.
+#0988  Finance Office: Kekro budget increased by $80K after review.
+#0989  Vendor call: Kekro budget is going up by $576K.
+#0990  Vendor call: Sounds like Kekro gets $79K more.
+#0991  Finance Office: Kekro budget decreased by $407K.
+#0992  Marketing email: Kekro budget is going to $1320K.
+#0993  Finance Office: Kekro budget increased by $115K.
+#0994  PMO note: Heard Kekro's budget is now $1440K.
+#0995  Finance Office: Kekro audit notes filed.
+#0996  Finance Office: Kekro budget increased by $177K.
+#0997  Finance Office: Kekro budget decreased by $5K per the revised plan.
+#0998  Engineering email: Heard Kekro's budget is now $1520K.
+#0999  Finance Office: Kekro budget increased by $40K.
+#1000  Finance Office: Kekro budget increased by $100K per the revised plan.
+#1001  Facilities ticket: Kekro budget should land at $1650K.
+#1002  Finance Office: Kekro budget increased by $100K per the revised plan.
+#1003  Marketing email: Hearing Kekro's budget goes down $312K.
+#1004  PMO note: Kekro budget is going down to $1440K.
+#1005  Finance Office: Kekro budget increased by $453K.
+#1006  Marketing email: Expect Kekro's budget to rise by $464K.
+#1007  Finance Office: Kekro budget increased by $53K.
+#1008  Finance Office: Kekro budget increased by $45K.
+#1009  Finance Office: Withdraw update #0908.
+#1010  Finance Office: Kekro budget decreased by $35K per the revised plan.
+#1011  Finance Office: Kekro budget decreased by $115K per the revised plan.
+#1012  Finance Office: Kekro receipts scanned.
+#1013  Finance Office: Withdraw update #0744.
+#1014  Legal email: Kekro budget should land at $1250K.
+#1015  Finance Office: Kekro budget increased by $140K per the revised plan.
+#1016  Finance Office: Kekro invoice batch FC-8175 archived.
+#1017  Finance Office: Withdraw update #0372.
+#1018  Vendor call: Kekro budget is going down by $462K.
+#1019  Facilities ticket: Sounds like Kekro gets $288K more.
+#1020  Finance Office: Kekro budget decreased by $45K per the revised plan.
+#1021  Finance Office: Withdraw update #0571.
+#1022  Legal email: Kekro kickoff moved to Building 6.
+#1023  Legal email: Expect Kekro's budget to drop by $381K.
+#1024  Sales update: Kekro budget is going to $2510K.
+#1025  Engineering email: Expect Kekro's budget to drop by $226K.
+#1026  Marketing email: Pretty sure Kekro's budget is $2460K now.
+#1027  Finance Office: Kekro budget increased by $60K after review.
+#1028  Finance Office: Kekro budget increased by $57K per the revised plan.
+#1029  Finance Office: Kekro budget increased by $15K.
+#1030  PMO note: Kekro budget is going up by $504K.
+#1031  Finance Office: Withdraw update #0484.
+#1032  Finance Office: Withdraw update #0937; it was entered in error.
+#1033  Finance Office: Withdraw update #0665; it was entered in error.
+#1034  Marketing email: Kekro demo rescheduled to Wednesday afternoon.
+#1035  Finance Office: Kekro budget increased by $95K per the revised plan.
+#1036  Finance Office: Kekro budget decreased by $55K per the revised plan.
+#1037  Finance Office: Kekro budget decreased by $110K.
+#1038  Finance Office: Withdraw update #0207.
+#1039  Operations chat: Kekro budget is going up to $1900K.
+#1040  Legal email: Sounds like Kekro gets $236K more.
+#1041  Facilities ticket: Kekro budget should land at $1130K.
+#1042  Operations chat: Sounds like Kekro gets $559K more.
+#1043  PMO note: Expect Kekro's budget to drop by $121K.
+#1044  Finance Office: Kekro budget increased by $10K per the revised plan.
+#1045  Finance Office: Withdraw update #0698.
+#1046  Finance Office: Kekro budget increased by $105K after review.
+#1047  Legal email: Kekro budget is going down by $447K.
+#1048  Finance Office: Kekro budget decreased by $70K after review.
+#1049  Finance Office: Withdraw update #0980.
+#1050  Finance Office: Kekro budget decreased by $145K per the revised plan.
+#1051  Facilities ticket: Heard Kekro's budget is now $2140K.
+#1052  Finance Office: Withdraw update #0737.
+#1053  Finance Office: Kekro budget decreased by $479K per the revised plan.
+#1054  Finance Office: Kekro budget increased by $40K.
+#1055  Finance Office: Kekro budget decreased by $35K after review.
+#1056  Finance Office: Kekro budget increased by $20K.
+#1057  Finance Office: Kekro budget increased by $75K.
+#1058  Finance Office: Kekro purchase order FC-7692 closed.
+#1059  Finance Office: Kekro budget increased by $125K per the revised plan.
+#1060  Finance Office: Kekro budget increased by $85K per the revised plan.
+#1061  Finance Office: Kekro budget increased by $60K per the revised plan.
+#1062  Finance Office: Withdraw update #0830.
+#1063  Engineering email: Hearing Kekro's budget goes down $66K.
+#1064  Finance Office: Withdraw update #0896; it was entered in error.
+#1065  Finance Office: Kekro budget decreased by $100K per the revised plan.
+#1066  Finance Office: Kekro budget increased by $25K after review.
+#1067  Finance Office: Withdraw update #0872.
+#1068  Vendor call: Sounds like Kekro gets $37K more.
+#1069  Vendor call: Kekro budget should land at $1880K.
+#1070  Finance Office: Kekro budget decreased by $105K per the revised plan.
+#1071  Vendor call: Hearing Kekro's budget goes down $294K.
+#1072  Facilities ticket: Heard Kekro's budget is now $1460K.
+#1073  Finance Office: Withdraw update #0371.
+#1074  PMO note: Kekro budget is going down by $449K.
+#1075  Finance Office: Withdraw update #0530; it was entered in error.
+#1076  Finance Office: Withdraw update #0817.
+#1077  Finance Office: Kekro budget increased by $110K after review.
+#1078  Finance Office: Kekro budget decreased by $90K per the revised plan.
+#1079  Finance Office: Kekro budget decreased by $80K per the revised plan.
+#1080  Finance Office: Kekro cost center code changed to FC-4878.
+#1081  Finance Office: Kekro budget decreased by $25K per the revised plan.
+#1082  Finance Office: Kekro budget decreased by $15K.
+#1083  Finance Office: Kekro budget increased by $60K after review.
+#1084  Finance Office: Kekro budget decreased by $50K per the revised plan.
+#1085  Finance Office: Kekro budget decreased by $125K.
+#1086  Operations chat: Kekro sprint 11 retrospective notes posted.
+#1087  Engineering email: Expect Kekro's budget to drop by $297K.
+#1088  PMO note: Kekro budget is going up to $2800K.
+#1089  Finance Office: Kekro budget decreased by $15K per the revised plan.
+#1090  Finance Office: Kekro budget increased by $70K per the revised plan.
+#1091  Marketing email: Kekro budget is going down by $279K.
+#1092  Finance Office: Kekro budget decreased by $65K after review.
+#1093  Finance Office: Kekro budget decreased by $35K per the revised plan.
+#1094  Finance Office: Kekro invoice batch FC-5205 archived.
+#1095  Finance Office: Kekro budget decreased by $80K.
+#1096  PMO note: Pretty sure Kekro's budget is $2080K now.
+#1097  Finance Office: Withdraw update #0811; it was entered in error.
+#1098  Finance Office: Kekro budget decreased by $95K per the revised plan.
+#1099  Finance Office: Kekro budget increased by $10K.
+#1100  Vendor call: Expect Kekro's budget to drop by $162K.
+#1101  PMO note: Kekro budget is going to $2580K.
+#1102  Operations chat: Heard Kekro's budget is now $1970K.
+#1103  Finance Office: Kekro budget decreased by $130K after review.
+#1104  Finance Office: Withdraw update #0639.
+#1105  Sales update: Kekro budget is going to $1340K.
+#1106  Finance Office: Kekro budget increased by $150K.
+#1107  Facilities ticket: Kekro budget should land at $1330K.
+#1108  Finance Office: Kekro budget increased by $5K per the revised plan.
+#1109  Finance Office: Withdraw update #0741; it was entered in error.
+#1110  Facilities ticket: Kekro kickoff moved to Building 3.
+#1111  Finance Office: Withdraw update #0996.
+#1112  Finance Office: Withdraw update #0884; it was entered in error.
+#1113  Finance Office: Kekro budget increased by $30K per the revised plan.
+#1114  Finance Office: Kekro budget increased by $130K.
+#1115  Finance Office: Withdraw update #0255; it was entered in error.
+#1116  PMO note: Kekro weekly sync moved to Wednesdays.
+#1117  Finance Office: Kekro budget decreased by $75K per the revised plan.
+#1118  Finance Office: Kekro finance review moved to Room 3B.
+#1119  Legal email: Kekro budget is going to $2210K.
+#1120  Engineering email: Expect Kekro's budget to rise by $22K.
+#1121  Finance Office: Withdraw update #0901.
+#1122  Marketing email: Kekro test environment back online.
+#1123  Marketing email: Pretty sure Kekro's budget is $1530K now.
+#1124  Finance Office: Kekro budget increased by $135K.
+#1125  Finance Office: Kekro budget decreased by $20K after review.
+#1126  Engineering email: Hearing Kekro's budget goes up $167K.
+#1127  Finance Office: Kekro budget decreased by $55K.
+#1128  Engineering email: Kekro budget is going up by $193K.
+#1129  Legal email: Kekro budget is going up by $441K.
+#1130  Operations chat: Kekro budget should land at $1760K.
+#1131  Finance Office: Kekro budget decreased by $25K after review.
+#1132  Operations chat: Pretty sure Kekro's budget is $1490K now.
+#1133  Finance Office: Kekro budget decreased by $50K after review.
+#1134  Finance Office: Kekro budget increased by $40K per the revised plan.
+#1135  Finance Office: Kekro budget increased by $15K per the revised plan.
+#1136  Finance Office: Kekro budget decreased by $10K per the revised plan.
+#1137  Finance Office: Kekro budget increased by $65K per the revised plan.
+#1138  Finance Office: Kekro budget increased by $56K after review.
+#1139  Finance Office: Kekro budget decreased by $60K per the revised plan.
+#1140  Operations chat: Pretty sure Kekro's budget is $1500K now.
+#1141  Finance Office: Kekro budget increased by $150K after review.
+#1142  Marketing email: Expect Kekro's budget to rise by $522K.
+#1143  Sales update: Kekro design review moved to Room 6B.
+#1144  Finance Office: Withdraw update #0574; it was entered in error.
+#1145  Facilities ticket: Kekro budget should land at $1430K.
+#1146  Finance Office: Withdraw update #1028.
+#1147  Finance Office: Kekro budget increased by $5K.
+#1148  Vendor call: Kekro budget is going up by $482K.
+#1149  Engineering email: Kekro design review moved to Room 1C.
+#1150  Finance Office: Kekro budget increased by $140K after review.
+#1151  Finance Office: Kekro budget increased by $75K per the revised plan.
+#1152  Finance Office: Kekro cost center code changed to FC-2533.
+#1153  Finance Office: Kekro budget increased by $95K after review.
+#1154  Finance Office: Kekro budget decreased by $100K per the revised plan.
+#1155  Finance Office: Withdraw update #0666; it was entered in error.
+#1156  Finance Office: Withdraw update #0880.
+#1157  Finance Office: Kekro budget decreased by $135K per the revised plan.
+#1158  Facilities ticket: Pretty sure Kekro's budget is $2200K now.
+#1159  Marketing email: Hearing Kekro's budget goes down $461K.
+#1160  PMO note: Pretty sure Kekro's budget is $1740K now.
+#1161  Finance Office: Withdraw update #0467; it was entered in error.
+#1162  Vendor call: Sounds like Kekro gets $321K more.
+#1163  Engineering email: Heard Kekro's budget is now $2800K.
+#1164  Finance Office: Kekro budget increased by $145K after review.
+#1165  Operations chat: Sounds like Kekro gets $33K more.
+#1166  Engineering email: Kekro budget is going down to $2220K.
+#1167  Finance Office: Withdraw update #1052.
+#1168  Finance Office: Kekro budget decreased by $35K per the revised plan.
+#1169  Finance Office: Kekro budget decreased by $70K per the revised plan.
+#1170  Finance Office: Kekro budget decreased by $135K per the revised plan.
+#1171  Legal email: Hearing Kekro's budget goes down $468K.
+#1172  Finance Office: Withdraw update #1005.
+#1173  Finance Office: Kekro budget decreased by $130K after review.
+#1174  Finance Office: Kekro budget decreased by $90K.
+#1175  Finance Office: Kekro budget decreased by $135K after review.
+#1176  Finance Office: Kekro budget increased by $85K per the revised plan.
+#1177  Finance Office: Kekro budget decreased by $80K after review.
+#1178  Finance Office: Kekro budget increased by $55K per the revised plan.
+#1179  Finance Office: Kekro budget increased by $150K.
+#1180  Finance Office: Kekro budget increased by $25K per the revised plan.
+#1181  Finance Office: Kekro budget increased by $150K after review.
+#1182  Legal email: Sounds like Kekro gets $186K more.
+#1183  Finance Office: Kekro budget increased by $130K.
+#1184  Finance Office: Kekro budget decreased by $90K after review.
+#1185  Finance Office: Withdraw update #0621; it was entered in error.
+#1186  Finance Office: Kekro budget decreased by $145K per the revised plan.
+#1187  Legal email: Hearing Kekro's budget goes down $183K.
+#1188  Finance Office: Kekro budget decreased by $35K after review.
+#1189  Finance Office: Kekro budget increased by $100K.
+#1190  Finance Office: Kekro budget decreased by $100K.
+#1191  Marketing email: Expect Kekro's budget to drop by $378K.
+#1192  Finance Office: Kekro budget decreased by $357K.
+#1193  Marketing email: Kekro kickoff moved to Building 7.
+#1194  Sales update: Kekro budget is going down by $24K.
+#1195  Facilities ticket: Kekro design review moved to Room 1C.
+#1196  Marketing email: Hearing Kekro's budget goes down $429K.
+#1197  Legal email: Kekro documentation moved to the shared drive.
+#1198  PMO note: Hearing Kekro's budget goes up $586K.
+#1199  Finance Office: Withdraw update #0432.
+#1200  Finance Office: Kekro budget decreased by $7K after review.
+#1201  Finance Office: Kekro budget increased by $80K after review.
+#1202  Legal email: Kekro budget should land at $2180K.
+#1203  Facilities ticket: Kekro security review passed.
+#1204  Finance Office: Kekro budget decreased by $386K after review.
+#1205  Operations chat: Kekro budget should land at $1490K.
+#1206  Legal email: Pretty sure Kekro's budget is $1120K now.
+#1207  Legal email: Kekro budget should land at $1780K.
+#1208  Finance Office: Kekro budget decreased by $90K per the revised plan.
+#1209  Finance Office: Kekro budget increased by $65K after review.
+#1210  Engineering email: Pretty sure Kekro's budget is $1280K now.
+#1211  Legal email: Expect Kekro's budget to drop by $496K.
+#1212  Finance Office: Kekro budget decreased by $70K per the revised plan.
+#1213  Finance Office: Kekro budget increased by $65K after review.
+#1214  Finance Office: Kekro budget increased by $110K per the revised plan.
+#1215  Finance Office: Kekro budget decreased by $140K.
+#1216  Finance Office: Kekro budget decreased by $130K after review.
+#1217  Finance Office: Withdraw update #1053; it was entered in error.
+#1218  Finance Office: Kekro budget decreased by $135K per the revised plan.
+#1219  PMO note: Kekro budget should land at $1840K.
+#1220  Finance Office: Kekro budget decreased by $26K per the revised plan.
+#1221  Finance Office: Kekro purchase order FC-3368 closed.
+#1222  Finance Office: Kekro budget decreased by $354K per the revised plan.
+#1223  Finance Office: Kekro budget decreased by $5K after review.
+#1224  Finance Office: Kekro budget increased by $150K per the revised plan.
+#1225  Operations chat: Kekro security review passed.
+#1226  Operations chat: Kekro budget is going down to $1110K.
+#1227  Finance Office: Kekro budget increased by $45K after review.
+#1228  Finance Office: Kekro budget increased by $15K after review.
+#1229  Engineering email: Expect Kekro's budget to rise by $533K.
+#1230  Finance Office: Kekro budget decreased by $25K per the revised plan.
+#1231  Finance Office: Kekro budget decreased by $25K.
+#1232  Finance Office: Kekro budget decreased by $110K.
+#1233  Finance Office: Kekro budget decreased by $5K.
+#1234  PMO note: Hearing Kekro's budget goes down $74K.
+#1235  Finance Office: Kekro budget increased by $130K after review.
+#1236  Finance Office: Kekro budget decreased by $30K per the revised plan.
+#1237  PMO note: Kekro budget is going down to $850K.
+#1238  Operations chat: Heard Kekro's budget is now $1600K.
+#1239  Finance Office: Kekro budget increased by $150K.
+#1240  Finance Office: Withdraw update #0629.
+#1241  Finance Office: Kekro budget decreased by $130K.
+#1242  Finance Office: Kekro budget decreased by $65K after review.
+#1243  PMO note: Kekro budget should land at $930K.
+#1244  Finance Office: Kekro budget increased by $115K.
+#1245  Marketing email: Kekro budget is going up by $114K.
+#1246  Engineering email: Kekro budget is going down to $810K.
+#1247  Marketing email: Kekro budget is going down by $261K.
+#1248  Operations chat: Heard Kekro's budget is now $600K.
+#1249  Vendor call: Expect Kekro's budget to drop by $416K.
+#1250  Finance Office: Kekro budget increased by $145K after review.
+#1251  Marketing email: Kekro budget should land at $690K.
+#1252  Legal email: Pretty sure Kekro's budget is $940K now.
+#1253  Operations chat: Expect Kekro's budget to drop by $543K.
+#1254  Engineering email: Kekro budget is going up by $511K.
+#1255  Finance Office: Withdraw update #0860; it was entered in error.
+#1256  Finance Office: Withdraw update #0762; it was entered in error.
+#1257  Finance Office: Withdraw update #0824.
+#1258  Finance Office: Withdraw update #1167; it was entered in error.
+#1259  Finance Office: Kekro budget increased by $55K per the revised plan.
+#1260  Operations chat: Kekro design review moved to Room 5C.
+#1261  Finance Office: Kekro budget decreased by $105K per the revised plan.
+#1262  Finance Office: Kekro budget increased by $65K per the revised plan.
+#1263  Finance Office: Kekro budget decreased by $40K.
+#1264  Finance Office: Kekro budget increased by $105K after review.
+#1265  Finance Office: Withdraw update #0803.
+#1266  Finance Office: Withdraw update #0677; it was entered in error.
+#1267  Vendor call: Heard Kekro's budget is now $1640K.
+#1268  Finance Office: Withdraw update #0136; it was entered in error.
+#1269  Finance Office: Kekro budget increased by $15K.
+#1270  Legal email: Kekro budget is going up to $2450K.
+#1271  Operations chat: Pretty sure Kekro's budget is $1980K now.
+#1272  Marketing email: Heard Kekro's budget is now $2370K.
+#1273  Finance Office: Kekro budget increased by $145K per the revised plan.
+#1274  Finance Office: Withdraw update #0241.
+#1275  Engineering email: Kekro budget should land at $2220K.
+#1276  Finance Office: Kekro budget increased by $100K per the revised plan.
+#1277  Engineering email: Sounds like Kekro gets $68K less.
+#1278  Finance Office: Kekro budget decreased by $95K.
+#1279  Finance Office: Kekro budget decreased by $140K per the revised plan.
+#1280  Finance Office: Kekro budget increased by $15K per the revised plan.
+#1281  Sales update: Kekro budget is going down by $107K.
+#1282  Finance Office: Kekro budget increased by $35K after review.
+#1283  Legal email: Kekro budget is going to $1130K.
+#1284  Finance Office: Withdraw update #0336; it was entered in error.
+#1285  Operations chat: Kekro budget is going to $1480K.
+#1286  Finance Office: Withdraw update #0496; it was entered in error.
+#1287  Finance Office: Kekro finance review moved to Room 1C.
+#1288  Finance Office: Kekro budget increased by $80K.
+#1289  Marketing email: Sounds like Kekro gets $301K less.
+#1290  Finance Office: Kekro quarterly audit scheduled for Friday.
+#1291  Finance Office: Kekro budget increased by $60K after review.
+#1292  Finance Office: Kekro budget increased by $50K after review.
+#1293  Finance Office: Withdraw update #0991; it was entered in error.
+#1294  Finance Office: Kekro budget decreased by $30K.
+#1295  Marketing email: Pretty sure Kekro's budget is $1330K now.
+#1296  Finance Office: Kekro budget decreased by $130K.
+#1297  Finance Office: Kekro budget increased by $110K.
+#1298  Engineering email: Sounds like Kekro gets $341K more.
+#1299  Finance Office: Withdraw update #0418.
+#1300  Finance Office: Kekro budget decreased by $5K per the revised plan.
+#1301  Vendor call: Kekro budget is going up by $282K.
+#1302  Finance Office: Kekro budget increased by $10K per the revised plan.
+#1303  Finance Office: Kekro budget decreased by $30K.
+#1304  Sales update: Sounds like Kekro gets $267K more.
+#1305  Finance Office: Kekro budget increased by $130K.
+#1306  Finance Office: Kekro budget decreased by $25K per the revised plan.
+#1307  Finance Office: Withdraw update #0181.
+#1308  Finance Office: Kekro budget increased by $95K per the revised plan.
+#1309  Finance Office: Withdraw update #1192.
+#1310  Finance Office: Kekro budget decreased by $40K per the revised plan.
+#1311  Finance Office: Withdraw update #1220; it was entered in error.
+#1312  Finance Office: Kekro budget decreased by $125K.
+#1313  Finance Office: Kekro budget increased by $105K after review.
+#1314  Finance Office: Withdraw update #0953.
+#1315  Finance Office: Kekro budget increased by $75K after review.
+#1316  PMO note: Kekro budget is going up by $204K.
+#1317  Finance Office: Withdraw update #0502.
+#1318  Finance Office: Kekro budget decreased by $115K per the revised plan.
+#1319  Finance Office: Kekro budget increased by $120K.
+#1320  Finance Office: Kekro budget increased by $5K.
+#1321  Marketing email: Hearing Kekro's budget goes down $487K.
+#1322  Marketing email: Heard Kekro's budget is now $1080K.
+#1323  Finance Office: Kekro budget increased by $105K after review.
+#1324  Finance Office: Withdraw update #1161.
+#1325  Marketing email: Kekro documentation moved to the shared drive.
+#1326  Sales update: Kekro budget is going up by $388K.
+#1327  Finance Office: Withdraw update #1109; it was entered in error.
+#1328  Legal email: Sounds like Kekro gets $569K more.
+#1329  Finance Office: Kekro budget decreased by $35K.
+#1330  Sales update: Kekro budget is going up to $2000K.
+#1331  Finance Office: Kekro budget increased by $145K.
+#1332  Finance Office: Withdraw update #0936.
+#1333  Engineering email: Kekro budget is going to $1770K.
+#1334  Finance Office: Withdraw update #1062.
+#1335  Facilities ticket: Sounds like Kekro gets $224K more.
+#1336  Legal email: Kekro budget is going to $1570K.
+#1337  Operations chat: Sounds like Kekro gets $98K less.
+#1338  Finance Office: Kekro budget increased by $140K.
+#1339  Finance Office: Kekro budget increased by $30K per the revised plan.
+#1340  PMO note: Kekro site visit confirmed for Thursday.
+#1341  Vendor call: Heard Kekro's budget is now $1180K.
+#1342  Finance Office: Kekro budget decreased by $30K after review.
+#1343  Finance Office: Kekro budget decreased by $110K per the revised plan.
+#1344  Facilities ticket: Kekro budget is going down by $364K.
+#1345  Finance Office: Withdraw update #0362.
+#1346  Engineering email: Kekro budget is going down by $149K.
+#1347  Finance Office: Kekro budget decreased by $145K after review.
+#1348  Sales update: Kekro budget is going up to $1230K.
+#1349  Vendor call: Hearing Kekro's budget goes up $456K.
+#1350  Vendor call: Kekro demo rescheduled to Tuesday afternoon.
+#1351  Marketing email: Kekro budget is going down by $111K.
+#1352  Operations chat: Sounds like Kekro gets $93K less.
+#1353  Finance Office: Kekro budget increased by $35K.
+#1354  Finance Office: Withdraw update #1222; it was entered in error.
+#1355  Facilities ticket: Kekro sprint 23 retrospective notes posted.
+#1356  Finance Office: Kekro budget decreased by $60K.
+#1357  Finance Office: Withdraw update #0920; it was entered in error.
+#1358  Legal email: Kekro status report filed for week 2.
+#1359  Finance Office: Kekro budget increased by $135K after review.
+#1360  Finance Office: Kekro budget decreased by $5K.
+#1361  Finance Office: Kekro budget increased by $80K.
+#1362  Sales update: Kekro site visit confirmed for Thursday.
+#1363  Vendor call: Sounds like Kekro gets $234K more.
+#1364  Finance Office: Kekro budget decreased by $110K.
+#1365  Finance Office: Kekro budget decreased by $10K.
+#1366  PMO note: Kekro budget is going to $1660K.
+#1367  Sales update: Kekro documentation moved to the shared drive.
+#1368  PMO note: Kekro budget is going up by $517K.
+#1369  Vendor call: Kekro documentation moved to the shared drive.
+#1370  Finance Office: Withdraw update #0689.
+#1371  Vendor call: Kekro budget should land at $1260K.
+#1372  Marketing email: Kekro budget is going up by $598K.
+#1373  Finance Office: Kekro invoice batch FC-8980 archived.
+#1374  Finance Office: Kekro budget decreased by $100K after review.
+#1375  Engineering email: Heard Kekro's budget is now $1840K.
+#1376  Facilities ticket: Kekro budget is going to $2000K.
+#1377  Operations chat: Kekro budget should land at $1470K.
+#1378  Finance Office: Kekro budget decreased by $60K after review.
+#1379  Legal email: Heard Kekro's budget is now $1790K.
+#1380  Sales update: Hearing Kekro's budget goes up $423K.
+#1381  Finance Office: Kekro budget increased by $65K after review.
+#1382  Finance Office: Kekro budget decreased by $140K after review.
+#1383  Finance Office: Kekro invoice batch FC-5335 archived.
+#1384  Finance Office: Kekro budget decreased by $85K.
+#1385  Finance Office: Kekro budget increased by $55K per the revised plan.
+#1386  Vendor call: Expect Kekro's budget to rise by $551K.
+#1387  Marketing email: Kekro documentation moved to the shared drive.
+#1388  Operations chat: Kekro budget is going up by $308K.
+#1389  Finance Office: Withdraw update #0881.
+#1390  Sales update: Expect Kekro's budget to rise by $192K.
+#1391  Vendor call: Expect Kekro's budget to drop by $273K.
+#1392  Finance Office: Kekro budget decreased by $70K per the revised plan.
+#1393  Facilities ticket: Pretty sure Kekro's budget is $2100K now.
+#1394  Finance Office: Kekro budget increased by $75K per the revised plan.
+#1395  Finance Office: Kekro budget decreased by $100K.
+#1396  Finance Office: Kekro budget decreased by $110K per the revised plan.
+#1397  Finance Office: Kekro budget decreased by $135K per the revised plan.
+#1398  Facilities ticket: Hearing Kekro's budget goes up $519K.
+#1399  PMO note: Expect Kekro's budget to drop by $126K.
+#1400  Finance Office: Kekro invoice batch FC-8901 archived.
+#1401  Finance Office: Kekro budget increased by $40K after review.
+#1402  Finance Office: Kekro budget increased by $115K per the revised plan.
+#1403  Finance Office: Kekro budget increased by $110K after review.
+#1404  Finance Office: Kekro budget decreased by $80K per the revised plan.
+#1405  Legal email: Heard Kekro's budget is now $1220K.
+#1406  Finance Office: Kekro budget increased by $5K per the revised plan.
+#1407  Finance Office: Kekro audit notes filed.
+#1408  Facilities ticket: Kekro weekly sync moved to Wednesdays.
+#1409  Finance Office: Kekro budget decreased by $50K after review.
+#1410  Finance Office: Withdraw update #1007.
+#1411  Finance Office: Kekro budget decreased by $25K.
+#1412  Finance Office: Kekro budget decreased by $125K per the revised plan.
+#1413  PMO note: Kekro budget is going up by $439K.
+#1414  Finance Office: Withdraw update #0870.
+#1415  Legal email: Hearing Kekro's budget goes down $594K.
+#1416  Marketing email: Kekro budget is going down by $254K.
+#1417  Finance Office: Kekro budget decreased by $45K after review.
+#1418  Finance Office: Withdraw update #0547.
+#1419  Finance Office: Withdraw update #1410; it was entered in error.
+#1420  Engineering email: Kekro budget should land at $1770K.
+#1421  Sales update: Kekro budget is going to $2370K.
+#1422  Finance Office: Kekro budget decreased by $140K per the revised plan.
+#1423  Operations chat: Expect Kekro's budget to rise by $369K.
+#1424  Finance Office: Kekro budget decreased by $95K.
+#1425  Finance Office: Kekro budget decreased by $145K per the revised plan.
+#1426  Operations chat: Sounds like Kekro gets $554K more.
+#1427  Finance Office: Kekro budget decreased by $125K.
+#1428  Finance Office: Kekro budget increased by $20K per the revised plan.
+#1429  Finance Office: Kekro budget decreased by $145K after review.
+#1430  Finance Office: Kekro budget decreased by $30K after review.
+#1431  Finance Office: Kekro budget decreased by $100K per the revised plan.
+#1432  Finance Office: Kekro finance review moved to Room 2D.
+#1433  Finance Office: Kekro budget increased by $145K after review.
+#1434  Finance Office: Kekro budget decreased by $35K per the revised plan.
+#1435  Finance Office: Withdraw update #0064; it was entered in error.
+#1436  Sales update: Kekro budget is going down by $342K.
+#1437  Vendor call: Hearing Kekro's budget goes down $481K.
+#1438  Legal email: Sounds like Kekro gets $229K more.
+#1439  Legal email: Pretty sure Kekro's budget is $1940K now.
+#1440  Finance Office: Kekro budget increased by $135K per the revised plan.
+#1441  Vendor call: Kekro test environment back online.
+#1442  Finance Office: Withdraw update #0899; it was entered in error.
+#1443  Finance Office: Kekro budget increased by $5K per the revised plan.
+#1444  Marketing email: Kekro budget is going down by $476K.
+#1445  Finance Office: Withdraw update #0973.
+#1446  Finance Office: Kekro budget decreased by $100K after review.
+#1447  Legal email: Kekro security review passed.
+#1448  Finance Office: Kekro budget decreased by $100K.
+#1449  Finance Office: Withdraw update #0473.
+#1450  Finance Office: Kekro budget increased by $105K after review.
+#1451  Finance Office: Kekro budget increased by $150K.
+#1452  Finance Office: Withdraw update #1076.
+#1453  Finance Office: Withdraw update #0987.
+#1454  Vendor call: Hearing Kekro's budget goes down $443K.
+#1455  Finance Office: Kekro budget decreased by $20K after review.
+#1456  Finance Office: Kekro budget decreased by $25K.
+#1457  Finance Office: Kekro budget decreased by $125K after review.
+#1458  Finance Office: Kekro budget increased by $95K.
+#1459  Finance Office: Kekro budget increased by $50K after review.
+#1460  Finance Office: Withdraw update #0235; it was entered in error.
+#1461  Finance Office: Withdraw update #0195; it was entered in error.
+#1462  Finance Office: Kekro budget decreased by $90K.
+#1463  Finance Office: Kekro budget decreased by $150K per the revised plan.
+#1464  Finance Office: Kekro budget increased by $95K.
+#1465  Legal email: Sounds like Kekro gets $78K more.
+#1466  Sales update: Pretty sure Kekro's budget is $2750K now.
+#1467  Operations chat: Kekro budget should land at $2680K.
+#1468  Finance Office: Kekro budget decreased by $100K per the revised plan.
+#1469  Engineering email: Pretty sure Kekro's budget is $2400K now.
+#1470  Finance Office: Kekro budget decreased by $85K.
+#1471  Finance Office: Kekro budget increased by $15K after review.
+#1472  Sales update: Sounds like Kekro gets $546K more.
+#1473  PMO note: Expect Kekro's budget to drop by $309K.
+#1474  Sales update: Kekro budget should land at $1900K.
+#1475  Finance Office: Kekro budget increased by $150K per the revised plan.
+#1476  Finance Office: Kekro budget decreased by $125K per the revised plan.
+#1477  Finance Office: Withdraw update #1009.
+#1478  Finance Office: Kekro budget decreased by $70K per the revised plan.
+#1479  Engineering email: Hearing Kekro's budget goes down $196K.
+#1480  Finance Office: Kekro budget decreased by $130K per the revised plan.
+#1481  Finance Office: Withdraw update #0442; it was entered in error.
+#1482  Finance Office: Kekro budget increased by $115K per the revised plan.
+#1483  Finance Office: Kekro budget decreased by $80K after review.
+#1484  Finance Office: Kekro budget decreased by $105K.
+#1485  Finance Office: Kekro audit notes filed.
+#1486  Finance Office: Kekro budget decreased by $125K.
+#1487  Operations chat: Pretty sure Kekro's budget is $1040K now.
+#1488  Finance Office: Kekro budget decreased by $145K per the revised plan.
+#1489  Finance Office: Withdraw update #0797.
+#1490  Facilities ticket: Kekro documentation moved to the shared drive.
+#1491  Finance Office: Kekro budget increased by $95K after review.
+#1492  Finance Office: Kekro cost center code changed to FC-6576.
+#1493  Finance Office: Kekro budget decreased by $145K.
+#1494  PMO note: Kekro vendor onboarding call scheduled for Tuesday.
+#1495  Finance Office: Kekro budget decreased by $125K after review.
+#1496  Finance Office: Kekro budget increased by $85K.
+#1497  Vendor call: Kekro budget should land at $1060K.
+#1498  Legal email: Expect Kekro's budget to rise by $202K.
+#1499  Finance Office: Kekro budget increased by $100K.
+#1500  Finance Office: Kekro budget increased by $75K.
+#1501  Engineering email: Kekro budget is going up by $313K.
+#1502  Finance Office: Withdraw update #1452.
+#1503  Facilities ticket: Kekro budget is going to $1870K.
+#1504  PMO note: Pretty sure Kekro's budget is $1380K now.
+#1505  Finance Office: Kekro quarterly audit scheduled for Thursday.
+#1506  Finance Office: Kekro budget decreased by $50K.
+#1507  Finance Office: Kekro budget decreased by $30K.
+#1508  Finance Office: Kekro budget increased by $15K after review.
+#1509  Sales update: Pretty sure Kekro's budget is $1690K now.
+#1510  Vendor call: Hearing Kekro's budget goes down $208K.
+#1511  Vendor call: Kekro budget should land at $1060K.
+#1512  Finance Office: Kekro budget decreased by $115K per the revised plan.
+#1513  Marketing email: Heard Kekro's budget is now $1110K.
+#1514  Engineering email: Kekro budget is going down to $1100K.
+#1515  Finance Office: Kekro budget increased by $125K per the revised plan.
+#1516  Legal email: Heard Kekro's budget is now $1070K.
+#1517  Finance Office: Kekro budget increased by $15K per the revised plan.
+#1518  Finance Office: Kekro budget increased by $130K per the revised plan.
+#1519  Sales update: Hearing Kekro's budget goes down $494K.
+#1520  Finance Office: Kekro budget increased by $150K per the revised plan.
+#1521  Finance Office: Withdraw update #1204.
+#1522  Finance Office: Kekro budget increased by $115K.
+#1523  Finance Office: Kekro budget decreased by $105K after review.
+#1524  Finance Office: Kekro budget decreased by $45K after review.
+#1525  Finance Office: Withdraw update #0756.
+#1526  Finance Office: Kekro budget decreased by $35K per the revised plan.
+#1527  Finance Office: Withdraw update #1334.
+#1528  Engineering email: Kekro budget should land at $2800K.
+#1529  Finance Office: Kekro budget decreased by $70K after review.
+#1530  Finance Office: Kekro budget decreased by $115K per the revised plan.
+#1531  Finance Office: Kekro budget decreased by $120K per the revised plan.
+#1532  Finance Office: Kekro budget decreased by $150K per the revised plan.
+#1533  Finance Office: Kekro budget increased by $75K after review.
+#1534  Finance Office: Kekro budget decreased by $50K after review.
+#1535  Finance Office: Kekro budget increased by $15K.
+#1536  PMO note: Expect Kekro's budget to rise by $431K.
+#1537  PMO note: Kekro kickoff moved to Building 9.
+#1538  Finance Office: Kekro budget increased by $70K per the revised plan.
+#1539  Operations chat: Kekro budget is going to $1610K.
+#1540  Finance Office: Kekro budget decreased by $150K per the revised plan.
+#1541  Finance Office: Withdraw update #1354; it was entered in error.
+#1542  Engineering email: Kekro budget is going up by $64K.
+#1543  Finance Office: Kekro budget decreased by $120K after review.
+#1544  Finance Office: Withdraw update #0058; it was entered in error.
+#1545  Legal email: Kekro vendor onboarding call scheduled for Wednesday.
+#1546  Finance Office: Kekro budget increased by $50K.
+#1547  Legal email: Kekro test environment back online.
+#1548  Finance Office: Kekro budget decreased by $95K.
+#1549  Finance Office: Kekro budget increased by $90K after review.
+#1550  Facilities ticket: Heard Kekro's budget is now $870K.
+#1551  Finance Office: Kekro budget increased by $115K.
+#1552  Operations chat: Kekro budget is going to $830K.
+#1553  Operations chat: Kekro weekly sync moved to Wednesdays.
+#1554  Finance Office: Withdraw update #0531; it was entered in error.
+#1555  Finance Office: Withdraw update #0848.
+#1556  Sales update: Hearing Kekro's budget goes down $534K.
+#1557  PMO note: Kekro budget is going down to $750K.
+#1558  Finance Office: Kekro budget increased by $125K after review.
+#1559  Finance Office: Kekro budget decreased by $135K.
+#1560  Engineering email: Kekro budget is going up by $572K.
+#1561  Finance Office: Kekro budget decreased by $30K after review.
+#1562  Facilities ticket: Hearing Kekro's budget goes down $127K.
+#1563  Legal email: Kekro kickoff moved to Building 7.
+#1564  Finance Office: Withdraw update #1138; it was entered in error.
+#1565  Finance Office: Kekro budget increased by $65K after review.
+#1566  Finance Office: Kekro budget increased by $80K after review.
+#1567  Finance Office: Kekro budget decreased by $120K after review.
+#1568  Finance Office: Kekro budget increased by $5K after review.
+#1569  Finance Office: Kekro budget decreased by $125K after review.
+#1570  Finance Office: Kekro purchase order FC-3443 closed.
+#1571  Finance Office: Kekro budget increased by $130K per the revised plan.
+#1572  Finance Office: Withdraw update #0938; it was entered in error.
+#1573  Finance Office: Withdraw update #0668; it was entered in error.
+#1574  Finance Office: Kekro budget decreased by $140K per the revised plan.
+#1575  Legal email: Expect Kekro's budget to drop by $501K.
+#1576  Finance Office: Kekro budget increased by $25K per the revised plan.
+#1577  Finance Office: Kekro budget decreased by $30K.
+#1578  Finance Office: Withdraw update #1324; it was entered in error.
+#1579  Finance Office: Withdraw update #0804; it was entered in error.
+#1580  Vendor call: Kekro status report filed for week 30.
+#1581  Finance Office: Kekro budget increased by $10K after review.
+#1582  Finance Office: Kekro budget increased by $25K.
+#1583  Finance Office: Kekro budget decreased by $105K.
+#1584  Finance Office: Kekro budget increased by $115K after review.
+#1585  Finance Office: Kekro budget increased by $145K after review.
+#1586  Finance Office: Kekro budget decreased by $125K per the revised plan.
+#1587  Finance Office: Kekro budget decreased by $95K.
+#1588  Operations chat: Kekro budget should land at $1820K.
+#1589  Finance Office: Kekro budget increased by $115K after review.
+#1590  Finance Office: Kekro budget increased by $25K after review.
+#1591  Operations chat: Kekro budget is going down by $508K.
+#1592  Finance Office: Kekro budget decreased by $25K per the revised plan.
+#1593  Finance Office: Withdraw update #1200.
+#1594  Finance Office: Kekro budget increased by $15K after review.
+#1595  Finance Office: Kekro budget increased by $80K per the revised plan.
+#1596  Finance Office: Withdraw update #1017.
+#1597  Finance Office: Kekro budget decreased by $125K.
+#1598  Finance Office: Kekro budget increased by $105K.
+#1599  Marketing email: Kekro budget is going to $1380K.
+#1600  Finance Office: Withdraw update #0579; it was entered in error.
+
+Question: What is Kekro's budget now?

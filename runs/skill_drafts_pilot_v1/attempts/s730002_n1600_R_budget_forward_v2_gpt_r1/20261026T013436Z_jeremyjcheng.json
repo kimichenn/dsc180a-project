@@ -1,0 +1,63 @@
+{
+ "trial_id": "s730002_n1600_R_budget_forward_v2_gpt_r1",
+ "order": 287,
+ "world_id": "s730002_n1600",
+ "version": "R",
+ "instruction": "budget_forward_v2",
+ "model": "gpt",
+ "repeat": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "fac119af164a758157a28e32c23520262325759289f2e6bb207ad5c5f86fcd2c",
+ "started_at": "2026-10-26T01:34:36+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Krevabos\u2019s current budget is **$2,417K**.\n\nI initialized the budget at **$1,080K** from #0001, ignored administrative and non-Finance messages, and replayed each Finance change and withdrawal in order. Withdrawals reverse the signed effect of the referenced record, including when that record is itself a withdrawal.\n\nThe replay checkpoints are below; all amounts are in **$K**.\n\n| Records | Net signed effect | Running budget |\n|---|---:|---:|\n| #0001 opening | \u2014 | 1,080 |\n| #0002\u2013#0100 | \u2212171 | 909 |\n| #0101\u2013#0200 | +221 | 1,130 |\n| #0201\u2013#0300 | +431 | 1,561 |\n| #0301\u2013#0400 | \u2212547 | 1,014 |\n| #0401\u2013#0500 | +846 | 1,860 |\n| #0501\u2013#0600 | +370 | 2,230 |\n| #0601\u2013#0700 | \u2212751 | 1,479 |\n| #0701\u2013#0800 | +963 | 2,442 |\n| #0801\u2013#0900 | \u2212419 | 2,023 |\n| #0901\u2013#1000 | \u2212622 | 1,401 |\n| #1001\u2013#1100 | +458 | 1,859 |\n| #1101\u2013#1200 | +401 | 2,260 |\n| #1201\u2013#1300 | +478 | 2,738 |\n| #1301\u2013#1400 | \u22121,623 | 1,115 |\n| #1401\u2013#1500 | +1,190 | 2,305 |\n| #1501\u2013#1600 | +112 | **2,417** |\n\nFor example, the withdrawal chain beginning at #0028 contributes **\u221211, +11, \u221211, +11, \u221211, +11** at records #0028, #0029, #0035, #0123, #0280, and #1231 respectively. Each effect is applied once, without separately deleting an earlier contribution.\n\nReconciliation: **$1,080K opening + $1,337K total net effects = $2,417K**.\n\nANSWER: $2417K",
+ "usage": {
+  "input_tokens": 30401,
+  "cached_input_tokens": 0,
+  "output_tokens": 4732,
+  "reasoning_output_tokens": 4226
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a175d8-5d5d-7971-9bae-04b7b0a72545"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Krevabos\u2019s current budget is **$2,417K**.\n\nI initialized the budget at **$1,080K** from #0001, ignored administrative and non-Finance messages, and replayed each Finance change and withdrawal in order. Withdrawals reverse the signed effect of the referenced record, including when that record is itself a withdrawal.\n\nThe replay checkpoints are below; all amounts are in **$K**.\n\n| Records | Net signed effect | Running budget |\n|---|---:|---:|\n| #0001 opening | \u2014 | 1,080 |\n| #0002\u2013#0100 | \u2212171 | 909 |\n| #0101\u2013#0200 | +221 | 1,130 |\n| #0201\u2013#0300 | +431 | 1,561 |\n| #0301\u2013#0400 | \u2212547 | 1,014 |\n| #0401\u2013#0500 | +846 | 1,860 |\n| #0501\u2013#0600 | +370 | 2,230 |\n| #0601\u2013#0700 | \u2212751 | 1,479 |\n| #0701\u2013#0800 | +963 | 2,442 |\n| #0801\u2013#0900 | \u2212419 | 2,023 |\n| #0901\u2013#1000 | \u2212622 | 1,401 |\n| #1001\u2013#1100 | +458 | 1,859 |\n| #1101\u2013#1200 | +401 | 2,260 |\n| #1201\u2013#1300 | +478 | 2,738 |\n| #1301\u2013#1400 | \u22121,623 | 1,115 |\n| #1401\u2013#1500 | +1,190 | 2,305 |\n| #1501\u2013#1600 | +112 | **2,417** |\n\nFor example, the withdrawal chain beginning at #0028 contributes **\u221211, +11, \u221211, +11, \u221211, +11** at records #0028, #0029, #0035, #0123, #0280, and #1231 respectively. Each effect is applied once, without separately deleting an earlier contribution.\n\nReconciliation: **$1,080K opening + $1,337K total net effects = $2,417K**.\n\nANSWER: $2417K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 30401,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 4732,
+     "reasoning_output_tokens": 4226
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T01:34:36.385266Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:34:36.386841Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:34:36.387950Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:34:36.389009Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:34:36.390254Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:34:36.391295Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:34:36.392330Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:34:36.417255Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:34:36.430821Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T01:35:59.830605Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a175d8-5d5d-7971-9bae-04b7b0a72545.1792978476382923000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T01:36:00+00:00",
+ "elapsed_s": 83.9
+}

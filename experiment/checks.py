@@ -37,19 +37,32 @@ def check_world(world: World, settings: GeneratorSettings) -> list[str]:
         problems.append("needs both a withdrawn change and one a withdrawal of a withdrawal reinstates")
     problems += _check_explicit(world)
     problems += _check_amounts(world, settings)
-    problems += _check_buckets(world.key["buckets"], answer)
+    if not settings.chronological:
+        problems += _check_buckets(world.key["buckets"], answer)
     problems += _check_chain_mistakes(world)
 
-    budget = world.records[0].amount
-    for r in world.records:
-        if r.kind == "adjust" and world.active[r.id]:
-            budget += r.amount
-            if not settings.budget_min <= budget <= settings.budget_max:
-                problems.append(f"#{r.id}: true budget {budget} outside {settings.budget_min}-{settings.budget_max}")
-                break
+    if settings.chronological:
+        problems += check_chronological_range(world.records, settings)
+    else:
+        budget = world.records[0].amount
+        for r in world.records:
+            if r.kind == "adjust" and world.active[r.id]:
+                budget += r.amount
+                if not settings.budget_min <= budget <= settings.budget_max:
+                    problems.append(f"#{r.id}: true budget {budget} outside {settings.budget_min}-{settings.budget_max}")
+                    break
     if world.project.lower() in text.VOCABULARY:
         problems.append(f"project name {world.project!r} is a word the log uses")
     return problems
+
+
+def check_chronological_range(records: list[Record], settings: GeneratorSettings) -> list[str]:
+    budget = 0
+    for record, delta in solvers.replay(records):
+        budget += delta
+        if not settings.budget_min <= budget <= settings.budget_max:
+            return [f"#{record.id}: chronological budget {budget} outside {settings.budget_min}-{settings.budget_max}"]
+    return []
 
 
 def _check_rendering(records: list[Record], version: str, answer: int) -> list[str]:

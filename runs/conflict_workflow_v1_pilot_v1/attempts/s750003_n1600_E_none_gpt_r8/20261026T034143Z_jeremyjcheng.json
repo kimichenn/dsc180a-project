@@ -1,0 +1,63 @@
+{
+ "trial_id": "s750003_n1600_E_none_gpt_r8",
+ "order": 297,
+ "world_id": "s750003_n1600",
+ "version": "E",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 8,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "a095f337a1c138f9d82c832b4f389e817f073d2938de2a0a700f3023abb22eee",
+ "started_at": "2026-10-26T03:41:43+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Only Finance Office budget updates affect the total. There are no withdrawals in the records. Applying all increases and decreases to the initial $1,450K budget gives a final budget of **$470K**.\n\nANSWER: $470K",
+ "usage": {
+  "input_tokens": 29233,
+  "cached_input_tokens": 0,
+  "output_tokens": 3083,
+  "reasoning_output_tokens": 3030
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a1764c-bfbc-7ea1-993b-558cb5893b27"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Only Finance Office budget updates affect the total. There are no withdrawals in the records. Applying all increases and decreases to the initial $1,450K budget gives a final budget of **$470K**.\n\nANSWER: $470K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 29233,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3083,
+     "reasoning_output_tokens": 3030
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T03:41:43.769910Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:41:43.771148Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:41:43.772226Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:41:43.773281Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:41:43.774254Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:41:43.775280Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:41:43.776281Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:41:43.777275Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:41:43.788165Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T03:42:46.760638Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a1764c-bfbc-7ea1-993b-558cb5893b27.1792986103741907000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T03:42:47+00:00",
+ "elapsed_s": 63.5
+}

@@ -1,0 +1,63 @@
+{
+ "trial_id": "s730000_n1600_R_minimal_v2_gpt_r4",
+ "order": 82,
+ "world_id": "s730000_n1600",
+ "version": "R",
+ "instruction": "minimal_v2",
+ "model": "gpt",
+ "repeat": 4,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "c025f24b208d72df3e0b751b8b9cf5e86f078ffd99d1b23a6ab86ea6eb53dc5f",
+ "started_at": "2026-10-26T00:57:28+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Only Finance Office budget updates count. I resolved the withdrawal chains, including withdrawals of withdrawals, and applied each remaining budget update once.\n\nChecked running totals after applying those resolutions:\n\n| Through record | Budget |\n|---|---:|\n| #0200 | $1,215K |\n| #0400 | $627K |\n| #0600 | $1,104K |\n| #0800 | $1,660K |\n| #1000 | $2,064K |\n| #1200 | $1,486K |\n| #1400 | $861K |\n| #1600 | $1,486K |\n\nThe effective updates produce a net increase of **$26K** over the initial **$1,460K** budget.\n\nANSWER: $1486K",
+ "usage": {
+  "input_tokens": 28957,
+  "cached_input_tokens": 0,
+  "output_tokens": 3634,
+  "reasoning_output_tokens": 3467
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a175b6-5e81-7b12-9155-4309d670106d"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Only Finance Office budget updates count. I resolved the withdrawal chains, including withdrawals of withdrawals, and applied each remaining budget update once.\n\nChecked running totals after applying those resolutions:\n\n| Through record | Budget |\n|---|---:|\n| #0200 | $1,215K |\n| #0400 | $627K |\n| #0600 | $1,104K |\n| #0800 | $1,660K |\n| #1000 | $2,064K |\n| #1200 | $1,486K |\n| #1400 | $861K |\n| #1600 | $1,486K |\n\nThe effective updates produce a net increase of **$26K** over the initial **$1,460K** budget.\n\nANSWER: $1486K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 28957,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3634,
+     "reasoning_output_tokens": 3467
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T00:57:28.481394Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T00:57:28.482622Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T00:57:28.483746Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T00:57:28.484857Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T00:57:28.485972Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T00:57:28.487210Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T00:57:28.503470Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T00:59:56.740232Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a175b6-5e81-7b12-9155-4309d670106d.1792976248450654000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T00:59:57+00:00",
+ "elapsed_s": 149.1
+}

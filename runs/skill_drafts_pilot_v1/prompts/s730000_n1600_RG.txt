@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Natrotru budget set to $1460K per the revised plan.
+#0002  Legal email: Natrotru budget is going down by $119K.
+#0003  Marketing email: Natrotru budget is going to $1910K.
+#0004  Finance Office: Natrotru finance review moved to Room 4C.
+#0005  Sales update: Natrotru budget is going down to $1070K.
+#0006  Finance Office: Natrotru budget decreased by $298K.
+#0007  Finance Office: Natrotru budget increased by $177K after review.
+#0008  Finance Office: Natrotru budget increased by $321K.
+#0009  Finance Office: Natrotru budget decreased by $574K after review.
+#0010  Operations chat: Hearing Natrotru's budget goes up $463K.
+#0011  Finance Office: Withdraw update #0009; it was entered in error.
+#0012  Finance Office: Natrotru budget decreased by $392K.
+#0013  Finance Office: Natrotru budget decreased by $291K.
+#0014  Finance Office: Natrotru budget increased by $88K after review.
+#0015  Legal email: Natrotru budget should land at $1220K.
+#0016  Finance Office: Natrotru budget increased by $283K.
+#0017  Finance Office: Natrotru audit notes filed.
+#0018  Facilities ticket: Natrotru risk register updated with 2 new items.
+#0019  Finance Office: Withdraw update #0012; it was entered in error.
+#0020  Finance Office: Natrotru budget decreased by $125K after review.
+#0021  Finance Office: Natrotru budget increased by $108K per the revised plan.
+#0022  Finance Office: Natrotru budget decreased by $14K per the revised plan.
+#0023  Legal email: Natrotru security review passed.
+#0024  Finance Office: Natrotru budget decreased by $150K.
+#0025  Marketing email: Pretty sure Natrotru's budget is $1480K now.
+#0026  Finance Office: Natrotru budget increased by $227K per the revised plan.
+#0027  Sales update: Natrotru budget is going to $1430K.
+#0028  Operations chat: Natrotru budget is going up to $2200K.
+#0029  Finance Office: Withdraw update #0026; it was entered in error.
+#0030  Marketing email: Natrotru site visit confirmed for Wednesday.
+#0031  Finance Office: Natrotru invoice batch FC-4970 archived.
+#0032  Legal email: Heard Natrotru's budget is now $1710K.
+#0033  Finance Office: Natrotru budget increased by $191K per the revised plan.
+#0034  Marketing email: Heard Natrotru's budget is now $2160K.
+#0035  Sales update: Sounds like Natrotru gets $477K less.
+#0036  Finance Office: Withdraw update #0019.
+#0037  PMO note: Natrotru kickoff moved to Building 7.
+#0038  Engineering email: Heard Natrotru's budget is now $1030K.
+#0039  Finance Office: Natrotru budget decreased by $202K after review.
+#0040  Finance Office: Natrotru budget decreased by $429K per the revised plan.
+#0041  Finance Office: Withdraw update #0022.
+#0042  Vendor call: Natrotru budget is going up to $870K.
+#0043  Finance Office: Natrotru budget decreased by $20K.
+#0044  Engineering email: Natrotru test environment back online.
+#0045  Finance Office: Natrotru budget decreased by $388K per the revised plan.
+#0046  Finance Office: Natrotru budget decreased by $21K per the revised plan.
+#0047  Legal email: Pretty sure Natrotru's budget is $410K now.
+#0048  Finance Office: Natrotru budget increased by $313K.
+#0049  Finance Office: Withdraw update #0016; it was entered in error.
+#0050  Engineering email: Natrotru risk register updated with 3 new items.
+#0051  Finance Office: Withdraw update #0014; it was entered in error.
+#0052  Legal email: Heard Natrotru's budget is now $300K.
+#0053  Finance Office: Natrotru budget increased by $469K after review.
+#0054  Finance Office: Natrotru finance review moved to Room 5A.
+#0055  Finance Office: Withdraw update #0041; it was entered in error.
+#0056  Engineering email: Heard Natrotru's budget is now $610K.
+#0057  Finance Office: Natrotru budget decreased by $95K.
+#0058  Finance Office: Natrotru budget increased by $263K after review.
+#0059  Facilities ticket: Hearing Natrotru's budget goes up $26K.
+#0060  Finance Office: Natrotru budget decreased by $31K after review.
+#0061  Finance Office: Natrotru budget increased by $105K after review.
+#0062  Finance Office: Natrotru budget decreased by $166K per the revised plan.
+#0063  Sales update: Natrotru kickoff moved to Building 6.
+#0064  Finance Office: Natrotru budget increased by $51K per the revised plan.
+#0065  Finance Office: Natrotru budget decreased by $10K.
+#0066  Marketing email: Sounds like Natrotru gets $242K more.
+#0067  PMO note: Natrotru site visit confirmed for Friday.
+#0068  Finance Office: Withdraw update #0007; it was entered in error.
+#0069  Finance Office: Natrotru cost center code changed to FC-3876.
+#0070  Finance Office: Natrotru budget decreased by $106K per the revised plan.
+#0071  Marketing email: Natrotru budget should land at $630K.
+#0072  Finance Office: Withdraw update #0070.
+#0073  Finance Office: Natrotru budget increased by $203K after review.
+#0074  Finance Office: Natrotru budget decreased by $36K per the revised plan.
+#0075  PMO note: Sounds like Natrotru gets $358K more.
+#0076  Finance Office: Withdraw update #0033; it was entered in error.
+#0077  Marketing email: Expect Natrotru's budget to rise by $179K.
+#0078  Finance Office: Natrotru budget increased by $524K per the revised plan.
+#0079  Finance Office: Natrotru budget decreased by $105K after review.
+#0080  Facilities ticket: Natrotru budget is going down to $990K.
+#0081  Finance Office: Withdraw update #0073; it was entered in error.
+#0082  Finance Office: Natrotru budget decreased by $426K after review.
+#0083  Finance Office: Natrotru budget increased by $30K per the revised plan.
+#0084  Legal email: Expect Natrotru's budget to rise by $599K.
+#0085  Finance Office: Natrotru budget decreased by $150K per the revised plan.
+#0086  Finance Office: Natrotru budget increased by $75K per the revised plan.
+#0087  Facilities ticket: Sounds like Natrotru gets $156K more.
+#0088  Finance Office: Natrotru budget decreased by $19K per the revised plan.
+#0089  Marketing email: Natrotru demo rescheduled to Wednesday afternoon.
+#0090  Finance Office: Natrotru invoice batch FC-1446 archived.
+#0091  Finance Office: Natrotru budget increased by $328K per the revised plan.
+#0092  Finance Office: Withdraw update #0068.
+#0093  Sales update: Heard Natrotru's budget is now $1050K.
+#0094  Operations chat: Pretty sure Natrotru's budget is $1060K now.
+#0095  Finance Office: Natrotru cost center code changed to FC-3131.
+#0096  Finance Office: Withdraw update #0060; it was entered in error.
+#0097  Finance Office: Withdraw update #0062.
+#0098  Vendor call: Hearing Natrotru's budget goes down $473K.
+#0099  Marketing email: Heard Natrotru's budget is now $1250K.
+#0100  Finance Office: Withdraw update #0036; it was entered in error.
+#0101  Finance Office: Natrotru budget decreased by $40K per the revised plan.
+#0102  Finance Office: Natrotru budget increased by $526K per the revised plan.
+#0103  Finance Office: Withdraw update #0064.
+#0104  Finance Office: Natrotru budget increased by $208K.
+#0105  Finance Office: Natrotru budget increased by $145K after review.
+#0106  Finance Office: Withdraw update #0055.
+#0107  Facilities ticket: Natrotru status report filed for week 38.
+#0108  Finance Office: Natrotru budget decreased by $552K.
+#0109  Vendor call: Natrotru kickoff moved to Building 5.
+#0110  Finance Office: Natrotru budget decreased by $5K per the revised plan.
+#0111  Vendor call: Heard Natrotru's budget is now $1360K.
+#0112  PMO note: Sounds like Natrotru gets $472K more.
+#0113  Finance Office: Natrotru budget increased by $115K.
+#0114  Finance Office: Natrotru budget decreased by $65K per the revised plan.
+#0115  Finance Office: Natrotru budget decreased by $501K.
+#0116  Finance Office: Natrotru budget decreased by $229K after review.
+#0117  Finance Office: Withdraw update #0029; it was entered in error.
+#0118  Legal email: Natrotru kickoff moved to Building 6.
+#0119  Operations chat: Natrotru budget is going to $1100K.
+#0120  Vendor call: Expect Natrotru's budget to rise by $121K.
+#0121  Finance Office: Natrotru budget decreased by $257K.
+#0122  Finance Office: Natrotru budget decreased by $62K per the revised plan.
+#0123  Finance Office: Natrotru budget increased by $79K per the revised plan.
+#0124  Finance Office: Natrotru receipts scanned.
+#0125  Finance Office: Withdraw update #0108.
+#0126  Finance Office: Natrotru budget increased by $76K.
+#0127  Finance Office: Natrotru budget increased by $529K after review.
+#0128  Finance Office: Natrotru budget decreased by $125K per the revised plan.
+#0129  Marketing email: Natrotru budget should land at $2800K.
+#0130  Operations chat: Natrotru budget is going down by $519K.
+#0131  Facilities ticket: Natrotru budget should land at $2540K.
+#0132  Engineering email: Hearing Natrotru's budget goes up $217K.
+#0133  Engineering email: Heard Natrotru's budget is now $2440K.
+#0134  Legal email: Natrotru sprint 34 retrospective notes posted.
+#0135  Operations chat: Natrotru weekly sync moved to Wednesdays.
+#0136  Finance Office: Withdraw update #0125; it was entered in error.
+#0137  Finance Office: Natrotru budget increased by $339K per the revised plan.
+#0138  Vendor call: Natrotru budget is going up to $1950K.
+#0139  Finance Office: Natrotru budget decreased by $499K after review.
+#0140  Finance Office: Natrotru budget decreased by $118K after review.
+#0141  Finance Office: Natrotru budget decreased by $140K after review.
+#0142  Finance Office: Withdraw update #0137; it was entered in error.
+#0143  Marketing email: Pretty sure Natrotru's budget is $660K now.
+#0144  Finance Office: Natrotru budget decreased by $306K after review.
+#0145  Finance Office: Natrotru budget increased by $52K.
+#0146  Finance Office: Natrotru budget increased by $55K.
+#0147  Finance Office: Natrotru budget increased by $45K after review.
+#0148  Legal email: Natrotru budget is going up by $268K.
+#0149  Finance Office: Withdraw update #0116; it was entered in error.
+#0150  Finance Office: Withdraw update #0100.
+#0151  Finance Office: Natrotru budget increased by $105K after review.
+#0152  Finance Office: Withdraw update #0142; it was entered in error.
+#0153  Finance Office: Natrotru budget increased by $45K after review.
+#0154  PMO note: Pretty sure Natrotru's budget is $820K now.
+#0155  Finance Office: Natrotru budget decreased by $386K.
+#0156  Finance Office: Natrotru budget increased by $184K after review.
+#0157  Facilities ticket: Natrotru budget is going up by $558K.
+#0158  Finance Office: Natrotru budget increased by $75K after review.
+#0159  Marketing email: Natrotru budget is going down to $690K.
+#0160  Finance Office: Natrotru audit notes filed.
+#0161  Finance Office: Withdraw update #0088; it was entered in error.
+#0162  Legal email: Sounds like Natrotru gets $317K less.
+#0163  Vendor call: Expect Natrotru's budget to drop by $316K.
+#0164  Marketing email: Hearing Natrotru's budget goes up $586K.
+#0165  Finance Office: Natrotru budget increased by $90K per the revised plan.
+#0166  Finance Office: Natrotru budget decreased by $467K per the revised plan.
+#0167  Finance Office: Natrotru budget increased by $303K.
+#0168  Operations chat: Natrotru budget is going up by $442K.
+#0169  Finance Office: Natrotru budget increased by $55K per the revised plan.
+#0170  Finance Office: Withdraw update #0139.
+#0171  Vendor call: Pretty sure Natrotru's budget is $1720K now.
+#0172  Finance Office: Withdraw update #0074; it was entered in error.
+#0173  Marketing email: Sounds like Natrotru gets $482K less.
+#0174  Vendor call: Hearing Natrotru's budget goes up $223K.
+#0175  Finance Office: Natrotru budget decreased by $396K after review.
+#0176  Finance Office: Natrotru finance review moved to Room 6D.
+#0177  Engineering email: Natrotru budget is going down by $63K.
+#0178  Finance Office: Natrotru budget decreased by $18K after review.
+#0179  Facilities ticket: Natrotru budget is going up by $348K.
+#0180  Finance Office: Withdraw update #0102.
+#0181  Finance Office: Withdraw update #0103; it was entered in error.
+#0182  Finance Office: Natrotru budget increased by $556K.
+#0183  Finance Office: Withdraw update #0078; it was entered in error.
+#0184  Finance Office: Natrotru budget increased by $125K per the revised plan.
+#0185  Finance Office: Natrotru budget increased by $448K.
+#0186  Finance Office: Natrotru budget decreased by $432K per the revised plan.
+#0187  Finance Office: Natrotru receipts scanned.
+#0188  Finance Office: Natrotru budget increased by $571K.
+#0189  Finance Office: Natrotru budget decreased by $110K per the revised plan.
+#0190  Finance Office: Natrotru budget increased by $548K after review.
+#0191  Finance Office: Natrotru budget increased by $594K.
+#0192  Finance Office: Natrotru budget increased by $75K per the revised plan.
+#0193  Finance Office: Natrotru budget increased by $61K per the revised plan.
+#0194  Finance Office: Natrotru quarterly audit scheduled for Wednesday.
+#0195  Finance Office: Withdraw update #0040.
+#0196  Marketing email: Natrotru budget is going to $2380K.
+#0197  Finance Office: Natrotru budget decreased by $398K after review.
+#0198  Finance Office: Natrotru budget decreased by $143K after review.
+#0199  Finance Office: Natrotru budget decreased by $346K after review.
+#0200  Finance Office: Natrotru budget increased by $125K.
+#0201  Finance Office: Natrotru budget increased by $75K after review.
+#0202  Finance Office: Natrotru budget decreased by $419K per the revised plan.
+#0203  Vendor call: Natrotru budget should land at $1580K.
+#0204  Finance Office: Withdraw update #0193; it was entered in error.
+#0205  Finance Office: Natrotru budget decreased by $65K after review.
+#0206  Operations chat: Natrotru status report filed for week 26.
+#0207  Finance Office: Natrotru budget increased by $45K per the revised plan.
+#0208  Operations chat: Natrotru budget is going up by $197K.
+#0209  Finance Office: Natrotru budget decreased by $50K per the revised plan.
+#0210  Marketing email: Natrotru budget should land at $1210K.
+#0211  Sales update: Sounds like Natrotru gets $266K less.
+#0212  Finance Office: Natrotru budget increased by $70K per the revised plan.
+#0213  Finance Office: Natrotru budget increased by $15K after review.
+#0214  PMO note: Pretty sure Natrotru's budget is $1460K now.
+#0215  Finance Office: Natrotru budget increased by $65K per the revised plan.
+#0216  Operations chat: Expect Natrotru's budget to rise by $228K.
+#0217  Finance Office: Natrotru budget decreased by $75K after review.
+#0218  Finance Office: Natrotru budget decreased by $85K.
+#0219  Finance Office: Natrotru budget decreased by $95K.
+#0220  Engineering email: Pretty sure Natrotru's budget is $1490K now.
+#0221  Finance Office: Withdraw update #0175.
+#0222  Finance Office: Natrotru budget increased by $60K.
+#0223  Operations chat: Hearing Natrotru's budget goes up $488K.
+#0224  Finance Office: Natrotru budget decreased by $75K per the revised plan.
+#0225  Finance Office: Withdraw update #0045.
+#0226  Finance Office: Natrotru budget decreased by $80K after review.
+#0227  Facilities ticket: Natrotru budget should land at $1850K.
+#0228  Sales update: Natrotru vendor onboarding call scheduled for Tuesday.
+#0229  Vendor call: Natrotru budget is going down to $1990K.
+#0230  Finance Office: Withdraw update #0049.
+#0231  Finance Office: Natrotru budget decreased by $95K per the revised plan.
+#0232  Finance Office: Natrotru budget increased by $70K.
+#0233  Facilities ticket: Natrotru budget is going up by $464K.
+#0234  Vendor call: Pretty sure Natrotru's budget is $1800K now.
+#0235  PMO note: Sounds like Natrotru gets $69K more.
+#0236  Finance Office: Natrotru budget decreased by $366K.
+#0237  Finance Office: Natrotru budget decreased by $414K after review.
+#0238  Finance Office: Withdraw update #0140; it was entered in error.
+#0239  Facilities ticket: Natrotru budget should land at $1410K.
+#0240  Finance Office: Natrotru budget increased by $5K.
+#0241  Finance Office: Natrotru budget decreased by $83K per the revised plan.
+#0242  Finance Office: Natrotru budget decreased by $65K.
+#0243  Finance Office: Natrotru budget increased by $100K per the revised plan.
+#0244  Marketing email: Natrotru budget should land at $2180K.
+#0245  Finance Office: Natrotru budget increased by $57K per the revised plan.
+#0246  Finance Office: Withdraw update #0149; it was entered in error.
+#0247  Finance Office: Natrotru budget increased by $65K.
+#0248  Finance Office: Natrotru budget increased by $125K after review.
+#0249  Finance Office: Natrotru budget decreased by $30K after review.
+#0250  Finance Office: Withdraw update #0245; it was entered in error.
+#0251  Finance Office: Natrotru budget increased by $126K per the revised plan.
+#0252  Finance Office: Withdraw update #0236.
+#0253  Marketing email: Pretty sure Natrotru's budget is $1860K now.
+#0254  Engineering email: Sounds like Natrotru gets $113K more.
+#0255  Finance Office: Natrotru budget increased by $100K.
+#0256  Finance Office: Natrotru budget decreased by $66K after review.
+#0257  Finance Office: Natrotru budget increased by $120K per the revised plan.
+#0258  PMO note: Natrotru budget is going down by $309K.
+#0259  Sales update: Natrotru budget should land at $1780K.
+#0260  Finance Office: Natrotru budget decreased by $231K per the revised plan.
+#0261  Finance Office: Withdraw update #0260.
+#0262  Legal email: Pretty sure Natrotru's budget is $1610K now.
+#0263  Finance Office: Natrotru audit notes filed.
+#0264  Finance Office: Natrotru budget decreased by $60K after review.
+#0265  Finance Office: Withdraw update #0256; it was entered in error.
+#0266  Vendor call: Natrotru status report filed for week 21.
+#0267  Finance Office: Natrotru budget decreased by $99K.
+#0268  Finance Office: Natrotru budget decreased by $145K after review.
+#0269  Finance Office: Natrotru budget increased by $35K.
+#0270  Finance Office: Withdraw update #0051; it was entered in error.
+#0271  Finance Office: Natrotru budget increased by $75K after review.
+#0272  Finance Office: Natrotru budget decreased by $20K per the revised plan.
+#0273  Facilities ticket: Pretty sure Natrotru's budget is $1930K now.
+#0274  Finance Office: Natrotru budget decreased by $459K after review.
+#0275  Finance Office: Withdraw update #0104; it was entered in error.
+#0276  Finance Office: Natrotru budget increased by $130K after review.
+#0277  Finance Office: Natrotru budget decreased by $20K per the revised plan.
+#0278  Finance Office: Withdraw update #0008.
+#0279  Finance Office: Natrotru budget increased by $456K after review.
+#0280  Facilities ticket: Pretty sure Natrotru's budget is $1890K now.
+#0281  Engineering email: Natrotru budget is going up to $2280K.
+#0282  Sales update: Pretty sure Natrotru's budget is $1560K now.
+#0283  Finance Office: Withdraw update #0126.
+#0284  Finance Office: Natrotru budget decreased by $45K per the revised plan.
+#0285  Finance Office: Natrotru budget increased by $361K after review.
+#0286  Engineering email: Natrotru budget is going to $2300K.
+#0287  Finance Office: Natrotru budget decreased by $110K per the revised plan.
+#0288  Finance Office: Natrotru budget decreased by $130K per the revised plan.
+#0289  Finance Office: Natrotru budget decreased by $120K.
+#0290  Operations chat: Natrotru budget is going down to $1250K.
+#0291  Finance Office: Natrotru purchase order FC-4592 closed.
+#0292  Finance Office: Withdraw update #0172; it was entered in error.
+#0293  Operations chat: Natrotru kickoff moved to Building 3.
+#0294  Finance Office: Natrotru budget increased by $140K.
+#0295  Finance Office: Natrotru budget increased by $140K after review.
+#0296  Finance Office: Natrotru budget decreased by $125K after review.
+#0297  Operations chat: Expect Natrotru's budget to rise by $372K.
+#0298  Finance Office: Withdraw update #0199; it was entered in error.
+#0299  Marketing email: Expect Natrotru's budget to drop by $9K.
+#0300  Finance Office: Withdraw update #0197.
+#0301  Finance Office: Withdraw update #0091.
+#0302  Finance Office: Withdraw update #0082.
+#0303  Operations chat: Natrotru budget should land at $2360K.
+#0304  Vendor call: Expect Natrotru's budget to drop by $538K.
+#0305  Finance Office: Natrotru budget decreased by $5K.
+#0306  Finance Office: Withdraw update #0190; it was entered in error.
+#0307  Finance Office: Natrotru budget decreased by $176K after review.
+#0308  Legal email: Expect Natrotru's budget to rise by $92K.
+#0309  PMO note: Sounds like Natrotru gets $116K more.
+#0310  Finance Office: Natrotru budget increased by $110K.
+#0311  Vendor call: Natrotru budget is going down to $1890K.
+#0312  Legal email: Natrotru budget is going up by $389K.
+#0313  Sales update: Hearing Natrotru's budget goes down $438K.
+#0314  Finance Office: Natrotru budget decreased by $428K after review.
+#0315  PMO note: Expect Natrotru's budget to drop by $42K.
+#0316  Finance Office: Natrotru budget increased by $35K after review.
+#0317  Finance Office: Natrotru budget increased by $593K per the revised plan.
+#0318  Facilities ticket: Natrotru design review moved to Room 2C.
+#0319  Finance Office: Natrotru budget decreased by $461K per the revised plan.
+#0320  Engineering email: Natrotru budget should land at $2230K.
+#0321  Finance Office: Withdraw update #0156; it was entered in error.
+#0322  Finance Office: Natrotru budget decreased by $85K.
+#0323  Finance Office: Natrotru budget increased by $125K after review.
+#0324  Finance Office: Natrotru budget increased by $25K.
+#0325  Finance Office: Natrotru budget decreased by $65K per the revised plan.
+#0326  PMO note: Hearing Natrotru's budget goes up $199K.
+#0327  Operations chat: Natrotru kickoff moved to Building 6.
+#0328  Finance Office: Natrotru budget increased by $393K.
+#0329  Finance Office: Natrotru budget increased by $278K per the revised plan.
+#0330  Finance Office: Natrotru budget increased by $576K.
+#0331  Finance Office: Natrotru budget decreased by $27K per the revised plan.
+#0332  Finance Office: Natrotru budget decreased by $573K after review.
+#0333  Legal email: Heard Natrotru's budget is now $2530K.
+#0334  Vendor call: Natrotru budget is going up by $582K.
+#0335  Finance Office: Natrotru budget increased by $233K after review.
+#0336  Finance Office: Natrotru budget decreased by $331K.
+#0337  Finance Office: Withdraw update #0252.
+#0338  Finance Office: Natrotru budget decreased by $578K per the revised plan.
+#0339  Finance Office: Withdraw update #0053; it was entered in error.
+#0340  PMO note: Natrotru budget is going to $710K.
+#0341  Finance Office: Natrotru budget decreased by $1K per the revised plan.
+#0342  Finance Office: Natrotru budget decreased by $20K.
+#0343  Finance Office: Natrotru budget increased by $30K after review.
+#0344  Finance Office: Natrotru budget increased by $70K.
+#0345  Finance Office: Natrotru budget increased by $105K.
+#0346  Finance Office: Withdraw update #0155; it was entered in error.
+#0347  Finance Office: Natrotru budget increased by $85K.
+#0348  Finance Office: Natrotru budget increased by $163K after review.
+#0349  Sales update: Natrotru budget is going down by $59K.
+#0350  Finance Office: Withdraw update #0279.
+#0351  Facilities ticket: Natrotru budget is going to $860K.
+#0352  Operations chat: Natrotru security review passed.
+#0353  PMO note: Expect Natrotru's budget to rise by $178K.
+#0354  Finance Office: Natrotru budget increased by $226K per the revised plan.
+#0355  Legal email: Sounds like Natrotru gets $308K less.
+#0356  Finance Office: Withdraw update #0178.
+#0357  Engineering email: Natrotru documentation moved to the shared drive.
+#0358  Engineering email: Pretty sure Natrotru's budget is $990K now.
+#0359  Marketing email: Natrotru budget should land at $1340K.
+#0360  Finance Office: Natrotru budget decreased by $207K per the revised plan.
+#0361  PMO note: Natrotru budget is going up by $409K.
+#0362  Finance Office: Natrotru budget increased by $336K.
+#0363  Finance Office: Withdraw update #0275.
+#0364  Finance Office: Natrotru invoice batch FC-8705 archived.
+#0365  Finance Office: Natrotru budget decreased by $10K.
+#0366  Operations chat: Pretty sure Natrotru's budget is $1650K now.
+#0367  Engineering email: Natrotru budget is going up to $2070K.
+#0368  Engineering email: Sounds like Natrotru gets $16K more.
+#0369  Engineering email: Expect Natrotru's budget to drop by $379K.
+#0370  Finance Office: Natrotru budget increased by $120K per the revised plan.
+#0371  Sales update: Natrotru budget is going up to $2170K.
+#0372  Finance Office: Natrotru budget decreased by $115K after review.
+#0373  Engineering email: Natrotru budget is going to $1490K.
+#0374  Legal email: Sounds like Natrotru gets $581K less.
+#0375  Finance Office: Natrotru budget increased by $75K after review.
+#0376  Finance Office: Natrotru budget increased by $35K.
+#0377  Vendor call: Natrotru budget should land at $2120K.
+#0378  Finance Office: Natrotru budget increased by $150K.
+#0379  Finance Office: Natrotru budget increased by $125K after review.
+#0380  Finance Office: Natrotru budget increased by $117K.
+#0381  Finance Office: Natrotru budget decreased by $75K per the revised plan.
+#0382  Finance Office: Natrotru budget decreased by $186K.
+#0383  Finance Office: Natrotru budget increased by $35K.
+#0384  Finance Office: Natrotru budget increased by $259K after review.
+#0385  Finance Office: Natrotru budget decreased by $55K after review.
+#0386  Finance Office: Withdraw update #0161.
+#0387  Sales update: Natrotru budget is going up to $2220K.
+#0388  Vendor call: Natrotru site visit confirmed for Monday.
+#0389  Finance Office: Withdraw update #0317; it was entered in error.
+#0390  Finance Office: Natrotru budget increased by $95K.
+#0391  Sales update: Sounds like Natrotru gets $474K less.
+#0392  Finance Office: Natrotru budget decreased by $115K per the revised plan.
+#0393  Finance Office: Natrotru budget decreased by $10K per the revised plan.
+#0394  Legal email: Natrotru budget is going down by $527K.
+#0395  Vendor call: Natrotru kickoff moved to Building 7.
+#0396  Legal email: Natrotru budget is going up by $29K.
+#0397  Operations chat: Expect Natrotru's budget to rise by $437K.
+#0398  Finance Office: Natrotru budget increased by $25K.
+#0399  Vendor call: Natrotru budget is going up to $1600K.
+#0400  Finance Office: Natrotru budget decreased by $60K per the revised plan.
+#0401  Finance Office: Natrotru budget increased by $110K after review.
+#0402  Finance Office: Natrotru budget decreased by $214K per the revised plan.
+#0403  Finance Office: Natrotru budget increased by $50K after review.
+#0404  Finance Office: Withdraw update #0298.
+#0405  Finance Office: Natrotru budget increased by $95K.
+#0406  Finance Office: Natrotru invoice batch FC-2848 archived.
+#0407  Finance Office: Natrotru budget increased by $124K per the revised plan.
+#0408  Finance Office: Natrotru budget decreased by $115K after review.
+#0409  Finance Office: Natrotru budget decreased by $588K after review.
+#0410  Finance Office: Withdraw update #0314.
+#0411  Finance Office: Withdraw update #0362.
+#0412  Legal email: Natrotru site visit confirmed for Wednesday.
+#0413  Finance Office: Natrotru budget decreased by $352K after review.
+#0414  Engineering email: Sounds like Natrotru gets $123K more.
+#0415  Marketing email: Natrotru site visit confirmed for Friday.
+#0416  Finance Office: Natrotru budget increased by $25K per the revised plan.
+#0417  Finance Office: Natrotru budget increased by $131K after review.
+#0418  Finance Office: Natrotru budget increased by $85K after review.
+#0419  Facilities ticket: Sounds like Natrotru gets $246K more.
+#0420  Finance Office: Natrotru budget increased by $50K.
+#0421  Finance Office: Natrotru budget increased by $75K.
+#0422  Finance Office: Natrotru budget increased by $70K per the revised plan.
+#0423  Finance Office: Natrotru budget increased by $110K after review.
+#0424  PMO note: Natrotru budget is going down by $357K.
+#0425  Finance Office: Natrotru budget decreased by $542K per the revised plan.
+#0426  Marketing email: Natrotru budget is going to $300K.
+#0427  Finance Office: Natrotru budget increased by $130K.
+#0428  Marketing email: Natrotru budget is going up by $254K.
+#0429  Finance Office: Natrotru budget increased by $30K after review.
+#0430  Finance Office: Natrotru budget increased by $237K.
+#0431  Legal email: Pretty sure Natrotru's budget is $910K now.
+#0432  Finance Office: Withdraw update #0198; it was entered in error.
+#0433  Finance Office: Natrotru budget decreased by $15K per the revised plan.
+#0434  Sales update: Hearing Natrotru's budget goes up $553K.
+#0435  Finance Office: Withdraw update #0186.
+#0436  Finance Office: Natrotru budget increased by $54K.
+#0437  Vendor call: Expect Natrotru's budget to rise by $98K.
+#0438  Finance Office: Withdraw update #0360.
+#0439  Sales update: Natrotru sprint 27 retrospective notes posted.
+#0440  PMO note: Natrotru budget should land at $1240K.
+#0441  Finance Office: Natrotru budget increased by $25K per the revised plan.
+#0442  Finance Office: Withdraw update #0097.
+#0443  Operations chat: Natrotru budget is going to $1720K.
+#0444  Finance Office: Natrotru budget increased by $125K.
+#0445  Finance Office: Natrotru budget decreased by $35K after review.
+#0446  Finance Office: Withdraw update #0021; it was entered in error.
+#0447  Facilities ticket: Natrotru budget is going down to $980K.
+#0448  Marketing email: Expect Natrotru's budget to rise by $517K.
+#0449  Finance Office: Natrotru purchase order FC-3949 closed.
+#0450  Finance Office: Natrotru budget decreased by $20K after review.
+#0451  Finance Office: Natrotru budget increased by $40K after review.
+#0452  PMO note: Natrotru budget is going up to $1750K.
+#0453  Finance Office: Natrotru budget decreased by $55K per the revised plan.
+#0454  Legal email: Pretty sure Natrotru's budget is $1360K now.
+#0455  Finance Office: Natrotru budget increased by $30K.
+#0456  Operations chat: Expect Natrotru's budget to rise by $536K.
+#0457  Finance Office: Natrotru budget decreased by $115K.
+#0458  Finance Office: Natrotru budget increased by $105K.
+#0459  Facilities ticket: Natrotru budget should land at $1430K.
+#0460  Finance Office: Natrotru budget increased by $46K.
+#0461  Finance Office: Natrotru budget increased by $40K after review.
+#0462  Facilities ticket: Natrotru budget is going to $1840K.
+#0463  PMO note: Sounds like Natrotru gets $592K less.
+#0464  Finance Office: Natrotru budget decreased by $30K after review.
+#0465  Finance Office: Natrotru budget increased by $120K after review.
+#0466  Finance Office: Natrotru budget increased by $80K per the revised plan.
+#0467  Finance Office: Withdraw update #0411; it was entered in error.
+#0468  Finance Office: Natrotru budget increased by $60K.
+#0469  Finance Office: Natrotru budget decreased by $24K after review.
+#0470  Finance Office: Natrotru budget decreased by $302K.
+#0471  Facilities ticket: Pretty sure Natrotru's budget is $1500K now.
+#0472  Finance Office: Withdraw update #0446.
+#0473  Engineering email: Expect Natrotru's budget to drop by $154K.
+#0474  Facilities ticket: Natrotru budget is going to $2050K.
+#0475  Finance Office: Natrotru budget increased by $349K.
+#0476  Finance Office: Withdraw update #0438; it was entered in error.
+#0477  Vendor call: Natrotru design review moved to Room 5A.
+#0478  Finance Office: Natrotru budget decreased by $50K per the revised plan.
+#0479  Finance Office: Natrotru budget increased by $138K.
+#0480  Operations chat: Pretty sure Natrotru's budget is $2280K now.
+#0481  Finance Office: Withdraw update #0274; it was entered in error.
+#0482  Finance Office: Natrotru budget increased by $312K.
+#0483  Vendor call: Pretty sure Natrotru's budget is $2800K now.
+#0484  Legal email: Natrotru budget is going down by $236K.
+#0485  Finance Office: Withdraw update #0058.
+#0486  Finance Office: Natrotru budget increased by $70K after review.
+#0487  Vendor call: Natrotru budget should land at $2150K.
+#0488  Finance Office: Natrotru budget decreased by $145K per the revised plan.
+#0489  Finance Office: Natrotru budget decreased by $10K after review.
+#0490  Finance Office: Withdraw update #0425.
+#0491  Finance Office: Natrotru budget decreased by $115K after review.
+#0492  Finance Office: Natrotru budget decreased by $40K after review.
+#0493  Finance Office: Withdraw update #0191; it was entered in error.
+#0494  PMO note: Natrotru budget is going to $1950K.
+#0495  Finance Office: Natrotru budget increased by $145K.
+#0496  Finance Office: Withdraw update #0300; it was entered in error.
+#0497  Facilities ticket: Natrotru budget is going down to $1360K.
+#0498  Finance Office: Natrotru budget decreased by $55K per the revised plan.
+#0499  Finance Office: Natrotru budget increased by $101K.
+#0500  Engineering email: Natrotru budget is going down to $1410K.
+#0501  Finance Office: Withdraw update #0475; it was entered in error.
+#0502  Finance Office: Natrotru budget increased by $10K.
+#0503  Finance Office: Withdraw update #0482; it was entered in error.
+#0504  Vendor call: Hearing Natrotru's budget goes up $406K.
+#0505  Finance Office: Withdraw update #0467.
+#0506  Finance Office: Natrotru budget decreased by $130K per the revised plan.
+#0507  Finance Office: Natrotru budget increased by $80K.
+#0508  Finance Office: Withdraw update #0048.
+#0509  Operations chat: Natrotru test environment back online.
+#0510  Vendor call: Expect Natrotru's budget to rise by $497K.
+#0511  Finance Office: Withdraw update #0301.
+#0512  Facilities ticket: Natrotru budget is going up by $318K.
+#0513  Finance Office: Natrotru budget decreased by $135K after review.
+#0514  Marketing email: Natrotru budget is going to $1130K.
+#0515  Legal email: Sounds like Natrotru gets $299K less.
+#0516  Finance Office: Withdraw update #0417.
+#0517  Finance Office: Natrotru budget increased by $35K.
+#0518  Finance Office: Natrotru budget decreased by $514K after review.
+#0519  Finance Office: Natrotru budget increased by $142K after review.
+#0520  Finance Office: Withdraw update #0409; it was entered in error.
+#0521  Finance Office: Natrotru budget decreased by $130K per the revised plan.
+#0522  PMO note: Heard Natrotru's budget is now $900K.
+#0523  Finance Office: Natrotru budget increased by $304K after review.
+#0524  Finance Office: Natrotru budget decreased by $85K.
+#0525  Finance Office: Natrotru budget decreased by $55K after review.
+#0526  Finance Office: Natrotru budget decreased by $25K after review.
+#0527  Legal email: Natrotru budget should land at $1110K.
+#0528  Finance Office: Withdraw update #0306; it was entered in error.
+#0529  Facilities ticket: Natrotru budget should land at $1250K.
+#0530  Finance Office: Natrotru budget increased by $50K.
+#0531  Finance Office: Natrotru budget increased by $342K after review.
+#0532  Finance Office: Natrotru budget decreased by $60K after review.
+#0533  Vendor call: Hearing Natrotru's budget goes up $557K.
+#0534  Finance Office: Natrotru budget increased by $35K.
+#0535  Sales update: Natrotru test environment back online.
+#0536  Finance Office: Withdraw update #0046; it was entered in error.
+#0537  Sales update: Hearing Natrotru's budget goes down $528K.
+#0538  Finance Office: Natrotru budget decreased by $45K.
+#0539  Vendor call: Hearing Natrotru's budget goes down $332K.
+#0540  Finance Office: Withdraw update #0144.
+#0541  Legal email: Expect Natrotru's budget to drop by $554K.
+#0542  Finance Office: Withdraw update #0136.
+#0543  Finance Office: Natrotru budget decreased by $40K after review.
+#0544  Finance Office: Natrotru budget decreased by $35K per the revised plan.
+#0545  Finance Office: Natrotru budget decreased by $35K per the revised plan.
+#0546  Finance Office: Natrotru budget increased by $35K per the revised plan.
+#0547  Finance Office: Natrotru budget decreased by $145K.
+#0548  Finance Office: Natrotru finance review moved to Room 2C.
+#0549  Finance Office: Withdraw update #0182; it was entered in error.
+#0550  Finance Office: Natrotru budget increased by $10K per the revised plan.
+#0551  Finance Office: Natrotru budget increased by $65K per the revised plan.
+#0552  Sales update: Hearing Natrotru's budget goes up $218K.
+#0553  Finance Office: Natrotru budget decreased by $149K after review.
+#0554  Marketing email: Natrotru budget should land at $1360K.
+#0555  Marketing email: Pretty sure Natrotru's budget is $2450K now.
+#0556  Marketing email: Natrotru budget is going to $2470K.
+#0557  Finance Office: Natrotru budget increased by $136K after review.
+#0558  Marketing email: Natrotru vendor onboarding call scheduled for Friday.
+#0559  Facilities ticket: Natrotru budget should land at $2500K.
+#0560  Sales update: Natrotru budget is going down to $1490K.
+#0561  PMO note: Natrotru kickoff moved to Building 8.
+#0562  Finance Office: Natrotru budget increased by $90K after review.
+#0563  Marketing email: Pretty sure Natrotru's budget is $2610K now.
+#0564  Finance Office: Natrotru budget increased by $30K.
+#0565  Sales update: Natrotru budget is going to $1590K.
+#0566  Operations chat: Sounds like Natrotru gets $434K less.
+#0567  Sales update: Natrotru sprint 14 retrospective notes posted.
+#0568  Finance Office: Withdraw update #0350; it was entered in error.
+#0569  Finance Office: Withdraw update #0251; it was entered in error.
+#0570  Engineering email: Natrotru budget is going to $2670K.
+#0571  Finance Office: Natrotru budget decreased by $55K after review.
+#0572  Marketing email: Natrotru budget is going to $2590K.
+#0573  Legal email: Heard Natrotru's budget is now $2500K.
+#0574  Facilities ticket: Natrotru sprint 42 retrospective notes posted.
+#0575  Finance Office: Natrotru budget decreased by $60K after review.
+#0576  Engineering email: Expect Natrotru's budget to drop by $354K.
+#0577  Finance Office: Natrotru budget increased by $115K after review.
+#0578  PMO note: Natrotru budget is going down to $2210K.
+#0579  Finance Office: Natrotru budget decreased by $187K.
+#0580  Finance Office: Natrotru budget decreased by $125K after review.
+#0581  Finance Office: Natrotru budget decreased by $65K after review.
+#0582  PMO note: Natrotru weekly sync moved to Tuesdays.
+#0583  Finance Office: Natrotru budget decreased by $50K.
+#0584  Marketing email: Natrotru budget is going up to $2370K.
+#0585  PMO note: Expect Natrotru's budget to drop by $91K.
+#0586  Engineering email: Natrotru budget is going to $1730K.
+#0587  Finance Office: Natrotru cost center code changed to FC-9723.
+#0588  Finance Office: Natrotru budget decreased by $55K per the revised plan.
+#0589  Engineering email: Natrotru budget is going to $2430K.
+#0590  Finance Office: Natrotru budget decreased by $188K after review.
+#0591  Operations chat: Natrotru security review passed.
+#0592  Finance Office: Withdraw update #0410; it was entered in error.
+#0593  Finance Office: Natrotru budget increased by $35K.
+#0594  Engineering email: Natrotru budget is going up by $194K.
+#0595  PMO note: Natrotru budget should land at $1550K.
+#0596  Finance Office: Natrotru budget increased by $105K per the revised plan.
+#0597  Finance Office: Withdraw update #0528; it was entered in error.
+#0598  Finance Office: Natrotru budget decreased by $135K per the revised plan.
+#0599  PMO note: Expect Natrotru's budget to rise by $547K.
+#0600  Finance Office: Natrotru budget increased by $140K.
+#0601  Finance Office: Natrotru budget increased by $40K.
+#0602  Finance Office: Withdraw update #0241; it was entered in error.
+#0603  Finance Office: Natrotru budget increased by $532K per the revised plan.
+#0604  Sales update: Natrotru design review moved to Room 6C.
+#0605  Finance Office: Natrotru budget increased by $75K per the revised plan.
+#0606  Legal email: Sounds like Natrotru gets $39K less.
+#0607  Finance Office: Natrotru budget decreased by $125K.
+#0608  Finance Office: Natrotru budget decreased by $120K after review.
+#0609  Finance Office: Natrotru cost center code changed to FC-9549.
+#0610  Finance Office: Natrotru purchase order FC-8556 closed.
+#0611  Sales update: Pretty sure Natrotru's budget is $1600K now.
+#0612  Finance Office: Withdraw update #0006; it was entered in error.
+#0613  Finance Office: Natrotru budget increased by $60K after review.
+#0614  Finance Office: Natrotru budget increased by $115K.
+#0615  Operations chat: Natrotru documentation moved to the shared drive.
+#0616  Finance Office: Natrotru budget decreased by $95K.
+#0617  PMO note: Pretty sure Natrotru's budget is $1880K now.
+#0618  Finance Office: Natrotru budget decreased by $145K per the revised plan.
+#0619  Finance Office: Natrotru budget increased by $100K.
+#0620  Finance Office: Withdraw update #0339.
+#0621  Finance Office: Natrotru budget increased by $130K after review.
+#0622  Operations chat: Natrotru budget is going down by $384K.
+#0623  Vendor call: Hearing Natrotru's budget goes down $314K.
+#0624  Finance Office: Natrotru budget decreased by $209K.
+#0625  Finance Office: Natrotru budget increased by $43K per the revised plan.
+#0626  Engineering email: Natrotru budget is going up by $147K.
+#0627  Marketing email: Hearing Natrotru's budget goes up $216K.
+#0628  Sales update: Expect Natrotru's budget to drop by $248K.
+#0629  Finance Office: Natrotru budget increased by $90K after review.
+#0630  Finance Office: Natrotru budget decreased by $201K.
+#0631  Finance Office: Withdraw update #0389; it was entered in error.
+#0632  Finance Office: Natrotru budget decreased by $367K per the revised plan.
+#0633  Finance Office: Withdraw update #0557.
+#0634  Marketing email: Natrotru kickoff moved to Building 3.
+#0635  Finance Office: Natrotru budget decreased by $85K after review.
+#0636  PMO note: Expect Natrotru's budget to drop by $494K.
+#0637  Operations chat: Sounds like Natrotru gets $182K less.
+#0638  Finance Office: Withdraw update #0407; it was entered in error.
+#0639  Finance Office: Natrotru budget increased by $95K.
+#0640  Finance Office: Natrotru budget decreased by $35K after review.
+#0641  Finance Office: Natrotru budget increased by $70K after review.
+#0642  Engineering email: Sounds like Natrotru gets $4K more.
+#0643  Finance Office: Natrotru budget decreased by $80K after review.
+#0644  PMO note: Natrotru budget should land at $1850K.
+#0645  Engineering email: Expect Natrotru's budget to drop by $264K.
+#0646  Finance Office: Natrotru budget increased by $100K after review.
+#0647  Finance Office: Natrotru budget increased by $15K.
+#0648  Finance Office: Natrotru budget decreased by $10K.
+#0649  Finance Office: Natrotru budget decreased by $102K.
+#0650  Engineering email: Heard Natrotru's budget is now $1980K.
+#0651  Vendor call: Natrotru budget is going down by $341K.
+#0652  Finance Office: Natrotru budget decreased by $10K after review.
+#0653  Engineering email: Natrotru budget is going to $2740K.
+#0654  Finance Office: Withdraw update #0250.
+#0655  Finance Office: Natrotru budget increased by $90K per the revised plan.
+#0656  Finance Office: Natrotru budget increased by $130K after review.
+#0657  Finance Office: Natrotru budget increased by $60K per the revised plan.
+#0658  Operations chat: Natrotru vendor onboarding call scheduled for Wednesday.
+#0659  Finance Office: Withdraw update #0096.
+#0660  Finance Office: Natrotru budget decreased by $10K after review.
+#0661  Operations chat: Natrotru budget should land at $1840K.
+#0662  Engineering email: Expect Natrotru's budget to rise by $362K.
+#0663  Finance Office: Withdraw update #0332; it was entered in error.
+#0664  Finance Office: Natrotru budget decreased by $40K per the revised plan.
+#0665  Finance Office: Natrotru budget decreased by $85K after review.
+#0666  Finance Office: Withdraw update #0531.
+#0667  Legal email: Sounds like Natrotru gets $211K less.
+#0668  Finance Office: Natrotru quarterly audit scheduled for Friday.
+#0669  PMO note: Heard Natrotru's budget is now $2700K.
+#0670  Finance Office: Natrotru budget decreased by $15K.
+#0671  Finance Office: Natrotru budget increased by $35K after review.
+#0672  Finance Office: Natrotru budget decreased by $65K per the revised plan.
+#0673  Operations chat: Natrotru budget should land at $2650K.
+#0674  Finance Office: Natrotru budget increased by $15K after review.
+#0675  Finance Office: Withdraw update #0039; it was entered in error.
+#0676  Finance Office: Withdraw update #0511; it was entered in error.
+#0677  Finance Office: Natrotru budget increased by $110K per the revised plan.
+#0678  Sales update: Natrotru budget is going up by $591K.
+#0679  Finance Office: Natrotru budget increased by $65K.
+#0680  PMO note: Natrotru budget is going up to $2580K.
+#0681  Finance Office: Natrotru budget decreased by $55K.
+#0682  Legal email: Natrotru budget is going down by $566K.
+#0683  Facilities ticket: Pretty sure Natrotru's budget is $2800K now.
+#0684  Finance Office: Natrotru budget decreased by $562K per the revised plan.
+#0685  Finance Office: Natrotru budget decreased by $568K.
+#0686  Finance Office: Natrotru budget decreased by $35K per the revised plan.
+#0687  Finance Office: Natrotru budget decreased by $75K.
+#0688  PMO note: Natrotru budget should land at $890K.
+#0689  Finance Office: Withdraw update #0336; it was entered in error.
+#0690  Operations chat: Natrotru kickoff moved to Building 3.
+#0691  Finance Office: Natrotru budget decreased by $85K per the revised plan.
+#0692  Legal email: Natrotru test environment back online.
+#0693  Sales update: Heard Natrotru's budget is now $1390K.
+#0694  Finance Office: Withdraw update #0121; it was entered in error.
+#0695  Finance Office: Natrotru budget decreased by $15K.
+#0696  Vendor call: Natrotru budget is going down to $1440K.
+#0697  Finance Office: Natrotru budget increased by $130K per the revised plan.
+#0698  Finance Office: Natrotru budget increased by $100K after review.
+#0699  Operations chat: Heard Natrotru's budget is now $1880K.
+#0700  Finance Office: Natrotru budget decreased by $145K per the revised plan.
+#0701  Marketing email: Heard Natrotru's budget is now $1730K.
+#0702  Vendor call: Natrotru budget is going down to $1580K.
+#0703  Vendor call: Hearing Natrotru's budget goes up $168K.
+#0704  Finance Office: Withdraw update #0460.
+#0705  Marketing email: Hearing Natrotru's budget goes down $7K.
+#0706  Finance Office: Withdraw update #0404.
+#0707  Finance Office: Natrotru budget decreased by $85K per the revised plan.
+#0708  Finance Office: Withdraw update #0479.
+#0709  PMO note: Natrotru budget is going down by $368K.
+#0710  Finance Office: Natrotru budget increased by $40K after review.
+#0711  Legal email: Natrotru budget is going down to $1270K.
+#0712  Finance Office: Withdraw update #0694; it was entered in error.
+#0713  Finance Office: Natrotru budget increased by $15K.
+#0714  Finance Office: Withdraw update #0127.
+#0715  Sales update: Natrotru site visit confirmed for Thursday.
+#0716  Vendor call: Sounds like Natrotru gets $206K less.
+#0717  Legal email: Heard Natrotru's budget is now $920K.
+#0718  Finance Office: Natrotru budget decreased by $85K.
+#0719  Engineering email: Natrotru budget is going up by $347K.
+#0720  PMO note: Natrotru kickoff moved to Building 5.
+#0721  PMO note: Heard Natrotru's budget is now $1260K.
+#0722  Finance Office: Natrotru budget decreased by $20K.
+#0723  Finance Office: Withdraw update #0321; it was entered in error.
+#0724  Sales update: Natrotru budget is going to $990K.
+#0725  Sales update: Natrotru budget should land at $830K.
+#0726  Finance Office: Withdraw update #0413; it was entered in error.
+#0727  Finance Office: Natrotru budget decreased by $20K.
+#0728  Finance Office: Natrotru budget decreased by $45K after review.
+#0729  Vendor call: Natrotru documentation moved to the shared drive.
+#0730  Finance Office: Natrotru budget decreased by $503K.
+#0731  PMO note: Natrotru design review moved to Room 5D.
+#0732  Finance Office: Natrotru budget increased by $421K per the revised plan.
+#0733  Operations chat: Hearing Natrotru's budget goes up $418K.
+#0734  Engineering email: Pretty sure Natrotru's budget is $1570K now.
+#0735  Marketing email: Pretty sure Natrotru's budget is $1560K now.
+#0736  Marketing email: Natrotru design review moved to Room 5A.
+#0737  Finance Office: Withdraw update #0384.
+#0738  Finance Office: Withdraw update #0204; it was entered in error.
+#0739  Finance Office: Natrotru budget increased by $338K per the revised plan.
+#0740  Finance Office: Natrotru budget increased by $25K after review.
+#0741  Marketing email: Natrotru budget should land at $1080K.
+#0742  Finance Office: Natrotru budget increased by $120K per the revised plan.
+#0743  Finance Office: Natrotru budget decreased by $145K per the revised plan.
+#0744  Finance Office: Withdraw update #0307.
+#0745  Finance Office: Natrotru budget decreased by $10K.
+#0746  Finance Office: Natrotru budget decreased by $150K after review.
+#0747  Finance Office: Natrotru budget increased by $60K.
+#0748  Finance Office: Natrotru budget decreased by $30K per the revised plan.
+#0749  Finance Office: Natrotru budget increased by $15K after review.
+#0750  PMO note: Natrotru vendor onboarding call scheduled for Friday.
+#0751  Operations chat: Natrotru budget is going up by $504K.
+#0752  Vendor call: Heard Natrotru's budget is now $1880K.
+#0753  Finance Office: Natrotru budget increased by $49K per the revised plan.
+#0754  Sales update: Natrotru budget is going to $1140K.
+#0755  Finance Office: Withdraw update #0341; it was entered in error.
+#0756  Finance Office: Natrotru budget decreased by $125K.
+#0757  Finance Office: Natrotru budget increased by $50K after review.
+#0758  Finance Office: Withdraw update #0663.
+#0759  Finance Office: Natrotru budget increased by $150K after review.
+#0760  Finance Office: Withdraw update #0338; it was entered in error.
+#0761  Finance Office: Natrotru budget increased by $105K per the revised plan.
+#0762  Finance Office: Withdraw update #0152; it was entered in error.
+#0763  Finance Office: Withdraw update #0329.
+#0764  Engineering email: Natrotru budget should land at $1270K.
+#0765  Finance Office: Withdraw update #0430; it was entered in error.
+#0766  Finance Office: Withdraw update #0481.
+#0767  Finance Office: Natrotru budget increased by $35K per the revised plan.
+#0768  Vendor call: Natrotru status report filed for week 29.
+#0769  Marketing email: Pretty sure Natrotru's budget is $510K now.
+#0770  Vendor call: Natrotru demo rescheduled to Tuesday afternoon.
+#0771  Facilities ticket: Natrotru budget is going up by $183K.
+#0772  PMO note: Pretty sure Natrotru's budget is $530K now.
+#0773  Engineering email: Heard Natrotru's budget is now $390K.
+#0774  Finance Office: Natrotru budget decreased by $135K after review.
+#0775  Facilities ticket: Sounds like Natrotru gets $84K more.
+#0776  Finance Office: Natrotru budget increased by $287K per the revised plan.
+#0777  Finance Office: Withdraw update #0712.
+#0778  Finance Office: Natrotru finance review moved to Room 3A.
+#0779  Finance Office: Natrotru budget increased by $35K after review.
+#0780  Engineering email: Natrotru design review moved to Room 4A.
+#0781  Finance Office: Withdraw update #0285.
+#0782  Finance Office: Natrotru budget increased by $20K.
+#0783  Finance Office: Natrotru budget decreased by $10K per the revised plan.
+#0784  Finance Office: Natrotru budget increased by $436K after review.
+#0785  Marketing email: Natrotru security review passed.
+#0786  Finance Office: Natrotru budget increased by $145K per the revised plan.
+#0787  Finance Office: Withdraw update #0762; it was entered in error.
+#0788  Facilities ticket: Natrotru demo rescheduled to Tuesday afternoon.
+#0789  Finance Office: Natrotru budget increased by $150K after review.
+#0790  Marketing email: Sounds like Natrotru gets $37K less.
+#0791  Finance Office: Natrotru budget increased by $140K after review.
+#0792  Finance Office: Natrotru budget increased by $80K after review.
+#0793  Finance Office: Natrotru budget increased by $120K per the revised plan.
+#0794  Finance Office: Natrotru budget increased by $100K after review.
+#0795  Engineering email: Natrotru budget should land at $2800K.
+#0796  Sales update: Sounds like Natrotru gets $96K more.
+#0797  Finance Office: Natrotru budget decreased by $15K per the revised plan.
+#0798  Finance Office: Reminder: Natrotru expense reports are due Monday.
+#0799  Finance Office: Withdraw update #0238; it was entered in error.
+#0800  Operations chat: Sounds like Natrotru gets $6K less.
+#0801  Finance Office: Withdraw update #0776; it was entered in error.
+#0802  Finance Office: Natrotru budget decreased by $150K after review.
+#0803  Finance Office: Withdraw update #0553; it was entered in error.
+#0804  Finance Office: Natrotru budget decreased by $33K.
+#0805  Finance Office: Natrotru audit notes filed.
+#0806  Finance Office: Natrotru budget increased by $80K per the revised plan.
+#0807  Finance Office: Natrotru budget decreased by $579K per the revised plan.
+#0808  Facilities ticket: Natrotru budget is going to $1520K.
+#0809  Finance Office: Natrotru budget increased by $50K.
+#0810  Marketing email: Natrotru site visit confirmed for Friday.
+#0811  Finance Office: Natrotru budget decreased by $5K after review.
+#0812  Vendor call: Expect Natrotru's budget to drop by $391K.
+#0813  Finance Office: Natrotru budget decreased by $559K.
+#0814  Finance Office: Natrotru budget increased by $60K after review.
+#0815  Finance Office: Natrotru budget increased by $150K.
+#0816  Finance Office: Natrotru budget decreased by $30K after review.
+#0817  Finance Office: Natrotru budget decreased by $512K after review.
+#0818  Finance Office: Natrotru budget decreased by $70K.
+#0819  Sales update: Heard Natrotru's budget is now $300K.
+#0820  Finance Office: Withdraw update #0202; it was entered in error.
+#0821  Finance Office: Natrotru budget increased by $145K after review.
+#0822  Engineering email: Natrotru site visit confirmed for Thursday.
+#0823  Sales update: Expect Natrotru's budget to drop by $343K.
+#0824  Engineering email: Expect Natrotru's budget to drop by $319K.
+#0825  Finance Office: Natrotru budget increased by $135K per the revised plan.
+#0826  Operations chat: Hearing Natrotru's budget goes down $148K.
+#0827  Finance Office: Natrotru budget increased by $75K per the revised plan.
+#0828  Finance Office: Natrotru budget increased by $95K.
+#0829  Finance Office: Natrotru budget increased by $145K per the revised plan.
+#0830  Vendor call: Sounds like Natrotru gets $249K more.
+#0831  Finance Office: Withdraw update #0337; it was entered in error.
+#0832  Sales update: Expect Natrotru's budget to rise by $351K.
+#0833  Facilities ticket: Pretty sure Natrotru's budget is $2110K now.
+#0834  Finance Office: Natrotru budget increased by $25K after review.
+#0835  Finance Office: Natrotru budget decreased by $198K after review.
+#0836  Finance Office: Natrotru budget increased by $65K.
+#0837  Finance Office: Natrotru budget decreased by $120K.
+#0838  Finance Office: Natrotru budget increased by $100K after review.
+#0839  Vendor call: Natrotru budget is going up by $447K.
+#0840  Finance Office: Natrotru budget decreased by $105K.
+#0841  Finance Office: Natrotru budget decreased by $80K per the revised plan.
+#0842  Legal email: Heard Natrotru's budget is now $1370K.
+#0843  Marketing email: Heard Natrotru's budget is now $1700K.
+#0844  Finance Office: Withdraw update #0765; it was entered in error.
+#0845  Finance Office: Withdraw update #0185; it was entered in error.
+#0846  Marketing email: Pretty sure Natrotru's budget is $1460K now.
+#0847  Finance Office: Withdraw update #0382; it was entered in error.
+#0848  Finance Office: Natrotru budget decreased by $95K after review.
+#0849  Finance Office: Natrotru budget decreased by $90K after review.
+#0850  Finance Office: Natrotru budget decreased by $105K after review.
+#0851  Facilities ticket: Natrotru budget is going up to $1350K.
+#0852  PMO note: Expect Natrotru's budget to drop by $422K.
+#0853  PMO note: Natrotru sprint 41 retrospective notes posted.
+#0854  Sales update: Natrotru risk register updated with 5 new items.
+#0855  Facilities ticket: Natrotru budget is going to $1140K.
+#0856  Facilities ticket: Natrotru budget is going down by $596K.
+#0857  Finance Office: Natrotru budget increased by $65K after review.
+#0858  Finance Office: Withdraw update #0726.
+#0859  Marketing email: Natrotru budget is going down by $82K.
+#0860  Finance Office: Withdraw update #0470; it was entered in error.
+#0861  Finance Office: Natrotru budget decreased by $75K after review.
+#0862  Operations chat: Natrotru budget is going up to $1170K.
+#0863  Marketing email: Natrotru budget is going to $660K.
+#0864  Engineering email: Hearing Natrotru's budget goes up $516K.
+#0865  Finance Office: Natrotru budget decreased by $90K per the revised plan.
+#0866  Facilities ticket: Natrotru budget is going down by $56K.
+#0867  Finance Office: Natrotru budget decreased by $77K after review.
+#0868  Finance Office: Natrotru budget increased by $261K per the revised plan.
+#0869  Finance Office: Natrotru budget increased by $35K per the revised plan.
+#0870  Finance Office: Natrotru budget increased by $10K after review.
+#0871  Sales update: Natrotru budget should land at $1400K.
+#0872  Finance Office: Natrotru budget increased by $68K.
+#0873  Legal email: Sounds like Natrotru gets $493K more.
+#0874  Finance Office: Withdraw update #0624.
+#0875  Finance Office: Natrotru budget decreased by $110K per the revised plan.
+#0876  PMO note: Pretty sure Natrotru's budget is $1040K now.
+#0877  Finance Office: Natrotru budget increased by $150K.
+#0878  Finance Office: Natrotru budget increased by $35K.
+#0879  Marketing email: Hearing Natrotru's budget goes down $22K.
+#0880  Marketing email: Natrotru budget should land at $1820K.
+#0881  Finance Office: Natrotru cost center code changed to FC-7176.
+#0882  Legal email: Pretty sure Natrotru's budget is $1180K now.
+#0883  Finance Office: Withdraw update #0435; it was entered in error.
+#0884  Legal email: Natrotru kickoff moved to Building 4.
+#0885  Finance Office: Withdraw update #0195.
+#0886  Finance Office: Natrotru budget increased by $90K after review.
+#0887  Finance Office: Natrotru budget decreased by $5K.
+#0888  Sales update: Expect Natrotru's budget to rise by $74K.
+#0889  Facilities ticket: Natrotru security review passed.
+#0890  Legal email: Natrotru budget is going to $440K.
+#0891  Operations chat: Sounds like Natrotru gets $94K more.
+#0892  Finance Office: Natrotru budget increased by $10K.
+#0893  Finance Office: Natrotru budget increased by $241K per the revised plan.
+#0894  Finance Office: Natrotru budget decreased by $40K after review.
+#0895  Engineering email: Natrotru budget should land at $590K.
+#0896  Finance Office: Natrotru budget increased by $150K.
+#0897  Vendor call: Natrotru budget is going to $950K.
+#0898  Finance Office: Natrotru budget decreased by $65K.
+#0899  Finance Office: Natrotru budget decreased by $20K per the revised plan.
+#0900  Vendor call: Expect Natrotru's budget to rise by $541K.
+#0901  Sales update: Sounds like Natrotru gets $173K less.
+#0902  Finance Office: Natrotru budget decreased by $75K per the revised plan.
+#0903  Finance Office: Natrotru budget decreased by $80K after review.
+#0904  Finance Office: Natrotru budget increased by $30K.
+#0905  Finance Office: Natrotru budget decreased by $95K per the revised plan.
+#0906  Finance Office: Natrotru budget increased by $103K after review.
+#0907  Finance Office: Natrotru budget decreased by $65K.
+#0908  Operations chat: Expect Natrotru's budget to drop by $93K.
+#0909  Finance Office: Natrotru budget increased by $45K.
+#0910  PMO note: Natrotru budget is going up by $12K.
+#0911  PMO note: Hearing Natrotru's budget goes down $274K.
+#0912  Finance Office: Withdraw update #0867.
+#0913  Operations chat: Natrotru risk register updated with 2 new items.
+#0914  Finance Office: Withdraw update #0145.
+#0915  Finance Office: Natrotru budget increased by $130K after review.
+#0916  Finance Office: Natrotru budget increased by $110K per the revised plan.
+#0917  Vendor call: Natrotru budget is going up to $1100K.
+#0918  Finance Office: Reminder: Natrotru expense reports are due Friday.
+#0919  Finance Office: Natrotru budget increased by $150K after review.
+#0920  Finance Office: Natrotru budget decreased by $130K.
+#0921  Finance Office: Withdraw update #0363; it was entered in error.
+#0922  PMO note: Natrotru site visit confirmed for Wednesday.
+#0923  Finance Office: Natrotru budget decreased by $50K after review.
+#0924  Facilities ticket: Sounds like Natrotru gets $423K less.
+#0925  Finance Office: Natrotru budget increased by $135K after review.
+#0926  Finance Office: Natrotru budget decreased by $120K.
+#0927  Legal email: Heard Natrotru's budget is now $710K.
+#0928  Finance Office: Withdraw update #0592; it was entered in error.
+#0929  Finance Office: Natrotru budget decreased by $145K.
+#0930  Finance Office: Withdraw update #0744.
+#0931  Engineering email: Pretty sure Natrotru's budget is $870K now.
+#0932  Finance Office: Natrotru budget decreased by $120K.
+#0933  Marketing email: Natrotru weekly sync moved to Tuesdays.
+#0934  Finance Office: Withdraw update #0784; it was entered in error.
+#0935  PMO note: Sounds like Natrotru gets $513K more.
+#0936  Finance Office: Natrotru budget increased by $50K.
+#0937  Engineering email: Natrotru budget is going down to $320K.
+#0938  Facilities ticket: Sounds like Natrotru gets $267K more.
+#0939  Finance Office: Withdraw update #0684.
+#0940  Vendor call: Pretty sure Natrotru's budget is $990K now.
+#0941  Finance Office: Natrotru budget decreased by $105K.
+#0942  Finance Office: Natrotru budget increased by $110K after review.
+#0943  Legal email: Natrotru budget should land at $910K.
+#0944  Finance Office: Natrotru budget decreased by $10K after review.
+#0945  Marketing email: Pretty sure Natrotru's budget is $890K now.
+#0946  Finance Office: Natrotru budget increased by $20K after review.
+#0947  Finance Office: Natrotru invoice batch FC-5710 archived.
+#0948  Finance Office: Natrotru budget decreased by $15K.
+#0949  Finance Office: Natrotru budget increased by $140K after review.
+#0950  Engineering email: Natrotru demo rescheduled to Monday afternoon.
+#0951  Finance Office: Natrotru budget decreased by $90K per the revised plan.
+#0952  Finance Office: Natrotru budget increased by $85K.
+#0953  Finance Office: Withdraw update #0804; it was entered in error.
+#0954  Sales update: Hearing Natrotru's budget goes down $157K.
+#0955  Finance Office: Withdraw update #0708; it was entered in error.
+#0956  Legal email: Natrotru budget should land at $1720K.
+#0957  Finance Office: Natrotru budget decreased by $251K per the revised plan.
+#0958  Facilities ticket: Heard Natrotru's budget is now $810K.
+#0959  Engineering email: Pretty sure Natrotru's budget is $920K now.
+#0960  Finance Office: Natrotru budget increased by $130K.
+#0961  Finance Office: Natrotru budget increased by $5K after review.
+#0962  Finance Office: Withdraw update #0930.
+#0963  Marketing email: Natrotru budget should land at $1680K.
+#0964  Engineering email: Natrotru budget is going up by $353K.
+#0965  Finance Office: Natrotru budget decreased by $60K per the revised plan.
+#0966  Facilities ticket: Natrotru demo rescheduled to Thursday afternoon.
+#0967  Finance Office: Natrotru budget increased by $40K per the revised plan.
+#0968  Finance Office: Natrotru budget increased by $135K.
+#0969  Sales update: Heard Natrotru's budget is now $1180K.
+#0970  Finance Office: Natrotru budget increased by $45K after review.
+#0971  Finance Office: Natrotru budget increased by $15K per the revised plan.
+#0972  Finance Office: Natrotru budget decreased by $65K per the revised plan.
+#0973  Finance Office: Natrotru budget increased by $40K after review.
+#0974  Finance Office: Natrotru budget decreased by $38K per the revised plan.
+#0975  Operations chat: Natrotru sprint 31 retrospective notes posted.
+#0976  Vendor call: Natrotru site visit confirmed for Thursday.
+#0977  Finance Office: Natrotru invoice batch FC-3500 archived.
+#0978  Sales update: Natrotru budget is going to $1420K.
+#0979  Finance Office: Natrotru budget increased by $135K per the revised plan.
+#0980  Finance Office: Withdraw update #0820; it was entered in error.
+#0981  Vendor call: Sounds like Natrotru gets $378K more.
+#0982  Finance Office: Natrotru budget decreased by $145K after review.
+#0983  Finance Office: Natrotru budget increased by $112K after review.
+#0984  Legal email: Natrotru budget is going to $1370K.
+#0985  PMO note: Hearing Natrotru's budget goes up $146K.
+#0986  Finance Office: Natrotru budget decreased by $120K.
+#0987  Facilities ticket: Natrotru budget should land at $1260K.
+#0988  Finance Office: Natrotru budget decreased by $60K per the revised plan.
+#0989  Legal email: Pretty sure Natrotru's budget is $690K now.
+#0990  Finance Office: Natrotru budget decreased by $105K per the revised plan.
+#0991  Vendor call: Heard Natrotru's budget is now $1100K.
+#0992  Finance Office: Withdraw update #0485.
+#0993  PMO note: Natrotru kickoff moved to Building 6.
+#0994  Finance Office: Natrotru budget increased by $45K per the revised plan.
+#0995  Finance Office: Natrotru budget increased by $120K per the revised plan.
+#0996  Finance Office: Natrotru budget decreased by $337K.
+#0997  Sales update: Hearing Natrotru's budget goes down $584K.
+#0998  Marketing email: Heard Natrotru's budget is now $1200K.
+#0999  Engineering email: Natrotru budget is going to $970K.
+#1000  Legal email: Natrotru budget is going to $1040K.
+#1001  Finance Office: Withdraw update #0331.
+#1002  Facilities ticket: Natrotru weekly sync moved to Thursdays.
+#1003  Legal email: Natrotru documentation moved to the shared drive.
+#1004  Finance Office: Natrotru budget decreased by $95K per the revised plan.
+#1005  Finance Office: Natrotru budget increased by $70K.
+#1006  Sales update: Natrotru budget is going up to $1290K.
+#1007  Finance Office: Natrotru budget increased by $50K after review.
+#1008  Vendor call: Hearing Natrotru's budget goes up $402K.
+#1009  Finance Office: Withdraw update #0516; it was entered in error.
+#1010  Marketing email: Hearing Natrotru's budget goes down $276K.
+#1011  Finance Office: Natrotru quarterly audit scheduled for Thursday.
+#1012  PMO note: Natrotru budget is going up by $476K.
+#1013  Engineering email: Natrotru budget is going up by $394K.
+#1014  Finance Office: Natrotru budget increased by $85K.
+#1015  Finance Office: Natrotru budget increased by $10K per the revised plan.
+#1016  Finance Office: Natrotru budget increased by $284K.
+#1017  Finance Office: Natrotru budget decreased by $140K after review.
+#1018  Finance Office: Withdraw update #0996; it was entered in error.
+#1019  Finance Office: Natrotru budget increased by $100K.
+#1020  Engineering email: Heard Natrotru's budget is now $2450K.
+#1021  Finance Office: Natrotru budget increased by $60K after review.
+#1022  Finance Office: Natrotru budget decreased by $150K after review.
+#1023  Finance Office: Natrotru budget decreased by $451K per the revised plan.
+#1024  Finance Office: Withdraw update #0330.
+#1025  Marketing email: Natrotru test environment back online.
+#1026  Finance Office: Natrotru budget increased by $145K per the revised plan.
+#1027  Vendor call: Natrotru budget is going to $580K.
+#1028  Legal email: Natrotru budget is going up to $910K.
+#1029  Finance Office: Natrotru budget increased by $15K after review.
+#1030  Finance Office: Natrotru budget increased by $140K after review.
+#1031  Finance Office: Withdraw update #1001; it was entered in error.
+#1032  Finance Office: Natrotru budget decreased by $50K.
+#1033  Finance Office: Natrotru budget increased by $479K per the revised plan.
+#1034  Finance Office: Natrotru budget decreased by $85K.
+#1035  Finance Office: Natrotru budget decreased by $5K per the revised plan.
+#1036  Operations chat: Expect Natrotru's budget to drop by $296K.
+#1037  Finance Office: Natrotru budget decreased by $150K.
+#1038  Finance Office: Natrotru budget decreased by $135K per the revised plan.
+#1039  Facilities ticket: Natrotru budget is going down by $297K.
+#1040  Finance Office: Natrotru budget decreased by $145K after review.
+#1041  Finance Office: Natrotru budget increased by $70K per the revised plan.
+#1042  Operations chat: Sounds like Natrotru gets $272K more.
+#1043  Finance Office: Withdraw update #0730.
+#1044  Finance Office: Withdraw update #0638.
+#1045  Finance Office: Withdraw update #0011.
+#1046  Finance Office: Natrotru budget increased by $60K after review.
+#1047  Facilities ticket: Hearing Natrotru's budget goes up $132K.
+#1048  Finance Office: Withdraw update #0928; it was entered in error.
+#1049  PMO note: Sounds like Natrotru gets $431K more.
+#1050  Finance Office: Natrotru budget increased by $135K after review.
+#1051  Finance Office: Withdraw update #1033; it was entered in error.
+#1052  Finance Office: Withdraw update #0807; it was entered in error.
+#1053  Sales update: Expect Natrotru's budget to drop by $583K.
+#1054  PMO note: Natrotru budget is going up to $1160K.
+#1055  Finance Office: Withdraw update #0150; it was entered in error.
+#1056  Finance Office: Natrotru budget increased by $120K per the revised plan.
+#1057  Sales update: Natrotru weekly sync moved to Mondays.
+#1058  Engineering email: Expect Natrotru's budget to drop by $598K.
+#1059  Finance Office: Natrotru budget decreased by $110K.
+#1060  Finance Office: Natrotru budget decreased by $15K.
+#1061  Finance Office: Natrotru budget increased by $80K.
+#1062  Finance Office: Natrotru budget decreased by $90K after review.
+#1063  PMO note: Natrotru demo rescheduled to Tuesday afternoon.
+#1064  Operations chat: Natrotru kickoff moved to Building 3.
+#1065  Finance Office: Withdraw update #0519; it was entered in error.
+#1066  Legal email: Hearing Natrotru's budget goes up $521K.
+#1067  Finance Office: Natrotru budget increased by $100K after review.
+#1068  Legal email: Hearing Natrotru's budget goes up $151K.
+#1069  Legal email: Natrotru budget is going down by $262K.
+#1070  Facilities ticket: Natrotru budget is going up to $1340K.
+#1071  Finance Office: Natrotru budget increased by $10K.
+#1072  Sales update: Natrotru budget should land at $1340K.
+#1073  Legal email: Natrotru budget is going up by $399K.
+#1074  Finance Office: Natrotru budget increased by $130K after review.
+#1075  Operations chat: Expect Natrotru's budget to rise by $72K.
+#1076  Finance Office: Withdraw update #0523.
+#1077  Finance Office: Natrotru budget decreased by $105K.
+#1078  Finance Office: Natrotru budget decreased by $15K after review.
+#1079  Finance Office: Natrotru budget increased by $60K per the revised plan.
+#1080  Finance Office: Natrotru budget decreased by $120K per the revised plan.
+#1081  Finance Office: Natrotru budget increased by $50K.
+#1082  Finance Office: Natrotru budget decreased by $70K.
+#1083  Vendor call: Pretty sure Natrotru's budget is $750K now.
+#1084  Finance Office: Natrotru budget decreased by $100K per the revised plan.
+#1085  PMO note: Natrotru risk register updated with 6 new items.
+#1086  Finance Office: Natrotru budget decreased by $110K per the revised plan.
+#1087  Finance Office: Natrotru budget increased by $8K after review.
+#1088  Finance Office: Withdraw update #0319.
+#1089  Finance Office: Natrotru budget increased by $70K after review.
+#1090  Finance Office: Withdraw update #0122.
+#1091  Finance Office: Natrotru budget decreased by $115K per the revised plan.
+#1092  Legal email: Hearing Natrotru's budget goes down $292K.
+#1093  Finance Office: Natrotru budget decreased by $130K per the revised plan.
+#1094  Finance Office: Natrotru budget decreased by $145K after review.
+#1095  Finance Office: Withdraw update #0267.
+#1096  Finance Office: Natrotru budget decreased by $100K.
+#1097  Finance Office: Natrotru budget increased by $70K after review.
+#1098  Operations chat: Natrotru budget is going down to $820K.
+#1099  Vendor call: Pretty sure Natrotru's budget is $1090K now.
+#1100  Finance Office: Natrotru budget decreased by $145K per the revised plan.
+#1101  Finance Office: Natrotru budget increased by $243K after review.
+#1102  Operations chat: Heard Natrotru's budget is now $780K.
+#1103  Vendor call: Natrotru risk register updated with 9 new items.
+#1104  Finance Office: Natrotru budget increased by $115K.
+#1105  PMO note: Natrotru budget is going down by $546K.
+#1106  Finance Office: Natrotru budget decreased by $145K.
+#1107  Finance Office: Withdraw update #0092.
+#1108  Finance Office: Withdraw update #0590; it was entered in error.
+#1109  PMO note: Sounds like Natrotru gets $162K less.
+#1110  Legal email: Natrotru budget is going to $1100K.
+#1111  Operations chat: Natrotru status report filed for week 19.
+#1112  Finance Office: Withdraw update #1055.
+#1113  Finance Office: Natrotru budget increased by $5K per the revised plan.
+#1114  Legal email: Pretty sure Natrotru's budget is $520K now.
+#1115  Finance Office: Natrotru budget increased by $282K after review.
+#1116  Finance Office: Natrotru budget decreased by $60K.
+#1117  PMO note: Natrotru budget is going down by $407K.
+#1118  Finance Office: Natrotru budget increased by $15K per the revised plan.
+#1119  Finance Office: Natrotru budget decreased by $145K per the revised plan.
+#1120  Finance Office: Withdraw update #0237.
+#1121  Marketing email: Expect Natrotru's budget to rise by $161K.
+#1122  Engineering email: Natrotru budget is going down by $253K.
+#1123  Operations chat: Natrotru budget is going to $1510K.
+#1124  Finance Office: Withdraw update #0753.
+#1125  Legal email: Sounds like Natrotru gets $487K more.
+#1126  Finance Office: Natrotru budget increased by $85K per the revised plan.
+#1127  Vendor call: Hearing Natrotru's budget goes up $244K.
+#1128  Finance Office: Natrotru invoice batch FC-4287 archived.
+#1129  PMO note: Natrotru weekly sync moved to Tuesdays.
+#1130  Finance Office: Withdraw update #0603; it was entered in error.
+#1131  Finance Office: Natrotru budget increased by $30K.
+#1132  Sales update: Heard Natrotru's budget is now $440K.
+#1133  Finance Office: Natrotru budget increased by $75K after review.
+#1134  Operations chat: Hearing Natrotru's budget goes up $569K.
+#1135  Finance Office: Natrotru budget increased by $110K.
+#1136  Finance Office: Natrotru budget increased by $15K.
+#1137  Finance Office: Withdraw update #0868.
+#1138  Finance Office: Withdraw update #0632.
+#1139  Marketing email: Natrotru budget is going to $1190K.
+#1140  Legal email: Heard Natrotru's budget is now $1050K.
+#1141  Finance Office: Withdraw update #1087.
+#1142  Finance Office: Natrotru budget decreased by $10K.
+#1143  Finance Office: Natrotru budget decreased by $70K after review.
+#1144  Finance Office: Withdraw update #0649; it was entered in error.
+#1145  Marketing email: Natrotru weekly sync moved to Mondays.
+#1146  Finance Office: Withdraw update #0180.
+#1147  Finance Office: Natrotru receipts scanned.
+#1148  Finance Office: Natrotru finance review moved to Room 1A.
+#1149  Finance Office: Natrotru budget decreased by $45K after review.
+#1150  Facilities ticket: Natrotru budget is going up by $549K.
+#1151  Engineering email: Heard Natrotru's budget is now $1130K.
+#1152  Marketing email: Sounds like Natrotru gets $181K more.
+#1153  Finance Office: Natrotru budget decreased by $144K per the revised plan.
+#1154  PMO note: Expect Natrotru's budget to rise by $481K.
+#1155  Operations chat: Natrotru budget is going up to $1340K.
+#1156  Finance Office: Natrotru budget decreased by $55K after review.
+#1157  Finance Office: Natrotru finance review moved to Room 6C.
+#1158  Facilities ticket: Natrotru budget is going up by $381K.
+#1159  Finance Office: Natrotru invoice batch FC-7014 archived.
+#1160  Finance Office: Natrotru budget increased by $111K after review.
+#1161  Finance Office: Withdraw update #0076.
+#1162  Finance Office: Natrotru budget increased by $85K per the revised plan.
+#1163  Operations chat: Sounds like Natrotru gets $537K less.
+#1164  Finance Office: Natrotru budget increased by $140K after review.
+#1165  PMO note: Sounds like Natrotru gets $334K more.
+#1166  Finance Office: Natrotru budget increased by $90K per the revised plan.
+#1167  Finance Office: Natrotru budget decreased by $5K.
+#1168  PMO note: Natrotru budget should land at $1310K.
+#1169  Vendor call: Natrotru budget is going down to $1700K.
+#1170  Finance Office: Natrotru budget increased by $65K per the revised plan.
+#1171  Finance Office: Natrotru budget decreased by $145K per the revised plan.
+#1172  Finance Office: Withdraw update #0469; it was entered in error.
+#1173  Engineering email: Natrotru site visit confirmed for Tuesday.
+#1174  Finance Office: Withdraw update #0167.
+#1175  Finance Office: Natrotru budget decreased by $30K after review.
+#1176  Finance Office: Natrotru budget decreased by $130K after review.
+#1177  Finance Office: Natrotru budget decreased by $125K after review.
+#1178  Sales update: Natrotru budget is going to $1090K.
+#1179  Finance Office: Natrotru budget decreased by $55K after review.
+#1180  Finance Office: Natrotru budget decreased by $135K after review.
+#1181  Finance Office: Natrotru budget decreased by $145K.
+#1182  Legal email: Natrotru security review passed.
+#1183  Legal email: Natrotru demo rescheduled to Thursday afternoon.
+#1184  Finance Office: Natrotru receipts scanned.
+#1185  Finance Office: Withdraw update #1043.
+#1186  Finance Office: Natrotru budget increased by $125K per the revised plan.
+#1187  Engineering email: Natrotru kickoff moved to Building 2.
+#1188  Finance Office: Natrotru budget decreased by $125K.
+#1189  Finance Office: Natrotru budget increased by $140K per the revised plan.
+#1190  Finance Office: Natrotru budget increased by $85K.
+#1191  Finance Office: Withdraw update #0835.
+#1192  Vendor call: Natrotru budget should land at $590K.
+#1193  PMO note: Natrotru budget is going to $680K.
+#1194  Finance Office: Natrotru budget increased by $95K after review.
+#1195  Operations chat: Heard Natrotru's budget is now $940K.
+#1196  Finance Office: Natrotru audit notes filed.
+#1197  Marketing email: Natrotru budget should land at $720K.
+#1198  Marketing email: Hearing Natrotru's budget goes up $133K.
+#1199  Finance Office: Natrotru budget increased by $75K per the revised plan.
+#1200  Finance Office: Natrotru budget decreased by $90K after review.
+#1201  Finance Office: Natrotru budget increased by $100K per the revised plan.
+#1202  PMO note: Hearing Natrotru's budget goes up $89K.
+#1203  Finance Office: Withdraw update #0348.
+#1204  Engineering email: Natrotru site visit confirmed for Monday.
+#1205  Operations chat: Natrotru budget is going down to $650K.
+#1206  Finance Office: Natrotru budget increased by $65K per the revised plan.
+#1207  Vendor call: Expect Natrotru's budget to rise by $498K.
+#1208  Sales update: Natrotru budget is going down to $810K.
+#1209  Operations chat: Natrotru budget should land at $980K.
+#1210  Finance Office: Natrotru budget increased by $20K.
+#1211  Finance Office: Natrotru budget decreased by $10K per the revised plan.
+#1212  Finance Office: Natrotru budget increased by $25K after review.
+#1213  Finance Office: Natrotru receipts scanned.
+#1214  PMO note: Expect Natrotru's budget to rise by $2K.
+#1215  PMO note: Natrotru budget is going down to $810K.
+#1216  Finance Office: Withdraw update #1115; it was entered in error.
+#1217  Finance Office: Natrotru budget decreased by $70K.
+#1218  Finance Office: Natrotru budget increased by $25K after review.
+#1219  Operations chat: Natrotru budget is going to $770K.
+#1220  Finance Office: Natrotru budget increased by $35K per the revised plan.
+#1221  Finance Office: Natrotru budget increased by $75K.
+#1222  Finance Office: Natrotru budget increased by $105K per the revised plan.
+#1223  Finance Office: Withdraw update #0335; it was entered in error.
+#1224  Legal email: Sounds like Natrotru gets $252K less.
+#1225  Finance Office: Natrotru budget increased by $35K after review.
+#1226  Finance Office: Natrotru budget increased by $35K per the revised plan.
+#1227  Vendor call: Expect Natrotru's budget to rise by $408K.
+#1228  Finance Office: Natrotru budget decreased by $110K.
+#1229  Finance Office: Natrotru budget decreased by $90K per the revised plan.
+#1230  PMO note: Hearing Natrotru's budget goes up $139K.
+#1231  Finance Office: Natrotru budget increased by $45K after review.
+#1232  Engineering email: Heard Natrotru's budget is now $500K.
+#1233  Finance Office: Withdraw update #0013; it was entered in error.
+#1234  Finance Office: Withdraw update #0974.
+#1235  Finance Office: Natrotru budget decreased by $65K after review.
+#1236  PMO note: Sounds like Natrotru gets $404K more.
+#1237  Finance Office: Natrotru budget decreased by $5K.
+#1238  Finance Office: Natrotru budget decreased by $120K.
+#1239  Finance Office: Natrotru budget increased by $80K per the revised plan.
+#1240  Finance Office: Withdraw update #0817; it was entered in error.
+#1241  Sales update: Hearing Natrotru's budget goes down $44K.
+#1242  Legal email: Natrotru weekly sync moved to Wednesdays.
+#1243  Finance Office: Natrotru budget increased by $110K per the revised plan.
+#1244  Finance Office: Natrotru budget decreased by $115K after review.
+#1245  Finance Office: Natrotru budget increased by $55K per the revised plan.
+#1246  Engineering email: Hearing Natrotru's budget goes up $509K.
+#1247  Finance Office: Natrotru budget decreased by $95K.
+#1248  Finance Office: Natrotru budget decreased by $85K after review.
+#1249  Finance Office: Natrotru budget increased by $10K.
+#1250  Legal email: Natrotru site visit confirmed for Tuesday.
+#1251  Finance Office: Natrotru budget increased by $65K per the revised plan.
+#1252  Operations chat: Sounds like Natrotru gets $301K less.
+#1253  Finance Office: Natrotru budget decreased by $20K after review.
+#1254  Sales update: Hearing Natrotru's budget goes up $478K.
+#1255  Finance Office: Natrotru budget increased by $55K per the revised plan.
+#1256  Finance Office: Withdraw update #0983.
+#1257  Finance Office: Natrotru budget increased by $60K after review.
+#1258  Finance Office: Natrotru budget decreased by $30K after review.
+#1259  Finance Office: Natrotru budget decreased by $65K.
+#1260  Finance Office: Natrotru budget decreased by $80K per the revised plan.
+#1261  Finance Office: Natrotru budget increased by $35K per the revised plan.
+#1262  Finance Office: Natrotru budget increased by $140K after review.
+#1263  Finance Office: Natrotru budget decreased by $20K per the revised plan.
+#1264  Sales update: Pretty sure Natrotru's budget is $1520K now.
+#1265  Facilities ticket: Natrotru budget is going to $1360K.
+#1266  Sales update: Hearing Natrotru's budget goes down $104K.
+#1267  Finance Office: Natrotru budget increased by $289K per the revised plan.
+#1268  Finance Office: Withdraw update #0625.
+#1269  Marketing email: Natrotru budget is going down by $369K.
+#1270  Finance Office: Natrotru budget decreased by $110K per the revised plan.
+#1271  PMO note: Hearing Natrotru's budget goes up $286K.
+#1272  Legal email: Natrotru weekly sync moved to Wednesdays.
+#1273  Facilities ticket: Hearing Natrotru's budget goes down $212K.
+#1274  PMO note: Sounds like Natrotru gets $71K less.
+#1275  Finance Office: Withdraw update #1023; it was entered in error.
+#1276  Finance Office: Natrotru budget increased by $35K.
+#1277  Finance Office: Withdraw update #0813.
+#1278  Finance Office: Withdraw update #0354.
+#1279  Finance Office: Natrotru budget increased by $120K.
+#1280  Finance Office: Withdraw update #1095; it was entered in error.
+#1281  Facilities ticket: Hearing Natrotru's budget goes down $486K.
+#1282  PMO note: Pretty sure Natrotru's budget is $1810K now.
+#1283  Finance Office: Natrotru purchase order FC-2063 closed.
+#1284  Finance Office: Natrotru budget decreased by $145K per the revised plan.
+#1285  Finance Office: Natrotru budget decreased by $115K after review.
+#1286  Marketing email: Natrotru budget is going up by $364K.
+#1287  PMO note: Natrotru budget is going to $1940K.
+#1288  Sales update: Natrotru status report filed for week 36.
+#1289  Finance Office: Natrotru budget decreased by $115K per the revised plan.
+#1290  Marketing email: Hearing Natrotru's budget goes up $544K.
+#1291  Finance Office: Natrotru budget decreased by $140K after review.
+#1292  Finance Office: Natrotru budget decreased by $140K per the revised plan.
+#1293  Finance Office: Natrotru budget increased by $45K after review.
+#1294  Finance Office: Withdraw update #0630; it was entered in error.
+#1295  Finance Office: Natrotru budget increased by $130K after review.
+#1296  Finance Office: Natrotru budget increased by $80K.
+#1297  Finance Office: Natrotru budget decreased by $5K after review.
+#1298  PMO note: Natrotru budget is going up to $1960K.
+#1299  Finance Office: Natrotru budget increased by $150K per the revised plan.
+#1300  Legal email: Natrotru budget should land at $1720K.
+#1301  Finance Office: Withdraw update #0123; it was entered in error.
+#1302  Sales update: Heard Natrotru's budget is now $2480K.
+#1303  Finance Office: Natrotru budget increased by $130K per the revised plan.
+#1304  Legal email: Natrotru budget should land at $1680K.
+#1305  Finance Office: Natrotru budget increased by $95K per the revised plan.
+#1306  Finance Office: Natrotru invoice batch FC-2229 archived.
+#1307  Finance Office: Natrotru budget decreased by $115K per the revised plan.
+#1308  Finance Office: Natrotru budget increased by $60K.
+#1309  Finance Office: Natrotru budget increased by $271K after review.
+#1310  Engineering email: Natrotru budget is going up to $2550K.
+#1311  Vendor call: Pretty sure Natrotru's budget is $2200K now.
+#1312  Marketing email: Natrotru budget is going down by $34K.
+#1313  Finance Office: Natrotru budget decreased by $45K.
+#1314  Facilities ticket: Expect Natrotru's budget to rise by $383K.
+#1315  Finance Office: Natrotru budget increased by $65K after review.
+#1316  Finance Office: Natrotru budget decreased by $10K per the revised plan.
+#1317  Vendor call: Natrotru budget is going up to $2800K.
+#1318  Finance Office: Natrotru budget decreased by $30K after review.
+#1319  Operations chat: Natrotru budget is going up to $2590K.
+#1320  Finance Office: Withdraw update #1124.
+#1321  Finance Office: Natrotru budget decreased by $20K.
+#1322  Finance Office: Natrotru budget decreased by $90K per the revised plan.
+#1323  Finance Office: Natrotru budget decreased by $55K per the revised plan.
+#1324  Sales update: Natrotru sprint 31 retrospective notes posted.
+#1325  Finance Office: Withdraw update #0402; it was entered in error.
+#1326  Engineering email: Natrotru budget is going up to $2800K.
+#1327  Finance Office: Natrotru budget decreased by $105K after review.
+#1328  Finance Office: Natrotru budget increased by $140K after review.
+#1329  Sales update: Natrotru budget is going to $2800K.
+#1330  PMO note: Natrotru weekly sync moved to Mondays.
+#1331  Legal email: Natrotru budget is going up to $2800K.
+#1332  Finance Office: Natrotru budget decreased by $130K.
+#1333  Finance Office: Natrotru budget increased by $85K.
+#1334  Finance Office: Natrotru budget decreased by $55K.
+#1335  Finance Office: Natrotru budget increased by $75K after review.
+#1336  Finance Office: Natrotru budget decreased by $60K after review.
+#1337  Finance Office: Natrotru budget increased by $50K per the revised plan.
+#1338  Legal email: Natrotru budget should land at $2800K.
+#1339  PMO note: Natrotru site visit confirmed for Wednesday.
+#1340  Finance Office: Natrotru budget decreased by $85K per the revised plan.
+#1341  Legal email: Expect Natrotru's budget to drop by $17K.
+#1342  Finance Office: Natrotru budget increased by $30K.
+#1343  Finance Office: Natrotru budget increased by $120K per the revised plan.
+#1344  Finance Office: Withdraw update #1107.
+#1345  Legal email: Natrotru weekly sync moved to Wednesdays.
+#1346  Finance Office: Natrotru budget decreased by $35K per the revised plan.
+#1347  Facilities ticket: Natrotru budget is going to $1930K.
+#1348  Finance Office: Natrotru budget decreased by $145K per the revised plan.
+#1349  Legal email: Natrotru vendor onboarding call scheduled for Friday.
+#1350  Engineering email: Sounds like Natrotru gets $277K less.
+#1351  Finance Office: Natrotru cost center code changed to FC-6573.
+#1352  Marketing email: Natrotru vendor onboarding call scheduled for Friday.
+#1353  Finance Office: Natrotru budget decreased by $95K per the revised plan.
+#1354  Finance Office: Natrotru budget decreased by $110K after review.
+#1355  Finance Office: Natrotru budget decreased by $115K per the revised plan.
+#1356  Finance Office: Natrotru budget decreased by $10K per the revised plan.
+#1357  Finance Office: Natrotru budget increased by $40K after review.
+#1358  Finance Office: Natrotru budget increased by $105K per the revised plan.
+#1359  Operations chat: Expect Natrotru's budget to drop by $153K.
+#1360  Finance Office: Withdraw update #0436; it was entered in error.
+#1361  Engineering email: Pretty sure Natrotru's budget is $1940K now.
+#1362  Finance Office: Withdraw update #0328; it was entered in error.
+#1363  Finance Office: Natrotru budget decreased by $45K.
+#1364  Finance Office: Withdraw update #0499.
+#1365  Finance Office: Withdraw update #0518.
+#1366  Facilities ticket: Natrotru weekly sync moved to Fridays.
+#1367  Engineering email: Natrotru budget is going down to $1780K.
+#1368  Finance Office: Natrotru budget decreased by $55K after review.
+#1369  Finance Office: Withdraw update #0844; it was entered in error.
+#1370  Finance Office: Natrotru budget increased by $55K.
+#1371  Finance Office: Natrotru budget decreased by $85K per the revised plan.
+#1372  Operations chat: Natrotru budget is going down by $502K.
+#1373  Finance Office: Withdraw update #0654.
+#1374  Finance Office: Natrotru budget increased by $35K.
+#1375  Marketing email: Natrotru budget is going down by $484K.
+#1376  Finance Office: Withdraw update #0737.
+#1377  Finance Office: Natrotru budget increased by $85K after review.
+#1378  Operations chat: Hearing Natrotru's budget goes down $412K.
+#1379  Finance Office: Withdraw update #0380.
+#1380  Engineering email: Expect Natrotru's budget to drop by $457K.
+#1381  Finance Office: Natrotru budget increased by $10K after review.
+#1382  Vendor call: Natrotru budget is going down by $247K.
+#1383  Finance Office: Natrotru budget increased by $85K per the revised plan.
+#1384  Finance Office: Withdraw update #1144.
+#1385  PMO note: Expect Natrotru's budget to rise by $213K.
+#1386  Operations chat: Sounds like Natrotru gets $258K more.
+#1387  Finance Office: Withdraw update #0115.
+#1388  Finance Office: Natrotru budget decreased by $135K after review.
+#1389  Finance Office: Natrotru budget decreased by $10K after review.
+#1390  Finance Office: Natrotru budget decreased by $120K per the revised plan.
+#1391  Finance Office: Natrotru budget increased by $135K per the revised plan.
+#1392  Vendor call: Natrotru budget is going up to $2800K.
+#1393  Finance Office: Natrotru budget decreased by $85K after review.
+#1394  Finance Office: Natrotru budget decreased by $95K per the revised plan.
+#1395  Marketing email: Natrotru budget is going down by $551K.
+#1396  Finance Office: Natrotru receipts scanned.
+#1397  Finance Office: Natrotru budget decreased by $145K after review.
+#1398  Facilities ticket: Hearing Natrotru's budget goes down $417K.
+#1399  Operations chat: Hearing Natrotru's budget goes up $326K.
+#1400  Finance Office: Natrotru budget increased by $75K.
+#1401  Finance Office: Natrotru budget increased by $100K.
+#1402  Finance Office: Natrotru budget increased by $120K.
+#1403  Finance Office: Withdraw update #0739.
+#1404  Engineering email: Expect Natrotru's budget to drop by $78K.
+#1405  Facilities ticket: Natrotru budget is going down by $572K.
+#1406  Finance Office: Withdraw update #1101; it was entered in error.
+#1407  Finance Office: Withdraw update #1160.
+#1408  Finance Office: Natrotru budget increased by $5K.
+#1409  Sales update: Heard Natrotru's budget is now $2280K.
+#1410  Finance Office: Natrotru budget increased by $80K.
+#1411  Vendor call: Hearing Natrotru's budget goes down $189K.
+#1412  Finance Office: Withdraw update #1234; it was entered in error.
+#1413  Finance Office: Natrotru budget decreased by $105K after review.
+#1414  Marketing email: Natrotru risk register updated with 7 new items.
+#1415  Finance Office: Natrotru budget decreased by $70K per the revised plan.
+#1416  Sales update: Expect Natrotru's budget to drop by $86K.
+#1417  Finance Office: Withdraw update #0230; it was entered in error.
+#1418  Marketing email: Pretty sure Natrotru's budget is $1080K now.
+#1419  Finance Office: Withdraw update #1065.
+#1420  Finance Office: Natrotru budget decreased by $105K after review.
+#1421  Sales update: Natrotru budget is going down to $1210K.
+#1422  Finance Office: Natrotru budget decreased by $70K per the revised plan.
+#1423  Finance Office: Natrotru budget increased by $95K.
+#1424  Finance Office: Natrotru budget increased by $150K after review.
+#1425  Finance Office: Natrotru quarterly audit scheduled for Tuesday.
+#1426  Marketing email: Natrotru demo rescheduled to Tuesday afternoon.
+#1427  Finance Office: Natrotru budget decreased by $105K after review.
+#1428  Marketing email: Pretty sure Natrotru's budget is $1840K now.
+#1429  Legal email: Natrotru budget should land at $1440K.
+#1430  Finance Office: Natrotru budget increased by $25K per the revised plan.
+#1431  Marketing email: Natrotru budget is going up to $1960K.
+#1432  Finance Office: Natrotru budget increased by $20K after review.
+#1433  PMO note: Natrotru budget is going to $1390K.
+#1434  Finance Office: Natrotru budget increased by $130K per the revised plan.
+#1435  Finance Office: Natrotru budget increased by $40K per the revised plan.
+#1436  Finance Office: Natrotru budget decreased by $65K.
+#1437  Finance Office: Natrotru budget increased by $45K.
+#1438  Finance Office: Natrotru budget increased by $25K after review.
+#1439  Finance Office: Natrotru budget increased by $90K per the revised plan.
+#1440  Finance Office: Withdraw update #0685; it was entered in error.
+#1441  Finance Office: Natrotru audit notes filed.
+#1442  Engineering email: Natrotru budget is going to $2760K.
+#1443  Legal email: Natrotru budget is going up by $273K.
+#1444  Finance Office: Natrotru budget increased by $55K per the revised plan.
+#1445  Finance Office: Natrotru budget decreased by $105K.
+#1446  Finance Office: Natrotru budget decreased by $30K per the revised plan.
+#1447  Facilities ticket: Natrotru design review moved to Room 1A.
+#1448  Sales update: Sounds like Natrotru gets $288K less.
+#1449  Finance Office: Withdraw update #0221; it was entered in error.
+#1450  Finance Office: Natrotru budget increased by $85K after review.
+#1451  Finance Office: Natrotru budget decreased by $75K after review.
+#1452  Finance Office: Natrotru budget increased by $55K.
+#1453  Finance Office: Withdraw update #1216; it was entered in error.
+#1454  Vendor call: Natrotru budget is going to $1750K.
+#1455  Marketing email: Natrotru budget is going up to $2700K.
+#1456  Finance Office: Natrotru budget decreased by $115K after review.
+#1457  Finance Office: Natrotru budget increased by $20K.
+#1458  Finance Office: Natrotru budget decreased by $120K.
+#1459  Finance Office: Natrotru budget decreased by $140K per the revised plan.
+#1460  Finance Office: Natrotru budget decreased by $90K.
+#1461  Facilities ticket: Hearing Natrotru's budget goes down $13K.
+#1462  Finance Office: Natrotru budget increased by $130K per the revised plan.
+#1463  Finance Office: Natrotru budget increased by $115K per the revised plan.
+#1464  Finance Office: Withdraw update #1016; it was entered in error.
+#1465  Engineering email: Natrotru weekly sync moved to Fridays.
+#1466  Sales update: Natrotru budget is going down to $1720K.
+#1467  Finance Office: Natrotru budget increased by $35K per the revised plan.
+#1468  Finance Office: Natrotru budget decreased by $10K after review.
+#1469  Finance Office: Withdraw update #0893.
+#1470  PMO note: Expect Natrotru's budget to drop by $471K.
+#1471  Finance Office: Natrotru budget decreased by $25K per the revised plan.
+#1472  PMO note: Natrotru weekly sync moved to Fridays.
+#1473  Engineering email: Natrotru design review moved to Room 1B.
+#1474  Finance Office: Natrotru budget decreased by $60K per the revised plan.
+#1475  Finance Office: Natrotru budget increased by $150K per the revised plan.
+#1476  Finance Office: Natrotru budget decreased by $65K after review.
+#1477  Vendor call: Natrotru budget is going up to $1580K.
+#1478  Marketing email: Hearing Natrotru's budget goes down $64K.
+#1479  Finance Office: Natrotru budget decreased by $25K.
+#1480  Finance Office: Natrotru budget decreased by $110K after review.
+#1481  Marketing email: Heard Natrotru's budget is now $1610K.
+#1482  Sales update: Natrotru budget is going up to $1860K.
+#1483  Sales update: Natrotru budget is going to $1930K.
+#1484  Finance Office: Natrotru budget decreased by $40K.
+#1485  Facilities ticket: Expect Natrotru's budget to rise by $324K.
+#1486  Legal email: Natrotru status report filed for week 16.
+#1487  Facilities ticket: Natrotru budget should land at $1490K.
+#1488  Finance Office: Natrotru budget increased by $55K after review.
+#1489  Finance Office: Natrotru budget decreased by $90K after review.
+#1490  Finance Office: Natrotru budget increased by $60K per the revised plan.
+#1491  Vendor call: Heard Natrotru's budget is now $1270K.
+#1492  Finance Office: Withdraw update #1360; it was entered in error.
+#1493  Finance Office: Withdraw update #0579; it was entered in error.
+#1494  Finance Office: Natrotru budget decreased by $444K after review.
+#1495  Finance Office: Withdraw update #0801.
+#1496  Vendor call: Pretty sure Natrotru's budget is $1880K now.
+#1497  Finance Office: Natrotru budget increased by $45K.
+#1498  Finance Office: Natrotru budget increased by $40K per the revised plan.
+#1499  Finance Office: Natrotru budget decreased by $105K.
+#1500  Finance Office: Natrotru invoice batch FC-8990 archived.
+#1501  Finance Office: Natrotru budget increased by $120K after review.
+#1502  Finance Office: Withdraw update #0732.
+#1503  Engineering email: Natrotru budget is going down by $32K.
+#1504  Legal email: Natrotru budget is going up to $1420K.
+#1505  Facilities ticket: Natrotru budget is going to $970K.
+#1506  Finance Office: Natrotru budget decreased by $105K.
+#1507  Finance Office: Withdraw update #0953; it was entered in error.
+#1508  Finance Office: Withdraw update #0602.
+#1509  Finance Office: Withdraw update #1494.
+#1510  Facilities ticket: Natrotru budget is going to $1900K.
+#1511  Sales update: Expect Natrotru's budget to rise by $238K.
+#1512  Vendor call: Natrotru budget should land at $1000K.
+#1513  Engineering email: Hearing Natrotru's budget goes up $171K.
+#1514  Legal email: Expect Natrotru's budget to rise by $58K.
+#1515  Finance Office: Natrotru budget increased by $50K per the revised plan.
+#1516  Marketing email: Natrotru documentation moved to the shared drive.
+#1517  Finance Office: Withdraw update #1267; it was entered in error.
+#1518  Engineering email: Natrotru security review passed.
+#1519  Finance Office: Natrotru budget decreased by $90K.
+#1520  Marketing email: Natrotru budget is going up by $403K.
+#1521  Finance Office: Withdraw update #0957.
+#1522  Finance Office: Natrotru purchase order FC-7128 closed.
+#1523  Finance Office: Natrotru budget increased by $5K.
+#1524  Operations chat: Pretty sure Natrotru's budget is $1210K now.
+#1525  Finance Office: Natrotru receipts scanned.
+#1526  Finance Office: Withdraw update #1309.
+#1527  Facilities ticket: Sounds like Natrotru gets $543K more.
+#1528  Operations chat: Pretty sure Natrotru's budget is $1260K now.
+#1529  Marketing email: Natrotru site visit confirmed for Thursday.
+#1530  Finance Office: Natrotru budget increased by $140K.
+#1531  PMO note: Sounds like Natrotru gets $234K more.
+#1532  Legal email: Expect Natrotru's budget to rise by $452K.
+#1533  Finance Office: Withdraw update #0188.
+#1534  Finance Office: Natrotru budget increased by $100K per the revised plan.
+#1535  Finance Office: Natrotru budget increased by $25K after review.
+#1536  Facilities ticket: Natrotru vendor onboarding call scheduled for Wednesday.
+#1537  Finance Office: Natrotru budget decreased by $65K per the revised plan.
+#1538  Sales update: Heard Natrotru's budget is now $470K.
+#1539  Finance Office: Natrotru budget increased by $110K after review.
+#1540  Finance Office: Withdraw update #0872; it was entered in error.
+#1541  Finance Office: Natrotru budget increased by $130K after review.
+#1542  Engineering email: Natrotru kickoff moved to Building 5.
+#1543  Facilities ticket: Pretty sure Natrotru's budget is $1070K now.
+#1544  Operations chat: Natrotru budget is going up to $1040K.
+#1545  Sales update: Natrotru demo rescheduled to Tuesday afternoon.
+#1546  Engineering email: Pretty sure Natrotru's budget is $1040K now.
+#1547  Finance Office: Natrotru budget decreased by $120K per the revised plan.
+#1548  Finance Office: Natrotru budget decreased by $140K after review.
+#1549  Operations chat: Pretty sure Natrotru's budget is $710K now.
+#1550  Vendor call: Natrotru budget is going up by $458K.
+#1551  Finance Office: Natrotru budget increased by $15K per the revised plan.
+#1552  Vendor call: Heard Natrotru's budget is now $510K.
+#1553  Marketing email: Heard Natrotru's budget is now $690K.
+#1554  Finance Office: Natrotru budget decreased by $115K.
+#1555  PMO note: Natrotru budget is going up to $520K.
+#1556  Finance Office: Natrotru budget decreased by $45K after review.
+#1557  Finance Office: Natrotru budget increased by $150K.
+#1558  Finance Office: Natrotru budget decreased by $120K per the revised plan.
+#1559  PMO note: Hearing Natrotru's budget goes up $172K.
+#1560  Finance Office: Natrotru budget increased by $75K per the revised plan.
+#1561  Finance Office: Natrotru budget decreased by $145K after review.
+#1562  PMO note: Natrotru demo rescheduled to Tuesday afternoon.
+#1563  Finance Office: Natrotru budget increased by $85K.
+#1564  Finance Office: Natrotru budget increased by $150K per the revised plan.
+#1565  Finance Office: Natrotru budget increased by $45K.
+#1566  Finance Office: Natrotru budget increased by $5K per the revised plan.
+#1567  Operations chat: Hearing Natrotru's budget goes up $114K.
+#1568  Sales update: Pretty sure Natrotru's budget is $610K now.
+#1569  Sales update: Natrotru documentation moved to the shared drive.
+#1570  Finance Office: Natrotru budget increased by $15K after review.
+#1571  Finance Office: Natrotru budget increased by $115K.
+#1572  Finance Office: Natrotru budget increased by $95K.
+#1573  Finance Office: Natrotru budget increased by $25K.
+#1574  Finance Office: Withdraw update #0166.
+#1575  Finance Office: Withdraw update #1153; it was entered in error.
+#1576  Marketing email: Natrotru budget is going down by $174K.
+#1577  Finance Office: Natrotru receipts scanned.
+#1578  Facilities ticket: Natrotru budget is going down by $307K.
+#1579  Finance Office: Natrotru budget decreased by $95K after review.
+#1580  Finance Office: Natrotru budget decreased by $35K after review.
+#1581  Finance Office: Withdraw update #0442; it was entered in error.
+#1582  Finance Office: Natrotru budget decreased by $20K after review.
+#1583  Operations chat: Expect Natrotru's budget to drop by $387K.
+#1584  Finance Office: Reminder: Natrotru expense reports are due Thursday.
+#1585  Finance Office: Natrotru budget decreased by $15K.
+#1586  Sales update: Natrotru documentation moved to the shared drive.
+#1587  Operations chat: Natrotru budget is going up to $1550K.
+#1588  Finance Office: Natrotru budget decreased by $75K per the revised plan.
+#1589  Operations chat: Expect Natrotru's budget to rise by $67K.
+#1590  Engineering email: Natrotru budget is going to $1890K.
+#1591  Operations chat: Natrotru vendor onboarding call scheduled for Friday.
+#1592  Finance Office: Natrotru budget increased by $90K.
+#1593  Finance Office: Natrotru budget decreased by $45K after review.
+#1594  Facilities ticket: Sounds like Natrotru gets $224K more.
+#1595  Finance Office: Natrotru budget increased by $60K.
+#1596  Finance Office: Withdraw update #0906.
+#1597  Finance Office: Natrotru budget increased by $150K per the revised plan.
+#1598  Legal email: Expect Natrotru's budget to drop by $48K.
+#1599  Finance Office: Natrotru budget increased by $60K.
+#1600  Finance Office: Withdraw update #0962; it was entered in error.
+
+Question: What is Natrotru's budget now?

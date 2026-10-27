@@ -1,0 +1,63 @@
+{
+ "trial_id": "s610004_n1600_RG_none_gpt_r1",
+ "order": 79,
+ "world_id": "s610004_n1600",
+ "version": "RG",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "e7384439efa0456147ce3e31d723676fd500dc10d4d051b6d5e8a27b1d910a47",
+ "started_at": "2026-10-25T23:14:18+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "After applying only Finance Office budget changes and resolving all withdrawals, including withdrawals of withdrawals, Kagi\u2019s current budget is **$2,803K**.\n\nANSWER: $2803K",
+ "usage": {
+  "input_tokens": 28626,
+  "cached_input_tokens": 0,
+  "output_tokens": 3642,
+  "reasoning_output_tokens": 3599
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a17557-ec4e-77c3-b4f3-67c0bfec9369"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "After applying only Finance Office budget changes and resolving all withdrawals, including withdrawals of withdrawals, Kagi\u2019s current budget is **$2,803K**.\n\nANSWER: $2803K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 28626,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3642,
+     "reasoning_output_tokens": 3599
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-25T23:14:18.891783Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-25T23:14:18.892967Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-25T23:14:18.893680Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-25T23:14:18.894486Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-25T23:14:18.918471Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n"
+ },
+ "finished_at": "2026-10-25T23:15:35+00:00",
+ "elapsed_s": 77.3
+}

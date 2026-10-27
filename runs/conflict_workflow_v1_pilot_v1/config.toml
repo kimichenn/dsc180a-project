@@ -1,0 +1,38 @@
+# Fresh development pilot: 5 logs x 4 versions x 2 instructions x 10 repeats = 400 GPT calls.
+description = "Structured general conflict-resolution workflow v1 versus no skill: five fresh chronological logs, ten repeats per condition"
+
+[design]
+seed_start = 750000
+logs = 5
+versions = ["C", "R", "RG", "E"]
+instructions = ["none", "workflow_v1"]
+repeats = 10
+schedule_seed = 183
+
+[freeze.instructions]
+none = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+workflow_v1 = "c578578d54da5a03ac2c86c983b842bd1c011428bb35e8d92382e94e692aae23"
+
+[generator]
+chronological = true
+max_attempts = 500000
+records = 1600
+adjust_share = 0.45
+withdraw_share = 0.15
+gossip_share = 0.30
+nested_rate = 0.35
+relative_gossip_share = 0.5
+amount_step = 5
+amount_max = 150
+unique_amount_max = 600
+budget_min = 200
+budget_max = 3000
+
+[collection]
+timeout_seconds = 1800
+
+[models.gpt]
+provider = "codex"
+model = "gpt-6-astra"
+effort = "low"
+max_output_tokens = 32000  # Codex cannot enforce it; longer responses are flagged hit_length_limit, as for Claude

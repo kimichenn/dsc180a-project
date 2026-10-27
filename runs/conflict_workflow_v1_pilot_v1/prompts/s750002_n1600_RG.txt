@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Kregis budget set to $580K after review.
+#0002  Finance Office: Kregis budget increased by $412K per the revised plan.
+#0003  Finance Office: Kregis quarterly audit scheduled for Wednesday.
+#0004  Finance Office: Withdraw update #0002.
+#0005  Operations chat: Kregis budget is going down by $101K.
+#0006  Vendor call: Pretty sure Kregis's budget is $460K now.
+#0007  Finance Office: Withdraw update #0004; it was entered in error.
+#0008  Finance Office: Kregis budget decreased by $449K per the revised plan.
+#0009  Engineering email: Kregis budget is going down by $324K.
+#0010  Marketing email: Kregis budget is going to $440K.
+#0011  Finance Office: Kregis budget increased by $258K.
+#0012  Finance Office: Withdraw update #0011; it was entered in error.
+#0013  Sales update: Kregis site visit confirmed for Thursday.
+#0014  Finance Office: Kregis budget increased by $403K.
+#0015  Finance Office: Kregis budget decreased by $35K per the revised plan.
+#0016  Sales update: Heard Kregis's budget is now $1090K.
+#0017  Finance Office: Kregis budget decreased by $298K after review.
+#0018  Sales update: Kregis budget is going up by $531K.
+#0019  Engineering email: Hearing Kregis's budget goes up $36K.
+#0020  Engineering email: Sounds like Kregis gets $183K more.
+#0021  Finance Office: Kregis budget increased by $112K.
+#0022  Operations chat: Kregis budget should land at $860K.
+#0023  Finance Office: Withdraw update #0014.
+#0024  Finance Office: Kregis budget increased by $229K after review.
+#0025  Finance Office: Kregis budget increased by $193K after review.
+#0026  Finance Office: Withdraw update #0025; it was entered in error.
+#0027  Legal email: Kregis budget is going up by $96K.
+#0028  Finance Office: Kregis budget increased by $474K.
+#0029  Engineering email: Expect Kregis's budget to rise by $257K.
+#0030  Finance Office: Withdraw update #0012.
+#0031  PMO note: Kregis weekly sync moved to Mondays.
+#0032  Finance Office: Kregis budget decreased by $124K after review.
+#0033  Finance Office: Withdraw update #0028; it was entered in error.
+#0034  Finance Office: Kregis budget increased by $407K per the revised plan.
+#0035  Operations chat: Kregis budget is going up by $459K.
+#0036  Vendor call: Kregis vendor onboarding call scheduled for Thursday.
+#0037  Finance Office: Kregis finance review moved to Room 5B.
+#0038  Finance Office: Withdraw update #0034; it was entered in error.
+#0039  Finance Office: Withdraw update #0032; it was entered in error.
+#0040  Legal email: Expect Kregis's budget to drop by $547K.
+#0041  Finance Office: Kregis budget decreased by $353K per the revised plan.
+#0042  Legal email: Kregis budget is going to $540K.
+#0043  Finance Office: Kregis budget increased by $157K per the revised plan.
+#0044  Finance Office: Kregis purchase order FC-4153 closed.
+#0045  Finance Office: Kregis budget increased by $498K.
+#0046  Finance Office: Withdraw update #0007; it was entered in error.
+#0047  Finance Office: Kregis budget increased by $30K.
+#0048  Sales update: Pretty sure Kregis's budget is $770K now.
+#0049  Finance Office: Withdraw update #0043.
+#0050  Operations chat: Kregis budget should land at $630K.
+#0051  Finance Office: Kregis budget increased by $55K after review.
+#0052  Finance Office: Kregis budget decreased by $16K.
+#0053  Finance Office: Kregis budget increased by $113K per the revised plan.
+#0054  Finance Office: Kregis budget increased by $85K per the revised plan.
+#0055  Marketing email: Pretty sure Kregis's budget is $970K now.
+#0056  Finance Office: Kregis budget decreased by $120K per the revised plan.
+#0057  PMO note: Expect Kregis's budget to rise by $399K.
+#0058  Engineering email: Kregis site visit confirmed for Wednesday.
+#0059  Facilities ticket: Heard Kregis's budget is now $620K.
+#0060  Finance Office: Withdraw update #0017.
+#0061  Finance Office: Kregis budget decreased by $73K.
+#0062  Legal email: Kregis demo rescheduled to Tuesday afternoon.
+#0063  Sales update: Kregis budget should land at $640K.
+#0064  Finance Office: Kregis budget decreased by $150K after review.
+#0065  Finance Office: Kregis quarterly audit scheduled for Wednesday.
+#0066  Marketing email: Sounds like Kregis gets $511K more.
+#0067  Finance Office: Withdraw update #0041.
+#0068  Legal email: Kregis test environment back online.
+#0069  Finance Office: Withdraw update #0060; it was entered in error.
+#0070  Finance Office: Withdraw update #0061; it was entered in error.
+#0071  Operations chat: Kregis budget is going to $690K.
+#0072  Operations chat: Kregis budget is going down to $820K.
+#0073  Finance Office: Kregis budget decreased by $521K.
+#0074  Facilities ticket: Hearing Kregis's budget goes up $262K.
+#0075  Vendor call: Sounds like Kregis gets $539K more.
+#0076  Finance Office: Kregis finance review moved to Room 3C.
+#0077  Legal email: Heard Kregis's budget is now $350K.
+#0078  PMO note: Sounds like Kregis gets $303K more.
+#0079  Finance Office: Withdraw update #0033.
+#0080  Finance Office: Kregis budget increased by $50K per the revised plan.
+#0081  Facilities ticket: Hearing Kregis's budget goes down $84K.
+#0082  Finance Office: Kregis budget increased by $251K per the revised plan.
+#0083  Finance Office: Withdraw update #0023.
+#0084  Operations chat: Kregis status report filed for week 20.
+#0085  Finance Office: Kregis budget decreased by $90K after review.
+#0086  Finance Office: Kregis budget increased by $9K.
+#0087  Finance Office: Kregis budget decreased by $548K after review.
+#0088  Marketing email: Sounds like Kregis gets $57K more.
+#0089  Finance Office: Kregis budget increased by $91K after review.
+#0090  Engineering email: Expect Kregis's budget to drop by $264K.
+#0091  Finance Office: Kregis budget increased by $120K.
+#0092  Vendor call: Kregis weekly sync moved to Fridays.
+#0093  Facilities ticket: Kregis site visit confirmed for Monday.
+#0094  Operations chat: Kregis documentation moved to the shared drive.
+#0095  Finance Office: Withdraw update #0045; it was entered in error.
+#0096  Vendor call: Kregis kickoff moved to Building 8.
+#0097  Sales update: Kregis budget is going up by $516K.
+#0098  Marketing email: Pretty sure Kregis's budget is $480K now.
+#0099  Facilities ticket: Kregis documentation moved to the shared drive.
+#0100  Finance Office: Withdraw update #0008.
+#0101  Vendor call: Kregis demo rescheduled to Wednesday afternoon.
+#0102  Finance Office: Withdraw update #0052; it was entered in error.
+#0103  Finance Office: Withdraw update #0021; it was entered in error.
+#0104  Finance Office: Withdraw update #0024; it was entered in error.
+#0105  Finance Office: Kregis budget increased by $140K after review.
+#0106  Finance Office: Kregis budget decreased by $125K after review.
+#0107  Finance Office: Kregis budget increased by $442K per the revised plan.
+#0108  Finance Office: Kregis budget increased by $5K after review.
+#0109  Finance Office: Kregis budget decreased by $55K after review.
+#0110  Facilities ticket: Pretty sure Kregis's budget is $970K now.
+#0111  Finance Office: Withdraw update #0053.
+#0112  Finance Office: Kregis budget increased by $478K.
+#0113  Finance Office: Kregis budget increased by $411K.
+#0114  Finance Office: Withdraw update #0073.
+#0115  Sales update: Kregis sprint 15 retrospective notes posted.
+#0116  Finance Office: Kregis budget increased by $7K per the revised plan.
+#0117  Finance Office: Kregis budget decreased by $130K per the revised plan.
+#0118  Operations chat: Kregis design review moved to Room 6D.
+#0119  Finance Office: Withdraw update #0039; it was entered in error.
+#0120  Finance Office: Kregis budget decreased by $74K per the revised plan.
+#0121  Marketing email: Kregis budget is going up to $2260K.
+#0122  Finance Office: Kregis budget decreased by $135K after review.
+#0123  Finance Office: Kregis budget increased by $130K after review.
+#0124  Finance Office: Kregis budget increased by $135K.
+#0125  Sales update: Kregis sprint 29 retrospective notes posted.
+#0126  Finance Office: Withdraw update #0113.
+#0127  Finance Office: Kregis budget decreased by $70K per the revised plan.
+#0128  Finance Office: Reminder: Kregis expense reports are due Thursday.
+#0129  PMO note: Pretty sure Kregis's budget is $2280K now.
+#0130  Sales update: Kregis budget should land at $1970K.
+#0131  Finance Office: Withdraw update #0116.
+#0132  Finance Office: Kregis budget decreased by $267K.
+#0133  Finance Office: Withdraw update #0114.
+#0134  Finance Office: Kregis budget increased by $127K.
+#0135  Facilities ticket: Kregis risk register updated with 5 new items.
+#0136  Finance Office: Kregis budget decreased by $30K per the revised plan.
+#0137  Finance Office: Kregis budget increased by $90K.
+#0138  Finance Office: Kregis budget increased by $130K.
+#0139  Finance Office: Kregis budget increased by $25K per the revised plan.
+#0140  Finance Office: Withdraw update #0119; it was entered in error.
+#0141  Marketing email: Heard Kregis's budget is now $1340K.
+#0142  Marketing email: Expect Kregis's budget to rise by $236K.
+#0143  Finance Office: Kregis budget increased by $40K.
+#0144  Facilities ticket: Kregis budget should land at $1300K.
+#0145  Engineering email: Kregis security review passed.
+#0146  Finance Office: Kregis budget increased by $434K after review.
+#0147  Finance Office: Kregis budget decreased by $45K after review.
+#0148  Finance Office: Kregis budget decreased by $527K per the revised plan.
+#0149  Engineering email: Sounds like Kregis gets $153K less.
+#0150  PMO note: Sounds like Kregis gets $237K more.
+#0151  Finance Office: Kregis budget decreased by $358K.
+#0152  Finance Office: Kregis budget increased by $562K.
+#0153  Sales update: Kregis budget is going down by $597K.
+#0154  Sales update: Pretty sure Kregis's budget is $2140K now.
+#0155  Finance Office: Kregis budget decreased by $135K.
+#0156  Finance Office: Kregis budget decreased by $1K after review.
+#0157  Finance Office: Kregis budget decreased by $2K after review.
+#0158  Finance Office: Kregis budget decreased by $21K per the revised plan.
+#0159  Facilities ticket: Hearing Kregis's budget goes down $316K.
+#0160  Finance Office: Kregis budget increased by $115K.
+#0161  Finance Office: Kregis budget decreased by $135K after review.
+#0162  Finance Office: Kregis budget increased by $85K per the revised plan.
+#0163  Finance Office: Kregis budget decreased by $82K per the revised plan.
+#0164  Finance Office: Kregis budget decreased by $586K.
+#0165  Finance Office: Kregis budget decreased by $116K after review.
+#0166  Finance Office: Kregis budget increased by $94K after review.
+#0167  Marketing email: Kregis budget is going to $560K.
+#0168  Finance Office: Kregis budget increased by $201K per the revised plan.
+#0169  Marketing email: Kregis budget should land at $790K.
+#0170  Finance Office: Kregis budget decreased by $416K.
+#0171  Engineering email: Kregis budget is going up by $517K.
+#0172  Finance Office: Kregis budget increased by $484K per the revised plan.
+#0173  Finance Office: Kregis budget increased by $60K.
+#0174  Finance Office: Withdraw update #0089.
+#0175  Finance Office: Withdraw update #0132; it was entered in error.
+#0176  Legal email: Kregis budget is going up by $271K.
+#0177  Finance Office: Kregis budget increased by $30K per the revised plan.
+#0178  Finance Office: Kregis budget increased by $25K.
+#0179  Legal email: Kregis budget is going down by $443K.
+#0180  Sales update: Kregis budget is going down to $1080K.
+#0181  Operations chat: Heard Kregis's budget is now $1570K.
+#0182  Facilities ticket: Kregis budget is going to $1860K.
+#0183  Facilities ticket: Heard Kregis's budget is now $1470K.
+#0184  Finance Office: Kregis budget increased by $20K after review.
+#0185  Finance Office: Kregis budget increased by $281K after review.
+#0186  Finance Office: Kregis budget decreased by $120K after review.
+#0187  Vendor call: Heard Kregis's budget is now $1650K.
+#0188  Vendor call: Kregis budget is going down by $321K.
+#0189  Vendor call: Kregis budget is going up to $2100K.
+#0190  Facilities ticket: Sounds like Kregis gets $154K less.
+#0191  Finance Office: Kregis budget increased by $253K after review.
+#0192  Marketing email: Heard Kregis's budget is now $1950K.
+#0193  Marketing email: Heard Kregis's budget is now $1510K.
+#0194  Finance Office: Kregis budget decreased by $65K after review.
+#0195  Finance Office: Kregis budget increased by $20K per the revised plan.
+#0196  Finance Office: Withdraw update #0148; it was entered in error.
+#0197  Legal email: Hearing Kregis's budget goes up $573K.
+#0198  Finance Office: Withdraw update #0111.
+#0199  Finance Office: Kregis budget increased by $554K after review.
+#0200  Finance Office: Withdraw update #0172.
+#0201  Sales update: Pretty sure Kregis's budget is $2800K now.
+#0202  Finance Office: Kregis budget decreased by $150K per the revised plan.
+#0203  Finance Office: Kregis budget decreased by $13K per the revised plan.
+#0204  Facilities ticket: Kregis budget is going to $1860K.
+#0205  Finance Office: Kregis budget increased by $80K per the revised plan.
+#0206  Legal email: Kregis budget is going down to $1780K.
+#0207  Finance Office: Kregis budget increased by $110K.
+#0208  PMO note: Kregis budget is going up to $2680K.
+#0209  Finance Office: Kregis budget decreased by $53K.
+#0210  Legal email: Kregis budget is going to $2800K.
+#0211  Marketing email: Kregis budget is going to $2660K.
+#0212  Finance Office: Kregis budget decreased by $209K after review.
+#0213  Finance Office: Kregis budget decreased by $429K per the revised plan.
+#0214  Finance Office: Kregis budget decreased by $187K.
+#0215  PMO note: Kregis weekly sync moved to Mondays.
+#0216  Finance Office: Kregis budget increased by $40K per the revised plan.
+#0217  Finance Office: Kregis budget increased by $90K after review.
+#0218  Finance Office: Kregis budget increased by $135K.
+#0219  Finance Office: Kregis budget increased by $120K per the revised plan.
+#0220  Engineering email: Hearing Kregis's budget goes down $142K.
+#0221  Finance Office: Kregis budget increased by $394K per the revised plan.
+#0222  Finance Office: Withdraw update #0151.
+#0223  Finance Office: Kregis budget increased by $65K.
+#0224  Facilities ticket: Pretty sure Kregis's budget is $2750K now.
+#0225  Finance Office: Kregis budget decreased by $15K.
+#0226  Legal email: Kregis budget is going to $2800K.
+#0227  Finance Office: Kregis budget decreased by $75K.
+#0228  Finance Office: Kregis budget decreased by $564K per the revised plan.
+#0229  Finance Office: Kregis budget decreased by $296K after review.
+#0230  PMO note: Kregis budget is going to $1600K.
+#0231  Finance Office: Kregis budget increased by $191K.
+#0232  Marketing email: Heard Kregis's budget is now $2410K.
+#0233  Finance Office: Kregis budget increased by $105K per the revised plan.
+#0234  Finance Office: Kregis budget increased by $35K per the revised plan.
+#0235  Finance Office: Kregis budget decreased by $5K.
+#0236  Finance Office: Withdraw update #0168; it was entered in error.
+#0237  Vendor call: Kregis budget is going down by $469K.
+#0238  Engineering email: Kregis site visit confirmed for Wednesday.
+#0239  Finance Office: Kregis budget increased by $304K.
+#0240  Finance Office: Kregis budget decreased by $5K per the revised plan.
+#0241  Sales update: Pretty sure Kregis's budget is $2160K now.
+#0242  Finance Office: Kregis budget decreased by $25K.
+#0243  Finance Office: Withdraw update #0046.
+#0244  Finance Office: Kregis budget decreased by $10K.
+#0245  Operations chat: Hearing Kregis's budget goes down $506K.
+#0246  Finance Office: Kregis budget decreased by $110K.
+#0247  PMO note: Expect Kregis's budget to rise by $238K.
+#0248  Finance Office: Kregis budget decreased by $504K per the revised plan.
+#0249  Legal email: Hearing Kregis's budget goes up $122K.
+#0250  Finance Office: Kregis budget increased by $110K.
+#0251  Finance Office: Kregis budget increased by $140K.
+#0252  Finance Office: Kregis budget decreased by $172K after review.
+#0253  Legal email: Pretty sure Kregis's budget is $2020K now.
+#0254  Vendor call: Expect Kregis's budget to rise by $529K.
+#0255  Finance Office: Kregis budget increased by $427K per the revised plan.
+#0256  Finance Office: Kregis budget increased by $55K per the revised plan.
+#0257  Marketing email: Kregis budget is going to $1990K.
+#0258  Finance Office: Kregis budget decreased by $408K after review.
+#0259  Sales update: Hearing Kregis's budget goes down $379K.
+#0260  Finance Office: Kregis budget decreased by $268K per the revised plan.
+#0261  Finance Office: Withdraw update #0191; it was entered in error.
+#0262  Sales update: Kregis site visit confirmed for Monday.
+#0263  PMO note: Sounds like Kregis gets $342K more.
+#0264  PMO note: Kregis budget is going to $1310K.
+#0265  Finance Office: Kregis budget decreased by $130K.
+#0266  Vendor call: Pretty sure Kregis's budget is $1220K now.
+#0267  Finance Office: Kregis budget decreased by $108K after review.
+#0268  Legal email: Sounds like Kregis gets $362K less.
+#0269  Marketing email: Kregis budget is going down to $1220K.
+#0270  Facilities ticket: Kregis budget should land at $1310K.
+#0271  Finance Office: Withdraw update #0140; it was entered in error.
+#0272  Sales update: Kregis sprint 47 retrospective notes posted.
+#0273  Finance Office: Kregis budget increased by $583K after review.
+#0274  Finance Office: Kregis budget decreased by $71K.
+#0275  Operations chat: Expect Kregis's budget to rise by $482K.
+#0276  Finance Office: Kregis budget decreased by $135K after review.
+#0277  Vendor call: Kregis status report filed for week 30.
+#0278  Finance Office: Kregis budget decreased by $45K.
+#0279  Facilities ticket: Sounds like Kregis gets $199K less.
+#0280  Finance Office: Kregis budget decreased by $135K.
+#0281  Finance Office: Kregis budget decreased by $12K after review.
+#0282  Finance Office: Kregis budget increased by $129K.
+#0283  Sales update: Kregis budget should land at $1820K.
+#0284  Finance Office: Kregis budget decreased by $55K after review.
+#0285  Finance Office: Kregis budget decreased by $494K after review.
+#0286  Finance Office: Withdraw update #0196.
+#0287  Finance Office: Kregis budget increased by $55K after review.
+#0288  Finance Office: Kregis budget increased by $20K after review.
+#0289  Finance Office: Kregis budget decreased by $125K.
+#0290  Finance Office: Kregis budget increased by $366K per the revised plan.
+#0291  Vendor call: Kregis design review moved to Room 6B.
+#0292  Finance Office: Kregis budget increased by $60K per the revised plan.
+#0293  Marketing email: Sounds like Kregis gets $336K less.
+#0294  Finance Office: Kregis budget decreased by $5K.
+#0295  Marketing email: Heard Kregis's budget is now $1070K.
+#0296  Finance Office: Kregis budget decreased by $423K per the revised plan.
+#0297  Facilities ticket: Expect Kregis's budget to rise by $176K.
+#0298  Finance Office: Kregis budget increased by $95K per the revised plan.
+#0299  Finance Office: Withdraw update #0185.
+#0300  Finance Office: Kregis budget increased by $421K per the revised plan.
+#0301  Finance Office: Kregis budget decreased by $387K per the revised plan.
+#0302  Finance Office: Kregis budget decreased by $35K after review.
+#0303  Finance Office: Withdraw update #0174; it was entered in error.
+#0304  Engineering email: Expect Kregis's budget to rise by $197K.
+#0305  Finance Office: Kregis budget increased by $373K.
+#0306  Finance Office: Kregis budget increased by $145K.
+#0307  Finance Office: Kregis budget decreased by $75K per the revised plan.
+#0308  Finance Office: Kregis budget increased by $458K.
+#0309  Legal email: Kregis design review moved to Room 6A.
+#0310  Marketing email: Hearing Kregis's budget goes down $62K.
+#0311  Finance Office: Withdraw update #0221; it was entered in error.
+#0312  Finance Office: Kregis budget decreased by $5K per the revised plan.
+#0313  Finance Office: Withdraw update #0255; it was entered in error.
+#0314  Finance Office: Withdraw update #0120.
+#0315  Finance Office: Kregis budget increased by $8K per the revised plan.
+#0316  Finance Office: Withdraw update #0248; it was entered in error.
+#0317  Legal email: Kregis budget is going up to $1340K.
+#0318  Finance Office: Withdraw update #0165.
+#0319  Finance Office: Withdraw update #0285; it was entered in error.
+#0320  Facilities ticket: Kregis weekly sync moved to Tuesdays.
+#0321  Finance Office: Withdraw update #0083; it was entered in error.
+#0322  Finance Office: Kregis budget increased by $75K after review.
+#0323  Finance Office: Kregis budget increased by $5K per the revised plan.
+#0324  Finance Office: Kregis budget decreased by $95K after review.
+#0325  Legal email: Kregis budget should land at $1710K.
+#0326  Finance Office: Kregis budget increased by $65K after review.
+#0327  Facilities ticket: Kregis design review moved to Room 2C.
+#0328  Finance Office: Kregis budget increased by $50K.
+#0329  PMO note: Kregis budget is going up to $1480K.
+#0330  Engineering email: Kregis budget is going down by $189K.
+#0331  Sales update: Pretty sure Kregis's budget is $1180K now.
+#0332  PMO note: Kregis vendor onboarding call scheduled for Tuesday.
+#0333  Finance Office: Kregis budget increased by $135K per the revised plan.
+#0334  Engineering email: Expect Kregis's budget to drop by $132K.
+#0335  Finance Office: Withdraw update #0209; it was entered in error.
+#0336  Finance Office: Kregis budget increased by $110K after review.
+#0337  Finance Office: Kregis budget decreased by $589K.
+#0338  Marketing email: Kregis budget is going up to $1360K.
+#0339  Finance Office: Kregis budget increased by $130K per the revised plan.
+#0340  Vendor call: Kregis budget should land at $890K.
+#0341  Finance Office: Kregis budget increased by $40K per the revised plan.
+#0342  Facilities ticket: Kregis vendor onboarding call scheduled for Thursday.
+#0343  Finance Office: Kregis budget decreased by $100K after review.
+#0344  Finance Office: Withdraw update #0166; it was entered in error.
+#0345  Finance Office: Kregis budget decreased by $43K.
+#0346  Finance Office: Kregis budget decreased by $65K after review.
+#0347  Finance Office: Kregis budget increased by $278K after review.
+#0348  Finance Office: Kregis budget decreased by $20K per the revised plan.
+#0349  Legal email: Kregis budget is going up to $1600K.
+#0350  Finance Office: Kregis budget increased by $110K.
+#0351  Finance Office: Withdraw update #0170.
+#0352  Engineering email: Expect Kregis's budget to drop by $47K.
+#0353  Finance Office: Kregis budget decreased by $45K.
+#0354  Finance Office: Kregis budget decreased by $35K.
+#0355  Engineering email: Expect Kregis's budget to rise by $552K.
+#0356  Finance Office: Kregis budget increased by $20K.
+#0357  Finance Office: Withdraw update #0300.
+#0358  Engineering email: Kregis budget is going up by $188K.
+#0359  Vendor call: Kregis budget is going to $1390K.
+#0360  Marketing email: Kregis budget should land at $1450K.
+#0361  Finance Office: Kregis budget decreased by $65K after review.
+#0362  Sales update: Hearing Kregis's budget goes up $93K.
+#0363  Operations chat: Kregis budget should land at $1520K.
+#0364  Legal email: Pretty sure Kregis's budget is $1140K now.
+#0365  PMO note: Kregis documentation moved to the shared drive.
+#0366  Finance Office: Kregis budget increased by $70K.
+#0367  Vendor call: Sounds like Kregis gets $402K less.
+#0368  Finance Office: Kregis budget decreased by $110K.
+#0369  Finance Office: Kregis budget decreased by $541K per the revised plan.
+#0370  Finance Office: Withdraw update #0049; it was entered in error.
+#0371  Facilities ticket: Hearing Kregis's budget goes down $383K.
+#0372  Finance Office: Kregis budget increased by $80K per the revised plan.
+#0373  Finance Office: Kregis budget increased by $50K per the revised plan.
+#0374  Finance Office: Kregis budget increased by $115K after review.
+#0375  Finance Office: Kregis budget decreased by $377K.
+#0376  Vendor call: Sounds like Kregis gets $426K more.
+#0377  Finance Office: Kregis budget increased by $538K after review.
+#0378  Finance Office: Kregis budget decreased by $10K.
+#0379  Marketing email: Pretty sure Kregis's budget is $1030K now.
+#0380  Finance Office: Kregis budget decreased by $39K after review.
+#0381  Legal email: Sounds like Kregis gets $524K more.
+#0382  Vendor call: Kregis budget is going up by $576K.
+#0383  Finance Office: Kregis budget increased by $10K after review.
+#0384  Finance Office: Kregis budget increased by $10K per the revised plan.
+#0385  Finance Office: Kregis budget increased by $25K.
+#0386  Legal email: Kregis budget is going to $1340K.
+#0387  Finance Office: Kregis budget increased by $466K per the revised plan.
+#0388  Finance Office: Kregis budget decreased by $431K.
+#0389  Finance Office: Kregis budget increased by $60K.
+#0390  Finance Office: Kregis budget decreased by $95K after review.
+#0391  Finance Office: Kregis budget decreased by $158K after review.
+#0392  Sales update: Heard Kregis's budget is now $1100K.
+#0393  Finance Office: Kregis budget decreased by $523K after review.
+#0394  Finance Office: Withdraw update #0281; it was entered in error.
+#0395  Finance Office: Withdraw update #0163.
+#0396  PMO note: Kregis budget is going up to $600K.
+#0397  Finance Office: Kregis budget increased by $45K per the revised plan.
+#0398  Finance Office: Withdraw update #0267.
+#0399  PMO note: Sounds like Kregis gets $447K more.
+#0400  PMO note: Heard Kregis's budget is now $740K.
+#0401  Facilities ticket: Pretty sure Kregis's budget is $800K now.
+#0402  Finance Office: Kregis budget increased by $397K per the revised plan.
+#0403  Engineering email: Kregis budget is going down by $468K.
+#0404  PMO note: Pretty sure Kregis's budget is $1350K now.
+#0405  Finance Office: Withdraw update #0388; it was entered in error.
+#0406  Finance Office: Withdraw update #0214; it was entered in error.
+#0407  Finance Office: Kregis budget increased by $50K after review.
+#0408  Finance Office: Kregis budget decreased by $56K per the revised plan.
+#0409  Finance Office: Kregis budget increased by $35K after review.
+#0410  Facilities ticket: Kregis budget is going down to $1260K.
+#0411  Finance Office: Kregis budget decreased by $288K.
+#0412  Finance Office: Kregis budget increased by $533K per the revised plan.
+#0413  Vendor call: Pretty sure Kregis's budget is $1960K now.
+#0414  Finance Office: Kregis budget increased by $115K after review.
+#0415  Marketing email: Kregis site visit confirmed for Wednesday.
+#0416  Facilities ticket: Kregis budget is going down to $1740K.
+#0417  Engineering email: Heard Kregis's budget is now $2210K.
+#0418  Finance Office: Kregis purchase order FC-7660 closed.
+#0419  Finance Office: Kregis budget decreased by $598K per the revised plan.
+#0420  Finance Office: Kregis budget decreased by $222K.
+#0421  Finance Office: Withdraw update #0370.
+#0422  Finance Office: Kregis budget increased by $25K.
+#0423  Finance Office: Withdraw update #0133; it was entered in error.
+#0424  Marketing email: Kregis budget is going down by $126K.
+#0425  Engineering email: Kregis budget is going to $1500K.
+#0426  Finance Office: Kregis budget increased by $65K after review.
+#0427  Sales update: Kregis budget should land at $2420K.
+#0428  Finance Office: Withdraw update #0126; it was entered in error.
+#0429  Finance Office: Kregis budget increased by $25K after review.
+#0430  Finance Office: Kregis budget decreased by $30K.
+#0431  Vendor call: Kregis budget should land at $2720K.
+#0432  Vendor call: Expect Kregis's budget to rise by $263K.
+#0433  Finance Office: Withdraw update #0213; it was entered in error.
+#0434  Finance Office: Kregis budget decreased by $456K.
+#0435  Sales update: Kregis budget is going down by $241K.
+#0436  Finance Office: Kregis finance review moved to Room 1A.
+#0437  Finance Office: Kregis budget decreased by $10K.
+#0438  Vendor call: Sounds like Kregis gets $226K more.
+#0439  Finance Office: Withdraw update #0095.
+#0440  Legal email: Kregis budget should land at $2370K.
+#0441  Finance Office: Withdraw update #0107.
+#0442  Finance Office: Kregis budget decreased by $115K per the revised plan.
+#0443  PMO note: Sounds like Kregis gets $217K less.
+#0444  Finance Office: Withdraw update #0069; it was entered in error.
+#0445  Finance Office: Kregis budget decreased by $5K.
+#0446  Finance Office: Withdraw update #0301.
+#0447  PMO note: Hearing Kregis's budget goes down $86K.
+#0448  Finance Office: Kregis budget decreased by $587K per the revised plan.
+#0449  PMO note: Kregis sprint 47 retrospective notes posted.
+#0450  Engineering email: Heard Kregis's budget is now $2480K.
+#0451  Finance Office: Withdraw update #0100.
+#0452  Finance Office: Kregis budget decreased by $140K after review.
+#0453  Finance Office: Kregis budget decreased by $332K per the revised plan.
+#0454  Finance Office: Kregis budget increased by $64K.
+#0455  Finance Office: Withdraw update #0441; it was entered in error.
+#0456  Vendor call: Kregis budget is going down to $1420K.
+#0457  Finance Office: Withdraw update #0203.
+#0458  Finance Office: Kregis budget decreased by $26K.
+#0459  Finance Office: Withdraw update #0231.
+#0460  Marketing email: Kregis budget is going down by $117K.
+#0461  Finance Office: Kregis budget decreased by $354K per the revised plan.
+#0462  Finance Office: Kregis budget decreased by $25K after review.
+#0463  Finance Office: Kregis budget increased by $115K.
+#0464  Finance Office: Kregis budget increased by $60K per the revised plan.
+#0465  Legal email: Pretty sure Kregis's budget is $1170K now.
+#0466  Sales update: Sounds like Kregis gets $68K more.
+#0467  Sales update: Kregis budget is going down by $448K.
+#0468  Finance Office: Kregis budget decreased by $150K after review.
+#0469  Engineering email: Kregis kickoff moved to Building 2.
+#0470  Finance Office: Kregis budget decreased by $35K.
+#0471  Finance Office: Kregis budget decreased by $51K after review.
+#0472  Finance Office: Kregis budget increased by $10K after review.
+#0473  Engineering email: Sounds like Kregis gets $356K less.
+#0474  Finance Office: Kregis cost center code changed to FC-1858.
+#0475  PMO note: Kregis demo rescheduled to Monday afternoon.
+#0476  Finance Office: Kregis budget increased by $150K after review.
+#0477  Vendor call: Hearing Kregis's budget goes down $359K.
+#0478  Operations chat: Kregis documentation moved to the shared drive.
+#0479  Engineering email: Kregis budget is going down by $472K.
+#0480  Finance Office: Kregis budget decreased by $85K after review.
+#0481  Operations chat: Hearing Kregis's budget goes down $123K.
+#0482  Finance Office: Kregis budget decreased by $15K.
+#0483  Engineering email: Kregis documentation moved to the shared drive.
+#0484  Finance Office: Kregis budget decreased by $90K per the revised plan.
+#0485  Finance Office: Kregis budget decreased by $35K after review.
+#0486  Operations chat: Sounds like Kregis gets $528K more.
+#0487  PMO note: Sounds like Kregis gets $44K more.
+#0488  Finance Office: Kregis budget decreased by $192K per the revised plan.
+#0489  Sales update: Hearing Kregis's budget goes down $49K.
+#0490  Finance Office: Withdraw update #0103.
+#0491  Facilities ticket: Kregis demo rescheduled to Friday afternoon.
+#0492  Finance Office: Kregis budget decreased by $404K per the revised plan.
+#0493  Finance Office: Kregis purchase order FC-2581 closed.
+#0494  Finance Office: Kregis budget increased by $207K.
+#0495  Finance Office: Kregis receipts scanned.
+#0496  Finance Office: Kregis budget decreased by $40K per the revised plan.
+#0497  Legal email: Heard Kregis's budget is now $790K.
+#0498  Finance Office: Kregis budget decreased by $80K.
+#0499  Finance Office: Kregis budget increased by $105K.
+#0500  Finance Office: Kregis budget increased by $131K.
+#0501  Engineering email: Expect Kregis's budget to rise by $577K.
+#0502  Sales update: Kregis documentation moved to the shared drive.
+#0503  Facilities ticket: Kregis budget is going to $1040K.
+#0504  Finance Office: Withdraw update #0313.
+#0505  Finance Office: Kregis budget decreased by $140K.
+#0506  Finance Office: Kregis budget decreased by $80K after review.
+#0507  Finance Office: Kregis budget decreased by $10K.
+#0508  Facilities ticket: Kregis budget should land at $1340K.
+#0509  Facilities ticket: Hearing Kregis's budget goes up $218K.
+#0510  Finance Office: Withdraw update #0412.
+#0511  Vendor call: Kregis budget is going up by $579K.
+#0512  Finance Office: Kregis budget increased by $90K.
+#0513  Finance Office: Kregis budget increased by $95K per the revised plan.
+#0514  Facilities ticket: Kregis status report filed for week 42.
+#0515  Finance Office: Kregis budget increased by $85K per the revised plan.
+#0516  Finance Office: Kregis budget increased by $105K after review.
+#0517  Operations chat: Pretty sure Kregis's budget is $1000K now.
+#0518  Finance Office: Kregis budget increased by $42K per the revised plan.
+#0519  Finance Office: Withdraw update #0471.
+#0520  Finance Office: Kregis budget increased by $70K after review.
+#0521  Marketing email: Sounds like Kregis gets $29K more.
+#0522  Marketing email: Sounds like Kregis gets $118K less.
+#0523  Vendor call: Sounds like Kregis gets $352K more.
+#0524  Finance Office: Kregis budget increased by $110K.
+#0525  PMO note: Kregis design review moved to Room 6C.
+#0526  Facilities ticket: Pretty sure Kregis's budget is $1320K now.
+#0527  Finance Office: Kregis budget increased by $95K.
+#0528  Facilities ticket: Kregis budget is going up by $72K.
+#0529  Finance Office: Kregis budget decreased by $532K after review.
+#0530  Finance Office: Withdraw update #0239; it was entered in error.
+#0531  Finance Office: Withdraw update #0393.
+#0532  Engineering email: Expect Kregis's budget to drop by $396K.
+#0533  Finance Office: Kregis quarterly audit scheduled for Friday.
+#0534  Finance Office: Kregis budget increased by $15K per the revised plan.
+#0535  Finance Office: Withdraw update #0318.
+#0536  Marketing email: Sounds like Kregis gets $496K less.
+#0537  Finance Office: Kregis budget decreased by $10K.
+#0538  Operations chat: Kregis budget should land at $810K.
+#0539  Finance Office: Withdraw update #0271.
+#0540  Operations chat: Hearing Kregis's budget goes up $103K.
+#0541  Operations chat: Heard Kregis's budget is now $1130K.
+#0542  Finance Office: Kregis budget decreased by $25K after review.
+#0543  Finance Office: Kregis budget increased by $5K.
+#0544  Operations chat: Kregis documentation moved to the shared drive.
+#0545  Legal email: Hearing Kregis's budget goes up $269K.
+#0546  Finance Office: Kregis budget decreased by $40K per the revised plan.
+#0547  Finance Office: Withdraw update #0026; it was entered in error.
+#0548  Sales update: Kregis demo rescheduled to Thursday afternoon.
+#0549  Finance Office: Kregis budget increased by $88K after review.
+#0550  Finance Office: Kregis budget increased by $65K per the revised plan.
+#0551  Finance Office: Withdraw update #0319; it was entered in error.
+#0552  PMO note: Kregis design review moved to Room 4C.
+#0553  Finance Office: Kregis budget increased by $20K per the revised plan.
+#0554  Finance Office: Kregis budget decreased by $37K per the revised plan.
+#0555  Sales update: Kregis status report filed for week 48.
+#0556  Finance Office: Withdraw update #0229.
+#0557  Vendor call: Pretty sure Kregis's budget is $1430K now.
+#0558  Finance Office: Kregis budget decreased by $135K after review.
+#0559  Facilities ticket: Kregis budget is going to $1070K.
+#0560  Finance Office: Kregis budget decreased by $95K after review.
+#0561  Finance Office: Withdraw update #0519.
+#0562  Marketing email: Sounds like Kregis gets $561K more.
+#0563  Finance Office: Kregis budget decreased by $233K after review.
+#0564  Engineering email: Expect Kregis's budget to rise by $534K.
+#0565  Vendor call: Kregis budget is going down to $430K.
+#0566  Finance Office: Kregis budget increased by $40K per the revised plan.
+#0567  Finance Office: Kregis budget increased by $497K after review.
+#0568  Finance Office: Kregis budget decreased by $488K.
+#0569  Finance Office: Kregis budget increased by $376K after review.
+#0570  Finance Office: Kregis budget increased by $100K after review.
+#0571  Finance Office: Kregis budget decreased by $85K.
+#0572  Finance Office: Withdraw update #0087.
+#0573  PMO note: Hearing Kregis's budget goes up $599K.
+#0574  Finance Office: Kregis budget decreased by $125K.
+#0575  Finance Office: Kregis budget increased by $572K after review.
+#0576  Finance Office: Withdraw update #0561.
+#0577  Operations chat: Expect Kregis's budget to rise by $347K.
+#0578  Sales update: Kregis design review moved to Room 3D.
+#0579  Finance Office: Kregis budget increased by $15K per the revised plan.
+#0580  Finance Office: Kregis budget decreased by $120K.
+#0581  Finance Office: Withdraw update #0030; it was entered in error.
+#0582  Finance Office: Withdraw update #0549.
+#0583  Finance Office: Kregis budget increased by $35K per the revised plan.
+#0584  Facilities ticket: Kregis budget is going down by $203K.
+#0585  Legal email: Expect Kregis's budget to drop by $329K.
+#0586  Operations chat: Expect Kregis's budget to drop by $273K.
+#0587  Facilities ticket: Kregis security review passed.
+#0588  Finance Office: Kregis budget decreased by $145K after review.
+#0589  Finance Office: Kregis budget decreased by $50K after review.
+#0590  Finance Office: Kregis budget decreased by $173K after review.
+#0591  Finance Office: Kregis budget increased by $15K per the revised plan.
+#0592  Finance Office: Withdraw update #0419.
+#0593  Finance Office: Withdraw update #0228.
+#0594  Finance Office: Kregis receipts scanned.
+#0595  Finance Office: Kregis budget decreased by $115K.
+#0596  Finance Office: Kregis budget increased by $80K after review.
+#0597  Legal email: Kregis budget is going up to $2650K.
+#0598  Finance Office: Kregis budget decreased by $45K per the revised plan.
+#0599  Finance Office: Kregis purchase order FC-5245 closed.
+#0600  Finance Office: Kregis budget increased by $40K after review.
+#0601  Finance Office: Kregis budget increased by $90K.
+#0602  Finance Office: Withdraw update #0134.
+#0603  Sales update: Heard Kregis's budget is now $1890K.
+#0604  Finance Office: Kregis budget increased by $75K.
+#0605  Engineering email: Kregis kickoff moved to Building 2.
+#0606  Facilities ticket: Kregis budget is going down to $2350K.
+#0607  Finance Office: Kregis budget decreased by $111K.
+#0608  Finance Office: Withdraw update #0590; it was entered in error.
+#0609  PMO note: Kregis budget is going up to $2800K.
+#0610  Finance Office: Kregis budget increased by $30K.
+#0611  Finance Office: Kregis budget decreased by $55K.
+#0612  Sales update: Heard Kregis's budget is now $2710K.
+#0613  Engineering email: Expect Kregis's budget to rise by $261K.
+#0614  Finance Office: Withdraw update #0488.
+#0615  Facilities ticket: Kregis budget should land at $2800K.
+#0616  Finance Office: Kregis budget decreased by $30K per the revised plan.
+#0617  Finance Office: Kregis budget decreased by $90K per the revised plan.
+#0618  Sales update: Expect Kregis's budget to drop by $186K.
+#0619  Finance Office: Withdraw update #0614.
+#0620  Finance Office: Kregis budget decreased by $100K per the revised plan.
+#0621  Finance Office: Withdraw update #0082; it was entered in error.
+#0622  Finance Office: Kregis budget increased by $179K after review.
+#0623  Finance Office: Kregis budget increased by $30K per the revised plan.
+#0624  Finance Office: Kregis budget decreased by $60K after review.
+#0625  Finance Office: Kregis budget decreased by $45K.
+#0626  Facilities ticket: Kregis security review passed.
+#0627  Finance Office: Kregis budget increased by $198K.
+#0628  Operations chat: Hearing Kregis's budget goes down $244K.
+#0629  Finance Office: Kregis budget decreased by $140K after review.
+#0630  Finance Office: Kregis budget increased by $55K after review.
+#0631  Marketing email: Kregis budget is going to $2380K.
+#0632  Finance Office: Kregis budget decreased by $20K after review.
+#0633  Finance Office: Kregis budget decreased by $35K.
+#0634  PMO note: Kregis budget should land at $2700K.
+#0635  Facilities ticket: Pretty sure Kregis's budget is $2800K now.
+#0636  Finance Office: Kregis budget decreased by $33K.
+#0637  Vendor call: Sounds like Kregis gets $462K less.
+#0638  Facilities ticket: Pretty sure Kregis's budget is $2540K now.
+#0639  Finance Office: Kregis budget increased by $10K per the revised plan.
+#0640  Vendor call: Kregis budget should land at $1500K.
+#0641  PMO note: Expect Kregis's budget to drop by $553K.
+#0642  Finance Office: Kregis budget increased by $174K.
+#0643  Vendor call: Kregis demo rescheduled to Tuesday afternoon.
+#0644  Marketing email: Hearing Kregis's budget goes down $542K.
+#0645  Finance Office: Withdraw update #0086.
+#0646  Facilities ticket: Sounds like Kregis gets $501K less.
+#0647  Finance Office: Kregis budget increased by $419K.
+#0648  Operations chat: Hearing Kregis's budget goes down $386K.
+#0649  Sales update: Kregis status report filed for week 25.
+#0650  Finance Office: Kregis budget decreased by $135K per the revised plan.
+#0651  Finance Office: Withdraw update #0311; it was entered in error.
+#0652  Finance Office: Withdraw update #0198; it was entered in error.
+#0653  Finance Office: Kregis budget decreased by $60K per the revised plan.
+#0654  Legal email: Expect Kregis's budget to drop by $248K.
+#0655  Engineering email: Sounds like Kregis gets $489K less.
+#0656  Facilities ticket: Kregis design review moved to Room 3D.
+#0657  PMO note: Expect Kregis's budget to drop by $28K.
+#0658  Finance Office: Kregis budget decreased by $61K after review.
+#0659  Engineering email: Kregis vendor onboarding call scheduled for Friday.
+#0660  Operations chat: Pretty sure Kregis's budget is $2780K now.
+#0661  Finance Office: Kregis budget decreased by $65K per the revised plan.
+#0662  Finance Office: Kregis budget decreased by $80K.
+#0663  PMO note: Kregis security review passed.
+#0664  Engineering email: Expect Kregis's budget to drop by $503K.
+#0665  Finance Office: Kregis audit notes filed.
+#0666  Finance Office: Kregis finance review moved to Room 6B.
+#0667  Operations chat: Pretty sure Kregis's budget is $2800K now.
+#0668  Finance Office: Withdraw update #0420; it was entered in error.
+#0669  Marketing email: Sounds like Kregis gets $214K less.
+#0670  Finance Office: Kregis budget decreased by $100K.
+#0671  Finance Office: Withdraw update #0344.
+#0672  Finance Office: Kregis budget decreased by $20K per the revised plan.
+#0673  Legal email: Pretty sure Kregis's budget is $2110K now.
+#0674  PMO note: Sounds like Kregis gets $381K less.
+#0675  Finance Office: Kregis budget decreased by $99K.
+#0676  Marketing email: Kregis budget is going down to $2350K.
+#0677  Finance Office: Kregis budget decreased by $106K after review.
+#0678  Facilities ticket: Kregis budget is going up to $2800K.
+#0679  Facilities ticket: Kregis budget is going up by $164K.
+#0680  Finance Office: Kregis budget decreased by $25K per the revised plan.
+#0681  PMO note: Kregis vendor onboarding call scheduled for Friday.
+#0682  Operations chat: Kregis budget should land at $2420K.
+#0683  Vendor call: Kregis budget is going down to $2510K.
+#0684  Marketing email: Kregis budget is going to $2640K.
+#0685  Legal email: Heard Kregis's budget is now $2800K.
+#0686  Vendor call: Kregis budget is going to $2250K.
+#0687  Finance Office: Kregis budget decreased by $85K per the revised plan.
+#0688  Marketing email: Kregis budget is going to $2800K.
+#0689  Finance Office: Kregis budget decreased by $145K per the revised plan.
+#0690  Finance Office: Kregis budget decreased by $125K.
+#0691  Legal email: Kregis budget is going down by $291K.
+#0692  Finance Office: Kregis receipts scanned.
+#0693  Finance Office: Withdraw update #0200; it was entered in error.
+#0694  Finance Office: Kregis invoice batch FC-9905 archived.
+#0695  Vendor call: Sounds like Kregis gets $477K less.
+#0696  Sales update: Pretty sure Kregis's budget is $2800K now.
+#0697  Finance Office: Kregis budget decreased by $136K after review.
+#0698  Finance Office: Kregis budget increased by $50K.
+#0699  Finance Office: Withdraw update #0158.
+#0700  Marketing email: Kregis budget is going down by $216K.
+#0701  Engineering email: Pretty sure Kregis's budget is $2800K now.
+#0702  Marketing email: Kregis budget should land at $1960K.
+#0703  Finance Office: Withdraw update #0582; it was entered in error.
+#0704  Finance Office: Kregis budget decreased by $85K after review.
+#0705  Finance Office: Kregis budget decreased by $364K per the revised plan.
+#0706  Finance Office: Kregis budget increased by $65K after review.
+#0707  Facilities ticket: Kregis budget should land at $2380K.
+#0708  Finance Office: Kregis budget decreased by $125K after review.
+#0709  Legal email: Kregis budget is going up to $2800K.
+#0710  Finance Office: Withdraw update #0391.
+#0711  Finance Office: Kregis budget increased by $141K after review.
+#0712  Finance Office: Withdraw update #0675; it was entered in error.
+#0713  Finance Office: Kregis budget decreased by $110K.
+#0714  Finance Office: Withdraw update #0556; it was entered in error.
+#0715  Engineering email: Sounds like Kregis gets $591K less.
+#0716  Finance Office: Kregis budget decreased by $208K per the revised plan.
+#0717  Finance Office: Kregis budget decreased by $145K.
+#0718  Finance Office: Kregis budget increased by $110K.
+#0719  Finance Office: Kregis budget decreased by $76K per the revised plan.
+#0720  Finance Office: Withdraw update #0260; it was entered in error.
+#0721  Finance Office: Kregis budget increased by $344K after review.
+#0722  Sales update: Expect Kregis's budget to drop by $204K.
+#0723  Finance Office: Kregis budget increased by $15K after review.
+#0724  Finance Office: Kregis budget decreased by $313K after review.
+#0725  Finance Office: Kregis budget increased by $90K per the revised plan.
+#0726  Finance Office: Kregis budget increased by $75K per the revised plan.
+#0727  Sales update: Expect Kregis's budget to rise by $318K.
+#0728  Finance Office: Kregis budget decreased by $135K.
+#0729  Finance Office: Kregis budget increased by $509K.
+#0730  Finance Office: Kregis budget increased by $125K after review.
+#0731  Operations chat: Heard Kregis's budget is now $2770K.
+#0732  Finance Office: Kregis budget decreased by $161K.
+#0733  Facilities ticket: Sounds like Kregis gets $146K less.
+#0734  Finance Office: Kregis budget decreased by $309K per the revised plan.
+#0735  Finance Office: Kregis budget increased by $95K.
+#0736  Finance Office: Kregis budget increased by $70K.
+#0737  Sales update: Kregis weekly sync moved to Mondays.
+#0738  Finance Office: Withdraw update #0258.
+#0739  Finance Office: Kregis budget decreased by $65K.
+#0740  Finance Office: Kregis budget decreased by $150K.
+#0741  PMO note: Expect Kregis's budget to drop by $219K.
+#0742  Vendor call: Kregis vendor onboarding call scheduled for Friday.
+#0743  Finance Office: Kregis budget increased by $100K per the revised plan.
+#0744  Finance Office: Kregis budget increased by $25K per the revised plan.
+#0745  Finance Office: Kregis budget decreased by $140K.
+#0746  Finance Office: Kregis budget decreased by $150K.
+#0747  Vendor call: Pretty sure Kregis's budget is $2770K now.
+#0748  Finance Office: Kregis budget decreased by $135K per the revised plan.
+#0749  Finance Office: Kregis budget decreased by $115K after review.
+#0750  Finance Office: Withdraw update #0458; it was entered in error.
+#0751  Finance Office: Kregis budget decreased by $10K after review.
+#0752  Engineering email: Kregis sprint 3 retrospective notes posted.
+#0753  Legal email: Hearing Kregis's budget goes up $536K.
+#0754  Sales update: Sounds like Kregis gets $592K less.
+#0755  Finance Office: Kregis budget decreased by $20K after review.
+#0756  Finance Office: Kregis budget increased by $50K per the revised plan.
+#0757  Engineering email: Heard Kregis's budget is now $1740K.
+#0758  Sales update: Hearing Kregis's budget goes up $23K.
+#0759  Finance Office: Kregis budget increased by $30K.
+#0760  Finance Office: Kregis budget increased by $5K per the revised plan.
+#0761  Finance Office: Kregis budget increased by $40K.
+#0762  Vendor call: Sounds like Kregis gets $438K less.
+#0763  Finance Office: Kregis budget increased by $10K per the revised plan.
+#0764  Legal email: Sounds like Kregis gets $537K more.
+#0765  Finance Office: Kregis budget increased by $60K after review.
+#0766  Finance Office: Kregis budget decreased by $80K per the revised plan.
+#0767  Finance Office: Reminder: Kregis expense reports are due Monday.
+#0768  Legal email: Expect Kregis's budget to drop by $97K.
+#0769  Finance Office: Kregis budget decreased by $55K.
+#0770  Sales update: Kregis budget should land at $2800K.
+#0771  Finance Office: Kregis budget increased by $119K after review.
+#0772  Finance Office: Withdraw update #0607.
+#0773  Finance Office: Withdraw update #0345; it was entered in error.
+#0774  Finance Office: Withdraw update #0711.
+#0775  PMO note: Kregis budget is going down by $574K.
+#0776  Finance Office: Kregis budget decreased by $105K.
+#0777  Finance Office: Kregis purchase order FC-5596 closed.
+#0778  PMO note: Kregis test environment back online.
+#0779  Finance Office: Kregis budget increased by $312K per the revised plan.
+#0780  Finance Office: Kregis budget decreased by $115K.
+#0781  Finance Office: Withdraw update #0724.
+#0782  Finance Office: Reminder: Kregis expense reports are due Wednesday.
+#0783  Finance Office: Kregis budget decreased by $424K.
+#0784  Finance Office: Kregis budget increased by $35K.
+#0785  Operations chat: Kregis demo rescheduled to Friday afternoon.
+#0786  Finance Office: Kregis budget decreased by $221K per the revised plan.
+#0787  Finance Office: Kregis budget increased by $105K per the revised plan.
+#0788  Facilities ticket: Kregis budget is going up by $224K.
+#0789  Finance Office: Withdraw update #0716; it was entered in error.
+#0790  Finance Office: Withdraw update #0290.
+#0791  Finance Office: Kregis budget increased by $311K.
+#0792  PMO note: Pretty sure Kregis's budget is $2080K now.
+#0793  PMO note: Hearing Kregis's budget goes down $432K.
+#0794  Sales update: Kregis budget is going to $2800K.
+#0795  Finance Office: Kregis budget decreased by $135K after review.
+#0796  Finance Office: Kregis budget decreased by $5K per the revised plan.
+#0797  Finance Office: Withdraw update #0212.
+#0798  Finance Office: Withdraw update #0786; it was entered in error.
+#0799  Finance Office: Kregis budget decreased by $145K after review.
+#0800  Finance Office: Kregis quarterly audit scheduled for Monday.
+#0801  Finance Office: Withdraw update #0067.
+#0802  Finance Office: Kregis budget decreased by $40K.
+#0803  Finance Office: Kregis budget increased by $105K.
+#0804  Finance Office: Kregis budget increased by $451K per the revised plan.
+#0805  Finance Office: Kregis budget increased by $105K.
+#0806  Legal email: Kregis budget should land at $2800K.
+#0807  Finance Office: Withdraw update #0112.
+#0808  Finance Office: Withdraw update #0377.
+#0809  Finance Office: Kregis budget increased by $15K per the revised plan.
+#0810  Marketing email: Expect Kregis's budget to rise by $77K.
+#0811  Legal email: Kregis budget is going up to $2420K.
+#0812  Vendor call: Sounds like Kregis gets $526K less.
+#0813  Finance Office: Kregis budget increased by $60K.
+#0814  Finance Office: Kregis budget increased by $105K after review.
+#0815  Finance Office: Kregis budget increased by $5K.
+#0816  Facilities ticket: Kregis sprint 31 retrospective notes posted.
+#0817  Finance Office: Kregis budget decreased by $105K after review.
+#0818  Finance Office: Kregis budget increased by $107K per the revised plan.
+#0819  Sales update: Kregis security review passed.
+#0820  Finance Office: Withdraw update #0433; it was entered in error.
+#0821  Finance Office: Kregis budget increased by $65K.
+#0822  Operations chat: Kregis kickoff moved to Building 6.
+#0823  Finance Office: Withdraw update #0454.
+#0824  Finance Office: Kregis budget increased by $167K after review.
+#0825  Finance Office: Withdraw update #0282; it was entered in error.
+#0826  Finance Office: Kregis budget decreased by $433K after review.
+#0827  Finance Office: Kregis budget decreased by $20K.
+#0828  Facilities ticket: Pretty sure Kregis's budget is $1810K now.
+#0829  Finance Office: Kregis budget increased by $30K after review.
+#0830  Finance Office: Kregis budget decreased by $40K.
+#0831  Vendor call: Sounds like Kregis gets $457K less.
+#0832  Finance Office: Kregis budget decreased by $20K per the revised plan.
+#0833  Finance Office: Kregis budget decreased by $70K per the revised plan.
+#0834  Finance Office: Kregis budget increased by $45K per the revised plan.
+#0835  Marketing email: Kregis budget is going down by $384K.
+#0836  Finance Office: Kregis budget increased by $130K per the revised plan.
+#0837  Engineering email: Pretty sure Kregis's budget is $1230K now.
+#0838  Finance Office: Kregis budget decreased by $10K.
+#0839  Finance Office: Kregis budget decreased by $20K per the revised plan.
+#0840  Facilities ticket: Kregis budget is going to $1370K.
+#0841  Finance Office: Kregis budget increased by $140K.
+#0842  Finance Office: Kregis budget increased by $70K.
+#0843  Finance Office: Kregis budget increased by $512K.
+#0844  Finance Office: Kregis budget decreased by $65K.
+#0845  Finance Office: Kregis budget increased by $453K per the revised plan.
+#0846  Finance Office: Withdraw update #0380.
+#0847  Finance Office: Kregis budget decreased by $125K.
+#0848  Vendor call: Kregis budget is going down by $287K.
+#0849  Finance Office: Withdraw update #0157; it was entered in error.
+#0850  Engineering email: Kregis budget is going up to $2800K.
+#0851  Finance Office: Withdraw update #0530; it was entered in error.
+#0852  PMO note: Kregis budget should land at $2800K.
+#0853  Finance Office: Kregis budget decreased by $115K after review.
+#0854  Finance Office: Withdraw update #0273.
+#0855  Operations chat: Kregis budget is going down by $149K.
+#0856  Finance Office: Kregis budget decreased by $115K.
+#0857  Finance Office: Kregis budget increased by $35K after review.
+#0858  Finance Office: Kregis budget decreased by $40K after review.
+#0859  Finance Office: Kregis budget decreased by $130K.
+#0860  Finance Office: Withdraw update #0705.
+#0861  Finance Office: Withdraw update #0434; it was entered in error.
+#0862  Finance Office: Kregis budget decreased by $213K after review.
+#0863  Finance Office: Withdraw update #0199.
+#0864  Facilities ticket: Hearing Kregis's budget goes up $308K.
+#0865  Operations chat: Kregis budget is going up by $134K.
+#0866  Legal email: Kregis budget should land at $2450K.
+#0867  Finance Office: Kregis budget decreased by $60K per the revised plan.
+#0868  Operations chat: Sounds like Kregis gets $314K less.
+#0869  Facilities ticket: Heard Kregis's budget is now $1800K.
+#0870  Finance Office: Withdraw update #0529.
+#0871  Finance Office: Withdraw update #0627; it was entered in error.
+#0872  Engineering email: Kregis budget is going down by $168K.
+#0873  Finance Office: Kregis budget increased by $40K after review.
+#0874  Finance Office: Kregis budget decreased by $50K.
+#0875  Vendor call: Kregis budget is going to $2390K.
+#0876  Finance Office: Withdraw update #0734; it was entered in error.
+#0877  Finance Office: Kregis budget increased by $90K.
+#0878  PMO note: Heard Kregis's budget is now $2310K.
+#0879  Finance Office: Kregis budget increased by $55K.
+#0880  Sales update: Kregis sprint 2 retrospective notes posted.
+#0881  Legal email: Expect Kregis's budget to drop by $569K.
+#0882  Sales update: Hearing Kregis's budget goes up $239K.
+#0883  Finance Office: Kregis budget increased by $35K after review.
+#0884  Finance Office: Kregis budget decreased by $231K after review.
+#0885  Finance Office: Kregis budget decreased by $65K.
+#0886  Finance Office: Kregis budget increased by $65K after review.
+#0887  Engineering email: Kregis kickoff moved to Building 8.
+#0888  Finance Office: Withdraw update #0801.
+#0889  Sales update: Kregis documentation moved to the shared drive.
+#0890  Finance Office: Withdraw update #0779; it was entered in error.
+#0891  Operations chat: Kregis budget is going down to $2180K.
+#0892  Finance Office: Withdraw update #0697; it was entered in error.
+#0893  Marketing email: Kregis budget should land at $2800K.
+#0894  Finance Office: Withdraw update #0335.
+#0895  Finance Office: Withdraw update #0719.
+#0896  Vendor call: Kregis security review passed.
+#0897  Finance Office: Withdraw update #0647.
+#0898  Finance Office: Kregis budget decreased by $128K.
+#0899  PMO note: Pretty sure Kregis's budget is $1490K now.
+#0900  Finance Office: Withdraw update #0884.
+#0901  Facilities ticket: Kregis budget is going down to $1540K.
+#0902  Engineering email: Sounds like Kregis gets $581K less.
+#0903  Finance Office: Kregis budget decreased by $90K.
+#0904  Finance Office: Kregis budget increased by $70K after review.
+#0905  Finance Office: Withdraw update #0845; it was entered in error.
+#0906  Finance Office: Kregis budget increased by $337K after review.
+#0907  Facilities ticket: Expect Kregis's budget to drop by $34K.
+#0908  Finance Office: Kregis budget decreased by $90K.
+#0909  Finance Office: Withdraw update #0104; it was entered in error.
+#0910  Operations chat: Kregis kickoff moved to Building 4.
+#0911  Finance Office: Kregis budget decreased by $35K.
+#0912  Finance Office: Withdraw update #0305; it was entered in error.
+#0913  Legal email: Hearing Kregis's budget goes up $361K.
+#0914  Finance Office: Kregis budget increased by $140K.
+#0915  Sales update: Hearing Kregis's budget goes down $133K.
+#0916  Marketing email: Kregis budget is going down by $414K.
+#0917  Engineering email: Kregis budget is going up to $2350K.
+#0918  Marketing email: Kregis kickoff moved to Building 3.
+#0919  Finance Office: Kregis budget decreased by $35K per the revised plan.
+#0920  Finance Office: Withdraw update #0592; it was entered in error.
+#0921  Finance Office: Kregis budget decreased by $60K after review.
+#0922  Finance Office: Kregis budget increased by $95K.
+#0923  Sales update: Kregis budget is going to $930K.
+#0924  Operations chat: Sounds like Kregis gets $228K more.
+#0925  Finance Office: Kregis budget increased by $110K.
+#0926  Finance Office: Kregis budget increased by $65K per the revised plan.
+#0927  Finance Office: Reminder: Kregis expense reports are due Friday.
+#0928  Finance Office: Kregis cost center code changed to FC-7286.
+#0929  Finance Office: Kregis budget decreased by $70K after review.
+#0930  Finance Office: Kregis budget decreased by $10K after review.
+#0931  Finance Office: Kregis budget decreased by $85K.
+#0932  Finance Office: Kregis budget decreased by $100K.
+#0933  Sales update: Sounds like Kregis gets $83K more.
+#0934  Finance Office: Kregis budget decreased by $120K after review.
+#0935  Finance Office: Withdraw update #0714.
+#0936  Finance Office: Kregis budget decreased by $15K per the revised plan.
+#0937  Vendor call: Kregis budget should land at $1870K.
+#0938  Sales update: Kregis budget is going down to $1310K.
+#0939  Finance Office: Kregis budget decreased by $85K.
+#0940  Finance Office: Withdraw update #0898.
+#0941  Finance Office: Withdraw update #0912; it was entered in error.
+#0942  Marketing email: Kregis budget is going up to $2230K.
+#0943  Finance Office: Kregis budget decreased by $182K per the revised plan.
+#0944  PMO note: Kregis budget is going up by $69K.
+#0945  Finance Office: Kregis budget decreased by $90K.
+#0946  Finance Office: Kregis quarterly audit scheduled for Tuesday.
+#0947  Finance Office: Kregis budget increased by $80K per the revised plan.
+#0948  Finance Office: Withdraw update #0408; it was entered in error.
+#0949  Finance Office: Kregis budget decreased by $30K after review.
+#0950  Facilities ticket: Expect Kregis's budget to drop by $301K.
+#0951  Finance Office: Kregis budget increased by $5K per the revised plan.
+#0952  Finance Office: Kregis budget increased by $70K after review.
+#0953  Operations chat: Kregis weekly sync moved to Thursdays.
+#0954  Sales update: Hearing Kregis's budget goes down $371K.
+#0955  Operations chat: Kregis sprint 20 retrospective notes posted.
+#0956  Finance Office: Kregis budget decreased by $20K.
+#0957  Finance Office: Kregis budget decreased by $110K per the revised plan.
+#0958  Finance Office: Kregis budget decreased by $15K after review.
+#0959  Finance Office: Withdraw update #0375; it was entered in error.
+#0960  Finance Office: Kregis budget decreased by $85K per the revised plan.
+#0961  Finance Office: Kregis budget decreased by $120K per the revised plan.
+#0962  Finance Office: Kregis budget increased by $130K.
+#0963  Sales update: Kregis budget should land at $1720K.
+#0964  Finance Office: Kregis budget decreased by $87K per the revised plan.
+#0965  Marketing email: Kregis budget is going to $1950K.
+#0966  Finance Office: Withdraw update #0395.
+#0967  Finance Office: Withdraw update #0152.
+#0968  Vendor call: Expect Kregis's budget to drop by $343K.
+#0969  Finance Office: Kregis budget increased by $140K per the revised plan.
+#0970  Finance Office: Withdraw update #0773.
+#0971  Finance Office: Kregis budget decreased by $35K per the revised plan.
+#0972  Facilities ticket: Kregis security review passed.
+#0973  Finance Office: Withdraw update #0843.
+#0974  Finance Office: Kregis budget increased by $10K.
+#0975  Finance Office: Withdraw update #0941; it was entered in error.
+#0976  Finance Office: Kregis budget increased by $5K per the revised plan.
+#0977  Finance Office: Kregis budget increased by $70K after review.
+#0978  Finance Office: Kregis budget increased by $274K.
+#0979  Finance Office: Kregis budget increased by $80K.
+#0980  Finance Office: Kregis budget increased by $85K.
+#0981  Vendor call: Kregis budget is going to $820K.
+#0982  PMO note: Kregis weekly sync moved to Fridays.
+#0983  Finance Office: Withdraw update #0826.
+#0984  Vendor call: Expect Kregis's budget to drop by $558K.
+#0985  Finance Office: Kregis budget decreased by $546K after review.
+#0986  Marketing email: Kregis design review moved to Room 3B.
+#0987  Finance Office: Kregis budget decreased by $95K.
+#0988  Sales update: Heard Kregis's budget is now $460K.
+#0989  Finance Office: Withdraw update #0699; it was entered in error.
+#0990  Engineering email: Kregis kickoff moved to Building 3.
+#0991  PMO note: Kregis budget is going down to $580K.
+#0992  Finance Office: Kregis budget increased by $55K after review.
+#0993  Engineering email: Kregis budget is going to $590K.
+#0994  Finance Office: Kregis budget increased by $100K after review.
+#0995  Finance Office: Kregis budget increased by $104K per the revised plan.
+#0996  Finance Office: Kregis budget decreased by $120K per the revised plan.
+#0997  Finance Office: Withdraw update #0721; it was entered in error.
+#0998  Finance Office: Kregis budget increased by $80K.
+#0999  Sales update: Kregis sprint 40 retrospective notes posted.
+#1000  Finance Office: Kregis budget increased by $50K.
+#1001  Finance Office: Withdraw update #0369; it was entered in error.
+#1002  Facilities ticket: Kregis budget is going to $1020K.
+#1003  Finance Office: Withdraw update #0804.
+#1004  Finance Office: Kregis budget increased by $135K.
+#1005  Finance Office: Kregis budget increased by $20K after review.
+#1006  Finance Office: Kregis budget increased by $45K per the revised plan.
+#1007  Finance Office: Withdraw update #0296; it was entered in error.
+#1008  Finance Office: Withdraw update #0347; it was entered in error.
+#1009  Finance Office: Withdraw update #0308; it was entered in error.
+#1010  Finance Office: Kregis budget increased by $20K per the revised plan.
+#1011  Finance Office: Kregis budget increased by $60K after review.
+#1012  Finance Office: Kregis budget decreased by $20K per the revised plan.
+#1013  Vendor call: Heard Kregis's budget is now $790K.
+#1014  Finance Office: Kregis budget increased by $75K.
+#1015  Facilities ticket: Heard Kregis's budget is now $540K.
+#1016  Finance Office: Withdraw update #0286; it was entered in error.
+#1017  Legal email: Kregis site visit confirmed for Wednesday.
+#1018  Finance Office: Withdraw update #0967.
+#1019  Finance Office: Kregis budget increased by $60K.
+#1020  PMO note: Heard Kregis's budget is now $1320K.
+#1021  Finance Office: Kregis budget decreased by $75K after review.
+#1022  Finance Office: Kregis budget decreased by $100K.
+#1023  Finance Office: Kregis budget increased by $80K per the revised plan.
+#1024  Finance Office: Kregis budget increased by $85K.
+#1025  Finance Office: Withdraw update #0402; it was entered in error.
+#1026  Finance Office: Kregis budget increased by $80K after review.
+#1027  Operations chat: Kregis budget is going up by $452K.
+#1028  Finance Office: Kregis budget decreased by $463K after review.
+#1029  PMO note: Kregis budget is going to $1150K.
+#1030  Operations chat: Hearing Kregis's budget goes down $339K.
+#1031  Finance Office: Kregis budget increased by $20K per the revised plan.
+#1032  Finance Office: Reminder: Kregis expense reports are due Thursday.
+#1033  Finance Office: Kregis budget decreased by $80K.
+#1034  Finance Office: Kregis budget decreased by $35K after review.
+#1035  Facilities ticket: Kregis risk register updated with 5 new items.
+#1036  Finance Office: Kregis budget increased by $20K.
+#1037  Finance Office: Kregis budget decreased by $115K.
+#1038  Marketing email: Kregis budget is going up by $284K.
+#1039  Marketing email: Expect Kregis's budget to rise by $518K.
+#1040  Marketing email: Hearing Kregis's budget goes up $196K.
+#1041  Finance Office: Kregis budget decreased by $110K per the revised plan.
+#1042  Finance Office: Kregis budget decreased by $130K after review.
+#1043  Finance Office: Kregis budget increased by $85K.
+#1044  Marketing email: Kregis budget is going to $510K.
+#1045  Finance Office: Kregis budget decreased by $140K per the revised plan.
+#1046  Finance Office: Kregis budget increased by $418K.
+#1047  Finance Office: Kregis budget increased by $130K after review.
+#1048  Marketing email: Hearing Kregis's budget goes up $446K.
+#1049  Marketing email: Kregis budget is going to $1240K.
+#1050  Finance Office: Withdraw update #0642; it was entered in error.
+#1051  Finance Office: Kregis budget increased by $15K per the revised plan.
+#1052  Sales update: Heard Kregis's budget is now $1050K.
+#1053  Engineering email: Kregis budget is going to $1160K.
+#1054  Finance Office: Withdraw update #0636; it was entered in error.
+#1055  Legal email: Kregis status report filed for week 47.
+#1056  Marketing email: Kregis budget is going down by $121K.
+#1057  Finance Office: Kregis budget increased by $65K after review.
+#1058  Finance Office: Kregis budget increased by $476K after review.
+#1059  Finance Office: Withdraw update #0825.
+#1060  Vendor call: Heard Kregis's budget is now $1420K.
+#1061  Legal email: Pretty sure Kregis's budget is $1920K now.
+#1062  Finance Office: Kregis budget decreased by $70K after review.
+#1063  Finance Office: Kregis budget increased by $40K per the revised plan.
+#1064  Finance Office: Withdraw update #0314.
+#1065  Finance Office: Kregis budget increased by $125K after review.
+#1066  Legal email: Kregis security review passed.
+#1067  Finance Office: Kregis budget decreased by $140K.
+#1068  Finance Office: Withdraw update #0274; it was entered in error.
+#1069  Finance Office: Kregis budget decreased by $75K.
+#1070  Finance Office: Kregis budget decreased by $40K per the revised plan.
+#1071  Finance Office: Kregis budget increased by $25K per the revised plan.
+#1072  PMO note: Kregis test environment back online.
+#1073  Finance Office: Withdraw update #0729.
+#1074  Engineering email: Sounds like Kregis gets $156K less.
+#1075  Operations chat: Hearing Kregis's budget goes down $247K.
+#1076  Operations chat: Pretty sure Kregis's budget is $820K now.
+#1077  Finance Office: Kregis budget increased by $145K.
+#1078  Finance Office: Withdraw update #0959.
+#1079  Finance Office: Withdraw update #0622; it was entered in error.
+#1080  Facilities ticket: Kregis kickoff moved to Building 5.
+#1081  Finance Office: Kregis budget decreased by $15K after review.
+#1082  Engineering email: Kregis weekly sync moved to Mondays.
+#1083  Marketing email: Pretty sure Kregis's budget is $480K now.
+#1084  Finance Office: Withdraw update #0164.
+#1085  Finance Office: Kregis budget increased by $40K.
+#1086  Finance Office: Kregis budget increased by $140K per the revised plan.
+#1087  Finance Office: Kregis budget decreased by $140K per the revised plan.
+#1088  Finance Office: Kregis budget decreased by $90K after review.
+#1089  Finance Office: Kregis budget decreased by $100K.
+#1090  Facilities ticket: Kregis budget should land at $890K.
+#1091  Engineering email: Kregis status report filed for week 34.
+#1092  Finance Office: Kregis budget increased by $130K after review.
+#1093  Legal email: Heard Kregis's budget is now $1530K.
+#1094  Finance Office: Kregis budget increased by $30K.
+#1095  Sales update: Kregis budget is going down by $282K.
+#1096  Finance Office: Withdraw update #0818.
+#1097  Finance Office: Withdraw update #0539; it was entered in error.
+#1098  Finance Office: Kregis audit notes filed.
+#1099  Finance Office: Kregis budget increased by $212K.
+#1100  Finance Office: Kregis budget increased by $10K per the revised plan.
+#1101  Facilities ticket: Heard Kregis's budget is now $1320K.
+#1102  Finance Office: Kregis budget decreased by $15K after review.
+#1103  Finance Office: Kregis budget decreased by $70K.
+#1104  Finance Office: Withdraw update #0824.
+#1105  Finance Office: Kregis budget increased by $70K per the revised plan.
+#1106  Vendor call: Sounds like Kregis gets $169K more.
+#1107  Finance Office: Withdraw update #0964; it was entered in error.
+#1108  Finance Office: Kregis budget increased by $25K per the revised plan.
+#1109  Engineering email: Kregis budget is going down by $181K.
+#1110  Finance Office: Kregis budget decreased by $98K.
+#1111  Finance Office: Kregis budget increased by $55K.
+#1112  Finance Office: Kregis budget increased by $120K per the revised plan.
+#1113  Finance Office: Kregis budget increased by $65K.
+#1114  Finance Office: Kregis budget decreased by $232K after review.
+#1115  Facilities ticket: Kregis budget is going to $1260K.
+#1116  Sales update: Pretty sure Kregis's budget is $810K now.
+#1117  Finance Office: Kregis budget decreased by $35K.
+#1118  Finance Office: Kregis budget decreased by $50K per the revised plan.
+#1119  Operations chat: Expect Kregis's budget to drop by $151K.
+#1120  Finance Office: Kregis budget decreased by $50K.
+#1121  Marketing email: Kregis documentation moved to the shared drive.
+#1122  Finance Office: Withdraw update #0985; it was entered in error.
+#1123  Finance Office: Withdraw update #1110.
+#1124  Legal email: Expect Kregis's budget to rise by $54K.
+#1125  Marketing email: Hearing Kregis's budget goes up $17K.
+#1126  Finance Office: Withdraw update #0568; it was entered in error.
+#1127  Legal email: Kregis test environment back online.
+#1128  Finance Office: Kregis budget decreased by $60K after review.
+#1129  Finance Office: Kregis budget decreased by $125K.
+#1130  Sales update: Hearing Kregis's budget goes down $369K.
+#1131  PMO note: Expect Kregis's budget to drop by $211K.
+#1132  Vendor call: Hearing Kregis's budget goes up $348K.
+#1133  Finance Office: Kregis budget decreased by $30K after review.
+#1134  Facilities ticket: Pretty sure Kregis's budget is $1650K now.
+#1135  Finance Office: Kregis budget increased by $100K.
+#1136  Engineering email: Kregis budget should land at $2280K.
+#1137  Finance Office: Kregis budget increased by $35K.
+#1138  Facilities ticket: Kregis budget should land at $1550K.
+#1139  Finance Office: Kregis budget decreased by $65K after review.
+#1140  Finance Office: Withdraw update #0567; it was entered in error.
+#1141  Finance Office: Kregis budget increased by $140K.
+#1142  Engineering email: Kregis budget should land at $1250K.
+#1143  Marketing email: Hearing Kregis's budget goes up $567K.
+#1144  Finance Office: Kregis budget increased by $30K.
+#1145  Operations chat: Kregis kickoff moved to Building 6.
+#1146  Finance Office: Kregis budget decreased by $40K.
+#1147  Engineering email: Hearing Kregis's budget goes up $428K.
+#1148  Finance Office: Withdraw update #1140; it was entered in error.
+#1149  Operations chat: Kregis budget is going to $2470K.
+#1150  Operations chat: Kregis budget is going down by $437K.
+#1151  PMO note: Kregis budget is going down by $178K.
+#1152  Finance Office: Kregis budget increased by $100K per the revised plan.
+#1153  Vendor call: Kregis budget is going to $2610K.
+#1154  Finance Office: Kregis budget increased by $90K.
+#1155  Finance Office: Kregis budget decreased by $130K per the revised plan.
+#1156  Vendor call: Kregis security review passed.
+#1157  Engineering email: Kregis budget is going up by $439K.
+#1158  Finance Office: Kregis budget increased by $90K after review.
+#1159  Finance Office: Withdraw update #0494; it was entered in error.
+#1160  PMO note: Kregis budget is going to $2140K.
+#1161  Finance Office: Kregis budget decreased by $65K per the revised plan.
+#1162  Finance Office: Kregis budget decreased by $145K.
+#1163  Vendor call: Hearing Kregis's budget goes up $444K.
+#1164  Marketing email: Kregis budget is going to $2250K.
+#1165  Operations chat: Expect Kregis's budget to drop by $568K.
+#1166  Finance Office: Kregis budget decreased by $75K per the revised plan.
+#1167  Finance Office: Withdraw update #0658.
+#1168  Finance Office: Withdraw update #0411.
+#1169  Finance Office: Kregis budget decreased by $55K per the revised plan.
+#1170  Operations chat: Kregis budget is going to $1390K.
+#1171  Finance Office: Kregis budget increased by $45K after review.
+#1172  Vendor call: Kregis budget is going to $1820K.
+#1173  Finance Office: Withdraw update #0070.
+#1174  PMO note: Kregis site visit confirmed for Tuesday.
+#1175  Marketing email: Kregis budget should land at $1790K.
+#1176  Finance Office: Kregis budget decreased by $40K per the revised plan.
+#1177  Operations chat: Kregis risk register updated with 8 new items.
+#1178  Finance Office: Withdraw update #0461; it was entered in error.
+#1179  Finance Office: Kregis budget increased by $65K.
+#1180  Finance Office: Withdraw update #0146; it was entered in error.
+#1181  Finance Office: Kregis budget decreased by $95K after review.
+#1182  Engineering email: Kregis budget should land at $2350K.
+#1183  Finance Office: Withdraw update #0444; it was entered in error.
+#1184  Finance Office: Kregis budget increased by $50K after review.
+#1185  Finance Office: Withdraw update #0457; it was entered in error.
+#1186  Finance Office: Withdraw update #0862.
+#1187  Finance Office: Kregis budget increased by $5K after review.
+#1188  Engineering email: Sounds like Kregis gets $162K more.
+#1189  Finance Office: Kregis budget increased by $10K per the revised plan.
+#1190  Engineering email: Kregis weekly sync moved to Wednesdays.
+#1191  Finance Office: Kregis budget decreased by $125K.
+#1192  Sales update: Kregis kickoff moved to Building 3.
+#1193  Finance Office: Withdraw update #0569; it was entered in error.
+#1194  Finance Office: Kregis budget increased by $55K after review.
+#1195  Finance Office: Withdraw update #0563; it was entered in error.
+#1196  Finance Office: Kregis purchase order FC-5085 closed.
+#1197  Finance Office: Withdraw update #0504; it was entered in error.
+#1198  Finance Office: Withdraw update #0500; it was entered in error.
+#1199  Finance Office: Withdraw update #0252.
+#1200  Finance Office: Kregis budget decreased by $105K after review.
+#1201  Finance Office: Kregis budget increased by $306K per the revised plan.
+#1202  Finance Office: Withdraw update #0978.
+#1203  Engineering email: Kregis budget is going down to $970K.
+#1204  Finance Office: Kregis budget decreased by $60K after review.
+#1205  Finance Office: Kregis budget decreased by $130K.
+#1206  Finance Office: Kregis budget decreased by $35K.
+#1207  Finance Office: Withdraw update #0575; it was entered in error.
+#1208  Sales update: Kregis weekly sync moved to Wednesdays.
+#1209  Legal email: Kregis budget should land at $300K.
+#1210  Finance Office: Kregis receipts scanned.
+#1211  Finance Office: Kregis budget increased by $100K after review.
+#1212  Legal email: Kregis budget is going up by $413K.
+#1213  Finance Office: Kregis budget increased by $110K per the revised plan.
+#1214  Finance Office: Kregis budget increased by $50K per the revised plan.
+#1215  Finance Office: Kregis budget increased by $60K.
+#1216  Finance Office: Kregis budget increased by $25K per the revised plan.
+#1217  Engineering email: Kregis budget is going to $790K.
+#1218  Engineering email: Pretty sure Kregis's budget is $410K now.
+#1219  Finance Office: Kregis budget decreased by $120K per the revised plan.
+#1220  Legal email: Expect Kregis's budget to drop by $166K.
+#1221  Finance Office: Kregis budget increased by $145K per the revised plan.
+#1222  Legal email: Kregis demo rescheduled to Thursday afternoon.
+#1223  Facilities ticket: Expect Kregis's budget to rise by $148K.
+#1224  Finance Office: Kregis budget decreased by $30K after review.
+#1225  Sales update: Kregis status report filed for week 19.
+#1226  Finance Office: Kregis budget decreased by $45K per the revised plan.
+#1227  Finance Office: Kregis budget increased by $135K.
+#1228  Finance Office: Kregis purchase order FC-5988 closed.
+#1229  Finance Office: Kregis budget increased by $55K after review.
+#1230  Facilities ticket: Pretty sure Kregis's budget is $520K now.
+#1231  Finance Office: Kregis budget decreased by $90K.
+#1232  Finance Office: Kregis budget increased by $140K per the revised plan.
+#1233  Finance Office: Kregis budget increased by $223K after review.
+#1234  Facilities ticket: Heard Kregis's budget is now $890K.
+#1235  Finance Office: Kregis budget decreased by $145K after review.
+#1236  Finance Office: Kregis budget decreased by $70K.
+#1237  Facilities ticket: Kregis budget should land at $830K.
+#1238  Marketing email: Kregis documentation moved to the shared drive.
+#1239  Finance Office: Kregis purchase order FC-5389 closed.
+#1240  Finance Office: Kregis budget increased by $150K after review.
+#1241  Finance Office: Kregis budget increased by $110K.
+#1242  Finance Office: Kregis budget increased by $65K per the revised plan.
+#1243  Finance Office: Kregis budget decreased by $130K after review.
+#1244  Engineering email: Kregis budget should land at $780K.
+#1245  Finance Office: Withdraw update #1233.
+#1246  Finance Office: Kregis budget increased by $30K per the revised plan.
+#1247  Engineering email: Pretty sure Kregis's budget is $830K now.
+#1248  PMO note: Heard Kregis's budget is now $900K.
+#1249  Legal email: Hearing Kregis's budget goes up $6K.
+#1250  Finance Office: Kregis budget increased by $272K after review.
+#1251  Finance Office: Kregis budget decreased by $120K per the revised plan.
+#1252  Finance Office: Kregis budget decreased by $55K.
+#1253  Finance Office: Kregis budget increased by $20K.
+#1254  Finance Office: Kregis budget increased by $45K per the revised plan.
+#1255  Finance Office: Withdraw update #1028; it was entered in error.
+#1256  Finance Office: Kregis budget increased by $5K.
+#1257  Legal email: Hearing Kregis's budget goes up $363K.
+#1258  Finance Office: Kregis audit notes filed.
+#1259  Finance Office: Kregis budget decreased by $110K after review.
+#1260  Facilities ticket: Heard Kregis's budget is now $1140K.
+#1261  Finance Office: Kregis budget increased by $35K after review.
+#1262  Marketing email: Kregis design review moved to Room 5B.
+#1263  Vendor call: Heard Kregis's budget is now $1770K.
+#1264  Engineering email: Pretty sure Kregis's budget is $1680K now.
+#1265  Finance Office: Withdraw update #1096; it was entered in error.
+#1266  Finance Office: Kregis budget increased by $145K per the revised plan.
+#1267  Legal email: Kregis budget is going to $1650K.
+#1268  Engineering email: Hearing Kregis's budget goes down $492K.
+#1269  Finance Office: Kregis budget decreased by $15K per the revised plan.
+#1270  Finance Office: Kregis budget increased by $80K after review.
+#1271  Finance Office: Kregis budget decreased by $105K per the revised plan.
+#1272  Finance Office: Kregis budget increased by $90K per the revised plan.
+#1273  Operations chat: Sounds like Kregis gets $566K more.
+#1274  Finance Office: Kregis budget decreased by $70K.
+#1275  Sales update: Kregis budget is going to $2050K.
+#1276  PMO note: Sounds like Kregis gets $507K more.
+#1277  Legal email: Kregis budget is going down to $1500K.
+#1278  Facilities ticket: Kregis weekly sync moved to Thursdays.
+#1279  Facilities ticket: Kregis site visit confirmed for Tuesday.
+#1280  Marketing email: Kregis budget is going down by $522K.
+#1281  Operations chat: Pretty sure Kregis's budget is $1780K now.
+#1282  Finance Office: Kregis budget decreased by $150K after review.
+#1283  Finance Office: Withdraw update #0791; it was entered in error.
+#1284  Engineering email: Kregis budget is going to $1000K.
+#1285  Finance Office: Withdraw update #0750.
+#1286  Marketing email: Heard Kregis's budget is now $1440K.
+#1287  Engineering email: Kregis budget should land at $820K.
+#1288  Marketing email: Pretty sure Kregis's budget is $1480K now.
+#1289  Finance Office: Kregis budget increased by $130K.
+#1290  Marketing email: Sounds like Kregis gets $596K more.
+#1291  Finance Office: Withdraw update #0943.
+#1292  Finance Office: Kregis budget increased by $60K after review.
+#1293  Finance Office: Kregis budget decreased by $110K.
+#1294  Finance Office: Kregis budget decreased by $85K after review.
+#1295  Finance Office: Withdraw update #0783; it was entered in error.
+#1296  Operations chat: Kregis budget is going up to $1890K.
+#1297  PMO note: Heard Kregis's budget is now $1950K.
+#1298  PMO note: Expect Kregis's budget to drop by $31K.
+#1299  Finance Office: Kregis budget increased by $145K after review.
+#1300  Engineering email: Kregis budget is going up by $67K.
+#1301  Sales update: Sounds like Kregis gets $436K more.
+#1302  Finance Office: Kregis budget increased by $10K after review.
+#1303  Finance Office: Withdraw update #0492.
+#1304  Operations chat: Kregis security review passed.
+#1305  Finance Office: Kregis budget increased by $60K per the revised plan.
+#1306  Finance Office: Kregis budget increased by $50K per the revised plan.
+#1307  Finance Office: Kregis budget increased by $100K.
+#1308  Vendor call: Kregis security review passed.
+#1309  Finance Office: Kregis budget increased by $135K per the revised plan.
+#1310  Sales update: Kregis budget is going down by $27K.
+#1311  Operations chat: Kregis budget is going up to $2800K.
+#1312  Finance Office: Kregis budget decreased by $95K after review.
+#1313  Finance Office: Kregis budget decreased by $25K.
+#1314  Finance Office: Withdraw update #0175.
+#1315  Finance Office: Kregis budget decreased by $80K after review.
+#1316  Facilities ticket: Heard Kregis's budget is now $2370K.
+#1317  Finance Office: Kregis budget decreased by $60K after review.
+#1318  Finance Office: Kregis budget decreased by $130K per the revised plan.
+#1319  Finance Office: Reminder: Kregis expense reports are due Monday.
+#1320  Finance Office: Kregis budget increased by $20K per the revised plan.
+#1321  Finance Office: Kregis budget increased by $45K after review.
+#1322  Finance Office: Withdraw update #1173.
+#1323  Finance Office: Kregis budget decreased by $25K per the revised plan.
+#1324  Finance Office: Kregis budget increased by $563K.
+#1325  Finance Office: Withdraw update #1114.
+#1326  Finance Office: Kregis cost center code changed to FC-9432.
+#1327  Engineering email: Hearing Kregis's budget goes down $499K.
+#1328  Marketing email: Hearing Kregis's budget goes down $24K.
+#1329  Finance Office: Kregis budget decreased by $20K after review.
+#1330  Finance Office: Kregis budget decreased by $115K.
+#1331  Vendor call: Sounds like Kregis gets $81K less.
+#1332  Facilities ticket: Heard Kregis's budget is now $2800K.
+#1333  Finance Office: Kregis budget decreased by $35K after review.
+#1334  PMO note: Kregis site visit confirmed for Thursday.
+#1335  Finance Office: Kregis budget decreased by $30K after review.
+#1336  Finance Office: Withdraw update #0394.
+#1337  Finance Office: Kregis budget decreased by $55K per the revised plan.
+#1338  Finance Office: Kregis budget decreased by $145K.
+#1339  Marketing email: Kregis budget is going up to $2620K.
+#1340  Finance Office: Kregis budget decreased by $60K per the revised plan.
+#1341  Finance Office: Kregis budget decreased by $105K after review.
+#1342  Finance Office: Kregis budget increased by $95K.
+#1343  Finance Office: Kregis budget decreased by $70K after review.
+#1344  Finance Office: Kregis budget decreased by $60K.
+#1345  Sales update: Kregis risk register updated with 6 new items.
+#1346  Vendor call: Heard Kregis's budget is now $1950K.
+#1347  Sales update: Kregis documentation moved to the shared drive.
+#1348  Sales update: Kregis budget should land at $1810K.
+#1349  Finance Office: Kregis budget decreased by $95K.
+#1350  Finance Office: Kregis budget increased by $105K after review.
+#1351  Facilities ticket: Pretty sure Kregis's budget is $2420K now.
+#1352  Finance Office: Kregis budget increased by $30K after review.
+#1353  Marketing email: Kregis sprint 15 retrospective notes posted.
+#1354  PMO note: Sounds like Kregis gets $283K less.
+#1355  Finance Office: Kregis budget decreased by $80K per the revised plan.
+#1356  Engineering email: Hearing Kregis's budget goes up $11K.
+#1357  Finance Office: Withdraw update #1250; it was entered in error.
+#1358  Finance Office: Kregis budget increased by $30K after review.
+#1359  Finance Office: Kregis budget increased by $65K per the revised plan.
+#1360  Finance Office: Withdraw update #0518.
+#1361  Finance Office: Kregis budget decreased by $100K per the revised plan.
+#1362  Finance Office: Kregis budget increased by $145K after review.
+#1363  Finance Office: Kregis budget decreased by $95K after review.
+#1364  PMO note: Kregis budget should land at $1450K.
+#1365  Finance Office: Kregis budget decreased by $145K per the revised plan.
+#1366  Engineering email: Sounds like Kregis gets $374K less.
+#1367  Engineering email: Hearing Kregis's budget goes down $323K.
+#1368  Finance Office: Kregis budget decreased by $45K.
+#1369  Finance Office: Kregis budget decreased by $15K per the revised plan.
+#1370  Legal email: Expect Kregis's budget to rise by $66K.
+#1371  Sales update: Pretty sure Kregis's budget is $2010K now.
+#1372  Legal email: Kregis design review moved to Room 2A.
+#1373  Finance Office: Kregis budget decreased by $110K per the revised plan.
+#1374  Finance Office: Kregis budget increased by $401K after review.
+#1375  Finance Office: Kregis budget decreased by $135K after review.
+#1376  Finance Office: Withdraw update #1201; it was entered in error.
+#1377  Finance Office: Kregis budget increased by $140K.
+#1378  Finance Office: Kregis budget increased by $60K after review.
+#1379  PMO note: Hearing Kregis's budget goes down $571K.
+#1380  Finance Office: Kregis budget increased by $110K per the revised plan.
+#1381  Engineering email: Kregis documentation moved to the shared drive.
+#1382  Sales update: Kregis budget should land at $2560K.
+#1383  Finance Office: Withdraw update #1357.
+#1384  Finance Office: Kregis cost center code changed to FC-7949.
+#1385  Marketing email: Expect Kregis's budget to drop by $481K.
+#1386  Sales update: Expect Kregis's budget to rise by $246K.
+#1387  Finance Office: Kregis budget decreased by $15K after review.
+#1388  Finance Office: Kregis budget increased by $35K after review.
+#1389  Legal email: Kregis budget is going up by $328K.
+#1390  Sales update: Expect Kregis's budget to rise by $549K.
+#1391  Finance Office: Kregis budget decreased by $120K.
+#1392  Legal email: Hearing Kregis's budget goes up $227K.
+#1393  Finance Office: Kregis budget increased by $15K after review.
+#1394  Facilities ticket: Sounds like Kregis gets $357K less.
+#1395  Finance Office: Withdraw update #1001.
+#1396  Finance Office: Withdraw update #0808; it was entered in error.
+#1397  Marketing email: Kregis documentation moved to the shared drive.
+#1398  PMO note: Kregis budget is going up by $52K.
+#1399  Finance Office: Withdraw update #0871.
+#1400  Vendor call: Expect Kregis's budget to drop by $109K.
+#1401  Operations chat: Kregis budget is going down to $2060K.
+#1402  Marketing email: Kregis budget is going up to $2270K.
+#1403  Legal email: Kregis test environment back online.
+#1404  Finance Office: Kregis budget increased by $85K per the revised plan.
+#1405  Facilities ticket: Kregis security review passed.
+#1406  Finance Office: Kregis budget decreased by $20K.
+#1407  Finance Office: Kregis budget increased by $135K after review.
+#1408  Finance Office: Kregis budget increased by $125K after review.
+#1409  Marketing email: Sounds like Kregis gets $372K less.
+#1410  Finance Office: Kregis budget decreased by $150K after review.
+#1411  Finance Office: Withdraw update #0771.
+#1412  Finance Office: Withdraw update #1058; it was entered in error.
+#1413  Finance Office: Kregis budget decreased by $135K per the revised plan.
+#1414  Finance Office: Withdraw update #0387; it was entered in error.
+#1415  Finance Office: Withdraw update #1167; it was entered in error.
+#1416  Finance Office: Withdraw update #0940; it was entered in error.
+#1417  Operations chat: Expect Kregis's budget to rise by $473K.
+#1418  Engineering email: Kregis design review moved to Room 1D.
+#1419  Finance Office: Kregis budget decreased by $95K.
+#1420  Finance Office: Kregis budget increased by $5K after review.
+#1421  Sales update: Hearing Kregis's budget goes up $163K.
+#1422  Vendor call: Kregis sprint 40 retrospective notes posted.
+#1423  Finance Office: Withdraw update #0677; it was entered in error.
+#1424  Operations chat: Hearing Kregis's budget goes down $292K.
+#1425  Finance Office: Kregis budget decreased by $95K.
+#1426  Legal email: Expect Kregis's budget to drop by $159K.
+#1427  Engineering email: Kregis budget is going down to $740K.
+#1428  Finance Office: Kregis budget increased by $150K.
+#1429  Finance Office: Withdraw update #0602.
+#1430  Facilities ticket: Expect Kregis's budget to rise by $382K.
+#1431  Sales update: Heard Kregis's budget is now $990K.
+#1432  Finance Office: Withdraw update #1324.
+#1433  Finance Office: Kregis budget increased by $110K after review.
+#1434  Finance Office: Kregis budget increased by $25K per the revised plan.
+#1435  Finance Office: Kregis budget decreased by $15K per the revised plan.
+#1436  Vendor call: Kregis budget is going down by $152K.
+#1437  Finance Office: Withdraw update #0554.
+#1438  Finance Office: Withdraw update #0337.
+#1439  PMO note: Sounds like Kregis gets $286K more.
+#1440  Facilities ticket: Kregis budget should land at $1790K.
+#1441  Engineering email: Kregis budget is going to $1070K.
+#1442  Finance Office: Withdraw update #0995.
+#1443  Finance Office: Kregis budget decreased by $65K.
+#1444  Finance Office: Kregis budget decreased by $115K after review.
+#1445  PMO note: Kregis demo rescheduled to Tuesday afternoon.
+#1446  Operations chat: Kregis budget is going to $910K.
+#1447  Engineering email: Kregis design review moved to Room 6C.
+#1448  Finance Office: Kregis budget increased by $30K.
+#1449  Finance Office: Kregis budget decreased by $493K per the revised plan.
+#1450  Legal email: Sounds like Kregis gets $326K more.
+#1451  Finance Office: Kregis budget increased by $75K.
+#1452  Finance Office: Kregis budget increased by $95K.
+#1453  Engineering email: Hearing Kregis's budget goes down $259K.
+#1454  Finance Office: Kregis budget decreased by $90K.
+#1455  Finance Office: Kregis budget decreased by $50K.
+#1456  PMO note: Kregis budget is going up by $3K.
+#1457  Vendor call: Kregis budget should land at $890K.
+#1458  Finance Office: Kregis budget increased by $90K.
+#1459  Engineering email: Hearing Kregis's budget goes down $514K.
+#1460  Marketing email: Kregis budget is going down to $620K.
+#1461  Finance Office: Kregis budget increased by $105K after review.
+#1462  Finance Office: Kregis budget increased by $120K after review.
+#1463  Finance Office: Kregis budget increased by $90K per the revised plan.
+#1464  Finance Office: Withdraw update #0448.
+#1465  Finance Office: Kregis budget increased by $70K.
+#1466  Finance Office: Kregis budget increased by $130K.
+#1467  Engineering email: Kregis budget is going up to $2170K.
+#1468  Finance Office: Kregis budget decreased by $85K per the revised plan.
+#1469  Facilities ticket: Heard Kregis's budget is now $2010K.
+#1470  Operations chat: Kregis budget should land at $2430K.
+#1471  Finance Office: Withdraw update #1099.
+#1472  PMO note: Kregis demo rescheduled to Thursday afternoon.
+#1473  Finance Office: Kregis budget increased by $115K per the revised plan.
+#1474  Finance Office: Kregis budget increased by $35K.
+#1475  Finance Office: Kregis budget decreased by $45K per the revised plan.
+#1476  Finance Office: Kregis budget decreased by $10K per the revised plan.
+#1477  Finance Office: Withdraw update #0895.
+#1478  Finance Office: Kregis budget decreased by $70K after review.
+#1479  Finance Office: Kregis budget increased by $50K after review.
+#1480  Finance Office: Kregis budget decreased by $75K.
+#1481  Finance Office: Kregis budget increased by $40K.
+#1482  Operations chat: Sounds like Kregis gets $334K more.
+#1483  Finance Office: Kregis budget decreased by $55K per the revised plan.
+#1484  Facilities ticket: Kregis budget is going up to $1670K.
+#1485  Finance Office: Withdraw update #0732; it was entered in error.
+#1486  Finance Office: Kregis budget decreased by $65K after review.
+#1487  Finance Office: Kregis budget increased by $55K per the revised plan.
+#1488  Operations chat: Expect Kregis's budget to drop by $388K.
+#1489  Legal email: Kregis status report filed for week 8.
+#1490  Finance Office: Kregis budget increased by $125K per the revised plan.
+#1491  Finance Office: Kregis budget decreased by $40K.
+#1492  Finance Office: Kregis budget increased by $135K per the revised plan.
+#1493  Finance Office: Kregis budget increased by $100K after review.
+#1494  Legal email: Heard Kregis's budget is now $1820K.
+#1495  Sales update: Sounds like Kregis gets $147K more.
+#1496  Finance Office: Kregis invoice batch FC-5522 archived.
+#1497  Finance Office: Kregis finance review moved to Room 2D.
+#1498  Operations chat: Kregis budget should land at $2390K.
+#1499  Finance Office: Kregis budget increased by $120K after review.
+#1500  Engineering email: Kregis budget is going to $1990K.
+#1501  Finance Office: Kregis budget increased by $40K per the revised plan.
+#1502  PMO note: Kregis budget is going down by $41K.
+#1503  Finance Office: Kregis budget decreased by $45K after review.
+#1504  Finance Office: Kregis budget increased by $15K after review.
+#1505  Finance Office: Kregis budget decreased by $55K after review.
+#1506  Facilities ticket: Kregis budget is going down by $544K.
+#1507  Finance Office: Kregis budget increased by $120K per the revised plan.
+#1508  Legal email: Heard Kregis's budget is now $1750K.
+#1509  Finance Office: Kregis receipts scanned.
+#1510  Finance Office: Kregis budget increased by $120K per the revised plan.
+#1511  PMO note: Sounds like Kregis gets $277K more.
+#1512  Finance Office: Withdraw update #0906.
+#1513  Finance Office: Kregis budget increased by $45K after review.
+#1514  Legal email: Pretty sure Kregis's budget is $2520K now.
+#1515  Finance Office: Kregis budget increased by $120K.
+#1516  Engineering email: Pretty sure Kregis's budget is $2710K now.
+#1517  Finance Office: Kregis budget increased by $15K after review.
+#1518  PMO note: Hearing Kregis's budget goes down $294K.
+#1519  Finance Office: Kregis budget decreased by $130K after review.
+#1520  Finance Office: Kregis budget increased by $65K.
+#1521  Marketing email: Sounds like Kregis gets $341K less.
+#1522  PMO note: Kregis weekly sync moved to Fridays.
+#1523  Finance Office: Kregis budget increased by $125K per the revised plan.
+#1524  Finance Office: Kregis budget decreased by $130K after review.
+#1525  Finance Office: Kregis budget increased by $85K per the revised plan.
+#1526  Legal email: Kregis budget is going up to $2620K.
+#1527  Engineering email: Sounds like Kregis gets $578K less.
+#1528  Finance Office: Kregis budget decreased by $100K per the revised plan.
+#1529  Finance Office: Kregis budget increased by $60K after review.
+#1530  Finance Office: Kregis budget decreased by $135K per the revised plan.
+#1531  Finance Office: Kregis budget decreased by $35K after review.
+#1532  Finance Office: Kregis budget increased by $25K per the revised plan.
+#1533  Engineering email: Kregis budget is going to $2650K.
+#1534  Finance Office: Kregis budget decreased by $60K.
+#1535  Finance Office: Kregis budget decreased by $65K per the revised plan.
+#1536  Finance Office: Kregis budget increased by $100K after review.
+#1537  Marketing email: Kregis risk register updated with 7 new items.
+#1538  Marketing email: Kregis budget should land at $1720K.
+#1539  Finance Office: Kregis budget decreased by $55K after review.
+#1540  Finance Office: Kregis budget increased by $95K.
+#1541  Finance Office: Kregis budget increased by $120K per the revised plan.
+#1542  Finance Office: Withdraw update #0453.
+#1543  Finance Office: Kregis budget increased by $115K per the revised plan.
+#1544  Finance Office: Kregis budget decreased by $15K after review.
+#1545  Operations chat: Kregis budget is going down to $2490K.
+#1546  Finance Office: Kregis budget decreased by $5K.
+#1547  Finance Office: Kregis budget increased by $120K per the revised plan.
+#1548  Finance Office: Kregis budget decreased by $60K after review.
+#1549  Finance Office: Kregis budget decreased by $65K per the revised plan.
+#1550  Finance Office: Kregis budget decreased by $150K.
+#1551  Finance Office: Kregis budget increased by $90K.
+#1552  Legal email: Sounds like Kregis gets $202K more.
+#1553  Vendor call: Hearing Kregis's budget goes up $487K.
+#1554  Finance Office: Kregis budget increased by $55K after review.
+#1555  Operations chat: Kregis budget is going down by $102K.
+#1556  Marketing email: Heard Kregis's budget is now $2800K.
+#1557  Vendor call: Sounds like Kregis gets $422K less.
+#1558  Finance Office: Withdraw update #1046; it was entered in error.
+#1559  Marketing email: Heard Kregis's budget is now $2360K.
+#1560  Finance Office: Kregis budget decreased by $65K after review.
+#1561  Sales update: Kregis sprint 2 retrospective notes posted.
+#1562  Facilities ticket: Kregis site visit confirmed for Wednesday.
+#1563  Finance Office: Kregis budget increased by $100K per the revised plan.
+#1564  Vendor call: Expect Kregis's budget to drop by $502K.
+#1565  Finance Office: Withdraw update #1449; it was entered in error.
+#1566  Facilities ticket: Kregis budget should land at $2800K.
+#1567  Vendor call: Kregis budget is going down by $254K.
+#1568  Finance Office: Kregis budget decreased by $95K per the revised plan.
+#1569  Finance Office: Withdraw update #1255.
+#1570  Finance Office: Kregis budget decreased by $105K.
+#1571  Facilities ticket: Kregis budget is going down by $331K.
+#1572  Finance Office: Kregis budget decreased by $30K per the revised plan.
+#1573  Finance Office: Kregis budget increased by $30K per the revised plan.
+#1574  PMO note: Expect Kregis's budget to drop by $464K.
+#1575  Finance Office: Withdraw update #1374; it was entered in error.
+#1576  PMO note: Kregis budget should land at $1770K.
+#1577  Sales update: Kregis vendor onboarding call scheduled for Wednesday.
+#1578  Finance Office: Withdraw update #0315.
+#1579  Finance Office: Withdraw update #0156.
+#1580  Sales update: Expect Kregis's budget to rise by $406K.
+#1581  Finance Office: Kregis budget decreased by $130K per the revised plan.
+#1582  Finance Office: Kregis budget decreased by $65K.
+#1583  Finance Office: Kregis budget increased by $15K after review.
+#1584  Finance Office: Kregis budget decreased by $50K per the revised plan.
+#1585  Marketing email: Kregis kickoff moved to Building 6.
+#1586  Finance Office: Kregis budget decreased by $75K.
+#1587  Finance Office: Kregis budget decreased by $150K after review.
+#1588  Finance Office: Kregis budget increased by $30K.
+#1589  Operations chat: Kregis budget is going up to $1400K.
+#1590  PMO note: Pretty sure Kregis's budget is $1470K now.
+#1591  Vendor call: Sounds like Kregis gets $143K less.
+#1592  Operations chat: Sounds like Kregis gets $378K less.
+#1593  PMO note: Sounds like Kregis gets $346K less.
+#1594  Sales update: Expect Kregis's budget to rise by $398K.
+#1595  Legal email: Expect Kregis's budget to drop by $256K.
+#1596  Finance Office: Kregis receipts scanned.
+#1597  Finance Office: Kregis budget decreased by $105K after review.
+#1598  Vendor call: Expect Kregis's budget to drop by $18K.
+#1599  Finance Office: Kregis budget increased by $80K per the revised plan.
+#1600  Finance Office: Kregis budget decreased by $45K.
+
+Question: What is Kregis's budget now?

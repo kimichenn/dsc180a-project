@@ -1,0 +1,18 @@
+skill_repeat_10x_v1: 267/2400 eligible responses collected
+30 fresh logs; 10 base repeats per condition.
+Accuracy/effects use only logs complete across all base conditions; interim results are descriptive.
+
+gpt: 3/30 complete base logs
+Version  No skill    Skill       Paired skill gain
+C        90.0%       80.0%       -10.0 pp
+R        53.3%       46.7%       -6.7 pp
+RG       66.7%       63.3%       -3.3 pp
+E        93.3%       93.3%       +0.0 pp
+gpt H1: E minus R without skill: +40.0 pp (95% CI +30.0 to +60.0; Holm p=0.5).
+gpt H2: skill gain averaged over R and RG: -5.0 pp (95% CI -5.0 to -5.0; Holm p=0.5).
+
+Repeatability: correct-count histograms and exact numeric-answer agreement are in the CSV tables.
+Missing numeric answers count as wrong and never count as matching numbers.
+Sign-flip inference assumes symmetric log differences under the null. Confidence intervals resample whole logs.
+Do not interpret repeated identical errors as proof of a particular mechanism.
+The instruction is general in wording; these data test only the budget task.

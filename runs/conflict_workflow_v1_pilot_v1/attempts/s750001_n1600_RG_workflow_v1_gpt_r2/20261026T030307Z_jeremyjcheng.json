@@ -1,0 +1,63 @@
+{
+ "trial_id": "s750001_n1600_RG_workflow_v1_gpt_r2",
+ "order": 93,
+ "world_id": "s750001_n1600",
+ "version": "RG",
+ "instruction": "workflow_v1",
+ "model": "gpt",
+ "repeat": 2,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "edce4ffc615c62f06d3809a603e4558ffb4d58820a2a8402f143ea244605941e",
+ "started_at": "2026-10-26T03:03:07+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Pedrene\u2019s budget is **$845K**.\n\nOnly Finance Office budget updates count. I resolved the withdrawal chains first, then summed the updates that remain effective, each once.\n\n| Record range | Contribution after all withdrawals |\n|---|---:|\n| #0001\u2013#0400, including the initial budget | $921K |\n| #0401\u2013#0800 | \u2212$2,195K |\n| #0801\u2013#1200 | +$1,634K |\n| #1201\u2013#1600 | +$485K |\n| **Final budget** | **$845K** |\n\nThese are contributions based on the final status of all records, not historical balances at those checkpoints.\n\nANSWER: $845K",
+ "usage": {
+  "input_tokens": 29829,
+  "cached_input_tokens": 0,
+  "output_tokens": 6371,
+  "reasoning_output_tokens": 6214
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a17629-68e5-7a12-933f-9c9f718b6378"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Pedrene\u2019s budget is **$845K**.\n\nOnly Finance Office budget updates count. I resolved the withdrawal chains first, then summed the updates that remain effective, each once.\n\n| Record range | Contribution after all withdrawals |\n|---|---:|\n| #0001\u2013#0400, including the initial budget | $921K |\n| #0401\u2013#0800 | \u2212$2,195K |\n| #0801\u2013#1200 | +$1,634K |\n| #1201\u2013#1600 | +$485K |\n| **Final budget** | **$845K** |\n\nThese are contributions based on the final status of all records, not historical balances at those checkpoints.\n\nANSWER: $845K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 29829,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 6371,
+     "reasoning_output_tokens": 6214
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T03:03:07.756880Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:03:07.758912Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:03:07.761452Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:03:07.763117Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:03:07.764590Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:03:07.766169Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:03:07.794418Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:03:07.795996Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:03:07.812219Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T03:04:37.183897Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a17629-68e5-7a12-933f-9c9f718b6378.1792983787753277000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T03:04:37+00:00",
+ "elapsed_s": 89.9
+}

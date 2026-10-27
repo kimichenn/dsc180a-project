@@ -1,0 +1,63 @@
+{
+ "trial_id": "s730002_n1600_C_budget_forward_v2_gpt_r3",
+ "order": 297,
+ "world_id": "s730002_n1600",
+ "version": "C",
+ "instruction": "budget_forward_v2",
+ "model": "gpt",
+ "repeat": 3,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "f4d5ae7c7cfc260243ef8c5d6d5fa1e62ad5586870d790086e1d224b6c6b75d6",
+ "started_at": "2026-10-26T01:36:16+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Only Finance Office budget changes apply. Administrative records are excluded, and there are no withdrawal records in the supplied list.\n\nStarting from **$1,080K** at #0001, the chronological replay gives these signed block totals and checkpoints (all amounts in $K):\n\n| Records | Net change | Running budget |\n|---|---:|---:|\n| #0002\u2013#0050 | +1,718 | 2,798 |\n| #0051\u2013#0100 | \u2212924 | 1,874 |\n| #0101\u2013#0150 | \u2212221 | 1,653 |\n| #0151\u2013#0200 | +279 | 1,932 |\n| #0201\u2013#0250 | \u221290 | 1,842 |\n| #0251\u2013#0300 | +730 | 2,572 |\n| #0301\u2013#0350 | +170 | 2,742 |\n| #0351\u2013#0400 | +667 | 3,409 |\n| #0401\u2013#0450 | \u221214 | 3,395 |\n| #0451\u2013#0500 | +441 | 3,836 |\n| #0501\u2013#0550 | \u2212266 | 3,570 |\n| #0551\u2013#0600 | +364 | 3,934 |\n| #0601\u2013#0650 | +487 | 4,421 |\n| #0651\u2013#0700 | +215 | 4,636 |\n| #0701\u2013#0750 | +1,026 | 5,662 |\n| #0751\u2013#0800 | \u221280 | 5,582 |\n| #0801\u2013#0850 | +35 | 5,617 |\n| #0851\u2013#0900 | +265 | 5,882 |\n| #0901\u2013#0950 | \u2212755 | 5,127 |\n| #0951\u2013#1000 | +380 | 5,507 |\n| #1001\u2013#1050 | \u2212320 | 5,187 |\n| #1051\u2013#1100 | +265 | 5,452 |\n| #1101\u2013#1150 | \u2212555 | 4,897 |\n| #1151\u2013#1200 | \u2212300 | 4,597 |\n| #1201\u2013#1250 | +100 | 4,697 |\n| #1251\u2013#1300 | +215 | 4,912 |\n| #1301\u2013#1350 | \u2212320 | 4,592 |\n| #1351\u2013#1400 | \u2212505 | 4,087 |\n| #1401\u2013#1450 | \u2212790 | 3,297 |\n| #1451\u2013#1500 | \u2212140 | 3,157 |\n| #1501\u2013#1550 | +170 | 3,327 |\n| #1551\u2013#1600 | \u2212810 | 2,517 |\n\nReconciliation: opening budget **$1,080K** plus net Finance changes of **$1,437K** equals **$2,517K**.\n\nANSWER: $2517K",
+ "usage": {
+  "input_tokens": 30609,
+  "cached_input_tokens": 0,
+  "output_tokens": 4289,
+  "reasoning_output_tokens": 3624
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a175d9-e4b3-7e73-a364-f59eede280bb"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Only Finance Office budget changes apply. Administrative records are excluded, and there are no withdrawal records in the supplied list.\n\nStarting from **$1,080K** at #0001, the chronological replay gives these signed block totals and checkpoints (all amounts in $K):\n\n| Records | Net change | Running budget |\n|---|---:|---:|\n| #0002\u2013#0050 | +1,718 | 2,798 |\n| #0051\u2013#0100 | \u2212924 | 1,874 |\n| #0101\u2013#0150 | \u2212221 | 1,653 |\n| #0151\u2013#0200 | +279 | 1,932 |\n| #0201\u2013#0250 | \u221290 | 1,842 |\n| #0251\u2013#0300 | +730 | 2,572 |\n| #0301\u2013#0350 | +170 | 2,742 |\n| #0351\u2013#0400 | +667 | 3,409 |\n| #0401\u2013#0450 | \u221214 | 3,395 |\n| #0451\u2013#0500 | +441 | 3,836 |\n| #0501\u2013#0550 | \u2212266 | 3,570 |\n| #0551\u2013#0600 | +364 | 3,934 |\n| #0601\u2013#0650 | +487 | 4,421 |\n| #0651\u2013#0700 | +215 | 4,636 |\n| #0701\u2013#0750 | +1,026 | 5,662 |\n| #0751\u2013#0800 | \u221280 | 5,582 |\n| #0801\u2013#0850 | +35 | 5,617 |\n| #0851\u2013#0900 | +265 | 5,882 |\n| #0901\u2013#0950 | \u2212755 | 5,127 |\n| #0951\u2013#1000 | +380 | 5,507 |\n| #1001\u2013#1050 | \u2212320 | 5,187 |\n| #1051\u2013#1100 | +265 | 5,452 |\n| #1101\u2013#1150 | \u2212555 | 4,897 |\n| #1151\u2013#1200 | \u2212300 | 4,597 |\n| #1201\u2013#1250 | +100 | 4,697 |\n| #1251\u2013#1300 | +215 | 4,912 |\n| #1301\u2013#1350 | \u2212320 | 4,592 |\n| #1351\u2013#1400 | \u2212505 | 4,087 |\n| #1401\u2013#1450 | \u2212790 | 3,297 |\n| #1451\u2013#1500 | \u2212140 | 3,157 |\n| #1501\u2013#1550 | +170 | 3,327 |\n| #1551\u2013#1600 | \u2212810 | 2,517 |\n\nReconciliation: opening budget **$1,080K** plus net Finance changes of **$1,437K** equals **$2,517K**.\n\nANSWER: $2517K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 30609,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 4289,
+     "reasoning_output_tokens": 3624
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T01:36:16.588391Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:36:16.589728Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:36:16.590898Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:36:16.592082Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:36:16.593232Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:36:16.594260Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:36:16.595393Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:36:16.597019Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:36:16.622370Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:36:16.623532Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:36:16.651820Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T01:37:39.189768Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a175d9-e4b3-7e73-a364-f59eede280bb.1792978576580483000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T01:37:39+00:00",
+ "elapsed_s": 83.2
+}

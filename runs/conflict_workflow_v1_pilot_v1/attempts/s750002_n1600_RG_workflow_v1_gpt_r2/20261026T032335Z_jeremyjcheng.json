@@ -1,0 +1,63 @@
+{
+ "trial_id": "s750002_n1600_RG_workflow_v1_gpt_r2",
+ "order": 202,
+ "world_id": "s750002_n1600",
+ "version": "RG",
+ "instruction": "workflow_v1",
+ "model": "gpt",
+ "repeat": 2,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "714a179088d2092fb9edc94212a989aee6aa737fc7f115340c4ec93c98128dd4",
+ "started_at": "2026-10-26T03:23:35+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Kregis\u2019s current budget is **$1,034K**.\n\nI counted only Finance Office budget updates, resolving withdrawals\u2014including withdrawals of withdrawals\u2014before applying the surviving updates. Non-Finance messages and unrelated administrative records have no budget effect.\n\nAs a final arithmetic check, the updates through #1500 that remain effective contribute **$1,269K**. Effective updates in #1501\u2013#1600 add **$1,785K** and subtract **$2,020K**:\n\n\\[\n1{,}269 + 1{,}785 - 2{,}020 = 1{,}034\n\\]\n\nANSWER: $1034K",
+ "usage": {
+  "input_tokens": 31155,
+  "cached_input_tokens": 0,
+  "output_tokens": 4872,
+  "reasoning_output_tokens": 4727
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a1763c-26ff-7023-8da4-bf3a0cce6db1"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Kregis\u2019s current budget is **$1,034K**.\n\nI counted only Finance Office budget updates, resolving withdrawals\u2014including withdrawals of withdrawals\u2014before applying the surviving updates. Non-Finance messages and unrelated administrative records have no budget effect.\n\nAs a final arithmetic check, the updates through #1500 that remain effective contribute **$1,269K**. Effective updates in #1501\u2013#1600 add **$1,785K** and subtract **$2,020K**:\n\n\\[\n1{,}269 + 1{,}785 - 2{,}020 = 1{,}034\n\\]\n\nANSWER: $1034K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 31155,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 4872,
+     "reasoning_output_tokens": 4727
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T03:23:36.067607Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:36.092159Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:36.093560Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:36.094933Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:36.096161Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:36.097390Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:36.098541Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:36.099659Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:36.115970Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T03:25:29.452127Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a1763c-26ff-7023-8da4-bf3a0cce6db1.1792985016064399000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T03:25:29+00:00",
+ "elapsed_s": 113.8
+}

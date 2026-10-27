@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Sudrul budget set to $1440K per the revised plan.
+#0002  Finance Office: Sudrul budget increased by $90K per the revised plan.
+#0003  Finance Office: Sudrul cost center code changed to FC-3013.
+#0004  Finance Office: Sudrul budget decreased by $55K per the revised plan.
+#0005  Finance Office: Sudrul budget decreased by $401K.
+#0006  Finance Office: Sudrul budget increased by $472K per the revised plan.
+#0007  Facilities ticket: Expect Sudrul's budget to drop by $92K.
+#0008  Finance Office: Sudrul budget increased by $95K.
+#0009  Finance Office: Withdraw update #0006.
+#0010  Operations chat: Sudrul budget is going down by $19K.
+#0011  Finance Office: Sudrul budget increased by $88K.
+#0012  Finance Office: Withdraw update #0005.
+#0013  PMO note: Sounds like Sudrul gets $569K more.
+#0014  Finance Office: Sudrul budget decreased by $488K.
+#0015  Finance Office: Sudrul budget increased by $60K after review.
+#0016  Finance Office: Withdraw update #0009; it was entered in error.
+#0017  Vendor call: Sounds like Sudrul gets $483K more.
+#0018  Finance Office: Sudrul budget decreased by $227K.
+#0019  Legal email: Hearing Sudrul's budget goes down $173K.
+#0020  Finance Office: Sudrul cost center code changed to FC-5769.
+#0021  Finance Office: Sudrul budget increased by $108K.
+#0022  Finance Office: Sudrul budget increased by $55K.
+#0023  Finance Office: Sudrul budget decreased by $36K per the revised plan.
+#0024  Finance Office: Sudrul budget decreased by $263K.
+#0025  Finance Office: Withdraw update #0014.
+#0026  Legal email: Expect Sudrul's budget to drop by $352K.
+#0027  Finance Office: Sudrul budget decreased by $283K per the revised plan.
+#0028  Marketing email: Sudrul budget should land at $1580K.
+#0029  Vendor call: Sudrul site visit confirmed for Thursday.
+#0030  Facilities ticket: Sudrul risk register updated with 4 new items.
+#0031  Finance Office: Withdraw update #0021; it was entered in error.
+#0032  Finance Office: Sudrul budget decreased by $66K after review.
+#0033  Finance Office: Sudrul budget increased by $302K per the revised plan.
+#0034  Finance Office: Sudrul budget increased by $62K after review.
+#0035  Sales update: Sudrul security review passed.
+#0036  Vendor call: Sudrul budget is going down by $287K.
+#0037  Finance Office: Sudrul budget increased by $90K per the revised plan.
+#0038  Finance Office: Sudrul budget increased by $145K.
+#0039  PMO note: Sudrul budget is going up by $104K.
+#0040  Finance Office: Sudrul budget decreased by $128K.
+#0041  Finance Office: Sudrul budget increased by $140K after review.
+#0042  Finance Office: Sudrul budget decreased by $528K.
+#0043  PMO note: Heard Sudrul's budget is now $1560K.
+#0044  Finance Office: Sudrul budget decreased by $100K after review.
+#0045  Finance Office: Sudrul budget decreased by $126K per the revised plan.
+#0046  Finance Office: Withdraw update #0011; it was entered in error.
+#0047  Finance Office: Sudrul purchase order FC-6656 closed.
+#0048  PMO note: Sudrul budget is going down by $441K.
+#0049  Finance Office: Withdraw update #0034; it was entered in error.
+#0050  Operations chat: Sudrul budget is going up by $342K.
+#0051  Finance Office: Sudrul budget decreased by $140K.
+#0052  Finance Office: Sudrul budget decreased by $586K after review.
+#0053  Finance Office: Withdraw update #0040; it was entered in error.
+#0054  Finance Office: Sudrul budget increased by $115K.
+#0055  Legal email: Sudrul budget is going up to $780K.
+#0056  Operations chat: Pretty sure Sudrul's budget is $800K now.
+#0057  Sales update: Hearing Sudrul's budget goes up $38K.
+#0058  Finance Office: Sudrul budget decreased by $100K per the revised plan.
+#0059  PMO note: Sudrul budget is going to $640K.
+#0060  Facilities ticket: Sudrul budget should land at $450K.
+#0061  Finance Office: Withdraw update #0053; it was entered in error.
+#0062  Finance Office: Sudrul budget increased by $189K.
+#0063  Vendor call: Sudrul budget is going up by $123K.
+#0064  Marketing email: Sudrul test environment back online.
+#0065  Finance Office: Sudrul budget increased by $120K after review.
+#0066  Engineering email: Sudrul budget is going up by $467K.
+#0067  Finance Office: Sudrul budget decreased by $232K.
+#0068  Sales update: Sudrul budget should land at $540K.
+#0069  Finance Office: Sudrul budget increased by $323K per the revised plan.
+#0070  Finance Office: Withdraw update #0027; it was entered in error.
+#0071  Finance Office: Sudrul budget decreased by $388K after review.
+#0072  Finance Office: Sudrul budget increased by $266K after review.
+#0073  Engineering email: Pretty sure Sudrul's budget is $1090K now.
+#0074  Finance Office: Sudrul budget increased by $85K after review.
+#0075  Finance Office: Sudrul budget decreased by $18K after review.
+#0076  Finance Office: Sudrul budget decreased by $182K after review.
+#0077  Finance Office: Sudrul budget increased by $526K per the revised plan.
+#0078  Finance Office: Withdraw update #0062; it was entered in error.
+#0079  Finance Office: Withdraw update #0025; it was entered in error.
+#0080  Finance Office: Sudrul budget increased by $371K.
+#0081  Finance Office: Withdraw update #0070; it was entered in error.
+#0082  Finance Office: Sudrul budget decreased by $90K.
+#0083  PMO note: Hearing Sudrul's budget goes up $368K.
+#0084  Finance Office: Sudrul budget increased by $172K.
+#0085  Sales update: Hearing Sudrul's budget goes up $501K.
+#0086  Facilities ticket: Heard Sudrul's budget is now $1100K.
+#0087  Finance Office: Sudrul budget decreased by $90K.
+#0088  Finance Office: Sudrul budget decreased by $110K.
+#0089  Sales update: Sudrul budget is going to $470K.
+#0090  Legal email: Sudrul budget is going down to $580K.
+#0091  Finance Office: Sudrul budget increased by $348K.
+#0092  Finance Office: Sudrul budget increased by $381K per the revised plan.
+#0093  Finance Office: Sudrul budget increased by $86K per the revised plan.
+#0094  Sales update: Sudrul budget is going up by $428K.
+#0095  Sales update: Sudrul vendor onboarding call scheduled for Tuesday.
+#0096  Finance Office: Sudrul budget increased by $482K per the revised plan.
+#0097  Finance Office: Sudrul budget decreased by $144K after review.
+#0098  Finance Office: Sudrul budget increased by $597K per the revised plan.
+#0099  Finance Office: Sudrul budget decreased by $145K.
+#0100  Sales update: Expect Sudrul's budget to drop by $157K.
+#0101  Finance Office: Withdraw update #0049.
+#0102  Finance Office: Sudrul budget increased by $120K.
+#0103  Finance Office: Sudrul budget increased by $145K after review.
+#0104  Operations chat: Sudrul budget is going to $2800K.
+#0105  Finance Office: Sudrul budget decreased by $15K per the revised plan.
+#0106  Finance Office: Sudrul budget increased by $70K.
+#0107  Finance Office: Sudrul budget decreased by $127K after review.
+#0108  Finance Office: Withdraw update #0046; it was entered in error.
+#0109  Engineering email: Sudrul vendor onboarding call scheduled for Wednesday.
+#0110  Finance Office: Sudrul budget decreased by $76K per the revised plan.
+#0111  Marketing email: Expect Sudrul's budget to drop by $99K.
+#0112  Finance Office: Sudrul budget increased by $55K.
+#0113  Finance Office: Withdraw update #0045; it was entered in error.
+#0114  Finance Office: Sudrul budget decreased by $327K per the revised plan.
+#0115  Sales update: Expect Sudrul's budget to rise by $572K.
+#0116  Finance Office: Withdraw update #0108.
+#0117  Engineering email: Sudrul budget is going down by $439K.
+#0118  Finance Office: Sudrul budget increased by $75K after review.
+#0119  Legal email: Sudrul status report filed for week 41.
+#0120  Engineering email: Sudrul design review moved to Room 5A.
+#0121  Finance Office: Sudrul budget increased by $67K per the revised plan.
+#0122  Finance Office: Sudrul budget increased by $80K.
+#0123  Sales update: Sudrul budget is going up by $272K.
+#0124  Sales update: Sudrul budget should land at $2140K.
+#0125  Engineering email: Sudrul budget is going to $2250K.
+#0126  Engineering email: Sudrul demo rescheduled to Tuesday afternoon.
+#0127  Finance Office: Sudrul budget increased by $101K per the revised plan.
+#0128  Finance Office: Withdraw update #0033.
+#0129  Facilities ticket: Sudrul budget should land at $1700K.
+#0130  Finance Office: Sudrul budget decreased by $252K per the revised plan.
+#0131  Finance Office: Sudrul budget decreased by $132K per the revised plan.
+#0132  Legal email: Sudrul budget should land at $2370K.
+#0133  Finance Office: Sudrul budget decreased by $55K.
+#0134  Finance Office: Sudrul budget increased by $324K after review.
+#0135  Finance Office: Sudrul budget increased by $298K after review.
+#0136  Marketing email: Sudrul budget is going up by $383K.
+#0137  PMO note: Sudrul weekly sync moved to Wednesdays.
+#0138  Operations chat: Sudrul weekly sync moved to Fridays.
+#0139  Finance Office: Sudrul budget decreased by $416K per the revised plan.
+#0140  Finance Office: Sudrul budget decreased by $50K.
+#0141  Marketing email: Hearing Sudrul's budget goes up $589K.
+#0142  Finance Office: Sudrul budget increased by $30K after review.
+#0143  Finance Office: Withdraw update #0067.
+#0144  Finance Office: Sudrul budget increased by $110K per the revised plan.
+#0145  Sales update: Expect Sudrul's budget to drop by $192K.
+#0146  Engineering email: Sudrul budget is going up by $51K.
+#0147  Legal email: Sudrul budget is going down by $196K.
+#0148  Facilities ticket: Pretty sure Sudrul's budget is $2800K now.
+#0149  Finance Office: Sudrul budget decreased by $35K per the revised plan.
+#0150  Finance Office: Withdraw update #0031.
+#0151  Finance Office: Sudrul budget increased by $198K.
+#0152  Facilities ticket: Sudrul budget is going down by $522K.
+#0153  Finance Office: Sudrul audit notes filed.
+#0154  Finance Office: Sudrul budget decreased by $2K per the revised plan.
+#0155  Operations chat: Sudrul budget is going to $2800K.
+#0156  Finance Office: Sudrul budget decreased by $25K after review.
+#0157  PMO note: Sudrul budget should land at $2800K.
+#0158  Finance Office: Sudrul budget decreased by $70K after review.
+#0159  Operations chat: Sounds like Sudrul gets $246K less.
+#0160  Finance Office: Sudrul budget decreased by $50K after review.
+#0161  Finance Office: Sudrul budget increased by $309K.
+#0162  Finance Office: Withdraw update #0101.
+#0163  Finance Office: Sudrul budget decreased by $150K after review.
+#0164  Finance Office: Sudrul budget decreased by $75K after review.
+#0165  Marketing email: Expect Sudrul's budget to drop by $96K.
+#0166  Operations chat: Sudrul budget is going down to $2050K.
+#0167  Finance Office: Withdraw update #0061.
+#0168  Facilities ticket: Sudrul budget is going to $2800K.
+#0169  Finance Office: Sudrul audit notes filed.
+#0170  Finance Office: Sudrul budget decreased by $349K.
+#0171  Finance Office: Sudrul budget increased by $90K after review.
+#0172  Vendor call: Hearing Sudrul's budget goes up $432K.
+#0173  Finance Office: Sudrul budget decreased by $10K per the revised plan.
+#0174  Finance Office: Withdraw update #0069.
+#0175  Facilities ticket: Hearing Sudrul's budget goes down $228K.
+#0176  Vendor call: Sudrul budget should land at $2010K.
+#0177  Finance Office: Withdraw update #0128; it was entered in error.
+#0178  Finance Office: Sudrul budget increased by $578K per the revised plan.
+#0179  Finance Office: Sudrul budget decreased by $296K per the revised plan.
+#0180  Finance Office: Sudrul budget decreased by $596K per the revised plan.
+#0181  Vendor call: Sudrul budget should land at $2320K.
+#0182  Finance Office: Sudrul budget decreased by $384K after review.
+#0183  Finance Office: Sudrul budget decreased by $90K.
+#0184  Finance Office: Sudrul budget increased by $331K after review.
+#0185  Operations chat: Sudrul sprint 14 retrospective notes posted.
+#0186  Finance Office: Sudrul budget decreased by $13K.
+#0187  Finance Office: Sudrul budget decreased by $105K after review.
+#0188  Facilities ticket: Sudrul budget should land at $1480K.
+#0189  Vendor call: Sudrul budget is going down by $276K.
+#0190  Finance Office: Withdraw update #0154.
+#0191  Finance Office: Sudrul budget decreased by $115K.
+#0192  Operations chat: Sounds like Sudrul gets $343K more.
+#0193  Engineering email: Sudrul budget should land at $1280K.
+#0194  Finance Office: Sudrul budget increased by $377K per the revised plan.
+#0195  Finance Office: Sudrul budget increased by $533K.
+#0196  Finance Office: Sudrul budget decreased by $502K per the revised plan.
+#0197  Finance Office: Sudrul budget increased by $80K after review.
+#0198  Finance Office: Withdraw update #0178; it was entered in error.
+#0199  Finance Office: Sudrul budget increased by $45K per the revised plan.
+#0200  Facilities ticket: Sudrul budget is going up to $1800K.
+#0201  Operations chat: Sudrul site visit confirmed for Monday.
+#0202  Finance Office: Sudrul budget increased by $145K per the revised plan.
+#0203  Finance Office: Withdraw update #0184.
+#0204  Finance Office: Reminder: Sudrul expense reports are due Tuesday.
+#0205  Finance Office: Sudrul budget increased by $60K per the revised plan.
+#0206  Vendor call: Sudrul security review passed.
+#0207  Finance Office: Sudrul budget decreased by $98K after review.
+#0208  Finance Office: Reminder: Sudrul expense reports are due Friday.
+#0209  Finance Office: Sudrul budget increased by $339K per the revised plan.
+#0210  Engineering email: Sudrul budget should land at $2080K.
+#0211  Finance Office: Withdraw update #0182.
+#0212  Engineering email: Expect Sudrul's budget to rise by $301K.
+#0213  Finance Office: Withdraw update #0150.
+#0214  Legal email: Sudrul security review passed.
+#0215  Legal email: Hearing Sudrul's budget goes down $244K.
+#0216  Marketing email: Expect Sudrul's budget to rise by $63K.
+#0217  Legal email: Sudrul design review moved to Room 2B.
+#0218  Finance Office: Sudrul budget increased by $134K.
+#0219  Marketing email: Pretty sure Sudrul's budget is $1900K now.
+#0220  Facilities ticket: Sudrul budget is going down by $33K.
+#0221  Finance Office: Sudrul budget increased by $150K after review.
+#0222  Finance Office: Sudrul budget decreased by $598K per the revised plan.
+#0223  Finance Office: Withdraw update #0113.
+#0224  Vendor call: Sudrul budget is going up to $1730K.
+#0225  Finance Office: Sudrul budget increased by $35K.
+#0226  Finance Office: Sudrul invoice batch FC-4232 archived.
+#0227  Finance Office: Sudrul budget increased by $95K.
+#0228  Sales update: Pretty sure Sudrul's budget is $1340K now.
+#0229  Finance Office: Sudrul budget decreased by $80K after review.
+#0230  Marketing email: Expect Sudrul's budget to drop by $541K.
+#0231  Engineering email: Sudrul budget is going to $1730K.
+#0232  PMO note: Sudrul budget is going up to $2150K.
+#0233  Finance Office: Withdraw update #0186.
+#0234  Finance Office: Sudrul budget decreased by $120K after review.
+#0235  Finance Office: Sudrul budget increased by $60K per the revised plan.
+#0236  PMO note: Hearing Sudrul's budget goes up $469K.
+#0237  Legal email: Hearing Sudrul's budget goes down $47K.
+#0238  Finance Office: Withdraw update #0075; it was entered in error.
+#0239  Legal email: Sudrul site visit confirmed for Friday.
+#0240  Finance Office: Sudrul budget increased by $5K.
+#0241  Facilities ticket: Sudrul documentation moved to the shared drive.
+#0242  Vendor call: Hearing Sudrul's budget goes down $592K.
+#0243  Marketing email: Sudrul budget should land at $2050K.
+#0244  Finance Office: Withdraw update #0139.
+#0245  Finance Office: Sudrul budget decreased by $125K.
+#0246  Finance Office: Sudrul purchase order FC-8288 closed.
+#0247  Finance Office: Sudrul budget decreased by $20K.
+#0248  Finance Office: Sudrul budget increased by $477K.
+#0249  Finance Office: Withdraw update #0080; it was entered in error.
+#0250  Finance Office: Withdraw update #0018; it was entered in error.
+#0251  Sales update: Sudrul weekly sync moved to Wednesdays.
+#0252  Finance Office: Withdraw update #0071; it was entered in error.
+#0253  Finance Office: Sudrul budget decreased by $491K per the revised plan.
+#0254  Finance Office: Sudrul budget increased by $57K per the revised plan.
+#0255  Finance Office: Sudrul budget increased by $65K after review.
+#0256  Finance Office: Sudrul budget increased by $271K after review.
+#0257  Vendor call: Pretty sure Sudrul's budget is $1860K now.
+#0258  Legal email: Pretty sure Sudrul's budget is $2360K now.
+#0259  Finance Office: Sudrul budget decreased by $253K after review.
+#0260  Operations chat: Sounds like Sudrul gets $406K less.
+#0261  Finance Office: Sudrul budget decreased by $60K.
+#0262  Marketing email: Sudrul budget should land at $2440K.
+#0263  Finance Office: Sudrul budget decreased by $65K.
+#0264  Finance Office: Sudrul cost center code changed to FC-7070.
+#0265  Finance Office: Withdraw update #0097.
+#0266  Finance Office: Sudrul budget decreased by $332K per the revised plan.
+#0267  Finance Office: Withdraw update #0116.
+#0268  Finance Office: Sudrul audit notes filed.
+#0269  Sales update: Expect Sudrul's budget to drop by $574K.
+#0270  Finance Office: Sudrul budget increased by $120K.
+#0271  Finance Office: Sudrul budget increased by $6K per the revised plan.
+#0272  PMO note: Hearing Sudrul's budget goes down $364K.
+#0273  Finance Office: Sudrul budget increased by $214K after review.
+#0274  Marketing email: Sudrul budget should land at $1710K.
+#0275  Finance Office: Withdraw update #0093.
+#0276  Engineering email: Sudrul budget is going down by $314K.
+#0277  Finance Office: Sudrul budget increased by $45K.
+#0278  Finance Office: Withdraw update #0218; it was entered in error.
+#0279  Finance Office: Withdraw update #0195.
+#0280  Facilities ticket: Pretty sure Sudrul's budget is $1860K now.
+#0281  Finance Office: Sudrul budget increased by $464K per the revised plan.
+#0282  Finance Office: Sudrul budget decreased by $80K.
+#0283  Finance Office: Sudrul budget decreased by $174K after review.
+#0284  Marketing email: Sounds like Sudrul gets $81K more.
+#0285  Finance Office: Sudrul budget decreased by $5K per the revised plan.
+#0286  Finance Office: Sudrul budget increased by $150K per the revised plan.
+#0287  Finance Office: Sudrul budget decreased by $55K after review.
+#0288  Finance Office: Sudrul budget decreased by $125K after review.
+#0289  PMO note: Sudrul demo rescheduled to Friday afternoon.
+#0290  Finance Office: Sudrul budget increased by $433K after review.
+#0291  Finance Office: Withdraw update #0098; it was entered in error.
+#0292  Finance Office: Withdraw update #0213; it was entered in error.
+#0293  Finance Office: Withdraw update #0110.
+#0294  Finance Office: Sudrul budget decreased by $75K after review.
+#0295  Finance Office: Sudrul budget decreased by $135K per the revised plan.
+#0296  Finance Office: Sudrul budget increased by $85K per the revised plan.
+#0297  Finance Office: Sudrul budget increased by $21K.
+#0298  Legal email: Sounds like Sudrul gets $503K less.
+#0299  Finance Office: Sudrul budget decreased by $446K per the revised plan.
+#0300  Finance Office: Sudrul budget increased by $40K.
+#0301  Finance Office: Sudrul budget decreased by $26K per the revised plan.
+#0302  Sales update: Heard Sudrul's budget is now $1690K.
+#0303  Finance Office: Withdraw update #0134.
+#0304  Operations chat: Heard Sudrul's budget is now $1220K.
+#0305  Finance Office: Sudrul budget decreased by $120K.
+#0306  Sales update: Sounds like Sudrul gets $167K less.
+#0307  Finance Office: Sudrul budget increased by $226K.
+#0308  Finance Office: Sudrul budget decreased by $191K after review.
+#0309  Facilities ticket: Sudrul budget is going to $1050K.
+#0310  Finance Office: Sudrul budget decreased by $20K after review.
+#0311  Finance Office: Sudrul budget decreased by $358K per the revised plan.
+#0312  Legal email: Hearing Sudrul's budget goes up $291K.
+#0313  Finance Office: Withdraw update #0042; it was entered in error.
+#0314  Finance Office: Sudrul budget decreased by $206K after review.
+#0315  Finance Office: Sudrul budget decreased by $40K.
+#0316  Finance Office: Withdraw update #0301; it was entered in error.
+#0317  Finance Office: Sudrul budget decreased by $498K per the revised plan.
+#0318  Engineering email: Sudrul budget is going up by $222K.
+#0319  Finance Office: Sudrul budget increased by $105K.
+#0320  Sales update: Heard Sudrul's budget is now $410K.
+#0321  Finance Office: Sudrul budget increased by $43K per the revised plan.
+#0322  Finance Office: Withdraw update #0032; it was entered in error.
+#0323  Finance Office: Sudrul budget increased by $577K.
+#0324  Finance Office: Sudrul finance review moved to Room 3C.
+#0325  Finance Office: Sudrul budget decreased by $140K after review.
+#0326  Finance Office: Sudrul budget increased by $120K after review.
+#0327  Finance Office: Sudrul budget increased by $145K per the revised plan.
+#0328  Finance Office: Sudrul budget decreased by $531K after review.
+#0329  Operations chat: Hearing Sudrul's budget goes up $171K.
+#0330  Vendor call: Sudrul budget should land at $760K.
+#0331  Legal email: Hearing Sudrul's budget goes down $486K.
+#0332  Finance Office: Sudrul budget increased by $15K after review.
+#0333  Operations chat: Sudrul budget is going down by $208K.
+#0334  Finance Office: Sudrul budget increased by $599K per the revised plan.
+#0335  PMO note: Sudrul budget is going down by $311K.
+#0336  Finance Office: Sudrul budget decreased by $60K per the revised plan.
+#0337  Marketing email: Sudrul kickoff moved to Building 5.
+#0338  PMO note: Sudrul budget should land at $970K.
+#0339  PMO note: Expect Sudrul's budget to drop by $529K.
+#0340  Marketing email: Hearing Sudrul's budget goes up $424K.
+#0341  Finance Office: Sudrul budget decreased by $130K per the revised plan.
+#0342  Finance Office: Sudrul budget increased by $481K after review.
+#0343  Finance Office: Sudrul budget decreased by $259K after review.
+#0344  Finance Office: Withdraw update #0314; it was entered in error.
+#0345  PMO note: Sudrul weekly sync moved to Mondays.
+#0346  Finance Office: Sudrul budget increased by $150K after review.
+#0347  Operations chat: Hearing Sudrul's budget goes down $458K.
+#0348  PMO note: Pretty sure Sudrul's budget is $2200K now.
+#0349  PMO note: Sudrul kickoff moved to Building 5.
+#0350  Finance Office: Sudrul budget increased by $150K.
+#0351  Finance Office: Withdraw update #0250; it was entered in error.
+#0352  PMO note: Heard Sudrul's budget is now $2140K.
+#0353  Facilities ticket: Sudrul test environment back online.
+#0354  Finance Office: Sudrul budget increased by $120K.
+#0355  Facilities ticket: Hearing Sudrul's budget goes up $584K.
+#0356  Finance Office: Withdraw update #0072; it was entered in error.
+#0357  Finance Office: Sudrul budget increased by $60K per the revised plan.
+#0358  PMO note: Expect Sudrul's budget to rise by $102K.
+#0359  Finance Office: Sudrul budget increased by $292K per the revised plan.
+#0360  Finance Office: Sudrul budget decreased by $179K per the revised plan.
+#0361  PMO note: Sudrul budget is going up by $346K.
+#0362  Finance Office: Sudrul budget decreased by $151K per the revised plan.
+#0363  Operations chat: Sudrul budget should land at $1470K.
+#0364  Marketing email: Sudrul security review passed.
+#0365  Finance Office: Sudrul budget increased by $45K.
+#0366  Finance Office: Sudrul budget increased by $65K per the revised plan.
+#0367  Finance Office: Sudrul budget decreased by $109K after review.
+#0368  Finance Office: Withdraw update #0265; it was entered in error.
+#0369  Engineering email: Expect Sudrul's budget to drop by $594K.
+#0370  Finance Office: Sudrul budget decreased by $202K per the revised plan.
+#0371  Finance Office: Withdraw update #0359.
+#0372  Finance Office: Sudrul budget increased by $40K.
+#0373  Finance Office: Sudrul budget decreased by $231K per the revised plan.
+#0374  Finance Office: Reminder: Sudrul expense reports are due Friday.
+#0375  Facilities ticket: Sounds like Sudrul gets $139K less.
+#0376  Legal email: Sudrul budget is going up by $418K.
+#0377  PMO note: Sounds like Sudrul gets $512K more.
+#0378  Legal email: Pretty sure Sudrul's budget is $800K now.
+#0379  Operations chat: Pretty sure Sudrul's budget is $720K now.
+#0380  Facilities ticket: Sudrul budget should land at $570K.
+#0381  Finance Office: Sudrul budget increased by $125K.
+#0382  Facilities ticket: Sudrul budget is going down by $303K.
+#0383  Sales update: Sounds like Sudrul gets $557K less.
+#0384  Finance Office: Sudrul quarterly audit scheduled for Tuesday.
+#0385  Sales update: Sudrul budget is going up to $1020K.
+#0386  Finance Office: Withdraw update #0297.
+#0387  Finance Office: Sudrul budget decreased by $120K.
+#0388  Finance Office: Withdraw update #0107.
+#0389  Facilities ticket: Pretty sure Sudrul's budget is $880K now.
+#0390  Sales update: Sudrul budget is going to $840K.
+#0391  Finance Office: Sudrul budget increased by $30K after review.
+#0392  Marketing email: Hearing Sudrul's budget goes up $411K.
+#0393  Finance Office: Withdraw update #0292.
+#0394  Finance Office: Sudrul budget increased by $30K.
+#0395  Finance Office: Sudrul budget increased by $55K per the revised plan.
+#0396  Sales update: Sudrul sprint 12 retrospective notes posted.
+#0397  Finance Office: Sudrul budget decreased by $5K per the revised plan.
+#0398  Finance Office: Withdraw update #0316; it was entered in error.
+#0399  Finance Office: Sudrul budget increased by $110K after review.
+#0400  Finance Office: Sudrul budget decreased by $447K.
+#0401  Finance Office: Sudrul budget increased by $376K.
+#0402  Finance Office: Sudrul budget increased by $50K after review.
+#0403  Finance Office: Sudrul budget decreased by $115K after review.
+#0404  Finance Office: Sudrul budget decreased by $135K per the revised plan.
+#0405  Finance Office: Sudrul budget increased by $150K after review.
+#0406  Finance Office: Sudrul budget decreased by $15K per the revised plan.
+#0407  Sales update: Heard Sudrul's budget is now $830K.
+#0408  Finance Office: Withdraw update #0253; it was entered in error.
+#0409  Finance Office: Sudrul budget increased by $35K.
+#0410  Legal email: Sudrul budget is going up by $316K.
+#0411  Sales update: Sounds like Sudrul gets $391K more.
+#0412  Finance Office: Withdraw update #0207; it was entered in error.
+#0413  Finance Office: Withdraw update #0321.
+#0414  Finance Office: Sudrul budget increased by $145K after review.
+#0415  Finance Office: Sudrul invoice batch FC-3417 archived.
+#0416  PMO note: Sudrul budget is going down by $223K.
+#0417  Vendor call: Pretty sure Sudrul's budget is $1210K now.
+#0418  Engineering email: Expect Sudrul's budget to rise by $386K.
+#0419  Finance Office: Sudrul budget decreased by $5K after review.
+#0420  Finance Office: Sudrul budget increased by $140K per the revised plan.
+#0421  Finance Office: Sudrul budget increased by $95K.
+#0422  Vendor call: Sudrul budget is going down by $542K.
+#0423  Finance Office: Sudrul budget decreased by $218K per the revised plan.
+#0424  Finance Office: Sudrul budget increased by $504K.
+#0425  Operations chat: Sudrul budget is going to $2600K.
+#0426  Finance Office: Sudrul budget decreased by $69K per the revised plan.
+#0427  Vendor call: Sudrul budget is going to $2080K.
+#0428  Marketing email: Heard Sudrul's budget is now $1640K.
+#0429  Finance Office: Sudrul budget increased by $587K after review.
+#0430  Sales update: Sudrul vendor onboarding call scheduled for Friday.
+#0431  Vendor call: Sudrul kickoff moved to Building 3.
+#0432  Finance Office: Sudrul budget decreased by $164K after review.
+#0433  Finance Office: Sudrul budget decreased by $281K.
+#0434  Finance Office: Sudrul budget decreased by $484K per the revised plan.
+#0435  Finance Office: Withdraw update #0131.
+#0436  Finance Office: Sudrul budget increased by $137K after review.
+#0437  Finance Office: Sudrul budget decreased by $374K after review.
+#0438  Finance Office: Sudrul budget decreased by $100K.
+#0439  Finance Office: Sudrul budget increased by $413K.
+#0440  Vendor call: Sudrul budget should land at $2340K.
+#0441  Finance Office: Sudrul budget decreased by $35K per the revised plan.
+#0442  Legal email: Sudrul budget is going down by $392K.
+#0443  Sales update: Pretty sure Sudrul's budget is $1560K now.
+#0444  PMO note: Heard Sudrul's budget is now $1970K.
+#0445  Finance Office: Sudrul budget increased by $30K after review.
+#0446  Finance Office: Sudrul budget decreased by $65K per the revised plan.
+#0447  Legal email: Heard Sudrul's budget is now $1790K.
+#0448  Finance Office: Sudrul budget decreased by $168K.
+#0449  Finance Office: Sudrul budget decreased by $70K after review.
+#0450  Finance Office: Withdraw update #0308; it was entered in error.
+#0451  Facilities ticket: Sudrul budget is going up to $1930K.
+#0452  Finance Office: Withdraw update #0432; it was entered in error.
+#0453  Finance Office: Sudrul budget increased by $5K.
+#0454  Finance Office: Sudrul budget increased by $10K.
+#0455  PMO note: Sudrul budget is going down by $116K.
+#0456  Finance Office: Sudrul budget decreased by $394K after review.
+#0457  Finance Office: Withdraw update #0290; it was entered in error.
+#0458  Finance Office: Sudrul budget increased by $85K after review.
+#0459  Finance Office: Sudrul budget decreased by $30K.
+#0460  Operations chat: Sudrul budget is going up by $497K.
+#0461  Finance Office: Withdraw update #0293.
+#0462  Finance Office: Withdraw update #0271.
+#0463  Finance Office: Sudrul budget increased by $120K per the revised plan.
+#0464  Finance Office: Withdraw update #0248; it was entered in error.
+#0465  Finance Office: Sudrul budget increased by $576K after review.
+#0466  Finance Office: Sudrul budget decreased by $30K.
+#0467  Finance Office: Sudrul budget increased by $58K.
+#0468  Finance Office: Sudrul budget increased by $8K after review.
+#0469  Finance Office: Withdraw update #0448.
+#0470  Finance Office: Sudrul budget increased by $183K after review.
+#0471  Engineering email: Sudrul test environment back online.
+#0472  Finance Office: Sudrul budget decreased by $140K after review.
+#0473  Finance Office: Sudrul budget decreased by $135K per the revised plan.
+#0474  Finance Office: Sudrul budget decreased by $25K.
+#0475  Finance Office: Sudrul budget increased by $55K after review.
+#0476  Legal email: Hearing Sudrul's budget goes up $476K.
+#0477  Engineering email: Sudrul budget is going up to $1750K.
+#0478  Marketing email: Sudrul budget is going to $1680K.
+#0479  Finance Office: Sudrul budget increased by $317K per the revised plan.
+#0480  PMO note: Sudrul budget should land at $1780K.
+#0481  Sales update: Sounds like Sudrul gets $147K more.
+#0482  PMO note: Sudrul budget is going down to $1650K.
+#0483  Facilities ticket: Sudrul budget should land at $2190K.
+#0484  Finance Office: Withdraw update #0052.
+#0485  Operations chat: Sudrul budget is going down by $362K.
+#0486  Finance Office: Sudrul budget decreased by $37K per the revised plan.
+#0487  Finance Office: Sudrul budget decreased by $20K after review.
+#0488  Finance Office: Sudrul budget increased by $10K after review.
+#0489  Finance Office: Sudrul budget increased by $564K after review.
+#0490  Facilities ticket: Pretty sure Sudrul's budget is $2200K now.
+#0491  Operations chat: Hearing Sudrul's budget goes down $262K.
+#0492  Facilities ticket: Hearing Sudrul's budget goes down $211K.
+#0493  Finance Office: Sudrul budget decreased by $25K.
+#0494  Finance Office: Sudrul budget decreased by $382K after review.
+#0495  Engineering email: Sudrul budget is going to $1770K.
+#0496  Finance Office: Withdraw update #0360.
+#0497  Finance Office: Sudrul budget decreased by $30K per the revised plan.
+#0498  Engineering email: Hearing Sudrul's budget goes down $494K.
+#0499  Finance Office: Sudrul budget decreased by $140K after review.
+#0500  PMO note: Heard Sudrul's budget is now $1720K.
+#0501  Engineering email: Pretty sure Sudrul's budget is $2800K now.
+#0502  Finance Office: Sudrul budget increased by $50K per the revised plan.
+#0503  Finance Office: Sudrul budget increased by $125K after review.
+#0504  Finance Office: Sudrul budget decreased by $55K after review.
+#0505  PMO note: Hearing Sudrul's budget goes down $559K.
+#0506  PMO note: Expect Sudrul's budget to drop by $478K.
+#0507  Facilities ticket: Sudrul documentation moved to the shared drive.
+#0508  Marketing email: Expect Sudrul's budget to drop by $4K.
+#0509  Marketing email: Sudrul budget is going to $2210K.
+#0510  Finance Office: Sudrul budget decreased by $115K per the revised plan.
+#0511  Legal email: Pretty sure Sudrul's budget is $2800K now.
+#0512  Vendor call: Sudrul budget is going to $2800K.
+#0513  Finance Office: Withdraw update #0469.
+#0514  Finance Office: Withdraw update #0252; it was entered in error.
+#0515  Finance Office: Withdraw update #0024; it was entered in error.
+#0516  Finance Office: Withdraw update #0470.
+#0517  Legal email: Sounds like Sudrul gets $16K less.
+#0518  Finance Office: Sudrul budget increased by $120K after review.
+#0519  Vendor call: Hearing Sudrul's budget goes up $136K.
+#0520  Finance Office: Sudrul budget decreased by $120K after review.
+#0521  Finance Office: Sudrul budget decreased by $60K.
+#0522  Finance Office: Withdraw update #0278.
+#0523  Finance Office: Withdraw update #0209.
+#0524  Finance Office: Sudrul budget increased by $212K.
+#0525  Finance Office: Sudrul budget decreased by $45K.
+#0526  Finance Office: Sudrul purchase order FC-7994 closed.
+#0527  Finance Office: Sudrul budget increased by $117K.
+#0528  Finance Office: Sudrul budget increased by $105K per the revised plan.
+#0529  Finance Office: Sudrul budget increased by $25K after review.
+#0530  Finance Office: Sudrul budget decreased by $25K per the revised plan.
+#0531  Finance Office: Sudrul budget decreased by $59K after review.
+#0532  Facilities ticket: Sudrul budget is going up by $337K.
+#0533  Finance Office: Withdraw update #0531; it was entered in error.
+#0534  Operations chat: Expect Sudrul's budget to drop by $267K.
+#0535  Operations chat: Expect Sudrul's budget to rise by $562K.
+#0536  Finance Office: Sudrul budget decreased by $456K after review.
+#0537  Finance Office: Sudrul budget decreased by $115K.
+#0538  Sales update: Sudrul budget is going up by $398K.
+#0539  Finance Office: Sudrul budget increased by $506K.
+#0540  Finance Office: Withdraw update #0462.
+#0541  Finance Office: Sudrul budget increased by $90K.
+#0542  Finance Office: Withdraw update #0436.
+#0543  Finance Office: Withdraw update #0401.
+#0544  Finance Office: Withdraw update #0533; it was entered in error.
+#0545  Finance Office: Withdraw update #0342; it was entered in error.
+#0546  Finance Office: Sudrul budget increased by $32K after review.
+#0547  Finance Office: Sudrul budget increased by $50K per the revised plan.
+#0548  Finance Office: Withdraw update #0536; it was entered in error.
+#0549  Finance Office: Sudrul budget increased by $105K.
+#0550  Finance Office: Sudrul budget decreased by $20K per the revised plan.
+#0551  Finance Office: Sudrul budget decreased by $25K after review.
+#0552  Marketing email: Sudrul budget should land at $1840K.
+#0553  Finance Office: Sudrul budget increased by $65K per the revised plan.
+#0554  Sales update: Hearing Sudrul's budget goes up $193K.
+#0555  Finance Office: Sudrul budget increased by $23K.
+#0556  Marketing email: Heard Sudrul's budget is now $1590K.
+#0557  Finance Office: Withdraw update #0527; it was entered in error.
+#0558  Finance Office: Sudrul budget decreased by $85K.
+#0559  Finance Office: Sudrul budget decreased by $45K after review.
+#0560  Finance Office: Sudrul budget increased by $80K.
+#0561  Finance Office: Sudrul budget decreased by $80K.
+#0562  Finance Office: Sudrul budget decreased by $120K after review.
+#0563  Finance Office: Withdraw update #0429; it was entered in error.
+#0564  Finance Office: Reminder: Sudrul expense reports are due Tuesday.
+#0565  Marketing email: Sudrul documentation moved to the shared drive.
+#0566  Finance Office: Sudrul budget decreased by $45K per the revised plan.
+#0567  Legal email: Sudrul budget is going down by $49K.
+#0568  Sales update: Sudrul budget is going down to $670K.
+#0569  Finance Office: Withdraw update #0486.
+#0570  Finance Office: Sudrul budget decreased by $120K after review.
+#0571  Finance Office: Sudrul budget increased by $70K.
+#0572  Finance Office: Sudrul budget increased by $60K per the revised plan.
+#0573  Marketing email: Pretty sure Sudrul's budget is $990K now.
+#0574  Finance Office: Sudrul budget decreased by $75K per the revised plan.
+#0575  PMO note: Hearing Sudrul's budget goes down $181K.
+#0576  Finance Office: Sudrul budget increased by $20K.
+#0577  Engineering email: Sudrul budget is going to $780K.
+#0578  Finance Office: Sudrul budget increased by $125K.
+#0579  Finance Office: Sudrul budget decreased by $90K.
+#0580  Engineering email: Sudrul budget is going down to $710K.
+#0581  Finance Office: Sudrul budget increased by $120K after review.
+#0582  Finance Office: Sudrul budget increased by $523K per the revised plan.
+#0583  Vendor call: Hearing Sudrul's budget goes down $449K.
+#0584  Marketing email: Sounds like Sudrul gets $82K more.
+#0585  Finance Office: Withdraw update #0291.
+#0586  Sales update: Sudrul budget is going up to $2090K.
+#0587  Legal email: Sudrul budget is going to $1650K.
+#0588  Finance Office: Sudrul budget decreased by $75K after review.
+#0589  Sales update: Heard Sudrul's budget is now $1480K.
+#0590  Finance Office: Sudrul budget decreased by $75K.
+#0591  Finance Office: Sudrul cost center code changed to FC-1223.
+#0592  Marketing email: Sounds like Sudrul gets $367K less.
+#0593  Finance Office: Sudrul budget increased by $90K per the revised plan.
+#0594  Facilities ticket: Sounds like Sudrul gets $83K less.
+#0595  Finance Office: Withdraw update #0079; it was entered in error.
+#0596  Marketing email: Heard Sudrul's budget is now $2800K.
+#0597  Finance Office: Sudrul budget increased by $60K per the revised plan.
+#0598  Finance Office: Withdraw update #0343.
+#0599  Finance Office: Sudrul budget decreased by $143K.
+#0600  Finance Office: Withdraw update #0127.
+#0601  Vendor call: Pretty sure Sudrul's budget is $2800K now.
+#0602  Facilities ticket: Sudrul budget is going up by $286K.
+#0603  Finance Office: Withdraw update #0096; it was entered in error.
+#0604  Finance Office: Sudrul budget decreased by $519K per the revised plan.
+#0605  Legal email: Hearing Sudrul's budget goes up $426K.
+#0606  Finance Office: Withdraw update #0515.
+#0607  Finance Office: Sudrul budget increased by $35K per the revised plan.
+#0608  Marketing email: Sudrul budget is going to $1400K.
+#0609  Finance Office: Sudrul budget decreased by $140K per the revised plan.
+#0610  Engineering email: Sudrul budget is going up to $1530K.
+#0611  Facilities ticket: Sudrul budget is going up to $1430K.
+#0612  Finance Office: Withdraw update #0266.
+#0613  Finance Office: Sudrul budget decreased by $140K.
+#0614  Operations chat: Sudrul vendor onboarding call scheduled for Wednesday.
+#0615  Finance Office: Withdraw update #0091.
+#0616  Finance Office: Withdraw update #0180; it was entered in error.
+#0617  Finance Office: Withdraw update #0524.
+#0618  Operations chat: Sudrul budget is going to $990K.
+#0619  Finance Office: Sudrul budget increased by $95K after review.
+#0620  Finance Office: Sudrul budget decreased by $15K per the revised plan.
+#0621  Finance Office: Sudrul budget decreased by $90K.
+#0622  Finance Office: Sudrul budget decreased by $75K per the revised plan.
+#0623  PMO note: Sudrul budget is going down by $237K.
+#0624  Finance Office: Withdraw update #0179; it was entered in error.
+#0625  Finance Office: Sudrul budget increased by $15K.
+#0626  Vendor call: Sudrul budget is going up to $1580K.
+#0627  Operations chat: Pretty sure Sudrul's budget is $2070K now.
+#0628  Finance Office: Sudrul budget decreased by $130K.
+#0629  Finance Office: Sudrul budget increased by $105K.
+#0630  Finance Office: Sudrul budget decreased by $30K per the revised plan.
+#0631  Finance Office: Sudrul budget increased by $213K.
+#0632  Finance Office: Sudrul budget decreased by $65K after review.
+#0633  Finance Office: Sudrul budget increased by $150K after review.
+#0634  Finance Office: Sudrul budget increased by $55K after review.
+#0635  Finance Office: Sudrul budget decreased by $150K.
+#0636  Finance Office: Sudrul budget increased by $135K after review.
+#0637  Legal email: Expect Sudrul's budget to drop by $277K.
+#0638  Finance Office: Sudrul budget decreased by $50K.
+#0639  Finance Office: Withdraw update #0437.
+#0640  Engineering email: Heard Sudrul's budget is now $1570K.
+#0641  Finance Office: Withdraw update #0362.
+#0642  Finance Office: Sudrul budget increased by $110K.
+#0643  Operations chat: Sudrul budget should land at $2690K.
+#0644  Facilities ticket: Sudrul budget is going up by $389K.
+#0645  Finance Office: Withdraw update #0423; it was entered in error.
+#0646  Marketing email: Heard Sudrul's budget is now $2460K.
+#0647  Finance Office: Sudrul budget decreased by $35K per the revised plan.
+#0648  Finance Office: Sudrul budget decreased by $30K after review.
+#0649  Finance Office: Withdraw update #0569; it was entered in error.
+#0650  Finance Office: Withdraw update #0582.
+#0651  PMO note: Sounds like Sudrul gets $149K more.
+#0652  Marketing email: Hearing Sudrul's budget goes up $593K.
+#0653  Finance Office: Sudrul audit notes filed.
+#0654  Operations chat: Hearing Sudrul's budget goes up $312K.
+#0655  Finance Office: Sudrul budget decreased by $55K.
+#0656  Finance Office: Sudrul budget decreased by $145K after review.
+#0657  Finance Office: Sudrul budget decreased by $318K.
+#0658  Facilities ticket: Pretty sure Sudrul's budget is $1590K now.
+#0659  Finance Office: Withdraw update #0143; it was entered in error.
+#0660  Sales update: Sudrul kickoff moved to Building 5.
+#0661  Finance Office: Withdraw update #0631; it was entered in error.
+#0662  Finance Office: Sudrul budget decreased by $95K after review.
+#0663  Finance Office: Sudrul budget decreased by $105K.
+#0664  Vendor call: Sounds like Sudrul gets $89K more.
+#0665  Finance Office: Withdraw update #0194; it was entered in error.
+#0666  Legal email: Expect Sudrul's budget to rise by $146K.
+#0667  Sales update: Sounds like Sudrul gets $409K more.
+#0668  Vendor call: Sudrul budget is going to $460K.
+#0669  Finance Office: Sudrul budget increased by $95K.
+#0670  PMO note: Sounds like Sudrul gets $474K more.
+#0671  Finance Office: Withdraw update #0177.
+#0672  Facilities ticket: Hearing Sudrul's budget goes up $313K.
+#0673  Finance Office: Sudrul budget increased by $100K per the revised plan.
+#0674  Finance Office: Sudrul budget decreased by $30K after review.
+#0675  Facilities ticket: Sudrul budget is going to $370K.
+#0676  Finance Office: Withdraw update #0299; it was entered in error.
+#0677  Finance Office: Sudrul budget decreased by $70K.
+#0678  Finance Office: Sudrul budget increased by $40K.
+#0679  Finance Office: Sudrul budget increased by $121K.
+#0680  Finance Office: Sudrul budget increased by $153K after review.
+#0681  Facilities ticket: Pretty sure Sudrul's budget is $930K now.
+#0682  Finance Office: Withdraw update #0317.
+#0683  Sales update: Expect Sudrul's budget to drop by $407K.
+#0684  Vendor call: Sudrul budget is going up by $369K.
+#0685  Finance Office: Sudrul budget increased by $75K per the revised plan.
+#0686  Facilities ticket: Expect Sudrul's budget to drop by $417K.
+#0687  Finance Office: Sudrul budget decreased by $579K per the revised plan.
+#0688  Marketing email: Sudrul budget is going down by $106K.
+#0689  Finance Office: Sudrul budget increased by $140K.
+#0690  Finance Office: Withdraw update #0323.
+#0691  Finance Office: Sudrul budget increased by $399K after review.
+#0692  Finance Office: Sudrul budget increased by $35K after review.
+#0693  Finance Office: Sudrul budget decreased by $5K after review.
+#0694  Finance Office: Sudrul budget increased by $25K.
+#0695  Finance Office: Sudrul budget decreased by $25K after review.
+#0696  Vendor call: Sudrul budget should land at $790K.
+#0697  Finance Office: Sudrul budget decreased by $80K per the revised plan.
+#0698  PMO note: Hearing Sudrul's budget goes up $402K.
+#0699  Finance Office: Sudrul budget decreased by $90K.
+#0700  Vendor call: Sudrul budget is going down by $273K.
+#0701  Facilities ticket: Sudrul budget should land at $930K.
+#0702  Finance Office: Sudrul budget increased by $10K after review.
+#0703  Legal email: Sudrul kickoff moved to Building 5.
+#0704  PMO note: Hearing Sudrul's budget goes up $216K.
+#0705  Finance Office: Sudrul budget increased by $582K.
+#0706  Finance Office: Sudrul budget decreased by $60K after review.
+#0707  Legal email: Sudrul budget is going up to $1440K.
+#0708  Finance Office: Withdraw update #0092.
+#0709  PMO note: Sudrul budget is going up by $427K.
+#0710  Finance Office: Withdraw update #0467.
+#0711  PMO note: Sounds like Sudrul gets $93K more.
+#0712  Finance Office: Withdraw update #0671.
+#0713  Facilities ticket: Heard Sudrul's budget is now $1400K.
+#0714  Finance Office: Withdraw update #0433.
+#0715  Finance Office: Sudrul budget increased by $55K per the revised plan.
+#0716  Finance Office: Sudrul finance review moved to Room 3C.
+#0717  Sales update: Sudrul kickoff moved to Building 9.
+#0718  Vendor call: Hearing Sudrul's budget goes up $509K.
+#0719  Finance Office: Sudrul receipts scanned.
+#0720  Finance Office: Sudrul budget increased by $40K after review.
+#0721  Finance Office: Sudrul budget increased by $110K after review.
+#0722  Sales update: Sudrul vendor onboarding call scheduled for Monday.
+#0723  Marketing email: Sudrul budget should land at $2070K.
+#0724  Finance Office: Sudrul budget increased by $60K per the revised plan.
+#0725  Finance Office: Sudrul budget increased by $55K.
+#0726  Facilities ticket: Hearing Sudrul's budget goes up $249K.
+#0727  Finance Office: Sudrul budget decreased by $80K per the revised plan.
+#0728  Marketing email: Sounds like Sudrul gets $46K more.
+#0729  Finance Office: Withdraw update #0281; it was entered in error.
+#0730  Finance Office: Sudrul budget increased by $60K.
+#0731  Legal email: Hearing Sudrul's budget goes up $52K.
+#0732  Finance Office: Sudrul budget decreased by $55K after review.
+#0733  Engineering email: Sounds like Sudrul gets $353K less.
+#0734  Finance Office: Sudrul purchase order FC-4089 closed.
+#0735  Finance Office: Sudrul budget increased by $11K per the revised plan.
+#0736  Finance Office: Sudrul budget increased by $75K per the revised plan.
+#0737  Finance Office: Sudrul budget decreased by $30K per the revised plan.
+#0738  Operations chat: Expect Sudrul's budget to rise by $207K.
+#0739  Finance Office: Sudrul budget decreased by $125K.
+#0740  Vendor call: Sudrul budget is going down to $940K.
+#0741  Finance Office: Withdraw update #0256; it was entered in error.
+#0742  Finance Office: Sudrul budget decreased by $15K after review.
+#0743  Facilities ticket: Sudrul test environment back online.
+#0744  Finance Office: Sudrul budget increased by $10K per the revised plan.
+#0745  PMO note: Sudrul budget should land at $830K.
+#0746  Finance Office: Withdraw update #0679; it was entered in error.
+#0747  Marketing email: Sudrul budget is going down by $219K.
+#0748  Finance Office: Sudrul budget decreased by $45K after review.
+#0749  PMO note: Heard Sudrul's budget is now $590K.
+#0750  Finance Office: Withdraw update #0546; it was entered in error.
+#0751  Operations chat: Sudrul budget is going down to $610K.
+#0752  Finance Office: Sudrul budget increased by $10K after review.
+#0753  Finance Office: Sudrul budget decreased by $50K per the revised plan.
+#0754  Marketing email: Sudrul weekly sync moved to Fridays.
+#0755  Finance Office: Sudrul budget decreased by $65K after review.
+#0756  Finance Office: Sudrul budget increased by $95K per the revised plan.
+#0757  Vendor call: Sounds like Sudrul gets $573K more.
+#0758  Finance Office: Sudrul budget increased by $55K after review.
+#0759  PMO note: Pretty sure Sudrul's budget is $900K now.
+#0760  Finance Office: Withdraw update #0279; it was entered in error.
+#0761  Marketing email: Sounds like Sudrul gets $561K less.
+#0762  Finance Office: Sudrul budget decreased by $55K per the revised plan.
+#0763  Finance Office: Sudrul budget increased by $150K per the revised plan.
+#0764  Finance Office: Sudrul budget decreased by $158K.
+#0765  Vendor call: Sudrul budget is going down to $1130K.
+#0766  Finance Office: Sudrul budget increased by $75K per the revised plan.
+#0767  Finance Office: Sudrul invoice batch FC-2677 archived.
+#0768  Finance Office: Sudrul budget decreased by $140K.
+#0769  Finance Office: Sudrul budget increased by $233K per the revised plan.
+#0770  Finance Office: Sudrul budget decreased by $184K per the revised plan.
+#0771  Facilities ticket: Sudrul budget should land at $1590K.
+#0772  Finance Office: Withdraw update #0585.
+#0773  Operations chat: Heard Sudrul's budget is now $490K.
+#0774  Operations chat: Sounds like Sudrul gets $546K more.
+#0775  Finance Office: Sudrul budget increased by $120K.
+#0776  Vendor call: Hearing Sudrul's budget goes down $133K.
+#0777  PMO note: Expect Sudrul's budget to rise by $423K.
+#0778  Finance Office: Sudrul budget decreased by $397K per the revised plan.
+#0779  Sales update: Heard Sudrul's budget is now $300K.
+#0780  Finance Office: Sudrul budget increased by $5K per the revised plan.
+#0781  Finance Office: Sudrul budget increased by $70K after review.
+#0782  Finance Office: Sudrul budget increased by $65K after review.
+#0783  Engineering email: Hearing Sudrul's budget goes up $197K.
+#0784  Finance Office: Sudrul budget increased by $30K per the revised plan.
+#0785  Marketing email: Pretty sure Sudrul's budget is $590K now.
+#0786  Engineering email: Sudrul budget is going to $650K.
+#0787  Finance Office: Sudrul budget increased by $135K after review.
+#0788  Engineering email: Sudrul budget is going up by $518K.
+#0789  Finance Office: Sudrul budget decreased by $120K after review.
+#0790  Finance Office: Sudrul budget increased by $85K.
+#0791  Finance Office: Sudrul budget increased by $80K.
+#0792  Finance Office: Sudrul budget decreased by $135K per the revised plan.
+#0793  Finance Office: Withdraw update #0161; it was entered in error.
+#0794  Operations chat: Sounds like Sudrul gets $431K more.
+#0795  Finance Office: Withdraw update #0367.
+#0796  PMO note: Hearing Sudrul's budget goes up $261K.
+#0797  Legal email: Sudrul kickoff moved to Building 6.
+#0798  Operations chat: Sudrul risk register updated with 7 new items.
+#0799  Vendor call: Hearing Sudrul's budget goes up $247K.
+#0800  Engineering email: Sudrul budget should land at $300K.
+#0801  Operations chat: Sudrul budget is going to $550K.
+#0802  Operations chat: Hearing Sudrul's budget goes up $54K.
+#0803  Finance Office: Sudrul budget increased by $45K after review.
+#0804  Finance Office: Sudrul budget increased by $75K.
+#0805  Finance Office: Sudrul budget decreased by $65K.
+#0806  Operations chat: Sudrul budget is going up by $111K.
+#0807  PMO note: Sudrul budget is going up by $131K.
+#0808  Finance Office: Withdraw update #0680.
+#0809  Operations chat: Expect Sudrul's budget to rise by $543K.
+#0810  Sales update: Sudrul vendor onboarding call scheduled for Friday.
+#0811  Finance Office: Sudrul budget increased by $115K after review.
+#0812  Finance Office: Sudrul budget increased by $566K per the revised plan.
+#0813  Finance Office: Sudrul budget increased by $75K.
+#0814  Finance Office: Withdraw update #0368.
+#0815  Finance Office: Sudrul budget decreased by $30K after review.
+#0816  Finance Office: Sudrul budget decreased by $10K after review.
+#0817  Finance Office: Sudrul budget increased by $130K per the revised plan.
+#0818  Vendor call: Sudrul budget is going down by $209K.
+#0819  Finance Office: Withdraw update #0714.
+#0820  Finance Office: Sudrul budget increased by $25K.
+#0821  Finance Office: Sudrul budget decreased by $5K after review.
+#0822  Finance Office: Withdraw update #0452; it was entered in error.
+#0823  Finance Office: Sudrul budget decreased by $351K per the revised plan.
+#0824  Legal email: Sudrul budget is going to $620K.
+#0825  PMO note: Heard Sudrul's budget is now $490K.
+#0826  Facilities ticket: Sudrul budget is going down to $420K.
+#0827  Engineering email: Sounds like Sudrul gets $444K more.
+#0828  Finance Office: Sudrul budget increased by $15K after review.
+#0829  Finance Office: Sudrul budget increased by $507K.
+#0830  Legal email: Sudrul budget is going down by $3K.
+#0831  Finance Office: Withdraw update #0812; it was entered in error.
+#0832  Finance Office: Sudrul budget increased by $35K per the revised plan.
+#0833  Finance Office: Sudrul invoice batch FC-8058 archived.
+#0834  PMO note: Expect Sudrul's budget to rise by $438K.
+#0835  Finance Office: Sudrul budget increased by $15K.
+#0836  Engineering email: Hearing Sudrul's budget goes up $479K.
+#0837  Finance Office: Withdraw update #0456; it was entered in error.
+#0838  Finance Office: Withdraw update #0424.
+#0839  Finance Office: Sudrul budget decreased by $44K after review.
+#0840  Finance Office: Sudrul budget increased by $65K after review.
+#0841  Sales update: Expect Sudrul's budget to rise by $242K.
+#0842  Finance Office: Withdraw update #0196; it was entered in error.
+#0843  Legal email: Expect Sudrul's budget to rise by $289K.
+#0844  Finance Office: Sudrul budget decreased by $120K after review.
+#0845  Finance Office: Sudrul audit notes filed.
+#0846  Legal email: Expect Sudrul's budget to drop by $119K.
+#0847  Finance Office: Sudrul budget decreased by $10K per the revised plan.
+#0848  Finance Office: Sudrul budget decreased by $85K after review.
+#0849  Finance Office: Withdraw update #0687; it was entered in error.
+#0850  Finance Office: Sudrul budget decreased by $15K per the revised plan.
+#0851  Marketing email: Sudrul budget is going up by $308K.
+#0852  Operations chat: Expect Sudrul's budget to drop by $199K.
+#0853  Finance Office: Sudrul budget increased by $95K after review.
+#0854  Finance Office: Sudrul budget increased by $45K after review.
+#0855  Marketing email: Expect Sudrul's budget to drop by $107K.
+#0856  Finance Office: Withdraw update #0388.
+#0857  Finance Office: Withdraw update #0311; it was entered in error.
+#0858  Facilities ticket: Pretty sure Sudrul's budget is $2250K now.
+#0859  Finance Office: Sudrul budget decreased by $135K after review.
+#0860  Finance Office: Sudrul budget decreased by $85K after review.
+#0861  Engineering email: Hearing Sudrul's budget goes down $496K.
+#0862  Finance Office: Sudrul budget decreased by $95K per the revised plan.
+#0863  Finance Office: Sudrul budget increased by $70K.
+#0864  Finance Office: Sudrul budget increased by $65K per the revised plan.
+#0865  Finance Office: Sudrul budget decreased by $125K.
+#0866  Operations chat: Sounds like Sudrul gets $591K more.
+#0867  Finance Office: Sudrul budget decreased by $239K.
+#0868  Finance Office: Sudrul budget increased by $40K per the revised plan.
+#0869  Finance Office: Sudrul budget increased by $25K after review.
+#0870  PMO note: Hearing Sudrul's budget goes down $141K.
+#0871  Finance Office: Sudrul budget increased by $75K after review.
+#0872  Legal email: Sudrul budget is going to $1500K.
+#0873  Sales update: Sudrul documentation moved to the shared drive.
+#0874  Finance Office: Sudrul budget decreased by $135K.
+#0875  PMO note: Heard Sudrul's budget is now $1090K.
+#0876  Finance Office: Sudrul budget increased by $130K after review.
+#0877  Facilities ticket: Sudrul budget is going down to $1160K.
+#0878  Finance Office: Sudrul budget increased by $135K per the revised plan.
+#0879  Finance Office: Sudrul budget increased by $115K per the revised plan.
+#0880  Finance Office: Withdraw update #0373.
+#0881  Engineering email: Sudrul budget is going up by $297K.
+#0882  Finance Office: Sudrul invoice batch FC-9300 archived.
+#0883  Finance Office: Sudrul budget decreased by $15K after review.
+#0884  Finance Office: Sudrul budget increased by $363K after review.
+#0885  Finance Office: Sudrul budget increased by $50K.
+#0886  Finance Office: Sudrul budget decreased by $437K per the revised plan.
+#0887  Vendor call: Sudrul security review passed.
+#0888  Finance Office: Sudrul budget increased by $140K.
+#0889  Finance Office: Sudrul budget decreased by $60K after review.
+#0890  Facilities ticket: Sudrul budget is going up by $588K.
+#0891  Finance Office: Sudrul budget decreased by $124K per the revised plan.
+#0892  Finance Office: Sudrul budget decreased by $75K after review.
+#0893  Finance Office: Withdraw update #0489.
+#0894  Legal email: Sudrul budget is going down by $461K.
+#0895  Finance Office: Sudrul budget decreased by $85K after review.
+#0896  Finance Office: Sudrul budget increased by $55K per the revised plan.
+#0897  Finance Office: Sudrul budget decreased by $60K per the revised plan.
+#0898  Finance Office: Sudrul budget decreased by $150K.
+#0899  Engineering email: Sudrul kickoff moved to Building 7.
+#0900  Finance Office: Withdraw update #0764.
+#0901  Finance Office: Sudrul budget decreased by $25K.
+#0902  Operations chat: Sudrul security review passed.
+#0903  Legal email: Sudrul sprint 24 retrospective notes posted.
+#0904  Engineering email: Sounds like Sudrul gets $393K less.
+#0905  Sales update: Sudrul budget should land at $950K.
+#0906  Finance Office: Withdraw update #0645.
+#0907  Operations chat: Sudrul budget is going down by $94K.
+#0908  Finance Office: Sudrul budget increased by $55K.
+#0909  Vendor call: Sounds like Sudrul gets $552K more.
+#0910  Legal email: Heard Sudrul's budget is now $980K.
+#0911  Facilities ticket: Sudrul site visit confirmed for Monday.
+#0912  Finance Office: Sudrul budget increased by $97K per the revised plan.
+#0913  Finance Office: Withdraw update #0468; it was entered in error.
+#0914  Finance Office: Sudrul budget increased by $5K.
+#0915  Finance Office: Sudrul budget decreased by $9K per the revised plan.
+#0916  Finance Office: Sudrul budget increased by $60K per the revised plan.
+#0917  Finance Office: Sudrul budget decreased by $35K per the revised plan.
+#0918  Legal email: Sudrul budget is going to $880K.
+#0919  PMO note: Sudrul design review moved to Room 5B.
+#0920  Finance Office: Sudrul budget increased by $120K.
+#0921  Marketing email: Hearing Sudrul's budget goes up $307K.
+#0922  Finance Office: Sudrul budget increased by $39K per the revised plan.
+#0923  Vendor call: Sudrul sprint 40 retrospective notes posted.
+#0924  Finance Office: Sudrul budget increased by $293K after review.
+#0925  Sales update: Hearing Sudrul's budget goes up $453K.
+#0926  Finance Office: Sudrul budget decreased by $513K per the revised plan.
+#0927  Finance Office: Reminder: Sudrul expense reports are due Friday.
+#0928  Finance Office: Sudrul budget decreased by $90K.
+#0929  Finance Office: Sudrul budget increased by $65K after review.
+#0930  Finance Office: Sudrul budget decreased by $105K.
+#0931  Finance Office: Sudrul budget increased by $70K per the revised plan.
+#0932  Finance Office: Sudrul budget increased by $145K per the revised plan.
+#0933  Finance Office: Sudrul budget increased by $35K after review.
+#0934  Legal email: Sudrul design review moved to Room 1B.
+#0935  Legal email: Sudrul budget is going down to $640K.
+#0936  Finance Office: Sudrul budget decreased by $22K after review.
+#0937  Finance Office: Withdraw update #0494.
+#0938  Finance Office: Sudrul budget increased by $95K after review.
+#0939  Vendor call: Sudrul weekly sync moved to Tuesdays.
+#0940  Facilities ticket: Hearing Sudrul's budget goes up $517K.
+#0941  Finance Office: Sudrul budget decreased by $10K after review.
+#0942  Marketing email: Expect Sudrul's budget to rise by $373K.
+#0943  Finance Office: Sudrul budget increased by $130K per the revised plan.
+#0944  Legal email: Sudrul budget is going to $1780K.
+#0945  Finance Office: Sudrul cost center code changed to FC-1540.
+#0946  Finance Office: Withdraw update #0867.
+#0947  Finance Office: Withdraw update #0936; it was entered in error.
+#0948  Engineering email: Sudrul risk register updated with 6 new items.
+#0949  Finance Office: Sudrul budget increased by $120K after review.
+#0950  Finance Office: Sudrul budget decreased by $90K after review.
+#0951  Finance Office: Sudrul budget increased by $145K per the revised plan.
+#0952  Finance Office: Sudrul budget increased by $10K.
+#0953  Vendor call: Sounds like Sudrul gets $403K more.
+#0954  Engineering email: Sudrul kickoff moved to Building 9.
+#0955  Finance Office: Sudrul budget decreased by $145K after review.
+#0956  Finance Office: Sudrul budget decreased by $75K per the revised plan.
+#0957  Marketing email: Sudrul budget is going down to $1510K.
+#0958  Finance Office: Withdraw update #0886; it was entered in error.
+#0959  Finance Office: Sudrul receipts scanned.
+#0960  Finance Office: Sudrul budget decreased by $70K per the revised plan.
+#0961  Finance Office: Withdraw update #0077; it was entered in error.
+#0962  Finance Office: Sudrul budget decreased by $15K per the revised plan.
+#0963  Finance Office: Sudrul budget increased by $25K.
+#0964  Vendor call: Sudrul risk register updated with 3 new items.
+#0965  Finance Office: Withdraw update #0557; it was entered in error.
+#0966  Sales update: Sudrul vendor onboarding call scheduled for Thursday.
+#0967  Finance Office: Sudrul budget increased by $95K.
+#0968  PMO note: Heard Sudrul's budget is now $1630K.
+#0969  Finance Office: Sudrul quarterly audit scheduled for Friday.
+#0970  Finance Office: Sudrul budget decreased by $65K per the revised plan.
+#0971  Vendor call: Sudrul demo rescheduled to Tuesday afternoon.
+#0972  Operations chat: Sudrul risk register updated with 7 new items.
+#0973  Finance Office: Sudrul purchase order FC-7041 closed.
+#0974  Finance Office: Sudrul budget increased by $15K.
+#0975  Finance Office: Sudrul budget increased by $30K per the revised plan.
+#0976  Finance Office: Withdraw update #0555; it was entered in error.
+#0977  Finance Office: Sudrul budget decreased by $75K per the revised plan.
+#0978  Finance Office: Sudrul budget decreased by $40K.
+#0979  PMO note: Sounds like Sudrul gets $188K more.
+#0980  Finance Office: Withdraw update #0710; it was entered in error.
+#0981  Finance Office: Sudrul purchase order FC-3082 closed.
+#0982  Legal email: Sudrul budget is going to $1990K.
+#0983  Finance Office: Sudrul budget increased by $95K per the revised plan.
+#0984  Finance Office: Sudrul budget decreased by $120K after review.
+#0985  Legal email: Sudrul site visit confirmed for Friday.
+#0986  Finance Office: Sudrul budget increased by $10K per the revised plan.
+#0987  Marketing email: Hearing Sudrul's budget goes up $27K.
+#0988  Finance Office: Sudrul budget increased by $145K.
+#0989  Operations chat: Sudrul budget is going to $2240K.
+#0990  Finance Office: Sudrul budget increased by $140K after review.
+#0991  Vendor call: Sounds like Sudrul gets $357K more.
+#0992  Finance Office: Sudrul budget increased by $48K per the revised plan.
+#0993  Finance Office: Sudrul budget increased by $75K per the revised plan.
+#0994  Finance Office: Sudrul budget increased by $30K after review.
+#0995  Vendor call: Sudrul kickoff moved to Building 5.
+#0996  Engineering email: Sudrul budget is going up to $2360K.
+#0997  Legal email: Sudrul sprint 41 retrospective notes posted.
+#0998  Legal email: Pretty sure Sudrul's budget is $2480K now.
+#0999  Marketing email: Pretty sure Sudrul's budget is $2390K now.
+#1000  Finance Office: Sudrul budget decreased by $10K after review.
+#1001  Finance Office: Withdraw update #0222; it was entered in error.
+#1002  Finance Office: Sudrul budget decreased by $140K after review.
+#1003  PMO note: Pretty sure Sudrul's budget is $1900K now.
+#1004  Finance Office: Sudrul budget decreased by $90K after review.
+#1005  Finance Office: Sudrul budget decreased by $15K per the revised plan.
+#1006  Finance Office: Sudrul budget decreased by $40K.
+#1007  Finance Office: Sudrul budget increased by $25K after review.
+#1008  PMO note: Sudrul budget is going up by $241K.
+#1009  Finance Office: Withdraw update #0151; it was entered in error.
+#1010  Operations chat: Pretty sure Sudrul's budget is $2410K now.
+#1011  Finance Office: Sudrul budget decreased by $45K per the revised plan.
+#1012  Finance Office: Sudrul budget increased by $20K per the revised plan.
+#1013  Finance Office: Sudrul finance review moved to Room 3A.
+#1014  Finance Office: Withdraw update #0760; it was entered in error.
+#1015  Finance Office: Sudrul budget increased by $60K per the revised plan.
+#1016  Finance Office: Sudrul budget increased by $10K after review.
+#1017  Finance Office: Withdraw update #0273.
+#1018  Finance Office: Sudrul budget decreased by $45K per the revised plan.
+#1019  Finance Office: Withdraw update #0398.
+#1020  Finance Office: Sudrul budget increased by $30K.
+#1021  Finance Office: Sudrul budget decreased by $55K.
+#1022  Finance Office: Sudrul budget decreased by $65K after review.
+#1023  Engineering email: Sounds like Sudrul gets $28K less.
+#1024  Operations chat: Sudrul budget is going to $1680K.
+#1025  Vendor call: Sudrul budget is going down by $544K.
+#1026  Finance Office: Sudrul budget increased by $95K per the revised plan.
+#1027  Finance Office: Sudrul budget increased by $45K.
+#1028  Finance Office: Sudrul quarterly audit scheduled for Friday.
+#1029  PMO note: Sounds like Sudrul gets $177K less.
+#1030  Operations chat: Sudrul site visit confirmed for Monday.
+#1031  Finance Office: Sudrul budget decreased by $125K per the revised plan.
+#1032  Operations chat: Sounds like Sudrul gets $224K less.
+#1033  Legal email: Sudrul test environment back online.
+#1034  Finance Office: Withdraw update #0891; it was entered in error.
+#1035  Finance Office: Sudrul cost center code changed to FC-6290.
+#1036  Finance Office: Reminder: Sudrul expense reports are due Wednesday.
+#1037  Finance Office: Sudrul budget increased by $135K per the revised plan.
+#1038  Facilities ticket: Sudrul budget should land at $1640K.
+#1039  Finance Office: Sudrul budget decreased by $150K.
+#1040  Legal email: Sudrul budget should land at $1720K.
+#1041  Facilities ticket: Sudrul budget is going down by $304K.
+#1042  Legal email: Expect Sudrul's budget to rise by $508K.
+#1043  Engineering email: Hearing Sudrul's budget goes up $499K.
+#1044  Finance Office: Sudrul budget increased by $414K after review.
+#1045  Sales update: Heard Sudrul's budget is now $2130K.
+#1046  Legal email: Sudrul status report filed for week 2.
+#1047  Finance Office: Sudrul budget decreased by $5K.
+#1048  Operations chat: Heard Sudrul's budget is now $2210K.
+#1049  Facilities ticket: Expect Sudrul's budget to rise by $12K.
+#1050  Finance Office: Withdraw update #0544.
+#1051  Finance Office: Sudrul budget decreased by $100K after review.
+#1052  Finance Office: Sudrul budget increased by $442K per the revised plan.
+#1053  Finance Office: Sudrul budget decreased by $29K per the revised plan.
+#1054  Facilities ticket: Hearing Sudrul's budget goes up $79K.
+#1055  PMO note: Heard Sudrul's budget is now $1800K.
+#1056  Marketing email: Pretty sure Sudrul's budget is $2120K now.
+#1057  Finance Office: Sudrul budget decreased by $85K.
+#1058  Finance Office: Sudrul budget increased by $20K after review.
+#1059  Engineering email: Sudrul budget is going up by $471K.
+#1060  Finance Office: Sudrul budget decreased by $150K per the revised plan.
+#1061  Finance Office: Sudrul budget decreased by $25K per the revised plan.
+#1062  Finance Office: Sudrul budget increased by $284K after review.
+#1063  Finance Office: Withdraw update #0657.
+#1064  Finance Office: Sudrul budget decreased by $145K per the revised plan.
+#1065  Sales update: Heard Sudrul's budget is now $2600K.
+#1066  Finance Office: Sudrul budget decreased by $50K after review.
+#1067  Finance Office: Withdraw update #0750; it was entered in error.
+#1068  Finance Office: Sudrul budget decreased by $50K per the revised plan.
+#1069  Operations chat: Hearing Sudrul's budget goes up $258K.
+#1070  Finance Office: Withdraw update #0924; it was entered in error.
+#1071  Finance Office: Withdraw update #0434.
+#1072  Finance Office: Sudrul budget decreased by $130K per the revised plan.
+#1073  Operations chat: Sudrul risk register updated with 8 new items.
+#1074  Finance Office: Withdraw update #0370; it was entered in error.
+#1075  Finance Office: Sudrul budget decreased by $554K per the revised plan.
+#1076  Finance Office: Withdraw update #0275; it was entered in error.
+#1077  Sales update: Hearing Sudrul's budget goes down $306K.
+#1078  PMO note: Sudrul budget is going down to $1840K.
+#1079  Finance Office: Withdraw update #0884; it was entered in error.
+#1080  PMO note: Expect Sudrul's budget to drop by $551K.
+#1081  Legal email: Sudrul demo rescheduled to Thursday afternoon.
+#1082  Legal email: Sudrul weekly sync moved to Mondays.
+#1083  Engineering email: Sudrul budget is going to $1590K.
+#1084  Finance Office: Withdraw update #0259.
+#1085  Marketing email: Sudrul budget is going to $2760K.
+#1086  Finance Office: Withdraw update #0426; it was entered in error.
+#1087  Finance Office: Sudrul budget decreased by $90K after review.
+#1088  Marketing email: Hearing Sudrul's budget goes down $436K.
+#1089  Finance Office: Withdraw update #1052.
+#1090  Finance Office: Sudrul budget increased by $105K after review.
+#1091  Finance Office: Sudrul budget decreased by $70K after review.
+#1092  Facilities ticket: Sudrul weekly sync moved to Thursdays.
+#1093  Finance Office: Sudrul budget decreased by $25K.
+#1094  Finance Office: Sudrul budget decreased by $95K.
+#1095  Finance Office: Sudrul budget decreased by $100K after review.
+#1096  Finance Office: Withdraw update #0599; it was entered in error.
+#1097  Marketing email: Hearing Sudrul's budget goes up $468K.
+#1098  Finance Office: Withdraw update #1053; it was entered in error.
+#1099  Marketing email: Sudrul budget is going down to $1590K.
+#1100  Finance Office: Reminder: Sudrul expense reports are due Wednesday.
+#1101  Finance Office: Withdraw update #0114.
+#1102  Finance Office: Sudrul invoice batch FC-2241 archived.
+#1103  Finance Office: Withdraw update #0769; it was entered in error.
+#1104  Finance Office: Sudrul budget decreased by $70K.
+#1105  Sales update: Sudrul budget is going to $1660K.
+#1106  PMO note: Sudrul vendor onboarding call scheduled for Monday.
+#1107  Marketing email: Hearing Sudrul's budget goes up $326K.
+#1108  Finance Office: Sudrul budget decreased by $31K after review.
+#1109  Finance Office: Sudrul budget decreased by $50K.
+#1110  Finance Office: Sudrul budget decreased by $5K.
+#1111  Finance Office: Withdraw update #0823; it was entered in error.
+#1112  Legal email: Sudrul budget is going down to $1660K.
+#1113  Finance Office: Sudrul budget increased by $40K.
+#1114  Finance Office: Sudrul budget decreased by $234K after review.
+#1115  Operations chat: Hearing Sudrul's budget goes down $61K.
+#1116  Legal email: Hearing Sudrul's budget goes down $251K.
+#1117  Finance Office: Withdraw update #0400.
+#1118  Finance Office: Sudrul budget decreased by $85K after review.
+#1119  Operations chat: Hearing Sudrul's budget goes up $294K.
+#1120  PMO note: Sudrul budget is going to $1550K.
+#1121  Finance Office: Sudrul budget increased by $105K per the revised plan.
+#1122  Vendor call: Sudrul budget is going down by $142K.
+#1123  Finance Office: Withdraw update #0334; it was entered in error.
+#1124  Finance Office: Sudrul budget increased by $161K per the revised plan.
+#1125  Finance Office: Sudrul budget decreased by $135K per the revised plan.
+#1126  Finance Office: Withdraw update #1108; it was entered in error.
+#1127  Marketing email: Sudrul budget is going up to $2100K.
+#1128  Marketing email: Hearing Sudrul's budget goes up $203K.
+#1129  Finance Office: Withdraw update #1019.
+#1130  Finance Office: Sudrul budget increased by $115K per the revised plan.
+#1131  Legal email: Pretty sure Sudrul's budget is $2430K now.
+#1132  Legal email: Sudrul weekly sync moved to Mondays.
+#1133  Finance Office: Reminder: Sudrul expense reports are due Tuesday.
+#1134  Finance Office: Withdraw update #0203.
+#1135  Finance Office: Sudrul budget decreased by $105K after review.
+#1136  Finance Office: Sudrul budget increased by $130K per the revised plan.
+#1137  Vendor call: Heard Sudrul's budget is now $1680K.
+#1138  Finance Office: Withdraw update #0012.
+#1139  Finance Office: Sudrul budget decreased by $130K after review.
+#1140  Finance Office: Sudrul invoice batch FC-1756 archived.
+#1141  Finance Office: Sudrul budget increased by $5K per the revised plan.
+#1142  Finance Office: Withdraw update #0162.
+#1143  Marketing email: Hearing Sudrul's budget goes down $404K.
+#1144  Finance Office: Withdraw update #1114; it was entered in error.
+#1145  Legal email: Expect Sudrul's budget to rise by $466K.
+#1146  Facilities ticket: Sudrul sprint 40 retrospective notes posted.
+#1147  Finance Office: Sudrul budget increased by $55K per the revised plan.
+#1148  Finance Office: Sudrul budget increased by $25K.
+#1149  Finance Office: Sudrul budget decreased by $95K after review.
+#1150  Finance Office: Withdraw update #1075.
+#1151  Engineering email: Sudrul budget is going down by $74K.
+#1152  Finance Office: Withdraw update #1124; it was entered in error.
+#1153  Finance Office: Sudrul budget decreased by $100K.
+#1154  Finance Office: Sudrul budget increased by $115K per the revised plan.
+#1155  Finance Office: Withdraw update #0922; it was entered in error.
+#1156  Facilities ticket: Sounds like Sudrul gets $17K less.
+#1157  Finance Office: Sudrul budget increased by $70K per the revised plan.
+#1158  Finance Office: Withdraw update #0084; it was entered in error.
+#1159  Finance Office: Sudrul budget increased by $10K.
+#1160  Finance Office: Sudrul finance review moved to Room 5B.
+#1161  Finance Office: Sudrul budget increased by $45K.
+#1162  Facilities ticket: Expect Sudrul's budget to drop by $148K.
+#1163  PMO note: Sounds like Sudrul gets $156K more.
+#1164  Finance Office: Sudrul budget increased by $140K after review.
+#1165  Finance Office: Sudrul budget increased by $120K after review.
+#1166  Legal email: Pretty sure Sudrul's budget is $1880K now.
+#1167  Finance Office: Withdraw update #0412; it was entered in error.
+#1168  Operations chat: Heard Sudrul's budget is now $2210K.
+#1169  Finance Office: Sudrul budget decreased by $95K after review.
+#1170  Sales update: Hearing Sudrul's budget goes down $84K.
+#1171  Finance Office: Sudrul budget decreased by $55K per the revised plan.
+#1172  Engineering email: Sudrul security review passed.
+#1173  Finance Office: Sudrul budget decreased by $85K.
+#1174  Finance Office: Withdraw update #0682.
+#1175  Finance Office: Sudrul budget decreased by $15K.
+#1176  Finance Office: Sudrul budget increased by $85K after review.
+#1177  Finance Office: Withdraw update #1062.
+#1178  Finance Office: Sudrul budget increased by $336K after review.
+#1179  Finance Office: Withdraw update #0023.
+#1180  Finance Office: Withdraw update #0915; it was entered in error.
+#1181  Finance Office: Sudrul finance review moved to Room 5C.
+#1182  Finance Office: Sudrul budget increased by $85K.
+#1183  Engineering email: Expect Sudrul's budget to rise by $53K.
+#1184  Finance Office: Sudrul budget decreased by $5K per the revised plan.
+#1185  Finance Office: Sudrul budget increased by $25K.
+#1186  Finance Office: Sudrul budget increased by $150K per the revised plan.
+#1187  Finance Office: Sudrul budget increased by $75K after review.
+#1188  Finance Office: Sudrul budget increased by $178K per the revised plan.
+#1189  Finance Office: Sudrul budget decreased by $115K per the revised plan.
+#1190  PMO note: Sudrul budget is going up to $2240K.
+#1191  Finance Office: Sudrul budget decreased by $55K per the revised plan.
+#1192  Finance Office: Sudrul budget decreased by $15K after review.
+#1193  Operations chat: Expect Sudrul's budget to drop by $571K.
+#1194  Facilities ticket: Sudrul budget is going down by $463K.
+#1195  Finance Office: Sudrul budget decreased by $451K.
+#1196  PMO note: Sudrul budget is going down to $1510K.
+#1197  Finance Office: Sudrul budget decreased by $130K.
+#1198  Finance Office: Sudrul budget increased by $140K per the revised plan.
+#1199  Finance Office: Sudrul budget decreased by $110K per the revised plan.
+#1200  Facilities ticket: Hearing Sudrul's budget goes up $538K.
+#1201  Finance Office: Sudrul budget decreased by $75K per the revised plan.
+#1202  Legal email: Sudrul weekly sync moved to Tuesdays.
+#1203  Marketing email: Sounds like Sudrul gets $163K more.
+#1204  Finance Office: Sudrul budget increased by $40K per the revised plan.
+#1205  Finance Office: Sudrul budget decreased by $145K.
+#1206  Finance Office: Sudrul budget decreased by $15K per the revised plan.
+#1207  Legal email: Heard Sudrul's budget is now $1280K.
+#1208  Finance Office: Sudrul budget decreased by $35K.
+#1209  Finance Office: Withdraw update #0170; it was entered in error.
+#1210  Facilities ticket: Sudrul kickoff moved to Building 4.
+#1211  Finance Office: Sudrul budget decreased by $110K.
+#1212  Sales update: Pretty sure Sudrul's budget is $1900K now.
+#1213  Finance Office: Sudrul budget decreased by $130K.
+#1214  Finance Office: Sudrul budget increased by $65K after review.
+#1215  Operations chat: Sudrul budget is going down to $1270K.
+#1216  Sales update: Sudrul budget should land at $1750K.
+#1217  Finance Office: Sudrul budget increased by $55K per the revised plan.
+#1218  Engineering email: Sudrul budget should land at $1530K.
+#1219  Finance Office: Sudrul budget increased by $55K per the revised plan.
+#1220  Legal email: Sudrul documentation moved to the shared drive.
+#1221  Finance Office: Sudrul budget increased by $120K.
+#1222  Finance Office: Sudrul budget decreased by $60K per the revised plan.
+#1223  Finance Office: Sudrul budget increased by $35K after review.
+#1224  Finance Office: Sudrul budget decreased by $140K per the revised plan.
+#1225  Operations chat: Sudrul budget should land at $1920K.
+#1226  Finance Office: Withdraw update #0958.
+#1227  Finance Office: Sudrul budget increased by $40K.
+#1228  Finance Office: Sudrul budget increased by $135K after review.
+#1229  Facilities ticket: Sudrul demo rescheduled to Wednesday afternoon.
+#1230  Finance Office: Withdraw update #0615; it was entered in error.
+#1231  Finance Office: Sudrul budget decreased by $110K after review.
+#1232  Operations chat: Expect Sudrul's budget to rise by $524K.
+#1233  PMO note: Heard Sudrul's budget is now $1310K.
+#1234  Facilities ticket: Sounds like Sudrul gets $114K less.
+#1235  Finance Office: Sudrul budget increased by $20K after review.
+#1236  Finance Office: Sudrul budget increased by $130K per the revised plan.
+#1237  Finance Office: Sudrul budget decreased by $110K per the revised plan.
+#1238  Finance Office: Withdraw update #0135.
+#1239  Vendor call: Sudrul test environment back online.
+#1240  Finance Office: Sudrul budget decreased by $100K after review.
+#1241  Finance Office: Sudrul budget decreased by $120K after review.
+#1242  Finance Office: Sudrul budget decreased by $135K.
+#1243  Finance Office: Sudrul budget increased by $140K.
+#1244  Finance Office: Sudrul budget decreased by $354K after review.
+#1245  Legal email: Sudrul security review passed.
+#1246  Finance Office: Reminder: Sudrul expense reports are due Wednesday.
+#1247  Finance Office: Sudrul budget decreased by $20K after review.
+#1248  Finance Office: Sudrul budget decreased by $15K per the revised plan.
+#1249  Finance Office: Sudrul budget increased by $110K per the revised plan.
+#1250  Finance Office: Sudrul budget decreased by $537K after review.
+#1251  Finance Office: Sudrul budget decreased by $40K.
+#1252  Finance Office: Sudrul budget increased by $130K per the revised plan.
+#1253  Finance Office: Sudrul budget increased by $40K.
+#1254  Vendor call: Expect Sudrul's budget to rise by $521K.
+#1255  Finance Office: Withdraw update #0912.
+#1256  Finance Office: Withdraw update #1195; it was entered in error.
+#1257  Facilities ticket: Hearing Sudrul's budget goes up $356K.
+#1258  Finance Office: Sudrul purchase order FC-6115 closed.
+#1259  Finance Office: Sudrul budget increased by $25K after review.
+#1260  PMO note: Pretty sure Sudrul's budget is $630K now.
+#1261  Finance Office: Withdraw update #0328; it was entered in error.
+#1262  Finance Office: Sudrul budget decreased by $105K per the revised plan.
+#1263  Finance Office: Sudrul budget decreased by $110K per the revised plan.
+#1264  Finance Office: Withdraw update #0926; it was entered in error.
+#1265  Finance Office: Withdraw update #1178.
+#1266  Finance Office: Sudrul budget decreased by $55K per the revised plan.
+#1267  Engineering email: Sudrul weekly sync moved to Mondays.
+#1268  Finance Office: Withdraw update #1250.
+#1269  Facilities ticket: Sudrul sprint 23 retrospective notes posted.
+#1270  Finance Office: Sudrul budget increased by $80K after review.
+#1271  Finance Office: Sudrul budget decreased by $65K after review.
+#1272  Finance Office: Sudrul budget increased by $60K per the revised plan.
+#1273  Finance Office: Sudrul budget decreased by $70K after review.
+#1274  Finance Office: Sudrul budget increased by $95K.
+#1275  Sales update: Sudrul budget is going up by $64K.
+#1276  Engineering email: Sudrul budget is going up by $516K.
+#1277  Finance Office: Sudrul budget increased by $50K after review.
+#1278  Finance Office: Sudrul budget increased by $90K per the revised plan.
+#1279  Finance Office: Sudrul budget increased by $85K after review.
+#1280  Finance Office: Sudrul budget decreased by $10K per the revised plan.
+#1281  Finance Office: Sudrul audit notes filed.
+#1282  Finance Office: Withdraw update #1071.
+#1283  Marketing email: Sounds like Sudrul gets $24K less.
+#1284  Finance Office: Sudrul budget increased by $120K per the revised plan.
+#1285  Finance Office: Withdraw update #0829; it was entered in error.
+#1286  Marketing email: Heard Sudrul's budget is now $860K.
+#1287  Finance Office: Sudrul budget increased by $5K after review.
+#1288  PMO note: Expect Sudrul's budget to drop by $412K.
+#1289  Finance Office: Sudrul budget increased by $70K.
+#1290  Finance Office: Sudrul budget decreased by $10K per the revised plan.
+#1291  Engineering email: Sudrul budget should land at $1670K.
+#1292  Finance Office: Withdraw update #0539.
+#1293  PMO note: Sudrul budget is going to $610K.
+#1294  Finance Office: Sudrul budget decreased by $135K.
+#1295  Finance Office: Withdraw update #0600; it was entered in error.
+#1296  Finance Office: Withdraw update #0604; it was entered in error.
+#1297  Finance Office: Withdraw update #0661; it was entered in error.
+#1298  Vendor call: Expect Sudrul's budget to drop by $329K.
+#1299  Sales update: Sounds like Sudrul gets $217K less.
+#1300  PMO note: Sudrul budget is going down by $41K.
+#1301  Finance Office: Withdraw update #1174.
+#1302  Finance Office: Sudrul budget decreased by $65K.
+#1303  Sales update: Hearing Sudrul's budget goes up $493K.
+#1304  PMO note: Sudrul budget is going up to $2480K.
+#1305  Engineering email: Sudrul kickoff moved to Building 4.
+#1306  Finance Office: Withdraw update #1086; it was entered in error.
+#1307  Finance Office: Sudrul budget increased by $34K after review.
+#1308  Finance Office: Sudrul budget increased by $65K.
+#1309  Finance Office: Withdraw update #1044; it was entered in error.
+#1310  Finance Office: Sudrul budget increased by $20K per the revised plan.
+#1311  Finance Office: Sudrul budget decreased by $10K.
+#1312  Finance Office: Sudrul budget increased by $40K.
+#1313  Marketing email: Sudrul demo rescheduled to Monday afternoon.
+#1314  Legal email: Sounds like Sudrul gets $162K less.
+#1315  PMO note: Sudrul test environment back online.
+#1316  Finance Office: Sudrul budget increased by $125K per the revised plan.
+#1317  Facilities ticket: Sudrul budget should land at $1250K.
+#1318  Legal email: Expect Sudrul's budget to rise by $138K.
+#1319  Sales update: Sudrul budget is going up to $1940K.
+#1320  PMO note: Sudrul budget is going up by $122K.
+#1321  PMO note: Expect Sudrul's budget to rise by $556K.
+#1322  Sales update: Expect Sudrul's budget to rise by $333K.
+#1323  Finance Office: Sudrul invoice batch FC-5238 archived.
+#1324  Vendor call: Expect Sudrul's budget to drop by $319K.
+#1325  Finance Office: Sudrul budget decreased by $120K.
+#1326  Finance Office: Withdraw update #0393; it was entered in error.
+#1327  Sales update: Sudrul budget is going up to $1760K.
+#1328  Finance Office: Sudrul budget increased by $100K per the revised plan.
+#1329  Finance Office: Sudrul budget decreased by $563K per the revised plan.
+#1330  Finance Office: Withdraw update #0356; it was entered in error.
+#1331  Finance Office: Reminder: Sudrul expense reports are due Friday.
+#1332  Finance Office: Sudrul budget decreased by $50K.
+#1333  Legal email: Sudrul budget is going down by $321K.
+#1334  Finance Office: Withdraw update #0691; it was entered in error.
+#1335  Facilities ticket: Sudrul status report filed for week 22.
+#1336  Legal email: Sounds like Sudrul gets $201K less.
+#1337  Finance Office: Sudrul budget decreased by $140K after review.
+#1338  Finance Office: Sudrul budget decreased by $100K.
+#1339  Finance Office: Sudrul receipts scanned.
+#1340  Finance Office: Sudrul budget decreased by $105K.
+#1341  Operations chat: Pretty sure Sudrul's budget is $720K now.
+#1342  Marketing email: Hearing Sudrul's budget goes up $459K.
+#1343  Marketing email: Sudrul budget is going to $960K.
+#1344  Facilities ticket: Hearing Sudrul's budget goes up $366K.
+#1345  Finance Office: Sudrul budget decreased by $60K.
+#1346  Operations chat: Sudrul budget is going to $740K.
+#1347  Facilities ticket: Sudrul weekly sync moved to Wednesdays.
+#1348  Finance Office: Sudrul budget decreased by $40K after review.
+#1349  Finance Office: Withdraw update #1309.
+#1350  Finance Office: Withdraw update #0303.
+#1351  Finance Office: Sudrul budget decreased by $30K after review.
+#1352  Marketing email: Hearing Sudrul's budget goes down $549K.
+#1353  PMO note: Sudrul sprint 43 retrospective notes posted.
+#1354  Operations chat: Hearing Sudrul's budget goes down $288K.
+#1355  Finance Office: Sudrul budget increased by $65K per the revised plan.
+#1356  Finance Office: Sudrul budget increased by $120K after review.
+#1357  Finance Office: Sudrul budget decreased by $15K after review.
+#1358  PMO note: Heard Sudrul's budget is now $1040K.
+#1359  Vendor call: Sudrul budget is going up by $169K.
+#1360  Finance Office: Sudrul budget increased by $118K.
+#1361  Vendor call: Sudrul budget is going to $1360K.
+#1362  Legal email: Pretty sure Sudrul's budget is $2130K now.
+#1363  Finance Office: Withdraw update #0839.
+#1364  Finance Office: Sudrul budget decreased by $90K per the revised plan.
+#1365  Finance Office: Sudrul cost center code changed to FC-3095.
+#1366  Finance Office: Sudrul budget increased by $90K per the revised plan.
+#1367  Finance Office: Sudrul budget decreased by $35K per the revised plan.
+#1368  Finance Office: Sudrul budget increased by $25K per the revised plan.
+#1369  Finance Office: Sudrul budget increased by $60K.
+#1370  Engineering email: Sudrul budget is going up by $422K.
+#1371  Marketing email: Sudrul risk register updated with 8 new items.
+#1372  Finance Office: Sudrul budget increased by $90K after review.
+#1373  Finance Office: Withdraw update #1079.
+#1374  PMO note: Hearing Sudrul's budget goes down $511K.
+#1375  Finance Office: Sudrul budget decreased by $135K.
+#1376  Finance Office: Sudrul budget decreased by $15K after review.
+#1377  Finance Office: Withdraw update #0778; it was entered in error.
+#1378  Finance Office: Sudrul budget increased by $110K after review.
+#1379  Finance Office: Sudrul budget increased by $60K per the revised plan.
+#1380  Finance Office: Sudrul budget increased by $5K.
+#1381  Finance Office: Sudrul budget decreased by $40K after review.
+#1382  Legal email: Expect Sudrul's budget to drop by $419K.
+#1383  Engineering email: Sudrul budget is going down by $322K.
+#1384  Finance Office: Sudrul budget increased by $115K after review.
+#1385  Finance Office: Sudrul budget decreased by $95K.
+#1386  Engineering email: Expect Sudrul's budget to drop by $489K.
+#1387  Legal email: Sudrul documentation moved to the shared drive.
+#1388  Finance Office: Sudrul budget increased by $100K per the revised plan.
+#1389  Finance Office: Sudrul budget increased by $10K per the revised plan.
+#1390  Finance Office: Sudrul budget decreased by $145K after review.
+#1391  Finance Office: Withdraw update #0283; it was entered in error.
+#1392  Legal email: Sudrul risk register updated with 9 new items.
+#1393  Finance Office: Withdraw update #0121.
+#1394  Finance Office: Sudrul budget increased by $150K after review.
+#1395  Engineering email: Sudrul budget is going down by $567K.
+#1396  Finance Office: Sudrul budget decreased by $150K per the revised plan.
+#1397  Finance Office: Sudrul budget decreased by $140K.
+#1398  Legal email: Sudrul budget is going to $1890K.
+#1399  Finance Office: Sudrul cost center code changed to FC-6771.
+#1400  Finance Office: Sudrul budget decreased by $65K per the revised plan.
+#1401  Finance Office: Sudrul budget decreased by $15K per the revised plan.
+#1402  Finance Office: Sudrul budget increased by $130K after review.
+#1403  Operations chat: Heard Sudrul's budget is now $2350K.
+#1404  Finance Office: Sudrul budget decreased by $80K after review.
+#1405  Engineering email: Hearing Sudrul's budget goes up $78K.
+#1406  Vendor call: Hearing Sudrul's budget goes down $152K.
+#1407  Finance Office: Withdraw update #0465.
+#1408  Finance Office: Sudrul budget decreased by $125K after review.
+#1409  Finance Office: Sudrul budget decreased by $75K after review.
+#1410  Marketing email: Heard Sudrul's budget is now $1500K.
+#1411  Finance Office: Withdraw update #1307.
+#1412  Facilities ticket: Expect Sudrul's budget to rise by $7K.
+#1413  Facilities ticket: Heard Sudrul's budget is now $2150K.
+#1414  Finance Office: Sudrul finance review moved to Room 2B.
+#1415  Finance Office: Sudrul budget increased by $90K.
+#1416  Finance Office: Withdraw update #1360; it was entered in error.
+#1417  Finance Office: Sudrul budget increased by $85K.
+#1418  Finance Office: Sudrul budget increased by $10K per the revised plan.
+#1419  Finance Office: Sudrul budget increased by $10K after review.
+#1420  Finance Office: Withdraw update #0705; it was entered in error.
+#1421  Finance Office: Sudrul budget decreased by $35K.
+#1422  Finance Office: Sudrul finance review moved to Room 4C.
+#1423  Vendor call: Sudrul budget is going up by $487K.
+#1424  Marketing email: Sudrul budget should land at $1330K.
+#1425  Marketing email: Sudrul budget is going to $1010K.
+#1426  Facilities ticket: Expect Sudrul's budget to rise by $434K.
+#1427  Finance Office: Sudrul budget decreased by $115K per the revised plan.
+#1428  Engineering email: Sudrul budget should land at $800K.
+#1429  Finance Office: Withdraw update #1329; it was entered in error.
+#1430  Finance Office: Withdraw update #0076; it was entered in error.
+#1431  Facilities ticket: Hearing Sudrul's budget goes down $243K.
+#1432  Finance Office: Withdraw update #0254.
+#1433  Finance Office: Withdraw update #0770; it was entered in error.
+#1434  Finance Office: Withdraw update #1142; it was entered in error.
+#1435  Finance Office: Sudrul budget decreased by $85K.
+#1436  Finance Office: Withdraw update #0307; it was entered in error.
+#1437  Vendor call: Heard Sudrul's budget is now $1390K.
+#1438  Finance Office: Sudrul budget decreased by $70K.
+#1439  Facilities ticket: Sudrul budget should land at $1440K.
+#1440  Facilities ticket: Sudrul budget should land at $1500K.
+#1441  Finance Office: Sudrul budget decreased by $70K per the revised plan.
+#1442  PMO note: Sudrul budget is going to $1390K.
+#1443  Vendor call: Sudrul status report filed for week 46.
+#1444  Finance Office: Withdraw update #0906; it was entered in error.
+#1445  Engineering email: Expect Sudrul's budget to rise by $187K.
+#1446  Finance Office: Sudrul budget decreased by $75K per the revised plan.
+#1447  Finance Office: Withdraw update #0735.
+#1448  Finance Office: Sudrul budget increased by $150K per the revised plan.
+#1449  Operations chat: Pretty sure Sudrul's budget is $1880K now.
+#1450  Finance Office: Sudrul budget increased by $150K.
+#1451  Finance Office: Withdraw update #0808; it was entered in error.
+#1452  Finance Office: Sudrul budget increased by $40K per the revised plan.
+#1453  Finance Office: Sudrul budget increased by $60K after review.
+#1454  Facilities ticket: Sudrul budget should land at $2760K.
+#1455  Facilities ticket: Sounds like Sudrul gets $514K less.
+#1456  Finance Office: Withdraw update #1001; it was entered in error.
+#1457  Finance Office: Sudrul budget increased by $110K.
+#1458  Finance Office: Sudrul budget decreased by $75K after review.
+#1459  Finance Office: Sudrul budget increased by $75K after review.
+#1460  Finance Office: Sudrul budget increased by $45K per the revised plan.
+#1461  Sales update: Sudrul budget is going up by $583K.
+#1462  Engineering email: Sudrul budget is going up to $1710K.
+#1463  Legal email: Pretty sure Sudrul's budget is $1490K now.
+#1464  Finance Office: Sudrul purchase order FC-1037 closed.
+#1465  Finance Office: Sudrul budget increased by $105K per the revised plan.
+#1466  Finance Office: Sudrul budget increased by $150K.
+#1467  Finance Office: Sudrul budget increased by $135K per the revised plan.
+#1468  PMO note: Sudrul budget should land at $2660K.
+#1469  Marketing email: Heard Sudrul's budget is now $1910K.
+#1470  Finance Office: Sudrul budget increased by $60K.
+#1471  Marketing email: Sudrul design review moved to Room 1B.
+#1472  Facilities ticket: Sudrul budget is going down by $347K.
+#1473  Finance Office: Withdraw update #1429; it was entered in error.
+#1474  Finance Office: Sudrul quarterly audit scheduled for Thursday.
+#1475  PMO note: Expect Sudrul's budget to drop by $548K.
+#1476  Vendor call: Sudrul budget should land at $1200K.
+#1477  Finance Office: Sudrul budget decreased by $105K per the revised plan.
+#1478  PMO note: Sudrul budget should land at $1500K.
+#1479  Marketing email: Hearing Sudrul's budget goes up $279K.
+#1480  Finance Office: Sudrul budget decreased by $120K.
+#1481  Sales update: Sudrul budget is going to $1060K.
+#1482  Finance Office: Withdraw update #0130; it was entered in error.
+#1483  Finance Office: Sudrul budget decreased by $55K after review.
+#1484  Marketing email: Hearing Sudrul's budget goes up $256K.
+#1485  Finance Office: Sudrul budget increased by $65K per the revised plan.
+#1486  Vendor call: Heard Sudrul's budget is now $1770K.
+#1487  Finance Office: Withdraw update #0712.
+#1488  Finance Office: Withdraw update #0649; it was entered in error.
+#1489  Finance Office: Sudrul budget decreased by $90K after review.
+#1490  Finance Office: Sudrul budget decreased by $5K after review.
+#1491  Finance Office: Sudrul budget increased by $125K.
+#1492  Facilities ticket: Sudrul budget is going to $990K.
+#1493  Finance Office: Withdraw update #1244; it was entered in error.
+#1494  Finance Office: Sudrul budget decreased by $45K after review.
+#1495  Operations chat: Sudrul budget is going to $2130K.
+#1496  Legal email: Heard Sudrul's budget is now $1880K.
+#1497  Legal email: Sudrul budget is going up by $204K.
+#1498  Legal email: Sudrul design review moved to Room 3D.
+#1499  Finance Office: Sudrul budget increased by $80K per the revised plan.
+#1500  Finance Office: Sudrul budget increased by $65K per the revised plan.
+#1501  Finance Office: Sudrul budget decreased by $40K after review.
+#1502  Engineering email: Expect Sudrul's budget to drop by $269K.
+#1503  PMO note: Sudrul budget is going down to $1390K.
+#1504  Finance Office: Reminder: Sudrul expense reports are due Tuesday.
+#1505  Finance Office: Sudrul budget increased by $90K after review.
+#1506  Finance Office: Sudrul budget increased by $95K per the revised plan.
+#1507  Finance Office: Sudrul budget decreased by $55K.
+#1508  Facilities ticket: Expect Sudrul's budget to rise by $176K.
+#1509  Finance Office: Sudrul budget increased by $40K after review.
+#1510  Finance Office: Sudrul receipts scanned.
+#1511  Finance Office: Sudrul budget decreased by $130K per the revised plan.
+#1512  Finance Office: Sudrul budget decreased by $140K.
+#1513  Operations chat: Sudrul budget is going to $1470K.
+#1514  Finance Office: Withdraw update #0439.
+#1515  Finance Office: Sudrul budget decreased by $95K per the revised plan.
+#1516  Finance Office: Sudrul budget increased by $154K per the revised plan.
+#1517  Operations chat: Hearing Sudrul's budget goes down $254K.
+#1518  Vendor call: Sudrul vendor onboarding call scheduled for Thursday.
+#1519  Finance Office: Sudrul budget increased by $60K after review.
+#1520  Finance Office: Sudrul budget decreased by $70K per the revised plan.
+#1521  Finance Office: Sudrul budget increased by $140K per the revised plan.
+#1522  PMO note: Sudrul kickoff moved to Building 5.
+#1523  Finance Office: Sudrul budget increased by $35K per the revised plan.
+#1524  Finance Office: Sudrul budget increased by $35K per the revised plan.
+#1525  Finance Office: Withdraw update #1516; it was entered in error.
+#1526  Facilities ticket: Sudrul kickoff moved to Building 7.
+#1527  Finance Office: Sudrul budget decreased by $65K.
+#1528  Finance Office: Sudrul budget increased by $105K.
+#1529  Finance Office: Sudrul budget increased by $15K.
+#1530  Operations chat: Sudrul budget is going to $970K.
+#1531  Operations chat: Sudrul budget is going to $1800K.
+#1532  Finance Office: Sudrul budget increased by $110K per the revised plan.
+#1533  Finance Office: Sudrul budget increased by $20K per the revised plan.
+#1534  Finance Office: Sudrul budget decreased by $150K after review.
+#1535  Finance Office: Sudrul budget decreased by $130K.
+#1536  Finance Office: Sudrul budget increased by $25K.
+#1537  PMO note: Sudrul budget is going down to $970K.
+#1538  Finance Office: Sudrul budget increased by $55K.
+#1539  Finance Office: Withdraw update #1188.
+#1540  Finance Office: Withdraw update #0837; it was entered in error.
+#1541  Finance Office: Sudrul cost center code changed to FC-6381.
+#1542  Finance Office: Sudrul purchase order FC-5000 closed.
+#1543  Finance Office: Sudrul budget decreased by $40K per the revised plan.
+#1544  Finance Office: Sudrul budget increased by $75K after review.
+#1545  Vendor call: Heard Sudrul's budget is now $530K.
+#1546  Vendor call: Sudrul demo rescheduled to Tuesday afternoon.
+#1547  Finance Office: Withdraw update #0167.
+#1548  Finance Office: Sudrul budget increased by $40K.
+#1549  Engineering email: Sounds like Sudrul gets $221K more.
+#1550  Finance Office: Sudrul budget increased by $55K after review.
+#1551  Sales update: Sounds like Sudrul gets $77K less.
+#1552  Marketing email: Sudrul budget is going up to $810K.
+#1553  Marketing email: Sudrul budget is going to $840K.
+#1554  Sales update: Sudrul budget is going up by $387K.
+#1555  Engineering email: Expect Sudrul's budget to rise by $186K.
+#1556  Finance Office: Withdraw update #0992.
+#1557  Sales update: Sudrul budget is going to $460K.
+#1558  Finance Office: Sudrul budget increased by $115K.
+#1559  Finance Office: Sudrul budget decreased by $125K per the revised plan.
+#1560  Sales update: Sudrul kickoff moved to Building 6.
+#1561  Finance Office: Withdraw update #0961.
+#1562  Facilities ticket: Hearing Sudrul's budget goes up $299K.
+#1563  Operations chat: Sounds like Sudrul gets $361K more.
+#1564  Finance Office: Sudrul budget decreased by $90K after review.
+#1565  Finance Office: Sudrul budget decreased by $70K.
+#1566  Marketing email: Heard Sudrul's budget is now $1090K.
+#1567  Finance Office: Sudrul budget increased by $85K.
+#1568  Finance Office: Sudrul budget increased by $130K.
+#1569  PMO note: Hearing Sudrul's budget goes up $462K.
+#1570  Finance Office: Sudrul budget increased by $90K per the revised plan.
+#1571  Finance Office: Sudrul budget decreased by $145K.
+#1572  Operations chat: Sudrul demo rescheduled to Tuesday afternoon.
+#1573  Finance Office: Withdraw update #0479.
+#1574  Finance Office: Sudrul budget increased by $90K after review.
+#1575  Finance Office: Sudrul budget increased by $80K per the revised plan.
+#1576  Marketing email: Sudrul vendor onboarding call scheduled for Thursday.
+#1577  Finance Office: Sudrul budget decreased by $25K per the revised plan.
+#1578  Finance Office: Sudrul budget decreased by $150K.
+#1579  Finance Office: Sudrul budget increased by $30K after review.
+#1580  Finance Office: Sudrul budget increased by $75K.
+#1581  Finance Office: Sudrul budget increased by $90K after review.
+#1582  Finance Office: Sudrul budget increased by $80K.
+#1583  Finance Office: Sudrul purchase order FC-6470 closed.
+#1584  Finance Office: Sudrul budget increased by $75K after review.
+#1585  PMO note: Sudrul budget is going down by $344K.
+#1586  Finance Office: Sudrul budget increased by $95K per the revised plan.
+#1587  Finance Office: Sudrul purchase order FC-3940 closed.
+#1588  Finance Office: Sudrul budget decreased by $95K after review.
+#1589  PMO note: Sudrul budget is going down to $870K.
+#1590  Finance Office: Sudrul budget increased by $20K per the revised plan.
+#1591  Finance Office: Sudrul receipts scanned.
+#1592  PMO note: Sudrul budget should land at $1230K.
+#1593  Marketing email: Expect Sudrul's budget to drop by $194K.
+#1594  Marketing email: Sudrul budget should land at $1470K.
+#1595  Vendor call: Sudrul budget is going to $1410K.
+#1596  Finance Office: Sudrul budget increased by $125K after review.
+#1597  PMO note: Sudrul budget is going down by $42K.
+#1598  Marketing email: Sudrul risk register updated with 5 new items.
+#1599  Finance Office: Sudrul budget decreased by $65K per the revised plan.
+#1600  Engineering email: Sounds like Sudrul gets $396K more.
+
+Question: What is Sudrul's budget now?

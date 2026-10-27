@@ -1,0 +1,63 @@
+{
+ "trial_id": "s730002_n1600_R_minimal_v2_gpt_r5",
+ "order": 280,
+ "world_id": "s730002_n1600",
+ "version": "R",
+ "instruction": "minimal_v2",
+ "model": "gpt",
+ "repeat": 5,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "5b21a53b8f6392ab618affaf08c0b5b38999347573d4298bc20c5f9008e12118",
+ "started_at": "2026-10-26T01:33:01+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "After resolving all withdrawal chains and applying only the effective Finance Office budget updates, Krevabos\u2019s current budget is **$2,417K**.\n\nANSWER: $2417K",
+ "usage": {
+  "input_tokens": 30264,
+  "cached_input_tokens": 0,
+  "output_tokens": 4625,
+  "reasoning_output_tokens": 4582
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a175d6-ec9e-7890-a9e4-65bdc557f277"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "After resolving all withdrawal chains and applying only the effective Finance Office budget updates, Krevabos\u2019s current budget is **$2,417K**.\n\nANSWER: $2417K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 30264,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 4625,
+     "reasoning_output_tokens": 4582
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T01:33:01.986430Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:33:01.987781Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:33:01.989074Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:33:01.990144Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:33:01.991312Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:33:02.015148Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:33:02.016238Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:33:02.017288Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:33:02.018324Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:33:02.032966Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T01:34:49.326239Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a175d6-ec9e-7890-a9e4-65bdc557f277.1792978381983338000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T01:34:49+00:00",
+ "elapsed_s": 108.0
+}

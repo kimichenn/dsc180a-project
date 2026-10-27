@@ -1,0 +1,63 @@
+{
+ "trial_id": "s750003_n1600_C_workflow_v1_gpt_r5",
+ "order": 263,
+ "world_id": "s750003_n1600",
+ "version": "C",
+ "instruction": "workflow_v1",
+ "model": "gpt",
+ "repeat": 5,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "f7d766ca6546b0e59e64065712ec4e5f81c0f8f06cde3f4fbea30ac66bfab573",
+ "started_at": "2026-10-26T03:34:51+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Fubrus\u2019s budget is **$470K**. Only Finance Office budget updates count; there are no withdrawals in the supplied records.\n\nThe running totals are:\n\n| Records processed | Budget |\n|---|---:|\n| #0001\u2013#0200 | $1,347K |\n| #0201\u2013#0400 | $2,311K |\n| #0401\u2013#0600 | $2,164K |\n| #0601\u2013#0800 | $1,842K |\n| #0801\u2013#1000 | $1,953K |\n| #1001\u2013#1200 | $1,835K |\n| #1201\u2013#1400 | $290K |\n| #1401\u2013#1500 | $525K |\n| #1501\u2013#1600 | $470K |\n\nAs a final arithmetic check, the last segment contains $1,305K in increases and $1,360K in decreases: $525K + $1,305K \u2212 $1,360K = $470K.\n\nANSWER: $470K",
+ "usage": {
+  "input_tokens": 29957,
+  "cached_input_tokens": 0,
+  "output_tokens": 3522,
+  "reasoning_output_tokens": 3291
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a17646-762c-7b73-8d40-af6d70cd8b72"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Fubrus\u2019s budget is **$470K**. Only Finance Office budget updates count; there are no withdrawals in the supplied records.\n\nThe running totals are:\n\n| Records processed | Budget |\n|---|---:|\n| #0001\u2013#0200 | $1,347K |\n| #0201\u2013#0400 | $2,311K |\n| #0401\u2013#0600 | $2,164K |\n| #0601\u2013#0800 | $1,842K |\n| #0801\u2013#1000 | $1,953K |\n| #1001\u2013#1200 | $1,835K |\n| #1201\u2013#1400 | $290K |\n| #1401\u2013#1500 | $525K |\n| #1501\u2013#1600 | $470K |\n\nAs a final arithmetic check, the last segment contains $1,305K in increases and $1,360K in decreases: $525K + $1,305K \u2212 $1,360K = $470K.\n\nANSWER: $470K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 29957,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3522,
+     "reasoning_output_tokens": 3291
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T03:34:51.697700Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:34:51.699681Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:34:51.701899Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:34:51.703362Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:34:51.727868Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:34:51.729744Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:34:51.731549Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:34:51.733394Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:34:51.739663Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T03:35:52.582402Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a17646-762c-7b73-8d40-af6d70cd8b72.1792985691694040000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T03:35:52+00:00",
+ "elapsed_s": 61.4
+}

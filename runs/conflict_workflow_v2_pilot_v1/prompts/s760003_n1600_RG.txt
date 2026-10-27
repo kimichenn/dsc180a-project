@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Thitron budget set to $1260K after review.
+#0002  Finance Office: Thitron budget decreased by $111K after review.
+#0003  Marketing email: Expect Thitron's budget to drop by $387K.
+#0004  Finance Office: Thitron budget increased by $388K per the revised plan.
+#0005  Engineering email: Thitron site visit confirmed for Thursday.
+#0006  Finance Office: Withdraw update #0004.
+#0007  Vendor call: Thitron site visit confirmed for Wednesday.
+#0008  Finance Office: Thitron budget increased by $576K per the revised plan.
+#0009  Finance Office: Withdraw update #0008.
+#0010  Engineering email: Thitron budget is going up by $108K.
+#0011  Vendor call: Thitron budget is going to $820K.
+#0012  PMO note: Thitron budget is going to $960K.
+#0013  Finance Office: Withdraw update #0002.
+#0014  Vendor call: Heard Thitron's budget is now $1650K.
+#0015  Engineering email: Thitron sprint 11 retrospective notes posted.
+#0016  Finance Office: Thitron budget increased by $109K per the revised plan.
+#0017  Finance Office: Thitron budget increased by $221K after review.
+#0018  PMO note: Expect Thitron's budget to drop by $33K.
+#0019  Finance Office: Thitron budget decreased by $121K per the revised plan.
+#0020  Engineering email: Sounds like Thitron gets $399K less.
+#0021  Finance Office: Thitron budget decreased by $151K.
+#0022  Finance Office: Thitron budget decreased by $21K.
+#0023  Legal email: Thitron documentation moved to the shared drive.
+#0024  Finance Office: Thitron budget increased by $100K per the revised plan.
+#0025  Finance Office: Thitron budget decreased by $20K.
+#0026  Finance Office: Thitron budget decreased by $20K per the revised plan.
+#0027  Vendor call: Thitron budget is going up by $332K.
+#0028  Finance Office: Thitron budget decreased by $55K after review.
+#0029  Finance Office: Withdraw update #0013.
+#0030  Sales update: Thitron demo rescheduled to Tuesday afternoon.
+#0031  Sales update: Thitron budget is going down to $1020K.
+#0032  Finance Office: Thitron budget decreased by $40K per the revised plan.
+#0033  Finance Office: Thitron budget decreased by $433K after review.
+#0034  PMO note: Thitron budget is going down to $580K.
+#0035  Marketing email: Thitron budget is going to $750K.
+#0036  Finance Office: Thitron budget increased by $413K per the revised plan.
+#0037  Finance Office: Thitron budget decreased by $62K per the revised plan.
+#0038  Finance Office: Thitron budget decreased by $79K per the revised plan.
+#0039  Finance Office: Withdraw update #0006; it was entered in error.
+#0040  Finance Office: Thitron budget increased by $25K per the revised plan.
+#0041  Finance Office: Thitron budget increased by $63K after review.
+#0042  Finance Office: Withdraw update #0036.
+#0043  Finance Office: Thitron budget increased by $403K after review.
+#0044  Finance Office: Withdraw update #0029; it was entered in error.
+#0045  Legal email: Thitron budget is going to $1440K.
+#0046  Facilities ticket: Expect Thitron's budget to rise by $543K.
+#0047  Finance Office: Thitron budget decreased by $156K after review.
+#0048  PMO note: Expect Thitron's budget to rise by $462K.
+#0049  Legal email: Thitron kickoff moved to Building 9.
+#0050  Finance Office: Thitron quarterly audit scheduled for Thursday.
+#0051  Finance Office: Thitron budget decreased by $125K after review.
+#0052  Engineering email: Thitron budget is going up by $339K.
+#0053  Facilities ticket: Thitron weekly sync moved to Tuesdays.
+#0054  Engineering email: Thitron budget should land at $980K.
+#0055  Finance Office: Thitron budget increased by $99K after review.
+#0056  Finance Office: Withdraw update #0037; it was entered in error.
+#0057  Finance Office: Thitron budget increased by $45K after review.
+#0058  Finance Office: Withdraw update #0043.
+#0059  Finance Office: Thitron budget decreased by $45K.
+#0060  Operations chat: Thitron budget should land at $770K.
+#0061  Finance Office: Reminder: Thitron expense reports are due Thursday.
+#0062  Finance Office: Thitron budget decreased by $3K per the revised plan.
+#0063  Finance Office: Thitron budget decreased by $523K.
+#0064  Operations chat: Thitron vendor onboarding call scheduled for Friday.
+#0065  Finance Office: Thitron budget increased by $146K after review.
+#0066  Finance Office: Thitron budget increased by $176K per the revised plan.
+#0067  Operations chat: Expect Thitron's budget to drop by $536K.
+#0068  Finance Office: Thitron budget decreased by $40K after review.
+#0069  Finance Office: Thitron budget decreased by $357K after review.
+#0070  PMO note: Expect Thitron's budget to rise by $531K.
+#0071  Finance Office: Withdraw update #0066.
+#0072  PMO note: Thitron demo rescheduled to Thursday afternoon.
+#0073  PMO note: Expect Thitron's budget to rise by $389K.
+#0074  Finance Office: Thitron budget increased by $566K per the revised plan.
+#0075  Finance Office: Withdraw update #0038; it was entered in error.
+#0076  Finance Office: Thitron budget increased by $114K after review.
+#0077  Operations chat: Sounds like Thitron gets $9K less.
+#0078  Finance Office: Withdraw update #0016.
+#0079  Finance Office: Withdraw update #0041.
+#0080  Finance Office: Thitron budget increased by $140K per the revised plan.
+#0081  Engineering email: Thitron budget should land at $1030K.
+#0082  Finance Office: Thitron budget decreased by $10K.
+#0083  Finance Office: Thitron budget decreased by $528K.
+#0084  Operations chat: Thitron budget is going up to $500K.
+#0085  Finance Office: Thitron budget increased by $115K after review.
+#0086  Finance Office: Thitron budget increased by $319K after review.
+#0087  Finance Office: Thitron budget decreased by $26K per the revised plan.
+#0088  Finance Office: Withdraw update #0086.
+#0089  PMO note: Thitron budget should land at $660K.
+#0090  Finance Office: Thitron budget increased by $135K after review.
+#0091  Finance Office: Thitron budget increased by $80K per the revised plan.
+#0092  Finance Office: Withdraw update #0071; it was entered in error.
+#0093  Finance Office: Thitron budget decreased by $429K after review.
+#0094  Finance Office: Thitron budget increased by $139K per the revised plan.
+#0095  Finance Office: Thitron budget decreased by $80K after review.
+#0096  Vendor call: Hearing Thitron's budget goes up $304K.
+#0097  Marketing email: Thitron budget is going up to $760K.
+#0098  Finance Office: Withdraw update #0076; it was entered in error.
+#0099  Facilities ticket: Thitron budget is going up by $514K.
+#0100  Finance Office: Thitron budget increased by $144K.
+#0101  PMO note: Hearing Thitron's budget goes up $444K.
+#0102  Finance Office: Thitron receipts scanned.
+#0103  Finance Office: Thitron budget decreased by $30K per the revised plan.
+#0104  Marketing email: Thitron security review passed.
+#0105  Finance Office: Thitron budget increased by $246K per the revised plan.
+#0106  Finance Office: Thitron budget decreased by $90K per the revised plan.
+#0107  Finance Office: Withdraw update #0009; it was entered in error.
+#0108  Finance Office: Thitron budget decreased by $409K after review.
+#0109  Finance Office: Withdraw update #0100; it was entered in error.
+#0110  Finance Office: Thitron budget increased by $422K per the revised plan.
+#0111  Finance Office: Withdraw update #0074.
+#0112  Sales update: Thitron budget is going up by $178K.
+#0113  Finance Office: Thitron budget increased by $105K per the revised plan.
+#0114  Vendor call: Thitron budget is going down to $560K.
+#0115  Finance Office: Thitron budget decreased by $50K after review.
+#0116  Finance Office: Thitron budget increased by $45K per the revised plan.
+#0117  Engineering email: Hearing Thitron's budget goes up $569K.
+#0118  Facilities ticket: Thitron security review passed.
+#0119  Finance Office: Withdraw update #0078; it was entered in error.
+#0120  Finance Office: Thitron budget increased by $368K.
+#0121  PMO note: Thitron budget is going up to $1620K.
+#0122  Operations chat: Thitron vendor onboarding call scheduled for Thursday.
+#0123  Finance Office: Withdraw update #0062.
+#0124  Engineering email: Thitron site visit confirmed for Tuesday.
+#0125  Finance Office: Thitron budget increased by $75K.
+#0126  Finance Office: Thitron budget increased by $80K.
+#0127  Vendor call: Expect Thitron's budget to drop by $593K.
+#0128  Finance Office: Thitron budget decreased by $599K per the revised plan.
+#0129  Sales update: Expect Thitron's budget to drop by $32K.
+#0130  Marketing email: Thitron budget should land at $670K.
+#0131  Operations chat: Thitron budget is going down by $493K.
+#0132  Vendor call: Pretty sure Thitron's budget is $590K now.
+#0133  Finance Office: Withdraw update #0042.
+#0134  Finance Office: Thitron budget decreased by $65K per the revised plan.
+#0135  Legal email: Thitron budget is going up by $437K.
+#0136  Finance Office: Withdraw update #0021.
+#0137  Finance Office: Thitron budget decreased by $115K per the revised plan.
+#0138  Sales update: Thitron budget should land at $1180K.
+#0139  Finance Office: Thitron budget decreased by $95K per the revised plan.
+#0140  Vendor call: Expect Thitron's budget to rise by $382K.
+#0141  Facilities ticket: Thitron security review passed.
+#0142  Finance Office: Thitron budget increased by $45K.
+#0143  Finance Office: Thitron budget increased by $503K after review.
+#0144  Operations chat: Thitron budget should land at $1280K.
+#0145  Finance Office: Thitron budget increased by $449K after review.
+#0146  Finance Office: Withdraw update #0047; it was entered in error.
+#0147  PMO note: Heard Thitron's budget is now $2610K.
+#0148  Marketing email: Sounds like Thitron gets $216K more.
+#0149  Finance Office: Thitron budget decreased by $50K after review.
+#0150  Finance Office: Thitron budget increased by $438K after review.
+#0151  Engineering email: Expect Thitron's budget to rise by $417K.
+#0152  Sales update: Hearing Thitron's budget goes down $597K.
+#0153  Finance Office: Withdraw update #0075.
+#0154  Finance Office: Thitron budget increased by $104K.
+#0155  Operations chat: Thitron budget is going down by $277K.
+#0156  Finance Office: Thitron budget decreased by $95K.
+#0157  Finance Office: Thitron budget decreased by $312K.
+#0158  Sales update: Thitron budget should land at $2480K.
+#0159  Finance Office: Thitron budget increased by $40K per the revised plan.
+#0160  Legal email: Thitron budget is going up to $2320K.
+#0161  Legal email: Thitron budget is going up by $333K.
+#0162  Finance Office: Withdraw update #0123; it was entered in error.
+#0163  Marketing email: Thitron test environment back online.
+#0164  Finance Office: Thitron budget decreased by $452K after review.
+#0165  Finance Office: Withdraw update #0079; it was entered in error.
+#0166  Legal email: Heard Thitron's budget is now $1450K.
+#0167  PMO note: Thitron budget is going up by $72K.
+#0168  Finance Office: Thitron budget decreased by $30K.
+#0169  Finance Office: Thitron budget decreased by $130K per the revised plan.
+#0170  Finance Office: Withdraw update #0109; it was entered in error.
+#0171  Engineering email: Expect Thitron's budget to rise by $4K.
+#0172  Operations chat: Thitron budget is going up by $379K.
+#0173  Operations chat: Thitron budget is going to $2450K.
+#0174  Finance Office: Thitron budget decreased by $529K per the revised plan.
+#0175  Finance Office: Withdraw update #0170; it was entered in error.
+#0176  Facilities ticket: Pretty sure Thitron's budget is $1480K now.
+#0177  Finance Office: Thitron budget increased by $583K after review.
+#0178  Engineering email: Thitron budget is going down to $1680K.
+#0179  Finance Office: Thitron budget decreased by $40K after review.
+#0180  Finance Office: Withdraw update #0056; it was entered in error.
+#0181  Engineering email: Thitron budget is going down by $393K.
+#0182  Finance Office: Withdraw update #0119.
+#0183  Sales update: Thitron budget is going up to $2110K.
+#0184  Marketing email: Expect Thitron's budget to rise by $189K.
+#0185  Finance Office: Thitron budget increased by $29K.
+#0186  PMO note: Expect Thitron's budget to drop by $88K.
+#0187  Finance Office: Thitron budget decreased by $86K after review.
+#0188  PMO note: Thitron budget is going down to $1390K.
+#0189  Operations chat: Thitron budget is going up by $83K.
+#0190  Finance Office: Thitron budget increased by $31K per the revised plan.
+#0191  PMO note: Sounds like Thitron gets $451K more.
+#0192  Finance Office: Thitron budget decreased by $120K after review.
+#0193  Finance Office: Withdraw update #0128.
+#0194  Marketing email: Thitron sprint 24 retrospective notes posted.
+#0195  Finance Office: Thitron budget increased by $23K per the revised plan.
+#0196  Marketing email: Sounds like Thitron gets $106K more.
+#0197  Finance Office: Withdraw update #0193.
+#0198  Operations chat: Sounds like Thitron gets $441K less.
+#0199  Sales update: Hearing Thitron's budget goes up $1K.
+#0200  Marketing email: Thitron budget is going to $1510K.
+#0201  Marketing email: Heard Thitron's budget is now $1130K.
+#0202  Finance Office: Thitron budget decreased by $80K after review.
+#0203  Finance Office: Thitron budget increased by $427K after review.
+#0204  Finance Office: Thitron budget decreased by $95K after review.
+#0205  Vendor call: Pretty sure Thitron's budget is $1370K now.
+#0206  Finance Office: Thitron budget increased by $55K per the revised plan.
+#0207  Engineering email: Heard Thitron's budget is now $1410K.
+#0208  Engineering email: Thitron budget is going down to $1320K.
+#0209  Facilities ticket: Thitron documentation moved to the shared drive.
+#0210  Finance Office: Thitron cost center code changed to FC-7363.
+#0211  Vendor call: Thitron site visit confirmed for Friday.
+#0212  Finance Office: Thitron budget decreased by $45K per the revised plan.
+#0213  PMO note: Thitron budget is going down by $177K.
+#0214  Finance Office: Thitron budget increased by $38K.
+#0215  Finance Office: Thitron budget increased by $459K after review.
+#0216  Engineering email: Sounds like Thitron gets $164K more.
+#0217  Engineering email: Expect Thitron's budget to drop by $196K.
+#0218  Finance Office: Thitron budget decreased by $159K.
+#0219  Finance Office: Thitron budget decreased by $448K after review.
+#0220  Finance Office: Thitron budget decreased by $93K.
+#0221  Finance Office: Withdraw update #0094; it was entered in error.
+#0222  Finance Office: Thitron budget increased by $130K.
+#0223  Finance Office: Thitron budget increased by $90K after review.
+#0224  Finance Office: Thitron budget decreased by $20K after review.
+#0225  Finance Office: Thitron purchase order FC-1180 closed.
+#0226  Finance Office: Thitron budget decreased by $40K.
+#0227  Finance Office: Thitron budget increased by $95K.
+#0228  Legal email: Thitron budget is going down by $47K.
+#0229  Finance Office: Thitron budget decreased by $471K per the revised plan.
+#0230  Marketing email: Thitron budget is going to $1290K.
+#0231  Finance Office: Thitron budget increased by $130K.
+#0232  Finance Office: Thitron budget decreased by $75K per the revised plan.
+#0233  Marketing email: Thitron demo rescheduled to Thursday afternoon.
+#0234  Engineering email: Thitron site visit confirmed for Tuesday.
+#0235  Engineering email: Thitron design review moved to Room 1B.
+#0236  Finance Office: Thitron budget decreased by $90K after review.
+#0237  Operations chat: Expect Thitron's budget to rise by $308K.
+#0238  Finance Office: Thitron budget decreased by $488K after review.
+#0239  Finance Office: Thitron budget increased by $75K after review.
+#0240  Finance Office: Thitron audit notes filed.
+#0241  Finance Office: Thitron budget increased by $145K after review.
+#0242  Finance Office: Thitron budget increased by $80K.
+#0243  Sales update: Hearing Thitron's budget goes up $226K.
+#0244  Finance Office: Thitron budget increased by $70K.
+#0245  Marketing email: Thitron budget is going down by $359K.
+#0246  Vendor call: Heard Thitron's budget is now $890K.
+#0247  Finance Office: Thitron budget increased by $107K after review.
+#0248  Marketing email: Thitron budget is going to $1380K.
+#0249  Finance Office: Withdraw update #0088.
+#0250  PMO note: Thitron budget is going down to $1240K.
+#0251  Finance Office: Thitron budget increased by $35K.
+#0252  Operations chat: Heard Thitron's budget is now $1190K.
+#0253  Finance Office: Thitron budget decreased by $65K after review.
+#0254  Finance Office: Thitron budget decreased by $75K after review.
+#0255  Finance Office: Thitron budget decreased by $286K after review.
+#0256  Finance Office: Thitron budget increased by $55K per the revised plan.
+#0257  Operations chat: Sounds like Thitron gets $421K less.
+#0258  Engineering email: Hearing Thitron's budget goes down $487K.
+#0259  Facilities ticket: Heard Thitron's budget is now $1330K.
+#0260  Vendor call: Pretty sure Thitron's budget is $1300K now.
+#0261  Finance Office: Thitron budget decreased by $481K per the revised plan.
+#0262  Finance Office: Thitron audit notes filed.
+#0263  Sales update: Expect Thitron's budget to rise by $187K.
+#0264  Finance Office: Thitron budget decreased by $45K.
+#0265  Legal email: Thitron budget is going up by $424K.
+#0266  Sales update: Sounds like Thitron gets $353K more.
+#0267  Finance Office: Thitron budget increased by $70K per the revised plan.
+#0268  Finance Office: Thitron budget increased by $95K.
+#0269  Marketing email: Thitron budget should land at $860K.
+#0270  Finance Office: Thitron budget increased by $521K.
+#0271  Finance Office: Thitron budget decreased by $90K.
+#0272  Finance Office: Thitron budget increased by $70K per the revised plan.
+#0273  Finance Office: Withdraw update #0065; it was entered in error.
+#0274  Finance Office: Thitron budget increased by $194K per the revised plan.
+#0275  Finance Office: Withdraw update #0055.
+#0276  Facilities ticket: Heard Thitron's budget is now $1160K.
+#0277  Finance Office: Thitron budget increased by $5K.
+#0278  Finance Office: Thitron budget increased by $456K per the revised plan.
+#0279  Finance Office: Thitron budget increased by $80K after review.
+#0280  Engineering email: Thitron budget should land at $2250K.
+#0281  Legal email: Hearing Thitron's budget goes up $239K.
+#0282  Finance Office: Thitron budget increased by $30K per the revised plan.
+#0283  Finance Office: Thitron budget decreased by $548K.
+#0284  Finance Office: Thitron budget decreased by $253K.
+#0285  Finance Office: Thitron budget increased by $145K.
+#0286  Operations chat: Sounds like Thitron gets $362K less.
+#0287  Marketing email: Expect Thitron's budget to drop by $556K.
+#0288  Sales update: Expect Thitron's budget to drop by $287K.
+#0289  PMO note: Thitron budget is going to $1080K.
+#0290  Finance Office: Withdraw update #0087; it was entered in error.
+#0291  Finance Office: Withdraw update #0120; it was entered in error.
+#0292  Legal email: Thitron budget is going up to $880K.
+#0293  Legal email: Hearing Thitron's budget goes up $579K.
+#0294  Finance Office: Thitron purchase order FC-6044 closed.
+#0295  Operations chat: Thitron security review passed.
+#0296  Finance Office: Thitron budget increased by $153K per the revised plan.
+#0297  Finance Office: Thitron budget increased by $95K after review.
+#0298  Finance Office: Thitron budget decreased by $20K per the revised plan.
+#0299  Finance Office: Thitron budget decreased by $13K.
+#0300  Finance Office: Thitron quarterly audit scheduled for Tuesday.
+#0301  Vendor call: Pretty sure Thitron's budget is $700K now.
+#0302  Finance Office: Thitron budget increased by $75K after review.
+#0303  Finance Office: Withdraw update #0249; it was entered in error.
+#0304  Vendor call: Hearing Thitron's budget goes up $331K.
+#0305  Marketing email: Expect Thitron's budget to rise by $232K.
+#0306  Legal email: Expect Thitron's budget to rise by $472K.
+#0307  Finance Office: Thitron budget increased by $55K after review.
+#0308  Finance Office: Thitron budget decreased by $55K after review.
+#0309  PMO note: Thitron budget is going up by $214K.
+#0310  Finance Office: Withdraw update #0093; it was entered in error.
+#0311  Finance Office: Thitron budget decreased by $90K per the revised plan.
+#0312  Engineering email: Pretty sure Thitron's budget is $980K now.
+#0313  Marketing email: Pretty sure Thitron's budget is $880K now.
+#0314  Finance Office: Thitron budget decreased by $252K per the revised plan.
+#0315  Finance Office: Thitron budget decreased by $70K per the revised plan.
+#0316  Finance Office: Thitron budget increased by $383K after review.
+#0317  Finance Office: Thitron budget decreased by $30K after review.
+#0318  Sales update: Thitron budget is going up by $67K.
+#0319  Sales update: Thitron kickoff moved to Building 9.
+#0320  Legal email: Expect Thitron's budget to rise by $533K.
+#0321  Finance Office: Thitron budget increased by $120K.
+#0322  Finance Office: Thitron budget decreased by $120K after review.
+#0323  Finance Office: Thitron budget decreased by $35K per the revised plan.
+#0324  Finance Office: Withdraw update #0275.
+#0325  Finance Office: Withdraw update #0107; it was entered in error.
+#0326  Finance Office: Thitron budget increased by $120K.
+#0327  Operations chat: Pretty sure Thitron's budget is $810K now.
+#0328  Finance Office: Thitron budget increased by $10K.
+#0329  Finance Office: Thitron budget increased by $404K after review.
+#0330  Finance Office: Withdraw update #0157; it was entered in error.
+#0331  PMO note: Thitron budget is going up by $327K.
+#0332  Finance Office: Withdraw update #0261.
+#0333  Finance Office: Thitron budget increased by $35K.
+#0334  Finance Office: Thitron budget increased by $45K per the revised plan.
+#0335  Finance Office: Thitron budget decreased by $55K after review.
+#0336  Finance Office: Withdraw update #0162; it was entered in error.
+#0337  Finance Office: Thitron budget increased by $110K after review.
+#0338  Finance Office: Thitron budget increased by $364K.
+#0339  Finance Office: Thitron budget decreased by $238K after review.
+#0340  Finance Office: Thitron budget increased by $443K per the revised plan.
+#0341  Finance Office: Thitron budget decreased by $113K per the revised plan.
+#0342  Finance Office: Thitron budget increased by $100K after review.
+#0343  Vendor call: Sounds like Thitron gets $291K more.
+#0344  Finance Office: Thitron budget decreased by $35K per the revised plan.
+#0345  Finance Office: Thitron budget decreased by $25K per the revised plan.
+#0346  Finance Office: Thitron invoice batch FC-6438 archived.
+#0347  Finance Office: Thitron budget increased by $85K per the revised plan.
+#0348  Sales update: Thitron budget is going to $2800K.
+#0349  Sales update: Thitron budget is going to $2410K.
+#0350  Vendor call: Thitron budget is going to $2800K.
+#0351  Finance Office: Thitron budget decreased by $538K after review.
+#0352  Finance Office: Thitron budget increased by $15K after review.
+#0353  PMO note: Thitron status report filed for week 21.
+#0354  Finance Office: Thitron cost center code changed to FC-2739.
+#0355  Legal email: Thitron risk register updated with 6 new items.
+#0356  Finance Office: Thitron budget decreased by $45K after review.
+#0357  Finance Office: Thitron budget decreased by $50K per the revised plan.
+#0358  Operations chat: Expect Thitron's budget to drop by $261K.
+#0359  Finance Office: Thitron budget decreased by $282K after review.
+#0360  Sales update: Thitron budget should land at $2160K.
+#0361  Finance Office: Withdraw update #0219.
+#0362  Finance Office: Thitron budget increased by $186K.
+#0363  Operations chat: Sounds like Thitron gets $537K less.
+#0364  Finance Office: Thitron budget decreased by $95K per the revised plan.
+#0365  PMO note: Thitron documentation moved to the shared drive.
+#0366  Finance Office: Thitron budget decreased by $85K after review.
+#0367  Sales update: Thitron budget should land at $2080K.
+#0368  Marketing email: Heard Thitron's budget is now $1850K.
+#0369  Sales update: Heard Thitron's budget is now $2760K.
+#0370  Finance Office: Thitron budget increased by $10K after review.
+#0371  Finance Office: Withdraw update #0063; it was entered in error.
+#0372  Finance Office: Withdraw update #0153.
+#0373  Legal email: Thitron risk register updated with 3 new items.
+#0374  Engineering email: Hearing Thitron's budget goes down $314K.
+#0375  Finance Office: Thitron budget decreased by $90K.
+#0376  Sales update: Thitron sprint 8 retrospective notes posted.
+#0377  Finance Office: Thitron budget decreased by $598K.
+#0378  Legal email: Thitron budget is going up to $2470K.
+#0379  Finance Office: Thitron budget decreased by $85K.
+#0380  Operations chat: Thitron budget is going to $2350K.
+#0381  Finance Office: Thitron budget increased by $467K per the revised plan.
+#0382  Finance Office: Thitron budget increased by $532K.
+#0383  Finance Office: Thitron budget decreased by $95K per the revised plan.
+#0384  Finance Office: Thitron budget decreased by $553K after review.
+#0385  Operations chat: Expect Thitron's budget to drop by $163K.
+#0386  Finance Office: Thitron budget increased by $115K.
+#0387  Sales update: Pretty sure Thitron's budget is $2620K now.
+#0388  Marketing email: Heard Thitron's budget is now $2260K.
+#0389  Finance Office: Thitron budget increased by $105K after review.
+#0390  Finance Office: Thitron budget decreased by $80K.
+#0391  Finance Office: Thitron budget decreased by $145K after review.
+#0392  Operations chat: Thitron budget is going to $2340K.
+#0393  Finance Office: Withdraw update #0316.
+#0394  Sales update: Thitron weekly sync moved to Thursdays.
+#0395  Finance Office: Thitron budget increased by $115K after review.
+#0396  Finance Office: Thitron budget decreased by $130K per the revised plan.
+#0397  PMO note: Pretty sure Thitron's budget is $1590K now.
+#0398  Sales update: Thitron site visit confirmed for Thursday.
+#0399  Engineering email: Thitron test environment back online.
+#0400  Finance Office: Thitron budget increased by $95K per the revised plan.
+#0401  Engineering email: Thitron budget is going down to $1680K.
+#0402  Finance Office: Thitron budget increased by $20K.
+#0403  PMO note: Hearing Thitron's budget goes down $28K.
+#0404  Finance Office: Withdraw update #0177.
+#0405  Operations chat: Pretty sure Thitron's budget is $1240K now.
+#0406  Finance Office: Thitron budget decreased by $59K.
+#0407  Finance Office: Thitron budget increased by $90K after review.
+#0408  Legal email: Expect Thitron's budget to rise by $54K.
+#0409  Finance Office: Thitron budget decreased by $506K after review.
+#0410  Finance Office: Withdraw update #0174; it was entered in error.
+#0411  Finance Office: Thitron budget decreased by $135K after review.
+#0412  Marketing email: Thitron budget should land at $1430K.
+#0413  Finance Office: Thitron budget decreased by $65K.
+#0414  Marketing email: Thitron budget is going to $1170K.
+#0415  Finance Office: Thitron budget increased by $201K per the revised plan.
+#0416  Finance Office: Thitron budget increased by $25K.
+#0417  Finance Office: Withdraw update #0284; it was entered in error.
+#0418  Finance Office: Withdraw update #0247; it was entered in error.
+#0419  Marketing email: Thitron budget should land at $2010K.
+#0420  Finance Office: Thitron budget increased by $192K per the revised plan.
+#0421  Marketing email: Sounds like Thitron gets $66K less.
+#0422  Finance Office: Thitron budget increased by $70K after review.
+#0423  Finance Office: Thitron budget increased by $150K after review.
+#0424  Finance Office: Thitron budget decreased by $25K after review.
+#0425  Finance Office: Thitron budget decreased by $95K.
+#0426  Finance Office: Thitron budget increased by $85K per the revised plan.
+#0427  Finance Office: Thitron budget decreased by $50K after review.
+#0428  Finance Office: Thitron budget decreased by $131K per the revised plan.
+#0429  Sales update: Thitron budget is going up by $112K.
+#0430  Finance Office: Thitron budget decreased by $592K.
+#0431  Finance Office: Thitron budget increased by $40K.
+#0432  Marketing email: Thitron site visit confirmed for Wednesday.
+#0433  Finance Office: Thitron budget decreased by $40K.
+#0434  Finance Office: Withdraw update #0351; it was entered in error.
+#0435  Legal email: Hearing Thitron's budget goes up $457K.
+#0436  Finance Office: Thitron budget decreased by $90K per the revised plan.
+#0437  Finance Office: Thitron budget decreased by $244K.
+#0438  Finance Office: Thitron budget increased by $35K after review.
+#0439  Finance Office: Thitron budget decreased by $562K after review.
+#0440  Finance Office: Withdraw update #0291; it was entered in error.
+#0441  Facilities ticket: Thitron demo rescheduled to Friday afternoon.
+#0442  Finance Office: Thitron budget decreased by $35K per the revised plan.
+#0443  Engineering email: Thitron status report filed for week 11.
+#0444  Finance Office: Withdraw update #0339.
+#0445  Finance Office: Withdraw update #0182; it was entered in error.
+#0446  PMO note: Pretty sure Thitron's budget is $1720K now.
+#0447  Finance Office: Thitron budget decreased by $55K per the revised plan.
+#0448  Finance Office: Thitron budget decreased by $407K per the revised plan.
+#0449  Finance Office: Thitron audit notes filed.
+#0450  Finance Office: Thitron budget decreased by $91K.
+#0451  Finance Office: Thitron budget increased by $150K after review.
+#0452  Facilities ticket: Expect Thitron's budget to drop by $179K.
+#0453  Finance Office: Thitron budget decreased by $90K per the revised plan.
+#0454  Operations chat: Heard Thitron's budget is now $1440K.
+#0455  Finance Office: Thitron budget decreased by $115K after review.
+#0456  Finance Office: Withdraw update #0033.
+#0457  Marketing email: Sounds like Thitron gets $39K more.
+#0458  Finance Office: Thitron budget decreased by $105K per the revised plan.
+#0459  Operations chat: Thitron budget is going up by $326K.
+#0460  Sales update: Pretty sure Thitron's budget is $1450K now.
+#0461  Marketing email: Thitron sprint 22 retrospective notes posted.
+#0462  Finance Office: Withdraw update #0314; it was entered in error.
+#0463  Facilities ticket: Sounds like Thitron gets $306K more.
+#0464  Finance Office: Withdraw update #0430; it was entered in error.
+#0465  Finance Office: Thitron budget decreased by $567K per the revised plan.
+#0466  PMO note: Hearing Thitron's budget goes up $496K.
+#0467  Finance Office: Thitron budget decreased by $15K.
+#0468  Finance Office: Thitron budget increased by $343K.
+#0469  Finance Office: Withdraw update #0338.
+#0470  Finance Office: Thitron budget decreased by $55K.
+#0471  Legal email: Heard Thitron's budget is now $1470K.
+#0472  Marketing email: Thitron sprint 5 retrospective notes posted.
+#0473  Facilities ticket: Hearing Thitron's budget goes down $257K.
+#0474  Legal email: Thitron budget is going to $2140K.
+#0475  Finance Office: Thitron budget decreased by $288K.
+#0476  Finance Office: Thitron budget increased by $513K after review.
+#0477  Vendor call: Thitron budget is going down to $1690K.
+#0478  Operations chat: Thitron budget should land at $1850K.
+#0479  Finance Office: Thitron budget increased by $426K per the revised plan.
+#0480  Finance Office: Thitron budget increased by $582K after review.
+#0481  Finance Office: Withdraw update #0420; it was entered in error.
+#0482  Finance Office: Thitron budget increased by $35K.
+#0483  Sales update: Pretty sure Thitron's budget is $2800K now.
+#0484  Finance Office: Thitron budget decreased by $65K per the revised plan.
+#0485  Marketing email: Sounds like Thitron gets $396K less.
+#0486  Marketing email: Pretty sure Thitron's budget is $2800K now.
+#0487  Marketing email: Hearing Thitron's budget goes down $203K.
+#0488  PMO note: Sounds like Thitron gets $169K less.
+#0489  PMO note: Thitron budget should land at $2800K.
+#0490  Vendor call: Expect Thitron's budget to drop by $128K.
+#0491  Finance Office: Thitron budget decreased by $369K after review.
+#0492  Finance Office: Thitron budget increased by $75K per the revised plan.
+#0493  Finance Office: Thitron budget increased by $309K.
+#0494  Finance Office: Thitron budget decreased by $483K.
+#0495  Finance Office: Withdraw update #0382; it was entered in error.
+#0496  Finance Office: Withdraw update #0428; it was entered in error.
+#0497  Finance Office: Thitron budget decreased by $14K after review.
+#0498  Finance Office: Thitron budget increased by $50K after review.
+#0499  Finance Office: Thitron budget increased by $45K after review.
+#0500  Finance Office: Withdraw update #0145; it was entered in error.
+#0501  Finance Office: Thitron budget decreased by $30K after review.
+#0502  Finance Office: Withdraw update #0098; it was entered in error.
+#0503  Finance Office: Withdraw update #0058.
+#0504  Vendor call: Hearing Thitron's budget goes down $302K.
+#0505  Finance Office: Withdraw update #0187.
+#0506  Legal email: Heard Thitron's budget is now $1700K.
+#0507  Finance Office: Thitron budget decreased by $105K after review.
+#0508  Legal email: Thitron weekly sync moved to Thursdays.
+#0509  Finance Office: Thitron budget decreased by $90K.
+#0510  Finance Office: Thitron budget decreased by $243K.
+#0511  Marketing email: Expect Thitron's budget to drop by $74K.
+#0512  Finance Office: Withdraw update #0362.
+#0513  Finance Office: Thitron budget decreased by $321K per the revised plan.
+#0514  Marketing email: Thitron budget is going to $680K.
+#0515  Marketing email: Thitron kickoff moved to Building 7.
+#0516  Finance Office: Thitron budget decreased by $5K.
+#0517  Finance Office: Withdraw update #0445; it was entered in error.
+#0518  Finance Office: Withdraw update #0417; it was entered in error.
+#0519  Finance Office: Thitron budget increased by $60K after review.
+#0520  Finance Office: Thitron budget decreased by $328K per the revised plan.
+#0521  Finance Office: Thitron budget increased by $80K after review.
+#0522  Marketing email: Expect Thitron's budget to rise by $247K.
+#0523  Finance Office: Withdraw update #0325.
+#0524  Finance Office: Withdraw update #0110.
+#0525  Finance Office: Thitron budget increased by $374K after review.
+#0526  Marketing email: Thitron budget is going to $770K.
+#0527  Engineering email: Thitron security review passed.
+#0528  Finance Office: Withdraw update #0180.
+#0529  Finance Office: Thitron budget increased by $313K after review.
+#0530  Finance Office: Thitron budget decreased by $75K.
+#0531  Legal email: Thitron risk register updated with 4 new items.
+#0532  Finance Office: Thitron budget increased by $115K per the revised plan.
+#0533  Facilities ticket: Pretty sure Thitron's budget is $1400K now.
+#0534  Finance Office: Withdraw update #0069.
+#0535  Engineering email: Sounds like Thitron gets $133K more.
+#0536  PMO note: Thitron budget should land at $1220K.
+#0537  Finance Office: Thitron budget decreased by $110K per the revised plan.
+#0538  Sales update: Thitron budget is going up to $1920K.
+#0539  Finance Office: Thitron budget increased by $20K after review.
+#0540  Finance Office: Thitron budget decreased by $90K after review.
+#0541  Finance Office: Withdraw update #0324.
+#0542  Finance Office: Withdraw update #0105.
+#0543  Vendor call: Thitron status report filed for week 29.
+#0544  Finance Office: Thitron purchase order FC-6813 closed.
+#0545  Engineering email: Thitron design review moved to Room 1B.
+#0546  Finance Office: Thitron budget decreased by $5K.
+#0547  Finance Office: Withdraw update #0361.
+#0548  Finance Office: Thitron budget decreased by $125K.
+#0549  Finance Office: Reminder: Thitron expense reports are due Friday.
+#0550  Engineering email: Expect Thitron's budget to rise by $76K.
+#0551  Finance Office: Thitron budget increased by $511K per the revised plan.
+#0552  Finance Office: Thitron budget increased by $60K after review.
+#0553  Finance Office: Thitron budget increased by $75K per the revised plan.
+#0554  Finance Office: Thitron budget decreased by $10K per the revised plan.
+#0555  Legal email: Pretty sure Thitron's budget is $1040K now.
+#0556  Engineering email: Thitron budget should land at $1360K.
+#0557  Finance Office: Thitron budget increased by $90K after review.
+#0558  Legal email: Hearing Thitron's budget goes down $571K.
+#0559  Sales update: Hearing Thitron's budget goes up $141K.
+#0560  Operations chat: Thitron budget is going to $1350K.
+#0561  PMO note: Thitron risk register updated with 7 new items.
+#0562  Marketing email: Expect Thitron's budget to drop by $561K.
+#0563  Finance Office: Thitron budget increased by $20K.
+#0564  Finance Office: Withdraw update #0019; it was entered in error.
+#0565  Engineering email: Pretty sure Thitron's budget is $1170K now.
+#0566  Marketing email: Thitron budget is going down by $8K.
+#0567  Finance Office: Thitron budget decreased by $267K per the revised plan.
+#0568  Vendor call: Thitron budget is going up to $1420K.
+#0569  Finance Office: Thitron budget decreased by $60K after review.
+#0570  Finance Office: Thitron budget decreased by $454K after review.
+#0571  Finance Office: Withdraw update #0493.
+#0572  Finance Office: Thitron budget increased by $40K after review.
+#0573  Finance Office: Thitron budget decreased by $140K after review.
+#0574  Finance Office: Thitron budget increased by $50K.
+#0575  Finance Office: Thitron budget increased by $70K per the revised plan.
+#0576  Vendor call: Thitron budget is going up by $283K.
+#0577  Finance Office: Thitron budget increased by $45K.
+#0578  Finance Office: Thitron budget increased by $50K per the revised plan.
+#0579  Sales update: Sounds like Thitron gets $161K more.
+#0580  Finance Office: Withdraw update #0524; it was entered in error.
+#0581  Sales update: Thitron budget is going up by $41K.
+#0582  Marketing email: Expect Thitron's budget to rise by $229K.
+#0583  Finance Office: Thitron budget increased by $492K.
+#0584  Finance Office: Withdraw update #0092; it was entered in error.
+#0585  PMO note: Thitron sprint 43 retrospective notes posted.
+#0586  Finance Office: Withdraw update #0475.
+#0587  Finance Office: Thitron budget increased by $15K after review.
+#0588  Engineering email: Pretty sure Thitron's budget is $2070K now.
+#0589  Facilities ticket: Thitron budget is going to $2070K.
+#0590  Finance Office: Thitron budget increased by $572K after review.
+#0591  Vendor call: Thitron budget should land at $2460K.
+#0592  Finance Office: Thitron budget decreased by $50K after review.
+#0593  Finance Office: Withdraw update #0567.
+#0594  Finance Office: Thitron budget increased by $40K per the revised plan.
+#0595  PMO note: Thitron budget is going down to $1750K.
+#0596  Finance Office: Withdraw update #0439; it was entered in error.
+#0597  Finance Office: Withdraw update #0476; it was entered in error.
+#0598  Finance Office: Thitron budget decreased by $80K.
+#0599  Finance Office: Thitron budget increased by $348K per the revised plan.
+#0600  Finance Office: Thitron budget decreased by $135K.
+#0601  Finance Office: Withdraw update #0505; it was entered in error.
+#0602  Finance Office: Withdraw update #0517.
+#0603  Finance Office: Withdraw update #0341; it was entered in error.
+#0604  Finance Office: Thitron budget decreased by $20K after review.
+#0605  Finance Office: Thitron budget decreased by $55K after review.
+#0606  Finance Office: Withdraw update #0044.
+#0607  Finance Office: Withdraw update #0220; it was entered in error.
+#0608  Facilities ticket: Thitron risk register updated with 6 new items.
+#0609  Finance Office: Withdraw update #0462.
+#0610  Finance Office: Withdraw update #0606.
+#0611  Finance Office: Withdraw update #0274.
+#0612  Marketing email: Thitron site visit confirmed for Friday.
+#0613  Finance Office: Thitron budget decreased by $130K.
+#0614  Finance Office: Thitron budget decreased by $25K.
+#0615  Finance Office: Withdraw update #0468; it was entered in error.
+#0616  PMO note: Expect Thitron's budget to drop by $577K.
+#0617  Operations chat: Pretty sure Thitron's budget is $1980K now.
+#0618  Marketing email: Thitron budget is going down by $447K.
+#0619  Finance Office: Withdraw update #0510; it was entered in error.
+#0620  Finance Office: Thitron budget decreased by $85K.
+#0621  Finance Office: Thitron budget decreased by $65K.
+#0622  Finance Office: Thitron budget increased by $55K after review.
+#0623  Vendor call: Hearing Thitron's budget goes up $231K.
+#0624  Facilities ticket: Thitron budget is going to $1440K.
+#0625  Finance Office: Thitron budget decreased by $10K after review.
+#0626  Finance Office: Thitron budget decreased by $100K.
+#0627  Finance Office: Reminder: Thitron expense reports are due Thursday.
+#0628  Engineering email: Pretty sure Thitron's budget is $2120K now.
+#0629  Finance Office: Thitron budget decreased by $125K after review.
+#0630  PMO note: Thitron budget is going up to $2050K.
+#0631  Finance Office: Thitron budget decreased by $149K.
+#0632  Facilities ticket: Thitron kickoff moved to Building 5.
+#0633  Legal email: Thitron security review passed.
+#0634  Finance Office: Thitron budget increased by $5K.
+#0635  Sales update: Expect Thitron's budget to rise by $376K.
+#0636  Legal email: Thitron budget is going down by $386K.
+#0637  Finance Office: Thitron budget increased by $45K.
+#0638  Legal email: Thitron budget is going down to $1500K.
+#0639  Legal email: Thitron budget is going down by $478K.
+#0640  Finance Office: Thitron budget increased by $120K.
+#0641  PMO note: Sounds like Thitron gets $18K less.
+#0642  Vendor call: Thitron budget is going up to $2250K.
+#0643  Sales update: Thitron security review passed.
+#0644  Finance Office: Thitron budget decreased by $311K per the revised plan.
+#0645  PMO note: Pretty sure Thitron's budget is $1900K now.
+#0646  Finance Office: Thitron budget decreased by $324K.
+#0647  Finance Office: Thitron budget increased by $466K per the revised plan.
+#0648  Finance Office: Thitron budget decreased by $35K after review.
+#0649  Finance Office: Thitron budget increased by $105K per the revised plan.
+#0650  Finance Office: Withdraw update #0480; it was entered in error.
+#0651  Finance Office: Thitron budget decreased by $15K per the revised plan.
+#0652  Finance Office: Thitron budget decreased by $30K per the revised plan.
+#0653  Operations chat: Thitron risk register updated with 5 new items.
+#0654  Vendor call: Expect Thitron's budget to rise by $98K.
+#0655  Finance Office: Thitron budget increased by $5K.
+#0656  Legal email: Thitron test environment back online.
+#0657  Finance Office: Thitron budget decreased by $60K.
+#0658  Legal email: Pretty sure Thitron's budget is $1020K now.
+#0659  Legal email: Thitron budget is going down to $790K.
+#0660  Finance Office: Withdraw update #0497; it was entered in error.
+#0661  Facilities ticket: Thitron security review passed.
+#0662  Marketing email: Heard Thitron's budget is now $940K.
+#0663  Finance Office: Thitron budget decreased by $40K.
+#0664  Finance Office: Thitron budget increased by $110K after review.
+#0665  Sales update: Thitron budget is going to $870K.
+#0666  Vendor call: Sounds like Thitron gets $142K more.
+#0667  PMO note: Hearing Thitron's budget goes up $218K.
+#0668  Finance Office: Withdraw update #0330.
+#0669  Finance Office: Withdraw update #0491; it was entered in error.
+#0670  Marketing email: Thitron budget should land at $790K.
+#0671  Finance Office: Thitron budget increased by $115K.
+#0672  Finance Office: Withdraw update #0415; it was entered in error.
+#0673  Finance Office: Withdraw update #0108.
+#0674  Finance Office: Withdraw update #0022; it was entered in error.
+#0675  Marketing email: Hearing Thitron's budget goes down $391K.
+#0676  Engineering email: Hearing Thitron's budget goes up $578K.
+#0677  Finance Office: Thitron budget increased by $344K after review.
+#0678  Facilities ticket: Expect Thitron's budget to rise by $464K.
+#0679  Finance Office: Thitron cost center code changed to FC-2787.
+#0680  Finance Office: Thitron budget decreased by $95K after review.
+#0681  Facilities ticket: Thitron demo rescheduled to Thursday afternoon.
+#0682  Finance Office: Thitron budget increased by $85K.
+#0683  Finance Office: Withdraw update #0359; it was entered in error.
+#0684  Finance Office: Thitron budget decreased by $135K.
+#0685  Finance Office: Thitron budget decreased by $138K per the revised plan.
+#0686  Finance Office: Thitron budget increased by $120K.
+#0687  Vendor call: Thitron budget should land at $2090K.
+#0688  Finance Office: Thitron budget decreased by $75K after review.
+#0689  Sales update: Hearing Thitron's budget goes up $341K.
+#0690  Finance Office: Thitron budget increased by $40K per the revised plan.
+#0691  Finance Office: Withdraw update #0215.
+#0692  PMO note: Sounds like Thitron gets $497K more.
+#0693  Finance Office: Thitron budget increased by $100K.
+#0694  Finance Office: Thitron budget increased by $130K after review.
+#0695  Finance Office: Thitron receipts scanned.
+#0696  Finance Office: Thitron budget increased by $408K.
+#0697  Finance Office: Thitron budget decreased by $125K per the revised plan.
+#0698  Sales update: Thitron budget is going up by $191K.
+#0699  Finance Office: Withdraw update #0597; it was entered in error.
+#0700  Finance Office: Thitron budget decreased by $15K per the revised plan.
+#0701  Finance Office: Withdraw update #0299; it was entered in error.
+#0702  Finance Office: Thitron budget decreased by $80K per the revised plan.
+#0703  Operations chat: Sounds like Thitron gets $6K more.
+#0704  Finance Office: Withdraw update #0136; it was entered in error.
+#0705  Finance Office: Withdraw update #0481; it was entered in error.
+#0706  Finance Office: Withdraw update #0329; it was entered in error.
+#0707  Finance Office: Thitron budget decreased by $30K.
+#0708  Engineering email: Thitron budget is going down to $1430K.
+#0709  Finance Office: Thitron budget decreased by $436K after review.
+#0710  PMO note: Thitron security review passed.
+#0711  Facilities ticket: Pretty sure Thitron's budget is $1630K now.
+#0712  Finance Office: Thitron budget increased by $256K per the revised plan.
+#0713  Finance Office: Thitron budget increased by $110K per the revised plan.
+#0714  Finance Office: Thitron budget decreased by $5K per the revised plan.
+#0715  Sales update: Thitron budget is going up to $2270K.
+#0716  Operations chat: Heard Thitron's budget is now $1750K.
+#0717  Vendor call: Hearing Thitron's budget goes up $419K.
+#0718  Finance Office: Thitron budget decreased by $95K after review.
+#0719  Finance Office: Thitron budget increased by $110K per the revised plan.
+#0720  Operations chat: Thitron demo rescheduled to Monday afternoon.
+#0721  Finance Office: Thitron budget decreased by $80K.
+#0722  Finance Office: Thitron invoice batch FC-2730 archived.
+#0723  Finance Office: Withdraw update #0464; it was entered in error.
+#0724  Finance Office: Thitron budget decreased by $55K after review.
+#0725  Operations chat: Hearing Thitron's budget goes up $64K.
+#0726  Finance Office: Withdraw update #0214; it was entered in error.
+#0727  Finance Office: Withdraw update #0448; it was entered in error.
+#0728  Finance Office: Thitron budget increased by $120K after review.
+#0729  Finance Office: Withdraw update #0602; it was entered in error.
+#0730  Sales update: Thitron sprint 28 retrospective notes posted.
+#0731  Finance Office: Thitron budget increased by $554K.
+#0732  Finance Office: Thitron budget increased by $35K.
+#0733  Finance Office: Withdraw update #0218.
+#0734  Finance Office: Thitron budget decreased by $85K.
+#0735  Finance Office: Thitron budget increased by $352K.
+#0736  Marketing email: Pretty sure Thitron's budget is $1850K now.
+#0737  Operations chat: Expect Thitron's budget to drop by $34K.
+#0738  Finance Office: Thitron budget increased by $100K after review.
+#0739  Finance Office: Thitron budget increased by $115K.
+#0740  Finance Office: Thitron budget decreased by $15K.
+#0741  Finance Office: Thitron budget decreased by $10K per the revised plan.
+#0742  Finance Office: Thitron budget decreased by $5K.
+#0743  Finance Office: Thitron budget decreased by $140K after review.
+#0744  Legal email: Thitron site visit confirmed for Friday.
+#0745  Facilities ticket: Thitron budget is going down by $46K.
+#0746  Legal email: Thitron demo rescheduled to Thursday afternoon.
+#0747  Finance Office: Thitron budget decreased by $25K after review.
+#0748  Finance Office: Thitron budget decreased by $40K per the revised plan.
+#0749  Finance Office: Thitron budget increased by $518K after review.
+#0750  Finance Office: Thitron budget decreased by $100K after review.
+#0751  Finance Office: Withdraw update #0523; it was entered in error.
+#0752  Finance Office: Thitron budget increased by $10K after review.
+#0753  Finance Office: Thitron invoice batch FC-3731 archived.
+#0754  Finance Office: Thitron budget decreased by $25K per the revised plan.
+#0755  Finance Office: Thitron budget increased by $145K per the revised plan.
+#0756  Finance Office: Thitron budget increased by $65K after review.
+#0757  Finance Office: Thitron budget increased by $105K per the revised plan.
+#0758  Finance Office: Thitron budget decreased by $105K per the revised plan.
+#0759  Finance Office: Thitron budget decreased by $115K after review.
+#0760  Finance Office: Withdraw update #0278; it was entered in error.
+#0761  Engineering email: Hearing Thitron's budget goes up $349K.
+#0762  Finance Office: Thitron budget decreased by $100K.
+#0763  Finance Office: Thitron budget decreased by $20K after review.
+#0764  Finance Office: Withdraw update #0583; it was entered in error.
+#0765  Marketing email: Thitron budget should land at $1820K.
+#0766  Marketing email: Thitron budget is going to $1170K.
+#0767  PMO note: Thitron budget should land at $1870K.
+#0768  Finance Office: Thitron budget increased by $120K per the revised plan.
+#0769  Finance Office: Withdraw update #0760; it was entered in error.
+#0770  Legal email: Pretty sure Thitron's budget is $2660K now.
+#0771  Finance Office: Thitron budget increased by $20K after review.
+#0772  Finance Office: Thitron budget decreased by $15K after review.
+#0773  Facilities ticket: Thitron budget is going down by $171K.
+#0774  Finance Office: Thitron budget increased by $125K.
+#0775  Finance Office: Thitron budget increased by $5K after review.
+#0776  Finance Office: Thitron budget decreased by $140K after review.
+#0777  Finance Office: Thitron budget increased by $5K per the revised plan.
+#0778  Finance Office: Thitron budget decreased by $183K per the revised plan.
+#0779  Finance Office: Thitron budget decreased by $172K per the revised plan.
+#0780  Finance Office: Thitron budget decreased by $140K after review.
+#0781  Finance Office: Withdraw update #0699.
+#0782  Finance Office: Thitron budget increased by $30K.
+#0783  Sales update: Thitron budget should land at $1030K.
+#0784  Vendor call: Thitron budget is going up by $338K.
+#0785  Operations chat: Sounds like Thitron gets $137K more.
+#0786  Finance Office: Thitron budget increased by $273K.
+#0787  Finance Office: Withdraw update #0551.
+#0788  Legal email: Thitron budget is going down by $147K.
+#0789  Finance Office: Thitron budget increased by $125K after review.
+#0790  Marketing email: Thitron budget should land at $650K.
+#0791  Finance Office: Thitron budget decreased by $125K after review.
+#0792  Finance Office: Withdraw update #0146; it was entered in error.
+#0793  Finance Office: Thitron budget increased by $10K per the revised plan.
+#0794  Sales update: Hearing Thitron's budget goes up $541K.
+#0795  Finance Office: Withdraw update #0083; it was entered in error.
+#0796  Sales update: Thitron status report filed for week 30.
+#0797  Vendor call: Thitron budget is going down by $297K.
+#0798  Sales update: Expect Thitron's budget to drop by $494K.
+#0799  Legal email: Thitron budget is going to $870K.
+#0800  Finance Office: Thitron budget decreased by $85K per the revised plan.
+#0801  Finance Office: Thitron budget increased by $85K after review.
+#0802  PMO note: Thitron budget is going up by $463K.
+#0803  Finance Office: Withdraw update #0384.
+#0804  Finance Office: Thitron budget increased by $587K after review.
+#0805  Sales update: Heard Thitron's budget is now $2800K.
+#0806  Marketing email: Pretty sure Thitron's budget is $1830K now.
+#0807  Finance Office: Thitron budget decreased by $15K.
+#0808  Finance Office: Thitron budget decreased by $336K after review.
+#0809  Marketing email: Hearing Thitron's budget goes up $94K.
+#0810  Finance Office: Withdraw update #0406; it was entered in error.
+#0811  Marketing email: Thitron status report filed for week 36.
+#0812  Marketing email: Sounds like Thitron gets $307K more.
+#0813  Finance Office: Thitron budget increased by $85K after review.
+#0814  Legal email: Pretty sure Thitron's budget is $1680K now.
+#0815  Facilities ticket: Thitron weekly sync moved to Fridays.
+#0816  Operations chat: Expect Thitron's budget to rise by $363K.
+#0817  Finance Office: Thitron budget increased by $254K per the revised plan.
+#0818  Finance Office: Thitron budget decreased by $5K per the revised plan.
+#0819  Finance Office: Thitron budget increased by $75K.
+#0820  Sales update: Pretty sure Thitron's budget is $2800K now.
+#0821  Finance Office: Thitron budget decreased by $60K per the revised plan.
+#0822  Finance Office: Withdraw update #0465; it was entered in error.
+#0823  Legal email: Thitron vendor onboarding call scheduled for Monday.
+#0824  Finance Office: Thitron budget decreased by $81K per the revised plan.
+#0825  Finance Office: Thitron budget decreased by $125K after review.
+#0826  Marketing email: Thitron design review moved to Room 3D.
+#0827  Sales update: Thitron status report filed for week 42.
+#0828  PMO note: Hearing Thitron's budget goes down $212K.
+#0829  Finance Office: Thitron budget increased by $10K after review.
+#0830  Finance Office: Thitron receipts scanned.
+#0831  Finance Office: Thitron cost center code changed to FC-2813.
+#0832  Marketing email: Thitron kickoff moved to Building 7.
+#0833  Finance Office: Thitron budget decreased by $80K per the revised plan.
+#0834  Finance Office: Thitron budget decreased by $82K per the revised plan.
+#0835  Finance Office: Withdraw update #0154; it was entered in error.
+#0836  Finance Office: Thitron budget increased by $150K.
+#0837  Operations chat: Expect Thitron's budget to drop by $272K.
+#0838  Finance Office: Thitron budget increased by $90K after review.
+#0839  Sales update: Thitron budget should land at $1970K.
+#0840  PMO note: Thitron design review moved to Room 5C.
+#0841  Finance Office: Thitron budget decreased by $100K per the revised plan.
+#0842  Finance Office: Withdraw update #0479.
+#0843  Legal email: Thitron vendor onboarding call scheduled for Tuesday.
+#0844  Engineering email: Thitron site visit confirmed for Friday.
+#0845  Finance Office: Thitron budget decreased by $15K after review.
+#0846  Sales update: Thitron sprint 8 retrospective notes posted.
+#0847  Facilities ticket: Thitron budget is going up to $2340K.
+#0848  Finance Office: Thitron budget decreased by $70K after review.
+#0849  Finance Office: Thitron budget decreased by $40K per the revised plan.
+#0850  Finance Office: Withdraw update #0607.
+#0851  Finance Office: Thitron budget decreased by $40K.
+#0852  Finance Office: Withdraw update #0340.
+#0853  PMO note: Thitron site visit confirmed for Tuesday.
+#0854  Finance Office: Thitron budget increased by $60K.
+#0855  Sales update: Thitron design review moved to Room 4B.
+#0856  Facilities ticket: Expect Thitron's budget to rise by $296K.
+#0857  Finance Office: Withdraw update #0195; it was entered in error.
+#0858  Operations chat: Thitron status report filed for week 41.
+#0859  Finance Office: Thitron budget increased by $482K after review.
+#0860  Finance Office: Withdraw update #0729.
+#0861  Finance Office: Thitron budget decreased by $25K per the revised plan.
+#0862  Operations chat: Thitron security review passed.
+#0863  Finance Office: Thitron budget increased by $125K after review.
+#0864  Finance Office: Thitron budget decreased by $135K after review.
+#0865  Engineering email: Thitron security review passed.
+#0866  Finance Office: Withdraw update #0824.
+#0867  Operations chat: Heard Thitron's budget is now $2340K.
+#0868  Finance Office: Thitron budget decreased by $5K after review.
+#0869  Finance Office: Withdraw update #0270.
+#0870  Sales update: Hearing Thitron's budget goes up $522K.
+#0871  Sales update: Sounds like Thitron gets $303K less.
+#0872  Finance Office: Withdraw update #0731.
+#0873  Finance Office: Thitron budget increased by $50K.
+#0874  Finance Office: Thitron budget increased by $15K.
+#0875  Finance Office: Thitron budget increased by $55K.
+#0876  Finance Office: Withdraw update #0570.
+#0877  Finance Office: Thitron budget decreased by $145K after review.
+#0878  Finance Office: Thitron budget increased by $65K after review.
+#0879  Sales update: Hearing Thitron's budget goes down $166K.
+#0880  Finance Office: Thitron budget increased by $85K per the revised plan.
+#0881  Finance Office: Thitron budget decreased by $414K after review.
+#0882  Finance Office: Thitron budget decreased by $150K.
+#0883  Finance Office: Thitron budget increased by $120K.
+#0884  Finance Office: Thitron budget decreased by $65K after review.
+#0885  Finance Office: Thitron budget increased by $60K.
+#0886  Finance Office: Thitron budget increased by $85K.
+#0887  Legal email: Sounds like Thitron gets $401K more.
+#0888  Marketing email: Thitron budget is going down by $22K.
+#0889  Operations chat: Thitron site visit confirmed for Thursday.
+#0890  Sales update: Thitron budget is going to $1530K.
+#0891  Engineering email: Thitron sprint 26 retrospective notes posted.
+#0892  Finance Office: Thitron budget decreased by $10K after review.
+#0893  Finance Office: Withdraw update #0469; it was entered in error.
+#0894  Finance Office: Thitron budget increased by $152K per the revised plan.
+#0895  Finance Office: Thitron budget increased by $412K.
+#0896  Finance Office: Thitron budget increased by $10K per the revised plan.
+#0897  PMO note: Sounds like Thitron gets $392K less.
+#0898  Finance Office: Thitron budget decreased by $70K.
+#0899  Finance Office: Thitron budget decreased by $100K after review.
+#0900  Facilities ticket: Expect Thitron's budget to drop by $181K.
+#0901  Finance Office: Thitron budget increased by $140K after review.
+#0902  Finance Office: Thitron budget increased by $16K per the revised plan.
+#0903  Finance Office: Thitron budget increased by $15K per the revised plan.
+#0904  Finance Office: Thitron budget decreased by $95K per the revised plan.
+#0905  Operations chat: Sounds like Thitron gets $123K more.
+#0906  Legal email: Thitron budget is going up by $219K.
+#0907  Finance Office: Thitron budget decreased by $40K per the revised plan.
+#0908  Finance Office: Thitron budget increased by $5K after review.
+#0909  Operations chat: Thitron budget is going up by $209K.
+#0910  Finance Office: Withdraw update #0255; it was entered in error.
+#0911  Finance Office: Thitron budget decreased by $95K after review.
+#0912  Finance Office: Thitron budget decreased by $100K after review.
+#0913  Finance Office: Thitron budget decreased by $20K per the revised plan.
+#0914  Finance Office: Thitron budget decreased by $10K.
+#0915  Finance Office: Withdraw update #0377; it was entered in error.
+#0916  Finance Office: Thitron budget decreased by $5K.
+#0917  Finance Office: Thitron budget decreased by $120K after review.
+#0918  Finance Office: Thitron budget decreased by $80K after review.
+#0919  Finance Office: Thitron budget decreased by $50K per the revised plan.
+#0920  Finance Office: Thitron budget increased by $140K after review.
+#0921  Finance Office: Thitron budget decreased by $105K.
+#0922  Engineering email: Thitron design review moved to Room 6B.
+#0923  Finance Office: Thitron budget decreased by $115K.
+#0924  Finance Office: Thitron budget increased by $120K per the revised plan.
+#0925  Engineering email: Expect Thitron's budget to drop by $206K.
+#0926  Legal email: Thitron budget is going to $2230K.
+#0927  Finance Office: Withdraw update #0683.
+#0928  Vendor call: Thitron budget should land at $2080K.
+#0929  Operations chat: Sounds like Thitron gets $198K more.
+#0930  Engineering email: Thitron budget should land at $2080K.
+#0931  Finance Office: Thitron budget increased by $55K per the revised plan.
+#0932  Finance Office: Thitron budget decreased by $35K per the revised plan.
+#0933  Finance Office: Thitron budget increased by $145K.
+#0934  Marketing email: Heard Thitron's budget is now $1700K.
+#0935  Finance Office: Thitron budget increased by $50K after review.
+#0936  Operations chat: Expect Thitron's budget to drop by $474K.
+#0937  Finance Office: Thitron budget increased by $11K.
+#0938  Vendor call: Thitron risk register updated with 8 new items.
+#0939  Finance Office: Thitron budget decreased by $50K after review.
+#0940  Finance Office: Thitron budget increased by $30K per the revised plan.
+#0941  Finance Office: Thitron budget decreased by $35K after review.
+#0942  Marketing email: Thitron budget is going to $1770K.
+#0943  Operations chat: Pretty sure Thitron's budget is $1660K now.
+#0944  Legal email: Pretty sure Thitron's budget is $2800K now.
+#0945  Finance Office: Thitron budget decreased by $115K after review.
+#0946  PMO note: Thitron budget is going up to $2800K.
+#0947  Finance Office: Thitron budget increased by $5K per the revised plan.
+#0948  Finance Office: Thitron budget decreased by $135K per the revised plan.
+#0949  Finance Office: Thitron budget decreased by $281K per the revised plan.
+#0950  Operations chat: Hearing Thitron's budget goes down $461K.
+#0951  Legal email: Thitron budget should land at $2390K.
+#0952  PMO note: Thitron sprint 35 retrospective notes posted.
+#0953  Sales update: Pretty sure Thitron's budget is $1500K now.
+#0954  Facilities ticket: Thitron budget is going up to $2360K.
+#0955  Finance Office: Thitron budget increased by $35K per the revised plan.
+#0956  Operations chat: Heard Thitron's budget is now $1490K.
+#0957  Finance Office: Thitron budget increased by $120K per the revised plan.
+#0958  Engineering email: Thitron kickoff moved to Building 5.
+#0959  Finance Office: Withdraw update #0709; it was entered in error.
+#0960  Finance Office: Withdraw update #0143; it was entered in error.
+#0961  Finance Office: Thitron budget increased by $30K.
+#0962  Finance Office: Thitron budget decreased by $486K.
+#0963  Finance Office: Thitron budget decreased by $95K per the revised plan.
+#0964  Finance Office: Thitron budget increased by $150K per the revised plan.
+#0965  Finance Office: Thitron budget increased by $60K.
+#0966  Finance Office: Thitron budget decreased by $90K per the revised plan.
+#0967  Engineering email: Thitron budget is going up by $17K.
+#0968  Finance Office: Thitron budget increased by $115K.
+#0969  Sales update: Hearing Thitron's budget goes down $56K.
+#0970  Finance Office: Thitron budget increased by $70K per the revised plan.
+#0971  Finance Office: Withdraw update #0310; it was entered in error.
+#0972  Operations chat: Pretty sure Thitron's budget is $860K now.
+#0973  Finance Office: Thitron finance review moved to Room 1D.
+#0974  Marketing email: Hearing Thitron's budget goes down $434K.
+#0975  Finance Office: Withdraw update #0893; it was entered in error.
+#0976  Finance Office: Thitron budget increased by $80K after review.
+#0977  Finance Office: Withdraw update #0296.
+#0978  Finance Office: Withdraw update #0372; it was entered in error.
+#0979  Finance Office: Withdraw update #0440; it was entered in error.
+#0980  Finance Office: Thitron budget increased by $5K after review.
+#0981  Facilities ticket: Thitron vendor onboarding call scheduled for Tuesday.
+#0982  Finance Office: Thitron budget increased by $30K.
+#0983  Finance Office: Thitron budget decreased by $15K per the revised plan.
+#0984  PMO note: Thitron design review moved to Room 6A.
+#0985  Finance Office: Thitron budget increased by $95K after review.
+#0986  Legal email: Thitron budget is going down to $330K.
+#0987  Legal email: Thitron budget is going to $380K.
+#0988  Operations chat: Expect Thitron's budget to rise by $501K.
+#0989  Legal email: Heard Thitron's budget is now $530K.
+#0990  PMO note: Thitron budget is going to $340K.
+#0991  Facilities ticket: Thitron documentation moved to the shared drive.
+#0992  Finance Office: Thitron budget increased by $75K after review.
+#0993  Finance Office: Thitron budget increased by $90K per the revised plan.
+#0994  Finance Office: Thitron budget decreased by $110K.
+#0995  Finance Office: Thitron budget increased by $105K after review.
+#0996  Finance Office: Withdraw update #0437.
+#0997  Finance Office: Thitron budget decreased by $588K.
+#0998  Finance Office: Thitron budget increased by $346K after review.
+#0999  Finance Office: Thitron budget increased by $65K.
+#1000  Finance Office: Thitron finance review moved to Room 3C.
+#1001  Finance Office: Thitron budget decreased by $150K per the revised plan.
+#1002  Operations chat: Hearing Thitron's budget goes up $416K.
+#1003  PMO note: Thitron budget should land at $460K.
+#1004  Finance Office: Thitron budget increased by $70K.
+#1005  Finance Office: Thitron budget increased by $65K after review.
+#1006  Finance Office: Thitron budget increased by $110K after review.
+#1007  Finance Office: Thitron budget decreased by $85K.
+#1008  Facilities ticket: Hearing Thitron's budget goes up $479K.
+#1009  Finance Office: Withdraw update #0303; it was entered in error.
+#1010  Finance Office: Withdraw update #0529; it was entered in error.
+#1011  Finance Office: Thitron budget increased by $90K.
+#1012  Operations chat: Thitron budget is going down by $367K.
+#1013  Finance Office: Thitron budget increased by $115K per the revised plan.
+#1014  Finance Office: Thitron budget decreased by $75K.
+#1015  Finance Office: Thitron budget decreased by $110K after review.
+#1016  Finance Office: Withdraw update #0381; it was entered in error.
+#1017  Marketing email: Pretty sure Thitron's budget is $300K now.
+#1018  Finance Office: Thitron budget increased by $119K per the revised plan.
+#1019  Engineering email: Heard Thitron's budget is now $470K.
+#1020  Finance Office: Thitron budget increased by $130K.
+#1021  Finance Office: Thitron budget decreased by $118K after review.
+#1022  Finance Office: Withdraw update #0646.
+#1023  Finance Office: Thitron budget increased by $10K after review.
+#1024  Finance Office: Thitron budget increased by $90K per the revised plan.
+#1025  Marketing email: Thitron budget is going up by $204K.
+#1026  Finance Office: Thitron budget increased by $90K after review.
+#1027  Finance Office: Thitron budget increased by $115K after review.
+#1028  Finance Office: Thitron budget decreased by $5K.
+#1029  Finance Office: Thitron budget increased by $130K per the revised plan.
+#1030  Finance Office: Withdraw update #0977.
+#1031  Finance Office: Thitron budget increased by $549K per the revised plan.
+#1032  Legal email: Thitron budget is going to $1370K.
+#1033  Finance Office: Thitron budget decreased by $95K per the revised plan.
+#1034  Finance Office: Thitron budget decreased by $65K.
+#1035  Finance Office: Withdraw update #0238; it was entered in error.
+#1036  Finance Office: Thitron budget increased by $547K per the revised plan.
+#1037  Finance Office: Thitron budget decreased by $60K.
+#1038  Finance Office: Withdraw update #0804; it was entered in error.
+#1039  Facilities ticket: Thitron budget should land at $1710K.
+#1040  Finance Office: Thitron budget increased by $25K after review.
+#1041  PMO note: Thitron site visit confirmed for Tuesday.
+#1042  Facilities ticket: Expect Thitron's budget to rise by $329K.
+#1043  Facilities ticket: Hearing Thitron's budget goes up $51K.
+#1044  Marketing email: Expect Thitron's budget to drop by $512K.
+#1045  Finance Office: Thitron budget increased by $115K after review.
+#1046  Finance Office: Withdraw update #0895; it was entered in error.
+#1047  Finance Office: Thitron budget decreased by $40K.
+#1048  Finance Office: Thitron invoice batch FC-4771 archived.
+#1049  Finance Office: Thitron budget increased by $25K per the revised plan.
+#1050  Vendor call: Sounds like Thitron gets $167K less.
+#1051  Sales update: Hearing Thitron's budget goes up $292K.
+#1052  Finance Office: Withdraw update #0283; it was entered in error.
+#1053  Finance Office: Thitron budget decreased by $10K.
+#1054  Finance Office: Thitron budget decreased by $45K per the revised plan.
+#1055  Marketing email: Thitron budget is going to $2800K.
+#1056  Finance Office: Thitron budget decreased by $95K per the revised plan.
+#1057  Finance Office: Thitron budget decreased by $115K.
+#1058  Operations chat: Thitron budget is going to $2420K.
+#1059  Finance Office: Withdraw update #0850.
+#1060  Marketing email: Thitron test environment back online.
+#1061  Finance Office: Thitron budget increased by $135K.
+#1062  Operations chat: Sounds like Thitron gets $154K less.
+#1063  Legal email: Expect Thitron's budget to drop by $224K.
+#1064  Finance Office: Thitron quarterly audit scheduled for Friday.
+#1065  Sales update: Thitron kickoff moved to Building 2.
+#1066  Finance Office: Thitron budget increased by $125K per the revised plan.
+#1067  Finance Office: Thitron budget increased by $30K per the revised plan.
+#1068  PMO note: Heard Thitron's budget is now $1940K.
+#1069  Finance Office: Thitron budget decreased by $130K per the revised plan.
+#1070  Finance Office: Thitron budget decreased by $25K.
+#1071  Finance Office: Thitron budget increased by $35K per the revised plan.
+#1072  Finance Office: Withdraw update #0017.
+#1073  Vendor call: Expect Thitron's budget to drop by $507K.
+#1074  Finance Office: Thitron budget decreased by $80K per the revised plan.
+#1075  Legal email: Pretty sure Thitron's budget is $1960K now.
+#1076  PMO note: Thitron budget should land at $2110K.
+#1077  Finance Office: Withdraw update #0450.
+#1078  Finance Office: Thitron budget increased by $85K after review.
+#1079  Engineering email: Thitron budget is going to $2800K.
+#1080  Vendor call: Thitron budget is going down to $1970K.
+#1081  Finance Office: Thitron budget increased by $80K per the revised plan.
+#1082  Operations chat: Thitron risk register updated with 8 new items.
+#1083  Finance Office: Withdraw update #0647.
+#1084  Finance Office: Thitron budget decreased by $75K.
+#1085  Finance Office: Thitron budget decreased by $251K per the revised plan.
+#1086  Finance Office: Thitron budget increased by $15K per the revised plan.
+#1087  Vendor call: Pretty sure Thitron's budget is $1600K now.
+#1088  Finance Office: Thitron budget decreased by $150K.
+#1089  Sales update: Heard Thitron's budget is now $980K.
+#1090  Marketing email: Thitron budget is going down to $1050K.
+#1091  Finance Office: Thitron budget increased by $45K.
+#1092  Vendor call: Thitron kickoff moved to Building 4.
+#1093  Finance Office: Withdraw update #0852; it was entered in error.
+#1094  Finance Office: Thitron budget decreased by $45K after review.
+#1095  Finance Office: Withdraw update #0712; it was entered in error.
+#1096  Legal email: Thitron budget is going to $1140K.
+#1097  Finance Office: Withdraw update #0494; it was entered in error.
+#1098  Vendor call: Pretty sure Thitron's budget is $2700K now.
+#1099  Finance Office: Withdraw update #0150.
+#1100  PMO note: Thitron vendor onboarding call scheduled for Monday.
+#1101  Finance Office: Thitron budget decreased by $135K per the revised plan.
+#1102  Finance Office: Thitron budget increased by $35K after review.
+#1103  Finance Office: Withdraw update #0749; it was entered in error.
+#1104  Finance Office: Thitron purchase order FC-2364 closed.
+#1105  Marketing email: Thitron sprint 7 retrospective notes posted.
+#1106  Finance Office: Thitron budget increased by $85K after review.
+#1107  Finance Office: Thitron purchase order FC-2805 closed.
+#1108  Legal email: Hearing Thitron's budget goes down $58K.
+#1109  Finance Office: Thitron budget increased by $120K per the revised plan.
+#1110  Finance Office: Withdraw update #0817; it was entered in error.
+#1111  Finance Office: Thitron budget decreased by $75K per the revised plan.
+#1112  Finance Office: Thitron budget increased by $502K per the revised plan.
+#1113  Vendor call: Sounds like Thitron gets $491K more.
+#1114  Engineering email: Thitron budget is going down by $294K.
+#1115  Finance Office: Thitron budget decreased by $45K per the revised plan.
+#1116  Finance Office: Thitron budget decreased by $95K per the revised plan.
+#1117  Finance Office: Thitron budget increased by $50K after review.
+#1118  Finance Office: Thitron budget decreased by $15K after review.
+#1119  Facilities ticket: Thitron budget is going to $1550K.
+#1120  Legal email: Pretty sure Thitron's budget is $1170K now.
+#1121  Sales update: Thitron budget is going down by $289K.
+#1122  Finance Office: Thitron budget increased by $35K after review.
+#1123  Legal email: Thitron budget is going up by $52K.
+#1124  Facilities ticket: Thitron kickoff moved to Building 5.
+#1125  Finance Office: Thitron budget increased by $125K per the revised plan.
+#1126  Sales update: Thitron budget is going up by $49K.
+#1127  PMO note: Thitron budget is going down to $1340K.
+#1128  Finance Office: Thitron budget increased by $10K after review.
+#1129  Finance Office: Withdraw update #0229; it was entered in error.
+#1130  Vendor call: Hearing Thitron's budget goes up $473K.
+#1131  Marketing email: Thitron budget should land at $1460K.
+#1132  Finance Office: Withdraw update #0808; it was entered in error.
+#1133  Finance Office: Thitron budget increased by $568K after review.
+#1134  Facilities ticket: Thitron budget is going down by $143K.
+#1135  Finance Office: Thitron budget decreased by $120K after review.
+#1136  Legal email: Expect Thitron's budget to drop by $53K.
+#1137  Finance Office: Thitron budget decreased by $80K per the revised plan.
+#1138  Legal email: Pretty sure Thitron's budget is $2730K now.
+#1139  Operations chat: Sounds like Thitron gets $122K less.
+#1140  Finance Office: Thitron budget decreased by $85K after review.
+#1141  Engineering email: Heard Thitron's budget is now $2800K.
+#1142  Facilities ticket: Expect Thitron's budget to drop by $524K.
+#1143  Sales update: Thitron budget is going down to $2450K.
+#1144  Finance Office: Thitron budget decreased by $35K after review.
+#1145  Vendor call: Thitron budget is going down by $508K.
+#1146  Finance Office: Thitron budget increased by $145K.
+#1147  Finance Office: Withdraw update #0902; it was entered in error.
+#1148  Finance Office: Withdraw update #0644.
+#1149  Engineering email: Thitron budget is going down to $2800K.
+#1150  Finance Office: Thitron budget decreased by $80K.
+#1151  Finance Office: Withdraw update #0528.
+#1152  Finance Office: Thitron budget decreased by $40K per the revised plan.
+#1153  Finance Office: Thitron budget increased by $55K after review.
+#1154  Finance Office: Thitron budget decreased by $135K per the revised plan.
+#1155  Marketing email: Thitron design review moved to Room 1B.
+#1156  Operations chat: Sounds like Thitron gets $269K less.
+#1157  PMO note: Thitron budget is going down by $354K.
+#1158  Finance Office: Withdraw update #0927; it was entered in error.
+#1159  Marketing email: Expect Thitron's budget to drop by $148K.
+#1160  Finance Office: Withdraw update #0696; it was entered in error.
+#1161  Finance Office: Thitron budget increased by $15K.
+#1162  Finance Office: Thitron budget decreased by $65K.
+#1163  Finance Office: Thitron budget increased by $110K.
+#1164  Finance Office: Thitron budget decreased by $120K per the revised plan.
+#1165  Finance Office: Thitron budget increased by $197K per the revised plan.
+#1166  Finance Office: Thitron budget decreased by $80K after review.
+#1167  Vendor call: Thitron weekly sync moved to Mondays.
+#1168  Finance Office: Thitron budget decreased by $35K per the revised plan.
+#1169  Operations chat: Thitron budget is going to $2800K.
+#1170  Legal email: Sounds like Thitron gets $432K less.
+#1171  Finance Office: Withdraw update #1021.
+#1172  Finance Office: Thitron budget decreased by $70K per the revised plan.
+#1173  Facilities ticket: Heard Thitron's budget is now $2800K.
+#1174  Finance Office: Withdraw update #0685.
+#1175  Finance Office: Thitron budget decreased by $125K after review.
+#1176  Finance Office: Thitron budget decreased by $85K after review.
+#1177  Finance Office: Thitron budget decreased by $40K after review.
+#1178  Finance Office: Withdraw update #0779; it was entered in error.
+#1179  Operations chat: Thitron status report filed for week 42.
+#1180  Sales update: Heard Thitron's budget is now $2000K.
+#1181  Finance Office: Thitron budget decreased by $20K per the revised plan.
+#1182  Finance Office: Thitron budget increased by $15K per the revised plan.
+#1183  Finance Office: Thitron budget decreased by $115K.
+#1184  Finance Office: Thitron budget decreased by $35K after review.
+#1185  Finance Office: Thitron budget decreased by $115K per the revised plan.
+#1186  Facilities ticket: Thitron budget is going down to $1950K.
+#1187  Finance Office: Thitron budget decreased by $15K per the revised plan.
+#1188  Finance Office: Withdraw update #0273; it was entered in error.
+#1189  Finance Office: Thitron invoice batch FC-1352 archived.
+#1190  Finance Office: Thitron budget decreased by $60K per the revised plan.
+#1191  Finance Office: Thitron budget decreased by $45K.
+#1192  Finance Office: Thitron budget decreased by $140K.
+#1193  Finance Office: Withdraw update #0978; it was entered in error.
+#1194  Finance Office: Thitron budget increased by $150K.
+#1195  Finance Office: Thitron budget decreased by $60K.
+#1196  Facilities ticket: Thitron budget is going down by $573K.
+#1197  Finance Office: Thitron budget increased by $5K after review.
+#1198  Marketing email: Thitron vendor onboarding call scheduled for Friday.
+#1199  Finance Office: Withdraw update #0203.
+#1200  Finance Office: Withdraw update #0590.
+#1201  Sales update: Thitron status report filed for week 46.
+#1202  Finance Office: Thitron budget increased by $50K after review.
+#1203  Marketing email: Thitron budget should land at $1770K.
+#1204  Finance Office: Thitron budget increased by $55K after review.
+#1205  Finance Office: Thitron receipts scanned.
+#1206  Legal email: Heard Thitron's budget is now $1260K.
+#1207  Vendor call: Pretty sure Thitron's budget is $1970K now.
+#1208  Engineering email: Thitron risk register updated with 5 new items.
+#1209  Finance Office: Thitron budget increased by $115K per the revised plan.
+#1210  Finance Office: Thitron budget increased by $10K after review.
+#1211  Finance Office: Thitron budget increased by $130K.
+#1212  Vendor call: Thitron budget is going to $2370K.
+#1213  Legal email: Thitron budget should land at $2390K.
+#1214  Finance Office: Thitron budget decreased by $15K after review.
+#1215  Finance Office: Withdraw update #0962; it was entered in error.
+#1216  Sales update: Pretty sure Thitron's budget is $2800K now.
+#1217  Vendor call: Thitron budget is going up by $132K.
+#1218  Finance Office: Thitron budget increased by $65K after review.
+#1219  Finance Office: Withdraw update #0599; it was entered in error.
+#1220  Finance Office: Thitron budget increased by $95K after review.
+#1221  Operations chat: Hearing Thitron's budget goes down $236K.
+#1222  Finance Office: Thitron budget increased by $50K per the revised plan.
+#1223  Finance Office: Withdraw update #0513; it was entered in error.
+#1224  Finance Office: Withdraw update #0949.
+#1225  Finance Office: Thitron budget decreased by $135K per the revised plan.
+#1226  Finance Office: Thitron budget decreased by $125K per the revised plan.
+#1227  Operations chat: Expect Thitron's budget to drop by $298K.
+#1228  Finance Office: Withdraw update #1103; it was entered in error.
+#1229  Finance Office: Thitron budget decreased by $20K per the revised plan.
+#1230  Facilities ticket: Thitron budget should land at $2800K.
+#1231  Marketing email: Expect Thitron's budget to drop by $174K.
+#1232  Legal email: Sounds like Thitron gets $188K less.
+#1233  Finance Office: Thitron budget decreased by $150K per the revised plan.
+#1234  Finance Office: Withdraw update #0894.
+#1235  Finance Office: Withdraw update #1228; it was entered in error.
+#1236  Finance Office: Thitron budget decreased by $110K per the revised plan.
+#1237  Operations chat: Thitron demo rescheduled to Tuesday afternoon.
+#1238  Finance Office: Thitron budget increased by $45K after review.
+#1239  Finance Office: Thitron budget decreased by $25K.
+#1240  Finance Office: Thitron budget decreased by $90K per the revised plan.
+#1241  Marketing email: Thitron budget is going to $2190K.
+#1242  Vendor call: Heard Thitron's budget is now $2020K.
+#1243  Legal email: Sounds like Thitron gets $347K less.
+#1244  Finance Office: Withdraw update #0609; it was entered in error.
+#1245  Finance Office: Thitron budget increased by $145K per the revised plan.
+#1246  Legal email: Thitron documentation moved to the shared drive.
+#1247  Finance Office: Thitron budget increased by $45K.
+#1248  Finance Office: Thitron budget increased by $145K per the revised plan.
+#1249  Sales update: Expect Thitron's budget to drop by $564K.
+#1250  Finance Office: Thitron budget decreased by $10K.
+#1251  Finance Office: Thitron cost center code changed to FC-3164.
+#1252  Finance Office: Thitron budget decreased by $145K.
+#1253  PMO note: Heard Thitron's budget is now $2370K.
+#1254  Finance Office: Thitron budget decreased by $65K.
+#1255  Vendor call: Sounds like Thitron gets $134K more.
+#1256  Operations chat: Heard Thitron's budget is now $2430K.
+#1257  Finance Office: Thitron budget decreased by $140K after review.
+#1258  PMO note: Thitron budget should land at $1650K.
+#1259  Engineering email: Expect Thitron's budget to rise by $397K.
+#1260  Finance Office: Thitron budget decreased by $499K per the revised plan.
+#1261  Facilities ticket: Thitron budget is going to $2230K.
+#1262  Vendor call: Thitron sprint 21 retrospective notes posted.
+#1263  Operations chat: Hearing Thitron's budget goes up $373K.
+#1264  Marketing email: Pretty sure Thitron's budget is $2060K now.
+#1265  Finance Office: Thitron budget decreased by $40K per the revised plan.
+#1266  Operations chat: Sounds like Thitron gets $69K less.
+#1267  Finance Office: Thitron budget decreased by $60K.
+#1268  Legal email: Sounds like Thitron gets $544K more.
+#1269  Finance Office: Thitron budget increased by $55K after review.
+#1270  Finance Office: Thitron budget increased by $75K per the revised plan.
+#1271  Finance Office: Thitron budget increased by $125K.
+#1272  Finance Office: Thitron budget decreased by $140K after review.
+#1273  Finance Office: Thitron budget increased by $30K per the revised plan.
+#1274  Marketing email: Thitron documentation moved to the shared drive.
+#1275  Legal email: Thitron sprint 13 retrospective notes posted.
+#1276  Finance Office: Thitron budget increased by $546K per the revised plan.
+#1277  Finance Office: Thitron receipts scanned.
+#1278  PMO note: Expect Thitron's budget to rise by $589K.
+#1279  Finance Office: Thitron budget increased by $130K after review.
+#1280  Finance Office: Thitron budget decreased by $55K per the revised plan.
+#1281  Finance Office: Thitron budget decreased by $125K per the revised plan.
+#1282  Finance Office: Thitron budget decreased by $95K per the revised plan.
+#1283  Finance Office: Thitron budget increased by $130K.
+#1284  Vendor call: Heard Thitron's budget is now $1600K.
+#1285  Finance Office: Thitron budget decreased by $100K.
+#1286  Finance Office: Withdraw update #0444; it was entered in error.
+#1287  Finance Office: Thitron budget increased by $65K per the revised plan.
+#1288  Finance Office: Thitron budget increased by $145K per the revised plan.
+#1289  Legal email: Thitron budget is going down by $84K.
+#1290  Legal email: Pretty sure Thitron's budget is $2430K now.
+#1291  Finance Office: Thitron budget increased by $15K.
+#1292  Finance Office: Withdraw update #0937.
+#1293  Finance Office: Thitron budget decreased by $80K.
+#1294  Finance Office: Withdraw update #1112.
+#1295  Finance Office: Thitron budget increased by $95K.
+#1296  Finance Office: Thitron budget increased by $15K.
+#1297  Finance Office: Thitron budget increased by $135K.
+#1298  Finance Office: Withdraw update #1200.
+#1299  Operations chat: Pretty sure Thitron's budget is $2760K now.
+#1300  Finance Office: Thitron budget decreased by $140K.
+#1301  Finance Office: Withdraw update #0998.
+#1302  Finance Office: Withdraw update #0751; it was entered in error.
+#1303  Engineering email: Sounds like Thitron gets $406K less.
+#1304  Legal email: Thitron kickoff moved to Building 8.
+#1305  Finance Office: Thitron budget decreased by $539K.
+#1306  PMO note: Thitron budget is going to $2200K.
+#1307  Finance Office: Thitron budget decreased by $100K after review.
+#1308  Marketing email: Thitron budget is going up to $2060K.
+#1309  Vendor call: Sounds like Thitron gets $36K less.
+#1310  Facilities ticket: Thitron budget is going down by $428K.
+#1311  Vendor call: Pretty sure Thitron's budget is $1550K now.
+#1312  Facilities ticket: Thitron budget is going up by $398K.
+#1313  Operations chat: Pretty sure Thitron's budget is $1390K now.
+#1314  Finance Office: Withdraw update #0336.
+#1315  Marketing email: Hearing Thitron's budget goes up $594K.
+#1316  Finance Office: Withdraw update #0185.
+#1317  Finance Office: Withdraw update #1276; it was entered in error.
+#1318  Finance Office: Thitron budget increased by $55K per the revised plan.
+#1319  Finance Office: Thitron budget increased by $115K after review.
+#1320  Engineering email: Pretty sure Thitron's budget is $1820K now.
+#1321  Finance Office: Thitron budget increased by $316K after review.
+#1322  PMO note: Pretty sure Thitron's budget is $1430K now.
+#1323  Finance Office: Thitron budget decreased by $95K after review.
+#1324  Vendor call: Thitron budget is going up by $266K.
+#1325  Finance Office: Reminder: Thitron expense reports are due Tuesday.
+#1326  Sales update: Hearing Thitron's budget goes up $182K.
+#1327  Engineering email: Thitron budget is going to $1860K.
+#1328  Finance Office: Thitron budget decreased by $45K after review.
+#1329  Finance Office: Withdraw update #0525.
+#1330  Finance Office: Thitron budget increased by $35K after review.
+#1331  Finance Office: Withdraw update #0996; it was entered in error.
+#1332  PMO note: Thitron sprint 45 retrospective notes posted.
+#1333  Legal email: Thitron budget is going up by $586K.
+#1334  Finance Office: Thitron budget decreased by $45K after review.
+#1335  Finance Office: Thitron budget decreased by $5K.
+#1336  Finance Office: Withdraw update #1147.
+#1337  PMO note: Thitron budget is going up to $1180K.
+#1338  Finance Office: Thitron budget decreased by $40K after review.
+#1339  Marketing email: Expect Thitron's budget to drop by $97K.
+#1340  Finance Office: Thitron budget increased by $95K.
+#1341  Marketing email: Thitron test environment back online.
+#1342  Finance Office: Thitron budget increased by $95K.
+#1343  Finance Office: Withdraw update #1133; it was entered in error.
+#1344  Finance Office: Thitron budget increased by $125K per the revised plan.
+#1345  Marketing email: Thitron budget is going up to $830K.
+#1346  Legal email: Pretty sure Thitron's budget is $810K now.
+#1347  Finance Office: Withdraw update #0542; it was entered in error.
+#1348  PMO note: Hearing Thitron's budget goes down $259K.
+#1349  Finance Office: Withdraw update #0705; it was entered in error.
+#1350  Finance Office: Thitron budget decreased by $140K after review.
+#1351  Operations chat: Sounds like Thitron gets $484K more.
+#1352  Finance Office: Thitron budget increased by $85K after review.
+#1353  Facilities ticket: Hearing Thitron's budget goes up $2K.
+#1354  Vendor call: Thitron budget is going down to $550K.
+#1355  Vendor call: Thitron vendor onboarding call scheduled for Wednesday.
+#1356  Finance Office: Thitron invoice batch FC-8519 archived.
+#1357  Facilities ticket: Expect Thitron's budget to rise by $242K.
+#1358  Finance Office: Thitron budget increased by $150K after review.
+#1359  PMO note: Thitron budget is going up to $1100K.
+#1360  Marketing email: Thitron budget is going down by $199K.
+#1361  Finance Office: Thitron budget increased by $90K after review.
+#1362  Finance Office: Thitron budget increased by $145K.
+#1363  Finance Office: Thitron budget increased by $135K per the revised plan.
+#1364  PMO note: Thitron budget is going down by $241K.
+#1365  PMO note: Heard Thitron's budget is now $1410K.
+#1366  Facilities ticket: Thitron weekly sync moved to Wednesdays.
+#1367  Finance Office: Thitron invoice batch FC-3981 archived.
+#1368  Finance Office: Thitron budget increased by $100K after review.
+#1369  Operations chat: Thitron budget is going down by $378K.
+#1370  Finance Office: Thitron audit notes filed.
+#1371  Finance Office: Thitron budget decreased by $150K.
+#1372  Finance Office: Withdraw update #0691.
+#1373  Engineering email: Pretty sure Thitron's budget is $1840K now.
+#1374  Finance Office: Thitron budget decreased by $40K after review.
+#1375  Finance Office: Withdraw update #1199.
+#1376  Facilities ticket: Thitron budget should land at $2430K.
+#1377  Sales update: Sounds like Thitron gets $234K less.
+#1378  Operations chat: Sounds like Thitron gets $431K less.
+#1379  Marketing email: Heard Thitron's budget is now $1670K.
+#1380  Finance Office: Thitron budget decreased by $130K per the revised plan.
+#1381  Legal email: Thitron budget should land at $2160K.
+#1382  Operations chat: Expect Thitron's budget to rise by $249K.
+#1383  Legal email: Thitron budget is going up by $372K.
+#1384  Finance Office: Thitron budget decreased by $65K.
+#1385  Finance Office: Thitron budget increased by $125K per the revised plan.
+#1386  Finance Office: Thitron budget decreased by $35K per the revised plan.
+#1387  Finance Office: Thitron audit notes filed.
+#1388  Finance Office: Reminder: Thitron expense reports are due Monday.
+#1389  Facilities ticket: Heard Thitron's budget is now $2160K.
+#1390  Finance Office: Thitron budget decreased by $75K per the revised plan.
+#1391  PMO note: Sounds like Thitron gets $519K more.
+#1392  Finance Office: Thitron budget increased by $45K after review.
+#1393  PMO note: Thitron budget should land at $1570K.
+#1394  Engineering email: Thitron budget should land at $1750K.
+#1395  Sales update: Thitron status report filed for week 44.
+#1396  Finance Office: Thitron budget decreased by $45K per the revised plan.
+#1397  Finance Office: Thitron budget increased by $90K.
+#1398  Legal email: Thitron budget is going up by $222K.
+#1399  Finance Office: Thitron purchase order FC-2509 closed.
+#1400  Engineering email: Sounds like Thitron gets $193K more.
+#1401  Finance Office: Thitron budget increased by $65K.
+#1402  Finance Office: Thitron budget increased by $184K after review.
+#1403  Finance Office: Thitron budget decreased by $35K after review.
+#1404  Finance Office: Thitron budget increased by $40K per the revised plan.
+#1405  Engineering email: Thitron budget is going to $2060K.
+#1406  Finance Office: Withdraw update #0971; it was entered in error.
+#1407  Vendor call: Thitron budget is going down by $439K.
+#1408  Finance Office: Thitron budget increased by $125K.
+#1409  Finance Office: Thitron budget increased by $120K.
+#1410  Engineering email: Thitron budget is going down by $276K.
+#1411  Finance Office: Thitron budget decreased by $75K.
+#1412  Finance Office: Thitron budget decreased by $40K after review.
+#1413  Finance Office: Withdraw update #0677; it was entered in error.
+#1414  Finance Office: Withdraw update #0520; it was entered in error.
+#1415  Finance Office: Withdraw update #0778.
+#1416  Finance Office: Thitron budget decreased by $317K.
+#1417  Finance Office: Thitron budget increased by $150K after review.
+#1418  Operations chat: Thitron budget is going down by $233K.
+#1419  Finance Office: Thitron budget decreased by $145K.
+#1420  Finance Office: Thitron budget decreased by $115K after review.
+#1421  Finance Office: Thitron budget decreased by $5K.
+#1422  Finance Office: Thitron budget decreased by $55K.
+#1423  Facilities ticket: Thitron budget should land at $2020K.
+#1424  PMO note: Pretty sure Thitron's budget is $2180K now.
+#1425  Finance Office: Thitron budget increased by $60K.
+#1426  Finance Office: Thitron budget decreased by $40K per the revised plan.
+#1427  Marketing email: Thitron budget is going down to $2060K.
+#1428  Operations chat: Sounds like Thitron gets $213K less.
+#1429  Marketing email: Thitron budget should land at $1780K.
+#1430  Operations chat: Thitron budget is going down to $2050K.
+#1431  Sales update: Pretty sure Thitron's budget is $2800K now.
+#1432  Finance Office: Thitron budget decreased by $130K per the revised plan.
+#1433  Finance Office: Thitron budget decreased by $125K after review.
+#1434  Finance Office: Thitron budget increased by $120K.
+#1435  Facilities ticket: Thitron budget is going up to $2800K.
+#1436  Finance Office: Thitron budget decreased by $85K.
+#1437  Finance Office: Thitron budget increased by $10K.
+#1438  Finance Office: Thitron budget decreased by $150K after review.
+#1439  Marketing email: Thitron budget is going to $2600K.
+#1440  Engineering email: Thitron budget should land at $2370K.
+#1441  Finance Office: Thitron budget increased by $120K after review.
+#1442  Finance Office: Thitron budget decreased by $35K per the revised plan.
+#1443  Finance Office: Withdraw update #1165.
+#1444  Finance Office: Withdraw update #0834; it was entered in error.
+#1445  Finance Office: Withdraw update #1174.
+#1446  Finance Office: Thitron budget increased by $150K after review.
+#1447  Engineering email: Heard Thitron's budget is now $2350K.
+#1448  Finance Office: Withdraw update #0869; it was entered in error.
+#1449  Finance Office: Thitron budget decreased by $135K per the revised plan.
+#1450  Finance Office: Withdraw update #1347.
+#1451  Finance Office: Withdraw update #1292.
+#1452  Finance Office: Thitron budget increased by $95K.
+#1453  Finance Office: Thitron budget increased by $145K.
+#1454  Vendor call: Thitron weekly sync moved to Fridays.
+#1455  Finance Office: Thitron budget decreased by $125K per the revised plan.
+#1456  Finance Office: Thitron budget decreased by $75K after review.
+#1457  Sales update: Thitron budget is going up to $2590K.
+#1458  Finance Office: Withdraw update #1085; it was entered in error.
+#1459  Finance Office: Thitron budget decreased by $150K after review.
+#1460  Finance Office: Thitron budget decreased by $100K after review.
+#1461  Finance Office: Thitron budget decreased by $70K after review.
+#1462  Marketing email: Expect Thitron's budget to rise by $19K.
+#1463  Finance Office: Thitron budget increased by $135K after review.
+#1464  Finance Office: Withdraw update #1052.
+#1465  Operations chat: Thitron design review moved to Room 2A.
+#1466  Finance Office: Thitron budget decreased by $90K after review.
+#1467  PMO note: Thitron budget should land at $1480K.
+#1468  Legal email: Pretty sure Thitron's budget is $1230K now.
+#1469  Finance Office: Thitron budget increased by $150K after review.
+#1470  Vendor call: Hearing Thitron's budget goes up $48K.
+#1471  Finance Office: Thitron budget decreased by $115K per the revised plan.
+#1472  Finance Office: Thitron receipts scanned.
+#1473  Legal email: Thitron design review moved to Room 6A.
+#1474  Finance Office: Thitron budget decreased by $90K per the revised plan.
+#1475  Finance Office: Thitron budget decreased by $145K per the revised plan.
+#1476  Finance Office: Thitron budget decreased by $150K after review.
+#1477  Marketing email: Thitron budget is going down to $980K.
+#1478  Finance Office: Thitron budget increased by $35K per the revised plan.
+#1479  PMO note: Expect Thitron's budget to drop by $559K.
+#1480  Finance Office: Thitron budget decreased by $25K per the revised plan.
+#1481  Finance Office: Thitron budget increased by $80K.
+#1482  Finance Office: Thitron budget increased by $55K per the revised plan.
+#1483  Sales update: Expect Thitron's budget to drop by $207K.
+#1484  Finance Office: Thitron budget decreased by $40K.
+#1485  Finance Office: Thitron budget increased by $5K per the revised plan.
+#1486  Engineering email: Pretty sure Thitron's budget is $1850K now.
+#1487  Finance Office: Thitron budget decreased by $55K after review.
+#1488  Finance Office: Withdraw update #1402; it was entered in error.
+#1489  Finance Office: Thitron budget increased by $135K per the revised plan.
+#1490  Operations chat: Heard Thitron's budget is now $1490K.
+#1491  Finance Office: Thitron budget decreased by $120K after review.
+#1492  Finance Office: Thitron budget decreased by $30K per the revised plan.
+#1493  Finance Office: Thitron budget increased by $25K.
+#1494  Finance Office: Thitron budget decreased by $10K after review.
+#1495  Finance Office: Thitron budget increased by $110K per the revised plan.
+#1496  PMO note: Thitron budget is going up to $1460K.
+#1497  Finance Office: Thitron budget decreased by $55K.
+#1498  Finance Office: Thitron budget increased by $140K.
+#1499  Vendor call: Thitron budget is going to $1610K.
+#1500  Sales update: Heard Thitron's budget is now $1620K.
+#1501  Engineering email: Pretty sure Thitron's budget is $1140K now.
+#1502  Finance Office: Withdraw update #1097.
+#1503  Finance Office: Withdraw update #0786.
+#1504  Finance Office: Withdraw update #1321.
+#1505  PMO note: Thitron budget is going up by $381K.
+#1506  Legal email: Thitron vendor onboarding call scheduled for Friday.
+#1507  Finance Office: Withdraw update #0997; it was entered in error.
+#1508  Finance Office: Thitron budget decreased by $65K per the revised plan.
+#1509  Finance Office: Thitron budget increased by $70K per the revised plan.
+#1510  PMO note: Thitron budget is going up by $208K.
+#1511  Legal email: Hearing Thitron's budget goes up $468K.
+#1512  Finance Office: Thitron budget increased by $25K.
+#1513  Engineering email: Heard Thitron's budget is now $1220K.
+#1514  PMO note: Expect Thitron's budget to drop by $581K.
+#1515  Finance Office: Withdraw update #0164; it was entered in error.
+#1516  Legal email: Sounds like Thitron gets $371K less.
+#1517  Vendor call: Thitron demo rescheduled to Monday afternoon.
+#1518  Engineering email: Thitron design review moved to Room 6B.
+#1519  Finance Office: Thitron budget decreased by $85K.
+#1520  Finance Office: Thitron budget decreased by $80K.
+#1521  Facilities ticket: Sounds like Thitron gets $584K more.
+#1522  Finance Office: Thitron budget decreased by $10K per the revised plan.
+#1523  Marketing email: Hearing Thitron's budget goes down $44K.
+#1524  Finance Office: Thitron budget decreased by $105K.
+#1525  Finance Office: Withdraw update #1416; it was entered in error.
+#1526  Finance Office: Thitron budget increased by $140K.
+#1527  Finance Office: Thitron budget increased by $35K.
+#1528  PMO note: Thitron budget should land at $1320K.
+#1529  Finance Office: Thitron budget increased by $115K per the revised plan.
+#1530  Finance Office: Thitron budget increased by $45K per the revised plan.
+#1531  Finance Office: Thitron budget increased by $80K.
+#1532  PMO note: Expect Thitron's budget to drop by $591K.
+#1533  Finance Office: Withdraw update #0859.
+#1534  Facilities ticket: Sounds like Thitron gets $366K more.
+#1535  Finance Office: Thitron budget decreased by $60K.
+#1536  Engineering email: Heard Thitron's budget is now $1550K.
+#1537  Finance Office: Thitron budget increased by $110K per the revised plan.
+#1538  Legal email: Heard Thitron's budget is now $1450K.
+#1539  PMO note: Thitron budget is going down by $489K.
+#1540  Finance Office: Thitron cost center code changed to FC-3262.
+#1541  Legal email: Sounds like Thitron gets $264K more.
+#1542  Finance Office: Thitron budget increased by $162K.
+#1543  Finance Office: Thitron budget decreased by $25K per the revised plan.
+#1544  Finance Office: Withdraw update #1317; it was entered in error.
+#1545  Finance Office: Thitron budget increased by $120K per the revised plan.
+#1546  Marketing email: Thitron budget is going to $2640K.
+#1547  Facilities ticket: Thitron security review passed.
+#1548  Operations chat: Thitron budget is going down by $103K.
+#1549  PMO note: Heard Thitron's budget is now $2420K.
+#1550  Vendor call: Thitron budget is going down to $1920K.
+#1551  Finance Office: Withdraw update #1031.
+#1552  PMO note: Thitron demo rescheduled to Tuesday afternoon.
+#1553  Finance Office: Withdraw update #1036; it was entered in error.
+#1554  Finance Office: Thitron budget increased by $65K after review.
+#1555  Finance Office: Withdraw update #0190; it was entered in error.
+#1556  Marketing email: Thitron budget is going to $1090K.
+#1557  Operations chat: Thitron budget is going down by $516K.
+#1558  Facilities ticket: Sounds like Thitron gets $42K more.
+#1559  Finance Office: Thitron budget decreased by $55K.
+#1560  Engineering email: Sounds like Thitron gets $68K more.
+#1561  Finance Office: Withdraw update #1018.
+#1562  Finance Office: Thitron budget decreased by $65K after review.
+#1563  Operations chat: Heard Thitron's budget is now $1090K.
+#1564  Finance Office: Thitron budget decreased by $45K per the revised plan.
+#1565  Finance Office: Thitron budget decreased by $60K after review.
+#1566  Finance Office: Thitron budget decreased by $105K.
+#1567  Finance Office: Thitron budget decreased by $55K.
+#1568  Finance Office: Thitron budget decreased by $65K.
+#1569  Facilities ticket: Thitron budget is going up by $337K.
+#1570  Finance Office: Thitron budget increased by $150K after review.
+#1571  Finance Office: Thitron budget decreased by $135K.
+#1572  Marketing email: Heard Thitron's budget is now $720K.
+#1573  Vendor call: Thitron vendor onboarding call scheduled for Monday.
+#1574  Finance Office: Thitron budget increased by $125K per the revised plan.
+#1575  Finance Office: Thitron budget decreased by $55K after review.
+#1576  Finance Office: Withdraw update #0735.
+#1577  Facilities ticket: Thitron budget is going up by $334K.
+#1578  Finance Office: Thitron budget increased by $90K per the revised plan.
+#1579  Finance Office: Withdraw update #1260; it was entered in error.
+#1580  Finance Office: Withdraw update #0409; it was entered in error.
+#1581  Finance Office: Withdraw update #0881; it was entered in error.
+#1582  Finance Office: Thitron purchase order FC-8712 closed.
+#1583  Finance Office: Thitron budget decreased by $100K after review.
+#1584  Finance Office: Withdraw update #1305; it was entered in error.
+#1585  Finance Office: Thitron budget increased by $120K after review.
+#1586  Finance Office: Thitron budget decreased by $130K per the revised plan.
+#1587  Finance Office: Thitron budget increased by $55K per the revised plan.
+#1588  Facilities ticket: Pretty sure Thitron's budget is $2450K now.
+#1589  Finance Office: Withdraw update #0631; it was entered in error.
+#1590  Finance Office: Thitron budget decreased by $20K per the revised plan.
+#1591  Finance Office: Thitron budget increased by $95K.
+#1592  Finance Office: Thitron budget decreased by $45K per the revised plan.
+#1593  PMO note: Thitron weekly sync moved to Thursdays.
+#1594  Finance Office: Withdraw update #1507.
+#1595  Finance Office: Thitron budget increased by $65K per the revised plan.
+#1596  Finance Office: Thitron budget increased by $145K per the revised plan.
+#1597  Finance Office: Withdraw update #1542; it was entered in error.
+#1598  Finance Office: Thitron budget increased by $65K per the revised plan.
+#1599  Engineering email: Thitron vendor onboarding call scheduled for Thursday.
+#1600  Finance Office: Thitron budget increased by $140K.
+
+Question: What is Thitron's budget now?

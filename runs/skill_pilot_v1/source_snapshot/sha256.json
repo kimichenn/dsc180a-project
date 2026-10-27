@@ -1,0 +1,22 @@
+{
+  "experiment/__init__.py": "c760795d5ca9fa2556afde41cc60c71cbc6a09392f0f6378d21923c088fcaa96",
+  "experiment/__main__.py": "04ecb63342dd3e2eb6a2f1d4f9efb8f533bf5206b8ecdd774cd41a2201a84b5a",
+  "experiment/analysis.py": "c7419631f2017966475c92eaf510637a43e0653c95df5d61a92ab2a04880cc31",
+  "experiment/checks.py": "d3146e28882724a596b507db15b3c9d9e1d772093c6fcbac586208fce4f233f6",
+  "experiment/cli.py": "1e162459fd1d0748200165ec391abd12ec167208c0bcc2b5f2589cbb72163c29",
+  "experiment/clients/__init__.py": "011dcb373064d82fed54881109e4c77f0f97b23af1d55688531dbbab7a417db0",
+  "experiment/clients/base.py": "9e61ad02adad87074f01895a2e3660603f28e6b54e5c4dc3f92407961386e263",
+  "experiment/clients/claude_code.py": "bdf703841c69633bfaf89473b0b39e2aa6a46bf859245e4b428beb89655ec501",
+  "experiment/clients/codex.py": "a13d891d8bb97a31cf53739e0c9c6cf73d6261301a92922027fec1506a7b8aeb",
+  "experiment/collect.py": "64f01d37123fa767fb17e8e842ea2bed86396fc7cd7b0f683943ba73a6a21321",
+  "experiment/config.py": "abe58e324a341178e131b8177705281dbd6c8ab55adc4a95471818979f341495",
+  "experiment/generator.py": "5ecfaaa1f4555cb7f928f950e9f35e0420fe863858150ff9e118c30078c59f4d",
+  "experiment/pilot.py": "1cfca44fa58a02f84e799de64b6497df2924644ad4120b01eaaf33289621a5cf",
+  "experiment/prompts.py": "36d9934038348c3098cdc0b4a641770fb9c434e28d9ed9520e7126b582bd98ae",
+  "experiment/records.py": "bef456baf91ecf12cf295e038360218b7a82b55d8fc6ebe4ea511377027a908d",
+  "experiment/runs.py": "0d435d0fd183f12e946db4a579320a293bf5290c1f3b7465d72215c363a415ac",
+  "experiment/scoring.py": "d8507d961b16d7f3b3cae2c0a2a10e8c5daa85a9dc80551c4c0de6cadc38235a",
+  "experiment/solvers.py": "bee1bca44ed35ed98eee446d04505af162783ffa8c22a9ab427baf28142ad704",
+  "experiment/text.py": "509ef6b91328ddeb27776eef485617f2ee4baa6f85cb3a19dda5704a597dd414",
+  "experiment/world.py": "676b52a00349e8f415bf35a2672d89f72f8941bc2b61a6461373629ecde98467"
+}

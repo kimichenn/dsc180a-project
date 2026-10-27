@@ -1,0 +1,63 @@
+{
+ "trial_id": "s750004_n1600_C_workflow_v1_gpt_r3",
+ "order": 398,
+ "world_id": "s750004_n1600",
+ "version": "C",
+ "instruction": "workflow_v1",
+ "model": "gpt",
+ "repeat": 3,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "69c58e7bab3fc99340c1f6ed7e9e7f4fce7ae80e9213d81cd48768aff49fbfcb",
+ "started_at": "2026-10-26T04:00:14+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Only Finance Office budget updates count. There are no withdrawals in the supplied records, so every budget increase and decrease applies once.\n\nStarting from **$1,560K** in #0001:\n\n| Records | Net budget change |\n|---|---:|\n| #0002\u2013#0100 | +$1,878K |\n| #0101\u2013#0200 | \u2212$218K |\n| #0201\u2013#0300 | \u2212$2K |\n| #0301\u2013#0400 | +$444K |\n| #0401\u2013#0500 | \u2212$1,713K |\n| #0501\u2013#0600 | +$333K |\n| #0601\u2013#0700 | \u2212$26K |\n| #0701\u2013#0800 | \u2212$1,320K |\n| #0801\u2013#0900 | +$489K |\n| #0901\u2013#1000 | +$190K |\n| #1001\u2013#1100 | \u2212$186K |\n| #1101\u2013#1200 | +$80K |\n| #1201\u2013#1300 | \u2212$190K |\n| #1301\u2013#1400 | \u2212$535K |\n| #1401\u2013#1500 | +$210K |\n| #1501\u2013#1600 | +$5K |\n\nThe segment changes total **\u2212$561K**, giving **$1,560K \u2212 $561K = $999K**.\n\nANSWER: $999K",
+ "usage": {
+  "input_tokens": 28352,
+  "cached_input_tokens": 0,
+  "output_tokens": 3829,
+  "reasoning_output_tokens": 3509
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a1765d-b206-7a63-8f20-e143d9e821fb"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Only Finance Office budget updates count. There are no withdrawals in the supplied records, so every budget increase and decrease applies once.\n\nStarting from **$1,560K** in #0001:\n\n| Records | Net budget change |\n|---|---:|\n| #0002\u2013#0100 | +$1,878K |\n| #0101\u2013#0200 | \u2212$218K |\n| #0201\u2013#0300 | \u2212$2K |\n| #0301\u2013#0400 | +$444K |\n| #0401\u2013#0500 | \u2212$1,713K |\n| #0501\u2013#0600 | +$333K |\n| #0601\u2013#0700 | \u2212$26K |\n| #0701\u2013#0800 | \u2212$1,320K |\n| #0801\u2013#0900 | +$489K |\n| #0901\u2013#1000 | +$190K |\n| #1001\u2013#1100 | \u2212$186K |\n| #1101\u2013#1200 | +$80K |\n| #1201\u2013#1300 | \u2212$190K |\n| #1301\u2013#1400 | \u2212$535K |\n| #1401\u2013#1500 | +$210K |\n| #1501\u2013#1600 | +$5K |\n\nThe segment changes total **\u2212$561K**, giving **$1,560K \u2212 $561K = $999K**.\n\nANSWER: $999K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 28352,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3829,
+     "reasoning_output_tokens": 3509
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T04:00:14.371178Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T04:00:14.373131Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T04:00:14.374374Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T04:00:14.375824Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T04:00:14.377266Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T04:00:14.378765Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T04:00:14.384850Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T04:01:20.942295Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a1765d-b206-7a63-8f20-e143d9e821fb.1792987214344036000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T04:01:21+00:00",
+ "elapsed_s": 67.1
+}

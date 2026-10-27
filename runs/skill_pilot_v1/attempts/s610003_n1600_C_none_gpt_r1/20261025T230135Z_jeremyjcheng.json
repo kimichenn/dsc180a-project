@@ -1,0 +1,63 @@
+{
+ "trial_id": "s610003_n1600_C_none_gpt_r1",
+ "order": 62,
+ "world_id": "s610003_n1600",
+ "version": "C",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "d4c43d91d2426066bef2e634338d2ebae3f622b4af9285f23369fab939572a93",
+ "started_at": "2026-10-25T23:01:35+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "ANSWER: $2553K",
+ "usage": {
+  "input_tokens": 27116,
+  "cached_input_tokens": 0,
+  "output_tokens": 3050,
+  "reasoning_output_tokens": 3038
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a1754c-4790-7e41-88c5-df83735ff7bc"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "ANSWER: $2553K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 27116,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3050,
+     "reasoning_output_tokens": 3038
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-25T23:01:35.794154Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-25T23:01:35.796320Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-25T23:01:35.824136Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-25T23:01:35.825046Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-25T23:01:35.849811Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n"
+ },
+ "finished_at": "2026-10-25T23:02:12+00:00",
+ "elapsed_s": 37.6
+}

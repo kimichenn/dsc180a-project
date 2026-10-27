@@ -1,0 +1,63 @@
+{
+ "trial_id": "s750003_n1600_RG_workflow_v1_gpt_r5",
+ "order": 283,
+ "world_id": "s750003_n1600",
+ "version": "RG",
+ "instruction": "workflow_v1",
+ "model": "gpt",
+ "repeat": 5,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "bb34b632792ee91fe3cd99b9864ae80c5dc0c09a971fc7442d50dcd1e6e24c0a",
+ "started_at": "2026-10-26T03:39:09+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Fubrus\u2019s budget is **$400K**.\n\nI counted only Finance Office budget updates, resolving withdrawals of withdrawals before summing. Non-Finance messages and administrative notices have no budget effect.\n\nThe following checkpoints apply the updates that remain effective **at the end of all records**:\n\n| Records processed | Budget subtotal |\n|---|---:|\n| #0001\u2013#0400 | $2,241K |\n| #0401\u2013#0800 | $1,772K |\n| #0801\u2013#1200 | $1,765K |\n| #1201\u2013#1600 | $400K |\n\nFor example, the withdrawal chain ultimately restores #0009\u2019s $462K decrease, while #1591 cancels #1555\u2019s $321K decrease. Each surviving update is counted once.\n\nANSWER: $400K",
+ "usage": {
+  "input_tokens": 31337,
+  "cached_input_tokens": 0,
+  "output_tokens": 4837,
+  "reasoning_output_tokens": 4657
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a1764a-646c-7c52-b2d0-a900d910c74d"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Fubrus\u2019s budget is **$400K**.\n\nI counted only Finance Office budget updates, resolving withdrawals of withdrawals before summing. Non-Finance messages and administrative notices have no budget effect.\n\nThe following checkpoints apply the updates that remain effective **at the end of all records**:\n\n| Records processed | Budget subtotal |\n|---|---:|\n| #0001\u2013#0400 | $2,241K |\n| #0401\u2013#0800 | $1,772K |\n| #0801\u2013#1200 | $1,765K |\n| #1201\u2013#1600 | $400K |\n\nFor example, the withdrawal chain ultimately restores #0009\u2019s $462K decrease, while #1591 cancels #1555\u2019s $321K decrease. Each surviving update is counted once.\n\nANSWER: $400K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 31337,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 4837,
+     "reasoning_output_tokens": 4657
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T03:39:09.326032Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:39:09.327339Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:39:09.328506Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:39:09.329633Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:39:09.330647Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:39:09.331698Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:39:09.332709Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:39:09.333735Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:39:09.350094Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T03:41:17.646293Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a1764a-646c-7c52-b2d0-a900d910c74d.1792985949293659000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T03:41:17+00:00",
+ "elapsed_s": 128.8
+}

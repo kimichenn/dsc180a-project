@@ -1,0 +1,41 @@
+# Development only. First stage of the v2 pilot: five fresh logs, all eight cells,
+# once per model. The repeatability check is a separate next step after this batch.
+# Never pool these seeds with the main run or tune on main-run results.
+# Uses the branch's existing generator; the v2 chronological-budget fix is pending.
+description = "General conflict-resolution skill v1: exploratory pilot using legacy generator, 5 new logs, all 8 cells, one repeat"
+
+[design]
+seed_start = 610000
+logs = 5
+versions = ["C", "R", "RG", "E"]
+instructions = ["none", "skill"]
+repeats = 1
+schedule_seed = 181
+
+[generator]
+records = 1600
+adjust_share = 0.45
+withdraw_share = 0.15
+gossip_share = 0.30
+nested_rate = 0.35
+relative_gossip_share = 0.5
+amount_step = 5
+amount_max = 150
+unique_amount_max = 600
+budget_min = 200
+budget_max = 3000
+
+[collection]
+timeout_seconds = 1800
+
+[models.claude]
+provider = "claude-code"
+model = "claude-opus-5-5"
+effort = "low"
+max_output_tokens = 32000
+
+[models.gpt]
+provider = "codex"
+model = "gpt-6-astra"
+effort = "low"
+max_output_tokens = 32000

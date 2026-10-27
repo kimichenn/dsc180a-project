@@ -1,0 +1,63 @@
+{
+ "trial_id": "s730001_n1600_C_budget_backward_v2_gpt_r1",
+ "order": 141,
+ "world_id": "s730001_n1600",
+ "version": "C",
+ "instruction": "budget_backward_v2",
+ "model": "gpt",
+ "repeat": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "6318d6537f1a00412ad40c713e650e5609881f9fd129fe24affbd7560fe3870c",
+ "started_at": "2026-10-26T01:08:02+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Only Finance Office budget changes count. There are no withdrawals in these records; administrative messages and messages from other sources contribute nothing.\n\nThe opening budget in #0001 is **$1,440K**. Summing the subsequent changes gives:\n\n| Record range | Increases ($K) | Decreases ($K) | Net change ($K) |\n|---|---:|---:|---:|\n| #0002\u2013#0200 | 4,545 | 3,916 | +629 |\n| #0201\u2013#0400 | 2,750 | 2,302 | +448 |\n| #0401\u2013#0600 | 2,607 | 4,065 | \u22121,458 |\n| #0601\u2013#0800 | 3,026 | 2,625 | +401 |\n| #0801\u2013#1000 | 3,908 | 2,767 | +1,141 |\n| #1001\u2013#1200 | 2,494 | 3,345 | \u2212851 |\n| #1201\u2013#1400 | 3,345 | 4,228 | \u2212883 |\n| #1401\u2013#1600 | 4,015 | 2,920 | +1,095 |\n| **Total** | **26,690** | **26,168** | **+522** |\n\nCross-check: $1,440K + $26,690K \u2212 $26,168K = **$1,962K**.\n\nANSWER: $1962K",
+ "usage": {
+  "input_tokens": 28983,
+  "cached_input_tokens": 0,
+  "output_tokens": 3528,
+  "reasoning_output_tokens": 3201
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a175c0-0c8d-7421-a45b-0614a615db22"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Only Finance Office budget changes count. There are no withdrawals in these records; administrative messages and messages from other sources contribute nothing.\n\nThe opening budget in #0001 is **$1,440K**. Summing the subsequent changes gives:\n\n| Record range | Increases ($K) | Decreases ($K) | Net change ($K) |\n|---|---:|---:|---:|\n| #0002\u2013#0200 | 4,545 | 3,916 | +629 |\n| #0201\u2013#0400 | 2,750 | 2,302 | +448 |\n| #0401\u2013#0600 | 2,607 | 4,065 | \u22121,458 |\n| #0601\u2013#0800 | 3,026 | 2,625 | +401 |\n| #0801\u2013#1000 | 3,908 | 2,767 | +1,141 |\n| #1001\u2013#1200 | 2,494 | 3,345 | \u2212851 |\n| #1201\u2013#1400 | 3,345 | 4,228 | \u2212883 |\n| #1401\u2013#1600 | 4,015 | 2,920 | +1,095 |\n| **Total** | **26,690** | **26,168** | **+522** |\n\nCross-check: $1,440K + $26,690K \u2212 $26,168K = **$1,962K**.\n\nANSWER: $1962K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 28983,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3528,
+     "reasoning_output_tokens": 3201
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T01:08:02.833909Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:08:02.860960Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:08:02.862077Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:08:02.863144Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:08:02.864150Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:08:02.865129Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:08:02.866106Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:08:02.867059Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T01:08:02.881920Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T01:09:58.155083Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a175c0-0c8d-7421-a45b-0614a615db22.1792976882830959000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T01:09:58+00:00",
+ "elapsed_s": 115.8
+}

@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Zupul budget set to $560K after review.
+#0002  Finance Office: Zupul budget increased by $242K per the revised plan.
+#0003  Sales update: Pretty sure Zupul's budget is $960K now.
+#0004  Finance Office: Zupul budget increased by $418K.
+#0005  Sales update: Zupul kickoff moved to Building 6.
+#0006  Sales update: Heard Zupul's budget is now $920K.
+#0007  Sales update: Heard Zupul's budget is now $1580K.
+#0008  Facilities ticket: Zupul vendor onboarding call scheduled for Monday.
+#0009  Facilities ticket: Zupul budget is going up by $344K.
+#0010  Finance Office: Zupul budget decreased by $90K per the revised plan.
+#0011  Finance Office: Zupul budget decreased by $384K per the revised plan.
+#0012  Finance Office: Withdraw update #0004.
+#0013  Finance Office: Zupul budget increased by $130K.
+#0014  Finance Office: Zupul budget increased by $433K per the revised plan.
+#0015  Finance Office: Zupul budget increased by $599K after review.
+#0016  Finance Office: Withdraw update #0015.
+#0017  Legal email: Zupul budget is going to $1150K.
+#0018  Finance Office: Zupul cost center code changed to FC-4479.
+#0019  Finance Office: Zupul budget increased by $125K after review.
+#0020  Finance Office: Zupul budget increased by $54K.
+#0021  Finance Office: Zupul budget decreased by $472K after review.
+#0022  Finance Office: Withdraw update #0020.
+#0023  Finance Office: Zupul finance review moved to Room 1A.
+#0024  Finance Office: Zupul budget increased by $105K per the revised plan.
+#0025  Sales update: Zupul budget is going down by $69K.
+#0026  Finance Office: Zupul budget increased by $582K per the revised plan.
+#0027  Finance Office: Zupul budget decreased by $58K after review.
+#0028  Operations chat: Heard Zupul's budget is now $830K.
+#0029  Vendor call: Sounds like Zupul gets $469K less.
+#0030  Finance Office: Zupul budget decreased by $40K per the revised plan.
+#0031  PMO note: Zupul budget is going up to $1260K.
+#0032  Finance Office: Zupul budget increased by $7K after review.
+#0033  Finance Office: Zupul budget decreased by $140K.
+#0034  Finance Office: Zupul budget increased by $26K after review.
+#0035  Finance Office: Zupul budget increased by $401K.
+#0036  Finance Office: Zupul budget increased by $489K after review.
+#0037  Finance Office: Withdraw update #0022.
+#0038  Finance Office: Withdraw update #0012.
+#0039  Vendor call: Pretty sure Zupul's budget is $2020K now.
+#0040  Finance Office: Withdraw update #0034; it was entered in error.
+#0041  Facilities ticket: Zupul kickoff moved to Building 3.
+#0042  Finance Office: Withdraw update #0038.
+#0043  Finance Office: Withdraw update #0035; it was entered in error.
+#0044  Finance Office: Zupul budget decreased by $164K per the revised plan.
+#0045  Finance Office: Zupul budget increased by $103K.
+#0046  Facilities ticket: Zupul documentation moved to the shared drive.
+#0047  Finance Office: Zupul budget decreased by $80K.
+#0048  Finance Office: Zupul budget decreased by $104K after review.
+#0049  Engineering email: Zupul budget should land at $1210K.
+#0050  Legal email: Expect Zupul's budget to rise by $192K.
+#0051  Finance Office: Zupul budget decreased by $90K.
+#0052  Finance Office: Zupul budget decreased by $72K after review.
+#0053  Sales update: Zupul budget should land at $890K.
+#0054  Finance Office: Withdraw update #0040; it was entered in error.
+#0055  Finance Office: Zupul budget increased by $20K per the revised plan.
+#0056  Finance Office: Zupul budget decreased by $125K after review.
+#0057  Finance Office: Zupul finance review moved to Room 2C.
+#0058  PMO note: Zupul security review passed.
+#0059  Finance Office: Zupul budget decreased by $25K after review.
+#0060  PMO note: Pretty sure Zupul's budget is $1350K now.
+#0061  Engineering email: Sounds like Zupul gets $36K less.
+#0062  Marketing email: Expect Zupul's budget to rise by $567K.
+#0063  Operations chat: Zupul budget should land at $860K.
+#0064  Finance Office: Zupul finance review moved to Room 6C.
+#0065  Marketing email: Zupul documentation moved to the shared drive.
+#0066  Finance Office: Zupul budget increased by $100K after review.
+#0067  Finance Office: Zupul budget decreased by $519K per the revised plan.
+#0068  Finance Office: Withdraw update #0016.
+#0069  Finance Office: Zupul budget decreased by $80K after review.
+#0070  Finance Office: Zupul budget decreased by $444K after review.
+#0071  Finance Office: Zupul budget increased by $538K after review.
+#0072  Finance Office: Withdraw update #0037; it was entered in error.
+#0073  Finance Office: Zupul budget decreased by $115K after review.
+#0074  PMO note: Zupul status report filed for week 9.
+#0075  Finance Office: Zupul budget decreased by $319K per the revised plan.
+#0076  Finance Office: Withdraw update #0036; it was entered in error.
+#0077  Finance Office: Zupul budget increased by $337K.
+#0078  Finance Office: Withdraw update #0077; it was entered in error.
+#0079  Engineering email: Zupul weekly sync moved to Fridays.
+#0080  Finance Office: Withdraw update #0067.
+#0081  Finance Office: Zupul budget increased by $501K after review.
+#0082  PMO note: Zupul budget should land at $1370K.
+#0083  PMO note: Hearing Zupul's budget goes down $379K.
+#0084  Finance Office: Zupul budget decreased by $568K.
+#0085  Finance Office: Zupul budget decreased by $90K per the revised plan.
+#0086  Finance Office: Zupul budget increased by $529K after review.
+#0087  Finance Office: Withdraw update #0021; it was entered in error.
+#0088  PMO note: Hearing Zupul's budget goes up $333K.
+#0089  Finance Office: Zupul budget decreased by $62K.
+#0090  Finance Office: Zupul budget increased by $97K.
+#0091  Finance Office: Zupul budget increased by $456K after review.
+#0092  Finance Office: Withdraw update #0081.
+#0093  Operations chat: Zupul budget should land at $1990K.
+#0094  Finance Office: Zupul budget decreased by $28K after review.
+#0095  Finance Office: Zupul budget increased by $37K after review.
+#0096  Marketing email: Hearing Zupul's budget goes up $107K.
+#0097  Finance Office: Zupul budget decreased by $363K.
+#0098  Finance Office: Withdraw update #0044.
+#0099  Operations chat: Expect Zupul's budget to rise by $396K.
+#0100  Facilities ticket: Zupul budget should land at $1950K.
+#0101  Finance Office: Zupul budget increased by $382K.
+#0102  Finance Office: Withdraw update #0054; it was entered in error.
+#0103  Finance Office: Zupul budget decreased by $90K per the revised plan.
+#0104  Engineering email: Zupul status report filed for week 20.
+#0105  Finance Office: Zupul budget increased by $45K after review.
+#0106  Sales update: Zupul budget should land at $2130K.
+#0107  Operations chat: Zupul documentation moved to the shared drive.
+#0108  Finance Office: Zupul budget increased by $486K per the revised plan.
+#0109  Finance Office: Zupul budget increased by $186K per the revised plan.
+#0110  PMO note: Zupul budget should land at $2060K.
+#0111  Finance Office: Zupul budget increased by $75K after review.
+#0112  Operations chat: Heard Zupul's budget is now $2630K.
+#0113  Finance Office: Zupul budget decreased by $145K per the revised plan.
+#0114  PMO note: Zupul budget should land at $2490K.
+#0115  Legal email: Zupul budget should land at $2800K.
+#0116  Finance Office: Zupul budget decreased by $125K per the revised plan.
+#0117  Engineering email: Zupul budget should land at $2560K.
+#0118  Finance Office: Withdraw update #0086; it was entered in error.
+#0119  Finance Office: Zupul budget decreased by $504K after review.
+#0120  Legal email: Hearing Zupul's budget goes up $43K.
+#0121  Finance Office: Zupul budget decreased by $571K after review.
+#0122  Sales update: Zupul risk register updated with 4 new items.
+#0123  Finance Office: Zupul budget increased by $354K after review.
+#0124  Finance Office: Withdraw update #0068.
+#0125  Finance Office: Zupul budget increased by $53K.
+#0126  Finance Office: Zupul budget increased by $91K after review.
+#0127  Finance Office: Withdraw update #0032; it was entered in error.
+#0128  Finance Office: Zupul budget increased by $125K.
+#0129  Finance Office: Zupul budget increased by $316K.
+#0130  Finance Office: Zupul budget decreased by $491K per the revised plan.
+#0131  Finance Office: Withdraw update #0090; it was entered in error.
+#0132  Finance Office: Zupul budget increased by $70K after review.
+#0133  Finance Office: Zupul budget increased by $368K.
+#0134  Finance Office: Zupul budget decreased by $293K.
+#0135  Finance Office: Zupul budget increased by $208K.
+#0136  Finance Office: Zupul budget increased by $38K after review.
+#0137  Legal email: Zupul budget is going to $650K.
+#0138  Finance Office: Zupul invoice batch FC-3927 archived.
+#0139  Marketing email: Zupul budget is going to $560K.
+#0140  Finance Office: Reminder: Zupul expense reports are due Tuesday.
+#0141  Legal email: Sounds like Zupul gets $253K less.
+#0142  Facilities ticket: Hearing Zupul's budget goes up $544K.
+#0143  Finance Office: Zupul budget decreased by $20K per the revised plan.
+#0144  Sales update: Zupul budget is going up by $83K.
+#0145  Finance Office: Zupul budget increased by $522K after review.
+#0146  Finance Office: Zupul budget decreased by $25K per the revised plan.
+#0147  Finance Office: Zupul budget decreased by $378K.
+#0148  Operations chat: Zupul security review passed.
+#0149  Finance Office: Zupul budget increased by $213K.
+#0150  Sales update: Heard Zupul's budget is now $940K.
+#0151  PMO note: Zupul sprint 6 retrospective notes posted.
+#0152  Finance Office: Zupul budget increased by $80K per the revised plan.
+#0153  Finance Office: Withdraw update #0118.
+#0154  Finance Office: Zupul budget increased by $120K per the revised plan.
+#0155  Facilities ticket: Zupul budget is going up by $203K.
+#0156  Marketing email: Pretty sure Zupul's budget is $2210K now.
+#0157  Legal email: Zupul budget is going to $1500K.
+#0158  Finance Office: Withdraw update #0072; it was entered in error.
+#0159  Finance Office: Zupul budget increased by $85K per the revised plan.
+#0160  Finance Office: Zupul budget increased by $150K per the revised plan.
+#0161  Sales update: Zupul budget is going down by $66K.
+#0162  Legal email: Zupul budget should land at $2630K.
+#0163  Finance Office: Withdraw update #0130; it was entered in error.
+#0164  Finance Office: Zupul budget decreased by $87K.
+#0165  Legal email: Heard Zupul's budget is now $2800K.
+#0166  Finance Office: Zupul budget decreased by $15K after review.
+#0167  Operations chat: Zupul site visit confirmed for Thursday.
+#0168  Finance Office: Withdraw update #0147; it was entered in error.
+#0169  Finance Office: Withdraw update #0026.
+#0170  Sales update: Sounds like Zupul gets $133K less.
+#0171  Finance Office: Withdraw update #0014; it was entered in error.
+#0172  Finance Office: Zupul budget decreased by $574K per the revised plan.
+#0173  Finance Office: Reminder: Zupul expense reports are due Tuesday.
+#0174  Finance Office: Zupul budget decreased by $40K.
+#0175  Finance Office: Withdraw update #0071; it was entered in error.
+#0176  Facilities ticket: Zupul budget is going to $690K.
+#0177  Finance Office: Zupul budget increased by $60K.
+#0178  Engineering email: Expect Zupul's budget to rise by $94K.
+#0179  Finance Office: Withdraw update #0175.
+#0180  Finance Office: Withdraw update #0092.
+#0181  Finance Office: Zupul budget increased by $362K per the revised plan.
+#0182  Operations chat: Zupul budget is going down to $1930K.
+#0183  Finance Office: Zupul budget increased by $193K per the revised plan.
+#0184  Finance Office: Withdraw update #0163.
+#0185  PMO note: Zupul vendor onboarding call scheduled for Monday.
+#0186  Finance Office: Zupul budget increased by $92K.
+#0187  Finance Office: Zupul budget decreased by $145K per the revised plan.
+#0188  Legal email: Zupul security review passed.
+#0189  Finance Office: Zupul budget increased by $5K.
+#0190  Vendor call: Zupul budget should land at $2000K.
+#0191  Finance Office: Zupul budget increased by $163K after review.
+#0192  Operations chat: Zupul site visit confirmed for Monday.
+#0193  Finance Office: Zupul budget decreased by $35K after review.
+#0194  Finance Office: Zupul budget increased by $131K per the revised plan.
+#0195  Vendor call: Zupul vendor onboarding call scheduled for Tuesday.
+#0196  Finance Office: Zupul budget decreased by $75K per the revised plan.
+#0197  Finance Office: Zupul budget increased by $279K per the revised plan.
+#0198  Finance Office: Withdraw update #0134.
+#0199  Finance Office: Zupul budget decreased by $506K after review.
+#0200  Finance Office: Zupul audit notes filed.
+#0201  Marketing email: Zupul budget is going down to $1440K.
+#0202  Finance Office: Zupul budget decreased by $209K.
+#0203  Finance Office: Zupul budget decreased by $276K after review.
+#0204  Finance Office: Zupul budget decreased by $110K per the revised plan.
+#0205  Finance Office: Zupul budget increased by $143K per the revised plan.
+#0206  Finance Office: Withdraw update #0181; it was entered in error.
+#0207  Finance Office: Zupul budget increased by $130K after review.
+#0208  Finance Office: Zupul budget increased by $75K per the revised plan.
+#0209  Finance Office: Zupul budget increased by $85K after review.
+#0210  Finance Office: Withdraw update #0129; it was entered in error.
+#0211  Finance Office: Zupul budget decreased by $411K per the revised plan.
+#0212  Finance Office: Zupul budget decreased by $10K.
+#0213  Finance Office: Zupul budget increased by $30K after review.
+#0214  Finance Office: Zupul budget decreased by $150K after review.
+#0215  Finance Office: Zupul budget increased by $29K.
+#0216  Finance Office: Withdraw update #0186; it was entered in error.
+#0217  Finance Office: Zupul budget increased by $12K.
+#0218  Engineering email: Sounds like Zupul gets $214K more.
+#0219  Marketing email: Zupul budget should land at $740K.
+#0220  Finance Office: Withdraw update #0205.
+#0221  Finance Office: Zupul budget increased by $374K after review.
+#0222  Finance Office: Withdraw update #0108; it was entered in error.
+#0223  Sales update: Zupul budget is going to $300K.
+#0224  Finance Office: Zupul budget increased by $85K per the revised plan.
+#0225  PMO note: Zupul budget is going up by $56K.
+#0226  Engineering email: Zupul budget is going up by $3K.
+#0227  Finance Office: Zupul budget increased by $65K.
+#0228  Finance Office: Zupul budget increased by $341K per the revised plan.
+#0229  Finance Office: Zupul budget increased by $105K.
+#0230  Facilities ticket: Sounds like Zupul gets $102K more.
+#0231  Finance Office: Zupul budget increased by $569K.
+#0232  Sales update: Zupul budget is going to $1090K.
+#0233  Finance Office: Withdraw update #0078.
+#0234  Engineering email: Sounds like Zupul gets $187K less.
+#0235  Finance Office: Zupul budget increased by $234K per the revised plan.
+#0236  Finance Office: Zupul budget increased by $110K per the revised plan.
+#0237  Finance Office: Withdraw update #0235; it was entered in error.
+#0238  Finance Office: Zupul budget increased by $35K.
+#0239  Finance Office: Zupul budget decreased by $361K after review.
+#0240  Finance Office: Zupul invoice batch FC-6181 archived.
+#0241  Sales update: Heard Zupul's budget is now $1290K.
+#0242  Facilities ticket: Heard Zupul's budget is now $1760K.
+#0243  Operations chat: Zupul budget is going up by $332K.
+#0244  Operations chat: Zupul sprint 42 retrospective notes posted.
+#0245  Operations chat: Zupul kickoff moved to Building 4.
+#0246  Operations chat: Heard Zupul's budget is now $2140K.
+#0247  Legal email: Zupul budget is going down by $263K.
+#0248  Finance Office: Zupul budget decreased by $478K after review.
+#0249  Facilities ticket: Zupul vendor onboarding call scheduled for Monday.
+#0250  Finance Office: Zupul invoice batch FC-3487 archived.
+#0251  Finance Office: Withdraw update #0075; it was entered in error.
+#0252  Vendor call: Zupul documentation moved to the shared drive.
+#0253  Finance Office: Zupul budget increased by $145K after review.
+#0254  Sales update: Pretty sure Zupul's budget is $2150K now.
+#0255  Finance Office: Zupul budget increased by $10K.
+#0256  Finance Office: Withdraw update #0220; it was entered in error.
+#0257  Finance Office: Zupul budget increased by $25K after review.
+#0258  Finance Office: Zupul budget increased by $16K.
+#0259  Finance Office: Zupul finance review moved to Room 5D.
+#0260  Finance Office: Zupul budget decreased by $60K after review.
+#0261  Finance Office: Zupul budget increased by $115K.
+#0262  Finance Office: Zupul budget increased by $34K.
+#0263  Sales update: Zupul budget should land at $1590K.
+#0264  Finance Office: Zupul budget increased by $212K after review.
+#0265  Finance Office: Zupul budget increased by $120K per the revised plan.
+#0266  PMO note: Pretty sure Zupul's budget is $2720K now.
+#0267  Finance Office: Zupul budget increased by $100K after review.
+#0268  Marketing email: Zupul security review passed.
+#0269  Facilities ticket: Hearing Zupul's budget goes up $224K.
+#0270  Finance Office: Withdraw update #0101.
+#0271  PMO note: Heard Zupul's budget is now $2420K.
+#0272  Facilities ticket: Zupul documentation moved to the shared drive.
+#0273  Finance Office: Zupul budget decreased by $15K per the revised plan.
+#0274  Finance Office: Zupul budget decreased by $115K after review.
+#0275  Finance Office: Withdraw update #0124.
+#0276  Finance Office: Zupul cost center code changed to FC-8603.
+#0277  Operations chat: Zupul budget should land at $2570K.
+#0278  Finance Office: Withdraw update #0270; it was entered in error.
+#0279  Facilities ticket: Zupul budget should land at $2270K.
+#0280  Finance Office: Zupul budget decreased by $55K.
+#0281  Finance Office: Withdraw update #0145.
+#0282  Finance Office: Zupul budget decreased by $25K per the revised plan.
+#0283  Finance Office: Withdraw update #0211; it was entered in error.
+#0284  Finance Office: Zupul budget decreased by $24K after review.
+#0285  Finance Office: Withdraw update #0191; it was entered in error.
+#0286  Finance Office: Zupul invoice batch FC-7310 archived.
+#0287  Sales update: Zupul budget is going down by $228K.
+#0288  Finance Office: Zupul budget increased by $493K.
+#0289  Finance Office: Withdraw update #0183; it was entered in error.
+#0290  Sales update: Zupul budget should land at $2800K.
+#0291  Finance Office: Zupul budget decreased by $120K.
+#0292  Finance Office: Zupul budget decreased by $15K.
+#0293  Operations chat: Sounds like Zupul gets $119K less.
+#0294  Finance Office: Zupul budget decreased by $55K.
+#0295  Finance Office: Zupul budget decreased by $55K per the revised plan.
+#0296  PMO note: Zupul vendor onboarding call scheduled for Tuesday.
+#0297  Finance Office: Zupul budget decreased by $99K after review.
+#0298  Marketing email: Sounds like Zupul gets $487K more.
+#0299  Finance Office: Withdraw update #0084.
+#0300  Finance Office: Zupul budget decreased by $110K.
+#0301  Operations chat: Hearing Zupul's budget goes down $221K.
+#0302  Operations chat: Zupul budget is going down by $259K.
+#0303  Sales update: Sounds like Zupul gets $303K less.
+#0304  Finance Office: Zupul budget decreased by $267K.
+#0305  Finance Office: Zupul budget decreased by $70K per the revised plan.
+#0306  Sales update: Expect Zupul's budget to drop by $488K.
+#0307  Operations chat: Hearing Zupul's budget goes down $207K.
+#0308  Operations chat: Zupul vendor onboarding call scheduled for Monday.
+#0309  Legal email: Zupul budget is going up to $2800K.
+#0310  Finance Office: Zupul invoice batch FC-9729 archived.
+#0311  Marketing email: Zupul documentation moved to the shared drive.
+#0312  Facilities ticket: Hearing Zupul's budget goes down $311K.
+#0313  Marketing email: Expect Zupul's budget to rise by $286K.
+#0314  PMO note: Zupul design review moved to Room 5A.
+#0315  Finance Office: Withdraw update #0197.
+#0316  Finance Office: Zupul budget increased by $35K per the revised plan.
+#0317  Sales update: Heard Zupul's budget is now $2640K.
+#0318  Marketing email: Zupul demo rescheduled to Wednesday afternoon.
+#0319  Finance Office: Zupul finance review moved to Room 3D.
+#0320  Facilities ticket: Expect Zupul's budget to rise by $451K.
+#0321  Finance Office: Zupul budget increased by $125K after review.
+#0322  Legal email: Sounds like Zupul gets $217K less.
+#0323  Finance Office: Zupul budget increased by $586K per the revised plan.
+#0324  Engineering email: Sounds like Zupul gets $527K less.
+#0325  Finance Office: Zupul budget decreased by $542K per the revised plan.
+#0326  Operations chat: Zupul budget is going to $2440K.
+#0327  Marketing email: Zupul budget is going down by $386K.
+#0328  Vendor call: Heard Zupul's budget is now $2150K.
+#0329  Marketing email: Sounds like Zupul gets $373K less.
+#0330  Finance Office: Withdraw update #0109.
+#0331  PMO note: Pretty sure Zupul's budget is $2090K now.
+#0332  Marketing email: Zupul sprint 15 retrospective notes posted.
+#0333  Finance Office: Withdraw update #0097.
+#0334  Vendor call: Zupul budget is going down by $597K.
+#0335  Finance Office: Zupul budget decreased by $135K.
+#0336  Marketing email: Zupul budget is going to $2800K.
+#0337  Finance Office: Withdraw update #0123.
+#0338  Sales update: Zupul budget should land at $2360K.
+#0339  Finance Office: Zupul budget increased by $120K per the revised plan.
+#0340  Finance Office: Zupul budget increased by $508K.
+#0341  Finance Office: Zupul budget decreased by $399K.
+#0342  Finance Office: Zupul budget decreased by $120K after review.
+#0343  Finance Office: Withdraw update #0215; it was entered in error.
+#0344  Operations chat: Zupul budget is going down to $1860K.
+#0345  Finance Office: Zupul budget decreased by $50K per the revised plan.
+#0346  Finance Office: Zupul budget decreased by $20K.
+#0347  Facilities ticket: Zupul budget is going to $2340K.
+#0348  Operations chat: Zupul budget is going up to $2630K.
+#0349  Finance Office: Zupul budget decreased by $120K after review.
+#0350  Finance Office: Zupul budget increased by $416K.
+#0351  Finance Office: Zupul budget decreased by $5K per the revised plan.
+#0352  Finance Office: Zupul budget increased by $145K.
+#0353  Operations chat: Sounds like Zupul gets $112K less.
+#0354  Finance Office: Zupul budget decreased by $252K.
+#0355  Vendor call: Expect Zupul's budget to rise by $408K.
+#0356  Engineering email: Sounds like Zupul gets $27K more.
+#0357  Finance Office: Zupul budget decreased by $110K after review.
+#0358  Finance Office: Zupul budget decreased by $145K per the revised plan.
+#0359  Finance Office: Zupul budget increased by $407K after review.
+#0360  Engineering email: Zupul security review passed.
+#0361  Finance Office: Zupul budget decreased by $584K after review.
+#0362  Facilities ticket: Zupul budget is going down by $249K.
+#0363  Finance Office: Withdraw update #0102; it was entered in error.
+#0364  Legal email: Zupul budget is going up to $2440K.
+#0365  Finance Office: Zupul budget decreased by $272K per the revised plan.
+#0366  Finance Office: Zupul budget decreased by $492K per the revised plan.
+#0367  Finance Office: Zupul budget increased by $10K per the revised plan.
+#0368  Finance Office: Zupul budget increased by $90K per the revised plan.
+#0369  Finance Office: Zupul budget increased by $150K after review.
+#0370  Operations chat: Expect Zupul's budget to rise by $583K.
+#0371  Facilities ticket: Hearing Zupul's budget goes up $549K.
+#0372  Vendor call: Sounds like Zupul gets $391K more.
+#0373  Finance Office: Zupul budget decreased by $100K after review.
+#0374  Finance Office: Withdraw update #0315; it was entered in error.
+#0375  Finance Office: Zupul budget increased by $55K after review.
+#0376  Engineering email: Zupul kickoff moved to Building 8.
+#0377  Finance Office: Zupul budget decreased by $110K after review.
+#0378  Finance Office: Withdraw update #0203.
+#0379  Finance Office: Zupul budget decreased by $84K after review.
+#0380  Finance Office: Zupul budget decreased by $135K after review.
+#0381  Finance Office: Withdraw update #0233.
+#0382  Engineering email: Hearing Zupul's budget goes down $417K.
+#0383  Finance Office: Zupul budget decreased by $25K.
+#0384  Finance Office: Zupul budget decreased by $15K.
+#0385  Finance Office: Zupul budget increased by $80K.
+#0386  Sales update: Zupul budget is going to $1500K.
+#0387  Finance Office: Zupul budget increased by $573K after review.
+#0388  Finance Office: Zupul budget increased by $145K after review.
+#0389  Marketing email: Zupul budget is going to $1410K.
+#0390  Finance Office: Zupul budget increased by $105K.
+#0391  Finance Office: Withdraw update #0284; it was entered in error.
+#0392  Sales update: Zupul budget is going to $1830K.
+#0393  Finance Office: Zupul budget decreased by $115K per the revised plan.
+#0394  PMO note: Zupul budget is going down by $388K.
+#0395  Legal email: Hearing Zupul's budget goes down $453K.
+#0396  Sales update: Expect Zupul's budget to drop by $17K.
+#0397  Finance Office: Zupul budget increased by $10K per the revised plan.
+#0398  Engineering email: Zupul budget is going up by $516K.
+#0399  Finance Office: Zupul budget decreased by $45K after review.
+#0400  PMO note: Zupul budget should land at $2000K.
+#0401  Finance Office: Withdraw update #0299.
+#0402  Finance Office: Zupul purchase order FC-1517 closed.
+#0403  Legal email: Zupul vendor onboarding call scheduled for Friday.
+#0404  PMO note: Zupul budget is going up to $1580K.
+#0405  Facilities ticket: Zupul budget is going down by $142K.
+#0406  Finance Office: Withdraw update #0168; it was entered in error.
+#0407  Operations chat: Zupul status report filed for week 36.
+#0408  Finance Office: Withdraw update #0136.
+#0409  Finance Office: Zupul budget decreased by $15K per the revised plan.
+#0410  Finance Office: Zupul budget decreased by $150K.
+#0411  Finance Office: Zupul budget decreased by $115K.
+#0412  Finance Office: Zupul budget increased by $473K.
+#0413  Finance Office: Zupul budget decreased by $85K.
+#0414  Operations chat: Zupul budget is going to $1130K.
+#0415  Finance Office: Zupul budget decreased by $105K.
+#0416  Marketing email: Heard Zupul's budget is now $1250K.
+#0417  Finance Office: Withdraw update #0325; it was entered in error.
+#0418  Finance Office: Zupul budget decreased by $372K per the revised plan.
+#0419  Finance Office: Zupul budget decreased by $130K.
+#0420  PMO note: Sounds like Zupul gets $392K less.
+#0421  Finance Office: Withdraw update #0184.
+#0422  Finance Office: Zupul budget increased by $60K after review.
+#0423  Engineering email: Sounds like Zupul gets $248K more.
+#0424  Engineering email: Zupul budget is going up to $2130K.
+#0425  Finance Office: Zupul budget increased by $40K.
+#0426  Sales update: Hearing Zupul's budget goes up $109K.
+#0427  Sales update: Heard Zupul's budget is now $2250K.
+#0428  Finance Office: Zupul budget increased by $115K per the revised plan.
+#0429  Finance Office: Zupul budget decreased by $35K per the revised plan.
+#0430  Sales update: Hearing Zupul's budget goes down $309K.
+#0431  Engineering email: Zupul kickoff moved to Building 7.
+#0432  Finance Office: Zupul budget decreased by $90K per the revised plan.
+#0433  Finance Office: Withdraw update #0412; it was entered in error.
+#0434  Sales update: Zupul budget is going up to $1570K.
+#0435  Finance Office: Withdraw update #0221; it was entered in error.
+#0436  Finance Office: Withdraw update #0043; it was entered in error.
+#0437  Legal email: Zupul budget is going to $1080K.
+#0438  Operations chat: Heard Zupul's budget is now $1130K.
+#0439  Engineering email: Zupul kickoff moved to Building 8.
+#0440  Finance Office: Zupul budget decreased by $85K.
+#0441  Finance Office: Zupul budget increased by $25K per the revised plan.
+#0442  Legal email: Hearing Zupul's budget goes down $167K.
+#0443  Sales update: Zupul documentation moved to the shared drive.
+#0444  Finance Office: Zupul budget increased by $125K.
+#0445  Sales update: Zupul budget is going to $1340K.
+#0446  Vendor call: Hearing Zupul's budget goes up $206K.
+#0447  Finance Office: Zupul budget increased by $157K after review.
+#0448  Operations chat: Pretty sure Zupul's budget is $1220K now.
+#0449  Finance Office: Zupul budget increased by $25K per the revised plan.
+#0450  Finance Office: Zupul invoice batch FC-4548 archived.
+#0451  Finance Office: Zupul cost center code changed to FC-3224.
+#0452  Finance Office: Zupul budget increased by $158K per the revised plan.
+#0453  Finance Office: Zupul audit notes filed.
+#0454  Engineering email: Zupul budget is going to $1760K.
+#0455  Engineering email: Zupul budget is going up to $2070K.
+#0456  Finance Office: Zupul budget increased by $110K after review.
+#0457  Sales update: Expect Zupul's budget to rise by $144K.
+#0458  Legal email: Zupul budget should land at $2100K.
+#0459  Vendor call: Zupul budget is going up to $2310K.
+#0460  Finance Office: Zupul budget increased by $454K after review.
+#0461  Marketing email: Hearing Zupul's budget goes down $414K.
+#0462  Finance Office: Zupul budget increased by $162K per the revised plan.
+#0463  Finance Office: Zupul budget decreased by $326K.
+#0464  Engineering email: Sounds like Zupul gets $117K more.
+#0465  Engineering email: Zupul budget is going to $1380K.
+#0466  Finance Office: Zupul budget decreased by $80K per the revised plan.
+#0467  Finance Office: Zupul budget increased by $130K per the revised plan.
+#0468  Finance Office: Withdraw update #0285; it was entered in error.
+#0469  Finance Office: Zupul budget decreased by $563K after review.
+#0470  Finance Office: Zupul budget decreased by $120K.
+#0471  Facilities ticket: Pretty sure Zupul's budget is $1200K now.
+#0472  Finance Office: Zupul budget increased by $150K after review.
+#0473  Finance Office: Zupul budget decreased by $30K per the revised plan.
+#0474  Sales update: Zupul budget should land at $1220K.
+#0475  Finance Office: Zupul budget increased by $95K.
+#0476  Finance Office: Zupul budget decreased by $154K after review.
+#0477  Finance Office: Zupul budget decreased by $55K.
+#0478  Finance Office: Zupul budget decreased by $95K per the revised plan.
+#0479  Engineering email: Pretty sure Zupul's budget is $1950K now.
+#0480  Finance Office: Zupul invoice batch FC-9166 archived.
+#0481  Marketing email: Zupul budget is going to $1940K.
+#0482  Finance Office: Withdraw update #0119.
+#0483  Finance Office: Zupul budget decreased by $115K.
+#0484  Finance Office: Zupul budget decreased by $5K per the revised plan.
+#0485  Finance Office: Withdraw update #0180.
+#0486  Finance Office: Zupul budget decreased by $371K.
+#0487  Marketing email: Hearing Zupul's budget goes down $339K.
+#0488  Legal email: Sounds like Zupul gets $262K more.
+#0489  Finance Office: Zupul budget decreased by $287K.
+#0490  Finance Office: Zupul budget increased by $25K after review.
+#0491  Finance Office: Zupul budget increased by $592K per the revised plan.
+#0492  Marketing email: Heard Zupul's budget is now $1730K.
+#0493  Finance Office: Withdraw update #0231.
+#0494  Finance Office: Zupul budget increased by $40K per the revised plan.
+#0495  Vendor call: Sounds like Zupul gets $596K more.
+#0496  Finance Office: Zupul budget decreased by $45K.
+#0497  Facilities ticket: Zupul weekly sync moved to Wednesdays.
+#0498  Sales update: Zupul vendor onboarding call scheduled for Tuesday.
+#0499  Legal email: Hearing Zupul's budget goes up $513K.
+#0500  Finance Office: Withdraw update #0070; it was entered in error.
+#0501  Finance Office: Zupul budget increased by $135K per the revised plan.
+#0502  Finance Office: Zupul budget increased by $145K per the revised plan.
+#0503  Finance Office: Withdraw update #0135.
+#0504  Finance Office: Withdraw update #0361; it was entered in error.
+#0505  Finance Office: Zupul budget increased by $139K after review.
+#0506  Finance Office: Zupul budget increased by $65K after review.
+#0507  Finance Office: Zupul budget decreased by $95K per the revised plan.
+#0508  Finance Office: Zupul budget decreased by $85K after review.
+#0509  Finance Office: Zupul budget decreased by $75K after review.
+#0510  Finance Office: Zupul budget increased by $75K per the revised plan.
+#0511  Finance Office: Zupul budget decreased by $118K after review.
+#0512  Finance Office: Withdraw update #0463; it was entered in error.
+#0513  Operations chat: Expect Zupul's budget to drop by $537K.
+#0514  Finance Office: Withdraw update #0418; it was entered in error.
+#0515  Finance Office: Withdraw update #0052; it was entered in error.
+#0516  Facilities ticket: Heard Zupul's budget is now $2800K.
+#0517  Marketing email: Heard Zupul's budget is now $2340K.
+#0518  Finance Office: Zupul budget decreased by $314K after review.
+#0519  Finance Office: Zupul budget increased by $100K after review.
+#0520  Finance Office: Zupul budget increased by $70K.
+#0521  Finance Office: Zupul budget increased by $536K after review.
+#0522  Finance Office: Zupul budget increased by $15K per the revised plan.
+#0523  Finance Office: Zupul budget decreased by $45K.
+#0524  Finance Office: Zupul budget decreased by $422K per the revised plan.
+#0525  Finance Office: Zupul budget decreased by $90K per the revised plan.
+#0526  Facilities ticket: Zupul budget should land at $2000K.
+#0527  Finance Office: Withdraw update #0521; it was entered in error.
+#0528  Finance Office: Withdraw update #0337; it was entered in error.
+#0529  Finance Office: Zupul purchase order FC-5959 closed.
+#0530  Finance Office: Withdraw update #0091; it was entered in error.
+#0531  Finance Office: Withdraw update #0524.
+#0532  Finance Office: Zupul budget increased by $150K per the revised plan.
+#0533  PMO note: Pretty sure Zupul's budget is $2480K now.
+#0534  Facilities ticket: Pretty sure Zupul's budget is $2760K now.
+#0535  Finance Office: Zupul budget increased by $140K per the revised plan.
+#0536  Finance Office: Zupul budget decreased by $55K after review.
+#0537  Engineering email: Zupul budget is going to $2800K.
+#0538  Finance Office: Withdraw update #0518; it was entered in error.
+#0539  Finance Office: Zupul budget decreased by $65K.
+#0540  Finance Office: Withdraw update #0491.
+#0541  PMO note: Pretty sure Zupul's budget is $2280K now.
+#0542  Finance Office: Zupul budget increased by $20K.
+#0543  Legal email: Pretty sure Zupul's budget is $2720K now.
+#0544  Engineering email: Zupul budget is going up by $237K.
+#0545  Finance Office: Withdraw update #0089.
+#0546  Finance Office: Zupul budget increased by $90K after review.
+#0547  Finance Office: Zupul budget increased by $80K.
+#0548  Finance Office: Zupul budget decreased by $110K.
+#0549  Legal email: Zupul budget is going to $2420K.
+#0550  PMO note: Zupul test environment back online.
+#0551  Finance Office: Zupul budget decreased by $90K after review.
+#0552  Finance Office: Zupul budget increased by $589K.
+#0553  Finance Office: Zupul budget decreased by $40K after review.
+#0554  Vendor call: Hearing Zupul's budget goes down $403K.
+#0555  Finance Office: Zupul budget decreased by $150K per the revised plan.
+#0556  Finance Office: Zupul budget decreased by $95K after review.
+#0557  Finance Office: Withdraw update #0297; it was entered in error.
+#0558  Finance Office: Zupul budget decreased by $40K per the revised plan.
+#0559  Finance Office: Zupul budget decreased by $402K per the revised plan.
+#0560  Finance Office: Zupul budget increased by $431K.
+#0561  Sales update: Zupul budget is going up by $533K.
+#0562  Marketing email: Sounds like Zupul gets $321K more.
+#0563  Finance Office: Zupul budget increased by $105K after review.
+#0564  Finance Office: Zupul budget increased by $439K after review.
+#0565  Finance Office: Zupul budget decreased by $578K.
+#0566  Finance Office: Zupul budget decreased by $40K.
+#0567  Engineering email: Zupul budget should land at $2240K.
+#0568  Vendor call: Pretty sure Zupul's budget is $2700K now.
+#0569  Finance Office: Withdraw update #0248; it was entered in error.
+#0570  Finance Office: Zupul budget decreased by $25K.
+#0571  Finance Office: Withdraw update #0564.
+#0572  Finance Office: Zupul budget decreased by $85K after review.
+#0573  Engineering email: Pretty sure Zupul's budget is $2540K now.
+#0574  Facilities ticket: Zupul budget is going down by $306K.
+#0575  Marketing email: Sounds like Zupul gets $552K more.
+#0576  Finance Office: Withdraw update #0087; it was entered in error.
+#0577  Finance Office: Zupul budget increased by $140K after review.
+#0578  Finance Office: Zupul budget increased by $50K.
+#0579  Facilities ticket: Hearing Zupul's budget goes down $51K.
+#0580  Finance Office: Zupul budget increased by $313K after review.
+#0581  Finance Office: Zupul budget increased by $5K per the revised plan.
+#0582  Finance Office: Zupul budget decreased by $199K after review.
+#0583  Finance Office: Zupul budget increased by $70K.
+#0584  Marketing email: Zupul budget is going down to $1790K.
+#0585  PMO note: Hearing Zupul's budget goes down $524K.
+#0586  Finance Office: Zupul budget decreased by $168K.
+#0587  Sales update: Expect Zupul's budget to rise by $77K.
+#0588  Facilities ticket: Pretty sure Zupul's budget is $2290K now.
+#0589  Finance Office: Withdraw update #0164.
+#0590  Finance Office: Zupul budget decreased by $10K after review.
+#0591  Finance Office: Zupul budget decreased by $130K after review.
+#0592  Finance Office: Zupul invoice batch FC-1819 archived.
+#0593  Finance Office: Withdraw update #0048; it was entered in error.
+#0594  Finance Office: Zupul budget decreased by $65K.
+#0595  Finance Office: Zupul budget decreased by $140K after review.
+#0596  Finance Office: Zupul budget decreased by $115K after review.
+#0597  Finance Office: Zupul budget increased by $45K after review.
+#0598  Vendor call: Pretty sure Zupul's budget is $2010K now.
+#0599  Operations chat: Zupul budget is going up to $2250K.
+#0600  Finance Office: Withdraw update #0341; it was entered in error.
+#0601  Legal email: Zupul documentation moved to the shared drive.
+#0602  Finance Office: Zupul budget decreased by $150K after review.
+#0603  Finance Office: Withdraw update #0374.
+#0604  PMO note: Heard Zupul's budget is now $2330K.
+#0605  Finance Office: Zupul budget increased by $60K per the revised plan.
+#0606  Finance Office: Zupul budget decreased by $70K per the revised plan.
+#0607  Finance Office: Withdraw update #0505; it was entered in error.
+#0608  Facilities ticket: Zupul budget is going down to $1390K.
+#0609  Marketing email: Expect Zupul's budget to rise by $518K.
+#0610  Finance Office: Zupul budget increased by $75K after review.
+#0611  Legal email: Zupul budget should land at $1910K.
+#0612  Operations chat: Zupul documentation moved to the shared drive.
+#0613  Engineering email: Zupul budget is going down by $149K.
+#0614  Finance Office: Zupul budget decreased by $346K.
+#0615  Sales update: Sounds like Zupul gets $482K more.
+#0616  Marketing email: Zupul budget should land at $1760K.
+#0617  Finance Office: Zupul budget decreased by $543K after review.
+#0618  Legal email: Expect Zupul's budget to rise by $349K.
+#0619  Finance Office: Zupul budget decreased by $105K.
+#0620  Legal email: Heard Zupul's budget is now $790K.
+#0621  Finance Office: Zupul budget increased by $78K after review.
+#0622  Operations chat: Heard Zupul's budget is now $720K.
+#0623  Finance Office: Zupul budget decreased by $75K.
+#0624  Finance Office: Zupul budget increased by $60K.
+#0625  Finance Office: Zupul budget decreased by $466K per the revised plan.
+#0626  Finance Office: Zupul budget increased by $30K per the revised plan.
+#0627  Finance Office: Zupul budget decreased by $15K.
+#0628  Marketing email: Pretty sure Zupul's budget is $410K now.
+#0629  Finance Office: Zupul budget increased by $55K.
+#0630  Finance Office: Withdraw update #0379; it was entered in error.
+#0631  Finance Office: Zupul budget increased by $364K.
+#0632  Finance Office: Withdraw update #0617; it was entered in error.
+#0633  Finance Office: Zupul budget decreased by $35K.
+#0634  Finance Office: Zupul budget increased by $292K per the revised plan.
+#0635  Engineering email: Heard Zupul's budget is now $1510K.
+#0636  Finance Office: Zupul budget increased by $90K per the revised plan.
+#0637  Facilities ticket: Zupul budget is going to $1670K.
+#0638  Legal email: Sounds like Zupul gets $406K less.
+#0639  Finance Office: Zupul budget decreased by $130K per the revised plan.
+#0640  Finance Office: Zupul budget decreased by $70K.
+#0641  Sales update: Hearing Zupul's budget goes down $546K.
+#0642  Finance Office: Withdraw update #0304.
+#0643  Engineering email: Sounds like Zupul gets $32K more.
+#0644  Finance Office: Zupul budget increased by $100K after review.
+#0645  Finance Office: Withdraw update #0489; it was entered in error.
+#0646  Operations chat: Pretty sure Zupul's budget is $2590K now.
+#0647  Finance Office: Zupul budget decreased by $389K.
+#0648  PMO note: Sounds like Zupul gets $517K more.
+#0649  Engineering email: Zupul kickoff moved to Building 4.
+#0650  Finance Office: Zupul budget decreased by $135K after review.
+#0651  Legal email: Zupul budget is going down to $1550K.
+#0652  Finance Office: Withdraw update #0011; it was entered in error.
+#0653  PMO note: Zupul budget is going down by $312K.
+#0654  Finance Office: Zupul audit notes filed.
+#0655  Finance Office: Withdraw update #0179.
+#0656  Legal email: Zupul weekly sync moved to Thursdays.
+#0657  Finance Office: Zupul budget increased by $15K per the revised plan.
+#0658  Facilities ticket: Expect Zupul's budget to drop by $427K.
+#0659  Finance Office: Zupul budget decreased by $64K per the revised plan.
+#0660  Vendor call: Sounds like Zupul gets $121K less.
+#0661  Facilities ticket: Zupul site visit confirmed for Thursday.
+#0662  Finance Office: Zupul budget increased by $20K per the revised plan.
+#0663  Operations chat: Pretty sure Zupul's budget is $1980K now.
+#0664  Finance Office: Withdraw update #0603.
+#0665  Finance Office: Zupul budget increased by $196K.
+#0666  Finance Office: Zupul budget decreased by $150K.
+#0667  Finance Office: Zupul budget increased by $521K after review.
+#0668  Finance Office: Zupul budget decreased by $100K.
+#0669  Finance Office: Withdraw update #0586; it was entered in error.
+#0670  Finance Office: Withdraw update #0340.
+#0671  Sales update: Zupul budget is going to $1420K.
+#0672  Finance Office: Zupul budget decreased by $105K per the revised plan.
+#0673  Engineering email: Pretty sure Zupul's budget is $1820K now.
+#0674  Finance Office: Zupul budget increased by $291K after review.
+#0675  Finance Office: Zupul budget increased by $70K per the revised plan.
+#0676  Finance Office: Withdraw update #0580; it was entered in error.
+#0677  Finance Office: Zupul purchase order FC-4342 closed.
+#0678  Finance Office: Zupul budget decreased by $125K.
+#0679  Finance Office: Zupul budget increased by $75K per the revised plan.
+#0680  Finance Office: Zupul invoice batch FC-4687 archived.
+#0681  Finance Office: Zupul budget decreased by $35K after review.
+#0682  Sales update: Zupul budget is going up by $132K.
+#0683  Finance Office: Withdraw update #0408.
+#0684  Legal email: Zupul kickoff moved to Building 2.
+#0685  Finance Office: Zupul budget increased by $95K.
+#0686  Finance Office: Withdraw update #0674; it was entered in error.
+#0687  Marketing email: Zupul site visit confirmed for Monday.
+#0688  Finance Office: Zupul budget decreased by $140K.
+#0689  Finance Office: Withdraw update #0468; it was entered in error.
+#0690  Finance Office: Zupul budget increased by $55K after review.
+#0691  Finance Office: Zupul budget decreased by $441K.
+#0692  Finance Office: Zupul budget decreased by $25K after review.
+#0693  Finance Office: Zupul budget decreased by $35K per the revised plan.
+#0694  Operations chat: Zupul budget is going down to $600K.
+#0695  Finance Office: Zupul budget decreased by $5K after review.
+#0696  Finance Office: Withdraw update #0452.
+#0697  Engineering email: Hearing Zupul's budget goes up $539K.
+#0698  Finance Office: Zupul budget increased by $25K.
+#0699  Finance Office: Withdraw update #0462.
+#0700  Engineering email: Zupul budget is going up by $299K.
+#0701  PMO note: Expect Zupul's budget to drop by $2K.
+#0702  Finance Office: Zupul invoice batch FC-3438 archived.
+#0703  Engineering email: Hearing Zupul's budget goes down $233K.
+#0704  Finance Office: Zupul budget increased by $95K after review.
+#0705  Finance Office: Zupul budget increased by $257K.
+#0706  Sales update: Zupul budget should land at $1090K.
+#0707  Finance Office: Zupul budget increased by $145K per the revised plan.
+#0708  Marketing email: Zupul budget is going down to $920K.
+#0709  Finance Office: Withdraw update #0381.
+#0710  Finance Office: Zupul budget increased by $95K.
+#0711  Engineering email: Expect Zupul's budget to drop by $79K.
+#0712  Finance Office: Withdraw update #0625.
+#0713  Legal email: Sounds like Zupul gets $528K more.
+#0714  Finance Office: Zupul budget decreased by $40K after review.
+#0715  Marketing email: Pretty sure Zupul's budget is $2530K now.
+#0716  Finance Office: Zupul budget increased by $100K per the revised plan.
+#0717  Finance Office: Zupul budget decreased by $125K after review.
+#0718  PMO note: Zupul kickoff moved to Building 6.
+#0719  Finance Office: Zupul budget decreased by $150K after review.
+#0720  Finance Office: Zupul budget increased by $256K after review.
+#0721  Sales update: Sounds like Zupul gets $138K less.
+#0722  Finance Office: Zupul budget increased by $10K after review.
+#0723  Finance Office: Zupul budget decreased by $101K after review.
+#0724  Finance Office: Zupul budget increased by $125K per the revised plan.
+#0725  Marketing email: Zupul documentation moved to the shared drive.
+#0726  Finance Office: Zupul budget decreased by $45K after review.
+#0727  Operations chat: Zupul weekly sync moved to Wednesdays.
+#0728  Finance Office: Zupul budget decreased by $25K.
+#0729  Finance Office: Zupul budget increased by $45K per the revised plan.
+#0730  Engineering email: Sounds like Zupul gets $448K more.
+#0731  Finance Office: Zupul budget decreased by $70K after review.
+#0732  Facilities ticket: Zupul site visit confirmed for Tuesday.
+#0733  Sales update: Zupul budget should land at $2470K.
+#0734  Finance Office: Zupul budget increased by $80K.
+#0735  Finance Office: Withdraw update #0634.
+#0736  Finance Office: Zupul budget increased by $135K.
+#0737  Facilities ticket: Pretty sure Zupul's budget is $2270K now.
+#0738  Finance Office: Zupul budget decreased by $369K per the revised plan.
+#0739  Finance Office: Zupul budget decreased by $10K.
+#0740  Finance Office: Zupul budget decreased by $115K.
+#0741  Facilities ticket: Pretty sure Zupul's budget is $1750K now.
+#0742  Marketing email: Zupul budget should land at $1480K.
+#0743  Facilities ticket: Zupul budget is going to $1330K.
+#0744  Sales update: Sounds like Zupul gets $367K less.
+#0745  Finance Office: Zupul budget decreased by $5K per the revised plan.
+#0746  Vendor call: Expect Zupul's budget to rise by $166K.
+#0747  Finance Office: Zupul budget decreased by $114K per the revised plan.
+#0748  Operations chat: Hearing Zupul's budget goes up $246K.
+#0749  Finance Office: Zupul budget increased by $145K after review.
+#0750  Finance Office: Zupul budget increased by $95K per the revised plan.
+#0751  Finance Office: Zupul budget decreased by $70K after review.
+#0752  Finance Office: Zupul budget increased by $130K after review.
+#0753  Engineering email: Zupul demo rescheduled to Tuesday afternoon.
+#0754  Finance Office: Withdraw update #0206; it was entered in error.
+#0755  Vendor call: Sounds like Zupul gets $127K less.
+#0756  Vendor call: Zupul budget should land at $1340K.
+#0757  Finance Office: Withdraw update #0659.
+#0758  Sales update: Zupul budget is going to $2340K.
+#0759  Finance Office: Zupul budget increased by $452K after review.
+#0760  Marketing email: Zupul risk register updated with 2 new items.
+#0761  Finance Office: Zupul budget decreased by $60K per the revised plan.
+#0762  Finance Office: Withdraw update #0172; it was entered in error.
+#0763  Finance Office: Zupul budget decreased by $75K per the revised plan.
+#0764  Finance Office: Reminder: Zupul expense reports are due Monday.
+#0765  Finance Office: Zupul budget decreased by $458K.
+#0766  Facilities ticket: Expect Zupul's budget to drop by $526K.
+#0767  Finance Office: Zupul budget increased by $105K after review.
+#0768  Finance Office: Zupul budget increased by $125K.
+#0769  Finance Office: Zupul budget decreased by $75K after review.
+#0770  Engineering email: Expect Zupul's budget to rise by $49K.
+#0771  Finance Office: Withdraw update #0027.
+#0772  Marketing email: Expect Zupul's budget to drop by $179K.
+#0773  Finance Office: Zupul budget increased by $130K.
+#0774  Finance Office: Withdraw update #0552.
+#0775  Legal email: Heard Zupul's budget is now $2140K.
+#0776  Facilities ticket: Zupul budget should land at $2240K.
+#0777  Finance Office: Zupul budget decreased by $35K after review.
+#0778  Finance Office: Zupul budget increased by $35K per the revised plan.
+#0779  Finance Office: Zupul budget increased by $90K after review.
+#0780  Vendor call: Hearing Zupul's budget goes up $123K.
+#0781  Finance Office: Zupul budget increased by $80K after review.
+#0782  PMO note: Zupul budget is going up to $2800K.
+#0783  Sales update: Zupul status report filed for week 14.
+#0784  Finance Office: Zupul budget decreased by $105K per the revised plan.
+#0785  Finance Office: Zupul receipts scanned.
+#0786  Finance Office: Zupul budget decreased by $70K per the revised plan.
+#0787  Vendor call: Pretty sure Zupul's budget is $2180K now.
+#0788  Finance Office: Zupul budget increased by $50K after review.
+#0789  Finance Office: Zupul budget increased by $95K after review.
+#0790  PMO note: Zupul weekly sync moved to Wednesdays.
+#0791  Finance Office: Withdraw update #0759; it was entered in error.
+#0792  Finance Office: Zupul budget increased by $125K.
+#0793  Finance Office: Zupul budget decreased by $135K after review.
+#0794  Finance Office: Zupul budget increased by $80K per the revised plan.
+#0795  Operations chat: Sounds like Zupul gets $302K more.
+#0796  Engineering email: Zupul sprint 7 retrospective notes posted.
+#0797  Operations chat: Pretty sure Zupul's budget is $1490K now.
+#0798  Finance Office: Zupul budget increased by $15K per the revised plan.
+#0799  Finance Office: Zupul budget decreased by $110K.
+#0800  Finance Office: Withdraw update #0127.
+#0801  Finance Office: Zupul budget decreased by $85K per the revised plan.
+#0802  Finance Office: Zupul budget increased by $135K per the revised plan.
+#0803  PMO note: Zupul budget is going down by $284K.
+#0804  Finance Office: Zupul budget increased by $70K per the revised plan.
+#0805  Legal email: Zupul status report filed for week 5.
+#0806  Finance Office: Withdraw update #0614; it was entered in error.
+#0807  Finance Office: Zupul budget increased by $10K per the revised plan.
+#0808  Finance Office: Withdraw update #0289; it was entered in error.
+#0809  Finance Office: Zupul budget increased by $110K per the revised plan.
+#0810  Sales update: Hearing Zupul's budget goes up $222K.
+#0811  Finance Office: Zupul budget decreased by $100K.
+#0812  Finance Office: Zupul budget decreased by $135K per the revised plan.
+#0813  Legal email: Zupul test environment back online.
+#0814  Finance Office: Withdraw update #0323; it was entered in error.
+#0815  Finance Office: Zupul budget increased by $55K after review.
+#0816  Facilities ticket: Zupul budget is going to $2170K.
+#0817  Finance Office: Zupul budget increased by $140K.
+#0818  Finance Office: Zupul budget increased by $461K after review.
+#0819  Finance Office: Zupul budget increased by $5K.
+#0820  Legal email: Zupul sprint 11 retrospective notes posted.
+#0821  Finance Office: Zupul budget increased by $45K after review.
+#0822  Sales update: Zupul budget is going to $2610K.
+#0823  Finance Office: Zupul budget increased by $70K per the revised plan.
+#0824  Facilities ticket: Pretty sure Zupul's budget is $2800K now.
+#0825  Vendor call: Zupul budget is going down by $511K.
+#0826  Finance Office: Zupul budget increased by $20K.
+#0827  Operations chat: Zupul documentation moved to the shared drive.
+#0828  Finance Office: Zupul budget decreased by $135K.
+#0829  Finance Office: Withdraw update #0504; it was entered in error.
+#0830  Finance Office: Zupul budget decreased by $40K per the revised plan.
+#0831  Finance Office: Withdraw update #0515.
+#0832  Finance Office: Zupul budget decreased by $10K per the revised plan.
+#0833  Finance Office: Zupul budget decreased by $45K after review.
+#0834  Finance Office: Zupul budget decreased by $65K per the revised plan.
+#0835  Finance Office: Zupul budget decreased by $47K after review.
+#0836  Marketing email: Zupul budget is going to $1760K.
+#0837  Operations chat: Heard Zupul's budget is now $1420K.
+#0838  Facilities ticket: Zupul budget is going to $1930K.
+#0839  Finance Office: Zupul budget decreased by $80K.
+#0840  Facilities ticket: Expect Zupul's budget to rise by $184K.
+#0841  Finance Office: Withdraw update #0503.
+#0842  Finance Office: Zupul budget increased by $150K.
+#0843  Finance Office: Zupul cost center code changed to FC-4688.
+#0844  PMO note: Sounds like Zupul gets $336K more.
+#0845  PMO note: Zupul budget is going up to $2260K.
+#0846  Finance Office: Zupul budget decreased by $15K.
+#0847  Finance Office: Zupul budget increased by $95K after review.
+#0848  PMO note: Expect Zupul's budget to rise by $173K.
+#0849  Finance Office: Reminder: Zupul expense reports are due Tuesday.
+#0850  Finance Office: Withdraw update #0198; it was entered in error.
+#0851  Finance Office: Zupul budget decreased by $135K per the revised plan.
+#0852  Vendor call: Zupul documentation moved to the shared drive.
+#0853  Marketing email: Pretty sure Zupul's budget is $1550K now.
+#0854  Marketing email: Hearing Zupul's budget goes down $289K.
+#0855  Vendor call: Expect Zupul's budget to drop by $551K.
+#0856  Finance Office: Withdraw update #0264.
+#0857  Finance Office: Zupul budget increased by $20K per the revised plan.
+#0858  Legal email: Zupul budget should land at $1690K.
+#0859  Operations chat: Zupul sprint 10 retrospective notes posted.
+#0860  Finance Office: Zupul budget decreased by $15K after review.
+#0861  Finance Office: Zupul budget increased by $90K per the revised plan.
+#0862  Finance Office: Zupul budget increased by $60K after review.
+#0863  Finance Office: Zupul budget increased by $85K after review.
+#0864  PMO note: Heard Zupul's budget is now $1960K.
+#0865  Finance Office: Zupul budget decreased by $20K.
+#0866  Finance Office: Zupul budget decreased by $25K.
+#0867  Finance Office: Withdraw update #0098.
+#0868  PMO note: Sounds like Zupul gets $338K less.
+#0869  Finance Office: Zupul budget increased by $75K per the revised plan.
+#0870  PMO note: Zupul security review passed.
+#0871  Marketing email: Zupul budget is going up to $1400K.
+#0872  Finance Office: Zupul budget increased by $40K.
+#0873  Legal email: Zupul sprint 21 retrospective notes posted.
+#0874  Engineering email: Heard Zupul's budget is now $1710K.
+#0875  Facilities ticket: Expect Zupul's budget to drop by $202K.
+#0876  Finance Office: Zupul budget increased by $75K per the revised plan.
+#0877  Finance Office: Withdraw update #0002; it was entered in error.
+#0878  Finance Office: Withdraw update #0447; it was entered in error.
+#0879  Finance Office: Zupul budget increased by $30K.
+#0880  Finance Office: Withdraw update #0121.
+#0881  Marketing email: Zupul budget is going down by $14K.
+#0882  Finance Office: Withdraw update #0841; it was entered in error.
+#0883  Finance Office: Zupul budget decreased by $20K per the revised plan.
+#0884  Finance Office: Zupul finance review moved to Room 4D.
+#0885  Legal email: Zupul budget is going to $1840K.
+#0886  Finance Office: Zupul budget increased by $25K per the revised plan.
+#0887  Finance Office: Zupul budget decreased by $10K after review.
+#0888  Finance Office: Zupul budget decreased by $20K after review.
+#0889  Finance Office: Withdraw update #0126; it was entered in error.
+#0890  Finance Office: Withdraw update #0582.
+#0891  Finance Office: Zupul budget increased by $130K.
+#0892  Finance Office: Zupul budget decreased by $80K per the revised plan.
+#0893  Facilities ticket: Sounds like Zupul gets $498K more.
+#0894  Finance Office: Zupul audit notes filed.
+#0895  Vendor call: Expect Zupul's budget to rise by $278K.
+#0896  Vendor call: Zupul status report filed for week 9.
+#0897  Sales update: Zupul budget should land at $1950K.
+#0898  Finance Office: Zupul budget increased by $39K per the revised plan.
+#0899  Engineering email: Pretty sure Zupul's budget is $2170K now.
+#0900  PMO note: Sounds like Zupul gets $46K more.
+#0901  Finance Office: Zupul quarterly audit scheduled for Thursday.
+#0902  Finance Office: Withdraw update #0169; it was entered in error.
+#0903  Finance Office: Zupul budget increased by $90K per the revised plan.
+#0904  Finance Office: Zupul budget increased by $10K after review.
+#0905  Engineering email: Zupul budget is going down to $1700K.
+#0906  Finance Office: Withdraw update #0676; it was entered in error.
+#0907  Finance Office: Zupul budget increased by $95K.
+#0908  Finance Office: Zupul budget decreased by $85K.
+#0909  Sales update: Sounds like Zupul gets $484K less.
+#0910  Finance Office: Zupul budget decreased by $130K after review.
+#0911  PMO note: Zupul budget is going down by $68K.
+#0912  Legal email: Pretty sure Zupul's budget is $2800K now.
+#0913  Sales update: Sounds like Zupul gets $347K more.
+#0914  Marketing email: Pretty sure Zupul's budget is $2800K now.
+#0915  Finance Office: Zupul budget increased by $30K.
+#0916  Finance Office: Zupul budget decreased by $65K per the revised plan.
+#0917  Finance Office: Withdraw update #0228; it was entered in error.
+#0918  Operations chat: Expect Zupul's budget to rise by $463K.
+#0919  Engineering email: Zupul sprint 30 retrospective notes posted.
+#0920  PMO note: Hearing Zupul's budget goes up $499K.
+#0921  Finance Office: Zupul budget decreased by $15K.
+#0922  PMO note: Zupul budget is going up by $44K.
+#0923  Legal email: Zupul budget should land at $2490K.
+#0924  Finance Office: Zupul budget increased by $140K per the revised plan.
+#0925  Finance Office: Zupul budget increased by $120K after review.
+#0926  Finance Office: Zupul budget increased by $25K.
+#0927  Finance Office: Withdraw update #0149; it was entered in error.
+#0928  Finance Office: Withdraw update #0814.
+#0929  Marketing email: Zupul budget is going down to $2100K.
+#0930  Finance Office: Zupul budget decreased by $95K per the revised plan.
+#0931  Facilities ticket: Heard Zupul's budget is now $2520K.
+#0932  Finance Office: Zupul budget decreased by $5K after review.
+#0933  Vendor call: Zupul budget is going up to $2800K.
+#0934  PMO note: Pretty sure Zupul's budget is $2460K now.
+#0935  Finance Office: Zupul budget decreased by $126K.
+#0936  Finance Office: Withdraw update #0133.
+#0937  Finance Office: Zupul budget decreased by $8K after review.
+#0938  Finance Office: Zupul budget decreased by $377K per the revised plan.
+#0939  Facilities ticket: Sounds like Zupul gets $467K more.
+#0940  Finance Office: Zupul budget decreased by $80K after review.
+#0941  Finance Office: Zupul budget decreased by $10K per the revised plan.
+#0942  Finance Office: Withdraw update #0665.
+#0943  Finance Office: Zupul budget decreased by $90K per the revised plan.
+#0944  Finance Office: Withdraw update #0560; it was entered in error.
+#0945  Finance Office: Zupul budget increased by $85K per the revised plan.
+#0946  Finance Office: Zupul budget increased by $90K after review.
+#0947  Finance Office: Zupul budget decreased by $40K after review.
+#0948  Finance Office: Zupul budget decreased by $70K per the revised plan.
+#0949  Facilities ticket: Zupul budget is going up to $1440K.
+#0950  Vendor call: Zupul status report filed for week 15.
+#0951  Finance Office: Zupul purchase order FC-7316 closed.
+#0952  Marketing email: Hearing Zupul's budget goes down $247K.
+#0953  Engineering email: Zupul budget should land at $1020K.
+#0954  Legal email: Zupul risk register updated with 6 new items.
+#0955  Finance Office: Withdraw update #0937.
+#0956  Legal email: Zupul sprint 35 retrospective notes posted.
+#0957  Finance Office: Zupul budget decreased by $80K.
+#0958  Vendor call: Zupul budget is going to $1200K.
+#0959  Operations chat: Heard Zupul's budget is now $870K.
+#0960  Finance Office: Zupul budget increased by $50K.
+#0961  Operations chat: Hearing Zupul's budget goes up $503K.
+#0962  Finance Office: Zupul budget decreased by $111K.
+#0963  Finance Office: Zupul budget increased by $70K per the revised plan.
+#0964  Operations chat: Zupul budget is going to $1340K.
+#0965  Marketing email: Zupul budget is going up to $1030K.
+#0966  Finance Office: Withdraw update #0527.
+#0967  Finance Office: Zupul budget decreased by $40K.
+#0968  Facilities ticket: Expect Zupul's budget to drop by $588K.
+#0969  Finance Office: Zupul budget increased by $70K.
+#0970  Finance Office: Zupul budget decreased by $141K.
+#0971  Finance Office: Zupul budget increased by $45K.
+#0972  Marketing email: Hearing Zupul's budget goes up $128K.
+#0973  Finance Office: Zupul budget decreased by $115K after review.
+#0974  Vendor call: Zupul budget is going up by $593K.
+#0975  Finance Office: Zupul budget decreased by $10K.
+#0976  Engineering email: Heard Zupul's budget is now $1250K.
+#0977  Finance Office: Zupul budget decreased by $75K per the revised plan.
+#0978  Engineering email: Expect Zupul's budget to drop by $531K.
+#0979  Engineering email: Hearing Zupul's budget goes down $376K.
+#0980  Finance Office: Zupul budget increased by $80K.
+#0981  Finance Office: Withdraw update #0880.
+#0982  Finance Office: Zupul budget decreased by $15K after review.
+#0983  Finance Office: Withdraw update #0469.
+#0984  Finance Office: Zupul budget decreased by $35K.
+#0985  PMO note: Zupul vendor onboarding call scheduled for Tuesday.
+#0986  Marketing email: Sounds like Zupul gets $428K less.
+#0987  Finance Office: Zupul budget decreased by $145K.
+#0988  Finance Office: Zupul budget increased by $95K after review.
+#0989  Finance Office: Zupul budget increased by $591K per the revised plan.
+#0990  Operations chat: Expect Zupul's budget to rise by $231K.
+#0991  Facilities ticket: Zupul status report filed for week 44.
+#0992  Finance Office: Zupul budget increased by $140K after review.
+#0993  PMO note: Zupul budget is going to $2310K.
+#0994  Finance Office: Zupul budget decreased by $115K.
+#0995  Finance Office: Withdraw update #0158.
+#0996  Marketing email: Hearing Zupul's budget goes up $288K.
+#0997  Finance Office: Withdraw update #0194; it was entered in error.
+#0998  Facilities ticket: Heard Zupul's budget is now $2300K.
+#0999  Sales update: Zupul budget is going up to $2090K.
+#1000  Finance Office: Zupul budget increased by $55K after review.
+#1001  Finance Office: Zupul budget decreased by $115K after review.
+#1002  Finance Office: Zupul budget increased by $25K after review.
+#1003  Finance Office: Zupul quarterly audit scheduled for Tuesday.
+#1004  PMO note: Expect Zupul's budget to drop by $576K.
+#1005  Marketing email: Zupul budget is going down by $547K.
+#1006  Vendor call: Zupul budget is going up by $557K.
+#1007  Finance Office: Zupul budget decreased by $135K.
+#1008  PMO note: Sounds like Zupul gets $323K less.
+#1009  Finance Office: Zupul budget increased by $70K per the revised plan.
+#1010  Vendor call: Zupul kickoff moved to Building 5.
+#1011  Finance Office: Zupul budget increased by $150K after review.
+#1012  Sales update: Zupul weekly sync moved to Wednesdays.
+#1013  Facilities ticket: Sounds like Zupul gets $483K less.
+#1014  Finance Office: Zupul budget decreased by $135K.
+#1015  Operations chat: Zupul budget is going down to $1130K.
+#1016  Sales update: Sounds like Zupul gets $443K less.
+#1017  Finance Office: Zupul budget decreased by $140K after review.
+#1018  Operations chat: Hearing Zupul's budget goes down $334K.
+#1019  Operations chat: Hearing Zupul's budget goes down $134K.
+#1020  Finance Office: Zupul budget increased by $130K per the revised plan.
+#1021  Finance Office: Zupul budget decreased by $413K after review.
+#1022  Finance Office: Zupul budget increased by $559K per the revised plan.
+#1023  Facilities ticket: Zupul budget is going up to $2140K.
+#1024  Operations chat: Zupul budget should land at $1340K.
+#1025  Finance Office: Zupul budget increased by $80K.
+#1026  Finance Office: Withdraw update #0765; it was entered in error.
+#1027  Finance Office: Zupul budget decreased by $145K.
+#1028  Finance Office: Zupul budget decreased by $120K.
+#1029  Facilities ticket: Expect Zupul's budget to drop by $457K.
+#1030  Marketing email: Zupul design review moved to Room 2A.
+#1031  Finance Office: Withdraw update #0808; it was entered in error.
+#1032  Legal email: Zupul budget is going down by $273K.
+#1033  Finance Office: Zupul budget decreased by $10K per the revised plan.
+#1034  PMO note: Zupul budget is going to $2480K.
+#1035  Facilities ticket: Heard Zupul's budget is now $1500K.
+#1036  Finance Office: Zupul budget decreased by $229K.
+#1037  Facilities ticket: Expect Zupul's budget to drop by $442K.
+#1038  Facilities ticket: Zupul budget is going to $2110K.
+#1039  Finance Office: Zupul budget increased by $115K.
+#1040  Finance Office: Withdraw update #0889.
+#1041  Finance Office: Zupul budget increased by $223K per the revised plan.
+#1042  Finance Office: Zupul budget decreased by $40K.
+#1043  Finance Office: Zupul budget decreased by $105K.
+#1044  Finance Office: Withdraw update #0835.
+#1045  Finance Office: Withdraw update #0436.
+#1046  Engineering email: Zupul budget is going up to $1690K.
+#1047  Legal email: Expect Zupul's budget to rise by $274K.
+#1048  Finance Office: Zupul budget decreased by $60K after review.
+#1049  Finance Office: Zupul budget decreased by $100K per the revised plan.
+#1050  Operations chat: Pretty sure Zupul's budget is $1780K now.
+#1051  Finance Office: Zupul budget decreased by $150K per the revised plan.
+#1052  PMO note: Zupul budget is going up to $1520K.
+#1053  Finance Office: Zupul budget increased by $204K per the revised plan.
+#1054  Finance Office: Withdraw update #0258; it was entered in error.
+#1055  Engineering email: Zupul sprint 27 retrospective notes posted.
+#1056  Marketing email: Zupul budget should land at $1100K.
+#1057  PMO note: Zupul budget is going down by $216K.
+#1058  Legal email: Sounds like Zupul gets $577K more.
+#1059  Finance Office: Zupul budget decreased by $120K after review.
+#1060  Finance Office: Withdraw update #1053.
+#1061  Sales update: Hearing Zupul's budget goes up $322K.
+#1062  Finance Office: Zupul budget increased by $95K.
+#1063  Sales update: Zupul budget is going up to $1300K.
+#1064  Marketing email: Zupul site visit confirmed for Monday.
+#1065  Finance Office: Zupul budget increased by $125K per the revised plan.
+#1066  Finance Office: Withdraw update #0202; it was entered in error.
+#1067  Finance Office: Withdraw update #0691; it was entered in error.
+#1068  Finance Office: Zupul budget decreased by $261K after review.
+#1069  Sales update: Pretty sure Zupul's budget is $1470K now.
+#1070  Finance Office: Zupul budget increased by $95K per the revised plan.
+#1071  Legal email: Heard Zupul's budget is now $1450K.
+#1072  Finance Office: Withdraw update #0359.
+#1073  Legal email: Zupul status report filed for week 46.
+#1074  Finance Office: Zupul finance review moved to Room 2D.
+#1075  Finance Office: Zupul budget increased by $50K after review.
+#1076  Finance Office: Withdraw update #0664; it was entered in error.
+#1077  Finance Office: Withdraw update #0239.
+#1078  Engineering email: Expect Zupul's budget to rise by $197K.
+#1079  Marketing email: Zupul budget should land at $1980K.
+#1080  Finance Office: Zupul budget decreased by $35K after review.
+#1081  PMO note: Zupul budget is going down to $1150K.
+#1082  Finance Office: Zupul budget decreased by $124K.
+#1083  Finance Office: Zupul budget decreased by $65K after review.
+#1084  Finance Office: Zupul budget increased by $100K per the revised plan.
+#1085  Sales update: Zupul test environment back online.
+#1086  Finance Office: Withdraw update #0667.
+#1087  Legal email: Heard Zupul's budget is now $760K.
+#1088  Finance Office: Withdraw update #0571; it was entered in error.
+#1089  Finance Office: Withdraw update #0989; it was entered in error.
+#1090  Finance Office: Zupul budget increased by $25K per the revised plan.
+#1091  PMO note: Hearing Zupul's budget goes down $251K.
+#1092  Finance Office: Zupul budget increased by $25K.
+#1093  Finance Office: Zupul budget increased by $120K per the revised plan.
+#1094  Finance Office: Zupul budget increased by $30K.
+#1095  Sales update: Zupul budget is going to $690K.
+#1096  Finance Office: Zupul budget increased by $130K.
+#1097  Finance Office: Zupul budget decreased by $150K per the revised plan.
+#1098  Finance Office: Zupul budget decreased by $558K after review.
+#1099  Finance Office: Zupul budget increased by $55K.
+#1100  Finance Office: Withdraw update #0723.
+#1101  Facilities ticket: Pretty sure Zupul's budget is $380K now.
+#1102  Finance Office: Zupul budget increased by $10K.
+#1103  Finance Office: Zupul quarterly audit scheduled for Monday.
+#1104  Finance Office: Zupul budget increased by $40K.
+#1105  Finance Office: Zupul budget increased by $436K.
+#1106  Sales update: Zupul budget is going down by $477K.
+#1107  Finance Office: Zupul budget increased by $307K.
+#1108  Facilities ticket: Zupul budget should land at $1400K.
+#1109  Finance Office: Withdraw update #0540; it was entered in error.
+#1110  Marketing email: Zupul kickoff moved to Building 8.
+#1111  Operations chat: Heard Zupul's budget is now $2250K.
+#1112  Finance Office: Zupul budget increased by $70K per the revised plan.
+#1113  Finance Office: Zupul budget increased by $20K after review.
+#1114  Engineering email: Zupul budget is going up to $2200K.
+#1115  Finance Office: Zupul budget decreased by $40K after review.
+#1116  Finance Office: Zupul budget increased by $95K per the revised plan.
+#1117  Finance Office: Zupul budget increased by $140K per the revised plan.
+#1118  Operations chat: Zupul site visit confirmed for Monday.
+#1119  Finance Office: Zupul budget increased by $20K.
+#1120  Operations chat: Heard Zupul's budget is now $2010K.
+#1121  Finance Office: Zupul budget decreased by $232K per the revised plan.
+#1122  Finance Office: Zupul budget decreased by $75K.
+#1123  Finance Office: Zupul budget increased by $80K per the revised plan.
+#1124  Sales update: Expect Zupul's budget to rise by $328K.
+#1125  Finance Office: Zupul budget increased by $115K after review.
+#1126  Facilities ticket: Zupul budget is going down by $67K.
+#1127  Finance Office: Withdraw update #0366.
+#1128  Marketing email: Pretty sure Zupul's budget is $2800K now.
+#1129  Finance Office: Zupul budget decreased by $140K per the revised plan.
+#1130  Finance Office: Zupul budget increased by $5K.
+#1131  Finance Office: Withdraw update #0095; it was entered in error.
+#1132  PMO note: Zupul sprint 43 retrospective notes posted.
+#1133  Marketing email: Zupul demo rescheduled to Friday afternoon.
+#1134  Finance Office: Zupul budget decreased by $45K per the revised plan.
+#1135  Finance Office: Withdraw update #1131.
+#1136  Legal email: Zupul status report filed for week 32.
+#1137  Finance Office: Zupul budget increased by $65K.
+#1138  Operations chat: Hearing Zupul's budget goes down $579K.
+#1139  Legal email: Zupul budget is going to $2240K.
+#1140  Finance Office: Zupul budget decreased by $85K per the revised plan.
+#1141  Vendor call: Zupul budget is going to $1730K.
+#1142  Finance Office: Zupul budget decreased by $1K per the revised plan.
+#1143  Finance Office: Zupul budget increased by $80K per the revised plan.
+#1144  Finance Office: Zupul budget increased by $35K per the revised plan.
+#1145  Vendor call: Zupul budget is going to $2800K.
+#1146  Finance Office: Zupul budget decreased by $5K per the revised plan.
+#1147  PMO note: Zupul budget is going down to $2010K.
+#1148  Engineering email: Sounds like Zupul gets $532K more.
+#1149  Finance Office: Zupul budget increased by $35K.
+#1150  Finance Office: Zupul budget decreased by $5K after review.
+#1151  PMO note: Heard Zupul's budget is now $2800K.
+#1152  Finance Office: Zupul budget decreased by $75K per the revised plan.
+#1153  PMO note: Hearing Zupul's budget goes down $98K.
+#1154  Finance Office: Zupul budget decreased by $561K after review.
+#1155  Finance Office: Zupul budget increased by $35K per the revised plan.
+#1156  Marketing email: Zupul budget is going to $2300K.
+#1157  Finance Office: Withdraw update #0125; it was entered in error.
+#1158  Finance Office: Withdraw update #1142.
+#1159  Finance Office: Withdraw update #0720.
+#1160  Finance Office: Zupul budget decreased by $48K per the revised plan.
+#1161  Finance Office: Zupul budget increased by $15K per the revised plan.
+#1162  Finance Office: Zupul budget decreased by $10K per the revised plan.
+#1163  Finance Office: Zupul budget increased by $55K per the revised plan.
+#1164  Finance Office: Zupul budget increased by $65K after review.
+#1165  Finance Office: Zupul budget decreased by $30K after review.
+#1166  Marketing email: Zupul budget should land at $2070K.
+#1167  Finance Office: Zupul budget decreased by $40K after review.
+#1168  Finance Office: Zupul budget increased by $110K per the revised plan.
+#1169  Legal email: Zupul budget should land at $1440K.
+#1170  Legal email: Zupul budget is going down by $191K.
+#1171  Facilities ticket: Zupul budget is going to $1420K.
+#1172  Finance Office: Zupul budget decreased by $130K per the revised plan.
+#1173  Operations chat: Zupul budget is going up to $1870K.
+#1174  Sales update: Heard Zupul's budget is now $1850K.
+#1175  Finance Office: Zupul budget decreased by $150K after review.
+#1176  Finance Office: Zupul budget increased by $150K.
+#1177  Finance Office: Zupul budget decreased by $95K per the revised plan.
+#1178  Finance Office: Withdraw update #0878; it was entered in error.
+#1179  Operations chat: Hearing Zupul's budget goes down $398K.
+#1180  Finance Office: Withdraw update #0955.
+#1181  Finance Office: Zupul budget decreased by $423K after review.
+#1182  Finance Office: Withdraw update #0045; it was entered in error.
+#1183  Finance Office: Zupul budget decreased by $75K per the revised plan.
+#1184  Operations chat: Hearing Zupul's budget goes down $176K.
+#1185  Marketing email: Zupul budget is going to $850K.
+#1186  Engineering email: Zupul budget is going down by $464K.
+#1187  Facilities ticket: Zupul test environment back online.
+#1188  Operations chat: Sounds like Zupul gets $327K more.
+#1189  Finance Office: Withdraw update #1041; it was entered in error.
+#1190  Finance Office: Zupul budget increased by $100K after review.
+#1191  Finance Office: Zupul budget increased by $95K.
+#1192  Finance Office: Zupul budget decreased by $75K after review.
+#1193  Finance Office: Withdraw update #0935.
+#1194  Finance Office: Withdraw update #0738.
+#1195  Legal email: Expect Zupul's budget to rise by $174K.
+#1196  Marketing email: Zupul sprint 31 retrospective notes posted.
+#1197  Finance Office: Zupul budget increased by $40K per the revised plan.
+#1198  Finance Office: Zupul budget increased by $75K.
+#1199  Operations chat: Hearing Zupul's budget goes up $169K.
+#1200  Legal email: Hearing Zupul's budget goes down $329K.
+#1201  Legal email: Expect Zupul's budget to drop by $31K.
+#1202  Finance Office: Withdraw update #0076.
+#1203  Finance Office: Zupul budget decreased by $73K per the revised plan.
+#1204  Finance Office: Zupul budget decreased by $105K after review.
+#1205  Finance Office: Zupul budget increased by $548K after review.
+#1206  Finance Office: Zupul budget increased by $80K per the revised plan.
+#1207  Finance Office: Zupul budget decreased by $5K after review.
+#1208  Finance Office: Zupul budget increased by $50K.
+#1209  Finance Office: Zupul budget decreased by $115K after review.
+#1210  Legal email: Sounds like Zupul gets $269K less.
+#1211  Finance Office: Zupul budget decreased by $65K per the revised plan.
+#1212  Legal email: Zupul site visit confirmed for Tuesday.
+#1213  Operations chat: Hearing Zupul's budget goes down $426K.
+#1214  Finance Office: Zupul budget decreased by $15K after review.
+#1215  Finance Office: Zupul budget decreased by $40K after review.
+#1216  Finance Office: Withdraw update #0621.
+#1217  Sales update: Zupul budget is going up to $2700K.
+#1218  Finance Office: Withdraw update #1105.
+#1219  Finance Office: Withdraw update #1127.
+#1220  Finance Office: Zupul budget increased by $25K after review.
+#1221  Finance Office: Zupul receipts scanned.
+#1222  Facilities ticket: Expect Zupul's budget to drop by $82K.
+#1223  PMO note: Zupul test environment back online.
+#1224  Finance Office: Zupul budget increased by $55K per the revised plan.
+#1225  Engineering email: Heard Zupul's budget is now $1460K.
+#1226  Finance Office: Zupul budget decreased by $90K after review.
+#1227  Finance Office: Zupul budget increased by $30K after review.
+#1228  Finance Office: Zupul budget increased by $130K per the revised plan.
+#1229  Finance Office: Zupul budget decreased by $20K after review.
+#1230  Finance Office: Zupul budget decreased by $120K.
+#1231  Finance Office: Zupul budget decreased by $35K per the revised plan.
+#1232  Finance Office: Zupul budget decreased by $100K.
+#1233  Finance Office: Zupul budget decreased by $120K after review.
+#1234  Finance Office: Zupul budget decreased by $105K after review.
+#1235  Finance Office: Withdraw update #0500; it was entered in error.
+#1236  Legal email: Zupul budget is going up by $553K.
+#1237  Finance Office: Zupul budget increased by $65K per the revised plan.
+#1238  Vendor call: Zupul budget is going to $690K.
+#1239  Finance Office: Zupul budget increased by $45K after review.
+#1240  Finance Office: Withdraw update #0476.
+#1241  Operations chat: Zupul status report filed for week 6.
+#1242  Operations chat: Zupul budget is going to $750K.
+#1243  Finance Office: Zupul budget decreased by $318K.
+#1244  Finance Office: Zupul budget increased by $90K per the revised plan.
+#1245  Finance Office: Zupul budget increased by $145K.
+#1246  Vendor call: Expect Zupul's budget to rise by $459K.
+#1247  Vendor call: Heard Zupul's budget is now $670K.
+#1248  Finance Office: Zupul budget increased by $52K per the revised plan.
+#1249  Finance Office: Zupul budget increased by $120K.
+#1250  Vendor call: Zupul design review moved to Room 5A.
+#1251  Finance Office: Withdraw update #0350.
+#1252  PMO note: Pretty sure Zupul's budget is $310K now.
+#1253  Finance Office: Withdraw update #1121; it was entered in error.
+#1254  Vendor call: Sounds like Zupul gets $81K more.
+#1255  Finance Office: Zupul budget increased by $115K after review.
+#1256  Marketing email: Hearing Zupul's budget goes down $296K.
+#1257  Legal email: Hearing Zupul's budget goes up $523K.
+#1258  Finance Office: Withdraw update #1082; it was entered in error.
+#1259  Finance Office: Zupul budget decreased by $90K.
+#1260  Finance Office: Zupul budget increased by $60K.
+#1261  Finance Office: Withdraw update #1216.
+#1262  Finance Office: Zupul budget increased by $85K.
+#1263  Finance Office: Zupul budget increased by $135K per the revised plan.
+#1264  Finance Office: Withdraw update #1022.
+#1265  Finance Office: Zupul budget decreased by $130K.
+#1266  Vendor call: Zupul weekly sync moved to Fridays.
+#1267  Finance Office: Zupul budget increased by $5K after review.
+#1268  Finance Office: Zupul budget increased by $60K per the revised plan.
+#1269  Finance Office: Zupul budget increased by $25K per the revised plan.
+#1270  Engineering email: Zupul budget should land at $360K.
+#1271  Facilities ticket: Zupul budget is going up by $238K.
+#1272  Finance Office: Withdraw update #0343; it was entered in error.
+#1273  Marketing email: Sounds like Zupul gets $19K less.
+#1274  Legal email: Zupul budget should land at $660K.
+#1275  Finance Office: Zupul budget increased by $50K.
+#1276  Finance Office: Withdraw update #0565; it was entered in error.
+#1277  Operations chat: Expect Zupul's budget to rise by $188K.
+#1278  Finance Office: Zupul budget increased by $70K after review.
+#1279  Finance Office: Zupul budget increased by $25K after review.
+#1280  Finance Office: Zupul budget decreased by $95K per the revised plan.
+#1281  PMO note: Pretty sure Zupul's budget is $1310K now.
+#1282  Operations chat: Expect Zupul's budget to drop by $21K.
+#1283  Finance Office: Zupul budget increased by $140K.
+#1284  PMO note: Sounds like Zupul gets $71K less.
+#1285  Finance Office: Withdraw update #1068; it was entered in error.
+#1286  Finance Office: Zupul budget decreased by $60K after review.
+#1287  Finance Office: Withdraw update #0460; it was entered in error.
+#1288  Finance Office: Zupul budget decreased by $130K per the revised plan.
+#1289  Finance Office: Zupul budget increased by $135K.
+#1290  Finance Office: Zupul cost center code changed to FC-2429.
+#1291  Finance Office: Zupul budget increased by $80K per the revised plan.
+#1292  Legal email: Zupul vendor onboarding call scheduled for Wednesday.
+#1293  Facilities ticket: Sounds like Zupul gets $394K more.
+#1294  Finance Office: Zupul budget decreased by $40K.
+#1295  Finance Office: Zupul budget increased by $110K per the revised plan.
+#1296  Finance Office: Zupul budget increased by $60K after review.
+#1297  Finance Office: Zupul budget increased by $90K after review.
+#1298  Finance Office: Zupul budget increased by $496K.
+#1299  Finance Office: Zupul budget decreased by $30K.
+#1300  Engineering email: Sounds like Zupul gets $581K less.
+#1301  Finance Office: Zupul budget decreased by $90K.
+#1302  Vendor call: Zupul budget is going to $2110K.
+#1303  Finance Office: Zupul budget decreased by $125K per the revised plan.
+#1304  Facilities ticket: Expect Zupul's budget to drop by $108K.
+#1305  Finance Office: Zupul budget decreased by $40K.
+#1306  Finance Office: Zupul budget increased by $15K after review.
+#1307  Finance Office: Zupul budget increased by $115K after review.
+#1308  Marketing email: Sounds like Zupul gets $18K less.
+#1309  Finance Office: Withdraw update #0970.
+#1310  Finance Office: Zupul budget decreased by $130K per the revised plan.
+#1311  PMO note: Zupul vendor onboarding call scheduled for Tuesday.
+#1312  Finance Office: Zupul budget increased by $80K per the revised plan.
+#1313  Finance Office: Zupul budget decreased by $105K after review.
+#1314  Finance Office: Zupul budget decreased by $50K.
+#1315  Finance Office: Zupul budget increased by $110K after review.
+#1316  Operations chat: Zupul budget is going up to $1930K.
+#1317  Finance Office: Zupul budget increased by $25K per the revised plan.
+#1318  Finance Office: Zupul budget increased by $383K after review.
+#1319  Finance Office: Zupul budget decreased by $140K after review.
+#1320  Facilities ticket: Sounds like Zupul gets $497K less.
+#1321  Finance Office: Withdraw update #0485.
+#1322  Finance Office: Withdraw update #1318; it was entered in error.
+#1323  Finance Office: Zupul budget decreased by $100K.
+#1324  Engineering email: Zupul budget is going to $2000K.
+#1325  Finance Office: Withdraw update #1036.
+#1326  Finance Office: Zupul budget increased by $10K per the revised plan.
+#1327  Finance Office: Zupul budget decreased by $55K after review.
+#1328  Engineering email: Zupul budget is going up to $2600K.
+#1329  Finance Office: Zupul budget decreased by $15K after review.
+#1330  Finance Office: Zupul receipts scanned.
+#1331  Finance Office: Zupul budget increased by $5K after review.
+#1332  Finance Office: Zupul budget increased by $140K after review.
+#1333  Finance Office: Zupul budget decreased by $115K per the revised plan.
+#1334  Sales update: Sounds like Zupul gets $264K more.
+#1335  Finance Office: Zupul budget decreased by $140K per the revised plan.
+#1336  Legal email: Expect Zupul's budget to rise by $556K.
+#1337  Finance Office: Zupul quarterly audit scheduled for Tuesday.
+#1338  Finance Office: Withdraw update #0938.
+#1339  Finance Office: Zupul budget increased by $60K after review.
+#1340  Finance Office: Withdraw update #1109; it was entered in error.
+#1341  Finance Office: Withdraw update #0486; it was entered in error.
+#1342  Finance Office: Withdraw update #1205; it was entered in error.
+#1343  Finance Office: Withdraw update #1340.
+#1344  Legal email: Zupul status report filed for week 10.
+#1345  Operations chat: Zupul budget should land at $2800K.
+#1346  Finance Office: Zupul quarterly audit scheduled for Thursday.
+#1347  Finance Office: Withdraw update #0705.
+#1348  Finance Office: Zupul budget decreased by $50K per the revised plan.
+#1349  Finance Office: Zupul budget decreased by $35K.
+#1350  Marketing email: Hearing Zupul's budget goes down $393K.
+#1351  Operations chat: Zupul budget is going up to $2230K.
+#1352  Operations chat: Zupul security review passed.
+#1353  Finance Office: Zupul budget increased by $115K after review.
+#1354  Operations chat: Sounds like Zupul gets $74K more.
+#1355  PMO note: Heard Zupul's budget is now $2440K.
+#1356  Finance Office: Zupul budget increased by $115K after review.
+#1357  Finance Office: Zupul budget increased by $90K after review.
+#1358  Marketing email: Sounds like Zupul gets $189K less.
+#1359  Finance Office: Withdraw update #1338; it was entered in error.
+#1360  PMO note: Hearing Zupul's budget goes down $301K.
+#1361  Finance Office: Zupul budget decreased by $100K after review.
+#1362  Finance Office: Zupul budget increased by $80K after review.
+#1363  Finance Office: Zupul budget increased by $140K after review.
+#1364  Sales update: Hearing Zupul's budget goes up $148K.
+#1365  Finance Office: Withdraw update #1021; it was entered in error.
+#1366  Finance Office: Zupul budget decreased by $115K per the revised plan.
+#1367  Sales update: Zupul budget should land at $1670K.
+#1368  Legal email: Hearing Zupul's budget goes up $357K.
+#1369  Finance Office: Zupul budget decreased by $60K.
+#1370  Finance Office: Zupul budget decreased by $90K per the revised plan.
+#1371  Finance Office: Zupul budget decreased by $75K after review.
+#1372  Finance Office: Withdraw update #1154; it was entered in error.
+#1373  Finance Office: Zupul budget decreased by $140K per the revised plan.
+#1374  Engineering email: Zupul demo rescheduled to Friday afternoon.
+#1375  Finance Office: Zupul budget decreased by $90K per the revised plan.
+#1376  Finance Office: Zupul budget decreased by $25K after review.
+#1377  Facilities ticket: Expect Zupul's budget to drop by $239K.
+#1378  Sales update: Pretty sure Zupul's budget is $2800K now.
+#1379  Marketing email: Zupul budget is going down to $2400K.
+#1380  Finance Office: Zupul budget increased by $75K.
+#1381  Finance Office: Zupul budget decreased by $140K per the revised plan.
+#1382  Finance Office: Zupul budget increased by $125K after review.
+#1383  Finance Office: Zupul budget increased by $45K.
+#1384  Sales update: Expect Zupul's budget to drop by $598K.
+#1385  Sales update: Zupul budget should land at $2330K.
+#1386  Finance Office: Zupul budget increased by $130K per the revised plan.
+#1387  Marketing email: Zupul budget is going to $2800K.
+#1388  Marketing email: Zupul kickoff moved to Building 2.
+#1389  Sales update: Sounds like Zupul gets $351K less.
+#1390  Facilities ticket: Sounds like Zupul gets $182K more.
+#1391  Finance Office: Withdraw update #0511.
+#1392  Legal email: Hearing Zupul's budget goes down $554K.
+#1393  Vendor call: Zupul budget should land at $2570K.
+#1394  Vendor call: Zupul risk register updated with 8 new items.
+#1395  Finance Office: Withdraw update #0378; it was entered in error.
+#1396  Vendor call: Zupul budget should land at $2420K.
+#1397  Finance Office: Zupul budget decreased by $5K.
+#1398  Vendor call: Zupul weekly sync moved to Mondays.
+#1399  Finance Office: Zupul budget decreased by $25K.
+#1400  Finance Office: Zupul budget decreased by $130K per the revised plan.
+#1401  Vendor call: Expect Zupul's budget to drop by $178K.
+#1402  Finance Office: Reminder: Zupul expense reports are due Friday.
+#1403  Finance Office: Zupul budget increased by $45K.
+#1404  Finance Office: Zupul budget increased by $60K.
+#1405  Finance Office: Zupul budget increased by $50K after review.
+#1406  Finance Office: Zupul budget decreased by $80K.
+#1407  Finance Office: Zupul budget decreased by $145K.
+#1408  Sales update: Zupul budget is going down to $1850K.
+#1409  Finance Office: Withdraw update #1325; it was entered in error.
+#1410  Finance Office: Withdraw update #1098; it was entered in error.
+#1411  Finance Office: Zupul budget decreased by $75K per the revised plan.
+#1412  Engineering email: Zupul demo rescheduled to Monday afternoon.
+#1413  Finance Office: Zupul budget decreased by $100K after review.
+#1414  Finance Office: Zupul budget increased by $50K per the revised plan.
+#1415  Finance Office: Zupul budget decreased by $40K after review.
+#1416  PMO note: Heard Zupul's budget is now $2510K.
+#1417  Finance Office: Zupul budget increased by $110K after review.
+#1418  Finance Office: Zupul budget decreased by $130K per the revised plan.
+#1419  Finance Office: Zupul budget increased by $40K after review.
+#1420  Finance Office: Zupul budget increased by $130K.
+#1421  Finance Office: Zupul budget increased by $35K after review.
+#1422  Finance Office: Zupul budget increased by $80K after review.
+#1423  Sales update: Expect Zupul's budget to drop by $434K.
+#1424  Finance Office: Zupul budget decreased by $5K after review.
+#1425  PMO note: Zupul budget is going up by $198K.
+#1426  Marketing email: Zupul budget should land at $2140K.
+#1427  Facilities ticket: Heard Zupul's budget is now $2800K.
+#1428  Finance Office: Zupul budget decreased by $45K after review.
+#1429  Finance Office: Zupul budget decreased by $140K per the revised plan.
+#1430  Vendor call: Zupul budget should land at $2800K.
+#1431  Legal email: Zupul budget is going up to $2800K.
+#1432  Legal email: Zupul risk register updated with 2 new items.
+#1433  Finance Office: Zupul budget decreased by $110K per the revised plan.
+#1434  Finance Office: Zupul budget decreased by $135K after review.
+#1435  Finance Office: Withdraw update #0262; it was entered in error.
+#1436  Facilities ticket: Sounds like Zupul gets $156K less.
+#1437  Finance Office: Zupul budget increased by $85K per the revised plan.
+#1438  Finance Office: Withdraw update #0735; it was entered in error.
+#1439  Legal email: Zupul site visit confirmed for Tuesday.
+#1440  Finance Office: Zupul budget decreased by $5K per the revised plan.
+#1441  Finance Office: Zupul budget increased by $110K.
+#1442  Facilities ticket: Zupul budget is going down by $419K.
+#1443  Operations chat: Zupul budget is going up to $2800K.
+#1444  Finance Office: Zupul budget decreased by $85K after review.
+#1445  Finance Office: Zupul budget decreased by $25K after review.
+#1446  Finance Office: Withdraw update #0288; it was entered in error.
+#1447  Finance Office: Zupul budget increased by $105K after review.
+#1448  PMO note: Zupul documentation moved to the shared drive.
+#1449  Finance Office: Zupul budget increased by $120K per the revised plan.
+#1450  Finance Office: Zupul quarterly audit scheduled for Monday.
+#1451  Finance Office: Zupul budget decreased by $70K after review.
+#1452  Finance Office: Withdraw update #0217; it was entered in error.
+#1453  Finance Office: Zupul receipts scanned.
+#1454  Finance Office: Zupul receipts scanned.
+#1455  Finance Office: Zupul budget increased by $135K.
+#1456  Finance Office: Withdraw update #1298.
+#1457  Finance Office: Zupul budget increased by $140K after review.
+#1458  Sales update: Sounds like Zupul gets $438K less.
+#1459  Finance Office: Zupul budget increased by $5K per the revised plan.
+#1460  Sales update: Zupul budget is going up by $432K.
+#1461  Finance Office: Withdraw update #0898.
+#1462  Finance Office: Zupul budget decreased by $30K per the revised plan.
+#1463  Finance Office: Zupul budget increased by $75K after review.
+#1464  Facilities ticket: Heard Zupul's budget is now $2800K.
+#1465  Finance Office: Zupul budget increased by $80K after review.
+#1466  Marketing email: Zupul budget is going down by $153K.
+#1467  Finance Office: Zupul budget increased by $30K.
+#1468  PMO note: Zupul budget is going up by $61K.
+#1469  Marketing email: Sounds like Zupul gets $471K more.
+#1470  Finance Office: Withdraw update #0632.
+#1471  Finance Office: Zupul budget decreased by $40K after review.
+#1472  Finance Office: Zupul budget increased by $75K.
+#1473  Finance Office: Zupul budget increased by $45K after review.
+#1474  Vendor call: Heard Zupul's budget is now $1240K.
+#1475  Sales update: Expect Zupul's budget to rise by $294K.
+#1476  Finance Office: Zupul budget increased by $15K after review.
+#1477  Vendor call: Pretty sure Zupul's budget is $1990K now.
+#1478  Finance Office: Withdraw update #0944.
+#1479  PMO note: Heard Zupul's budget is now $2220K.
+#1480  Finance Office: Zupul budget decreased by $110K after review.
+#1481  Finance Office: Zupul budget increased by $75K.
+#1482  Sales update: Zupul budget is going to $2590K.
+#1483  Finance Office: Withdraw update #1243; it was entered in error.
+#1484  Finance Office: Withdraw update #1026.
+#1485  PMO note: Expect Zupul's budget to rise by $509K.
+#1486  Finance Office: Withdraw update #0387; it was entered in error.
+#1487  Engineering email: Zupul weekly sync moved to Thursdays.
+#1488  Operations chat: Hearing Zupul's budget goes down $324K.
+#1489  Legal email: Pretty sure Zupul's budget is $1150K now.
+#1490  Finance Office: Zupul budget increased by $130K after review.
+#1491  Finance Office: Zupul budget increased by $70K per the revised plan.
+#1492  Finance Office: Zupul finance review moved to Room 5D.
+#1493  Finance Office: Withdraw update #0966; it was entered in error.
+#1494  Finance Office: Zupul budget decreased by $105K.
+#1495  Finance Office: Withdraw update #0531.
+#1496  Finance Office: Zupul budget increased by $80K per the revised plan.
+#1497  PMO note: Heard Zupul's budget is now $720K.
+#1498  Finance Office: Withdraw update #0094.
+#1499  Operations chat: Zupul sprint 24 retrospective notes posted.
+#1500  Finance Office: Withdraw update #1160.
+#1501  Finance Office: Zupul budget increased by $80K per the revised plan.
+#1502  Operations chat: Zupul budget should land at $880K.
+#1503  Engineering email: Heard Zupul's budget is now $990K.
+#1504  Finance Office: Zupul budget increased by $130K.
+#1505  Finance Office: Zupul budget increased by $45K after review.
+#1506  Engineering email: Sounds like Zupul gets $254K more.
+#1507  Engineering email: Zupul budget should land at $1280K.
+#1508  Vendor call: Heard Zupul's budget is now $820K.
+#1509  Finance Office: Zupul budget decreased by $120K after review.
+#1510  Facilities ticket: Heard Zupul's budget is now $810K.
+#1511  Engineering email: Zupul documentation moved to the shared drive.
+#1512  Operations chat: Zupul budget is going up by $446K.
+#1513  Sales update: Zupul budget is going up to $1140K.
+#1514  Finance Office: Zupul budget increased by $90K after review.
+#1515  PMO note: Heard Zupul's budget is now $870K.
+#1516  Finance Office: Zupul budget increased by $40K.
+#1517  Finance Office: Withdraw update #0962.
+#1518  Vendor call: Hearing Zupul's budget goes down $152K.
+#1519  Finance Office: Zupul budget increased by $135K per the revised plan.
+#1520  Finance Office: Zupul budget increased by $35K per the revised plan.
+#1521  Marketing email: Sounds like Zupul gets $258K more.
+#1522  Finance Office: Zupul receipts scanned.
+#1523  Finance Office: Zupul budget decreased by $151K after review.
+#1524  Sales update: Zupul budget is going up to $1550K.
+#1525  Finance Office: Zupul budget increased by $75K.
+#1526  Finance Office: Zupul budget decreased by $10K after review.
+#1527  Finance Office: Zupul budget decreased by $100K.
+#1528  Finance Office: Zupul budget increased by $50K per the revised plan.
+#1529  Legal email: Zupul status report filed for week 24.
+#1530  Finance Office: Withdraw update #0559.
+#1531  Finance Office: Zupul budget decreased by $35K.
+#1532  Finance Office: Zupul budget increased by $70K after review.
+#1533  Finance Office: Zupul budget decreased by $105K.
+#1534  Finance Office: Withdraw update #0354; it was entered in error.
+#1535  Legal email: Zupul site visit confirmed for Thursday.
+#1536  Finance Office: Zupul budget increased by $120K per the revised plan.
+#1537  Marketing email: Zupul budget is going down to $1510K.
+#1538  Finance Office: Zupul budget increased by $90K after review.
+#1539  Finance Office: Withdraw update #1181; it was entered in error.
+#1540  Engineering email: Zupul risk register updated with 2 new items.
+#1541  PMO note: Zupul budget should land at $2070K.
+#1542  Legal email: Zupul budget should land at $2800K.
+#1543  Finance Office: Zupul budget increased by $140K.
+#1544  PMO note: Zupul budget is going to $2550K.
+#1545  Vendor call: Zupul budget is going down to $2460K.
+#1546  Facilities ticket: Zupul budget is going to $2800K.
+#1547  Finance Office: Zupul budget decreased by $125K.
+#1548  Operations chat: Zupul budget is going down to $1650K.
+#1549  Finance Office: Zupul invoice batch FC-7594 archived.
+#1550  Finance Office: Withdraw update #0747.
+#1551  Finance Office: Withdraw update #1107; it was entered in error.
+#1552  Marketing email: Zupul budget is going up to $2800K.
+#1553  Finance Office: Zupul budget increased by $20K after review.
+#1554  Finance Office: Zupul budget decreased by $65K after review.
+#1555  Finance Office: Withdraw update #1203; it was entered in error.
+#1556  Finance Office: Zupul budget increased by $100K.
+#1557  Finance Office: Zupul budget increased by $5K.
+#1558  Facilities ticket: Zupul budget is going to $2710K.
+#1559  Marketing email: Expect Zupul's budget to rise by $474K.
+#1560  Finance Office: Zupul budget increased by $125K per the revised plan.
+#1561  Facilities ticket: Zupul budget is going down to $1790K.
+#1562  Finance Office: Zupul budget increased by $150K.
+#1563  Facilities ticket: Zupul design review moved to Room 3D.
+#1564  Finance Office: Zupul budget decreased by $20K.
+#1565  Operations chat: Zupul demo rescheduled to Wednesday afternoon.
+#1566  Finance Office: Zupul budget decreased by $100K per the revised plan.
+#1567  Finance Office: Zupul budget decreased by $135K after review.
+#1568  Finance Office: Zupul budget decreased by $35K.
+#1569  Finance Office: Withdraw update #1248; it was entered in error.
+#1570  Finance Office: Zupul budget increased by $120K after review.
+#1571  Legal email: Expect Zupul's budget to rise by $507K.
+#1572  Finance Office: Zupul budget increased by $80K per the revised plan.
+#1573  Engineering email: Zupul budget is going down by $183K.
+#1574  PMO note: Expect Zupul's budget to rise by $502K.
+#1575  Vendor call: Hearing Zupul's budget goes up $304K.
+#1576  Finance Office: Zupul budget decreased by $40K after review.
+#1577  Operations chat: Zupul weekly sync moved to Thursdays.
+#1578  Facilities ticket: Zupul budget should land at $2600K.
+#1579  Finance Office: Withdraw update #0631.
+#1580  Finance Office: Zupul budget increased by $100K after review.
+#1581  Finance Office: Withdraw update #0647; it was entered in error.
+#1582  Finance Office: Zupul budget decreased by $70K after review.
+#1583  Finance Office: Withdraw update #0818; it was entered in error.
+#1584  Facilities ticket: Expect Zupul's budget to drop by $219K.
+#1585  Engineering email: Expect Zupul's budget to drop by $447K.
+#1586  PMO note: Zupul budget is going down by $76K.
+#1587  Finance Office: Zupul budget increased by $130K per the revised plan.
+#1588  Operations chat: Zupul budget is going to $1630K.
+#1589  Finance Office: Withdraw update #0365; it was entered in error.
+#1590  Finance Office: Zupul budget increased by $115K per the revised plan.
+#1591  Finance Office: Withdraw update #1523.
+#1592  Operations chat: Zupul budget is going down by $594K.
+#1593  Operations chat: Sounds like Zupul gets $409K less.
+#1594  Sales update: Zupul budget should land at $1960K.
+#1595  Finance Office: Withdraw update #0080; it was entered in error.
+#1596  Finance Office: Zupul budget increased by $105K.
+#1597  Operations chat: Heard Zupul's budget is now $2160K.
+#1598  Finance Office: Withdraw update #0199; it was entered in error.
+#1599  Finance Office: Withdraw update #1193; it was entered in error.
+#1600  Finance Office: Zupul budget increased by $55K per the revised plan.
+
+Question: What is Zupul's budget now?

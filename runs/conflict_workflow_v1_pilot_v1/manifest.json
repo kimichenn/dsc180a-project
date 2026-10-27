@@ -1,0 +1,291 @@
+{
+ "schema": 1,
+ "run": "conflict_workflow_v1_pilot_v1",
+ "created_at": "2026-10-26T02:44:06+00:00",
+ "created_by": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "config_file": "config/conflict_workflow_v1_pilot.toml",
+ "config": {
+  "description": "Structured general conflict-resolution workflow v1 versus no skill: five fresh chronological logs, ten repeats per condition",
+  "seed_start": 750000,
+  "logs": 5,
+  "versions": [
+   "C",
+   "R",
+   "RG",
+   "E"
+  ],
+  "instructions": [
+   "none",
+   "workflow_v1"
+  ],
+  "repeats": 10,
+  "schedule_seed": 183,
+  "timeout_seconds": 1800,
+  "generator": {
+   "chronological": true,
+   "max_attempts": 500000,
+   "records": 1600,
+   "adjust_share": 0.45,
+   "withdraw_share": 0.15,
+   "gossip_share": 0.3,
+   "nested_rate": 0.35,
+   "relative_gossip_share": 0.5,
+   "amount_step": 5,
+   "amount_max": 150,
+   "unique_amount_max": 600,
+   "budget_min": 200,
+   "budget_max": 3000
+  },
+  "models": {
+   "gpt": {
+    "name": "gpt",
+    "provider": "codex",
+    "model": "gpt-6-astra",
+    "effort": "low",
+    "max_output_tokens": 32000
+   }
+  },
+  "repeatability": {
+   "logs": 0,
+   "repeats": 10,
+   "selection_seed": 1801,
+   "versions": [
+    "R",
+    "RG"
+   ]
+  },
+  "frozen_skill_sha256": "",
+  "frozen_instruction_sha256": {
+   "none": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "workflow_v1": "c578578d54da5a03ac2c86c983b842bd1c011428bb35e8d92382e94e692aae23"
+  }
+ },
+ "uncollected_worlds_from": null,
+ "worlds": {
+  "s750000_n1600": {
+   "seed": 750000,
+   "project": "Fugekra",
+   "answer": 1728,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 248,
+   "surviving_adjustments": 605,
+   "chains": 150,
+   "nested_chains": 54,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 104179,
+    "R": 103927,
+    "RG": 103512,
+    "E": 105293,
+    "G": 103764
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0024,
+    "RG": -0.0064,
+    "E": 0.0107,
+    "G": -0.004
+   }
+  },
+  "s750001_n1600": {
+   "seed": 750001,
+   "project": "Pedrene",
+   "answer": 845,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 241,
+   "surviving_adjustments": 601,
+   "chains": 158,
+   "nested_chains": 55,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 103614,
+    "R": 103443,
+    "RG": 103170,
+    "E": 104837,
+    "G": 103341
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0017,
+    "RG": -0.0043,
+    "E": 0.0118,
+    "G": -0.0026
+   }
+  },
+  "s750002_n1600": {
+   "seed": 750002,
+   "project": "Kregis",
+   "answer": 1054,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "filler": 160,
+    "withdraw": 240,
+    "gossip": 480
+   },
+   "relative_gossip": 240,
+   "surviving_adjustments": 601,
+   "chains": 163,
+   "nested_chains": 57,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 102308,
+    "R": 102057,
+    "RG": 101830,
+    "E": 103252,
+    "G": 102081
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0025,
+    "RG": -0.0047,
+    "E": 0.0092,
+    "G": -0.0022
+   }
+  },
+  "s750003_n1600": {
+   "seed": 750003,
+   "project": "Fubrus",
+   "answer": 470,
+   "kinds": {
+    "opening": 1,
+    "filler": 160,
+    "gossip": 480,
+    "adjust": 719,
+    "withdraw": 240
+   },
+   "relative_gossip": 237,
+   "surviving_adjustments": 607,
+   "chains": 147,
+   "nested_chains": 52,
+   "max_chain_depth": 7,
+   "chars": {
+    "C": 103199,
+    "R": 102917,
+    "RG": 102550,
+    "E": 103910,
+    "G": 102832
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0027,
+    "RG": -0.0063,
+    "E": 0.0069,
+    "G": -0.0036
+   }
+  },
+  "s750004_n1600": {
+   "seed": 750004,
+   "project": "Nilis",
+   "answer": 1044,
+   "kinds": {
+    "opening": 1,
+    "filler": 160,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240
+   },
+   "relative_gossip": 254,
+   "surviving_adjustments": 607,
+   "chains": 152,
+   "nested_chains": 55,
+   "max_chain_depth": 7,
+   "chars": {
+    "C": 100933,
+    "R": 100935,
+    "RG": 100624,
+    "E": 101730,
+    "G": 100622
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": 0.0,
+    "RG": -0.0031,
+    "E": 0.0079,
+    "G": -0.0031
+   }
+  }
+ },
+ "trials": 400,
+ "repeatability_worlds": [],
+ "skill_sha256": null,
+ "instruction_sha256": {
+  "none": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "workflow_v1": "c578578d54da5a03ac2c86c983b842bd1c011428bb35e8d92382e94e692aae23"
+ },
+ "files": {
+  "PROTOCOL.md": "1107df9ec71bb2265116d15505e405cee3f88922fd718d2b08c39fa40b0d23b0",
+  "config.toml": "8761937c23d970dc4122f841228435d57138ee021fe2a03f4c73a61cec94f02f",
+  "prompts/s750000_n1600_C.txt": "f0f6f5dec79e64fb6ee7e7f08d5fa1ee6baf881c7a65ef6cf012ebc0cbe773a8",
+  "prompts/s750000_n1600_E.txt": "10095b431bfa1aa1cd2383d0a70974cbfd5d7e8f7f19934df322f98340726177",
+  "prompts/s750000_n1600_R.txt": "a794374cc32d8a8bd12ebfa42d58ccbade8d3689528e280285aa1fe1c50fb401",
+  "prompts/s750000_n1600_RG.txt": "e45cea2f090b66447e62c8475b9bc1c277c39375c32c6c9aa571415380c7b3c0",
+  "prompts/s750001_n1600_C.txt": "4e2a3ba5c571224b22ef551ee5da614b6546e8c942b7da32c0514d8cbe00e785",
+  "prompts/s750001_n1600_E.txt": "0b6f1acaa05890a38fca614b4e48ed2424c06c3323c47eb8529d9d4b443476a6",
+  "prompts/s750001_n1600_R.txt": "17d289193e88089026f8124e5974bcd4347c0037478ff7d2574d4797a4d80f31",
+  "prompts/s750001_n1600_RG.txt": "98ce174c77cafb75217d5ada3b40963c3ac4dc540ba6ae3461b8a3c53c8b87f5",
+  "prompts/s750002_n1600_C.txt": "775965b900684c85be048a6aff63eafed67973bc2fbbb8123b4ddd448808ae4b",
+  "prompts/s750002_n1600_E.txt": "21330bacc0d885a6f1e5c816801b27de438f99e53f133f4caacb3d64b114d09c",
+  "prompts/s750002_n1600_R.txt": "c0b85058c4df3bea454fbf29587df433208b29da488088f648d449afc163c90a",
+  "prompts/s750002_n1600_RG.txt": "dd976a79b657d40d8d43b0f78d5cd2e25e46ee1c2c0d069cb11c5fb4797693db",
+  "prompts/s750003_n1600_C.txt": "a368cf2d1f9c9fee63acc0ac73b2fa66808498d42839c98df5e41d2807665cc2",
+  "prompts/s750003_n1600_E.txt": "1cd48680559380f770723f4377742402989b660199c51c649e4ae804829e390d",
+  "prompts/s750003_n1600_R.txt": "69b105642ed9a4bbe69238e32ef5b1d672b6651ae341b4a32a4d5144ae9986f2",
+  "prompts/s750003_n1600_RG.txt": "cbfeebd0b454400e9fcda13f4a308ff99b2faaed5b2f90f46ce7b22deae10d77",
+  "prompts/s750004_n1600_C.txt": "75369221fc140a160540f92ef4c74d7780ce376b1ae59f54884c872b5c945a1f",
+  "prompts/s750004_n1600_E.txt": "60a695cd8b146a810cc112226498ec842667a0a97489062cb67843482334aa44",
+  "prompts/s750004_n1600_R.txt": "4f1e5986e5b261bad15c966cbd8b415f220f318509116bbf2cd721a3f4f8c589",
+  "prompts/s750004_n1600_RG.txt": "70ed71da043d004f458eebe16a0f9c411236504abfa32c02e97a2f00830f9a46",
+  "source/experiment/__init__.py": "c760795d5ca9fa2556afde41cc60c71cbc6a09392f0f6378d21923c088fcaa96",
+  "source/experiment/__main__.py": "04ecb63342dd3e2eb6a2f1d4f9efb8f533bf5206b8ecdd774cd41a2201a84b5a",
+  "source/experiment/analysis.py": "c7419631f2017966475c92eaf510637a43e0653c95df5d61a92ab2a04880cc31",
+  "source/experiment/checks.py": "fba7d695634fd078ea8773eec68e63adfcd43c84fadb6c9e322de072837ac272",
+  "source/experiment/cli.py": "f93a5790266419e712f2cfd99f000dc60531751439e15f9a3495bd3e9df1d2ff",
+  "source/experiment/clients/__init__.py": "011dcb373064d82fed54881109e4c77f0f97b23af1d55688531dbbab7a417db0",
+  "source/experiment/clients/base.py": "9e61ad02adad87074f01895a2e3660603f28e6b54e5c4dc3f92407961386e263",
+  "source/experiment/clients/claude_code.py": "bdf703841c69633bfaf89473b0b39e2aa6a46bf859245e4b428beb89655ec501",
+  "source/experiment/clients/codex.py": "a13d891d8bb97a31cf53739e0c9c6cf73d6261301a92922027fec1506a7b8aeb",
+  "source/experiment/collect.py": "64f01d37123fa767fb17e8e842ea2bed86396fc7cd7b0f683943ba73a6a21321",
+  "source/experiment/config.py": "5acf123aaf010efa5dd128c47f1de86cd479c71b6373f514c78aeea5d7dc715f",
+  "source/experiment/generator.py": "0e75e3c754a03fa23a3acce2c2d4b7e509aaa5a54a9700041cabaa25c9b4a01c",
+  "source/experiment/pilot.py": "a6d2a3517400934e712f18645e7b3b6adb4f8e38bc1c171f767cbfc291f29731",
+  "source/experiment/prompts.py": "6ba52d85e7f147c52cd4d81cd8b817b6f1d47879af5aa7540fb82f74f8bef77a",
+  "source/experiment/records.py": "bef456baf91ecf12cf295e038360218b7a82b55d8fc6ebe4ea511377027a908d",
+  "source/experiment/repeat_report.py": "04b9f97e611a7b0e84a169e7b4c09a314d854f3a86756a7a38f2a4ce87bfff6c",
+  "source/experiment/runs.py": "bab3b0afb3348edfdcd394b3d8826b14246f1389b9bc5a8688ca60c769901336",
+  "source/experiment/scoring.py": "d8507d961b16d7f3b3cae2c0a2a10e8c5daa85a9dc80551c4c0de6cadc38235a",
+  "source/experiment/screen_report.py": "c5e0eb829ceeee565625aca1cfb2197593c52eac71ef7c733e33b06ee350a2b6",
+  "source/experiment/skills/budget-chronological-replay/SKILL.md": "af343d85f5eb1938544707d9c88af1079a9d55bae8ca42982c6bfb822b24de6b",
+  "source/experiment/skills/budget-withdrawal-ledger/SKILL.md": "adb22872ab14218a916a1a3ac9c1608bd71d9550df579e98e8d84776d2c2d5a1",
+  "source/experiment/skills/conflict-resolution-audit/SKILL.md": "d38ae267bbb79711f73e8ad9c2bbe1192478e88826f4c351935ff6badde0bb75",
+  "source/experiment/skills/conflict-resolution-ledger/SKILL.md": "91ef7b67afd2d923865c1345b6e3202ee342fb2f2e424fb0582bfc83a6344b6c",
+  "source/experiment/skills/conflict-resolution-minimal/SKILL.md": "42ca78a1e13ea864f5b6cc33e3e886c65cf58272062a92d89ad8e9447c0e3f9c",
+  "source/experiment/skills/conflict-resolution-minimal-v3/SKILL.md": "44fe7b4cab7f71b3b432f823517965f7cfdabc0e6ccff741258bd5c473311ae7",
+  "source/experiment/skills/conflict-resolution-workflow-v1/SKILL.md": "2cee6881b43733286e68ee873da3d10802d73aa334bee3222f4486891fce7e67",
+  "source/experiment/solvers.py": "bee1bca44ed35ed98eee446d04505af162783ffa8c22a9ab427baf28142ad704",
+  "source/experiment/text.py": "509ef6b91328ddeb27776eef485617f2ee4baa6f85cb3a19dda5704a597dd414",
+  "source/experiment/world.py": "676b52a00349e8f415bf35a2672d89f72f8941bc2b61a6461373629ecde98467",
+  "system/none.txt": "1ce17b4898ab5d23a356446da214cf7ef1fbe464e94cecb20ee09d0750aaf2aa",
+  "system/workflow_v1.txt": "6c5aa9093a4be6ce15f928e8321fc3d2b0858c4fc76b0bc2569f29a5afa84b4b",
+  "trials.jsonl": "ee88b75fa69a19245174e529cd9a965fc28cbfcd07ce06b1e6cca62df5c6df28",
+  "worlds/s750000_n1600.json": "5df90bc4c5f43422ae101bb86da4d76ab86558dd9ad0aa57217ffb1d3451b145",
+  "worlds/s750001_n1600.json": "a1e2b8b7b287d6a243ed4239b589de5bfc27e9519c6888e976d10c7e14c5e3ec",
+  "worlds/s750002_n1600.json": "948a1dbe2d9b4c25d43814693a4bf665afe8ca105b26bf77090938a83279a832",
+  "worlds/s750003_n1600.json": "3772710f367f91a4231c0781958a7732405eefe7f01ea3308eb0dc79034c510d",
+  "worlds/s750004_n1600.json": "4f585fa0410e07b3c43eed91ea75363c0b9a4bf55101740e758531d44b31927f"
+ }
+}

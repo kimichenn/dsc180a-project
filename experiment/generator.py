@@ -26,7 +26,6 @@ from experiment.records import FINANCE, Record
 from experiment.solvers import active_status, reversals
 from experiment.world import World
 
-MAX_ATTEMPTS = 200
 FINANCE_FILLER_SHARE = 0.3  # share of filler records the Finance Office writes
 OPENING_RANGE = (500, 2000)  # $K, in steps of 10
 
@@ -52,12 +51,12 @@ def generate(seed: int, settings: GeneratorSettings) -> World:
         raise ValueError(f"the opening budget range {lo}-{hi} must sit inside the budget range")
     rng = random.Random(f"ledger-{seed}-{settings.records}")
     project = text.project_name(rng)
-    for attempt in range(1, MAX_ATTEMPTS + 1):
+    for attempt in range(1, settings.max_attempts + 1):
         world = _attempt(rng, seed, project, settings)
         if world is not None and not check_world(world, settings):
             world.attempts = attempt
             return world
-    raise RuntimeError(f"no valid world for seed {seed} with {settings.records} records after {MAX_ATTEMPTS} attempts")
+    raise RuntimeError(f"no valid world for seed {seed} with {settings.records} records after {settings.max_attempts} attempts")
 
 
 def _layout(rng: random.Random, settings: GeneratorSettings) -> list[tuple[str, int | None]] | None:
@@ -87,7 +86,7 @@ def _attempt(rng: random.Random, seed: int, project: str, settings: GeneratorSet
     if layout is None:
         return None
     skeleton = [Record(rid, kind, FINANCE, target=target) for rid, (kind, target) in enumerate(layout, 1)]
-    active = active_status(skeleton)
+    active = active_status(skeleton) if not settings.chronological else {}
     # The changes a withdrawal touches (the ones a withdrawal names directly) and the claimed changes.
     bottoms = {target for kind, target in layout if kind == "withdraw" and layout[target - 1][0] == "adjust"}
     relative = {rid for rid, (kind, _) in enumerate(layout, 1) if kind == "gossip" and rng.random() < settings.relative_gossip_share}
@@ -103,6 +102,7 @@ def _attempt(rng: random.Random, seed: int, project: str, settings: GeneratorSet
     width = text.id_width(settings.records)
     budget = rng.randrange(OPENING_RANGE[0], OPENING_RANGE[1] + 1, 10)
     records = []
+    arrival_effects: dict[int, int] = {}
     for rid, (kind, target) in enumerate(layout, 1):
         author, amount, is_relative = FINANCE, None, False
         if kind == "opening":
@@ -111,10 +111,18 @@ def _attempt(rng: random.Random, seed: int, project: str, settings: GeneratorSet
         elif kind == "adjust":
             size = unique.get(rid) or rng.randrange(settings.amount_step, settings.amount_max + 1, settings.amount_step)
             amount = _signed(rng, size, budget, settings)
-            if active[rid]:
+            arrival_effects[rid] = amount
+            if settings.chronological or active[rid]:
                 budget += amount
             body = text.adjust(rng, project, amount)
         elif kind == "withdraw":
+            if settings.chronological:
+                # Each record has at most one withdrawing record. Reversing its
+                # arrival effect also handles any depth of withdrawal chain.
+                arrival_effects[rid] = -arrival_effects[target]
+                budget += arrival_effects[rid]
+                if not settings.budget_min <= budget <= settings.budget_max:
+                    return None
             body = text.withdraw(rng, target, width)
         elif kind == "gossip":
             author, is_relative = rng.choice(text.OTHER_AUTHORS), rid in relative

@@ -1,0 +1,233 @@
+{
+ "schema": 1,
+ "run": "skill_drafts_pilot_v1",
+ "created_at": "2026-10-26T00:42:58+00:00",
+ "created_by": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "config_file": "config/skill_drafts_pilot.toml",
+ "config": {
+  "description": "Development screen: three general and two budget-specific drafts versus no skill; five repeats",
+  "seed_start": 730000,
+  "logs": 3,
+  "versions": [
+   "C",
+   "R",
+   "RG",
+   "E"
+  ],
+  "instructions": [
+   "none",
+   "ledger_v2",
+   "audit_v2",
+   "minimal_v2",
+   "budget_backward_v2",
+   "budget_forward_v2"
+  ],
+  "repeats": 5,
+  "schedule_seed": 181,
+  "timeout_seconds": 1800,
+  "generator": {
+   "chronological": true,
+   "max_attempts": 500000,
+   "records": 1600,
+   "adjust_share": 0.45,
+   "withdraw_share": 0.15,
+   "gossip_share": 0.3,
+   "nested_rate": 0.35,
+   "relative_gossip_share": 0.5,
+   "amount_step": 5,
+   "amount_max": 150,
+   "unique_amount_max": 600,
+   "budget_min": 200,
+   "budget_max": 3000
+  },
+  "models": {
+   "gpt": {
+    "name": "gpt",
+    "provider": "codex",
+    "model": "gpt-6-astra",
+    "effort": "low",
+    "max_output_tokens": 32000
+   }
+  },
+  "repeatability": {
+   "logs": 0,
+   "repeats": 10,
+   "selection_seed": 1801,
+   "versions": [
+    "R",
+    "RG"
+   ]
+  },
+  "frozen_skill_sha256": "",
+  "frozen_instruction_sha256": {
+   "none": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "ledger_v2": "eb798081e6e9b2f73c4a134d081a71f4f886d21cb66268ddac30882160a8eb90",
+   "audit_v2": "629f2ca4401f4e57c0317b0fc05b509ea71d13d646c6fd9c35854c0b1dfcc199",
+   "minimal_v2": "51195c87a0a9a98e28df81f3fc39d4c01c09cf2ef551d41a88cb1ca28673ac0f",
+   "budget_backward_v2": "17c00b49cecb97bb1338dd8002cb93167220113c1139f8cb9ef6ae766b7aaaf2",
+   "budget_forward_v2": "a7a06b4f73cce5852cc19e026401c9f132a79ef92dc07d4bbbd4cc2c58090e85"
+  }
+ },
+ "uncollected_worlds_from": null,
+ "worlds": {
+  "s730000_n1600": {
+   "seed": 730000,
+   "project": "Natrotru",
+   "answer": 1491,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "filler": 160,
+    "adjust": 719,
+    "withdraw": 240
+   },
+   "relative_gossip": 227,
+   "surviving_adjustments": 613,
+   "chains": 154,
+   "nested_chains": 61,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 106002,
+    "R": 105328,
+    "RG": 104996,
+    "E": 106912,
+    "G": 105670
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0064,
+    "RG": -0.0095,
+    "E": 0.0086,
+    "G": -0.0031
+   }
+  },
+  "s730001_n1600": {
+   "seed": 730001,
+   "project": "Sudrul",
+   "answer": 1257,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "filler": 160,
+    "gossip": 480,
+    "withdraw": 240
+   },
+   "relative_gossip": 261,
+   "surviving_adjustments": 593,
+   "chains": 166,
+   "nested_chains": 50,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 102872,
+    "R": 102828,
+    "RG": 102485,
+    "E": 103897,
+    "G": 102529
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0004,
+    "RG": -0.0038,
+    "E": 0.01,
+    "G": -0.0033
+   }
+  },
+  "s730002_n1600": {
+   "seed": 730002,
+   "project": "Krevabos",
+   "answer": 2417,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 228,
+   "surviving_adjustments": 605,
+   "chains": 156,
+   "nested_chains": 56,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 105639,
+    "R": 104932,
+    "RG": 104631,
+    "E": 106578,
+    "G": 105338
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0067,
+    "RG": -0.0095,
+    "E": 0.0089,
+    "G": -0.0028
+   }
+  }
+ },
+ "trials": 360,
+ "repeatability_worlds": [],
+ "skill_sha256": null,
+ "instruction_sha256": {
+  "none": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ledger_v2": "eb798081e6e9b2f73c4a134d081a71f4f886d21cb66268ddac30882160a8eb90",
+  "audit_v2": "629f2ca4401f4e57c0317b0fc05b509ea71d13d646c6fd9c35854c0b1dfcc199",
+  "minimal_v2": "51195c87a0a9a98e28df81f3fc39d4c01c09cf2ef551d41a88cb1ca28673ac0f",
+  "budget_backward_v2": "17c00b49cecb97bb1338dd8002cb93167220113c1139f8cb9ef6ae766b7aaaf2",
+  "budget_forward_v2": "a7a06b4f73cce5852cc19e026401c9f132a79ef92dc07d4bbbd4cc2c58090e85"
+ },
+ "files": {
+  "PROTOCOL.md": "dcb3b0695b7c8a4a0ebdea0c63bc4667ab39ff2ae405e57a4204f4a3cbc868e1",
+  "config.toml": "1062431c340c1bd03781cc384796aca2bc4ecdbf4b385011a4de6c0a0f1554db",
+  "prompts/s730000_n1600_C.txt": "fbbf4d9d4de36521469c4acb86ff0e567cd9a703b72f15711100edf669b666ac",
+  "prompts/s730000_n1600_E.txt": "0d96aa3c616224ea072eb8ceff51708c12f4c53eddab660c28131b0104555379",
+  "prompts/s730000_n1600_R.txt": "cdefc75c4a369e41732dc4e13473862c7ab878fa1f2e9180469980c100086cd5",
+  "prompts/s730000_n1600_RG.txt": "613f371ffccf3fc96641f270798b7b63cb4ac2a8c975b07419a3e3c106660a59",
+  "prompts/s730001_n1600_C.txt": "49b1fe36347fe60eea66badd92eb4f855cbee6054f5f6438959f8b87c5d24db9",
+  "prompts/s730001_n1600_E.txt": "2b0639164612b4f9c48081ffa23d0b968b071d2631c1e66abd2bebed9432a79b",
+  "prompts/s730001_n1600_R.txt": "f1c3a7f1f4d3a03227618e1cbc5354d9d6445241d365c31ab52db1223657a627",
+  "prompts/s730001_n1600_RG.txt": "98c87f151c24d5f48f0640ab725a4e4c6a6b0824e8cb249308652268771d6ff5",
+  "prompts/s730002_n1600_C.txt": "458e578eff3eeea7c95e0b794844ab4a954578ca34c1c4e84501fcc971414a85",
+  "prompts/s730002_n1600_E.txt": "adcff5cb6b8c01600a9fbbc059fdeeeef55fc466990777ca8c43310e26cdf661",
+  "prompts/s730002_n1600_R.txt": "0dea7b18189f84a5fbdbc7ef39f749bfb02ff9f56becc5fe34b338b3458dcd44",
+  "prompts/s730002_n1600_RG.txt": "f79ae8648d0e8bf44f050c94bdce75810f8a4e3936e9c7600cc8a105b8bc1960",
+  "source/experiment/__init__.py": "c760795d5ca9fa2556afde41cc60c71cbc6a09392f0f6378d21923c088fcaa96",
+  "source/experiment/__main__.py": "04ecb63342dd3e2eb6a2f1d4f9efb8f533bf5206b8ecdd774cd41a2201a84b5a",
+  "source/experiment/analysis.py": "c7419631f2017966475c92eaf510637a43e0653c95df5d61a92ab2a04880cc31",
+  "source/experiment/checks.py": "fba7d695634fd078ea8773eec68e63adfcd43c84fadb6c9e322de072837ac272",
+  "source/experiment/cli.py": "f93a5790266419e712f2cfd99f000dc60531751439e15f9a3495bd3e9df1d2ff",
+  "source/experiment/clients/__init__.py": "011dcb373064d82fed54881109e4c77f0f97b23af1d55688531dbbab7a417db0",
+  "source/experiment/clients/base.py": "9e61ad02adad87074f01895a2e3660603f28e6b54e5c4dc3f92407961386e263",
+  "source/experiment/clients/claude_code.py": "bdf703841c69633bfaf89473b0b39e2aa6a46bf859245e4b428beb89655ec501",
+  "source/experiment/clients/codex.py": "a13d891d8bb97a31cf53739e0c9c6cf73d6261301a92922027fec1506a7b8aeb",
+  "source/experiment/collect.py": "64f01d37123fa767fb17e8e842ea2bed86396fc7cd7b0f683943ba73a6a21321",
+  "source/experiment/config.py": "5acf123aaf010efa5dd128c47f1de86cd479c71b6373f514c78aeea5d7dc715f",
+  "source/experiment/generator.py": "0e75e3c754a03fa23a3acce2c2d4b7e509aaa5a54a9700041cabaa25c9b4a01c",
+  "source/experiment/pilot.py": "a6d2a3517400934e712f18645e7b3b6adb4f8e38bc1c171f767cbfc291f29731",
+  "source/experiment/prompts.py": "f0c86f2c16a50dd06391c093f11f8a1b8ded98e069de649580e593d5f2c60d89",
+  "source/experiment/records.py": "bef456baf91ecf12cf295e038360218b7a82b55d8fc6ebe4ea511377027a908d",
+  "source/experiment/repeat_report.py": "04b9f97e611a7b0e84a169e7b4c09a314d854f3a86756a7a38f2a4ce87bfff6c",
+  "source/experiment/runs.py": "bab3b0afb3348edfdcd394b3d8826b14246f1389b9bc5a8688ca60c769901336",
+  "source/experiment/scoring.py": "d8507d961b16d7f3b3cae2c0a2a10e8c5daa85a9dc80551c4c0de6cadc38235a",
+  "source/experiment/screen_report.py": "c5e0eb829ceeee565625aca1cfb2197593c52eac71ef7c733e33b06ee350a2b6",
+  "source/experiment/skills/budget-chronological-replay/SKILL.md": "af343d85f5eb1938544707d9c88af1079a9d55bae8ca42982c6bfb822b24de6b",
+  "source/experiment/skills/budget-withdrawal-ledger/SKILL.md": "adb22872ab14218a916a1a3ac9c1608bd71d9550df579e98e8d84776d2c2d5a1",
+  "source/experiment/skills/conflict-resolution-audit/SKILL.md": "d38ae267bbb79711f73e8ad9c2bbe1192478e88826f4c351935ff6badde0bb75",
+  "source/experiment/skills/conflict-resolution-ledger/SKILL.md": "91ef7b67afd2d923865c1345b6e3202ee342fb2f2e424fb0582bfc83a6344b6c",
+  "source/experiment/skills/conflict-resolution-minimal/SKILL.md": "42ca78a1e13ea864f5b6cc33e3e886c65cf58272062a92d89ad8e9447c0e3f9c",
+  "source/experiment/solvers.py": "bee1bca44ed35ed98eee446d04505af162783ffa8c22a9ab427baf28142ad704",
+  "source/experiment/text.py": "509ef6b91328ddeb27776eef485617f2ee4baa6f85cb3a19dda5704a597dd414",
+  "source/experiment/world.py": "676b52a00349e8f415bf35a2672d89f72f8941bc2b61a6461373629ecde98467",
+  "system/audit_v2.txt": "e956dad57c3d82fdcb5c7de524e56337afe4adc2705bd98db875041588751116",
+  "system/budget_backward_v2.txt": "8d5dde877a8fde612f764a4434c530902ddfd8b9cbcb07bd382715fe25ece41a",
+  "system/budget_forward_v2.txt": "647125a1bd9e1d1b5528b19b7245132906e7eff9a4be7851fd57d41b246fb46e",
+  "system/ledger_v2.txt": "2727ec9055d1475517b0a7a2e7f8712879a8dd5910b5351d061f2082ff552c47",
+  "system/minimal_v2.txt": "10961681d3d1f5d4214a6512571c220347d0d701572119af68bd32bb7943b3ab",
+  "system/none.txt": "1ce17b4898ab5d23a356446da214cf7ef1fbe464e94cecb20ee09d0750aaf2aa",
+  "trials.jsonl": "0ae422a0e924b589d139329d2bb32aed68fbc8b7522fb74005bfc5e9d20964e9",
+  "worlds/s730000_n1600.json": "db4fb899c6711823c8db0d02ed37390ba521c6d81ad79de8dfbc4eb767f9642e",
+  "worlds/s730001_n1600.json": "0945429a27b8ef12a0a41a5a6a9e338d38d6af86bd8be3cdebf9b9c3ffd8eba0",
+  "worlds/s730002_n1600.json": "881954fab8118ab3d07ce59d4396fc18716c62dd47092b4e15f3fb99f670290f"
+ }
+}

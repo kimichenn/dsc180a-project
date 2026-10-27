@@ -1,0 +1,43 @@
+# GPT repeat study: 720 base calls plus 280 repeatability calls = 1,000 total.
+description = "GPT repeat study: 30 fresh logs, chronological generator, 3 base repeats and 10 on 10 selected R/RG logs"
+
+[design]
+seed_start = 720000        # fresh: disjoint from the trial run and every EDA seed
+logs = 30
+versions = ["C", "R", "RG", "E"]
+instructions = ["none", "skill"]
+repeats = 3
+schedule_seed = 180
+
+[repeatability]
+logs = 10
+repeats = 10
+selection_seed = 1802
+versions = ["R", "RG"]
+
+[freeze]
+skill_sha256 = "110dc3202c110644d473c29e0d5bfff26ca008eecc7e0a8b2930a91c8eda946a"
+
+[generator]
+chronological = true
+max_attempts = 500000
+records = 1600
+adjust_share = 0.45
+withdraw_share = 0.15
+gossip_share = 0.30
+nested_rate = 0.35
+relative_gossip_share = 0.5
+amount_step = 5
+amount_max = 150
+unique_amount_max = 600
+budget_min = 200
+budget_max = 3000
+
+[collection]
+timeout_seconds = 1800
+
+[models.gpt]
+provider = "codex"
+model = "gpt-6-astra"
+effort = "low"
+max_output_tokens = 32000  # Codex cannot enforce it; longer responses are flagged hit_length_limit, as for Claude

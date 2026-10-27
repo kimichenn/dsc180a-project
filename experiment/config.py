@@ -17,6 +17,8 @@ PROVIDERS = ("claude-code", "codex")
 
 @dataclass(frozen=True)
 class GeneratorSettings:
+    chronological: bool = False  # False preserves old configs and frozen-run provenance.
+    max_attempts: int = 200
     records: int = 1600
     # Shares of the log. The opening budget counts toward adjust_share; filler gets what is left.
     adjust_share: float = 0.45
@@ -34,6 +36,8 @@ class GeneratorSettings:
     budget_max: int = 3000
 
     def __post_init__(self):
+        if self.max_attempts < 1:
+            raise ValueError("max_attempts must be positive")
         shares = (self.adjust_share, self.withdraw_share, self.gossip_share)
         if any(s < 0 for s in shares) or sum(shares) > 1:
             raise ValueError("generator shares must be non-negative and sum to at most 1")
@@ -60,6 +64,17 @@ class ModelSpec:
 
 
 @dataclass(frozen=True)
+class RepeatabilitySettings:
+    logs: int = 0
+    repeats: int = 10
+    selection_seed: int = 1801
+    versions: tuple[str, ...] = ("R", "RG")
+
+    def __post_init__(self):
+        object.__setattr__(self, "versions", tuple(self.versions))
+
+
+@dataclass(frozen=True)
 class RunConfig:
     description: str
     seed_start: int
@@ -71,6 +86,9 @@ class RunConfig:
     timeout_seconds: int
     generator: GeneratorSettings
     models: dict[str, ModelSpec] = field(default_factory=dict)
+    repeatability: RepeatabilitySettings = field(default_factory=RepeatabilitySettings)
+    frozen_skill_sha256: str = ""
+    frozen_instruction_sha256: dict[str, str] = field(default_factory=dict)
 
     def __post_init__(self):
         if self.logs < 1 or self.repeats < 1 or self.timeout_seconds < 1:
@@ -80,6 +98,15 @@ class RunConfig:
             raise ValueError(f"versions must be distinct values from {', '.join(VERSIONS)}")
         if not self.models:
             raise ValueError("a run needs at least one model")
+        if not self.instructions or len(set(self.instructions)) != len(self.instructions):
+            raise ValueError("instructions must be nonempty and distinct")
+        if self.frozen_instruction_sha256 and set(self.frozen_instruction_sha256) != set(self.instructions):
+            raise ValueError("freeze.instructions must cover exactly the selected instructions")
+        tier = self.repeatability
+        if not 0 <= tier.logs <= self.logs or (tier.logs and tier.repeats < self.repeats):
+            raise ValueError("invalid repeatability log count or repeat count")
+        if not set(tier.versions) <= set(self.versions) and tier.logs:
+            raise ValueError("repeatability versions must be in the base design")
 
     @property
     def seeds(self) -> range:
@@ -101,6 +128,9 @@ def load_config(path: Path) -> RunConfig:
         timeout_seconds=data.get("collection", {}).get("timeout_seconds", 1800),
         generator=GeneratorSettings(**data.get("generator", {})),
         models={name: ModelSpec(name=name, **spec) for name, spec in data["models"].items()},
+        repeatability=RepeatabilitySettings(**data.get("repeatability", {})),
+        frozen_skill_sha256=data.get("freeze", {}).get("skill_sha256", ""),
+        frozen_instruction_sha256=data.get("freeze", {}).get("instructions", {}),
     )
 
 
@@ -110,9 +140,10 @@ def config_to_dict(config: RunConfig) -> dict:
 
 def config_from_dict(data: dict) -> RunConfig:
     return RunConfig(
-        **{k: v for k, v in data.items() if k not in ("generator", "models", "versions", "instructions")},
+        **{k: v for k, v in data.items() if k not in ("generator", "models", "versions", "instructions", "repeatability")},
         versions=tuple(data["versions"]),
         instructions=tuple(data["instructions"]),
         generator=GeneratorSettings(**data["generator"]),
         models={name: ModelSpec(**spec) for name, spec in data["models"].items()},
+        repeatability=RepeatabilitySettings(**data.get("repeatability", {})),
     )

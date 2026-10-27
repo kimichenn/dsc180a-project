@@ -23,6 +23,7 @@ import random
 import re
 import subprocess
 from contextlib import contextmanager
+from concurrent.futures import ProcessPoolExecutor
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from functools import cached_property
@@ -30,7 +31,7 @@ from pathlib import Path
 
 from experiment.config import RunConfig, config_from_dict, config_to_dict
 from experiment.generator import generate
-from experiment.prompts import Prompt, system_prompt, user_prompt
+from experiment.prompts import INSTRUCTIONS, SKILL, Prompt, system_prompt, user_prompt
 from experiment.world import World
 
 SCHEMA = 1
@@ -88,14 +89,37 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
-def prepare(config: RunConfig, config_file: Path, run_dir: Path, operator: str) -> Run:
+def prepare(config: RunConfig, config_file: Path, run_dir: Path, operator: str, workers: int = 1,
+            reuse_worlds: Path | None = None) -> Run:
     """Generate the worlds, write every prompt, and freeze the call schedule. No model calls."""
     run_dir = Path(run_dir)
     if run_dir.exists():
         raise ValueError(f"{run_dir} already exists; collect into it, or prepare a new run name")
     systems = {name: system_prompt(name) for name in config.instructions}
+    if config.frozen_skill_sha256 and hashlib.sha256(SKILL.encode()).hexdigest() != config.frozen_skill_sha256:
+        raise ValueError("skill text differs from the frozen config hash")
+    for name, expected in config.frozen_instruction_sha256.items():
+        if hashlib.sha256(INSTRUCTIONS[name].encode()).hexdigest() != expected:
+            raise ValueError(f"instruction {name} differs from the frozen config hash")
     state = git_state()  # before writing, so the new run itself does not count as uncommitted work
-    worlds = [generate(seed, config.generator) for seed in config.seeds]
+    if reuse_worlds is not None:
+        source = load(reuse_worlds)
+        if source.config.generator != config.generator or list(source.config.seeds) != list(config.seeds):
+            raise ValueError("reused worlds must have identical generator settings and seeds")
+        if read_attempts(source):
+            raise ValueError("reused worlds must have no model attempts; use fresh seeds for tested data")
+        worlds = [World.from_json(json.loads((source.path / "worlds" / f"{wid}.json").read_text()))
+                  for wid in source.manifest["worlds"]]
+    elif workers > 1:
+        with ProcessPoolExecutor(max_workers=workers) as pool:
+            futures = [pool.submit(generate, seed, config.generator) for seed in config.seeds]
+            worlds = []
+            for future in futures:
+                world = future.result()
+                worlds.append(world)
+                print(f"Generated {world.world_id}: {world.attempts} attempts ({len(worlds)}/{config.logs})", flush=True)
+    else:
+        worlds = [generate(seed, config.generator) for seed in config.seeds]
     trials = schedule(config, worlds)
 
     for folder in ("worlds", "prompts", "system"):
@@ -107,6 +131,17 @@ def prepare(config: RunConfig, config_file: Path, run_dir: Path, operator: str) 
         for version in config.versions:
             (run_dir / "prompts" / f"{world.world_id}_{version}.txt").write_text(user_prompt(world.version(version), world.project))
     _write_jsonl(run_dir / "trials.jsonl", [asdict(t) for t in trials])
+    if config.frozen_skill_sha256 or config.frozen_instruction_sha256:
+        sources = list((REPO_ROOT / "experiment").rglob("*.py"))
+        sources += list((REPO_ROOT / "experiment" / "skills").rglob("SKILL.md"))
+        for source in sorted(sources):
+            dest = run_dir / "source" / source.relative_to(REPO_ROOT)
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_bytes(source.read_bytes())
+        (run_dir / "config.toml").write_bytes(Path(config_file).read_bytes())
+        protocol = Path(config_file).with_suffix(".md")
+        if protocol.exists():
+            (run_dir / "PROTOCOL.md").write_bytes(protocol.read_bytes())
     frozen = sorted(p for p in run_dir.rglob("*") if p.is_file())
     manifest = {
         "schema": SCHEMA,
@@ -116,21 +151,33 @@ def prepare(config: RunConfig, config_file: Path, run_dir: Path, operator: str) 
         **state,
         "config_file": _relative(config_file),
         "config": config_to_dict(config),
+        "uncollected_worlds_from": str(reuse_worlds) if reuse_worlds is not None else None,
         "worlds": {w.world_id: {"seed": w.seed, "project": w.project, "answer": w.answer, **w.diagnostics()} for w in worlds},
         "trials": len(trials),
+        "repeatability_worlds": sorted(repeatability_worlds(config, worlds)),
+        "skill_sha256": hashlib.sha256(SKILL.encode()).hexdigest() if "skill" in systems else None,
+        "instruction_sha256": {name: hashlib.sha256(INSTRUCTIONS[name].encode()).hexdigest() for name in systems},
         "files": {str(p.relative_to(run_dir)): sha256(p) for p in frozen},
     }
     (run_dir / "manifest.json").write_text(json.dumps(manifest, indent=1) + "\n")
     return Run(run_dir, manifest, trials)
 
 
+def repeatability_worlds(config: RunConfig, worlds: list[World]) -> set[str]:
+    return set(random.Random(config.repeatability.selection_seed).sample(
+        [w.world_id for w in worlds], config.repeatability.logs))
+
+
 def schedule(config: RunConfig, worlds: list[World]) -> list[Trial]:
     """Every call, in collection order: world by world, so a run cut short still has whole worlds
     (the proposal cuts logs before repeats or versions); shuffled within each world."""
     rng = random.Random(config.schedule_seed)
+    extended = repeatability_worlds(config, worlds)
     trials: list[Trial] = []
     for world in worlds:
-        block = [(v, i, m, r) for v in config.versions for i in config.instructions for m in config.models for r in range(1, config.repeats + 1)]
+        block = [(v, i, m, r) for v in config.versions for i in config.instructions for m in config.models
+                 for r in range(1, (config.repeatability.repeats if world.world_id in extended
+                                    and v in config.repeatability.versions else config.repeats) + 1)]
         rng.shuffle(block)
         for version, instruction, model, repeat in block:
             trial_id = f"{world.world_id}_{version}_{instruction}_{model}_r{repeat}"
@@ -152,6 +199,17 @@ def load(run_dir: Path) -> Run:
         raise ValueError(f"frozen files changed since prepare: {', '.join(changed[:5])}; restore them from git or prepare a new run")
     trials = [Trial(**row) for row in _read_jsonl(run_dir / "trials.jsonl")]
     return Run(run_dir, manifest, trials)
+
+
+def verify_collection_source(run: Run) -> None:
+    """Refuse to collect a frozen study with different execution code."""
+    if not (run.config.frozen_skill_sha256 or run.config.frozen_instruction_sha256):
+        return
+    for name, digest in run.manifest["files"].items():
+        if name.startswith("source/experiment/"):
+            current = REPO_ROOT / name.removeprefix("source/")
+            if not current.exists() or sha256(current) != digest:
+                raise ValueError(f"collection source changed: {current}; restore the frozen source before resuming")
 
 
 def write_attempt(run: Run, record: dict) -> Path:

@@ -1,0 +1,63 @@
+{
+ "trial_id": "s750002_n1600_E_workflow_v1_gpt_r10",
+ "order": 214,
+ "world_id": "s750002_n1600",
+ "version": "E",
+ "instruction": "workflow_v1",
+ "model": "gpt",
+ "repeat": 10,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "298a930f180788253572d3f9eb8c4424313332c33f5abe48ff5b1769c308ca82",
+ "started_at": "2026-10-26T03:25:35+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Kregis\u2019s current budget is **$1,054K**.\n\nOnly Finance Office budget updates count. No withdrawals appear in the records; unrelated messages, including Finance Office scheduling and administrative notices, have no budget effect.\n\nStarting with **$580K** in #0001, the changes sum as follows:\n\n| Records | Net budget change |\n|---|---:|\n| #0002\u2013#0400 | +$135K |\n| #0401\u2013#0800 | +$1,985K |\n| #0801\u2013#1200 | \u2212$1,711K |\n| #1201\u2013#1600 | +$65K |\n\nThus, $580K + $135K + $1,985K \u2212 $1,711K + $65K = **$1,054K**.\n\nANSWER: $1054K",
+ "usage": {
+  "input_tokens": 30380,
+  "cached_input_tokens": 30208,
+  "output_tokens": 3961,
+  "reasoning_output_tokens": 3779
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a1763d-fc05-70d0-9bec-78f5b8894288"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Kregis\u2019s current budget is **$1,054K**.\n\nOnly Finance Office budget updates count. No withdrawals appear in the records; unrelated messages, including Finance Office scheduling and administrative notices, have no budget effect.\n\nStarting with **$580K** in #0001, the changes sum as follows:\n\n| Records | Net budget change |\n|---|---:|\n| #0002\u2013#0400 | +$135K |\n| #0401\u2013#0800 | +$1,985K |\n| #0801\u2013#1200 | \u2212$1,711K |\n| #1201\u2013#1600 | +$65K |\n\nThus, $580K + $135K + $1,985K \u2212 $1,711K + $65K = **$1,054K**.\n\nANSWER: $1054K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 30380,
+     "cached_input_tokens": 30208,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3961,
+     "reasoning_output_tokens": 3779
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T03:25:36.138185Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:25:36.140668Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:25:36.142226Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:25:36.143588Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:25:36.144854Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:25:36.146131Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:25:36.169875Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:25:36.171143Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:25:36.184579Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T03:27:15.106611Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a1763d-fc05-70d0-9bec-78f5b8894288.1792985136134912000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T03:27:15+00:00",
+ "elapsed_s": 99.5
+}

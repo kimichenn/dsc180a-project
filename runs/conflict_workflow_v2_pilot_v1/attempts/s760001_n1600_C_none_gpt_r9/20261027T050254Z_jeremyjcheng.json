@@ -1,0 +1,63 @@
+{
+ "trial_id": "s760001_n1600_C_none_gpt_r9",
+ "order": 159,
+ "world_id": "s760001_n1600",
+ "version": "C",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 9,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.164.0-alpha.11.1",
+ "prompt_sha256": "15367fd43d55f9bfe0fb56f042cadeda70702486d054aafe4c8217944d68d964",
+ "started_at": "2026-10-27T05:02:54+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Applying all Finance Office budget changes to the initial $1,060K gives a net decrease of $57K. No withdrawals are recorded.\n\nANSWER: $1003K",
+ "usage": {
+  "input_tokens": 27143,
+  "cached_input_tokens": 0,
+  "output_tokens": 2924,
+  "reasoning_output_tokens": 2884
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a17bbd-710e-70c1-9d01-106de32b999a"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Applying all Finance Office budget changes to the initial $1,060K gives a net decrease of $57K. No withdrawals are recorded.\n\nANSWER: $1003K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 27143,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2924,
+     "reasoning_output_tokens": 2884
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-27T05:02:55.252297Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-27T05:02:55.253131Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-27T05:02:55.253864Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-27T05:02:55.267423Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-27T05:02:55.268352Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-27T05:02:55.269444Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-27T05:02:55.295406Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n"
+ },
+ "finished_at": "2026-10-27T05:03:33+00:00",
+ "elapsed_s": 38.1
+}

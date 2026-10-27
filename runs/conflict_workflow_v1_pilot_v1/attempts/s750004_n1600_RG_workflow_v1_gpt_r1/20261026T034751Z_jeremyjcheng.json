@@ -1,0 +1,63 @@
+{
+ "trial_id": "s750004_n1600_RG_workflow_v1_gpt_r1",
+ "order": 331,
+ "world_id": "s750004_n1600",
+ "version": "RG",
+ "instruction": "workflow_v1",
+ "model": "gpt",
+ "repeat": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "70d74e28942e5eeee8db27e5723efa20cfc63c00ac3a67cc8699a81e94477d22",
+ "started_at": "2026-10-26T03:47:51+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Nilis\u2019s budget is **$1,044K**, counting only Finance Office budget updates that remain effective after resolving all withdrawals and withdrawals of withdrawals. Messages from other departments and non-budget Finance Office records do not affect the total.\n\nANSWER: $1044K",
+ "usage": {
+  "input_tokens": 29870,
+  "cached_input_tokens": 0,
+  "output_tokens": 5236,
+  "reasoning_output_tokens": 5178
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a17652-5eca-70a3-8141-c3a42e567647"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Nilis\u2019s budget is **$1,044K**, counting only Finance Office budget updates that remain effective after resolving all withdrawals and withdrawals of withdrawals. Messages from other departments and non-budget Finance Office records do not affect the total.\n\nANSWER: $1044K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 29870,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 5236,
+     "reasoning_output_tokens": 5178
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T03:47:52.168359Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:47:52.169988Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:47:52.171560Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:47:52.172854Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:47:52.174335Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:47:52.175676Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:47:52.177210Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:47:52.178534Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:47:52.187913Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T03:50:36.454550Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a17652-5eca-70a3-8141-c3a42e567647.1792986472140125000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T03:50:36+00:00",
+ "elapsed_s": 164.8
+}

@@ -1,0 +1,244 @@
+{
+ "schema": 1,
+ "run": "skill_pilot_v1",
+ "created_at": "2026-10-25T22:29:36+00:00",
+ "created_by": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "config_file": "config/skill_pilot.toml",
+ "config": {
+  "description": "General conflict-resolution skill v1: exploratory pilot using legacy generator, 5 new logs, all 8 cells, one repeat",
+  "seed_start": 610000,
+  "logs": 5,
+  "versions": [
+   "C",
+   "R",
+   "RG",
+   "E"
+  ],
+  "instructions": [
+   "none",
+   "skill"
+  ],
+  "repeats": 1,
+  "schedule_seed": 181,
+  "timeout_seconds": 1800,
+  "generator": {
+   "records": 1600,
+   "adjust_share": 0.45,
+   "withdraw_share": 0.15,
+   "gossip_share": 0.3,
+   "nested_rate": 0.35,
+   "relative_gossip_share": 0.5,
+   "amount_step": 5,
+   "amount_max": 150,
+   "unique_amount_max": 600,
+   "budget_min": 200,
+   "budget_max": 3000
+  },
+  "models": {
+   "claude": {
+    "name": "claude",
+    "provider": "claude-code",
+    "model": "claude-opus-5-5",
+    "effort": "low",
+    "max_output_tokens": 32000
+   },
+   "gpt": {
+    "name": "gpt",
+    "provider": "codex",
+    "model": "gpt-6-astra",
+    "effort": "low",
+    "max_output_tokens": 32000
+   }
+  }
+ },
+ "worlds": {
+  "s610000_n1600": {
+   "seed": 610000,
+   "project": "Vililux",
+   "answer": 2473,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "withdraw": 240,
+    "filler": 160,
+    "gossip": 480
+   },
+   "relative_gossip": 236,
+   "surviving_adjustments": 611,
+   "chains": 141,
+   "nested_chains": 54,
+   "max_chain_depth": 7,
+   "chars": {
+    "C": 104340,
+    "R": 103902,
+    "RG": 103586,
+    "E": 105393,
+    "G": 104024
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0042,
+    "RG": -0.0072,
+    "E": 0.0101,
+    "G": -0.003
+   }
+  },
+  "s610001_n1600": {
+   "seed": 610001,
+   "project": "Thaza",
+   "answer": 983,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 243,
+   "surviving_adjustments": 601,
+   "chains": 157,
+   "nested_chains": 51,
+   "max_chain_depth": 8,
+   "chars": {
+    "C": 101381,
+    "R": 101170,
+    "RG": 100882,
+    "E": 102073,
+    "G": 101093
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0021,
+    "RG": -0.0049,
+    "E": 0.0068,
+    "G": -0.0028
+   }
+  },
+  "s610002_n1600": {
+   "seed": 610002,
+   "project": "Musufu",
+   "answer": 1513,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 237,
+   "surviving_adjustments": 605,
+   "chains": 151,
+   "nested_chains": 58,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 102639,
+    "R": 102387,
+    "RG": 102128,
+    "E": 103610,
+    "G": 102380
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0025,
+    "RG": -0.005,
+    "E": 0.0095,
+    "G": -0.0025
+   }
+  },
+  "s610003_n1600": {
+   "seed": 610003,
+   "project": "Debas",
+   "answer": 2553,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 230,
+   "surviving_adjustments": 597,
+   "chains": 158,
+   "nested_chains": 50,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 101510,
+    "R": 101394,
+    "RG": 101046,
+    "E": 102345,
+    "G": 101162
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0011,
+    "RG": -0.0046,
+    "E": 0.0082,
+    "G": -0.0034
+   }
+  },
+  "s610004_n1600": {
+   "seed": 610004,
+   "project": "Kagi",
+   "answer": 2431,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480,
+    "filler": 160
+   },
+   "relative_gossip": 243,
+   "surviving_adjustments": 599,
+   "chains": 160,
+   "nested_chains": 56,
+   "max_chain_depth": 4,
+   "chars": {
+    "C": 99388,
+    "R": 99539,
+    "RG": 99228,
+    "E": 100392,
+    "G": 99077
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": 0.0015,
+    "RG": -0.0016,
+    "E": 0.0101,
+    "G": -0.0031
+   }
+  }
+ },
+ "trials": 80,
+ "files": {
+  "prompts/s610000_n1600_C.txt": "19f3a82d13bb748d7042fadf6b0a686759bd27d0903280c47ed29ec8d9af47d2",
+  "prompts/s610000_n1600_E.txt": "d4171c35920cbf429d1b205b55d87bc80b41616fe6a0d904316797d57ce4cbfe",
+  "prompts/s610000_n1600_R.txt": "c05172e036b6a8b09f388938396d1477b1da60a0e4e6fbcf5ef2979f5a477b70",
+  "prompts/s610000_n1600_RG.txt": "df9c924da6bad545a0700f0fdfef6f22a79558a2c24545f2c3b37f76f526b0d3",
+  "prompts/s610001_n1600_C.txt": "6c049de066569245dcaaba26295d7d63b2cfba3667401d39f9e8a6f9ab2ffa6d",
+  "prompts/s610001_n1600_E.txt": "85a57f5b52227252667b722245063fa491e6beac30212858d24cae879f64a968",
+  "prompts/s610001_n1600_R.txt": "ca96ed0696de146cca7df6e0e6ddabecea216a8dccb657d8e604e802c491cc7a",
+  "prompts/s610001_n1600_RG.txt": "ebbe7a1fe1be81face0e8c52eef875223832ea75ca5c3310bd9c7389c88fe87a",
+  "prompts/s610002_n1600_C.txt": "75deb7268d64fee70437fffa224d730003dab97c619f2ef0f71055f1b8a09206",
+  "prompts/s610002_n1600_E.txt": "3440d69e9cee840d274cfeb5098f3aa22e61903b0ce24bbe1b97be7b0e5318df",
+  "prompts/s610002_n1600_R.txt": "d13cbb740093e1b8af105af2fa2b02c7ded8253c89ae251ba64963d03536cfb0",
+  "prompts/s610002_n1600_RG.txt": "95bbdbbef90bc7ca9aa6543840a84a7a7f63bb38c9e9978a74f0014dcfb733c2",
+  "prompts/s610003_n1600_C.txt": "e1eefd024e5526386efbc3eae4d25f33f251a8f5f78c7a6d558064cdf3d4175e",
+  "prompts/s610003_n1600_E.txt": "55e30fba3299ac61315da85c89de1e582301839412420d81e52baa0947380560",
+  "prompts/s610003_n1600_R.txt": "daf632d4a073476e24e7d4974fed7014b67974af6eb7c0998e4a825ac7d463d0",
+  "prompts/s610003_n1600_RG.txt": "0bedd5c1ef26dd898fe6ec600e4b697937de7f39e163f08640da4b3ef848526b",
+  "prompts/s610004_n1600_C.txt": "c47bc9b37f1fd7ac43b196e65b34cd880ea951c54b4d7f835e6f9be6c49882d9",
+  "prompts/s610004_n1600_E.txt": "ed3a22fe67536b5247dd54d9eb3f6ec47b5d62c5d026a14c0e9a8496984cb6f3",
+  "prompts/s610004_n1600_R.txt": "37b58ffae391e32ba958d7dd66b30cda463bdfde00453dc5c9370749326b3d44",
+  "prompts/s610004_n1600_RG.txt": "d5d8d1760e5f36893e69097b068bb2b56ff490e6921ed756bd43ec1a4f629f2b",
+  "system/none.txt": "1ce17b4898ab5d23a356446da214cf7ef1fbe464e94cecb20ee09d0750aaf2aa",
+  "system/skill.txt": "263b3c006372a4de2f6706efa49cffe2153daceee46ee0676395b60d956c86c6",
+  "trials.jsonl": "7c4f10f81d41b80c31ca5253238a763478188a4fec06256269e760ce0da49319",
+  "worlds/s610000_n1600.json": "9e6d30aa3953111c921197ca95429c47bb138a5dcef807d4ce6e0328db033b4a",
+  "worlds/s610001_n1600.json": "b8e328e02344ee33f2022eb4d5839af70e830efd976a0c61482c0c77c40d7a2a",
+  "worlds/s610002_n1600.json": "d04d5317762a56768dfc0eac3b384d05d0231d3956faeeb995b8dc594cebe03d",
+  "worlds/s610003_n1600.json": "885c0251527ca5f7aea1718b609fac98f30b9f9aed175afbd12b65177ebae441",
+  "worlds/s610004_n1600.json": "ce3ed30dc8efe2df1861f3286ee3a50a6ba7f5fd85dcfbab802bf7ffd260727e"
+ }
+}

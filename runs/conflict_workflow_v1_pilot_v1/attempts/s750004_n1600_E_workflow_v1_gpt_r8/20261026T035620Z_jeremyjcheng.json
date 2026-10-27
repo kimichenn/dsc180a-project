@@ -1,0 +1,63 @@
+{
+ "trial_id": "s750004_n1600_E_workflow_v1_gpt_r8",
+ "order": 378,
+ "world_id": "s750004_n1600",
+ "version": "E",
+ "instruction": "workflow_v1",
+ "model": "gpt",
+ "repeat": 8,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "e402f2d3343aef972433e8553c663d66ef1b8c8c59426906e022a6eefab2b5d4",
+ "started_at": "2026-10-26T03:56:20+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Only Finance Office budget-setting and budget-change records affect the total. There are no withdrawals in the supplied records.\n\nApplying the updates in order gives these checkpoints:\n\n| Through record | Budget |\n|---|---:|\n| #0200 | $2,111K |\n| #0400 | $2,277K |\n| #0600 | $1,732K |\n| #0800 | $963K |\n| #1000 | $2,640K |\n| #1200 | $2,617K |\n| #1400 | $1,585K |\n| #1500 | $1,981K |\n| #1600 | $1,044K |\n\nAs a final arithmetic check, records #1501\u2013#1600 contain increases totaling $4,140K and decreases totaling $5,077K: $1,981K + $4,140K \u2212 $5,077K = $1,044K.\n\nANSWER: $1044K",
+ "usage": {
+  "input_tokens": 28844,
+  "cached_input_tokens": 0,
+  "output_tokens": 3831,
+  "reasoning_output_tokens": 3624
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a1765a-229f-7d63-9428-a9e456a225aa"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Only Finance Office budget-setting and budget-change records affect the total. There are no withdrawals in the supplied records.\n\nApplying the updates in order gives these checkpoints:\n\n| Through record | Budget |\n|---|---:|\n| #0200 | $2,111K |\n| #0400 | $2,277K |\n| #0600 | $1,732K |\n| #0800 | $963K |\n| #1000 | $2,640K |\n| #1200 | $2,617K |\n| #1400 | $1,585K |\n| #1500 | $1,981K |\n| #1600 | $1,044K |\n\nAs a final arithmetic check, records #1501\u2013#1600 contain increases totaling $4,140K and decreases totaling $5,077K: $1,981K + $4,140K \u2212 $5,077K = $1,044K.\n\nANSWER: $1044K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 28844,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3831,
+     "reasoning_output_tokens": 3624
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T03:56:21.028391Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:56:21.056419Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:56:21.057505Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:56:21.058580Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:56:21.059608Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:56:21.060618Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:56:21.061629Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:56:21.062587Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:56:21.081915Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T03:58:08.833226Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a1765a-229f-7d63-9428-a9e456a225aa.1792986981024896000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T03:58:09+00:00",
+ "elapsed_s": 108.3
+}

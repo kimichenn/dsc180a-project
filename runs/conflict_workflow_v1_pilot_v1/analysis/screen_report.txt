@@ -1,0 +1,18 @@
+conflict_workflow_v1_pilot_v1: development skill screen
+Structured general conflict-resolution workflow v1 versus no skill: five fresh chronological logs, ten repeats per condition
+Collected 400/400 eligible responses.
+Matched comparisons use only logs complete across every version, instruction, and repeat.
+Development data only. No significance tests or claims of generalization to other tasks.
+
+gpt: 5/5 complete logs; 10 repeats per condition.
+Instruction    C       R       RG      E       Overall R/RG gain   C/E gain
+none           92.0%   64.0%   54.0%   86.0%   74.0%     +0.0 pp    +0.0 pp
+workflow_v1    74.0%   68.0%   66.0%   82.0%   72.5%     +8.0 pp   -11.0 pp
+none: per-log R/RG gains [+0.0, +0.0, +0.0, +0.0, +0.0] pp; mean exact-answer pair agreement 58.1%; mean output tokens 3666.
+workflow_v1: per-log R/RG gains [-5.0, +20.0, -20.0, +30.0, +15.0] pp; mean exact-answer pair agreement 55.6%; mean output tokens 4198.
+
+R/RG and C/E gains compare each candidate with the same no-skill logs.
+Repeats measure within-question variation; the independent sample is the number of logs.
+A leading draft needs a fresh validation pilot before any large study.
+Missing calls stay missing; completed responses without a numeric answer count as wrong.
+Wrong numerical answers are not assigned a causal mechanism from their offset.

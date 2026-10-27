@@ -1,0 +1,63 @@
+{
+ "trial_id": "s750004_n1600_R_workflow_v1_gpt_r8",
+ "order": 354,
+ "world_id": "s750004_n1600",
+ "version": "R",
+ "instruction": "workflow_v1",
+ "model": "gpt",
+ "repeat": 8,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "0d2825ee49f61862ed7791ebd5dd0bf718a1caf712f2c51ef67774938125f727",
+ "started_at": "2026-10-26T03:51:56+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Nilis\u2019s current budget is **$1,004K**.\n\nI applied only Finance Office budget updates, resolving withdrawals\u2014including withdrawals of withdrawals\u2014before summing. Non-budget messages have no effect.\n\nThe following subtotals include only updates that remain effective at the end of all records; they are not historical balances:\n\n| Records | Net contribution |\n|---|---:|\n| #0001\u2013#0400, including initial budget | $3,667K |\n| #0401\u2013#0800 | \u2212$2,726K |\n| #0801\u2013#1200 | +$573K |\n| #1201\u2013#1600 | \u2212$510K |\n| **Final budget** | **$1,004K** |\n\nANSWER: $1004K",
+ "usage": {
+  "input_tokens": 28644,
+  "cached_input_tokens": 28416,
+  "output_tokens": 4504,
+  "reasoning_output_tokens": 4339
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a17656-1b2d-7403-ace9-23f4c6ddbd84"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Nilis\u2019s current budget is **$1,004K**.\n\nI applied only Finance Office budget updates, resolving withdrawals\u2014including withdrawals of withdrawals\u2014before summing. Non-budget messages have no effect.\n\nThe following subtotals include only updates that remain effective at the end of all records; they are not historical balances:\n\n| Records | Net contribution |\n|---|---:|\n| #0001\u2013#0400, including initial budget | $3,667K |\n| #0401\u2013#0800 | \u2212$2,726K |\n| #0801\u2013#1200 | +$573K |\n| #1201\u2013#1600 | \u2212$510K |\n| **Final budget** | **$1,004K** |\n\nANSWER: $1004K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 28644,
+     "cached_input_tokens": 28416,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 4504,
+     "reasoning_output_tokens": 4339
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T03:51:57.003717Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:51:57.004868Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:51:57.005999Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:51:57.007192Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:51:57.008238Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:51:57.009289Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:51:57.010408Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:51:57.011605Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:51:57.019730Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T03:53:50.130074Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a17656-1b2d-7403-ace9-23f4c6ddbd84.1792986716974817000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T03:53:50+00:00",
+ "elapsed_s": 113.6
+}

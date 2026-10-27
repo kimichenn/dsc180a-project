@@ -1,0 +1,63 @@
+{
+ "trial_id": "s750002_n1600_RG_workflow_v1_gpt_r10",
+ "order": 201,
+ "world_id": "s750002_n1600",
+ "version": "RG",
+ "instruction": "workflow_v1",
+ "model": "gpt",
+ "repeat": 10,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "043da3e7148797ab03664cbad94f2bf2574e83b5",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.163.0-alpha.11.2",
+ "prompt_sha256": "714a179088d2092fb9edc94212a989aee6aa737fc7f115340c4ec93c98128dd4",
+ "started_at": "2026-10-26T03:23:15+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Kregis\u2019s current budget is **$1,054K**.\n\nOnly Finance Office budget updates count. I treated effective withdrawals as erasing their targets, including withdrawals of earlier withdrawals, and ignored other senders\u2019 claims.\n\nThe accumulation of updates that remain effective after all records is:\n\n| Record range | Net contribution |\n|---|---:|\n| #0001\u2013#0400, including the initial budget | $3,516K |\n| #0401\u2013#0800 | \u2212$2,405K |\n| #0801\u2013#1200 | \u2212$474K |\n| #1201\u2013#1600 | +$417K |\n| **Final budget** | **$1,054K** |\n\nThese are endpoint-adjusted contributions, not historical balances before later withdrawals.\n\nANSWER: $1054K",
+ "usage": {
+  "input_tokens": 31155,
+  "cached_input_tokens": 0,
+  "output_tokens": 5285,
+  "reasoning_output_tokens": 5110
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "audit": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a1763b-d5d7-77c3-8e0e-0f9b0c8f4f8a"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Kregis\u2019s current budget is **$1,054K**.\n\nOnly Finance Office budget updates count. I treated effective withdrawals as erasing their targets, including withdrawals of earlier withdrawals, and ignored other senders\u2019 claims.\n\nThe accumulation of updates that remain effective after all records is:\n\n| Record range | Net contribution |\n|---|---:|\n| #0001\u2013#0400, including the initial budget | $3,516K |\n| #0401\u2013#0800 | \u2212$2,405K |\n| #0801\u2013#1200 | \u2212$474K |\n| #1201\u2013#1600 | +$417K |\n| **Final budget** | **$1,054K** |\n\nThese are endpoint-adjusted contributions, not historical balances before later withdrawals.\n\nANSWER: $1054K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 31155,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 5285,
+     "reasoning_output_tokens": 5110
+    }
+   }
+  ],
+  "stderr_tail": "2026-10-26T03:23:15.316812Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:15.317877Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:15.319004Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:15.320071Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:15.321106Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:15.322108Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:15.323104Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:15.324106Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n2026-10-26T03:23:15.341200Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.\n2026-10-26T03:25:31.801214Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf(\"/Users/jeremycheng/.codex/shell_snapshots/01a1763b-d5d7-77c3-8e0e-0f9b0c8f4f8a.1792984995288505000.sh\"): Os { code: 2, kind: NotFound, message: \"No such file or directory\" }\n"
+ },
+ "finished_at": "2026-10-26T03:25:32+00:00",
+ "elapsed_s": 137.0
+}
