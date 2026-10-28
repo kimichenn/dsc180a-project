@@ -67,19 +67,19 @@ python -m experiment preview --seed 1 --records 40
 
 For live runs, install and sign in to the **Claude Code and Codex CLIs** with subscriptions that can access the configured models. The `skill` arm loads Workflow V2 from [experiment/skills/workflow_v2.md](experiment/skills/workflow_v2.md) through [experiment/prompts.py](experiment/prompts.py). Preparing the main study also requires a clean, committed working tree.
 
-Check access and prepare the pilot:
+Check access and prepare the main study:
 
 ```bash
 python -m experiment check
-python -m experiment prepare config/trial.toml runs/trial_v2
+python -m experiment prepare config/trial.toml runs/main
 ```
 
 `check` makes one small live call per model. `prepare` freezes logs, prompts, answer keys, settings, and call order without model calls.
 
 ```bash
-python -m experiment collect runs/trial_v2
-python -m experiment status runs/trial_v2
-python -m experiment analyze runs/trial_v2
+python -m experiment collect runs/main
+python -m experiment status runs/main
+python -m experiment analyze runs/main
 ```
 
 `collect` saves responses and call metadata, using a fresh session with tools and personal agent context disabled for each call. Rerun it to resume; failed calls get up to three attempts, while completed valid responses are kept regardless of correctness. Select one model with `--models claude` or `--models gpt`, and share saved attempts through Git.

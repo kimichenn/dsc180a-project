@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700000_n1600_R_skill_gpt_r1",
+ "order": 1,
+ "world_id": "s700000_n1600",
+ "version": "R",
+ "instruction": "skill",
+ "model": "gpt",
+ "repeat": 1,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "kimi-chen",
+ "git_commit": "4b4e4124e45eeb55eb7ad9811495e2d009f8c4bf",
+ "git_dirty": false,
+ "client_version": "codex-cli 0.164.0-alpha.11.1",
+ "prompt_sha256": "4927ac7f36c515cb834af55302a6d7ee19d87391abe90a1421718b1032ea2285",
+ "started_at": "2026-10-28T22:39:42+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "ANSWER: $1751K",
+ "usage": {
+  "input_tokens": 28134,
+  "cached_input_tokens": 0,
+  "output_tokens": 4062,
+  "reasoning_output_tokens": 4050
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a184ab-51b7-74d1-8887-a8050caee899",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a184ab-51b7-74d1-8887-a8050caee899"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "ANSWER: $1751K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 28134,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 4062,
+     "reasoning_output_tokens": 4050
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-10-28T22:40:58+00:00",
+ "elapsed_s": 75.9
+}
