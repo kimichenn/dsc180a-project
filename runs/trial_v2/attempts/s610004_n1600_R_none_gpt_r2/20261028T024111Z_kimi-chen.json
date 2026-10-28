@@ -1,0 +1,66 @@
+{
+ "trial_id": "s610004_n1600_R_none_gpt_r2",
+ "order": 86,
+ "world_id": "s610004_n1600",
+ "version": "R",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 2,
+ "tier": 2,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "kimi-chen",
+ "git_commit": "fee44e90c5af68baa198758bc1a061df25c8da33",
+ "git_dirty": false,
+ "client_version": "codex-cli 0.164.0-alpha.11.1",
+ "prompt_sha256": "6b8d6332e0d0abcc1c265f7e684f20ab39d91fc73ae45b2a3e2a287ee80be047",
+ "started_at": "2026-10-28T02:41:11+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "ANSWER: $2453K",
+ "usage": {
+  "input_tokens": 27385,
+  "cached_input_tokens": 0,
+  "output_tokens": 4154,
+  "reasoning_output_tokens": 4142
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a18062-0be0-71c1-b0b8-40b3eb900c11",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a18062-0be0-71c1-b0b8-40b3eb900c11"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "ANSWER: $2453K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 27385,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 4154,
+     "reasoning_output_tokens": 4142
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-10-28T02:42:21+00:00",
+ "elapsed_s": 70.0
+}
