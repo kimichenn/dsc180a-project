@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Segofil budget set to $2420K after review.
+#0002  Finance Office: Segofil budget increased by $65K.
+#0003  Finance Office: Segofil quarterly audit scheduled for Tuesday.
+#0004  Finance Office: Segofil audit notes filed.
+#0005  Operations chat: Segofil kickoff moved to Building 5.
+#0006  Finance Office: Segofil budget increased by $36K per the revised plan.
+#0007  PMO note: Hearing Segofil's budget goes down $437K.
+#0008  Facilities ticket: Segofil vendor onboarding call scheduled for Tuesday.
+#0009  Finance Office: Withdraw update #0006; it was entered in error.
+#0010  Finance Office: Segofil budget increased by $569K after review.
+#0011  Finance Office: Segofil audit notes filed.
+#0012  Facilities ticket: Segofil budget is going up by $163K.
+#0013  Finance Office: Segofil budget decreased by $256K per the revised plan.
+#0014  Finance Office: Withdraw update #0013; it was entered in error.
+#0015  Finance Office: Segofil budget increased by $306K per the revised plan.
+#0016  Finance Office: Segofil budget increased by $60K per the revised plan.
+#0017  Operations chat: Segofil budget is going up by $376K.
+#0018  Finance Office: Segofil budget decreased by $374K per the revised plan.
+#0019  Finance Office: Segofil budget decreased by $174K after review.
+#0020  Finance Office: Segofil budget increased by $351K.
+#0021  Finance Office: Withdraw update #0015; it was entered in error.
+#0022  Operations chat: Heard Segofil's budget is now $3040K.
+#0023  Finance Office: Segofil budget decreased by $453K per the revised plan.
+#0024  Finance Office: Segofil invoice batch FC-8967 archived.
+#0025  Marketing email: Segofil budget is going to $2320K.
+#0026  Finance Office: Segofil budget increased by $73K per the revised plan.
+#0027  Finance Office: Segofil invoice batch FC-3112 archived.
+#0028  Legal email: Segofil budget is going to $2130K.
+#0029  Finance Office: Withdraw update #0014.
+#0030  Engineering email: Segofil kickoff moved to Building 8.
+#0031  Finance Office: Segofil budget increased by $91K per the revised plan.
+#0032  Finance Office: Segofil budget decreased by $568K.
+#0033  Engineering email: Segofil budget is going down to $1320K.
+#0034  Finance Office: Withdraw update #0026; it was entered in error.
+#0035  Finance Office: Segofil budget increased by $456K per the revised plan.
+#0036  Finance Office: Segofil budget increased by $338K per the revised plan.
+#0037  Finance Office: Segofil budget decreased by $135K after review.
+#0038  Engineering email: Hearing Segofil's budget goes up $594K.
+#0039  Vendor call: Segofil budget should land at $3340K.
+#0040  Vendor call: Segofil budget is going to $1910K.
+#0041  Marketing email: Segofil budget should land at $2730K.
+#0042  Legal email: Segofil budget should land at $2590K.
+#0043  Engineering email: Expect Segofil's budget to rise by $413K.
+#0044  Finance Office: Segofil budget increased by $518K per the revised plan.
+#0045  PMO note: Segofil budget is going up to $3750K.
+#0046  Finance Office: Segofil budget increased by $110K per the revised plan.
+#0047  Finance Office: Withdraw update #0029.
+#0048  Sales update: Pretty sure Segofil's budget is $3830K now.
+#0049  Finance Office: Withdraw update #0010; it was entered in error.
+#0050  Operations chat: Segofil budget is going to $3030K.
+#0051  Operations chat: Sounds like Segofil gets $181K more.
+#0052  Finance Office: Segofil budget decreased by $247K.
+#0053  Finance Office: Withdraw update #0009; it was entered in error.
+#0054  Finance Office: Segofil budget increased by $473K after review.
+#0055  Finance Office: Segofil budget increased by $25K per the revised plan.
+#0056  Marketing email: Segofil test environment back online.
+#0057  Facilities ticket: Segofil budget is going to $2610K.
+#0058  Marketing email: Segofil budget should land at $2780K.
+#0059  Finance Office: Segofil budget increased by $446K.
+#0060  Finance Office: Segofil budget decreased by $125K per the revised plan.
+#0061  Finance Office: Segofil budget decreased by $125K after review.
+#0062  Marketing email: Heard Segofil's budget is now $4340K.
+#0063  Finance Office: Segofil budget increased by $152K per the revised plan.
+#0064  Legal email: Segofil budget should land at $3680K.
+#0065  Finance Office: Withdraw update #0059.
+#0066  Finance Office: Withdraw update #0021; it was entered in error.
+#0067  Operations chat: Sounds like Segofil gets $93K less.
+#0068  Finance Office: Segofil budget decreased by $542K per the revised plan.
+#0069  Finance Office: Segofil budget increased by $105K after review.
+#0070  Finance Office: Segofil budget increased by $37K after review.
+#0071  Facilities ticket: Segofil budget is going down to $2010K.
+#0072  Finance Office: Withdraw update #0035; it was entered in error.
+#0073  Finance Office: Withdraw update #0032; it was entered in error.
+#0074  Finance Office: Segofil budget decreased by $15K.
+#0075  Engineering email: Sounds like Segofil gets $293K less.
+#0076  Finance Office: Withdraw update #0065.
+#0077  Facilities ticket: Segofil vendor onboarding call scheduled for Wednesday.
+#0078  Finance Office: Segofil budget decreased by $85K after review.
+#0079  Engineering email: Segofil budget is going up to $4060K.
+#0080  Finance Office: Segofil budget decreased by $162K per the revised plan.
+#0081  Marketing email: Segofil budget should land at $3010K.
+#0082  Finance Office: Segofil budget decreased by $461K per the revised plan.
+#0083  Operations chat: Sounds like Segofil gets $352K more.
+#0084  PMO note: Segofil budget should land at $1970K.
+#0085  Finance Office: Segofil budget increased by $587K after review.
+#0086  Finance Office: Segofil budget increased by $150K per the revised plan.
+#0087  Sales update: Segofil budget is going up by $176K.
+#0088  PMO note: Segofil test environment back online.
+#0089  Finance Office: Segofil budget increased by $5K per the revised plan.
+#0090  Finance Office: Segofil budget increased by $150K after review.
+#0091  Engineering email: Segofil budget is going up to $4250K.
+#0092  Finance Office: Segofil budget increased by $65K after review.
+#0093  Sales update: Heard Segofil's budget is now $4000K.
+#0094  PMO note: Heard Segofil's budget is now $2790K.
+#0095  Finance Office: Segofil budget increased by $391K per the revised plan.
+#0096  Finance Office: Withdraw update #0049.
+#0097  Marketing email: Segofil budget should land at $3280K.
+#0098  Finance Office: Segofil budget decreased by $95K after review.
+#0099  Finance Office: Segofil budget decreased by $60K after review.
+#0100  Finance Office: Segofil budget increased by $125K after review.
+#0101  Finance Office: Segofil budget increased by $150K after review.
+#0102  Legal email: Heard Segofil's budget is now $4800K.
+#0103  Finance Office: Segofil budget decreased by $52K.
+#0104  Finance Office: Segofil budget increased by $46K after review.
+#0105  Finance Office: Withdraw update #0047.
+#0106  Finance Office: Withdraw update #0080; it was entered in error.
+#0107  Engineering email: Heard Segofil's budget is now $4800K.
+#0108  Finance Office: Segofil budget increased by $95K.
+#0109  Finance Office: Segofil budget decreased by $60K per the revised plan.
+#0110  Finance Office: Segofil budget decreased by $69K after review.
+#0111  Finance Office: Segofil budget decreased by $574K after review.
+#0112  Vendor call: Segofil budget should land at $3530K.
+#0113  Finance Office: Withdraw update #0034.
+#0114  Finance Office: Segofil finance review moved to Room 6C.
+#0115  Marketing email: Segofil weekly sync moved to Wednesdays.
+#0116  Engineering email: Segofil budget should land at $4070K.
+#0117  Facilities ticket: Sounds like Segofil gets $118K more.
+#0118  Engineering email: Hearing Segofil's budget goes down $438K.
+#0119  Engineering email: Segofil budget should land at $3260K.
+#0120  Finance Office: Withdraw update #0103; it was entered in error.
+#0121  Finance Office: Segofil budget increased by $95K per the revised plan.
+#0122  Finance Office: Segofil budget increased by $154K after review.
+#0123  Legal email: Segofil demo rescheduled to Friday afternoon.
+#0124  Marketing email: Pretty sure Segofil's budget is $4800K now.
+#0125  Finance Office: Withdraw update #0111.
+#0126  Finance Office: Segofil budget decreased by $379K.
+#0127  Finance Office: Segofil receipts scanned.
+#0128  PMO note: Segofil sprint 24 retrospective notes posted.
+#0129  Finance Office: Segofil budget decreased by $562K per the revised plan.
+#0130  Finance Office: Withdraw update #0122; it was entered in error.
+#0131  Finance Office: Segofil budget increased by $156K.
+#0132  Finance Office: Segofil budget increased by $513K.
+#0133  Sales update: Segofil budget is going up by $108K.
+#0134  Operations chat: Pretty sure Segofil's budget is $3950K now.
+#0135  Finance Office: Segofil budget increased by $141K after review.
+#0136  PMO note: Segofil budget is going to $4360K.
+#0137  Finance Office: Withdraw update #0053; it was entered in error.
+#0138  Finance Office: Withdraw update #0130; it was entered in error.
+#0139  Legal email: Sounds like Segofil gets $448K less.
+#0140  Sales update: Sounds like Segofil gets $489K less.
+#0141  Finance Office: Segofil budget increased by $189K.
+#0142  Finance Office: Withdraw update #0137; it was entered in error.
+#0143  Finance Office: Segofil budget decreased by $389K per the revised plan.
+#0144  Marketing email: Segofil budget is going to $4110K.
+#0145  Finance Office: Segofil budget decreased by $554K after review.
+#0146  Finance Office: Segofil budget decreased by $501K per the revised plan.
+#0147  PMO note: Segofil budget is going to $4800K.
+#0148  Finance Office: Segofil budget increased by $498K per the revised plan.
+#0149  Operations chat: Heard Segofil's budget is now $4800K.
+#0150  Finance Office: Withdraw update #0106.
+#0151  Finance Office: Segofil budget increased by $25K.
+#0152  Finance Office: Segofil budget increased by $187K.
+#0153  Marketing email: Sounds like Segofil gets $497K more.
+#0154  Vendor call: Sounds like Segofil gets $541K more.
+#0155  Finance Office: Segofil budget increased by $381K.
+#0156  Finance Office: Segofil budget increased by $55K.
+#0157  Finance Office: Withdraw update #0044.
+#0158  Finance Office: Withdraw update #0125.
+#0159  Finance Office: Withdraw update #0054; it was entered in error.
+#0160  Facilities ticket: Hearing Segofil's budget goes down $399K.
+#0161  Finance Office: Segofil budget increased by $169K.
+#0162  Finance Office: Segofil budget decreased by $110K.
+#0163  Finance Office: Segofil budget decreased by $492K.
+#0164  PMO note: Heard Segofil's budget is now $1970K.
+#0165  PMO note: Segofil weekly sync moved to Wednesdays.
+#0166  Finance Office: Withdraw update #0066.
+#0167  Finance Office: Segofil budget decreased by $70K per the revised plan.
+#0168  Finance Office: Withdraw update #0132; it was entered in error.
+#0169  Facilities ticket: Expect Segofil's budget to rise by $173K.
+#0170  Finance Office: Segofil budget increased by $120K.
+#0171  Finance Office: Segofil budget decreased by $125K after review.
+#0172  Vendor call: Sounds like Segofil gets $179K less.
+#0173  Finance Office: Segofil budget decreased by $140K per the revised plan.
+#0174  Facilities ticket: Heard Segofil's budget is now $1060K.
+#0175  Vendor call: Expect Segofil's budget to drop by $98K.
+#0176  Finance Office: Segofil budget decreased by $130K per the revised plan.
+#0177  Finance Office: Segofil audit notes filed.
+#0178  Sales update: Segofil sprint 16 retrospective notes posted.
+#0179  Finance Office: Withdraw update #0113; it was entered in error.
+#0180  Finance Office: Segofil budget decreased by $145K.
+#0181  Finance Office: Segofil budget decreased by $125K.
+#0182  Finance Office: Segofil budget increased by $122K after review.
+#0183  Finance Office: Segofil budget increased by $114K.
+#0184  Sales update: Pretty sure Segofil's budget is $880K now.
+#0185  Finance Office: Segofil budget increased by $166K.
+#0186  Finance Office: Withdraw update #0155.
+#0187  Finance Office: Withdraw update #0070; it was entered in error.
+#0188  Finance Office: Segofil quarterly audit scheduled for Friday.
+#0189  Finance Office: Segofil budget increased by $115K after review.
+#0190  Finance Office: Withdraw update #0135.
+#0191  Finance Office: Segofil budget increased by $359K.
+#0192  Finance Office: Segofil budget increased by $150K per the revised plan.
+#0193  Operations chat: Sounds like Segofil gets $32K less.
+#0194  Operations chat: Segofil budget should land at $1520K.
+#0195  Facilities ticket: Expect Segofil's budget to drop by $281K.
+#0196  Finance Office: Segofil budget increased by $145K.
+#0197  Finance Office: Segofil budget decreased by $45K per the revised plan.
+#0198  Finance Office: Withdraw update #0150.
+#0199  Finance Office: Segofil budget decreased by $482K per the revised plan.
+#0200  Finance Office: Segofil budget decreased by $50K.
+#0201  Sales update: Sounds like Segofil gets $347K more.
+#0202  Facilities ticket: Segofil budget is going to $940K.
+#0203  Finance Office: Segofil budget increased by $50K after review.
+#0204  Vendor call: Segofil budget is going down to $1070K.
+#0205  Sales update: Segofil budget should land at $1410K.
+#0206  Sales update: Segofil budget is going up by $159K.
+#0207  Finance Office: Withdraw update #0145.
+#0208  Finance Office: Withdraw update #0187.
+#0209  Finance Office: Segofil finance review moved to Room 4A.
+#0210  Facilities ticket: Sounds like Segofil gets $4K less.
+#0211  Facilities ticket: Segofil budget is going down by $486K.
+#0212  Finance Office: Withdraw update #0161; it was entered in error.
+#0213  Facilities ticket: Sounds like Segofil gets $311K more.
+#0214  Finance Office: Withdraw update #0120.
+#0215  Facilities ticket: Segofil status report filed for week 39.
+#0216  Finance Office: Segofil budget increased by $110K.
+#0217  Operations chat: Segofil budget is going down to $1700K.
+#0218  PMO note: Segofil security review passed.
+#0219  Finance Office: Segofil budget increased by $442K after review.
+#0220  Engineering email: Segofil risk register updated with 4 new items.
+#0221  Facilities ticket: Heard Segofil's budget is now $2580K.
+#0222  Finance Office: Segofil budget increased by $3K per the revised plan.
+#0223  Finance Office: Segofil budget decreased by $15K.
+#0224  Operations chat: Sounds like Segofil gets $27K less.
+#0225  Sales update: Expect Segofil's budget to rise by $496K.
+#0226  Finance Office: Segofil budget increased by $35K per the revised plan.
+#0227  Vendor call: Pretty sure Segofil's budget is $1800K now.
+#0228  Finance Office: Segofil budget decreased by $25K after review.
+#0229  Finance Office: Segofil budget decreased by $25K per the revised plan.
+#0230  Legal email: Expect Segofil's budget to rise by $433K.
+#0231  PMO note: Segofil budget is going down to $1560K.
+#0232  Engineering email: Heard Segofil's budget is now $2120K.
+#0233  Finance Office: Segofil budget increased by $145K per the revised plan.
+#0234  Engineering email: Segofil site visit confirmed for Thursday.
+#0235  Finance Office: Segofil budget increased by $10K per the revised plan.
+#0236  Finance Office: Segofil budget increased by $65K.
+#0237  Finance Office: Segofil budget increased by $45K after review.
+#0238  Finance Office: Withdraw update #0166.
+#0239  Vendor call: Expect Segofil's budget to rise by $334K.
+#0240  Finance Office: Segofil budget increased by $125K.
+#0241  Vendor call: Segofil budget is going to $2420K.
+#0242  Finance Office: Segofil budget decreased by $147K after review.
+#0243  Sales update: Pretty sure Segofil's budget is $2080K now.
+#0244  Finance Office: Segofil budget decreased by $110K.
+#0245  Finance Office: Segofil budget decreased by $20K after review.
+#0246  Legal email: Hearing Segofil's budget goes up $142K.
+#0247  Sales update: Segofil test environment back online.
+#0248  Finance Office: Segofil budget increased by $20K.
+#0249  Finance Office: Segofil budget increased by $65K.
+#0250  PMO note: Segofil budget is going down by $211K.
+#0251  Facilities ticket: Sounds like Segofil gets $408K more.
+#0252  Facilities ticket: Expect Segofil's budget to rise by $463K.
+#0253  Finance Office: Withdraw update #0185; it was entered in error.
+#0254  Finance Office: Segofil receipts scanned.
+#0255  Finance Office: Segofil budget decreased by $40K.
+#0256  Finance Office: Segofil budget increased by $115K.
+#0257  Vendor call: Segofil budget is going to $1910K.
+#0258  Finance Office: Segofil budget decreased by $558K per the revised plan.
+#0259  Finance Office: Segofil budget increased by $90K per the revised plan.
+#0260  Finance Office: Segofil budget decreased by $70K per the revised plan.
+#0261  Finance Office: Segofil budget decreased by $5K after review.
+#0262  Finance Office: Segofil budget decreased by $402K per the revised plan.
+#0263  Finance Office: Segofil budget decreased by $20K after review.
+#0264  Finance Office: Segofil budget decreased by $38K per the revised plan.
+#0265  Engineering email: Pretty sure Segofil's budget is $1770K now.
+#0266  Facilities ticket: Segofil security review passed.
+#0267  Finance Office: Segofil budget increased by $81K per the revised plan.
+#0268  Legal email: Expect Segofil's budget to rise by $317K.
+#0269  Engineering email: Segofil budget is going down to $1310K.
+#0270  Finance Office: Segofil budget decreased by $110K after review.
+#0271  Marketing email: Heard Segofil's budget is now $1350K.
+#0272  Facilities ticket: Sounds like Segofil gets $161K less.
+#0273  Finance Office: Withdraw update #0208; it was entered in error.
+#0274  Finance Office: Segofil budget increased by $50K after review.
+#0275  Facilities ticket: Segofil budget is going up to $2140K.
+#0276  Finance Office: Withdraw update #0076; it was entered in error.
+#0277  Finance Office: Segofil budget increased by $140K per the revised plan.
+#0278  Finance Office: Segofil quarterly audit scheduled for Friday.
+#0279  Finance Office: Segofil budget decreased by $267K per the revised plan.
+#0280  PMO note: Sounds like Segofil gets $28K more.
+#0281  Finance Office: Segofil budget decreased by $130K.
+#0282  Sales update: Segofil budget is going up to $890K.
+#0283  Operations chat: Expect Segofil's budget to drop by $99K.
+#0284  Legal email: Segofil budget is going up by $478K.
+#0285  Finance Office: Withdraw update #0159; it was entered in error.
+#0286  Finance Office: Segofil budget increased by $115K after review.
+#0287  Finance Office: Segofil budget increased by $15K.
+#0288  Finance Office: Segofil budget decreased by $50K after review.
+#0289  Marketing email: Segofil budget is going down to $990K.
+#0290  Operations chat: Sounds like Segofil gets $96K less.
+#0291  Finance Office: Withdraw update #0146.
+#0292  Finance Office: Segofil budget decreased by $70K.
+#0293  Finance Office: Segofil budget increased by $597K after review.
+#0294  Finance Office: Segofil budget decreased by $140K.
+#0295  Marketing email: Segofil design review moved to Room 6A.
+#0296  Finance Office: Segofil budget increased by $125K per the revised plan.
+#0297  Engineering email: Hearing Segofil's budget goes down $201K.
+#0298  Vendor call: Segofil budget should land at $2090K.
+#0299  Engineering email: Segofil design review moved to Room 2C.
+#0300  Finance Office: Withdraw update #0019.
+#0301  Finance Office: Withdraw update #0141.
+#0302  Finance Office: Segofil budget decreased by $135K per the revised plan.
+#0303  Sales update: Segofil budget is going up to $2970K.
+#0304  Finance Office: Segofil budget increased by $75K per the revised plan.
+#0305  Finance Office: Segofil budget increased by $70K.
+#0306  Finance Office: Segofil budget decreased by $369K.
+#0307  Finance Office: Withdraw update #0262.
+#0308  Finance Office: Withdraw update #0023; it was entered in error.
+#0309  Legal email: Segofil budget is going up by $128K.
+#0310  Finance Office: Segofil budget increased by $75K after review.
+#0311  Finance Office: Segofil budget decreased by $130K.
+#0312  Operations chat: Segofil test environment back online.
+#0313  Finance Office: Segofil budget decreased by $145K after review.
+#0314  Sales update: Segofil design review moved to Room 4B.
+#0315  Sales update: Expect Segofil's budget to rise by $273K.
+#0316  PMO note: Segofil budget is going to $2210K.
+#0317  Sales update: Heard Segofil's budget is now $3260K.
+#0318  Finance Office: Segofil budget increased by $105K after review.
+#0319  Finance Office: Segofil budget increased by $150K per the revised plan.
+#0320  Finance Office: Segofil budget decreased by $30K after review.
+#0321  Legal email: Pretty sure Segofil's budget is $4000K now.
+#0322  Finance Office: Segofil budget decreased by $150K after review.
+#0323  Finance Office: Segofil budget decreased by $20K after review.
+#0324  Finance Office: Segofil budget increased by $35K per the revised plan.
+#0325  Finance Office: Withdraw update #0291.
+#0326  Finance Office: Withdraw update #0157; it was entered in error.
+#0327  Engineering email: Segofil budget is going to $3310K.
+#0328  Finance Office: Segofil budget decreased by $516K after review.
+#0329  Legal email: Segofil budget is going down by $287K.
+#0330  Legal email: Hearing Segofil's budget goes down $508K.
+#0331  Finance Office: Segofil budget increased by $10K.
+#0332  Finance Office: Withdraw update #0158; it was entered in error.
+#0333  Legal email: Hearing Segofil's budget goes up $459K.
+#0334  Marketing email: Segofil budget is going up to $2950K.
+#0335  Vendor call: Segofil security review passed.
+#0336  Finance Office: Segofil budget increased by $135K.
+#0337  Engineering email: Segofil budget should land at $2880K.
+#0338  Finance Office: Segofil budget decreased by $579K after review.
+#0339  Finance Office: Segofil budget decreased by $25K after review.
+#0340  Finance Office: Segofil budget increased by $60K after review.
+#0341  Finance Office: Segofil budget increased by $105K per the revised plan.
+#0342  Finance Office: Segofil budget increased by $20K after review.
+#0343  Finance Office: Segofil audit notes filed.
+#0344  Vendor call: Hearing Segofil's budget goes down $188K.
+#0345  Legal email: Pretty sure Segofil's budget is $3080K now.
+#0346  Finance Office: Segofil budget increased by $538K per the revised plan.
+#0347  Finance Office: Segofil budget decreased by $140K after review.
+#0348  Finance Office: Withdraw update #0293.
+#0349  Finance Office: Segofil budget increased by $35K after review.
+#0350  Sales update: Segofil security review passed.
+#0351  Finance Office: Segofil budget decreased by $60K.
+#0352  Finance Office: Segofil budget decreased by $328K per the revised plan.
+#0353  Finance Office: Segofil budget increased by $120K per the revised plan.
+#0354  Finance Office: Segofil budget decreased by $50K per the revised plan.
+#0355  Vendor call: Sounds like Segofil gets $502K more.
+#0356  Finance Office: Segofil budget decreased by $15K.
+#0357  Facilities ticket: Segofil budget is going up by $151K.
+#0358  Finance Office: Segofil budget decreased by $15K per the revised plan.
+#0359  Sales update: Sounds like Segofil gets $556K less.
+#0360  Engineering email: Heard Segofil's budget is now $2580K.
+#0361  Finance Office: Segofil budget increased by $150K.
+#0362  Engineering email: Segofil budget is going to $1570K.
+#0363  Finance Office: Segofil budget decreased by $55K after review.
+#0364  Finance Office: Withdraw update #0143; it was entered in error.
+#0365  Finance Office: Segofil budget decreased by $158K.
+#0366  Finance Office: Segofil budget increased by $25K after review.
+#0367  PMO note: Segofil budget is going up to $2770K.
+#0368  Finance Office: Withdraw update #0110.
+#0369  Finance Office: Segofil budget decreased by $35K.
+#0370  Operations chat: Expect Segofil's budget to rise by $54K.
+#0371  Finance Office: Withdraw update #0285; it was entered in error.
+#0372  Finance Office: Segofil budget increased by $15K after review.
+#0373  Finance Office: Segofil budget decreased by $115K per the revised plan.
+#0374  Marketing email: Segofil budget is going up by $564K.
+#0375  Finance Office: Withdraw update #0219.
+#0376  Finance Office: Segofil budget decreased by $20K.
+#0377  PMO note: Segofil budget is going down by $546K.
+#0378  Finance Office: Segofil budget increased by $25K per the revised plan.
+#0379  Finance Office: Withdraw update #0182; it was entered in error.
+#0380  Finance Office: Segofil budget decreased by $90K after review.
+#0381  Finance Office: Segofil budget decreased by $593K.
+#0382  Facilities ticket: Segofil budget is going to $850K.
+#0383  Finance Office: Segofil budget increased by $95K per the revised plan.
+#0384  Finance Office: Segofil budget decreased by $40K.
+#0385  Marketing email: Segofil documentation moved to the shared drive.
+#0386  Finance Office: Segofil budget increased by $135K after review.
+#0387  Engineering email: Segofil status report filed for week 28.
+#0388  Finance Office: Segofil budget increased by $105K after review.
+#0389  PMO note: Segofil budget is going to $680K.
+#0390  Finance Office: Segofil budget increased by $70K after review.
+#0391  Finance Office: Withdraw update #0179.
+#0392  Operations chat: Hearing Segofil's budget goes up $8K.
+#0393  Legal email: Segofil budget is going up by $506K.
+#0394  Finance Office: Segofil budget decreased by $145K per the revised plan.
+#0395  Finance Office: Withdraw update #0365.
+#0396  Finance Office: Segofil budget decreased by $150K per the revised plan.
+#0397  Finance Office: Segofil budget increased by $148K.
+#0398  Operations chat: Segofil kickoff moved to Building 7.
+#0399  Finance Office: Segofil budget decreased by $20K after review.
+#0400  Finance Office: Segofil budget decreased by $95K per the revised plan.
+#0401  Finance Office: Withdraw update #0214.
+#0402  Sales update: Segofil weekly sync moved to Wednesdays.
+#0403  Finance Office: Withdraw update #0279; it was entered in error.
+#0404  Finance Office: Withdraw update #0368.
+#0405  Finance Office: Segofil invoice batch FC-6259 archived.
+#0406  Finance Office: Segofil budget increased by $62K.
+#0407  Finance Office: Withdraw update #0190.
+#0408  Finance Office: Segofil budget decreased by $373K.
+#0409  PMO note: Sounds like Segofil gets $454K less.
+#0410  Legal email: Heard Segofil's budget is now $1080K.
+#0411  PMO note: Sounds like Segofil gets $447K less.
+#0412  Finance Office: Segofil budget decreased by $30K per the revised plan.
+#0413  Legal email: Segofil budget is going to $1090K.
+#0414  Finance Office: Segofil budget increased by $95K after review.
+#0415  Finance Office: Withdraw update #0306.
+#0416  Finance Office: Withdraw update #0326; it was entered in error.
+#0417  Finance Office: Withdraw update #0129.
+#0418  Finance Office: Segofil budget decreased by $403K per the revised plan.
+#0419  Finance Office: Segofil budget decreased by $115K per the revised plan.
+#0420  PMO note: Segofil budget is going down by $193K.
+#0421  Finance Office: Segofil budget decreased by $209K per the revised plan.
+#0422  Legal email: Expect Segofil's budget to drop by $297K.
+#0423  Engineering email: Segofil security review passed.
+#0424  Finance Office: Segofil budget increased by $105K per the revised plan.
+#0425  Finance Office: Segofil budget increased by $130K.
+#0426  Finance Office: Withdraw update #0418.
+#0427  Finance Office: Segofil budget increased by $25K after review.
+#0428  Finance Office: Segofil invoice batch FC-4048 archived.
+#0429  Finance Office: Withdraw update #0338.
+#0430  Finance Office: Segofil budget increased by $50K.
+#0431  Operations chat: Segofil budget is going down by $202K.
+#0432  Legal email: Heard Segofil's budget is now $1850K.
+#0433  Marketing email: Segofil budget is going down by $309K.
+#0434  Finance Office: Segofil budget increased by $532K.
+#0435  Engineering email: Expect Segofil's budget to rise by $109K.
+#0436  Engineering email: Hearing Segofil's budget goes down $68K.
+#0437  Operations chat: Segofil weekly sync moved to Thursdays.
+#0438  Finance Office: Segofil budget decreased by $308K per the revised plan.
+#0439  Finance Office: Segofil budget increased by $484K after review.
+#0440  Finance Office: Segofil budget increased by $120K.
+#0441  Finance Office: Segofil budget decreased by $398K after review.
+#0442  Finance Office: Segofil budget decreased by $100K.
+#0443  Finance Office: Withdraw update #0264; it was entered in error.
+#0444  Marketing email: Segofil vendor onboarding call scheduled for Wednesday.
+#0445  Facilities ticket: Expect Segofil's budget to drop by $443K.
+#0446  Finance Office: Segofil budget increased by $135K after review.
+#0447  Finance Office: Withdraw update #0415.
+#0448  Finance Office: Segofil budget decreased by $55K after review.
+#0449  Finance Office: Segofil budget decreased by $150K.
+#0450  Finance Office: Segofil budget increased by $10K after review.
+#0451  Finance Office: Segofil budget increased by $110K after review.
+#0452  Finance Office: Segofil budget decreased by $566K per the revised plan.
+#0453  Finance Office: Segofil budget decreased by $164K.
+#0454  Finance Office: Segofil budget increased by $60K after review.
+#0455  Finance Office: Segofil budget increased by $145K per the revised plan.
+#0456  Finance Office: Segofil budget increased by $557K.
+#0457  Finance Office: Segofil budget decreased by $90K.
+#0458  Finance Office: Segofil budget increased by $35K per the revised plan.
+#0459  Finance Office: Segofil budget decreased by $476K per the revised plan.
+#0460  Finance Office: Withdraw update #0222.
+#0461  Finance Office: Segofil budget increased by $50K.
+#0462  Finance Office: Segofil budget increased by $361K per the revised plan.
+#0463  Finance Office: Segofil budget decreased by $140K per the revised plan.
+#0464  Sales update: Expect Segofil's budget to drop by $577K.
+#0465  Operations chat: Sounds like Segofil gets $493K more.
+#0466  Finance Office: Segofil budget increased by $40K after review.
+#0467  Sales update: Segofil budget is going up by $72K.
+#0468  Finance Office: Segofil budget increased by $85K per the revised plan.
+#0469  Finance Office: Withdraw update #0191; it was entered in error.
+#0470  Facilities ticket: Segofil risk register updated with 7 new items.
+#0471  Finance Office: Segofil budget increased by $40K after review.
+#0472  Finance Office: Segofil budget increased by $426K per the revised plan.
+#0473  Operations chat: Segofil budget is going to $2020K.
+#0474  Finance Office: Withdraw update #0462; it was entered in error.
+#0475  Finance Office: Withdraw update #0242; it was entered in error.
+#0476  Engineering email: Pretty sure Segofil's budget is $1680K now.
+#0477  Finance Office: Segofil budget increased by $5K.
+#0478  Finance Office: Segofil budget increased by $60K.
+#0479  Finance Office: Segofil budget decreased by $75K after review.
+#0480  Finance Office: Withdraw update #0456.
+#0481  Finance Office: Segofil budget decreased by $125K.
+#0482  Finance Office: Segofil budget decreased by $150K per the revised plan.
+#0483  Finance Office: Segofil budget increased by $60K after review.
+#0484  Legal email: Segofil budget is going up by $596K.
+#0485  Finance Office: Segofil budget increased by $428K after review.
+#0486  Finance Office: Segofil budget decreased by $115K per the revised plan.
+#0487  Finance Office: Withdraw update #0417; it was entered in error.
+#0488  Finance Office: Segofil budget decreased by $102K after review.
+#0489  Finance Office: Segofil budget increased by $30K.
+#0490  Finance Office: Withdraw update #0301; it was entered in error.
+#0491  Finance Office: Segofil budget decreased by $313K per the revised plan.
+#0492  Finance Office: Segofil budget decreased by $50K per the revised plan.
+#0493  Finance Office: Segofil budget increased by $25K after review.
+#0494  Legal email: Segofil vendor onboarding call scheduled for Tuesday.
+#0495  Finance Office: Segofil budget increased by $60K after review.
+#0496  Finance Office: Segofil budget increased by $105K per the revised plan.
+#0497  Finance Office: Withdraw update #0163; it was entered in error.
+#0498  Finance Office: Segofil receipts scanned.
+#0499  Marketing email: Segofil budget is going to $1230K.
+#0500  Finance Office: Segofil budget increased by $466K.
+#0501  Engineering email: Segofil vendor onboarding call scheduled for Friday.
+#0502  Finance Office: Segofil budget increased by $115K per the revised plan.
+#0503  Finance Office: Withdraw update #0472.
+#0504  Finance Office: Withdraw update #0426.
+#0505  Sales update: Segofil status report filed for week 7.
+#0506  Facilities ticket: Segofil budget should land at $1500K.
+#0507  Operations chat: Segofil status report filed for week 4.
+#0508  Vendor call: Segofil weekly sync moved to Tuesdays.
+#0509  Finance Office: Withdraw update #0371; it was entered in error.
+#0510  Finance Office: Segofil budget increased by $130K per the revised plan.
+#0511  Finance Office: Segofil budget increased by $95K after review.
+#0512  Facilities ticket: Segofil budget is going down by $434K.
+#0513  Finance Office: Segofil budget increased by $15K after review.
+#0514  Finance Office: Segofil budget decreased by $145K after review.
+#0515  Finance Office: Segofil finance review moved to Room 2A.
+#0516  Finance Office: Segofil budget decreased by $40K after review.
+#0517  Finance Office: Withdraw update #0126.
+#0518  Legal email: Heard Segofil's budget is now $2160K.
+#0519  Operations chat: Heard Segofil's budget is now $1600K.
+#0520  Finance Office: Segofil budget increased by $130K after review.
+#0521  Finance Office: Segofil budget increased by $25K.
+#0522  Finance Office: Segofil budget increased by $70K.
+#0523  Finance Office: Segofil budget decreased by $105K after review.
+#0524  Facilities ticket: Pretty sure Segofil's budget is $2840K now.
+#0525  Finance Office: Segofil budget increased by $120K per the revised plan.
+#0526  Finance Office: Segofil budget increased by $5K.
+#0527  Finance Office: Segofil budget decreased by $145K after review.
+#0528  Legal email: Segofil demo rescheduled to Tuesday afternoon.
+#0529  Engineering email: Segofil documentation moved to the shared drive.
+#0530  Marketing email: Hearing Segofil's budget goes up $16K.
+#0531  Vendor call: Heard Segofil's budget is now $2830K.
+#0532  Finance Office: Segofil budget decreased by $80K after review.
+#0533  Sales update: Hearing Segofil's budget goes down $284K.
+#0534  Finance Office: Segofil invoice batch FC-3139 archived.
+#0535  PMO note: Hearing Segofil's budget goes up $584K.
+#0536  Finance Office: Segofil budget increased by $125K after review.
+#0537  Sales update: Segofil budget is going to $1700K.
+#0538  Finance Office: Segofil budget decreased by $204K.
+#0539  Vendor call: Sounds like Segofil gets $199K more.
+#0540  Finance Office: Segofil budget decreased by $348K after review.
+#0541  Finance Office: Segofil budget decreased by $60K.
+#0542  Finance Office: Withdraw update #0397; it was entered in error.
+#0543  Finance Office: Withdraw update #0104.
+#0544  Finance Office: Segofil purchase order FC-1236 closed.
+#0545  Finance Office: Segofil budget increased by $45K after review.
+#0546  Finance Office: Withdraw update #0142; it was entered in error.
+#0547  PMO note: Expect Segofil's budget to drop by $232K.
+#0548  Engineering email: Segofil demo rescheduled to Monday afternoon.
+#0549  Finance Office: Segofil budget increased by $80K.
+#0550  Finance Office: Segofil budget increased by $74K per the revised plan.
+#0551  Finance Office: Segofil budget increased by $477K.
+#0552  Facilities ticket: Heard Segofil's budget is now $2430K.
+#0553  Finance Office: Segofil budget increased by $237K after review.
+#0554  Finance Office: Segofil budget increased by $20K after review.
+#0555  Finance Office: Segofil budget decreased by $130K per the revised plan.
+#0556  Finance Office: Withdraw update #0352.
+#0557  Operations chat: Segofil budget should land at $2320K.
+#0558  Finance Office: Segofil budget increased by $97K per the revised plan.
+#0559  Engineering email: Heard Segofil's budget is now $3270K.
+#0560  Finance Office: Segofil budget decreased by $431K per the revised plan.
+#0561  Finance Office: Segofil budget increased by $50K after review.
+#0562  Finance Office: Segofil budget increased by $95K.
+#0563  Engineering email: Hearing Segofil's budget goes up $319K.
+#0564  Finance Office: Withdraw update #0475; it was entered in error.
+#0565  Facilities ticket: Sounds like Segofil gets $266K less.
+#0566  Finance Office: Segofil budget increased by $70K after review.
+#0567  Operations chat: Segofil status report filed for week 12.
+#0568  Legal email: Expect Segofil's budget to drop by $246K.
+#0569  Finance Office: Segofil budget decreased by $203K per the revised plan.
+#0570  Finance Office: Segofil budget increased by $418K after review.
+#0571  Engineering email: Segofil security review passed.
+#0572  Finance Office: Segofil budget decreased by $60K per the revised plan.
+#0573  Marketing email: Pretty sure Segofil's budget is $3170K now.
+#0574  Finance Office: Segofil budget decreased by $105K after review.
+#0575  Facilities ticket: Segofil budget is going down by $226K.
+#0576  Marketing email: Segofil budget should land at $2610K.
+#0577  Legal email: Segofil budget is going up by $104K.
+#0578  Facilities ticket: Sounds like Segofil gets $171K less.
+#0579  Finance Office: Segofil budget increased by $45K after review.
+#0580  Finance Office: Withdraw update #0546.
+#0581  Engineering email: Hearing Segofil's budget goes down $112K.
+#0582  Finance Office: Segofil budget increased by $598K after review.
+#0583  Finance Office: Withdraw update #0474.
+#0584  Finance Office: Segofil budget increased by $145K after review.
+#0585  Finance Office: Segofil budget increased by $40K.
+#0586  Marketing email: Segofil budget is going down to $3290K.
+#0587  Finance Office: Withdraw update #0517; it was entered in error.
+#0588  Finance Office: Segofil budget decreased by $33K per the revised plan.
+#0589  Legal email: Heard Segofil's budget is now $3160K.
+#0590  Sales update: Segofil budget is going to $3530K.
+#0591  Legal email: Segofil documentation moved to the shared drive.
+#0592  Vendor call: Heard Segofil's budget is now $3810K.
+#0593  Finance Office: Withdraw update #0542; it was entered in error.
+#0594  Finance Office: Segofil budget increased by $588K per the revised plan.
+#0595  Finance Office: Segofil cost center code changed to FC-3776.
+#0596  Finance Office: Reminder: Segofil expense reports are due Monday.
+#0597  Finance Office: Segofil budget increased by $50K after review.
+#0598  Finance Office: Segofil budget increased by $233K.
+#0599  PMO note: Segofil budget is going up to $4760K.
+#0600  Finance Office: Segofil budget increased by $30K.
+#0601  Finance Office: Withdraw update #0186.
+#0602  Finance Office: Segofil budget decreased by $150K per the revised plan.
+#0603  Finance Office: Withdraw update #0500; it was entered in error.
+#0604  Finance Office: Withdraw update #0408.
+#0605  Finance Office: Withdraw update #0429; it was entered in error.
+#0606  Finance Office: Segofil budget increased by $150K.
+#0607  Finance Office: Segofil budget decreased by $75K per the revised plan.
+#0608  Finance Office: Withdraw update #0553; it was entered in error.
+#0609  PMO note: Sounds like Segofil gets $394K less.
+#0610  Finance Office: Segofil budget increased by $130K after review.
+#0611  Finance Office: Segofil budget decreased by $90K per the revised plan.
+#0612  PMO note: Hearing Segofil's budget goes down $212K.
+#0613  Sales update: Pretty sure Segofil's budget is $3120K now.
+#0614  Finance Office: Segofil budget increased by $105K.
+#0615  Finance Office: Reminder: Segofil expense reports are due Monday.
+#0616  Operations chat: Segofil documentation moved to the shared drive.
+#0617  Sales update: Hearing Segofil's budget goes down $344K.
+#0618  Finance Office: Segofil budget decreased by $75K after review.
+#0619  Finance Office: Segofil budget decreased by $150K.
+#0620  Finance Office: Withdraw update #0480.
+#0621  Vendor call: Pretty sure Segofil's budget is $3180K now.
+#0622  Vendor call: Hearing Segofil's budget goes up $129K.
+#0623  Vendor call: Segofil budget is going down to $3110K.
+#0624  Finance Office: Segofil budget decreased by $5K.
+#0625  Finance Office: Segofil budget increased by $85K.
+#0626  Finance Office: Segofil budget increased by $61K after review.
+#0627  Finance Office: Segofil budget increased by $75K after review.
+#0628  Engineering email: Segofil budget is going up to $4430K.
+#0629  Legal email: Pretty sure Segofil's budget is $4800K now.
+#0630  Finance Office: Segofil budget decreased by $30K per the revised plan.
+#0631  Finance Office: Segofil budget increased by $571K after review.
+#0632  Finance Office: Segofil budget decreased by $90K after review.
+#0633  Finance Office: Segofil budget decreased by $105K after review.
+#0634  Legal email: Segofil documentation moved to the shared drive.
+#0635  Finance Office: Segofil budget decreased by $85K.
+#0636  Finance Office: Withdraw update #0063.
+#0637  Engineering email: Segofil vendor onboarding call scheduled for Monday.
+#0638  Sales update: Heard Segofil's budget is now $4800K.
+#0639  Finance Office: Segofil budget decreased by $70K after review.
+#0640  Marketing email: Segofil budget is going up to $4800K.
+#0641  PMO note: Hearing Segofil's budget goes down $567K.
+#0642  Operations chat: Segofil budget is going to $3670K.
+#0643  Finance Office: Segofil budget increased by $85K after review.
+#0644  Finance Office: Withdraw update #0439.
+#0645  Finance Office: Segofil budget decreased by $70K after review.
+#0646  Engineering email: Segofil budget is going up to $4660K.
+#0647  Engineering email: Segofil budget is going down by $146K.
+#0648  Operations chat: Pretty sure Segofil's budget is $4800K now.
+#0649  Vendor call: Segofil budget is going to $3230K.
+#0650  PMO note: Expect Segofil's budget to drop by $207K.
+#0651  Finance Office: Segofil budget increased by $40K.
+#0652  Operations chat: Segofil design review moved to Room 4D.
+#0653  Legal email: Hearing Segofil's budget goes down $457K.
+#0654  Finance Office: Withdraw update #0198; it was entered in error.
+#0655  Finance Office: Withdraw update #0487.
+#0656  Finance Office: Segofil budget increased by $20K per the revised plan.
+#0657  Finance Office: Segofil budget increased by $561K per the revised plan.
+#0658  PMO note: Hearing Segofil's budget goes down $321K.
+#0659  Finance Office: Segofil budget decreased by $120K.
+#0660  Legal email: Sounds like Segofil gets $221K more.
+#0661  Finance Office: Segofil finance review moved to Room 5D.
+#0662  Finance Office: Withdraw update #0593.
+#0663  Marketing email: Pretty sure Segofil's budget is $4800K now.
+#0664  Finance Office: Segofil budget increased by $70K per the revised plan.
+#0665  Finance Office: Segofil budget decreased by $30K per the revised plan.
+#0666  Finance Office: Segofil budget decreased by $145K.
+#0667  Finance Office: Withdraw update #0183.
+#0668  Finance Office: Segofil budget increased by $533K after review.
+#0669  Finance Office: Segofil budget decreased by $121K.
+#0670  Finance Office: Segofil budget decreased by $80K per the revised plan.
+#0671  Operations chat: Hearing Segofil's budget goes down $39K.
+#0672  Finance Office: Segofil budget decreased by $25K per the revised plan.
+#0673  Sales update: Heard Segofil's budget is now $3410K.
+#0674  Finance Office: Segofil receipts scanned.
+#0675  Marketing email: Expect Segofil's budget to drop by $576K.
+#0676  Finance Office: Segofil budget decreased by $481K per the revised plan.
+#0677  Finance Office: Segofil budget increased by $135K per the revised plan.
+#0678  Finance Office: Segofil budget increased by $140K.
+#0679  Vendor call: Segofil site visit confirmed for Wednesday.
+#0680  PMO note: Segofil security review passed.
+#0681  Legal email: Segofil budget is going down to $3600K.
+#0682  Finance Office: Withdraw update #0667.
+#0683  Marketing email: Heard Segofil's budget is now $3190K.
+#0684  Operations chat: Pretty sure Segofil's budget is $4560K now.
+#0685  Finance Office: Withdraw update #0307; it was entered in error.
+#0686  Facilities ticket: Hearing Segofil's budget goes up $131K.
+#0687  Finance Office: Withdraw update #0395; it was entered in error.
+#0688  Finance Office: Segofil budget decreased by $75K after review.
+#0689  Facilities ticket: Segofil status report filed for week 14.
+#0690  Legal email: Segofil budget is going up to $4290K.
+#0691  Finance Office: Withdraw update #0491; it was entered in error.
+#0692  Finance Office: Segofil budget increased by $572K.
+#0693  Finance Office: Segofil budget decreased by $130K.
+#0694  Engineering email: Segofil design review moved to Room 5D.
+#0695  Sales update: Segofil weekly sync moved to Fridays.
+#0696  Finance Office: Segofil budget decreased by $120K per the revised plan.
+#0697  Legal email: Segofil demo rescheduled to Wednesday afternoon.
+#0698  Finance Office: Segofil budget increased by $75K per the revised plan.
+#0699  Vendor call: Sounds like Segofil gets $206K less.
+#0700  Finance Office: Segofil budget decreased by $125K per the revised plan.
+#0701  Finance Office: Segofil budget increased by $30K.
+#0702  Finance Office: Segofil budget increased by $110K per the revised plan.
+#0703  Finance Office: Withdraw update #0346.
+#0704  Finance Office: Segofil budget decreased by $35K.
+#0705  Legal email: Hearing Segofil's budget goes down $13K.
+#0706  Finance Office: Segofil budget decreased by $65K after review.
+#0707  Finance Office: Segofil budget increased by $85K per the revised plan.
+#0708  Finance Office: Segofil budget increased by $573K after review.
+#0709  Finance Office: Segofil budget increased by $50K.
+#0710  Finance Office: Segofil budget decreased by $15K.
+#0711  Engineering email: Sounds like Segofil gets $519K less.
+#0712  Finance Office: Segofil budget decreased by $292K after review.
+#0713  Finance Office: Segofil budget increased by $20K per the revised plan.
+#0714  Finance Office: Withdraw update #0551.
+#0715  Finance Office: Segofil budget increased by $100K per the revised plan.
+#0716  Finance Office: Segofil budget increased by $140K per the revised plan.
+#0717  Finance Office: Segofil budget increased by $356K.
+#0718  Finance Office: Segofil budget increased by $55K.
+#0719  Finance Office: Segofil budget increased by $35K per the revised plan.
+#0720  Finance Office: Segofil budget increased by $135K.
+#0721  Vendor call: Hearing Segofil's budget goes down $254K.
+#0722  Finance Office: Segofil budget decreased by $15K after review.
+#0723  Finance Office: Withdraw update #0379; it was entered in error.
+#0724  Finance Office: Segofil budget increased by $80K after review.
+#0725  Finance Office: Segofil budget decreased by $130K after review.
+#0726  Finance Office: Segofil budget decreased by $543K per the revised plan.
+#0727  Finance Office: Segofil budget decreased by $483K after review.
+#0728  Facilities ticket: Segofil budget is going down by $107K.
+#0729  Finance Office: Withdraw update #0588.
+#0730  Finance Office: Segofil budget decreased by $591K per the revised plan.
+#0731  Finance Office: Segofil budget decreased by $55K after review.
+#0732  Operations chat: Segofil test environment back online.
+#0733  Finance Office: Segofil budget increased by $105K after review.
+#0734  Finance Office: Segofil budget decreased by $55K after review.
+#0735  Finance Office: Segofil budget decreased by $125K.
+#0736  Finance Office: Segofil budget decreased by $80K after review.
+#0737  Marketing email: Heard Segofil's budget is now $3600K.
+#0738  Finance Office: Segofil budget increased by $150K after review.
+#0739  Operations chat: Hearing Segofil's budget goes up $449K.
+#0740  Finance Office: Segofil budget decreased by $15K per the revised plan.
+#0741  Finance Office: Segofil budget increased by $105K.
+#0742  Finance Office: Withdraw update #0443; it was entered in error.
+#0743  Finance Office: Withdraw update #0691; it was entered in error.
+#0744  PMO note: Sounds like Segofil gets $217K more.
+#0745  Finance Office: Withdraw update #0687.
+#0746  PMO note: Segofil status report filed for week 12.
+#0747  Finance Office: Segofil budget increased by $509K.
+#0748  Finance Office: Segofil budget increased by $20K per the revised plan.
+#0749  Engineering email: Segofil demo rescheduled to Friday afternoon.
+#0750  Engineering email: Heard Segofil's budget is now $3820K.
+#0751  Finance Office: Segofil budget decreased by $30K.
+#0752  Finance Office: Withdraw update #0453; it was entered in error.
+#0753  Operations chat: Hearing Segofil's budget goes up $439K.
+#0754  Finance Office: Segofil budget decreased by $10K.
+#0755  Finance Office: Segofil budget increased by $90K.
+#0756  Legal email: Pretty sure Segofil's budget is $4210K now.
+#0757  Sales update: Segofil budget is going up to $4800K.
+#0758  Finance Office: Withdraw update #0406.
+#0759  Facilities ticket: Segofil weekly sync moved to Thursdays.
+#0760  Sales update: Segofil budget should land at $4800K.
+#0761  Finance Office: Segofil budget decreased by $252K.
+#0762  Vendor call: Pretty sure Segofil's budget is $4620K now.
+#0763  Finance Office: Segofil budget increased by $145K.
+#0764  Marketing email: Segofil budget should land at $4150K.
+#0765  Finance Office: Segofil budget increased by $346K per the revised plan.
+#0766  Finance Office: Segofil budget decreased by $30K after review.
+#0767  Operations chat: Segofil budget is going up by $192K.
+#0768  Facilities ticket: Pretty sure Segofil's budget is $3000K now.
+#0769  Finance Office: Segofil budget increased by $526K per the revised plan.
+#0770  Finance Office: Segofil budget decreased by $20K.
+#0771  Marketing email: Expect Segofil's budget to rise by $24K.
+#0772  Engineering email: Segofil budget is going up to $4800K.
+#0773  Finance Office: Segofil budget decreased by $35K.
+#0774  Finance Office: Withdraw update #0558.
+#0775  Finance Office: Segofil budget increased by $366K.
+#0776  Finance Office: Segofil budget decreased by $140K per the revised plan.
+#0777  Finance Office: Segofil budget decreased by $115K.
+#0778  Finance Office: Segofil budget decreased by $95K.
+#0779  Finance Office: Segofil budget decreased by $41K per the revised plan.
+#0780  Legal email: Pretty sure Segofil's budget is $4800K now.
+#0781  Sales update: Sounds like Segofil gets $452K less.
+#0782  Finance Office: Segofil budget increased by $20K after review.
+#0783  Vendor call: Expect Segofil's budget to rise by $401K.
+#0784  Legal email: Segofil budget should land at $4800K.
+#0785  Finance Office: Withdraw update #0747; it was entered in error.
+#0786  Finance Office: Segofil budget decreased by $25K.
+#0787  Operations chat: Segofil status report filed for week 27.
+#0788  Finance Office: Segofil budget decreased by $95K per the revised plan.
+#0789  Finance Office: Withdraw update #0538; it was entered in error.
+#0790  Finance Office: Segofil budget decreased by $90K per the revised plan.
+#0791  Facilities ticket: Segofil budget is going down by $549K.
+#0792  Finance Office: Segofil budget increased by $30K per the revised plan.
+#0793  Vendor call: Segofil budget is going down by $63K.
+#0794  Finance Office: Segofil budget increased by $45K after review.
+#0795  Finance Office: Segofil budget decreased by $115K after review.
+#0796  Finance Office: Withdraw update #0401.
+#0797  Finance Office: Segofil budget decreased by $40K after review.
+#0798  Finance Office: Segofil budget increased by $30K.
+#0799  Operations chat: Pretty sure Segofil's budget is $2860K now.
+#0800  Finance Office: Withdraw update #0745; it was entered in error.
+#0801  Vendor call: Sounds like Segofil gets $194K less.
+#0802  Finance Office: Segofil budget decreased by $40K per the revised plan.
+#0803  Finance Office: Segofil budget increased by $115K after review.
+#0804  Facilities ticket: Segofil budget should land at $2940K.
+#0805  Facilities ticket: Expect Segofil's budget to drop by $582K.
+#0806  Legal email: Segofil budget is going down by $262K.
+#0807  Finance Office: Withdraw update #0779; it was entered in error.
+#0808  Finance Office: Withdraw update #0391.
+#0809  Finance Office: Segofil budget decreased by $60K after review.
+#0810  Finance Office: Segofil budget decreased by $5K.
+#0811  Finance Office: Segofil budget decreased by $110K per the revised plan.
+#0812  Finance Office: Segofil budget decreased by $25K after review.
+#0813  Facilities ticket: Segofil budget is going down to $2820K.
+#0814  Engineering email: Segofil risk register updated with 7 new items.
+#0815  Vendor call: Segofil budget should land at $3390K.
+#0816  Finance Office: Segofil budget decreased by $20K.
+#0817  Finance Office: Withdraw update #0669; it was entered in error.
+#0818  Finance Office: Withdraw update #0404; it was entered in error.
+#0819  Finance Office: Segofil budget decreased by $95K after review.
+#0820  Finance Office: Segofil budget decreased by $15K per the revised plan.
+#0821  Finance Office: Segofil budget increased by $130K per the revised plan.
+#0822  Vendor call: Pretty sure Segofil's budget is $2720K now.
+#0823  Finance Office: Withdraw update #0570; it was entered in error.
+#0824  Finance Office: Withdraw update #0626; it was entered in error.
+#0825  Sales update: Expect Segofil's budget to rise by $103K.
+#0826  Finance Office: Segofil budget decreased by $135K after review.
+#0827  Finance Office: Reminder: Segofil expense reports are due Thursday.
+#0828  Operations chat: Sounds like Segofil gets $136K less.
+#0829  Legal email: Segofil budget is going to $4020K.
+#0830  Finance Office: Segofil budget increased by $55K after review.
+#0831  Marketing email: Segofil budget is going down by $521K.
+#0832  Finance Office: Segofil budget decreased by $65K after review.
+#0833  Finance Office: Withdraw update #0258.
+#0834  Legal email: Heard Segofil's budget is now $4160K.
+#0835  Finance Office: Withdraw update #0717.
+#0836  Operations chat: Hearing Segofil's budget goes down $559K.
+#0837  Finance Office: Segofil budget increased by $15K after review.
+#0838  Sales update: Sounds like Segofil gets $527K more.
+#0839  Finance Office: Segofil budget decreased by $45K.
+#0840  Finance Office: Withdraw update #0152; it was entered in error.
+#0841  Legal email: Pretty sure Segofil's budget is $2330K now.
+#0842  Vendor call: Segofil kickoff moved to Building 5.
+#0843  Marketing email: Segofil budget should land at $3000K.
+#0844  Operations chat: Segofil budget is going up by $137K.
+#0845  Finance Office: Withdraw update #0540; it was entered in error.
+#0846  Finance Office: Segofil budget increased by $145K per the revised plan.
+#0847  Finance Office: Segofil budget decreased by $80K per the revised plan.
+#0848  Finance Office: Segofil budget decreased by $90K.
+#0849  Finance Office: Segofil audit notes filed.
+#0850  Engineering email: Expect Segofil's budget to rise by $494K.
+#0851  Finance Office: Withdraw update #0775; it was entered in error.
+#0852  Finance Office: Segofil budget increased by $60K.
+#0853  Finance Office: Segofil budget increased by $70K.
+#0854  Finance Office: Withdraw update #0668; it was entered in error.
+#0855  Legal email: Hearing Segofil's budget goes down $354K.
+#0856  Finance Office: Segofil audit notes filed.
+#0857  Finance Office: Withdraw update #0105; it was entered in error.
+#0858  Finance Office: Segofil budget decreased by $14K after review.
+#0859  Finance Office: Segofil budget increased by $55K after review.
+#0860  Finance Office: Segofil budget decreased by $196K per the revised plan.
+#0861  Facilities ticket: Pretty sure Segofil's budget is $1880K now.
+#0862  Finance Office: Withdraw update #0789.
+#0863  Finance Office: Withdraw update #0131.
+#0864  Finance Office: Segofil budget increased by $15K per the revised plan.
+#0865  Sales update: Segofil security review passed.
+#0866  PMO note: Segofil budget is going down by $326K.
+#0867  Operations chat: Segofil budget should land at $2690K.
+#0868  Finance Office: Segofil budget decreased by $51K per the revised plan.
+#0869  Finance Office: Segofil budget decreased by $15K after review.
+#0870  PMO note: Expect Segofil's budget to rise by $583K.
+#0871  Finance Office: Segofil budget increased by $25K after review.
+#0872  Engineering email: Segofil budget should land at $1850K.
+#0873  Finance Office: Segofil budget increased by $5K.
+#0874  PMO note: Segofil budget is going to $2670K.
+#0875  Finance Office: Segofil budget increased by $65K.
+#0876  Finance Office: Withdraw update #0452; it was entered in error.
+#0877  Vendor call: Segofil budget should land at $3360K.
+#0878  Facilities ticket: Segofil budget is going to $3530K.
+#0879  Finance Office: Segofil budget increased by $90K.
+#0880  Engineering email: Segofil budget is going up to $3070K.
+#0881  Finance Office: Segofil budget decreased by $45K per the revised plan.
+#0882  Finance Office: Segofil budget decreased by $70K.
+#0883  Sales update: Segofil risk register updated with 4 new items.
+#0884  Finance Office: Segofil budget increased by $35K.
+#0885  Operations chat: Segofil budget is going to $3130K.
+#0886  Finance Office: Segofil budget increased by $85K per the revised plan.
+#0887  Finance Office: Segofil budget increased by $95K after review.
+#0888  Sales update: Heard Segofil's budget is now $4120K.
+#0889  Finance Office: Segofil budget decreased by $85K.
+#0890  Sales update: Segofil budget is going down by $11K.
+#0891  Finance Office: Segofil budget increased by $60K.
+#0892  Finance Office: Segofil budget increased by $80K per the revised plan.
+#0893  Finance Office: Segofil budget decreased by $40K after review.
+#0894  Vendor call: Sounds like Segofil gets $157K less.
+#0895  PMO note: Expect Segofil's budget to rise by $487K.
+#0896  Vendor call: Heard Segofil's budget is now $2400K.
+#0897  Finance Office: Segofil budget increased by $60K after review.
+#0898  Finance Office: Segofil budget decreased by $35K per the revised plan.
+#0899  Finance Office: Segofil budget increased by $90K.
+#0900  Finance Office: Segofil budget increased by $150K per the revised plan.
+#0901  Finance Office: Segofil budget increased by $15K after review.
+#0902  Finance Office: Segofil budget decreased by $10K after review.
+#0903  Finance Office: Withdraw update #0817; it was entered in error.
+#0904  Finance Office: Segofil budget increased by $10K per the revised plan.
+#0905  Finance Office: Withdraw update #0692.
+#0906  Finance Office: Segofil budget decreased by $125K per the revised plan.
+#0907  Facilities ticket: Expect Segofil's budget to drop by $182K.
+#0908  Sales update: Segofil budget is going up by $422K.
+#0909  Operations chat: Segofil status report filed for week 22.
+#0910  Marketing email: Segofil design review moved to Room 6B.
+#0911  Finance Office: Withdraw update #0730; it was entered in error.
+#0912  Finance Office: Segofil budget decreased by $50K after review.
+#0913  Facilities ticket: Expect Segofil's budget to drop by $153K.
+#0914  Finance Office: Segofil budget decreased by $45K.
+#0915  Facilities ticket: Segofil budget is going down by $236K.
+#0916  Finance Office: Withdraw update #0824.
+#0917  PMO note: Heard Segofil's budget is now $2810K.
+#0918  Finance Office: Segofil budget increased by $105K per the revised plan.
+#0919  Marketing email: Hearing Segofil's budget goes up $419K.
+#0920  PMO note: Sounds like Segofil gets $243K more.
+#0921  PMO note: Hearing Segofil's budget goes down $59K.
+#0922  Operations chat: Expect Segofil's budget to drop by $341K.
+#0923  Legal email: Segofil budget should land at $2350K.
+#0924  Engineering email: Expect Segofil's budget to drop by $327K.
+#0925  Finance Office: Segofil budget increased by $20K after review.
+#0926  Sales update: Segofil budget is going up by $238K.
+#0927  Marketing email: Pretty sure Segofil's budget is $3700K now.
+#0928  Finance Office: Segofil budget decreased by $50K after review.
+#0929  PMO note: Hearing Segofil's budget goes down $76K.
+#0930  Finance Office: Segofil budget decreased by $130K.
+#0931  Finance Office: Withdraw update #0726.
+#0932  Finance Office: Segofil budget decreased by $70K.
+#0933  Sales update: Segofil budget is going to $3900K.
+#0934  Finance Office: Withdraw update #0727; it was entered in error.
+#0935  Finance Office: Segofil budget decreased by $5K per the revised plan.
+#0936  Finance Office: Segofil budget increased by $80K after review.
+#0937  Vendor call: Segofil budget is going up by $528K.
+#0938  Finance Office: Withdraw update #0031; it was entered in error.
+#0939  PMO note: Segofil budget is going to $4800K.
+#0940  Finance Office: Withdraw update #0761; it was entered in error.
+#0941  Legal email: Segofil budget is going to $4800K.
+#0942  Finance Office: Segofil budget increased by $10K after review.
+#0943  Legal email: Hearing Segofil's budget goes up $88K.
+#0944  Finance Office: Segofil audit notes filed.
+#0945  Finance Office: Segofil budget increased by $70K after review.
+#0946  Finance Office: Segofil budget decreased by $25K after review.
+#0947  PMO note: Expect Segofil's budget to drop by $106K.
+#0948  Finance Office: Segofil budget decreased by $120K per the revised plan.
+#0949  Finance Office: Withdraw update #0765; it was entered in error.
+#0950  Finance Office: Segofil budget increased by $126K.
+#0951  Finance Office: Segofil budget increased by $35K per the revised plan.
+#0952  Finance Office: Withdraw update #0073; it was entered in error.
+#0953  Finance Office: Segofil budget decreased by $150K.
+#0954  Facilities ticket: Hearing Segofil's budget goes up $424K.
+#0955  PMO note: Pretty sure Segofil's budget is $4200K now.
+#0956  Finance Office: Withdraw update #0580; it was entered in error.
+#0957  Facilities ticket: Segofil budget is going down to $2240K.
+#0958  Finance Office: Segofil budget decreased by $80K per the revised plan.
+#0959  Operations chat: Segofil budget is going down by $123K.
+#0960  Finance Office: Withdraw update #0868; it was entered in error.
+#0961  Finance Office: Withdraw update #0403; it was entered in error.
+#0962  Finance Office: Segofil budget decreased by $40K.
+#0963  Finance Office: Segofil budget increased by $120K.
+#0964  Finance Office: Segofil budget increased by $110K per the revised plan.
+#0965  Finance Office: Withdraw update #0916; it was entered in error.
+#0966  Finance Office: Segofil budget increased by $45K.
+#0967  Finance Office: Segofil budget decreased by $80K.
+#0968  PMO note: Segofil budget is going to $3370K.
+#0969  Finance Office: Segofil budget decreased by $55K per the revised plan.
+#0970  Finance Office: Segofil budget increased by $75K.
+#0971  Finance Office: Segofil budget increased by $50K per the revised plan.
+#0972  Finance Office: Segofil receipts scanned.
+#0973  Finance Office: Segofil budget increased by $20K.
+#0974  Finance Office: Segofil budget decreased by $105K.
+#0975  Legal email: Hearing Segofil's budget goes down $12K.
+#0976  Finance Office: Segofil receipts scanned.
+#0977  Finance Office: Segofil budget increased by $145K after review.
+#0978  Engineering email: Pretty sure Segofil's budget is $2300K now.
+#0979  Sales update: Segofil budget is going down by $268K.
+#0980  Finance Office: Segofil budget increased by $140K.
+#0981  Legal email: Sounds like Segofil gets $382K less.
+#0982  Vendor call: Segofil status report filed for week 38.
+#0983  Sales update: Heard Segofil's budget is now $3570K.
+#0984  Legal email: Segofil budget is going up to $4080K.
+#0985  Facilities ticket: Segofil budget is going to $3970K.
+#0986  Finance Office: Withdraw update #0961.
+#0987  Finance Office: Withdraw update #0421; it was entered in error.
+#0988  Finance Office: Segofil budget increased by $30K after review.
+#0989  Vendor call: Segofil budget is going down to $3190K.
+#0990  Vendor call: Segofil kickoff moved to Building 7.
+#0991  Legal email: Pretty sure Segofil's budget is $3400K now.
+#0992  Finance Office: Segofil budget decreased by $15K per the revised plan.
+#0993  Finance Office: Segofil budget increased by $135K per the revised plan.
+#0994  Legal email: Segofil budget should land at $3540K.
+#0995  Marketing email: Segofil kickoff moved to Building 8.
+#0996  Finance Office: Withdraw update #0381.
+#0997  Operations chat: Hearing Segofil's budget goes down $23K.
+#0998  Finance Office: Segofil budget decreased by $75K.
+#0999  Finance Office: Segofil budget increased by $60K per the revised plan.
+#1000  PMO note: Expect Segofil's budget to rise by $462K.
+#1001  Legal email: Segofil budget is going up to $4690K.
+#1002  Finance Office: Segofil budget increased by $15K after review.
+#1003  Finance Office: Withdraw update #0840.
+#1004  Finance Office: Segofil budget decreased by $100K after review.
+#1005  Finance Office: Withdraw update #0742.
+#1006  Vendor call: Segofil budget is going down by $517K.
+#1007  Marketing email: Hearing Segofil's budget goes up $364K.
+#1008  Finance Office: Segofil budget decreased by $30K per the revised plan.
+#1009  Finance Office: Withdraw update #0682; it was entered in error.
+#1010  Finance Office: Segofil budget increased by $85K per the revised plan.
+#1011  Sales update: Segofil budget should land at $3810K.
+#1012  PMO note: Segofil budget is going up to $4800K.
+#1013  Finance Office: Segofil budget increased by $105K per the revised plan.
+#1014  Finance Office: Segofil budget decreased by $105K after review.
+#1015  Finance Office: Segofil budget increased by $100K.
+#1016  Finance Office: Segofil budget decreased by $25K per the revised plan.
+#1017  Finance Office: Segofil budget decreased by $145K.
+#1018  PMO note: Segofil vendor onboarding call scheduled for Monday.
+#1019  Finance Office: Segofil budget increased by $75K after review.
+#1020  Finance Office: Segofil budget decreased by $223K per the revised plan.
+#1021  Finance Office: Segofil budget increased by $50K after review.
+#1022  Finance Office: Segofil budget increased by $120K after review.
+#1023  Finance Office: Withdraw update #0934; it was entered in error.
+#1024  Finance Office: Segofil budget decreased by $343K.
+#1025  Finance Office: Segofil budget decreased by $95K per the revised plan.
+#1026  Finance Office: Withdraw update #0560.
+#1027  Finance Office: Segofil budget decreased by $50K.
+#1028  Finance Office: Withdraw update #0657.
+#1029  Vendor call: Expect Segofil's budget to drop by $251K.
+#1030  Finance Office: Withdraw update #0631; it was entered in error.
+#1031  Finance Office: Segofil budget decreased by $20K per the revised plan.
+#1032  Finance Office: Withdraw update #1026.
+#1033  Finance Office: Withdraw update #0569; it was entered in error.
+#1034  Engineering email: Hearing Segofil's budget goes up $253K.
+#1035  Finance Office: Segofil budget decreased by $332K per the revised plan.
+#1036  PMO note: Heard Segofil's budget is now $2890K.
+#1037  Finance Office: Segofil budget decreased by $214K per the revised plan.
+#1038  Legal email: Segofil budget is going to $2090K.
+#1039  PMO note: Segofil documentation moved to the shared drive.
+#1040  Finance Office: Segofil budget increased by $50K.
+#1041  Finance Office: Withdraw update #0199.
+#1042  PMO note: Segofil budget should land at $2730K.
+#1043  Finance Office: Segofil budget decreased by $115K.
+#1044  Finance Office: Withdraw update #0858; it was entered in error.
+#1045  Finance Office: Segofil budget increased by $95K per the revised plan.
+#1046  Marketing email: Segofil budget is going down by $228K.
+#1047  PMO note: Segofil budget is going to $2570K.
+#1048  Finance Office: Segofil budget increased by $35K per the revised plan.
+#1049  Finance Office: Segofil budget decreased by $277K per the revised plan.
+#1050  Finance Office: Withdraw update #0485; it was entered in error.
+#1051  Finance Office: Withdraw update #0490; it was entered in error.
+#1052  Finance Office: Segofil budget decreased by $130K per the revised plan.
+#1053  Finance Office: Segofil budget decreased by $100K per the revised plan.
+#1054  Marketing email: Segofil sprint 17 retrospective notes posted.
+#1055  Finance Office: Segofil budget decreased by $70K after review.
+#1056  PMO note: Segofil budget is going up by $581K.
+#1057  Finance Office: Segofil budget increased by $5K after review.
+#1058  Finance Office: Segofil budget increased by $150K after review.
+#1059  Operations chat: Segofil budget should land at $1120K.
+#1060  Finance Office: Segofil budget decreased by $110K per the revised plan.
+#1061  Finance Office: Segofil budget decreased by $110K.
+#1062  Operations chat: Segofil kickoff moved to Building 7.
+#1063  Finance Office: Segofil budget decreased by $95K per the revised plan.
+#1064  Legal email: Hearing Segofil's budget goes up $409K.
+#1065  Finance Office: Segofil budget increased by $30K after review.
+#1066  Finance Office: Segofil budget increased by $120K after review.
+#1067  Finance Office: Segofil budget decreased by $90K.
+#1068  Legal email: Sounds like Segofil gets $258K less.
+#1069  Facilities ticket: Segofil budget is going up by $291K.
+#1070  Finance Office: Segofil budget decreased by $45K per the revised plan.
+#1071  Finance Office: Segofil budget decreased by $45K after review.
+#1072  Legal email: Hearing Segofil's budget goes down $512K.
+#1073  Finance Office: Segofil budget decreased by $307K per the revised plan.
+#1074  Finance Office: Segofil budget increased by $135K.
+#1075  Legal email: Pretty sure Segofil's budget is $1200K now.
+#1076  Legal email: Segofil design review moved to Room 2D.
+#1077  Finance Office: Segofil invoice batch FC-6139 archived.
+#1078  Finance Office: Segofil budget decreased by $90K after review.
+#1079  PMO note: Pretty sure Segofil's budget is $1050K now.
+#1080  Finance Office: Segofil budget increased by $50K after review.
+#1081  Finance Office: Segofil budget increased by $55K.
+#1082  Engineering email: Segofil budget is going down to $960K.
+#1083  Finance Office: Segofil budget increased by $65K.
+#1084  Finance Office: Segofil budget decreased by $25K.
+#1085  PMO note: Heard Segofil's budget is now $930K.
+#1086  Finance Office: Segofil receipts scanned.
+#1087  Finance Office: Segofil budget increased by $50K per the revised plan.
+#1088  Finance Office: Segofil budget increased by $105K.
+#1089  Finance Office: Withdraw update #0434; it was entered in error.
+#1090  Finance Office: Segofil budget increased by $50K per the revised plan.
+#1091  Finance Office: Segofil budget increased by $10K per the revised plan.
+#1092  Legal email: Hearing Segofil's budget goes up $31K.
+#1093  Finance Office: Segofil budget increased by $127K after review.
+#1094  Operations chat: Segofil budget should land at $830K.
+#1095  Operations chat: Segofil budget is going down to $630K.
+#1096  Finance Office: Segofil budget decreased by $65K after review.
+#1097  Finance Office: Segofil budget increased by $80K per the revised plan.
+#1098  Finance Office: Segofil budget decreased by $65K per the revised plan.
+#1099  Finance Office: Segofil budget decreased by $50K per the revised plan.
+#1100  Finance Office: Segofil budget decreased by $15K after review.
+#1101  Finance Office: Segofil budget increased by $35K per the revised plan.
+#1102  Finance Office: Segofil budget decreased by $45K per the revised plan.
+#1103  Finance Office: Segofil budget increased by $70K.
+#1104  Sales update: Segofil budget is going down to $720K.
+#1105  Finance Office: Withdraw update #1024.
+#1106  PMO note: Segofil design review moved to Room 3D.
+#1107  Vendor call: Heard Segofil's budget is now $1410K.
+#1108  Finance Office: Segofil budget decreased by $40K.
+#1109  Finance Office: Withdraw update #1073.
+#1110  Engineering email: Heard Segofil's budget is now $1110K.
+#1111  PMO note: Hearing Segofil's budget goes down $339K.
+#1112  PMO note: Expect Segofil's budget to drop by $316K.
+#1113  Finance Office: Withdraw update #0497; it was entered in error.
+#1114  Finance Office: Segofil purchase order FC-8916 closed.
+#1115  Sales update: Segofil security review passed.
+#1116  PMO note: Segofil budget is going down by $358K.
+#1117  Sales update: Expect Segofil's budget to drop by $17K.
+#1118  Finance Office: Segofil budget decreased by $75K after review.
+#1119  Legal email: Segofil risk register updated with 8 new items.
+#1120  Finance Office: Segofil budget decreased by $427K per the revised plan.
+#1121  Finance Office: Segofil budget increased by $70K after review.
+#1122  Finance Office: Segofil budget increased by $20K.
+#1123  Finance Office: Segofil budget increased by $378K.
+#1124  Engineering email: Expect Segofil's budget to rise by $66K.
+#1125  Engineering email: Segofil budget is going down by $282K.
+#1126  Finance Office: Segofil budget increased by $20K after review.
+#1127  Finance Office: Segofil budget increased by $25K per the revised plan.
+#1128  PMO note: Segofil budget is going to $1190K.
+#1129  Sales update: Segofil budget is going up by $407K.
+#1130  Finance Office: Withdraw update #1009; it was entered in error.
+#1131  Finance Office: Segofil budget decreased by $55K per the revised plan.
+#1132  Finance Office: Segofil budget increased by $115K per the revised plan.
+#1133  Finance Office: Segofil budget increased by $10K after review.
+#1134  Finance Office: Segofil budget decreased by $150K.
+#1135  Finance Office: Withdraw update #0712.
+#1136  Finance Office: Segofil budget decreased by $40K.
+#1137  Finance Office: Segofil budget increased by $140K per the revised plan.
+#1138  Finance Office: Segofil quarterly audit scheduled for Wednesday.
+#1139  Finance Office: Segofil budget decreased by $110K after review.
+#1140  Finance Office: Withdraw update #0594; it was entered in error.
+#1141  Finance Office: Withdraw update #1140.
+#1142  Finance Office: Segofil budget increased by $135K after review.
+#1143  Finance Office: Withdraw update #0808.
+#1144  Operations chat: Segofil budget is going down to $1290K.
+#1145  Sales update: Segofil kickoff moved to Building 9.
+#1146  Finance Office: Segofil budget decreased by $75K.
+#1147  Finance Office: Segofil budget increased by $15K.
+#1148  Finance Office: Segofil budget decreased by $15K.
+#1149  Finance Office: Segofil budget increased by $40K per the revised plan.
+#1150  Finance Office: Segofil budget decreased by $135K.
+#1151  Finance Office: Segofil budget increased by $60K.
+#1152  Finance Office: Segofil budget decreased by $65K per the revised plan.
+#1153  Finance Office: Segofil budget increased by $60K.
+#1154  Finance Office: Segofil receipts scanned.
+#1155  Operations chat: Segofil site visit confirmed for Monday.
+#1156  Engineering email: Sounds like Segofil gets $474K more.
+#1157  Finance Office: Withdraw update #0276.
+#1158  Finance Office: Segofil budget increased by $130K per the revised plan.
+#1159  Finance Office: Segofil budget increased by $105K after review.
+#1160  Finance Office: Segofil budget decreased by $80K after review.
+#1161  PMO note: Segofil budget is going to $2180K.
+#1162  Finance Office: Segofil budget decreased by $10K.
+#1163  Marketing email: Segofil budget is going down by $551K.
+#1164  Operations chat: Segofil budget is going down by $333K.
+#1165  Finance Office: Segofil budget increased by $30K per the revised plan.
+#1166  Engineering email: Segofil sprint 45 retrospective notes posted.
+#1167  Legal email: Expect Segofil's budget to rise by $336K.
+#1168  Finance Office: Segofil budget increased by $15K after review.
+#1169  Finance Office: Withdraw update #0253; it was entered in error.
+#1170  Finance Office: Segofil budget decreased by $55K per the revised plan.
+#1171  Vendor call: Sounds like Segofil gets $19K less.
+#1172  Finance Office: Segofil budget increased by $30K after review.
+#1173  Vendor call: Segofil weekly sync moved to Mondays.
+#1174  Finance Office: Segofil budget decreased by $80K.
+#1175  Engineering email: Segofil budget should land at $1560K.
+#1176  Legal email: Heard Segofil's budget is now $2400K.
+#1177  Finance Office: Segofil budget decreased by $140K.
+#1178  Finance Office: Segofil budget decreased by $125K.
+#1179  Finance Office: Segofil budget decreased by $100K.
+#1180  Legal email: Segofil budget should land at $1240K.
+#1181  Facilities ticket: Pretty sure Segofil's budget is $1930K now.
+#1182  Finance Office: Segofil budget increased by $90K per the revised plan.
+#1183  Finance Office: Segofil budget decreased by $184K after review.
+#1184  Finance Office: Withdraw update #0438; it was entered in error.
+#1185  Sales update: Segofil budget is going down to $1850K.
+#1186  Finance Office: Segofil budget decreased by $80K per the revised plan.
+#1187  Finance Office: Segofil budget increased by $45K after review.
+#1188  Finance Office: Segofil budget increased by $70K per the revised plan.
+#1189  Finance Office: Segofil budget decreased by $75K.
+#1190  Finance Office: Segofil budget decreased by $50K.
+#1191  Finance Office: Withdraw update #1123; it was entered in error.
+#1192  Finance Office: Segofil budget increased by $45K after review.
+#1193  Finance Office: Segofil budget increased by $80K per the revised plan.
+#1194  Finance Office: Withdraw update #0564.
+#1195  Finance Office: Segofil budget decreased by $95K after review.
+#1196  Legal email: Sounds like Segofil gets $186K less.
+#1197  Vendor call: Pretty sure Segofil's budget is $2170K now.
+#1198  Finance Office: Segofil budget increased by $25K after review.
+#1199  Vendor call: Pretty sure Segofil's budget is $1390K now.
+#1200  Finance Office: Segofil budget increased by $130K per the revised plan.
+#1201  Finance Office: Withdraw update #0582; it was entered in error.
+#1202  Engineering email: Sounds like Segofil gets $288K less.
+#1203  Sales update: Sounds like Segofil gets $83K more.
+#1204  Finance Office: Segofil purchase order FC-8806 closed.
+#1205  Operations chat: Segofil budget should land at $1210K.
+#1206  Finance Office: Segofil budget decreased by $5K.
+#1207  Sales update: Segofil budget should land at $850K.
+#1208  Finance Office: Withdraw update #0774; it was entered in error.
+#1209  Finance Office: Segofil budget decreased by $139K.
+#1210  Engineering email: Sounds like Segofil gets $269K less.
+#1211  Legal email: Segofil risk register updated with 3 new items.
+#1212  Finance Office: Withdraw update #0441; it was entered in error.
+#1213  Finance Office: Withdraw update #1209.
+#1214  Finance Office: Segofil budget decreased by $40K.
+#1215  Finance Office: Segofil budget increased by $145K.
+#1216  Operations chat: Expect Segofil's budget to drop by $289K.
+#1217  Finance Office: Segofil purchase order FC-8767 closed.
+#1218  Finance Office: Segofil budget increased by $125K per the revised plan.
+#1219  Finance Office: Withdraw update #0550; it was entered in error.
+#1220  Finance Office: Segofil budget increased by $85K.
+#1221  Operations chat: Segofil budget should land at $2130K.
+#1222  Legal email: Segofil budget is going down by $167K.
+#1223  Engineering email: Segofil budget is going up to $2540K.
+#1224  PMO note: Segofil status report filed for week 5.
+#1225  Finance Office: Segofil budget increased by $10K.
+#1226  Finance Office: Segofil budget decreased by $50K per the revised plan.
+#1227  Finance Office: Withdraw update #0598; it was entered in error.
+#1228  Finance Office: Segofil budget increased by $150K after review.
+#1229  Operations chat: Pretty sure Segofil's budget is $1990K now.
+#1230  Legal email: Segofil budget is going down by $82K.
+#1231  Vendor call: Segofil budget is going up by $9K.
+#1232  Finance Office: Segofil budget increased by $135K.
+#1233  PMO note: Pretty sure Segofil's budget is $2260K now.
+#1234  Finance Office: Segofil budget increased by $15K.
+#1235  Finance Office: Segofil budget decreased by $117K per the revised plan.
+#1236  Vendor call: Segofil budget is going up to $2330K.
+#1237  Finance Office: Withdraw update #0503; it was entered in error.
+#1238  Vendor call: Hearing Segofil's budget goes up $49K.
+#1239  Finance Office: Segofil budget decreased by $20K per the revised plan.
+#1240  Operations chat: Segofil budget is going down by $531K.
+#1241  Vendor call: Pretty sure Segofil's budget is $2550K now.
+#1242  Finance Office: Segofil budget increased by $145K after review.
+#1243  Operations chat: Heard Segofil's budget is now $2120K.
+#1244  Legal email: Sounds like Segofil gets $416K less.
+#1245  Marketing email: Segofil budget is going up to $2540K.
+#1246  Finance Office: Segofil budget decreased by $80K.
+#1247  Finance Office: Withdraw update #0655.
+#1248  Operations chat: Segofil weekly sync moved to Fridays.
+#1249  Finance Office: Withdraw update #1120.
+#1250  Finance Office: Segofil budget increased by $65K per the revised plan.
+#1251  Vendor call: Segofil budget should land at $2890K.
+#1252  Finance Office: Segofil budget increased by $65K.
+#1253  Finance Office: Withdraw update #1235; it was entered in error.
+#1254  Finance Office: Segofil budget increased by $120K per the revised plan.
+#1255  Finance Office: Segofil quarterly audit scheduled for Tuesday.
+#1256  Finance Office: Segofil budget increased by $145K after review.
+#1257  Finance Office: Segofil budget decreased by $50K per the revised plan.
+#1258  Finance Office: Segofil budget decreased by $45K after review.
+#1259  Sales update: Segofil budget is going to $3450K.
+#1260  Finance Office: Segofil budget decreased by $150K.
+#1261  Finance Office: Withdraw update #0095.
+#1262  Finance Office: Segofil budget decreased by $50K.
+#1263  PMO note: Hearing Segofil's budget goes up $318K.
+#1264  Finance Office: Segofil budget increased by $20K per the revised plan.
+#1265  Marketing email: Expect Segofil's budget to rise by $64K.
+#1266  Operations chat: Hearing Segofil's budget goes up $78K.
+#1267  Finance Office: Segofil budget increased by $25K per the revised plan.
+#1268  PMO note: Pretty sure Segofil's budget is $2540K now.
+#1269  Finance Office: Withdraw update #1049; it was entered in error.
+#1270  PMO note: Pretty sure Segofil's budget is $3060K now.
+#1271  Finance Office: Segofil budget decreased by $85K.
+#1272  Marketing email: Segofil budget is going down by $393K.
+#1273  Finance Office: Segofil budget increased by $80K.
+#1274  Finance Office: Segofil budget decreased by $65K per the revised plan.
+#1275  Facilities ticket: Expect Segofil's budget to drop by $372K.
+#1276  Operations chat: Segofil budget is going to $2450K.
+#1277  Finance Office: Segofil budget decreased by $125K after review.
+#1278  Finance Office: Segofil budget decreased by $45K after review.
+#1279  Finance Office: Segofil budget decreased by $105K.
+#1280  Finance Office: Withdraw update #0685; it was entered in error.
+#1281  Engineering email: Segofil kickoff moved to Building 8.
+#1282  Finance Office: Segofil budget increased by $75K per the revised plan.
+#1283  Vendor call: Sounds like Segofil gets $224K more.
+#1284  Finance Office: Segofil budget increased by $90K.
+#1285  Finance Office: Withdraw update #0138.
+#1286  Engineering email: Segofil budget is going up to $2700K.
+#1287  Legal email: Sounds like Segofil gets $299K more.
+#1288  Finance Office: Segofil budget increased by $40K per the revised plan.
+#1289  Finance Office: Segofil budget increased by $85K after review.
+#1290  Finance Office: Withdraw update #0952.
+#1291  Facilities ticket: Segofil sprint 47 retrospective notes posted.
+#1292  Finance Office: Segofil budget decreased by $371K after review.
+#1293  Finance Office: Withdraw update #0020.
+#1294  Finance Office: Segofil budget decreased by $95K after review.
+#1295  Finance Office: Segofil budget decreased by $140K.
+#1296  Finance Office: Segofil budget decreased by $40K per the revised plan.
+#1297  Finance Office: Withdraw update #0082; it was entered in error.
+#1298  Operations chat: Heard Segofil's budget is now $2580K.
+#1299  Finance Office: Segofil budget decreased by $65K.
+#1300  Engineering email: Expect Segofil's budget to drop by $198K.
+#1301  Operations chat: Segofil documentation moved to the shared drive.
+#1302  Finance Office: Withdraw update #0052.
+#1303  Finance Office: Segofil budget increased by $125K after review.
+#1304  Sales update: Segofil budget should land at $2620K.
+#1305  Vendor call: Segofil security review passed.
+#1306  Finance Office: Segofil budget increased by $15K per the revised plan.
+#1307  Finance Office: Segofil budget decreased by $40K.
+#1308  Finance Office: Segofil budget increased by $115K after review.
+#1309  Engineering email: Expect Segofil's budget to rise by $524K.
+#1310  Finance Office: Segofil budget increased by $20K after review.
+#1311  Finance Office: Segofil budget increased by $150K.
+#1312  Finance Office: Segofil budget increased by $55K after review.
+#1313  Finance Office: Segofil budget increased by $279K.
+#1314  Finance Office: Segofil budget increased by $40K.
+#1315  Finance Office: Segofil budget decreased by $20K after review.
+#1316  Finance Office: Segofil budget decreased by $40K after review.
+#1317  Finance Office: Segofil budget decreased by $80K per the revised plan.
+#1318  Finance Office: Withdraw update #0708.
+#1319  Engineering email: Hearing Segofil's budget goes up $116K.
+#1320  Finance Office: Segofil budget decreased by $417K.
+#1321  PMO note: Heard Segofil's budget is now $1780K.
+#1322  Finance Office: Segofil purchase order FC-9011 closed.
+#1323  Marketing email: Segofil budget should land at $1630K.
+#1324  PMO note: Expect Segofil's budget to drop by $423K.
+#1325  Legal email: Heard Segofil's budget is now $1760K.
+#1326  Finance Office: Segofil budget increased by $85K after review.
+#1327  Finance Office: Segofil budget increased by $140K after review.
+#1328  Marketing email: Heard Segofil's budget is now $2300K.
+#1329  Finance Office: Segofil budget decreased by $150K.
+#1330  PMO note: Segofil budget is going to $1860K.
+#1331  Finance Office: Segofil budget decreased by $85K per the revised plan.
+#1332  Finance Office: Segofil budget increased by $45K after review.
+#1333  Finance Office: Segofil budget increased by $115K after review.
+#1334  Finance Office: Withdraw update #1302.
+#1335  Finance Office: Segofil budget increased by $5K per the revised plan.
+#1336  Finance Office: Segofil budget increased by $130K.
+#1337  Finance Office: Segofil budget increased by $60K after review.
+#1338  Vendor call: Segofil budget is going up to $2440K.
+#1339  Marketing email: Hearing Segofil's budget goes down $539K.
+#1340  PMO note: Segofil budget should land at $2310K.
+#1341  Finance Office: Segofil budget decreased by $145K.
+#1342  Finance Office: Withdraw update #1093.
+#1343  Finance Office: Withdraw update #1183.
+#1344  Finance Office: Segofil budget increased by $85K per the revised plan.
+#1345  Legal email: Heard Segofil's budget is now $2250K.
+#1346  Finance Office: Segofil budget decreased by $80K after review.
+#1347  Sales update: Segofil kickoff moved to Building 9.
+#1348  Finance Office: Segofil budget increased by $10K per the revised plan.
+#1349  Finance Office: Withdraw update #0860.
+#1350  Finance Office: Segofil budget increased by $145K per the revised plan.
+#1351  Finance Office: Segofil budget increased by $145K.
+#1352  Engineering email: Expect Segofil's budget to rise by $479K.
+#1353  Engineering email: Expect Segofil's budget to drop by $523K.
+#1354  Legal email: Segofil kickoff moved to Building 8.
+#1355  Sales update: Pretty sure Segofil's budget is $3590K now.
+#1356  Facilities ticket: Segofil weekly sync moved to Fridays.
+#1357  Finance Office: Withdraw update #1201.
+#1358  PMO note: Sounds like Segofil gets $168K more.
+#1359  Operations chat: Heard Segofil's budget is now $3100K.
+#1360  PMO note: Sounds like Segofil gets $396K less.
+#1361  Engineering email: Segofil sprint 29 retrospective notes posted.
+#1362  Finance Office: Segofil budget decreased by $85K after review.
+#1363  Finance Office: Segofil budget increased by $10K.
+#1364  Engineering email: Expect Segofil's budget to rise by $511K.
+#1365  Finance Office: Segofil budget decreased by $20K after review.
+#1366  Finance Office: Withdraw update #0851; it was entered in error.
+#1367  Finance Office: Segofil budget increased by $10K per the revised plan.
+#1368  Marketing email: Segofil budget is going down by $536K.
+#1369  Marketing email: Sounds like Segofil gets $387K more.
+#1370  Finance Office: Segofil budget increased by $90K.
+#1371  Finance Office: Withdraw update #0148.
+#1372  Engineering email: Segofil budget should land at $3530K.
+#1373  Operations chat: Segofil budget is going to $3050K.
+#1374  Finance Office: Segofil budget increased by $115K.
+#1375  Finance Office: Segofil budget decreased by $5K.
+#1376  Vendor call: Sounds like Segofil gets $86K less.
+#1377  Operations chat: Heard Segofil's budget is now $4130K.
+#1378  Finance Office: Segofil budget decreased by $15K after review.
+#1379  Sales update: Segofil budget is going up by $219K.
+#1380  Finance Office: Withdraw update #0543; it was entered in error.
+#1381  Finance Office: Segofil budget increased by $150K after review.
+#1382  Finance Office: Segofil budget decreased by $10K per the revised plan.
+#1383  Operations chat: Segofil budget is going up by $471K.
+#1384  Finance Office: Withdraw update #0416; it was entered in error.
+#1385  Finance Office: Withdraw update #0459.
+#1386  Sales update: Segofil status report filed for week 6.
+#1387  Finance Office: Segofil budget decreased by $35K after review.
+#1388  Facilities ticket: Expect Segofil's budget to drop by $197K.
+#1389  Finance Office: Segofil budget decreased by $130K per the revised plan.
+#1390  Operations chat: Pretty sure Segofil's budget is $4800K now.
+#1391  Finance Office: Segofil budget decreased by $70K after review.
+#1392  PMO note: Sounds like Segofil gets $337K more.
+#1393  Finance Office: Withdraw update #0509.
+#1394  Finance Office: Segofil budget decreased by $15K.
+#1395  PMO note: Segofil documentation moved to the shared drive.
+#1396  Finance Office: Segofil budget increased by $85K after review.
+#1397  Facilities ticket: Hearing Segofil's budget goes down $357K.
+#1398  Engineering email: Segofil vendor onboarding call scheduled for Wednesday.
+#1399  PMO note: Segofil design review moved to Room 1C.
+#1400  Facilities ticket: Segofil budget is going to $4550K.
+#1401  Finance Office: Withdraw update #0488; it was entered in error.
+#1402  Finance Office: Segofil budget increased by $35K after review.
+#1403  Finance Office: Segofil budget decreased by $85K.
+#1404  Legal email: Hearing Segofil's budget goes up $222K.
+#1405  Finance Office: Segofil finance review moved to Room 4D.
+#1406  Marketing email: Segofil security review passed.
+#1407  Engineering email: Segofil risk register updated with 9 new items.
+#1408  Finance Office: Withdraw update #0950.
+#1409  Finance Office: Segofil budget decreased by $30K per the revised plan.
+#1410  Vendor call: Segofil budget should land at $4700K.
+#1411  PMO note: Segofil budget should land at $2940K.
+#1412  Finance Office: Withdraw update #1320; it was entered in error.
+#1413  Marketing email: Segofil documentation moved to the shared drive.
+#1414  Finance Office: Withdraw update #0018; it was entered in error.
+#1415  Finance Office: Segofil budget decreased by $125K.
+#1416  Marketing email: Pretty sure Segofil's budget is $4300K now.
+#1417  Finance Office: Segofil budget increased by $45K after review.
+#1418  Operations chat: Expect Segofil's budget to rise by $296K.
+#1419  Legal email: Hearing Segofil's budget goes down $548K.
+#1420  Finance Office: Segofil budget decreased by $40K after review.
+#1421  Finance Office: Segofil budget decreased by $25K per the revised plan.
+#1422  Finance Office: Segofil budget decreased by $124K.
+#1423  Finance Office: Segofil budget decreased by $20K after review.
+#1424  Vendor call: Heard Segofil's budget is now $4650K.
+#1425  Finance Office: Segofil budget decreased by $85K per the revised plan.
+#1426  Finance Office: Segofil budget increased by $115K per the revised plan.
+#1427  Finance Office: Withdraw update #0036.
+#1428  Finance Office: Segofil budget decreased by $140K after review.
+#1429  Finance Office: Reminder: Segofil expense reports are due Wednesday.
+#1430  Sales update: Sounds like Segofil gets $231K less.
+#1431  Sales update: Segofil weekly sync moved to Fridays.
+#1432  Finance Office: Withdraw update #1292; it was entered in error.
+#1433  Engineering email: Sounds like Segofil gets $432K less.
+#1434  Finance Office: Segofil budget increased by $353K after review.
+#1435  Finance Office: Segofil budget decreased by $10K after review.
+#1436  Finance Office: Segofil budget decreased by $120K after review.
+#1437  Facilities ticket: Segofil budget should land at $4800K.
+#1438  Sales update: Segofil budget should land at $4800K.
+#1439  Finance Office: Segofil budget decreased by $120K after review.
+#1440  Operations chat: Segofil vendor onboarding call scheduled for Wednesday.
+#1441  Finance Office: Segofil budget increased by $65K after review.
+#1442  Finance Office: Segofil budget increased by $130K.
+#1443  Marketing email: Sounds like Segofil gets $384K less.
+#1444  Vendor call: Segofil budget is going up to $4800K.
+#1445  Finance Office: Withdraw update #1422.
+#1446  Finance Office: Segofil invoice batch FC-6570 archived.
+#1447  Operations chat: Segofil budget is going down by $239K.
+#1448  Finance Office: Withdraw update #0267; it was entered in error.
+#1449  Finance Office: Segofil budget decreased by $30K per the revised plan.
+#1450  Finance Office: Segofil budget increased by $75K.
+#1451  Engineering email: Segofil budget is going down by $363K.
+#1452  Finance Office: Segofil budget increased by $55K per the revised plan.
+#1453  Finance Office: Segofil budget decreased by $35K per the revised plan.
+#1454  Finance Office: Segofil invoice batch FC-3356 archived.
+#1455  Legal email: Hearing Segofil's budget goes down $57K.
+#1456  Finance Office: Segofil budget decreased by $100K.
+#1457  Finance Office: Segofil budget decreased by $145K.
+#1458  Operations chat: Segofil documentation moved to the shared drive.
+#1459  Finance Office: Segofil budget increased by $130K.
+#1460  Operations chat: Hearing Segofil's budget goes down $244K.
+#1461  Finance Office: Reminder: Segofil expense reports are due Tuesday.
+#1462  Legal email: Hearing Segofil's budget goes up $79K.
+#1463  Finance Office: Segofil budget decreased by $40K per the revised plan.
+#1464  Finance Office: Segofil budget decreased by $10K per the revised plan.
+#1465  Engineering email: Segofil budget is going to $4800K.
+#1466  Vendor call: Segofil budget should land at $4800K.
+#1467  Operations chat: Hearing Segofil's budget goes down $464K.
+#1468  Finance Office: Segofil budget increased by $65K after review.
+#1469  Finance Office: Withdraw update #0769; it was entered in error.
+#1470  Finance Office: Segofil budget decreased by $85K per the revised plan.
+#1471  Finance Office: Segofil receipts scanned.
+#1472  Finance Office: Withdraw update #0328.
+#1473  Marketing email: Expect Segofil's budget to drop by $77K.
+#1474  PMO note: Segofil budget is going down by $21K.
+#1475  Finance Office: Segofil budget decreased by $30K per the revised plan.
+#1476  Finance Office: Segofil budget decreased by $25K per the revised plan.
+#1477  Finance Office: Segofil budget decreased by $150K.
+#1478  Vendor call: Sounds like Segofil gets $1K more.
+#1479  Vendor call: Segofil budget is going to $4800K.
+#1480  Finance Office: Segofil budget increased by $120K after review.
+#1481  Engineering email: Segofil test environment back online.
+#1482  Finance Office: Segofil budget increased by $50K after review.
+#1483  Finance Office: Segofil budget increased by $135K.
+#1484  Finance Office: Segofil budget increased by $15K.
+#1485  Engineering email: Segofil site visit confirmed for Monday.
+#1486  Vendor call: Segofil budget is going down by $178K.
+#1487  Finance Office: Segofil budget decreased by $5K after review.
+#1488  Finance Office: Segofil budget increased by $95K.
+#1489  Operations chat: Segofil security review passed.
+#1490  Sales update: Pretty sure Segofil's budget is $4800K now.
+#1491  Finance Office: Segofil budget increased by $95K after review.
+#1492  Finance Office: Segofil budget decreased by $75K after review.
+#1493  Finance Office: Segofil budget decreased by $115K.
+#1494  Legal email: Segofil budget is going down by $302K.
+#1495  Finance Office: Segofil budget decreased by $35K per the revised plan.
+#1496  Finance Office: Withdraw update #1412; it was entered in error.
+#1497  Finance Office: Withdraw update #1313.
+#1498  Finance Office: Withdraw update #0300.
+#1499  Finance Office: Segofil budget increased by $40K.
+#1500  Finance Office: Segofil budget decreased by $70K after review.
+#1501  Finance Office: Segofil budget decreased by $130K.
+#1502  Engineering email: Segofil budget is going down to $3110K.
+#1503  Operations chat: Expect Segofil's budget to drop by $323K.
+#1504  Sales update: Pretty sure Segofil's budget is $3450K now.
+#1505  Operations chat: Segofil budget is going up to $3880K.
+#1506  Finance Office: Segofil invoice batch FC-7991 archived.
+#1507  Finance Office: Withdraw update #1020.
+#1508  PMO note: Segofil budget is going to $4610K.
+#1509  Finance Office: Segofil budget increased by $80K.
+#1510  Finance Office: Segofil budget increased by $50K after review.
+#1511  Finance Office: Segofil budget decreased by $45K after review.
+#1512  Finance Office: Segofil budget increased by $145K.
+#1513  Finance Office: Segofil budget increased by $135K.
+#1514  Finance Office: Withdraw update #0085.
+#1515  Engineering email: Segofil design review moved to Room 6B.
+#1516  Finance Office: Withdraw update #0068; it was entered in error.
+#1517  Facilities ticket: Segofil sprint 34 retrospective notes posted.
+#1518  PMO note: Segofil budget is going up by $458K.
+#1519  Facilities ticket: Expect Segofil's budget to rise by $472K.
+#1520  Finance Office: Segofil budget increased by $115K per the revised plan.
+#1521  Finance Office: Withdraw update #1194; it was entered in error.
+#1522  Finance Office: Withdraw update #0636; it was entered in error.
+#1523  Sales update: Segofil status report filed for week 39.
+#1524  Sales update: Segofil budget should land at $4800K.
+#1525  Operations chat: Expect Segofil's budget to drop by $553K.
+#1526  Finance Office: Withdraw update #0676; it was entered in error.
+#1527  Finance Office: Segofil budget decreased by $60K per the revised plan.
+#1528  Legal email: Segofil site visit confirmed for Wednesday.
+#1529  Finance Office: Segofil budget increased by $125K.
+#1530  Finance Office: Segofil budget decreased by $130K.
+#1531  Finance Office: Segofil budget decreased by $90K after review.
+#1532  Finance Office: Withdraw update #1037.
+#1533  Finance Office: Segofil purchase order FC-9952 closed.
+#1534  PMO note: Segofil budget should land at $4450K.
+#1535  Finance Office: Segofil budget decreased by $80K after review.
+#1536  Operations chat: Segofil budget is going down by $586K.
+#1537  Finance Office: Segofil budget decreased by $10K.
+#1538  Finance Office: Segofil budget decreased by $80K after review.
+#1539  Finance Office: Segofil budget decreased by $70K per the revised plan.
+#1540  Vendor call: Hearing Segofil's budget goes up $329K.
+#1541  Finance Office: Segofil budget decreased by $15K per the revised plan.
+#1542  Sales update: Segofil weekly sync moved to Tuesdays.
+#1543  Finance Office: Segofil budget increased by $40K after review.
+#1544  Finance Office: Segofil budget increased by $110K after review.
+#1545  Engineering email: Segofil budget is going to $3430K.
+#1546  Finance Office: Withdraw update #0207; it was entered in error.
+#1547  Finance Office: Segofil budget increased by $414K per the revised plan.
+#1548  Finance Office: Segofil budget increased by $150K per the revised plan.
+#1549  Facilities ticket: Expect Segofil's budget to drop by $491K.
+#1550  Finance Office: Segofil budget decreased by $115K.
+#1551  PMO note: Heard Segofil's budget is now $3460K.
+#1552  Facilities ticket: Expect Segofil's budget to drop by $18K.
+#1553  Engineering email: Segofil budget is going down by $138K.
+#1554  Finance Office: Withdraw update #1547.
+#1555  PMO note: Hearing Segofil's budget goes up $234K.
+#1556  Vendor call: Segofil budget should land at $4510K.
+#1557  Vendor call: Segofil security review passed.
+#1558  Facilities ticket: Heard Segofil's budget is now $4800K.
+#1559  Facilities ticket: Segofil budget is going down by $578K.
+#1560  Finance Office: Segofil budget decreased by $95K.
+#1561  Finance Office: Segofil budget increased by $60K.
+#1562  Finance Office: Withdraw update #1427.
+#1563  Finance Office: Segofil budget decreased by $15K.
+#1564  Finance Office: Segofil budget increased by $120K per the revised plan.
+#1565  Finance Office: Withdraw update #1434.
+#1566  Engineering email: Segofil budget is going up by $92K.
+#1567  Finance Office: Segofil budget increased by $140K.
+#1568  Vendor call: Sounds like Segofil gets $469K more.
+#1569  PMO note: Expect Segofil's budget to drop by $298K.
+#1570  Finance Office: Segofil budget decreased by $125K.
+#1571  Finance Office: Withdraw update #0986.
+#1572  Finance Office: Segofil budget decreased by $25K per the revised plan.
+#1573  Finance Office: Segofil cost center code changed to FC-4000.
+#1574  Finance Office: Segofil budget decreased by $60K.
+#1575  Engineering email: Sounds like Segofil gets $444K more.
+#1576  Finance Office: Segofil budget increased by $70K per the revised plan.
+#1577  Marketing email: Segofil budget is going up to $4000K.
+#1578  Finance Office: Withdraw update #1408; it was entered in error.
+#1579  Finance Office: Segofil budget decreased by $125K.
+#1580  PMO note: Segofil budget is going down by $249K.
+#1581  Finance Office: Segofil budget decreased by $145K per the revised plan.
+#1582  Finance Office: Segofil audit notes filed.
+#1583  Finance Office: Segofil budget decreased by $85K after review.
+#1584  Finance Office: Withdraw update #0743.
+#1585  Legal email: Segofil vendor onboarding call scheduled for Friday.
+#1586  Finance Office: Segofil budget decreased by $70K after review.
+#1587  Sales update: Heard Segofil's budget is now $4790K.
+#1588  Operations chat: Hearing Segofil's budget goes down $467K.
+#1589  Finance Office: Segofil budget increased by $120K.
+#1590  Finance Office: Segofil budget increased by $30K after review.
+#1591  Finance Office: Segofil budget decreased by $110K.
+#1592  Finance Office: Segofil quarterly audit scheduled for Monday.
+#1593  Sales update: Sounds like Segofil gets $229K more.
+#1594  Finance Office: Segofil invoice batch FC-3538 archived.
+#1595  Operations chat: Segofil budget is going up to $4750K.
+#1596  Finance Office: Withdraw update #0556; it was entered in error.
+#1597  Finance Office: Segofil budget decreased by $70K.
+#1598  Finance Office: Segofil budget increased by $5K.
+#1599  Finance Office: Withdraw update #1035; it was entered in error.
+#1600  Sales update: Segofil budget is going down to $3640K.
+
+Question: What is Segofil's budget now?

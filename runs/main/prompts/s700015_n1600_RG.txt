@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Mifa budget set to $1040K.
+#0002  Finance Office: Mifa budget increased by $446K.
+#0003  Finance Office: Withdraw update #0002.
+#0004  Finance Office: Mifa budget decreased by $143K per the revised plan.
+#0005  Finance Office: Mifa budget increased by $543K.
+#0006  Sales update: Expect Mifa's budget to rise by $139K.
+#0007  Finance Office: Mifa budget increased by $598K.
+#0008  Vendor call: Sounds like Mifa gets $579K more.
+#0009  Finance Office: Mifa budget increased by $464K.
+#0010  Finance Office: Mifa budget increased by $75K after review.
+#0011  Facilities ticket: Expect Mifa's budget to rise by $234K.
+#0012  Finance Office: Withdraw update #0004.
+#0013  Finance Office: Mifa budget increased by $193K per the revised plan.
+#0014  Finance Office: Mifa budget decreased by $73K after review.
+#0015  Sales update: Pretty sure Mifa's budget is $2890K now.
+#0016  Finance Office: Withdraw update #0009.
+#0017  Finance Office: Mifa budget increased by $322K.
+#0018  Sales update: Mifa test environment back online.
+#0019  Finance Office: Withdraw update #0013; it was entered in error.
+#0020  Finance Office: Mifa budget increased by $349K per the revised plan.
+#0021  Finance Office: Mifa budget increased by $276K after review.
+#0022  Sales update: Mifa budget is going down by $79K.
+#0023  Finance Office: Withdraw update #0019; it was entered in error.
+#0024  Finance Office: Mifa budget decreased by $266K after review.
+#0025  Finance Office: Withdraw update #0024; it was entered in error.
+#0026  Legal email: Expect Mifa's budget to rise by $327K.
+#0027  Finance Office: Mifa budget decreased by $122K after review.
+#0028  Finance Office: Mifa budget decreased by $25K.
+#0029  Finance Office: Withdraw update #0023.
+#0030  Finance Office: Mifa budget increased by $418K per the revised plan.
+#0031  Marketing email: Mifa budget is going up by $274K.
+#0032  Legal email: Mifa budget should land at $3160K.
+#0033  Sales update: Heard Mifa's budget is now $3800K.
+#0034  Legal email: Mifa budget is going down by $357K.
+#0035  Finance Office: Mifa budget decreased by $441K after review.
+#0036  Facilities ticket: Hearing Mifa's budget goes down $57K.
+#0037  Finance Office: Mifa budget increased by $148K after review.
+#0038  Operations chat: Mifa test environment back online.
+#0039  PMO note: Mifa risk register updated with 9 new items.
+#0040  Finance Office: Withdraw update #0005; it was entered in error.
+#0041  Finance Office: Withdraw update #0035; it was entered in error.
+#0042  PMO note: Hearing Mifa's budget goes up $126K.
+#0043  Facilities ticket: Mifa kickoff moved to Building 8.
+#0044  Finance Office: Mifa budget increased by $2K per the revised plan.
+#0045  Finance Office: Mifa budget decreased by $116K per the revised plan.
+#0046  Legal email: Mifa weekly sync moved to Fridays.
+#0047  Legal email: Pretty sure Mifa's budget is $3310K now.
+#0048  Sales update: Mifa budget is going down to $2440K.
+#0049  Finance Office: Mifa budget decreased by $188K per the revised plan.
+#0050  Finance Office: Mifa budget increased by $511K per the revised plan.
+#0051  Marketing email: Mifa vendor onboarding call scheduled for Tuesday.
+#0052  Vendor call: Hearing Mifa's budget goes up $273K.
+#0053  Finance Office: Mifa budget decreased by $63K per the revised plan.
+#0054  Finance Office: Mifa budget increased by $344K.
+#0055  Finance Office: Mifa budget decreased by $55K.
+#0056  Finance Office: Mifa budget decreased by $224K after review.
+#0057  Marketing email: Expect Mifa's budget to rise by $163K.
+#0058  Finance Office: Mifa budget increased by $227K after review.
+#0059  Facilities ticket: Mifa budget should land at $4600K.
+#0060  Sales update: Mifa budget should land at $4080K.
+#0061  Finance Office: Mifa budget increased by $577K per the revised plan.
+#0062  Finance Office: Mifa budget increased by $70K per the revised plan.
+#0063  Finance Office: Withdraw update #0016; it was entered in error.
+#0064  Finance Office: Mifa budget decreased by $70K after review.
+#0065  Marketing email: Hearing Mifa's budget goes down $374K.
+#0066  Finance Office: Withdraw update #0029.
+#0067  Finance Office: Mifa budget decreased by $5K after review.
+#0068  Finance Office: Withdraw update #0058.
+#0069  Legal email: Pretty sure Mifa's budget is $4800K now.
+#0070  Operations chat: Hearing Mifa's budget goes up $144K.
+#0071  Finance Office: Withdraw update #0063.
+#0072  Finance Office: Withdraw update #0037.
+#0073  Finance Office: Withdraw update #0017.
+#0074  Legal email: Heard Mifa's budget is now $3900K.
+#0075  Sales update: Sounds like Mifa gets $534K more.
+#0076  Finance Office: Withdraw update #0071.
+#0077  Finance Office: Mifa budget decreased by $27K.
+#0078  Vendor call: Mifa budget is going down by $328K.
+#0079  Vendor call: Mifa budget is going to $4700K.
+#0080  PMO note: Mifa budget is going to $2880K.
+#0081  Finance Office: Mifa budget decreased by $100K after review.
+#0082  Finance Office: Mifa budget increased by $471K.
+#0083  Vendor call: Heard Mifa's budget is now $3820K.
+#0084  Sales update: Sounds like Mifa gets $219K less.
+#0085  Finance Office: Mifa budget decreased by $5K per the revised plan.
+#0086  Finance Office: Mifa budget decreased by $121K.
+#0087  Finance Office: Mifa budget increased by $100K after review.
+#0088  Operations chat: Sounds like Mifa gets $376K more.
+#0089  Finance Office: Mifa budget increased by $342K after review.
+#0090  Finance Office: Mifa budget decreased by $452K after review.
+#0091  Vendor call: Expect Mifa's budget to drop by $492K.
+#0092  Engineering email: Pretty sure Mifa's budget is $3360K now.
+#0093  Finance Office: Mifa purchase order FC-4994 closed.
+#0094  Finance Office: Mifa budget increased by $423K per the revised plan.
+#0095  Finance Office: Mifa budget decreased by $14K.
+#0096  Finance Office: Mifa budget decreased by $85K per the revised plan.
+#0097  Finance Office: Mifa budget decreased by $553K after review.
+#0098  Finance Office: Mifa budget increased by $5K after review.
+#0099  Finance Office: Mifa invoice batch FC-3815 archived.
+#0100  Finance Office: Mifa budget decreased by $371K.
+#0101  Finance Office: Mifa budget increased by $110K after review.
+#0102  Legal email: Sounds like Mifa gets $369K less.
+#0103  Facilities ticket: Mifa budget is going up by $527K.
+#0104  Finance Office: Mifa budget increased by $168K after review.
+#0105  Sales update: Mifa site visit confirmed for Wednesday.
+#0106  Finance Office: Mifa budget decreased by $372K after review.
+#0107  Finance Office: Mifa budget increased by $90K per the revised plan.
+#0108  Finance Office: Mifa budget decreased by $55K per the revised plan.
+#0109  Finance Office: Mifa budget increased by $47K per the revised plan.
+#0110  PMO note: Mifa budget is going to $3350K.
+#0111  Finance Office: Mifa budget decreased by $150K per the revised plan.
+#0112  Finance Office: Withdraw update #0068; it was entered in error.
+#0113  Engineering email: Sounds like Mifa gets $477K more.
+#0114  Facilities ticket: Mifa budget should land at $4800K.
+#0115  Finance Office: Withdraw update #0025; it was entered in error.
+#0116  Finance Office: Mifa budget decreased by $323K.
+#0117  Finance Office: Withdraw update #0076; it was entered in error.
+#0118  Finance Office: Mifa budget increased by $145K.
+#0119  Finance Office: Withdraw update #0089.
+#0120  Legal email: Expect Mifa's budget to rise by $286K.
+#0121  Finance Office: Mifa budget decreased by $541K per the revised plan.
+#0122  Finance Office: Mifa budget decreased by $292K after review.
+#0123  Finance Office: Mifa budget increased by $34K after review.
+#0124  Finance Office: Mifa budget increased by $473K after review.
+#0125  PMO note: Pretty sure Mifa's budget is $2260K now.
+#0126  Finance Office: Withdraw update #0119; it was entered in error.
+#0127  PMO note: Mifa budget is going up to $2600K.
+#0128  Marketing email: Heard Mifa's budget is now $2760K.
+#0129  Finance Office: Mifa cost center code changed to FC-3350.
+#0130  Marketing email: Mifa vendor onboarding call scheduled for Wednesday.
+#0131  Finance Office: Mifa budget decreased by $184K after review.
+#0132  Finance Office: Mifa budget decreased by $5K after review.
+#0133  Marketing email: Mifa budget should land at $2580K.
+#0134  Finance Office: Mifa budget increased by $135K.
+#0135  Vendor call: Mifa budget should land at $2730K.
+#0136  Finance Office: Withdraw update #0012; it was entered in error.
+#0137  Finance Office: Withdraw update #0020; it was entered in error.
+#0138  Operations chat: Hearing Mifa's budget goes down $43K.
+#0139  Marketing email: Pretty sure Mifa's budget is $1850K now.
+#0140  Finance Office: Mifa budget decreased by $10K after review.
+#0141  Finance Office: Withdraw update #0112; it was entered in error.
+#0142  Operations chat: Mifa budget is going up to $2040K.
+#0143  PMO note: Mifa budget is going up to $2110K.
+#0144  Finance Office: Withdraw update #0116; it was entered in error.
+#0145  Finance Office: Mifa budget increased by $135K.
+#0146  Finance Office: Withdraw update #0109.
+#0147  Finance Office: Mifa budget decreased by $55K after review.
+#0148  Legal email: Mifa budget should land at $1870K.
+#0149  Finance Office: Withdraw update #0041; it was entered in error.
+#0150  Finance Office: Mifa budget increased by $449K per the revised plan.
+#0151  Finance Office: Mifa budget decreased by $203K.
+#0152  Vendor call: Expect Mifa's budget to drop by $242K.
+#0153  Finance Office: Mifa budget decreased by $591K after review.
+#0154  Finance Office: Withdraw update #0090.
+#0155  Finance Office: Withdraw update #0077.
+#0156  Finance Office: Mifa budget increased by $120K.
+#0157  Finance Office: Withdraw update #0061; it was entered in error.
+#0158  Marketing email: Mifa budget is going down by $1K.
+#0159  Finance Office: Mifa budget decreased by $164K per the revised plan.
+#0160  Finance Office: Mifa budget decreased by $135K after review.
+#0161  Finance Office: Mifa budget increased by $377K.
+#0162  PMO note: Mifa vendor onboarding call scheduled for Friday.
+#0163  Finance Office: Mifa budget decreased by $381K per the revised plan.
+#0164  Vendor call: Mifa sprint 2 retrospective notes posted.
+#0165  Operations chat: Hearing Mifa's budget goes up $472K.
+#0166  Finance Office: Withdraw update #0131; it was entered in error.
+#0167  Finance Office: Withdraw update #0159.
+#0168  PMO note: Mifa budget is going down by $162K.
+#0169  Operations chat: Hearing Mifa's budget goes up $439K.
+#0170  Finance Office: Mifa budget decreased by $366K per the revised plan.
+#0171  Finance Office: Withdraw update #0021; it was entered in error.
+#0172  PMO note: Expect Mifa's budget to rise by $488K.
+#0173  Finance Office: Mifa budget increased by $421K.
+#0174  Vendor call: Mifa budget is going up to $1110K.
+#0175  Legal email: Expect Mifa's budget to rise by $382K.
+#0176  Finance Office: Mifa budget decreased by $181K.
+#0177  Finance Office: Mifa budget increased by $150K per the revised plan.
+#0178  Vendor call: Mifa budget is going up to $1160K.
+#0179  Facilities ticket: Mifa documentation moved to the shared drive.
+#0180  Sales update: Pretty sure Mifa's budget is $1210K now.
+#0181  Finance Office: Mifa budget increased by $105K after review.
+#0182  Finance Office: Mifa budget increased by $50K after review.
+#0183  Marketing email: Mifa budget is going down by $454K.
+#0184  Finance Office: Mifa budget increased by $50K after review.
+#0185  Finance Office: Mifa budget decreased by $478K.
+#0186  Sales update: Sounds like Mifa gets $556K more.
+#0187  Finance Office: Mifa budget increased by $596K.
+#0188  Operations chat: Mifa budget is going to $1480K.
+#0189  Finance Office: Mifa budget increased by $406K.
+#0190  Finance Office: Withdraw update #0045.
+#0191  Finance Office: Mifa budget decreased by $110K after review.
+#0192  Finance Office: Withdraw update #0154.
+#0193  Legal email: Sounds like Mifa gets $69K more.
+#0194  Finance Office: Withdraw update #0122.
+#0195  Finance Office: Withdraw update #0170.
+#0196  Finance Office: Reminder: Mifa expense reports are due Monday.
+#0197  PMO note: Mifa budget should land at $1750K.
+#0198  Engineering email: Expect Mifa's budget to rise by $31K.
+#0199  Engineering email: Hearing Mifa's budget goes up $252K.
+#0200  Finance Office: Withdraw update #0121; it was entered in error.
+#0201  Finance Office: Mifa budget decreased by $589K after review.
+#0202  Facilities ticket: Mifa budget is going down by $178K.
+#0203  Finance Office: Mifa budget decreased by $432K.
+#0204  Finance Office: Withdraw update #0106; it was entered in error.
+#0205  Finance Office: Mifa budget increased by $60K after review.
+#0206  Finance Office: Mifa budget decreased by $307K.
+#0207  Marketing email: Mifa demo rescheduled to Thursday afternoon.
+#0208  Operations chat: Mifa design review moved to Room 4A.
+#0209  Finance Office: Mifa budget decreased by $5K per the revised plan.
+#0210  Finance Office: Mifa invoice batch FC-7317 archived.
+#0211  Vendor call: Mifa budget is going down by $29K.
+#0212  Finance Office: Mifa budget decreased by $70K.
+#0213  Finance Office: Mifa budget decreased by $70K.
+#0214  Finance Office: Mifa budget increased by $120K after review.
+#0215  Operations chat: Expect Mifa's budget to rise by $341K.
+#0216  Finance Office: Mifa budget decreased by $581K per the revised plan.
+#0217  Finance Office: Mifa budget decreased by $145K after review.
+#0218  Engineering email: Hearing Mifa's budget goes up $229K.
+#0219  Facilities ticket: Sounds like Mifa gets $401K more.
+#0220  Marketing email: Mifa budget is going down to $680K.
+#0221  Finance Office: Mifa budget increased by $461K after review.
+#0222  Finance Office: Mifa budget increased by $48K.
+#0223  Vendor call: Mifa budget should land at $1390K.
+#0224  Operations chat: Sounds like Mifa gets $578K less.
+#0225  Finance Office: Withdraw update #0094; it was entered in error.
+#0226  Facilities ticket: Mifa budget is going up to $1160K.
+#0227  Legal email: Mifa design review moved to Room 2B.
+#0228  Finance Office: Mifa audit notes filed.
+#0229  Legal email: Expect Mifa's budget to rise by $8K.
+#0230  Marketing email: Mifa sprint 7 retrospective notes posted.
+#0231  Vendor call: Expect Mifa's budget to rise by $512K.
+#0232  Finance Office: Withdraw update #0095.
+#0233  Sales update: Mifa budget is going down by $283K.
+#0234  Finance Office: Mifa budget decreased by $45K.
+#0235  Finance Office: Mifa budget decreased by $561K after review.
+#0236  Finance Office: Mifa budget increased by $442K.
+#0237  Legal email: Mifa budget is going up by $86K.
+#0238  Finance Office: Mifa budget increased by $15K after review.
+#0239  Finance Office: Mifa budget decreased by $85K after review.
+#0240  Finance Office: Mifa budget increased by $549K.
+#0241  Finance Office: Mifa budget decreased by $198K after review.
+#0242  Finance Office: Mifa budget increased by $100K after review.
+#0243  Engineering email: Mifa budget is going up by $28K.
+#0244  Facilities ticket: Mifa budget is going to $920K.
+#0245  Finance Office: Mifa budget decreased by $427K after review.
+#0246  Sales update: Expect Mifa's budget to rise by $397K.
+#0247  Legal email: Hearing Mifa's budget goes down $353K.
+#0248  Finance Office: Mifa budget increased by $554K after review.
+#0249  Finance Office: Withdraw update #0245; it was entered in error.
+#0250  Finance Office: Mifa budget decreased by $140K after review.
+#0251  Finance Office: Withdraw update #0153; it was entered in error.
+#0252  Sales update: Mifa budget should land at $2990K.
+#0253  Finance Office: Mifa budget decreased by $35K after review.
+#0254  Operations chat: Expect Mifa's budget to rise by $172K.
+#0255  Finance Office: Mifa budget decreased by $110K after review.
+#0256  Finance Office: Mifa budget decreased by $407K.
+#0257  Finance Office: Mifa budget decreased by $100K.
+#0258  Finance Office: Mifa budget increased by $20K per the revised plan.
+#0259  PMO note: Mifa budget is going up to $2080K.
+#0260  Finance Office: Withdraw update #0206.
+#0261  Finance Office: Withdraw update #0151.
+#0262  Finance Office: Withdraw update #0235.
+#0263  Finance Office: Reminder: Mifa expense reports are due Monday.
+#0264  PMO note: Hearing Mifa's budget goes up $302K.
+#0265  Finance Office: Mifa budget decreased by $564K.
+#0266  Vendor call: Pretty sure Mifa's budget is $2800K now.
+#0267  Marketing email: Pretty sure Mifa's budget is $2030K now.
+#0268  Finance Office: Mifa budget increased by $10K per the revised plan.
+#0269  Finance Office: Mifa budget increased by $30K per the revised plan.
+#0270  Facilities ticket: Pretty sure Mifa's budget is $2250K now.
+#0271  Finance Office: Mifa budget increased by $120K per the revised plan.
+#0272  Operations chat: Sounds like Mifa gets $494K more.
+#0273  PMO note: Hearing Mifa's budget goes up $176K.
+#0274  Facilities ticket: Mifa demo rescheduled to Wednesday afternoon.
+#0275  Operations chat: Mifa budget should land at $1780K.
+#0276  Finance Office: Mifa audit notes filed.
+#0277  Finance Office: Mifa receipts scanned.
+#0278  Finance Office: Mifa budget decreased by $10K after review.
+#0279  Finance Office: Mifa budget decreased by $91K.
+#0280  Operations chat: Heard Mifa's budget is now $2010K.
+#0281  Finance Office: Mifa budget increased by $65K per the revised plan.
+#0282  Finance Office: Withdraw update #0124; it was entered in error.
+#0283  Finance Office: Mifa budget decreased by $497K per the revised plan.
+#0284  Finance Office: Mifa budget increased by $35K.
+#0285  Finance Office: Mifa budget decreased by $115K per the revised plan.
+#0286  Finance Office: Withdraw update #0086; it was entered in error.
+#0287  Finance Office: Mifa budget increased by $5K.
+#0288  Finance Office: Mifa budget decreased by $333K per the revised plan.
+#0289  Finance Office: Withdraw update #0232; it was entered in error.
+#0290  Finance Office: Mifa budget decreased by $110K after review.
+#0291  Finance Office: Mifa budget increased by $105K.
+#0292  Marketing email: Hearing Mifa's budget goes up $201K.
+#0293  Finance Office: Mifa budget decreased by $145K per the revised plan.
+#0294  Finance Office: Mifa budget decreased by $120K after review.
+#0295  Finance Office: Mifa budget increased by $35K per the revised plan.
+#0296  Facilities ticket: Mifa budget should land at $810K.
+#0297  Finance Office: Mifa budget increased by $135K.
+#0298  Finance Office: Withdraw update #0097.
+#0299  Finance Office: Mifa budget increased by $145K per the revised plan.
+#0300  Legal email: Mifa budget is going up to $1850K.
+#0301  Finance Office: Mifa budget decreased by $55K after review.
+#0302  Finance Office: Mifa budget increased by $140K per the revised plan.
+#0303  Operations chat: Mifa budget is going to $1720K.
+#0304  Finance Office: Mifa budget decreased by $90K.
+#0305  Operations chat: Mifa risk register updated with 7 new items.
+#0306  Sales update: Heard Mifa's budget is now $1240K.
+#0307  Finance Office: Mifa budget decreased by $469K.
+#0308  Finance Office: Mifa budget increased by $417K.
+#0309  Finance Office: Mifa budget decreased by $7K.
+#0310  Finance Office: Mifa budget decreased by $145K after review.
+#0311  Vendor call: Mifa budget is going to $1170K.
+#0312  Finance Office: Mifa budget increased by $150K per the revised plan.
+#0313  Finance Office: Mifa budget decreased by $125K.
+#0314  Finance Office: Mifa budget decreased by $15K.
+#0315  Engineering email: Hearing Mifa's budget goes down $522K.
+#0316  Finance Office: Mifa budget increased by $85K after review.
+#0317  Vendor call: Hearing Mifa's budget goes up $448K.
+#0318  PMO note: Expect Mifa's budget to drop by $11K.
+#0319  Finance Office: Mifa quarterly audit scheduled for Friday.
+#0320  Finance Office: Withdraw update #0163.
+#0321  Finance Office: Mifa budget increased by $45K after review.
+#0322  Finance Office: Withdraw update #0221; it was entered in error.
+#0323  Finance Office: Mifa budget increased by $35K per the revised plan.
+#0324  Finance Office: Mifa budget increased by $140K per the revised plan.
+#0325  Vendor call: Mifa budget is going up to $1830K.
+#0326  Finance Office: Mifa budget increased by $135K per the revised plan.
+#0327  Vendor call: Expect Mifa's budget to rise by $299K.
+#0328  Legal email: Mifa budget is going up by $364K.
+#0329  Finance Office: Mifa budget increased by $50K.
+#0330  Finance Office: Mifa budget increased by $317K per the revised plan.
+#0331  Vendor call: Hearing Mifa's budget goes down $46K.
+#0332  Vendor call: Mifa budget is going down to $1540K.
+#0333  Legal email: Mifa budget should land at $1960K.
+#0334  PMO note: Hearing Mifa's budget goes down $337K.
+#0335  Finance Office: Withdraw update #0195; it was entered in error.
+#0336  Finance Office: Mifa budget increased by $55K.
+#0337  Finance Office: Mifa budget decreased by $60K per the revised plan.
+#0338  Finance Office: Mifa budget decreased by $45K after review.
+#0339  Finance Office: Mifa budget increased by $166K per the revised plan.
+#0340  Engineering email: Expect Mifa's budget to rise by $288K.
+#0341  Vendor call: Mifa budget should land at $1920K.
+#0342  Vendor call: Sounds like Mifa gets $388K less.
+#0343  Finance Office: Mifa budget decreased by $316K.
+#0344  Finance Office: Withdraw update #0192.
+#0345  Finance Office: Mifa budget increased by $147K per the revised plan.
+#0346  PMO note: Mifa budget is going up by $52K.
+#0347  Finance Office: Mifa budget increased by $145K per the revised plan.
+#0348  Finance Office: Mifa budget decreased by $123K per the revised plan.
+#0349  Finance Office: Withdraw update #0027; it was entered in error.
+#0350  PMO note: Mifa budget is going to $2930K.
+#0351  Finance Office: Withdraw update #0256.
+#0352  Finance Office: Mifa budget increased by $135K.
+#0353  Vendor call: Mifa budget should land at $2190K.
+#0354  Finance Office: Mifa budget decreased by $483K.
+#0355  Vendor call: Sounds like Mifa gets $437K more.
+#0356  Vendor call: Expect Mifa's budget to rise by $21K.
+#0357  Finance Office: Mifa budget decreased by $179K after review.
+#0358  Engineering email: Sounds like Mifa gets $161K more.
+#0359  Facilities ticket: Mifa budget is going to $1820K.
+#0360  Vendor call: Pretty sure Mifa's budget is $1640K now.
+#0361  Finance Office: Withdraw update #0187; it was entered in error.
+#0362  Vendor call: Pretty sure Mifa's budget is $1160K now.
+#0363  Finance Office: Mifa budget increased by $125K per the revised plan.
+#0364  Finance Office: Mifa invoice batch FC-8875 archived.
+#0365  Finance Office: Mifa budget decreased by $135K.
+#0366  Finance Office: Mifa budget increased by $45K.
+#0367  Finance Office: Withdraw update #0288.
+#0368  Finance Office: Withdraw update #0283; it was entered in error.
+#0369  Engineering email: Pretty sure Mifa's budget is $1870K now.
+#0370  Finance Office: Mifa budget decreased by $145K.
+#0371  Operations chat: Mifa design review moved to Room 1C.
+#0372  Finance Office: Mifa budget increased by $531K.
+#0373  PMO note: Mifa budget is going down by $509K.
+#0374  Operations chat: Sounds like Mifa gets $479K more.
+#0375  Vendor call: Mifa budget is going to $2930K.
+#0376  Facilities ticket: Expect Mifa's budget to rise by $103K.
+#0377  Finance Office: Mifa budget increased by $40K after review.
+#0378  Marketing email: Mifa budget is going to $2920K.
+#0379  Finance Office: Mifa budget decreased by $25K after review.
+#0380  Finance Office: Mifa budget decreased by $40K per the revised plan.
+#0381  Finance Office: Mifa budget increased by $158K.
+#0382  Finance Office: Mifa budget decreased by $88K per the revised plan.
+#0383  Marketing email: Mifa budget is going down by $547K.
+#0384  Finance Office: Mifa budget decreased by $110K per the revised plan.
+#0385  Finance Office: Mifa budget decreased by $125K.
+#0386  Marketing email: Mifa budget is going to $2250K.
+#0387  Engineering email: Heard Mifa's budget is now $2310K.
+#0388  Finance Office: Mifa budget increased by $90K.
+#0389  Finance Office: Mifa budget decreased by $70K.
+#0390  Finance Office: Withdraw update #0100; it was entered in error.
+#0391  Finance Office: Withdraw update #0339.
+#0392  Finance Office: Mifa budget increased by $105K.
+#0393  Sales update: Mifa budget should land at $3860K.
+#0394  Finance Office: Withdraw update #0104; it was entered in error.
+#0395  Finance Office: Mifa budget increased by $130K.
+#0396  Finance Office: Mifa budget decreased by $100K.
+#0397  Finance Office: Mifa budget increased by $248K.
+#0398  Finance Office: Mifa budget increased by $60K per the revised plan.
+#0399  Marketing email: Expect Mifa's budget to rise by $296K.
+#0400  PMO note: Sounds like Mifa gets $362K less.
+#0401  Finance Office: Withdraw update #0261; it was entered in error.
+#0402  Finance Office: Mifa budget increased by $40K after review.
+#0403  Operations chat: Mifa design review moved to Room 6D.
+#0404  PMO note: Mifa budget is going up to $3900K.
+#0405  Finance Office: Mifa budget increased by $55K after review.
+#0406  Finance Office: Mifa budget increased by $130K per the revised plan.
+#0407  Finance Office: Mifa budget increased by $211K per the revised plan.
+#0408  Finance Office: Mifa budget increased by $105K per the revised plan.
+#0409  Finance Office: Mifa budget increased by $95K per the revised plan.
+#0410  Finance Office: Withdraw update #0372; it was entered in error.
+#0411  Operations chat: Mifa budget is going to $3500K.
+#0412  Finance Office: Withdraw update #0279; it was entered in error.
+#0413  Vendor call: Hearing Mifa's budget goes up $394K.
+#0414  Finance Office: Mifa budget increased by $80K.
+#0415  Legal email: Mifa budget is going down by $32K.
+#0416  Finance Office: Mifa budget increased by $130K per the revised plan.
+#0417  Finance Office: Mifa purchase order FC-8630 closed.
+#0418  Marketing email: Expect Mifa's budget to drop by $22K.
+#0419  Finance Office: Withdraw update #0361.
+#0420  Operations chat: Mifa budget should land at $4800K.
+#0421  Vendor call: Mifa budget is going up by $539K.
+#0422  Finance Office: Mifa budget decreased by $100K.
+#0423  Finance Office: Withdraw update #0381; it was entered in error.
+#0424  Finance Office: Mifa budget decreased by $228K per the revised plan.
+#0425  Engineering email: Mifa budget is going up to $4190K.
+#0426  Finance Office: Mifa budget decreased by $237K after review.
+#0427  Finance Office: Mifa budget increased by $110K.
+#0428  Marketing email: Mifa weekly sync moved to Thursdays.
+#0429  Legal email: Expect Mifa's budget to drop by $231K.
+#0430  Finance Office: Mifa budget decreased by $120K after review.
+#0431  Sales update: Mifa kickoff moved to Building 7.
+#0432  Finance Office: Mifa budget decreased by $100K.
+#0433  Finance Office: Mifa budget decreased by $70K.
+#0434  Finance Office: Mifa purchase order FC-3416 closed.
+#0435  Operations chat: Heard Mifa's budget is now $2130K.
+#0436  Finance Office: Mifa budget increased by $10K.
+#0437  Finance Office: Mifa budget increased by $498K after review.
+#0438  Operations chat: Expect Mifa's budget to drop by $566K.
+#0439  Finance Office: Withdraw update #0410; it was entered in error.
+#0440  Operations chat: Pretty sure Mifa's budget is $4130K now.
+#0441  Finance Office: Withdraw update #0054; it was entered in error.
+#0442  Finance Office: Mifa budget decreased by $599K per the revised plan.
+#0443  Finance Office: Mifa budget increased by $145K after review.
+#0444  Finance Office: Withdraw update #0307; it was entered in error.
+#0445  Sales update: Mifa sprint 7 retrospective notes posted.
+#0446  Finance Office: Mifa receipts scanned.
+#0447  Finance Office: Mifa budget decreased by $25K per the revised plan.
+#0448  Finance Office: Mifa budget decreased by $10K after review.
+#0449  PMO note: Mifa design review moved to Room 2A.
+#0450  Finance Office: Withdraw update #0357; it was entered in error.
+#0451  Finance Office: Mifa budget increased by $20K per the revised plan.
+#0452  Finance Office: Withdraw update #0330.
+#0453  Marketing email: Heard Mifa's budget is now $3720K.
+#0454  Finance Office: Withdraw update #0117; it was entered in error.
+#0455  Finance Office: Mifa budget decreased by $55K per the revised plan.
+#0456  Finance Office: Mifa budget increased by $413K per the revised plan.
+#0457  Facilities ticket: Mifa test environment back online.
+#0458  Engineering email: Hearing Mifa's budget goes down $171K.
+#0459  Marketing email: Pretty sure Mifa's budget is $4300K now.
+#0460  Finance Office: Mifa budget decreased by $135K after review.
+#0461  Operations chat: Expect Mifa's budget to drop by $593K.
+#0462  Sales update: Mifa budget should land at $4490K.
+#0463  Vendor call: Mifa budget is going up by $44K.
+#0464  Finance Office: Withdraw update #0419.
+#0465  Finance Office: Mifa budget increased by $130K after review.
+#0466  Finance Office: Mifa budget increased by $115K after review.
+#0467  Finance Office: Mifa budget decreased by $238K per the revised plan.
+#0468  Finance Office: Mifa budget increased by $20K per the revised plan.
+#0469  Finance Office: Mifa budget decreased by $75K.
+#0470  Finance Office: Mifa budget increased by $312K per the revised plan.
+#0471  Finance Office: Mifa budget increased by $156K after review.
+#0472  Finance Office: Mifa budget increased by $60K.
+#0473  Finance Office: Mifa budget decreased by $75K per the revised plan.
+#0474  Finance Office: Mifa budget increased by $130K after review.
+#0475  Finance Office: Withdraw update #0146.
+#0476  Finance Office: Mifa budget decreased by $308K.
+#0477  Finance Office: Withdraw update #0343; it was entered in error.
+#0478  Finance Office: Mifa budget decreased by $105K per the revised plan.
+#0479  Finance Office: Mifa budget decreased by $15K per the revised plan.
+#0480  Finance Office: Mifa budget increased by $110K after review.
+#0481  Marketing email: Hearing Mifa's budget goes down $506K.
+#0482  Finance Office: Mifa budget increased by $95K after review.
+#0483  Finance Office: Withdraw update #0477; it was entered in error.
+#0484  Finance Office: Withdraw update #0150; it was entered in error.
+#0485  Engineering email: Mifa budget should land at $2510K.
+#0486  Operations chat: Expect Mifa's budget to drop by $422K.
+#0487  Operations chat: Mifa demo rescheduled to Wednesday afternoon.
+#0488  Finance Office: Withdraw update #0240; it was entered in error.
+#0489  Finance Office: Mifa budget decreased by $85K per the revised plan.
+#0490  Finance Office: Mifa budget decreased by $279K per the revised plan.
+#0491  Facilities ticket: Hearing Mifa's budget goes up $336K.
+#0492  Vendor call: Pretty sure Mifa's budget is $2840K now.
+#0493  Marketing email: Heard Mifa's budget is now $1940K.
+#0494  Vendor call: Sounds like Mifa gets $514K more.
+#0495  Finance Office: Mifa finance review moved to Room 2A.
+#0496  Finance Office: Mifa budget increased by $239K.
+#0497  Finance Office: Mifa budget decreased by $10K.
+#0498  Finance Office: Mifa budget increased by $70K after review.
+#0499  Operations chat: Heard Mifa's budget is now $3420K.
+#0500  Marketing email: Sounds like Mifa gets $558K less.
+#0501  Finance Office: Withdraw update #0157; it was entered in error.
+#0502  Facilities ticket: Hearing Mifa's budget goes down $137K.
+#0503  Marketing email: Mifa budget should land at $2550K.
+#0504  Finance Office: Mifa budget decreased by $15K after review.
+#0505  Finance Office: Mifa budget decreased by $95K per the revised plan.
+#0506  Legal email: Pretty sure Mifa's budget is $3150K now.
+#0507  Finance Office: Withdraw update #0397.
+#0508  Operations chat: Mifa documentation moved to the shared drive.
+#0509  Engineering email: Pretty sure Mifa's budget is $2570K now.
+#0510  Facilities ticket: Mifa sprint 6 retrospective notes posted.
+#0511  Finance Office: Withdraw update #0348.
+#0512  Finance Office: Mifa budget increased by $140K per the revised plan.
+#0513  Finance Office: Mifa budget decreased by $40K after review.
+#0514  Finance Office: Mifa budget increased by $60K per the revised plan.
+#0515  PMO note: Mifa budget is going down to $2800K.
+#0516  Sales update: Mifa security review passed.
+#0517  Finance Office: Mifa budget decreased by $85K.
+#0518  Finance Office: Mifa budget decreased by $110K after review.
+#0519  Finance Office: Mifa budget decreased by $10K.
+#0520  Finance Office: Mifa budget increased by $562K after review.
+#0521  Marketing email: Hearing Mifa's budget goes up $389K.
+#0522  Finance Office: Mifa budget decreased by $40K.
+#0523  Finance Office: Mifa budget decreased by $10K.
+#0524  Finance Office: Mifa budget decreased by $518K.
+#0525  Finance Office: Mifa budget increased by $378K after review.
+#0526  Finance Office: Mifa budget increased by $55K after review.
+#0527  Finance Office: Mifa budget decreased by $447K.
+#0528  Marketing email: Hearing Mifa's budget goes up $241K.
+#0529  Legal email: Mifa status report filed for week 13.
+#0530  Finance Office: Mifa budget increased by $70K after review.
+#0531  Finance Office: Mifa budget decreased by $24K.
+#0532  Vendor call: Sounds like Mifa gets $271K less.
+#0533  Finance Office: Withdraw update #0467.
+#0534  Finance Office: Mifa budget decreased by $85K after review.
+#0535  Finance Office: Mifa budget increased by $502K.
+#0536  Legal email: Mifa budget is going down to $3070K.
+#0537  Finance Office: Withdraw update #0167.
+#0538  Finance Office: Withdraw update #0439.
+#0539  Finance Office: Mifa budget decreased by $15K per the revised plan.
+#0540  Finance Office: Mifa budget decreased by $524K.
+#0541  Finance Office: Mifa budget decreased by $115K after review.
+#0542  Finance Office: Mifa budget decreased by $331K.
+#0543  Legal email: Sounds like Mifa gets $204K more.
+#0544  Facilities ticket: Heard Mifa's budget is now $2030K.
+#0545  Operations chat: Pretty sure Mifa's budget is $2690K now.
+#0546  Facilities ticket: Mifa budget should land at $2510K.
+#0547  Marketing email: Mifa status report filed for week 31.
+#0548  Sales update: Pretty sure Mifa's budget is $1660K now.
+#0549  Sales update: Pretty sure Mifa's budget is $3060K now.
+#0550  Finance Office: Mifa budget decreased by $140K per the revised plan.
+#0551  Finance Office: Withdraw update #0050.
+#0552  Sales update: Mifa security review passed.
+#0553  Finance Office: Withdraw update #0520; it was entered in error.
+#0554  Finance Office: Withdraw update #0437.
+#0555  Vendor call: Pretty sure Mifa's budget is $530K now.
+#0556  Finance Office: Mifa budget increased by $20K.
+#0557  Engineering email: Sounds like Mifa gets $383K more.
+#0558  Vendor call: Mifa budget is going to $640K.
+#0559  Finance Office: Mifa budget increased by $25K after review.
+#0560  Finance Office: Mifa budget decreased by $64K after review.
+#0561  Engineering email: Expect Mifa's budget to rise by $339K.
+#0562  Operations chat: Mifa budget is going up to $610K.
+#0563  Finance Office: Mifa budget increased by $130K after review.
+#0564  Operations chat: Pretty sure Mifa's budget is $660K now.
+#0565  Marketing email: Mifa site visit confirmed for Wednesday.
+#0566  Finance Office: Mifa budget decreased by $65K after review.
+#0567  Finance Office: Mifa budget decreased by $20K.
+#0568  Finance Office: Mifa budget decreased by $249K.
+#0569  Finance Office: Mifa budget increased by $105K after review.
+#0570  Finance Office: Mifa budget increased by $403K after review.
+#0571  Marketing email: Hearing Mifa's budget goes down $196K.
+#0572  Finance Office: Mifa budget increased by $90K after review.
+#0573  Finance Office: Mifa budget decreased by $55K per the revised plan.
+#0574  Finance Office: Withdraw update #0185.
+#0575  Finance Office: Mifa budget decreased by $392K after review.
+#0576  Finance Office: Mifa budget decreased by $90K per the revised plan.
+#0577  Vendor call: Pretty sure Mifa's budget is $740K now.
+#0578  Finance Office: Mifa budget increased by $90K.
+#0579  Finance Office: Mifa budget decreased by $546K per the revised plan.
+#0580  Vendor call: Mifa documentation moved to the shared drive.
+#0581  Finance Office: Mifa budget decreased by $30K.
+#0582  Finance Office: Mifa budget increased by $130K after review.
+#0583  Finance Office: Mifa budget increased by $130K per the revised plan.
+#0584  Legal email: Mifa security review passed.
+#0585  Finance Office: Mifa budget increased by $95K.
+#0586  Finance Office: Mifa budget increased by $85K after review.
+#0587  Legal email: Heard Mifa's budget is now $980K.
+#0588  Finance Office: Mifa budget increased by $30K per the revised plan.
+#0589  Finance Office: Mifa budget decreased by $115K per the revised plan.
+#0590  Facilities ticket: Pretty sure Mifa's budget is $500K now.
+#0591  PMO note: Hearing Mifa's budget goes down $282K.
+#0592  Finance Office: Withdraw update #0049; it was entered in error.
+#0593  Facilities ticket: Mifa weekly sync moved to Wednesdays.
+#0594  Finance Office: Mifa budget increased by $65K after review.
+#0595  Engineering email: Mifa budget is going to $1020K.
+#0596  Finance Office: Mifa budget increased by $120K per the revised plan.
+#0597  Finance Office: Mifa budget decreased by $95K after review.
+#0598  Finance Office: Mifa budget increased by $304K after review.
+#0599  Finance Office: Withdraw update #0040; it was entered in error.
+#0600  Finance Office: Mifa budget decreased by $25K.
+#0601  Finance Office: Mifa budget decreased by $10K after review.
+#0602  Operations chat: Mifa budget is going up by $399K.
+#0603  Finance Office: Mifa budget increased by $60K per the revised plan.
+#0604  Legal email: Mifa kickoff moved to Building 5.
+#0605  Finance Office: Mifa budget increased by $65K.
+#0606  Finance Office: Withdraw update #0066; it was entered in error.
+#0607  PMO note: Heard Mifa's budget is now $2000K.
+#0608  Finance Office: Withdraw update #0030.
+#0609  Finance Office: Mifa budget increased by $484K after review.
+#0610  Finance Office: Withdraw update #0203.
+#0611  Facilities ticket: Mifa budget should land at $1560K.
+#0612  Finance Office: Mifa budget increased by $118K per the revised plan.
+#0613  Finance Office: Mifa budget increased by $145K.
+#0614  Finance Office: Mifa budget increased by $453K.
+#0615  Marketing email: Mifa budget is going down by $149K.
+#0616  Engineering email: Sounds like Mifa gets $343K less.
+#0617  Sales update: Mifa budget should land at $2830K.
+#0618  Finance Office: Mifa budget increased by $145K.
+#0619  Facilities ticket: Mifa budget is going up by $491K.
+#0620  Finance Office: Mifa budget increased by $150K per the revised plan.
+#0621  Engineering email: Mifa documentation moved to the shared drive.
+#0622  Finance Office: Withdraw update #0354.
+#0623  Finance Office: Withdraw update #0525.
+#0624  Finance Office: Mifa budget decreased by $95K after review.
+#0625  Finance Office: Mifa budget increased by $60K after review.
+#0626  Finance Office: Mifa budget decreased by $130K.
+#0627  Finance Office: Mifa budget increased by $65K.
+#0628  Sales update: Expect Mifa's budget to drop by $253K.
+#0629  PMO note: Mifa budget is going down to $2840K.
+#0630  Finance Office: Mifa budget increased by $40K per the revised plan.
+#0631  Legal email: Mifa risk register updated with 2 new items.
+#0632  Finance Office: Mifa budget decreased by $80K per the revised plan.
+#0633  Finance Office: Mifa budget decreased by $77K after review.
+#0634  Finance Office: Mifa quarterly audit scheduled for Thursday.
+#0635  Vendor call: Mifa demo rescheduled to Thursday afternoon.
+#0636  Marketing email: Mifa demo rescheduled to Monday afternoon.
+#0637  Finance Office: Mifa budget increased by $9K.
+#0638  Sales update: Pretty sure Mifa's budget is $3920K now.
+#0639  Finance Office: Withdraw update #0633.
+#0640  Finance Office: Mifa budget decreased by $50K per the revised plan.
+#0641  Finance Office: Mifa budget decreased by $55K per the revised plan.
+#0642  Finance Office: Mifa budget increased by $80K.
+#0643  Vendor call: Mifa risk register updated with 8 new items.
+#0644  Finance Office: Mifa budget decreased by $501K.
+#0645  PMO note: Mifa test environment back online.
+#0646  Finance Office: Mifa budget increased by $125K.
+#0647  Finance Office: Mifa budget decreased by $5K per the revised plan.
+#0648  Finance Office: Withdraw update #0540.
+#0649  Vendor call: Mifa kickoff moved to Building 8.
+#0650  Finance Office: Mifa budget decreased by $45K after review.
+#0651  Finance Office: Mifa budget decreased by $361K.
+#0652  Finance Office: Mifa budget decreased by $120K after review.
+#0653  Operations chat: Hearing Mifa's budget goes down $444K.
+#0654  Finance Office: Mifa budget decreased by $191K after review.
+#0655  Vendor call: Mifa budget should land at $2150K.
+#0656  Finance Office: Mifa budget increased by $132K after review.
+#0657  Vendor call: Hearing Mifa's budget goes up $159K.
+#0658  Finance Office: Mifa budget decreased by $145K.
+#0659  Marketing email: Hearing Mifa's budget goes down $134K.
+#0660  Finance Office: Withdraw update #0531.
+#0661  Sales update: Expect Mifa's budget to drop by $533K.
+#0662  Finance Office: Mifa budget increased by $95K after review.
+#0663  Sales update: Mifa documentation moved to the shared drive.
+#0664  Finance Office: Mifa budget increased by $571K.
+#0665  Operations chat: Hearing Mifa's budget goes down $112K.
+#0666  Finance Office: Mifa budget increased by $110K.
+#0667  Finance Office: Withdraw update #0194.
+#0668  Vendor call: Mifa budget should land at $3390K.
+#0669  Finance Office: Mifa budget increased by $145K.
+#0670  PMO note: Hearing Mifa's budget goes up $194K.
+#0671  PMO note: Heard Mifa's budget is now $3170K.
+#0672  Finance Office: Withdraw update #0222.
+#0673  Vendor call: Mifa budget is going down by $107K.
+#0674  Finance Office: Mifa budget decreased by $65K per the revised plan.
+#0675  Finance Office: Mifa budget increased by $129K.
+#0676  Sales update: Mifa budget is going to $2760K.
+#0677  Legal email: Mifa budget should land at $4320K.
+#0678  Finance Office: Mifa budget decreased by $30K per the revised plan.
+#0679  Marketing email: Heard Mifa's budget is now $3060K.
+#0680  Marketing email: Mifa documentation moved to the shared drive.
+#0681  Finance Office: Mifa budget decreased by $60K.
+#0682  Finance Office: Mifa budget increased by $110K per the revised plan.
+#0683  Finance Office: Mifa budget decreased by $97K per the revised plan.
+#0684  Finance Office: Mifa budget increased by $65K per the revised plan.
+#0685  Finance Office: Mifa budget decreased by $232K per the revised plan.
+#0686  Finance Office: Mifa budget decreased by $80K.
+#0687  Vendor call: Mifa site visit confirmed for Friday.
+#0688  Finance Office: Withdraw update #0115.
+#0689  PMO note: Mifa budget is going down by $53K.
+#0690  Finance Office: Mifa budget increased by $105K after review.
+#0691  Finance Office: Mifa budget increased by $15K after review.
+#0692  Marketing email: Mifa risk register updated with 9 new items.
+#0693  Legal email: Hearing Mifa's budget goes down $41K.
+#0694  Finance Office: Mifa budget increased by $40K.
+#0695  Finance Office: Mifa budget increased by $120K per the revised plan.
+#0696  Finance Office: Mifa budget decreased by $94K per the revised plan.
+#0697  Legal email: Mifa budget is going down by $18K.
+#0698  Finance Office: Mifa budget increased by $55K per the revised plan.
+#0699  Facilities ticket: Heard Mifa's budget is now $2450K.
+#0700  Finance Office: Withdraw update #0161; it was entered in error.
+#0701  Finance Office: Mifa budget increased by $80K after review.
+#0702  Finance Office: Mifa budget increased by $125K after review.
+#0703  Engineering email: Heard Mifa's budget is now $3330K.
+#0704  Finance Office: Mifa budget decreased by $354K.
+#0705  Engineering email: Mifa budget is going up by $61K.
+#0706  Finance Office: Mifa budget increased by $30K per the revised plan.
+#0707  Finance Office: Mifa budget decreased by $30K per the revised plan.
+#0708  Finance Office: Mifa budget decreased by $85K.
+#0709  Finance Office: Mifa budget decreased by $135K after review.
+#0710  PMO note: Sounds like Mifa gets $76K less.
+#0711  Operations chat: Heard Mifa's budget is now $3110K.
+#0712  Finance Office: Mifa invoice batch FC-3757 archived.
+#0713  Finance Office: Mifa quarterly audit scheduled for Tuesday.
+#0714  Finance Office: Mifa budget decreased by $115K.
+#0715  Engineering email: Mifa budget is going up by $42K.
+#0716  Facilities ticket: Mifa budget is going to $2390K.
+#0717  Finance Office: Mifa budget decreased by $20K per the revised plan.
+#0718  Finance Office: Mifa budget decreased by $110K.
+#0719  Finance Office: Mifa receipts scanned.
+#0720  Operations chat: Heard Mifa's budget is now $2070K.
+#0721  Facilities ticket: Mifa test environment back online.
+#0722  Legal email: Mifa risk register updated with 6 new items.
+#0723  Operations chat: Mifa sprint 31 retrospective notes posted.
+#0724  Finance Office: Withdraw update #0664; it was entered in error.
+#0725  Finance Office: Mifa budget increased by $115K.
+#0726  Finance Office: Mifa budget decreased by $58K after review.
+#0727  Finance Office: Mifa budget decreased by $120K.
+#0728  Marketing email: Mifa budget is going up by $192K.
+#0729  Finance Office: Mifa budget decreased by $130K after review.
+#0730  Finance Office: Withdraw update #0345.
+#0731  Finance Office: Mifa budget decreased by $10K after review.
+#0732  Finance Office: Mifa budget increased by $85K after review.
+#0733  Finance Office: Withdraw update #0538; it was entered in error.
+#0734  Marketing email: Expect Mifa's budget to drop by $513K.
+#0735  Finance Office: Mifa budget decreased by $115K after review.
+#0736  Finance Office: Mifa budget increased by $145K after review.
+#0737  Finance Office: Withdraw update #0726; it was entered in error.
+#0738  Marketing email: Mifa budget is going to $1990K.
+#0739  Finance Office: Mifa budget increased by $135K.
+#0740  Finance Office: Mifa budget increased by $100K.
+#0741  Finance Office: Withdraw update #0190.
+#0742  Sales update: Heard Mifa's budget is now $2780K.
+#0743  Finance Office: Mifa budget increased by $150K per the revised plan.
+#0744  Finance Office: Mifa budget decreased by $40K after review.
+#0745  Finance Office: Mifa budget increased by $45K per the revised plan.
+#0746  Finance Office: Mifa budget decreased by $55K.
+#0747  Marketing email: Mifa site visit confirmed for Thursday.
+#0748  Finance Office: Mifa budget increased by $130K after review.
+#0749  Finance Office: Mifa budget decreased by $150K.
+#0750  Finance Office: Mifa budget decreased by $140K per the revised plan.
+#0751  Finance Office: Mifa budget decreased by $75K per the revised plan.
+#0752  Finance Office: Mifa budget decreased by $65K after review.
+#0753  Finance Office: Withdraw update #0741.
+#0754  Sales update: Heard Mifa's budget is now $3070K.
+#0755  Finance Office: Withdraw update #0496; it was entered in error.
+#0756  Finance Office: Mifa budget increased by $521K.
+#0757  Finance Office: Mifa budget increased by $30K.
+#0758  Finance Office: Mifa budget increased by $50K per the revised plan.
+#0759  Finance Office: Mifa budget decreased by $70K per the revised plan.
+#0760  Finance Office: Mifa budget increased by $199K.
+#0761  Finance Office: Mifa budget decreased by $80K per the revised plan.
+#0762  Facilities ticket: Mifa budget is going to $1870K.
+#0763  Marketing email: Expect Mifa's budget to rise by $93K.
+#0764  Finance Office: Mifa budget increased by $373K per the revised plan.
+#0765  Legal email: Mifa budget is going up to $3510K.
+#0766  Finance Office: Mifa cost center code changed to FC-3158.
+#0767  Operations chat: Mifa budget is going to $3760K.
+#0768  Facilities ticket: Mifa budget is going to $2910K.
+#0769  Marketing email: Mifa budget should land at $4090K.
+#0770  Legal email: Expect Mifa's budget to rise by $456K.
+#0771  Legal email: Mifa budget is going up to $4200K.
+#0772  Finance Office: Mifa budget decreased by $125K.
+#0773  Finance Office: Mifa budget decreased by $80K per the revised plan.
+#0774  Marketing email: Heard Mifa's budget is now $2460K.
+#0775  Finance Office: Withdraw update #0575.
+#0776  Finance Office: Mifa budget increased by $90K.
+#0777  Vendor call: Expect Mifa's budget to drop by $329K.
+#0778  Finance Office: Mifa budget increased by $35K per the revised plan.
+#0779  Finance Office: Mifa budget decreased by $30K per the revised plan.
+#0780  Engineering email: Mifa budget is going up by $311K.
+#0781  Finance Office: Withdraw update #0390.
+#0782  Finance Office: Withdraw update #0542; it was entered in error.
+#0783  Finance Office: Mifa budget increased by $246K per the revised plan.
+#0784  Finance Office: Mifa budget increased by $434K after review.
+#0785  Finance Office: Mifa budget decreased by $90K.
+#0786  Marketing email: Mifa budget is going up by $363K.
+#0787  Finance Office: Mifa budget decreased by $145K.
+#0788  Facilities ticket: Hearing Mifa's budget goes up $387K.
+#0789  Finance Office: Withdraw update #0614.
+#0790  PMO note: Mifa budget is going to $2580K.
+#0791  Operations chat: Expect Mifa's budget to drop by $62K.
+#0792  Finance Office: Mifa budget increased by $80K per the revised plan.
+#0793  Finance Office: Mifa budget decreased by $384K.
+#0794  Finance Office: Mifa budget decreased by $20K per the revised plan.
+#0795  Operations chat: Mifa budget is going down by $256K.
+#0796  Finance Office: Mifa budget decreased by $100K per the revised plan.
+#0797  Finance Office: Mifa budget increased by $50K after review.
+#0798  Finance Office: Mifa budget increased by $4K after review.
+#0799  Facilities ticket: Mifa budget is going down by $516K.
+#0800  Vendor call: Pretty sure Mifa's budget is $2760K now.
+#0801  Finance Office: Withdraw update #0265; it was entered in error.
+#0802  Engineering email: Hearing Mifa's budget goes up $334K.
+#0803  Facilities ticket: Hearing Mifa's budget goes up $226K.
+#0804  Finance Office: Withdraw update #0201; it was entered in error.
+#0805  Finance Office: Withdraw update #0609; it was entered in error.
+#0806  Finance Office: Mifa budget decreased by $110K after review.
+#0807  Facilities ticket: Mifa status report filed for week 45.
+#0808  Finance Office: Mifa budget decreased by $30K after review.
+#0809  Marketing email: Hearing Mifa's budget goes up $36K.
+#0810  Finance Office: Withdraw update #0704.
+#0811  Finance Office: Withdraw update #0622; it was entered in error.
+#0812  Sales update: Hearing Mifa's budget goes down $259K.
+#0813  Finance Office: Mifa budget decreased by $125K after review.
+#0814  Vendor call: Mifa vendor onboarding call scheduled for Friday.
+#0815  Finance Office: Mifa budget increased by $145K after review.
+#0816  PMO note: Hearing Mifa's budget goes down $526K.
+#0817  Engineering email: Mifa budget is going up by $523K.
+#0818  Finance Office: Withdraw update #0454.
+#0819  Finance Office: Withdraw update #0805.
+#0820  Finance Office: Mifa budget decreased by $20K per the revised plan.
+#0821  Finance Office: Withdraw update #0696.
+#0822  Legal email: Mifa budget is going down by $101K.
+#0823  Engineering email: Expect Mifa's budget to drop by $114K.
+#0824  Finance Office: Mifa budget increased by $142K after review.
+#0825  Finance Office: Mifa budget increased by $115K after review.
+#0826  Finance Office: Withdraw update #0675; it was entered in error.
+#0827  Sales update: Mifa budget is going up to $4050K.
+#0828  Sales update: Mifa sprint 48 retrospective notes posted.
+#0829  PMO note: Expect Mifa's budget to rise by $438K.
+#0830  Finance Office: Mifa budget decreased by $25K per the revised plan.
+#0831  Operations chat: Mifa budget is going up to $4800K.
+#0832  Engineering email: Mifa budget is going down to $3060K.
+#0833  Finance Office: Mifa budget increased by $100K per the revised plan.
+#0834  Finance Office: Withdraw update #0470; it was entered in error.
+#0835  Finance Office: Mifa budget decreased by $5K per the revised plan.
+#0836  Legal email: Mifa site visit confirmed for Friday.
+#0837  Legal email: Sounds like Mifa gets $51K more.
+#0838  Finance Office: Mifa budget decreased by $135K per the revised plan.
+#0839  Finance Office: Withdraw update #0044; it was entered in error.
+#0840  Finance Office: Mifa budget decreased by $80K.
+#0841  Sales update: Mifa risk register updated with 9 new items.
+#0842  Sales update: Heard Mifa's budget is now $2350K.
+#0843  Finance Office: Mifa budget decreased by $50K.
+#0844  Operations chat: Mifa budget should land at $4130K.
+#0845  Finance Office: Withdraw update #0189.
+#0846  Finance Office: Withdraw update #0654; it was entered in error.
+#0847  Finance Office: Mifa budget decreased by $130K.
+#0848  Finance Office: Mifa budget decreased by $85K after review.
+#0849  Finance Office: Withdraw update #0007; it was entered in error.
+#0850  Finance Office: Withdraw update #0811; it was entered in error.
+#0851  Finance Office: Mifa budget decreased by $105K after review.
+#0852  Facilities ticket: Mifa budget is going up by $209K.
+#0853  Finance Office: Withdraw update #0490.
+#0854  Finance Office: Mifa budget decreased by $10K.
+#0855  Finance Office: Withdraw update #0282.
+#0856  PMO note: Mifa budget is going up by $108K.
+#0857  PMO note: Mifa risk register updated with 6 new items.
+#0858  Legal email: Mifa budget should land at $4200K.
+#0859  Finance Office: Mifa budget decreased by $110K after review.
+#0860  Finance Office: Mifa budget decreased by $55K.
+#0861  Finance Office: Mifa finance review moved to Room 4D.
+#0862  Finance Office: Mifa budget increased by $314K.
+#0863  Finance Office: Mifa budget decreased by $254K per the revised plan.
+#0864  PMO note: Mifa budget is going up by $481K.
+#0865  Sales update: Hearing Mifa's budget goes down $212K.
+#0866  Operations chat: Pretty sure Mifa's budget is $3630K now.
+#0867  Finance Office: Mifa budget increased by $287K.
+#0868  Finance Office: Mifa purchase order FC-8160 closed.
+#0869  Vendor call: Mifa test environment back online.
+#0870  Finance Office: Mifa budget increased by $70K.
+#0871  Finance Office: Mifa budget increased by $95K per the revised plan.
+#0872  Sales update: Mifa budget is going down by $294K.
+#0873  Finance Office: Mifa budget decreased by $40K after review.
+#0874  Finance Office: Withdraw update #0760.
+#0875  Finance Office: Mifa budget decreased by $130K after review.
+#0876  Finance Office: Mifa budget decreased by $100K after review.
+#0877  Engineering email: Sounds like Mifa gets $303K more.
+#0878  Finance Office: Withdraw update #0464.
+#0879  Vendor call: Pretty sure Mifa's budget is $3610K now.
+#0880  Marketing email: Mifa status report filed for week 21.
+#0881  Sales update: Expect Mifa's budget to drop by $17K.
+#0882  Legal email: Mifa budget is going to $3260K.
+#0883  Finance Office: Mifa budget increased by $45K.
+#0884  Finance Office: Mifa invoice batch FC-2622 archived.
+#0885  Marketing email: Mifa budget is going to $4430K.
+#0886  Legal email: Pretty sure Mifa's budget is $3220K now.
+#0887  Finance Office: Mifa budget decreased by $65K after review.
+#0888  Finance Office: Mifa budget decreased by $110K after review.
+#0889  Legal email: Hearing Mifa's budget goes up $306K.
+#0890  Legal email: Mifa budget is going down by $99K.
+#0891  Sales update: Heard Mifa's budget is now $3560K.
+#0892  PMO note: Heard Mifa's budget is now $3010K.
+#0893  Finance Office: Mifa budget decreased by $90K after review.
+#0894  Finance Office: Mifa budget increased by $127K after review.
+#0895  Finance Office: Mifa budget decreased by $90K per the revised plan.
+#0896  Finance Office: Mifa budget decreased by $436K after review.
+#0897  Finance Office: Mifa budget increased by $130K.
+#0898  Sales update: Sounds like Mifa gets $207K less.
+#0899  Engineering email: Mifa budget is going to $2450K.
+#0900  Finance Office: Withdraw update #0862.
+#0901  Finance Office: Mifa budget decreased by $85K after review.
+#0902  Finance Office: Mifa budget decreased by $321K.
+#0903  Finance Office: Withdraw update #0667; it was entered in error.
+#0904  Sales update: Pretty sure Mifa's budget is $2930K now.
+#0905  Finance Office: Mifa budget decreased by $60K.
+#0906  Finance Office: Withdraw update #0155; it was entered in error.
+#0907  Finance Office: Mifa budget increased by $40K per the revised plan.
+#0908  Operations chat: Heard Mifa's budget is now $1960K.
+#0909  Finance Office: Mifa budget decreased by $115K.
+#0910  Operations chat: Hearing Mifa's budget goes up $466K.
+#0911  Engineering email: Mifa budget is going up to $3420K.
+#0912  Finance Office: Mifa budget decreased by $145K after review.
+#0913  Finance Office: Mifa budget increased by $45K after review.
+#0914  Legal email: Sounds like Mifa gets $223K more.
+#0915  Finance Office: Mifa budget decreased by $10K after review.
+#0916  Operations chat: Heard Mifa's budget is now $2550K.
+#0917  Finance Office: Mifa budget decreased by $90K.
+#0918  Finance Office: Withdraw update #0176; it was entered in error.
+#0919  Finance Office: Mifa budget decreased by $110K.
+#0920  Finance Office: Mifa receipts scanned.
+#0921  Engineering email: Mifa budget is going down by $284K.
+#0922  Facilities ticket: Hearing Mifa's budget goes up $182K.
+#0923  Finance Office: Mifa budget increased by $13K per the revised plan.
+#0924  Finance Office: Mifa receipts scanned.
+#0925  Sales update: Sounds like Mifa gets $499K more.
+#0926  Finance Office: Mifa budget decreased by $429K.
+#0927  Operations chat: Pretty sure Mifa's budget is $1410K now.
+#0928  Finance Office: Mifa budget increased by $60K after review.
+#0929  Legal email: Pretty sure Mifa's budget is $1450K now.
+#0930  Engineering email: Expect Mifa's budget to rise by $169K.
+#0931  Marketing email: Expect Mifa's budget to drop by $243K.
+#0932  Facilities ticket: Mifa budget is going up by $117K.
+#0933  Finance Office: Mifa budget decreased by $100K per the revised plan.
+#0934  Finance Office: Mifa budget increased by $10K.
+#0935  Finance Office: Mifa budget increased by $106K.
+#0936  Finance Office: Mifa budget decreased by $217K.
+#0937  Finance Office: Withdraw update #0471.
+#0938  Finance Office: Mifa budget decreased by $213K per the revised plan.
+#0939  Finance Office: Mifa budget increased by $125K per the revised plan.
+#0940  Finance Office: Withdraw update #0894; it was entered in error.
+#0941  Finance Office: Withdraw update #0683; it was entered in error.
+#0942  Finance Office: Mifa budget decreased by $125K per the revised plan.
+#0943  Finance Office: Withdraw update #0351; it was entered in error.
+#0944  Finance Office: Mifa budget decreased by $145K per the revised plan.
+#0945  Finance Office: Withdraw update #0053.
+#0946  Finance Office: Mifa budget decreased by $60K after review.
+#0947  PMO note: Hearing Mifa's budget goes up $261K.
+#0948  Engineering email: Heard Mifa's budget is now $1050K.
+#0949  PMO note: Hearing Mifa's budget goes down $572K.
+#0950  Finance Office: Mifa budget increased by $30K.
+#0951  Finance Office: Mifa budget increased by $20K after review.
+#0952  Vendor call: Mifa budget should land at $1040K.
+#0953  Sales update: Mifa sprint 44 retrospective notes posted.
+#0954  PMO note: Expect Mifa's budget to rise by $92K.
+#0955  Finance Office: Withdraw update #0926.
+#0956  Finance Office: Mifa budget increased by $80K per the revised plan.
+#0957  Finance Office: Withdraw update #0937.
+#0958  PMO note: Expect Mifa's budget to drop by $87K.
+#0959  Finance Office: Mifa budget decreased by $80K per the revised plan.
+#0960  Finance Office: Withdraw update #0535; it was entered in error.
+#0961  Finance Office: Mifa budget decreased by $55K per the revised plan.
+#0962  Finance Office: Mifa budget decreased by $150K.
+#0963  Finance Office: Mifa budget decreased by $75K after review.
+#0964  Finance Office: Mifa budget increased by $404K per the revised plan.
+#0965  Finance Office: Withdraw update #0527; it was entered in error.
+#0966  Finance Office: Mifa budget decreased by $105K per the revised plan.
+#0967  Finance Office: Mifa budget decreased by $50K after review.
+#0968  Marketing email: Hearing Mifa's budget goes up $154K.
+#0969  Finance Office: Mifa budget decreased by $80K per the revised plan.
+#0970  Marketing email: Mifa kickoff moved to Building 4.
+#0971  Finance Office: Mifa budget increased by $45K per the revised plan.
+#0972  Finance Office: Mifa budget increased by $20K per the revised plan.
+#0973  Finance Office: Mifa budget increased by $105K after review.
+#0974  Legal email: Hearing Mifa's budget goes up $457K.
+#0975  Operations chat: Hearing Mifa's budget goes down $507K.
+#0976  Finance Office: Withdraw update #0173; it was entered in error.
+#0977  Finance Office: Mifa budget decreased by $95K.
+#0978  Legal email: Expect Mifa's budget to drop by $386K.
+#0979  Finance Office: Mifa budget decreased by $167K.
+#0980  Finance Office: Mifa budget decreased by $105K per the revised plan.
+#0981  Finance Office: Mifa budget decreased by $135K after review.
+#0982  Finance Office: Mifa budget increased by $50K per the revised plan.
+#0983  Finance Office: Withdraw update #0073; it was entered in error.
+#0984  Finance Office: Mifa budget decreased by $85K.
+#0985  Finance Office: Mifa budget decreased by $30K per the revised plan.
+#0986  Sales update: Sounds like Mifa gets $393K less.
+#0987  Vendor call: Mifa risk register updated with 5 new items.
+#0988  Finance Office: Withdraw update #0764; it was entered in error.
+#0989  Legal email: Heard Mifa's budget is now $430K.
+#0990  Marketing email: Mifa budget is going down to $350K.
+#0991  Marketing email: Mifa test environment back online.
+#0992  Finance Office: Mifa budget increased by $105K per the revised plan.
+#0993  Finance Office: Mifa purchase order FC-6347 closed.
+#0994  Vendor call: Hearing Mifa's budget goes up $532K.
+#0995  Finance Office: Mifa invoice batch FC-1863 archived.
+#0996  Finance Office: Mifa budget increased by $80K per the revised plan.
+#0997  Marketing email: Heard Mifa's budget is now $620K.
+#0998  Finance Office: Mifa budget increased by $20K.
+#0999  Finance Office: Mifa budget increased by $125K per the revised plan.
+#1000  Operations chat: Mifa sprint 8 retrospective notes posted.
+#1001  Finance Office: Withdraw update #0579.
+#1002  Marketing email: Hearing Mifa's budget goes up $451K.
+#1003  Finance Office: Mifa budget increased by $110K.
+#1004  Finance Office: Withdraw update #0014; it was entered in error.
+#1005  Finance Office: Withdraw update #0382.
+#1006  Legal email: Mifa budget is going down to $1530K.
+#1007  Finance Office: Mifa cost center code changed to FC-2595.
+#1008  Finance Office: Mifa budget decreased by $347K per the revised plan.
+#1009  Marketing email: Heard Mifa's budget is now $1650K.
+#1010  Finance Office: Mifa budget increased by $50K.
+#1011  Finance Office: Mifa budget increased by $150K.
+#1012  Finance Office: Mifa budget increased by $70K.
+#1013  Finance Office: Mifa budget decreased by $90K.
+#1014  Finance Office: Mifa budget decreased by $30K per the revised plan.
+#1015  Marketing email: Mifa budget is going up by $348K.
+#1016  Finance Office: Withdraw update #0309; it was entered in error.
+#1017  Finance Office: Mifa budget decreased by $431K per the revised plan.
+#1018  Finance Office: Mifa budget increased by $75K.
+#1019  Finance Office: Withdraw update #0082.
+#1020  Vendor call: Mifa risk register updated with 5 new items.
+#1021  Finance Office: Mifa budget increased by $125K per the revised plan.
+#1022  Finance Office: Mifa budget decreased by $55K.
+#1023  Finance Office: Mifa budget increased by $25K after review.
+#1024  Finance Office: Withdraw update #0136; it was entered in error.
+#1025  Finance Office: Withdraw update #0656; it was entered in error.
+#1026  Finance Office: Mifa budget decreased by $80K after review.
+#1027  Operations chat: Mifa vendor onboarding call scheduled for Wednesday.
+#1028  Finance Office: Mifa finance review moved to Room 1C.
+#1029  Operations chat: Mifa budget is going to $570K.
+#1030  Finance Office: Mifa budget increased by $20K.
+#1031  Finance Office: Mifa budget increased by $5K.
+#1032  Finance Office: Withdraw update #0450; it was entered in error.
+#1033  Sales update: Mifa risk register updated with 5 new items.
+#1034  Finance Office: Mifa budget increased by $120K per the revised plan.
+#1035  Finance Office: Mifa budget increased by $120K per the revised plan.
+#1036  Finance Office: Mifa budget decreased by $486K per the revised plan.
+#1037  Finance Office: Mifa budget increased by $90K after review.
+#1038  Finance Office: Mifa budget increased by $135K.
+#1039  Finance Office: Mifa budget decreased by $75K after review.
+#1040  Vendor call: Mifa status report filed for week 10.
+#1041  Finance Office: Mifa budget increased by $115K.
+#1042  Finance Office: Mifa budget increased by $30K after review.
+#1043  Finance Office: Mifa budget increased by $247K per the revised plan.
+#1044  Engineering email: Mifa budget should land at $720K.
+#1045  Sales update: Mifa budget is going down by $368K.
+#1046  Finance Office: Mifa budget increased by $10K after review.
+#1047  Finance Office: Mifa budget decreased by $15K after review.
+#1048  Finance Office: Mifa finance review moved to Room 4A.
+#1049  Finance Office: Mifa budget decreased by $130K after review.
+#1050  Finance Office: Mifa budget increased by $115K.
+#1051  Finance Office: Mifa budget decreased by $5K after review.
+#1052  Finance Office: Mifa budget increased by $100K.
+#1053  Finance Office: Mifa budget increased by $100K.
+#1054  Legal email: Expect Mifa's budget to drop by $301K.
+#1055  Operations chat: Mifa budget is going up by $298K.
+#1056  Legal email: Heard Mifa's budget is now $1280K.
+#1057  Marketing email: Mifa design review moved to Room 2D.
+#1058  Finance Office: Mifa budget decreased by $85K after review.
+#1059  Finance Office: Mifa budget decreased by $70K after review.
+#1060  Finance Office: Mifa budget decreased by $358K.
+#1061  Finance Office: Mifa budget decreased by $110K after review.
+#1062  Finance Office: Mifa budget increased by $140K after review.
+#1063  Finance Office: Mifa budget decreased by $66K per the revised plan.
+#1064  Finance Office: Mifa budget increased by $536K after review.
+#1065  Engineering email: Mifa budget is going up to $1300K.
+#1066  PMO note: Heard Mifa's budget is now $850K.
+#1067  Finance Office: Mifa budget increased by $40K.
+#1068  Finance Office: Mifa budget increased by $130K after review.
+#1069  Marketing email: Expect Mifa's budget to rise by $467K.
+#1070  Finance Office: Mifa cost center code changed to FC-6616.
+#1071  Finance Office: Mifa budget decreased by $569K.
+#1072  Finance Office: Mifa budget increased by $25K.
+#1073  Marketing email: Mifa budget is going up by $128K.
+#1074  Finance Office: Withdraw update #0568; it was entered in error.
+#1075  Legal email: Expect Mifa's budget to drop by $367K.
+#1076  Finance Office: Withdraw update #0685; it was entered in error.
+#1077  Vendor call: Mifa budget is going to $990K.
+#1078  Finance Office: Mifa budget decreased by $125K per the revised plan.
+#1079  Finance Office: Mifa finance review moved to Room 3B.
+#1080  Legal email: Mifa test environment back online.
+#1081  Finance Office: Mifa budget increased by $90K per the revised plan.
+#1082  Finance Office: Mifa purchase order FC-6874 closed.
+#1083  Finance Office: Mifa budget decreased by $115K.
+#1084  Engineering email: Expect Mifa's budget to rise by $214K.
+#1085  Finance Office: Mifa budget increased by $90K.
+#1086  PMO note: Heard Mifa's budget is now $1050K.
+#1087  Facilities ticket: Mifa budget is going up to $1100K.
+#1088  Finance Office: Mifa budget decreased by $35K per the revised plan.
+#1089  Finance Office: Mifa budget decreased by $30K.
+#1090  Finance Office: Mifa budget decreased by $110K.
+#1091  Finance Office: Mifa budget decreased by $70K after review.
+#1092  Vendor call: Sounds like Mifa gets $332K less.
+#1093  Marketing email: Mifa budget is going down to $710K.
+#1094  Finance Office: Mifa budget increased by $115K per the revised plan.
+#1095  Legal email: Sounds like Mifa gets $574K more.
+#1096  PMO note: Mifa budget is going up by $113K.
+#1097  PMO note: Mifa budget is going to $660K.
+#1098  Marketing email: Mifa weekly sync moved to Tuesdays.
+#1099  Engineering email: Mifa kickoff moved to Building 3.
+#1100  PMO note: Pretty sure Mifa's budget is $670K now.
+#1101  Marketing email: Mifa budget is going up to $1160K.
+#1102  Finance Office: Mifa budget decreased by $100K.
+#1103  PMO note: Hearing Mifa's budget goes down $352K.
+#1104  Finance Office: Mifa budget increased by $16K after review.
+#1105  Legal email: Sounds like Mifa gets $313K less.
+#1106  Engineering email: Mifa budget should land at $900K.
+#1107  Sales update: Heard Mifa's budget is now $560K.
+#1108  Finance Office: Mifa budget increased by $45K after review.
+#1109  Finance Office: Mifa budget increased by $115K after review.
+#1110  Engineering email: Mifa budget is going to $830K.
+#1111  Finance Office: Mifa budget increased by $573K per the revised plan.
+#1112  Finance Office: Withdraw update #0570; it was entered in error.
+#1113  Finance Office: Withdraw update #0938; it was entered in error.
+#1114  Facilities ticket: Mifa vendor onboarding call scheduled for Monday.
+#1115  Finance Office: Withdraw update #0141; it was entered in error.
+#1116  Finance Office: Mifa budget increased by $100K.
+#1117  Finance Office: Mifa budget decreased by $145K.
+#1118  Finance Office: Mifa invoice batch FC-1581 archived.
+#1119  Finance Office: Withdraw update #0730; it was entered in error.
+#1120  Finance Office: Mifa budget increased by $70K.
+#1121  Finance Office: Mifa budget increased by $55K.
+#1122  Finance Office: Withdraw update #1104.
+#1123  Finance Office: Withdraw update #0798; it was entered in error.
+#1124  Vendor call: Hearing Mifa's budget goes down $592K.
+#1125  Finance Office: Mifa budget increased by $95K per the revised plan.
+#1126  Finance Office: Mifa budget decreased by $208K.
+#1127  Operations chat: Mifa budget is going up by $233K.
+#1128  Operations chat: Pretty sure Mifa's budget is $1680K now.
+#1129  Finance Office: Mifa budget increased by $15K after review.
+#1130  Finance Office: Mifa budget increased by $15K per the revised plan.
+#1131  Finance Office: Mifa budget decreased by $100K after review.
+#1132  Finance Office: Mifa budget decreased by $120K after review.
+#1133  Finance Office: Mifa budget increased by $115K per the revised plan.
+#1134  Finance Office: Withdraw update #0648; it was entered in error.
+#1135  Finance Office: Withdraw update #0896; it was entered in error.
+#1136  Legal email: Mifa budget is going down by $82K.
+#1137  Finance Office: Mifa budget decreased by $90K.
+#1138  Operations chat: Mifa budget is going up by $351K.
+#1139  Legal email: Expect Mifa's budget to rise by $529K.
+#1140  Facilities ticket: Sounds like Mifa gets $504K more.
+#1141  Finance Office: Mifa receipts scanned.
+#1142  Finance Office: Withdraw update #0560; it was entered in error.
+#1143  Finance Office: Mifa budget decreased by $15K per the revised plan.
+#1144  Finance Office: Mifa budget decreased by $140K.
+#1145  Finance Office: Withdraw update #0979.
+#1146  Finance Office: Mifa budget decreased by $135K per the revised plan.
+#1147  Finance Office: Withdraw update #1126.
+#1148  Finance Office: Mifa quarterly audit scheduled for Wednesday.
+#1149  Finance Office: Mifa budget increased by $140K after review.
+#1150  Finance Office: Mifa budget increased by $30K after review.
+#1151  Legal email: Sounds like Mifa gets $72K more.
+#1152  Finance Office: Mifa budget decreased by $55K.
+#1153  Finance Office: Mifa budget decreased by $60K.
+#1154  Engineering email: Mifa budget is going down by $138K.
+#1155  Finance Office: Mifa budget decreased by $40K.
+#1156  Engineering email: Mifa budget should land at $1930K.
+#1157  Finance Office: Mifa budget decreased by $80K.
+#1158  Finance Office: Mifa budget decreased by $65K per the revised plan.
+#1159  Finance Office: Mifa budget decreased by $110K after review.
+#1160  Finance Office: Withdraw update #0407; it was entered in error.
+#1161  Sales update: Mifa budget should land at $960K.
+#1162  Finance Office: Mifa invoice batch FC-8645 archived.
+#1163  Finance Office: Mifa budget decreased by $105K after review.
+#1164  Finance Office: Withdraw update #1036.
+#1165  Finance Office: Mifa budget decreased by $70K.
+#1166  Finance Office: Mifa budget decreased by $468K per the revised plan.
+#1167  Finance Office: Mifa budget increased by $105K.
+#1168  Finance Office: Withdraw update #0216.
+#1169  Legal email: Mifa budget should land at $1580K.
+#1170  Engineering email: Mifa sprint 28 retrospective notes posted.
+#1171  Finance Office: Mifa budget increased by $60K after review.
+#1172  PMO note: Mifa budget is going to $2080K.
+#1173  Operations chat: Sounds like Mifa gets $136K less.
+#1174  Marketing email: Hearing Mifa's budget goes down $6K.
+#1175  Finance Office: Mifa budget decreased by $70K after review.
+#1176  Facilities ticket: Mifa security review passed.
+#1177  Finance Office: Withdraw update #0612.
+#1178  Finance Office: Mifa budget increased by $81K after review.
+#1179  Finance Office: Mifa budget increased by $30K after review.
+#1180  PMO note: Mifa sprint 21 retrospective notes posted.
+#1181  Finance Office: Mifa budget increased by $95K.
+#1182  Finance Office: Withdraw update #0123.
+#1183  Finance Office: Mifa budget decreased by $25K after review.
+#1184  Finance Office: Withdraw update #0863.
+#1185  Operations chat: Mifa security review passed.
+#1186  Finance Office: Mifa budget decreased by $65K.
+#1187  Finance Office: Mifa budget increased by $95K after review.
+#1188  Finance Office: Mifa budget decreased by $55K per the revised plan.
+#1189  Finance Office: Mifa budget increased by $125K.
+#1190  Legal email: Mifa budget is going up to $2620K.
+#1191  Finance Office: Mifa budget decreased by $141K.
+#1192  Finance Office: Mifa budget increased by $145K.
+#1193  Finance Office: Mifa budget decreased by $145K per the revised plan.
+#1194  Finance Office: Mifa budget increased by $120K per the revised plan.
+#1195  Sales update: Mifa budget should land at $2230K.
+#1196  Finance Office: Mifa budget decreased by $10K after review.
+#1197  Finance Office: Mifa budget increased by $150K.
+#1198  Finance Office: Withdraw update #0644.
+#1199  Finance Office: Withdraw update #1016; it was entered in error.
+#1200  Facilities ticket: Heard Mifa's budget is now $3040K.
+#1201  Finance Office: Mifa budget increased by $5K.
+#1202  Finance Office: Withdraw update #1145.
+#1203  Finance Office: Withdraw update #1001.
+#1204  Finance Office: Withdraw update #0902.
+#1205  Finance Office: Mifa budget increased by $50K per the revised plan.
+#1206  Legal email: Sounds like Mifa gets $508K less.
+#1207  Finance Office: Mifa budget decreased by $135K per the revised plan.
+#1208  Finance Office: Mifa budget increased by $5K after review.
+#1209  Finance Office: Mifa budget increased by $120K after review.
+#1210  Finance Office: Mifa budget increased by $35K.
+#1211  Finance Office: Mifa budget increased by $115K after review.
+#1212  Finance Office: Mifa budget decreased by $80K per the revised plan.
+#1213  Marketing email: Heard Mifa's budget is now $2620K.
+#1214  Finance Office: Withdraw update #0651.
+#1215  Finance Office: Mifa budget increased by $428K.
+#1216  Finance Office: Withdraw update #1147.
+#1217  Finance Office: Mifa budget increased by $130K after review.
+#1218  Finance Office: Withdraw update #0867; it was entered in error.
+#1219  Finance Office: Mifa budget decreased by $135K.
+#1220  Facilities ticket: Hearing Mifa's budget goes down $89K.
+#1221  Finance Office: Mifa purchase order FC-6086 closed.
+#1222  Vendor call: Pretty sure Mifa's budget is $1920K now.
+#1223  Finance Office: Mifa budget increased by $130K.
+#1224  Finance Office: Withdraw update #0793; it was entered in error.
+#1225  Finance Office: Mifa budget increased by $90K.
+#1226  Vendor call: Mifa risk register updated with 8 new items.
+#1227  Finance Office: Mifa budget increased by $135K per the revised plan.
+#1228  Finance Office: Mifa budget decreased by $65K per the revised plan.
+#1229  Finance Office: Mifa budget decreased by $5K.
+#1230  Finance Office: Mifa budget increased by $10K after review.
+#1231  Sales update: Heard Mifa's budget is now $3390K.
+#1232  Engineering email: Mifa test environment back online.
+#1233  Finance Office: Mifa budget increased by $50K per the revised plan.
+#1234  Finance Office: Withdraw update #0824.
+#1235  Finance Office: Withdraw update #1017; it was entered in error.
+#1236  Finance Office: Mifa budget decreased by $85K after review.
+#1237  Vendor call: Mifa budget is going to $4460K.
+#1238  Finance Office: Withdraw update #0637.
+#1239  Finance Office: Mifa budget decreased by $65K per the revised plan.
+#1240  Finance Office: Mifa budget increased by $145K per the revised plan.
+#1241  Finance Office: Withdraw update #0784.
+#1242  PMO note: Pretty sure Mifa's budget is $3990K now.
+#1243  Marketing email: Mifa budget is going to $3780K.
+#1244  Finance Office: Mifa budget decreased by $10K.
+#1245  Facilities ticket: Heard Mifa's budget is now $2300K.
+#1246  Legal email: Heard Mifa's budget is now $4060K.
+#1247  Finance Office: Mifa budget increased by $150K after review.
+#1248  Facilities ticket: Hearing Mifa's budget goes down $289K.
+#1249  Operations chat: Pretty sure Mifa's budget is $4320K now.
+#1250  Finance Office: Mifa budget increased by $130K.
+#1251  Finance Office: Mifa finance review moved to Room 4D.
+#1252  Sales update: Pretty sure Mifa's budget is $4420K now.
+#1253  Finance Office: Mifa budget increased by $80K after review.
+#1254  Finance Office: Mifa budget increased by $60K.
+#1255  Finance Office: Mifa budget increased by $10K per the revised plan.
+#1256  Finance Office: Mifa budget increased by $115K per the revised plan.
+#1257  Marketing email: Hearing Mifa's budget goes down $183K.
+#1258  Finance Office: Mifa budget increased by $15K after review.
+#1259  Finance Office: Mifa budget decreased by $105K.
+#1260  Vendor call: Expect Mifa's budget to rise by $391K.
+#1261  Engineering email: Mifa test environment back online.
+#1262  Finance Office: Mifa budget decreased by $135K per the revised plan.
+#1263  PMO note: Heard Mifa's budget is now $2980K.
+#1264  Vendor call: Mifa budget is going down to $2480K.
+#1265  Sales update: Mifa budget is going down by $544K.
+#1266  Facilities ticket: Pretty sure Mifa's budget is $4470K now.
+#1267  Finance Office: Mifa budget increased by $150K per the revised plan.
+#1268  Finance Office: Reminder: Mifa expense reports are due Friday.
+#1269  PMO note: Hearing Mifa's budget goes down $493K.
+#1270  Facilities ticket: Mifa budget is going down by $3K.
+#1271  Finance Office: Mifa budget increased by $120K.
+#1272  Finance Office: Withdraw update #1166; it was entered in error.
+#1273  Finance Office: Withdraw update #1060; it was entered in error.
+#1274  Finance Office: Mifa budget decreased by $110K per the revised plan.
+#1275  PMO note: Mifa budget should land at $3310K.
+#1276  Sales update: Mifa budget is going up to $4800K.
+#1277  Finance Office: Mifa budget decreased by $125K.
+#1278  Finance Office: Withdraw update #1202.
+#1279  Vendor call: Mifa vendor onboarding call scheduled for Thursday.
+#1280  Legal email: Mifa budget is going up by $71K.
+#1281  Finance Office: Mifa budget decreased by $40K per the revised plan.
+#1282  Finance Office: Mifa budget decreased by $150K.
+#1283  Finance Office: Mifa budget decreased by $120K.
+#1284  Operations chat: Mifa budget is going down by $23K.
+#1285  Engineering email: Mifa status report filed for week 48.
+#1286  Finance Office: Mifa budget decreased by $105K after review.
+#1287  Finance Office: Mifa budget increased by $157K after review.
+#1288  Finance Office: Mifa budget decreased by $130K per the revised plan.
+#1289  Finance Office: Mifa budget decreased by $140K per the revised plan.
+#1290  Finance Office: Mifa budget increased by $60K per the revised plan.
+#1291  Finance Office: Mifa budget decreased by $25K.
+#1292  Finance Office: Mifa budget increased by $30K.
+#1293  Engineering email: Sounds like Mifa gets $54K less.
+#1294  Finance Office: Reminder: Mifa expense reports are due Wednesday.
+#1295  Engineering email: Expect Mifa's budget to drop by $83K.
+#1296  Facilities ticket: Mifa budget is going to $3090K.
+#1297  Finance Office: Mifa budget decreased by $65K.
+#1298  Finance Office: Mifa budget decreased by $65K per the revised plan.
+#1299  Finance Office: Mifa budget decreased by $135K.
+#1300  Facilities ticket: Sounds like Mifa gets $482K less.
+#1301  Finance Office: Mifa budget increased by $45K.
+#1302  Finance Office: Mifa budget decreased by $10K.
+#1303  Finance Office: Mifa budget increased by $45K per the revised plan.
+#1304  Marketing email: Hearing Mifa's budget goes down $346K.
+#1305  Finance Office: Mifa budget decreased by $80K.
+#1306  Finance Office: Mifa quarterly audit scheduled for Friday.
+#1307  Finance Office: Mifa budget decreased by $10K.
+#1308  Finance Office: Mifa budget decreased by $105K per the revised plan.
+#1309  Marketing email: Mifa budget should land at $3490K.
+#1310  Legal email: Mifa budget is going to $3040K.
+#1311  Vendor call: Hearing Mifa's budget goes up $496K.
+#1312  Finance Office: Mifa budget decreased by $40K per the revised plan.
+#1313  Operations chat: Heard Mifa's budget is now $3690K.
+#1314  Finance Office: Mifa budget increased by $150K.
+#1315  Finance Office: Mifa budget decreased by $70K after review.
+#1316  Finance Office: Mifa budget increased by $145K after review.
+#1317  PMO note: Mifa budget should land at $4440K.
+#1318  Sales update: Mifa budget is going down by $268K.
+#1319  Sales update: Expect Mifa's budget to drop by $262K.
+#1320  Finance Office: Mifa budget increased by $15K.
+#1321  PMO note: Sounds like Mifa gets $458K more.
+#1322  Finance Office: Mifa budget decreased by $150K after review.
+#1323  Vendor call: Mifa test environment back online.
+#1324  Facilities ticket: Hearing Mifa's budget goes up $104K.
+#1325  Finance Office: Mifa budget increased by $105K.
+#1326  Sales update: Heard Mifa's budget is now $3630K.
+#1327  Marketing email: Mifa budget should land at $4640K.
+#1328  Finance Office: Mifa budget increased by $50K.
+#1329  Finance Office: Mifa budget increased by $35K.
+#1330  Finance Office: Mifa budget decreased by $90K after review.
+#1331  PMO note: Mifa budget is going to $4300K.
+#1332  Finance Office: Mifa budget decreased by $40K after review.
+#1333  Finance Office: Mifa budget increased by $85K.
+#1334  Finance Office: Mifa budget decreased by $30K after review.
+#1335  Finance Office: Withdraw update #1043.
+#1336  Engineering email: Mifa sprint 33 retrospective notes posted.
+#1337  Finance Office: Withdraw update #0923; it was entered in error.
+#1338  Finance Office: Withdraw update #0598.
+#1339  Operations chat: Mifa budget is going to $4000K.
+#1340  Finance Office: Mifa budget decreased by $105K per the revised plan.
+#1341  Finance Office: Withdraw update #0554; it was entered in error.
+#1342  Legal email: Mifa budget is going down to $3200K.
+#1343  Legal email: Pretty sure Mifa's budget is $4170K now.
+#1344  Legal email: Mifa budget is going to $4060K.
+#1345  Finance Office: Mifa budget increased by $65K.
+#1346  Finance Office: Mifa budget increased by $45K after review.
+#1347  Legal email: Sounds like Mifa gets $151K more.
+#1348  Sales update: Mifa design review moved to Room 5C.
+#1349  Finance Office: Mifa budget decreased by $140K per the revised plan.
+#1350  PMO note: Mifa sprint 18 retrospective notes posted.
+#1351  Finance Office: Mifa budget increased by $40K per the revised plan.
+#1352  Finance Office: Mifa invoice batch FC-8247 archived.
+#1353  Finance Office: Mifa budget decreased by $60K after review.
+#1354  Finance Office: Mifa budget increased by $65K.
+#1355  Finance Office: Mifa budget decreased by $70K per the revised plan.
+#1356  Finance Office: Withdraw update #0936; it was entered in error.
+#1357  Sales update: Mifa sprint 2 retrospective notes posted.
+#1358  Finance Office: Mifa budget increased by $75K per the revised plan.
+#1359  Finance Office: Withdraw update #0236.
+#1360  Finance Office: Withdraw update #1111; it was entered in error.
+#1361  Finance Office: Mifa budget decreased by $5K after review.
+#1362  Engineering email: Mifa budget is going to $3990K.
+#1363  Marketing email: Pretty sure Mifa's budget is $3770K now.
+#1364  Finance Office: Mifa budget decreased by $5K.
+#1365  Finance Office: Mifa finance review moved to Room 3D.
+#1366  PMO note: Pretty sure Mifa's budget is $2050K now.
+#1367  Finance Office: Withdraw update #0756.
+#1368  PMO note: Mifa budget is going to $2570K.
+#1369  Marketing email: Mifa design review moved to Room 6A.
+#1370  Finance Office: Mifa budget decreased by $100K.
+#1371  Facilities ticket: Mifa budget is going to $2850K.
+#1372  Finance Office: Mifa finance review moved to Room 1C.
+#1373  Finance Office: Mifa budget increased by $80K per the revised plan.
+#1374  Finance Office: Mifa budget decreased by $90K per the revised plan.
+#1375  Finance Office: Mifa budget decreased by $135K.
+#1376  Engineering email: Expect Mifa's budget to drop by $119K.
+#1377  Vendor call: Mifa kickoff moved to Building 4.
+#1378  Finance Office: Mifa budget increased by $75K per the revised plan.
+#1379  Sales update: Expect Mifa's budget to drop by $586K.
+#1380  Operations chat: Expect Mifa's budget to drop by $189K.
+#1381  Marketing email: Mifa status report filed for week 45.
+#1382  Facilities ticket: Mifa budget is going down to $1640K.
+#1383  Finance Office: Mifa budget increased by $105K after review.
+#1384  Finance Office: Withdraw update #0149; it was entered in error.
+#1385  PMO note: Mifa vendor onboarding call scheduled for Wednesday.
+#1386  Marketing email: Mifa budget is going down to $2150K.
+#1387  Legal email: Mifa budget should land at $1950K.
+#1388  Finance Office: Withdraw update #0298.
+#1389  Finance Office: Withdraw update #1071; it was entered in error.
+#1390  Sales update: Sounds like Mifa gets $326K more.
+#1391  Finance Office: Mifa budget decreased by $563K after review.
+#1392  Finance Office: Mifa budget decreased by $75K per the revised plan.
+#1393  Vendor call: Mifa budget is going down to $2000K.
+#1394  Finance Office: Mifa budget decreased by $45K after review.
+#1395  Finance Office: Mifa budget decreased by $75K after review.
+#1396  Legal email: Mifa budget is going to $1920K.
+#1397  PMO note: Hearing Mifa's budget goes up $111K.
+#1398  Finance Office: Mifa budget decreased by $35K per the revised plan.
+#1399  Finance Office: Mifa budget increased by $30K after review.
+#1400  Finance Office: Mifa budget decreased by $120K.
+#1401  Vendor call: Mifa budget is going to $2100K.
+#1402  Finance Office: Mifa budget decreased by $55K per the revised plan.
+#1403  Operations chat: Mifa budget should land at $2490K.
+#1404  Finance Office: Mifa budget decreased by $25K per the revised plan.
+#1405  Finance Office: Mifa budget decreased by $35K after review.
+#1406  Facilities ticket: Mifa test environment back online.
+#1407  Operations chat: Sounds like Mifa gets $102K more.
+#1408  Finance Office: Mifa budget increased by $35K after review.
+#1409  Finance Office: Mifa budget increased by $35K per the revised plan.
+#1410  Finance Office: Withdraw update #0056; it was entered in error.
+#1411  Finance Office: Mifa budget decreased by $15K after review.
+#1412  PMO note: Mifa budget is going to $2250K.
+#1413  Vendor call: Mifa kickoff moved to Building 5.
+#1414  Marketing email: Mifa budget is going up to $2610K.
+#1415  Finance Office: Mifa budget increased by $145K after review.
+#1416  Operations chat: Mifa budget is going to $1870K.
+#1417  Finance Office: Withdraw update #0248.
+#1418  Operations chat: Mifa budget is going to $1510K.
+#1419  Finance Office: Mifa budget increased by $100K.
+#1420  Finance Office: Mifa quarterly audit scheduled for Friday.
+#1421  Finance Office: Mifa budget decreased by $135K after review.
+#1422  Sales update: Mifa documentation moved to the shared drive.
+#1423  Finance Office: Withdraw update #0524; it was entered in error.
+#1424  Finance Office: Mifa purchase order FC-3328 closed.
+#1425  Finance Office: Withdraw update #0308; it was entered in error.
+#1426  Finance Office: Mifa budget increased by $105K after review.
+#1427  Finance Office: Mifa budget increased by $65K.
+#1428  Finance Office: Mifa budget increased by $173K.
+#1429  Sales update: Mifa budget is going down by $463K.
+#1430  Operations chat: Pretty sure Mifa's budget is $1860K now.
+#1431  Finance Office: Mifa budget decreased by $40K per the revised plan.
+#1432  Finance Office: Mifa budget decreased by $40K.
+#1433  Vendor call: Mifa documentation moved to the shared drive.
+#1434  Finance Office: Mifa budget increased by $100K after review.
+#1435  Finance Office: Mifa budget increased by $50K after review.
+#1436  Vendor call: Mifa weekly sync moved to Tuesdays.
+#1437  Finance Office: Mifa budget increased by $80K after review.
+#1438  Finance Office: Mifa budget decreased by $105K after review.
+#1439  Finance Office: Mifa cost center code changed to FC-7300.
+#1440  Finance Office: Withdraw update #1178; it was entered in error.
+#1441  Legal email: Mifa site visit confirmed for Wednesday.
+#1442  Facilities ticket: Hearing Mifa's budget goes up $152K.
+#1443  Engineering email: Mifa budget is going to $2030K.
+#1444  Finance Office: Mifa budget decreased by $30K.
+#1445  Legal email: Heard Mifa's budget is now $1460K.
+#1446  Engineering email: Expect Mifa's budget to drop by $559K.
+#1447  Facilities ticket: Mifa budget is going down by $409K.
+#1448  Finance Office: Withdraw update #1164; it was entered in error.
+#1449  Facilities ticket: Pretty sure Mifa's budget is $1220K now.
+#1450  Finance Office: Mifa budget increased by $257K.
+#1451  Vendor call: Mifa design review moved to Room 4D.
+#1452  Finance Office: Mifa budget decreased by $120K.
+#1453  Finance Office: Mifa budget increased by $65K.
+#1454  Finance Office: Withdraw update #0608; it was entered in error.
+#1455  Finance Office: Mifa budget decreased by $70K.
+#1456  Finance Office: Mifa budget decreased by $70K per the revised plan.
+#1457  Sales update: Sounds like Mifa gets $74K less.
+#1458  Finance Office: Mifa budget decreased by $100K per the revised plan.
+#1459  Finance Office: Mifa budget increased by $65K.
+#1460  Marketing email: Heard Mifa's budget is now $1500K.
+#1461  Finance Office: Mifa budget decreased by $25K.
+#1462  Finance Office: Withdraw update #0401.
+#1463  Finance Office: Mifa budget decreased by $95K.
+#1464  Finance Office: Withdraw update #1191.
+#1465  Finance Office: Mifa budget decreased by $105K after review.
+#1466  Legal email: Mifa budget is going down by $197K.
+#1467  Finance Office: Mifa budget decreased by $105K after review.
+#1468  Finance Office: Mifa budget increased by $85K after review.
+#1469  Sales update: Heard Mifa's budget is now $2130K.
+#1470  Finance Office: Withdraw update #1064.
+#1471  Finance Office: Mifa budget increased by $70K.
+#1472  Finance Office: Mifa budget decreased by $10K after review.
+#1473  Facilities ticket: Expect Mifa's budget to drop by $319K.
+#1474  Sales update: Mifa budget should land at $2060K.
+#1475  Legal email: Mifa budget is going down to $1190K.
+#1476  Sales update: Mifa budget is going down by $263K.
+#1477  Finance Office: Withdraw update #0456; it was entered in error.
+#1478  Finance Office: Mifa budget increased by $95K after review.
+#1479  Finance Office: Reminder: Mifa expense reports are due Friday.
+#1480  Finance Office: Mifa budget decreased by $115K after review.
+#1481  Finance Office: Withdraw update #0964.
+#1482  Finance Office: Mifa budget increased by $60K per the revised plan.
+#1483  Legal email: Pretty sure Mifa's budget is $630K now.
+#1484  Vendor call: Expect Mifa's budget to rise by $56K.
+#1485  Finance Office: Mifa budget decreased by $10K.
+#1486  Finance Office: Mifa budget decreased by $105K per the revised plan.
+#1487  Finance Office: Mifa budget increased by $25K after review.
+#1488  Finance Office: Mifa budget increased by $35K.
+#1489  Finance Office: Withdraw update #1428; it was entered in error.
+#1490  Finance Office: Withdraw update #1063.
+#1491  PMO note: Mifa risk register updated with 6 new items.
+#1492  Engineering email: Mifa budget is going up by $476K.
+#1493  Finance Office: Withdraw update #1462.
+#1494  Finance Office: Withdraw update #1160; it was entered in error.
+#1495  Finance Office: Mifa budget increased by $65K per the revised plan.
+#1496  Finance Office: Mifa budget decreased by $50K.
+#1497  Marketing email: Mifa demo rescheduled to Tuesday afternoon.
+#1498  Engineering email: Mifa documentation moved to the shared drive.
+#1499  Facilities ticket: Hearing Mifa's budget goes up $416K.
+#1500  Engineering email: Pretty sure Mifa's budget is $590K now.
+#1501  Finance Office: Mifa budget decreased by $95K per the revised plan.
+#1502  PMO note: Mifa budget is going to $600K.
+#1503  Finance Office: Mifa budget increased by $115K.
+#1504  Engineering email: Mifa kickoff moved to Building 9.
+#1505  Legal email: Mifa test environment back online.
+#1506  Finance Office: Mifa budget increased by $150K.
+#1507  Finance Office: Mifa budget decreased by $50K per the revised plan.
+#1508  Engineering email: Heard Mifa's budget is now $1030K.
+#1509  Finance Office: Mifa budget increased by $100K after review.
+#1510  Finance Office: Mifa budget increased by $15K per the revised plan.
+#1511  Finance Office: Withdraw update #1008; it was entered in error.
+#1512  PMO note: Expect Mifa's budget to rise by $309K.
+#1513  Finance Office: Mifa budget increased by $120K.
+#1514  Engineering email: Mifa budget is going up by $551K.
+#1515  Facilities ticket: Expect Mifa's budget to rise by $584K.
+#1516  Sales update: Hearing Mifa's budget goes up $26K.
+#1517  Facilities ticket: Sounds like Mifa gets $68K less.
+#1518  Finance Office: Mifa budget decreased by $85K after review.
+#1519  Finance Office: Mifa budget increased by $85K after review.
+#1520  Engineering email: Mifa budget should land at $1370K.
+#1521  Legal email: Sounds like Mifa gets $402K less.
+#1522  Finance Office: Withdraw update #0241.
+#1523  Finance Office: Withdraw update #1215.
+#1524  Vendor call: Hearing Mifa's budget goes up $408K.
+#1525  Finance Office: Mifa budget increased by $80K per the revised plan.
+#1526  PMO note: Sounds like Mifa gets $146K more.
+#1527  Finance Office: Mifa budget increased by $15K after review.
+#1528  Legal email: Mifa budget is going to $1080K.
+#1529  Operations chat: Hearing Mifa's budget goes down $414K.
+#1530  PMO note: Sounds like Mifa gets $272K less.
+#1531  Finance Office: Mifa budget increased by $150K.
+#1532  Finance Office: Mifa budget decreased by $130K.
+#1533  Finance Office: Withdraw update #1076; it was entered in error.
+#1534  Finance Office: Mifa budget increased by $115K per the revised plan.
+#1535  Vendor call: Mifa budget is going down to $930K.
+#1536  PMO note: Mifa test environment back online.
+#1537  Finance Office: Withdraw update #0737.
+#1538  Operations chat: Mifa site visit confirmed for Thursday.
+#1539  Finance Office: Withdraw update #0442.
+#1540  Finance Office: Mifa budget decreased by $30K per the revised plan.
+#1541  Marketing email: Mifa budget is going up by $59K.
+#1542  PMO note: Mifa budget is going down to $1290K.
+#1543  Legal email: Mifa budget is going down to $1500K.
+#1544  Finance Office: Withdraw update #0320.
+#1545  Finance Office: Withdraw update #1241; it was entered in error.
+#1546  Finance Office: Withdraw update #1417; it was entered in error.
+#1547  Sales update: Mifa budget is going down by $433K.
+#1548  Finance Office: Withdraw update #1450; it was entered in error.
+#1549  Marketing email: Mifa budget is going down by $109K.
+#1550  Finance Office: Mifa budget decreased by $10K per the revised plan.
+#1551  Facilities ticket: Mifa budget should land at $2050K.
+#1552  Finance Office: Withdraw update #1391.
+#1553  Operations chat: Sounds like Mifa gets $33K more.
+#1554  Finance Office: Mifa budget decreased by $40K.
+#1555  Finance Office: Mifa budget decreased by $145K.
+#1556  Finance Office: Mifa budget increased by $100K.
+#1557  Finance Office: Withdraw update #0783.
+#1558  Finance Office: Mifa cost center code changed to FC-4618.
+#1559  Sales update: Mifa budget is going to $2580K.
+#1560  Finance Office: Withdraw update #0476.
+#1561  Finance Office: Withdraw update #0945; it was entered in error.
+#1562  Finance Office: Mifa budget decreased by $105K per the revised plan.
+#1563  Finance Office: Withdraw update #0935.
+#1564  Finance Office: Mifa budget decreased by $90K per the revised plan.
+#1565  Legal email: Mifa kickoff moved to Building 6.
+#1566  Finance Office: Mifa budget increased by $65K after review.
+#1567  Sales update: Expect Mifa's budget to rise by $587K.
+#1568  Facilities ticket: Mifa budget is going down by $177K.
+#1569  Engineering email: Hearing Mifa's budget goes up $588K.
+#1570  Finance Office: Mifa cost center code changed to FC-6346.
+#1571  PMO note: Sounds like Mifa gets $202K less.
+#1572  Legal email: Heard Mifa's budget is now $1730K.
+#1573  Legal email: Mifa budget is going down by $277K.
+#1574  Facilities ticket: Sounds like Mifa gets $269K more.
+#1575  Finance Office: Withdraw update #1199.
+#1576  PMO note: Sounds like Mifa gets $567K less.
+#1577  Finance Office: Mifa budget decreased by $55K after review.
+#1578  PMO note: Expect Mifa's budget to drop by $96K.
+#1579  Finance Office: Mifa budget increased by $70K.
+#1580  Finance Office: Mifa budget decreased by $115K per the revised plan.
+#1581  Finance Office: Mifa budget decreased by $25K per the revised plan.
+#1582  Finance Office: Mifa budget decreased by $25K.
+#1583  Finance Office: Withdraw update #1287.
+#1584  Finance Office: Withdraw update #0819.
+#1585  Finance Office: Withdraw update #0426.
+#1586  Finance Office: Mifa budget increased by $90K per the revised plan.
+#1587  Sales update: Hearing Mifa's budget goes up $98K.
+#1588  Finance Office: Mifa budget increased by $120K per the revised plan.
+#1589  Finance Office: Withdraw update #0424.
+#1590  Finance Office: Mifa budget decreased by $105K.
+#1591  Facilities ticket: Sounds like Mifa gets $218K more.
+#1592  Facilities ticket: Mifa security review passed.
+#1593  Finance Office: Withdraw update #1560; it was entered in error.
+#1594  Marketing email: Mifa status report filed for week 7.
+#1595  Operations chat: Mifa kickoff moved to Building 4.
+#1596  Finance Office: Mifa budget decreased by $85K.
+#1597  Finance Office: Mifa budget increased by $35K.
+#1598  Finance Office: Mifa budget increased by $60K.
+#1599  Finance Office: Mifa budget increased by $150K.
+#1600  Facilities ticket: Expect Mifa's budget to rise by $67K.
+
+Question: What is Mifa's budget now?

@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Gikistu budget set to $2070K.
+#0002  Finance Office: Gikistu budget decreased by $139K.
+#0003  Finance Office: Gikistu budget decreased by $108K per the revised plan.
+#0004  PMO note: Gikistu sprint 17 retrospective notes posted.
+#0005  Finance Office: Withdraw update #0003.
+#0006  Finance Office: Gikistu finance review moved to Room 5C.
+#0007  PMO note: Gikistu site visit confirmed for Monday.
+#0008  Finance Office: Withdraw update #0002; it was entered in error.
+#0009  PMO note: Gikistu weekly sync moved to Mondays.
+#0010  Finance Office: Gikistu invoice batch FC-2692 archived.
+#0011  Finance Office: Withdraw update #0005; it was entered in error.
+#0012  Finance Office: Gikistu budget increased by $308K after review.
+#0013  Finance Office: Gikistu budget increased by $271K per the revised plan.
+#0014  Finance Office: Gikistu budget increased by $451K after review.
+#0015  Engineering email: Gikistu design review moved to Room 5D.
+#0016  Operations chat: Gikistu test environment back online.
+#0017  Sales update: Gikistu site visit confirmed for Thursday.
+#0018  Finance Office: Gikistu budget decreased by $95K after review.
+#0019  Finance Office: Withdraw update #0008; it was entered in error.
+#0020  Finance Office: Gikistu purchase order FC-5155 closed.
+#0021  Finance Office: Withdraw update #0014.
+#0022  Finance Office: Gikistu budget decreased by $492K.
+#0023  Finance Office: Withdraw update #0013; it was entered in error.
+#0024  Finance Office: Gikistu budget decreased by $35K per the revised plan.
+#0025  PMO note: Gikistu status report filed for week 32.
+#0026  Finance Office: Gikistu budget increased by $131K per the revised plan.
+#0027  Finance Office: Gikistu budget decreased by $140K after review.
+#0028  Finance Office: Withdraw update #0023; it was entered in error.
+#0029  Operations chat: Gikistu status report filed for week 39.
+#0030  Finance Office: Gikistu budget increased by $514K.
+#0031  Finance Office: Gikistu budget increased by $68K after review.
+#0032  PMO note: Gikistu site visit confirmed for Thursday.
+#0033  Finance Office: Gikistu budget decreased by $65K after review.
+#0034  Finance Office: Gikistu budget decreased by $482K after review.
+#0035  Finance Office: Gikistu budget decreased by $474K per the revised plan.
+#0036  Finance Office: Gikistu budget decreased by $141K after review.
+#0037  Finance Office: Withdraw update #0012.
+#0038  Finance Office: Gikistu budget increased by $419K per the revised plan.
+#0039  Finance Office: Gikistu budget increased by $95K after review.
+#0040  Legal email: Gikistu weekly sync moved to Fridays.
+#0041  Finance Office: Gikistu budget increased by $547K after review.
+#0042  Finance Office: Gikistu budget increased by $328K.
+#0043  Finance Office: Gikistu budget decreased by $436K per the revised plan.
+#0044  Operations chat: Gikistu test environment back online.
+#0045  Engineering email: Gikistu weekly sync moved to Fridays.
+#0046  Finance Office: Gikistu budget decreased by $412K per the revised plan.
+#0047  Vendor call: Gikistu design review moved to Room 4A.
+#0048  Legal email: Gikistu test environment back online.
+#0049  Legal email: Gikistu test environment back online.
+#0050  Finance Office: Gikistu budget increased by $589K after review.
+#0051  Operations chat: Gikistu weekly sync moved to Mondays.
+#0052  Finance Office: Gikistu finance review moved to Room 4C.
+#0053  Finance Office: Withdraw update #0050.
+#0054  Finance Office: Withdraw update #0038.
+#0055  Facilities ticket: Gikistu site visit confirmed for Monday.
+#0056  Finance Office: Withdraw update #0031.
+#0057  Finance Office: Gikistu budget decreased by $192K per the revised plan.
+#0058  Marketing email: Gikistu design review moved to Room 3B.
+#0059  Finance Office: Reminder: Gikistu expense reports are due Thursday.
+#0060  Finance Office: Withdraw update #0034.
+#0061  PMO note: Gikistu weekly sync moved to Thursdays.
+#0062  Sales update: Gikistu status report filed for week 5.
+#0063  Finance Office: Gikistu invoice batch FC-3772 archived.
+#0064  PMO note: Gikistu design review moved to Room 1C.
+#0065  Finance Office: Withdraw update #0042.
+#0066  Finance Office: Gikistu budget decreased by $363K after review.
+#0067  Finance Office: Withdraw update #0036; it was entered in error.
+#0068  Facilities ticket: Gikistu site visit confirmed for Monday.
+#0069  Sales update: Gikistu status report filed for week 24.
+#0070  Finance Office: Gikistu budget increased by $10K after review.
+#0071  Finance Office: Gikistu budget decreased by $115K per the revised plan.
+#0072  Legal email: Gikistu weekly sync moved to Mondays.
+#0073  Finance Office: Gikistu budget increased by $3K.
+#0074  Finance Office: Gikistu budget increased by $72K.
+#0075  Facilities ticket: Gikistu kickoff moved to Building 9.
+#0076  Facilities ticket: Gikistu design review moved to Room 4D.
+#0077  Finance Office: Gikistu budget increased by $384K.
+#0078  Finance Office: Gikistu budget decreased by $302K per the revised plan.
+#0079  Finance Office: Gikistu budget increased by $329K after review.
+#0080  Finance Office: Gikistu budget increased by $125K per the revised plan.
+#0081  Finance Office: Gikistu budget decreased by $434K.
+#0082  Finance Office: Gikistu budget decreased by $15K after review.
+#0083  Finance Office: Gikistu budget increased by $444K per the revised plan.
+#0084  Marketing email: Gikistu status report filed for week 31.
+#0085  Finance Office: Withdraw update #0067.
+#0086  Finance Office: Gikistu budget increased by $130K after review.
+#0087  Finance Office: Withdraw update #0066; it was entered in error.
+#0088  Finance Office: Withdraw update #0081.
+#0089  Vendor call: Gikistu status report filed for week 2.
+#0090  Finance Office: Withdraw update #0037; it was entered in error.
+#0091  Facilities ticket: Gikistu test environment back online.
+#0092  Operations chat: Gikistu test environment back online.
+#0093  Finance Office: Gikistu budget increased by $242K per the revised plan.
+#0094  Finance Office: Withdraw update #0073; it was entered in error.
+#0095  Finance Office: Withdraw update #0094.
+#0096  Finance Office: Gikistu cost center code changed to FC-9709.
+#0097  Operations chat: Gikistu site visit confirmed for Monday.
+#0098  Finance Office: Gikistu budget decreased by $125K.
+#0099  Finance Office: Withdraw update #0078.
+#0100  Finance Office: Gikistu budget decreased by $374K per the revised plan.
+#0101  Finance Office: Withdraw update #0026.
+#0102  Finance Office: Withdraw update #0087; it was entered in error.
+#0103  Finance Office: Gikistu budget increased by $35K after review.
+#0104  Sales update: Gikistu sprint 48 retrospective notes posted.
+#0105  Finance Office: Gikistu budget decreased by $15K.
+#0106  Marketing email: Gikistu design review moved to Room 5B.
+#0107  Finance Office: Gikistu budget decreased by $201K per the revised plan.
+#0108  Finance Office: Gikistu budget increased by $130K per the revised plan.
+#0109  Legal email: Gikistu status report filed for week 6.
+#0110  Finance Office: Withdraw update #0021; it was entered in error.
+#0111  Finance Office: Gikistu budget decreased by $143K after review.
+#0112  Sales update: Gikistu weekly sync moved to Fridays.
+#0113  Marketing email: Gikistu status report filed for week 3.
+#0114  Finance Office: Gikistu budget increased by $23K.
+#0115  Engineering email: Gikistu demo rescheduled to Friday afternoon.
+#0116  Facilities ticket: Gikistu demo rescheduled to Thursday afternoon.
+#0117  Sales update: Gikistu design review moved to Room 1B.
+#0118  Finance Office: Withdraw update #0095.
+#0119  Legal email: Gikistu site visit confirmed for Thursday.
+#0120  Finance Office: Gikistu budget decreased by $564K per the revised plan.
+#0121  Finance Office: Gikistu budget decreased by $5K after review.
+#0122  PMO note: Gikistu status report filed for week 30.
+#0123  Engineering email: Gikistu kickoff moved to Building 3.
+#0124  Finance Office: Gikistu budget decreased by $158K after review.
+#0125  Finance Office: Gikistu receipts scanned.
+#0126  Finance Office: Gikistu budget increased by $456K after review.
+#0127  PMO note: Gikistu kickoff moved to Building 9.
+#0128  Finance Office: Gikistu budget decreased by $150K.
+#0129  Finance Office: Gikistu budget increased by $55K.
+#0130  Finance Office: Gikistu budget increased by $70K after review.
+#0131  Legal email: Gikistu risk register updated with 6 new items.
+#0132  Operations chat: Gikistu kickoff moved to Building 3.
+#0133  Finance Office: Gikistu budget decreased by $135K after review.
+#0134  Operations chat: Gikistu weekly sync moved to Mondays.
+#0135  Finance Office: Gikistu budget increased by $178K after review.
+#0136  Finance Office: Gikistu budget increased by $60K.
+#0137  Finance Office: Gikistu budget decreased by $150K per the revised plan.
+#0138  Operations chat: Gikistu design review moved to Room 3A.
+#0139  Finance Office: Gikistu budget increased by $10K per the revised plan.
+#0140  Finance Office: Gikistu budget increased by $30K after review.
+#0141  Finance Office: Gikistu budget increased by $34K after review.
+#0142  Finance Office: Gikistu budget increased by $542K after review.
+#0143  Finance Office: Gikistu budget decreased by $124K per the revised plan.
+#0144  Finance Office: Gikistu budget decreased by $135K per the revised plan.
+#0145  Finance Office: Withdraw update #0011; it was entered in error.
+#0146  Finance Office: Withdraw update #0057; it was entered in error.
+#0147  Vendor call: Gikistu status report filed for week 16.
+#0148  Finance Office: Gikistu budget increased by $20K after review.
+#0149  Operations chat: Gikistu test environment back online.
+#0150  Operations chat: Gikistu kickoff moved to Building 5.
+#0151  Engineering email: Gikistu kickoff moved to Building 8.
+#0152  Finance Office: Withdraw update #0085; it was entered in error.
+#0153  PMO note: Gikistu site visit confirmed for Thursday.
+#0154  Finance Office: Gikistu budget decreased by $125K per the revised plan.
+#0155  Finance Office: Gikistu budget increased by $226K per the revised plan.
+#0156  Finance Office: Gikistu budget increased by $154K after review.
+#0157  Finance Office: Gikistu budget decreased by $70K per the revised plan.
+#0158  Finance Office: Gikistu budget increased by $60K per the revised plan.
+#0159  Finance Office: Gikistu budget increased by $441K after review.
+#0160  Sales update: Gikistu security review passed.
+#0161  Finance Office: Gikistu budget decreased by $164K per the revised plan.
+#0162  Sales update: Gikistu status report filed for week 4.
+#0163  Finance Office: Gikistu budget increased by $55K per the revised plan.
+#0164  Legal email: Gikistu design review moved to Room 1B.
+#0165  Finance Office: Gikistu budget increased by $70K per the revised plan.
+#0166  Operations chat: Gikistu design review moved to Room 6B.
+#0167  Finance Office: Gikistu invoice batch FC-1937 archived.
+#0168  PMO note: Gikistu security review passed.
+#0169  Finance Office: Gikistu budget decreased by $247K per the revised plan.
+#0170  Finance Office: Withdraw update #0099.
+#0171  Finance Office: Gikistu budget decreased by $135K per the revised plan.
+#0172  Sales update: Gikistu vendor onboarding call scheduled for Monday.
+#0173  Finance Office: Gikistu budget decreased by $50K.
+#0174  Finance Office: Gikistu budget decreased by $6K after review.
+#0175  Finance Office: Gikistu budget decreased by $80K after review.
+#0176  Finance Office: Gikistu budget increased by $140K after review.
+#0177  Engineering email: Gikistu weekly sync moved to Thursdays.
+#0178  Finance Office: Gikistu budget increased by $15K.
+#0179  Finance Office: Withdraw update #0077; it was entered in error.
+#0180  PMO note: Gikistu design review moved to Room 3D.
+#0181  Vendor call: Gikistu test environment back online.
+#0182  Finance Office: Gikistu budget decreased by $30K.
+#0183  Finance Office: Gikistu budget decreased by $50K per the revised plan.
+#0184  Marketing email: Gikistu design review moved to Room 3B.
+#0185  Finance Office: Gikistu budget increased by $100K.
+#0186  Finance Office: Gikistu budget increased by $291K after review.
+#0187  Finance Office: Gikistu budget increased by $348K.
+#0188  Sales update: Gikistu documentation moved to the shared drive.
+#0189  Finance Office: Gikistu budget increased by $35K per the revised plan.
+#0190  Finance Office: Gikistu budget increased by $472K after review.
+#0191  Legal email: Gikistu kickoff moved to Building 7.
+#0192  Facilities ticket: Gikistu kickoff moved to Building 6.
+#0193  Finance Office: Withdraw update #0126.
+#0194  Finance Office: Withdraw update #0088.
+#0195  Sales update: Gikistu sprint 10 retrospective notes posted.
+#0196  Finance Office: Gikistu quarterly audit scheduled for Tuesday.
+#0197  Finance Office: Gikistu budget increased by $64K.
+#0198  Finance Office: Gikistu budget decreased by $150K per the revised plan.
+#0199  Marketing email: Gikistu design review moved to Room 6C.
+#0200  Finance Office: Gikistu budget increased by $366K after review.
+#0201  Finance Office: Gikistu purchase order FC-9198 closed.
+#0202  Finance Office: Withdraw update #0145.
+#0203  Finance Office: Gikistu budget decreased by $60K per the revised plan.
+#0204  Operations chat: Gikistu sprint 38 retrospective notes posted.
+#0205  Finance Office: Gikistu budget increased by $15K per the revised plan.
+#0206  Finance Office: Withdraw update #0202.
+#0207  Operations chat: Gikistu site visit confirmed for Monday.
+#0208  Finance Office: Withdraw update #0074; it was entered in error.
+#0209  Finance Office: Gikistu budget decreased by $80K.
+#0210  Facilities ticket: Gikistu design review moved to Room 5C.
+#0211  Finance Office: Gikistu budget increased by $50K after review.
+#0212  Finance Office: Gikistu budget decreased by $80K.
+#0213  Finance Office: Withdraw update #0102; it was entered in error.
+#0214  Finance Office: Gikistu budget decreased by $541K.
+#0215  Finance Office: Gikistu budget decreased by $75K per the revised plan.
+#0216  Engineering email: Gikistu design review moved to Room 4A.
+#0217  Finance Office: Gikistu budget decreased by $50K per the revised plan.
+#0218  Finance Office: Gikistu audit notes filed.
+#0219  Facilities ticket: Gikistu design review moved to Room 6C.
+#0220  Finance Office: Gikistu budget increased by $351K.
+#0221  Legal email: Gikistu status report filed for week 14.
+#0222  Finance Office: Gikistu budget decreased by $115K after review.
+#0223  Engineering email: Gikistu kickoff moved to Building 8.
+#0224  Engineering email: Gikistu site visit confirmed for Thursday.
+#0225  Vendor call: Gikistu test environment back online.
+#0226  Finance Office: Gikistu budget increased by $10K per the revised plan.
+#0227  Finance Office: Withdraw update #0143.
+#0228  Finance Office: Withdraw update #0079.
+#0229  Finance Office: Withdraw update #0141.
+#0230  Finance Office: Gikistu budget decreased by $484K.
+#0231  Finance Office: Withdraw update #0174; it was entered in error.
+#0232  Sales update: Gikistu site visit confirmed for Friday.
+#0233  Finance Office: Gikistu budget increased by $100K after review.
+#0234  Finance Office: Gikistu budget increased by $65K.
+#0235  Engineering email: Gikistu kickoff moved to Building 8.
+#0236  Finance Office: Gikistu budget increased by $389K after review.
+#0237  Marketing email: Gikistu sprint 36 retrospective notes posted.
+#0238  Finance Office: Gikistu budget increased by $327K.
+#0239  Finance Office: Gikistu budget increased by $20K.
+#0240  Finance Office: Gikistu budget increased by $30K per the revised plan.
+#0241  Finance Office: Gikistu budget increased by $70K per the revised plan.
+#0242  Finance Office: Gikistu budget decreased by $40K.
+#0243  Finance Office: Gikistu budget decreased by $60K after review.
+#0244  Engineering email: Gikistu site visit confirmed for Thursday.
+#0245  Finance Office: Gikistu budget increased by $105K.
+#0246  PMO note: Gikistu design review moved to Room 3B.
+#0247  Vendor call: Gikistu test environment back online.
+#0248  Finance Office: Gikistu budget increased by $10K per the revised plan.
+#0249  Facilities ticket: Gikistu sprint 32 retrospective notes posted.
+#0250  Finance Office: Gikistu budget decreased by $35K per the revised plan.
+#0251  Engineering email: Gikistu site visit confirmed for Tuesday.
+#0252  Finance Office: Gikistu budget increased by $80K.
+#0253  Finance Office: Gikistu budget decreased by $438K after review.
+#0254  Finance Office: Gikistu budget increased by $40K after review.
+#0255  Finance Office: Gikistu budget decreased by $30K.
+#0256  Finance Office: Gikistu budget increased by $336K per the revised plan.
+#0257  Finance Office: Gikistu budget increased by $105K per the revised plan.
+#0258  PMO note: Gikistu sprint 19 retrospective notes posted.
+#0259  Finance Office: Gikistu budget decreased by $577K after review.
+#0260  Finance Office: Gikistu budget decreased by $491K after review.
+#0261  Vendor call: Gikistu demo rescheduled to Friday afternoon.
+#0262  Finance Office: Gikistu budget decreased by $267K.
+#0263  Engineering email: Gikistu design review moved to Room 4B.
+#0264  Operations chat: Gikistu design review moved to Room 6B.
+#0265  Finance Office: Gikistu budget increased by $11K per the revised plan.
+#0266  Finance Office: Gikistu budget increased by $16K.
+#0267  Finance Office: Gikistu budget increased by $324K.
+#0268  PMO note: Gikistu weekly sync moved to Thursdays.
+#0269  Finance Office: Gikistu budget decreased by $15K after review.
+#0270  Finance Office: Gikistu budget increased by $81K.
+#0271  Finance Office: Gikistu budget decreased by $246K.
+#0272  Finance Office: Gikistu budget increased by $347K after review.
+#0273  Operations chat: Gikistu test environment back online.
+#0274  Finance Office: Withdraw update #0028; it was entered in error.
+#0275  Marketing email: Gikistu weekly sync moved to Mondays.
+#0276  Engineering email: Gikistu weekly sync moved to Thursdays.
+#0277  Legal email: Gikistu weekly sync moved to Tuesdays.
+#0278  Finance Office: Gikistu budget decreased by $102K after review.
+#0279  Facilities ticket: Gikistu test environment back online.
+#0280  Finance Office: Gikistu budget decreased by $339K after review.
+#0281  PMO note: Gikistu test environment back online.
+#0282  Finance Office: Gikistu budget decreased by $203K per the revised plan.
+#0283  Operations chat: Gikistu demo rescheduled to Monday afternoon.
+#0284  Sales update: Gikistu design review moved to Room 3A.
+#0285  Finance Office: Withdraw update #0231.
+#0286  Legal email: Gikistu weekly sync moved to Fridays.
+#0287  Finance Office: Reminder: Gikistu expense reports are due Tuesday.
+#0288  Vendor call: Gikistu site visit confirmed for Thursday.
+#0289  Finance Office: Gikistu budget increased by $494K per the revised plan.
+#0290  Finance Office: Gikistu budget increased by $80K after review.
+#0291  Vendor call: Gikistu status report filed for week 40.
+#0292  Finance Office: Gikistu budget decreased by $10K after review.
+#0293  Finance Office: Gikistu budget decreased by $79K after review.
+#0294  Marketing email: Gikistu site visit confirmed for Wednesday.
+#0295  PMO note: Gikistu status report filed for week 13.
+#0296  Finance Office: Gikistu budget decreased by $145K.
+#0297  Finance Office: Gikistu budget increased by $125K per the revised plan.
+#0298  Finance Office: Withdraw update #0230; it was entered in error.
+#0299  Finance Office: Withdraw update #0229; it was entered in error.
+#0300  Finance Office: Withdraw update #0190; it was entered in error.
+#0301  Marketing email: Gikistu weekly sync moved to Thursdays.
+#0302  Finance Office: Gikistu budget increased by $140K per the revised plan.
+#0303  Finance Office: Gikistu budget increased by $30K.
+#0304  Finance Office: Gikistu budget decreased by $130K after review.
+#0305  Facilities ticket: Gikistu kickoff moved to Building 5.
+#0306  Finance Office: Gikistu budget decreased by $587K.
+#0307  Finance Office: Gikistu budget increased by $20K.
+#0308  Finance Office: Withdraw update #0043; it was entered in error.
+#0309  Facilities ticket: Gikistu status report filed for week 15.
+#0310  Legal email: Gikistu security review passed.
+#0311  Operations chat: Gikistu sprint 39 retrospective notes posted.
+#0312  Finance Office: Gikistu budget increased by $551K after review.
+#0313  Legal email: Gikistu test environment back online.
+#0314  Operations chat: Gikistu test environment back online.
+#0315  Operations chat: Gikistu status report filed for week 40.
+#0316  Legal email: Gikistu design review moved to Room 5C.
+#0317  Finance Office: Gikistu budget decreased by $581K.
+#0318  Finance Office: Gikistu budget increased by $65K.
+#0319  Finance Office: Withdraw update #0124; it was entered in error.
+#0320  Finance Office: Gikistu budget increased by $362K after review.
+#0321  Facilities ticket: Gikistu weekly sync moved to Mondays.
+#0322  PMO note: Gikistu weekly sync moved to Mondays.
+#0323  Finance Office: Gikistu audit notes filed.
+#0324  Operations chat: Gikistu kickoff moved to Building 8.
+#0325  Finance Office: Gikistu receipts scanned.
+#0326  Engineering email: Gikistu kickoff moved to Building 6.
+#0327  Finance Office: Gikistu budget increased by $92K per the revised plan.
+#0328  Vendor call: Gikistu status report filed for week 10.
+#0329  Finance Office: Gikistu budget increased by $35K.
+#0330  Finance Office: Gikistu budget decreased by $120K after review.
+#0331  Vendor call: Gikistu site visit confirmed for Tuesday.
+#0332  Finance Office: Withdraw update #0111.
+#0333  Sales update: Gikistu test environment back online.
+#0334  Finance Office: Gikistu budget increased by $36K.
+#0335  Operations chat: Gikistu kickoff moved to Building 7.
+#0336  Finance Office: Withdraw update #0152.
+#0337  Marketing email: Gikistu weekly sync moved to Fridays.
+#0338  Engineering email: Gikistu design review moved to Room 5A.
+#0339  Finance Office: Gikistu budget decreased by $238K.
+#0340  Finance Office: Gikistu budget decreased by $28K after review.
+#0341  Engineering email: Gikistu test environment back online.
+#0342  Finance Office: Gikistu budget increased by $100K per the revised plan.
+#0343  Marketing email: Gikistu status report filed for week 7.
+#0344  Finance Office: Gikistu budget decreased by $227K after review.
+#0345  Finance Office: Gikistu budget decreased by $98K after review.
+#0346  Operations chat: Gikistu weekly sync moved to Fridays.
+#0347  Marketing email: Gikistu design review moved to Room 2C.
+#0348  Finance Office: Withdraw update #0200; it was entered in error.
+#0349  Finance Office: Gikistu budget increased by $86K per the revised plan.
+#0350  Operations chat: Gikistu security review passed.
+#0351  Finance Office: Gikistu budget increased by $5K after review.
+#0352  Finance Office: Withdraw update #0260; it was entered in error.
+#0353  Finance Office: Withdraw update #0256.
+#0354  Finance Office: Gikistu budget decreased by $125K after review.
+#0355  Sales update: Gikistu risk register updated with 3 new items.
+#0356  Finance Office: Gikistu budget decreased by $70K per the revised plan.
+#0357  Finance Office: Withdraw update #0206.
+#0358  Finance Office: Gikistu budget increased by $150K per the revised plan.
+#0359  Finance Office: Gikistu budget increased by $40K.
+#0360  Finance Office: Gikistu budget decreased by $249K per the revised plan.
+#0361  Finance Office: Gikistu budget decreased by $549K after review.
+#0362  Finance Office: Gikistu budget decreased by $75K after review.
+#0363  Finance Office: Withdraw update #0161.
+#0364  Marketing email: Gikistu security review passed.
+#0365  Finance Office: Gikistu budget increased by $567K after review.
+#0366  Finance Office: Gikistu budget increased by $10K after review.
+#0367  Finance Office: Gikistu budget decreased by $313K.
+#0368  Finance Office: Gikistu budget decreased by $528K after review.
+#0369  Finance Office: Gikistu budget increased by $244K after review.
+#0370  Operations chat: Gikistu kickoff moved to Building 3.
+#0371  Facilities ticket: Gikistu test environment back online.
+#0372  Finance Office: Gikistu budget increased by $30K per the revised plan.
+#0373  Finance Office: Gikistu budget increased by $150K after review.
+#0374  Finance Office: Withdraw update #0336; it was entered in error.
+#0375  Legal email: Gikistu kickoff moved to Building 6.
+#0376  Finance Office: Gikistu budget increased by $25K per the revised plan.
+#0377  Finance Office: Gikistu budget decreased by $110K per the revised plan.
+#0378  Finance Office: Gikistu budget increased by $100K per the revised plan.
+#0379  Finance Office: Withdraw update #0278; it was entered in error.
+#0380  Operations chat: Gikistu design review moved to Room 5D.
+#0381  Finance Office: Withdraw update #0367; it was entered in error.
+#0382  Operations chat: Gikistu design review moved to Room 5D.
+#0383  Finance Office: Withdraw update #0197.
+#0384  Vendor call: Gikistu status report filed for week 39.
+#0385  Operations chat: Gikistu site visit confirmed for Wednesday.
+#0386  Finance Office: Gikistu budget decreased by $20K per the revised plan.
+#0387  Finance Office: Gikistu budget increased by $356K after review.
+#0388  Marketing email: Gikistu design review moved to Room 6A.
+#0389  Finance Office: Gikistu budget increased by $85K per the revised plan.
+#0390  Finance Office: Gikistu budget decreased by $85K per the revised plan.
+#0391  Engineering email: Gikistu sprint 20 retrospective notes posted.
+#0392  Finance Office: Withdraw update #0056.
+#0393  Finance Office: Gikistu budget decreased by $60K.
+#0394  Sales update: Gikistu documentation moved to the shared drive.
+#0395  Finance Office: Gikistu budget decreased by $145K.
+#0396  Facilities ticket: Gikistu risk register updated with 5 new items.
+#0397  Finance Office: Gikistu budget increased by $188K.
+#0398  Finance Office: Gikistu budget decreased by $115K per the revised plan.
+#0399  Finance Office: Gikistu budget increased by $125K.
+#0400  PMO note: Gikistu kickoff moved to Building 7.
+#0401  Operations chat: Gikistu risk register updated with 9 new items.
+#0402  Operations chat: Gikistu site visit confirmed for Friday.
+#0403  Finance Office: Gikistu budget decreased by $75K.
+#0404  Marketing email: Gikistu test environment back online.
+#0405  PMO note: Gikistu kickoff moved to Building 3.
+#0406  Finance Office: Gikistu budget decreased by $140K after review.
+#0407  Finance Office: Withdraw update #0365.
+#0408  Finance Office: Gikistu budget decreased by $233K.
+#0409  Finance Office: Withdraw update #0379.
+#0410  Finance Office: Withdraw update #0228; it was entered in error.
+#0411  Finance Office: Withdraw update #0118.
+#0412  Finance Office: Gikistu budget increased by $40K.
+#0413  Finance Office: Gikistu budget increased by $135K after review.
+#0414  Sales update: Gikistu test environment back online.
+#0415  Sales update: Gikistu weekly sync moved to Mondays.
+#0416  Finance Office: Gikistu quarterly audit scheduled for Wednesday.
+#0417  Finance Office: Gikistu budget increased by $293K per the revised plan.
+#0418  Vendor call: Gikistu design review moved to Room 2B.
+#0419  Finance Office: Gikistu budget increased by $75K after review.
+#0420  Finance Office: Gikistu budget decreased by $20K after review.
+#0421  Facilities ticket: Gikistu risk register updated with 3 new items.
+#0422  Engineering email: Gikistu test environment back online.
+#0423  Finance Office: Withdraw update #0267; it was entered in error.
+#0424  Finance Office: Gikistu budget increased by $105K after review.
+#0425  Finance Office: Withdraw update #0022; it was entered in error.
+#0426  Finance Office: Withdraw update #0312; it was entered in error.
+#0427  Finance Office: Withdraw update #0107; it was entered in error.
+#0428  Legal email: Gikistu design review moved to Room 5B.
+#0429  Finance Office: Gikistu budget increased by $30K per the revised plan.
+#0430  Operations chat: Gikistu test environment back online.
+#0431  Marketing email: Gikistu sprint 7 retrospective notes posted.
+#0432  Engineering email: Gikistu security review passed.
+#0433  Finance Office: Gikistu budget decreased by $60K after review.
+#0434  PMO note: Gikistu test environment back online.
+#0435  Finance Office: Withdraw update #0357.
+#0436  Finance Office: Gikistu budget increased by $130K.
+#0437  Finance Office: Gikistu budget decreased by $80K after review.
+#0438  Sales update: Gikistu kickoff moved to Building 7.
+#0439  Engineering email: Gikistu test environment back online.
+#0440  Facilities ticket: Gikistu weekly sync moved to Mondays.
+#0441  Finance Office: Withdraw update #0387.
+#0442  Finance Office: Withdraw update #0319; it was entered in error.
+#0443  Finance Office: Gikistu budget increased by $115K per the revised plan.
+#0444  Legal email: Gikistu design review moved to Room 5B.
+#0445  Finance Office: Gikistu budget increased by $60K after review.
+#0446  Finance Office: Gikistu budget decreased by $85K after review.
+#0447  Finance Office: Gikistu budget decreased by $110K after review.
+#0448  Finance Office: Gikistu budget increased by $95K after review.
+#0449  Sales update: Gikistu weekly sync moved to Mondays.
+#0450  Finance Office: Withdraw update #0253.
+#0451  Finance Office: Gikistu budget increased by $69K.
+#0452  Marketing email: Gikistu status report filed for week 18.
+#0453  PMO note: Gikistu status report filed for week 7.
+#0454  Finance Office: Gikistu budget decreased by $30K after review.
+#0455  Operations chat: Gikistu design review moved to Room 2A.
+#0456  Finance Office: Gikistu budget decreased by $150K after review.
+#0457  Finance Office: Gikistu budget decreased by $25K.
+#0458  Sales update: Gikistu site visit confirmed for Friday.
+#0459  Finance Office: Withdraw update #0186.
+#0460  Finance Office: Withdraw update #0265; it was entered in error.
+#0461  Finance Office: Gikistu budget increased by $65K per the revised plan.
+#0462  Finance Office: Gikistu budget decreased by $40K.
+#0463  Sales update: Gikistu design review moved to Room 6C.
+#0464  Operations chat: Gikistu test environment back online.
+#0465  Finance Office: Withdraw update #0093; it was entered in error.
+#0466  Legal email: Gikistu design review moved to Room 6A.
+#0467  Finance Office: Gikistu budget increased by $20K after review.
+#0468  Finance Office: Gikistu budget decreased by $150K per the revised plan.
+#0469  Operations chat: Gikistu test environment back online.
+#0470  Finance Office: Withdraw update #0407.
+#0471  Finance Office: Gikistu budget increased by $80K.
+#0472  Finance Office: Gikistu budget decreased by $15K per the revised plan.
+#0473  Vendor call: Gikistu status report filed for week 28.
+#0474  Engineering email: Gikistu kickoff moved to Building 2.
+#0475  Finance Office: Gikistu budget decreased by $95K per the revised plan.
+#0476  Finance Office: Gikistu budget decreased by $75K per the revised plan.
+#0477  Legal email: Gikistu site visit confirmed for Thursday.
+#0478  Engineering email: Gikistu kickoff moved to Building 8.
+#0479  PMO note: Gikistu weekly sync moved to Mondays.
+#0480  Finance Office: Withdraw update #0214; it was entered in error.
+#0481  Finance Office: Gikistu budget increased by $503K.
+#0482  Finance Office: Gikistu budget increased by $135K per the revised plan.
+#0483  Finance Office: Withdraw update #0361.
+#0484  Finance Office: Gikistu budget increased by $30K per the revised plan.
+#0485  Engineering email: Gikistu weekly sync moved to Tuesdays.
+#0486  PMO note: Gikistu sprint 2 retrospective notes posted.
+#0487  Finance Office: Gikistu budget increased by $105K after review.
+#0488  Facilities ticket: Gikistu status report filed for week 35.
+#0489  Finance Office: Withdraw update #0289; it was entered in error.
+#0490  Sales update: Gikistu site visit confirmed for Monday.
+#0491  Finance Office: Gikistu invoice batch FC-8402 archived.
+#0492  Operations chat: Gikistu weekly sync moved to Fridays.
+#0493  Finance Office: Withdraw update #0083; it was entered in error.
+#0494  Finance Office: Gikistu budget increased by $60K after review.
+#0495  Engineering email: Gikistu design review moved to Room 3B.
+#0496  Finance Office: Gikistu budget increased by $115K after review.
+#0497  PMO note: Gikistu test environment back online.
+#0498  Finance Office: Gikistu budget decreased by $15K per the revised plan.
+#0499  Facilities ticket: Gikistu design review moved to Room 3A.
+#0500  Finance Office: Gikistu budget decreased by $120K after review.
+#0501  Finance Office: Gikistu budget decreased by $91K after review.
+#0502  Facilities ticket: Gikistu design review moved to Room 5C.
+#0503  Finance Office: Gikistu budget increased by $341K.
+#0504  Finance Office: Gikistu budget increased by $100K.
+#0505  Finance Office: Withdraw update #0159.
+#0506  Finance Office: Gikistu budget decreased by $120K per the revised plan.
+#0507  Facilities ticket: Gikistu risk register updated with 3 new items.
+#0508  Finance Office: Gikistu budget increased by $15K after review.
+#0509  Marketing email: Gikistu kickoff moved to Building 7.
+#0510  PMO note: Gikistu kickoff moved to Building 6.
+#0511  Finance Office: Gikistu budget increased by $40K after review.
+#0512  Facilities ticket: Gikistu test environment back online.
+#0513  Finance Office: Gikistu budget decreased by $110K.
+#0514  PMO note: Gikistu test environment back online.
+#0515  PMO note: Gikistu weekly sync moved to Wednesdays.
+#0516  PMO note: Gikistu kickoff moved to Building 3.
+#0517  Finance Office: Withdraw update #0501.
+#0518  Finance Office: Gikistu budget decreased by $236K.
+#0519  Legal email: Gikistu weekly sync moved to Wednesdays.
+#0520  Legal email: Gikistu status report filed for week 19.
+#0521  Finance Office: Gikistu budget decreased by $84K.
+#0522  Operations chat: Gikistu status report filed for week 41.
+#0523  Finance Office: Gikistu budget decreased by $276K per the revised plan.
+#0524  Finance Office: Gikistu budget decreased by $65K after review.
+#0525  Finance Office: Gikistu budget increased by $409K after review.
+#0526  Finance Office: Gikistu budget increased by $115K per the revised plan.
+#0527  Vendor call: Gikistu kickoff moved to Building 2.
+#0528  Finance Office: Gikistu budget decreased by $15K per the revised plan.
+#0529  PMO note: Gikistu design review moved to Room 2C.
+#0530  Finance Office: Gikistu budget decreased by $110K per the revised plan.
+#0531  Finance Office: Gikistu budget decreased by $40K after review.
+#0532  Finance Office: Withdraw update #0503.
+#0533  Finance Office: Gikistu budget decreased by $105K after review.
+#0534  Finance Office: Withdraw update #0285.
+#0535  Finance Office: Withdraw update #0435; it was entered in error.
+#0536  Marketing email: Gikistu design review moved to Room 4C.
+#0537  PMO note: Gikistu weekly sync moved to Fridays.
+#0538  PMO note: Gikistu demo rescheduled to Tuesday afternoon.
+#0539  Finance Office: Gikistu budget decreased by $115K per the revised plan.
+#0540  Finance Office: Gikistu budget increased by $146K.
+#0541  Facilities ticket: Gikistu test environment back online.
+#0542  PMO note: Gikistu weekly sync moved to Wednesdays.
+#0543  Operations chat: Gikistu status report filed for week 25.
+#0544  Facilities ticket: Gikistu kickoff moved to Building 3.
+#0545  Legal email: Gikistu sprint 13 retrospective notes posted.
+#0546  Finance Office: Withdraw update #0046; it was entered in error.
+#0547  Finance Office: Gikistu budget increased by $12K per the revised plan.
+#0548  Legal email: Gikistu site visit confirmed for Thursday.
+#0549  Sales update: Gikistu risk register updated with 8 new items.
+#0550  Finance Office: Gikistu budget increased by $65K per the revised plan.
+#0551  Finance Office: Gikistu budget increased by $417K per the revised plan.
+#0552  Marketing email: Gikistu test environment back online.
+#0553  Facilities ticket: Gikistu site visit confirmed for Tuesday.
+#0554  Finance Office: Withdraw update #0327.
+#0555  PMO note: Gikistu design review moved to Room 4A.
+#0556  Marketing email: Gikistu test environment back online.
+#0557  Marketing email: Gikistu test environment back online.
+#0558  Finance Office: Gikistu budget decreased by $65K per the revised plan.
+#0559  Finance Office: Gikistu budget increased by $133K.
+#0560  Facilities ticket: Gikistu weekly sync moved to Wednesdays.
+#0561  Finance Office: Gikistu budget decreased by $85K after review.
+#0562  Facilities ticket: Gikistu kickoff moved to Building 2.
+#0563  Finance Office: Withdraw update #0410.
+#0564  Finance Office: Gikistu budget decreased by $55K per the revised plan.
+#0565  Finance Office: Withdraw update #0035; it was entered in error.
+#0566  Finance Office: Gikistu budget decreased by $15K per the revised plan.
+#0567  Vendor call: Gikistu kickoff moved to Building 2.
+#0568  PMO note: Gikistu site visit confirmed for Monday.
+#0569  Finance Office: Withdraw update #0236; it was entered in error.
+#0570  PMO note: Gikistu design review moved to Room 3A.
+#0571  Legal email: Gikistu kickoff moved to Building 3.
+#0572  Finance Office: Gikistu budget increased by $352K.
+#0573  Finance Office: Gikistu budget increased by $90K.
+#0574  Finance Office: Withdraw update #0408; it was entered in error.
+#0575  Finance Office: Gikistu budget increased by $65K per the revised plan.
+#0576  Finance Office: Gikistu budget decreased by $145K.
+#0577  Finance Office: Withdraw update #0532.
+#0578  Finance Office: Withdraw update #0368.
+#0579  Finance Office: Gikistu budget increased by $50K.
+#0580  Engineering email: Gikistu design review moved to Room 5D.
+#0581  Vendor call: Gikistu status report filed for week 13.
+#0582  Finance Office: Gikistu budget decreased by $364K after review.
+#0583  Legal email: Gikistu kickoff moved to Building 6.
+#0584  Legal email: Gikistu sprint 2 retrospective notes posted.
+#0585  PMO note: Gikistu demo rescheduled to Tuesday afternoon.
+#0586  Finance Office: Withdraw update #0114; it was entered in error.
+#0587  Finance Office: Gikistu budget increased by $85K after review.
+#0588  Finance Office: Gikistu budget decreased by $162K after review.
+#0589  Engineering email: Gikistu status report filed for week 29.
+#0590  Finance Office: Withdraw update #0397.
+#0591  Engineering email: Gikistu design review moved to Room 2C.
+#0592  Finance Office: Gikistu budget decreased by $45K.
+#0593  Finance Office: Gikistu budget decreased by $140K per the revised plan.
+#0594  Finance Office: Gikistu budget decreased by $562K after review.
+#0595  Finance Office: Gikistu budget decreased by $80K after review.
+#0596  Operations chat: Gikistu test environment back online.
+#0597  Sales update: Gikistu site visit confirmed for Tuesday.
+#0598  Operations chat: Gikistu status report filed for week 20.
+#0599  PMO note: Gikistu test environment back online.
+#0600  Finance Office: Gikistu budget increased by $167K after review.
+#0601  Finance Office: Gikistu budget decreased by $50K.
+#0602  Finance Office: Gikistu budget increased by $135K.
+#0603  PMO note: Gikistu status report filed for week 47.
+#0604  Engineering email: Gikistu design review moved to Room 5C.
+#0605  Finance Office: Withdraw update #0179.
+#0606  Finance Office: Withdraw update #0559; it was entered in error.
+#0607  Sales update: Gikistu site visit confirmed for Tuesday.
+#0608  Finance Office: Gikistu budget decreased by $20K.
+#0609  Facilities ticket: Gikistu site visit confirmed for Tuesday.
+#0610  Engineering email: Gikistu kickoff moved to Building 5.
+#0611  Finance Office: Gikistu budget increased by $65K after review.
+#0612  Marketing email: Gikistu vendor onboarding call scheduled for Wednesday.
+#0613  Marketing email: Gikistu test environment back online.
+#0614  Finance Office: Gikistu budget increased by $20K.
+#0615  Finance Office: Withdraw update #0193.
+#0616  Sales update: Gikistu test environment back online.
+#0617  Operations chat: Gikistu documentation moved to the shared drive.
+#0618  Marketing email: Gikistu documentation moved to the shared drive.
+#0619  Finance Office: Gikistu budget increased by $10K per the revised plan.
+#0620  Finance Office: Gikistu budget decreased by $80K.
+#0621  Finance Office: Gikistu purchase order FC-6251 closed.
+#0622  Finance Office: Gikistu budget increased by $90K.
+#0623  Finance Office: Gikistu budget decreased by $60K per the revised plan.
+#0624  Finance Office: Gikistu budget increased by $135K per the revised plan.
+#0625  Finance Office: Withdraw update #0156.
+#0626  Operations chat: Gikistu kickoff moved to Building 5.
+#0627  Marketing email: Gikistu weekly sync moved to Mondays.
+#0628  Finance Office: Gikistu budget increased by $125K per the revised plan.
+#0629  Engineering email: Gikistu site visit confirmed for Tuesday.
+#0630  Finance Office: Withdraw update #0120; it was entered in error.
+#0631  Finance Office: Gikistu cost center code changed to FC-4212.
+#0632  Finance Office: Gikistu budget increased by $10K after review.
+#0633  Legal email: Gikistu vendor onboarding call scheduled for Thursday.
+#0634  Finance Office: Gikistu budget increased by $60K per the revised plan.
+#0635  Finance Office: Gikistu budget decreased by $15K.
+#0636  Finance Office: Withdraw update #0572; it was entered in error.
+#0637  Finance Office: Gikistu budget increased by $20K after review.
+#0638  Facilities ticket: Gikistu kickoff moved to Building 6.
+#0639  Finance Office: Gikistu budget decreased by $115K after review.
+#0640  Finance Office: Gikistu budget decreased by $55K per the revised plan.
+#0641  Finance Office: Gikistu budget decreased by $110K.
+#0642  Engineering email: Gikistu kickoff moved to Building 7.
+#0643  Finance Office: Withdraw update #0547; it was entered in error.
+#0644  Finance Office: Gikistu budget decreased by $55K after review.
+#0645  Finance Office: Gikistu budget increased by $55K per the revised plan.
+#0646  Legal email: Gikistu design review moved to Room 3C.
+#0647  Finance Office: Withdraw update #0041; it was entered in error.
+#0648  PMO note: Gikistu security review passed.
+#0649  Finance Office: Gikistu budget increased by $60K.
+#0650  Legal email: Gikistu site visit confirmed for Wednesday.
+#0651  Facilities ticket: Gikistu design review moved to Room 3C.
+#0652  Finance Office: Gikistu budget decreased by $65K.
+#0653  Finance Office: Gikistu budget increased by $135K.
+#0654  Vendor call: Gikistu kickoff moved to Building 9.
+#0655  Finance Office: Gikistu budget increased by $509K.
+#0656  Vendor call: Gikistu status report filed for week 40.
+#0657  Facilities ticket: Gikistu site visit confirmed for Friday.
+#0658  Finance Office: Gikistu budget increased by $25K after review.
+#0659  Finance Office: Gikistu budget increased by $5K after review.
+#0660  Finance Office: Withdraw update #0274.
+#0661  Finance Office: Gikistu budget decreased by $224K per the revised plan.
+#0662  Vendor call: Gikistu kickoff moved to Building 8.
+#0663  Finance Office: Gikistu budget increased by $65K.
+#0664  Operations chat: Gikistu site visit confirmed for Wednesday.
+#0665  Finance Office: Reminder: Gikistu expense reports are due Monday.
+#0666  Finance Office: Gikistu budget decreased by $309K.
+#0667  Finance Office: Gikistu invoice batch FC-9394 archived.
+#0668  Operations chat: Gikistu weekly sync moved to Tuesdays.
+#0669  Sales update: Gikistu weekly sync moved to Tuesdays.
+#0670  Facilities ticket: Gikistu site visit confirmed for Tuesday.
+#0671  PMO note: Gikistu kickoff moved to Building 9.
+#0672  Finance Office: Gikistu budget decreased by $105K per the revised plan.
+#0673  Finance Office: Gikistu budget increased by $145K per the revised plan.
+#0674  Finance Office: Gikistu budget decreased by $100K.
+#0675  Finance Office: Reminder: Gikistu expense reports are due Thursday.
+#0676  Finance Office: Withdraw update #0369.
+#0677  Finance Office: Gikistu budget increased by $25K per the revised plan.
+#0678  Finance Office: Gikistu budget decreased by $90K.
+#0679  Finance Office: Gikistu budget decreased by $15K per the revised plan.
+#0680  Finance Office: Withdraw update #0426.
+#0681  Operations chat: Gikistu test environment back online.
+#0682  Finance Office: Gikistu budget decreased by $15K per the revised plan.
+#0683  PMO note: Gikistu weekly sync moved to Thursdays.
+#0684  Finance Office: Withdraw update #0578; it was entered in error.
+#0685  Finance Office: Gikistu audit notes filed.
+#0686  PMO note: Gikistu vendor onboarding call scheduled for Thursday.
+#0687  Sales update: Gikistu site visit confirmed for Tuesday.
+#0688  Finance Office: Gikistu budget increased by $85K per the revised plan.
+#0689  Finance Office: Gikistu audit notes filed.
+#0690  Legal email: Gikistu weekly sync moved to Mondays.
+#0691  Finance Office: Gikistu budget increased by $30K after review.
+#0692  Vendor call: Gikistu test environment back online.
+#0693  Finance Office: Gikistu budget increased by $35K.
+#0694  Finance Office: Withdraw update #0535; it was entered in error.
+#0695  Vendor call: Gikistu kickoff moved to Building 9.
+#0696  PMO note: Gikistu status report filed for week 2.
+#0697  Finance Office: Gikistu budget decreased by $105K.
+#0698  Operations chat: Gikistu site visit confirmed for Thursday.
+#0699  Finance Office: Gikistu budget decreased by $45K after review.
+#0700  Finance Office: Reminder: Gikistu expense reports are due Friday.
+#0701  Finance Office: Gikistu budget increased by $145K after review.
+#0702  Marketing email: Gikistu weekly sync moved to Mondays.
+#0703  PMO note: Gikistu status report filed for week 12.
+#0704  Operations chat: Gikistu demo rescheduled to Tuesday afternoon.
+#0705  Legal email: Gikistu status report filed for week 23.
+#0706  Finance Office: Gikistu quarterly audit scheduled for Thursday.
+#0707  PMO note: Gikistu weekly sync moved to Tuesdays.
+#0708  Finance Office: Withdraw update #0540.
+#0709  Vendor call: Gikistu test environment back online.
+#0710  Finance Office: Gikistu budget increased by $70K per the revised plan.
+#0711  Finance Office: Gikistu budget decreased by $55K per the revised plan.
+#0712  Sales update: Gikistu design review moved to Room 3D.
+#0713  Finance Office: Gikistu quarterly audit scheduled for Tuesday.
+#0714  Finance Office: Gikistu budget decreased by $5K.
+#0715  Finance Office: Gikistu budget increased by $357K after review.
+#0716  Finance Office: Withdraw update #0588.
+#0717  Finance Office: Withdraw update #0334.
+#0718  PMO note: Gikistu documentation moved to the shared drive.
+#0719  Finance Office: Gikistu budget decreased by $576K.
+#0720  Facilities ticket: Gikistu design review moved to Room 4D.
+#0721  Vendor call: Gikistu status report filed for week 13.
+#0722  Engineering email: Gikistu site visit confirmed for Tuesday.
+#0723  Finance Office: Gikistu budget decreased by $25K after review.
+#0724  Marketing email: Gikistu vendor onboarding call scheduled for Friday.
+#0725  Finance Office: Withdraw update #0266.
+#0726  Finance Office: Gikistu budget decreased by $55K per the revised plan.
+#0727  Finance Office: Withdraw update #0146; it was entered in error.
+#0728  Finance Office: Gikistu budget decreased by $206K per the revised plan.
+#0729  Finance Office: Gikistu budget increased by $30K per the revised plan.
+#0730  Marketing email: Gikistu weekly sync moved to Tuesdays.
+#0731  Engineering email: Gikistu status report filed for week 29.
+#0732  Finance Office: Gikistu quarterly audit scheduled for Monday.
+#0733  Finance Office: Gikistu budget increased by $71K.
+#0734  Finance Office: Gikistu budget decreased by $49K.
+#0735  Finance Office: Gikistu budget increased by $90K.
+#0736  Finance Office: Gikistu budget decreased by $70K.
+#0737  Finance Office: Gikistu budget decreased by $319K after review.
+#0738  Engineering email: Gikistu kickoff moved to Building 7.
+#0739  Sales update: Gikistu test environment back online.
+#0740  Finance Office: Gikistu budget decreased by $15K.
+#0741  PMO note: Gikistu test environment back online.
+#0742  Finance Office: Gikistu budget decreased by $40K per the revised plan.
+#0743  Finance Office: Withdraw update #0605.
+#0744  Finance Office: Reminder: Gikistu expense reports are due Monday.
+#0745  Legal email: Gikistu kickoff moved to Building 3.
+#0746  Finance Office: Gikistu budget increased by $65K after review.
+#0747  Finance Office: Gikistu budget increased by $140K after review.
+#0748  Finance Office: Gikistu budget decreased by $204K.
+#0749  Finance Office: Gikistu budget decreased by $30K per the revised plan.
+#0750  PMO note: Gikistu kickoff moved to Building 7.
+#0751  Finance Office: Gikistu budget increased by $120K per the revised plan.
+#0752  Finance Office: Gikistu budget decreased by $5K.
+#0753  Finance Office: Reminder: Gikistu expense reports are due Monday.
+#0754  Finance Office: Withdraw update #0019; it was entered in error.
+#0755  Finance Office: Gikistu budget increased by $151K per the revised plan.
+#0756  Operations chat: Gikistu design review moved to Room 5C.
+#0757  Finance Office: Withdraw update #0655; it was entered in error.
+#0758  Finance Office: Gikistu budget decreased by $10K.
+#0759  PMO note: Gikistu test environment back online.
+#0760  Finance Office: Gikistu budget decreased by $169K after review.
+#0761  Finance Office: Withdraw update #0270.
+#0762  Marketing email: Gikistu status report filed for week 24.
+#0763  Finance Office: Gikistu budget decreased by $150K after review.
+#0764  Sales update: Gikistu test environment back online.
+#0765  Sales update: Gikistu test environment back online.
+#0766  Finance Office: Withdraw update #0187; it was entered in error.
+#0767  Finance Office: Withdraw update #0521; it was entered in error.
+#0768  Finance Office: Gikistu budget increased by $90K after review.
+#0769  Finance Office: Gikistu budget increased by $145K.
+#0770  Vendor call: Gikistu design review moved to Room 5A.
+#0771  Finance Office: Gikistu budget increased by $125K per the revised plan.
+#0772  Finance Office: Withdraw update #0586; it was entered in error.
+#0773  Finance Office: Gikistu budget increased by $150K per the revised plan.
+#0774  Finance Office: Gikistu budget increased by $50K after review.
+#0775  Finance Office: Gikistu budget increased by $65K after review.
+#0776  Finance Office: Gikistu budget decreased by $85K.
+#0777  Finance Office: Withdraw update #0170.
+#0778  Legal email: Gikistu site visit confirmed for Friday.
+#0779  Sales update: Gikistu site visit confirmed for Thursday.
+#0780  Operations chat: Gikistu test environment back online.
+#0781  Finance Office: Gikistu budget increased by $15K per the revised plan.
+#0782  Finance Office: Withdraw update #0345; it was entered in error.
+#0783  Finance Office: Gikistu budget increased by $95K per the revised plan.
+#0784  Finance Office: Reminder: Gikistu expense reports are due Monday.
+#0785  Sales update: Gikistu status report filed for week 6.
+#0786  Finance Office: Gikistu budget increased by $110K.
+#0787  Finance Office: Withdraw update #0582.
+#0788  Finance Office: Gikistu budget increased by $55K after review.
+#0789  PMO note: Gikistu weekly sync moved to Mondays.
+#0790  Finance Office: Withdraw update #0340.
+#0791  Finance Office: Gikistu budget increased by $90K after review.
+#0792  Operations chat: Gikistu risk register updated with 6 new items.
+#0793  Finance Office: Gikistu budget decreased by $25K per the revised plan.
+#0794  Marketing email: Gikistu test environment back online.
+#0795  Operations chat: Gikistu design review moved to Room 5A.
+#0796  Finance Office: Gikistu budget increased by $110K per the revised plan.
+#0797  Vendor call: Gikistu test environment back online.
+#0798  Finance Office: Gikistu audit notes filed.
+#0799  Finance Office: Gikistu budget increased by $33K after review.
+#0800  Finance Office: Gikistu budget increased by $100K after review.
+#0801  Finance Office: Gikistu budget increased by $130K.
+#0802  Finance Office: Gikistu budget increased by $35K per the revised plan.
+#0803  Finance Office: Withdraw update #0518; it was entered in error.
+#0804  Finance Office: Withdraw update #0733; it was entered in error.
+#0805  Finance Office: Gikistu budget decreased by $115K per the revised plan.
+#0806  Marketing email: Gikistu test environment back online.
+#0807  Finance Office: Gikistu budget increased by $120K per the revised plan.
+#0808  Sales update: Gikistu demo rescheduled to Monday afternoon.
+#0809  Sales update: Gikistu status report filed for week 41.
+#0810  Operations chat: Gikistu design review moved to Room 1A.
+#0811  Finance Office: Gikistu budget increased by $80K after review.
+#0812  Sales update: Gikistu demo rescheduled to Friday afternoon.
+#0813  Finance Office: Gikistu budget decreased by $90K after review.
+#0814  Finance Office: Gikistu budget increased by $73K per the revised plan.
+#0815  Finance Office: Gikistu budget increased by $45K per the revised plan.
+#0816  Finance Office: Gikistu finance review moved to Room 1C.
+#0817  PMO note: Gikistu site visit confirmed for Monday.
+#0818  Finance Office: Gikistu budget increased by $301K per the revised plan.
+#0819  Engineering email: Gikistu kickoff moved to Building 6.
+#0820  Finance Office: Gikistu budget increased by $20K.
+#0821  Finance Office: Gikistu budget increased by $150K per the revised plan.
+#0822  Finance Office: Gikistu budget decreased by $120K.
+#0823  Operations chat: Gikistu status report filed for week 29.
+#0824  Finance Office: Gikistu budget decreased by $15K per the revised plan.
+#0825  Finance Office: Gikistu budget decreased by $20K after review.
+#0826  Finance Office: Gikistu budget decreased by $95K after review.
+#0827  Finance Office: Gikistu budget increased by $55K.
+#0828  Finance Office: Gikistu budget decreased by $135K after review.
+#0829  Finance Office: Gikistu budget increased by $75K per the revised plan.
+#0830  Facilities ticket: Gikistu kickoff moved to Building 7.
+#0831  Finance Office: Gikistu budget decreased by $150K.
+#0832  Finance Office: Gikistu budget decreased by $597K after review.
+#0833  Finance Office: Gikistu budget decreased by $50K.
+#0834  Finance Office: Gikistu budget increased by $359K.
+#0835  Finance Office: Gikistu budget increased by $110K per the revised plan.
+#0836  Finance Office: Gikistu budget increased by $60K.
+#0837  Finance Office: Withdraw update #0282; it was entered in error.
+#0838  Marketing email: Gikistu test environment back online.
+#0839  Finance Office: Gikistu budget decreased by $85K per the revised plan.
+#0840  Vendor call: Gikistu sprint 3 retrospective notes posted.
+#0841  Operations chat: Gikistu kickoff moved to Building 5.
+#0842  Finance Office: Gikistu budget decreased by $10K after review.
+#0843  Finance Office: Withdraw update #0754; it was entered in error.
+#0844  Finance Office: Gikistu budget increased by $140K per the revised plan.
+#0845  Operations chat: Gikistu sprint 24 retrospective notes posted.
+#0846  Facilities ticket: Gikistu risk register updated with 4 new items.
+#0847  Operations chat: Gikistu site visit confirmed for Tuesday.
+#0848  Sales update: Gikistu demo rescheduled to Monday afternoon.
+#0849  Legal email: Gikistu security review passed.
+#0850  Finance Office: Gikistu budget increased by $90K per the revised plan.
+#0851  Sales update: Gikistu documentation moved to the shared drive.
+#0852  Finance Office: Gikistu budget decreased by $557K.
+#0853  Facilities ticket: Gikistu weekly sync moved to Tuesdays.
+#0854  Vendor call: Gikistu documentation moved to the shared drive.
+#0855  Vendor call: Gikistu design review moved to Room 6D.
+#0856  Finance Office: Gikistu budget increased by $25K per the revised plan.
+#0857  Finance Office: Gikistu budget decreased by $100K after review.
+#0858  Finance Office: Gikistu budget increased by $40K per the revised plan.
+#0859  Finance Office: Gikistu budget decreased by $55K per the revised plan.
+#0860  Finance Office: Withdraw update #0525.
+#0861  Finance Office: Gikistu budget increased by $568K after review.
+#0862  Finance Office: Withdraw update #0787; it was entered in error.
+#0863  Finance Office: Gikistu budget increased by $5K per the revised plan.
+#0864  Finance Office: Gikistu budget decreased by $20K.
+#0865  Finance Office: Gikistu budget decreased by $35K per the revised plan.
+#0866  Finance Office: Gikistu budget increased by $40K after review.
+#0867  Finance Office: Gikistu budget increased by $80K per the revised plan.
+#0868  Facilities ticket: Gikistu risk register updated with 4 new items.
+#0869  Marketing email: Gikistu test environment back online.
+#0870  Finance Office: Gikistu budget decreased by $125K after review.
+#0871  Vendor call: Gikistu weekly sync moved to Wednesdays.
+#0872  Finance Office: Gikistu budget increased by $8K after review.
+#0873  Finance Office: Withdraw update #0715.
+#0874  Sales update: Gikistu site visit confirmed for Thursday.
+#0875  Marketing email: Gikistu sprint 14 retrospective notes posted.
+#0876  Finance Office: Gikistu budget decreased by $150K.
+#0877  Finance Office: Withdraw update #0647; it was entered in error.
+#0878  Marketing email: Gikistu site visit confirmed for Friday.
+#0879  PMO note: Gikistu design review moved to Room 1C.
+#0880  Finance Office: Gikistu budget decreased by $10K per the revised plan.
+#0881  Finance Office: Gikistu budget decreased by $5K per the revised plan.
+#0882  Finance Office: Gikistu budget decreased by $5K per the revised plan.
+#0883  Finance Office: Gikistu budget increased by $65K.
+#0884  Finance Office: Gikistu budget increased by $150K.
+#0885  Finance Office: Gikistu budget increased by $424K after review.
+#0886  Finance Office: Gikistu budget increased by $20K after review.
+#0887  Engineering email: Gikistu weekly sync moved to Thursdays.
+#0888  Finance Office: Gikistu budget increased by $115K after review.
+#0889  Finance Office: Gikistu budget decreased by $45K after review.
+#0890  Finance Office: Gikistu budget decreased by $50K.
+#0891  Finance Office: Gikistu budget increased by $75K per the revised plan.
+#0892  Facilities ticket: Gikistu test environment back online.
+#0893  Finance Office: Gikistu invoice batch FC-6246 archived.
+#0894  Finance Office: Withdraw update #0392; it was entered in error.
+#0895  Finance Office: Gikistu budget decreased by $353K.
+#0896  Finance Office: Withdraw update #0481.
+#0897  Finance Office: Withdraw update #0348; it was entered in error.
+#0898  Finance Office: Withdraw update #0862.
+#0899  Operations chat: Gikistu weekly sync moved to Tuesdays.
+#0900  Finance Office: Withdraw update #0349; it was entered in error.
+#0901  Finance Office: Withdraw update #0743.
+#0902  Finance Office: Gikistu budget increased by $125K after review.
+#0903  Facilities ticket: Gikistu test environment back online.
+#0904  Engineering email: Gikistu demo rescheduled to Wednesday afternoon.
+#0905  PMO note: Gikistu sprint 3 retrospective notes posted.
+#0906  Finance Office: Gikistu budget decreased by $80K after review.
+#0907  Finance Office: Gikistu budget increased by $100K after review.
+#0908  Finance Office: Withdraw update #0344; it was entered in error.
+#0909  Finance Office: Gikistu budget decreased by $35K.
+#0910  Vendor call: Gikistu test environment back online.
+#0911  Finance Office: Gikistu budget increased by $40K per the revised plan.
+#0912  Marketing email: Gikistu status report filed for week 17.
+#0913  Engineering email: Gikistu site visit confirmed for Friday.
+#0914  Marketing email: Gikistu test environment back online.
+#0915  Finance Office: Gikistu budget decreased by $20K after review.
+#0916  Finance Office: Gikistu budget increased by $20K.
+#0917  Finance Office: Gikistu budget decreased by $100K per the revised plan.
+#0918  Finance Office: Gikistu budget decreased by $100K after review.
+#0919  Finance Office: Gikistu budget increased by $45K.
+#0920  Finance Office: Gikistu budget decreased by $100K after review.
+#0921  Finance Office: Withdraw update #0317; it was entered in error.
+#0922  Finance Office: Gikistu budget decreased by $115K.
+#0923  Marketing email: Gikistu kickoff moved to Building 5.
+#0924  Finance Office: Gikistu budget increased by $25K after review.
+#0925  Finance Office: Gikistu budget increased by $25K per the revised plan.
+#0926  Finance Office: Gikistu budget decreased by $135K per the revised plan.
+#0927  Finance Office: Gikistu budget decreased by $125K per the revised plan.
+#0928  Finance Office: Withdraw update #0734.
+#0929  Finance Office: Gikistu budget decreased by $100K per the revised plan.
+#0930  Finance Office: Gikistu budget increased by $77K.
+#0931  Finance Office: Withdraw update #0777.
+#0932  Operations chat: Gikistu documentation moved to the shared drive.
+#0933  Marketing email: Gikistu weekly sync moved to Mondays.
+#0934  Sales update: Gikistu status report filed for week 48.
+#0935  Finance Office: Gikistu budget decreased by $292K per the revised plan.
+#0936  Finance Office: Gikistu budget decreased by $150K after review.
+#0937  Finance Office: Gikistu budget increased by $338K.
+#0938  Finance Office: Withdraw update #0280.
+#0939  Legal email: Gikistu documentation moved to the shared drive.
+#0940  Finance Office: Gikistu budget decreased by $140K after review.
+#0941  Finance Office: Gikistu budget increased by $140K.
+#0942  Finance Office: Gikistu budget increased by $65K per the revised plan.
+#0943  Finance Office: Gikistu budget increased by $140K per the revised plan.
+#0944  Finance Office: Gikistu budget increased by $110K.
+#0945  Finance Office: Gikistu budget decreased by $130K per the revised plan.
+#0946  Finance Office: Gikistu budget decreased by $150K per the revised plan.
+#0947  Finance Office: Gikistu budget decreased by $85K per the revised plan.
+#0948  Facilities ticket: Gikistu kickoff moved to Building 7.
+#0949  Finance Office: Gikistu budget decreased by $65K per the revised plan.
+#0950  Finance Office: Gikistu budget decreased by $105K.
+#0951  Finance Office: Withdraw update #0861.
+#0952  Finance Office: Gikistu budget decreased by $556K per the revised plan.
+#0953  Finance Office: Gikistu budget decreased by $5K after review.
+#0954  Finance Office: Gikistu budget decreased by $107K after review.
+#0955  Finance Office: Gikistu budget decreased by $145K per the revised plan.
+#0956  Finance Office: Gikistu budget decreased by $10K.
+#0957  Finance Office: Gikistu budget decreased by $70K.
+#0958  Engineering email: Gikistu kickoff moved to Building 5.
+#0959  PMO note: Gikistu status report filed for week 9.
+#0960  Finance Office: Withdraw update #0900; it was entered in error.
+#0961  Operations chat: Gikistu sprint 29 retrospective notes posted.
+#0962  Finance Office: Gikistu audit notes filed.
+#0963  Finance Office: Gikistu budget decreased by $35K.
+#0964  Finance Office: Withdraw update #0374; it was entered in error.
+#0965  Finance Office: Withdraw update #0213; it was entered in error.
+#0966  PMO note: Gikistu documentation moved to the shared drive.
+#0967  Engineering email: Gikistu sprint 37 retrospective notes posted.
+#0968  Finance Office: Gikistu budget decreased by $120K per the revised plan.
+#0969  Finance Office: Withdraw update #0450.
+#0970  Engineering email: Gikistu test environment back online.
+#0971  Finance Office: Gikistu budget increased by $35K.
+#0972  Vendor call: Gikistu weekly sync moved to Tuesdays.
+#0973  Finance Office: Withdraw update #0969.
+#0974  Finance Office: Gikistu budget increased by $100K.
+#0975  Finance Office: Gikistu budget increased by $40K.
+#0976  Finance Office: Gikistu budget increased by $75K after review.
+#0977  Facilities ticket: Gikistu kickoff moved to Building 3.
+#0978  Sales update: Gikistu status report filed for week 42.
+#0979  Finance Office: Gikistu budget increased by $115K.
+#0980  Finance Office: Gikistu budget increased by $493K per the revised plan.
+#0981  Legal email: Gikistu weekly sync moved to Wednesdays.
+#0982  Marketing email: Gikistu documentation moved to the shared drive.
+#0983  Legal email: Gikistu kickoff moved to Building 3.
+#0984  Finance Office: Gikistu budget increased by $125K.
+#0985  Finance Office: Gikistu budget decreased by $105K.
+#0986  PMO note: Gikistu sprint 23 retrospective notes posted.
+#0987  Finance Office: Withdraw update #0666.
+#0988  Finance Office: Withdraw update #0238; it was entered in error.
+#0989  Facilities ticket: Gikistu test environment back online.
+#0990  Finance Office: Withdraw update #0551.
+#0991  Finance Office: Gikistu budget decreased by $35K per the revised plan.
+#0992  Vendor call: Gikistu test environment back online.
+#0993  Finance Office: Gikistu budget increased by $150K.
+#0994  Engineering email: Gikistu test environment back online.
+#0995  Vendor call: Gikistu weekly sync moved to Tuesdays.
+#0996  Finance Office: Gikistu budget decreased by $105K after review.
+#0997  Finance Office: Gikistu budget increased by $130K.
+#0998  Finance Office: Gikistu budget decreased by $100K.
+#0999  Vendor call: Gikistu design review moved to Room 1C.
+#1000  Sales update: Gikistu risk register updated with 3 new items.
+#1001  Vendor call: Gikistu demo rescheduled to Tuesday afternoon.
+#1002  Finance Office: Gikistu budget decreased by $45K after review.
+#1003  Finance Office: Gikistu budget increased by $65K.
+#1004  Finance Office: Gikistu budget increased by $130K.
+#1005  Finance Office: Gikistu budget decreased by $95K.
+#1006  Finance Office: Gikistu budget increased by $30K after review.
+#1007  Finance Office: Gikistu budget decreased by $59K per the revised plan.
+#1008  PMO note: Gikistu sprint 15 retrospective notes posted.
+#1009  Sales update: Gikistu weekly sync moved to Fridays.
+#1010  Finance Office: Gikistu budget increased by $125K after review.
+#1011  Finance Office: Withdraw update #0728; it was entered in error.
+#1012  Finance Office: Gikistu budget decreased by $140K.
+#1013  Finance Office: Gikistu purchase order FC-8941 closed.
+#1014  Vendor call: Gikistu test environment back online.
+#1015  Marketing email: Gikistu status report filed for week 35.
+#1016  Finance Office: Gikistu budget increased by $125K.
+#1017  Sales update: Gikistu test environment back online.
+#1018  Marketing email: Gikistu documentation moved to the shared drive.
+#1019  Marketing email: Gikistu status report filed for week 22.
+#1020  Finance Office: Gikistu purchase order FC-4623 closed.
+#1021  Facilities ticket: Gikistu design review moved to Room 5C.
+#1022  Finance Office: Gikistu budget increased by $80K after review.
+#1023  Marketing email: Gikistu weekly sync moved to Thursdays.
+#1024  Legal email: Gikistu design review moved to Room 4A.
+#1025  Finance Office: Gikistu budget decreased by $60K per the revised plan.
+#1026  Finance Office: Gikistu budget decreased by $30K.
+#1027  Finance Office: Gikistu receipts scanned.
+#1028  Operations chat: Gikistu design review moved to Room 4A.
+#1029  Finance Office: Gikistu budget decreased by $532K.
+#1030  Sales update: Gikistu security review passed.
+#1031  Facilities ticket: Gikistu site visit confirmed for Wednesday.
+#1032  Finance Office: Gikistu budget decreased by $120K per the revised plan.
+#1033  Marketing email: Gikistu test environment back online.
+#1034  Vendor call: Gikistu status report filed for week 6.
+#1035  Finance Office: Gikistu budget increased by $90K per the revised plan.
+#1036  Sales update: Gikistu test environment back online.
+#1037  Finance Office: Withdraw update #0937; it was entered in error.
+#1038  Finance Office: Gikistu budget decreased by $110K after review.
+#1039  Finance Office: Withdraw update #0594.
+#1040  Finance Office: Gikistu budget decreased by $75K.
+#1041  Finance Office: Gikistu budget increased by $75K.
+#1042  Finance Office: Gikistu budget decreased by $80K after review.
+#1043  Finance Office: Gikistu budget increased by $90K per the revised plan.
+#1044  Finance Office: Gikistu budget increased by $25K per the revised plan.
+#1045  Finance Office: Gikistu quarterly audit scheduled for Thursday.
+#1046  Marketing email: Gikistu site visit confirmed for Monday.
+#1047  Finance Office: Gikistu budget decreased by $15K per the revised plan.
+#1048  Facilities ticket: Gikistu sprint 40 retrospective notes posted.
+#1049  Finance Office: Gikistu budget decreased by $120K after review.
+#1050  Finance Office: Gikistu budget decreased by $30K per the revised plan.
+#1051  Finance Office: Gikistu budget decreased by $45K.
+#1052  Finance Office: Gikistu budget decreased by $100K after review.
+#1053  Finance Office: Gikistu budget decreased by $171K after review.
+#1054  Marketing email: Gikistu weekly sync moved to Fridays.
+#1055  Finance Office: Withdraw update #0630; it was entered in error.
+#1056  Finance Office: Gikistu budget increased by $161K.
+#1057  Finance Office: Gikistu budget increased by $105K per the revised plan.
+#1058  Engineering email: Gikistu weekly sync moved to Fridays.
+#1059  Sales update: Gikistu weekly sync moved to Fridays.
+#1060  Sales update: Gikistu demo rescheduled to Monday afternoon.
+#1061  Finance Office: Gikistu budget increased by $30K.
+#1062  Marketing email: Gikistu sprint 42 retrospective notes posted.
+#1063  Finance Office: Gikistu budget increased by $75K after review.
+#1064  Finance Office: Withdraw update #1007; it was entered in error.
+#1065  Marketing email: Gikistu site visit confirmed for Friday.
+#1066  Finance Office: Gikistu budget increased by $183K.
+#1067  Legal email: Gikistu kickoff moved to Building 4.
+#1068  Finance Office: Gikistu budget decreased by $488K after review.
+#1069  Legal email: Gikistu risk register updated with 6 new items.
+#1070  Finance Office: Gikistu budget increased by $40K after review.
+#1071  Vendor call: Gikistu weekly sync moved to Tuesdays.
+#1072  Finance Office: Gikistu budget increased by $150K after review.
+#1073  Finance Office: Withdraw update #0451; it was entered in error.
+#1074  Engineering email: Gikistu security review passed.
+#1075  Finance Office: Gikistu budget increased by $259K.
+#1076  Finance Office: Gikistu budget decreased by $264K after review.
+#1077  Marketing email: Gikistu kickoff moved to Building 7.
+#1078  Finance Office: Gikistu budget increased by $125K.
+#1079  Sales update: Gikistu security review passed.
+#1080  Finance Office: Gikistu budget increased by $50K after review.
+#1081  Finance Office: Gikistu budget increased by $120K per the revised plan.
+#1082  Finance Office: Gikistu budget increased by $125K.
+#1083  Legal email: Gikistu design review moved to Room 3A.
+#1084  Finance Office: Gikistu budget increased by $120K per the revised plan.
+#1085  Legal email: Gikistu status report filed for week 25.
+#1086  Finance Office: Withdraw update #0339; it was entered in error.
+#1087  Finance Office: Gikistu budget increased by $45K.
+#1088  Vendor call: Gikistu test environment back online.
+#1089  Engineering email: Gikistu weekly sync moved to Thursdays.
+#1090  PMO note: Gikistu kickoff moved to Building 2.
+#1091  Finance Office: Gikistu budget increased by $100K per the revised plan.
+#1092  Finance Office: Gikistu budget increased by $80K per the revised plan.
+#1093  Sales update: Gikistu kickoff moved to Building 6.
+#1094  Finance Office: Gikistu budget decreased by $130K per the revised plan.
+#1095  Finance Office: Withdraw update #1064.
+#1096  Finance Office: Gikistu budget increased by $115K.
+#1097  Finance Office: Gikistu budget increased by $150K.
+#1098  Finance Office: Withdraw update #0716; it was entered in error.
+#1099  Finance Office: Gikistu budget increased by $30K per the revised plan.
+#1100  Finance Office: Gikistu budget increased by $145K per the revised plan.
+#1101  Legal email: Gikistu status report filed for week 20.
+#1102  Finance Office: Gikistu budget decreased by $55K after review.
+#1103  Finance Office: Gikistu finance review moved to Room 1D.
+#1104  Finance Office: Withdraw update #0554; it was entered in error.
+#1105  Finance Office: Gikistu budget decreased by $135K.
+#1106  Operations chat: Gikistu design review moved to Room 5D.
+#1107  Finance Office: Withdraw update #1056.
+#1108  PMO note: Gikistu status report filed for week 2.
+#1109  Marketing email: Gikistu sprint 33 retrospective notes posted.
+#1110  PMO note: Gikistu site visit confirmed for Friday.
+#1111  Engineering email: Gikistu demo rescheduled to Monday afternoon.
+#1112  Finance Office: Gikistu budget decreased by $7K per the revised plan.
+#1113  Finance Office: Gikistu budget decreased by $125K.
+#1114  Finance Office: Gikistu budget increased by $60K after review.
+#1115  Vendor call: Gikistu sprint 16 retrospective notes posted.
+#1116  Finance Office: Gikistu budget increased by $85K per the revised plan.
+#1117  Finance Office: Gikistu budget decreased by $105K after review.
+#1118  Operations chat: Gikistu test environment back online.
+#1119  Vendor call: Gikistu demo rescheduled to Monday afternoon.
+#1120  Finance Office: Gikistu budget increased by $140K.
+#1121  Finance Office: Gikistu budget decreased by $35K per the revised plan.
+#1122  Finance Office: Gikistu budget decreased by $45K.
+#1123  Finance Office: Withdraw update #0411; it was entered in error.
+#1124  Finance Office: Withdraw update #0409; it was entered in error.
+#1125  Vendor call: Gikistu test environment back online.
+#1126  Finance Office: Withdraw update #0259; it was entered in error.
+#1127  Vendor call: Gikistu status report filed for week 41.
+#1128  Finance Office: Gikistu budget decreased by $75K.
+#1129  Finance Office: Gikistu budget decreased by $25K after review.
+#1130  Sales update: Gikistu security review passed.
+#1131  Finance Office: Gikistu budget increased by $55K per the revised plan.
+#1132  Finance Office: Gikistu budget increased by $145K after review.
+#1133  Finance Office: Gikistu budget decreased by $25K per the revised plan.
+#1134  Legal email: Gikistu site visit confirmed for Tuesday.
+#1135  Finance Office: Gikistu budget increased by $95K.
+#1136  Facilities ticket: Gikistu risk register updated with 8 new items.
+#1137  Finance Office: Withdraw update #0760.
+#1138  Finance Office: Gikistu budget decreased by $140K per the revised plan.
+#1139  Finance Office: Gikistu budget decreased by $70K after review.
+#1140  Finance Office: Gikistu budget decreased by $25K after review.
+#1141  Legal email: Gikistu design review moved to Room 2C.
+#1142  Finance Office: Gikistu budget decreased by $30K per the revised plan.
+#1143  Operations chat: Gikistu weekly sync moved to Mondays.
+#1144  Finance Office: Gikistu budget decreased by $120K.
+#1145  Operations chat: Gikistu risk register updated with 9 new items.
+#1146  Finance Office: Withdraw update #0737.
+#1147  Finance Office: Gikistu budget decreased by $15K.
+#1148  Finance Office: Gikistu budget increased by $10K.
+#1149  Finance Office: Gikistu budget decreased by $25K after review.
+#1150  PMO note: Gikistu demo rescheduled to Friday afternoon.
+#1151  Finance Office: Gikistu budget decreased by $120K per the revised plan.
+#1152  Finance Office: Withdraw update #0262.
+#1153  Operations chat: Gikistu sprint 8 retrospective notes posted.
+#1154  PMO note: Gikistu status report filed for week 36.
+#1155  Finance Office: Withdraw update #0577; it was entered in error.
+#1156  Finance Office: Withdraw update #0818.
+#1157  Finance Office: Gikistu budget decreased by $130K.
+#1158  Finance Office: Withdraw update #0930; it was entered in error.
+#1159  Finance Office: Gikistu budget decreased by $95K after review.
+#1160  Operations chat: Gikistu sprint 42 retrospective notes posted.
+#1161  Finance Office: Gikistu budget decreased by $145K after review.
+#1162  Finance Office: Gikistu budget decreased by $75K after review.
+#1163  Finance Office: Gikistu budget increased by $55K after review.
+#1164  Finance Office: Gikistu budget decreased by $115K after review.
+#1165  Finance Office: Gikistu budget increased by $391K per the revised plan.
+#1166  Finance Office: Gikistu budget increased by $80K per the revised plan.
+#1167  Operations chat: Gikistu test environment back online.
+#1168  Finance Office: Gikistu budget decreased by $75K per the revised plan.
+#1169  Finance Office: Withdraw update #0872; it was entered in error.
+#1170  Finance Office: Gikistu budget increased by $10K.
+#1171  Marketing email: Gikistu test environment back online.
+#1172  Finance Office: Withdraw update #0885.
+#1173  Legal email: Gikistu test environment back online.
+#1174  Operations chat: Gikistu sprint 10 retrospective notes posted.
+#1175  Finance Office: Withdraw update #0987; it was entered in error.
+#1176  Finance Office: Withdraw update #1053; it was entered in error.
+#1177  Finance Office: Gikistu budget increased by $145K per the revised plan.
+#1178  Finance Office: Gikistu budget decreased by $5K after review.
+#1179  PMO note: Gikistu status report filed for week 5.
+#1180  Finance Office: Gikistu budget decreased by $95K per the revised plan.
+#1181  Finance Office: Gikistu audit notes filed.
+#1182  Finance Office: Gikistu budget increased by $85K after review.
+#1183  Finance Office: Gikistu budget decreased by $332K after review.
+#1184  Finance Office: Gikistu budget increased by $110K per the revised plan.
+#1185  PMO note: Gikistu weekly sync moved to Mondays.
+#1186  Finance Office: Gikistu budget decreased by $197K after review.
+#1187  Finance Office: Gikistu budget decreased by $55K.
+#1188  Finance Office: Gikistu budget increased by $15K.
+#1189  Finance Office: Gikistu budget increased by $10K per the revised plan.
+#1190  Legal email: Gikistu vendor onboarding call scheduled for Friday.
+#1191  Finance Office: Gikistu budget decreased by $100K after review.
+#1192  Finance Office: Gikistu budget increased by $105K.
+#1193  Facilities ticket: Gikistu kickoff moved to Building 2.
+#1194  Facilities ticket: Gikistu sprint 18 retrospective notes posted.
+#1195  Sales update: Gikistu site visit confirmed for Friday.
+#1196  Marketing email: Gikistu status report filed for week 21.
+#1197  Finance Office: Withdraw update #0814.
+#1198  Finance Office: Withdraw update #0100.
+#1199  Finance Office: Gikistu budget increased by $125K.
+#1200  Finance Office: Withdraw update #0954.
+#1201  Finance Office: Gikistu budget increased by $125K per the revised plan.
+#1202  Finance Office: Withdraw update #0895; it was entered in error.
+#1203  Finance Office: Gikistu budget increased by $50K.
+#1204  Finance Office: Gikistu budget decreased by $322K.
+#1205  Operations chat: Gikistu demo rescheduled to Friday afternoon.
+#1206  Sales update: Gikistu test environment back online.
+#1207  Operations chat: Gikistu status report filed for week 9.
+#1208  Sales update: Gikistu kickoff moved to Building 3.
+#1209  Finance Office: Gikistu budget increased by $130K.
+#1210  Facilities ticket: Gikistu status report filed for week 25.
+#1211  Engineering email: Gikistu security review passed.
+#1212  Legal email: Gikistu test environment back online.
+#1213  Finance Office: Withdraw update #1066.
+#1214  Vendor call: Gikistu sprint 10 retrospective notes posted.
+#1215  Finance Office: Gikistu budget decreased by $408K.
+#1216  Legal email: Gikistu design review moved to Room 4D.
+#1217  Finance Office: Gikistu budget increased by $125K after review.
+#1218  PMO note: Gikistu documentation moved to the shared drive.
+#1219  Finance Office: Gikistu invoice batch FC-5363 archived.
+#1220  Finance Office: Gikistu budget increased by $20K after review.
+#1221  Engineering email: Gikistu design review moved to Room 1A.
+#1222  PMO note: Gikistu kickoff moved to Building 7.
+#1223  Finance Office: Gikistu budget increased by $55K after review.
+#1224  Finance Office: Gikistu budget increased by $105K per the revised plan.
+#1225  Finance Office: Gikistu budget decreased by $125K.
+#1226  Finance Office: Gikistu budget increased by $90K.
+#1227  Facilities ticket: Gikistu status report filed for week 48.
+#1228  Finance Office: Gikistu budget decreased by $65K.
+#1229  Operations chat: Gikistu weekly sync moved to Thursdays.
+#1230  Sales update: Gikistu sprint 28 retrospective notes posted.
+#1231  Finance Office: Gikistu budget decreased by $70K.
+#1232  Finance Office: Gikistu budget increased by $95K per the revised plan.
+#1233  Finance Office: Gikistu budget decreased by $35K.
+#1234  Finance Office: Withdraw update #0834; it was entered in error.
+#1235  Finance Office: Withdraw update #0417; it was entered in error.
+#1236  Finance Office: Withdraw update #0563; it was entered in error.
+#1237  Finance Office: Withdraw update #0761; it was entered in error.
+#1238  Finance Office: Gikistu budget decreased by $90K.
+#1239  Finance Office: Gikistu budget increased by $100K.
+#1240  Sales update: Gikistu kickoff moved to Building 9.
+#1241  Finance Office: Withdraw update #1086.
+#1242  Marketing email: Gikistu kickoff moved to Building 3.
+#1243  Finance Office: Gikistu budget decreased by $45K after review.
+#1244  Finance Office: Gikistu budget increased by $75K.
+#1245  Marketing email: Gikistu site visit confirmed for Friday.
+#1246  Finance Office: Gikistu budget decreased by $70K.
+#1247  Engineering email: Gikistu design review moved to Room 5C.
+#1248  Finance Office: Gikistu budget increased by $135K.
+#1249  Legal email: Gikistu design review moved to Room 2D.
+#1250  Finance Office: Gikistu budget increased by $105K after review.
+#1251  Vendor call: Gikistu kickoff moved to Building 3.
+#1252  Finance Office: Gikistu budget decreased by $20K per the revised plan.
+#1253  Vendor call: Gikistu site visit confirmed for Monday.
+#1254  Finance Office: Gikistu budget increased by $70K.
+#1255  Finance Office: Gikistu budget decreased by $55K.
+#1256  Finance Office: Gikistu budget decreased by $477K after review.
+#1257  Facilities ticket: Gikistu status report filed for week 14.
+#1258  Vendor call: Gikistu risk register updated with 5 new items.
+#1259  Finance Office: Gikistu invoice batch FC-4101 archived.
+#1260  Finance Office: Withdraw update #0600.
+#1261  Finance Office: Gikistu budget increased by $65K per the revised plan.
+#1262  Finance Office: Gikistu budget increased by $489K per the revised plan.
+#1263  PMO note: Gikistu site visit confirmed for Tuesday.
+#1264  Engineering email: Gikistu demo rescheduled to Monday afternoon.
+#1265  Vendor call: Gikistu design review moved to Room 4D.
+#1266  Legal email: Gikistu sprint 46 retrospective notes posted.
+#1267  Finance Office: Withdraw update #0748.
+#1268  Operations chat: Gikistu kickoff moved to Building 8.
+#1269  PMO note: Gikistu demo rescheduled to Friday afternoon.
+#1270  Finance Office: Withdraw update #0952.
+#1271  Finance Office: Gikistu budget increased by $70K per the revised plan.
+#1272  Finance Office: Gikistu budget increased by $552K per the revised plan.
+#1273  Finance Office: Gikistu budget increased by $30K.
+#1274  Finance Office: Withdraw update #0110.
+#1275  Finance Office: Gikistu quarterly audit scheduled for Friday.
+#1276  Operations chat: Gikistu design review moved to Room 2B.
+#1277  Finance Office: Gikistu budget increased by $80K per the revised plan.
+#1278  Finance Office: Gikistu budget increased by $150K.
+#1279  Marketing email: Gikistu security review passed.
+#1280  Finance Office: Gikistu budget decreased by $130K per the revised plan.
+#1281  Finance Office: Gikistu budget decreased by $544K per the revised plan.
+#1282  Finance Office: Gikistu budget increased by $60K.
+#1283  Legal email: Gikistu site visit confirmed for Friday.
+#1284  Finance Office: Gikistu budget increased by $5K.
+#1285  Finance Office: Gikistu budget decreased by $5K after review.
+#1286  Finance Office: Gikistu budget increased by $45K per the revised plan.
+#1287  Facilities ticket: Gikistu site visit confirmed for Tuesday.
+#1288  Finance Office: Gikistu budget decreased by $145K.
+#1289  Vendor call: Gikistu risk register updated with 5 new items.
+#1290  Legal email: Gikistu weekly sync moved to Wednesdays.
+#1291  Finance Office: Gikistu budget increased by $115K per the revised plan.
+#1292  Marketing email: Gikistu kickoff moved to Building 6.
+#1293  Finance Office: Gikistu budget increased by $150K after review.
+#1294  Finance Office: Gikistu budget increased by $10K per the revised plan.
+#1295  Marketing email: Gikistu design review moved to Room 4D.
+#1296  Engineering email: Gikistu design review moved to Room 2C.
+#1297  Finance Office: Gikistu budget increased by $55K after review.
+#1298  Finance Office: Gikistu budget decreased by $40K per the revised plan.
+#1299  Marketing email: Gikistu status report filed for week 22.
+#1300  PMO note: Gikistu status report filed for week 27.
+#1301  Sales update: Gikistu site visit confirmed for Friday.
+#1302  Finance Office: Gikistu budget decreased by $65K per the revised plan.
+#1303  Finance Office: Gikistu budget decreased by $135K.
+#1304  Finance Office: Gikistu budget increased by $21K after review.
+#1305  Finance Office: Gikistu budget increased by $25K after review.
+#1306  Vendor call: Gikistu design review moved to Room 4C.
+#1307  Finance Office: Gikistu budget increased by $75K after review.
+#1308  Legal email: Gikistu test environment back online.
+#1309  Finance Office: Gikistu budget decreased by $60K.
+#1310  Finance Office: Withdraw update #0852; it was entered in error.
+#1311  Engineering email: Gikistu kickoff moved to Building 5.
+#1312  Engineering email: Gikistu weekly sync moved to Mondays.
+#1313  Legal email: Gikistu kickoff moved to Building 3.
+#1314  Vendor call: Gikistu test environment back online.
+#1315  Engineering email: Gikistu status report filed for week 35.
+#1316  Vendor call: Gikistu weekly sync moved to Mondays.
+#1317  Finance Office: Gikistu budget decreased by $145K.
+#1318  PMO note: Gikistu site visit confirmed for Thursday.
+#1319  Finance Office: Gikistu budget decreased by $75K per the revised plan.
+#1320  Sales update: Gikistu sprint 30 retrospective notes posted.
+#1321  Finance Office: Withdraw update #1183; it was entered in error.
+#1322  Finance Office: Gikistu budget increased by $85K after review.
+#1323  Engineering email: Gikistu status report filed for week 27.
+#1324  Operations chat: Gikistu kickoff moved to Building 8.
+#1325  Finance Office: Gikistu budget decreased by $50K after review.
+#1326  Finance Office: Gikistu purchase order FC-5161 closed.
+#1327  Finance Office: Withdraw update #0271; it was entered in error.
+#1328  Marketing email: Gikistu weekly sync moved to Wednesdays.
+#1329  Finance Office: Gikistu budget increased by $40K after review.
+#1330  Finance Office: Gikistu budget increased by $30K.
+#1331  Finance Office: Gikistu budget decreased by $65K per the revised plan.
+#1332  Finance Office: Withdraw update #0169; it was entered in error.
+#1333  Operations chat: Gikistu security review passed.
+#1334  Finance Office: Gikistu budget increased by $15K after review.
+#1335  Finance Office: Withdraw update #1165; it was entered in error.
+#1336  Finance Office: Withdraw update #1272; it was entered in error.
+#1337  Finance Office: Gikistu invoice batch FC-1311 archived.
+#1338  Finance Office: Gikistu budget increased by $110K per the revised plan.
+#1339  Finance Office: Gikistu budget decreased by $60K after review.
+#1340  Finance Office: Gikistu budget increased by $130K after review.
+#1341  Facilities ticket: Gikistu site visit confirmed for Tuesday.
+#1342  Engineering email: Gikistu weekly sync moved to Thursdays.
+#1343  Sales update: Gikistu test environment back online.
+#1344  Finance Office: Gikistu budget increased by $20K per the revised plan.
+#1345  Vendor call: Gikistu vendor onboarding call scheduled for Tuesday.
+#1346  Finance Office: Gikistu budget decreased by $50K per the revised plan.
+#1347  Marketing email: Gikistu site visit confirmed for Friday.
+#1348  Marketing email: Gikistu demo rescheduled to Friday afternoon.
+#1349  Operations chat: Gikistu kickoff moved to Building 3.
+#1350  Finance Office: Gikistu budget decreased by $5K after review.
+#1351  Finance Office: Gikistu budget decreased by $115K per the revised plan.
+#1352  Finance Office: Gikistu budget decreased by $109K per the revised plan.
+#1353  Finance Office: Gikistu budget decreased by $100K.
+#1354  Finance Office: Gikistu budget increased by $135K.
+#1355  Vendor call: Gikistu status report filed for week 15.
+#1356  Finance Office: Gikistu budget decreased by $150K per the revised plan.
+#1357  Finance Office: Gikistu budget decreased by $25K after review.
+#1358  Finance Office: Gikistu budget increased by $140K.
+#1359  Facilities ticket: Gikistu weekly sync moved to Wednesdays.
+#1360  Finance Office: Gikistu budget increased by $140K after review.
+#1361  Finance Office: Withdraw update #1215.
+#1362  Finance Office: Gikistu budget increased by $60K per the revised plan.
+#1363  Finance Office: Gikistu budget decreased by $110K after review.
+#1364  Finance Office: Gikistu quarterly audit scheduled for Friday.
+#1365  Finance Office: Withdraw update #1256.
+#1366  Finance Office: Withdraw update #0661; it was entered in error.
+#1367  Finance Office: Gikistu budget decreased by $40K after review.
+#1368  Engineering email: Gikistu kickoff moved to Building 8.
+#1369  Finance Office: Gikistu budget decreased by $95K after review.
+#1370  Finance Office: Gikistu budget decreased by $135K per the revised plan.
+#1371  Finance Office: Gikistu budget increased by $150K.
+#1372  Finance Office: Withdraw update #0090.
+#1373  Finance Office: Gikistu budget decreased by $100K after review.
+#1374  PMO note: Gikistu status report filed for week 4.
+#1375  Finance Office: Withdraw update #0442.
+#1376  PMO note: Gikistu weekly sync moved to Fridays.
+#1377  Finance Office: Gikistu budget decreased by $130K after review.
+#1378  Engineering email: Gikistu weekly sync moved to Mondays.
+#1379  Sales update: Gikistu site visit confirmed for Thursday.
+#1380  Finance Office: Gikistu budget decreased by $135K per the revised plan.
+#1381  Facilities ticket: Gikistu design review moved to Room 5D.
+#1382  Finance Office: Gikistu budget decreased by $150K after review.
+#1383  Vendor call: Gikistu kickoff moved to Building 4.
+#1384  Finance Office: Withdraw update #1281; it was entered in error.
+#1385  Sales update: Gikistu kickoff moved to Building 3.
+#1386  Finance Office: Gikistu budget decreased by $105K.
+#1387  Finance Office: Withdraw update #1112.
+#1388  Finance Office: Gikistu budget decreased by $100K after review.
+#1389  Finance Office: Gikistu budget increased by $30K after review.
+#1390  Finance Office: Gikistu budget decreased by $140K.
+#1391  Facilities ticket: Gikistu test environment back online.
+#1392  Finance Office: Withdraw update #0427; it was entered in error.
+#1393  Finance Office: Withdraw update #1262; it was entered in error.
+#1394  Finance Office: Gikistu budget decreased by $115K after review.
+#1395  Finance Office: Withdraw update #0135.
+#1396  Finance Office: Gikistu budget increased by $10K.
+#1397  Finance Office: Gikistu budget decreased by $95K.
+#1398  Finance Office: Withdraw update #0832.
+#1399  Engineering email: Gikistu site visit confirmed for Tuesday.
+#1400  Finance Office: Gikistu budget increased by $5K.
+#1401  Legal email: Gikistu kickoff moved to Building 6.
+#1402  Facilities ticket: Gikistu status report filed for week 10.
+#1403  Finance Office: Gikistu budget decreased by $100K.
+#1404  Finance Office: Withdraw update #1169; it was entered in error.
+#1405  Finance Office: Gikistu budget increased by $30K after review.
+#1406  Operations chat: Gikistu weekly sync moved to Mondays.
+#1407  Legal email: Gikistu risk register updated with 3 new items.
+#1408  Finance Office: Gikistu budget increased by $80K per the revised plan.
+#1409  Legal email: Gikistu weekly sync moved to Wednesdays.
+#1410  Legal email: Gikistu test environment back online.
+#1411  Finance Office: Gikistu budget increased by $50K per the revised plan.
+#1412  Finance Office: Withdraw update #1107.
+#1413  Finance Office: Gikistu budget decreased by $20K.
+#1414  Facilities ticket: Gikistu design review moved to Room 3A.
+#1415  PMO note: Gikistu status report filed for week 39.
+#1416  Facilities ticket: Gikistu sprint 4 retrospective notes posted.
+#1417  Vendor call: Gikistu weekly sync moved to Tuesdays.
+#1418  Vendor call: Gikistu status report filed for week 2.
+#1419  Vendor call: Gikistu weekly sync moved to Mondays.
+#1420  Finance Office: Gikistu budget increased by $130K after review.
+#1421  Finance Office: Withdraw update #1076; it was entered in error.
+#1422  Finance Office: Withdraw update #0757; it was entered in error.
+#1423  Finance Office: Gikistu budget increased by $50K.
+#1424  Marketing email: Gikistu kickoff moved to Building 9.
+#1425  Finance Office: Reminder: Gikistu expense reports are due Wednesday.
+#1426  Sales update: Gikistu security review passed.
+#1427  Engineering email: Gikistu status report filed for week 24.
+#1428  Marketing email: Gikistu kickoff moved to Building 8.
+#1429  Finance Office: Gikistu budget increased by $35K.
+#1430  Finance Office: Gikistu purchase order FC-7869 closed.
+#1431  Finance Office: Gikistu budget decreased by $45K after review.
+#1432  Finance Office: Gikistu budget decreased by $35K.
+#1433  Finance Office: Withdraw update #0755.
+#1434  Finance Office: Gikistu budget decreased by $25K after review.
+#1435  Facilities ticket: Gikistu weekly sync moved to Thursdays.
+#1436  Legal email: Gikistu sprint 45 retrospective notes posted.
+#1437  Engineering email: Gikistu security review passed.
+#1438  Finance Office: Gikistu purchase order FC-2937 closed.
+#1439  Finance Office: Gikistu budget decreased by $120K after review.
+#1440  PMO note: Gikistu design review moved to Room 1C.
+#1441  Finance Office: Gikistu budget increased by $40K.
+#1442  Finance Office: Gikistu budget decreased by $65K per the revised plan.
+#1443  Finance Office: Gikistu budget decreased by $105K after review.
+#1444  Finance Office: Withdraw update #0799.
+#1445  Finance Office: Withdraw update #0980.
+#1446  Vendor call: Gikistu kickoff moved to Building 6.
+#1447  Finance Office: Gikistu budget decreased by $30K per the revised plan.
+#1448  Legal email: Gikistu risk register updated with 8 new items.
+#1449  Finance Office: Gikistu budget decreased by $20K.
+#1450  Finance Office: Gikistu budget decreased by $90K after review.
+#1451  Legal email: Gikistu kickoff moved to Building 9.
+#1452  Vendor call: Gikistu site visit confirmed for Wednesday.
+#1453  PMO note: Gikistu sprint 4 retrospective notes posted.
+#1454  Vendor call: Gikistu weekly sync moved to Mondays.
+#1455  Finance Office: Withdraw update #0272.
+#1456  Engineering email: Gikistu test environment back online.
+#1457  Sales update: Gikistu status report filed for week 26.
+#1458  Finance Office: Gikistu budget decreased by $5K per the revised plan.
+#1459  Finance Office: Withdraw update #0523; it was entered in error.
+#1460  Legal email: Gikistu test environment back online.
+#1461  Operations chat: Gikistu kickoff moved to Building 3.
+#1462  Finance Office: Gikistu budget increased by $75K per the revised plan.
+#1463  Engineering email: Gikistu weekly sync moved to Wednesdays.
+#1464  Sales update: Gikistu kickoff moved to Building 8.
+#1465  Finance Office: Withdraw update #1197.
+#1466  Finance Office: Gikistu budget increased by $90K.
+#1467  Finance Office: Withdraw update #1352; it was entered in error.
+#1468  PMO note: Gikistu design review moved to Room 2D.
+#1469  Finance Office: Withdraw update #0142.
+#1470  Finance Office: Gikistu budget increased by $130K after review.
+#1471  Finance Office: Withdraw update #0546; it was entered in error.
+#1472  Finance Office: Gikistu budget decreased by $75K.
+#1473  PMO note: Gikistu sprint 6 retrospective notes posted.
+#1474  Finance Office: Gikistu budget increased by $30K after review.
+#1475  Sales update: Gikistu weekly sync moved to Tuesdays.
+#1476  Operations chat: Gikistu test environment back online.
+#1477  Legal email: Gikistu weekly sync moved to Fridays.
+#1478  Vendor call: Gikistu risk register updated with 9 new items.
+#1479  Finance Office: Gikistu budget decreased by $70K per the revised plan.
+#1480  Finance Office: Withdraw update #1075.
+#1481  Sales update: Gikistu sprint 38 retrospective notes posted.
+#1482  Marketing email: Gikistu weekly sync moved to Mondays.
+#1483  Finance Office: Gikistu budget increased by $80K.
+#1484  Finance Office: Gikistu budget decreased by $115K.
+#1485  Finance Office: Gikistu budget increased by $115K per the revised plan.
+#1486  Finance Office: Gikistu budget increased by $130K after review.
+#1487  Vendor call: Gikistu design review moved to Room 2A.
+#1488  Finance Office: Gikistu budget decreased by $30K.
+#1489  Finance Office: Gikistu budget increased by $10K per the revised plan.
+#1490  Facilities ticket: Gikistu kickoff moved to Building 4.
+#1491  Finance Office: Gikistu finance review moved to Room 3D.
+#1492  Finance Office: Withdraw update #1029.
+#1493  Finance Office: Gikistu budget decreased by $120K per the revised plan.
+#1494  Finance Office: Gikistu budget increased by $145K after review.
+#1495  Finance Office: Gikistu budget decreased by $85K after review.
+#1496  Sales update: Gikistu sprint 13 retrospective notes posted.
+#1497  Operations chat: Gikistu design review moved to Room 5D.
+#1498  Operations chat: Gikistu test environment back online.
+#1499  Finance Office: Gikistu budget increased by $35K per the revised plan.
+#1500  Finance Office: Withdraw update #1310.
+#1501  Finance Office: Withdraw update #1068.
+#1502  Finance Office: Gikistu budget increased by $105K.
+#1503  Finance Office: Gikistu budget decreased by $55K after review.
+#1504  Finance Office: Gikistu budget decreased by $55K after review.
+#1505  Finance Office: Gikistu budget increased by $65K.
+#1506  Engineering email: Gikistu weekly sync moved to Wednesdays.
+#1507  Legal email: Gikistu design review moved to Room 2C.
+#1508  Vendor call: Gikistu test environment back online.
+#1509  Finance Office: Withdraw update #0030.
+#1510  PMO note: Gikistu documentation moved to the shared drive.
+#1511  Finance Office: Gikistu budget increased by $20K after review.
+#1512  Finance Office: Withdraw update #0643; it was entered in error.
+#1513  Finance Office: Withdraw update #0935.
+#1514  Facilities ticket: Gikistu status report filed for week 35.
+#1515  Sales update: Gikistu weekly sync moved to Tuesdays.
+#1516  Finance Office: Gikistu budget increased by $75K after review.
+#1517  Finance Office: Withdraw update #0320; it was entered in error.
+#1518  Finance Office: Gikistu budget increased by $20K after review.
+#1519  Engineering email: Gikistu site visit confirmed for Tuesday.
+#1520  Sales update: Gikistu site visit confirmed for Monday.
+#1521  Finance Office: Withdraw update #0155; it was entered in error.
+#1522  Finance Office: Gikistu budget decreased by $50K.
+#1523  Finance Office: Gikistu budget increased by $145K after review.
+#1524  Operations chat: Gikistu test environment back online.
+#1525  Vendor call: Gikistu test environment back online.
+#1526  Vendor call: Gikistu demo rescheduled to Monday afternoon.
+#1527  Finance Office: Gikistu budget increased by $10K per the revised plan.
+#1528  Finance Office: Gikistu budget increased by $85K.
+#1529  Finance Office: Withdraw update #1186.
+#1530  Finance Office: Withdraw update #0360; it was entered in error.
+#1531  Sales update: Gikistu sprint 48 retrospective notes posted.
+#1532  Sales update: Gikistu security review passed.
+#1533  PMO note: Gikistu design review moved to Room 4A.
+#1534  Engineering email: Gikistu test environment back online.
+#1535  Finance Office: Gikistu budget decreased by $25K per the revised plan.
+#1536  Finance Office: Withdraw update #0306.
+#1537  Engineering email: Gikistu status report filed for week 28.
+#1538  Finance Office: Withdraw update #0719; it was entered in error.
+#1539  Finance Office: Gikistu audit notes filed.
+#1540  Legal email: Gikistu test environment back online.
+#1541  Vendor call: Gikistu test environment back online.
+#1542  Finance Office: Gikistu budget increased by $110K per the revised plan.
+#1543  Engineering email: Gikistu kickoff moved to Building 5.
+#1544  Legal email: Gikistu weekly sync moved to Mondays.
+#1545  Sales update: Gikistu test environment back online.
+#1546  Finance Office: Gikistu budget decreased by $110K after review.
+#1547  Finance Office: Withdraw update #1204; it was entered in error.
+#1548  Sales update: Gikistu design review moved to Room 4C.
+#1549  Finance Office: Gikistu budget increased by $100K.
+#1550  Finance Office: Withdraw update #0220.
+#1551  Finance Office: Gikistu budget decreased by $115K.
+#1552  Finance Office: Gikistu budget decreased by $105K after review.
+#1553  Finance Office: Gikistu budget increased by $25K per the revised plan.
+#1554  Finance Office: Withdraw update #0053.
+#1555  Finance Office: Gikistu budget increased by $90K.
+#1556  Finance Office: Withdraw update #1554.
+#1557  Finance Office: Withdraw update #1521.
+#1558  Engineering email: Gikistu sprint 39 retrospective notes posted.
+#1559  Finance Office: Gikistu budget decreased by $50K per the revised plan.
+#1560  Finance Office: Gikistu budget decreased by $140K per the revised plan.
+#1561  Finance Office: Gikistu budget decreased by $120K per the revised plan.
+#1562  Vendor call: Gikistu kickoff moved to Building 2.
+#1563  Vendor call: Gikistu status report filed for week 24.
+#1564  Legal email: Gikistu test environment back online.
+#1565  Finance Office: Gikistu budget increased by $65K.
+#1566  Finance Office: Gikistu budget increased by $10K per the revised plan.
+#1567  Finance Office: Gikistu budget decreased by $125K per the revised plan.
+#1568  Vendor call: Gikistu site visit confirmed for Friday.
+#1569  Finance Office: Gikistu budget increased by $125K per the revised plan.
+#1570  Finance Office: Withdraw update #1445; it was entered in error.
+#1571  Finance Office: Withdraw update #1304.
+#1572  Finance Office: Gikistu budget increased by $150K after review.
+#1573  Finance Office: Gikistu budget decreased by $145K per the revised plan.
+#1574  Finance Office: Gikistu budget increased by $45K after review.
+#1575  Finance Office: Gikistu budget decreased by $150K.
+#1576  Finance Office: Gikistu budget decreased by $25K.
+#1577  Legal email: Gikistu demo rescheduled to Thursday afternoon.
+#1578  Finance Office: Gikistu budget increased by $95K.
+#1579  Finance Office: Gikistu budget decreased by $145K.
+#1580  Facilities ticket: Gikistu test environment back online.
+#1581  Facilities ticket: Gikistu design review moved to Room 4C.
+#1582  Sales update: Gikistu security review passed.
+#1583  Finance Office: Gikistu budget decreased by $55K per the revised plan.
+#1584  Finance Office: Gikistu budget increased by $25K.
+#1585  Finance Office: Gikistu budget decreased by $80K after review.
+#1586  Finance Office: Gikistu budget increased by $100K.
+#1587  Facilities ticket: Gikistu weekly sync moved to Mondays.
+#1588  Finance Office: Gikistu budget decreased by $125K per the revised plan.
+#1589  Finance Office: Withdraw update #0293.
+#1590  Marketing email: Gikistu test environment back online.
+#1591  Finance Office: Gikistu budget increased by $55K after review.
+#1592  Sales update: Gikistu site visit confirmed for Wednesday.
+#1593  Finance Office: Reminder: Gikistu expense reports are due Monday.
+#1594  Marketing email: Gikistu test environment back online.
+#1595  Operations chat: Gikistu weekly sync moved to Fridays.
+#1596  Marketing email: Gikistu sprint 15 retrospective notes posted.
+#1597  Finance Office: Gikistu budget decreased by $35K.
+#1598  Finance Office: Gikistu budget increased by $65K.
+#1599  Marketing email: Gikistu test environment back online.
+#1600  Finance Office: Gikistu budget increased by $130K after review.
+
+Question: What is Gikistu's budget now?

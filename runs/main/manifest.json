@@ -1,0 +1,1131 @@
+{
+ "schema": 2,
+ "run": "main",
+ "created_at": "2026-10-28T22:38:50+00:00",
+ "created_by": "kimi-chen",
+ "git_commit": "4c9656efc1c1b009ae30b434136a2fc4933041a7",
+ "git_dirty": false,
+ "skill_sha256": "c42e2e9551523a1800072ba862718314f4bbf74e6fa27d5fce270e49953c0f9e",
+ "config_file": "config/main.toml",
+ "config": {
+  "description": "Main run: 30 logs, versions C/R/RG/E, with and without the skill, 3 repeats; 10 logs get 10 repeats in R and RG",
+  "purpose": "main",
+  "seed_start": 700000,
+  "schedule_seed": 180,
+  "selection_seed": 181,
+  "tier1": {
+   "logs": 30,
+   "versions": [
+    "C",
+    "R",
+    "RG",
+    "E"
+   ],
+   "instructions": [
+    "none",
+    "skill"
+   ],
+   "repeats": 3
+  },
+  "tier2": {
+   "logs": 10,
+   "versions": [
+    "R",
+    "RG"
+   ],
+   "instructions": [
+    "none",
+    "skill"
+   ],
+   "repeats": 10
+  },
+  "timeout_seconds": 1800,
+  "generator": {
+   "records": 1600,
+   "adjust_share": 0.45,
+   "withdraw_share": 0.15,
+   "gossip_share": 0.3,
+   "nested_rate": 0.35,
+   "relative_gossip_share": 0.5,
+   "amount_step": 5,
+   "amount_max": 150,
+   "unique_amount_max": 600,
+   "budget_min": 200,
+   "budget_max": 5000
+  },
+  "models": {
+   "claude": {
+    "name": "claude",
+    "provider": "claude-code",
+    "model": "claude-opus-5-5",
+    "effort": "low",
+    "max_output_tokens": 32000
+   },
+   "gpt": {
+    "name": "gpt",
+    "provider": "codex",
+    "model": "gpt-6-astra",
+    "effort": "low",
+    "max_output_tokens": 32000
+   }
+  }
+ },
+ "worlds": {
+  "s700000_n1600": {
+   "seed": 700000,
+   "project": "Kupin",
+   "answer": 1751,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 227,
+   "surviving_adjustments": 593,
+   "chains": 163,
+   "nested_chains": 51,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 101272,
+    "R": 100968,
+    "RG": 100705,
+    "E": 102032
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.003,
+    "RG": -0.0056,
+    "E": 0.0075
+   }
+  },
+  "s700001_n1600": {
+   "seed": 700001,
+   "project": "Sarun",
+   "answer": 1874,
+   "tier2": true,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 227,
+   "surviving_adjustments": 601,
+   "chains": 153,
+   "nested_chains": 49,
+   "max_chain_depth": 7,
+   "chars": {
+    "C": 100651,
+    "R": 100406,
+    "RG": 99987,
+    "E": 101477
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0024,
+    "RG": -0.0066,
+    "E": 0.0082
+   }
+  },
+  "s700002_n1600": {
+   "seed": 700002,
+   "project": "Toris",
+   "answer": 2218,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480,
+    "filler": 160
+   },
+   "relative_gossip": 256,
+   "surviving_adjustments": 609,
+   "chains": 154,
+   "nested_chains": 59,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 101474,
+    "R": 101253,
+    "RG": 100976,
+    "E": 102112
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0022,
+    "RG": -0.0049,
+    "E": 0.0063
+   }
+  },
+  "s700003_n1600": {
+   "seed": 700003,
+   "project": "Driril",
+   "answer": 1528,
+   "tier2": true,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "filler": 160,
+    "adjust": 719,
+    "withdraw": 240
+   },
+   "relative_gossip": 242,
+   "surviving_adjustments": 593,
+   "chains": 164,
+   "nested_chains": 53,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 102651,
+    "R": 102276,
+    "RG": 101964,
+    "E": 103356
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0037,
+    "RG": -0.0067,
+    "E": 0.0069
+   }
+  },
+  "s700004_n1600": {
+   "seed": 700004,
+   "project": "Vekre",
+   "answer": 1625,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 229,
+   "surviving_adjustments": 597,
+   "chains": 160,
+   "nested_chains": 56,
+   "max_chain_depth": 4,
+   "chars": {
+    "C": 101524,
+    "R": 101490,
+    "RG": 101101,
+    "E": 102515
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0003,
+    "RG": -0.0042,
+    "E": 0.0098
+   }
+  },
+  "s700005_n1600": {
+   "seed": 700005,
+   "project": "Gikistu",
+   "answer": 3098,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 252,
+   "surviving_adjustments": 597,
+   "chains": 157,
+   "nested_chains": 47,
+   "max_chain_depth": 9,
+   "chars": {
+    "C": 104475,
+    "R": 104021,
+    "RG": 103639,
+    "E": 105416
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0043,
+    "RG": -0.008,
+    "E": 0.009
+   }
+  },
+  "s700006_n1600": {
+   "seed": 700006,
+   "project": "Bitron",
+   "answer": 2533,
+   "tier2": true,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 275,
+   "surviving_adjustments": 587,
+   "chains": 165,
+   "nested_chains": 48,
+   "max_chain_depth": 7,
+   "chars": {
+    "C": 102971,
+    "R": 102591,
+    "RG": 102385,
+    "E": 103807
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0037,
+    "RG": -0.0057,
+    "E": 0.0081
+   }
+  },
+  "s700007_n1600": {
+   "seed": 700007,
+   "project": "Tido",
+   "answer": 3930,
+   "tier2": true,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "filler": 160,
+    "withdraw": 240,
+    "gossip": 480
+   },
+   "relative_gossip": 245,
+   "surviving_adjustments": 609,
+   "chains": 154,
+   "nested_chains": 58,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 99788,
+    "R": 99698,
+    "RG": 99408,
+    "E": 100529
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0009,
+    "RG": -0.0038,
+    "E": 0.0074
+   }
+  },
+  "s700008_n1600": {
+   "seed": 700008,
+   "project": "Memol",
+   "answer": 1886,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "filler": 160,
+    "gossip": 480,
+    "withdraw": 240
+   },
+   "relative_gossip": 222,
+   "surviving_adjustments": 589,
+   "chains": 168,
+   "nested_chains": 48,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 101210,
+    "R": 101102,
+    "RG": 100784,
+    "E": 102092
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0011,
+    "RG": -0.0042,
+    "E": 0.0087
+   }
+  },
+  "s700009_n1600": {
+   "seed": 700009,
+   "project": "Getosti",
+   "answer": 2095,
+   "tier2": true,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 235,
+   "surviving_adjustments": 611,
+   "chains": 154,
+   "nested_chains": 58,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 104849,
+    "R": 104466,
+    "RG": 104176,
+    "E": 105654
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0037,
+    "RG": -0.0064,
+    "E": 0.0077
+   }
+  },
+  "s700010_n1600": {
+   "seed": 700010,
+   "project": "Stedamu",
+   "answer": 2503,
+   "tier2": true,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480,
+    "filler": 160
+   },
+   "relative_gossip": 248,
+   "surviving_adjustments": 617,
+   "chains": 151,
+   "nested_chains": 61,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 103897,
+    "R": 103317,
+    "RG": 102995,
+    "E": 104788
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0056,
+    "RG": -0.0087,
+    "E": 0.0086
+   }
+  },
+  "s700011_n1600": {
+   "seed": 700011,
+   "project": "Volidrox",
+   "answer": 1626,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480,
+    "filler": 160
+   },
+   "relative_gossip": 245,
+   "surviving_adjustments": 597,
+   "chains": 157,
+   "nested_chains": 53,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 105448,
+    "R": 104745,
+    "RG": 104467,
+    "E": 106491
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0067,
+    "RG": -0.0093,
+    "E": 0.0099
+   }
+  },
+  "s700012_n1600": {
+   "seed": 700012,
+   "project": "Gitrel",
+   "answer": 2805,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "filler": 160,
+    "withdraw": 240,
+    "gossip": 480
+   },
+   "relative_gossip": 214,
+   "surviving_adjustments": 625,
+   "chains": 147,
+   "nested_chains": 63,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 102798,
+    "R": 102282,
+    "RG": 101968,
+    "E": 103535
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.005,
+    "RG": -0.0081,
+    "E": 0.0072
+   }
+  },
+  "s700013_n1600": {
+   "seed": 700013,
+   "project": "Thebreta",
+   "answer": 2308,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 243,
+   "surviving_adjustments": 605,
+   "chains": 158,
+   "nested_chains": 56,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 106039,
+    "R": 105373,
+    "RG": 105059,
+    "E": 106923
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0063,
+    "RG": -0.0092,
+    "E": 0.0083
+   }
+  },
+  "s700014_n1600": {
+   "seed": 700014,
+   "project": "Drasti",
+   "answer": 2497,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "filler": 160,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240
+   },
+   "relative_gossip": 230,
+   "surviving_adjustments": 589,
+   "chains": 157,
+   "nested_chains": 43,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 102778,
+    "R": 102601,
+    "RG": 102246,
+    "E": 103769
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0017,
+    "RG": -0.0052,
+    "E": 0.0096
+   }
+  },
+  "s700015_n1600": {
+   "seed": 700015,
+   "project": "Mifa",
+   "answer": 1825,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480,
+    "filler": 160
+   },
+   "relative_gossip": 248,
+   "surviving_adjustments": 587,
+   "chains": 167,
+   "nested_chains": 47,
+   "max_chain_depth": 7,
+   "chars": {
+    "C": 99535,
+    "R": 99400,
+    "RG": 99103,
+    "E": 100092
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0014,
+    "RG": -0.0043,
+    "E": 0.0056
+   }
+  },
+  "s700016_n1600": {
+   "seed": 700016,
+   "project": "Lastal",
+   "answer": 1025,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 250,
+   "surviving_adjustments": 601,
+   "chains": 156,
+   "nested_chains": 52,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 102222,
+    "R": 101752,
+    "RG": 101543,
+    "E": 102883
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0046,
+    "RG": -0.0066,
+    "E": 0.0065
+   }
+  },
+  "s700017_n1600": {
+   "seed": 700017,
+   "project": "Studron",
+   "answer": 2590,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 240,
+   "surviving_adjustments": 597,
+   "chains": 160,
+   "nested_chains": 53,
+   "max_chain_depth": 7,
+   "chars": {
+    "C": 104344,
+    "R": 103738,
+    "RG": 103465,
+    "E": 105209
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0058,
+    "RG": -0.0084,
+    "E": 0.0083
+   }
+  },
+  "s700018_n1600": {
+   "seed": 700018,
+   "project": "Tepi",
+   "answer": 1905,
+   "tier2": true,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 240,
+   "surviving_adjustments": 605,
+   "chains": 157,
+   "nested_chains": 54,
+   "max_chain_depth": 8,
+   "chars": {
+    "C": 99381,
+    "R": 99432,
+    "RG": 99205,
+    "E": 100093
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": 0.0005,
+    "RG": -0.0018,
+    "E": 0.0072
+   }
+  },
+  "s700019_n1600": {
+   "seed": 700019,
+   "project": "Ruzapor",
+   "answer": 3407,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 249,
+   "surviving_adjustments": 597,
+   "chains": 164,
+   "nested_chains": 53,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 104571,
+    "R": 104179,
+    "RG": 103886,
+    "E": 105463
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0037,
+    "RG": -0.0066,
+    "E": 0.0085
+   }
+  },
+  "s700020_n1600": {
+   "seed": 700020,
+   "project": "Segofil",
+   "answer": 3868,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "filler": 160,
+    "gossip": 480,
+    "withdraw": 240
+   },
+   "relative_gossip": 241,
+   "surviving_adjustments": 625,
+   "chains": 137,
+   "nested_chains": 57,
+   "max_chain_depth": 7,
+   "chars": {
+    "C": 103945,
+    "R": 103632,
+    "RG": 103334,
+    "E": 104981
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.003,
+    "RG": -0.0059,
+    "E": 0.01
+   }
+  },
+  "s700021_n1600": {
+   "seed": 700021,
+   "project": "Gules",
+   "answer": 856,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 240,
+   "surviving_adjustments": 589,
+   "chains": 171,
+   "nested_chains": 49,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 101563,
+    "R": 101680,
+    "RG": 101363,
+    "E": 102507
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": 0.0012,
+    "RG": -0.002,
+    "E": 0.0093
+   }
+  },
+  "s700022_n1600": {
+   "seed": 700022,
+   "project": "Sukukre",
+   "answer": 1287,
+   "tier2": true,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 243,
+   "surviving_adjustments": 595,
+   "chains": 156,
+   "nested_chains": 48,
+   "max_chain_depth": 7,
+   "chars": {
+    "C": 104110,
+    "R": 103666,
+    "RG": 103291,
+    "E": 105094
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0043,
+    "RG": -0.0079,
+    "E": 0.0095
+   }
+  },
+  "s700023_n1600": {
+   "seed": 700023,
+   "project": "Kifux",
+   "answer": 948,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "withdraw": 240,
+    "gossip": 480,
+    "filler": 160
+   },
+   "relative_gossip": 228,
+   "surviving_adjustments": 609,
+   "chains": 150,
+   "nested_chains": 50,
+   "max_chain_depth": 8,
+   "chars": {
+    "C": 101600,
+    "R": 101488,
+    "RG": 101242,
+    "E": 102442
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0011,
+    "RG": -0.0035,
+    "E": 0.0083
+   }
+  },
+  "s700024_n1600": {
+   "seed": 700024,
+   "project": "Kakir",
+   "answer": 1075,
+   "tier2": true,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "withdraw": 240,
+    "filler": 160
+   },
+   "relative_gossip": 235,
+   "surviving_adjustments": 581,
+   "chains": 170,
+   "nested_chains": 48,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 101107,
+    "R": 101025,
+    "RG": 100622,
+    "E": 101910
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0008,
+    "RG": -0.0048,
+    "E": 0.0079
+   }
+  },
+  "s700025_n1600": {
+   "seed": 700025,
+   "project": "Kribun",
+   "answer": 3216,
+   "tier2": true,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 227,
+   "surviving_adjustments": 607,
+   "chains": 150,
+   "nested_chains": 50,
+   "max_chain_depth": 12,
+   "chars": {
+    "C": 102907,
+    "R": 102722,
+    "RG": 102339,
+    "E": 103866
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0018,
+    "RG": -0.0055,
+    "E": 0.0093
+   }
+  },
+  "s700026_n1600": {
+   "seed": 700026,
+   "project": "Luzodul",
+   "answer": 2681,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "filler": 160,
+    "gossip": 480,
+    "withdraw": 240
+   },
+   "relative_gossip": 245,
+   "surviving_adjustments": 607,
+   "chains": 152,
+   "nested_chains": 56,
+   "max_chain_depth": 5,
+   "chars": {
+    "C": 104785,
+    "R": 104466,
+    "RG": 104165,
+    "E": 105668
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.003,
+    "RG": -0.0059,
+    "E": 0.0084
+   }
+  },
+  "s700027_n1600": {
+   "seed": 700027,
+   "project": "Nepal",
+   "answer": 1131,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "filler": 160,
+    "gossip": 480,
+    "withdraw": 240
+   },
+   "relative_gossip": 273,
+   "surviving_adjustments": 621,
+   "chains": 151,
+   "nested_chains": 64,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 101143,
+    "R": 101027,
+    "RG": 100658,
+    "E": 102021
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0011,
+    "RG": -0.0048,
+    "E": 0.0087
+   }
+  },
+  "s700028_n1600": {
+   "seed": 700028,
+   "project": "Gedebren",
+   "answer": 2224,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "gossip": 480,
+    "adjust": 719,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 228,
+   "surviving_adjustments": 593,
+   "chains": 161,
+   "nested_chains": 45,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 105560,
+    "R": 104879,
+    "RG": 104572,
+    "E": 106517
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0065,
+    "RG": -0.0094,
+    "E": 0.0091
+   }
+  },
+  "s700029_n1600": {
+   "seed": 700029,
+   "project": "Likror",
+   "answer": 2632,
+   "tier2": false,
+   "kinds": {
+    "opening": 1,
+    "adjust": 719,
+    "gossip": 480,
+    "filler": 160,
+    "withdraw": 240
+   },
+   "relative_gossip": 237,
+   "surviving_adjustments": 597,
+   "chains": 160,
+   "nested_chains": 50,
+   "max_chain_depth": 6,
+   "chars": {
+    "C": 102462,
+    "R": 102040,
+    "RG": 101773,
+    "E": 103197
+   },
+   "length_vs_C": {
+    "C": 0.0,
+    "R": -0.0041,
+    "RG": -0.0067,
+    "E": 0.0072
+   }
+  }
+ },
+ "trials": 2000,
+ "files": {
+  "prompts/s700000_n1600_C.txt": "a5dbe602ad733740d127a2c716e3475d65ebebeeaf6b869ed89811dab3aa0e02",
+  "prompts/s700000_n1600_E.txt": "34220325df860a9e93bf035a99898311b0cb879c76aa4bd62dc8a4479877fdd2",
+  "prompts/s700000_n1600_R.txt": "4dae8a744b37261c28119fbfffdbb8b406f403e4cc27a0b17e25c6898d83a0c9",
+  "prompts/s700000_n1600_RG.txt": "7b6f42a9bf764b84f612b4128a005c177abaf1d9ca930d17e4d9e934f173d129",
+  "prompts/s700001_n1600_C.txt": "8e70a938413be3f1697656804a2325ffdd74a3437d98f399fbc79b71c8a5b276",
+  "prompts/s700001_n1600_E.txt": "a33da6d5bce8fe3b752545d1ebacee156268630bc6eb208ad78c9d8b2a57a7bf",
+  "prompts/s700001_n1600_R.txt": "79d5c7c04c2493ef948ce8fad0375b64437e66054924b7354d2b4893f6a349b0",
+  "prompts/s700001_n1600_RG.txt": "43e940d8aa890d92049688a26df2192f381f110614df4a1d9c2f4f4f8994a7b4",
+  "prompts/s700002_n1600_C.txt": "9ab91cbf2dfbbf03d3cf6cc7f8a1c89b0c7976d4a4c1b32968ad0de882adcd59",
+  "prompts/s700002_n1600_E.txt": "0d54d63f6b0bcdc6c196f3caa952387e3f054900e9cd9e200f59bfe4569f17bb",
+  "prompts/s700002_n1600_R.txt": "fef89bfe2ed875455f92dd89a28f39957b75aa778131229050daa12cc40a9319",
+  "prompts/s700002_n1600_RG.txt": "f8f6c36c718c785671bd9716b692aee4623fdda275c97004ced33882581b352c",
+  "prompts/s700003_n1600_C.txt": "ba00c7afe05f9b09008e346a4c819e70a4bec00819522f77f19b29a91defa963",
+  "prompts/s700003_n1600_E.txt": "6aae8c47bd6c12f12923449b6514e45f8371c126f65b6dcb745df53c7ec68408",
+  "prompts/s700003_n1600_R.txt": "dad197ec53213d1a0090cdc83af5d405b4db15b770a56f1eede3bf72e573f7c3",
+  "prompts/s700003_n1600_RG.txt": "cada0e2ead401f957457db810a14513ad3bc5a36715cd754f8ce273919063400",
+  "prompts/s700004_n1600_C.txt": "2c378f1fb15fc8e43b23cc49a752d13bb073ae73bc4e69b6eb96e065be10806e",
+  "prompts/s700004_n1600_E.txt": "0b758d4797efda332dceb10001ce1ef4c75154269ad026fd08138d2c0ee01c28",
+  "prompts/s700004_n1600_R.txt": "a2c4a9854400c2927023dae00b555fef2ce85174e6d6a912bee6404af8e06977",
+  "prompts/s700004_n1600_RG.txt": "e507e6899394f951dd68518028c3304c9dd330f93ce3f47f89f91a4d476abef8",
+  "prompts/s700005_n1600_C.txt": "55eda31551d7dece2a96507f3fdba6e935da3cf1bff5e91a89d3b4007f272f0d",
+  "prompts/s700005_n1600_E.txt": "57984b127264012993649643804de330bce6f2f812eac6fd671ba20e274bc387",
+  "prompts/s700005_n1600_R.txt": "2105f093e30650552ef333a2971636d9517567781c077081d60243db79869d15",
+  "prompts/s700005_n1600_RG.txt": "3f80024304bd1c042d7b474305559c07157d7d737e5a2da1f8c9bb8c979ea39c",
+  "prompts/s700006_n1600_C.txt": "722cd5dd084b6a3292b30122cc89a6b700bcf7da49fe1e28014295d1920e0ac1",
+  "prompts/s700006_n1600_E.txt": "3e6dbd17a3c0570c1c5c230c13e68105788997925e4c567d2e36d8215c990e98",
+  "prompts/s700006_n1600_R.txt": "e02989fa085a547288723603ad2eb37ac65ee9b0ee7c693daf0e0d4d8d920767",
+  "prompts/s700006_n1600_RG.txt": "8943abe5df4a513b71c3ee362d3f129969fb5e3a41acaa03bd8577a5377e2cde",
+  "prompts/s700007_n1600_C.txt": "4a113bc1cbc861d75d86cb6e03cad23673b1f85fdca28b06184034458ce56c1d",
+  "prompts/s700007_n1600_E.txt": "1d987f94ef7e1f451f5c59f9cfe11bb76624c46781c59dcbaf2ad97e4fe0b04c",
+  "prompts/s700007_n1600_R.txt": "3ee6011e684ad71772f5c24bf6963c450d15027b3a9db660329ab7da8f47ff82",
+  "prompts/s700007_n1600_RG.txt": "1c59e832fa60db540e459ab355e2005092b603f7db08a0a723c27827881b2aa7",
+  "prompts/s700008_n1600_C.txt": "6eebc6cad3ee3309fe7ca7ef0de3542dc31888bbdcad37be715780e4a09f85c6",
+  "prompts/s700008_n1600_E.txt": "5fa14c72716adfdb6fd94d70b70d91ce36875bcc60d9afb4570de770cb43f272",
+  "prompts/s700008_n1600_R.txt": "c624bfd2a4ea0936d65979b129ee7f802dfa9904c6f5e8b97a7b2b993af19dd4",
+  "prompts/s700008_n1600_RG.txt": "9f5e9dd9b6be80751aa3aa897e424f6a8ecf79c599a69fda0aeabbefcf3dbff5",
+  "prompts/s700009_n1600_C.txt": "622e1bdfb7593fdaec4a06a3062fe2233210938c728a0d494f504169be2fd4e1",
+  "prompts/s700009_n1600_E.txt": "597aa17454c5106ae597f3cced125cd72ea03e76fda61bfa78c8cf7eaab69f8d",
+  "prompts/s700009_n1600_R.txt": "5bef60577331f9dcf4e3e2e80b48b5f9236ee162c68553e22f4a35ef90774d0f",
+  "prompts/s700009_n1600_RG.txt": "830b92962563de8b1d88806bbec2025d1a3984a8d51d421e235a70850df8aa27",
+  "prompts/s700010_n1600_C.txt": "7fa353606ca1b29bbeb6f39be983699f9d8aaa6cf923267076410c2d2cbac3f0",
+  "prompts/s700010_n1600_E.txt": "0cf86bbf18b83b9b8c26c57b2e160749455fafc0389c3260775303263e75fd24",
+  "prompts/s700010_n1600_R.txt": "0f4f52ba428b255c4a803181eaf7ebd267c9aa44875796fc929f36479f86cafc",
+  "prompts/s700010_n1600_RG.txt": "fc8f94a2bd0dad5fb64b9226f202949ea956baf0659dd68ea610bd3dee2ddb28",
+  "prompts/s700011_n1600_C.txt": "eaf81a29dae60c597a74cca0300989e1637b4afc2b759cc76c0fc322181ab811",
+  "prompts/s700011_n1600_E.txt": "bc80bc1a2f4d0004af1ed06de384c05e8da2d872346aa0e4d5c84aaeb5515603",
+  "prompts/s700011_n1600_R.txt": "03d1c9e9f30984222950d76652c96648a244039bfb2d062f26fe6f85c87a007c",
+  "prompts/s700011_n1600_RG.txt": "fe196014c7325847b11e550e6d97bab4aaabbb39e2de58820898a4553e9039ef",
+  "prompts/s700012_n1600_C.txt": "a74d243f3075a4261f8fdf43665b48836e211b0e8e2ab64d52f7e77f7a6fe5c0",
+  "prompts/s700012_n1600_E.txt": "07a3742903b414a042fc9ea8634296f6e58d793f940ff3d8306a37cf854edb54",
+  "prompts/s700012_n1600_R.txt": "b9f5896aa2c79426642cc439d7abfa21abf4e8aa8dee0065b268f1cf7b84ee41",
+  "prompts/s700012_n1600_RG.txt": "79294c0c40228714fbebc6b8cbcdbafee9080e7fa9c8f1760b310a7805d82bc1",
+  "prompts/s700013_n1600_C.txt": "22071eeab1e669540fac02f3b7f4b7c3fd8e0b07f31cf135fc9fbb84a1d61b20",
+  "prompts/s700013_n1600_E.txt": "0013983cc0ee5cab8b471d707ff68a7acbda97b205f88959048b7a51d280b592",
+  "prompts/s700013_n1600_R.txt": "d54eaea6c893b1c0f7a63ecff22d1b631524c3e4eb561c809b1a90fa5fd20ae5",
+  "prompts/s700013_n1600_RG.txt": "c14c31d6826d76fc148ba7eb18541fa30ae13bf9c4cdcafbbf8d766cf0c36c66",
+  "prompts/s700014_n1600_C.txt": "cbc2937f68a21326727d6c0192f2229bb2b5aeb9f2a53ba8e832d52cc7a63986",
+  "prompts/s700014_n1600_E.txt": "dd57933e357cbe9317e903dcc2c128ad6be06268ea0d24ff7e0330c966e47013",
+  "prompts/s700014_n1600_R.txt": "250971491b790b4451bd70a18b9f0225353a8d6b4dc6201d5f781574a9ce7e78",
+  "prompts/s700014_n1600_RG.txt": "e02a8ac9c7b155a18199a304f5a834e4837092cbd54af84b5745a0e277f242fa",
+  "prompts/s700015_n1600_C.txt": "b1fd70d95882a6a261f3c45c47b66b58ed17167403f000227c851d5f845fd5bd",
+  "prompts/s700015_n1600_E.txt": "f8aa4d6a592ecfc12f4d8690e9f29df940417d8da5afdac1b0eb67769ac5bc39",
+  "prompts/s700015_n1600_R.txt": "7c7b3945c1782635625746da855c5eb97e02847fe82b10e2958d84952084fff9",
+  "prompts/s700015_n1600_RG.txt": "ffcc248de43f097f2fb6f59d603702775329ac1614dacf1d3165dbeda6c75a54",
+  "prompts/s700016_n1600_C.txt": "8de2b7d02542ab7347dccdaf27cce26d25bdba56d998b9d51a7807508b1ec9f2",
+  "prompts/s700016_n1600_E.txt": "e012d5519747c34f444be4b4d7128d9e6105e94ae1232a2d689255be0530c7b1",
+  "prompts/s700016_n1600_R.txt": "467106d8b99919291c11b568ca70d1ae016234492938e285f7c7d22549dd0d44",
+  "prompts/s700016_n1600_RG.txt": "7413fe86cd8ab1d85134dc7604a68bb338d9b143f2f3a8330c4d107a7853e23a",
+  "prompts/s700017_n1600_C.txt": "96e7e8806df06d60a49464a39adf4fd94ce9f2356cffea6e9eedd8546ce3586e",
+  "prompts/s700017_n1600_E.txt": "0e07efe347dcc4cd23e97085d9834d13e19fa56a35e39e4db4a1915f304fb970",
+  "prompts/s700017_n1600_R.txt": "4af2d10cf2b461dadfddf15ac99d744a8c8576d3f1c047cf0a169831659ac3f5",
+  "prompts/s700017_n1600_RG.txt": "53e98bd6e3a8e94b1a6de85827c69bbd20c1d61f610fd64b09b8efb7a2d4ed9a",
+  "prompts/s700018_n1600_C.txt": "71a63fe4f5ce98393aec860a2a2ace6255a36365ec75a96e3eaf4d0cc9e46db8",
+  "prompts/s700018_n1600_E.txt": "655b9ad84a90367074aaaa77d296f2d5333bc2198587f20ac35bf694cbb75a36",
+  "prompts/s700018_n1600_R.txt": "6d0b7b3f0ee198552c77fb1ff4d7dbeb53ccc56a86775a9a95fb4a01ddc96298",
+  "prompts/s700018_n1600_RG.txt": "ac990c9a273de5ee17750df0ba353c08090276e2ff4024b74a0a66dd15d99d0c",
+  "prompts/s700019_n1600_C.txt": "d135961eed93e2fa9c9a742a4a714a358551c5f62395df9e35c0d690c6741a0d",
+  "prompts/s700019_n1600_E.txt": "750aead3695e98d0c83cc44315f7a2ac2641fca1aee5fcb8eb67543371857589",
+  "prompts/s700019_n1600_R.txt": "30a56a5e08efff25036ab5b400d0d30cff6058493e7a9050e68a229ef56b13cc",
+  "prompts/s700019_n1600_RG.txt": "5bbb2e147ec5d22f3b3dcdc8cd84ebc3ecbb2c0431fdb1d4b57e03226e46a48c",
+  "prompts/s700020_n1600_C.txt": "ff934cbd417132d62d498f6a0e8cea7bf96d001dd5802a41d54fbbbf964528d2",
+  "prompts/s700020_n1600_E.txt": "bf39007f29bf9aaa9aa112f5b72225045a3b78a1f45d6a23a8753ba87ec5cd17",
+  "prompts/s700020_n1600_R.txt": "df6eb84a78d9f822757f10aa553897e8b8fce8d210bce5f74b8a28688f0ec655",
+  "prompts/s700020_n1600_RG.txt": "a9f0109d64b6ad1ccf105898289f60fd45925921749689bc6ae633302de051b9",
+  "prompts/s700021_n1600_C.txt": "8f3a4c5e211716205fedaf14d87c0d76cedef42449efbdf43544571771a3f8d7",
+  "prompts/s700021_n1600_E.txt": "019ee8e0a6fb76a3cc1b70cefb5fb48243d398f7f6ed25c20f19cf243b50ae01",
+  "prompts/s700021_n1600_R.txt": "b4066077e944a54942aa08716a5187f562be777ce6dc403a17c553973e475616",
+  "prompts/s700021_n1600_RG.txt": "fc4c3ba24ae936a5224be6dbe4ebf90abdd59546ff902f5a4687f22b513a90c8",
+  "prompts/s700022_n1600_C.txt": "c48ffa3ee8767d3097389f75adbacde9c4eaa2d987e0bf318e7b2399690168ff",
+  "prompts/s700022_n1600_E.txt": "afd0b3d70dedcc410d24abf2e9374de379bc6f9a4229b28fe2df36d40e397397",
+  "prompts/s700022_n1600_R.txt": "ba9c759e48d3d208d99fa1bc63265bc75bfc080f32aa88be0285486f755c8aa0",
+  "prompts/s700022_n1600_RG.txt": "3eb78955d9f79be4a798ceb1a60b08a9125b5505c4ca0f7e15e21c08ec78c597",
+  "prompts/s700023_n1600_C.txt": "d33e813641caf71cdd7d06017a1d503eaf79c50ce4e460be28872280f174476c",
+  "prompts/s700023_n1600_E.txt": "71265dfce64efaeeb1a734861a80f88058d91053062b6899b76299c804c4a076",
+  "prompts/s700023_n1600_R.txt": "9eb45778446786a0e4efc5a26a18193dcdbc32f5488cab99df7d60881184de58",
+  "prompts/s700023_n1600_RG.txt": "3aa79b9f01a4633b8924e84f5461d2680d0bc4248ad39937c4c37fa66b1f12df",
+  "prompts/s700024_n1600_C.txt": "8199a155e2902153d212aa2c9877067bfeae00cc505a96f09e691320b37413b1",
+  "prompts/s700024_n1600_E.txt": "bc597e0f268432c26af94d10a65f538fa9e635a69ae9908318b9568e2ed2a1d6",
+  "prompts/s700024_n1600_R.txt": "dafdcaa82590d33ed8dd1c38bf4bedb8d1f18005c4d0312afb97a836b7e071d7",
+  "prompts/s700024_n1600_RG.txt": "7a803f5509f196daa91eafcf6d8c13f2e2dd271be235e4bbcd32bc6e1c12c08c",
+  "prompts/s700025_n1600_C.txt": "258bdfcbdea54856c497f9a8c153de2871c5bbd7b5c7edf7d984c1be2a288446",
+  "prompts/s700025_n1600_E.txt": "c5dbcccee56ace57cf03341665f888493e4134f5233dc8eb44fd3aadbe038d30",
+  "prompts/s700025_n1600_R.txt": "d8b81ce18690937f1a0df6c7826d82ae731e8adb815e74ae65b5159bfd461b69",
+  "prompts/s700025_n1600_RG.txt": "e41461f9ea82095e379468ff40b1e995d79cbc8ef45d23c37989179cddfd69fd",
+  "prompts/s700026_n1600_C.txt": "ae27146b0040831a810688873e18ba10204e045e3b5e9fbcd15719e2f6f85b65",
+  "prompts/s700026_n1600_E.txt": "58bd668ec2b2f2789bca643d4ca9128226f8cf49daedd19f2493bb6b7d8f3529",
+  "prompts/s700026_n1600_R.txt": "398e7f2adc1e350c5c1ffad738c06175cfe2fa93a1e56df03522159f32f0db3e",
+  "prompts/s700026_n1600_RG.txt": "b3c706c00b36b084eae55b98d85a569860141f88ed32395e8f973e6f5f194afb",
+  "prompts/s700027_n1600_C.txt": "737ba4503d49061461276717bbf39cb3f2e0c86a3ecefd1c91d707090b6f82a0",
+  "prompts/s700027_n1600_E.txt": "2871df85767731709d17d7cb0686998e44a518948d3c9c3891d6c5d9b909ad39",
+  "prompts/s700027_n1600_R.txt": "28f257980436eb8c423a4778535fe7c281500b4a2b9dd743e48c90778b7b2f56",
+  "prompts/s700027_n1600_RG.txt": "730656aac54795ab1266c4b70680598e04176e45ab9fa79cc8d807df5508f091",
+  "prompts/s700028_n1600_C.txt": "22d579e2244b6299e35aa72bbbdb5037e700ad90c1072fe2d65f6e3289e0ac2f",
+  "prompts/s700028_n1600_E.txt": "4384625faad466be618a7d0d55e00effa451c4d6db89bec84d202c3f95cdd19b",
+  "prompts/s700028_n1600_R.txt": "a78fdccf0d198995717d605799604af3e304fe84530541d750dfb97cefb994d3",
+  "prompts/s700028_n1600_RG.txt": "8fc848fa21eaaea4e7d82c982e76d8b1b799cafa20d323d06036b7692328494b",
+  "prompts/s700029_n1600_C.txt": "4b75b9032fc221d26b3b3c6ac49c67081feaf4956dd62a82006010570766903b",
+  "prompts/s700029_n1600_E.txt": "ec6ebc3b1b2471a2b52815b9cebfd0883dfecfb5520f13055382e26dbec60cef",
+  "prompts/s700029_n1600_R.txt": "ce0d8076ea4524ead643768e56e35b58bb1b6466d20dad0ef7bbd7a98153195b",
+  "prompts/s700029_n1600_RG.txt": "36b94947476fb88e2aacd2d430dfd38cbf1a3008dd4b2a66940bde311478de82",
+  "system/none.txt": "1ce17b4898ab5d23a356446da214cf7ef1fbe464e94cecb20ee09d0750aaf2aa",
+  "system/skill.txt": "f1a865a77a3376cd74ebf23fee4a8497885f32f4141f25492683782035d52881",
+  "trials.jsonl": "80943e74e70605bfd923946e89685928e0d08124bf56c6abda96d52e5700b643",
+  "worlds/s700000_n1600.json": "72161cbcf5805839c3ac42ebf316c58eee73bf3c55761ea0a96a19a23b7faf81",
+  "worlds/s700001_n1600.json": "b11a18845f66aaf5c42364ee6d07365e4f2616aa6a26f34c88f248768ec0bd2d",
+  "worlds/s700002_n1600.json": "832c65663890d1ae55defa8e1cc6b9730a09d813e3e2c4da7d8ec807b29711fa",
+  "worlds/s700003_n1600.json": "2112fb38012acf120b51acc7e3b440169b7b61e7d59d96b63691c0dcf0ca0129",
+  "worlds/s700004_n1600.json": "8b112acdb0efbe88d01d3b5325bde9345810bab64629afda951c56429b68c935",
+  "worlds/s700005_n1600.json": "5fa5a01b3a0bd69375f1a8b79dfc3743a75436951ca30591f80f52ac73d18d27",
+  "worlds/s700006_n1600.json": "aa864f5356db31420584eeb046f5e1690d08543bf5dd19a0d9413c4747e1cee2",
+  "worlds/s700007_n1600.json": "c284ce94e44825276d55892d830b652690ad4a2e6659283329c20d843e0c4a12",
+  "worlds/s700008_n1600.json": "1623842e07d0cb664bf88dea7336aac06a3d2b72f93f3dd67756c98c30dd6f07",
+  "worlds/s700009_n1600.json": "3c0ae9d30cf7bc53520c190cdee7bf593926ad9075918fd887554438c287d761",
+  "worlds/s700010_n1600.json": "a741b904757d5f9d34306dbe231c5df718f84d2a5423e00d72ac669e88aa0ca8",
+  "worlds/s700011_n1600.json": "cc4cd84348269493b34acba876fa1fe0bd3ba8620cd40ef44d54228dc99898ce",
+  "worlds/s700012_n1600.json": "6f84f11c75017d1bc38ef2bd8959424a7fa0d84a993f2f3f83dee9d08700f666",
+  "worlds/s700013_n1600.json": "d45f81d36f2d684c94f3dc9c533e23024489cda2e5215c896bdfe92b61a9c975",
+  "worlds/s700014_n1600.json": "51a8aa8ede8cf5dfd8f3054fed1bf0bbc2087234a9324a4743f1e3101b310030",
+  "worlds/s700015_n1600.json": "6d14532ef94129438dd433f0501881c51c459b69b53c1919dedb20e831eb8ad4",
+  "worlds/s700016_n1600.json": "ed0bd306bf3d02219e52b4b1e5bb2dfcdee773451fa7c203e0f94116fd3dd75b",
+  "worlds/s700017_n1600.json": "d25ecac8e77af2fc192204e8b540aeca5e2b48cdde2312ed68d6dd723a3e8e31",
+  "worlds/s700018_n1600.json": "9bd892e192684da0fb362c3d474b62559e52c5448df01c771a781b94cd6160b2",
+  "worlds/s700019_n1600.json": "dad3efbe4c8a1bd93a857ed04468a2d286b15303001dad19df43966bcb27f83b",
+  "worlds/s700020_n1600.json": "98c896f35a427b0044e3136054880933dd81453394ad57dbe32f104aae32188d",
+  "worlds/s700021_n1600.json": "da132644a3817936e6acbe11077b0e349ed2573ee0c0246ebee755df7c8ce1bd",
+  "worlds/s700022_n1600.json": "8e065738ab3f3fbf0acc5c016b96d9aa7dc2247fb65e026b78a8a8f4a67fe710",
+  "worlds/s700023_n1600.json": "50d4db321ab77659e445a51c81e4970a143729c80bff21c1f81cd88b9d0bded3",
+  "worlds/s700024_n1600.json": "95f8b495cff5ec5ecb8372731091f89dffc61e57f30c31414ad4aef8562bc221",
+  "worlds/s700025_n1600.json": "0c0eb30feac0787780f2e6f81645d125c07782294f25d91d269cd2480f231042",
+  "worlds/s700026_n1600.json": "016f62787878d24cf3a34978fa40b0697064590a5a8bc94d8b3da02c2528e2de",
+  "worlds/s700027_n1600.json": "5863285bbca3e828efd32dd199a697f09d24b83c1166f3085854d042d6f59916",
+  "worlds/s700028_n1600.json": "d0b14cc082550c3f30f539ef2e99614b43a9c812f56bc8ca42a417e255f6b9a8",
+  "worlds/s700029_n1600.json": "a5aae1b9efb8a1fd38fda9927ab33cb06d6089809aeb5d951f4154251e231b34"
+ }
+}

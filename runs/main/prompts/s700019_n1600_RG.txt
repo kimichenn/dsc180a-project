@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Ruzapor budget set to $2560K.
+#0002  Finance Office: Ruzapor budget decreased by $222K.
+#0003  Finance Office: Ruzapor budget increased by $20K after review.
+#0004  PMO note: Hearing Ruzapor's budget goes up $214K.
+#0005  Finance Office: Ruzapor budget increased by $391K per the revised plan.
+#0006  Finance Office: Ruzapor purchase order FC-9762 closed.
+#0007  Finance Office: Ruzapor budget decreased by $447K after review.
+#0008  Finance Office: Withdraw update #0005.
+#0009  Finance Office: Reminder: Ruzapor expense reports are due Friday.
+#0010  Operations chat: Ruzapor security review passed.
+#0011  Finance Office: Ruzapor receipts scanned.
+#0012  Finance Office: Ruzapor budget decreased by $273K.
+#0013  Finance Office: Withdraw update #0008; it was entered in error.
+#0014  Finance Office: Withdraw update #0013; it was entered in error.
+#0015  Legal email: Expect Ruzapor's budget to rise by $407K.
+#0016  Legal email: Hearing Ruzapor's budget goes up $16K.
+#0017  Finance Office: Ruzapor budget increased by $130K after review.
+#0018  Facilities ticket: Expect Ruzapor's budget to drop by $466K.
+#0019  Finance Office: Ruzapor budget increased by $502K per the revised plan.
+#0020  Finance Office: Withdraw update #0014; it was entered in error.
+#0021  Finance Office: Withdraw update #0007; it was entered in error.
+#0022  Engineering email: Ruzapor budget should land at $3000K.
+#0023  Finance Office: Ruzapor budget increased by $15K after review.
+#0024  Finance Office: Withdraw update #0021; it was entered in error.
+#0025  Finance Office: Ruzapor budget increased by $552K.
+#0026  Vendor call: Ruzapor weekly sync moved to Mondays.
+#0027  Finance Office: Ruzapor budget decreased by $74K.
+#0028  Finance Office: Ruzapor budget increased by $221K per the revised plan.
+#0029  Finance Office: Ruzapor budget decreased by $517K after review.
+#0030  Legal email: Pretty sure Ruzapor's budget is $3730K now.
+#0031  Sales update: Sounds like Ruzapor gets $336K more.
+#0032  Finance Office: Ruzapor budget increased by $21K after review.
+#0033  Finance Office: Withdraw update #0029; it was entered in error.
+#0034  Finance Office: Ruzapor budget increased by $28K per the revised plan.
+#0035  Facilities ticket: Pretty sure Ruzapor's budget is $4510K now.
+#0036  Marketing email: Heard Ruzapor's budget is now $2800K.
+#0037  Finance Office: Ruzapor budget increased by $251K after review.
+#0038  Vendor call: Heard Ruzapor's budget is now $4070K.
+#0039  Finance Office: Withdraw update #0024; it was entered in error.
+#0040  Finance Office: Ruzapor budget increased by $75K after review.
+#0041  Facilities ticket: Sounds like Ruzapor gets $488K less.
+#0042  Facilities ticket: Ruzapor design review moved to Room 6D.
+#0043  Finance Office: Ruzapor budget decreased by $80K per the revised plan.
+#0044  Finance Office: Ruzapor budget decreased by $138K.
+#0045  Finance Office: Withdraw update #0037.
+#0046  Finance Office: Withdraw update #0039; it was entered in error.
+#0047  Engineering email: Sounds like Ruzapor gets $444K more.
+#0048  Vendor call: Heard Ruzapor's budget is now $4080K.
+#0049  Finance Office: Ruzapor budget decreased by $115K.
+#0050  Finance Office: Withdraw update #0027.
+#0051  PMO note: Expect Ruzapor's budget to drop by $527K.
+#0052  Finance Office: Ruzapor budget decreased by $541K.
+#0053  Finance Office: Withdraw update #0012; it was entered in error.
+#0054  Finance Office: Ruzapor budget decreased by $313K after review.
+#0055  Operations chat: Ruzapor status report filed for week 23.
+#0056  Finance Office: Ruzapor budget decreased by $90K after review.
+#0057  Marketing email: Heard Ruzapor's budget is now $2760K.
+#0058  Finance Office: Ruzapor budget increased by $95K per the revised plan.
+#0059  Finance Office: Ruzapor budget decreased by $337K.
+#0060  Finance Office: Ruzapor budget decreased by $402K after review.
+#0061  Finance Office: Ruzapor budget decreased by $243K per the revised plan.
+#0062  Finance Office: Withdraw update #0034.
+#0063  Engineering email: Ruzapor budget is going to $1460K.
+#0064  Finance Office: Ruzapor budget decreased by $464K.
+#0065  Operations chat: Hearing Ruzapor's budget goes up $574K.
+#0066  Finance Office: Ruzapor budget decreased by $10K after review.
+#0067  Finance Office: Withdraw update #0028; it was entered in error.
+#0068  Operations chat: Hearing Ruzapor's budget goes up $334K.
+#0069  Operations chat: Ruzapor budget is going to $1260K.
+#0070  Engineering email: Sounds like Ruzapor gets $469K more.
+#0071  Operations chat: Ruzapor sprint 36 retrospective notes posted.
+#0072  Finance Office: Ruzapor budget decreased by $474K.
+#0073  Finance Office: Withdraw update #0061.
+#0074  Sales update: Expect Ruzapor's budget to rise by $187K.
+#0075  Finance Office: Withdraw update #0002.
+#0076  Finance Office: Ruzapor budget increased by $594K per the revised plan.
+#0077  Finance Office: Ruzapor budget decreased by $120K per the revised plan.
+#0078  Sales update: Ruzapor budget is going up by $549K.
+#0079  Finance Office: Ruzapor budget decreased by $45K after review.
+#0080  Finance Office: Ruzapor budget decreased by $90K per the revised plan.
+#0081  Finance Office: Ruzapor budget increased by $597K after review.
+#0082  Finance Office: Ruzapor budget increased by $163K per the revised plan.
+#0083  Finance Office: Ruzapor budget decreased by $328K after review.
+#0084  Finance Office: Ruzapor budget decreased by $561K.
+#0085  Finance Office: Ruzapor budget decreased by $70K after review.
+#0086  Finance Office: Ruzapor budget decreased by $592K after review.
+#0087  Finance Office: Ruzapor budget increased by $31K after review.
+#0088  Operations chat: Pretty sure Ruzapor's budget is $670K now.
+#0089  Finance Office: Ruzapor budget increased by $414K per the revised plan.
+#0090  Sales update: Heard Ruzapor's budget is now $1120K.
+#0091  Operations chat: Pretty sure Ruzapor's budget is $1160K now.
+#0092  Finance Office: Ruzapor budget increased by $26K per the revised plan.
+#0093  Finance Office: Ruzapor budget increased by $3K after review.
+#0094  Finance Office: Ruzapor budget decreased by $110K.
+#0095  Finance Office: Ruzapor budget decreased by $30K per the revised plan.
+#0096  Finance Office: Ruzapor budget decreased by $60K per the revised plan.
+#0097  Facilities ticket: Ruzapor budget should land at $1080K.
+#0098  Finance Office: Ruzapor budget increased by $558K per the revised plan.
+#0099  Finance Office: Ruzapor budget increased by $120K.
+#0100  Marketing email: Ruzapor kickoff moved to Building 7.
+#0101  PMO note: Ruzapor budget is going down by $538K.
+#0102  Finance Office: Ruzapor budget decreased by $10K.
+#0103  Finance Office: Ruzapor budget increased by $110K per the revised plan.
+#0104  PMO note: Expect Ruzapor's budget to drop by $58K.
+#0105  Finance Office: Ruzapor budget increased by $51K.
+#0106  Engineering email: Ruzapor budget is going to $1480K.
+#0107  Finance Office: Ruzapor budget increased by $516K.
+#0108  Finance Office: Ruzapor budget decreased by $45K.
+#0109  Finance Office: Ruzapor budget decreased by $50K per the revised plan.
+#0110  Finance Office: Ruzapor budget decreased by $30K after review.
+#0111  Finance Office: Withdraw update #0082; it was entered in error.
+#0112  Finance Office: Withdraw update #0105.
+#0113  Finance Office: Ruzapor budget decreased by $102K per the revised plan.
+#0114  Finance Office: Ruzapor budget increased by $482K after review.
+#0115  Finance Office: Ruzapor budget decreased by $256K per the revised plan.
+#0116  Facilities ticket: Ruzapor budget is going up to $2530K.
+#0117  Finance Office: Ruzapor budget decreased by $269K after review.
+#0118  Finance Office: Ruzapor budget increased by $237K.
+#0119  Finance Office: Ruzapor quarterly audit scheduled for Wednesday.
+#0120  Marketing email: Expect Ruzapor's budget to drop by $117K.
+#0121  Facilities ticket: Pretty sure Ruzapor's budget is $1930K now.
+#0122  Finance Office: Ruzapor budget increased by $150K per the revised plan.
+#0123  Finance Office: Ruzapor budget decreased by $324K per the revised plan.
+#0124  Finance Office: Ruzapor budget increased by $406K.
+#0125  Finance Office: Ruzapor budget decreased by $85K after review.
+#0126  Sales update: Ruzapor design review moved to Room 6C.
+#0127  Finance Office: Withdraw update #0084.
+#0128  Legal email: Ruzapor documentation moved to the shared drive.
+#0129  Facilities ticket: Expect Ruzapor's budget to rise by $501K.
+#0130  Vendor call: Expect Ruzapor's budget to rise by $238K.
+#0131  Finance Office: Ruzapor budget decreased by $65K after review.
+#0132  Sales update: Sounds like Ruzapor gets $174K less.
+#0133  Finance Office: Withdraw update #0046.
+#0134  Finance Office: Ruzapor budget increased by $326K after review.
+#0135  Legal email: Heard Ruzapor's budget is now $3980K.
+#0136  Marketing email: Heard Ruzapor's budget is now $2410K.
+#0137  Finance Office: Withdraw update #0081; it was entered in error.
+#0138  Finance Office: Ruzapor budget decreased by $85K.
+#0139  Finance Office: Ruzapor budget decreased by $40K.
+#0140  Facilities ticket: Ruzapor budget should land at $2160K.
+#0141  Marketing email: Expect Ruzapor's budget to drop by $348K.
+#0142  Finance Office: Withdraw update #0020.
+#0143  PMO note: Pretty sure Ruzapor's budget is $2870K now.
+#0144  Finance Office: Ruzapor budget decreased by $344K.
+#0145  Marketing email: Sounds like Ruzapor gets $139K more.
+#0146  Operations chat: Ruzapor budget is going down to $1760K.
+#0147  Finance Office: Ruzapor budget increased by $100K after review.
+#0148  Finance Office: Ruzapor budget decreased by $434K per the revised plan.
+#0149  Finance Office: Ruzapor budget increased by $24K.
+#0150  PMO note: Sounds like Ruzapor gets $432K less.
+#0151  Legal email: Ruzapor documentation moved to the shared drive.
+#0152  PMO note: Pretty sure Ruzapor's budget is $1840K now.
+#0153  Finance Office: Withdraw update #0072.
+#0154  Sales update: Ruzapor budget is going up to $2100K.
+#0155  Engineering email: Ruzapor budget is going to $1480K.
+#0156  PMO note: Ruzapor site visit confirmed for Wednesday.
+#0157  Finance Office: Ruzapor budget decreased by $10K.
+#0158  Finance Office: Ruzapor budget increased by $588K.
+#0159  Vendor call: Heard Ruzapor's budget is now $3110K.
+#0160  Finance Office: Reminder: Ruzapor expense reports are due Monday.
+#0161  Engineering email: Heard Ruzapor's budget is now $2600K.
+#0162  Finance Office: Withdraw update #0044; it was entered in error.
+#0163  Finance Office: Withdraw update #0089.
+#0164  Finance Office: Ruzapor budget increased by $85K per the revised plan.
+#0165  Finance Office: Withdraw update #0054; it was entered in error.
+#0166  Operations chat: Pretty sure Ruzapor's budget is $2220K now.
+#0167  Vendor call: Hearing Ruzapor's budget goes down $327K.
+#0168  Finance Office: Ruzapor budget increased by $471K per the revised plan.
+#0169  Finance Office: Ruzapor budget increased by $95K after review.
+#0170  Legal email: Sounds like Ruzapor gets $309K less.
+#0171  Finance Office: Withdraw update #0092; it was entered in error.
+#0172  Finance Office: Ruzapor budget increased by $522K per the revised plan.
+#0173  Vendor call: Heard Ruzapor's budget is now $3240K.
+#0174  Finance Office: Ruzapor budget decreased by $120K after review.
+#0175  Finance Office: Withdraw update #0086.
+#0176  Finance Office: Ruzapor budget increased by $228K after review.
+#0177  Finance Office: Ruzapor budget increased by $125K after review.
+#0178  Vendor call: Ruzapor documentation moved to the shared drive.
+#0179  Finance Office: Ruzapor budget decreased by $272K.
+#0180  Engineering email: Ruzapor budget should land at $4800K.
+#0181  Finance Office: Ruzapor budget decreased by $90K after review.
+#0182  Marketing email: Sounds like Ruzapor gets $233K less.
+#0183  Finance Office: Withdraw update #0171; it was entered in error.
+#0184  Finance Office: Withdraw update #0087; it was entered in error.
+#0185  Finance Office: Ruzapor budget increased by $162K after review.
+#0186  Finance Office: Ruzapor budget decreased by $23K after review.
+#0187  Engineering email: Ruzapor weekly sync moved to Wednesdays.
+#0188  Finance Office: Withdraw update #0172; it was entered in error.
+#0189  Finance Office: Ruzapor budget increased by $372K after review.
+#0190  Marketing email: Sounds like Ruzapor gets $239K more.
+#0191  Finance Office: Ruzapor budget increased by $188K.
+#0192  Finance Office: Ruzapor budget decreased by $292K.
+#0193  Finance Office: Ruzapor budget increased by $472K.
+#0194  Finance Office: Withdraw update #0186.
+#0195  Finance Office: Ruzapor budget decreased by $381K after review.
+#0196  Finance Office: Ruzapor budget increased by $219K per the revised plan.
+#0197  Finance Office: Ruzapor budget decreased by $65K per the revised plan.
+#0198  Legal email: Hearing Ruzapor's budget goes up $168K.
+#0199  PMO note: Sounds like Ruzapor gets $13K less.
+#0200  Finance Office: Ruzapor budget decreased by $189K per the revised plan.
+#0201  Finance Office: Ruzapor budget decreased by $297K after review.
+#0202  Finance Office: Withdraw update #0189; it was entered in error.
+#0203  Finance Office: Ruzapor budget increased by $80K.
+#0204  Finance Office: Withdraw update #0168; it was entered in error.
+#0205  Finance Office: Ruzapor budget decreased by $264K.
+#0206  Finance Office: Ruzapor budget decreased by $124K per the revised plan.
+#0207  Sales update: Sounds like Ruzapor gets $562K less.
+#0208  Finance Office: Withdraw update #0196; it was entered in error.
+#0209  Finance Office: Ruzapor budget increased by $40K per the revised plan.
+#0210  Finance Office: Withdraw update #0064.
+#0211  Finance Office: Ruzapor budget decreased by $135K.
+#0212  Marketing email: Ruzapor kickoff moved to Building 6.
+#0213  Sales update: Ruzapor budget is going up to $3380K.
+#0214  Finance Office: Withdraw update #0133.
+#0215  Finance Office: Reminder: Ruzapor expense reports are due Wednesday.
+#0216  Finance Office: Ruzapor budget increased by $196K after review.
+#0217  PMO note: Ruzapor budget is going up to $3450K.
+#0218  Finance Office: Ruzapor budget increased by $304K.
+#0219  Finance Office: Ruzapor budget decreased by $498K.
+#0220  Facilities ticket: Expect Ruzapor's budget to drop by $178K.
+#0221  Finance Office: Ruzapor budget increased by $356K.
+#0222  Finance Office: Ruzapor budget decreased by $145K.
+#0223  Finance Office: Ruzapor budget increased by $105K after review.
+#0224  Finance Office: Ruzapor budget decreased by $120K per the revised plan.
+#0225  Vendor call: Hearing Ruzapor's budget goes up $519K.
+#0226  Finance Office: Withdraw update #0149.
+#0227  Finance Office: Ruzapor budget decreased by $61K per the revised plan.
+#0228  Engineering email: Heard Ruzapor's budget is now $2280K.
+#0229  PMO note: Ruzapor budget is going down to $2480K.
+#0230  Finance Office: Ruzapor budget increased by $361K.
+#0231  Finance Office: Withdraw update #0221; it was entered in error.
+#0232  Sales update: Pretty sure Ruzapor's budget is $3450K now.
+#0233  Facilities ticket: Ruzapor budget is going to $2870K.
+#0234  PMO note: Ruzapor budget is going down to $1820K.
+#0235  Finance Office: Ruzapor budget increased by $514K after review.
+#0236  Engineering email: Ruzapor budget is going up by $369K.
+#0237  Facilities ticket: Hearing Ruzapor's budget goes down $511K.
+#0238  Finance Office: Ruzapor budget decreased by $110K per the revised plan.
+#0239  Finance Office: Ruzapor budget decreased by $182K.
+#0240  Finance Office: Withdraw update #0032; it was entered in error.
+#0241  Finance Office: Withdraw update #0142.
+#0242  Finance Office: Ruzapor budget increased by $105K.
+#0243  Finance Office: Ruzapor budget decreased by $55K after review.
+#0244  Finance Office: Ruzapor budget increased by $145K per the revised plan.
+#0245  Finance Office: Ruzapor budget decreased by $70K after review.
+#0246  Finance Office: Withdraw update #0227; it was entered in error.
+#0247  Finance Office: Ruzapor budget decreased by $354K.
+#0248  Finance Office: Ruzapor budget decreased by $145K after review.
+#0249  Facilities ticket: Heard Ruzapor's budget is now $3390K.
+#0250  Marketing email: Ruzapor budget is going down to $2380K.
+#0251  Finance Office: Withdraw update #0114.
+#0252  Finance Office: Ruzapor budget decreased by $374K per the revised plan.
+#0253  Engineering email: Ruzapor sprint 9 retrospective notes posted.
+#0254  Finance Office: Ruzapor budget decreased by $120K.
+#0255  Finance Office: Ruzapor budget increased by $100K after review.
+#0256  Finance Office: Ruzapor budget decreased by $105K after review.
+#0257  Finance Office: Ruzapor budget decreased by $557K after review.
+#0258  Finance Office: Ruzapor budget increased by $37K after review.
+#0259  Finance Office: Ruzapor budget increased by $145K.
+#0260  Vendor call: Heard Ruzapor's budget is now $1200K.
+#0261  Facilities ticket: Ruzapor budget is going down to $1380K.
+#0262  Finance Office: Withdraw update #0033; it was entered in error.
+#0263  Finance Office: Ruzapor budget decreased by $396K per the revised plan.
+#0264  Legal email: Ruzapor budget is going up to $690K.
+#0265  Finance Office: Ruzapor budget decreased by $55K after review.
+#0266  Finance Office: Ruzapor budget increased by $263K after review.
+#0267  Finance Office: Ruzapor budget decreased by $132K per the revised plan.
+#0268  Finance Office: Withdraw update #0258; it was entered in error.
+#0269  Marketing email: Ruzapor sprint 30 retrospective notes posted.
+#0270  Finance Office: Ruzapor budget increased by $456K.
+#0271  Engineering email: Ruzapor budget should land at $1000K.
+#0272  Finance Office: Withdraw update #0075.
+#0273  Finance Office: Ruzapor budget decreased by $125K.
+#0274  Finance Office: Ruzapor budget decreased by $208K.
+#0275  PMO note: Ruzapor budget should land at $690K.
+#0276  PMO note: Hearing Ruzapor's budget goes up $1K.
+#0277  Finance Office: Withdraw update #0045.
+#0278  Finance Office: Ruzapor budget increased by $90K per the revised plan.
+#0279  Finance Office: Ruzapor budget decreased by $157K per the revised plan.
+#0280  Finance Office: Ruzapor budget increased by $45K per the revised plan.
+#0281  Finance Office: Ruzapor budget increased by $140K after review.
+#0282  Finance Office: Ruzapor budget increased by $80K per the revised plan.
+#0283  Finance Office: Ruzapor budget decreased by $90K.
+#0284  Finance Office: Ruzapor budget increased by $95K per the revised plan.
+#0285  Finance Office: Ruzapor budget increased by $85K after review.
+#0286  Finance Office: Withdraw update #0111; it was entered in error.
+#0287  Finance Office: Withdraw update #0194; it was entered in error.
+#0288  Finance Office: Ruzapor budget increased by $19K after review.
+#0289  Finance Office: Ruzapor budget increased by $50K per the revised plan.
+#0290  Finance Office: Ruzapor budget decreased by $125K.
+#0291  Finance Office: Withdraw update #0134; it was entered in error.
+#0292  Finance Office: Ruzapor budget increased by $197K.
+#0293  Finance Office: Withdraw update #0279; it was entered in error.
+#0294  Finance Office: Ruzapor budget increased by $347K per the revised plan.
+#0295  Finance Office: Withdraw update #0163.
+#0296  Operations chat: Ruzapor budget is going down by $193K.
+#0297  Finance Office: Ruzapor budget decreased by $130K per the revised plan.
+#0298  Vendor call: Heard Ruzapor's budget is now $1610K.
+#0299  Sales update: Sounds like Ruzapor gets $554K less.
+#0300  Sales update: Sounds like Ruzapor gets $291K more.
+#0301  Legal email: Hearing Ruzapor's budget goes down $308K.
+#0302  Finance Office: Ruzapor budget decreased by $202K after review.
+#0303  Finance Office: Ruzapor budget increased by $95K after review.
+#0304  Finance Office: Ruzapor budget decreased by $150K per the revised plan.
+#0305  Finance Office: Ruzapor budget decreased by $50K after review.
+#0306  Finance Office: Ruzapor budget decreased by $115K per the revised plan.
+#0307  Finance Office: Ruzapor budget increased by $11K per the revised plan.
+#0308  Finance Office: Ruzapor budget decreased by $109K.
+#0309  Legal email: Ruzapor risk register updated with 9 new items.
+#0310  Finance Office: Ruzapor budget increased by $76K per the revised plan.
+#0311  Finance Office: Ruzapor budget increased by $30K.
+#0312  Engineering email: Heard Ruzapor's budget is now $1030K.
+#0313  Finance Office: Ruzapor budget decreased by $55K.
+#0314  Marketing email: Expect Ruzapor's budget to rise by $79K.
+#0315  Finance Office: Ruzapor budget decreased by $18K per the revised plan.
+#0316  Finance Office: Ruzapor budget increased by $65K.
+#0317  Vendor call: Sounds like Ruzapor gets $84K less.
+#0318  Vendor call: Ruzapor budget is going up by $533K.
+#0319  Finance Office: Ruzapor budget increased by $266K.
+#0320  Marketing email: Hearing Ruzapor's budget goes up $413K.
+#0321  Finance Office: Ruzapor budget decreased by $50K per the revised plan.
+#0322  Marketing email: Ruzapor budget should land at $1620K.
+#0323  Legal email: Heard Ruzapor's budget is now $1240K.
+#0324  Finance Office: Ruzapor budget decreased by $45K per the revised plan.
+#0325  Finance Office: Ruzapor budget increased by $85K per the revised plan.
+#0326  Finance Office: Ruzapor budget decreased by $10K per the revised plan.
+#0327  Finance Office: Ruzapor cost center code changed to FC-5173.
+#0328  Finance Office: Ruzapor budget increased by $40K after review.
+#0329  Marketing email: Sounds like Ruzapor gets $442K more.
+#0330  Marketing email: Ruzapor budget should land at $1990K.
+#0331  PMO note: Expect Ruzapor's budget to rise by $542K.
+#0332  Operations chat: Ruzapor budget is going up by $473K.
+#0333  Finance Office: Ruzapor budget decreased by $8K after review.
+#0334  Sales update: Heard Ruzapor's budget is now $2040K.
+#0335  Finance Office: Ruzapor budget increased by $194K.
+#0336  Marketing email: Heard Ruzapor's budget is now $2420K.
+#0337  Finance Office: Ruzapor budget decreased by $140K.
+#0338  Finance Office: Ruzapor finance review moved to Room 2C.
+#0339  Finance Office: Ruzapor budget increased by $105K after review.
+#0340  Finance Office: Ruzapor budget decreased by $130K after review.
+#0341  Finance Office: Withdraw update #0191.
+#0342  Finance Office: Ruzapor budget increased by $95K after review.
+#0343  Finance Office: Withdraw update #0310.
+#0344  Finance Office: Ruzapor budget decreased by $578K after review.
+#0345  Engineering email: Ruzapor demo rescheduled to Thursday afternoon.
+#0346  Operations chat: Heard Ruzapor's budget is now $650K.
+#0347  Finance Office: Ruzapor budget decreased by $52K after review.
+#0348  Finance Office: Ruzapor budget increased by $544K.
+#0349  Engineering email: Ruzapor security review passed.
+#0350  Engineering email: Sounds like Ruzapor gets $448K less.
+#0351  Finance Office: Withdraw update #0288; it was entered in error.
+#0352  Finance Office: Withdraw update #0137.
+#0353  Marketing email: Ruzapor design review moved to Room 1B.
+#0354  Finance Office: Ruzapor budget increased by $55K after review.
+#0355  Finance Office: Ruzapor budget decreased by $70K per the revised plan.
+#0356  Vendor call: Ruzapor budget should land at $1500K.
+#0357  Finance Office: Ruzapor budget increased by $60K per the revised plan.
+#0358  Legal email: Ruzapor budget is going down by $301K.
+#0359  Finance Office: Withdraw update #0219.
+#0360  Finance Office: Ruzapor budget decreased by $36K after review.
+#0361  Facilities ticket: Ruzapor budget is going down by $92K.
+#0362  Marketing email: Heard Ruzapor's budget is now $2920K.
+#0363  Finance Office: Withdraw update #0235.
+#0364  Legal email: Ruzapor sprint 12 retrospective notes posted.
+#0365  Engineering email: Ruzapor budget is going down by $142K.
+#0366  Legal email: Ruzapor budget is going up by $72K.
+#0367  PMO note: Ruzapor budget is going to $2730K.
+#0368  Vendor call: Pretty sure Ruzapor's budget is $2670K now.
+#0369  Vendor call: Ruzapor budget should land at $2760K.
+#0370  Facilities ticket: Ruzapor budget is going up to $2510K.
+#0371  Finance Office: Ruzapor budget increased by $145K after review.
+#0372  Legal email: Pretty sure Ruzapor's budget is $2960K now.
+#0373  Finance Office: Ruzapor budget increased by $203K.
+#0374  Finance Office: Withdraw update #0112; it was entered in error.
+#0375  Finance Office: Ruzapor budget increased by $403K after review.
+#0376  Finance Office: Ruzapor budget decreased by $135K.
+#0377  Finance Office: Ruzapor budget increased by $65K per the revised plan.
+#0378  Finance Office: Ruzapor invoice batch FC-2369 archived.
+#0379  PMO note: Sounds like Ruzapor gets $88K more.
+#0380  Marketing email: Pretty sure Ruzapor's budget is $2020K now.
+#0381  Finance Office: Ruzapor budget increased by $486K after review.
+#0382  Operations chat: Ruzapor weekly sync moved to Thursdays.
+#0383  Legal email: Ruzapor design review moved to Room 2B.
+#0384  Finance Office: Ruzapor budget decreased by $246K per the revised plan.
+#0385  Facilities ticket: Ruzapor budget is going to $3130K.
+#0386  Finance Office: Ruzapor cost center code changed to FC-2314.
+#0387  Finance Office: Withdraw update #0272.
+#0388  PMO note: Ruzapor budget is going down by $553K.
+#0389  Sales update: Ruzapor budget is going up to $3370K.
+#0390  Legal email: Ruzapor budget is going down by $127K.
+#0391  Engineering email: Expect Ruzapor's budget to drop by $317K.
+#0392  Finance Office: Ruzapor budget decreased by $15K per the revised plan.
+#0393  Finance Office: Ruzapor budget decreased by $181K per the revised plan.
+#0394  Finance Office: Withdraw update #0286; it was entered in error.
+#0395  Facilities ticket: Ruzapor weekly sync moved to Tuesdays.
+#0396  Finance Office: Withdraw update #0230.
+#0397  Sales update: Ruzapor site visit confirmed for Monday.
+#0398  Finance Office: Withdraw update #0175.
+#0399  Engineering email: Ruzapor budget is going down to $1700K.
+#0400  Finance Office: Withdraw update #0052.
+#0401  Finance Office: Withdraw update #0206.
+#0402  Finance Office: Ruzapor budget increased by $70K per the revised plan.
+#0403  Finance Office: Withdraw update #0050; it was entered in error.
+#0404  Sales update: Expect Ruzapor's budget to drop by $274K.
+#0405  Finance Office: Ruzapor budget decreased by $118K per the revised plan.
+#0406  Vendor call: Expect Ruzapor's budget to drop by $32K.
+#0407  Finance Office: Ruzapor budget increased by $192K after review.
+#0408  PMO note: Ruzapor budget should land at $1990K.
+#0409  Finance Office: Ruzapor budget decreased by $352K.
+#0410  Finance Office: Withdraw update #0067; it was entered in error.
+#0411  Marketing email: Expect Ruzapor's budget to rise by $581K.
+#0412  Vendor call: Ruzapor budget should land at $3110K.
+#0413  Finance Office: Ruzapor budget decreased by $29K.
+#0414  Finance Office: Ruzapor budget increased by $66K after review.
+#0415  Facilities ticket: Pretty sure Ruzapor's budget is $2130K now.
+#0416  Finance Office: Withdraw update #0144; it was entered in error.
+#0417  Finance Office: Withdraw update #0127; it was entered in error.
+#0418  Finance Office: Withdraw update #0083.
+#0419  Finance Office: Ruzapor budget increased by $254K after review.
+#0420  Finance Office: Withdraw update #0292; it was entered in error.
+#0421  Finance Office: Ruzapor budget decreased by $302K after review.
+#0422  Finance Office: Ruzapor budget decreased by $45K per the revised plan.
+#0423  Facilities ticket: Sounds like Ruzapor gets $156K more.
+#0424  Finance Office: Ruzapor budget increased by $85K after review.
+#0425  Facilities ticket: Ruzapor documentation moved to the shared drive.
+#0426  Legal email: Expect Ruzapor's budget to drop by $267K.
+#0427  Finance Office: Ruzapor budget increased by $158K.
+#0428  Operations chat: Ruzapor budget is going down by $496K.
+#0429  Finance Office: Ruzapor budget decreased by $70K per the revised plan.
+#0430  Finance Office: Withdraw update #0421; it was entered in error.
+#0431  Operations chat: Ruzapor budget is going up by $387K.
+#0432  Marketing email: Ruzapor budget is going up to $3240K.
+#0433  Finance Office: Ruzapor budget decreased by $70K.
+#0434  Finance Office: Ruzapor budget decreased by $125K per the revised plan.
+#0435  Facilities ticket: Hearing Ruzapor's budget goes up $271K.
+#0436  Finance Office: Withdraw update #0202.
+#0437  Legal email: Ruzapor demo rescheduled to Monday afternoon.
+#0438  Sales update: Ruzapor budget should land at $2640K.
+#0439  Finance Office: Ruzapor budget increased by $378K per the revised plan.
+#0440  Vendor call: Hearing Ruzapor's budget goes down $426K.
+#0441  Finance Office: Ruzapor budget decreased by $60K after review.
+#0442  Sales update: Hearing Ruzapor's budget goes up $53K.
+#0443  Finance Office: Withdraw update #0414; it was entered in error.
+#0444  Finance Office: Withdraw update #0124.
+#0445  Sales update: Hearing Ruzapor's budget goes up $537K.
+#0446  Finance Office: Ruzapor budget decreased by $307K per the revised plan.
+#0447  Finance Office: Ruzapor budget decreased by $70K.
+#0448  Finance Office: Withdraw update #0308.
+#0449  Finance Office: Ruzapor budget decreased by $75K.
+#0450  Finance Office: Ruzapor budget decreased by $25K after review.
+#0451  Finance Office: Withdraw update #0359; it was entered in error.
+#0452  Finance Office: Withdraw update #0302; it was entered in error.
+#0453  Finance Office: Ruzapor budget increased by $145K after review.
+#0454  Finance Office: Reminder: Ruzapor expense reports are due Monday.
+#0455  Finance Office: Ruzapor budget increased by $101K.
+#0456  Finance Office: Ruzapor budget increased by $507K.
+#0457  PMO note: Ruzapor sprint 32 retrospective notes posted.
+#0458  Finance Office: Withdraw update #0113.
+#0459  Finance Office: Withdraw update #0195.
+#0460  Vendor call: Hearing Ruzapor's budget goes down $586K.
+#0461  Finance Office: Withdraw update #0185; it was entered in error.
+#0462  Facilities ticket: Ruzapor budget is going up to $4280K.
+#0463  Finance Office: Ruzapor budget increased by $140K per the revised plan.
+#0464  Finance Office: Ruzapor budget increased by $35K per the revised plan.
+#0465  Finance Office: Ruzapor budget increased by $20K.
+#0466  Finance Office: Ruzapor budget decreased by $80K after review.
+#0467  Finance Office: Ruzapor budget increased by $125K after review.
+#0468  Finance Office: Withdraw update #0394; it was entered in error.
+#0469  Finance Office: Ruzapor budget increased by $5K.
+#0470  Marketing email: Expect Ruzapor's budget to rise by $56K.
+#0471  Sales update: Ruzapor demo rescheduled to Wednesday afternoon.
+#0472  Finance Office: Ruzapor budget decreased by $150K.
+#0473  Sales update: Ruzapor budget is going to $3670K.
+#0474  Finance Office: Ruzapor budget increased by $60K.
+#0475  Finance Office: Ruzapor budget increased by $60K per the revised plan.
+#0476  PMO note: Hearing Ruzapor's budget goes down $443K.
+#0477  Marketing email: Hearing Ruzapor's budget goes down $521K.
+#0478  Finance Office: Ruzapor budget decreased by $226K per the revised plan.
+#0479  Finance Office: Ruzapor budget decreased by $150K.
+#0480  Finance Office: Ruzapor budget decreased by $30K.
+#0481  PMO note: Ruzapor documentation moved to the shared drive.
+#0482  Finance Office: Ruzapor budget increased by $140K after review.
+#0483  Finance Office: Ruzapor budget decreased by $15K per the revised plan.
+#0484  Engineering email: Ruzapor vendor onboarding call scheduled for Wednesday.
+#0485  PMO note: Ruzapor budget is going up by $477K.
+#0486  Sales update: Ruzapor budget is going down by $211K.
+#0487  Finance Office: Ruzapor budget decreased by $125K per the revised plan.
+#0488  Sales update: Sounds like Ruzapor gets $77K more.
+#0489  Facilities ticket: Ruzapor security review passed.
+#0490  Finance Office: Ruzapor budget decreased by $223K per the revised plan.
+#0491  Finance Office: Ruzapor budget increased by $150K.
+#0492  Finance Office: Ruzapor budget increased by $60K per the revised plan.
+#0493  Sales update: Hearing Ruzapor's budget goes up $257K.
+#0494  Finance Office: Ruzapor budget increased by $589K.
+#0495  Finance Office: Ruzapor budget increased by $90K per the revised plan.
+#0496  Vendor call: Hearing Ruzapor's budget goes up $518K.
+#0497  Facilities ticket: Ruzapor budget is going up to $4420K.
+#0498  Engineering email: Ruzapor budget is going up by $341K.
+#0499  Finance Office: Withdraw update #0446.
+#0500  Finance Office: Ruzapor budget increased by $316K.
+#0501  Finance Office: Ruzapor budget decreased by $114K after review.
+#0502  Sales update: Ruzapor budget is going down by $394K.
+#0503  Finance Office: Ruzapor budget decreased by $135K after review.
+#0504  Finance Office: Ruzapor budget decreased by $283K.
+#0505  Finance Office: Withdraw update #0193; it was entered in error.
+#0506  Sales update: Hearing Ruzapor's budget goes down $382K.
+#0507  Finance Office: Ruzapor budget increased by $93K per the revised plan.
+#0508  Finance Office: Withdraw update #0274; it was entered in error.
+#0509  Finance Office: Ruzapor budget increased by $5K after review.
+#0510  Legal email: Hearing Ruzapor's budget goes up $236K.
+#0511  Finance Office: Ruzapor budget increased by $85K after review.
+#0512  Finance Office: Ruzapor budget increased by $5K after review.
+#0513  Finance Office: Withdraw update #0419.
+#0514  Finance Office: Ruzapor budget increased by $319K.
+#0515  Finance Office: Ruzapor budget increased by $145K.
+#0516  Finance Office: Ruzapor budget increased by $40K per the revised plan.
+#0517  Legal email: Ruzapor budget is going to $4800K.
+#0518  Engineering email: Sounds like Ruzapor gets $323K more.
+#0519  Finance Office: Ruzapor budget increased by $135K.
+#0520  Vendor call: Ruzapor budget is going down to $3780K.
+#0521  Finance Office: Ruzapor budget decreased by $232K.
+#0522  PMO note: Hearing Ruzapor's budget goes down $461K.
+#0523  Finance Office: Ruzapor budget increased by $90K per the revised plan.
+#0524  Finance Office: Ruzapor budget decreased by $25K after review.
+#0525  Marketing email: Hearing Ruzapor's budget goes down $404K.
+#0526  Finance Office: Ruzapor budget decreased by $55K after review.
+#0527  Finance Office: Ruzapor purchase order FC-5401 closed.
+#0528  Finance Office: Ruzapor budget increased by $120K after review.
+#0529  Finance Office: Withdraw update #0294.
+#0530  Finance Office: Withdraw update #0452; it was entered in error.
+#0531  Finance Office: Ruzapor budget increased by $90K per the revised plan.
+#0532  Finance Office: Ruzapor budget decreased by $87K after review.
+#0533  Finance Office: Ruzapor budget decreased by $289K.
+#0534  PMO note: Ruzapor budget is going to $2510K.
+#0535  Operations chat: Expect Ruzapor's budget to drop by $583K.
+#0536  Finance Office: Ruzapor budget decreased by $55K after review.
+#0537  Finance Office: Ruzapor budget decreased by $75K.
+#0538  Finance Office: Withdraw update #0183; it was entered in error.
+#0539  PMO note: Ruzapor budget is going down to $2330K.
+#0540  Sales update: Ruzapor budget is going to $2700K.
+#0541  Finance Office: Ruzapor budget decreased by $123K.
+#0542  Finance Office: Ruzapor budget decreased by $25K after review.
+#0543  Finance Office: Ruzapor budget increased by $65K.
+#0544  Finance Office: Ruzapor budget decreased by $90K.
+#0545  Operations chat: Ruzapor design review moved to Room 3A.
+#0546  Finance Office: Ruzapor budget increased by $90K after review.
+#0547  Facilities ticket: Ruzapor weekly sync moved to Fridays.
+#0548  Finance Office: Ruzapor budget increased by $207K per the revised plan.
+#0549  Finance Office: Withdraw update #0293; it was entered in error.
+#0550  Finance Office: Ruzapor budget decreased by $125K per the revised plan.
+#0551  Finance Office: Withdraw update #0268.
+#0552  Vendor call: Ruzapor budget is going down to $2630K.
+#0553  Finance Office: Withdraw update #0115; it was entered in error.
+#0554  Legal email: Ruzapor budget is going up to $4090K.
+#0555  Finance Office: Withdraw update #0201.
+#0556  Finance Office: Ruzapor budget increased by $60K.
+#0557  PMO note: Sounds like Ruzapor gets $116K less.
+#0558  Finance Office: Ruzapor budget decreased by $392K per the revised plan.
+#0559  Facilities ticket: Heard Ruzapor's budget is now $2930K.
+#0560  Finance Office: Ruzapor budget decreased by $115K per the revised plan.
+#0561  Sales update: Ruzapor budget is going down by $439K.
+#0562  Finance Office: Withdraw update #0532.
+#0563  Finance Office: Ruzapor budget increased by $5K per the revised plan.
+#0564  Finance Office: Ruzapor budget increased by $89K.
+#0565  Vendor call: Ruzapor documentation moved to the shared drive.
+#0566  Finance Office: Ruzapor budget increased by $90K per the revised plan.
+#0567  Finance Office: Withdraw update #0307; it was entered in error.
+#0568  Finance Office: Withdraw update #0413; it was entered in error.
+#0569  Finance Office: Ruzapor budget increased by $5K per the revised plan.
+#0570  PMO note: Ruzapor demo rescheduled to Monday afternoon.
+#0571  Engineering email: Heard Ruzapor's budget is now $4280K.
+#0572  Finance Office: Withdraw update #0059; it was entered in error.
+#0573  Operations chat: Ruzapor budget is going to $4800K.
+#0574  Finance Office: Withdraw update #0216; it was entered in error.
+#0575  PMO note: Ruzapor budget is going down to $2690K.
+#0576  Facilities ticket: Pretty sure Ruzapor's budget is $4740K now.
+#0577  Engineering email: Ruzapor budget is going to $2840K.
+#0578  Vendor call: Ruzapor site visit confirmed for Wednesday.
+#0579  Finance Office: Withdraw update #0319; it was entered in error.
+#0580  PMO note: Ruzapor budget is going down by $33K.
+#0581  Finance Office: Ruzapor budget decreased by $125K per the revised plan.
+#0582  PMO note: Hearing Ruzapor's budget goes up $83K.
+#0583  Finance Office: Ruzapor budget increased by $85K.
+#0584  Finance Office: Ruzapor budget decreased by $216K.
+#0585  Finance Office: Withdraw update #0451.
+#0586  Finance Office: Withdraw update #0226.
+#0587  Finance Office: Ruzapor budget decreased by $45K after review.
+#0588  Finance Office: Reminder: Ruzapor expense reports are due Thursday.
+#0589  Finance Office: Ruzapor budget decreased by $75K.
+#0590  Finance Office: Ruzapor budget increased by $145K.
+#0591  Sales update: Ruzapor budget is going up to $3740K.
+#0592  Finance Office: Ruzapor finance review moved to Room 2A.
+#0593  Finance Office: Withdraw update #0093.
+#0594  Operations chat: Expect Ruzapor's budget to drop by $556K.
+#0595  Finance Office: Ruzapor budget increased by $145K after review.
+#0596  Finance Office: Ruzapor budget decreased by $65K.
+#0597  Finance Office: Ruzapor budget decreased by $105K.
+#0598  Marketing email: Heard Ruzapor's budget is now $2800K.
+#0599  Finance Office: Ruzapor budget increased by $100K.
+#0600  Legal email: Ruzapor budget is going down to $2650K.
+#0601  Finance Office: Ruzapor budget decreased by $30K per the revised plan.
+#0602  Marketing email: Ruzapor budget should land at $3550K.
+#0603  Finance Office: Withdraw update #0584; it was entered in error.
+#0604  Finance Office: Ruzapor budget increased by $60K per the revised plan.
+#0605  Finance Office: Ruzapor budget decreased by $105K per the revised plan.
+#0606  Finance Office: Ruzapor budget decreased by $90K per the revised plan.
+#0607  Finance Office: Withdraw update #0352; it was entered in error.
+#0608  Sales update: Sounds like Ruzapor gets $103K more.
+#0609  Finance Office: Ruzapor budget increased by $234K per the revised plan.
+#0610  Finance Office: Ruzapor budget decreased by $371K.
+#0611  Facilities ticket: Hearing Ruzapor's budget goes up $424K.
+#0612  Finance Office: Ruzapor budget increased by $110K per the revised plan.
+#0613  Finance Office: Ruzapor budget decreased by $70K per the revised plan.
+#0614  Finance Office: Ruzapor budget decreased by $105K.
+#0615  Finance Office: Ruzapor budget increased by $573K.
+#0616  Finance Office: Withdraw update #0609; it was entered in error.
+#0617  Finance Office: Withdraw update #0427; it was entered in error.
+#0618  Finance Office: Ruzapor budget increased by $90K per the revised plan.
+#0619  Finance Office: Ruzapor budget decreased by $105K after review.
+#0620  Finance Office: Withdraw update #0443; it was entered in error.
+#0621  Finance Office: Ruzapor budget increased by $90K.
+#0622  Finance Office: Ruzapor budget increased by $85K per the revised plan.
+#0623  Finance Office: Ruzapor budget decreased by $105K after review.
+#0624  Engineering email: Heard Ruzapor's budget is now $4330K.
+#0625  Engineering email: Ruzapor budget is going to $3200K.
+#0626  Finance Office: Ruzapor budget decreased by $5K after review.
+#0627  Finance Office: Ruzapor cost center code changed to FC-5729.
+#0628  Finance Office: Withdraw update #0148; it was entered in error.
+#0629  Vendor call: Ruzapor budget is going down by $373K.
+#0630  Finance Office: Withdraw update #0455; it was entered in error.
+#0631  Finance Office: Ruzapor budget decreased by $135K after review.
+#0632  PMO note: Ruzapor budget is going down to $3360K.
+#0633  Finance Office: Withdraw update #0252; it was entered in error.
+#0634  Sales update: Ruzapor kickoff moved to Building 8.
+#0635  Finance Office: Ruzapor budget decreased by $172K.
+#0636  Vendor call: Hearing Ruzapor's budget goes up $459K.
+#0637  Engineering email: Pretty sure Ruzapor's budget is $2960K now.
+#0638  Finance Office: Ruzapor budget increased by $115K after review.
+#0639  Finance Office: Ruzapor budget decreased by $173K after review.
+#0640  Finance Office: Ruzapor budget decreased by $176K after review.
+#0641  Finance Office: Ruzapor budget decreased by $20K after review.
+#0642  Facilities ticket: Hearing Ruzapor's budget goes down $383K.
+#0643  Finance Office: Ruzapor budget increased by $15K after review.
+#0644  Finance Office: Ruzapor budget decreased by $484K.
+#0645  Finance Office: Ruzapor budget decreased by $135K.
+#0646  Marketing email: Ruzapor budget is going to $3380K.
+#0647  PMO note: Ruzapor weekly sync moved to Fridays.
+#0648  Finance Office: Withdraw update #0200; it was entered in error.
+#0649  Engineering email: Expect Ruzapor's budget to rise by $568K.
+#0650  Finance Office: Ruzapor budget decreased by $71K per the revised plan.
+#0651  Operations chat: Ruzapor budget is going down by $416K.
+#0652  Finance Office: Ruzapor budget decreased by $551K.
+#0653  Finance Office: Ruzapor budget increased by $60K.
+#0654  Finance Office: Withdraw update #0407.
+#0655  Marketing email: Ruzapor budget is going to $2810K.
+#0656  Finance Office: Ruzapor budget decreased by $115K per the revised plan.
+#0657  Finance Office: Ruzapor budget increased by $100K.
+#0658  Finance Office: Ruzapor budget increased by $90K after review.
+#0659  Finance Office: Ruzapor budget decreased by $55K.
+#0660  Finance Office: Withdraw update #0507; it was entered in error.
+#0661  Finance Office: Ruzapor budget decreased by $150K after review.
+#0662  Facilities ticket: Sounds like Ruzapor gets $286K more.
+#0663  Finance Office: Withdraw update #0315; it was entered in error.
+#0664  Engineering email: Expect Ruzapor's budget to rise by $529K.
+#0665  Sales update: Expect Ruzapor's budget to rise by $166K.
+#0666  Finance Office: Withdraw update #0401; it was entered in error.
+#0667  Finance Office: Ruzapor budget decreased by $70K.
+#0668  Engineering email: Ruzapor status report filed for week 38.
+#0669  Finance Office: Ruzapor budget decreased by $90K after review.
+#0670  Operations chat: Pretty sure Ruzapor's budget is $2090K now.
+#0671  Finance Office: Withdraw update #0098.
+#0672  Finance Office: Ruzapor budget decreased by $463K.
+#0673  Facilities ticket: Ruzapor documentation moved to the shared drive.
+#0674  Operations chat: Sounds like Ruzapor gets $2K more.
+#0675  Sales update: Heard Ruzapor's budget is now $580K.
+#0676  Marketing email: Heard Ruzapor's budget is now $500K.
+#0677  Marketing email: Ruzapor budget is going to $820K.
+#0678  Finance Office: Ruzapor budget decreased by $65K.
+#0679  Legal email: Ruzapor budget is going to $840K.
+#0680  Operations chat: Ruzapor site visit confirmed for Friday.
+#0681  Finance Office: Ruzapor budget increased by $50K after review.
+#0682  Marketing email: Expect Ruzapor's budget to rise by $314K.
+#0683  Finance Office: Ruzapor budget increased by $135K per the revised plan.
+#0684  Finance Office: Ruzapor budget increased by $25K after review.
+#0685  Finance Office: Reminder: Ruzapor expense reports are due Tuesday.
+#0686  Finance Office: Ruzapor budget decreased by $135K after review.
+#0687  Operations chat: Expect Ruzapor's budget to rise by $509K.
+#0688  Legal email: Sounds like Ruzapor gets $253K less.
+#0689  Finance Office: Withdraw update #0267; it was entered in error.
+#0690  Finance Office: Ruzapor budget increased by $492K per the revised plan.
+#0691  Facilities ticket: Expect Ruzapor's budget to drop by $397K.
+#0692  Finance Office: Ruzapor budget increased by $20K.
+#0693  Finance Office: Ruzapor budget increased by $95K per the revised plan.
+#0694  Finance Office: Ruzapor budget decreased by $60K.
+#0695  Finance Office: Ruzapor budget decreased by $7K per the revised plan.
+#0696  Sales update: Ruzapor budget is going to $1350K.
+#0697  Finance Office: Ruzapor budget increased by $20K after review.
+#0698  Vendor call: Pretty sure Ruzapor's budget is $1280K now.
+#0699  PMO note: Ruzapor budget should land at $1680K.
+#0700  Vendor call: Pretty sure Ruzapor's budget is $1210K now.
+#0701  PMO note: Sounds like Ruzapor gets $384K more.
+#0702  Finance Office: Ruzapor cost center code changed to FC-9835.
+#0703  Operations chat: Ruzapor budget is going up to $1640K.
+#0704  Engineering email: Ruzapor security review passed.
+#0705  Finance Office: Ruzapor budget decreased by $110K after review.
+#0706  Finance Office: Ruzapor budget increased by $10K.
+#0707  Finance Office: Ruzapor budget increased by $80K per the revised plan.
+#0708  Finance Office: Ruzapor budget decreased by $55K.
+#0709  Finance Office: Withdraw update #0468; it was entered in error.
+#0710  Finance Office: Ruzapor budget decreased by $20K after review.
+#0711  Finance Office: Ruzapor budget decreased by $75K per the revised plan.
+#0712  Finance Office: Withdraw update #0593.
+#0713  Operations chat: Ruzapor status report filed for week 36.
+#0714  Finance Office: Ruzapor budget increased by $100K.
+#0715  Finance Office: Ruzapor budget increased by $110K.
+#0716  Finance Office: Withdraw update #0344.
+#0717  Finance Office: Ruzapor budget increased by $296K after review.
+#0718  Facilities ticket: Expect Ruzapor's budget to drop by $358K.
+#0719  Marketing email: Ruzapor weekly sync moved to Wednesdays.
+#0720  Finance Office: Ruzapor budget decreased by $125K.
+#0721  Finance Office: Ruzapor budget decreased by $120K per the revised plan.
+#0722  Finance Office: Ruzapor budget increased by $5K after review.
+#0723  Finance Office: Withdraw update #0672; it was entered in error.
+#0724  Finance Office: Ruzapor budget decreased by $45K per the revised plan.
+#0725  Engineering email: Ruzapor budget is going down by $566K.
+#0726  Engineering email: Expect Ruzapor's budget to drop by $421K.
+#0727  Finance Office: Ruzapor budget increased by $80K after review.
+#0728  Finance Office: Ruzapor purchase order FC-2024 closed.
+#0729  PMO note: Expect Ruzapor's budget to rise by $129K.
+#0730  Finance Office: Ruzapor budget increased by $110K.
+#0731  Finance Office: Ruzapor budget decreased by $110K.
+#0732  Legal email: Ruzapor weekly sync moved to Thursdays.
+#0733  Engineering email: Ruzapor demo rescheduled to Wednesday afternoon.
+#0734  Finance Office: Withdraw update #0251.
+#0735  Finance Office: Ruzapor budget increased by $25K after review.
+#0736  Finance Office: Ruzapor budget decreased by $55K after review.
+#0737  Facilities ticket: Ruzapor budget should land at $2400K.
+#0738  Marketing email: Ruzapor design review moved to Room 6C.
+#0739  Finance Office: Ruzapor budget decreased by $65K.
+#0740  Finance Office: Ruzapor budget increased by $75K per the revised plan.
+#0741  Finance Office: Ruzapor budget increased by $100K per the revised plan.
+#0742  Finance Office: Ruzapor budget decreased by $85K.
+#0743  Finance Office: Withdraw update #0690.
+#0744  Finance Office: Ruzapor budget increased by $85K after review.
+#0745  Finance Office: Ruzapor budget increased by $5K.
+#0746  Finance Office: Ruzapor budget increased by $40K after review.
+#0747  Finance Office: Ruzapor budget increased by $212K after review.
+#0748  Vendor call: Heard Ruzapor's budget is now $2840K.
+#0749  Finance Office: Ruzapor budget decreased by $80K after review.
+#0750  Vendor call: Ruzapor demo rescheduled to Tuesday afternoon.
+#0751  Finance Office: Ruzapor budget increased by $135K after review.
+#0752  Finance Office: Ruzapor budget increased by $15K.
+#0753  Finance Office: Withdraw update #0347; it was entered in error.
+#0754  Facilities ticket: Heard Ruzapor's budget is now $3540K.
+#0755  Finance Office: Withdraw update #0176; it was entered in error.
+#0756  Finance Office: Ruzapor budget decreased by $130K after review.
+#0757  Finance Office: Ruzapor budget increased by $70K per the revised plan.
+#0758  Vendor call: Expect Ruzapor's budget to drop by $546K.
+#0759  Vendor call: Ruzapor risk register updated with 6 new items.
+#0760  Finance Office: Ruzapor budget increased by $85K.
+#0761  Engineering email: Sounds like Ruzapor gets $376K less.
+#0762  Finance Office: Ruzapor budget increased by $5K.
+#0763  Finance Office: Ruzapor budget decreased by $10K after review.
+#0764  Engineering email: Ruzapor budget is going up to $3490K.
+#0765  Engineering email: Ruzapor budget should land at $2530K.
+#0766  Finance Office: Ruzapor budget increased by $130K.
+#0767  Marketing email: Heard Ruzapor's budget is now $2900K.
+#0768  Finance Office: Withdraw update #0617.
+#0769  Finance Office: Ruzapor budget decreased by $30K after review.
+#0770  Vendor call: Ruzapor budget is going to $2510K.
+#0771  Finance Office: Withdraw update #0118; it was entered in error.
+#0772  Finance Office: Ruzapor budget decreased by $120K after review.
+#0773  Finance Office: Ruzapor audit notes filed.
+#0774  Finance Office: Ruzapor quarterly audit scheduled for Friday.
+#0775  PMO note: Ruzapor kickoff moved to Building 4.
+#0776  Finance Office: Ruzapor budget increased by $80K per the revised plan.
+#0777  Engineering email: Sounds like Ruzapor gets $503K more.
+#0778  Facilities ticket: Ruzapor risk register updated with 3 new items.
+#0779  Operations chat: Ruzapor status report filed for week 7.
+#0780  Legal email: Ruzapor budget is going to $3350K.
+#0781  Finance Office: Withdraw update #0717.
+#0782  Finance Office: Withdraw update #0549; it was entered in error.
+#0783  Marketing email: Sounds like Ruzapor gets $491K less.
+#0784  Finance Office: Ruzapor budget decreased by $125K per the revised plan.
+#0785  Finance Office: Withdraw update #0654.
+#0786  Facilities ticket: Ruzapor budget should land at $2370K.
+#0787  Finance Office: Ruzapor budget decreased by $126K after review.
+#0788  Finance Office: Ruzapor budget decreased by $105K per the revised plan.
+#0789  Finance Office: Ruzapor budget decreased by $359K.
+#0790  Operations chat: Pretty sure Ruzapor's budget is $2240K now.
+#0791  PMO note: Sounds like Ruzapor gets $338K more.
+#0792  Finance Office: Ruzapor budget increased by $150K per the revised plan.
+#0793  Finance Office: Ruzapor budget increased by $100K after review.
+#0794  Operations chat: Heard Ruzapor's budget is now $1770K.
+#0795  Marketing email: Ruzapor vendor onboarding call scheduled for Wednesday.
+#0796  Operations chat: Sounds like Ruzapor gets $121K less.
+#0797  Finance Office: Ruzapor budget decreased by $5K after review.
+#0798  Finance Office: Ruzapor budget decreased by $40K after review.
+#0799  PMO note: Ruzapor demo rescheduled to Wednesday afternoon.
+#0800  Sales update: Sounds like Ruzapor gets $281K more.
+#0801  Legal email: Pretty sure Ruzapor's budget is $1640K now.
+#0802  Operations chat: Ruzapor budget is going up by $386K.
+#0803  Finance Office: Ruzapor budget increased by $70K per the revised plan.
+#0804  Engineering email: Ruzapor budget is going to $2760K.
+#0805  Engineering email: Expect Ruzapor's budget to drop by $399K.
+#0806  Engineering email: Hearing Ruzapor's budget goes down $478K.
+#0807  Finance Office: Ruzapor budget decreased by $15K.
+#0808  Engineering email: Sounds like Ruzapor gets $206K more.
+#0809  Finance Office: Ruzapor budget increased by $412K after review.
+#0810  Finance Office: Ruzapor budget increased by $150K.
+#0811  Finance Office: Ruzapor budget increased by $110K.
+#0812  Finance Office: Ruzapor budget increased by $125K after review.
+#0813  Finance Office: Ruzapor budget increased by $201K per the revised plan.
+#0814  Finance Office: Ruzapor budget decreased by $25K after review.
+#0815  Facilities ticket: Ruzapor sprint 19 retrospective notes posted.
+#0816  Finance Office: Ruzapor budget decreased by $30K per the revised plan.
+#0817  Finance Office: Withdraw update #0381.
+#0818  Vendor call: Ruzapor budget is going down by $57K.
+#0819  Sales update: Heard Ruzapor's budget is now $1910K.
+#0820  Finance Office: Ruzapor budget decreased by $35K per the revised plan.
+#0821  Facilities ticket: Ruzapor budget is going to $3250K.
+#0822  Finance Office: Ruzapor budget decreased by $75K.
+#0823  Engineering email: Ruzapor design review moved to Room 5D.
+#0824  Finance Office: Ruzapor budget decreased by $80K after review.
+#0825  Facilities ticket: Ruzapor budget is going to $3480K.
+#0826  Finance Office: Withdraw update #0266.
+#0827  Finance Office: Ruzapor budget increased by $140K per the revised plan.
+#0828  Finance Office: Ruzapor budget increased by $135K.
+#0829  Legal email: Ruzapor budget is going to $2600K.
+#0830  Marketing email: Ruzapor budget is going to $3290K.
+#0831  Finance Office: Ruzapor budget decreased by $10K.
+#0832  Finance Office: Ruzapor budget decreased by $140K.
+#0833  Finance Office: Withdraw update #0384; it was entered in error.
+#0834  PMO note: Ruzapor site visit confirmed for Monday.
+#0835  PMO note: Ruzapor budget should land at $3230K.
+#0836  Operations chat: Ruzapor sprint 42 retrospective notes posted.
+#0837  Finance Office: Withdraw update #0123.
+#0838  Finance Office: Ruzapor budget increased by $100K per the revised plan.
+#0839  Finance Office: Ruzapor budget decreased by $105K.
+#0840  Finance Office: Ruzapor budget decreased by $85K.
+#0841  Finance Office: Ruzapor budget decreased by $25K per the revised plan.
+#0842  Finance Office: Withdraw update #0650; it was entered in error.
+#0843  Marketing email: Ruzapor test environment back online.
+#0844  Vendor call: Heard Ruzapor's budget is now $3060K.
+#0845  Finance Office: Withdraw update #0076; it was entered in error.
+#0846  Finance Office: Withdraw update #0533; it was entered in error.
+#0847  Engineering email: Ruzapor budget is going up to $2660K.
+#0848  Finance Office: Ruzapor budget increased by $115K after review.
+#0849  Engineering email: Pretty sure Ruzapor's budget is $3600K now.
+#0850  Engineering email: Sounds like Ruzapor gets $453K less.
+#0851  Sales update: Expect Ruzapor's budget to drop by $152K.
+#0852  Legal email: Sounds like Ruzapor gets $218K more.
+#0853  Finance Office: Withdraw update #0060.
+#0854  Finance Office: Withdraw update #0585.
+#0855  Finance Office: Ruzapor cost center code changed to FC-2873.
+#0856  PMO note: Ruzapor budget should land at $2700K.
+#0857  Finance Office: Ruzapor budget decreased by $125K.
+#0858  Finance Office: Ruzapor budget decreased by $60K after review.
+#0859  Finance Office: Ruzapor quarterly audit scheduled for Friday.
+#0860  Finance Office: Withdraw update #0490.
+#0861  PMO note: Ruzapor design review moved to Room 3B.
+#0862  Finance Office: Ruzapor budget increased by $35K after review.
+#0863  Operations chat: Hearing Ruzapor's budget goes down $143K.
+#0864  Finance Office: Ruzapor budget decreased by $30K per the revised plan.
+#0865  Finance Office: Withdraw update #0789.
+#0866  Finance Office: Ruzapor budget increased by $130K.
+#0867  Finance Office: Ruzapor budget decreased by $25K per the revised plan.
+#0868  Finance Office: Withdraw update #0348; it was entered in error.
+#0869  Marketing email: Ruzapor budget is going up by $377K.
+#0870  Finance Office: Ruzapor budget increased by $5K after review.
+#0871  Facilities ticket: Ruzapor design review moved to Room 3C.
+#0872  Finance Office: Ruzapor budget decreased by $100K after review.
+#0873  Finance Office: Ruzapor budget increased by $50K after review.
+#0874  Finance Office: Withdraw update #0521; it was entered in error.
+#0875  Finance Office: Ruzapor budget increased by $65K after review.
+#0876  Legal email: Ruzapor status report filed for week 2.
+#0877  Engineering email: Pretty sure Ruzapor's budget is $3170K now.
+#0878  Engineering email: Pretty sure Ruzapor's budget is $2700K now.
+#0879  Finance Office: Withdraw update #0809; it was entered in error.
+#0880  Finance Office: Ruzapor budget increased by $140K.
+#0881  Finance Office: Ruzapor budget decreased by $125K per the revised plan.
+#0882  Finance Office: Ruzapor budget decreased by $25K per the revised plan.
+#0883  Finance Office: Withdraw update #0620; it was entered in error.
+#0884  Marketing email: Heard Ruzapor's budget is now $3220K.
+#0885  Finance Office: Withdraw update #0363; it was entered in error.
+#0886  Legal email: Pretty sure Ruzapor's budget is $2660K now.
+#0887  Engineering email: Ruzapor risk register updated with 9 new items.
+#0888  Finance Office: Ruzapor budget decreased by $135K.
+#0889  Finance Office: Withdraw update #0558.
+#0890  Finance Office: Ruzapor budget increased by $10K after review.
+#0891  Finance Office: Ruzapor budget decreased by $115K per the revised plan.
+#0892  Finance Office: Ruzapor budget increased by $15K.
+#0893  Marketing email: Sounds like Ruzapor gets $599K more.
+#0894  Finance Office: Ruzapor budget decreased by $130K after review.
+#0895  Finance Office: Withdraw update #0564; it was entered in error.
+#0896  Finance Office: Ruzapor budget decreased by $60K.
+#0897  Finance Office: Ruzapor budget increased by $100K per the revised plan.
+#0898  Finance Office: Ruzapor budget decreased by $63K per the revised plan.
+#0899  Finance Office: Ruzapor budget increased by $80K.
+#0900  Finance Office: Ruzapor budget decreased by $20K after review.
+#0901  Finance Office: Ruzapor budget decreased by $115K.
+#0902  Operations chat: Ruzapor budget is going up by $389K.
+#0903  Legal email: Hearing Ruzapor's budget goes up $576K.
+#0904  Sales update: Ruzapor budget is going up to $3480K.
+#0905  Facilities ticket: Ruzapor budget is going up by $209K.
+#0906  Finance Office: Withdraw update #0663; it was entered in error.
+#0907  Facilities ticket: Ruzapor vendor onboarding call scheduled for Thursday.
+#0908  Finance Office: Ruzapor budget increased by $60K after review.
+#0909  Finance Office: Withdraw update #0572.
+#0910  Finance Office: Ruzapor budget decreased by $95K per the revised plan.
+#0911  Vendor call: Sounds like Ruzapor gets $353K less.
+#0912  Engineering email: Ruzapor budget is going down to $2030K.
+#0913  Finance Office: Ruzapor budget decreased by $80K.
+#0914  Finance Office: Ruzapor budget decreased by $85K after review.
+#0915  Finance Office: Ruzapor budget decreased by $125K per the revised plan.
+#0916  Finance Office: Ruzapor budget decreased by $105K per the revised plan.
+#0917  Finance Office: Ruzapor budget increased by $10K per the revised plan.
+#0918  Finance Office: Ruzapor budget increased by $5K per the revised plan.
+#0919  Finance Office: Withdraw update #0666; it was entered in error.
+#0920  Finance Office: Ruzapor quarterly audit scheduled for Wednesday.
+#0921  Finance Office: Ruzapor budget increased by $40K after review.
+#0922  Finance Office: Withdraw update #0218.
+#0923  Facilities ticket: Ruzapor status report filed for week 12.
+#0924  Engineering email: Ruzapor weekly sync moved to Wednesdays.
+#0925  Finance Office: Ruzapor budget increased by $154K per the revised plan.
+#0926  Marketing email: Hearing Ruzapor's budget goes down $564K.
+#0927  Finance Office: Withdraw update #0753; it was entered in error.
+#0928  Finance Office: Ruzapor budget increased by $65K after review.
+#0929  Finance Office: Withdraw update #0610; it was entered in error.
+#0930  Finance Office: Ruzapor budget increased by $55K after review.
+#0931  Operations chat: Expect Ruzapor's budget to rise by $468K.
+#0932  Legal email: Expect Ruzapor's budget to rise by $506K.
+#0933  Legal email: Ruzapor budget is going up by $39K.
+#0934  Sales update: Ruzapor site visit confirmed for Friday.
+#0935  Finance Office: Ruzapor budget decreased by $65K after review.
+#0936  Legal email: Ruzapor budget is going to $1980K.
+#0937  Finance Office: Ruzapor budget decreased by $40K per the revised plan.
+#0938  Finance Office: Ruzapor budget increased by $125K.
+#0939  Finance Office: Withdraw update #0459.
+#0940  Operations chat: Ruzapor budget is going up to $2710K.
+#0941  Finance Office: Ruzapor budget decreased by $150K after review.
+#0942  Finance Office: Ruzapor budget increased by $5K per the revised plan.
+#0943  Legal email: Heard Ruzapor's budget is now $2020K.
+#0944  Operations chat: Ruzapor budget is going up by $148K.
+#0945  Finance Office: Ruzapor budget increased by $145K after review.
+#0946  Finance Office: Ruzapor budget decreased by $65K per the revised plan.
+#0947  Finance Office: Withdraw update #0478.
+#0948  Finance Office: Ruzapor budget increased by $80K.
+#0949  Finance Office: Withdraw update #0107.
+#0950  Finance Office: Ruzapor budget decreased by $258K after review.
+#0951  Finance Office: Ruzapor budget decreased by $40K per the revised plan.
+#0952  Operations chat: Ruzapor budget should land at $2040K.
+#0953  Finance Office: Ruzapor budget increased by $145K after review.
+#0954  Finance Office: Ruzapor budget increased by $15K.
+#0955  Finance Office: Ruzapor budget increased by $110K per the revised plan.
+#0956  Finance Office: Withdraw update #0393.
+#0957  Marketing email: Ruzapor weekly sync moved to Tuesdays.
+#0958  Facilities ticket: Ruzapor budget is going to $2020K.
+#0959  Finance Office: Ruzapor budget decreased by $128K.
+#0960  Engineering email: Ruzapor budget is going down by $68K.
+#0961  Finance Office: Ruzapor budget increased by $90K after review.
+#0962  Finance Office: Ruzapor purchase order FC-4951 closed.
+#0963  Finance Office: Ruzapor budget increased by $80K per the revised plan.
+#0964  Finance Office: Ruzapor cost center code changed to FC-9645.
+#0965  Engineering email: Pretty sure Ruzapor's budget is $2180K now.
+#0966  Finance Office: Withdraw update #0922.
+#0967  Operations chat: Ruzapor budget is going up to $2320K.
+#0968  Sales update: Ruzapor status report filed for week 15.
+#0969  Finance Office: Ruzapor budget increased by $287K.
+#0970  Legal email: Ruzapor budget is going to $2870K.
+#0971  Finance Office: Withdraw update #0966.
+#0972  Finance Office: Ruzapor budget increased by $145K per the revised plan.
+#0973  Finance Office: Ruzapor budget decreased by $110K per the revised plan.
+#0974  Finance Office: Ruzapor budget increased by $105K per the revised plan.
+#0975  Finance Office: Ruzapor cost center code changed to FC-9326.
+#0976  Finance Office: Ruzapor budget increased by $145K after review.
+#0977  Finance Office: Withdraw update #0644.
+#0978  Vendor call: Ruzapor budget is going to $2690K.
+#0979  Finance Office: Ruzapor budget decreased by $120K per the revised plan.
+#0980  Finance Office: Ruzapor budget increased by $70K.
+#0981  PMO note: Ruzapor budget is going down by $479K.
+#0982  Finance Office: Ruzapor budget decreased by $55K per the revised plan.
+#0983  Finance Office: Ruzapor budget increased by $25K.
+#0984  Finance Office: Withdraw update #0969; it was entered in error.
+#0985  Finance Office: Ruzapor budget increased by $125K after review.
+#0986  Operations chat: Ruzapor budget is going to $3570K.
+#0987  Finance Office: Ruzapor budget decreased by $10K.
+#0988  Finance Office: Ruzapor budget increased by $35K after review.
+#0989  PMO note: Ruzapor demo rescheduled to Wednesday afternoon.
+#0990  Facilities ticket: Heard Ruzapor's budget is now $3610K.
+#0991  Finance Office: Withdraw update #0360.
+#0992  Finance Office: Ruzapor budget increased by $45K per the revised plan.
+#0993  Finance Office: Ruzapor budget increased by $60K after review.
+#0994  Finance Office: Ruzapor budget increased by $50K.
+#0995  Sales update: Heard Ruzapor's budget is now $2250K.
+#0996  Finance Office: Ruzapor budget decreased by $150K.
+#0997  Finance Office: Withdraw update #0494; it was entered in error.
+#0998  Operations chat: Sounds like Ruzapor gets $483K less.
+#0999  Marketing email: Ruzapor demo rescheduled to Thursday afternoon.
+#1000  Finance Office: Ruzapor budget increased by $70K after review.
+#1001  Operations chat: Ruzapor documentation moved to the shared drive.
+#1002  PMO note: Ruzapor design review moved to Room 6B.
+#1003  Operations chat: Ruzapor budget should land at $2220K.
+#1004  Vendor call: Ruzapor site visit confirmed for Tuesday.
+#1005  Finance Office: Ruzapor budget increased by $20K after review.
+#1006  Finance Office: Ruzapor budget decreased by $55K.
+#1007  Facilities ticket: Ruzapor design review moved to Room 4C.
+#1008  Vendor call: Sounds like Ruzapor gets $398K more.
+#1009  Sales update: Expect Ruzapor's budget to drop by $339K.
+#1010  Legal email: Ruzapor budget is going up by $6K.
+#1011  Finance Office: Ruzapor budget decreased by $130K after review.
+#1012  Marketing email: Expect Ruzapor's budget to drop by $388K.
+#1013  Finance Office: Ruzapor budget decreased by $40K after review.
+#1014  PMO note: Ruzapor budget is going up to $2160K.
+#1015  Operations chat: Ruzapor budget is going to $2520K.
+#1016  Finance Office: Ruzapor budget increased by $75K.
+#1017  Finance Office: Ruzapor budget increased by $45K after review.
+#1018  Legal email: Ruzapor sprint 29 retrospective notes posted.
+#1019  Finance Office: Ruzapor budget decreased by $150K per the revised plan.
+#1020  Legal email: Ruzapor budget is going down by $276K.
+#1021  Finance Office: Ruzapor budget decreased by $65K per the revised plan.
+#1022  Finance Office: Ruzapor budget increased by $20K.
+#1023  Operations chat: Ruzapor budget is going down to $1450K.
+#1024  Finance Office: Ruzapor budget decreased by $75K per the revised plan.
+#1025  Engineering email: Ruzapor budget is going to $1600K.
+#1026  Engineering email: Pretty sure Ruzapor's budget is $2230K now.
+#1027  Finance Office: Withdraw update #0247.
+#1028  Finance Office: Withdraw update #0409; it was entered in error.
+#1029  Finance Office: Ruzapor budget decreased by $125K per the revised plan.
+#1030  Finance Office: Ruzapor budget increased by $110K.
+#1031  Finance Office: Ruzapor budget decreased by $40K per the revised plan.
+#1032  PMO note: Hearing Ruzapor's budget goes up $43K.
+#1033  Facilities ticket: Ruzapor budget is going up by $227K.
+#1034  Legal email: Hearing Ruzapor's budget goes up $299K.
+#1035  PMO note: Ruzapor budget is going up to $3400K.
+#1036  Facilities ticket: Hearing Ruzapor's budget goes down $454K.
+#1037  Facilities ticket: Sounds like Ruzapor gets $42K less.
+#1038  Finance Office: Withdraw update #0787; it was entered in error.
+#1039  Vendor call: Hearing Ruzapor's budget goes down $86K.
+#1040  Legal email: Ruzapor site visit confirmed for Tuesday.
+#1041  Finance Office: Ruzapor budget decreased by $524K after review.
+#1042  Finance Office: Ruzapor budget decreased by $110K after review.
+#1043  PMO note: Ruzapor budget is going up to $2590K.
+#1044  Finance Office: Ruzapor budget increased by $25K per the revised plan.
+#1045  Finance Office: Ruzapor budget increased by $145K per the revised plan.
+#1046  Finance Office: Ruzapor budget increased by $5K.
+#1047  Operations chat: Sounds like Ruzapor gets $98K more.
+#1048  PMO note: Ruzapor budget is going down to $1950K.
+#1049  Operations chat: Hearing Ruzapor's budget goes down $584K.
+#1050  Finance Office: Ruzapor budget decreased by $80K after review.
+#1051  Sales update: Hearing Ruzapor's budget goes down $409K.
+#1052  Finance Office: Ruzapor budget decreased by $145K per the revised plan.
+#1053  Finance Office: Ruzapor budget decreased by $100K after review.
+#1054  Finance Office: Ruzapor budget increased by $90K.
+#1055  PMO note: Ruzapor budget should land at $2720K.
+#1056  Finance Office: Withdraw update #0184.
+#1057  Sales update: Sounds like Ruzapor gets $368K less.
+#1058  Engineering email: Hearing Ruzapor's budget goes up $199K.
+#1059  Finance Office: Ruzapor cost center code changed to FC-6216.
+#1060  Finance Office: Ruzapor budget decreased by $75K.
+#1061  Finance Office: Ruzapor budget increased by $150K per the revised plan.
+#1062  Finance Office: Ruzapor budget decreased by $150K.
+#1063  Facilities ticket: Ruzapor budget is going down by $288K.
+#1064  Finance Office: Ruzapor budget decreased by $105K.
+#1065  Operations chat: Expect Ruzapor's budget to rise by $69K.
+#1066  Finance Office: Ruzapor budget decreased by $40K per the revised plan.
+#1067  Facilities ticket: Ruzapor budget should land at $1620K.
+#1068  Finance Office: Ruzapor budget increased by $35K per the revised plan.
+#1069  Engineering email: Ruzapor test environment back online.
+#1070  Vendor call: Hearing Ruzapor's budget goes up $494K.
+#1071  Finance Office: Ruzapor budget increased by $90K after review.
+#1072  PMO note: Ruzapor test environment back online.
+#1073  Finance Office: Withdraw update #0997; it was entered in error.
+#1074  Finance Office: Ruzapor budget increased by $105K per the revised plan.
+#1075  Finance Office: Ruzapor budget decreased by $10K after review.
+#1076  Engineering email: Pretty sure Ruzapor's budget is $2520K now.
+#1077  Operations chat: Ruzapor budget is going up to $3530K.
+#1078  Finance Office: Ruzapor budget increased by $65K per the revised plan.
+#1079  Finance Office: Ruzapor budget decreased by $15K per the revised plan.
+#1080  Finance Office: Ruzapor budget decreased by $110K after review.
+#1081  Finance Office: Ruzapor budget increased by $25K.
+#1082  Finance Office: Ruzapor budget increased by $130K.
+#1083  Vendor call: Ruzapor budget is going up by $591K.
+#1084  Finance Office: Ruzapor budget increased by $60K after review.
+#1085  Finance Office: Ruzapor budget decreased by $50K per the revised plan.
+#1086  Finance Office: Ruzapor budget increased by $30K.
+#1087  Finance Office: Withdraw update #0270.
+#1088  Finance Office: Ruzapor budget decreased by $75K.
+#1089  Operations chat: Ruzapor budget is going down to $1830K.
+#1090  Finance Office: Ruzapor budget increased by $90K after review.
+#1091  Finance Office: Ruzapor budget increased by $45K per the revised plan.
+#1092  Engineering email: Expect Ruzapor's budget to rise by $318K.
+#1093  Facilities ticket: Expect Ruzapor's budget to drop by $108K.
+#1094  Finance Office: Ruzapor audit notes filed.
+#1095  Finance Office: Withdraw update #1087; it was entered in error.
+#1096  Facilities ticket: Ruzapor budget is going down by $97K.
+#1097  Finance Office: Ruzapor budget increased by $10K after review.
+#1098  Finance Office: Ruzapor budget increased by $85K after review.
+#1099  Finance Office: Withdraw update #0456; it was entered in error.
+#1100  Finance Office: Ruzapor budget increased by $80K per the revised plan.
+#1101  Finance Office: Ruzapor budget increased by $504K per the revised plan.
+#1102  Finance Office: Ruzapor budget decreased by $65K per the revised plan.
+#1103  Marketing email: Heard Ruzapor's budget is now $2920K.
+#1104  Finance Office: Ruzapor budget increased by $30K after review.
+#1105  Finance Office: Ruzapor budget increased by $135K.
+#1106  Marketing email: Pretty sure Ruzapor's budget is $4340K now.
+#1107  Finance Office: Ruzapor budget decreased by $135K after review.
+#1108  Finance Office: Ruzapor budget increased by $30K after review.
+#1109  Finance Office: Ruzapor budget increased by $91K after review.
+#1110  Finance Office: Ruzapor budget decreased by $85K.
+#1111  Finance Office: Withdraw update #0755.
+#1112  Finance Office: Ruzapor budget decreased by $35K per the revised plan.
+#1113  Finance Office: Ruzapor budget decreased by $80K.
+#1114  Marketing email: Heard Ruzapor's budget is now $2550K.
+#1115  Sales update: Ruzapor kickoff moved to Building 2.
+#1116  Vendor call: Ruzapor budget should land at $2310K.
+#1117  Vendor call: Pretty sure Ruzapor's budget is $2580K now.
+#1118  Vendor call: Expect Ruzapor's budget to drop by $136K.
+#1119  Finance Office: Ruzapor budget decreased by $45K per the revised plan.
+#1120  Finance Office: Ruzapor budget decreased by $5K per the revised plan.
+#1121  Finance Office: Ruzapor budget increased by $130K per the revised plan.
+#1122  Finance Office: Ruzapor budget increased by $224K per the revised plan.
+#1123  Sales update: Ruzapor budget is going down by $579K.
+#1124  Finance Office: Ruzapor budget decreased by $40K.
+#1125  Operations chat: Ruzapor weekly sync moved to Wednesdays.
+#1126  PMO note: Expect Ruzapor's budget to drop by $149K.
+#1127  Finance Office: Ruzapor budget decreased by $25K.
+#1128  Finance Office: Withdraw update #0398.
+#1129  Finance Office: Ruzapor budget increased by $80K after review.
+#1130  Finance Office: Ruzapor budget increased by $135K.
+#1131  Finance Office: Ruzapor budget decreased by $145K after review.
+#1132  Sales update: Sounds like Ruzapor gets $144K less.
+#1133  Finance Office: Withdraw update #0333; it was entered in error.
+#1134  Engineering email: Ruzapor budget should land at $2960K.
+#1135  Legal email: Ruzapor site visit confirmed for Tuesday.
+#1136  Finance Office: Withdraw update #0439.
+#1137  Legal email: Heard Ruzapor's budget is now $4720K.
+#1138  Finance Office: Ruzapor budget decreased by $140K.
+#1139  Finance Office: Withdraw update #0062; it was entered in error.
+#1140  Finance Office: Ruzapor budget decreased by $70K per the revised plan.
+#1141  Finance Office: Ruzapor budget decreased by $433K after review.
+#1142  Engineering email: Hearing Ruzapor's budget goes down $342K.
+#1143  Finance Office: Ruzapor budget increased by $95K.
+#1144  Finance Office: Ruzapor budget decreased by $311K.
+#1145  Finance Office: Ruzapor budget increased by $150K.
+#1146  Finance Office: Ruzapor budget decreased by $115K.
+#1147  Finance Office: Ruzapor budget decreased by $75K after review.
+#1148  Marketing email: Ruzapor budget should land at $3080K.
+#1149  Facilities ticket: Ruzapor documentation moved to the shared drive.
+#1150  Finance Office: Withdraw update #0513.
+#1151  Sales update: Ruzapor sprint 10 retrospective notes posted.
+#1152  Finance Office: Ruzapor budget increased by $65K per the revised plan.
+#1153  Finance Office: Ruzapor budget decreased by $120K.
+#1154  Finance Office: Ruzapor budget decreased by $115K after review.
+#1155  Finance Office: Withdraw update #1122; it was entered in error.
+#1156  Finance Office: Ruzapor budget decreased by $587K after review.
+#1157  Marketing email: Ruzapor documentation moved to the shared drive.
+#1158  Legal email: Expect Ruzapor's budget to rise by $593K.
+#1159  PMO note: Sounds like Ruzapor gets $279K more.
+#1160  Finance Office: Ruzapor budget increased by $90K.
+#1161  Finance Office: Withdraw update #0889; it was entered in error.
+#1162  Finance Office: Ruzapor budget increased by $65K per the revised plan.
+#1163  Finance Office: Ruzapor budget increased by $65K per the revised plan.
+#1164  Finance Office: Ruzapor budget increased by $65K after review.
+#1165  Finance Office: Withdraw update #0747; it was entered in error.
+#1166  Engineering email: Ruzapor budget is going down by $217K.
+#1167  PMO note: Hearing Ruzapor's budget goes up $446K.
+#1168  Finance Office: Ruzapor budget increased by $40K after review.
+#1169  Finance Office: Withdraw update #0553.
+#1170  Engineering email: Expect Ruzapor's budget to drop by $54K.
+#1171  Finance Office: Ruzapor budget decreased by $130K after review.
+#1172  Engineering email: Ruzapor budget is going to $1170K.
+#1173  Finance Office: Ruzapor budget increased by $35K.
+#1174  Finance Office: Withdraw update #0501; it was entered in error.
+#1175  Finance Office: Ruzapor budget increased by $85K after review.
+#1176  Finance Office: Ruzapor budget decreased by $70K per the revised plan.
+#1177  Finance Office: Ruzapor budget decreased by $150K.
+#1178  Finance Office: Withdraw update #0430; it was entered in error.
+#1179  Finance Office: Ruzapor budget decreased by $119K.
+#1180  Finance Office: Withdraw update #1141.
+#1181  Operations chat: Ruzapor budget is going up by $532K.
+#1182  Finance Office: Ruzapor budget decreased by $60K.
+#1183  Finance Office: Ruzapor budget increased by $65K.
+#1184  Finance Office: Ruzapor budget decreased by $45K per the revised plan.
+#1185  Finance Office: Ruzapor budget decreased by $60K.
+#1186  Finance Office: Ruzapor budget increased by $100K after review.
+#1187  Finance Office: Ruzapor quarterly audit scheduled for Thursday.
+#1188  Marketing email: Hearing Ruzapor's budget goes down $437K.
+#1189  Sales update: Sounds like Ruzapor gets $137K less.
+#1190  Finance Office: Ruzapor budget increased by $80K after review.
+#1191  Finance Office: Withdraw update #0287.
+#1192  Finance Office: Ruzapor quarterly audit scheduled for Friday.
+#1193  Marketing email: Expect Ruzapor's budget to drop by $78K.
+#1194  Finance Office: Ruzapor budget increased by $5K per the revised plan.
+#1195  Facilities ticket: Ruzapor budget is going down to $1240K.
+#1196  Finance Office: Withdraw update #0257.
+#1197  Vendor call: Ruzapor budget is going to $2160K.
+#1198  Finance Office: Ruzapor budget decreased by $15K per the revised plan.
+#1199  Engineering email: Ruzapor budget is going down by $153K.
+#1200  Marketing email: Heard Ruzapor's budget is now $1840K.
+#1201  Finance Office: Ruzapor budget decreased by $25K.
+#1202  Vendor call: Ruzapor documentation moved to the shared drive.
+#1203  Finance Office: Ruzapor budget decreased by $130K per the revised plan.
+#1204  Operations chat: Ruzapor budget is going down to $1410K.
+#1205  Finance Office: Ruzapor budget increased by $115K.
+#1206  Finance Office: Withdraw update #0548.
+#1207  Engineering email: Ruzapor kickoff moved to Building 9.
+#1208  Finance Office: Withdraw update #0239.
+#1209  Finance Office: Ruzapor budget increased by $65K after review.
+#1210  Engineering email: Ruzapor budget is going up by $539K.
+#1211  Marketing email: Expect Ruzapor's budget to rise by $47K.
+#1212  PMO note: Hearing Ruzapor's budget goes down $417K.
+#1213  Marketing email: Pretty sure Ruzapor's budget is $2620K now.
+#1214  Finance Office: Ruzapor audit notes filed.
+#1215  PMO note: Heard Ruzapor's budget is now $2240K.
+#1216  Facilities ticket: Expect Ruzapor's budget to drop by $598K.
+#1217  Legal email: Heard Ruzapor's budget is now $2170K.
+#1218  Finance Office: Ruzapor budget increased by $50K.
+#1219  Finance Office: Ruzapor budget decreased by $75K.
+#1220  Finance Office: Ruzapor budget decreased by $5K after review.
+#1221  Vendor call: Pretty sure Ruzapor's budget is $2620K now.
+#1222  Facilities ticket: Ruzapor vendor onboarding call scheduled for Thursday.
+#1223  Finance Office: Ruzapor budget increased by $45K per the revised plan.
+#1224  Finance Office: Ruzapor finance review moved to Room 6D.
+#1225  Finance Office: Withdraw update #0375.
+#1226  Marketing email: Ruzapor budget is going up to $1830K.
+#1227  Finance Office: Ruzapor budget decreased by $30K after review.
+#1228  Finance Office: Ruzapor budget decreased by $303K per the revised plan.
+#1229  Operations chat: Sounds like Ruzapor gets $536K less.
+#1230  Finance Office: Ruzapor budget increased by $135K per the revised plan.
+#1231  Finance Office: Ruzapor budget increased by $25K.
+#1232  Finance Office: Ruzapor budget increased by $60K after review.
+#1233  Finance Office: Ruzapor budget decreased by $90K per the revised plan.
+#1234  Finance Office: Ruzapor budget increased by $60K after review.
+#1235  Facilities ticket: Ruzapor security review passed.
+#1236  Finance Office: Withdraw update #1228; it was entered in error.
+#1237  Finance Office: Ruzapor budget increased by $145K per the revised plan.
+#1238  Finance Office: Ruzapor budget increased by $15K per the revised plan.
+#1239  Finance Office: Ruzapor budget increased by $110K per the revised plan.
+#1240  Finance Office: Withdraw update #1101.
+#1241  Legal email: Ruzapor design review moved to Room 2C.
+#1242  Finance Office: Withdraw update #0639; it was entered in error.
+#1243  Finance Office: Ruzapor budget decreased by $60K.
+#1244  Finance Office: Ruzapor budget increased by $15K.
+#1245  Finance Office: Ruzapor budget decreased by $25K after review.
+#1246  Finance Office: Withdraw update #0179.
+#1247  Finance Office: Withdraw update #0263.
+#1248  Finance Office: Ruzapor budget increased by $150K per the revised plan.
+#1249  Finance Office: Ruzapor budget decreased by $145K.
+#1250  Engineering email: Ruzapor security review passed.
+#1251  Finance Office: Ruzapor budget decreased by $115K after review.
+#1252  Sales update: Heard Ruzapor's budget is now $3100K.
+#1253  Finance Office: Ruzapor budget increased by $150K after review.
+#1254  Finance Office: Ruzapor budget increased by $20K after review.
+#1255  Finance Office: Ruzapor budget decreased by $20K per the revised plan.
+#1256  Finance Office: Ruzapor budget increased by $55K after review.
+#1257  Sales update: Hearing Ruzapor's budget goes up $268K.
+#1258  Finance Office: Withdraw update #1041.
+#1259  Engineering email: Ruzapor risk register updated with 6 new items.
+#1260  Finance Office: Reminder: Ruzapor expense reports are due Friday.
+#1261  Finance Office: Ruzapor budget decreased by $130K per the revised plan.
+#1262  PMO note: Expect Ruzapor's budget to drop by $423K.
+#1263  Vendor call: Expect Ruzapor's budget to rise by $351K.
+#1264  Finance Office: Ruzapor budget decreased by $30K per the revised plan.
+#1265  Finance Office: Withdraw update #0615; it was entered in error.
+#1266  Finance Office: Withdraw update #1144; it was entered in error.
+#1267  Marketing email: Ruzapor budget is going to $3330K.
+#1268  PMO note: Ruzapor security review passed.
+#1269  Sales update: Ruzapor budget should land at $2080K.
+#1270  Finance Office: Ruzapor budget increased by $100K.
+#1271  Facilities ticket: Pretty sure Ruzapor's budget is $2340K now.
+#1272  Engineering email: Ruzapor vendor onboarding call scheduled for Thursday.
+#1273  PMO note: Ruzapor risk register updated with 5 new items.
+#1274  Finance Office: Ruzapor budget decreased by $30K.
+#1275  Finance Office: Ruzapor budget decreased by $90K per the revised plan.
+#1276  Finance Office: Withdraw update #0929; it was entered in error.
+#1277  Finance Office: Ruzapor budget increased by $366K.
+#1278  Finance Office: Ruzapor budget decreased by $20K per the revised plan.
+#1279  Finance Office: Ruzapor budget decreased by $120K per the revised plan.
+#1280  Marketing email: Sounds like Ruzapor gets $298K less.
+#1281  Finance Office: Ruzapor budget decreased by $150K after review.
+#1282  Engineering email: Expect Ruzapor's budget to drop by $322K.
+#1283  Finance Office: Ruzapor budget decreased by $150K after review.
+#1284  Finance Office: Ruzapor budget increased by $120K.
+#1285  Finance Office: Ruzapor budget decreased by $80K after review.
+#1286  Finance Office: Ruzapor budget increased by $20K after review.
+#1287  Finance Office: Ruzapor budget increased by $45K per the revised plan.
+#1288  Facilities ticket: Expect Ruzapor's budget to drop by $363K.
+#1289  Finance Office: Ruzapor budget decreased by $115K after review.
+#1290  Legal email: Expect Ruzapor's budget to drop by $531K.
+#1291  Marketing email: Ruzapor budget is going up to $2530K.
+#1292  Sales update: Ruzapor budget is going to $2430K.
+#1293  Operations chat: Ruzapor budget is going to $1870K.
+#1294  PMO note: Ruzapor budget is going down by $104K.
+#1295  Finance Office: Ruzapor budget decreased by $15K.
+#1296  Marketing email: Heard Ruzapor's budget is now $1740K.
+#1297  Finance Office: Ruzapor budget decreased by $15K.
+#1298  PMO note: Ruzapor budget is going to $1520K.
+#1299  Finance Office: Ruzapor budget decreased by $145K.
+#1300  Finance Office: Withdraw update #0374; it was entered in error.
+#1301  Finance Office: Ruzapor budget decreased by $145K after review.
+#1302  Finance Office: Ruzapor budget decreased by $65K after review.
+#1303  Finance Office: Ruzapor budget decreased by $20K per the revised plan.
+#1304  Engineering email: Hearing Ruzapor's budget goes down $252K.
+#1305  Finance Office: Withdraw update #1109; it was entered in error.
+#1306  Finance Office: Withdraw update #0950.
+#1307  Marketing email: Ruzapor budget is going down to $1740K.
+#1308  Legal email: Ruzapor budget is going to $1770K.
+#1309  Finance Office: Ruzapor budget decreased by $75K.
+#1310  Finance Office: Ruzapor budget decreased by $70K after review.
+#1311  Finance Office: Ruzapor budget increased by $70K after review.
+#1312  Finance Office: Ruzapor budget decreased by $95K.
+#1313  Finance Office: Withdraw update #0695; it was entered in error.
+#1314  Finance Office: Ruzapor audit notes filed.
+#1315  Operations chat: Ruzapor documentation moved to the shared drive.
+#1316  Finance Office: Withdraw update #1246.
+#1317  Finance Office: Ruzapor budget decreased by $80K per the revised plan.
+#1318  Marketing email: Hearing Ruzapor's budget goes down $82K.
+#1319  Sales update: Pretty sure Ruzapor's budget is $1510K now.
+#1320  Finance Office: Ruzapor budget increased by $150K.
+#1321  Vendor call: Ruzapor site visit confirmed for Monday.
+#1322  Finance Office: Withdraw update #0508.
+#1323  Legal email: Pretty sure Ruzapor's budget is $1310K now.
+#1324  PMO note: Sounds like Ruzapor gets $548K more.
+#1325  Finance Office: Ruzapor budget decreased by $125K.
+#1326  Finance Office: Ruzapor budget decreased by $45K per the revised plan.
+#1327  Engineering email: Ruzapor status report filed for week 25.
+#1328  Finance Office: Ruzapor budget decreased by $80K per the revised plan.
+#1329  Engineering email: Ruzapor kickoff moved to Building 9.
+#1330  Finance Office: Ruzapor budget decreased by $140K.
+#1331  Finance Office: Ruzapor budget decreased by $25K per the revised plan.
+#1332  Finance Office: Ruzapor budget decreased by $105K.
+#1333  Finance Office: Ruzapor budget increased by $80K after review.
+#1334  Finance Office: Ruzapor budget increased by $55K after review.
+#1335  Finance Office: Ruzapor budget decreased by $25K after review.
+#1336  Legal email: Ruzapor budget is going down by $457K.
+#1337  Operations chat: Expect Ruzapor's budget to drop by $429K.
+#1338  Finance Office: Withdraw update #0640; it was entered in error.
+#1339  Operations chat: Expect Ruzapor's budget to rise by $67K.
+#1340  Finance Office: Ruzapor budget decreased by $125K after review.
+#1341  Facilities ticket: Heard Ruzapor's budget is now $1050K.
+#1342  Finance Office: Withdraw update #0635; it was entered in error.
+#1343  Finance Office: Ruzapor budget increased by $85K after review.
+#1344  Engineering email: Ruzapor weekly sync moved to Tuesdays.
+#1345  PMO note: Ruzapor documentation moved to the shared drive.
+#1346  Vendor call: Ruzapor budget is going to $1500K.
+#1347  Finance Office: Ruzapor budget decreased by $125K per the revised plan.
+#1348  Sales update: Pretty sure Ruzapor's budget is $1400K now.
+#1349  Finance Office: Withdraw update #1305.
+#1350  Finance Office: Ruzapor budget increased by $120K.
+#1351  Finance Office: Ruzapor budget decreased by $80K.
+#1352  Finance Office: Ruzapor budget increased by $55K.
+#1353  Marketing email: Ruzapor status report filed for week 6.
+#1354  Engineering email: Ruzapor budget is going to $1410K.
+#1355  Finance Office: Ruzapor budget increased by $513K.
+#1356  Finance Office: Ruzapor budget decreased by $50K after review.
+#1357  Finance Office: Withdraw update #0959; it was entered in error.
+#1358  Finance Office: Ruzapor budget increased by $100K.
+#1359  Finance Office: Ruzapor budget increased by $145K.
+#1360  Operations chat: Ruzapor security review passed.
+#1361  Sales update: Expect Ruzapor's budget to drop by $436K.
+#1362  Finance Office: Ruzapor budget decreased by $90K after review.
+#1363  PMO note: Ruzapor documentation moved to the shared drive.
+#1364  Facilities ticket: Ruzapor weekly sync moved to Tuesdays.
+#1365  Facilities ticket: Ruzapor budget is going to $2070K.
+#1366  Finance Office: Withdraw update #1247; it was entered in error.
+#1367  Vendor call: Ruzapor budget is going down to $1280K.
+#1368  Marketing email: Hearing Ruzapor's budget goes up $563K.
+#1369  Operations chat: Sounds like Ruzapor gets $449K more.
+#1370  Finance Office: Ruzapor budget increased by $85K per the revised plan.
+#1371  Vendor call: Pretty sure Ruzapor's budget is $1860K now.
+#1372  Engineering email: Expect Ruzapor's budget to drop by $34K.
+#1373  Finance Office: Ruzapor budget increased by $105K after review.
+#1374  Operations chat: Ruzapor design review moved to Room 4C.
+#1375  Finance Office: Ruzapor quarterly audit scheduled for Monday.
+#1376  PMO note: Ruzapor kickoff moved to Building 8.
+#1377  Finance Office: Ruzapor budget decreased by $140K after review.
+#1378  Finance Office: Ruzapor budget increased by $135K per the revised plan.
+#1379  Finance Office: Ruzapor budget decreased by $65K after review.
+#1380  Finance Office: Ruzapor budget decreased by $70K.
+#1381  Finance Office: Withdraw update #0514.
+#1382  Finance Office: Ruzapor budget increased by $125K per the revised plan.
+#1383  Vendor call: Ruzapor risk register updated with 9 new items.
+#1384  Vendor call: Hearing Ruzapor's budget goes up $107K.
+#1385  Finance Office: Withdraw update #0500.
+#1386  Finance Office: Ruzapor budget increased by $130K.
+#1387  Finance Office: Ruzapor budget increased by $5K after review.
+#1388  Operations chat: Expect Ruzapor's budget to rise by $62K.
+#1389  Marketing email: Ruzapor budget is going down by $379K.
+#1390  Facilities ticket: Expect Ruzapor's budget to drop by $567K.
+#1391  Finance Office: Ruzapor budget increased by $15K per the revised plan.
+#1392  Finance Office: Ruzapor budget decreased by $105K per the revised plan.
+#1393  Finance Office: Ruzapor budget increased by $130K after review.
+#1394  Legal email: Ruzapor budget is going down by $596K.
+#1395  Finance Office: Ruzapor budget increased by $145K.
+#1396  Finance Office: Ruzapor budget increased by $135K after review.
+#1397  Finance Office: Withdraw update #0205.
+#1398  Finance Office: Ruzapor budget increased by $75K after review.
+#1399  Finance Office: Ruzapor budget increased by $40K after review.
+#1400  Finance Office: Ruzapor budget increased by $140K after review.
+#1401  Facilities ticket: Ruzapor budget should land at $2620K.
+#1402  Finance Office: Ruzapor budget decreased by $5K after review.
+#1403  Finance Office: Ruzapor budget decreased by $100K per the revised plan.
+#1404  PMO note: Hearing Ruzapor's budget goes down $427K.
+#1405  Marketing email: Sounds like Ruzapor gets $241K less.
+#1406  Finance Office: Ruzapor budget decreased by $60K.
+#1407  Operations chat: Hearing Ruzapor's budget goes up $349K.
+#1408  Finance Office: Ruzapor invoice batch FC-9420 archived.
+#1409  Finance Office: Ruzapor budget decreased by $140K after review.
+#1410  Finance Office: Withdraw update #0541.
+#1411  Finance Office: Ruzapor budget increased by $15K per the revised plan.
+#1412  Sales update: Ruzapor budget is going down by $184K.
+#1413  Operations chat: Heard Ruzapor's budget is now $2390K.
+#1414  Engineering email: Hearing Ruzapor's budget goes down $231K.
+#1415  PMO note: Hearing Ruzapor's budget goes down $177K.
+#1416  Finance Office: Ruzapor budget decreased by $75K.
+#1417  Finance Office: Withdraw update #0652; it was entered in error.
+#1418  Finance Office: Ruzapor budget decreased by $40K.
+#1419  Finance Office: Withdraw update #1355.
+#1420  Finance Office: Withdraw update #0504; it was entered in error.
+#1421  Facilities ticket: Hearing Ruzapor's budget goes down $508K.
+#1422  PMO note: Heard Ruzapor's budget is now $2410K.
+#1423  Sales update: Ruzapor budget is going up by $134K.
+#1424  Finance Office: Withdraw update #1417; it was entered in error.
+#1425  Finance Office: Withdraw update #0925.
+#1426  Finance Office: Ruzapor budget increased by $115K.
+#1427  Legal email: Sounds like Ruzapor gets $543K more.
+#1428  Vendor call: Sounds like Ruzapor gets $213K less.
+#1429  Vendor call: Ruzapor budget is going up to $1990K.
+#1430  Finance Office: Ruzapor budget decreased by $35K.
+#1431  Operations chat: Hearing Ruzapor's budget goes up $277K.
+#1432  Operations chat: Ruzapor status report filed for week 18.
+#1433  Finance Office: Withdraw update #0117; it was entered in error.
+#1434  Finance Office: Ruzapor budget increased by $75K after review.
+#1435  Finance Office: Ruzapor budget increased by $120K per the revised plan.
+#1436  Finance Office: Ruzapor budget increased by $90K.
+#1437  PMO note: Ruzapor budget should land at $2250K.
+#1438  Finance Office: Withdraw update #0813; it was entered in error.
+#1439  Finance Office: Ruzapor budget increased by $120K per the revised plan.
+#1440  Finance Office: Ruzapor cost center code changed to FC-6090.
+#1441  Finance Office: Withdraw update #0743.
+#1442  Finance Office: Ruzapor budget increased by $95K.
+#1443  Sales update: Ruzapor budget is going down by $94K.
+#1444  Finance Office: Ruzapor budget increased by $145K per the revised plan.
+#1445  PMO note: Heard Ruzapor's budget is now $3070K.
+#1446  Finance Office: Ruzapor budget increased by $526K after review.
+#1447  Finance Office: Ruzapor budget increased by $145K.
+#1448  Finance Office: Ruzapor budget decreased by $25K.
+#1449  Finance Office: Ruzapor budget increased by $20K after review.
+#1450  Finance Office: Ruzapor cost center code changed to FC-1210.
+#1451  Finance Office: Withdraw update #0898; it was entered in error.
+#1452  Facilities ticket: Ruzapor budget is going up to $4680K.
+#1453  Finance Office: Ruzapor budget increased by $110K.
+#1454  Finance Office: Ruzapor budget decreased by $100K per the revised plan.
+#1455  Vendor call: Hearing Ruzapor's budget goes down $186K.
+#1456  Vendor call: Ruzapor kickoff moved to Building 8.
+#1457  Finance Office: Ruzapor budget increased by $45K after review.
+#1458  Operations chat: Sounds like Ruzapor gets $528K more.
+#1459  Finance Office: Withdraw update #0019; it was entered in error.
+#1460  Facilities ticket: Heard Ruzapor's budget is now $2790K.
+#1461  Finance Office: Ruzapor budget increased by $35K after review.
+#1462  Marketing email: Pretty sure Ruzapor's budget is $2660K now.
+#1463  Operations chat: Heard Ruzapor's budget is now $2320K.
+#1464  Facilities ticket: Heard Ruzapor's budget is now $3930K.
+#1465  Finance Office: Withdraw update #0405; it was entered in error.
+#1466  Finance Office: Ruzapor budget decreased by $164K after review.
+#1467  Finance Office: Ruzapor budget decreased by $60K after review.
+#1468  PMO note: Pretty sure Ruzapor's budget is $3070K now.
+#1469  Finance Office: Ruzapor budget increased by $100K after review.
+#1470  Finance Office: Ruzapor budget increased by $135K.
+#1471  Finance Office: Ruzapor budget decreased by $115K per the revised plan.
+#1472  Facilities ticket: Expect Ruzapor's budget to rise by $44K.
+#1473  Marketing email: Sounds like Ruzapor gets $151K more.
+#1474  Finance Office: Ruzapor quarterly audit scheduled for Thursday.
+#1475  Finance Office: Ruzapor budget decreased by $50K per the revised plan.
+#1476  Legal email: Sounds like Ruzapor gets $571K less.
+#1477  Finance Office: Withdraw update #1277.
+#1478  Finance Office: Ruzapor budget decreased by $105K.
+#1479  Finance Office: Ruzapor budget increased by $346K.
+#1480  Finance Office: Ruzapor budget decreased by $90K after review.
+#1481  Finance Office: Withdraw update #0373.
+#1482  Operations chat: Ruzapor budget is going up to $3320K.
+#1483  Sales update: Heard Ruzapor's budget is now $2920K.
+#1484  PMO note: Ruzapor budget is going to $3220K.
+#1485  Finance Office: Withdraw update #1466.
+#1486  Finance Office: Ruzapor budget decreased by $90K after review.
+#1487  Marketing email: Ruzapor budget is going down by $9K.
+#1488  Finance Office: Ruzapor budget decreased by $85K per the revised plan.
+#1489  Vendor call: Sounds like Ruzapor gets $577K less.
+#1490  Finance Office: Ruzapor budget increased by $50K.
+#1491  Finance Office: Withdraw update #1156.
+#1492  Facilities ticket: Ruzapor vendor onboarding call scheduled for Friday.
+#1493  Finance Office: Ruzapor budget decreased by $120K per the revised plan.
+#1494  Finance Office: Ruzapor budget decreased by $130K per the revised plan.
+#1495  Finance Office: Reminder: Ruzapor expense reports are due Monday.
+#1496  Finance Office: Withdraw update #0025; it was entered in error.
+#1497  PMO note: Ruzapor budget is going to $2650K.
+#1498  Marketing email: Sounds like Ruzapor gets $12K less.
+#1499  Sales update: Ruzapor budget is going down to $1710K.
+#1500  Facilities ticket: Ruzapor budget is going to $1700K.
+#1501  Vendor call: Hearing Ruzapor's budget goes down $306K.
+#1502  Finance Office: Ruzapor budget increased by $70K per the revised plan.
+#1503  Marketing email: Ruzapor budget is going up to $3410K.
+#1504  Finance Office: Ruzapor budget decreased by $75K per the revised plan.
+#1505  Vendor call: Ruzapor budget is going to $1810K.
+#1506  Legal email: Ruzapor budget should land at $3230K.
+#1507  Facilities ticket: Ruzapor sprint 30 retrospective notes posted.
+#1508  Finance Office: Ruzapor budget increased by $15K after review.
+#1509  PMO note: Expect Ruzapor's budget to drop by $99K.
+#1510  Finance Office: Ruzapor budget decreased by $100K after review.
+#1511  Sales update: Heard Ruzapor's budget is now $1920K.
+#1512  Legal email: Sounds like Ruzapor gets $259K less.
+#1513  Legal email: Sounds like Ruzapor gets $27K less.
+#1514  Finance Office: Ruzapor budget increased by $40K after review.
+#1515  Finance Office: Ruzapor budget increased by $20K.
+#1516  Vendor call: Sounds like Ruzapor gets $247K more.
+#1517  Sales update: Hearing Ruzapor's budget goes down $582K.
+#1518  Finance Office: Ruzapor budget increased by $125K after review.
+#1519  PMO note: Ruzapor kickoff moved to Building 5.
+#1520  Sales update: Heard Ruzapor's budget is now $1950K.
+#1521  Operations chat: Heard Ruzapor's budget is now $2550K.
+#1522  PMO note: Ruzapor budget is going to $1950K.
+#1523  Vendor call: Hearing Ruzapor's budget goes down $559K.
+#1524  Finance Office: Ruzapor budget increased by $120K after review.
+#1525  Operations chat: Ruzapor budget is going down by $357K.
+#1526  Vendor call: Ruzapor budget is going to $3040K.
+#1527  Finance Office: Ruzapor budget increased by $95K per the revised plan.
+#1528  Engineering email: Pretty sure Ruzapor's budget is $2200K now.
+#1529  Facilities ticket: Hearing Ruzapor's budget goes down $48K.
+#1530  Legal email: Ruzapor budget should land at $3490K.
+#1531  Vendor call: Ruzapor budget is going to $2470K.
+#1532  Finance Office: Ruzapor budget increased by $25K after review.
+#1533  Finance Office: Withdraw update #0192.
+#1534  Finance Office: Ruzapor budget increased by $30K.
+#1535  Engineering email: Ruzapor budget is going down by $64K.
+#1536  Finance Office: Ruzapor budget decreased by $45K.
+#1537  Finance Office: Ruzapor budget increased by $35K per the revised plan.
+#1538  Sales update: Ruzapor design review moved to Room 3A.
+#1539  Finance Office: Ruzapor budget increased by $135K after review.
+#1540  Finance Office: Ruzapor budget decreased by $80K per the revised plan.
+#1541  Finance Office: Ruzapor budget increased by $110K per the revised plan.
+#1542  Marketing email: Heard Ruzapor's budget is now $2440K.
+#1543  Legal email: Hearing Ruzapor's budget goes up $393K.
+#1544  Marketing email: Expect Ruzapor's budget to rise by $229K.
+#1545  Finance Office: Withdraw update #1179; it was entered in error.
+#1546  Finance Office: Withdraw update #0158; it was entered in error.
+#1547  Finance Office: Ruzapor budget increased by $75K after review.
+#1548  Finance Office: Ruzapor receipts scanned.
+#1549  Finance Office: Ruzapor budget increased by $115K.
+#1550  Vendor call: Ruzapor budget is going up by $467K.
+#1551  Finance Office: Ruzapor budget increased by $90K per the revised plan.
+#1552  Sales update: Ruzapor security review passed.
+#1553  Finance Office: Ruzapor budget increased by $30K.
+#1554  Marketing email: Hearing Ruzapor's budget goes up $122K.
+#1555  Operations chat: Expect Ruzapor's budget to rise by $569K.
+#1556  Finance Office: Ruzapor budget decreased by $5K.
+#1557  Finance Office: Ruzapor budget increased by $125K.
+#1558  PMO note: Hearing Ruzapor's budget goes up $329K.
+#1559  Finance Office: Withdraw update #1165; it was entered in error.
+#1560  Finance Office: Ruzapor budget decreased by $120K.
+#1561  Finance Office: Withdraw update #1481; it was entered in error.
+#1562  Finance Office: Ruzapor budget decreased by $150K.
+#1563  Sales update: Hearing Ruzapor's budget goes up $294K.
+#1564  Finance Office: Withdraw update #1479; it was entered in error.
+#1565  Sales update: Ruzapor budget should land at $2880K.
+#1566  Finance Office: Ruzapor budget decreased by $30K.
+#1567  Sales update: Expect Ruzapor's budget to rise by $312K.
+#1568  Operations chat: Hearing Ruzapor's budget goes down $262K.
+#1569  Operations chat: Sounds like Ruzapor gets $146K less.
+#1570  Finance Office: Ruzapor budget increased by $110K after review.
+#1571  Finance Office: Ruzapor budget increased by $55K per the revised plan.
+#1572  Legal email: Heard Ruzapor's budget is now $2320K.
+#1573  Finance Office: Ruzapor budget increased by $90K after review.
+#1574  Finance Office: Ruzapor budget increased by $15K per the revised plan.
+#1575  Finance Office: Ruzapor budget decreased by $5K.
+#1576  Operations chat: Sounds like Ruzapor gets $499K more.
+#1577  Engineering email: Ruzapor kickoff moved to Building 8.
+#1578  Finance Office: Ruzapor budget decreased by $30K after review.
+#1579  Finance Office: Withdraw update #1459.
+#1580  Finance Office: Ruzapor budget increased by $85K per the revised plan.
+#1581  Finance Office: Ruzapor budget decreased by $65K after review.
+#1582  Facilities ticket: Hearing Ruzapor's budget goes down $512K.
+#1583  Finance Office: Ruzapor budget decreased by $15K per the revised plan.
+#1584  Sales update: Ruzapor risk register updated with 7 new items.
+#1585  Finance Office: Withdraw update #1446.
+#1586  PMO note: Heard Ruzapor's budget is now $2980K.
+#1587  Marketing email: Hearing Ruzapor's budget goes down $161K.
+#1588  Finance Office: Ruzapor budget decreased by $30K after review.
+#1589  Vendor call: Ruzapor budget is going down by $401K.
+#1590  Finance Office: Ruzapor budget increased by $40K per the revised plan.
+#1591  Finance Office: Withdraw update #0335; it was entered in error.
+#1592  Finance Office: Ruzapor budget increased by $70K after review.
+#1593  Finance Office: Withdraw update #0771.
+#1594  Sales update: Ruzapor vendor onboarding call scheduled for Tuesday.
+#1595  Sales update: Ruzapor budget is going down by $248K.
+#1596  Facilities ticket: Ruzapor budget should land at $2890K.
+#1597  Facilities ticket: Sounds like Ruzapor gets $141K more.
+#1598  Operations chat: Heard Ruzapor's budget is now $3660K.
+#1599  Finance Office: Ruzapor budget increased by $125K per the revised plan.
+#1600  Finance Office: Ruzapor invoice batch FC-3326 archived.
+
+Question: What is Ruzapor's budget now?

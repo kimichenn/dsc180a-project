@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Volidrox budget set to $2760K.
+#0002  Finance Office: Volidrox budget increased by $349K per the revised plan.
+#0003  Finance Office: Volidrox budget decreased by $196K after review.
+#0004  Finance Office: Withdraw update #0003.
+#0005  Finance Office: Volidrox budget decreased by $191K.
+#0006  Vendor call: Hearing Volidrox's budget goes down $561K.
+#0007  Finance Office: Volidrox budget decreased by $60K.
+#0008  Finance Office: Withdraw update #0005.
+#0009  Facilities ticket: Volidrox budget is going up to $3890K.
+#0010  Finance Office: Volidrox budget increased by $476K after review.
+#0011  Operations chat: Volidrox vendor onboarding call scheduled for Wednesday.
+#0012  Finance Office: Volidrox budget increased by $176K per the revised plan.
+#0013  Facilities ticket: Expect Volidrox's budget to rise by $522K.
+#0014  Finance Office: Volidrox budget decreased by $20K per the revised plan.
+#0015  Finance Office: Withdraw update #0004.
+#0016  Legal email: Volidrox budget is going to $4550K.
+#0017  Engineering email: Heard Volidrox's budget is now $2720K.
+#0018  Finance Office: Volidrox budget increased by $24K per the revised plan.
+#0019  PMO note: Volidrox risk register updated with 5 new items.
+#0020  Finance Office: Volidrox budget increased by $386K.
+#0021  Engineering email: Volidrox design review moved to Room 3B.
+#0022  Marketing email: Volidrox budget is going to $4080K.
+#0023  Finance Office: Volidrox budget increased by $352K after review.
+#0024  Facilities ticket: Volidrox budget is going up to $4800K.
+#0025  PMO note: Volidrox budget is going up to $4800K.
+#0026  Finance Office: Withdraw update #0015; it was entered in error.
+#0027  Finance Office: Volidrox budget decreased by $534K.
+#0028  Operations chat: Hearing Volidrox's budget goes up $282K.
+#0029  Finance Office: Volidrox budget increased by $451K after review.
+#0030  Finance Office: Withdraw update #0023.
+#0031  Facilities ticket: Sounds like Volidrox gets $428K less.
+#0032  Finance Office: Withdraw update #0002; it was entered in error.
+#0033  Finance Office: Volidrox budget increased by $167K per the revised plan.
+#0034  Operations chat: Heard Volidrox's budget is now $3320K.
+#0035  Finance Office: Withdraw update #0029; it was entered in error.
+#0036  Finance Office: Volidrox budget increased by $20K.
+#0037  Sales update: Sounds like Volidrox gets $218K more.
+#0038  Operations chat: Volidrox budget is going down by $514K.
+#0039  Finance Office: Volidrox budget decreased by $382K per the revised plan.
+#0040  Finance Office: Volidrox budget decreased by $10K per the revised plan.
+#0041  Vendor call: Heard Volidrox's budget is now $2320K.
+#0042  Operations chat: Expect Volidrox's budget to rise by $548K.
+#0043  Finance Office: Volidrox budget decreased by $368K.
+#0044  Finance Office: Reminder: Volidrox expense reports are due Thursday.
+#0045  Operations chat: Volidrox risk register updated with 5 new items.
+#0046  Finance Office: Withdraw update #0039; it was entered in error.
+#0047  Finance Office: Volidrox budget increased by $391K per the revised plan.
+#0048  Finance Office: Volidrox budget decreased by $55K per the revised plan.
+#0049  Finance Office: Volidrox budget increased by $85K per the revised plan.
+#0050  Finance Office: Withdraw update #0047.
+#0051  Finance Office: Withdraw update #0046; it was entered in error.
+#0052  Finance Office: Volidrox budget decreased by $537K per the revised plan.
+#0053  Finance Office: Withdraw update #0012; it was entered in error.
+#0054  Finance Office: Volidrox budget increased by $412K after review.
+#0055  Finance Office: Volidrox budget decreased by $359K after review.
+#0056  Finance Office: Volidrox budget decreased by $549K.
+#0057  Vendor call: Volidrox vendor onboarding call scheduled for Friday.
+#0058  PMO note: Heard Volidrox's budget is now $1680K.
+#0059  Finance Office: Withdraw update #0043.
+#0060  Finance Office: Volidrox budget decreased by $169K per the revised plan.
+#0061  Finance Office: Volidrox budget decreased by $55K per the revised plan.
+#0062  Finance Office: Volidrox budget decreased by $135K.
+#0063  Engineering email: Sounds like Volidrox gets $117K more.
+#0064  Finance Office: Volidrox budget increased by $88K after review.
+#0065  Finance Office: Volidrox receipts scanned.
+#0066  Legal email: Volidrox budget should land at $1130K.
+#0067  Finance Office: Volidrox budget increased by $125K.
+#0068  Marketing email: Volidrox status report filed for week 45.
+#0069  Finance Office: Withdraw update #0056; it was entered in error.
+#0070  Finance Office: Volidrox budget decreased by $227K after review.
+#0071  Finance Office: Withdraw update #0070; it was entered in error.
+#0072  Finance Office: Volidrox budget increased by $60K per the revised plan.
+#0073  Finance Office: Volidrox budget increased by $5K.
+#0074  Finance Office: Volidrox budget decreased by $20K.
+#0075  Finance Office: Volidrox budget decreased by $105K after review.
+#0076  Finance Office: Volidrox budget increased by $438K.
+#0077  Finance Office: Volidrox budget decreased by $356K.
+#0078  PMO note: Volidrox budget is going to $2300K.
+#0079  Finance Office: Withdraw update #0069.
+#0080  Finance Office: Volidrox budget decreased by $52K per the revised plan.
+#0081  Finance Office: Volidrox budget decreased by $36K after review.
+#0082  Marketing email: Volidrox budget is going up by $592K.
+#0083  Sales update: Volidrox test environment back online.
+#0084  Finance Office: Volidrox budget increased by $444K after review.
+#0085  Finance Office: Volidrox budget increased by $100K.
+#0086  Legal email: Pretty sure Volidrox's budget is $2190K now.
+#0087  Finance Office: Volidrox budget increased by $517K per the revised plan.
+#0088  Marketing email: Volidrox budget is going down by $347K.
+#0089  Engineering email: Volidrox budget is going to $2030K.
+#0090  Finance Office: Withdraw update #0080.
+#0091  Finance Office: Volidrox budget increased by $107K after review.
+#0092  Finance Office: Volidrox budget increased by $30K per the revised plan.
+#0093  Sales update: Hearing Volidrox's budget goes down $97K.
+#0094  Finance Office: Withdraw update #0077; it was entered in error.
+#0095  Vendor call: Volidrox status report filed for week 4.
+#0096  Finance Office: Volidrox budget increased by $65K per the revised plan.
+#0097  Finance Office: Volidrox budget decreased by $427K per the revised plan.
+#0098  Finance Office: Volidrox budget decreased by $55K per the revised plan.
+#0099  Finance Office: Volidrox cost center code changed to FC-7823.
+#0100  Marketing email: Volidrox budget is going to $2360K.
+#0101  Engineering email: Volidrox budget is going to $2040K.
+#0102  Finance Office: Volidrox budget increased by $519K per the revised plan.
+#0103  Finance Office: Volidrox budget decreased by $40K after review.
+#0104  Vendor call: Volidrox budget is going down by $432K.
+#0105  Finance Office: Volidrox budget decreased by $35K.
+#0106  Finance Office: Volidrox budget increased by $60K after review.
+#0107  Legal email: Volidrox budget is going to $3140K.
+#0108  Facilities ticket: Volidrox budget should land at $3210K.
+#0109  Sales update: Volidrox sprint 31 retrospective notes posted.
+#0110  Finance Office: Volidrox budget increased by $110K after review.
+#0111  Operations chat: Volidrox budget is going to $4510K.
+#0112  Finance Office: Volidrox budget increased by $60K.
+#0113  Operations chat: Expect Volidrox's budget to rise by $578K.
+#0114  Finance Office: Volidrox budget increased by $70K per the revised plan.
+#0115  Finance Office: Volidrox budget increased by $35K.
+#0116  Finance Office: Withdraw update #0071.
+#0117  Finance Office: Volidrox budget increased by $132K after review.
+#0118  Finance Office: Withdraw update #0102; it was entered in error.
+#0119  Finance Office: Volidrox budget decreased by $120K per the revised plan.
+#0120  Operations chat: Volidrox budget is going up by $264K.
+#0121  Finance Office: Volidrox budget increased by $135K.
+#0122  Legal email: Expect Volidrox's budget to rise by $482K.
+#0123  Finance Office: Volidrox budget increased by $138K after review.
+#0124  Finance Office: Volidrox budget decreased by $486K after review.
+#0125  Facilities ticket: Volidrox budget is going to $2850K.
+#0126  Marketing email: Volidrox budget is going up by $387K.
+#0127  Finance Office: Volidrox budget increased by $125K after review.
+#0128  Finance Office: Volidrox budget increased by $30K.
+#0129  Finance Office: Volidrox budget decreased by $129K after review.
+#0130  Engineering email: Pretty sure Volidrox's budget is $2440K now.
+#0131  Finance Office: Volidrox budget decreased by $274K per the revised plan.
+#0132  Operations chat: Volidrox budget is going up to $2850K.
+#0133  Finance Office: Volidrox audit notes filed.
+#0134  Finance Office: Volidrox budget increased by $492K per the revised plan.
+#0135  PMO note: Hearing Volidrox's budget goes up $4K.
+#0136  Finance Office: Withdraw update #0030.
+#0137  Finance Office: Withdraw update #0010.
+#0138  Finance Office: Volidrox budget decreased by $40K.
+#0139  Finance Office: Withdraw update #0027.
+#0140  Finance Office: Volidrox budget increased by $124K.
+#0141  Finance Office: Withdraw update #0091; it was entered in error.
+#0142  Finance Office: Volidrox budget increased by $125K per the revised plan.
+#0143  Vendor call: Volidrox budget should land at $2410K.
+#0144  Finance Office: Withdraw update #0131.
+#0145  Finance Office: Volidrox budget decreased by $10K.
+#0146  Finance Office: Withdraw update #0026.
+#0147  Legal email: Volidrox demo rescheduled to Tuesday afternoon.
+#0148  Finance Office: Volidrox budget increased by $5K.
+#0149  Finance Office: Volidrox budget increased by $76K per the revised plan.
+#0150  Facilities ticket: Volidrox budget is going up to $3710K.
+#0151  Finance Office: Withdraw update #0129; it was entered in error.
+#0152  Finance Office: Volidrox budget increased by $544K.
+#0153  Engineering email: Heard Volidrox's budget is now $4800K.
+#0154  Finance Office: Volidrox budget increased by $10K per the revised plan.
+#0155  Marketing email: Pretty sure Volidrox's budget is $4730K now.
+#0156  Legal email: Expect Volidrox's budget to rise by $61K.
+#0157  Finance Office: Volidrox budget increased by $90K after review.
+#0158  Facilities ticket: Volidrox budget should land at $3720K.
+#0159  Finance Office: Volidrox budget decreased by $523K after review.
+#0160  Engineering email: Hearing Volidrox's budget goes down $222K.
+#0161  Finance Office: Volidrox budget increased by $110K after review.
+#0162  Finance Office: Withdraw update #0079; it was entered in error.
+#0163  Finance Office: Volidrox budget decreased by $48K per the revised plan.
+#0164  Engineering email: Volidrox budget is going to $3800K.
+#0165  Finance Office: Volidrox budget decreased by $140K per the revised plan.
+#0166  Operations chat: Volidrox budget is going up by $153K.
+#0167  Finance Office: Volidrox cost center code changed to FC-2679.
+#0168  Finance Office: Withdraw update #0020.
+#0169  Engineering email: Volidrox budget should land at $3510K.
+#0170  Finance Office: Volidrox budget decreased by $145K per the revised plan.
+#0171  PMO note: Volidrox budget is going up by $564K.
+#0172  Marketing email: Volidrox budget should land at $3540K.
+#0173  PMO note: Volidrox budget is going up by $442K.
+#0174  Finance Office: Volidrox budget increased by $15K per the revised plan.
+#0175  Engineering email: Sounds like Volidrox gets $172K less.
+#0176  Finance Office: Volidrox budget increased by $526K after review.
+#0177  Finance Office: Withdraw update #0059.
+#0178  Finance Office: Volidrox budget increased by $584K per the revised plan.
+#0179  Finance Office: Volidrox budget increased by $297K after review.
+#0180  Finance Office: Volidrox budget decreased by $80K per the revised plan.
+#0181  Finance Office: Volidrox budget decreased by $130K.
+#0182  Vendor call: Volidrox budget should land at $3630K.
+#0183  Finance Office: Withdraw update #0176; it was entered in error.
+#0184  Marketing email: Hearing Volidrox's budget goes down $431K.
+#0185  Finance Office: Withdraw update #0051.
+#0186  Vendor call: Volidrox budget should land at $4800K.
+#0187  Finance Office: Volidrox budget decreased by $145K.
+#0188  Finance Office: Volidrox budget decreased by $100K.
+#0189  Finance Office: Volidrox invoice batch FC-3485 archived.
+#0190  Finance Office: Withdraw update #0123.
+#0191  Operations chat: Expect Volidrox's budget to rise by $311K.
+#0192  Finance Office: Volidrox quarterly audit scheduled for Monday.
+#0193  Sales update: Expect Volidrox's budget to drop by $177K.
+#0194  Finance Office: Volidrox budget increased by $70K.
+#0195  PMO note: Volidrox budget is going up by $259K.
+#0196  Facilities ticket: Heard Volidrox's budget is now $4680K.
+#0197  Finance Office: Volidrox budget decreased by $5K.
+#0198  Facilities ticket: Volidrox budget is going up by $262K.
+#0199  Sales update: Volidrox budget is going down to $3910K.
+#0200  Finance Office: Volidrox budget decreased by $284K per the revised plan.
+#0201  Finance Office: Volidrox budget decreased by $20K per the revised plan.
+#0202  Sales update: Volidrox budget should land at $3690K.
+#0203  Legal email: Volidrox budget is going to $3550K.
+#0204  Vendor call: Pretty sure Volidrox's budget is $4010K now.
+#0205  Engineering email: Expect Volidrox's budget to drop by $126K.
+#0206  Finance Office: Volidrox invoice batch FC-5940 archived.
+#0207  Engineering email: Volidrox budget is going up to $4800K.
+#0208  Operations chat: Sounds like Volidrox gets $424K less.
+#0209  Marketing email: Expect Volidrox's budget to drop by $499K.
+#0210  Marketing email: Volidrox budget should land at $3840K.
+#0211  Operations chat: Hearing Volidrox's budget goes up $53K.
+#0212  Finance Office: Withdraw update #0141.
+#0213  Legal email: Volidrox budget is going to $3630K.
+#0214  Finance Office: Withdraw update #0050; it was entered in error.
+#0215  Finance Office: Volidrox budget increased by $567K per the revised plan.
+#0216  Finance Office: Volidrox budget decreased by $474K per the revised plan.
+#0217  Finance Office: Volidrox budget decreased by $95K per the revised plan.
+#0218  Engineering email: Sounds like Volidrox gets $221K less.
+#0219  Finance Office: Volidrox budget decreased by $45K after review.
+#0220  Finance Office: Volidrox budget decreased by $5K.
+#0221  Finance Office: Volidrox budget increased by $516K.
+#0222  Finance Office: Withdraw update #0162; it was entered in error.
+#0223  Finance Office: Volidrox budget decreased by $80K after review.
+#0224  Finance Office: Withdraw update #0221.
+#0225  Sales update: Sounds like Volidrox gets $244K more.
+#0226  Finance Office: Withdraw update #0139.
+#0227  Finance Office: Volidrox budget increased by $135K after review.
+#0228  Engineering email: Sounds like Volidrox gets $216K less.
+#0229  Finance Office: Volidrox budget decreased by $45K.
+#0230  Finance Office: Withdraw update #0151.
+#0231  Finance Office: Volidrox budget decreased by $125K per the revised plan.
+#0232  Sales update: Heard Volidrox's budget is now $2650K.
+#0233  Finance Office: Volidrox budget decreased by $150K.
+#0234  Engineering email: Expect Volidrox's budget to drop by $179K.
+#0235  Finance Office: Volidrox budget decreased by $9K per the revised plan.
+#0236  Finance Office: Volidrox budget increased by $91K per the revised plan.
+#0237  Finance Office: Volidrox budget decreased by $187K per the revised plan.
+#0238  Engineering email: Hearing Volidrox's budget goes down $296K.
+#0239  Finance Office: Volidrox budget increased by $150K after review.
+#0240  Vendor call: Hearing Volidrox's budget goes down $364K.
+#0241  Finance Office: Volidrox budget increased by $363K.
+#0242  Finance Office: Volidrox budget decreased by $35K per the revised plan.
+#0243  Vendor call: Sounds like Volidrox gets $19K less.
+#0244  Finance Office: Volidrox budget decreased by $30K.
+#0245  Finance Office: Withdraw update #0185; it was entered in error.
+#0246  Finance Office: Volidrox budget decreased by $362K after review.
+#0247  Finance Office: Withdraw update #0087; it was entered in error.
+#0248  Engineering email: Sounds like Volidrox gets $283K less.
+#0249  Finance Office: Volidrox budget increased by $50K.
+#0250  Finance Office: Volidrox budget decreased by $140K.
+#0251  Finance Office: Volidrox budget increased by $337K after review.
+#0252  Finance Office: Withdraw update #0247; it was entered in error.
+#0253  Vendor call: Volidrox documentation moved to the shared drive.
+#0254  Marketing email: Heard Volidrox's budget is now $2670K.
+#0255  Finance Office: Volidrox budget increased by $223K per the revised plan.
+#0256  Finance Office: Volidrox budget decreased by $159K after review.
+#0257  Finance Office: Volidrox budget decreased by $35K.
+#0258  Engineering email: Volidrox budget should land at $3190K.
+#0259  Finance Office: Volidrox budget decreased by $55K.
+#0260  Finance Office: Volidrox budget decreased by $556K after review.
+#0261  Finance Office: Withdraw update #0116.
+#0262  Sales update: Expect Volidrox's budget to drop by $518K.
+#0263  Facilities ticket: Sounds like Volidrox gets $102K less.
+#0264  Legal email: Sounds like Volidrox gets $287K more.
+#0265  Finance Office: Volidrox budget decreased by $135K per the revised plan.
+#0266  Sales update: Pretty sure Volidrox's budget is $2580K now.
+#0267  Finance Office: Volidrox budget decreased by $318K per the revised plan.
+#0268  Facilities ticket: Volidrox budget is going down by $346K.
+#0269  Finance Office: Withdraw update #0212.
+#0270  Finance Office: Volidrox budget increased by $65K after review.
+#0271  Finance Office: Withdraw update #0246; it was entered in error.
+#0272  Finance Office: Volidrox budget increased by $404K.
+#0273  Finance Office: Volidrox budget increased by $497K after review.
+#0274  Finance Office: Volidrox budget decreased by $75K.
+#0275  Operations chat: Volidrox budget should land at $2790K.
+#0276  Finance Office: Volidrox receipts scanned.
+#0277  Operations chat: Volidrox budget is going up by $68K.
+#0278  Finance Office: Volidrox budget decreased by $406K after review.
+#0279  Finance Office: Volidrox budget decreased by $65K after review.
+#0280  Finance Office: Withdraw update #0256; it was entered in error.
+#0281  Finance Office: Volidrox budget decreased by $30K after review.
+#0282  Engineering email: Volidrox budget is going to $2290K.
+#0283  Facilities ticket: Volidrox risk register updated with 9 new items.
+#0284  Finance Office: Volidrox budget decreased by $35K per the revised plan.
+#0285  Finance Office: Volidrox budget decreased by $70K per the revised plan.
+#0286  Finance Office: Volidrox budget decreased by $95K after review.
+#0287  Finance Office: Volidrox budget increased by $294K.
+#0288  Operations chat: Expect Volidrox's budget to drop by $392K.
+#0289  Finance Office: Volidrox budget increased by $110K after review.
+#0290  Finance Office: Volidrox budget decreased by $443K per the revised plan.
+#0291  Finance Office: Volidrox budget increased by $166K.
+#0292  Finance Office: Volidrox budget increased by $145K after review.
+#0293  Finance Office: Volidrox budget increased by $269K per the revised plan.
+#0294  Finance Office: Withdraw update #0200; it was entered in error.
+#0295  Marketing email: Expect Volidrox's budget to drop by $47K.
+#0296  Finance Office: Volidrox budget decreased by $562K after review.
+#0297  Engineering email: Expect Volidrox's budget to drop by $302K.
+#0298  Finance Office: Reminder: Volidrox expense reports are due Tuesday.
+#0299  Finance Office: Volidrox budget decreased by $524K.
+#0300  PMO note: Expect Volidrox's budget to rise by $402K.
+#0301  Engineering email: Volidrox documentation moved to the shared drive.
+#0302  Engineering email: Heard Volidrox's budget is now $1630K.
+#0303  Finance Office: Volidrox budget decreased by $104K per the revised plan.
+#0304  Finance Office: Withdraw update #0054.
+#0305  Finance Office: Volidrox receipts scanned.
+#0306  Finance Office: Volidrox budget decreased by $50K after review.
+#0307  Finance Office: Volidrox budget decreased by $594K after review.
+#0308  Vendor call: Volidrox budget is going up by $461K.
+#0309  Sales update: Volidrox budget is going up to $1160K.
+#0310  Finance Office: Volidrox budget decreased by $25K.
+#0311  Legal email: Volidrox security review passed.
+#0312  Finance Office: Volidrox budget increased by $25K per the revised plan.
+#0313  Finance Office: Volidrox budget increased by $32K after review.
+#0314  Finance Office: Volidrox budget increased by $110K after review.
+#0315  Finance Office: Volidrox budget increased by $25K per the revised plan.
+#0316  Finance Office: Volidrox budget increased by $115K per the revised plan.
+#0317  Finance Office: Volidrox receipts scanned.
+#0318  PMO note: Sounds like Volidrox gets $314K more.
+#0319  Finance Office: Reminder: Volidrox expense reports are due Thursday.
+#0320  Finance Office: Volidrox budget increased by $30K.
+#0321  Finance Office: Volidrox budget decreased by $150K.
+#0322  Finance Office: Volidrox receipts scanned.
+#0323  PMO note: Sounds like Volidrox gets $214K less.
+#0324  Finance Office: Volidrox budget decreased by $21K after review.
+#0325  Finance Office: Volidrox budget increased by $20K.
+#0326  Facilities ticket: Hearing Volidrox's budget goes up $39K.
+#0327  Finance Office: Volidrox budget increased by $448K after review.
+#0328  Finance Office: Withdraw update #0251; it was entered in error.
+#0329  Engineering email: Hearing Volidrox's budget goes down $156K.
+#0330  Finance Office: Withdraw update #0033; it was entered in error.
+#0331  Sales update: Hearing Volidrox's budget goes up $449K.
+#0332  Vendor call: Expect Volidrox's budget to rise by $3K.
+#0333  Finance Office: Volidrox budget increased by $105K.
+#0334  Finance Office: Volidrox quarterly audit scheduled for Friday.
+#0335  Finance Office: Withdraw update #0313; it was entered in error.
+#0336  Finance Office: Volidrox budget increased by $16K after review.
+#0337  Finance Office: Volidrox budget decreased by $45K after review.
+#0338  Finance Office: Volidrox budget decreased by $125K per the revised plan.
+#0339  Finance Office: Withdraw update #0124; it was entered in error.
+#0340  Finance Office: Volidrox budget decreased by $481K per the revised plan.
+#0341  Finance Office: Volidrox budget decreased by $75K.
+#0342  Finance Office: Withdraw update #0330; it was entered in error.
+#0343  Finance Office: Volidrox budget increased by $110K per the revised plan.
+#0344  Legal email: Volidrox budget is going to $870K.
+#0345  PMO note: Heard Volidrox's budget is now $880K.
+#0346  Finance Office: Volidrox budget decreased by $135K.
+#0347  Finance Office: Volidrox budget increased by $120K per the revised plan.
+#0348  Finance Office: Volidrox budget increased by $66K.
+#0349  Facilities ticket: Volidrox budget is going up by $572K.
+#0350  Legal email: Heard Volidrox's budget is now $1500K.
+#0351  Engineering email: Hearing Volidrox's budget goes up $343K.
+#0352  Operations chat: Volidrox test environment back online.
+#0353  Sales update: Volidrox documentation moved to the shared drive.
+#0354  Finance Office: Volidrox budget increased by $80K after review.
+#0355  Vendor call: Volidrox budget is going up to $1890K.
+#0356  Finance Office: Volidrox budget increased by $478K per the revised plan.
+#0357  Vendor call: Volidrox budget is going to $1700K.
+#0358  Marketing email: Hearing Volidrox's budget goes up $588K.
+#0359  Finance Office: Volidrox budget increased by $55K.
+#0360  Finance Office: Volidrox budget increased by $477K.
+#0361  Finance Office: Volidrox budget increased by $536K after review.
+#0362  Sales update: Pretty sure Volidrox's budget is $4040K now.
+#0363  Finance Office: Volidrox budget increased by $145K after review.
+#0364  Finance Office: Volidrox budget decreased by $120K.
+#0365  Finance Office: Withdraw update #0084.
+#0366  Facilities ticket: Hearing Volidrox's budget goes down $509K.
+#0367  PMO note: Hearing Volidrox's budget goes down $446K.
+#0368  Finance Office: Volidrox budget decreased by $144K.
+#0369  Finance Office: Volidrox budget increased by $80K per the revised plan.
+#0370  Finance Office: Volidrox budget decreased by $401K after review.
+#0371  Facilities ticket: Sounds like Volidrox gets $154K less.
+#0372  Facilities ticket: Volidrox budget is going to $2720K.
+#0373  Finance Office: Volidrox budget decreased by $140K per the revised plan.
+#0374  Finance Office: Volidrox budget decreased by $247K after review.
+#0375  Finance Office: Volidrox budget increased by $45K.
+#0376  Finance Office: Volidrox budget decreased by $120K per the revised plan.
+#0377  Finance Office: Volidrox budget increased by $135K per the revised plan.
+#0378  Marketing email: Pretty sure Volidrox's budget is $2160K now.
+#0379  Facilities ticket: Volidrox weekly sync moved to Fridays.
+#0380  Finance Office: Volidrox budget increased by $65K after review.
+#0381  Marketing email: Volidrox budget is going down by $371K.
+#0382  Finance Office: Withdraw update #0052; it was entered in error.
+#0383  Legal email: Expect Volidrox's budget to drop by $393K.
+#0384  PMO note: Volidrox budget is going up to $2440K.
+#0385  Marketing email: Pretty sure Volidrox's budget is $2060K now.
+#0386  Sales update: Volidrox risk register updated with 9 new items.
+#0387  Finance Office: Volidrox budget increased by $574K after review.
+#0388  Finance Office: Volidrox budget decreased by $139K after review.
+#0389  Sales update: Volidrox status report filed for week 34.
+#0390  Finance Office: Volidrox budget increased by $182K per the revised plan.
+#0391  Finance Office: Volidrox budget increased by $120K per the revised plan.
+#0392  Finance Office: Withdraw update #0360.
+#0393  Vendor call: Sounds like Volidrox gets $164K more.
+#0394  Facilities ticket: Volidrox budget is going up to $2960K.
+#0395  Marketing email: Sounds like Volidrox gets $228K less.
+#0396  Finance Office: Volidrox budget decreased by $30K.
+#0397  Finance Office: Volidrox budget decreased by $45K.
+#0398  Finance Office: Withdraw update #0390.
+#0399  Finance Office: Volidrox budget decreased by $100K.
+#0400  Finance Office: Volidrox purchase order FC-4326 closed.
+#0401  Finance Office: Volidrox budget increased by $145K after review.
+#0402  Finance Office: Volidrox budget decreased by $464K per the revised plan.
+#0403  Operations chat: Volidrox budget is going to $2480K.
+#0404  Legal email: Volidrox budget is going down by $96K.
+#0405  Finance Office: Volidrox budget decreased by $308K per the revised plan.
+#0406  Finance Office: Withdraw update #0287; it was entered in error.
+#0407  Finance Office: Volidrox budget increased by $533K.
+#0408  Finance Office: Volidrox budget increased by $150K per the revised plan.
+#0409  Finance Office: Withdraw update #0336.
+#0410  Facilities ticket: Volidrox budget is going down by $272K.
+#0411  Finance Office: Withdraw update #0018.
+#0412  Finance Office: Volidrox budget decreased by $65K per the revised plan.
+#0413  Finance Office: Volidrox budget increased by $110K.
+#0414  Finance Office: Volidrox budget decreased by $150K.
+#0415  Vendor call: Heard Volidrox's budget is now $1450K.
+#0416  Sales update: Volidrox budget is going down by $397K.
+#0417  Finance Office: Volidrox budget decreased by $110K.
+#0418  Vendor call: Pretty sure Volidrox's budget is $2270K now.
+#0419  Finance Office: Volidrox budget increased by $74K per the revised plan.
+#0420  Finance Office: Volidrox budget increased by $100K after review.
+#0421  Finance Office: Volidrox budget increased by $543K after review.
+#0422  Finance Office: Volidrox budget decreased by $35K after review.
+#0423  Finance Office: Volidrox budget increased by $95K after review.
+#0424  Finance Office: Volidrox budget decreased by $30K per the revised plan.
+#0425  Finance Office: Volidrox budget increased by $78K per the revised plan.
+#0426  Marketing email: Volidrox site visit confirmed for Thursday.
+#0427  Finance Office: Volidrox budget increased by $35K after review.
+#0428  Operations chat: Volidrox budget is going down to $2400K.
+#0429  Operations chat: Expect Volidrox's budget to drop by $18K.
+#0430  Engineering email: Expect Volidrox's budget to rise by $251K.
+#0431  Finance Office: Volidrox budget decreased by $115K.
+#0432  Legal email: Volidrox budget is going to $2680K.
+#0433  Finance Office: Volidrox budget decreased by $10K after review.
+#0434  Vendor call: Sounds like Volidrox gets $344K less.
+#0435  Operations chat: Volidrox kickoff moved to Building 2.
+#0436  Finance Office: Volidrox budget decreased by $95K per the revised plan.
+#0437  Finance Office: Volidrox budget decreased by $22K after review.
+#0438  Operations chat: Volidrox status report filed for week 42.
+#0439  Legal email: Volidrox site visit confirmed for Monday.
+#0440  Finance Office: Volidrox invoice batch FC-6346 archived.
+#0441  Finance Office: Volidrox budget decreased by $125K per the revised plan.
+#0442  Finance Office: Withdraw update #0137; it was entered in error.
+#0443  Finance Office: Volidrox budget decreased by $95K.
+#0444  Finance Office: Volidrox budget increased by $203K per the revised plan.
+#0445  Finance Office: Volidrox budget increased by $15K after review.
+#0446  Legal email: Volidrox budget is going to $3620K.
+#0447  PMO note: Pretty sure Volidrox's budget is $2830K now.
+#0448  Legal email: Hearing Volidrox's budget goes down $328K.
+#0449  Finance Office: Withdraw update #0179.
+#0450  Sales update: Volidrox security review passed.
+#0451  Finance Office: Volidrox budget decreased by $90K per the revised plan.
+#0452  Finance Office: Withdraw update #0324.
+#0453  Engineering email: Hearing Volidrox's budget goes down $591K.
+#0454  Finance Office: Volidrox budget decreased by $30K after review.
+#0455  Operations chat: Volidrox documentation moved to the shared drive.
+#0456  Finance Office: Volidrox budget decreased by $206K after review.
+#0457  Finance Office: Volidrox budget decreased by $10K after review.
+#0458  Legal email: Volidrox weekly sync moved to Thursdays.
+#0459  Facilities ticket: Volidrox budget is going up by $307K.
+#0460  Marketing email: Volidrox design review moved to Room 6D.
+#0461  Operations chat: Pretty sure Volidrox's budget is $1550K now.
+#0462  Operations chat: Volidrox budget should land at $2470K.
+#0463  Finance Office: Volidrox budget increased by $489K.
+#0464  PMO note: Volidrox budget is going to $3600K.
+#0465  PMO note: Volidrox budget is going down by $504K.
+#0466  Legal email: Volidrox budget is going down by $293K.
+#0467  Legal email: Volidrox sprint 21 retrospective notes posted.
+#0468  Finance Office: Withdraw update #0273; it was entered in error.
+#0469  Legal email: Volidrox budget is going to $2820K.
+#0470  Finance Office: Withdraw update #0255; it was entered in error.
+#0471  Sales update: Expect Volidrox's budget to drop by $453K.
+#0472  Finance Office: Volidrox audit notes filed.
+#0473  Finance Office: Volidrox budget decreased by $110K.
+#0474  Operations chat: Expect Volidrox's budget to rise by $162K.
+#0475  Finance Office: Volidrox budget decreased by $120K.
+#0476  Sales update: Volidrox budget is going down by $116K.
+#0477  Finance Office: Volidrox budget decreased by $239K per the revised plan.
+#0478  Finance Office: Volidrox budget decreased by $5K after review.
+#0479  Operations chat: Volidrox budget is going to $1850K.
+#0480  Finance Office: Volidrox budget decreased by $80K per the revised plan.
+#0481  Finance Office: Volidrox budget decreased by $140K per the revised plan.
+#0482  Finance Office: Withdraw update #0140.
+#0483  Legal email: Heard Volidrox's budget is now $1040K.
+#0484  Finance Office: Volidrox budget increased by $342K.
+#0485  Finance Office: Volidrox budget decreased by $105K after review.
+#0486  Marketing email: Hearing Volidrox's budget goes up $429K.
+#0487  Finance Office: Withdraw update #0159; it was entered in error.
+#0488  Finance Office: Volidrox budget increased by $115K after review.
+#0489  Finance Office: Withdraw update #0335; it was entered in error.
+#0490  Legal email: Volidrox budget is going to $2230K.
+#0491  Finance Office: Volidrox budget increased by $90K.
+#0492  Finance Office: Withdraw update #0267.
+#0493  Finance Office: Volidrox budget increased by $42K after review.
+#0494  Finance Office: Volidrox budget increased by $50K.
+#0495  Vendor call: Volidrox security review passed.
+#0496  Finance Office: Volidrox budget increased by $25K.
+#0497  Finance Office: Volidrox audit notes filed.
+#0498  Finance Office: Volidrox budget decreased by $10K after review.
+#0499  Finance Office: Volidrox budget decreased by $90K after review.
+#0500  Finance Office: Volidrox budget decreased by $145K.
+#0501  Sales update: Hearing Volidrox's budget goes down $583K.
+#0502  Sales update: Volidrox budget is going up to $2520K.
+#0503  Finance Office: Volidrox budget decreased by $1K after review.
+#0504  Finance Office: Volidrox budget decreased by $5K after review.
+#0505  Legal email: Volidrox security review passed.
+#0506  Finance Office: Volidrox budget decreased by $55K per the revised plan.
+#0507  Finance Office: Volidrox budget decreased by $60K.
+#0508  Finance Office: Volidrox budget increased by $60K.
+#0509  Legal email: Volidrox design review moved to Room 3D.
+#0510  Vendor call: Volidrox design review moved to Room 4B.
+#0511  Finance Office: Volidrox budget increased by $55K after review.
+#0512  Legal email: Volidrox budget is going up by $324K.
+#0513  Finance Office: Withdraw update #0260; it was entered in error.
+#0514  Finance Office: Withdraw update #0241; it was entered in error.
+#0515  Finance Office: Volidrox budget decreased by $512K.
+#0516  Finance Office: Volidrox budget decreased by $125K after review.
+#0517  Finance Office: Withdraw update #0134; it was entered in error.
+#0518  Finance Office: Volidrox budget decreased by $538K per the revised plan.
+#0519  Finance Office: Volidrox budget decreased by $35K.
+#0520  Finance Office: Volidrox budget increased by $25K after review.
+#0521  Finance Office: Volidrox budget decreased by $181K per the revised plan.
+#0522  Finance Office: Volidrox budget decreased by $123K per the revised plan.
+#0523  Finance Office: Withdraw update #0482; it was entered in error.
+#0524  Finance Office: Volidrox budget decreased by $30K after review.
+#0525  Finance Office: Volidrox budget decreased by $130K.
+#0526  Finance Office: Withdraw update #0216.
+#0527  Legal email: Volidrox budget is going down by $248K.
+#0528  Finance Office: Volidrox budget decreased by $40K.
+#0529  Finance Office: Volidrox budget decreased by $434K per the revised plan.
+#0530  Finance Office: Volidrox budget decreased by $90K after review.
+#0531  Legal email: Volidrox budget is going up to $500K.
+#0532  Finance Office: Volidrox budget increased by $105K.
+#0533  Marketing email: Heard Volidrox's budget is now $440K.
+#0534  Operations chat: Sounds like Volidrox gets $174K more.
+#0535  Finance Office: Volidrox budget decreased by $115K per the revised plan.
+#0536  Engineering email: Volidrox risk register updated with 3 new items.
+#0537  Finance Office: Withdraw update #0090.
+#0538  Finance Office: Volidrox budget increased by $40K after review.
+#0539  Finance Office: Volidrox budget increased by $90K per the revised plan.
+#0540  Finance Office: Volidrox budget increased by $25K.
+#0541  Finance Office: Volidrox budget increased by $184K per the revised plan.
+#0542  Finance Office: Volidrox budget increased by $60K per the revised plan.
+#0543  PMO note: Expect Volidrox's budget to rise by $292K.
+#0544  Finance Office: Volidrox budget increased by $63K.
+#0545  Finance Office: Volidrox budget increased by $15K.
+#0546  Finance Office: Volidrox budget increased by $150K.
+#0547  PMO note: Volidrox design review moved to Room 3D.
+#0548  Engineering email: Volidrox test environment back online.
+#0549  Sales update: Hearing Volidrox's budget goes up $73K.
+#0550  Sales update: Volidrox security review passed.
+#0551  Finance Office: Volidrox budget increased by $130K after review.
+#0552  Finance Office: Volidrox budget decreased by $120K.
+#0553  Finance Office: Withdraw update #0222; it was entered in error.
+#0554  Finance Office: Volidrox budget increased by $30K.
+#0555  Finance Office: Volidrox budget increased by $65K per the revised plan.
+#0556  Finance Office: Volidrox budget decreased by $120K per the revised plan.
+#0557  Finance Office: Volidrox budget increased by $85K per the revised plan.
+#0558  Legal email: Volidrox kickoff moved to Building 3.
+#0559  Finance Office: Volidrox budget increased by $50K.
+#0560  Finance Office: Withdraw update #0008; it was entered in error.
+#0561  PMO note: Expect Volidrox's budget to rise by $31K.
+#0562  Engineering email: Expect Volidrox's budget to drop by $62K.
+#0563  Finance Office: Volidrox budget decreased by $145K per the revised plan.
+#0564  Finance Office: Volidrox budget increased by $40K after review.
+#0565  Finance Office: Volidrox budget decreased by $120K per the revised plan.
+#0566  Finance Office: Volidrox budget increased by $80K after review.
+#0567  Legal email: Volidrox budget is going up to $1720K.
+#0568  Marketing email: Pretty sure Volidrox's budget is $1550K now.
+#0569  Finance Office: Volidrox budget decreased by $213K per the revised plan.
+#0570  Finance Office: Volidrox budget increased by $10K after review.
+#0571  Legal email: Volidrox budget is going down by $479K.
+#0572  Legal email: Volidrox budget is going to $820K.
+#0573  Legal email: Volidrox budget is going down by $546K.
+#0574  Finance Office: Volidrox budget increased by $135K per the revised plan.
+#0575  Engineering email: Hearing Volidrox's budget goes down $466K.
+#0576  Sales update: Expect Volidrox's budget to drop by $112K.
+#0577  Facilities ticket: Volidrox test environment back online.
+#0578  Finance Office: Volidrox budget increased by $35K per the revised plan.
+#0579  Finance Office: Withdraw update #0518; it was entered in error.
+#0580  Finance Office: Volidrox budget increased by $357K after review.
+#0581  Finance Office: Volidrox invoice batch FC-4313 archived.
+#0582  Finance Office: Volidrox budget decreased by $30K.
+#0583  Finance Office: Volidrox budget increased by $75K.
+#0584  Facilities ticket: Volidrox budget is going up to $2610K.
+#0585  Marketing email: Volidrox budget is going down by $89K.
+#0586  Finance Office: Volidrox budget decreased by $15K per the revised plan.
+#0587  Operations chat: Volidrox budget is going down by $142K.
+#0588  Finance Office: Volidrox budget increased by $120K per the revised plan.
+#0589  Sales update: Volidrox budget is going down by $224K.
+#0590  Finance Office: Volidrox budget increased by $35K per the revised plan.
+#0591  Finance Office: Withdraw update #0081.
+#0592  Finance Office: Volidrox budget increased by $45K.
+#0593  Finance Office: Volidrox budget increased by $313K.
+#0594  Finance Office: Volidrox budget decreased by $95K per the revised plan.
+#0595  Finance Office: Withdraw update #0299; it was entered in error.
+#0596  PMO note: Volidrox demo rescheduled to Monday afternoon.
+#0597  Finance Office: Volidrox budget decreased by $329K.
+#0598  Facilities ticket: Volidrox budget is going down by $576K.
+#0599  Finance Office: Volidrox budget increased by $5K.
+#0600  Finance Office: Volidrox invoice batch FC-6780 archived.
+#0601  Vendor call: Volidrox status report filed for week 11.
+#0602  Sales update: Expect Volidrox's budget to rise by $554K.
+#0603  Finance Office: Volidrox budget decreased by $30K per the revised plan.
+#0604  Facilities ticket: Heard Volidrox's budget is now $3820K.
+#0605  Finance Office: Withdraw update #0237.
+#0606  Finance Office: Volidrox budget decreased by $5K per the revised plan.
+#0607  Finance Office: Withdraw update #0421; it was entered in error.
+#0608  Facilities ticket: Volidrox budget is going to $3420K.
+#0609  Finance Office: Volidrox budget decreased by $85K per the revised plan.
+#0610  Legal email: Sounds like Volidrox gets $72K more.
+#0611  Engineering email: Heard Volidrox's budget is now $3110K.
+#0612  Finance Office: Volidrox budget increased by $85K.
+#0613  Finance Office: Volidrox budget increased by $5K after review.
+#0614  Finance Office: Volidrox budget decreased by $298K.
+#0615  Engineering email: Volidrox weekly sync moved to Thursdays.
+#0616  Finance Office: Withdraw update #0409; it was entered in error.
+#0617  Finance Office: Withdraw update #0076.
+#0618  Finance Office: Volidrox budget increased by $95K.
+#0619  Finance Office: Volidrox budget increased by $30K.
+#0620  Operations chat: Volidrox budget should land at $1530K.
+#0621  Engineering email: Heard Volidrox's budget is now $2250K.
+#0622  Legal email: Expect Volidrox's budget to drop by $12K.
+#0623  Facilities ticket: Volidrox kickoff moved to Building 9.
+#0624  Finance Office: Volidrox budget decreased by $502K after review.
+#0625  Finance Office: Withdraw update #0291; it was entered in error.
+#0626  Finance Office: Withdraw update #0468; it was entered in error.
+#0627  Facilities ticket: Volidrox budget is going to $1920K.
+#0628  Finance Office: Volidrox budget decreased by $598K per the revised plan.
+#0629  PMO note: Sounds like Volidrox gets $194K more.
+#0630  Finance Office: Volidrox budget decreased by $70K after review.
+#0631  Finance Office: Volidrox budget decreased by $10K.
+#0632  Facilities ticket: Volidrox design review moved to Room 4A.
+#0633  Finance Office: Volidrox budget increased by $20K.
+#0634  Marketing email: Volidrox budget should land at $1150K.
+#0635  Finance Office: Withdraw update #0503.
+#0636  Engineering email: Volidrox budget is going to $770K.
+#0637  Finance Office: Withdraw update #0224; it was entered in error.
+#0638  Sales update: Volidrox budget is going down by $77K.
+#0639  Finance Office: Volidrox budget decreased by $55K after review.
+#0640  Finance Office: Withdraw update #0370.
+#0641  Finance Office: Volidrox audit notes filed.
+#0642  Finance Office: Volidrox budget increased by $527K.
+#0643  Finance Office: Volidrox budget decreased by $40K after review.
+#0644  Marketing email: Hearing Volidrox's budget goes up $229K.
+#0645  Finance Office: Withdraw update #0522; it was entered in error.
+#0646  Operations chat: Volidrox budget should land at $3130K.
+#0647  Finance Office: Volidrox budget decreased by $55K.
+#0648  Finance Office: Volidrox budget decreased by $75K.
+#0649  Facilities ticket: Expect Volidrox's budget to rise by $596K.
+#0650  Facilities ticket: Volidrox budget should land at $2770K.
+#0651  Finance Office: Volidrox budget decreased by $15K after review.
+#0652  Finance Office: Volidrox budget decreased by $10K.
+#0653  Finance Office: Withdraw update #0580.
+#0654  Finance Office: Volidrox budget increased by $437K after review.
+#0655  Finance Office: Volidrox budget increased by $25K after review.
+#0656  Finance Office: Volidrox budget increased by $10K per the revised plan.
+#0657  Facilities ticket: Heard Volidrox's budget is now $1910K.
+#0658  Operations chat: Hearing Volidrox's budget goes up $69K.
+#0659  Finance Office: Volidrox budget increased by $86K per the revised plan.
+#0660  Finance Office: Volidrox budget increased by $101K per the revised plan.
+#0661  Marketing email: Pretty sure Volidrox's budget is $2850K now.
+#0662  PMO note: Volidrox risk register updated with 4 new items.
+#0663  Finance Office: Volidrox budget increased by $45K.
+#0664  Finance Office: Volidrox budget increased by $120K.
+#0665  Operations chat: Volidrox test environment back online.
+#0666  Finance Office: Volidrox budget decreased by $50K.
+#0667  Finance Office: Volidrox budget increased by $95K.
+#0668  Finance Office: Volidrox budget increased by $217K after review.
+#0669  Operations chat: Volidrox demo rescheduled to Friday afternoon.
+#0670  Finance Office: Withdraw update #0230.
+#0671  Finance Office: Withdraw update #0215; it was entered in error.
+#0672  Finance Office: Volidrox budget decreased by $85K per the revised plan.
+#0673  Legal email: Volidrox budget should land at $2250K.
+#0674  Finance Office: Volidrox budget decreased by $95K.
+#0675  Finance Office: Volidrox budget increased by $140K.
+#0676  Finance Office: Volidrox budget decreased by $100K per the revised plan.
+#0677  Operations chat: Sounds like Volidrox gets $388K less.
+#0678  Finance Office: Volidrox budget decreased by $281K.
+#0679  Finance Office: Volidrox budget decreased by $50K after review.
+#0680  Finance Office: Volidrox budget decreased by $122K after review.
+#0681  Engineering email: Volidrox budget is going up by $79K.
+#0682  Facilities ticket: Sounds like Volidrox gets $6K more.
+#0683  Finance Office: Withdraw update #0659.
+#0684  Finance Office: Volidrox budget decreased by $45K.
+#0685  Finance Office: Withdraw update #0163; it was entered in error.
+#0686  Finance Office: Volidrox cost center code changed to FC-7029.
+#0687  Finance Office: Volidrox budget increased by $110K after review.
+#0688  Finance Office: Volidrox budget increased by $80K.
+#0689  Marketing email: Volidrox demo rescheduled to Thursday afternoon.
+#0690  Engineering email: Volidrox vendor onboarding call scheduled for Monday.
+#0691  Finance Office: Volidrox budget decreased by $55K after review.
+#0692  Finance Office: Volidrox budget increased by $65K per the revised plan.
+#0693  Finance Office: Volidrox budget decreased by $95K.
+#0694  Finance Office: Volidrox budget decreased by $30K per the revised plan.
+#0695  Marketing email: Pretty sure Volidrox's budget is $2660K now.
+#0696  Engineering email: Expect Volidrox's budget to rise by $529K.
+#0697  Finance Office: Volidrox budget increased by $145K.
+#0698  Finance Office: Volidrox budget increased by $55K per the revised plan.
+#0699  Finance Office: Volidrox budget increased by $27K per the revised plan.
+#0700  Finance Office: Volidrox budget increased by $100K after review.
+#0701  Finance Office: Volidrox budget increased by $263K per the revised plan.
+#0702  Sales update: Sounds like Volidrox gets $396K less.
+#0703  Finance Office: Volidrox budget increased by $158K per the revised plan.
+#0704  Finance Office: Volidrox invoice batch FC-2218 archived.
+#0705  Vendor call: Volidrox budget is going up by $469K.
+#0706  Finance Office: Volidrox budget increased by $40K.
+#0707  Finance Office: Withdraw update #0616.
+#0708  Finance Office: Withdraw update #0178; it was entered in error.
+#0709  Finance Office: Volidrox budget decreased by $436K after review.
+#0710  Finance Office: Volidrox finance review moved to Room 4C.
+#0711  Finance Office: Volidrox budget increased by $130K.
+#0712  PMO note: Volidrox vendor onboarding call scheduled for Friday.
+#0713  Engineering email: Volidrox security review passed.
+#0714  Finance Office: Volidrox budget decreased by $201K.
+#0715  Finance Office: Volidrox budget increased by $50K per the revised plan.
+#0716  Finance Office: Volidrox budget decreased by $70K.
+#0717  Legal email: Hearing Volidrox's budget goes up $513K.
+#0718  Finance Office: Withdraw update #0278.
+#0719  Finance Office: Withdraw update #0425.
+#0720  Finance Office: Withdraw update #0526; it was entered in error.
+#0721  Finance Office: Withdraw update #0628.
+#0722  Finance Office: Withdraw update #0703; it was entered in error.
+#0723  Finance Office: Withdraw update #0653.
+#0724  Finance Office: Withdraw update #0387; it was entered in error.
+#0725  Finance Office: Volidrox budget decreased by $463K.
+#0726  Finance Office: Volidrox budget decreased by $45K after review.
+#0727  Finance Office: Volidrox budget decreased by $100K per the revised plan.
+#0728  Engineering email: Pretty sure Volidrox's budget is $980K now.
+#0729  Marketing email: Volidrox budget is going down by $38K.
+#0730  Finance Office: Volidrox budget decreased by $35K.
+#0731  Vendor call: Volidrox budget is going to $1360K.
+#0732  Marketing email: Expect Volidrox's budget to drop by $71K.
+#0733  Finance Office: Volidrox budget increased by $28K per the revised plan.
+#0734  Finance Office: Withdraw update #0529; it was entered in error.
+#0735  Finance Office: Volidrox budget decreased by $85K.
+#0736  Vendor call: Volidrox budget is going down by $198K.
+#0737  Finance Office: Volidrox budget increased by $209K after review.
+#0738  Finance Office: Volidrox budget increased by $105K per the revised plan.
+#0739  Finance Office: Volidrox budget increased by $85K after review.
+#0740  Finance Office: Volidrox budget increased by $70K after review.
+#0741  Finance Office: Volidrox budget decreased by $50K after review.
+#0742  Finance Office: Volidrox budget increased by $85K.
+#0743  Legal email: Volidrox demo rescheduled to Wednesday afternoon.
+#0744  Finance Office: Withdraw update #0668.
+#0745  Facilities ticket: Volidrox demo rescheduled to Wednesday afternoon.
+#0746  Engineering email: Heard Volidrox's budget is now $2090K.
+#0747  Finance Office: Volidrox budget decreased by $35K per the revised plan.
+#0748  Sales update: Volidrox budget is going down by $271K.
+#0749  Finance Office: Volidrox budget increased by $207K.
+#0750  Engineering email: Sounds like Volidrox gets $306K less.
+#0751  Finance Office: Volidrox budget increased by $35K.
+#0752  Finance Office: Volidrox budget decreased by $17K.
+#0753  Finance Office: Withdraw update #0307; it was entered in error.
+#0754  Finance Office: Volidrox finance review moved to Room 3B.
+#0755  Finance Office: Volidrox budget increased by $55K per the revised plan.
+#0756  Operations chat: Volidrox budget is going up by $253K.
+#0757  Finance Office: Volidrox budget increased by $45K after review.
+#0758  Sales update: Hearing Volidrox's budget goes up $462K.
+#0759  Finance Office: Volidrox budget increased by $50K.
+#0760  Sales update: Expect Volidrox's budget to drop by $339K.
+#0761  Engineering email: Volidrox documentation moved to the shared drive.
+#0762  Legal email: Pretty sure Volidrox's budget is $2800K now.
+#0763  Operations chat: Volidrox budget is going down to $1980K.
+#0764  Legal email: Volidrox budget is going down by $322K.
+#0765  Facilities ticket: Volidrox budget is going down by $193K.
+#0766  Finance Office: Volidrox budget decreased by $45K.
+#0767  Finance Office: Volidrox budget increased by $20K per the revised plan.
+#0768  Finance Office: Withdraw update #0642.
+#0769  Marketing email: Hearing Volidrox's budget goes up $508K.
+#0770  Finance Office: Volidrox budget decreased by $30K.
+#0771  Finance Office: Volidrox budget decreased by $45K per the revised plan.
+#0772  Engineering email: Sounds like Volidrox gets $108K more.
+#0773  Finance Office: Volidrox budget increased by $95K after review.
+#0774  Engineering email: Heard Volidrox's budget is now $2420K.
+#0775  Engineering email: Volidrox budget is going to $2410K.
+#0776  Facilities ticket: Volidrox weekly sync moved to Wednesdays.
+#0777  Legal email: Volidrox budget is going up by $403K.
+#0778  PMO note: Volidrox budget is going down by $552K.
+#0779  Finance Office: Withdraw update #0340; it was entered in error.
+#0780  Finance Office: Withdraw update #0737; it was entered in error.
+#0781  Finance Office: Volidrox budget decreased by $125K after review.
+#0782  Marketing email: Volidrox budget is going down by $566K.
+#0783  Sales update: Pretty sure Volidrox's budget is $2190K now.
+#0784  Engineering email: Hearing Volidrox's budget goes down $99K.
+#0785  Finance Office: Withdraw update #0444.
+#0786  Finance Office: Volidrox budget increased by $133K after review.
+#0787  Finance Office: Volidrox cost center code changed to FC-5174.
+#0788  Sales update: Volidrox budget should land at $2600K.
+#0789  Finance Office: Volidrox budget increased by $125K per the revised plan.
+#0790  Finance Office: Volidrox budget increased by $125K after review.
+#0791  Finance Office: Volidrox budget decreased by $50K after review.
+#0792  Finance Office: Volidrox budget increased by $70K after review.
+#0793  Finance Office: Volidrox budget decreased by $75K per the revised plan.
+#0794  PMO note: Heard Volidrox's budget is now $1770K.
+#0795  Finance Office: Volidrox budget increased by $65K.
+#0796  Sales update: Expect Volidrox's budget to drop by $419K.
+#0797  Finance Office: Volidrox finance review moved to Room 1B.
+#0798  Sales update: Volidrox test environment back online.
+#0799  Finance Office: Withdraw update #0678.
+#0800  Finance Office: Volidrox budget increased by $135K.
+#0801  Finance Office: Withdraw update #0597.
+#0802  Finance Office: Withdraw update #0708; it was entered in error.
+#0803  Finance Office: Volidrox budget decreased by $40K per the revised plan.
+#0804  Finance Office: Volidrox budget increased by $150K after review.
+#0805  Finance Office: Volidrox budget increased by $45K.
+#0806  PMO note: Heard Volidrox's budget is now $3920K.
+#0807  Finance Office: Withdraw update #0799.
+#0808  Legal email: Volidrox budget is going down by $59K.
+#0809  PMO note: Sounds like Volidrox gets $14K more.
+#0810  Finance Office: Volidrox budget decreased by $75K after review.
+#0811  Finance Office: Withdraw update #0544.
+#0812  Finance Office: Withdraw update #0064.
+#0813  Finance Office: Volidrox budget increased by $373K per the revised plan.
+#0814  Finance Office: Volidrox budget increased by $84K after review.
+#0815  Facilities ticket: Volidrox weekly sync moved to Fridays.
+#0816  Finance Office: Volidrox budget increased by $25K after review.
+#0817  Engineering email: Volidrox budget is going up by $563K.
+#0818  Sales update: Volidrox budget is going down to $3460K.
+#0819  Finance Office: Volidrox budget decreased by $115K per the revised plan.
+#0820  Finance Office: Withdraw update #0513; it was entered in error.
+#0821  Operations chat: Pretty sure Volidrox's budget is $2810K now.
+#0822  Facilities ticket: Volidrox budget should land at $2930K.
+#0823  Finance Office: Withdraw update #0811.
+#0824  Vendor call: Hearing Volidrox's budget goes up $212K.
+#0825  Finance Office: Withdraw update #0055.
+#0826  Finance Office: Volidrox budget decreased by $140K per the revised plan.
+#0827  Finance Office: Withdraw update #0753; it was entered in error.
+#0828  Marketing email: Volidrox budget is going to $3300K.
+#0829  Finance Office: Volidrox budget decreased by $568K.
+#0830  Finance Office: Volidrox budget decreased by $15K per the revised plan.
+#0831  Finance Office: Volidrox budget increased by $75K after review.
+#0832  Finance Office: Volidrox budget decreased by $5K after review.
+#0833  Finance Office: Volidrox budget decreased by $50K after review.
+#0834  Finance Office: Volidrox budget increased by $20K.
+#0835  Finance Office: Withdraw update #0714.
+#0836  Finance Office: Volidrox budget decreased by $145K after review.
+#0837  Operations chat: Volidrox budget is going up to $3280K.
+#0838  Finance Office: Withdraw update #0515.
+#0839  Finance Office: Volidrox budget increased by $45K.
+#0840  Vendor call: Volidrox status report filed for week 12.
+#0841  Marketing email: Sounds like Volidrox gets $501K more.
+#0842  Finance Office: Withdraw update #0136.
+#0843  Marketing email: Expect Volidrox's budget to rise by $409K.
+#0844  Finance Office: Volidrox budget decreased by $80K.
+#0845  Legal email: Volidrox status report filed for week 3.
+#0846  Finance Office: Volidrox budget increased by $80K.
+#0847  Operations chat: Volidrox vendor onboarding call scheduled for Tuesday.
+#0848  PMO note: Hearing Volidrox's budget goes down $381K.
+#0849  Marketing email: Volidrox budget is going down by $418K.
+#0850  Finance Office: Volidrox budget decreased by $95K after review.
+#0851  Finance Office: Volidrox receipts scanned.
+#0852  Facilities ticket: Expect Volidrox's budget to rise by $152K.
+#0853  Sales update: Pretty sure Volidrox's budget is $2920K now.
+#0854  PMO note: Sounds like Volidrox gets $202K more.
+#0855  Facilities ticket: Heard Volidrox's budget is now $3570K.
+#0856  Facilities ticket: Expect Volidrox's budget to drop by $243K.
+#0857  Finance Office: Withdraw update #0477.
+#0858  Engineering email: Expect Volidrox's budget to drop by $459K.
+#0859  Finance Office: Volidrox budget decreased by $125K per the revised plan.
+#0860  Finance Office: Volidrox budget increased by $90K after review.
+#0861  Finance Office: Volidrox budget increased by $25K per the revised plan.
+#0862  Finance Office: Volidrox budget decreased by $90K.
+#0863  Finance Office: Volidrox budget increased by $95K.
+#0864  Finance Office: Volidrox purchase order FC-5748 closed.
+#0865  Finance Office: Volidrox budget decreased by $80K.
+#0866  Engineering email: Volidrox budget is going up by $551K.
+#0867  Legal email: Volidrox budget is going to $3660K.
+#0868  Sales update: Volidrox budget should land at $3830K.
+#0869  Vendor call: Sounds like Volidrox gets $341K more.
+#0870  Marketing email: Volidrox test environment back online.
+#0871  Facilities ticket: Volidrox vendor onboarding call scheduled for Tuesday.
+#0872  Finance Office: Volidrox budget decreased by $60K.
+#0873  Sales update: Volidrox budget should land at $2260K.
+#0874  PMO note: Volidrox vendor onboarding call scheduled for Monday.
+#0875  Engineering email: Sounds like Volidrox gets $7K more.
+#0876  Finance Office: Volidrox budget decreased by $49K per the revised plan.
+#0877  Finance Office: Volidrox budget decreased by $145K.
+#0878  Engineering email: Expect Volidrox's budget to drop by $87K.
+#0879  Finance Office: Volidrox budget increased by $10K.
+#0880  Finance Office: Volidrox budget increased by $45K after review.
+#0881  Engineering email: Heard Volidrox's budget is now $3590K.
+#0882  Operations chat: Volidrox budget is going down by $136K.
+#0883  Operations chat: Expect Volidrox's budget to drop by $454K.
+#0884  Finance Office: Volidrox budget increased by $80K per the revised plan.
+#0885  Finance Office: Volidrox budget increased by $120K.
+#0886  Finance Office: Volidrox budget decreased by $45K after review.
+#0887  Vendor call: Volidrox test environment back online.
+#0888  Finance Office: Volidrox budget increased by $65K.
+#0889  Finance Office: Volidrox budget increased by $70K per the revised plan.
+#0890  Finance Office: Volidrox budget decreased by $60K after review.
+#0891  Engineering email: Expect Volidrox's budget to drop by $92K.
+#0892  PMO note: Expect Volidrox's budget to rise by $93K.
+#0893  Legal email: Expect Volidrox's budget to rise by $168K.
+#0894  Finance Office: Withdraw update #0701; it was entered in error.
+#0895  Finance Office: Volidrox invoice batch FC-2023 archived.
+#0896  PMO note: Heard Volidrox's budget is now $3550K.
+#0897  Finance Office: Volidrox budget decreased by $100K.
+#0898  Finance Office: Volidrox budget increased by $30K per the revised plan.
+#0899  Finance Office: Volidrox budget decreased by $140K after review.
+#0900  Finance Office: Volidrox finance review moved to Room 2D.
+#0901  Finance Office: Volidrox budget decreased by $40K per the revised plan.
+#0902  Finance Office: Volidrox budget increased by $394K per the revised plan.
+#0903  Finance Office: Volidrox budget increased by $597K after review.
+#0904  Finance Office: Volidrox budget increased by $20K.
+#0905  Finance Office: Volidrox budget increased by $75K after review.
+#0906  Finance Office: Volidrox budget increased by $439K.
+#0907  Sales update: Volidrox design review moved to Room 4A.
+#0908  Facilities ticket: Volidrox kickoff moved to Building 6.
+#0909  Finance Office: Withdraw update #0374.
+#0910  Finance Office: Withdraw update #0553.
+#0911  Finance Office: Volidrox budget increased by $70K.
+#0912  Finance Office: Volidrox budget decreased by $20K per the revised plan.
+#0913  Vendor call: Hearing Volidrox's budget goes up $64K.
+#0914  Facilities ticket: Volidrox budget is going down to $3240K.
+#0915  Sales update: Heard Volidrox's budget is now $3910K.
+#0916  PMO note: Pretty sure Volidrox's budget is $4800K now.
+#0917  Finance Office: Volidrox receipts scanned.
+#0918  Finance Office: Volidrox budget decreased by $95K.
+#0919  Finance Office: Withdraw update #0489; it was entered in error.
+#0920  Sales update: Hearing Volidrox's budget goes down $586K.
+#0921  Vendor call: Volidrox kickoff moved to Building 9.
+#0922  Finance Office: Volidrox budget increased by $30K per the revised plan.
+#0923  Vendor call: Volidrox budget is going to $3980K.
+#0924  Legal email: Volidrox budget is going to $3910K.
+#0925  Finance Office: Volidrox budget decreased by $50K.
+#0926  Legal email: Volidrox budget should land at $3190K.
+#0927  Finance Office: Volidrox budget decreased by $276K.
+#0928  Finance Office: Withdraw update #0829; it was entered in error.
+#0929  Finance Office: Withdraw update #0624.
+#0930  Finance Office: Volidrox budget increased by $5K.
+#0931  Finance Office: Volidrox budget decreased by $70K after review.
+#0932  Finance Office: Withdraw update #0876.
+#0933  Finance Office: Volidrox budget decreased by $35K after review.
+#0934  Finance Office: Volidrox budget increased by $135K.
+#0935  Finance Office: Volidrox budget decreased by $25K per the revised plan.
+#0936  Marketing email: Volidrox budget should land at $4800K.
+#0937  Finance Office: Withdraw update #0699; it was entered in error.
+#0938  Finance Office: Withdraw update #0801; it was entered in error.
+#0939  Engineering email: Volidrox weekly sync moved to Wednesdays.
+#0940  Finance Office: Withdraw update #0812; it was entered in error.
+#0941  Marketing email: Volidrox budget should land at $4800K.
+#0942  Finance Office: Withdraw update #0463.
+#0943  Finance Office: Volidrox budget decreased by $95K.
+#0944  Finance Office: Volidrox finance review moved to Room 2C.
+#0945  Finance Office: Withdraw update #0388.
+#0946  Engineering email: Volidrox budget should land at $4030K.
+#0947  Finance Office: Volidrox budget decreased by $70K after review.
+#0948  Finance Office: Volidrox budget increased by $30K after review.
+#0949  Finance Office: Volidrox budget increased by $487K after review.
+#0950  Finance Office: Withdraw update #0614; it was entered in error.
+#0951  Operations chat: Pretty sure Volidrox's budget is $4800K now.
+#0952  Finance Office: Volidrox budget increased by $95K.
+#0953  Finance Office: Withdraw update #0660; it was entered in error.
+#0954  Finance Office: Volidrox budget increased by $80K.
+#0955  Engineering email: Sounds like Volidrox gets $374K more.
+#0956  Finance Office: Volidrox budget increased by $65K.
+#0957  Finance Office: Volidrox budget increased by $110K per the revised plan.
+#0958  PMO note: Pretty sure Volidrox's budget is $4800K now.
+#0959  Finance Office: Withdraw update #0456; it was entered in error.
+#0960  Finance Office: Volidrox budget decreased by $40K per the revised plan.
+#0961  Finance Office: Withdraw update #0625.
+#0962  Sales update: Hearing Volidrox's budget goes down $127K.
+#0963  Finance Office: Withdraw update #0823.
+#0964  Legal email: Volidrox budget is going down by $557K.
+#0965  Finance Office: Withdraw update #0294.
+#0966  Vendor call: Expect Volidrox's budget to drop by $493K.
+#0967  Finance Office: Volidrox budget decreased by $55K.
+#0968  Finance Office: Volidrox budget decreased by $120K.
+#0969  Facilities ticket: Volidrox budget is going down to $3610K.
+#0970  Finance Office: Volidrox budget decreased by $15K.
+#0971  Finance Office: Volidrox budget increased by $95K per the revised plan.
+#0972  Engineering email: Volidrox budget should land at $4790K.
+#0973  Finance Office: Volidrox budget decreased by $85K per the revised plan.
+#0974  Finance Office: Volidrox budget increased by $15K.
+#0975  Finance Office: Volidrox budget decreased by $75K.
+#0976  Engineering email: Volidrox weekly sync moved to Mondays.
+#0977  Vendor call: Hearing Volidrox's budget goes up $421K.
+#0978  Finance Office: Withdraw update #0813.
+#0979  Finance Office: Volidrox budget increased by $135K.
+#0980  Finance Office: Volidrox budget decreased by $135K.
+#0981  Finance Office: Withdraw update #0117; it was entered in error.
+#0982  Finance Office: Volidrox budget decreased by $472K per the revised plan.
+#0983  Engineering email: Hearing Volidrox's budget goes up $571K.
+#0984  Finance Office: Withdraw update #0981.
+#0985  Finance Office: Withdraw update #0405.
+#0986  Finance Office: Withdraw update #0356.
+#0987  Operations chat: Volidrox budget is going down by $532K.
+#0988  Finance Office: Volidrox budget increased by $55K.
+#0989  Finance Office: Withdraw update #0361.
+#0990  Finance Office: Volidrox budget increased by $416K per the revised plan.
+#0991  Marketing email: Heard Volidrox's budget is now $2500K.
+#0992  Finance Office: Volidrox purchase order FC-2171 closed.
+#0993  Marketing email: Hearing Volidrox's budget goes up $57K.
+#0994  Finance Office: Withdraw update #0407; it was entered in error.
+#0995  Facilities ticket: Volidrox budget is going down by $267K.
+#0996  Finance Office: Volidrox budget decreased by $20K.
+#0997  Operations chat: Volidrox budget should land at $3550K.
+#0998  Finance Office: Volidrox budget decreased by $125K.
+#0999  Finance Office: Volidrox budget decreased by $130K per the revised plan.
+#1000  Facilities ticket: Volidrox vendor onboarding call scheduled for Wednesday.
+#1001  PMO note: Volidrox budget is going up to $2460K.
+#1002  Finance Office: Volidrox budget increased by $35K.
+#1003  Legal email: Volidrox budget is going to $3090K.
+#1004  Finance Office: Withdraw update #0177.
+#1005  Finance Office: Volidrox budget decreased by $120K.
+#1006  Marketing email: Volidrox budget should land at $2450K.
+#1007  Engineering email: Volidrox budget is going to $3670K.
+#1008  Marketing email: Volidrox budget is going to $3380K.
+#1009  Facilities ticket: Expect Volidrox's budget to drop by $98K.
+#1010  Finance Office: Volidrox budget decreased by $140K after review.
+#1011  Finance Office: Volidrox budget increased by $90K after review.
+#1012  Facilities ticket: Volidrox budget should land at $2480K.
+#1013  Finance Office: Volidrox budget increased by $60K after review.
+#1014  Finance Office: Withdraw update #0654.
+#1015  Finance Office: Volidrox budget decreased by $60K per the revised plan.
+#1016  Finance Office: Withdraw update #1014.
+#1017  Finance Office: Volidrox budget increased by $140K per the revised plan.
+#1018  Finance Office: Volidrox budget increased by $100K per the revised plan.
+#1019  Sales update: Volidrox status report filed for week 15.
+#1020  Finance Office: Withdraw update #0348.
+#1021  Legal email: Pretty sure Volidrox's budget is $1990K now.
+#1022  Finance Office: Withdraw update #0303.
+#1023  Finance Office: Volidrox budget decreased by $95K after review.
+#1024  Finance Office: Volidrox budget decreased by $10K.
+#1025  Finance Office: Volidrox budget increased by $378K.
+#1026  Finance Office: Withdraw update #0718; it was entered in error.
+#1027  Legal email: Heard Volidrox's budget is now $3200K.
+#1028  Sales update: Volidrox budget should land at $3440K.
+#1029  Finance Office: Volidrox budget decreased by $55K after review.
+#1030  Operations chat: Heard Volidrox's budget is now $2730K.
+#1031  Finance Office: Volidrox budget decreased by $55K.
+#1032  PMO note: Volidrox budget should land at $2110K.
+#1033  Finance Office: Volidrox budget decreased by $110K.
+#1034  Finance Office: Volidrox budget increased by $80K.
+#1035  Vendor call: Volidrox budget is going up to $3390K.
+#1036  Operations chat: Pretty sure Volidrox's budget is $2730K now.
+#1037  Finance Office: Withdraw update #0965; it was entered in error.
+#1038  Marketing email: Heard Volidrox's budget is now $3380K.
+#1039  Sales update: Hearing Volidrox's budget goes down $542K.
+#1040  Operations chat: Volidrox budget is going up by $366K.
+#1041  Engineering email: Heard Volidrox's budget is now $2090K.
+#1042  Finance Office: Volidrox budget increased by $55K per the revised plan.
+#1043  Engineering email: Volidrox kickoff moved to Building 7.
+#1044  Finance Office: Withdraw update #0820.
+#1045  Legal email: Hearing Volidrox's budget goes up $336K.
+#1046  Finance Office: Volidrox budget decreased by $25K.
+#1047  Finance Office: Volidrox budget increased by $65K.
+#1048  Operations chat: Expect Volidrox's budget to rise by $134K.
+#1049  Finance Office: Volidrox budget increased by $372K per the revised plan.
+#1050  Finance Office: Volidrox budget decreased by $35K.
+#1051  Marketing email: Volidrox demo rescheduled to Monday afternoon.
+#1052  Finance Office: Volidrox budget increased by $35K after review.
+#1053  Legal email: Sounds like Volidrox gets $358K less.
+#1054  Finance Office: Withdraw update #0949; it was entered in error.
+#1055  Finance Office: Volidrox audit notes filed.
+#1056  Engineering email: Volidrox budget is going down by $417K.
+#1057  Finance Office: Volidrox budget decreased by $50K.
+#1058  Finance Office: Volidrox budget decreased by $50K after review.
+#1059  Finance Office: Withdraw update #0537.
+#1060  Operations chat: Hearing Volidrox's budget goes down $351K.
+#1061  Engineering email: Hearing Volidrox's budget goes down $106K.
+#1062  Engineering email: Volidrox budget is going to $3360K.
+#1063  Facilities ticket: Volidrox risk register updated with 5 new items.
+#1064  Vendor call: Pretty sure Volidrox's budget is $3810K now.
+#1065  Marketing email: Volidrox test environment back online.
+#1066  Finance Office: Volidrox budget decreased by $140K after review.
+#1067  Finance Office: Volidrox budget decreased by $70K.
+#1068  Finance Office: Volidrox budget increased by $125K after review.
+#1069  Finance Office: Volidrox finance review moved to Room 1D.
+#1070  Finance Office: Volidrox budget increased by $25K per the revised plan.
+#1071  Finance Office: Volidrox budget increased by $301K after review.
+#1072  Finance Office: Volidrox budget increased by $70K per the revised plan.
+#1073  Finance Office: Volidrox budget decreased by $115K per the revised plan.
+#1074  Legal email: Volidrox budget is going to $3140K.
+#1075  Finance Office: Volidrox finance review moved to Room 5D.
+#1076  Finance Office: Volidrox budget decreased by $110K after review.
+#1077  Vendor call: Volidrox budget is going up by $367K.
+#1078  Finance Office: Withdraw update #0671.
+#1079  Finance Office: Volidrox budget decreased by $90K.
+#1080  Legal email: Pretty sure Volidrox's budget is $3980K now.
+#1081  Finance Office: Volidrox budget increased by $80K.
+#1082  Finance Office: Volidrox budget increased by $80K per the revised plan.
+#1083  Finance Office: Volidrox budget increased by $5K.
+#1084  Finance Office: Withdraw update #0272.
+#1085  Engineering email: Volidrox budget is going down to $3180K.
+#1086  Finance Office: Withdraw update #1025; it was entered in error.
+#1087  Finance Office: Volidrox budget decreased by $60K per the revised plan.
+#1088  Legal email: Expect Volidrox's budget to rise by $503K.
+#1089  Finance Office: Withdraw update #0709.
+#1090  Finance Office: Volidrox budget decreased by $188K per the revised plan.
+#1091  Engineering email: Volidrox budget is going up to $4210K.
+#1092  Vendor call: Heard Volidrox's budget is now $3150K.
+#1093  Finance Office: Volidrox budget increased by $150K.
+#1094  Finance Office: Volidrox budget increased by $231K after review.
+#1095  Finance Office: Volidrox budget decreased by $40K.
+#1096  PMO note: Volidrox budget is going to $4660K.
+#1097  Legal email: Sounds like Volidrox gets $58K more.
+#1098  Vendor call: Volidrox budget is going up to $4020K.
+#1099  Vendor call: Sounds like Volidrox gets $199K more.
+#1100  Vendor call: Sounds like Volidrox gets $11K less.
+#1101  Facilities ticket: Sounds like Volidrox gets $257K less.
+#1102  Finance Office: Volidrox budget decreased by $35K.
+#1103  Operations chat: Volidrox budget is going down to $3130K.
+#1104  Legal email: Volidrox budget should land at $4800K.
+#1105  Marketing email: Volidrox design review moved to Room 6A.
+#1106  Finance Office: Volidrox budget increased by $70K per the revised plan.
+#1107  Operations chat: Volidrox kickoff moved to Building 8.
+#1108  Finance Office: Volidrox budget decreased by $10K per the revised plan.
+#1109  Finance Office: Volidrox budget increased by $30K per the revised plan.
+#1110  Finance Office: Withdraw update #0593; it was entered in error.
+#1111  Finance Office: Withdraw update #0959.
+#1112  Finance Office: Volidrox budget decreased by $100K after review.
+#1113  PMO note: Volidrox risk register updated with 2 new items.
+#1114  Legal email: Volidrox budget is going down by $582K.
+#1115  Engineering email: Pretty sure Volidrox's budget is $3120K now.
+#1116  Finance Office: Volidrox budget decreased by $140K.
+#1117  Finance Office: Volidrox budget increased by $15K.
+#1118  Finance Office: Volidrox quarterly audit scheduled for Tuesday.
+#1119  Marketing email: Volidrox budget is going up by $441K.
+#1120  Operations chat: Volidrox sprint 23 retrospective notes posted.
+#1121  Finance Office: Withdraw update #0902; it was entered in error.
+#1122  Finance Office: Volidrox budget decreased by $15K after review.
+#1123  Sales update: Volidrox sprint 5 retrospective notes posted.
+#1124  Facilities ticket: Volidrox budget is going to $3150K.
+#1125  Finance Office: Withdraw update #0521.
+#1126  Finance Office: Volidrox budget decreased by $35K.
+#1127  Finance Office: Volidrox budget increased by $5K per the revised plan.
+#1128  Finance Office: Volidrox budget decreased by $50K after review.
+#1129  Finance Office: Volidrox finance review moved to Room 4A.
+#1130  Finance Office: Withdraw update #0906; it was entered in error.
+#1131  PMO note: Hearing Volidrox's budget goes up $383K.
+#1132  Finance Office: Withdraw update #0235; it was entered in error.
+#1133  Finance Office: Withdraw update #0541; it was entered in error.
+#1134  Finance Office: Volidrox budget decreased by $15K after review.
+#1135  Finance Office: Withdraw update #0683.
+#1136  Finance Office: Withdraw update #0236; it was entered in error.
+#1137  Finance Office: Volidrox budget increased by $80K after review.
+#1138  Finance Office: Volidrox budget decreased by $40K.
+#1139  Sales update: Expect Volidrox's budget to rise by $398K.
+#1140  Finance Office: Volidrox budget decreased by $183K per the revised plan.
+#1141  Finance Office: Volidrox budget decreased by $5K after review.
+#1142  Finance Office: Volidrox budget decreased by $150K after review.
+#1143  PMO note: Volidrox budget should land at $1450K.
+#1144  Operations chat: Sounds like Volidrox gets $321K more.
+#1145  Finance Office: Volidrox budget increased by $20K after review.
+#1146  Facilities ticket: Hearing Volidrox's budget goes down $43K.
+#1147  Finance Office: Volidrox budget decreased by $120K per the revised plan.
+#1148  Finance Office: Volidrox budget increased by $150K.
+#1149  Finance Office: Volidrox budget decreased by $45K.
+#1150  Operations chat: Volidrox budget is going to $1840K.
+#1151  Sales update: Heard Volidrox's budget is now $2110K.
+#1152  Marketing email: Volidrox budget is going up to $2120K.
+#1153  Facilities ticket: Heard Volidrox's budget is now $2440K.
+#1154  Finance Office: Volidrox budget increased by $60K.
+#1155  Finance Office: Volidrox budget increased by $25K per the revised plan.
+#1156  Operations chat: Hearing Volidrox's budget goes up $507K.
+#1157  Finance Office: Volidrox budget increased by $10K after review.
+#1158  Vendor call: Expect Volidrox's budget to drop by $237K.
+#1159  Engineering email: Volidrox budget is going down to $1730K.
+#1160  Sales update: Volidrox budget should land at $1580K.
+#1161  Finance Office: Withdraw update #0927; it was entered in error.
+#1162  Finance Office: Withdraw update #0990; it was entered in error.
+#1163  Legal email: Sounds like Volidrox gets $46K more.
+#1164  Finance Office: Withdraw update #1090.
+#1165  Engineering email: Volidrox budget is going to $2800K.
+#1166  Vendor call: Sounds like Volidrox gets $94K less.
+#1167  Finance Office: Volidrox budget increased by $75K after review.
+#1168  PMO note: Volidrox budget should land at $1600K.
+#1169  Finance Office: Volidrox budget increased by $85K after review.
+#1170  Finance Office: Volidrox budget decreased by $75K per the revised plan.
+#1171  Finance Office: Volidrox budget decreased by $150K.
+#1172  Finance Office: Volidrox budget increased by $90K.
+#1173  Finance Office: Withdraw update #0484.
+#1174  Finance Office: Volidrox budget increased by $115K after review.
+#1175  Finance Office: Withdraw update #0304.
+#1176  Finance Office: Reminder: Volidrox expense reports are due Thursday.
+#1177  Finance Office: Reminder: Volidrox expense reports are due Friday.
+#1178  Engineering email: Volidrox budget is going down by $226K.
+#1179  Finance Office: Reminder: Volidrox expense reports are due Friday.
+#1180  Finance Office: Withdraw update #0945; it was entered in error.
+#1181  Engineering email: Volidrox budget is going down by $456K.
+#1182  Facilities ticket: Heard Volidrox's budget is now $2000K.
+#1183  Finance Office: Volidrox budget increased by $75K per the revised plan.
+#1184  Finance Office: Withdraw update #0368; it was entered in error.
+#1185  Finance Office: Volidrox budget decreased by $95K after review.
+#1186  Engineering email: Hearing Volidrox's budget goes down $384K.
+#1187  Sales update: Volidrox design review moved to Room 3B.
+#1188  Sales update: Volidrox budget should land at $2390K.
+#1189  Finance Office: Volidrox audit notes filed.
+#1190  Finance Office: Volidrox budget increased by $75K after review.
+#1191  Finance Office: Volidrox budget increased by $30K after review.
+#1192  Finance Office: Volidrox budget increased by $25K.
+#1193  Finance Office: Volidrox budget increased by $90K after review.
+#1194  Finance Office: Volidrox budget increased by $5K per the revised plan.
+#1195  Finance Office: Volidrox budget decreased by $75K per the revised plan.
+#1196  Finance Office: Volidrox budget decreased by $45K.
+#1197  Finance Office: Volidrox budget increased by $5K per the revised plan.
+#1198  Facilities ticket: Volidrox demo rescheduled to Monday afternoon.
+#1199  Finance Office: Volidrox budget increased by $15K per the revised plan.
+#1200  PMO note: Volidrox budget is going up by $131K.
+#1201  Finance Office: Volidrox budget increased by $105K after review.
+#1202  Vendor call: Volidrox budget is going down to $2090K.
+#1203  Finance Office: Volidrox budget increased by $40K per the revised plan.
+#1204  Engineering email: Volidrox budget is going up to $3490K.
+#1205  PMO note: Hearing Volidrox's budget goes down $558K.
+#1206  Finance Office: Volidrox budget increased by $100K per the revised plan.
+#1207  Legal email: Expect Volidrox's budget to drop by $452K.
+#1208  Finance Office: Volidrox budget decreased by $65K per the revised plan.
+#1209  Finance Office: Volidrox budget increased by $5K per the revised plan.
+#1210  Sales update: Sounds like Volidrox gets $114K more.
+#1211  Finance Office: Volidrox budget increased by $95K per the revised plan.
+#1212  Legal email: Volidrox budget is going up by $246K.
+#1213  Finance Office: Volidrox budget increased by $15K per the revised plan.
+#1214  Legal email: Volidrox budget is going down by $506K.
+#1215  Finance Office: Volidrox budget increased by $135K.
+#1216  Finance Office: Volidrox budget decreased by $70K after review.
+#1217  Finance Office: Volidrox budget increased by $100K.
+#1218  Sales update: Volidrox budget is going down by $121K.
+#1219  Finance Office: Volidrox budget increased by $377K per the revised plan.
+#1220  Finance Office: Withdraw update #0569; it was entered in error.
+#1221  Finance Office: Volidrox budget increased by $130K per the revised plan.
+#1222  Finance Office: Withdraw update #0293.
+#1223  Operations chat: Volidrox budget is going to $3160K.
+#1224  Finance Office: Volidrox budget decreased by $150K per the revised plan.
+#1225  Finance Office: Withdraw update #1219; it was entered in error.
+#1226  Finance Office: Volidrox budget decreased by $299K after review.
+#1227  Finance Office: Withdraw update #0786; it was entered in error.
+#1228  Legal email: Heard Volidrox's budget is now $2670K.
+#1229  Sales update: Volidrox sprint 4 retrospective notes posted.
+#1230  Finance Office: Volidrox budget increased by $115K per the revised plan.
+#1231  Finance Office: Withdraw update #1078.
+#1232  Finance Office: Volidrox budget increased by $75K.
+#1233  Finance Office: Volidrox budget increased by $130K.
+#1234  Finance Office: Volidrox budget decreased by $60K per the revised plan.
+#1235  Marketing email: Sounds like Volidrox gets $128K less.
+#1236  Sales update: Sounds like Volidrox gets $354K more.
+#1237  Vendor call: Volidrox budget is going to $1900K.
+#1238  Finance Office: Volidrox budget increased by $35K after review.
+#1239  Finance Office: Volidrox budget decreased by $125K after review.
+#1240  Vendor call: Volidrox budget is going to $2200K.
+#1241  Sales update: Expect Volidrox's budget to drop by $109K.
+#1242  Vendor call: Volidrox documentation moved to the shared drive.
+#1243  Finance Office: Volidrox budget decreased by $5K after review.
+#1244  Facilities ticket: Heard Volidrox's budget is now $1830K.
+#1245  Sales update: Volidrox budget is going to $1930K.
+#1246  Finance Office: Volidrox budget decreased by $40K.
+#1247  Finance Office: Volidrox budget decreased by $105K after review.
+#1248  Finance Office: Volidrox budget increased by $150K.
+#1249  Marketing email: Heard Volidrox's budget is now $2070K.
+#1250  Finance Office: Volidrox budget increased by $95K after review.
+#1251  Finance Office: Volidrox budget decreased by $40K after review.
+#1252  Finance Office: Withdraw update #1094; it was entered in error.
+#1253  Finance Office: Volidrox budget decreased by $135K per the revised plan.
+#1254  Finance Office: Withdraw update #0720.
+#1255  Finance Office: Volidrox budget increased by $145K.
+#1256  Finance Office: Volidrox invoice batch FC-7370 archived.
+#1257  Finance Office: Volidrox budget decreased by $85K per the revised plan.
+#1258  Marketing email: Volidrox budget is going up to $2700K.
+#1259  Finance Office: Withdraw update #0749.
+#1260  Marketing email: Volidrox budget is going to $2240K.
+#1261  Engineering email: Volidrox risk register updated with 8 new items.
+#1262  Finance Office: Withdraw update #1111.
+#1263  Vendor call: Volidrox budget should land at $2040K.
+#1264  Finance Office: Volidrox budget increased by $90K per the revised plan.
+#1265  Finance Office: Withdraw update #0493.
+#1266  Sales update: Pretty sure Volidrox's budget is $2600K now.
+#1267  Finance Office: Volidrox budget increased by $70K per the revised plan.
+#1268  Sales update: Volidrox budget is going down to $2030K.
+#1269  Finance Office: Volidrox budget increased by $135K per the revised plan.
+#1270  Finance Office: Volidrox budget decreased by $25K.
+#1271  Finance Office: Volidrox budget increased by $140K.
+#1272  Finance Office: Volidrox budget decreased by $249K per the revised plan.
+#1273  Finance Office: Withdraw update #0928.
+#1274  Finance Office: Volidrox finance review moved to Room 5C.
+#1275  Sales update: Pretty sure Volidrox's budget is $2090K now.
+#1276  Finance Office: Volidrox budget decreased by $15K after review.
+#1277  Finance Office: Withdraw update #0814.
+#1278  Sales update: Volidrox sprint 21 retrospective notes posted.
+#1279  Finance Office: Volidrox budget decreased by $150K per the revised plan.
+#1280  Finance Office: Withdraw update #0919.
+#1281  Sales update: Volidrox test environment back online.
+#1282  Marketing email: Volidrox design review moved to Room 6D.
+#1283  Facilities ticket: Pretty sure Volidrox's budget is $1460K now.
+#1284  Finance Office: Withdraw update #0707; it was entered in error.
+#1285  Finance Office: Volidrox budget decreased by $75K.
+#1286  Operations chat: Pretty sure Volidrox's budget is $1090K now.
+#1287  Finance Office: Volidrox budget increased by $130K after review.
+#1288  Marketing email: Volidrox budget is going down to $1270K.
+#1289  Finance Office: Volidrox budget increased by $45K per the revised plan.
+#1290  Facilities ticket: Heard Volidrox's budget is now $1900K.
+#1291  Finance Office: Withdraw update #0680; it was entered in error.
+#1292  Finance Office: Volidrox budget decreased by $45K after review.
+#1293  Finance Office: Volidrox budget increased by $120K after review.
+#1294  Facilities ticket: Hearing Volidrox's budget goes up $111K.
+#1295  Marketing email: Volidrox test environment back online.
+#1296  Sales update: Volidrox budget is going up by $33K.
+#1297  Facilities ticket: Expect Volidrox's budget to rise by $348K.
+#1298  Finance Office: Volidrox budget decreased by $80K.
+#1299  Finance Office: Volidrox budget decreased by $105K.
+#1300  PMO note: Volidrox budget is going down by $599K.
+#1301  Finance Office: Volidrox budget increased by $85K per the revised plan.
+#1302  Finance Office: Volidrox finance review moved to Room 2B.
+#1303  Vendor call: Sounds like Volidrox gets $433K more.
+#1304  Finance Office: Volidrox budget increased by $65K after review.
+#1305  Finance Office: Volidrox budget increased by $145K after review.
+#1306  Marketing email: Volidrox kickoff moved to Building 4.
+#1307  Finance Office: Volidrox budget increased by $145K per the revised plan.
+#1308  Finance Office: Withdraw update #0523.
+#1309  Marketing email: Heard Volidrox's budget is now $1450K.
+#1310  Facilities ticket: Sounds like Volidrox gets $82K less.
+#1311  Finance Office: Volidrox finance review moved to Room 1D.
+#1312  Finance Office: Withdraw update #0437; it was entered in error.
+#1313  Facilities ticket: Volidrox budget is going up by $338K.
+#1314  Finance Office: Volidrox budget increased by $135K.
+#1315  PMO note: Volidrox budget is going to $2680K.
+#1316  Finance Office: Volidrox budget increased by $15K after review.
+#1317  Sales update: Volidrox budget is going down to $2030K.
+#1318  Engineering email: Pretty sure Volidrox's budget is $2620K now.
+#1319  Engineering email: Expect Volidrox's budget to drop by $498K.
+#1320  PMO note: Sounds like Volidrox gets $83K less.
+#1321  Finance Office: Volidrox budget increased by $90K after review.
+#1322  Finance Office: Volidrox budget increased by $65K after review.
+#1323  Facilities ticket: Volidrox budget is going up to $2490K.
+#1324  Finance Office: Volidrox budget decreased by $130K.
+#1325  Finance Office: Withdraw update #0035.
+#1326  Finance Office: Volidrox budget decreased by $130K per the revised plan.
+#1327  Vendor call: Volidrox budget is going up to $3430K.
+#1328  Sales update: Volidrox budget should land at $2500K.
+#1329  Finance Office: Volidrox budget decreased by $85K after review.
+#1330  Finance Office: Volidrox budget increased by $541K.
+#1331  Finance Office: Volidrox budget increased by $125K per the revised plan.
+#1332  Finance Office: Volidrox budget increased by $5K.
+#1333  Finance Office: Volidrox budget decreased by $45K per the revised plan.
+#1334  Sales update: Volidrox budget is going down to $2640K.
+#1335  Engineering email: Heard Volidrox's budget is now $3480K.
+#1336  Finance Office: Volidrox budget increased by $100K.
+#1337  Finance Office: Volidrox budget increased by $35K.
+#1338  Finance Office: Volidrox budget increased by $484K after review.
+#1339  Finance Office: Volidrox budget increased by $145K per the revised plan.
+#1340  Marketing email: Hearing Volidrox's budget goes up $471K.
+#1341  Finance Office: Volidrox budget decreased by $100K.
+#1342  Vendor call: Sounds like Volidrox gets $189K less.
+#1343  Finance Office: Withdraw update #1020.
+#1344  Facilities ticket: Volidrox risk register updated with 3 new items.
+#1345  Finance Office: Withdraw update #1136.
+#1346  Finance Office: Volidrox purchase order FC-3805 closed.
+#1347  Finance Office: Withdraw update #0722; it was entered in error.
+#1348  Finance Office: Volidrox budget increased by $120K.
+#1349  Finance Office: Volidrox budget decreased by $145K after review.
+#1350  Vendor call: Hearing Volidrox's budget goes up $204K.
+#1351  Operations chat: Volidrox budget is going to $3090K.
+#1352  Finance Office: Volidrox budget decreased by $40K after review.
+#1353  Vendor call: Volidrox budget is going down to $3760K.
+#1354  Finance Office: Volidrox budget decreased by $95K.
+#1355  Finance Office: Withdraw update #0626; it was entered in error.
+#1356  Finance Office: Volidrox budget increased by $50K per the revised plan.
+#1357  Legal email: Sounds like Volidrox gets $23K less.
+#1358  Finance Office: Volidrox budget decreased by $95K.
+#1359  Finance Office: Volidrox budget decreased by $145K after review.
+#1360  Finance Office: Withdraw update #0290.
+#1361  Finance Office: Volidrox budget decreased by $521K.
+#1362  Finance Office: Volidrox budget decreased by $115K after review.
+#1363  Finance Office: Volidrox budget increased by $119K after review.
+#1364  Finance Office: Withdraw update #0271; it was entered in error.
+#1365  Marketing email: Sounds like Volidrox gets $149K more.
+#1366  Finance Office: Volidrox budget decreased by $75K.
+#1367  PMO note: Volidrox kickoff moved to Building 6.
+#1368  Finance Office: Volidrox budget decreased by $135K after review.
+#1369  Finance Office: Withdraw update #0950; it was entered in error.
+#1370  Finance Office: Volidrox budget increased by $120K per the revised plan.
+#1371  Finance Office: Volidrox budget decreased by $10K.
+#1372  Finance Office: Volidrox budget increased by $90K per the revised plan.
+#1373  Finance Office: Volidrox budget decreased by $120K after review.
+#1374  Marketing email: Volidrox budget is going to $2680K.
+#1375  Engineering email: Hearing Volidrox's budget goes down $389K.
+#1376  Finance Office: Volidrox budget increased by $50K per the revised plan.
+#1377  Finance Office: Volidrox budget increased by $75K.
+#1378  Finance Office: Volidrox budget increased by $411K per the revised plan.
+#1379  Finance Office: Volidrox budget increased by $105K after review.
+#1380  Finance Office: Volidrox budget decreased by $171K after review.
+#1381  Finance Office: Volidrox budget increased by $30K after review.
+#1382  Finance Office: Volidrox budget increased by $10K after review.
+#1383  Finance Office: Volidrox budget decreased by $30K per the revised plan.
+#1384  Finance Office: Withdraw update #1071.
+#1385  Finance Office: Volidrox budget decreased by $150K per the revised plan.
+#1386  PMO note: Volidrox test environment back online.
+#1387  Vendor call: Pretty sure Volidrox's budget is $2680K now.
+#1388  Finance Office: Withdraw update #0982; it was entered in error.
+#1389  Vendor call: Hearing Volidrox's budget goes up $173K.
+#1390  Finance Office: Volidrox budget decreased by $10K after review.
+#1391  Engineering email: Heard Volidrox's budget is now $3810K.
+#1392  Finance Office: Volidrox budget increased by $80K per the revised plan.
+#1393  Vendor call: Hearing Volidrox's budget goes up $242K.
+#1394  Finance Office: Volidrox budget decreased by $25K.
+#1395  Finance Office: Withdraw update #0060.
+#1396  Finance Office: Withdraw update #0725; it was entered in error.
+#1397  Finance Office: Volidrox budget decreased by $145K after review.
+#1398  Finance Office: Volidrox budget decreased by $15K.
+#1399  Finance Office: Volidrox budget increased by $80K.
+#1400  Finance Office: Volidrox budget decreased by $25K after review.
+#1401  Sales update: Volidrox test environment back online.
+#1402  Finance Office: Volidrox budget increased by $95K.
+#1403  Finance Office: Volidrox budget increased by $95K per the revised plan.
+#1404  Finance Office: Withdraw update #0752.
+#1405  Finance Office: Volidrox budget increased by $110K per the revised plan.
+#1406  Finance Office: Volidrox budget decreased by $60K.
+#1407  Marketing email: Heard Volidrox's budget is now $4720K.
+#1408  Operations chat: Pretty sure Volidrox's budget is $2630K now.
+#1409  Sales update: Hearing Volidrox's budget goes down $141K.
+#1410  Finance Office: Volidrox budget decreased by $20K per the revised plan.
+#1411  Finance Office: Withdraw update #0053; it was entered in error.
+#1412  Finance Office: Volidrox budget increased by $75K after review.
+#1413  Finance Office: Withdraw update #1140; it was entered in error.
+#1414  Legal email: Sounds like Volidrox gets $361K more.
+#1415  Operations chat: Volidrox budget is going to $4390K.
+#1416  Finance Office: Volidrox budget decreased by $5K after review.
+#1417  Finance Office: Volidrox budget decreased by $50K after review.
+#1418  Finance Office: Volidrox budget increased by $140K after review.
+#1419  Sales update: Volidrox budget is going to $4480K.
+#1420  Finance Office: Volidrox budget decreased by $587K per the revised plan.
+#1421  Finance Office: Withdraw update #0149.
+#1422  Finance Office: Volidrox budget decreased by $25K.
+#1423  Sales update: Volidrox budget is going to $4130K.
+#1424  Finance Office: Volidrox budget increased by $105K after review.
+#1425  Finance Office: Reminder: Volidrox expense reports are due Monday.
+#1426  Engineering email: Volidrox budget should land at $4290K.
+#1427  Facilities ticket: Pretty sure Volidrox's budget is $4230K now.
+#1428  Vendor call: Volidrox budget is going down to $2850K.
+#1429  Marketing email: Volidrox budget is going up to $4800K.
+#1430  Finance Office: Withdraw update #0327.
+#1431  PMO note: Pretty sure Volidrox's budget is $3920K now.
+#1432  Finance Office: Volidrox budget decreased by $105K per the revised plan.
+#1433  Finance Office: Volidrox budget decreased by $140K.
+#1434  Vendor call: Volidrox budget should land at $3700K.
+#1435  Finance Office: Volidrox budget increased by $40K per the revised plan.
+#1436  Finance Office: Withdraw update #1272; it was entered in error.
+#1437  Engineering email: Expect Volidrox's budget to rise by $399K.
+#1438  Finance Office: Volidrox budget increased by $130K per the revised plan.
+#1439  Legal email: Volidrox budget is going to $2730K.
+#1440  Sales update: Volidrox budget is going to $4450K.
+#1441  Finance Office: Volidrox budget increased by $110K after review.
+#1442  Finance Office: Volidrox budget increased by $105K per the revised plan.
+#1443  Facilities ticket: Volidrox sprint 48 retrospective notes posted.
+#1444  Finance Office: Withdraw update #0419.
+#1445  Finance Office: Withdraw update #1273.
+#1446  Finance Office: Volidrox budget increased by $120K per the revised plan.
+#1447  Legal email: Expect Volidrox's budget to drop by $312K.
+#1448  Legal email: Volidrox design review moved to Room 4B.
+#1449  Marketing email: Volidrox budget is going up to $4610K.
+#1450  Operations chat: Heard Volidrox's budget is now $3360K.
+#1451  Engineering email: Hearing Volidrox's budget goes down $233K.
+#1452  Finance Office: Volidrox budget decreased by $10K per the revised plan.
+#1453  Legal email: Volidrox budget is going down to $4070K.
+#1454  Engineering email: Expect Volidrox's budget to drop by $468K.
+#1455  Finance Office: Volidrox budget decreased by $30K per the revised plan.
+#1456  Finance Office: Withdraw update #1363.
+#1457  Finance Office: Volidrox budget increased by $40K.
+#1458  Facilities ticket: Volidrox weekly sync moved to Thursdays.
+#1459  Finance Office: Volidrox budget increased by $5K per the revised plan.
+#1460  Finance Office: Volidrox budget increased by $150K after review.
+#1461  Finance Office: Volidrox budget increased by $10K after review.
+#1462  Finance Office: Volidrox budget increased by $115K.
+#1463  Finance Office: Volidrox budget decreased by $30K.
+#1464  PMO note: Volidrox budget is going up to $4800K.
+#1465  Marketing email: Volidrox design review moved to Room 6D.
+#1466  Finance Office: Volidrox budget increased by $130K.
+#1467  Finance Office: Volidrox budget increased by $135K.
+#1468  Marketing email: Heard Volidrox's budget is now $4800K.
+#1469  Finance Office: Volidrox budget decreased by $115K after review.
+#1470  Finance Office: Withdraw update #0152.
+#1471  Operations chat: Hearing Volidrox's budget goes up $407K.
+#1472  Finance Office: Volidrox budget increased by $110K.
+#1473  Marketing email: Sounds like Volidrox gets $254K less.
+#1474  Engineering email: Volidrox budget is going to $3880K.
+#1475  Engineering email: Expect Volidrox's budget to drop by $211K.
+#1476  Finance Office: Volidrox receipts scanned.
+#1477  Finance Office: Withdraw update #1330.
+#1478  Finance Office: Volidrox budget decreased by $95K per the revised plan.
+#1479  Finance Office: Volidrox budget decreased by $145K.
+#1480  Finance Office: Withdraw update #1378.
+#1481  Sales update: Pretty sure Volidrox's budget is $3190K now.
+#1482  Sales update: Sounds like Volidrox gets $44K less.
+#1483  Finance Office: Volidrox budget increased by $90K after review.
+#1484  Finance Office: Withdraw update #1361.
+#1485  Finance Office: Withdraw update #1380.
+#1486  Finance Office: Volidrox budget increased by $30K.
+#1487  Finance Office: Volidrox budget decreased by $80K after review.
+#1488  Engineering email: Hearing Volidrox's budget goes up $494K.
+#1489  Engineering email: Volidrox budget is going down by $369K.
+#1490  Finance Office: Volidrox budget decreased by $50K per the revised plan.
+#1491  Legal email: Volidrox status report filed for week 18.
+#1492  Finance Office: Withdraw update #1420.
+#1493  Legal email: Hearing Volidrox's budget goes down $147K.
+#1494  Finance Office: Volidrox budget decreased by $55K.
+#1495  Finance Office: Volidrox receipts scanned.
+#1496  Finance Office: Volidrox budget decreased by $25K.
+#1497  Marketing email: Expect Volidrox's budget to rise by $113K.
+#1498  Finance Office: Volidrox budget increased by $145K per the revised plan.
+#1499  Finance Office: Volidrox budget decreased by $105K per the revised plan.
+#1500  Engineering email: Volidrox budget should land at $3220K.
+#1501  Finance Office: Volidrox budget decreased by $65K per the revised plan.
+#1502  Sales update: Volidrox design review moved to Room 3C.
+#1503  Finance Office: Volidrox budget increased by $20K per the revised plan.
+#1504  Finance Office: Volidrox budget increased by $150K.
+#1505  Finance Office: Volidrox budget decreased by $90K per the revised plan.
+#1506  Finance Office: Withdraw update #1338; it was entered in error.
+#1507  Finance Office: Volidrox budget increased by $125K per the revised plan.
+#1508  Finance Office: Volidrox budget decreased by $30K per the revised plan.
+#1509  Vendor call: Volidrox budget is going up to $4690K.
+#1510  Finance Office: Volidrox budget decreased by $140K per the revised plan.
+#1511  Finance Office: Volidrox budget increased by $20K.
+#1512  Legal email: Sounds like Volidrox gets $286K less.
+#1513  Finance Office: Withdraw update #0328; it was entered in error.
+#1514  Marketing email: Volidrox demo rescheduled to Tuesday afternoon.
+#1515  Sales update: Volidrox vendor onboarding call scheduled for Monday.
+#1516  Facilities ticket: Volidrox budget is going to $4760K.
+#1517  Finance Office: Withdraw update #1184.
+#1518  Finance Office: Volidrox budget decreased by $25K after review.
+#1519  Operations chat: Sounds like Volidrox gets $278K less.
+#1520  Legal email: Heard Volidrox's budget is now $3100K.
+#1521  Finance Office: Volidrox budget decreased by $60K per the revised plan.
+#1522  Finance Office: Withdraw update #0296.
+#1523  Sales update: Volidrox budget is going to $4510K.
+#1524  Operations chat: Expect Volidrox's budget to rise by $323K.
+#1525  Legal email: Volidrox budget is going up to $4800K.
+#1526  Finance Office: Volidrox budget increased by $150K after review.
+#1527  Engineering email: Volidrox vendor onboarding call scheduled for Monday.
+#1528  Facilities ticket: Pretty sure Volidrox's budget is $4290K now.
+#1529  Finance Office: Withdraw update #0214.
+#1530  Sales update: Volidrox risk register updated with 7 new items.
+#1531  Finance Office: Volidrox budget decreased by $70K.
+#1532  Finance Office: Volidrox budget increased by $10K.
+#1533  Finance Office: Volidrox budget decreased by $120K per the revised plan.
+#1534  Finance Office: Volidrox budget decreased by $125K.
+#1535  Finance Office: Volidrox budget decreased by $150K.
+#1536  Finance Office: Volidrox budget decreased by $130K after review.
+#1537  PMO note: Volidrox budget should land at $4200K.
+#1538  Sales update: Sounds like Volidrox gets $236K less.
+#1539  Facilities ticket: Volidrox budget is going up by $316K.
+#1540  Finance Office: Withdraw update #1226; it was entered in error.
+#1541  Finance Office: Volidrox budget increased by $120K after review.
+#1542  Finance Office: Volidrox budget increased by $110K.
+#1543  Vendor call: Hearing Volidrox's budget goes up $573K.
+#1544  Vendor call: Hearing Volidrox's budget goes up $81K.
+#1545  Legal email: Pretty sure Volidrox's budget is $4670K now.
+#1546  Finance Office: Volidrox budget decreased by $135K.
+#1547  Finance Office: Withdraw update #0402.
+#1548  Finance Office: Withdraw update #0605.
+#1549  Finance Office: Volidrox budget decreased by $100K per the revised plan.
+#1550  Finance Office: Volidrox budget decreased by $135K after review.
+#1551  Finance Office: Volidrox budget increased by $150K per the revised plan.
+#1552  Finance Office: Volidrox budget increased by $40K.
+#1553  Finance Office: Volidrox budget decreased by $145K.
+#1554  Finance Office: Volidrox budget decreased by $135K after review.
+#1555  Finance Office: Volidrox budget decreased by $130K after review.
+#1556  Finance Office: Volidrox budget decreased by $35K.
+#1557  Finance Office: Withdraw update #1049; it was entered in error.
+#1558  Finance Office: Withdraw update #0097; it was entered in error.
+#1559  Finance Office: Volidrox invoice batch FC-5649 archived.
+#1560  Finance Office: Volidrox budget decreased by $15K after review.
+#1561  Engineering email: Volidrox weekly sync moved to Thursdays.
+#1562  Finance Office: Volidrox budget decreased by $25K per the revised plan.
+#1563  Finance Office: Volidrox budget increased by $35K per the revised plan.
+#1564  Vendor call: Volidrox budget should land at $3000K.
+#1565  Finance Office: Volidrox budget increased by $40K per the revised plan.
+#1566  PMO note: Volidrox budget is going to $2700K.
+#1567  Finance Office: Volidrox budget decreased by $135K after review.
+#1568  Finance Office: Volidrox budget decreased by $105K after review.
+#1569  Operations chat: Volidrox budget is going down by $163K.
+#1570  Finance Office: Volidrox budget decreased by $150K.
+#1571  Finance Office: Withdraw update #0591.
+#1572  Finance Office: Withdraw update #0733; it was entered in error.
+#1573  Finance Office: Withdraw update #1456.
+#1574  Finance Office: Volidrox budget decreased by $65K after review.
+#1575  Finance Office: Volidrox budget decreased by $60K.
+#1576  Finance Office: Volidrox budget decreased by $75K per the revised plan.
+#1577  Finance Office: Volidrox budget decreased by $95K per the revised plan.
+#1578  Finance Office: Volidrox budget increased by $85K after review.
+#1579  Operations chat: Volidrox weekly sync moved to Tuesdays.
+#1580  Finance Office: Volidrox budget increased by $65K.
+#1581  PMO note: Sounds like Volidrox gets $186K less.
+#1582  Operations chat: Expect Volidrox's budget to rise by $467K.
+#1583  Finance Office: Withdraw update #1280; it was entered in error.
+#1584  Finance Office: Withdraw update #0903; it was entered in error.
+#1585  Finance Office: Withdraw update #1022.
+#1586  Engineering email: Expect Volidrox's budget to rise by $317K.
+#1587  Finance Office: Volidrox budget increased by $110K.
+#1588  Marketing email: Heard Volidrox's budget is now $3040K.
+#1589  Operations chat: Sounds like Volidrox gets $258K less.
+#1590  Finance Office: Volidrox budget increased by $45K per the revised plan.
+#1591  Finance Office: Volidrox budget decreased by $95K per the revised plan.
+#1592  Finance Office: Volidrox budget decreased by $130K per the revised plan.
+#1593  PMO note: Volidrox status report filed for week 38.
+#1594  PMO note: Hearing Volidrox's budget goes down $413K.
+#1595  Finance Office: Volidrox budget decreased by $10K per the revised plan.
+#1596  Engineering email: Volidrox budget is going down by $54K.
+#1597  Finance Office: Volidrox budget decreased by $140K after review.
+#1598  Finance Office: Withdraw update #0802; it was entered in error.
+#1599  Engineering email: Hearing Volidrox's budget goes down $334K.
+#1600  Finance Office: Volidrox finance review moved to Room 4C.
+
+Question: What is Volidrox's budget now?

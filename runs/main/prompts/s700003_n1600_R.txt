@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Driril budget set to $1630K after review.
+#0002  Sales update: Driril status report filed for week 30.
+#0003  PMO note: Driril risk register updated with 6 new items.
+#0004  Finance Office: Driril budget increased by $237K after review.
+#0005  Vendor call: Driril weekly sync moved to Fridays.
+#0006  Finance Office: Driril budget increased by $242K.
+#0007  Vendor call: Driril sprint 24 retrospective notes posted.
+#0008  Finance Office: Driril budget decreased by $88K after review.
+#0009  Finance Office: Driril budget decreased by $233K per the revised plan.
+#0010  Legal email: Driril design review moved to Room 5D.
+#0011  Operations chat: Driril test environment back online.
+#0012  Finance Office: Driril budget decreased by $504K.
+#0013  Finance Office: Driril budget increased by $65K after review.
+#0014  Finance Office: Driril budget decreased by $222K.
+#0015  Finance Office: Driril budget decreased by $529K after review.
+#0016  Finance Office: Driril budget decreased by $135K after review.
+#0017  Legal email: Driril design review moved to Room 4D.
+#0018  Engineering email: Driril documentation moved to the shared drive.
+#0019  Finance Office: Withdraw update #0004.
+#0020  Finance Office: Driril finance review moved to Room 4D.
+#0021  Vendor call: Driril site visit confirmed for Friday.
+#0022  PMO note: Driril status report filed for week 41.
+#0023  Operations chat: Driril weekly sync moved to Thursdays.
+#0024  Finance Office: Driril budget increased by $502K after review.
+#0025  Facilities ticket: Driril risk register updated with 7 new items.
+#0026  Operations chat: Driril kickoff moved to Building 5.
+#0027  Finance Office: Driril budget increased by $559K per the revised plan.
+#0028  Finance Office: Driril budget increased by $437K after review.
+#0029  PMO note: Driril kickoff moved to Building 8.
+#0030  Finance Office: Driril budget decreased by $317K per the revised plan.
+#0031  Sales update: Driril weekly sync moved to Fridays.
+#0032  Finance Office: Withdraw update #0024.
+#0033  Legal email: Driril kickoff moved to Building 8.
+#0034  Finance Office: Driril budget increased by $199K per the revised plan.
+#0035  Finance Office: Withdraw update #0014; it was entered in error.
+#0036  Finance Office: Driril budget increased by $100K per the revised plan.
+#0037  Facilities ticket: Driril test environment back online.
+#0038  Finance Office: Driril budget decreased by $589K per the revised plan.
+#0039  PMO note: Driril kickoff moved to Building 9.
+#0040  Finance Office: Driril budget decreased by $367K per the revised plan.
+#0041  Vendor call: Driril risk register updated with 5 new items.
+#0042  Marketing email: Driril kickoff moved to Building 4.
+#0043  Finance Office: Driril budget decreased by $161K.
+#0044  Finance Office: Driril budget increased by $279K after review.
+#0045  Finance Office: Withdraw update #0015; it was entered in error.
+#0046  Finance Office: Driril budget increased by $105K after review.
+#0047  Finance Office: Withdraw update #0032.
+#0048  Finance Office: Driril budget increased by $597K per the revised plan.
+#0049  Finance Office: Driril budget increased by $65K.
+#0050  Finance Office: Driril cost center code changed to FC-1081.
+#0051  Finance Office: Driril budget decreased by $292K per the revised plan.
+#0052  Finance Office: Driril budget decreased by $85K.
+#0053  Finance Office: Driril budget decreased by $130K per the revised plan.
+#0054  Facilities ticket: Driril test environment back online.
+#0055  Engineering email: Driril test environment back online.
+#0056  Finance Office: Withdraw update #0009.
+#0057  Finance Office: Driril budget decreased by $95K after review.
+#0058  Finance Office: Driril budget decreased by $539K per the revised plan.
+#0059  Finance Office: Driril budget increased by $259K per the revised plan.
+#0060  Vendor call: Driril weekly sync moved to Thursdays.
+#0061  Finance Office: Withdraw update #0012; it was entered in error.
+#0062  Sales update: Driril sprint 7 retrospective notes posted.
+#0063  Finance Office: Driril budget increased by $154K.
+#0064  Finance Office: Driril budget decreased by $269K.
+#0065  Finance Office: Driril budget increased by $463K.
+#0066  Finance Office: Driril budget decreased by $59K.
+#0067  Finance Office: Driril budget decreased by $408K after review.
+#0068  Finance Office: Driril budget decreased by $68K.
+#0069  Facilities ticket: Driril security review passed.
+#0070  Sales update: Driril design review moved to Room 6D.
+#0071  PMO note: Driril site visit confirmed for Friday.
+#0072  Engineering email: Driril security review passed.
+#0073  Finance Office: Driril finance review moved to Room 4C.
+#0074  Finance Office: Driril budget decreased by $45K per the revised plan.
+#0075  Finance Office: Withdraw update #0056.
+#0076  Finance Office: Driril budget increased by $50K.
+#0077  PMO note: Driril kickoff moved to Building 8.
+#0078  Finance Office: Driril finance review moved to Room 2A.
+#0079  Legal email: Driril status report filed for week 8.
+#0080  Finance Office: Driril budget increased by $135K after review.
+#0081  PMO note: Driril security review passed.
+#0082  Operations chat: Driril kickoff moved to Building 8.
+#0083  Engineering email: Driril demo rescheduled to Friday afternoon.
+#0084  Legal email: Driril sprint 2 retrospective notes posted.
+#0085  Vendor call: Driril design review moved to Room 3C.
+#0086  Finance Office: Withdraw update #0051; it was entered in error.
+#0087  PMO note: Driril test environment back online.
+#0088  Operations chat: Driril kickoff moved to Building 3.
+#0089  Sales update: Driril kickoff moved to Building 7.
+#0090  Engineering email: Driril demo rescheduled to Thursday afternoon.
+#0091  Finance Office: Driril budget increased by $312K after review.
+#0092  Finance Office: Driril budget decreased by $152K per the revised plan.
+#0093  Marketing email: Driril kickoff moved to Building 2.
+#0094  Facilities ticket: Driril demo rescheduled to Monday afternoon.
+#0095  Legal email: Driril weekly sync moved to Thursdays.
+#0096  Finance Office: Driril budget increased by $397K per the revised plan.
+#0097  Finance Office: Driril audit notes filed.
+#0098  Finance Office: Driril budget decreased by $448K.
+#0099  Finance Office: Driril budget increased by $519K.
+#0100  Sales update: Driril security review passed.
+#0101  Marketing email: Driril test environment back online.
+#0102  Finance Office: Driril budget increased by $115K.
+#0103  Finance Office: Driril budget increased by $52K.
+#0104  Finance Office: Withdraw update #0059; it was entered in error.
+#0105  Finance Office: Withdraw update #0048; it was entered in error.
+#0106  Operations chat: Driril status report filed for week 33.
+#0107  Vendor call: Driril kickoff moved to Building 5.
+#0108  Finance Office: Driril budget decreased by $217K after review.
+#0109  PMO note: Driril weekly sync moved to Wednesdays.
+#0110  Sales update: Driril sprint 17 retrospective notes posted.
+#0111  Finance Office: Driril budget decreased by $133K after review.
+#0112  Finance Office: Driril budget increased by $172K.
+#0113  Finance Office: Withdraw update #0098; it was entered in error.
+#0114  Finance Office: Withdraw update #0019.
+#0115  Finance Office: Driril budget increased by $55K after review.
+#0116  Finance Office: Withdraw update #0047; it was entered in error.
+#0117  Finance Office: Driril budget decreased by $438K per the revised plan.
+#0118  Finance Office: Driril budget decreased by $140K per the revised plan.
+#0119  Vendor call: Driril sprint 3 retrospective notes posted.
+#0120  Finance Office: Driril budget increased by $349K per the revised plan.
+#0121  Finance Office: Driril budget decreased by $341K.
+#0122  Operations chat: Driril kickoff moved to Building 2.
+#0123  Marketing email: Driril kickoff moved to Building 5.
+#0124  Legal email: Driril kickoff moved to Building 4.
+#0125  Legal email: Driril status report filed for week 34.
+#0126  Finance Office: Driril budget decreased by $78K per the revised plan.
+#0127  PMO note: Driril weekly sync moved to Thursdays.
+#0128  Vendor call: Driril test environment back online.
+#0129  Finance Office: Withdraw update #0091.
+#0130  Operations chat: Driril weekly sync moved to Wednesdays.
+#0131  Sales update: Driril design review moved to Room 1C.
+#0132  PMO note: Driril site visit confirmed for Wednesday.
+#0133  Finance Office: Driril budget increased by $140K after review.
+#0134  Finance Office: Driril budget decreased by $124K per the revised plan.
+#0135  Vendor call: Driril demo rescheduled to Monday afternoon.
+#0136  Finance Office: Withdraw update #0034; it was entered in error.
+#0137  Legal email: Driril vendor onboarding call scheduled for Monday.
+#0138  Finance Office: Withdraw update #0103; it was entered in error.
+#0139  Finance Office: Driril audit notes filed.
+#0140  Finance Office: Driril budget decreased by $30K.
+#0141  Engineering email: Driril weekly sync moved to Mondays.
+#0142  Operations chat: Driril kickoff moved to Building 3.
+#0143  Marketing email: Driril status report filed for week 19.
+#0144  Facilities ticket: Driril weekly sync moved to Wednesdays.
+#0145  Finance Office: Driril budget decreased by $115K.
+#0146  Finance Office: Driril audit notes filed.
+#0147  Finance Office: Driril budget decreased by $89K after review.
+#0148  Finance Office: Withdraw update #0117.
+#0149  Finance Office: Driril budget increased by $144K per the revised plan.
+#0150  Finance Office: Driril budget increased by $15K after review.
+#0151  Finance Office: Driril budget increased by $105K.
+#0152  Marketing email: Driril status report filed for week 21.
+#0153  Vendor call: Driril weekly sync moved to Tuesdays.
+#0154  Facilities ticket: Driril design review moved to Room 2C.
+#0155  Legal email: Driril site visit confirmed for Tuesday.
+#0156  Finance Office: Driril budget decreased by $150K.
+#0157  Sales update: Driril weekly sync moved to Wednesdays.
+#0158  Finance Office: Driril invoice batch FC-7357 archived.
+#0159  Finance Office: Driril budget increased by $95K.
+#0160  Finance Office: Driril budget increased by $130K.
+#0161  Finance Office: Withdraw update #0058.
+#0162  Legal email: Driril kickoff moved to Building 2.
+#0163  Finance Office: Driril budget increased by $5K per the revised plan.
+#0164  Finance Office: Withdraw update #0030.
+#0165  Finance Office: Driril budget increased by $411K.
+#0166  Operations chat: Driril test environment back online.
+#0167  Finance Office: Driril budget increased by $547K.
+#0168  Finance Office: Withdraw update #0064; it was entered in error.
+#0169  Finance Office: Reminder: Driril expense reports are due Thursday.
+#0170  Legal email: Driril design review moved to Room 1D.
+#0171  Finance Office: Driril budget increased by $25K.
+#0172  Legal email: Driril design review moved to Room 5A.
+#0173  Finance Office: Driril budget increased by $158K.
+#0174  Finance Office: Driril budget decreased by $42K per the revised plan.
+#0175  Finance Office: Withdraw update #0040; it was entered in error.
+#0176  Finance Office: Driril budget decreased by $126K per the revised plan.
+#0177  Operations chat: Driril test environment back online.
+#0178  Sales update: Driril site visit confirmed for Wednesday.
+#0179  Finance Office: Driril budget increased by $369K after review.
+#0180  Engineering email: Driril design review moved to Room 6B.
+#0181  Sales update: Driril documentation moved to the shared drive.
+#0182  Finance Office: Driril budget increased by $115K after review.
+#0183  Finance Office: Driril budget decreased by $45K per the revised plan.
+#0184  Finance Office: Withdraw update #0168.
+#0185  Finance Office: Withdraw update #0138; it was entered in error.
+#0186  Finance Office: Withdraw update #0173.
+#0187  Operations chat: Driril documentation moved to the shared drive.
+#0188  Finance Office: Driril budget decreased by $75K.
+#0189  Finance Office: Withdraw update #0043.
+#0190  Finance Office: Driril budget decreased by $75K after review.
+#0191  Finance Office: Driril budget decreased by $444K.
+#0192  Finance Office: Withdraw update #0044; it was entered in error.
+#0193  Finance Office: Driril budget increased by $272K after review.
+#0194  Vendor call: Driril security review passed.
+#0195  Engineering email: Driril status report filed for week 5.
+#0196  Vendor call: Driril status report filed for week 33.
+#0197  Finance Office: Driril budget increased by $5K.
+#0198  Finance Office: Driril budget increased by $115K.
+#0199  PMO note: Driril design review moved to Room 5A.
+#0200  Sales update: Driril test environment back online.
+#0201  Finance Office: Withdraw update #0108.
+#0202  Finance Office: Driril budget decreased by $368K after review.
+#0203  Finance Office: Driril budget increased by $193K after review.
+#0204  Legal email: Driril status report filed for week 5.
+#0205  Operations chat: Driril status report filed for week 27.
+#0206  Vendor call: Driril weekly sync moved to Thursdays.
+#0207  Legal email: Driril sprint 37 retrospective notes posted.
+#0208  Engineering email: Driril sprint 40 retrospective notes posted.
+#0209  Legal email: Driril test environment back online.
+#0210  Finance Office: Driril budget decreased by $15K per the revised plan.
+#0211  Finance Office: Driril purchase order FC-8703 closed.
+#0212  Finance Office: Driril budget increased by $576K.
+#0213  Engineering email: Driril site visit confirmed for Wednesday.
+#0214  Finance Office: Driril budget decreased by $571K after review.
+#0215  Finance Office: Driril budget increased by $135K per the revised plan.
+#0216  Finance Office: Driril budget decreased by $236K.
+#0217  Legal email: Driril test environment back online.
+#0218  Finance Office: Withdraw update #0006; it was entered in error.
+#0219  Sales update: Driril status report filed for week 19.
+#0220  Operations chat: Driril test environment back online.
+#0221  Finance Office: Withdraw update #0038; it was entered in error.
+#0222  Finance Office: Driril budget decreased by $45K after review.
+#0223  PMO note: Driril security review passed.
+#0224  Finance Office: Driril budget decreased by $7K.
+#0225  Finance Office: Withdraw update #0214.
+#0226  Finance Office: Driril budget decreased by $50K after review.
+#0227  Finance Office: Driril budget decreased by $499K after review.
+#0228  Legal email: Driril design review moved to Room 3A.
+#0229  Finance Office: Driril budget decreased by $135K after review.
+#0230  Finance Office: Driril budget increased by $95K.
+#0231  Sales update: Driril status report filed for week 38.
+#0232  Legal email: Driril weekly sync moved to Thursdays.
+#0233  Finance Office: Driril budget decreased by $428K after review.
+#0234  Finance Office: Driril budget increased by $109K after review.
+#0235  Legal email: Driril design review moved to Room 3A.
+#0236  Finance Office: Driril budget increased by $45K.
+#0237  Finance Office: Driril budget increased by $115K.
+#0238  Marketing email: Driril kickoff moved to Building 7.
+#0239  PMO note: Driril site visit confirmed for Monday.
+#0240  Engineering email: Driril weekly sync moved to Tuesdays.
+#0241  Finance Office: Withdraw update #0189; it was entered in error.
+#0242  Finance Office: Driril budget decreased by $94K per the revised plan.
+#0243  Finance Office: Driril budget increased by $95K per the revised plan.
+#0244  Finance Office: Driril budget decreased by $5K per the revised plan.
+#0245  PMO note: Driril site visit confirmed for Monday.
+#0246  Finance Office: Driril budget decreased by $40K per the revised plan.
+#0247  Marketing email: Driril status report filed for week 17.
+#0248  Finance Office: Driril budget increased by $125K per the revised plan.
+#0249  Finance Office: Driril budget decreased by $145K per the revised plan.
+#0250  Finance Office: Driril budget decreased by $65K.
+#0251  Finance Office: Driril budget decreased by $35K.
+#0252  Finance Office: Driril budget decreased by $130K.
+#0253  Finance Office: Driril budget increased by $25K after review.
+#0254  Finance Office: Withdraw update #0225; it was entered in error.
+#0255  Finance Office: Driril budget decreased by $493K per the revised plan.
+#0256  Finance Office: Driril budget increased by $125K after review.
+#0257  Finance Office: Driril budget decreased by $135K.
+#0258  Operations chat: Driril design review moved to Room 4B.
+#0259  Finance Office: Driril budget decreased by $55K.
+#0260  Operations chat: Driril kickoff moved to Building 7.
+#0261  Finance Office: Driril budget increased by $125K after review.
+#0262  Finance Office: Driril budget increased by $588K.
+#0263  Finance Office: Driril budget decreased by $35K.
+#0264  Finance Office: Driril budget decreased by $574K.
+#0265  Finance Office: Driril budget decreased by $55K after review.
+#0266  Finance Office: Driril budget increased by $50K per the revised plan.
+#0267  Engineering email: Driril kickoff moved to Building 9.
+#0268  Finance Office: Driril budget increased by $74K per the revised plan.
+#0269  Finance Office: Driril budget decreased by $551K.
+#0270  Operations chat: Driril test environment back online.
+#0271  Finance Office: Driril budget increased by $100K after review.
+#0272  Finance Office: Withdraw update #0061.
+#0273  Finance Office: Withdraw update #0242; it was entered in error.
+#0274  Vendor call: Driril weekly sync moved to Wednesdays.
+#0275  Vendor call: Driril kickoff moved to Building 5.
+#0276  Finance Office: Driril budget increased by $135K per the revised plan.
+#0277  Facilities ticket: Driril test environment back online.
+#0278  Facilities ticket: Driril site visit confirmed for Friday.
+#0279  Engineering email: Driril design review moved to Room 4D.
+#0280  Finance Office: Driril budget increased by $130K.
+#0281  PMO note: Driril kickoff moved to Building 2.
+#0282  Vendor call: Driril test environment back online.
+#0283  Finance Office: Driril budget increased by $563K after review.
+#0284  Marketing email: Driril documentation moved to the shared drive.
+#0285  Finance Office: Driril budget decreased by $120K after review.
+#0286  Finance Office: Withdraw update #0035; it was entered in error.
+#0287  Facilities ticket: Driril weekly sync moved to Tuesdays.
+#0288  Finance Office: Driril budget decreased by $130K per the revised plan.
+#0289  Finance Office: Driril budget increased by $75K after review.
+#0290  Finance Office: Driril budget increased by $150K.
+#0291  Finance Office: Driril budget decreased by $10K after review.
+#0292  Finance Office: Driril budget increased by $45K per the revised plan.
+#0293  Finance Office: Driril budget increased by $45K.
+#0294  Finance Office: Withdraw update #0120; it was entered in error.
+#0295  Finance Office: Withdraw update #0255.
+#0296  Finance Office: Driril budget increased by $35K per the revised plan.
+#0297  Operations chat: Driril design review moved to Room 6B.
+#0298  Finance Office: Driril budget decreased by $120K per the revised plan.
+#0299  Legal email: Driril kickoff moved to Building 3.
+#0300  Marketing email: Driril documentation moved to the shared drive.
+#0301  Facilities ticket: Driril weekly sync moved to Thursdays.
+#0302  Finance Office: Driril budget increased by $106K after review.
+#0303  Finance Office: Withdraw update #0028; it was entered in error.
+#0304  Marketing email: Driril test environment back online.
+#0305  Facilities ticket: Driril kickoff moved to Building 6.
+#0306  Finance Office: Driril budget increased by $107K.
+#0307  Finance Office: Driril budget decreased by $39K per the revised plan.
+#0308  Operations chat: Driril security review passed.
+#0309  Vendor call: Driril design review moved to Room 5A.
+#0310  Finance Office: Driril purchase order FC-9833 closed.
+#0311  Finance Office: Withdraw update #0224; it was entered in error.
+#0312  Finance Office: Driril budget decreased by $115K.
+#0313  Finance Office: Driril budget increased by $35K after review.
+#0314  Finance Office: Withdraw update #0212.
+#0315  Finance Office: Driril budget decreased by $392K.
+#0316  Sales update: Driril test environment back online.
+#0317  Finance Office: Driril budget increased by $80K per the revised plan.
+#0318  Legal email: Driril sprint 47 retrospective notes posted.
+#0319  Finance Office: Driril budget increased by $334K per the revised plan.
+#0320  Operations chat: Driril kickoff moved to Building 2.
+#0321  Finance Office: Driril budget increased by $145K after review.
+#0322  Finance Office: Driril budget increased by $50K per the revised plan.
+#0323  Finance Office: Withdraw update #0174.
+#0324  Legal email: Driril security review passed.
+#0325  Marketing email: Driril kickoff moved to Building 7.
+#0326  Vendor call: Driril weekly sync moved to Fridays.
+#0327  Finance Office: Driril budget increased by $95K.
+#0328  Legal email: Driril weekly sync moved to Tuesdays.
+#0329  Marketing email: Driril site visit confirmed for Wednesday.
+#0330  PMO note: Driril design review moved to Room 3A.
+#0331  Finance Office: Driril purchase order FC-9312 closed.
+#0332  Finance Office: Driril budget increased by $55K after review.
+#0333  Engineering email: Driril site visit confirmed for Thursday.
+#0334  Finance Office: Driril budget decreased by $125K per the revised plan.
+#0335  Finance Office: Driril budget decreased by $333K per the revised plan.
+#0336  Finance Office: Driril budget decreased by $5K after review.
+#0337  Finance Office: Driril budget increased by $283K after review.
+#0338  Finance Office: Driril budget increased by $15K per the revised plan.
+#0339  Legal email: Driril site visit confirmed for Friday.
+#0340  Engineering email: Driril kickoff moved to Building 5.
+#0341  Marketing email: Driril kickoff moved to Building 8.
+#0342  Finance Office: Driril budget decreased by $35K per the revised plan.
+#0343  Finance Office: Withdraw update #0008; it was entered in error.
+#0344  Finance Office: Driril budget increased by $452K.
+#0345  Sales update: Driril site visit confirmed for Friday.
+#0346  Finance Office: Withdraw update #0185.
+#0347  Finance Office: Driril budget increased by $10K per the revised plan.
+#0348  Engineering email: Driril site visit confirmed for Tuesday.
+#0349  Marketing email: Driril kickoff moved to Building 4.
+#0350  Finance Office: Withdraw update #0302; it was entered in error.
+#0351  Finance Office: Driril budget decreased by $110K.
+#0352  Finance Office: Withdraw update #0234.
+#0353  Finance Office: Driril budget increased by $145K per the revised plan.
+#0354  Finance Office: Withdraw update #0067; it was entered in error.
+#0355  Finance Office: Driril budget decreased by $45K.
+#0356  Vendor call: Driril status report filed for week 48.
+#0357  Finance Office: Driril budget decreased by $454K.
+#0358  Legal email: Driril design review moved to Room 5D.
+#0359  Finance Office: Withdraw update #0191.
+#0360  Finance Office: Driril budget decreased by $95K.
+#0361  Vendor call: Driril demo rescheduled to Monday afternoon.
+#0362  Marketing email: Driril test environment back online.
+#0363  Legal email: Driril kickoff moved to Building 9.
+#0364  Finance Office: Driril budget increased by $150K.
+#0365  Finance Office: Driril budget decreased by $55K.
+#0366  Finance Office: Withdraw update #0147; it was entered in error.
+#0367  Finance Office: Driril budget increased by $75K after review.
+#0368  Finance Office: Withdraw update #0176; it was entered in error.
+#0369  Finance Office: Driril budget decreased by $246K per the revised plan.
+#0370  Vendor call: Driril weekly sync moved to Fridays.
+#0371  Operations chat: Driril test environment back online.
+#0372  Finance Office: Driril budget decreased by $120K.
+#0373  Finance Office: Driril budget decreased by $120K per the revised plan.
+#0374  Finance Office: Driril budget increased by $135K after review.
+#0375  Finance Office: Withdraw update #0269.
+#0376  Finance Office: Driril budget increased by $115K after review.
+#0377  Legal email: Driril test environment back online.
+#0378  Finance Office: Driril budget increased by $98K.
+#0379  Sales update: Driril design review moved to Room 2B.
+#0380  Vendor call: Driril demo rescheduled to Tuesday afternoon.
+#0381  Finance Office: Withdraw update #0184; it was entered in error.
+#0382  Finance Office: Driril budget increased by $5K per the revised plan.
+#0383  Finance Office: Withdraw update #0378.
+#0384  Finance Office: Driril budget increased by $196K after review.
+#0385  Finance Office: Driril budget decreased by $135K after review.
+#0386  Sales update: Driril kickoff moved to Building 9.
+#0387  Finance Office: Driril budget increased by $146K.
+#0388  Facilities ticket: Driril design review moved to Room 3B.
+#0389  Finance Office: Driril budget increased by $145K after review.
+#0390  Finance Office: Driril budget decreased by $45K.
+#0391  Finance Office: Withdraw update #0099.
+#0392  Finance Office: Withdraw update #0105; it was entered in error.
+#0393  Finance Office: Driril budget increased by $55K after review.
+#0394  Finance Office: Driril budget increased by $376K after review.
+#0395  Finance Office: Driril budget decreased by $120K after review.
+#0396  Finance Office: Driril budget decreased by $20K after review.
+#0397  Legal email: Driril risk register updated with 7 new items.
+#0398  PMO note: Driril site visit confirmed for Monday.
+#0399  Vendor call: Driril status report filed for week 29.
+#0400  Sales update: Driril test environment back online.
+#0401  Finance Office: Driril budget increased by $241K per the revised plan.
+#0402  Facilities ticket: Driril status report filed for week 23.
+#0403  Finance Office: Driril budget decreased by $50K.
+#0404  Finance Office: Driril budget increased by $25K after review.
+#0405  Finance Office: Driril budget decreased by $76K.
+#0406  Finance Office: Withdraw update #0384; it was entered in error.
+#0407  Finance Office: Driril budget decreased by $471K.
+#0408  Finance Office: Driril budget increased by $45K after review.
+#0409  Finance Office: Driril budget increased by $45K per the revised plan.
+#0410  Engineering email: Driril design review moved to Room 4C.
+#0411  Finance Office: Driril budget increased by $18K.
+#0412  Finance Office: Withdraw update #0027.
+#0413  Legal email: Driril site visit confirmed for Monday.
+#0414  Finance Office: Driril budget increased by $111K per the revised plan.
+#0415  Finance Office: Driril budget increased by $227K.
+#0416  Finance Office: Driril budget decreased by $50K per the revised plan.
+#0417  Marketing email: Driril weekly sync moved to Fridays.
+#0418  Finance Office: Driril budget increased by $35K.
+#0419  PMO note: Driril design review moved to Room 4C.
+#0420  PMO note: Driril design review moved to Room 5A.
+#0421  Finance Office: Driril budget increased by $148K after review.
+#0422  Vendor call: Driril kickoff moved to Building 2.
+#0423  Finance Office: Withdraw update #0357.
+#0424  Legal email: Driril documentation moved to the shared drive.
+#0425  Engineering email: Driril test environment back online.
+#0426  Marketing email: Driril weekly sync moved to Thursdays.
+#0427  Finance Office: Driril budget decreased by $213K after review.
+#0428  Finance Office: Driril budget decreased by $273K.
+#0429  Finance Office: Driril budget increased by $100K per the revised plan.
+#0430  Finance Office: Driril budget increased by $75K.
+#0431  Finance Office: Driril budget decreased by $90K per the revised plan.
+#0432  Legal email: Driril weekly sync moved to Wednesdays.
+#0433  Finance Office: Driril budget increased by $396K.
+#0434  Finance Office: Driril budget increased by $100K per the revised plan.
+#0435  Vendor call: Driril vendor onboarding call scheduled for Monday.
+#0436  Finance Office: Driril budget decreased by $45K after review.
+#0437  Finance Office: Driril budget increased by $130K per the revised plan.
+#0438  Finance Office: Driril budget decreased by $135K.
+#0439  Finance Office: Withdraw update #0233.
+#0440  PMO note: Driril weekly sync moved to Wednesdays.
+#0441  Finance Office: Driril purchase order FC-1018 closed.
+#0442  Finance Office: Driril budget increased by $31K.
+#0443  Finance Office: Driril budget decreased by $25K per the revised plan.
+#0444  Finance Office: Driril budget increased by $95K per the revised plan.
+#0445  Finance Office: Driril budget decreased by $67K per the revised plan.
+#0446  Finance Office: Driril budget increased by $105K after review.
+#0447  Legal email: Driril test environment back online.
+#0448  Marketing email: Driril test environment back online.
+#0449  Sales update: Driril design review moved to Room 6C.
+#0450  Vendor call: Driril weekly sync moved to Tuesdays.
+#0451  Marketing email: Driril test environment back online.
+#0452  Finance Office: Driril budget increased by $120K per the revised plan.
+#0453  Finance Office: Driril budget decreased by $536K.
+#0454  Facilities ticket: Driril site visit confirmed for Friday.
+#0455  Finance Office: Driril budget increased by $100K.
+#0456  Marketing email: Driril design review moved to Room 3B.
+#0457  Finance Office: Withdraw update #0337; it was entered in error.
+#0458  Finance Office: Driril budget increased by $70K.
+#0459  Finance Office: Driril budget decreased by $130K per the revised plan.
+#0460  Operations chat: Driril security review passed.
+#0461  Finance Office: Driril budget increased by $564K after review.
+#0462  Finance Office: Withdraw update #0268; it was entered in error.
+#0463  Finance Office: Driril budget decreased by $90K after review.
+#0464  Finance Office: Driril budget increased by $115K per the revised plan.
+#0465  Finance Office: Driril budget decreased by $75K per the revised plan.
+#0466  Finance Office: Driril budget decreased by $85K.
+#0467  Marketing email: Driril design review moved to Room 4B.
+#0468  Finance Office: Driril budget decreased by $531K per the revised plan.
+#0469  Marketing email: Driril kickoff moved to Building 6.
+#0470  PMO note: Driril test environment back online.
+#0471  PMO note: Driril weekly sync moved to Wednesdays.
+#0472  Finance Office: Driril budget increased by $288K per the revised plan.
+#0473  Finance Office: Driril budget decreased by $32K.
+#0474  Finance Office: Driril budget decreased by $72K after review.
+#0475  Finance Office: Driril budget decreased by $140K per the revised plan.
+#0476  Finance Office: Driril budget increased by $20K after review.
+#0477  Finance Office: Withdraw update #0164; it was entered in error.
+#0478  Finance Office: Driril budget increased by $421K.
+#0479  Sales update: Driril security review passed.
+#0480  Operations chat: Driril design review moved to Room 4D.
+#0481  Marketing email: Driril status report filed for week 27.
+#0482  Finance Office: Driril budget increased by $130K per the revised plan.
+#0483  Finance Office: Driril budget decreased by $198K.
+#0484  Engineering email: Driril test environment back online.
+#0485  Finance Office: Reminder: Driril expense reports are due Tuesday.
+#0486  Finance Office: Driril budget decreased by $361K per the revised plan.
+#0487  Finance Office: Driril budget increased by $65K per the revised plan.
+#0488  Finance Office: Driril budget decreased by $486K after review.
+#0489  Sales update: Driril kickoff moved to Building 9.
+#0490  Engineering email: Driril design review moved to Room 1D.
+#0491  Legal email: Driril weekly sync moved to Fridays.
+#0492  Finance Office: Withdraw update #0344.
+#0493  Finance Office: Driril budget decreased by $56K after review.
+#0494  Finance Office: Driril budget decreased by $60K.
+#0495  Finance Office: Driril budget increased by $579K after review.
+#0496  Engineering email: Driril test environment back online.
+#0497  Legal email: Driril security review passed.
+#0498  Operations chat: Driril demo rescheduled to Thursday afternoon.
+#0499  Finance Office: Driril budget decreased by $55K per the revised plan.
+#0500  Finance Office: Driril budget increased by $156K.
+#0501  Finance Office: Driril budget decreased by $95K.
+#0502  Finance Office: Driril budget increased by $55K per the revised plan.
+#0503  Finance Office: Driril budget decreased by $384K per the revised plan.
+#0504  Finance Office: Driril budget decreased by $120K after review.
+#0505  Finance Office: Driril budget decreased by $90K after review.
+#0506  Finance Office: Driril budget decreased by $150K per the revised plan.
+#0507  Finance Office: Driril budget increased by $105K.
+#0508  Finance Office: Driril budget increased by $60K per the revised plan.
+#0509  Finance Office: Driril budget decreased by $35K.
+#0510  Finance Office: Withdraw update #0461.
+#0511  PMO note: Driril test environment back online.
+#0512  Finance Office: Withdraw update #0161.
+#0513  Finance Office: Withdraw update #0503; it was entered in error.
+#0514  Finance Office: Driril budget decreased by $80K per the revised plan.
+#0515  Finance Office: Driril audit notes filed.
+#0516  Operations chat: Driril design review moved to Room 1D.
+#0517  Engineering email: Driril weekly sync moved to Wednesdays.
+#0518  Vendor call: Driril documentation moved to the shared drive.
+#0519  Operations chat: Driril status report filed for week 5.
+#0520  Sales update: Driril status report filed for week 31.
+#0521  Legal email: Driril kickoff moved to Building 8.
+#0522  Finance Office: Driril budget increased by $64K per the revised plan.
+#0523  Finance Office: Driril budget decreased by $150K.
+#0524  Vendor call: Driril site visit confirmed for Thursday.
+#0525  Finance Office: Driril budget decreased by $5K.
+#0526  Finance Office: Driril budget decreased by $105K per the revised plan.
+#0527  Finance Office: Withdraw update #0478.
+#0528  Finance Office: Driril budget decreased by $135K per the revised plan.
+#0529  Finance Office: Driril budget increased by $55K after review.
+#0530  Facilities ticket: Driril security review passed.
+#0531  Finance Office: Withdraw update #0394; it was entered in error.
+#0532  Finance Office: Withdraw update #0286; it was entered in error.
+#0533  Finance Office: Driril budget increased by $15K per the revised plan.
+#0534  Finance Office: Driril budget decreased by $95K per the revised plan.
+#0535  Finance Office: Withdraw update #0433.
+#0536  Finance Office: Driril budget increased by $10K after review.
+#0537  Finance Office: Driril budget increased by $35K after review.
+#0538  Finance Office: Driril budget increased by $513K after review.
+#0539  Vendor call: Driril site visit confirmed for Tuesday.
+#0540  Operations chat: Driril design review moved to Room 6B.
+#0541  Finance Office: Driril budget increased by $100K per the revised plan.
+#0542  PMO note: Driril weekly sync moved to Wednesdays.
+#0543  Vendor call: Driril status report filed for week 39.
+#0544  Legal email: Driril kickoff moved to Building 7.
+#0545  Finance Office: Driril budget decreased by $150K.
+#0546  Finance Office: Driril budget increased by $145K.
+#0547  Sales update: Driril weekly sync moved to Tuesdays.
+#0548  Finance Office: Driril budget increased by $95K after review.
+#0549  Operations chat: Driril status report filed for week 26.
+#0550  PMO note: Driril kickoff moved to Building 2.
+#0551  Engineering email: Driril weekly sync moved to Thursdays.
+#0552  Finance Office: Withdraw update #0134; it was entered in error.
+#0553  Operations chat: Driril weekly sync moved to Tuesdays.
+#0554  Finance Office: Driril budget decreased by $507K after review.
+#0555  Finance Office: Driril budget increased by $459K.
+#0556  Finance Office: Driril budget decreased by $557K.
+#0557  Operations chat: Driril status report filed for week 39.
+#0558  Finance Office: Withdraw update #0453; it was entered in error.
+#0559  Finance Office: Driril audit notes filed.
+#0560  Finance Office: Driril budget increased by $65K.
+#0561  Finance Office: Withdraw update #0513.
+#0562  Finance Office: Driril budget increased by $261K after review.
+#0563  Finance Office: Withdraw update #0474; it was entered in error.
+#0564  Finance Office: Driril budget decreased by $439K after review.
+#0565  Finance Office: Driril budget increased by $65K after review.
+#0566  Finance Office: Withdraw update #0116; it was entered in error.
+#0567  Finance Office: Driril budget increased by $105K per the revised plan.
+#0568  Finance Office: Withdraw update #0092; it was entered in error.
+#0569  Finance Office: Driril budget increased by $25K after review.
+#0570  Vendor call: Driril status report filed for week 40.
+#0571  Finance Office: Withdraw update #0473; it was entered in error.
+#0572  Legal email: Driril test environment back online.
+#0573  Marketing email: Driril status report filed for week 29.
+#0574  Finance Office: Driril budget decreased by $35K after review.
+#0575  Finance Office: Driril budget decreased by $40K per the revised plan.
+#0576  Finance Office: Driril budget increased by $15K after review.
+#0577  Finance Office: Driril budget increased by $135K per the revised plan.
+#0578  Finance Office: Driril budget increased by $150K per the revised plan.
+#0579  Finance Office: Driril invoice batch FC-5241 archived.
+#0580  Finance Office: Driril budget increased by $28K after review.
+#0581  Sales update: Driril demo rescheduled to Tuesday afternoon.
+#0582  Legal email: Driril demo rescheduled to Tuesday afternoon.
+#0583  Finance Office: Driril budget increased by $110K.
+#0584  Sales update: Driril weekly sync moved to Mondays.
+#0585  Finance Office: Driril budget increased by $35K.
+#0586  Finance Office: Driril invoice batch FC-8968 archived.
+#0587  Vendor call: Driril kickoff moved to Building 9.
+#0588  Finance Office: Driril budget decreased by $105K per the revised plan.
+#0589  Finance Office: Driril budget decreased by $90K.
+#0590  Finance Office: Driril budget increased by $70K after review.
+#0591  Finance Office: Driril budget increased by $503K per the revised plan.
+#0592  Finance Office: Driril budget increased by $125K after review.
+#0593  PMO note: Driril site visit confirmed for Tuesday.
+#0594  Finance Office: Driril budget increased by $130K per the revised plan.
+#0595  Finance Office: Withdraw update #0066.
+#0596  Sales update: Driril demo rescheduled to Friday afternoon.
+#0597  Operations chat: Driril site visit confirmed for Tuesday.
+#0598  Finance Office: Withdraw update #0554; it was entered in error.
+#0599  Finance Office: Driril budget increased by $135K.
+#0600  Marketing email: Driril weekly sync moved to Mondays.
+#0601  Finance Office: Driril budget decreased by $186K per the revised plan.
+#0602  Engineering email: Driril weekly sync moved to Thursdays.
+#0603  Finance Office: Driril budget increased by $115K per the revised plan.
+#0604  Engineering email: Driril test environment back online.
+#0605  Sales update: Driril weekly sync moved to Mondays.
+#0606  Vendor call: Driril weekly sync moved to Mondays.
+#0607  Sales update: Driril sprint 16 retrospective notes posted.
+#0608  Vendor call: Driril vendor onboarding call scheduled for Thursday.
+#0609  Legal email: Driril design review moved to Room 3B.
+#0610  Legal email: Driril design review moved to Room 6B.
+#0611  Finance Office: Withdraw update #0283.
+#0612  Finance Office: Driril budget increased by $125K after review.
+#0613  Finance Office: Driril budget decreased by $568K.
+#0614  Vendor call: Driril test environment back online.
+#0615  Legal email: Driril status report filed for week 43.
+#0616  Finance Office: Driril budget increased by $20K per the revised plan.
+#0617  Finance Office: Withdraw update #0522.
+#0618  Finance Office: Driril budget increased by $100K per the revised plan.
+#0619  Engineering email: Driril status report filed for week 32.
+#0620  Finance Office: Driril budget increased by $80K.
+#0621  Finance Office: Driril budget increased by $526K per the revised plan.
+#0622  Marketing email: Driril design review moved to Room 4D.
+#0623  Marketing email: Driril test environment back online.
+#0624  Engineering email: Driril test environment back online.
+#0625  Finance Office: Driril budget increased by $45K.
+#0626  PMO note: Driril weekly sync moved to Mondays.
+#0627  Finance Office: Driril budget increased by $70K per the revised plan.
+#0628  Finance Office: Driril budget decreased by $412K after review.
+#0629  PMO note: Driril kickoff moved to Building 8.
+#0630  Finance Office: Driril budget decreased by $120K.
+#0631  Finance Office: Withdraw update #0571; it was entered in error.
+#0632  PMO note: Driril design review moved to Room 3B.
+#0633  Finance Office: Driril budget increased by $90K.
+#0634  Finance Office: Driril budget decreased by $125K.
+#0635  Vendor call: Driril sprint 2 retrospective notes posted.
+#0636  Finance Office: Driril invoice batch FC-8557 archived.
+#0637  Finance Office: Driril budget decreased by $492K after review.
+#0638  Finance Office: Withdraw update #0462.
+#0639  Finance Office: Driril budget increased by $434K per the revised plan.
+#0640  Finance Office: Driril budget increased by $150K after review.
+#0641  Finance Office: Withdraw update #0303.
+#0642  Finance Office: Withdraw update #0639; it was entered in error.
+#0643  Finance Office: Driril budget decreased by $145K.
+#0644  Finance Office: Driril budget increased by $70K after review.
+#0645  Facilities ticket: Driril weekly sync moved to Wednesdays.
+#0646  PMO note: Driril test environment back online.
+#0647  Finance Office: Driril budget decreased by $20K.
+#0648  Finance Office: Driril budget increased by $85K.
+#0649  Finance Office: Driril budget decreased by $90K.
+#0650  Vendor call: Driril demo rescheduled to Tuesday afternoon.
+#0651  Sales update: Driril weekly sync moved to Tuesdays.
+#0652  Finance Office: Driril budget decreased by $55K.
+#0653  Marketing email: Driril demo rescheduled to Monday afternoon.
+#0654  Finance Office: Driril budget decreased by $110K per the revised plan.
+#0655  Finance Office: Driril budget increased by $135K.
+#0656  Engineering email: Driril vendor onboarding call scheduled for Thursday.
+#0657  Sales update: Driril sprint 25 retrospective notes posted.
+#0658  Finance Office: Driril budget decreased by $25K per the revised plan.
+#0659  Legal email: Driril test environment back online.
+#0660  Finance Office: Driril budget decreased by $125K.
+#0661  Finance Office: Driril budget increased by $100K after review.
+#0662  Finance Office: Driril purchase order FC-4697 closed.
+#0663  Sales update: Driril weekly sync moved to Wednesdays.
+#0664  Engineering email: Driril design review moved to Room 3A.
+#0665  Finance Office: Withdraw update #0564.
+#0666  Sales update: Driril status report filed for week 9.
+#0667  Operations chat: Driril vendor onboarding call scheduled for Thursday.
+#0668  Finance Office: Withdraw update #0428; it was entered in error.
+#0669  Finance Office: Driril budget increased by $95K per the revised plan.
+#0670  Finance Office: Driril budget decreased by $100K after review.
+#0671  Finance Office: Driril budget increased by $35K per the revised plan.
+#0672  Finance Office: Driril audit notes filed.
+#0673  Operations chat: Driril risk register updated with 8 new items.
+#0674  Finance Office: Driril budget decreased by $55K after review.
+#0675  Finance Office: Driril budget decreased by $125K after review.
+#0676  Finance Office: Withdraw update #0203.
+#0677  Facilities ticket: Driril design review moved to Room 1A.
+#0678  Finance Office: Driril budget increased by $419K.
+#0679  Operations chat: Driril status report filed for week 41.
+#0680  Finance Office: Driril budget decreased by $391K.
+#0681  Operations chat: Driril site visit confirmed for Thursday.
+#0682  Finance Office: Driril budget increased by $239K.
+#0683  Finance Office: Driril finance review moved to Room 3B.
+#0684  Facilities ticket: Driril sprint 18 retrospective notes posted.
+#0685  Marketing email: Driril site visit confirmed for Monday.
+#0686  Finance Office: Driril budget increased by $478K after review.
+#0687  Finance Office: Withdraw update #0641.
+#0688  Legal email: Driril status report filed for week 38.
+#0689  Finance Office: Driril budget increased by $65K after review.
+#0690  Marketing email: Driril test environment back online.
+#0691  Finance Office: Driril budget increased by $96K after review.
+#0692  Finance Office: Withdraw update #0387; it was entered in error.
+#0693  Facilities ticket: Driril test environment back online.
+#0694  Finance Office: Driril invoice batch FC-4108 archived.
+#0695  Facilities ticket: Driril test environment back online.
+#0696  Finance Office: Driril budget decreased by $130K after review.
+#0697  Finance Office: Withdraw update #0580; it was entered in error.
+#0698  Legal email: Driril weekly sync moved to Thursdays.
+#0699  Finance Office: Driril purchase order FC-4155 closed.
+#0700  Vendor call: Driril status report filed for week 2.
+#0701  Finance Office: Withdraw update #0555.
+#0702  Operations chat: Driril risk register updated with 7 new items.
+#0703  Finance Office: Driril budget increased by $25K after review.
+#0704  Finance Office: Withdraw update #0216.
+#0705  Vendor call: Driril weekly sync moved to Mondays.
+#0706  Finance Office: Driril budget decreased by $80K per the revised plan.
+#0707  Legal email: Driril design review moved to Room 2A.
+#0708  Engineering email: Driril test environment back online.
+#0709  Finance Office: Withdraw update #0193; it was entered in error.
+#0710  Finance Office: Driril budget decreased by $122K after review.
+#0711  Marketing email: Driril test environment back online.
+#0712  Finance Office: Driril budget increased by $45K after review.
+#0713  Operations chat: Driril site visit confirmed for Thursday.
+#0714  Finance Office: Driril budget increased by $140K after review.
+#0715  Finance Office: Driril budget decreased by $80K after review.
+#0716  Operations chat: Driril status report filed for week 29.
+#0717  Marketing email: Driril risk register updated with 9 new items.
+#0718  Finance Office: Driril budget increased by $145K.
+#0719  Finance Office: Withdraw update #0682; it was entered in error.
+#0720  Finance Office: Withdraw update #0631; it was entered in error.
+#0721  Engineering email: Driril demo rescheduled to Tuesday afternoon.
+#0722  Finance Office: Withdraw update #0483; it was entered in error.
+#0723  Engineering email: Driril site visit confirmed for Thursday.
+#0724  Operations chat: Driril test environment back online.
+#0725  Facilities ticket: Driril kickoff moved to Building 8.
+#0726  Operations chat: Driril kickoff moved to Building 4.
+#0727  Operations chat: Driril kickoff moved to Building 5.
+#0728  Sales update: Driril test environment back online.
+#0729  PMO note: Driril test environment back online.
+#0730  Legal email: Driril design review moved to Room 3C.
+#0731  Finance Office: Withdraw update #0218.
+#0732  PMO note: Driril design review moved to Room 1D.
+#0733  Finance Office: Driril budget increased by $145K per the revised plan.
+#0734  Finance Office: Driril purchase order FC-4051 closed.
+#0735  Finance Office: Withdraw update #0442; it was entered in error.
+#0736  PMO note: Driril status report filed for week 38.
+#0737  Legal email: Driril test environment back online.
+#0738  Finance Office: Withdraw update #0335; it was entered in error.
+#0739  Finance Office: Driril budget decreased by $527K per the revised plan.
+#0740  Finance Office: Driril budget decreased by $95K after review.
+#0741  Operations chat: Driril sprint 2 retrospective notes posted.
+#0742  Sales update: Driril test environment back online.
+#0743  Facilities ticket: Driril sprint 45 retrospective notes posted.
+#0744  Finance Office: Withdraw update #0601.
+#0745  Vendor call: Driril test environment back online.
+#0746  Finance Office: Withdraw update #0359.
+#0747  Finance Office: Driril budget decreased by $3K after review.
+#0748  Finance Office: Reminder: Driril expense reports are due Friday.
+#0749  Vendor call: Driril design review moved to Room 6B.
+#0750  Legal email: Driril kickoff moved to Building 7.
+#0751  Finance Office: Driril budget decreased by $75K per the revised plan.
+#0752  Finance Office: Driril budget decreased by $85K per the revised plan.
+#0753  Facilities ticket: Driril kickoff moved to Building 2.
+#0754  Finance Office: Driril budget increased by $125K per the revised plan.
+#0755  Finance Office: Driril budget increased by $105K after review.
+#0756  Finance Office: Driril budget increased by $40K after review.
+#0757  Finance Office: Driril budget increased by $20K.
+#0758  Finance Office: Withdraw update #0423.
+#0759  Finance Office: Driril budget increased by $125K.
+#0760  Finance Office: Withdraw update #0621; it was entered in error.
+#0761  Finance Office: Withdraw update #0472.
+#0762  Finance Office: Withdraw update #0369.
+#0763  Finance Office: Driril budget decreased by $249K after review.
+#0764  Marketing email: Driril test environment back online.
+#0765  Finance Office: Withdraw update #0680; it was entered in error.
+#0766  PMO note: Driril test environment back online.
+#0767  Facilities ticket: Driril kickoff moved to Building 6.
+#0768  Facilities ticket: Driril test environment back online.
+#0769  Finance Office: Driril budget decreased by $145K.
+#0770  Finance Office: Driril budget increased by $20K after review.
+#0771  Finance Office: Driril budget decreased by $45K.
+#0772  Finance Office: Driril budget decreased by $80K.
+#0773  Finance Office: Driril budget increased by $75K.
+#0774  Finance Office: Withdraw update #0493.
+#0775  Finance Office: Driril budget decreased by $35K after review.
+#0776  Sales update: Driril weekly sync moved to Tuesdays.
+#0777  Operations chat: Driril test environment back online.
+#0778  Finance Office: Driril budget decreased by $304K after review.
+#0779  PMO note: Driril weekly sync moved to Wednesdays.
+#0780  PMO note: Driril status report filed for week 2.
+#0781  Finance Office: Withdraw update #0421.
+#0782  PMO note: Driril test environment back online.
+#0783  Sales update: Driril test environment back online.
+#0784  Legal email: Driril status report filed for week 36.
+#0785  PMO note: Driril site visit confirmed for Friday.
+#0786  Finance Office: Driril budget increased by $95K.
+#0787  Finance Office: Driril budget increased by $105K.
+#0788  Finance Office: Driril budget decreased by $130K after review.
+#0789  Marketing email: Driril kickoff moved to Building 5.
+#0790  Finance Office: Driril budget decreased by $40K after review.
+#0791  Finance Office: Driril budget decreased by $70K.
+#0792  Finance Office: Driril budget increased by $10K.
+#0793  Vendor call: Driril site visit confirmed for Monday.
+#0794  PMO note: Driril demo rescheduled to Friday afternoon.
+#0795  Finance Office: Driril budget increased by $150K after review.
+#0796  Finance Office: Withdraw update #0678; it was entered in error.
+#0797  Finance Office: Withdraw update #0112; it was entered in error.
+#0798  Legal email: Driril weekly sync moved to Thursdays.
+#0799  Finance Office: Driril budget increased by $60K per the revised plan.
+#0800  Legal email: Driril test environment back online.
+#0801  Vendor call: Driril documentation moved to the shared drive.
+#0802  Finance Office: Driril budget increased by $55K after review.
+#0803  Finance Office: Withdraw update #0307; it was entered in error.
+#0804  Finance Office: Driril budget increased by $532K per the revised plan.
+#0805  Finance Office: Driril budget decreased by $150K after review.
+#0806  Finance Office: Driril budget increased by $90K after review.
+#0807  Finance Office: Driril budget decreased by $125K after review.
+#0808  PMO note: Driril weekly sync moved to Mondays.
+#0809  Finance Office: Driril budget increased by $87K after review.
+#0810  Finance Office: Driril budget increased by $541K after review.
+#0811  Finance Office: Withdraw update #0761.
+#0812  Finance Office: Driril budget increased by $75K.
+#0813  Marketing email: Driril kickoff moved to Building 3.
+#0814  Finance Office: Withdraw update #0407.
+#0815  Legal email: Driril sprint 12 retrospective notes posted.
+#0816  Finance Office: Withdraw update #0510; it was entered in error.
+#0817  Finance Office: Driril budget decreased by $115K per the revised plan.
+#0818  Finance Office: Reminder: Driril expense reports are due Friday.
+#0819  Marketing email: Driril site visit confirmed for Wednesday.
+#0820  Engineering email: Driril site visit confirmed for Monday.
+#0821  Legal email: Driril weekly sync moved to Wednesdays.
+#0822  Finance Office: Driril budget decreased by $125K per the revised plan.
+#0823  Finance Office: Withdraw update #0179; it was entered in error.
+#0824  Legal email: Driril sprint 24 retrospective notes posted.
+#0825  Finance Office: Driril budget increased by $20K per the revised plan.
+#0826  PMO note: Driril kickoff moved to Building 3.
+#0827  Finance Office: Driril budget decreased by $60K.
+#0828  Finance Office: Withdraw update #0121; it was entered in error.
+#0829  Finance Office: Driril budget increased by $45K.
+#0830  Finance Office: Driril budget decreased by $591K.
+#0831  Sales update: Driril sprint 44 retrospective notes posted.
+#0832  Finance Office: Withdraw update #0809; it was entered in error.
+#0833  Marketing email: Driril site visit confirmed for Monday.
+#0834  Finance Office: Driril budget increased by $599K per the revised plan.
+#0835  Marketing email: Driril design review moved to Room 3C.
+#0836  Facilities ticket: Driril site visit confirmed for Monday.
+#0837  Finance Office: Withdraw update #0401.
+#0838  Finance Office: Driril budget increased by $20K after review.
+#0839  Marketing email: Driril test environment back online.
+#0840  Engineering email: Driril weekly sync moved to Thursdays.
+#0841  Operations chat: Driril kickoff moved to Building 3.
+#0842  Finance Office: Driril budget decreased by $301K per the revised plan.
+#0843  Finance Office: Driril budget increased by $150K after review.
+#0844  Vendor call: Driril weekly sync moved to Fridays.
+#0845  Finance Office: Withdraw update #0538.
+#0846  Finance Office: Driril budget decreased by $60K.
+#0847  Finance Office: Withdraw update #0294.
+#0848  Vendor call: Driril security review passed.
+#0849  Finance Office: Driril budget increased by $135K after review.
+#0850  Finance Office: Driril budget decreased by $50K after review.
+#0851  PMO note: Driril kickoff moved to Building 7.
+#0852  Finance Office: Driril budget increased by $65K per the revised plan.
+#0853  Finance Office: Withdraw update #0778.
+#0854  Legal email: Driril site visit confirmed for Thursday.
+#0855  Finance Office: Driril budget increased by $456K.
+#0856  Finance Office: Driril budget increased by $70K per the revised plan.
+#0857  Operations chat: Driril weekly sync moved to Tuesdays.
+#0858  Sales update: Driril weekly sync moved to Tuesdays.
+#0859  Finance Office: Withdraw update #0165; it was entered in error.
+#0860  Finance Office: Driril budget decreased by $93K after review.
+#0861  Sales update: Driril kickoff moved to Building 3.
+#0862  Finance Office: Withdraw update #0796; it was entered in error.
+#0863  Finance Office: Driril budget decreased by $85K after review.
+#0864  Marketing email: Driril sprint 10 retrospective notes posted.
+#0865  Finance Office: Driril budget increased by $125K after review.
+#0866  Sales update: Driril test environment back online.
+#0867  Sales update: Driril weekly sync moved to Mondays.
+#0868  Sales update: Driril test environment back online.
+#0869  Finance Office: Driril budget decreased by $90K per the revised plan.
+#0870  Finance Office: Driril budget decreased by $115K.
+#0871  PMO note: Driril test environment back online.
+#0872  Facilities ticket: Driril kickoff moved to Building 7.
+#0873  Finance Office: Driril budget decreased by $45K.
+#0874  Finance Office: Withdraw update #0701.
+#0875  Finance Office: Driril budget decreased by $95K.
+#0876  Finance Office: Driril budget decreased by $45K after review.
+#0877  Vendor call: Driril weekly sync moved to Mondays.
+#0878  Facilities ticket: Driril kickoff moved to Building 7.
+#0879  Finance Office: Driril budget decreased by $80K.
+#0880  Finance Office: Driril budget decreased by $145K.
+#0881  Finance Office: Driril audit notes filed.
+#0882  Finance Office: Driril budget increased by $5K per the revised plan.
+#0883  Marketing email: Driril test environment back online.
+#0884  Vendor call: Driril vendor onboarding call scheduled for Friday.
+#0885  Facilities ticket: Driril sprint 46 retrospective notes posted.
+#0886  Finance Office: Driril budget decreased by $10K.
+#0887  Facilities ticket: Driril site visit confirmed for Thursday.
+#0888  Facilities ticket: Driril test environment back online.
+#0889  Finance Office: Driril budget increased by $373K per the revised plan.
+#0890  Finance Office: Withdraw update #0111; it was entered in error.
+#0891  Finance Office: Withdraw update #0722.
+#0892  Vendor call: Driril test environment back online.
+#0893  PMO note: Driril weekly sync moved to Wednesdays.
+#0894  Sales update: Driril demo rescheduled to Monday afternoon.
+#0895  Operations chat: Driril test environment back online.
+#0896  Finance Office: Driril budget increased by $70K.
+#0897  Finance Office: Withdraw update #0096; it was entered in error.
+#0898  Finance Office: Driril budget decreased by $95K.
+#0899  Finance Office: Driril budget increased by $524K after review.
+#0900  Finance Office: Withdraw update #0113.
+#0901  Finance Office: Driril budget increased by $50K after review.
+#0902  Facilities ticket: Driril weekly sync moved to Wednesdays.
+#0903  Sales update: Driril test environment back online.
+#0904  Finance Office: Driril budget increased by $65K.
+#0905  Finance Office: Withdraw update #0512.
+#0906  Finance Office: Driril budget increased by $55K per the revised plan.
+#0907  Finance Office: Driril budget increased by $229K per the revised plan.
+#0908  Operations chat: Driril status report filed for week 26.
+#0909  Finance Office: Driril budget decreased by $45K per the revised plan.
+#0910  Finance Office: Withdraw update #0149.
+#0911  Marketing email: Driril kickoff moved to Building 5.
+#0912  Finance Office: Withdraw update #0637.
+#0913  Finance Office: Driril budget increased by $125K per the revised plan.
+#0914  Finance Office: Driril budget decreased by $20K.
+#0915  Finance Office: Driril budget decreased by $90K after review.
+#0916  Legal email: Driril weekly sync moved to Mondays.
+#0917  Finance Office: Driril budget decreased by $54K per the revised plan.
+#0918  Finance Office: Withdraw update #0241; it was entered in error.
+#0919  Finance Office: Driril purchase order FC-8550 closed.
+#0920  Operations chat: Driril test environment back online.
+#0921  Legal email: Driril design review moved to Room 6A.
+#0922  PMO note: Driril site visit confirmed for Monday.
+#0923  Finance Office: Driril budget decreased by $50K after review.
+#0924  Finance Office: Withdraw update #0720.
+#0925  Legal email: Driril status report filed for week 21.
+#0926  Engineering email: Driril site visit confirmed for Tuesday.
+#0927  Engineering email: Driril sprint 48 retrospective notes posted.
+#0928  Legal email: Driril security review passed.
+#0929  Finance Office: Driril budget increased by $45K after review.
+#0930  Finance Office: Driril budget decreased by $75K after review.
+#0931  PMO note: Driril kickoff moved to Building 8.
+#0932  Facilities ticket: Driril weekly sync moved to Mondays.
+#0933  Operations chat: Driril security review passed.
+#0934  Finance Office: Driril budget increased by $110K after review.
+#0935  Operations chat: Driril kickoff moved to Building 7.
+#0936  Finance Office: Withdraw update #0306.
+#0937  Sales update: Driril design review moved to Room 4C.
+#0938  Operations chat: Driril design review moved to Room 2B.
+#0939  Finance Office: Driril budget decreased by $11K.
+#0940  Vendor call: Driril status report filed for week 23.
+#0941  Marketing email: Driril kickoff moved to Building 4.
+#0942  PMO note: Driril kickoff moved to Building 4.
+#0943  Finance Office: Driril budget increased by $95K per the revised plan.
+#0944  Engineering email: Driril sprint 13 retrospective notes posted.
+#0945  Finance Office: Driril budget decreased by $15K per the revised plan.
+#0946  Finance Office: Withdraw update #0405.
+#0947  Finance Office: Driril budget decreased by $130K after review.
+#0948  Finance Office: Withdraw update #0760; it was entered in error.
+#0949  Vendor call: Driril test environment back online.
+#0950  Finance Office: Withdraw update #0354; it was entered in error.
+#0951  Vendor call: Driril weekly sync moved to Fridays.
+#0952  Vendor call: Driril weekly sync moved to Thursdays.
+#0953  Vendor call: Driril test environment back online.
+#0954  Finance Office: Driril cost center code changed to FC-7579.
+#0955  Finance Office: Driril budget increased by $63K.
+#0956  Finance Office: Driril budget increased by $90K after review.
+#0957  Legal email: Driril weekly sync moved to Tuesdays.
+#0958  Finance Office: Driril budget decreased by $85K.
+#0959  Finance Office: Withdraw update #0842.
+#0960  Facilities ticket: Driril design review moved to Room 5A.
+#0961  Finance Office: Driril budget decreased by $145K.
+#0962  Finance Office: Driril budget decreased by $110K after review.
+#0963  Finance Office: Driril budget decreased by $10K.
+#0964  Finance Office: Driril budget decreased by $65K.
+#0965  Finance Office: Driril budget decreased by $55K per the revised plan.
+#0966  Finance Office: Driril budget decreased by $40K.
+#0967  Vendor call: Driril test environment back online.
+#0968  Finance Office: Driril budget decreased by $25K per the revised plan.
+#0969  Facilities ticket: Driril test environment back online.
+#0970  Finance Office: Driril budget increased by $50K after review.
+#0971  Engineering email: Driril status report filed for week 39.
+#0972  Finance Office: Withdraw update #0834; it was entered in error.
+#0973  Finance Office: Driril budget increased by $75K after review.
+#0974  PMO note: Driril risk register updated with 5 new items.
+#0975  Finance Office: Driril budget increased by $90K per the revised plan.
+#0976  Finance Office: Driril budget decreased by $65K after review.
+#0977  Finance Office: Driril budget decreased by $130K.
+#0978  Finance Office: Driril budget decreased by $50K.
+#0979  Finance Office: Driril budget decreased by $15K.
+#0980  Finance Office: Driril budget decreased by $20K.
+#0981  Sales update: Driril site visit confirmed for Friday.
+#0982  Finance Office: Driril budget increased by $517K.
+#0983  Finance Office: Driril budget decreased by $70K.
+#0984  Finance Office: Driril budget decreased by $115K per the revised plan.
+#0985  Finance Office: Driril budget decreased by $95K.
+#0986  Legal email: Driril test environment back online.
+#0987  Finance Office: Driril budget increased by $65K.
+#0988  Finance Office: Withdraw update #0889.
+#0989  Marketing email: Driril design review moved to Room 1B.
+#0990  Finance Office: Driril budget increased by $572K.
+#0991  Finance Office: Withdraw update #0990.
+#0992  Operations chat: Driril site visit confirmed for Monday.
+#0993  Vendor call: Driril risk register updated with 8 new items.
+#0994  Finance Office: Driril budget increased by $125K.
+#0995  Engineering email: Driril design review moved to Room 4A.
+#0996  PMO note: Driril design review moved to Room 6B.
+#0997  Finance Office: Driril budget increased by $30K.
+#0998  Finance Office: Withdraw update #0063; it was entered in error.
+#0999  Finance Office: Driril budget decreased by $85K per the revised plan.
+#1000  Legal email: Driril site visit confirmed for Tuesday.
+#1001  Finance Office: Driril budget increased by $120K after review.
+#1002  Finance Office: Withdraw update #0427; it was entered in error.
+#1003  Finance Office: Withdraw update #0804.
+#1004  Vendor call: Driril security review passed.
+#1005  Finance Office: Driril budget decreased by $150K.
+#1006  Finance Office: Withdraw update #0254.
+#1007  Finance Office: Driril budget decreased by $10K per the revised plan.
+#1008  Finance Office: Driril budget increased by $15K.
+#1009  Engineering email: Driril risk register updated with 8 new items.
+#1010  Vendor call: Driril sprint 39 retrospective notes posted.
+#1011  Finance Office: Withdraw update #0562; it was entered in error.
+#1012  Vendor call: Driril design review moved to Room 2A.
+#1013  Finance Office: Withdraw update #0445; it was entered in error.
+#1014  Finance Office: Driril budget decreased by $95K per the revised plan.
+#1015  Finance Office: Driril budget increased by $125K per the revised plan.
+#1016  Vendor call: Driril site visit confirmed for Wednesday.
+#1017  Finance Office: Withdraw update #0439; it was entered in error.
+#1018  Finance Office: Withdraw update #0075.
+#1019  Finance Office: Driril budget increased by $115K after review.
+#1020  Legal email: Driril kickoff moved to Building 4.
+#1021  Finance Office: Driril budget decreased by $5K.
+#1022  Sales update: Driril design review moved to Room 5A.
+#1023  Facilities ticket: Driril status report filed for week 17.
+#1024  Finance Office: Driril budget decreased by $70K after review.
+#1025  Finance Office: Driril budget increased by $83K per the revised plan.
+#1026  Finance Office: Driril budget increased by $80K per the revised plan.
+#1027  Finance Office: Driril budget increased by $115K per the revised plan.
+#1028  Finance Office: Driril budget decreased by $45K per the revised plan.
+#1029  Vendor call: Driril kickoff moved to Building 7.
+#1030  Finance Office: Driril budget decreased by $35K.
+#1031  Finance Office: Withdraw update #0486.
+#1032  Legal email: Driril security review passed.
+#1033  Finance Office: Driril budget decreased by $110K per the revised plan.
+#1034  Engineering email: Driril weekly sync moved to Thursdays.
+#1035  Sales update: Driril test environment back online.
+#1036  Finance Office: Driril budget decreased by $343K per the revised plan.
+#1037  Finance Office: Driril budget decreased by $80K per the revised plan.
+#1038  Finance Office: Driril budget decreased by $100K per the revised plan.
+#1039  Finance Office: Withdraw update #0924.
+#1040  Finance Office: Driril budget increased by $549K per the revised plan.
+#1041  Finance Office: Driril budget increased by $20K per the revised plan.
+#1042  Vendor call: Driril weekly sync moved to Mondays.
+#1043  Finance Office: Driril budget decreased by $115K per the revised plan.
+#1044  Finance Office: Withdraw update #0709; it was entered in error.
+#1045  Finance Office: Driril budget decreased by $85K.
+#1046  Finance Office: Driril budget increased by $70K.
+#1047  Vendor call: Driril kickoff moved to Building 2.
+#1048  Legal email: Driril test environment back online.
+#1049  Finance Office: Driril budget increased by $130K after review.
+#1050  Engineering email: Driril site visit confirmed for Tuesday.
+#1051  Finance Office: Driril budget decreased by $145K after review.
+#1052  Finance Office: Withdraw update #0495.
+#1053  PMO note: Driril test environment back online.
+#1054  Operations chat: Driril weekly sync moved to Wednesdays.
+#1055  Vendor call: Driril documentation moved to the shared drive.
+#1056  Finance Office: Driril budget decreased by $85K after review.
+#1057  Engineering email: Driril kickoff moved to Building 8.
+#1058  Finance Office: Driril budget decreased by $50K per the revised plan.
+#1059  Finance Office: Driril budget decreased by $50K.
+#1060  Operations chat: Driril weekly sync moved to Thursdays.
+#1061  PMO note: Driril test environment back online.
+#1062  Finance Office: Withdraw update #0686; it was entered in error.
+#1063  Facilities ticket: Driril status report filed for week 35.
+#1064  Finance Office: Driril budget increased by $125K after review.
+#1065  Finance Office: Driril budget increased by $138K per the revised plan.
+#1066  Finance Office: Driril budget increased by $45K after review.
+#1067  Finance Office: Driril receipts scanned.
+#1068  Finance Office: Driril budget decreased by $221K after review.
+#1069  Finance Office: Driril purchase order FC-8402 closed.
+#1070  Finance Office: Driril budget increased by $20K per the revised plan.
+#1071  Finance Office: Withdraw update #0731; it was entered in error.
+#1072  Finance Office: Withdraw update #0747; it was entered in error.
+#1073  Finance Office: Driril budget decreased by $90K.
+#1074  Finance Office: Driril budget increased by $140K.
+#1075  Finance Office: Driril budget increased by $55K after review.
+#1076  Finance Office: Driril budget increased by $90K after review.
+#1077  Finance Office: Reminder: Driril expense reports are due Tuesday.
+#1078  Finance Office: Withdraw update #0175.
+#1079  Finance Office: Driril budget decreased by $40K per the revised plan.
+#1080  Finance Office: Withdraw update #0982.
+#1081  Finance Office: Driril budget increased by $100K after review.
+#1082  Vendor call: Driril kickoff moved to Building 8.
+#1083  Sales update: Driril test environment back online.
+#1084  Operations chat: Driril site visit confirmed for Tuesday.
+#1085  Sales update: Driril design review moved to Room 2C.
+#1086  Facilities ticket: Driril test environment back online.
+#1087  Finance Office: Driril budget increased by $30K per the revised plan.
+#1088  Finance Office: Driril budget decreased by $487K after review.
+#1089  Finance Office: Driril budget decreased by $85K.
+#1090  Legal email: Driril test environment back online.
+#1091  Finance Office: Driril budget decreased by $125K per the revised plan.
+#1092  Finance Office: Driril budget decreased by $25K.
+#1093  Finance Office: Withdraw update #0642; it was entered in error.
+#1094  Finance Office: Driril budget increased by $40K.
+#1095  PMO note: Driril kickoff moved to Building 5.
+#1096  Marketing email: Driril status report filed for week 15.
+#1097  Finance Office: Driril budget increased by $5K.
+#1098  Marketing email: Driril kickoff moved to Building 4.
+#1099  Finance Office: Driril budget decreased by $120K per the revised plan.
+#1100  Finance Office: Driril budget increased by $5K per the revised plan.
+#1101  Operations chat: Driril weekly sync moved to Mondays.
+#1102  Finance Office: Driril budget increased by $150K per the revised plan.
+#1103  PMO note: Driril demo rescheduled to Monday afternoon.
+#1104  Finance Office: Withdraw update #0591; it was entered in error.
+#1105  Finance Office: Driril purchase order FC-8375 closed.
+#1106  Vendor call: Driril kickoff moved to Building 3.
+#1107  Finance Office: Driril budget decreased by $100K per the revised plan.
+#1108  Marketing email: Driril design review moved to Room 5D.
+#1109  Finance Office: Driril budget decreased by $10K per the revised plan.
+#1110  Finance Office: Driril budget increased by $321K.
+#1111  Finance Office: Driril audit notes filed.
+#1112  Finance Office: Driril budget decreased by $60K after review.
+#1113  Sales update: Driril site visit confirmed for Thursday.
+#1114  PMO note: Driril design review moved to Room 4B.
+#1115  Finance Office: Driril budget decreased by $80K.
+#1116  Finance Office: Driril budget decreased by $55K.
+#1117  Legal email: Driril security review passed.
+#1118  Finance Office: Withdraw update #0411; it was entered in error.
+#1119  Operations chat: Driril test environment back online.
+#1120  Finance Office: Driril budget decreased by $35K after review.
+#1121  Finance Office: Driril budget increased by $75K per the revised plan.
+#1122  Finance Office: Driril quarterly audit scheduled for Friday.
+#1123  PMO note: Driril status report filed for week 12.
+#1124  Finance Office: Driril budget increased by $80K.
+#1125  Finance Office: Driril budget increased by $35K after review.
+#1126  Vendor call: Driril status report filed for week 41.
+#1127  Finance Office: Driril budget increased by $120K after review.
+#1128  Finance Office: Driril budget increased by $55K.
+#1129  Finance Office: Driril budget decreased by $197K after review.
+#1130  Marketing email: Driril sprint 34 retrospective notes posted.
+#1131  Finance Office: Driril budget decreased by $95K.
+#1132  Finance Office: Driril budget decreased by $25K.
+#1133  Engineering email: Driril test environment back online.
+#1134  Finance Office: Withdraw update #0500; it was entered in error.
+#1135  Finance Office: Driril budget decreased by $150K after review.
+#1136  Finance Office: Withdraw update #1129; it was entered in error.
+#1137  Finance Office: Driril budget decreased by $5K.
+#1138  Finance Office: Driril budget decreased by $322K per the revised plan.
+#1139  Finance Office: Driril budget increased by $85K.
+#1140  Operations chat: Driril design review moved to Room 1A.
+#1141  Operations chat: Driril test environment back online.
+#1142  Finance Office: Driril budget increased by $140K after review.
+#1143  Finance Office: Withdraw update #0556; it was entered in error.
+#1144  Finance Office: Driril budget decreased by $20K.
+#1145  Operations chat: Driril design review moved to Room 3C.
+#1146  Operations chat: Driril test environment back online.
+#1147  Sales update: Driril weekly sync moved to Mondays.
+#1148  Finance Office: Driril budget decreased by $65K per the revised plan.
+#1149  Finance Office: Withdraw update #1017; it was entered in error.
+#1150  Legal email: Driril kickoff moved to Building 6.
+#1151  Finance Office: Driril budget increased by $65K after review.
+#1152  Finance Office: Driril budget decreased by $100K per the revised plan.
+#1153  Facilities ticket: Driril risk register updated with 9 new items.
+#1154  Finance Office: Reminder: Driril expense reports are due Tuesday.
+#1155  Finance Office: Withdraw update #1040.
+#1156  Finance Office: Driril budget decreased by $30K after review.
+#1157  Finance Office: Driril budget increased by $70K after review.
+#1158  Finance Office: Driril budget decreased by $45K per the revised plan.
+#1159  PMO note: Driril design review moved to Room 2A.
+#1160  Finance Office: Withdraw update #0638; it was entered in error.
+#1161  Finance Office: Withdraw update #0126.
+#1162  Marketing email: Driril vendor onboarding call scheduled for Tuesday.
+#1163  Finance Office: Driril budget increased by $130K.
+#1164  Finance Office: Driril budget decreased by $10K after review.
+#1165  Finance Office: Driril budget decreased by $150K after review.
+#1166  Finance Office: Driril budget decreased by $85K per the revised plan.
+#1167  Facilities ticket: Driril kickoff moved to Building 7.
+#1168  Marketing email: Driril security review passed.
+#1169  Finance Office: Driril budget increased by $70K per the revised plan.
+#1170  Finance Office: Driril budget increased by $578K per the revised plan.
+#1171  Finance Office: Driril budget increased by $50K per the revised plan.
+#1172  Finance Office: Driril budget decreased by $130K.
+#1173  Finance Office: Withdraw update #0613.
+#1174  Finance Office: Driril budget decreased by $145K per the revised plan.
+#1175  Engineering email: Driril status report filed for week 22.
+#1176  Finance Office: Driril budget increased by $140K per the revised plan.
+#1177  Legal email: Driril weekly sync moved to Tuesdays.
+#1178  Finance Office: Withdraw update #0068; it was entered in error.
+#1179  Finance Office: Withdraw update #1104.
+#1180  Finance Office: Driril budget decreased by $120K.
+#1181  Facilities ticket: Driril design review moved to Room 4D.
+#1182  Finance Office: Driril budget increased by $10K per the revised plan.
+#1183  Finance Office: Driril budget increased by $90K.
+#1184  Finance Office: Driril budget decreased by $20K per the revised plan.
+#1185  Finance Office: Withdraw update #1025; it was entered in error.
+#1186  Finance Office: Driril budget decreased by $100K.
+#1187  Finance Office: Withdraw update #0811; it was entered in error.
+#1188  Finance Office: Driril budget increased by $398K after review.
+#1189  Finance Office: Driril cost center code changed to FC-2418.
+#1190  Facilities ticket: Driril site visit confirmed for Thursday.
+#1191  Engineering email: Driril kickoff moved to Building 4.
+#1192  Vendor call: Driril demo rescheduled to Monday afternoon.
+#1193  Finance Office: Withdraw update #0830; it was entered in error.
+#1194  PMO note: Driril demo rescheduled to Friday afternoon.
+#1195  Finance Office: Driril budget decreased by $135K.
+#1196  Finance Office: Driril budget increased by $25K per the revised plan.
+#1197  Finance Office: Driril budget decreased by $150K after review.
+#1198  Vendor call: Driril weekly sync moved to Fridays.
+#1199  Facilities ticket: Driril test environment back online.
+#1200  Facilities ticket: Driril risk register updated with 5 new items.
+#1201  Finance Office: Withdraw update #1138; it was entered in error.
+#1202  Finance Office: Withdraw update #0710; it was entered in error.
+#1203  Finance Office: Driril budget decreased by $35K after review.
+#1204  Finance Office: Driril budget decreased by $145K after review.
+#1205  Sales update: Driril security review passed.
+#1206  Sales update: Driril weekly sync moved to Mondays.
+#1207  Engineering email: Driril sprint 15 retrospective notes posted.
+#1208  Finance Office: Driril budget increased by $140K.
+#1209  Marketing email: Driril design review moved to Room 5D.
+#1210  Finance Office: Driril budget decreased by $20K after review.
+#1211  Finance Office: Driril budget increased by $70K after review.
+#1212  Finance Office: Withdraw update #1036.
+#1213  Finance Office: Driril budget decreased by $10K.
+#1214  Vendor call: Driril weekly sync moved to Thursdays.
+#1215  Finance Office: Driril budget increased by $105K per the revised plan.
+#1216  Operations chat: Driril kickoff moved to Building 8.
+#1217  Finance Office: Withdraw update #0415; it was entered in error.
+#1218  Finance Office: Driril budget increased by $5K after review.
+#1219  Finance Office: Driril budget increased by $413K after review.
+#1220  Finance Office: Driril budget increased by $55K after review.
+#1221  Finance Office: Driril budget decreased by $90K after review.
+#1222  PMO note: Driril weekly sync moved to Wednesdays.
+#1223  Finance Office: Driril budget decreased by $100K.
+#1224  Sales update: Driril site visit confirmed for Thursday.
+#1225  Facilities ticket: Driril design review moved to Room 5D.
+#1226  PMO note: Driril test environment back online.
+#1227  Facilities ticket: Driril sprint 32 retrospective notes posted.
+#1228  Finance Office: Driril budget increased by $60K after review.
+#1229  Vendor call: Driril status report filed for week 20.
+#1230  Finance Office: Withdraw update #0315; it was entered in error.
+#1231  Finance Office: Withdraw update #0381.
+#1232  Finance Office: Driril budget decreased by $110K per the revised plan.
+#1233  Finance Office: Withdraw update #0917.
+#1234  Finance Office: Withdraw update #0912; it was entered in error.
+#1235  Finance Office: Driril budget decreased by $75K per the revised plan.
+#1236  Finance Office: Driril quarterly audit scheduled for Tuesday.
+#1237  Finance Office: Driril budget increased by $45K.
+#1238  Finance Office: Driril budget increased by $10K per the revised plan.
+#1239  Finance Office: Driril budget increased by $90K.
+#1240  Finance Office: Driril budget decreased by $90K per the revised plan.
+#1241  Engineering email: Driril test environment back online.
+#1242  Finance Office: Withdraw update #0832.
+#1243  Vendor call: Driril weekly sync moved to Tuesdays.
+#1244  Finance Office: Driril budget increased by $40K per the revised plan.
+#1245  Sales update: Driril weekly sync moved to Fridays.
+#1246  Finance Office: Driril budget decreased by $55K after review.
+#1247  Operations chat: Driril design review moved to Room 3A.
+#1248  Finance Office: Driril budget increased by $115K per the revised plan.
+#1249  Finance Office: Driril budget decreased by $110K.
+#1250  Engineering email: Driril site visit confirmed for Tuesday.
+#1251  Facilities ticket: Driril test environment back online.
+#1252  Finance Office: Driril budget decreased by $45K.
+#1253  Finance Office: Withdraw update #0202.
+#1254  Finance Office: Driril budget decreased by $120K per the revised plan.
+#1255  Operations chat: Driril weekly sync moved to Tuesdays.
+#1256  Finance Office: Driril budget increased by $90K after review.
+#1257  Finance Office: Driril budget increased by $449K per the revised plan.
+#1258  Legal email: Driril kickoff moved to Building 5.
+#1259  Finance Office: Driril budget increased by $30K.
+#1260  Finance Office: Driril budget decreased by $25K per the revised plan.
+#1261  Finance Office: Driril budget decreased by $110K per the revised plan.
+#1262  Finance Office: Driril budget increased by $25K.
+#1263  Engineering email: Driril test environment back online.
+#1264  Finance Office: Driril budget decreased by $70K after review.
+#1265  Finance Office: Withdraw update #1201; it was entered in error.
+#1266  Finance Office: Withdraw update #1219; it was entered in error.
+#1267  Vendor call: Driril weekly sync moved to Fridays.
+#1268  Operations chat: Driril risk register updated with 7 new items.
+#1269  Marketing email: Driril status report filed for week 5.
+#1270  Marketing email: Driril status report filed for week 15.
+#1271  Finance Office: Driril budget decreased by $120K per the revised plan.
+#1272  Finance Office: Driril budget decreased by $90K after review.
+#1273  Finance Office: Driril budget decreased by $40K.
+#1274  Finance Office: Withdraw update #0065.
+#1275  Finance Office: Withdraw update #0531; it was entered in error.
+#1276  Operations chat: Driril sprint 28 retrospective notes posted.
+#1277  Finance Office: Driril budget increased by $120K after review.
+#1278  PMO note: Driril weekly sync moved to Wednesdays.
+#1279  Finance Office: Driril budget increased by $130K after review.
+#1280  Finance Office: Driril budget increased by $105K.
+#1281  Finance Office: Driril budget decreased by $130K after review.
+#1282  Vendor call: Driril design review moved to Room 2D.
+#1283  Operations chat: Driril test environment back online.
+#1284  Legal email: Driril design review moved to Room 6A.
+#1285  Finance Office: Driril budget decreased by $65K per the revised plan.
+#1286  Engineering email: Driril site visit confirmed for Monday.
+#1287  Finance Office: Driril budget decreased by $75K per the revised plan.
+#1288  Finance Office: Driril budget increased by $50K after review.
+#1289  Finance Office: Driril budget increased by $55K after review.
+#1290  Finance Office: Withdraw update #0891.
+#1291  Sales update: Driril weekly sync moved to Tuesdays.
+#1292  Finance Office: Driril budget decreased by $77K after review.
+#1293  Finance Office: Driril budget increased by $468K per the revised plan.
+#1294  Finance Office: Withdraw update #0855.
+#1295  Engineering email: Driril status report filed for week 45.
+#1296  Facilities ticket: Driril status report filed for week 47.
+#1297  Finance Office: Driril budget decreased by $150K.
+#1298  Finance Office: Driril cost center code changed to FC-6235.
+#1299  Finance Office: Driril budget increased by $75K per the revised plan.
+#1300  Finance Office: Withdraw update #0946.
+#1301  PMO note: Driril test environment back online.
+#1302  Marketing email: Driril status report filed for week 37.
+#1303  Engineering email: Driril status report filed for week 34.
+#1304  Marketing email: Driril status report filed for week 21.
+#1305  Finance Office: Driril budget decreased by $150K per the revised plan.
+#1306  Facilities ticket: Driril sprint 32 retrospective notes posted.
+#1307  Finance Office: Driril budget increased by $85K.
+#1308  Facilities ticket: Driril risk register updated with 7 new items.
+#1309  Finance Office: Driril budget decreased by $140K per the revised plan.
+#1310  Finance Office: Withdraw update #0350; it was entered in error.
+#1311  Operations chat: Driril demo rescheduled to Friday afternoon.
+#1312  PMO note: Driril test environment back online.
+#1313  Finance Office: Withdraw update #0860; it was entered in error.
+#1314  PMO note: Driril test environment back online.
+#1315  Legal email: Driril site visit confirmed for Tuesday.
+#1316  Operations chat: Driril test environment back online.
+#1317  Facilities ticket: Driril site visit confirmed for Monday.
+#1318  Finance Office: Driril budget decreased by $150K.
+#1319  Marketing email: Driril weekly sync moved to Fridays.
+#1320  Finance Office: Driril budget decreased by $115K.
+#1321  Finance Office: Driril budget decreased by $110K per the revised plan.
+#1322  Vendor call: Driril sprint 36 retrospective notes posted.
+#1323  Finance Office: Withdraw update #1068.
+#1324  Finance Office: Withdraw update #0148.
+#1325  Sales update: Driril status report filed for week 14.
+#1326  Sales update: Driril design review moved to Room 3A.
+#1327  Finance Office: Withdraw update #0691; it was entered in error.
+#1328  Finance Office: Driril budget increased by $20K after review.
+#1329  Vendor call: Driril weekly sync moved to Thursdays.
+#1330  Facilities ticket: Driril security review passed.
+#1331  Finance Office: Driril budget decreased by $150K after review.
+#1332  Finance Office: Driril budget increased by $85K.
+#1333  Finance Office: Driril budget decreased by $125K per the revised plan.
+#1334  Finance Office: Driril budget increased by $70K after review.
+#1335  Finance Office: Driril budget increased by $135K after review.
+#1336  Finance Office: Withdraw update #0939.
+#1337  Legal email: Driril test environment back online.
+#1338  Finance Office: Driril budget decreased by $55K after review.
+#1339  Marketing email: Driril status report filed for week 3.
+#1340  Finance Office: Driril budget increased by $90K.
+#1341  Finance Office: Driril budget decreased by $30K.
+#1342  Finance Office: Driril budget decreased by $5K after review.
+#1343  Vendor call: Driril status report filed for week 48.
+#1344  PMO note: Driril kickoff moved to Building 7.
+#1345  Finance Office: Driril budget increased by $85K after review.
+#1346  Marketing email: Driril site visit confirmed for Thursday.
+#1347  Finance Office: Driril budget increased by $90K.
+#1348  Finance Office: Driril budget increased by $150K.
+#1349  Finance Office: Driril budget decreased by $5K after review.
+#1350  Finance Office: Driril budget decreased by $65K after review.
+#1351  Finance Office: Driril budget decreased by $110K per the revised plan.
+#1352  Legal email: Driril status report filed for week 9.
+#1353  Engineering email: Driril design review moved to Room 5D.
+#1354  Engineering email: Driril weekly sync moved to Wednesdays.
+#1355  Finance Office: Driril budget decreased by $35K per the revised plan.
+#1356  Finance Office: Withdraw update #1003; it was entered in error.
+#1357  Marketing email: Driril test environment back online.
+#1358  Sales update: Driril design review moved to Room 4B.
+#1359  Finance Office: Driril budget increased by $150K after review.
+#1360  Finance Office: Driril budget decreased by $135K after review.
+#1361  Finance Office: Withdraw update #0859; it was entered in error.
+#1362  Operations chat: Driril status report filed for week 8.
+#1363  Finance Office: Driril budget increased by $50K per the revised plan.
+#1364  Finance Office: Withdraw update #1110.
+#1365  Finance Office: Driril budget increased by $70K after review.
+#1366  Legal email: Driril kickoff moved to Building 7.
+#1367  PMO note: Driril kickoff moved to Building 7.
+#1368  Finance Office: Driril budget increased by $50K.
+#1369  Marketing email: Driril weekly sync moved to Mondays.
+#1370  Marketing email: Driril kickoff moved to Building 8.
+#1371  Finance Office: Withdraw update #1002; it was entered in error.
+#1372  Finance Office: Driril budget increased by $40K.
+#1373  Operations chat: Driril kickoff moved to Building 4.
+#1374  Finance Office: Withdraw update #0744; it was entered in error.
+#1375  Finance Office: Driril budget decreased by $45K after review.
+#1376  Finance Office: Driril budget increased by $35K per the revised plan.
+#1377  Marketing email: Driril design review moved to Room 6A.
+#1378  Finance Office: Driril budget decreased by $110K.
+#1379  Finance Office: Driril budget increased by $90K.
+#1380  Finance Office: Reminder: Driril expense reports are due Friday.
+#1381  Finance Office: Driril budget increased by $150K per the revised plan.
+#1382  Marketing email: Driril weekly sync moved to Wednesdays.
+#1383  Finance Office: Driril budget increased by $267K after review.
+#1384  Finance Office: Withdraw update #1383.
+#1385  Finance Office: Driril budget increased by $45K.
+#1386  Finance Office: Driril finance review moved to Room 3C.
+#1387  Finance Office: Withdraw update #0488.
+#1388  Finance Office: Driril budget increased by $40K after review.
+#1389  Finance Office: Withdraw update #1170; it was entered in error.
+#1390  Finance Office: Driril budget decreased by $25K.
+#1391  Finance Office: Withdraw update #0668; it was entered in error.
+#1392  Finance Office: Driril budget decreased by $25K.
+#1393  Finance Office: Driril budget decreased by $20K.
+#1394  Engineering email: Driril sprint 23 retrospective notes posted.
+#1395  Finance Office: Withdraw update #0167.
+#1396  Finance Office: Driril budget decreased by $173K after review.
+#1397  Finance Office: Withdraw update #0862; it was entered in error.
+#1398  Sales update: Driril status report filed for week 31.
+#1399  PMO note: Driril site visit confirmed for Monday.
+#1400  Finance Office: Driril budget decreased by $70K after review.
+#1401  Finance Office: Driril finance review moved to Room 1D.
+#1402  Finance Office: Driril budget decreased by $75K.
+#1403  Finance Office: Driril budget decreased by $95K per the revised plan.
+#1404  Facilities ticket: Driril status report filed for week 12.
+#1405  Finance Office: Withdraw update #1088; it was entered in error.
+#1406  Engineering email: Driril kickoff moved to Building 2.
+#1407  Finance Office: Driril budget increased by $80K.
+#1408  Finance Office: Driril budget decreased by $105K after review.
+#1409  Finance Office: Withdraw update #0735; it was entered in error.
+#1410  Finance Office: Driril budget increased by $75K after review.
+#1411  Vendor call: Driril documentation moved to the shared drive.
+#1412  Finance Office: Driril quarterly audit scheduled for Tuesday.
+#1413  Vendor call: Driril site visit confirmed for Friday.
+#1414  Finance Office: Withdraw update #1065.
+#1415  Legal email: Driril test environment back online.
+#1416  Finance Office: Driril budget decreased by $85K per the revised plan.
+#1417  Finance Office: Driril budget decreased by $10K.
+#1418  Finance Office: Withdraw update #0763.
+#1419  Finance Office: Driril budget increased by $145K after review.
+#1420  Vendor call: Driril site visit confirmed for Friday.
+#1421  Finance Office: Driril budget increased by $100K per the revised plan.
+#1422  Finance Office: Driril budget increased by $55K after review.
+#1423  Finance Office: Withdraw update #0264.
+#1424  Finance Office: Driril budget increased by $20K.
+#1425  Finance Office: Driril budget decreased by $130K after review.
+#1426  Finance Office: Driril budget decreased by $85K.
+#1427  Facilities ticket: Driril kickoff moved to Building 7.
+#1428  Finance Office: Withdraw update #1409.
+#1429  Finance Office: Driril budget increased by $60K.
+#1430  Finance Office: Withdraw update #1257.
+#1431  Finance Office: Driril budget increased by $45K.
+#1432  Finance Office: Driril budget increased by $40K after review.
+#1433  Vendor call: Driril sprint 20 retrospective notes posted.
+#1434  PMO note: Driril design review moved to Room 5A.
+#1435  Finance Office: Driril budget increased by $85K per the revised plan.
+#1436  Finance Office: Withdraw update #0598; it was entered in error.
+#1437  Finance Office: Driril budget decreased by $60K.
+#1438  Finance Office: Driril budget increased by $5K per the revised plan.
+#1439  Finance Office: Driril budget increased by $100K after review.
+#1440  Finance Office: Driril budget increased by $55K.
+#1441  Finance Office: Driril budget decreased by $75K.
+#1442  Finance Office: Driril budget increased by $25K after review.
+#1443  Finance Office: Driril budget decreased by $10K per the revised plan.
+#1444  Vendor call: Driril sprint 36 retrospective notes posted.
+#1445  Operations chat: Driril weekly sync moved to Thursdays.
+#1446  Facilities ticket: Driril demo rescheduled to Friday afternoon.
+#1447  Facilities ticket: Driril weekly sync moved to Mondays.
+#1448  Finance Office: Driril budget increased by $110K per the revised plan.
+#1449  Finance Office: Withdraw update #0907.
+#1450  Finance Office: Withdraw update #1188.
+#1451  PMO note: Driril site visit confirmed for Thursday.
+#1452  Finance Office: Withdraw update #0414.
+#1453  Finance Office: Driril budget increased by $80K after review.
+#1454  Finance Office: Driril budget decreased by $95K.
+#1455  Sales update: Driril demo rescheduled to Thursday afternoon.
+#1456  Facilities ticket: Driril security review passed.
+#1457  Finance Office: Driril budget decreased by $120K per the revised plan.
+#1458  Finance Office: Withdraw update #0227; it was entered in error.
+#1459  Finance Office: Driril budget decreased by $115K after review.
+#1460  Finance Office: Withdraw update #0739; it was entered in error.
+#1461  Finance Office: Withdraw update #1072.
+#1462  Legal email: Driril status report filed for week 47.
+#1463  Finance Office: Withdraw update #0262.
+#1464  Marketing email: Driril design review moved to Room 4D.
+#1465  Vendor call: Driril weekly sync moved to Fridays.
+#1466  Finance Office: Withdraw update #0628; it was entered in error.
+#1467  Finance Office: Driril budget increased by $10K.
+#1468  Finance Office: Driril budget decreased by $65K per the revised plan.
+#1469  Operations chat: Driril kickoff moved to Building 4.
+#1470  Finance Office: Driril budget increased by $145K after review.
+#1471  Legal email: Driril weekly sync moved to Tuesdays.
+#1472  Facilities ticket: Driril design review moved to Room 1B.
+#1473  Finance Office: Driril budget increased by $10K per the revised plan.
+#1474  Operations chat: Driril security review passed.
+#1475  Finance Office: Withdraw update #1371; it was entered in error.
+#1476  Finance Office: Driril budget decreased by $100K per the revised plan.
+#1477  Facilities ticket: Driril weekly sync moved to Mondays.
+#1478  Finance Office: Driril budget decreased by $30K.
+#1479  Finance Office: Withdraw update #0319.
+#1480  Finance Office: Driril budget decreased by $105K per the revised plan.
+#1481  Finance Office: Driril budget decreased by $90K.
+#1482  Facilities ticket: Driril test environment back online.
+#1483  Finance Office: Driril budget decreased by $105K after review.
+#1484  Finance Office: Driril budget decreased by $70K per the revised plan.
+#1485  Finance Office: Driril finance review moved to Room 4C.
+#1486  Finance Office: Driril budget decreased by $5K per the revised plan.
+#1487  Finance Office: Driril budget increased by $120K after review.
+#1488  Finance Office: Driril budget decreased by $95K per the revised plan.
+#1489  Finance Office: Withdraw update #0810.
+#1490  Sales update: Driril kickoff moved to Building 9.
+#1491  Legal email: Driril test environment back online.
+#1492  Sales update: Driril design review moved to Room 1C.
+#1493  Finance Office: Driril budget decreased by $25K.
+#1494  Finance Office: Driril budget increased by $135K after review.
+#1495  Legal email: Driril kickoff moved to Building 4.
+#1496  Finance Office: Driril budget increased by $55K.
+#1497  Finance Office: Withdraw update #1396; it was entered in error.
+#1498  Finance Office: Withdraw update #1293; it was entered in error.
+#1499  Finance Office: Withdraw update #0535; it was entered in error.
+#1500  Finance Office: Driril budget decreased by $85K.
+#1501  Finance Office: Driril budget decreased by $145K.
+#1502  Finance Office: Withdraw update #0311; it was entered in error.
+#1503  Finance Office: Driril invoice batch FC-3735 archived.
+#1504  Finance Office: Driril budget decreased by $145K per the revised plan.
+#1505  Finance Office: Driril budget increased by $95K after review.
+#1506  Facilities ticket: Driril design review moved to Room 1C.
+#1507  Finance Office: Driril budget increased by $135K per the revised plan.
+#1508  Finance Office: Driril budget increased by $25K.
+#1509  Finance Office: Driril budget increased by $75K.
+#1510  Finance Office: Driril budget decreased by $115K per the revised plan.
+#1511  Marketing email: Driril test environment back online.
+#1512  Operations chat: Driril risk register updated with 3 new items.
+#1513  Finance Office: Driril budget increased by $65K.
+#1514  Engineering email: Driril test environment back online.
+#1515  Operations chat: Driril kickoff moved to Building 9.
+#1516  Facilities ticket: Driril site visit confirmed for Tuesday.
+#1517  Finance Office: Driril budget decreased by $95K.
+#1518  Finance Office: Driril budget decreased by $150K.
+#1519  Finance Office: Driril budget increased by $150K after review.
+#1520  Operations chat: Driril vendor onboarding call scheduled for Thursday.
+#1521  Facilities ticket: Driril status report filed for week 7.
+#1522  Finance Office: Driril budget increased by $95K.
+#1523  Finance Office: Withdraw update #0468; it was entered in error.
+#1524  Finance Office: Driril budget increased by $70K.
+#1525  Vendor call: Driril kickoff moved to Building 2.
+#1526  Finance Office: Withdraw update #1292; it was entered in error.
+#1527  Finance Office: Driril budget decreased by $135K per the revised plan.
+#1528  Finance Office: Driril budget increased by $60K.
+#1529  Finance Office: Withdraw update #1173.
+#1530  Engineering email: Driril test environment back online.
+#1531  Finance Office: Driril budget decreased by $150K after review.
+#1532  Finance Office: Driril budget increased by $100K per the revised plan.
+#1533  Finance Office: Driril budget decreased by $145K after review.
+#1534  Operations chat: Driril weekly sync moved to Tuesdays.
+#1535  Finance Office: Driril budget increased by $105K.
+#1536  Finance Office: Driril budget increased by $50K.
+#1537  Vendor call: Driril test environment back online.
+#1538  Sales update: Driril design review moved to Room 6B.
+#1539  Vendor call: Driril site visit confirmed for Thursday.
+#1540  Finance Office: Driril purchase order FC-9450 closed.
+#1541  Marketing email: Driril security review passed.
+#1542  Finance Office: Driril receipts scanned.
+#1543  Finance Office: Driril quarterly audit scheduled for Tuesday.
+#1544  Marketing email: Driril status report filed for week 46.
+#1545  Finance Office: Driril budget decreased by $65K after review.
+#1546  Sales update: Driril design review moved to Room 3A.
+#1547  Finance Office: Driril budget increased by $75K per the revised plan.
+#1548  Finance Office: Driril budget decreased by $80K.
+#1549  Facilities ticket: Driril site visit confirmed for Tuesday.
+#1550  Finance Office: Driril budget decreased by $45K.
+#1551  Finance Office: Driril budget increased by $90K.
+#1552  Operations chat: Driril status report filed for week 18.
+#1553  Finance Office: Withdraw update #0899; it was entered in error.
+#1554  Finance Office: Driril budget decreased by $90K.
+#1555  Marketing email: Driril test environment back online.
+#1556  Finance Office: Driril budget increased by $40K after review.
+#1557  Finance Office: Driril budget increased by $145K.
+#1558  Finance Office: Driril budget increased by $25K per the revised plan.
+#1559  Vendor call: Driril sprint 7 retrospective notes posted.
+#1560  PMO note: Driril status report filed for week 28.
+#1561  Finance Office: Driril budget increased by $65K after review.
+#1562  Finance Office: Driril budget decreased by $45K per the revised plan.
+#1563  Operations chat: Driril site visit confirmed for Thursday.
+#1564  Marketing email: Driril kickoff moved to Building 8.
+#1565  Finance Office: Driril budget decreased by $130K per the revised plan.
+#1566  Finance Office: Driril budget increased by $130K after review.
+#1567  Finance Office: Driril budget increased by $70K after review.
+#1568  Finance Office: Driril purchase order FC-3084 closed.
+#1569  Sales update: Driril site visit confirmed for Thursday.
+#1570  Finance Office: Withdraw update #0955.
+#1571  Finance Office: Driril budget increased by $70K.
+#1572  Finance Office: Driril budget decreased by $90K.
+#1573  Finance Office: Driril budget decreased by $25K after review.
+#1574  Finance Office: Driril budget increased by $150K per the revised plan.
+#1575  Vendor call: Driril kickoff moved to Building 6.
+#1576  Finance Office: Driril budget increased by $65K after review.
+#1577  Finance Office: Driril budget decreased by $95K after review.
+#1578  Vendor call: Driril test environment back online.
+#1579  Finance Office: Driril budget increased by $50K.
+#1580  Marketing email: Driril site visit confirmed for Thursday.
+#1581  Finance Office: Withdraw update #1202.
+#1582  PMO note: Driril vendor onboarding call scheduled for Tuesday.
+#1583  Finance Office: Driril budget decreased by $110K after review.
+#1584  Sales update: Driril status report filed for week 22.
+#1585  Finance Office: Driril budget increased by $110K per the revised plan.
+#1586  Finance Office: Driril budget increased by $15K per the revised plan.
+#1587  Finance Office: Driril budget increased by $140K per the revised plan.
+#1588  Marketing email: Driril site visit confirmed for Monday.
+#1589  Finance Office: Driril budget increased by $150K.
+#1590  Finance Office: Driril budget increased by $130K per the revised plan.
+#1591  Facilities ticket: Driril test environment back online.
+#1592  Operations chat: Driril weekly sync moved to Tuesdays.
+#1593  Operations chat: Driril site visit confirmed for Friday.
+#1594  Finance Office: Withdraw update #0991; it was entered in error.
+#1595  Finance Office: Driril budget decreased by $20K after review.
+#1596  Finance Office: Withdraw update #1006.
+#1597  Finance Office: Driril budget decreased by $5K after review.
+#1598  Finance Office: Driril budget increased by $35K per the revised plan.
+#1599  Engineering email: Driril site visit confirmed for Wednesday.
+#1600  Finance Office: Driril budget increased by $85K per the revised plan.
+
+Question: What is Driril's budget now?

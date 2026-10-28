@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Sarun budget set to $1380K per the revised plan.
+#0002  Engineering email: Sarun budget is going to $1160K.
+#0003  Finance Office: Sarun budget increased by $30K after review.
+#0004  Facilities ticket: Expect Sarun's budget to drop by $167K.
+#0005  Sales update: Heard Sarun's budget is now $1790K.
+#0006  Vendor call: Sounds like Sarun gets $72K less.
+#0007  Marketing email: Heard Sarun's budget is now $1930K.
+#0008  Sales update: Hearing Sarun's budget goes up $397K.
+#0009  Finance Office: Sarun budget decreased by $88K.
+#0010  Finance Office: Sarun budget increased by $61K per the revised plan.
+#0011  Finance Office: Sarun budget decreased by $307K.
+#0012  Finance Office: Sarun budget decreased by $47K after review.
+#0013  Finance Office: Sarun budget increased by $424K.
+#0014  Engineering email: Sarun kickoff moved to Building 7.
+#0015  Facilities ticket: Expect Sarun's budget to drop by $127K.
+#0016  Finance Office: Sarun budget decreased by $140K per the revised plan.
+#0017  Finance Office: Sarun budget decreased by $501K per the revised plan.
+#0018  PMO note: Sarun test environment back online.
+#0019  Vendor call: Sarun budget is going down by $504K.
+#0020  Finance Office: Sarun budget decreased by $476K per the revised plan.
+#0021  Finance Office: Sarun budget increased by $263K.
+#0022  Finance Office: Sarun budget increased by $55K.
+#0023  Finance Office: Withdraw update #0012; it was entered in error.
+#0024  Finance Office: Withdraw update #0023.
+#0025  Finance Office: Withdraw update #0020.
+#0026  Finance Office: Sarun budget increased by $100K per the revised plan.
+#0027  PMO note: Hearing Sarun's budget goes up $358K.
+#0028  Operations chat: Pretty sure Sarun's budget is $1630K now.
+#0029  Finance Office: Withdraw update #0025.
+#0030  Engineering email: Pretty sure Sarun's budget is $540K now.
+#0031  Finance Office: Sarun budget increased by $50K per the revised plan.
+#0032  Finance Office: Sarun budget increased by $321K after review.
+#0033  PMO note: Sarun design review moved to Room 3D.
+#0034  Operations chat: Sounds like Sarun gets $86K less.
+#0035  Finance Office: Withdraw update #0017; it was entered in error.
+#0036  Finance Office: Sarun budget increased by $5K.
+#0037  Marketing email: Sarun budget is going up to $1740K.
+#0038  Finance Office: Sarun budget decreased by $70K per the revised plan.
+#0039  Finance Office: Sarun budget increased by $394K.
+#0040  Finance Office: Sarun budget increased by $1K after review.
+#0041  Finance Office: Sarun budget increased by $10K.
+#0042  Finance Office: Sarun budget decreased by $423K.
+#0043  Facilities ticket: Sarun kickoff moved to Building 8.
+#0044  Finance Office: Sarun receipts scanned.
+#0045  Sales update: Sounds like Sarun gets $166K more.
+#0046  Finance Office: Sarun budget decreased by $228K.
+#0047  Finance Office: Withdraw update #0024; it was entered in error.
+#0048  Finance Office: Withdraw update #0047.
+#0049  Facilities ticket: Sarun site visit confirmed for Friday.
+#0050  Finance Office: Withdraw update #0035.
+#0051  Finance Office: Sarun budget increased by $145K after review.
+#0052  Finance Office: Sarun budget increased by $40K after review.
+#0053  Finance Office: Sarun budget increased by $120K after review.
+#0054  Operations chat: Sarun budget is going to $1520K.
+#0055  Finance Office: Sarun budget decreased by $140K.
+#0056  Finance Office: Sarun budget increased by $144K per the revised plan.
+#0057  PMO note: Expect Sarun's budget to rise by $37K.
+#0058  Sales update: Hearing Sarun's budget goes up $162K.
+#0059  Finance Office: Sarun budget decreased by $384K per the revised plan.
+#0060  Finance Office: Sarun budget decreased by $17K per the revised plan.
+#0061  Finance Office: Sarun budget increased by $564K after review.
+#0062  Finance Office: Sarun budget decreased by $336K.
+#0063  Finance Office: Sarun budget decreased by $40K.
+#0064  Vendor call: Hearing Sarun's budget goes up $258K.
+#0065  Engineering email: Sounds like Sarun gets $58K less.
+#0066  PMO note: Sarun weekly sync moved to Wednesdays.
+#0067  Facilities ticket: Sarun budget is going to $740K.
+#0068  Finance Office: Sarun quarterly audit scheduled for Monday.
+#0069  PMO note: Sarun budget is going down by $512K.
+#0070  Engineering email: Sarun budget is going to $1060K.
+#0071  Finance Office: Withdraw update #0039.
+#0072  Finance Office: Sarun budget decreased by $209K.
+#0073  Finance Office: Sarun budget increased by $100K.
+#0074  Marketing email: Sarun budget is going to $330K.
+#0075  Finance Office: Sarun budget increased by $10K after review.
+#0076  Finance Office: Sarun budget increased by $433K per the revised plan.
+#0077  Finance Office: Sarun budget increased by $108K per the revised plan.
+#0078  Engineering email: Sarun budget is going to $700K.
+#0079  Finance Office: Sarun budget increased by $466K.
+#0080  Finance Office: Withdraw update #0060.
+#0081  Finance Office: Sarun budget increased by $507K after review.
+#0082  Finance Office: Sarun budget decreased by $50K per the revised plan.
+#0083  Finance Office: Sarun budget increased by $150K per the revised plan.
+#0084  Legal email: Hearing Sarun's budget goes up $596K.
+#0085  Legal email: Sarun budget should land at $2790K.
+#0086  Finance Office: Withdraw update #0042; it was entered in error.
+#0087  Finance Office: Sarun budget decreased by $329K after review.
+#0088  Finance Office: Withdraw update #0071.
+#0089  Finance Office: Sarun budget decreased by $182K per the revised plan.
+#0090  Finance Office: Sarun budget increased by $388K per the revised plan.
+#0091  Operations chat: Sarun budget should land at $3810K.
+#0092  Finance Office: Sarun budget decreased by $591K after review.
+#0093  Sales update: Sarun budget is going up by $67K.
+#0094  Finance Office: Sarun budget increased by $135K per the revised plan.
+#0095  Finance Office: Withdraw update #0062.
+#0096  PMO note: Sarun vendor onboarding call scheduled for Tuesday.
+#0097  Finance Office: Withdraw update #0080; it was entered in error.
+#0098  Finance Office: Withdraw update #0011.
+#0099  Finance Office: Sarun cost center code changed to FC-9355.
+#0100  Finance Office: Sarun budget increased by $381K after review.
+#0101  Finance Office: Sarun budget increased by $313K.
+#0102  Facilities ticket: Heard Sarun's budget is now $3570K.
+#0103  Finance Office: Sarun budget decreased by $120K.
+#0104  Finance Office: Sarun budget increased by $95K per the revised plan.
+#0105  Operations chat: Sarun budget is going up by $138K.
+#0106  Finance Office: Withdraw update #0050; it was entered in error.
+#0107  PMO note: Sarun budget should land at $4800K.
+#0108  Finance Office: Withdraw update #0086.
+#0109  Finance Office: Withdraw update #0097; it was entered in error.
+#0110  Operations chat: Sarun design review moved to Room 2A.
+#0111  Finance Office: Withdraw update #0081.
+#0112  Vendor call: Sarun budget is going down to $2320K.
+#0113  Finance Office: Sarun budget increased by $105K per the revised plan.
+#0114  Finance Office: Sarun budget increased by $278K after review.
+#0115  Finance Office: Sarun budget increased by $419K.
+#0116  Finance Office: Sarun budget increased by $574K.
+#0117  Finance Office: Sarun budget decreased by $223K after review.
+#0118  Finance Office: Withdraw update #0106; it was entered in error.
+#0119  Engineering email: Sarun budget is going down by $203K.
+#0120  Facilities ticket: Heard Sarun's budget is now $4600K.
+#0121  Finance Office: Withdraw update #0088.
+#0122  PMO note: Sarun budget should land at $3650K.
+#0123  Finance Office: Sarun budget increased by $70K after review.
+#0124  Legal email: Sarun risk register updated with 3 new items.
+#0125  Finance Office: Sarun budget increased by $85K after review.
+#0126  Vendor call: Hearing Sarun's budget goes up $462K.
+#0127  Finance Office: Sarun budget increased by $128K after review.
+#0128  Engineering email: Pretty sure Sarun's budget is $4800K now.
+#0129  Finance Office: Sarun budget decreased by $559K.
+#0130  Finance Office: Sarun budget increased by $90K.
+#0131  Finance Office: Sarun budget increased by $55K after review.
+#0132  Finance Office: Sarun budget increased by $178K.
+#0133  Legal email: Sarun site visit confirmed for Monday.
+#0134  Marketing email: Sarun risk register updated with 9 new items.
+#0135  Finance Office: Sarun budget increased by $116K per the revised plan.
+#0136  Finance Office: Sarun budget increased by $45K.
+#0137  Vendor call: Pretty sure Sarun's budget is $4800K now.
+#0138  PMO note: Sarun budget is going up to $4650K.
+#0139  Finance Office: Withdraw update #0114; it was entered in error.
+#0140  Finance Office: Sarun invoice batch FC-9088 archived.
+#0141  Finance Office: Sarun budget increased by $10K per the revised plan.
+#0142  Finance Office: Sarun budget increased by $33K per the revised plan.
+#0143  Finance Office: Sarun budget increased by $85K.
+#0144  Finance Office: Sarun budget decreased by $323K per the revised plan.
+#0145  Finance Office: Withdraw update #0092; it was entered in error.
+#0146  Finance Office: Sarun budget decreased by $50K per the revised plan.
+#0147  Vendor call: Hearing Sarun's budget goes up $294K.
+#0148  Marketing email: Sarun budget should land at $2600K.
+#0149  Finance Office: Withdraw update #0145.
+#0150  Finance Office: Sarun budget decreased by $55K after review.
+#0151  Finance Office: Sarun budget decreased by $110K per the revised plan.
+#0152  Finance Office: Sarun budget increased by $30K per the revised plan.
+#0153  Vendor call: Heard Sarun's budget is now $3690K.
+#0154  Facilities ticket: Sarun budget is going up to $3710K.
+#0155  Operations chat: Sarun design review moved to Room 3D.
+#0156  Finance Office: Sarun budget increased by $246K.
+#0157  Vendor call: Sarun documentation moved to the shared drive.
+#0158  Finance Office: Sarun budget increased by $231K after review.
+#0159  Finance Office: Withdraw update #0072.
+#0160  Finance Office: Sarun budget increased by $75K per the revised plan.
+#0161  Vendor call: Sarun sprint 45 retrospective notes posted.
+#0162  Finance Office: Sarun budget increased by $145K after review.
+#0163  Finance Office: Sarun budget increased by $60K after review.
+#0164  Finance Office: Withdraw update #0079.
+#0165  Vendor call: Pretty sure Sarun's budget is $4760K now.
+#0166  Sales update: Pretty sure Sarun's budget is $3310K now.
+#0167  Finance Office: Sarun budget increased by $140K.
+#0168  Finance Office: Sarun budget increased by $35K per the revised plan.
+#0169  Finance Office: Sarun budget decreased by $254K.
+#0170  Finance Office: Sarun budget decreased by $105K after review.
+#0171  Finance Office: Sarun budget increased by $406K per the revised plan.
+#0172  Facilities ticket: Sarun budget is going to $3850K.
+#0173  Operations chat: Sarun status report filed for week 4.
+#0174  Facilities ticket: Sarun kickoff moved to Building 3.
+#0175  Finance Office: Sarun budget increased by $60K per the revised plan.
+#0176  Finance Office: Withdraw update #0164; it was entered in error.
+#0177  Finance Office: Withdraw update #0076.
+#0178  Finance Office: Sarun budget decreased by $80K per the revised plan.
+#0179  PMO note: Sounds like Sarun gets $431K more.
+#0180  Finance Office: Withdraw update #0159.
+#0181  Finance Office: Withdraw update #0132.
+#0182  Finance Office: Withdraw update #0059.
+#0183  Finance Office: Sarun budget decreased by $516K after review.
+#0184  Finance Office: Withdraw update #0090; it was entered in error.
+#0185  PMO note: Expect Sarun's budget to rise by $402K.
+#0186  Finance Office: Sarun budget increased by $145K after review.
+#0187  Marketing email: Sarun budget should land at $2240K.
+#0188  Sales update: Sarun budget is going to $2450K.
+#0189  Finance Office: Sarun budget decreased by $441K.
+#0190  Finance Office: Sarun budget decreased by $544K after review.
+#0191  Engineering email: Heard Sarun's budget is now $2200K.
+#0192  Finance Office: Sarun budget increased by $20K.
+#0193  Finance Office: Sarun budget increased by $458K.
+#0194  PMO note: Sarun test environment back online.
+#0195  Finance Office: Sarun purchase order FC-3214 closed.
+#0196  Vendor call: Sarun budget should land at $3140K.
+#0197  Sales update: Sarun documentation moved to the shared drive.
+#0198  Engineering email: Hearing Sarun's budget goes up $562K.
+#0199  Finance Office: Withdraw update #0171; it was entered in error.
+#0200  Finance Office: Withdraw update #0149.
+#0201  PMO note: Sarun budget is going to $3080K.
+#0202  Sales update: Sarun documentation moved to the shared drive.
+#0203  Finance Office: Sarun budget decreased by $45K after review.
+#0204  Finance Office: Withdraw update #0177.
+#0205  Finance Office: Withdraw update #0204; it was entered in error.
+#0206  Finance Office: Sarun budget decreased by $15K after review.
+#0207  Finance Office: Sarun budget increased by $133K per the revised plan.
+#0208  Marketing email: Sarun budget is going down to $2300K.
+#0209  Finance Office: Sarun budget decreased by $100K.
+#0210  Finance Office: Sarun budget decreased by $115K.
+#0211  Operations chat: Sounds like Sarun gets $356K less.
+#0212  Finance Office: Sarun budget increased by $110K per the revised plan.
+#0213  Operations chat: Sarun budget should land at $2360K.
+#0214  Finance Office: Sarun budget decreased by $35K after review.
+#0215  Finance Office: Sarun budget decreased by $107K.
+#0216  Legal email: Sarun site visit confirmed for Tuesday.
+#0217  Finance Office: Sarun budget increased by $44K.
+#0218  Finance Office: Sarun budget increased by $199K.
+#0219  Finance Office: Withdraw update #0193.
+#0220  Finance Office: Sarun budget increased by $15K after review.
+#0221  Sales update: Sarun weekly sync moved to Tuesdays.
+#0222  Finance Office: Sarun budget increased by $40K after review.
+#0223  Finance Office: Sarun budget increased by $287K after review.
+#0224  Finance Office: Sarun budget increased by $154K per the revised plan.
+#0225  Facilities ticket: Hearing Sarun's budget goes up $284K.
+#0226  Finance Office: Withdraw update #0087.
+#0227  Finance Office: Sarun budget decreased by $15K.
+#0228  Vendor call: Heard Sarun's budget is now $4150K.
+#0229  Engineering email: Sarun budget is going to $2480K.
+#0230  Finance Office: Withdraw update #0176.
+#0231  Finance Office: Withdraw update #0098; it was entered in error.
+#0232  Vendor call: Hearing Sarun's budget goes up $348K.
+#0233  Finance Office: Sarun purchase order FC-6756 closed.
+#0234  Legal email: Sarun budget should land at $1750K.
+#0235  Finance Office: Sarun budget increased by $561K per the revised plan.
+#0236  Marketing email: Sarun kickoff moved to Building 5.
+#0237  Finance Office: Sarun budget decreased by $145K per the revised plan.
+#0238  Finance Office: Sarun budget increased by $50K.
+#0239  Finance Office: Sarun budget decreased by $20K after review.
+#0240  Sales update: Sarun kickoff moved to Building 8.
+#0241  Finance Office: Sarun budget decreased by $326K after review.
+#0242  Finance Office: Sarun budget decreased by $115K per the revised plan.
+#0243  Finance Office: Sarun budget increased by $40K after review.
+#0244  Engineering email: Sarun budget is going up by $328K.
+#0245  Finance Office: Sarun budget increased by $95K per the revised plan.
+#0246  Finance Office: Sarun budget decreased by $11K per the revised plan.
+#0247  Engineering email: Sounds like Sarun gets $341K more.
+#0248  Finance Office: Sarun budget increased by $65K after review.
+#0249  Finance Office: Sarun budget decreased by $20K per the revised plan.
+#0250  Finance Office: Sarun budget decreased by $499K per the revised plan.
+#0251  Finance Office: Withdraw update #0200.
+#0252  Marketing email: Sarun budget is going down to $1030K.
+#0253  PMO note: Sarun budget is going to $1250K.
+#0254  Finance Office: Sarun budget increased by $281K.
+#0255  Finance Office: Sarun cost center code changed to FC-3436.
+#0256  Engineering email: Sarun risk register updated with 5 new items.
+#0257  Finance Office: Sarun budget increased by $227K.
+#0258  Finance Office: Sarun budget decreased by $10K per the revised plan.
+#0259  Finance Office: Withdraw update #0009.
+#0260  Marketing email: Sarun budget should land at $2230K.
+#0261  Finance Office: Sarun budget decreased by $40K per the revised plan.
+#0262  Finance Office: Sarun budget increased by $259K.
+#0263  Finance Office: Withdraw update #0135; it was entered in error.
+#0264  Finance Office: Sarun budget increased by $65K after review.
+#0265  Legal email: Sarun budget is going up to $2810K.
+#0266  Finance Office: Sarun budget increased by $95K per the revised plan.
+#0267  Finance Office: Sarun budget decreased by $586K after review.
+#0268  Finance Office: Sarun budget increased by $367K.
+#0269  Finance Office: Sarun budget decreased by $110K.
+#0270  Finance Office: Sarun budget decreased by $50K per the revised plan.
+#0271  Facilities ticket: Sarun budget should land at $1520K.
+#0272  Finance Office: Sarun budget increased by $90K.
+#0273  Finance Office: Sarun budget increased by $174K.
+#0274  Finance Office: Sarun budget decreased by $518K.
+#0275  Legal email: Expect Sarun's budget to drop by $43K.
+#0276  Finance Office: Sarun budget increased by $25K after review.
+#0277  Vendor call: Sarun budget is going up to $1740K.
+#0278  Sales update: Heard Sarun's budget is now $1360K.
+#0279  PMO note: Hearing Sarun's budget goes up $519K.
+#0280  Finance Office: Sarun budget increased by $90K.
+#0281  Finance Office: Sarun budget increased by $55K per the revised plan.
+#0282  Finance Office: Sarun budget decreased by $95K.
+#0283  Finance Office: Sarun budget increased by $25K per the revised plan.
+#0284  Marketing email: Sarun budget should land at $2170K.
+#0285  Legal email: Sarun budget is going to $1570K.
+#0286  Finance Office: Withdraw update #0189; it was entered in error.
+#0287  Sales update: Sarun budget is going up to $2780K.
+#0288  Operations chat: Sarun budget is going down by $556K.
+#0289  Finance Office: Sarun budget increased by $90K per the revised plan.
+#0290  Finance Office: Sarun budget increased by $130K after review.
+#0291  Sales update: Sarun budget is going to $3020K.
+#0292  Finance Office: Withdraw update #0207.
+#0293  Operations chat: Sarun budget is going down by $179K.
+#0294  Finance Office: Sarun budget increased by $114K per the revised plan.
+#0295  Finance Office: Sarun invoice batch FC-1778 archived.
+#0296  Finance Office: Sarun budget decreased by $25K after review.
+#0297  Finance Office: Sarun budget increased by $55K.
+#0298  Finance Office: Sarun receipts scanned.
+#0299  Finance Office: Sarun budget increased by $120K after review.
+#0300  Finance Office: Withdraw update #0250.
+#0301  Finance Office: Sarun budget decreased by $97K per the revised plan.
+#0302  Finance Office: Withdraw update #0300; it was entered in error.
+#0303  Legal email: Sarun budget is going up by $197K.
+#0304  PMO note: Sounds like Sarun gets $28K less.
+#0305  PMO note: Sarun weekly sync moved to Fridays.
+#0306  Vendor call: Heard Sarun's budget is now $3270K.
+#0307  Vendor call: Sarun budget should land at $2110K.
+#0308  Finance Office: Withdraw update #0267.
+#0309  Finance Office: Withdraw update #0259.
+#0310  Finance Office: Sarun budget increased by $50K.
+#0311  Finance Office: Sarun budget increased by $543K after review.
+#0312  Vendor call: Pretty sure Sarun's budget is $4660K now.
+#0313  Finance Office: Sarun budget increased by $437K.
+#0314  Finance Office: Withdraw update #0230.
+#0315  Finance Office: Withdraw update #0224.
+#0316  Finance Office: Withdraw update #0235.
+#0317  Operations chat: Sounds like Sarun gets $327K less.
+#0318  Vendor call: Heard Sarun's budget is now $4800K.
+#0319  Finance Office: Sarun budget decreased by $8K after review.
+#0320  Finance Office: Sarun budget decreased by $42K.
+#0321  Finance Office: Sarun budget decreased by $75K per the revised plan.
+#0322  Legal email: Pretty sure Sarun's budget is $3780K now.
+#0323  Finance Office: Sarun budget decreased by $75K.
+#0324  Operations chat: Sarun budget should land at $3990K.
+#0325  Finance Office: Sarun budget decreased by $110K after review.
+#0326  Facilities ticket: Hearing Sarun's budget goes down $124K.
+#0327  Marketing email: Expect Sarun's budget to drop by $511K.
+#0328  PMO note: Sarun budget is going up by $428K.
+#0329  Sales update: Sarun budget is going to $4210K.
+#0330  Sales update: Sarun budget should land at $4280K.
+#0331  Operations chat: Hearing Sarun's budget goes down $152K.
+#0332  Vendor call: Hearing Sarun's budget goes up $551K.
+#0333  Engineering email: Pretty sure Sarun's budget is $3120K now.
+#0334  Finance Office: Sarun budget increased by $157K after review.
+#0335  Marketing email: Sarun site visit confirmed for Friday.
+#0336  Operations chat: Heard Sarun's budget is now $2970K.
+#0337  Finance Office: Withdraw update #0254.
+#0338  Finance Office: Sarun budget decreased by $125K after review.
+#0339  Legal email: Sarun budget is going to $4000K.
+#0340  PMO note: Pretty sure Sarun's budget is $2890K now.
+#0341  Finance Office: Withdraw update #0101.
+#0342  Legal email: Expect Sarun's budget to rise by $147K.
+#0343  Finance Office: Withdraw update #0302.
+#0344  Finance Office: Withdraw update #0268.
+#0345  Finance Office: Sarun budget increased by $41K.
+#0346  Sales update: Sarun budget is going down by $549K.
+#0347  PMO note: Heard Sarun's budget is now $2850K.
+#0348  Sales update: Sarun budget is going up by $261K.
+#0349  Finance Office: Sarun quarterly audit scheduled for Friday.
+#0350  Finance Office: Sarun receipts scanned.
+#0351  PMO note: Sarun site visit confirmed for Tuesday.
+#0352  Finance Office: Sarun budget increased by $115K.
+#0353  Finance Office: Sarun budget increased by $233K.
+#0354  Finance Office: Sarun budget decreased by $90K after review.
+#0355  Finance Office: Sarun budget increased by $163K per the revised plan.
+#0356  Marketing email: Sarun status report filed for week 32.
+#0357  Finance Office: Sarun budget increased by $434K per the revised plan.
+#0358  Finance Office: Sarun budget decreased by $85K.
+#0359  Finance Office: Sarun budget decreased by $125K after review.
+#0360  PMO note: Sounds like Sarun gets $274K less.
+#0361  Finance Office: Sarun budget increased by $110K per the revised plan.
+#0362  Vendor call: Sarun budget is going down by $429K.
+#0363  Facilities ticket: Sarun budget is going to $3870K.
+#0364  Finance Office: Withdraw update #0156.
+#0365  Finance Office: Withdraw update #0217.
+#0366  Facilities ticket: Hearing Sarun's budget goes up $121K.
+#0367  Finance Office: Sarun budget decreased by $68K.
+#0368  Operations chat: Sarun test environment back online.
+#0369  Engineering email: Sarun design review moved to Room 4A.
+#0370  Finance Office: Sarun budget increased by $100K.
+#0371  Vendor call: Sarun vendor onboarding call scheduled for Wednesday.
+#0372  Marketing email: Expect Sarun's budget to rise by $438K.
+#0373  Vendor call: Sarun budget is going up by $276K.
+#0374  Facilities ticket: Expect Sarun's budget to rise by $38K.
+#0375  Finance Office: Sarun budget decreased by $55K after review.
+#0376  Finance Office: Sarun budget decreased by $502K after review.
+#0377  PMO note: Sarun budget should land at $3810K.
+#0378  Finance Office: Sarun budget increased by $140K per the revised plan.
+#0379  Finance Office: Sarun budget decreased by $508K after review.
+#0380  Finance Office: Withdraw update #0274; it was entered in error.
+#0381  Vendor call: Sarun budget is going up by $576K.
+#0382  Marketing email: Heard Sarun's budget is now $3180K.
+#0383  Finance Office: Withdraw update #0263.
+#0384  Vendor call: Sarun budget is going to $3620K.
+#0385  Finance Office: Sarun budget increased by $115K after review.
+#0386  Finance Office: Sarun budget decreased by $35K after review.
+#0387  Finance Office: Withdraw update #0286.
+#0388  Sales update: Sarun budget should land at $3690K.
+#0389  Operations chat: Expect Sarun's budget to drop by $169K.
+#0390  Finance Office: Withdraw update #0182.
+#0391  Marketing email: Sarun status report filed for week 10.
+#0392  Finance Office: Withdraw update #0257; it was entered in error.
+#0393  Facilities ticket: Hearing Sarun's budget goes up $436K.
+#0394  PMO note: Sarun budget is going up by $187K.
+#0395  Finance Office: Sarun budget decreased by $10K per the revised plan.
+#0396  Sales update: Sarun budget is going up to $2480K.
+#0397  Sales update: Heard Sarun's budget is now $1970K.
+#0398  Marketing email: Sarun budget is going to $1970K.
+#0399  Operations chat: Sarun budget is going up by $493K.
+#0400  Vendor call: Sarun budget should land at $1670K.
+#0401  Finance Office: Withdraw update #0142; it was entered in error.
+#0402  Finance Office: Sarun budget decreased by $10K per the revised plan.
+#0403  Finance Office: Sarun budget increased by $40K after review.
+#0404  Finance Office: Sarun purchase order FC-2902 closed.
+#0405  Marketing email: Sarun budget is going up to $2310K.
+#0406  Finance Office: Sarun budget decreased by $40K.
+#0407  Finance Office: Sarun budget decreased by $301K.
+#0408  Finance Office: Sarun budget decreased by $145K per the revised plan.
+#0409  Finance Office: Sarun budget increased by $100K after review.
+#0410  Finance Office: Sarun budget increased by $70K.
+#0411  Vendor call: Sounds like Sarun gets $404K less.
+#0412  Marketing email: Hearing Sarun's budget goes up $104K.
+#0413  Operations chat: Heard Sarun's budget is now $1480K.
+#0414  Finance Office: Sarun budget increased by $35K.
+#0415  Engineering email: Sarun budget should land at $2600K.
+#0416  Engineering email: Sarun budget is going down by $407K.
+#0417  Finance Office: Sarun budget increased by $217K per the revised plan.
+#0418  Finance Office: Withdraw update #0010; it was entered in error.
+#0419  PMO note: Sarun site visit confirmed for Monday.
+#0420  Finance Office: Sarun budget increased by $40K after review.
+#0421  Finance Office: Withdraw update #0379.
+#0422  Vendor call: Hearing Sarun's budget goes down $532K.
+#0423  Finance Office: Sarun budget increased by $105K per the revised plan.
+#0424  Finance Office: Sarun budget increased by $45K per the revised plan.
+#0425  Finance Office: Sarun budget decreased by $594K after review.
+#0426  Operations chat: Hearing Sarun's budget goes up $389K.
+#0427  Finance Office: Sarun budget decreased by $125K after review.
+#0428  Finance Office: Sarun budget increased by $70K per the revised plan.
+#0429  Finance Office: Sarun budget decreased by $21K after review.
+#0430  Finance Office: Withdraw update #0108.
+#0431  Finance Office: Withdraw update #0100; it was entered in error.
+#0432  Finance Office: Withdraw update #0309; it was entered in error.
+#0433  Finance Office: Sarun budget increased by $528K after review.
+#0434  Facilities ticket: Sarun budget should land at $3010K.
+#0435  Finance Office: Sarun budget increased by $5K per the revised plan.
+#0436  Sales update: Sounds like Sarun gets $354K more.
+#0437  Vendor call: Hearing Sarun's budget goes up $579K.
+#0438  Finance Office: Sarun budget increased by $5K per the revised plan.
+#0439  Legal email: Pretty sure Sarun's budget is $2590K now.
+#0440  Legal email: Sarun design review moved to Room 2B.
+#0441  Finance Office: Sarun budget increased by $60K.
+#0442  Finance Office: Sarun budget increased by $244K.
+#0443  Finance Office: Withdraw update #0169; it was entered in error.
+#0444  Vendor call: Expect Sarun's budget to drop by $539K.
+#0445  Finance Office: Sarun budget decreased by $110K.
+#0446  Finance Office: Sarun budget decreased by $25K per the revised plan.
+#0447  Finance Office: Sarun budget increased by $55K per the revised plan.
+#0448  Facilities ticket: Expect Sarun's budget to rise by $4K.
+#0449  PMO note: Sarun budget is going to $3570K.
+#0450  Operations chat: Sounds like Sarun gets $599K less.
+#0451  Facilities ticket: Heard Sarun's budget is now $2580K.
+#0452  Finance Office: Withdraw update #0392.
+#0453  Finance Office: Sarun budget increased by $140K.
+#0454  Finance Office: Sarun budget decreased by $70K after review.
+#0455  Sales update: Sarun budget should land at $4200K.
+#0456  Finance Office: Withdraw update #0380; it was entered in error.
+#0457  Finance Office: Sarun budget increased by $427K after review.
+#0458  Finance Office: Sarun budget decreased by $226K.
+#0459  Finance Office: Sarun budget decreased by $15K after review.
+#0460  Sales update: Sarun budget is going to $4420K.
+#0461  Sales update: Sarun budget is going to $3730K.
+#0462  Marketing email: Expect Sarun's budget to drop by $177K.
+#0463  Facilities ticket: Sarun budget is going to $2730K.
+#0464  Legal email: Pretty sure Sarun's budget is $2360K now.
+#0465  Finance Office: Sarun budget decreased by $140K.
+#0466  Finance Office: Sarun budget increased by $65K per the revised plan.
+#0467  Facilities ticket: Expect Sarun's budget to rise by $3K.
+#0468  PMO note: Expect Sarun's budget to drop by $296K.
+#0469  Facilities ticket: Sounds like Sarun gets $129K more.
+#0470  Finance Office: Sarun budget decreased by $48K.
+#0471  Finance Office: Sarun budget decreased by $105K after review.
+#0472  Finance Office: Sarun budget increased by $513K.
+#0473  Finance Office: Sarun finance review moved to Room 3B.
+#0474  PMO note: Heard Sarun's budget is now $4200K.
+#0475  Finance Office: Withdraw update #0048; it was entered in error.
+#0476  Finance Office: Withdraw update #0316.
+#0477  Facilities ticket: Sounds like Sarun gets $113K less.
+#0478  Finance Office: Sarun budget increased by $90K per the revised plan.
+#0479  Finance Office: Sarun budget increased by $120K per the revised plan.
+#0480  Finance Office: Sarun budget decreased by $85K.
+#0481  Facilities ticket: Hearing Sarun's budget goes up $587K.
+#0482  Finance Office: Sarun budget increased by $55K.
+#0483  Finance Office: Withdraw update #0390; it was entered in error.
+#0484  Sales update: Hearing Sarun's budget goes down $578K.
+#0485  Finance Office: Sarun budget increased by $75K.
+#0486  Marketing email: Expect Sarun's budget to drop by $401K.
+#0487  Finance Office: Withdraw update #0032; it was entered in error.
+#0488  Finance Office: Sarun budget increased by $35K after review.
+#0489  PMO note: Sarun budget is going to $3520K.
+#0490  Finance Office: Sarun budget decreased by $105K per the revised plan.
+#0491  PMO note: Sarun demo rescheduled to Wednesday afternoon.
+#0492  PMO note: Expect Sarun's budget to drop by $399K.
+#0493  Marketing email: Heard Sarun's budget is now $3400K.
+#0494  Vendor call: Sarun design review moved to Room 6A.
+#0495  Finance Office: Withdraw update #0319; it was entered in error.
+#0496  Finance Office: Sarun budget increased by $55K per the revised plan.
+#0497  Engineering email: Sarun budget is going up by $137K.
+#0498  Finance Office: Sarun budget decreased by $10K.
+#0499  Finance Office: Withdraw update #0483; it was entered in error.
+#0500  Finance Office: Sarun budget decreased by $151K after review.
+#0501  Finance Office: Withdraw update #0418.
+#0502  Sales update: Heard Sarun's budget is now $3130K.
+#0503  Sales update: Hearing Sarun's budget goes up $478K.
+#0504  Finance Office: Sarun budget increased by $271K after review.
+#0505  Finance Office: Sarun budget increased by $20K after review.
+#0506  Finance Office: Sarun budget increased by $150K per the revised plan.
+#0507  Marketing email: Expect Sarun's budget to drop by $202K.
+#0508  Finance Office: Sarun budget decreased by $100K after review.
+#0509  Facilities ticket: Sarun budget should land at $4800K.
+#0510  Finance Office: Sarun budget decreased by $110K.
+#0511  Finance Office: Withdraw update #0273.
+#0512  Finance Office: Sarun budget increased by $70K per the revised plan.
+#0513  Marketing email: Sounds like Sarun gets $23K more.
+#0514  Finance Office: Sarun budget decreased by $100K after review.
+#0515  Finance Office: Sarun budget increased by $140K after review.
+#0516  Finance Office: Sarun budget increased by $45K.
+#0517  Finance Office: Sarun budget decreased by $343K.
+#0518  Finance Office: Sarun budget increased by $292K.
+#0519  Vendor call: Sarun budget is going to $3570K.
+#0520  Finance Office: Withdraw update #0320; it was entered in error.
+#0521  Engineering email: Sarun status report filed for week 12.
+#0522  PMO note: Pretty sure Sarun's budget is $3630K now.
+#0523  Finance Office: Sarun budget increased by $25K per the revised plan.
+#0524  PMO note: Sarun test environment back online.
+#0525  Finance Office: Sarun budget increased by $110K after review.
+#0526  Engineering email: Expect Sarun's budget to rise by $74K.
+#0527  Finance Office: Sarun budget increased by $7K after review.
+#0528  Finance Office: Sarun budget increased by $65K after review.
+#0529  Vendor call: Sarun risk register updated with 4 new items.
+#0530  Engineering email: Sarun budget should land at $4000K.
+#0531  Finance Office: Sarun budget increased by $55K per the revised plan.
+#0532  Finance Office: Sarun budget decreased by $344K per the revised plan.
+#0533  Finance Office: Withdraw update #0527.
+#0534  Engineering email: Sarun budget is going to $3710K.
+#0535  Finance Office: Sarun budget increased by $105K per the revised plan.
+#0536  Finance Office: Withdraw update #0456.
+#0537  Finance Office: Sarun budget decreased by $2K after review.
+#0538  Finance Office: Sarun budget decreased by $75K after review.
+#0539  Operations chat: Sarun budget is going down by $212K.
+#0540  Legal email: Expect Sarun's budget to rise by $357K.
+#0541  Finance Office: Withdraw update #0504; it was entered in error.
+#0542  Marketing email: Sarun budget is going up by $351K.
+#0543  PMO note: Sounds like Sarun gets $418K less.
+#0544  Finance Office: Sarun budget decreased by $454K after review.
+#0545  PMO note: Sounds like Sarun gets $132K more.
+#0546  Finance Office: Sarun cost center code changed to FC-2286.
+#0547  Facilities ticket: Sarun budget should land at $4590K.
+#0548  Engineering email: Pretty sure Sarun's budget is $4010K now.
+#0549  Sales update: Hearing Sarun's budget goes up $26K.
+#0550  Finance Office: Withdraw update #0475; it was entered in error.
+#0551  Operations chat: Sarun budget is going up to $4530K.
+#0552  Finance Office: Sarun budget decreased by $379K per the revised plan.
+#0553  Finance Office: Sarun budget increased by $60K per the revised plan.
+#0554  Vendor call: Sarun budget is going up by $489K.
+#0555  Operations chat: Sounds like Sarun gets $563K more.
+#0556  Finance Office: Sarun budget decreased by $35K.
+#0557  Finance Office: Sarun budget decreased by $50K.
+#0558  Finance Office: Sarun budget decreased by $85K.
+#0559  Facilities ticket: Sarun budget should land at $3780K.
+#0560  Finance Office: Sarun budget increased by $20K per the revised plan.
+#0561  Finance Office: Sarun budget increased by $115K.
+#0562  Finance Office: Sarun budget increased by $65K per the revised plan.
+#0563  Operations chat: Expect Sarun's budget to drop by $184K.
+#0564  Operations chat: Sarun budget is going to $4800K.
+#0565  Finance Office: Withdraw update #0181; it was entered in error.
+#0566  Marketing email: Sarun budget is going down by $139K.
+#0567  Finance Office: Sarun budget decreased by $70K.
+#0568  Facilities ticket: Sarun budget is going down by $497K.
+#0569  Operations chat: Sarun budget is going to $4440K.
+#0570  Finance Office: Sarun budget decreased by $299K.
+#0571  Vendor call: Pretty sure Sarun's budget is $3820K now.
+#0572  Finance Office: Sarun budget decreased by $140K per the revised plan.
+#0573  Finance Office: Withdraw update #0433; it was entered in error.
+#0574  Marketing email: Sarun budget is going up by $533K.
+#0575  Vendor call: Sarun budget is going up to $2950K.
+#0576  Marketing email: Pretty sure Sarun's budget is $2890K now.
+#0577  Operations chat: Sarun budget is going up to $3320K.
+#0578  Vendor call: Hearing Sarun's budget goes up $273K.
+#0579  Facilities ticket: Heard Sarun's budget is now $1980K.
+#0580  Sales update: Sounds like Sarun gets $191K more.
+#0581  Finance Office: Sarun budget decreased by $150K.
+#0582  Finance Office: Sarun budget increased by $140K.
+#0583  Vendor call: Sarun budget is going to $2900K.
+#0584  Vendor call: Pretty sure Sarun's budget is $3080K now.
+#0585  Finance Office: Sarun budget increased by $95K.
+#0586  Finance Office: Sarun budget decreased by $30K after review.
+#0587  Sales update: Expect Sarun's budget to drop by $422K.
+#0588  Finance Office: Sarun budget increased by $85K.
+#0589  Finance Office: Sarun budget increased by $110K after review.
+#0590  Marketing email: Sarun budget is going down by $122K.
+#0591  Finance Office: Sarun budget increased by $9K per the revised plan.
+#0592  Finance Office: Sarun budget decreased by $10K per the revised plan.
+#0593  PMO note: Hearing Sarun's budget goes down $317K.
+#0594  Legal email: Hearing Sarun's budget goes up $387K.
+#0595  Finance Office: Withdraw update #0334; it was entered in error.
+#0596  Finance Office: Withdraw update #0591.
+#0597  Vendor call: Expect Sarun's budget to drop by $303K.
+#0598  Operations chat: Sarun budget is going up by $253K.
+#0599  Finance Office: Sarun budget decreased by $105K per the revised plan.
+#0600  Sales update: Expect Sarun's budget to drop by $31K.
+#0601  Facilities ticket: Sounds like Sarun gets $584K more.
+#0602  Finance Office: Sarun budget decreased by $222K.
+#0603  Marketing email: Sounds like Sarun gets $526K more.
+#0604  Finance Office: Withdraw update #0089.
+#0605  Finance Office: Sarun purchase order FC-4635 closed.
+#0606  Sales update: Hearing Sarun's budget goes up $582K.
+#0607  PMO note: Pretty sure Sarun's budget is $2460K now.
+#0608  Engineering email: Sarun budget should land at $2020K.
+#0609  Finance Office: Sarun budget increased by $45K per the revised plan.
+#0610  Finance Office: Sarun budget increased by $110K after review.
+#0611  Finance Office: Sarun budget increased by $115K per the revised plan.
+#0612  Finance Office: Withdraw update #0602.
+#0613  Finance Office: Sarun budget increased by $120K after review.
+#0614  Finance Office: Sarun budget increased by $40K after review.
+#0615  Finance Office: Sarun budget increased by $40K after review.
+#0616  Sales update: Sarun site visit confirmed for Monday.
+#0617  Finance Office: Withdraw update #0158.
+#0618  Engineering email: Sarun documentation moved to the shared drive.
+#0619  Finance Office: Withdraw update #0417; it was entered in error.
+#0620  Finance Office: Withdraw update #0184.
+#0621  Finance Office: Sarun budget decreased by $130K.
+#0622  Finance Office: Sarun budget increased by $25K after review.
+#0623  Finance Office: Sarun budget increased by $135K after review.
+#0624  Legal email: Sarun demo rescheduled to Thursday afternoon.
+#0625  Finance Office: Sarun budget increased by $120K per the revised plan.
+#0626  Finance Office: Sarun budget decreased by $140K per the revised plan.
+#0627  Finance Office: Sarun budget decreased by $298K after review.
+#0628  Finance Office: Sarun budget increased by $115K after review.
+#0629  Vendor call: Expect Sarun's budget to drop by $524K.
+#0630  Operations chat: Sounds like Sarun gets $558K less.
+#0631  Finance Office: Sarun budget increased by $110K.
+#0632  Finance Office: Sarun budget increased by $457K after review.
+#0633  PMO note: Sounds like Sarun gets $172K less.
+#0634  Finance Office: Withdraw update #0218.
+#0635  Finance Office: Sarun budget decreased by $115K.
+#0636  Finance Office: Sarun budget decreased by $403K after review.
+#0637  Vendor call: Hearing Sarun's budget goes up $567K.
+#0638  Finance Office: Sarun budget increased by $70K.
+#0639  Finance Office: Withdraw update #0552.
+#0640  Facilities ticket: Heard Sarun's budget is now $4130K.
+#0641  Finance Office: Sarun budget increased by $20K per the revised plan.
+#0642  Finance Office: Sarun budget increased by $130K after review.
+#0643  Engineering email: Pretty sure Sarun's budget is $2450K now.
+#0644  Finance Office: Reminder: Sarun expense reports are due Monday.
+#0645  Finance Office: Sarun budget increased by $40K.
+#0646  PMO note: Sarun budget is going to $3870K.
+#0647  Finance Office: Sarun budget decreased by $569K after review.
+#0648  Finance Office: Sarun budget decreased by $100K.
+#0649  Marketing email: Pretty sure Sarun's budget is $3630K now.
+#0650  Operations chat: Sarun sprint 4 retrospective notes posted.
+#0651  Sales update: Expect Sarun's budget to drop by $598K.
+#0652  PMO note: Expect Sarun's budget to drop by $474K.
+#0653  Legal email: Sarun vendor onboarding call scheduled for Friday.
+#0654  Sales update: Sarun budget is going up by $92K.
+#0655  Finance Office: Withdraw update #0518.
+#0656  Finance Office: Sarun budget increased by $95K per the revised plan.
+#0657  Finance Office: Sarun budget increased by $339K per the revised plan.
+#0658  Finance Office: Sarun budget decreased by $145K after review.
+#0659  Finance Office: Sarun budget increased by $115K per the revised plan.
+#0660  Vendor call: Sarun documentation moved to the shared drive.
+#0661  Finance Office: Sarun budget decreased by $249K.
+#0662  Marketing email: Sarun vendor onboarding call scheduled for Monday.
+#0663  Finance Office: Sarun budget decreased by $461K after review.
+#0664  Sales update: Sarun budget should land at $2360K.
+#0665  Finance Office: Sarun budget decreased by $95K after review.
+#0666  Finance Office: Withdraw update #0401; it was entered in error.
+#0667  Operations chat: Sounds like Sarun gets $189K less.
+#0668  Engineering email: Pretty sure Sarun's budget is $1950K now.
+#0669  Operations chat: Heard Sarun's budget is now $2430K.
+#0670  Engineering email: Sarun status report filed for week 5.
+#0671  Finance Office: Sarun budget decreased by $531K after review.
+#0672  Finance Office: Sarun budget increased by $383K after review.
+#0673  Marketing email: Sarun budget is going to $2000K.
+#0674  Finance Office: Sarun budget decreased by $55K per the revised plan.
+#0675  Finance Office: Sarun budget increased by $150K per the revised plan.
+#0676  PMO note: Sounds like Sarun gets $164K more.
+#0677  Sales update: Sarun budget is going to $2290K.
+#0678  Finance Office: Sarun budget increased by $5K after review.
+#0679  Finance Office: Sarun budget increased by $60K.
+#0680  Sales update: Sounds like Sarun gets $536K more.
+#0681  Legal email: Expect Sarun's budget to rise by $123K.
+#0682  Legal email: Sarun budget should land at $2730K.
+#0683  Finance Office: Sarun budget decreased by $371K after review.
+#0684  Finance Office: Withdraw update #0040; it was entered in error.
+#0685  Finance Office: Withdraw update #0532; it was entered in error.
+#0686  Vendor call: Sarun risk register updated with 6 new items.
+#0687  Finance Office: Sarun budget decreased by $60K per the revised plan.
+#0688  Finance Office: Sarun budget increased by $134K after review.
+#0689  Finance Office: Sarun budget decreased by $35K per the revised plan.
+#0690  Finance Office: Sarun budget increased by $333K per the revised plan.
+#0691  Finance Office: Sarun budget decreased by $65K.
+#0692  Finance Office: Sarun budget decreased by $135K after review.
+#0693  Facilities ticket: Hearing Sarun's budget goes down $453K.
+#0694  Finance Office: Sarun budget increased by $95K.
+#0695  Finance Office: Sarun budget decreased by $80K.
+#0696  Finance Office: Withdraw update #0442.
+#0697  Finance Office: Sarun budget decreased by $100K after review.
+#0698  Finance Office: Sarun budget increased by $105K per the revised plan.
+#0699  Finance Office: Withdraw update #0376; it was entered in error.
+#0700  Finance Office: Sarun budget increased by $20K per the revised plan.
+#0701  Finance Office: Sarun budget increased by $5K per the revised plan.
+#0702  Finance Office: Sarun budget decreased by $105K per the revised plan.
+#0703  Finance Office: Withdraw update #0364.
+#0704  Finance Office: Withdraw update #0231.
+#0705  Legal email: Sarun design review moved to Room 3C.
+#0706  Finance Office: Withdraw update #0117; it was entered in error.
+#0707  Finance Office: Sarun budget decreased by $50K.
+#0708  Finance Office: Sarun budget decreased by $219K after review.
+#0709  Finance Office: Sarun budget decreased by $581K.
+#0710  Finance Office: Sarun budget increased by $54K.
+#0711  Finance Office: Sarun budget increased by $35K after review.
+#0712  Operations chat: Sounds like Sarun gets $82K more.
+#0713  Operations chat: Sarun budget should land at $3200K.
+#0714  Finance Office: Sarun budget decreased by $55K per the revised plan.
+#0715  Finance Office: Sarun budget increased by $391K after review.
+#0716  Finance Office: Sarun budget increased by $60K.
+#0717  Sales update: Sarun security review passed.
+#0718  Finance Office: Sarun budget increased by $95K.
+#0719  Finance Office: Sarun budget increased by $81K after review.
+#0720  Finance Office: Withdraw update #0536; it was entered in error.
+#0721  Finance Office: Sarun budget decreased by $93K per the revised plan.
+#0722  Finance Office: Withdraw update #0241; it was entered in error.
+#0723  Finance Office: Withdraw update #0355.
+#0724  Finance Office: Sarun purchase order FC-1482 closed.
+#0725  Facilities ticket: Sounds like Sarun gets $449K less.
+#0726  Finance Office: Reminder: Sarun expense reports are due Friday.
+#0727  Finance Office: Sarun budget increased by $70K.
+#0728  Finance Office: Withdraw update #0383; it was entered in error.
+#0729  Legal email: Sounds like Sarun gets $18K more.
+#0730  Finance Office: Sarun budget decreased by $110K per the revised plan.
+#0731  Finance Office: Sarun budget increased by $90K after review.
+#0732  Finance Office: Withdraw update #0657.
+#0733  Operations chat: Sarun budget is going up by $99K.
+#0734  Finance Office: Sarun budget increased by $492K.
+#0735  Finance Office: Sarun budget decreased by $60K after review.
+#0736  Finance Office: Withdraw update #0570; it was entered in error.
+#0737  Sales update: Sarun budget is going to $3320K.
+#0738  Finance Office: Sarun budget decreased by $60K per the revised plan.
+#0739  Engineering email: Sarun status report filed for week 35.
+#0740  Finance Office: Sarun budget decreased by $15K after review.
+#0741  Legal email: Expect Sarun's budget to rise by $102K.
+#0742  Finance Office: Withdraw update #0452.
+#0743  Finance Office: Sarun budget increased by $35K per the revised plan.
+#0744  Engineering email: Sarun budget is going up by $398K.
+#0745  Marketing email: Heard Sarun's budget is now $3710K.
+#0746  Finance Office: Sarun budget increased by $10K after review.
+#0747  Finance Office: Withdraw update #0013.
+#0748  Finance Office: Sarun budget decreased by $150K.
+#0749  Finance Office: Withdraw update #0353.
+#0750  Finance Office: Sarun budget decreased by $90K per the revised plan.
+#0751  Vendor call: Sarun budget is going to $1350K.
+#0752  Finance Office: Withdraw update #0116; it was entered in error.
+#0753  Facilities ticket: Expect Sarun's budget to rise by $213K.
+#0754  Finance Office: Withdraw update #0144.
+#0755  Vendor call: Heard Sarun's budget is now $1690K.
+#0756  Vendor call: Sounds like Sarun gets $248K less.
+#0757  Finance Office: Sarun budget decreased by $262K.
+#0758  Finance Office: Sarun budget decreased by $541K.
+#0759  Operations chat: Pretty sure Sarun's budget is $1120K now.
+#0760  Finance Office: Sarun budget increased by $30K after review.
+#0761  Finance Office: Withdraw update #0476.
+#0762  Engineering email: Sarun documentation moved to the shared drive.
+#0763  Finance Office: Sarun budget increased by $20K per the revised plan.
+#0764  Engineering email: Heard Sarun's budget is now $390K.
+#0765  Finance Office: Sarun budget increased by $135K per the revised plan.
+#0766  Finance Office: Sarun budget decreased by $55K after review.
+#0767  Finance Office: Sarun budget increased by $55K.
+#0768  Finance Office: Withdraw update #0636.
+#0769  Finance Office: Sarun budget increased by $115K after review.
+#0770  Finance Office: Sarun budget decreased by $80K per the revised plan.
+#0771  Finance Office: Sarun budget decreased by $120K after review.
+#0772  Operations chat: Sounds like Sarun gets $408K less.
+#0773  Finance Office: Sarun budget increased by $75K after review.
+#0774  Finance Office: Sarun budget increased by $75K after review.
+#0775  Facilities ticket: Sounds like Sarun gets $378K less.
+#0776  Finance Office: Withdraw update #0690.
+#0777  Finance Office: Sarun budget increased by $25K per the revised plan.
+#0778  Finance Office: Sarun budget increased by $140K.
+#0779  Finance Office: Sarun budget increased by $112K after review.
+#0780  Operations chat: Expect Sarun's budget to rise by $334K.
+#0781  Finance Office: Sarun budget increased by $50K.
+#0782  Finance Office: Sarun budget increased by $90K after review.
+#0783  Finance Office: Sarun budget decreased by $25K per the revised plan.
+#0784  Finance Office: Sarun budget increased by $85K after review.
+#0785  Finance Office: Withdraw update #0537.
+#0786  Legal email: Sarun budget is going down to $800K.
+#0787  Finance Office: Sarun budget decreased by $30K after review.
+#0788  Marketing email: Heard Sarun's budget is now $1090K.
+#0789  Finance Office: Sarun budget decreased by $35K per the revised plan.
+#0790  Vendor call: Sarun documentation moved to the shared drive.
+#0791  Engineering email: Sounds like Sarun gets $486K more.
+#0792  Finance Office: Withdraw update #0758; it was entered in error.
+#0793  PMO note: Sarun sprint 23 retrospective notes posted.
+#0794  Finance Office: Withdraw update #0596; it was entered in error.
+#0795  Finance Office: Sarun budget increased by $125K after review.
+#0796  Vendor call: Sarun budget should land at $2240K.
+#0797  Finance Office: Sarun budget increased by $145K.
+#0798  Finance Office: Sarun budget increased by $266K.
+#0799  Finance Office: Sarun budget decreased by $5K per the revised plan.
+#0800  Finance Office: Withdraw update #0407.
+#0801  Finance Office: Withdraw update #0262.
+#0802  Finance Office: Sarun budget decreased by $25K after review.
+#0803  Finance Office: Sarun budget increased by $95K per the revised plan.
+#0804  Finance Office: Withdraw update #0715; it was entered in error.
+#0805  Marketing email: Sarun sprint 24 retrospective notes posted.
+#0806  Finance Office: Sarun budget increased by $100K per the revised plan.
+#0807  Finance Office: Sarun audit notes filed.
+#0808  Operations chat: Sarun budget should land at $1490K.
+#0809  Facilities ticket: Expect Sarun's budget to rise by $268K.
+#0810  Finance Office: Withdraw update #0345; it was entered in error.
+#0811  Finance Office: Sarun budget increased by $150K after review.
+#0812  Finance Office: Sarun budget decreased by $110K after review.
+#0813  Marketing email: Heard Sarun's budget is now $1390K.
+#0814  Finance Office: Sarun budget increased by $186K.
+#0815  Finance Office: Withdraw update #0710; it was entered in error.
+#0816  Facilities ticket: Sarun documentation moved to the shared drive.
+#0817  Finance Office: Sarun budget increased by $589K.
+#0818  Finance Office: Sarun budget decreased by $140K after review.
+#0819  Operations chat: Sarun sprint 14 retrospective notes posted.
+#0820  Finance Office: Sarun budget increased by $125K per the revised plan.
+#0821  Finance Office: Withdraw update #0470; it was entered in error.
+#0822  Finance Office: Sarun budget decreased by $342K.
+#0823  Sales update: Sarun site visit confirmed for Friday.
+#0824  Finance Office: Sarun budget increased by $125K.
+#0825  Finance Office: Sarun budget increased by $65K after review.
+#0826  Vendor call: Sarun vendor onboarding call scheduled for Thursday.
+#0827  PMO note: Sarun kickoff moved to Building 4.
+#0828  Finance Office: Sarun budget decreased by $30K after review.
+#0829  Finance Office: Sarun budget decreased by $90K per the revised plan.
+#0830  Operations chat: Sarun budget is going up by $241K.
+#0831  Finance Office: Sarun budget decreased by $135K.
+#0832  Finance Office: Sarun budget increased by $90K after review.
+#0833  Finance Office: Withdraw update #0666.
+#0834  Finance Office: Sarun budget decreased by $120K.
+#0835  Finance Office: Sarun budget decreased by $60K after review.
+#0836  Sales update: Sarun budget is going up to $2950K.
+#0837  Finance Office: Sarun budget decreased by $45K per the revised plan.
+#0838  Engineering email: Sarun budget should land at $1940K.
+#0839  Finance Office: Sarun budget decreased by $60K after review.
+#0840  Engineering email: Expect Sarun's budget to drop by $289K.
+#0841  Finance Office: Sarun budget decreased by $30K.
+#0842  Marketing email: Sarun budget is going up to $2150K.
+#0843  Finance Office: Sarun budget decreased by $20K per the revised plan.
+#0844  PMO note: Hearing Sarun's budget goes down $353K.
+#0845  Finance Office: Sarun budget increased by $150K after review.
+#0846  Finance Office: Sarun receipts scanned.
+#0847  Vendor call: Hearing Sarun's budget goes up $411K.
+#0848  Finance Office: Withdraw update #0458.
+#0849  Finance Office: Withdraw update #0183.
+#0850  Legal email: Sarun site visit confirmed for Wednesday.
+#0851  Finance Office: Sarun budget increased by $45K.
+#0852  Engineering email: Heard Sarun's budget is now $2240K.
+#0853  Finance Office: Sarun budget decreased by $25K after review.
+#0854  Finance Office: Withdraw update #0115.
+#0855  Finance Office: Sarun budget decreased by $527K.
+#0856  Finance Office: Withdraw update #0671.
+#0857  Finance Office: Sarun budget increased by $70K after review.
+#0858  Finance Office: Sarun budget decreased by $446K per the revised plan.
+#0859  Finance Office: Sarun budget increased by $95K.
+#0860  Finance Office: Sarun budget increased by $60K per the revised plan.
+#0861  Sales update: Sounds like Sarun gets $94K less.
+#0862  Legal email: Hearing Sarun's budget goes up $468K.
+#0863  Sales update: Sarun budget is going to $2890K.
+#0864  Finance Office: Withdraw update #0723.
+#0865  Finance Office: Sarun budget decreased by $85K.
+#0866  Finance Office: Sarun budget decreased by $35K per the revised plan.
+#0867  Operations chat: Sounds like Sarun gets $78K more.
+#0868  Engineering email: Sounds like Sarun gets $542K less.
+#0869  Finance Office: Withdraw update #0315.
+#0870  Operations chat: Sarun budget is going up by $443K.
+#0871  Finance Office: Sarun budget decreased by $65K.
+#0872  Finance Office: Sarun audit notes filed.
+#0873  Finance Office: Sarun budget increased by $5K after review.
+#0874  Finance Office: Sarun budget decreased by $65K after review.
+#0875  Engineering email: Sarun budget is going to $2250K.
+#0876  Finance Office: Sarun budget increased by $45K.
+#0877  Sales update: Sarun budget is going to $1970K.
+#0878  Finance Office: Sarun budget decreased by $20K.
+#0879  Finance Office: Withdraw update #0779.
+#0880  Finance Office: Withdraw update #0429; it was entered in error.
+#0881  PMO note: Hearing Sarun's budget goes up $141K.
+#0882  Vendor call: Pretty sure Sarun's budget is $3010K now.
+#0883  Finance Office: Withdraw update #0500.
+#0884  Legal email: Sarun budget is going down by $109K.
+#0885  Engineering email: Sarun budget is going up by $16K.
+#0886  Legal email: Sarun demo rescheduled to Monday afternoon.
+#0887  Operations chat: Sounds like Sarun gets $224K less.
+#0888  Vendor call: Sarun site visit confirmed for Wednesday.
+#0889  Finance Office: Sarun budget increased by $12K per the revised plan.
+#0890  Finance Office: Sarun budget increased by $221K.
+#0891  Finance Office: Sarun budget increased by $35K per the revised plan.
+#0892  Finance Office: Withdraw update #0720.
+#0893  PMO note: Sarun budget is going up by $29K.
+#0894  Finance Office: Sarun budget increased by $135K.
+#0895  Facilities ticket: Sarun budget should land at $4100K.
+#0896  Finance Office: Withdraw update #0858; it was entered in error.
+#0897  Operations chat: Sarun status report filed for week 31.
+#0898  Facilities ticket: Sarun budget should land at $2880K.
+#0899  Engineering email: Sarun budget is going down by $482K.
+#0900  Finance Office: Sarun budget increased by $80K after review.
+#0901  Finance Office: Sarun budget decreased by $24K after review.
+#0902  Finance Office: Sarun budget increased by $35K per the revised plan.
+#0903  Finance Office: Sarun budget decreased by $100K.
+#0904  Finance Office: Sarun budget decreased by $70K after review.
+#0905  Finance Office: Withdraw update #0747; it was entered in error.
+#0906  Facilities ticket: Sarun budget is going up by $207K.
+#0907  Legal email: Sarun budget is going to $4800K.
+#0908  Finance Office: Withdraw update #0672.
+#0909  Finance Office: Sarun budget decreased by $140K.
+#0910  Sales update: Sarun budget should land at $3520K.
+#0911  Finance Office: Sarun budget increased by $90K after review.
+#0912  Finance Office: Withdraw update #0639.
+#0913  Finance Office: Withdraw update #0699.
+#0914  Finance Office: Withdraw update #0683; it was entered in error.
+#0915  Finance Office: Sarun budget decreased by $130K after review.
+#0916  Finance Office: Sarun budget increased by $145K.
+#0917  Finance Office: Sarun budget decreased by $481K after review.
+#0918  Finance Office: Withdraw update #0294; it was entered in error.
+#0919  PMO note: Expect Sarun's budget to drop by $372K.
+#0920  Finance Office: Sarun budget increased by $35K.
+#0921  Finance Office: Sarun budget decreased by $100K per the revised plan.
+#0922  Finance Office: Sarun budget decreased by $85K.
+#0923  Finance Office: Sarun budget decreased by $130K after review.
+#0924  Finance Office: Sarun budget increased by $130K per the revised plan.
+#0925  Vendor call: Sarun design review moved to Room 5A.
+#0926  Finance Office: Sarun budget increased by $10K after review.
+#0927  Finance Office: Sarun budget decreased by $10K per the revised plan.
+#0928  Finance Office: Withdraw update #0896.
+#0929  Facilities ticket: Sarun budget is going down by $198K.
+#0930  PMO note: Hearing Sarun's budget goes down $36K.
+#0931  Marketing email: Sarun budget should land at $2650K.
+#0932  Finance Office: Sarun budget decreased by $149K after review.
+#0933  Facilities ticket: Sarun weekly sync moved to Fridays.
+#0934  Finance Office: Sarun budget decreased by $75K.
+#0935  Finance Office: Withdraw update #0617.
+#0936  Marketing email: Sarun budget is going up to $2650K.
+#0937  Legal email: Expect Sarun's budget to drop by $83K.
+#0938  Sales update: Heard Sarun's budget is now $2140K.
+#0939  Finance Office: Sarun budget decreased by $15K per the revised plan.
+#0940  Finance Office: Sarun budget decreased by $35K per the revised plan.
+#0941  Finance Office: Sarun budget increased by $110K after review.
+#0942  PMO note: Expect Sarun's budget to rise by $361K.
+#0943  Finance Office: Sarun receipts scanned.
+#0944  Marketing email: Sarun budget is going up by $459K.
+#0945  Operations chat: Sarun budget should land at $1660K.
+#0946  Finance Office: Withdraw update #0627; it was entered in error.
+#0947  Marketing email: Sarun budget should land at $2140K.
+#0948  Engineering email: Sarun kickoff moved to Building 3.
+#0949  Finance Office: Sarun budget decreased by $64K.
+#0950  Operations chat: Sarun kickoff moved to Building 4.
+#0951  Finance Office: Sarun budget decreased by $40K.
+#0952  Finance Office: Sarun budget decreased by $25K per the revised plan.
+#0953  Engineering email: Sarun weekly sync moved to Wednesdays.
+#0954  Finance Office: Sarun budget increased by $105K after review.
+#0955  Legal email: Sarun site visit confirmed for Monday.
+#0956  Marketing email: Sarun budget is going up to $2950K.
+#0957  Finance Office: Sarun budget increased by $15K.
+#0958  Sales update: Sarun risk register updated with 8 new items.
+#0959  Vendor call: Sarun budget is going up by $473K.
+#0960  Sales update: Pretty sure Sarun's budget is $3240K now.
+#0961  Finance Office: Sarun budget decreased by $65K after review.
+#0962  Finance Office: Sarun budget decreased by $115K after review.
+#0963  Finance Office: Sarun budget decreased by $75K after review.
+#0964  Finance Office: Sarun budget increased by $150K.
+#0965  Finance Office: Sarun budget increased by $135K after review.
+#0966  Finance Office: Sarun budget increased by $5K.
+#0967  Finance Office: Sarun budget decreased by $130K after review.
+#0968  Finance Office: Sarun budget increased by $95K after review.
+#0969  Finance Office: Sarun budget increased by $392K after review.
+#0970  Finance Office: Sarun budget increased by $75K per the revised plan.
+#0971  Marketing email: Sounds like Sarun gets $494K less.
+#0972  Finance Office: Sarun budget decreased by $60K after review.
+#0973  Finance Office: Withdraw update #0757.
+#0974  Engineering email: Pretty sure Sarun's budget is $2840K now.
+#0975  Vendor call: Pretty sure Sarun's budget is $2150K now.
+#0976  Finance Office: Sarun budget decreased by $39K.
+#0977  Engineering email: Sarun budget is going up by $338K.
+#0978  Finance Office: Sarun budget decreased by $140K per the revised plan.
+#0979  Finance Office: Sarun budget increased by $577K.
+#0980  Finance Office: Sarun budget decreased by $85K after review.
+#0981  Finance Office: Sarun budget increased by $5K per the revised plan.
+#0982  Operations chat: Sarun risk register updated with 7 new items.
+#0983  Marketing email: Expect Sarun's budget to rise by $159K.
+#0984  Finance Office: Sarun budget decreased by $115K per the revised plan.
+#0985  PMO note: Sarun budget is going to $4140K.
+#0986  Engineering email: Sarun budget is going to $3560K.
+#0987  Finance Office: Withdraw update #0814.
+#0988  Legal email: Expect Sarun's budget to drop by $183K.
+#0989  Operations chat: Sarun budget is going up to $3640K.
+#0990  Finance Office: Withdraw update #0661.
+#0991  Sales update: Sarun sprint 8 retrospective notes posted.
+#0992  Finance Office: Sarun budget increased by $70K after review.
+#0993  Finance Office: Sarun budget increased by $211K.
+#0994  Marketing email: Sarun budget should land at $3840K.
+#0995  Engineering email: Sarun budget is going to $2650K.
+#0996  Engineering email: Hearing Sarun's budget goes up $168K.
+#0997  Finance Office: Sarun budget decreased by $45K per the revised plan.
+#0998  Finance Office: Sarun budget decreased by $20K after review.
+#0999  Finance Office: Sarun budget decreased by $90K.
+#1000  Legal email: Sarun sprint 31 retrospective notes posted.
+#1001  Finance Office: Sarun budget increased by $30K per the revised plan.
+#1002  Finance Office: Sarun budget increased by $15K after review.
+#1003  Legal email: Sounds like Sarun gets $432K more.
+#1004  Finance Office: Sarun purchase order FC-6214 closed.
+#1005  Legal email: Sarun site visit confirmed for Friday.
+#1006  Finance Office: Withdraw update #0501.
+#1007  Engineering email: Sounds like Sarun gets $548K less.
+#1008  Finance Office: Sarun budget decreased by $80K after review.
+#1009  Finance Office: Withdraw update #0357; it was entered in error.
+#1010  Operations chat: Sarun sprint 29 retrospective notes posted.
+#1011  Operations chat: Sarun kickoff moved to Building 7.
+#1012  PMO note: Sarun budget is going to $3120K.
+#1013  Finance Office: Sarun budget decreased by $40K.
+#1014  Finance Office: Sarun budget decreased by $50K.
+#1015  Finance Office: Sarun budget increased by $30K per the revised plan.
+#1016  Finance Office: Withdraw update #0127; it was entered in error.
+#1017  Finance Office: Sarun budget decreased by $105K.
+#1018  Finance Office: Sarun budget increased by $130K after review.
+#1019  Legal email: Sounds like Sarun gets $53K less.
+#1020  Facilities ticket: Heard Sarun's budget is now $3750K.
+#1021  Finance Office: Sarun audit notes filed.
+#1022  Finance Office: Sarun budget increased by $115K after review.
+#1023  Vendor call: Sarun vendor onboarding call scheduled for Tuesday.
+#1024  Finance Office: Sarun budget decreased by $35K after review.
+#1025  Finance Office: Sarun budget increased by $30K.
+#1026  Finance Office: Sarun budget increased by $150K.
+#1027  Finance Office: Sarun budget increased by $50K after review.
+#1028  Vendor call: Hearing Sarun's budget goes up $324K.
+#1029  PMO note: Pretty sure Sarun's budget is $2400K now.
+#1030  PMO note: Sarun budget should land at $2260K.
+#1031  Finance Office: Withdraw update #0246; it was entered in error.
+#1032  Finance Office: Sarun budget decreased by $125K per the revised plan.
+#1033  Engineering email: Sarun budget should land at $3560K.
+#1034  Finance Office: Sarun budget decreased by $105K.
+#1035  Finance Office: Sarun budget increased by $35K.
+#1036  PMO note: Sounds like Sarun gets $592K less.
+#1037  Engineering email: Sarun budget should land at $3130K.
+#1038  Vendor call: Sarun design review moved to Room 5B.
+#1039  Finance Office: Sarun budget increased by $32K after review.
+#1040  Finance Office: Sarun budget decreased by $145K.
+#1041  Legal email: Hearing Sarun's budget goes up $194K.
+#1042  Finance Office: Withdraw update #0226; it was entered in error.
+#1043  Finance Office: Withdraw update #1042.
+#1044  Finance Office: Sarun purchase order FC-2253 closed.
+#1045  Vendor call: Hearing Sarun's budget goes up $572K.
+#1046  Sales update: Expect Sarun's budget to rise by $413K.
+#1047  PMO note: Hearing Sarun's budget goes up $491K.
+#1048  Finance Office: Sarun budget decreased by $60K.
+#1049  Finance Office: Withdraw update #0949.
+#1050  Finance Office: Withdraw update #0367; it was entered in error.
+#1051  Finance Office: Sarun budget increased by $65K per the revised plan.
+#1052  Marketing email: Sarun site visit confirmed for Wednesday.
+#1053  Finance Office: Sarun budget increased by $10K after review.
+#1054  Finance Office: Sarun cost center code changed to FC-6158.
+#1055  Finance Office: Sarun budget increased by $135K per the revised plan.
+#1056  Finance Office: Sarun budget increased by $25K.
+#1057  Marketing email: Sounds like Sarun gets $208K less.
+#1058  Engineering email: Sarun security review passed.
+#1059  Engineering email: Sarun documentation moved to the shared drive.
+#1060  Finance Office: Sarun budget decreased by $95K.
+#1061  Finance Office: Sarun budget decreased by $25K after review.
+#1062  Vendor call: Hearing Sarun's budget goes up $366K.
+#1063  Finance Office: Sarun budget decreased by $125K per the revised plan.
+#1064  Engineering email: Heard Sarun's budget is now $3050K.
+#1065  Finance Office: Sarun budget decreased by $120K.
+#1066  Marketing email: Heard Sarun's budget is now $2340K.
+#1067  Finance Office: Withdraw update #0792; it was entered in error.
+#1068  Facilities ticket: Pretty sure Sarun's budget is $1790K now.
+#1069  Finance Office: Sarun purchase order FC-7276 closed.
+#1070  Finance Office: Withdraw update #1031.
+#1071  Finance Office: Sarun budget increased by $25K.
+#1072  Finance Office: Withdraw update #0892.
+#1073  Finance Office: Sarun budget increased by $95K per the revised plan.
+#1074  Finance Office: Sarun budget increased by $140K after review.
+#1075  Finance Office: Sarun budget increased by $145K.
+#1076  Finance Office: Withdraw update #0688; it was entered in error.
+#1077  Finance Office: Sarun budget increased by $40K per the revised plan.
+#1078  Facilities ticket: Sounds like Sarun gets $374K more.
+#1079  Finance Office: Sarun budget decreased by $135K.
+#1080  Finance Office: Sarun budget decreased by $85K after review.
+#1081  Finance Office: Sarun budget increased by $25K after review.
+#1082  Finance Office: Sarun budget increased by $130K after review.
+#1083  Finance Office: Sarun budget decreased by $55K after review.
+#1084  Finance Office: Sarun budget decreased by $145K per the revised plan.
+#1085  Finance Office: Sarun budget increased by $40K after review.
+#1086  Operations chat: Sounds like Sarun gets $77K less.
+#1087  Finance Office: Sarun budget decreased by $120K.
+#1088  Finance Office: Sarun budget increased by $115K per the revised plan.
+#1089  Finance Office: Sarun budget increased by $85K.
+#1090  Finance Office: Sarun budget increased by $15K per the revised plan.
+#1091  Finance Office: Sarun budget increased by $35K.
+#1092  Finance Office: Sarun budget increased by $115K per the revised plan.
+#1093  Finance Office: Withdraw update #0647; it was entered in error.
+#1094  Operations chat: Heard Sarun's budget is now $2690K.
+#1095  Marketing email: Sarun budget is going up by $173K.
+#1096  Operations chat: Sarun budget is going up by $496K.
+#1097  Marketing email: Sarun budget is going to $2600K.
+#1098  Operations chat: Sarun budget is going to $2540K.
+#1099  Finance Office: Sarun budget decreased by $135K per the revised plan.
+#1100  Finance Office: Sarun budget decreased by $90K after review.
+#1101  PMO note: Sarun status report filed for week 15.
+#1102  Finance Office: Sarun budget decreased by $80K per the revised plan.
+#1103  Finance Office: Withdraw update #0046; it was entered in error.
+#1104  Operations chat: Heard Sarun's budget is now $3150K.
+#1105  Marketing email: Hearing Sarun's budget goes down $588K.
+#1106  Finance Office: Sarun budget decreased by $80K per the revised plan.
+#1107  Finance Office: Sarun budget increased by $30K.
+#1108  Marketing email: Sarun budget is going to $2270K.
+#1109  Finance Office: Sarun budget decreased by $120K after review.
+#1110  Finance Office: Sarun budget decreased by $60K after review.
+#1111  Finance Office: Sarun budget decreased by $20K.
+#1112  Legal email: Expect Sarun's budget to rise by $369K.
+#1113  Finance Office: Withdraw update #1006; it was entered in error.
+#1114  Finance Office: Sarun budget increased by $115K.
+#1115  Operations chat: Sounds like Sarun gets $118K more.
+#1116  Finance Office: Sarun budget decreased by $314K.
+#1117  Facilities ticket: Sounds like Sarun gets $568K less.
+#1118  Finance Office: Sarun budget decreased by $40K after review.
+#1119  PMO note: Sarun demo rescheduled to Tuesday afternoon.
+#1120  PMO note: Sarun budget is going to $2290K.
+#1121  Finance Office: Withdraw update #0848.
+#1122  Finance Office: Sarun budget decreased by $20K.
+#1123  Legal email: Sarun budget is going up to $2010K.
+#1124  Finance Office: Withdraw update #0190.
+#1125  Facilities ticket: Sarun vendor onboarding call scheduled for Tuesday.
+#1126  Finance Office: Sarun budget decreased by $557K.
+#1127  Finance Office: Withdraw update #0021; it was entered in error.
+#1128  Finance Office: Withdraw update #0752; it was entered in error.
+#1129  Finance Office: Sarun budget decreased by $60K after review.
+#1130  Finance Office: Sarun budget decreased by $70K after review.
+#1131  Vendor call: Sarun budget is going up by $362K.
+#1132  Finance Office: Sarun budget increased by $60K per the revised plan.
+#1133  Engineering email: Sarun vendor onboarding call scheduled for Tuesday.
+#1134  Marketing email: Sarun budget is going up to $2020K.
+#1135  Marketing email: Sarun test environment back online.
+#1136  Finance Office: Sarun budget decreased by $115K.
+#1137  Finance Office: Sarun budget increased by $120K after review.
+#1138  Finance Office: Sarun budget decreased by $75K after review.
+#1139  Facilities ticket: Heard Sarun's budget is now $1700K.
+#1140  Sales update: Sarun budget is going up to $2660K.
+#1141  Finance Office: Sarun budget decreased by $140K per the revised plan.
+#1142  Finance Office: Sarun budget decreased by $60K after review.
+#1143  Finance Office: Sarun budget increased by $45K after review.
+#1144  Finance Office: Sarun budget increased by $15K per the revised plan.
+#1145  Finance Office: Sarun budget decreased by $25K.
+#1146  Vendor call: Sarun budget is going down to $1300K.
+#1147  Finance Office: Sarun budget decreased by $105K.
+#1148  Finance Office: Sarun budget increased by $80K after review.
+#1149  Facilities ticket: Pretty sure Sarun's budget is $2370K now.
+#1150  Finance Office: Sarun quarterly audit scheduled for Monday.
+#1151  Marketing email: Sarun budget is going up by $57K.
+#1152  PMO note: Sarun budget should land at $1740K.
+#1153  Legal email: Sarun budget is going up by $471K.
+#1154  Finance Office: Sarun budget decreased by $100K.
+#1155  Finance Office: Sarun budget decreased by $35K after review.
+#1156  Finance Office: Sarun budget increased by $135K after review.
+#1157  Finance Office: Withdraw update #0061.
+#1158  Finance Office: Sarun budget increased by $125K.
+#1159  Finance Office: Sarun quarterly audit scheduled for Friday.
+#1160  Finance Office: Sarun quarterly audit scheduled for Thursday.
+#1161  Facilities ticket: Sarun budget is going down by $69K.
+#1162  Finance Office: Sarun budget decreased by $85K per the revised plan.
+#1163  Finance Office: Sarun budget increased by $46K per the revised plan.
+#1164  Finance Office: Withdraw update #0969.
+#1165  PMO note: Heard Sarun's budget is now $640K.
+#1166  PMO note: Sarun budget should land at $1120K.
+#1167  Finance Office: Sarun budget increased by $234K.
+#1168  Sales update: Sounds like Sarun gets $158K more.
+#1169  Finance Office: Sarun receipts scanned.
+#1170  Finance Office: Withdraw update #0223; it was entered in error.
+#1171  PMO note: Pretty sure Sarun's budget is $570K now.
+#1172  Finance Office: Sarun budget decreased by $135K per the revised plan.
+#1173  Finance Office: Sarun budget increased by $45K.
+#1174  Finance Office: Sarun budget decreased by $15K.
+#1175  Engineering email: Sarun site visit confirmed for Friday.
+#1176  Finance Office: Sarun budget increased by $10K.
+#1177  Sales update: Sarun budget is going up by $56K.
+#1178  Finance Office: Sarun budget increased by $115K per the revised plan.
+#1179  Finance Office: Sarun budget decreased by $25K per the revised plan.
+#1180  Engineering email: Sarun budget is going up by $272K.
+#1181  Facilities ticket: Sounds like Sarun gets $62K less.
+#1182  Finance Office: Sarun budget increased by $100K.
+#1183  Finance Office: Sarun budget decreased by $130K after review.
+#1184  Vendor call: Sarun budget is going down to $620K.
+#1185  Finance Office: Sarun budget increased by $181K after review.
+#1186  Finance Office: Withdraw update #0301.
+#1187  PMO note: Sarun budget is going up by $364K.
+#1188  Finance Office: Sarun budget decreased by $130K.
+#1189  Finance Office: Sarun budget decreased by $135K per the revised plan.
+#1190  Finance Office: Withdraw update #0541.
+#1191  Operations chat: Sarun budget is going to $860K.
+#1192  Sales update: Sarun status report filed for week 35.
+#1193  Finance Office: Sarun budget increased by $135K after review.
+#1194  Finance Office: Sarun budget decreased by $120K.
+#1195  Facilities ticket: Heard Sarun's budget is now $770K.
+#1196  Legal email: Sarun budget is going to $1360K.
+#1197  Finance Office: Sarun budget decreased by $40K per the revised plan.
+#1198  Finance Office: Sarun receipts scanned.
+#1199  Sales update: Sarun budget is going to $780K.
+#1200  Finance Office: Withdraw update #0443.
+#1201  Legal email: Sarun sprint 26 retrospective notes posted.
+#1202  Finance Office: Withdraw update #0056.
+#1203  Finance Office: Sarun budget increased by $20K after review.
+#1204  Finance Office: Sarun budget increased by $15K per the revised plan.
+#1205  Engineering email: Sarun security review passed.
+#1206  Finance Office: Sarun budget increased by $498K.
+#1207  Operations chat: Sarun test environment back online.
+#1208  Legal email: Sarun budget is going to $1040K.
+#1209  Finance Office: Sarun budget decreased by $80K after review.
+#1210  PMO note: Expect Sarun's budget to drop by $456K.
+#1211  Finance Office: Withdraw update #1167.
+#1212  Finance Office: Sarun budget increased by $25K after review.
+#1213  Finance Office: Sarun budget increased by $110K after review.
+#1214  Finance Office: Sarun budget decreased by $50K.
+#1215  Engineering email: Pretty sure Sarun's budget is $880K now.
+#1216  Finance Office: Sarun budget decreased by $40K per the revised plan.
+#1217  Finance Office: Withdraw update #0889.
+#1218  Engineering email: Sarun budget is going up to $990K.
+#1219  PMO note: Sarun budget is going down by $319K.
+#1220  Finance Office: Withdraw update #0129; it was entered in error.
+#1221  Vendor call: Sarun budget is going down by $487K.
+#1222  Finance Office: Sarun budget increased by $85K per the revised plan.
+#1223  Finance Office: Sarun budget decreased by $150K.
+#1224  Legal email: Hearing Sarun's budget goes down $554K.
+#1225  Finance Office: Sarun budget increased by $100K after review.
+#1226  Finance Office: Withdraw update #1206.
+#1227  Finance Office: Sarun budget decreased by $25K after review.
+#1228  Finance Office: Withdraw update #0544; it was entered in error.
+#1229  Finance Office: Withdraw update #0776; it was entered in error.
+#1230  Legal email: Sarun budget should land at $1950K.
+#1231  Finance Office: Reminder: Sarun expense reports are due Wednesday.
+#1232  Finance Office: Sarun budget decreased by $5K.
+#1233  Finance Office: Withdraw update #1126.
+#1234  Legal email: Pretty sure Sarun's budget is $1970K now.
+#1235  Vendor call: Sarun budget should land at $2500K.
+#1236  Finance Office: Sarun budget increased by $105K per the revised plan.
+#1237  Finance Office: Sarun budget decreased by $15K after review.
+#1238  Finance Office: Sarun budget increased by $101K.
+#1239  Legal email: Heard Sarun's budget is now $2250K.
+#1240  Finance Office: Sarun budget decreased by $349K per the revised plan.
+#1241  Finance Office: Sarun budget increased by $73K per the revised plan.
+#1242  Vendor call: Sarun budget should land at $2820K.
+#1243  Finance Office: Sarun budget decreased by $145K.
+#1244  PMO note: Sarun budget is going to $1740K.
+#1245  Finance Office: Sarun budget decreased by $110K after review.
+#1246  Finance Office: Sarun budget increased by $85K per the revised plan.
+#1247  Marketing email: Sarun budget should land at $2710K.
+#1248  Finance Office: Sarun budget decreased by $135K after review.
+#1249  PMO note: Sarun budget should land at $2040K.
+#1250  PMO note: Sarun budget is going down to $1660K.
+#1251  Finance Office: Sarun budget increased by $40K per the revised plan.
+#1252  PMO note: Sarun budget is going up by $282K.
+#1253  Finance Office: Sarun budget decreased by $148K after review.
+#1254  Engineering email: Expect Sarun's budget to rise by $546K.
+#1255  Facilities ticket: Sarun budget is going down to $1570K.
+#1256  Finance Office: Sarun budget increased by $100K.
+#1257  Finance Office: Sarun budget increased by $115K per the revised plan.
+#1258  Finance Office: Sarun budget increased by $10K after review.
+#1259  Finance Office: Sarun budget decreased by $70K per the revised plan.
+#1260  Finance Office: Withdraw update #0550; it was entered in error.
+#1261  PMO note: Pretty sure Sarun's budget is $2720K now.
+#1262  Finance Office: Withdraw update #0313.
+#1263  Finance Office: Sarun budget decreased by $55K after review.
+#1264  Operations chat: Heard Sarun's budget is now $1540K.
+#1265  Finance Office: Sarun budget decreased by $65K per the revised plan.
+#1266  Finance Office: Sarun budget decreased by $80K per the revised plan.
+#1267  Finance Office: Sarun budget decreased by $50K per the revised plan.
+#1268  Engineering email: Sarun vendor onboarding call scheduled for Thursday.
+#1269  Vendor call: Sounds like Sarun gets $444K less.
+#1270  Operations chat: Sarun demo rescheduled to Tuesday afternoon.
+#1271  PMO note: Sarun budget is going up by $229K.
+#1272  Finance Office: Withdraw update #0976; it was entered in error.
+#1273  Finance Office: Withdraw update #0855; it was entered in error.
+#1274  Legal email: Hearing Sarun's budget goes up $84K.
+#1275  Vendor call: Sounds like Sarun gets $368K more.
+#1276  Finance Office: Withdraw update #0917.
+#1277  Finance Office: Withdraw update #1116.
+#1278  Finance Office: Sarun budget decreased by $75K.
+#1279  Finance Office: Sarun budget decreased by $120K after review.
+#1280  Finance Office: Sarun budget increased by $25K.
+#1281  Finance Office: Sarun budget increased by $95K after review.
+#1282  Finance Office: Withdraw update #0880; it was entered in error.
+#1283  Finance Office: Sarun budget increased by $115K.
+#1284  Sales update: Sounds like Sarun gets $291K less.
+#1285  PMO note: Sarun vendor onboarding call scheduled for Thursday.
+#1286  Sales update: Sounds like Sarun gets $216K more.
+#1287  Finance Office: Withdraw update #0817; it was entered in error.
+#1288  Finance Office: Sarun budget decreased by $90K per the revised plan.
+#1289  Legal email: Sarun documentation moved to the shared drive.
+#1290  Finance Office: Sarun finance review moved to Room 3D.
+#1291  Facilities ticket: Expect Sarun's budget to rise by $176K.
+#1292  Finance Office: Sarun budget decreased by $15K.
+#1293  Finance Office: Sarun purchase order FC-6054 closed.
+#1294  Finance Office: Withdraw update #0517; it was entered in error.
+#1295  Finance Office: Sarun budget increased by $120K per the revised plan.
+#1296  Finance Office: Sarun budget increased by $110K after review.
+#1297  Finance Office: Sarun budget increased by $50K.
+#1298  Sales update: Sounds like Sarun gets $448K less.
+#1299  Facilities ticket: Hearing Sarun's budget goes down $153K.
+#1300  Finance Office: Sarun budget decreased by $65K.
+#1301  Finance Office: Withdraw update #0798.
+#1302  Finance Office: Sarun budget decreased by $110K after review.
+#1303  Vendor call: Heard Sarun's budget is now $2750K.
+#1304  Operations chat: Sarun weekly sync moved to Fridays.
+#1305  PMO note: Sarun budget is going down to $1920K.
+#1306  Finance Office: Sarun budget decreased by $5K per the revised plan.
+#1307  Legal email: Sarun site visit confirmed for Tuesday.
+#1308  Finance Office: Sarun budget increased by $100K after review.
+#1309  Finance Office: Sarun budget decreased by $100K per the revised plan.
+#1310  Finance Office: Withdraw update #0719.
+#1311  Finance Office: Sarun budget decreased by $150K after review.
+#1312  Finance Office: Sarun budget decreased by $5K per the revised plan.
+#1313  Sales update: Sarun budget is going down to $1510K.
+#1314  Finance Office: Sarun budget decreased by $75K.
+#1315  Marketing email: Heard Sarun's budget is now $1400K.
+#1316  Finance Office: Sarun budget decreased by $45K.
+#1317  Sales update: Expect Sarun's budget to drop by $251K.
+#1318  Finance Office: Sarun budget decreased by $90K.
+#1319  Finance Office: Withdraw update #1163; it was entered in error.
+#1320  Sales update: Sounds like Sarun gets $503K more.
+#1321  Sales update: Pretty sure Sarun's budget is $1840K now.
+#1322  Facilities ticket: Sarun budget is going up to $2200K.
+#1323  Finance Office: Sarun budget decreased by $50K after review.
+#1324  Engineering email: Sarun site visit confirmed for Friday.
+#1325  PMO note: Pretty sure Sarun's budget is $2010K now.
+#1326  Finance Office: Sarun budget decreased by $105K after review.
+#1327  Finance Office: Sarun budget increased by $120K.
+#1328  Operations chat: Sarun documentation moved to the shared drive.
+#1329  Facilities ticket: Sarun demo rescheduled to Monday afternoon.
+#1330  Finance Office: Sarun budget increased by $20K per the revised plan.
+#1331  Finance Office: Sarun budget increased by $140K per the revised plan.
+#1332  Finance Office: Withdraw update #1240.
+#1333  Engineering email: Sarun budget is going up by $252K.
+#1334  Finance Office: Sarun budget increased by $60K after review.
+#1335  PMO note: Sarun budget is going to $1950K.
+#1336  Vendor call: Sarun budget should land at $2610K.
+#1337  Finance Office: Sarun budget decreased by $382K per the revised plan.
+#1338  Finance Office: Sarun budget decreased by $90K.
+#1339  Finance Office: Sarun budget increased by $85K per the revised plan.
+#1340  Finance Office: Withdraw update #0932.
+#1341  Finance Office: Withdraw update #1039; it was entered in error.
+#1342  Finance Office: Sarun budget decreased by $452K.
+#1343  Operations chat: Sarun budget is going down by $267K.
+#1344  Engineering email: Pretty sure Sarun's budget is $1870K now.
+#1345  Marketing email: Sarun budget is going to $1850K.
+#1346  Finance Office: Sarun budget decreased by $467K after review.
+#1347  Sales update: Pretty sure Sarun's budget is $750K now.
+#1348  Finance Office: Withdraw update #0472.
+#1349  Finance Office: Sarun budget decreased by $75K per the revised plan.
+#1350  Finance Office: Sarun budget increased by $25K.
+#1351  Finance Office: Withdraw update #1342.
+#1352  Legal email: Sarun budget is going to $1130K.
+#1353  Finance Office: Sarun budget decreased by $70K per the revised plan.
+#1354  Sales update: Sounds like Sarun gets $373K less.
+#1355  Engineering email: Sarun kickoff moved to Building 9.
+#1356  Finance Office: Sarun budget increased by $65K after review.
+#1357  Finance Office: Sarun budget decreased by $80K.
+#1358  Finance Office: Sarun budget increased by $70K.
+#1359  Finance Office: Sarun budget increased by $10K.
+#1360  Vendor call: Sarun budget should land at $840K.
+#1361  Finance Office: Sarun budget increased by $150K.
+#1362  Operations chat: Sarun budget is going down to $920K.
+#1363  Finance Office: Sarun budget increased by $135K.
+#1364  Legal email: Sarun budget should land at $1510K.
+#1365  Vendor call: Sarun budget is going down to $940K.
+#1366  Finance Office: Withdraw update #0856.
+#1367  Finance Office: Sarun budget increased by $115K per the revised plan.
+#1368  Finance Office: Sarun budget increased by $135K per the revised plan.
+#1369  Finance Office: Sarun budget increased by $52K.
+#1370  Marketing email: Expect Sarun's budget to rise by $96K.
+#1371  Legal email: Sounds like Sarun gets $426K more.
+#1372  Finance Office: Withdraw update #0810; it was entered in error.
+#1373  Finance Office: Sarun budget increased by $115K after review.
+#1374  Finance Office: Sarun finance review moved to Room 1D.
+#1375  Finance Office: Sarun finance review moved to Room 1C.
+#1376  Legal email: Sarun sprint 2 retrospective notes posted.
+#1377  Finance Office: Withdraw update #0215.
+#1378  Finance Office: Sarun budget increased by $20K after review.
+#1379  Facilities ticket: Sarun budget should land at $1410K.
+#1380  Operations chat: Sarun demo rescheduled to Wednesday afternoon.
+#1381  Finance Office: Withdraw update #1121.
+#1382  Finance Office: Withdraw update #0742.
+#1383  PMO note: Heard Sarun's budget is now $2130K.
+#1384  Finance Office: Sarun budget increased by $35K.
+#1385  Finance Office: Sarun budget increased by $120K per the revised plan.
+#1386  Finance Office: Sarun budget decreased by $80K.
+#1387  Finance Office: Withdraw update #0457; it was entered in error.
+#1388  Finance Office: Sarun budget decreased by $15K per the revised plan.
+#1389  Facilities ticket: Hearing Sarun's budget goes up $71K.
+#1390  Finance Office: Withdraw update #1253.
+#1391  Finance Office: Sarun budget decreased by $75K.
+#1392  Finance Office: Sarun budget increased by $20K.
+#1393  Finance Office: Withdraw update #1369; it was entered in error.
+#1394  Finance Office: Sarun budget increased by $125K.
+#1395  Marketing email: Hearing Sarun's budget goes up $472K.
+#1396  Finance Office: Withdraw update #0822; it was entered in error.
+#1397  Vendor call: Hearing Sarun's budget goes down $22K.
+#1398  Finance Office: Sarun budget increased by $55K.
+#1399  Finance Office: Withdraw update #0732; it was entered in error.
+#1400  Sales update: Heard Sarun's budget is now $1690K.
+#1401  Finance Office: Sarun budget increased by $30K per the revised plan.
+#1402  Finance Office: Withdraw update #0993.
+#1403  Vendor call: Sarun budget is going to $2670K.
+#1404  Finance Office: Sarun budget decreased by $75K.
+#1405  Finance Office: Withdraw update #0721; it was entered in error.
+#1406  Finance Office: Sarun budget decreased by $70K.
+#1407  Engineering email: Hearing Sarun's budget goes up $142K.
+#1408  Facilities ticket: Sarun budget is going up to $2700K.
+#1409  Finance Office: Withdraw update #0709.
+#1410  Finance Office: Sarun budget increased by $45K.
+#1411  Finance Office: Sarun budget increased by $150K per the revised plan.
+#1412  Finance Office: Sarun receipts scanned.
+#1413  Finance Office: Withdraw update #1402.
+#1414  Finance Office: Sarun budget decreased by $115K per the revised plan.
+#1415  Finance Office: Sarun budget decreased by $130K per the revised plan.
+#1416  Finance Office: Sarun budget decreased by $25K.
+#1417  Finance Office: Sarun budget increased by $75K.
+#1418  PMO note: Sarun budget should land at $2920K.
+#1419  Engineering email: Heard Sarun's budget is now $2240K.
+#1420  Finance Office: Sarun audit notes filed.
+#1421  Finance Office: Sarun budget increased by $105K.
+#1422  Legal email: Heard Sarun's budget is now $3730K.
+#1423  Finance Office: Withdraw update #0121; it was entered in error.
+#1424  Vendor call: Sarun sprint 17 retrospective notes posted.
+#1425  Finance Office: Sarun budget increased by $80K per the revised plan.
+#1426  Engineering email: Sarun budget is going to $2870K.
+#1427  Finance Office: Sarun budget increased by $20K.
+#1428  Finance Office: Sarun budget increased by $30K per the revised plan.
+#1429  Operations chat: Heard Sarun's budget is now $4060K.
+#1430  Sales update: Sounds like Sarun gets $243K more.
+#1431  Vendor call: Pretty sure Sarun's budget is $3470K now.
+#1432  Finance Office: Sarun budget decreased by $10K per the revised plan.
+#1433  Legal email: Sarun design review moved to Room 4D.
+#1434  Engineering email: Sarun budget is going down to $3080K.
+#1435  Finance Office: Sarun budget increased by $60K per the revised plan.
+#1436  Sales update: Sarun kickoff moved to Building 6.
+#1437  Engineering email: Sarun test environment back online.
+#1438  Finance Office: Sarun finance review moved to Room 2D.
+#1439  Finance Office: Withdraw update #0901.
+#1440  Finance Office: Sarun budget decreased by $55K after review.
+#1441  Vendor call: Sarun budget should land at $2940K.
+#1442  Sales update: Sarun weekly sync moved to Wednesdays.
+#1443  Engineering email: Sounds like Sarun gets $236K more.
+#1444  Finance Office: Withdraw update #1049; it was entered in error.
+#1445  Finance Office: Withdraw update #0979.
+#1446  Finance Office: Withdraw update #0365; it was entered in error.
+#1447  Finance Office: Sarun budget increased by $105K.
+#1448  Finance Office: Sarun budget increased by $110K per the revised plan.
+#1449  Finance Office: Sarun budget increased by $100K per the revised plan.
+#1450  Finance Office: Withdraw update #0890; it was entered in error.
+#1451  Facilities ticket: Sarun risk register updated with 6 new items.
+#1452  Finance Office: Sarun invoice batch FC-3088 archived.
+#1453  Finance Office: Sarun budget increased by $80K after review.
+#1454  Finance Office: Sarun budget decreased by $135K per the revised plan.
+#1455  Finance Office: Withdraw update #0077; it was entered in error.
+#1456  Facilities ticket: Sarun documentation moved to the shared drive.
+#1457  Finance Office: Sarun budget increased by $20K after review.
+#1458  Finance Office: Sarun budget decreased by $130K per the revised plan.
+#1459  Marketing email: Sounds like Sarun gets $126K more.
+#1460  Engineering email: Sarun documentation moved to the shared drive.
+#1461  Facilities ticket: Sarun budget is going up to $3490K.
+#1462  Finance Office: Sarun budget increased by $145K.
+#1463  Sales update: Hearing Sarun's budget goes down $59K.
+#1464  Finance Office: Withdraw update #1238.
+#1465  Finance Office: Withdraw update #1229.
+#1466  Finance Office: Sarun budget decreased by $110K after review.
+#1467  PMO note: Sarun risk register updated with 2 new items.
+#1468  Finance Office: Sarun budget increased by $150K.
+#1469  Finance Office: Sarun budget increased by $75K per the revised plan.
+#1470  Finance Office: Sarun budget decreased by $20K.
+#1471  Facilities ticket: Sarun budget is going up to $3140K.
+#1472  Finance Office: Sarun invoice batch FC-1708 archived.
+#1473  Marketing email: Sarun sprint 7 retrospective notes posted.
+#1474  Finance Office: Withdraw update #1346; it was entered in error.
+#1475  Finance Office: Sarun budget decreased by $140K.
+#1476  Finance Office: Sarun budget decreased by $35K.
+#1477  Finance Office: Sarun budget decreased by $105K after review.
+#1478  Finance Office: Withdraw update #1337; it was entered in error.
+#1479  Finance Office: Sarun budget decreased by $15K after review.
+#1480  Finance Office: Sarun budget increased by $45K.
+#1481  Finance Office: Sarun budget decreased by $110K per the revised plan.
+#1482  Legal email: Sounds like Sarun gets $277K more.
+#1483  Finance Office: Withdraw update #1185; it was entered in error.
+#1484  Finance Office: Withdraw update #0708; it was entered in error.
+#1485  Finance Office: Sarun budget decreased by $110K after review.
+#1486  PMO note: Sarun budget should land at $3040K.
+#1487  Operations chat: Sarun budget is going down by $34K.
+#1488  Vendor call: Heard Sarun's budget is now $3280K.
+#1489  Finance Office: Sarun budget decreased by $150K.
+#1490  Finance Office: Sarun budget increased by $45K.
+#1491  Finance Office: Sarun budget increased by $145K per the revised plan.
+#1492  Finance Office: Sarun budget increased by $80K after review.
+#1493  Finance Office: Sarun budget decreased by $60K per the revised plan.
+#1494  Finance Office: Withdraw update #0734; it was entered in error.
+#1495  Finance Office: Sarun budget decreased by $135K.
+#1496  Finance Office: Sarun budget decreased by $115K per the revised plan.
+#1497  Finance Office: Sarun budget decreased by $45K.
+#1498  Engineering email: Pretty sure Sarun's budget is $2840K now.
+#1499  Finance Office: Sarun budget increased by $30K.
+#1500  Marketing email: Sarun budget should land at $2540K.
+#1501  Finance Office: Sarun budget decreased by $10K after review.
+#1502  Finance Office: Sarun budget decreased by $65K after review.
+#1503  Vendor call: Sarun budget is going down by $359K.
+#1504  Finance Office: Sarun budget decreased by $60K.
+#1505  Finance Office: Sarun budget decreased by $105K per the revised plan.
+#1506  PMO note: Sounds like Sarun gets $538K more.
+#1507  Marketing email: Sarun budget is going up to $1990K.
+#1508  Operations chat: Pretty sure Sarun's budget is $2610K now.
+#1509  Finance Office: Sarun budget decreased by $110K.
+#1510  Finance Office: Sarun budget decreased by $20K.
+#1511  Finance Office: Sarun budget decreased by $45K per the revised plan.
+#1512  Engineering email: Hearing Sarun's budget goes up $201K.
+#1513  PMO note: Heard Sarun's budget is now $2130K.
+#1514  Finance Office: Sarun budget increased by $105K.
+#1515  Finance Office: Sarun budget decreased by $55K after review.
+#1516  Finance Office: Sarun budget decreased by $5K after review.
+#1517  Finance Office: Sarun budget decreased by $70K per the revised plan.
+#1518  Engineering email: Sarun site visit confirmed for Thursday.
+#1519  Facilities ticket: Heard Sarun's budget is now $1710K.
+#1520  Sales update: Sarun kickoff moved to Building 4.
+#1521  Sales update: Sarun budget is going up to $2330K.
+#1522  Engineering email: Expect Sarun's budget to drop by $19K.
+#1523  Finance Office: Sarun budget decreased by $50K.
+#1524  PMO note: Pretty sure Sarun's budget is $1950K now.
+#1525  Finance Office: Sarun budget decreased by $105K per the revised plan.
+#1526  Legal email: Sarun budget is going up by $346K.
+#1527  Finance Office: Sarun budget decreased by $105K after review.
+#1528  Finance Office: Withdraw update #0311; it was entered in error.
+#1529  Vendor call: Sarun budget is going to $1190K.
+#1530  Facilities ticket: Sarun budget is going to $1150K.
+#1531  Sales update: Sarun budget should land at $1120K.
+#1532  Finance Office: Sarun budget increased by $5K per the revised plan.
+#1533  Finance Office: Sarun budget decreased by $150K per the revised plan.
+#1534  Finance Office: Sarun budget decreased by $60K after review.
+#1535  Finance Office: Sarun budget decreased by $110K per the revised plan.
+#1536  Finance Office: Sarun budget increased by $90K.
+#1537  Finance Office: Sarun budget increased by $55K after review.
+#1538  Finance Office: Sarun budget decreased by $15K after review.
+#1539  Finance Office: Withdraw update #1241.
+#1540  Finance Office: Sarun budget increased by $85K per the revised plan.
+#1541  Finance Office: Sarun budget increased by $35K after review.
+#1542  PMO note: Hearing Sarun's budget goes up $171K.
+#1543  Finance Office: Sarun budget decreased by $135K.
+#1544  Finance Office: Sarun budget increased by $90K.
+#1545  PMO note: Sarun budget is going up to $930K.
+#1546  Finance Office: Sarun budget increased by $35K.
+#1547  Legal email: Sarun budget should land at $880K.
+#1548  Finance Office: Sarun budget increased by $95K.
+#1549  Operations chat: Heard Sarun's budget is now $1180K.
+#1550  Finance Office: Sarun budget decreased by $80K after review.
+#1551  PMO note: Sarun budget is going up by $479K.
+#1552  Sales update: Sarun budget is going to $700K.
+#1553  Finance Office: Sarun budget decreased by $15K after review.
+#1554  Legal email: Sarun security review passed.
+#1555  Finance Office: Sarun budget increased by $30K per the revised plan.
+#1556  Finance Office: Sarun budget decreased by $15K.
+#1557  Finance Office: Sarun budget increased by $70K per the revised plan.
+#1558  Finance Office: Sarun budget increased by $40K.
+#1559  Finance Office: Sarun budget increased by $45K per the revised plan.
+#1560  Legal email: Sarun budget is going to $930K.
+#1561  Vendor call: Sarun budget is going up by $309K.
+#1562  Finance Office: Withdraw update #1217; it was entered in error.
+#1563  Finance Office: Sarun budget increased by $140K.
+#1564  Finance Office: Withdraw update #0722.
+#1565  PMO note: Pretty sure Sarun's budget is $980K now.
+#1566  Finance Office: Sarun budget increased by $70K.
+#1567  Facilities ticket: Expect Sarun's budget to drop by $363K.
+#1568  Finance Office: Sarun budget decreased by $100K per the revised plan.
+#1569  Finance Office: Sarun budget increased by $80K per the revised plan.
+#1570  Finance Office: Sarun budget increased by $20K per the revised plan.
+#1571  Finance Office: Withdraw update #0728; it was entered in error.
+#1572  Finance Office: Sarun budget decreased by $80K per the revised plan.
+#1573  Finance Office: Sarun budget increased by $95K per the revised plan.
+#1574  Facilities ticket: Pretty sure Sarun's budget is $1370K now.
+#1575  Vendor call: Sounds like Sarun gets $416K more.
+#1576  Finance Office: Sarun budget increased by $10K per the revised plan.
+#1577  Finance Office: Sarun budget increased by $150K after review.
+#1578  Finance Office: Sarun budget decreased by $40K.
+#1579  Finance Office: Sarun budget decreased by $115K after review.
+#1580  PMO note: Sarun risk register updated with 2 new items.
+#1581  PMO note: Sarun budget is going to $720K.
+#1582  Finance Office: Sarun budget decreased by $70K per the revised plan.
+#1583  Finance Office: Sarun budget increased by $25K per the revised plan.
+#1584  Finance Office: Sarun budget decreased by $40K per the revised plan.
+#1585  Finance Office: Sarun budget increased by $70K after review.
+#1586  Marketing email: Sounds like Sarun gets $463K less.
+#1587  Finance Office: Withdraw update #0663.
+#1588  Finance Office: Sarun budget decreased by $5K per the revised plan.
+#1589  Finance Office: Sarun budget increased by $15K after review.
+#1590  Finance Office: Sarun budget decreased by $135K per the revised plan.
+#1591  Finance Office: Withdraw update #1571.
+#1592  Engineering email: Hearing Sarun's budget goes down $412K.
+#1593  Finance Office: Sarun budget decreased by $140K.
+#1594  Finance Office: Withdraw update #0632; it was entered in error.
+#1595  Vendor call: Sarun budget should land at $690K.
+#1596  Finance Office: Sarun budget increased by $60K after review.
+#1597  Finance Office: Sarun budget increased by $150K.
+#1598  Facilities ticket: Expect Sarun's budget to drop by $547K.
+#1599  Finance Office: Withdraw update #0029; it was entered in error.
+#1600  Finance Office: Withdraw update #0425; it was entered in error.
+
+Question: What is Sarun's budget now?

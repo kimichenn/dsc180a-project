@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Thebreta budget set to $2450K.
+#0002  Operations chat: Thebreta weekly sync moved to Thursdays.
+#0003  Finance Office: Thebreta budget decreased by $45K.
+#0004  Finance Office: Thebreta budget increased by $264K after review.
+#0005  Finance Office: Thebreta budget increased by $59K per the revised plan.
+#0006  Finance Office: Withdraw update #0004; it was entered in error.
+#0007  Operations chat: Thebreta status report filed for week 27.
+#0008  Marketing email: Thebreta test environment back online.
+#0009  Legal email: Thebreta status report filed for week 34.
+#0010  Finance Office: Thebreta budget decreased by $164K after review.
+#0011  Marketing email: Thebreta site visit confirmed for Tuesday.
+#0012  Finance Office: Thebreta budget increased by $471K.
+#0013  Finance Office: Thebreta budget increased by $35K after review.
+#0014  PMO note: Thebreta design review moved to Room 2C.
+#0015  Finance Office: Withdraw update #0005; it was entered in error.
+#0016  Facilities ticket: Thebreta kickoff moved to Building 3.
+#0017  Finance Office: Thebreta budget increased by $449K after review.
+#0018  Finance Office: Thebreta budget decreased by $52K per the revised plan.
+#0019  Finance Office: Thebreta budget increased by $444K.
+#0020  Finance Office: Withdraw update #0010; it was entered in error.
+#0021  Finance Office: Withdraw update #0015; it was entered in error.
+#0022  Finance Office: Thebreta budget decreased by $92K per the revised plan.
+#0023  Legal email: Thebreta test environment back online.
+#0024  Finance Office: Thebreta budget decreased by $93K after review.
+#0025  Engineering email: Thebreta test environment back online.
+#0026  Finance Office: Thebreta budget decreased by $10K.
+#0027  Finance Office: Withdraw update #0019.
+#0028  Finance Office: Thebreta finance review moved to Room 6D.
+#0029  Vendor call: Thebreta kickoff moved to Building 7.
+#0030  Finance Office: Thebreta budget decreased by $6K after review.
+#0031  Finance Office: Thebreta budget decreased by $72K per the revised plan.
+#0032  Finance Office: Thebreta budget increased by $523K.
+#0033  Finance Office: Thebreta budget decreased by $82K after review.
+#0034  Finance Office: Withdraw update #0017.
+#0035  Facilities ticket: Thebreta site visit confirmed for Friday.
+#0036  Finance Office: Thebreta budget increased by $15K.
+#0037  Vendor call: Thebreta weekly sync moved to Wednesdays.
+#0038  Operations chat: Thebreta demo rescheduled to Thursday afternoon.
+#0039  Finance Office: Thebreta budget decreased by $55K after review.
+#0040  Finance Office: Withdraw update #0012.
+#0041  Vendor call: Thebreta status report filed for week 34.
+#0042  Finance Office: Withdraw update #0021.
+#0043  Finance Office: Thebreta budget increased by $25K after review.
+#0044  Marketing email: Thebreta vendor onboarding call scheduled for Wednesday.
+#0045  Finance Office: Thebreta budget decreased by $5K.
+#0046  Finance Office: Thebreta budget decreased by $55K.
+#0047  Finance Office: Withdraw update #0033.
+#0048  Finance Office: Thebreta budget increased by $473K per the revised plan.
+#0049  Legal email: Thebreta site visit confirmed for Wednesday.
+#0050  Finance Office: Thebreta budget increased by $159K after review.
+#0051  Finance Office: Thebreta budget decreased by $426K per the revised plan.
+#0052  Finance Office: Withdraw update #0034; it was entered in error.
+#0053  Finance Office: Thebreta budget increased by $317K.
+#0054  Finance Office: Thebreta budget decreased by $349K.
+#0055  Finance Office: Thebreta budget increased by $145K per the revised plan.
+#0056  Finance Office: Thebreta budget decreased by $158K.
+#0057  Finance Office: Thebreta budget increased by $457K after review.
+#0058  Vendor call: Thebreta kickoff moved to Building 8.
+#0059  Finance Office: Thebreta budget increased by $45K.
+#0060  Finance Office: Withdraw update #0052.
+#0061  Finance Office: Withdraw update #0022; it was entered in error.
+#0062  Finance Office: Withdraw update #0030; it was entered in error.
+#0063  Marketing email: Thebreta kickoff moved to Building 5.
+#0064  Finance Office: Withdraw update #0050; it was entered in error.
+#0065  Engineering email: Thebreta sprint 9 retrospective notes posted.
+#0066  Vendor call: Thebreta kickoff moved to Building 9.
+#0067  Facilities ticket: Thebreta weekly sync moved to Fridays.
+#0068  Finance Office: Thebreta budget increased by $80K per the revised plan.
+#0069  Finance Office: Withdraw update #0020; it was entered in error.
+#0070  Legal email: Thebreta design review moved to Room 4A.
+#0071  Finance Office: Withdraw update #0060; it was entered in error.
+#0072  Operations chat: Thebreta test environment back online.
+#0073  Operations chat: Thebreta design review moved to Room 5D.
+#0074  Operations chat: Thebreta kickoff moved to Building 9.
+#0075  Finance Office: Thebreta budget decreased by $311K per the revised plan.
+#0076  Vendor call: Thebreta weekly sync moved to Tuesdays.
+#0077  Finance Office: Thebreta budget increased by $90K after review.
+#0078  Finance Office: Thebreta budget decreased by $342K per the revised plan.
+#0079  Finance Office: Thebreta budget decreased by $586K after review.
+#0080  Facilities ticket: Thebreta vendor onboarding call scheduled for Tuesday.
+#0081  Finance Office: Thebreta budget decreased by $366K after review.
+#0082  Legal email: Thebreta test environment back online.
+#0083  Engineering email: Thebreta status report filed for week 5.
+#0084  PMO note: Thebreta status report filed for week 7.
+#0085  Finance Office: Withdraw update #0032.
+#0086  Engineering email: Thebreta design review moved to Room 4B.
+#0087  Finance Office: Thebreta budget increased by $529K.
+#0088  Marketing email: Thebreta kickoff moved to Building 2.
+#0089  Finance Office: Withdraw update #0062.
+#0090  Finance Office: Withdraw update #0078.
+#0091  Finance Office: Withdraw update #0090.
+#0092  Finance Office: Thebreta budget decreased by $284K after review.
+#0093  Marketing email: Thebreta status report filed for week 42.
+#0094  Finance Office: Thebreta budget increased by $30K per the revised plan.
+#0095  Finance Office: Thebreta budget increased by $90K after review.
+#0096  Finance Office: Thebreta budget decreased by $60K.
+#0097  Finance Office: Thebreta budget decreased by $20K.
+#0098  Finance Office: Withdraw update #0048.
+#0099  Finance Office: Thebreta budget decreased by $120K.
+#0100  Engineering email: Thebreta sprint 19 retrospective notes posted.
+#0101  Vendor call: Thebreta kickoff moved to Building 9.
+#0102  Finance Office: Thebreta budget decreased by $402K.
+#0103  Finance Office: Thebreta budget decreased by $112K.
+#0104  Finance Office: Withdraw update #0024; it was entered in error.
+#0105  Finance Office: Thebreta budget increased by $223K.
+#0106  Finance Office: Thebreta budget decreased by $154K per the revised plan.
+#0107  Finance Office: Thebreta budget increased by $65K after review.
+#0108  Finance Office: Thebreta budget decreased by $30K after review.
+#0109  Finance Office: Withdraw update #0061.
+#0110  Finance Office: Thebreta budget increased by $117K after review.
+#0111  Finance Office: Withdraw update #0042; it was entered in error.
+#0112  Finance Office: Withdraw update #0056.
+#0113  Finance Office: Thebreta budget decreased by $10K after review.
+#0114  Finance Office: Thebreta budget increased by $20K.
+#0115  Sales update: Thebreta status report filed for week 48.
+#0116  Legal email: Thebreta test environment back online.
+#0117  Finance Office: Thebreta budget decreased by $35K.
+#0118  Vendor call: Thebreta design review moved to Room 4A.
+#0119  Finance Office: Thebreta budget decreased by $70K.
+#0120  Finance Office: Thebreta budget increased by $105K.
+#0121  Finance Office: Thebreta budget increased by $38K.
+#0122  Finance Office: Thebreta budget increased by $65K after review.
+#0123  Finance Office: Thebreta budget decreased by $28K per the revised plan.
+#0124  Vendor call: Thebreta weekly sync moved to Thursdays.
+#0125  Finance Office: Thebreta budget increased by $91K after review.
+#0126  Finance Office: Thebreta budget decreased by $401K per the revised plan.
+#0127  Finance Office: Thebreta budget increased by $313K per the revised plan.
+#0128  Finance Office: Thebreta budget decreased by $110K per the revised plan.
+#0129  Vendor call: Thebreta design review moved to Room 4C.
+#0130  Facilities ticket: Thebreta sprint 37 retrospective notes posted.
+#0131  Sales update: Thebreta kickoff moved to Building 3.
+#0132  Finance Office: Withdraw update #0125; it was entered in error.
+#0133  Vendor call: Thebreta test environment back online.
+#0134  Legal email: Thebreta kickoff moved to Building 6.
+#0135  PMO note: Thebreta security review passed.
+#0136  Finance Office: Thebreta budget decreased by $196K.
+#0137  Facilities ticket: Thebreta weekly sync moved to Mondays.
+#0138  Legal email: Thebreta weekly sync moved to Mondays.
+#0139  Finance Office: Thebreta budget decreased by $105K per the revised plan.
+#0140  Finance Office: Thebreta budget increased by $568K after review.
+#0141  Engineering email: Thebreta design review moved to Room 1C.
+#0142  PMO note: Thebreta sprint 6 retrospective notes posted.
+#0143  Finance Office: Thebreta budget decreased by $326K per the revised plan.
+#0144  PMO note: Thebreta kickoff moved to Building 3.
+#0145  Finance Office: Thebreta budget increased by $222K per the revised plan.
+#0146  Finance Office: Thebreta budget increased by $135K after review.
+#0147  Finance Office: Thebreta budget increased by $10K per the revised plan.
+#0148  Finance Office: Thebreta budget decreased by $567K.
+#0149  Engineering email: Thebreta security review passed.
+#0150  Finance Office: Thebreta budget decreased by $145K per the revised plan.
+#0151  Finance Office: Thebreta budget increased by $184K.
+#0152  Finance Office: Thebreta budget increased by $115K.
+#0153  Operations chat: Thebreta test environment back online.
+#0154  Finance Office: Thebreta budget increased by $376K after review.
+#0155  Finance Office: Thebreta budget decreased by $25K per the revised plan.
+#0156  Marketing email: Thebreta test environment back online.
+#0157  Legal email: Thebreta sprint 38 retrospective notes posted.
+#0158  Finance Office: Thebreta budget decreased by $75K.
+#0159  Finance Office: Thebreta budget increased by $364K after review.
+#0160  Finance Office: Thebreta budget decreased by $85K per the revised plan.
+#0161  Finance Office: Thebreta budget decreased by $100K.
+#0162  Marketing email: Thebreta status report filed for week 34.
+#0163  Finance Office: Thebreta budget decreased by $20K per the revised plan.
+#0164  Finance Office: Withdraw update #0092; it was entered in error.
+#0165  Vendor call: Thebreta status report filed for week 46.
+#0166  Legal email: Thebreta test environment back online.
+#0167  Finance Office: Thebreta budget increased by $221K after review.
+#0168  Finance Office: Thebreta budget decreased by $30K per the revised plan.
+#0169  Finance Office: Thebreta budget decreased by $100K per the revised plan.
+#0170  Operations chat: Thebreta status report filed for week 12.
+#0171  Finance Office: Thebreta budget decreased by $312K per the revised plan.
+#0172  Legal email: Thebreta security review passed.
+#0173  Finance Office: Withdraw update #0140; it was entered in error.
+#0174  Finance Office: Thebreta budget decreased by $109K after review.
+#0175  Operations chat: Thebreta documentation moved to the shared drive.
+#0176  Facilities ticket: Thebreta test environment back online.
+#0177  Marketing email: Thebreta demo rescheduled to Friday afternoon.
+#0178  PMO note: Thebreta site visit confirmed for Friday.
+#0179  Operations chat: Thebreta security review passed.
+#0180  Finance Office: Thebreta budget decreased by $70K.
+#0181  Marketing email: Thebreta test environment back online.
+#0182  Finance Office: Thebreta budget decreased by $75K after review.
+#0183  Vendor call: Thebreta sprint 47 retrospective notes posted.
+#0184  Sales update: Thebreta test environment back online.
+#0185  Operations chat: Thebreta weekly sync moved to Tuesdays.
+#0186  Finance Office: Thebreta budget increased by $54K per the revised plan.
+#0187  Facilities ticket: Thebreta security review passed.
+#0188  Finance Office: Withdraw update #0186.
+#0189  Finance Office: Thebreta budget increased by $120K after review.
+#0190  Finance Office: Thebreta budget increased by $543K.
+#0191  Marketing email: Thebreta kickoff moved to Building 9.
+#0192  Marketing email: Thebreta kickoff moved to Building 2.
+#0193  Operations chat: Thebreta design review moved to Room 3C.
+#0194  Finance Office: Thebreta budget increased by $30K.
+#0195  Engineering email: Thebreta risk register updated with 4 new items.
+#0196  Engineering email: Thebreta design review moved to Room 6D.
+#0197  Marketing email: Thebreta design review moved to Room 1D.
+#0198  Finance Office: Withdraw update #0064; it was entered in error.
+#0199  Finance Office: Thebreta budget decreased by $559K after review.
+#0200  PMO note: Thebreta design review moved to Room 6A.
+#0201  Operations chat: Thebreta site visit confirmed for Tuesday.
+#0202  Finance Office: Thebreta budget increased by $55K.
+#0203  Finance Office: Withdraw update #0098.
+#0204  Finance Office: Thebreta budget increased by $347K per the revised plan.
+#0205  Operations chat: Thebreta demo rescheduled to Tuesday afternoon.
+#0206  Finance Office: Thebreta budget increased by $60K after review.
+#0207  Finance Office: Thebreta budget decreased by $382K.
+#0208  Vendor call: Thebreta site visit confirmed for Monday.
+#0209  Finance Office: Withdraw update #0123; it was entered in error.
+#0210  Engineering email: Thebreta security review passed.
+#0211  Finance Office: Withdraw update #0081; it was entered in error.
+#0212  Finance Office: Thebreta budget decreased by $193K per the revised plan.
+#0213  Operations chat: Thebreta weekly sync moved to Wednesdays.
+#0214  Finance Office: Withdraw update #0087; it was entered in error.
+#0215  Finance Office: Thebreta budget increased by $20K.
+#0216  Finance Office: Thebreta budget increased by $172K per the revised plan.
+#0217  Finance Office: Thebreta budget decreased by $493K per the revised plan.
+#0218  Finance Office: Withdraw update #0159.
+#0219  Finance Office: Thebreta budget increased by $135K.
+#0220  PMO note: Thebreta test environment back online.
+#0221  Finance Office: Thebreta budget increased by $95K per the revised plan.
+#0222  PMO note: Thebreta site visit confirmed for Monday.
+#0223  Finance Office: Thebreta budget increased by $135K per the revised plan.
+#0224  Finance Office: Thebreta budget decreased by $259K.
+#0225  PMO note: Thebreta security review passed.
+#0226  Finance Office: Thebreta budget increased by $90K after review.
+#0227  Finance Office: Thebreta budget decreased by $157K.
+#0228  Finance Office: Thebreta purchase order FC-4416 closed.
+#0229  Vendor call: Thebreta test environment back online.
+#0230  PMO note: Thebreta site visit confirmed for Wednesday.
+#0231  Legal email: Thebreta status report filed for week 27.
+#0232  Finance Office: Withdraw update #0110; it was entered in error.
+#0233  Operations chat: Thebreta kickoff moved to Building 9.
+#0234  Operations chat: Thebreta sprint 14 retrospective notes posted.
+#0235  Finance Office: Withdraw update #0075.
+#0236  Facilities ticket: Thebreta test environment back online.
+#0237  Finance Office: Thebreta budget increased by $115K after review.
+#0238  Finance Office: Thebreta budget decreased by $35K.
+#0239  Finance Office: Withdraw update #0136; it was entered in error.
+#0240  Finance Office: Withdraw update #0217; it was entered in error.
+#0241  Finance Office: Thebreta budget decreased by $70K after review.
+#0242  PMO note: Thebreta status report filed for week 7.
+#0243  Finance Office: Thebreta budget increased by $105K after review.
+#0244  Marketing email: Thebreta kickoff moved to Building 6.
+#0245  Sales update: Thebreta status report filed for week 24.
+#0246  Finance Office: Withdraw update #0103.
+#0247  Finance Office: Thebreta budget decreased by $80K per the revised plan.
+#0248  Operations chat: Thebreta test environment back online.
+#0249  Finance Office: Thebreta budget decreased by $447K after review.
+#0250  Finance Office: Thebreta budget decreased by $30K after review.
+#0251  Finance Office: Thebreta budget increased by $70K after review.
+#0252  Finance Office: Thebreta budget increased by $35K per the revised plan.
+#0253  Sales update: Thebreta test environment back online.
+#0254  Operations chat: Thebreta weekly sync moved to Fridays.
+#0255  Operations chat: Thebreta weekly sync moved to Mondays.
+#0256  Finance Office: Thebreta budget decreased by $20K after review.
+#0257  Finance Office: Thebreta quarterly audit scheduled for Tuesday.
+#0258  Engineering email: Thebreta status report filed for week 7.
+#0259  Finance Office: Thebreta budget decreased by $145K per the revised plan.
+#0260  Finance Office: Thebreta budget decreased by $524K after review.
+#0261  Finance Office: Withdraw update #0132.
+#0262  Facilities ticket: Thebreta documentation moved to the shared drive.
+#0263  Finance Office: Thebreta budget decreased by $100K.
+#0264  Legal email: Thebreta status report filed for week 4.
+#0265  Finance Office: Withdraw update #0207.
+#0266  Finance Office: Thebreta budget increased by $5K per the revised plan.
+#0267  Sales update: Thebreta documentation moved to the shared drive.
+#0268  Finance Office: Thebreta budget increased by $130K per the revised plan.
+#0269  Finance Office: Thebreta budget decreased by $388K per the revised plan.
+#0270  Finance Office: Withdraw update #0173; it was entered in error.
+#0271  PMO note: Thebreta test environment back online.
+#0272  Vendor call: Thebreta risk register updated with 3 new items.
+#0273  Finance Office: Thebreta budget increased by $70K.
+#0274  Finance Office: Thebreta budget decreased by $95K per the revised plan.
+#0275  PMO note: Thebreta design review moved to Room 1B.
+#0276  Finance Office: Thebreta budget decreased by $65K after review.
+#0277  Vendor call: Thebreta status report filed for week 29.
+#0278  Finance Office: Withdraw update #0235.
+#0279  Finance Office: Thebreta budget increased by $150K after review.
+#0280  Finance Office: Thebreta budget increased by $65K after review.
+#0281  Engineering email: Thebreta kickoff moved to Building 5.
+#0282  Operations chat: Thebreta risk register updated with 7 new items.
+#0283  Finance Office: Thebreta budget decreased by $547K after review.
+#0284  PMO note: Thebreta design review moved to Room 5C.
+#0285  Marketing email: Thebreta test environment back online.
+#0286  Finance Office: Thebreta budget increased by $218K.
+#0287  Marketing email: Thebreta site visit confirmed for Thursday.
+#0288  Engineering email: Thebreta kickoff moved to Building 7.
+#0289  Sales update: Thebreta weekly sync moved to Wednesdays.
+#0290  Finance Office: Thebreta budget increased by $55K.
+#0291  Finance Office: Thebreta budget decreased by $152K.
+#0292  Sales update: Thebreta test environment back online.
+#0293  Marketing email: Thebreta status report filed for week 17.
+#0294  Engineering email: Thebreta site visit confirmed for Monday.
+#0295  Sales update: Thebreta test environment back online.
+#0296  Finance Office: Thebreta budget increased by $145K after review.
+#0297  Engineering email: Thebreta kickoff moved to Building 6.
+#0298  Finance Office: Thebreta budget decreased by $150K per the revised plan.
+#0299  Finance Office: Thebreta budget increased by $75K.
+#0300  Finance Office: Withdraw update #0261; it was entered in error.
+#0301  Finance Office: Withdraw update #0232.
+#0302  Legal email: Thebreta security review passed.
+#0303  Finance Office: Thebreta budget increased by $572K per the revised plan.
+#0304  Finance Office: Withdraw update #0121; it was entered in error.
+#0305  Finance Office: Thebreta budget decreased by $581K.
+#0306  Operations chat: Thebreta design review moved to Room 6D.
+#0307  Finance Office: Withdraw update #0089; it was entered in error.
+#0308  Finance Office: Thebreta budget decreased by $247K after review.
+#0309  Finance Office: Thebreta budget increased by $45K after review.
+#0310  Finance Office: Thebreta budget decreased by $135K after review.
+#0311  Engineering email: Thebreta status report filed for week 6.
+#0312  Finance Office: Thebreta budget increased by $35K per the revised plan.
+#0313  Facilities ticket: Thebreta design review moved to Room 1C.
+#0314  Finance Office: Thebreta budget increased by $463K.
+#0315  Finance Office: Thebreta budget decreased by $105K.
+#0316  Engineering email: Thebreta kickoff moved to Building 2.
+#0317  Finance Office: Thebreta budget decreased by $8K per the revised plan.
+#0318  Vendor call: Thebreta status report filed for week 26.
+#0319  Legal email: Thebreta sprint 8 retrospective notes posted.
+#0320  Finance Office: Thebreta budget increased by $135K after review.
+#0321  Finance Office: Thebreta budget increased by $95K.
+#0322  Finance Office: Thebreta budget decreased by $272K per the revised plan.
+#0323  Sales update: Thebreta kickoff moved to Building 5.
+#0324  Finance Office: Withdraw update #0188; it was entered in error.
+#0325  Finance Office: Thebreta budget increased by $214K after review.
+#0326  Finance Office: Thebreta budget decreased by $45K per the revised plan.
+#0327  Finance Office: Thebreta budget decreased by $25K per the revised plan.
+#0328  Engineering email: Thebreta test environment back online.
+#0329  Facilities ticket: Thebreta design review moved to Room 1D.
+#0330  Finance Office: Withdraw update #0199.
+#0331  PMO note: Thebreta documentation moved to the shared drive.
+#0332  Finance Office: Thebreta budget increased by $60K.
+#0333  Marketing email: Thebreta site visit confirmed for Wednesday.
+#0334  Finance Office: Withdraw update #0112.
+#0335  Finance Office: Thebreta budget decreased by $100K per the revised plan.
+#0336  Vendor call: Thebreta site visit confirmed for Thursday.
+#0337  Finance Office: Thebreta budget decreased by $429K.
+#0338  Finance Office: Thebreta budget increased by $532K.
+#0339  Vendor call: Thebreta test environment back online.
+#0340  Finance Office: Withdraw update #0227; it was entered in error.
+#0341  Finance Office: Thebreta budget increased by $443K per the revised plan.
+#0342  Finance Office: Thebreta budget increased by $5K.
+#0343  Finance Office: Thebreta budget increased by $140K after review.
+#0344  Vendor call: Thebreta status report filed for week 25.
+#0345  Facilities ticket: Thebreta kickoff moved to Building 8.
+#0346  Finance Office: Thebreta budget decreased by $98K after review.
+#0347  Finance Office: Thebreta budget increased by $70K.
+#0348  Finance Office: Thebreta budget increased by $30K per the revised plan.
+#0349  Engineering email: Thebreta weekly sync moved to Mondays.
+#0350  Finance Office: Thebreta budget decreased by $15K per the revised plan.
+#0351  Engineering email: Thebreta site visit confirmed for Thursday.
+#0352  Legal email: Thebreta test environment back online.
+#0353  Legal email: Thebreta status report filed for week 26.
+#0354  Vendor call: Thebreta test environment back online.
+#0355  Finance Office: Thebreta budget increased by $110K after review.
+#0356  Sales update: Thebreta sprint 41 retrospective notes posted.
+#0357  Finance Office: Thebreta budget decreased by $35K after review.
+#0358  Finance Office: Thebreta budget decreased by $282K after review.
+#0359  Finance Office: Thebreta budget increased by $130K.
+#0360  Vendor call: Thebreta test environment back online.
+#0361  Finance Office: Thebreta budget increased by $487K after review.
+#0362  Facilities ticket: Thebreta kickoff moved to Building 8.
+#0363  Finance Office: Thebreta budget decreased by $89K after review.
+#0364  Marketing email: Thebreta sprint 7 retrospective notes posted.
+#0365  Marketing email: Thebreta design review moved to Room 1C.
+#0366  Finance Office: Thebreta budget increased by $51K per the revised plan.
+#0367  Finance Office: Reminder: Thebreta expense reports are due Monday.
+#0368  Finance Office: Thebreta budget decreased by $45K after review.
+#0369  Finance Office: Thebreta quarterly audit scheduled for Tuesday.
+#0370  Finance Office: Thebreta budget increased by $115K per the revised plan.
+#0371  PMO note: Thebreta design review moved to Room 6A.
+#0372  Finance Office: Thebreta finance review moved to Room 1C.
+#0373  PMO note: Thebreta site visit confirmed for Monday.
+#0374  Finance Office: Withdraw update #0190.
+#0375  Finance Office: Thebreta budget increased by $135K after review.
+#0376  Marketing email: Thebreta test environment back online.
+#0377  Finance Office: Thebreta budget decreased by $95K after review.
+#0378  Marketing email: Thebreta status report filed for week 34.
+#0379  Sales update: Thebreta status report filed for week 25.
+#0380  Finance Office: Thebreta budget increased by $519K per the revised plan.
+#0381  Finance Office: Thebreta budget decreased by $35K per the revised plan.
+#0382  PMO note: Thebreta weekly sync moved to Mondays.
+#0383  PMO note: Thebreta status report filed for week 16.
+#0384  Legal email: Thebreta status report filed for week 16.
+#0385  Finance Office: Thebreta budget increased by $145K.
+#0386  Finance Office: Withdraw update #0027; it was entered in error.
+#0387  Engineering email: Thebreta documentation moved to the shared drive.
+#0388  Finance Office: Thebreta budget increased by $85K.
+#0389  Finance Office: Withdraw update #0249; it was entered in error.
+#0390  Finance Office: Thebreta budget increased by $143K after review.
+#0391  Finance Office: Thebreta budget increased by $537K after review.
+#0392  Marketing email: Thebreta weekly sync moved to Thursdays.
+#0393  Finance Office: Thebreta budget increased by $478K.
+#0394  Sales update: Thebreta status report filed for week 19.
+#0395  PMO note: Thebreta weekly sync moved to Wednesdays.
+#0396  Finance Office: Thebreta budget decreased by $319K after review.
+#0397  Finance Office: Thebreta budget increased by $135K.
+#0398  Operations chat: Thebreta weekly sync moved to Thursdays.
+#0399  Finance Office: Thebreta budget increased by $100K.
+#0400  Marketing email: Thebreta site visit confirmed for Monday.
+#0401  Marketing email: Thebreta weekly sync moved to Thursdays.
+#0402  Finance Office: Withdraw update #0270; it was entered in error.
+#0403  Finance Office: Thebreta budget increased by $2K.
+#0404  Finance Office: Thebreta budget increased by $15K per the revised plan.
+#0405  Vendor call: Thebreta security review passed.
+#0406  Finance Office: Thebreta budget increased by $60K.
+#0407  Facilities ticket: Thebreta design review moved to Room 5B.
+#0408  Legal email: Thebreta weekly sync moved to Thursdays.
+#0409  Finance Office: Withdraw update #0079.
+#0410  Finance Office: Thebreta budget decreased by $231K per the revised plan.
+#0411  Finance Office: Thebreta budget increased by $85K per the revised plan.
+#0412  Sales update: Thebreta test environment back online.
+#0413  Finance Office: Thebreta budget decreased by $125K.
+#0414  Finance Office: Thebreta budget decreased by $45K per the revised plan.
+#0415  Facilities ticket: Thebreta demo rescheduled to Monday afternoon.
+#0416  Finance Office: Thebreta budget decreased by $15K.
+#0417  Finance Office: Withdraw update #0211; it was entered in error.
+#0418  Legal email: Thebreta sprint 12 retrospective notes posted.
+#0419  Facilities ticket: Thebreta weekly sync moved to Wednesdays.
+#0420  Finance Office: Thebreta budget decreased by $80K per the revised plan.
+#0421  Finance Office: Thebreta budget increased by $192K.
+#0422  Finance Office: Thebreta budget decreased by $248K per the revised plan.
+#0423  Operations chat: Thebreta sprint 17 retrospective notes posted.
+#0424  Engineering email: Thebreta status report filed for week 24.
+#0425  Finance Office: Thebreta budget increased by $135K.
+#0426  PMO note: Thebreta test environment back online.
+#0427  Finance Office: Thebreta budget increased by $60K after review.
+#0428  PMO note: Thebreta demo rescheduled to Friday afternoon.
+#0429  Finance Office: Withdraw update #0410.
+#0430  Finance Office: Thebreta budget increased by $125K.
+#0431  Finance Office: Withdraw update #0363; it was entered in error.
+#0432  Legal email: Thebreta site visit confirmed for Wednesday.
+#0433  Finance Office: Thebreta budget increased by $150K per the revised plan.
+#0434  Facilities ticket: Thebreta status report filed for week 25.
+#0435  PMO note: Thebreta test environment back online.
+#0436  Facilities ticket: Thebreta vendor onboarding call scheduled for Wednesday.
+#0437  Sales update: Thebreta kickoff moved to Building 2.
+#0438  Finance Office: Thebreta budget decreased by $76K after review.
+#0439  Finance Office: Thebreta budget decreased by $5K.
+#0440  Finance Office: Thebreta budget decreased by $100K after review.
+#0441  Engineering email: Thebreta status report filed for week 13.
+#0442  Vendor call: Thebreta design review moved to Room 2A.
+#0443  Operations chat: Thebreta documentation moved to the shared drive.
+#0444  Finance Office: Thebreta budget increased by $10K.
+#0445  Vendor call: Thebreta test environment back online.
+#0446  Operations chat: Thebreta test environment back online.
+#0447  Vendor call: Thebreta test environment back online.
+#0448  Finance Office: Thebreta budget increased by $15K.
+#0449  Finance Office: Withdraw update #0018; it was entered in error.
+#0450  PMO note: Thebreta kickoff moved to Building 9.
+#0451  Finance Office: Withdraw update #0286; it was entered in error.
+#0452  Finance Office: Withdraw update #0047; it was entered in error.
+#0453  Finance Office: Thebreta budget increased by $70K per the revised plan.
+#0454  Legal email: Thebreta vendor onboarding call scheduled for Monday.
+#0455  Facilities ticket: Thebreta security review passed.
+#0456  Finance Office: Thebreta budget increased by $50K per the revised plan.
+#0457  Legal email: Thebreta design review moved to Room 3B.
+#0458  Finance Office: Thebreta budget increased by $21K.
+#0459  Finance Office: Thebreta budget increased by $145K after review.
+#0460  Finance Office: Thebreta budget decreased by $135K after review.
+#0461  Finance Office: Thebreta budget increased by $65K after review.
+#0462  Finance Office: Thebreta budget decreased by $20K per the revised plan.
+#0463  Facilities ticket: Thebreta design review moved to Room 1D.
+#0464  Finance Office: Thebreta budget decreased by $50K per the revised plan.
+#0465  Finance Office: Thebreta budget decreased by $65K.
+#0466  Marketing email: Thebreta test environment back online.
+#0467  Finance Office: Withdraw update #0174; it was entered in error.
+#0468  Finance Office: Thebreta budget decreased by $227K after review.
+#0469  Finance Office: Thebreta budget decreased by $472K.
+#0470  Marketing email: Thebreta demo rescheduled to Wednesday afternoon.
+#0471  Finance Office: Thebreta budget increased by $150K per the revised plan.
+#0472  Finance Office: Thebreta budget decreased by $303K after review.
+#0473  Finance Office: Withdraw update #0380.
+#0474  Finance Office: Thebreta budget decreased by $20K.
+#0475  Marketing email: Thebreta design review moved to Room 4C.
+#0476  Finance Office: Thebreta budget decreased by $85K after review.
+#0477  Operations chat: Thebreta sprint 13 retrospective notes posted.
+#0478  Finance Office: Thebreta budget increased by $90K.
+#0479  PMO note: Thebreta site visit confirmed for Thursday.
+#0480  Finance Office: Thebreta budget decreased by $130K.
+#0481  Legal email: Thebreta security review passed.
+#0482  Finance Office: Thebreta budget increased by $95K per the revised plan.
+#0483  PMO note: Thebreta status report filed for week 46.
+#0484  Finance Office: Thebreta budget increased by $15K per the revised plan.
+#0485  PMO note: Thebreta kickoff moved to Building 6.
+#0486  Finance Office: Thebreta budget increased by $150K after review.
+#0487  Finance Office: Thebreta budget increased by $389K.
+#0488  Finance Office: Thebreta budget decreased by $437K.
+#0489  Finance Office: Withdraw update #0488.
+#0490  Finance Office: Thebreta budget decreased by $116K per the revised plan.
+#0491  Finance Office: Thebreta budget increased by $74K per the revised plan.
+#0492  Finance Office: Withdraw update #0148; it was entered in error.
+#0493  Vendor call: Thebreta status report filed for week 37.
+#0494  Finance Office: Thebreta budget increased by $45K per the revised plan.
+#0495  Legal email: Thebreta kickoff moved to Building 8.
+#0496  Finance Office: Thebreta audit notes filed.
+#0497  Finance Office: Thebreta budget decreased by $186K after review.
+#0498  Finance Office: Thebreta budget increased by $176K after review.
+#0499  Finance Office: Thebreta budget increased by $25K.
+#0500  Facilities ticket: Thebreta demo rescheduled to Tuesday afternoon.
+#0501  PMO note: Thebreta site visit confirmed for Tuesday.
+#0502  Finance Office: Thebreta budget increased by $100K.
+#0503  Finance Office: Thebreta budget increased by $90K after review.
+#0504  Finance Office: Thebreta budget decreased by $100K per the revised plan.
+#0505  Vendor call: Thebreta kickoff moved to Building 7.
+#0506  Vendor call: Thebreta site visit confirmed for Friday.
+#0507  Finance Office: Thebreta budget decreased by $105K.
+#0508  Finance Office: Thebreta budget decreased by $60K after review.
+#0509  Marketing email: Thebreta kickoff moved to Building 8.
+#0510  Finance Office: Withdraw update #0111; it was entered in error.
+#0511  Finance Office: Thebreta budget increased by $100K per the revised plan.
+#0512  Facilities ticket: Thebreta site visit confirmed for Monday.
+#0513  Marketing email: Thebreta weekly sync moved to Tuesdays.
+#0514  Finance Office: Thebreta budget increased by $85K after review.
+#0515  Finance Office: Thebreta budget decreased by $244K.
+#0516  Facilities ticket: Thebreta sprint 40 retrospective notes posted.
+#0517  Finance Office: Withdraw update #0212.
+#0518  Finance Office: Thebreta budget increased by $20K.
+#0519  Finance Office: Thebreta budget increased by $30K per the revised plan.
+#0520  Finance Office: Thebreta budget decreased by $60K after review.
+#0521  Finance Office: Thebreta budget decreased by $428K.
+#0522  PMO note: Thebreta status report filed for week 46.
+#0523  Engineering email: Thebreta site visit confirmed for Thursday.
+#0524  Operations chat: Thebreta site visit confirmed for Thursday.
+#0525  Sales update: Thebreta site visit confirmed for Tuesday.
+#0526  Sales update: Thebreta test environment back online.
+#0527  Finance Office: Withdraw update #0490; it was entered in error.
+#0528  Sales update: Thebreta design review moved to Room 5C.
+#0529  Engineering email: Thebreta sprint 8 retrospective notes posted.
+#0530  Finance Office: Thebreta budget decreased by $266K per the revised plan.
+#0531  Finance Office: Thebreta budget decreased by $105K.
+#0532  Finance Office: Withdraw update #0216; it was entered in error.
+#0533  Vendor call: Thebreta status report filed for week 14.
+#0534  Legal email: Thebreta test environment back online.
+#0535  Finance Office: Thebreta budget increased by $60K per the revised plan.
+#0536  Legal email: Thebreta design review moved to Room 1A.
+#0537  PMO note: Thebreta weekly sync moved to Mondays.
+#0538  Finance Office: Withdraw update #0069; it was entered in error.
+#0539  Marketing email: Thebreta kickoff moved to Building 5.
+#0540  Finance Office: Withdraw update #0106; it was entered in error.
+#0541  Sales update: Thebreta demo rescheduled to Monday afternoon.
+#0542  PMO note: Thebreta weekly sync moved to Fridays.
+#0543  Finance Office: Thebreta budget decreased by $288K after review.
+#0544  Sales update: Thebreta site visit confirmed for Wednesday.
+#0545  Finance Office: Thebreta budget increased by $80K per the revised plan.
+#0546  Finance Office: Thebreta budget decreased by $150K per the revised plan.
+#0547  Operations chat: Thebreta security review passed.
+#0548  Finance Office: Withdraw update #0530; it was entered in error.
+#0549  Vendor call: Thebreta weekly sync moved to Mondays.
+#0550  Finance Office: Thebreta budget increased by $527K.
+#0551  Finance Office: Thebreta budget increased by $135K per the revised plan.
+#0552  Facilities ticket: Thebreta design review moved to Room 4C.
+#0553  Finance Office: Thebreta quarterly audit scheduled for Monday.
+#0554  Finance Office: Thebreta budget increased by $30K per the revised plan.
+#0555  Finance Office: Thebreta budget decreased by $130K after review.
+#0556  Finance Office: Thebreta budget increased by $15K per the revised plan.
+#0557  Finance Office: Withdraw update #0487.
+#0558  Finance Office: Thebreta budget decreased by $30K after review.
+#0559  Operations chat: Thebreta sprint 30 retrospective notes posted.
+#0560  Sales update: Thebreta design review moved to Room 1A.
+#0561  Engineering email: Thebreta security review passed.
+#0562  Finance Office: Thebreta budget increased by $522K per the revised plan.
+#0563  Finance Office: Withdraw update #0468.
+#0564  Finance Office: Thebreta budget decreased by $242K per the revised plan.
+#0565  Vendor call: Thebreta status report filed for week 23.
+#0566  Finance Office: Thebreta budget increased by $30K after review.
+#0567  Finance Office: Thebreta cost center code changed to FC-1378.
+#0568  Finance Office: Thebreta budget decreased by $105K after review.
+#0569  Finance Office: Withdraw update #0325.
+#0570  Finance Office: Withdraw update #0472; it was entered in error.
+#0571  Finance Office: Withdraw update #0498.
+#0572  Finance Office: Thebreta budget increased by $75K after review.
+#0573  Finance Office: Thebreta budget decreased by $130K.
+#0574  PMO note: Thebreta sprint 34 retrospective notes posted.
+#0575  Finance Office: Thebreta cost center code changed to FC-3676.
+#0576  Finance Office: Thebreta budget decreased by $135K per the revised plan.
+#0577  Finance Office: Thebreta budget increased by $167K per the revised plan.
+#0578  Vendor call: Thebreta site visit confirmed for Tuesday.
+#0579  Sales update: Thebreta demo rescheduled to Monday afternoon.
+#0580  Vendor call: Thebreta site visit confirmed for Monday.
+#0581  Legal email: Thebreta test environment back online.
+#0582  Facilities ticket: Thebreta kickoff moved to Building 2.
+#0583  Finance Office: Thebreta budget decreased by $125K after review.
+#0584  Finance Office: Reminder: Thebreta expense reports are due Thursday.
+#0585  Engineering email: Thebreta kickoff moved to Building 5.
+#0586  PMO note: Thebreta site visit confirmed for Monday.
+#0587  Finance Office: Thebreta budget decreased by $130K.
+#0588  Finance Office: Thebreta budget decreased by $30K after review.
+#0589  Finance Office: Thebreta invoice batch FC-3361 archived.
+#0590  Finance Office: Thebreta budget increased by $105K per the revised plan.
+#0591  Operations chat: Thebreta status report filed for week 8.
+#0592  Finance Office: Thebreta budget decreased by $60K per the revised plan.
+#0593  Marketing email: Thebreta design review moved to Room 5C.
+#0594  Finance Office: Withdraw update #0421; it was entered in error.
+#0595  Sales update: Thebreta status report filed for week 43.
+#0596  Finance Office: Thebreta budget decreased by $120K.
+#0597  Finance Office: Thebreta budget decreased by $140K after review.
+#0598  Finance Office: Thebreta budget decreased by $115K.
+#0599  Vendor call: Thebreta weekly sync moved to Tuesdays.
+#0600  Finance Office: Thebreta purchase order FC-7325 closed.
+#0601  Finance Office: Thebreta budget increased by $43K.
+#0602  Vendor call: Thebreta security review passed.
+#0603  Finance Office: Thebreta budget increased by $55K after review.
+#0604  Finance Office: Withdraw update #0517; it was entered in error.
+#0605  Finance Office: Thebreta budget increased by $60K after review.
+#0606  Operations chat: Thebreta test environment back online.
+#0607  Marketing email: Thebreta weekly sync moved to Thursdays.
+#0608  Finance Office: Withdraw update #0594; it was entered in error.
+#0609  Operations chat: Thebreta site visit confirmed for Wednesday.
+#0610  Sales update: Thebreta site visit confirmed for Tuesday.
+#0611  Operations chat: Thebreta status report filed for week 26.
+#0612  Operations chat: Thebreta kickoff moved to Building 7.
+#0613  Finance Office: Thebreta budget decreased by $150K.
+#0614  Operations chat: Thebreta status report filed for week 38.
+#0615  Operations chat: Thebreta status report filed for week 37.
+#0616  Finance Office: Thebreta budget decreased by $100K after review.
+#0617  Finance Office: Withdraw update #0393; it was entered in error.
+#0618  Vendor call: Thebreta test environment back online.
+#0619  Vendor call: Thebreta kickoff moved to Building 5.
+#0620  Facilities ticket: Thebreta test environment back online.
+#0621  Operations chat: Thebreta sprint 31 retrospective notes posted.
+#0622  Finance Office: Thebreta budget decreased by $105K.
+#0623  Marketing email: Thebreta sprint 26 retrospective notes posted.
+#0624  Finance Office: Thebreta budget decreased by $70K.
+#0625  Finance Office: Thebreta budget increased by $50K.
+#0626  Operations chat: Thebreta security review passed.
+#0627  Finance Office: Withdraw update #0051.
+#0628  Engineering email: Thebreta test environment back online.
+#0629  Finance Office: Thebreta budget increased by $263K per the revised plan.
+#0630  Finance Office: Thebreta budget increased by $130K.
+#0631  Finance Office: Thebreta budget increased by $80K per the revised plan.
+#0632  PMO note: Thebreta test environment back online.
+#0633  Finance Office: Thebreta budget decreased by $110K per the revised plan.
+#0634  Vendor call: Thebreta test environment back online.
+#0635  Finance Office: Reminder: Thebreta expense reports are due Monday.
+#0636  Finance Office: Withdraw update #0341.
+#0637  Finance Office: Withdraw update #0154.
+#0638  Finance Office: Thebreta budget increased by $90K after review.
+#0639  Marketing email: Thebreta status report filed for week 39.
+#0640  Finance Office: Withdraw update #0550; it was entered in error.
+#0641  Marketing email: Thebreta kickoff moved to Building 9.
+#0642  Engineering email: Thebreta site visit confirmed for Thursday.
+#0643  Legal email: Thebreta test environment back online.
+#0644  Finance Office: Thebreta budget increased by $145K after review.
+#0645  Finance Office: Withdraw update #0577.
+#0646  Finance Office: Withdraw update #0143.
+#0647  Finance Office: Withdraw update #0209.
+#0648  Finance Office: Thebreta budget decreased by $297K after review.
+#0649  Sales update: Thebreta weekly sync moved to Wednesdays.
+#0650  Finance Office: Thebreta budget decreased by $65K after review.
+#0651  Finance Office: Thebreta budget decreased by $100K.
+#0652  Finance Office: Thebreta budget increased by $35K after review.
+#0653  Finance Office: Thebreta budget increased by $40K after review.
+#0654  Finance Office: Thebreta budget increased by $496K per the revised plan.
+#0655  Engineering email: Thebreta test environment back online.
+#0656  Finance Office: Withdraw update #0291; it was entered in error.
+#0657  Finance Office: Thebreta budget decreased by $70K per the revised plan.
+#0658  Finance Office: Thebreta budget increased by $100K per the revised plan.
+#0659  Finance Office: Thebreta budget increased by $80K per the revised plan.
+#0660  Finance Office: Thebreta budget decreased by $130K after review.
+#0661  Vendor call: Thebreta kickoff moved to Building 9.
+#0662  Finance Office: Thebreta budget decreased by $145K per the revised plan.
+#0663  Engineering email: Thebreta design review moved to Room 2C.
+#0664  Facilities ticket: Thebreta sprint 14 retrospective notes posted.
+#0665  Finance Office: Thebreta budget decreased by $105K per the revised plan.
+#0666  Marketing email: Thebreta status report filed for week 10.
+#0667  Engineering email: Thebreta security review passed.
+#0668  Finance Office: Thebreta budget increased by $105K.
+#0669  Finance Office: Thebreta budget increased by $90K after review.
+#0670  Finance Office: Thebreta receipts scanned.
+#0671  Sales update: Thebreta weekly sync moved to Mondays.
+#0672  Finance Office: Thebreta budget decreased by $100K per the revised plan.
+#0673  Finance Office: Thebreta budget decreased by $45K per the revised plan.
+#0674  Finance Office: Thebreta budget increased by $125K after review.
+#0675  Vendor call: Thebreta security review passed.
+#0676  Sales update: Thebreta test environment back online.
+#0677  Finance Office: Thebreta budget decreased by $110K per the revised plan.
+#0678  Engineering email: Thebreta weekly sync moved to Wednesdays.
+#0679  Finance Office: Thebreta budget decreased by $25K per the revised plan.
+#0680  Finance Office: Thebreta budget increased by $140K.
+#0681  Finance Office: Thebreta budget decreased by $104K per the revised plan.
+#0682  Finance Office: Thebreta budget decreased by $120K.
+#0683  Finance Office: Thebreta budget increased by $65K.
+#0684  Finance Office: Thebreta budget increased by $5K after review.
+#0685  Legal email: Thebreta kickoff moved to Building 6.
+#0686  Finance Office: Thebreta budget increased by $150K after review.
+#0687  Finance Office: Thebreta purchase order FC-2660 closed.
+#0688  Finance Office: Thebreta budget increased by $5K.
+#0689  Finance Office: Thebreta budget decreased by $40K.
+#0690  Engineering email: Thebreta documentation moved to the shared drive.
+#0691  Engineering email: Thebreta kickoff moved to Building 9.
+#0692  Finance Office: Withdraw update #0260.
+#0693  Finance Office: Thebreta budget increased by $65K.
+#0694  Finance Office: Thebreta budget decreased by $372K per the revised plan.
+#0695  Finance Office: Thebreta budget decreased by $85K per the revised plan.
+#0696  Engineering email: Thebreta sprint 44 retrospective notes posted.
+#0697  PMO note: Thebreta weekly sync moved to Mondays.
+#0698  Finance Office: Thebreta budget decreased by $15K per the revised plan.
+#0699  Engineering email: Thebreta kickoff moved to Building 7.
+#0700  Finance Office: Reminder: Thebreta expense reports are due Tuesday.
+#0701  Finance Office: Thebreta budget increased by $75K.
+#0702  Finance Office: Thebreta budget increased by $232K.
+#0703  Marketing email: Thebreta weekly sync moved to Thursdays.
+#0704  Finance Office: Thebreta budget decreased by $55K per the revised plan.
+#0705  Finance Office: Thebreta budget decreased by $95K per the revised plan.
+#0706  Operations chat: Thebreta design review moved to Room 4C.
+#0707  Facilities ticket: Thebreta vendor onboarding call scheduled for Tuesday.
+#0708  Finance Office: Thebreta budget decreased by $70K.
+#0709  Vendor call: Thebreta kickoff moved to Building 3.
+#0710  Operations chat: Thebreta security review passed.
+#0711  Finance Office: Withdraw update #0681.
+#0712  Engineering email: Thebreta status report filed for week 46.
+#0713  Finance Office: Thebreta budget increased by $5K.
+#0714  Sales update: Thebreta weekly sync moved to Fridays.
+#0715  Sales update: Thebreta test environment back online.
+#0716  Marketing email: Thebreta kickoff moved to Building 2.
+#0717  Finance Office: Thebreta budget decreased by $40K after review.
+#0718  Engineering email: Thebreta weekly sync moved to Tuesdays.
+#0719  Finance Office: Withdraw update #0557.
+#0720  Finance Office: Withdraw update #0601.
+#0721  Engineering email: Thebreta kickoff moved to Building 9.
+#0722  Finance Office: Withdraw update #0458; it was entered in error.
+#0723  Finance Office: Thebreta budget increased by $343K after review.
+#0724  Engineering email: Thebreta design review moved to Room 3C.
+#0725  Vendor call: Thebreta test environment back online.
+#0726  Finance Office: Thebreta budget decreased by $551K after review.
+#0727  Finance Office: Withdraw update #0627.
+#0728  Engineering email: Thebreta status report filed for week 6.
+#0729  Finance Office: Thebreta budget decreased by $25K per the revised plan.
+#0730  Finance Office: Thebreta budget decreased by $110K after review.
+#0731  PMO note: Thebreta status report filed for week 11.
+#0732  Finance Office: Thebreta budget decreased by $5K after review.
+#0733  Engineering email: Thebreta kickoff moved to Building 4.
+#0734  Finance Office: Thebreta cost center code changed to FC-6811.
+#0735  Finance Office: Thebreta budget increased by $140K per the revised plan.
+#0736  Finance Office: Thebreta budget decreased by $65K.
+#0737  PMO note: Thebreta design review moved to Room 5B.
+#0738  Finance Office: Withdraw update #0305.
+#0739  Legal email: Thebreta site visit confirmed for Thursday.
+#0740  PMO note: Thebreta weekly sync moved to Mondays.
+#0741  Operations chat: Thebreta sprint 30 retrospective notes posted.
+#0742  Legal email: Thebreta status report filed for week 43.
+#0743  Finance Office: Thebreta budget decreased by $30K per the revised plan.
+#0744  Marketing email: Thebreta security review passed.
+#0745  Finance Office: Thebreta budget increased by $45K after review.
+#0746  Finance Office: Thebreta budget decreased by $100K per the revised plan.
+#0747  Finance Office: Thebreta budget decreased by $130K per the revised plan.
+#0748  Finance Office: Thebreta budget decreased by $136K.
+#0749  Finance Office: Thebreta budget decreased by $197K.
+#0750  Finance Office: Thebreta budget increased by $10K after review.
+#0751  Finance Office: Thebreta budget increased by $125K.
+#0752  Operations chat: Thebreta site visit confirmed for Friday.
+#0753  Finance Office: Thebreta budget increased by $140K after review.
+#0754  PMO note: Thebreta weekly sync moved to Fridays.
+#0755  Finance Office: Withdraw update #0492; it was entered in error.
+#0756  Finance Office: Withdraw update #0389; it was entered in error.
+#0757  Finance Office: Withdraw update #0283.
+#0758  Finance Office: Thebreta budget decreased by $188K.
+#0759  Vendor call: Thebreta design review moved to Room 4C.
+#0760  Finance Office: Thebreta budget increased by $35K after review.
+#0761  Finance Office: Thebreta budget decreased by $183K.
+#0762  Finance Office: Thebreta budget increased by $105K per the revised plan.
+#0763  Finance Office: Thebreta budget increased by $108K per the revised plan.
+#0764  Finance Office: Withdraw update #0053.
+#0765  Marketing email: Thebreta sprint 30 retrospective notes posted.
+#0766  Finance Office: Thebreta budget decreased by $103K.
+#0767  Legal email: Thebreta site visit confirmed for Tuesday.
+#0768  Finance Office: Thebreta budget decreased by $135K after review.
+#0769  PMO note: Thebreta status report filed for week 14.
+#0770  Finance Office: Thebreta budget increased by $55K per the revised plan.
+#0771  Finance Office: Withdraw update #0105; it was entered in error.
+#0772  Finance Office: Thebreta budget increased by $75K per the revised plan.
+#0773  Finance Office: Withdraw update #0758.
+#0774  Finance Office: Withdraw update #0366.
+#0775  Finance Office: Thebreta budget increased by $105K.
+#0776  Finance Office: Thebreta budget increased by $506K.
+#0777  Legal email: Thebreta weekly sync moved to Wednesdays.
+#0778  Finance Office: Thebreta budget decreased by $65K.
+#0779  Finance Office: Thebreta budget decreased by $5K.
+#0780  Finance Office: Thebreta budget decreased by $130K after review.
+#0781  Finance Office: Thebreta budget increased by $60K.
+#0782  Finance Office: Thebreta budget increased by $125K after review.
+#0783  PMO note: Thebreta test environment back online.
+#0784  Finance Office: Withdraw update #0214.
+#0785  Finance Office: Thebreta budget decreased by $110K per the revised plan.
+#0786  Finance Office: Thebreta budget decreased by $115K per the revised plan.
+#0787  Finance Office: Thebreta budget decreased by $45K per the revised plan.
+#0788  Operations chat: Thebreta site visit confirmed for Wednesday.
+#0789  Finance Office: Thebreta budget increased by $591K.
+#0790  PMO note: Thebreta status report filed for week 13.
+#0791  Finance Office: Thebreta budget increased by $145K per the revised plan.
+#0792  Finance Office: Thebreta budget increased by $20K after review.
+#0793  Finance Office: Thebreta budget increased by $419K after review.
+#0794  Finance Office: Thebreta budget increased by $100K after review.
+#0795  Finance Office: Withdraw update #0422.
+#0796  Operations chat: Thebreta design review moved to Room 2C.
+#0797  Facilities ticket: Thebreta design review moved to Room 1C.
+#0798  Finance Office: Thebreta budget decreased by $95K.
+#0799  Finance Office: Thebreta budget increased by $40K after review.
+#0800  Finance Office: Thebreta budget decreased by $75K.
+#0801  Finance Office: Thebreta budget decreased by $5K per the revised plan.
+#0802  Sales update: Thebreta weekly sync moved to Mondays.
+#0803  Finance Office: Thebreta budget decreased by $30K per the revised plan.
+#0804  Finance Office: Withdraw update #0409; it was entered in error.
+#0805  Finance Office: Thebreta budget increased by $65K after review.
+#0806  Finance Office: Withdraw update #0527; it was entered in error.
+#0807  Finance Office: Thebreta budget decreased by $35K per the revised plan.
+#0808  Finance Office: Thebreta budget increased by $101K.
+#0809  Finance Office: Thebreta budget decreased by $80K per the revised plan.
+#0810  Finance Office: Thebreta budget increased by $20K per the revised plan.
+#0811  Vendor call: Thebreta weekly sync moved to Tuesdays.
+#0812  Finance Office: Withdraw update #0304; it was entered in error.
+#0813  Finance Office: Withdraw update #0571.
+#0814  Finance Office: Withdraw update #0438; it was entered in error.
+#0815  Sales update: Thebreta sprint 42 retrospective notes posted.
+#0816  Finance Office: Thebreta audit notes filed.
+#0817  Finance Office: Thebreta finance review moved to Room 5D.
+#0818  Finance Office: Thebreta budget decreased by $95K after review.
+#0819  Marketing email: Thebreta security review passed.
+#0820  Finance Office: Thebreta budget increased by $110K.
+#0821  Finance Office: Thebreta budget increased by $50K.
+#0822  Finance Office: Withdraw update #0756.
+#0823  Facilities ticket: Thebreta kickoff moved to Building 9.
+#0824  Finance Office: Thebreta budget decreased by $182K per the revised plan.
+#0825  Finance Office: Withdraw update #0346; it was entered in error.
+#0826  Finance Office: Thebreta budget increased by $115K per the revised plan.
+#0827  Legal email: Thebreta test environment back online.
+#0828  Operations chat: Thebreta design review moved to Room 5D.
+#0829  Finance Office: Thebreta budget increased by $110K per the revised plan.
+#0830  Engineering email: Thebreta design review moved to Room 5D.
+#0831  Facilities ticket: Thebreta weekly sync moved to Thursdays.
+#0832  Finance Office: Thebreta budget decreased by $25K.
+#0833  Finance Office: Thebreta budget increased by $15K after review.
+#0834  Engineering email: Thebreta test environment back online.
+#0835  Engineering email: Thebreta kickoff moved to Building 5.
+#0836  Engineering email: Thebreta sprint 19 retrospective notes posted.
+#0837  Finance Office: Thebreta budget decreased by $521K.
+#0838  Finance Office: Thebreta budget decreased by $45K after review.
+#0839  Finance Office: Thebreta budget decreased by $125K.
+#0840  Finance Office: Thebreta quarterly audit scheduled for Monday.
+#0841  Finance Office: Withdraw update #0246.
+#0842  Sales update: Thebreta risk register updated with 8 new items.
+#0843  Finance Office: Thebreta budget decreased by $130K per the revised plan.
+#0844  Finance Office: Withdraw update #0452.
+#0845  Finance Office: Thebreta budget increased by $95K per the revised plan.
+#0846  Finance Office: Thebreta purchase order FC-9489 closed.
+#0847  PMO note: Thebreta test environment back online.
+#0848  PMO note: Thebreta kickoff moved to Building 9.
+#0849  Finance Office: Thebreta budget decreased by $35K after review.
+#0850  PMO note: Thebreta kickoff moved to Building 9.
+#0851  Finance Office: Thebreta budget increased by $584K after review.
+#0852  Finance Office: Thebreta budget increased by $75K after review.
+#0853  Finance Office: Withdraw update #0654; it was entered in error.
+#0854  Finance Office: Thebreta budget increased by $90K per the revised plan.
+#0855  Finance Office: Thebreta budget decreased by $100K per the revised plan.
+#0856  Vendor call: Thebreta status report filed for week 2.
+#0857  Finance Office: Thebreta budget increased by $60K after review.
+#0858  Finance Office: Thebreta budget increased by $25K.
+#0859  Operations chat: Thebreta design review moved to Room 2B.
+#0860  Finance Office: Thebreta budget increased by $110K after review.
+#0861  Finance Office: Thebreta budget decreased by $130K per the revised plan.
+#0862  Engineering email: Thebreta status report filed for week 28.
+#0863  Finance Office: Withdraw update #0763; it was entered in error.
+#0864  Finance Office: Thebreta budget increased by $55K per the revised plan.
+#0865  Legal email: Thebreta test environment back online.
+#0866  Finance Office: Thebreta budget increased by $30K after review.
+#0867  Finance Office: Withdraw update #0361.
+#0868  Finance Office: Thebreta budget increased by $135K.
+#0869  Finance Office: Withdraw update #0540; it was entered in error.
+#0870  Finance Office: Withdraw update #0563; it was entered in error.
+#0871  Finance Office: Thebreta budget decreased by $80K per the revised plan.
+#0872  Legal email: Thebreta design review moved to Room 4C.
+#0873  Sales update: Thebreta status report filed for week 18.
+#0874  Engineering email: Thebreta site visit confirmed for Thursday.
+#0875  Finance Office: Withdraw update #0167; it was entered in error.
+#0876  Vendor call: Thebreta site visit confirmed for Friday.
+#0877  Finance Office: Withdraw update #0521.
+#0878  Operations chat: Thebreta design review moved to Room 3D.
+#0879  Finance Office: Withdraw update #0562.
+#0880  Finance Office: Thebreta budget increased by $40K per the revised plan.
+#0881  Sales update: Thebreta status report filed for week 29.
+#0882  Marketing email: Thebreta site visit confirmed for Monday.
+#0883  Finance Office: Thebreta budget decreased by $100K per the revised plan.
+#0884  Finance Office: Thebreta budget increased by $10K per the revised plan.
+#0885  PMO note: Thebreta weekly sync moved to Fridays.
+#0886  Finance Office: Thebreta budget increased by $60K after review.
+#0887  Finance Office: Thebreta budget decreased by $25K after review.
+#0888  Vendor call: Thebreta design review moved to Room 3D.
+#0889  Finance Office: Thebreta budget increased by $10K after review.
+#0890  Finance Office: Withdraw update #0812; it was entered in error.
+#0891  Finance Office: Withdraw update #0727.
+#0892  Finance Office: Thebreta budget increased by $135K per the revised plan.
+#0893  Vendor call: Thebreta design review moved to Room 6C.
+#0894  Finance Office: Thebreta budget decreased by $23K after review.
+#0895  Finance Office: Thebreta budget increased by $65K after review.
+#0896  Finance Office: Thebreta budget decreased by $208K.
+#0897  Finance Office: Thebreta budget increased by $145K after review.
+#0898  Sales update: Thebreta kickoff moved to Building 8.
+#0899  Operations chat: Thebreta test environment back online.
+#0900  Finance Office: Thebreta budget decreased by $468K after review.
+#0901  Operations chat: Thebreta risk register updated with 4 new items.
+#0902  Finance Office: Thebreta budget increased by $125K after review.
+#0903  Finance Office: Thebreta budget increased by $85K per the revised plan.
+#0904  Finance Office: Thebreta budget increased by $363K per the revised plan.
+#0905  Finance Office: Withdraw update #0629.
+#0906  Legal email: Thebreta sprint 44 retrospective notes posted.
+#0907  Finance Office: Thebreta budget increased by $579K per the revised plan.
+#0908  Finance Office: Thebreta budget increased by $70K after review.
+#0909  Finance Office: Withdraw update #0773; it was entered in error.
+#0910  Finance Office: Thebreta budget increased by $75K.
+#0911  Finance Office: Thebreta budget increased by $334K after review.
+#0912  Finance Office: Thebreta budget increased by $15K per the revised plan.
+#0913  Finance Office: Thebreta budget increased by $145K per the revised plan.
+#0914  Finance Office: Thebreta budget increased by $55K per the revised plan.
+#0915  Finance Office: Thebreta budget decreased by $140K.
+#0916  Sales update: Thebreta weekly sync moved to Wednesdays.
+#0917  Finance Office: Thebreta budget decreased by $70K per the revised plan.
+#0918  PMO note: Thebreta sprint 17 retrospective notes posted.
+#0919  Marketing email: Thebreta weekly sync moved to Wednesdays.
+#0920  Engineering email: Thebreta demo rescheduled to Thursday afternoon.
+#0921  Marketing email: Thebreta documentation moved to the shared drive.
+#0922  Engineering email: Thebreta status report filed for week 9.
+#0923  PMO note: Thebreta weekly sync moved to Wednesdays.
+#0924  Finance Office: Thebreta budget increased by $90K.
+#0925  Finance Office: Withdraw update #0814; it was entered in error.
+#0926  Finance Office: Thebreta budget increased by $60K per the revised plan.
+#0927  Facilities ticket: Thebreta test environment back online.
+#0928  Legal email: Thebreta risk register updated with 2 new items.
+#0929  Finance Office: Thebreta budget increased by $5K after review.
+#0930  Finance Office: Thebreta budget increased by $409K per the revised plan.
+#0931  Facilities ticket: Thebreta test environment back online.
+#0932  Finance Office: Thebreta budget decreased by $135K.
+#0933  Finance Office: Thebreta budget increased by $105K after review.
+#0934  Operations chat: Thebreta status report filed for week 5.
+#0935  Finance Office: Thebreta budget increased by $80K.
+#0936  PMO note: Thebreta status report filed for week 23.
+#0937  Finance Office: Withdraw update #0894; it was entered in error.
+#0938  Finance Office: Thebreta budget decreased by $40K.
+#0939  Finance Office: Thebreta budget increased by $65K after review.
+#0940  Finance Office: Thebreta budget decreased by $139K.
+#0941  PMO note: Thebreta kickoff moved to Building 3.
+#0942  Finance Office: Thebreta budget decreased by $9K.
+#0943  Finance Office: Thebreta quarterly audit scheduled for Thursday.
+#0944  Finance Office: Thebreta budget increased by $135K.
+#0945  Finance Office: Withdraw update #0808.
+#0946  Finance Office: Thebreta budget decreased by $50K.
+#0947  Finance Office: Thebreta budget increased by $75K per the revised plan.
+#0948  Finance Office: Thebreta purchase order FC-7780 closed.
+#0949  Finance Office: Thebreta budget increased by $50K per the revised plan.
+#0950  Marketing email: Thebreta design review moved to Room 2A.
+#0951  Finance Office: Thebreta invoice batch FC-1300 archived.
+#0952  Marketing email: Thebreta kickoff moved to Building 7.
+#0953  Finance Office: Thebreta budget decreased by $140K.
+#0954  Vendor call: Thebreta sprint 9 retrospective notes posted.
+#0955  Finance Office: Thebreta budget increased by $65K.
+#0956  Finance Office: Withdraw update #0648; it was entered in error.
+#0957  PMO note: Thebreta kickoff moved to Building 5.
+#0958  Finance Office: Withdraw update #0543.
+#0959  Finance Office: Withdraw update #0824; it was entered in error.
+#0960  Finance Office: Withdraw update #0403.
+#0961  Finance Office: Thebreta budget decreased by $576K.
+#0962  Finance Office: Thebreta budget decreased by $140K after review.
+#0963  Operations chat: Thebreta status report filed for week 21.
+#0964  Marketing email: Thebreta test environment back online.
+#0965  Marketing email: Thebreta weekly sync moved to Fridays.
+#0966  Finance Office: Thebreta budget increased by $5K.
+#0967  Vendor call: Thebreta design review moved to Room 5A.
+#0968  Finance Office: Thebreta budget decreased by $120K.
+#0969  Finance Office: Thebreta budget increased by $55K.
+#0970  Finance Office: Withdraw update #0151; it was entered in error.
+#0971  Finance Office: Thebreta budget decreased by $125K after review.
+#0972  Finance Office: Thebreta budget increased by $105K.
+#0973  Finance Office: Thebreta budget decreased by $105K.
+#0974  Finance Office: Withdraw update #0761; it was entered in error.
+#0975  Finance Office: Thebreta budget decreased by $110K per the revised plan.
+#0976  Sales update: Thebreta design review moved to Room 2B.
+#0977  Finance Office: Thebreta budget increased by $261K after review.
+#0978  Vendor call: Thebreta status report filed for week 37.
+#0979  Sales update: Thebreta vendor onboarding call scheduled for Tuesday.
+#0980  Finance Office: Thebreta budget increased by $135K.
+#0981  Finance Office: Withdraw update #0300; it was entered in error.
+#0982  Finance Office: Thebreta budget decreased by $126K.
+#0983  Finance Office: Withdraw update #0911; it was entered in error.
+#0984  Vendor call: Thebreta weekly sync moved to Tuesdays.
+#0985  Finance Office: Thebreta budget decreased by $125K after review.
+#0986  Finance Office: Thebreta budget increased by $45K after review.
+#0987  Finance Office: Thebreta budget decreased by $45K per the revised plan.
+#0988  PMO note: Thebreta status report filed for week 41.
+#0989  Finance Office: Withdraw update #0738.
+#0990  Finance Office: Thebreta budget increased by $110K.
+#0991  Finance Office: Withdraw update #0981.
+#0992  Sales update: Thebreta demo rescheduled to Monday afternoon.
+#0993  Finance Office: Thebreta budget decreased by $55K.
+#0994  Finance Office: Thebreta budget decreased by $562K after review.
+#0995  Finance Office: Thebreta budget increased by $30K after review.
+#0996  Facilities ticket: Thebreta security review passed.
+#0997  Engineering email: Thebreta sprint 22 retrospective notes posted.
+#0998  Finance Office: Withdraw update #0510.
+#0999  Engineering email: Thebreta kickoff moved to Building 5.
+#1000  Facilities ticket: Thebreta sprint 4 retrospective notes posted.
+#1001  Finance Office: Thebreta budget increased by $40K after review.
+#1002  Finance Office: Thebreta budget increased by $60K.
+#1003  Finance Office: Withdraw update #0766; it was entered in error.
+#1004  Finance Office: Withdraw update #0879.
+#1005  Finance Office: Thebreta budget increased by $5K.
+#1006  Finance Office: Thebreta budget increased by $100K after review.
+#1007  Finance Office: Withdraw update #0308.
+#1008  Engineering email: Thebreta test environment back online.
+#1009  Finance Office: Withdraw update #0538; it was entered in error.
+#1010  Legal email: Thebreta sprint 30 retrospective notes posted.
+#1011  Facilities ticket: Thebreta site visit confirmed for Tuesday.
+#1012  Engineering email: Thebreta sprint 39 retrospective notes posted.
+#1013  Marketing email: Thebreta status report filed for week 9.
+#1014  Legal email: Thebreta status report filed for week 11.
+#1015  Finance Office: Thebreta budget decreased by $65K after review.
+#1016  Facilities ticket: Thebreta status report filed for week 27.
+#1017  Finance Office: Thebreta budget increased by $20K after review.
+#1018  Finance Office: Thebreta budget decreased by $100K per the revised plan.
+#1019  Finance Office: Thebreta budget decreased by $358K.
+#1020  Finance Office: Thebreta budget decreased by $40K.
+#1021  Marketing email: Thebreta security review passed.
+#1022  Finance Office: Thebreta budget increased by $110K.
+#1023  Finance Office: Withdraw update #0907; it was entered in error.
+#1024  Finance Office: Thebreta budget increased by $35K after review.
+#1025  Finance Office: Thebreta budget increased by $135K per the revised plan.
+#1026  Sales update: Thebreta sprint 33 retrospective notes posted.
+#1027  Finance Office: Withdraw update #0126; it was entered in error.
+#1028  Finance Office: Thebreta budget increased by $80K per the revised plan.
+#1029  Finance Office: Thebreta budget increased by $25K after review.
+#1030  Finance Office: Withdraw update #0338.
+#1031  Finance Office: Withdraw update #0748; it was entered in error.
+#1032  Finance Office: Thebreta budget decreased by $106K after review.
+#1033  Facilities ticket: Thebreta test environment back online.
+#1034  Finance Office: Withdraw update #0303; it was entered in error.
+#1035  Finance Office: Thebreta budget increased by $30K after review.
+#1036  Finance Office: Thebreta budget decreased by $406K per the revised plan.
+#1037  PMO note: Thebreta test environment back online.
+#1038  Finance Office: Thebreta budget decreased by $65K per the revised plan.
+#1039  Finance Office: Thebreta budget decreased by $135K.
+#1040  Finance Office: Thebreta budget increased by $115K per the revised plan.
+#1041  Vendor call: Thebreta kickoff moved to Building 2.
+#1042  Finance Office: Withdraw update #0617; it was entered in error.
+#1043  Finance Office: Thebreta budget increased by $60K per the revised plan.
+#1044  Finance Office: Thebreta budget decreased by $50K after review.
+#1045  Finance Office: Thebreta budget decreased by $125K.
+#1046  Finance Office: Thebreta budget increased by $50K after review.
+#1047  Finance Office: Thebreta finance review moved to Room 1C.
+#1048  Finance Office: Thebreta budget increased by $15K after review.
+#1049  Finance Office: Thebreta receipts scanned.
+#1050  Finance Office: Thebreta budget decreased by $62K.
+#1051  Finance Office: Thebreta budget increased by $386K.
+#1052  PMO note: Thebreta sprint 2 retrospective notes posted.
+#1053  Finance Office: Withdraw update #0789.
+#1054  Finance Office: Thebreta budget decreased by $125K after review.
+#1055  Finance Office: Thebreta budget increased by $177K after review.
+#1056  Finance Office: Thebreta budget decreased by $55K per the revised plan.
+#1057  Finance Office: Thebreta budget decreased by $90K after review.
+#1058  Finance Office: Withdraw update #0071; it was entered in error.
+#1059  Finance Office: Thebreta budget increased by $5K after review.
+#1060  Finance Office: Thebreta budget increased by $10K.
+#1061  Vendor call: Thebreta site visit confirmed for Thursday.
+#1062  PMO note: Thebreta weekly sync moved to Fridays.
+#1063  Finance Office: Thebreta budget decreased by $40K per the revised plan.
+#1064  Finance Office: Thebreta budget increased by $65K per the revised plan.
+#1065  Finance Office: Withdraw update #0102; it was entered in error.
+#1066  Marketing email: Thebreta test environment back online.
+#1067  Finance Office: Withdraw update #0054; it was entered in error.
+#1068  Finance Office: Thebreta budget increased by $75K per the revised plan.
+#1069  Finance Office: Thebreta budget decreased by $35K per the revised plan.
+#1070  Facilities ticket: Thebreta kickoff moved to Building 3.
+#1071  Sales update: Thebreta test environment back online.
+#1072  Finance Office: Thebreta budget increased by $70K after review.
+#1073  Operations chat: Thebreta sprint 38 retrospective notes posted.
+#1074  Marketing email: Thebreta site visit confirmed for Friday.
+#1075  Finance Office: Thebreta budget increased by $30K after review.
+#1076  Finance Office: Thebreta budget increased by $100K per the revised plan.
+#1077  Finance Office: Thebreta budget increased by $75K after review.
+#1078  Finance Office: Thebreta budget decreased by $34K per the revised plan.
+#1079  Finance Office: Thebreta budget increased by $70K after review.
+#1080  Finance Office: Thebreta budget decreased by $15K per the revised plan.
+#1081  Sales update: Thebreta site visit confirmed for Tuesday.
+#1082  Finance Office: Thebreta purchase order FC-7545 closed.
+#1083  Sales update: Thebreta site visit confirmed for Monday.
+#1084  Finance Office: Thebreta budget increased by $85K per the revised plan.
+#1085  Finance Office: Withdraw update #0900.
+#1086  Finance Office: Thebreta budget decreased by $80K after review.
+#1087  Finance Office: Withdraw update #1034.
+#1088  Marketing email: Thebreta status report filed for week 37.
+#1089  Finance Office: Thebreta budget decreased by $60K.
+#1090  Finance Office: Withdraw update #1085; it was entered in error.
+#1091  Vendor call: Thebreta kickoff moved to Building 6.
+#1092  Marketing email: Thebreta test environment back online.
+#1093  Marketing email: Thebreta weekly sync moved to Fridays.
+#1094  Finance Office: Thebreta budget decreased by $55K after review.
+#1095  Finance Office: Thebreta budget increased by $85K per the revised plan.
+#1096  Finance Office: Thebreta budget increased by $135K after review.
+#1097  Finance Office: Thebreta budget decreased by $50K after review.
+#1098  Operations chat: Thebreta status report filed for week 11.
+#1099  PMO note: Thebreta site visit confirmed for Friday.
+#1100  Legal email: Thebreta test environment back online.
+#1101  Finance Office: Thebreta budget decreased by $125K.
+#1102  Sales update: Thebreta status report filed for week 43.
+#1103  Facilities ticket: Thebreta design review moved to Room 4D.
+#1104  Finance Office: Thebreta budget increased by $130K per the revised plan.
+#1105  Finance Office: Thebreta budget decreased by $100K.
+#1106  Finance Office: Thebreta budget decreased by $70K after review.
+#1107  Marketing email: Thebreta documentation moved to the shared drive.
+#1108  Finance Office: Thebreta budget increased by $25K.
+#1109  Finance Office: Thebreta budget decreased by $85K per the revised plan.
+#1110  Finance Office: Thebreta budget decreased by $130K.
+#1111  Finance Office: Thebreta cost center code changed to FC-5792.
+#1112  Legal email: Thebreta design review moved to Room 5B.
+#1113  Finance Office: Thebreta budget increased by $20K.
+#1114  Finance Office: Thebreta budget decreased by $35K per the revised plan.
+#1115  Finance Office: Thebreta budget decreased by $135K.
+#1116  Engineering email: Thebreta weekly sync moved to Mondays.
+#1117  Finance Office: Thebreta budget decreased by $10K per the revised plan.
+#1118  Finance Office: Thebreta budget increased by $75K.
+#1119  Finance Office: Thebreta budget increased by $105K per the revised plan.
+#1120  Finance Office: Thebreta budget increased by $464K.
+#1121  Finance Office: Thebreta budget decreased by $40K.
+#1122  Sales update: Thebreta weekly sync moved to Fridays.
+#1123  Finance Office: Thebreta budget decreased by $35K.
+#1124  Finance Office: Thebreta budget increased by $511K.
+#1125  Finance Office: Thebreta budget increased by $95K per the revised plan.
+#1126  Facilities ticket: Thebreta test environment back online.
+#1127  Finance Office: Withdraw update #0390.
+#1128  Finance Office: Thebreta budget decreased by $5K after review.
+#1129  Vendor call: Thebreta design review moved to Room 3B.
+#1130  Sales update: Thebreta sprint 2 retrospective notes posted.
+#1131  Finance Office: Thebreta budget increased by $85K.
+#1132  Facilities ticket: Thebreta kickoff moved to Building 9.
+#1133  Marketing email: Thebreta status report filed for week 6.
+#1134  Finance Office: Withdraw update #1042; it was entered in error.
+#1135  Finance Office: Thebreta budget increased by $140K per the revised plan.
+#1136  Marketing email: Thebreta design review moved to Room 1A.
+#1137  Sales update: Thebreta demo rescheduled to Monday afternoon.
+#1138  Finance Office: Withdraw update #1036; it was entered in error.
+#1139  Finance Office: Withdraw update #0057; it was entered in error.
+#1140  Facilities ticket: Thebreta weekly sync moved to Fridays.
+#1141  Finance Office: Thebreta budget decreased by $57K after review.
+#1142  Finance Office: Thebreta budget increased by $145K.
+#1143  Finance Office: Thebreta budget decreased by $120K after review.
+#1144  Finance Office: Thebreta quarterly audit scheduled for Wednesday.
+#1145  Legal email: Thebreta kickoff moved to Building 4.
+#1146  Finance Office: Thebreta budget decreased by $40K.
+#1147  Marketing email: Thebreta test environment back online.
+#1148  Finance Office: Thebreta budget increased by $140K.
+#1149  Finance Office: Thebreta budget decreased by $90K per the revised plan.
+#1150  Legal email: Thebreta site visit confirmed for Wednesday.
+#1151  Finance Office: Thebreta budget decreased by $65K per the revised plan.
+#1152  PMO note: Thebreta design review moved to Room 2B.
+#1153  PMO note: Thebreta kickoff moved to Building 6.
+#1154  Finance Office: Thebreta budget decreased by $40K.
+#1155  Sales update: Thebreta weekly sync moved to Thursdays.
+#1156  Operations chat: Thebreta sprint 21 retrospective notes posted.
+#1157  Marketing email: Thebreta test environment back online.
+#1158  Finance Office: Thebreta budget decreased by $55K after review.
+#1159  Marketing email: Thebreta status report filed for week 43.
+#1160  Finance Office: Thebreta budget decreased by $105K per the revised plan.
+#1161  Facilities ticket: Thebreta weekly sync moved to Tuesdays.
+#1162  Finance Office: Thebreta budget decreased by $5K.
+#1163  Marketing email: Thebreta design review moved to Room 2B.
+#1164  Finance Office: Withdraw update #0224; it was entered in error.
+#1165  Finance Office: Withdraw update #0904.
+#1166  PMO note: Thebreta weekly sync moved to Tuesdays.
+#1167  Marketing email: Thebreta sprint 9 retrospective notes posted.
+#1168  Finance Office: Withdraw update #0358.
+#1169  Finance Office: Thebreta budget increased by $65K per the revised plan.
+#1170  Finance Office: Withdraw update #0337; it was entered in error.
+#1171  Vendor call: Thebreta sprint 24 retrospective notes posted.
+#1172  Finance Office: Thebreta budget decreased by $135K.
+#1173  Engineering email: Thebreta security review passed.
+#1174  Legal email: Thebreta kickoff moved to Building 4.
+#1175  Finance Office: Thebreta budget decreased by $75K after review.
+#1176  Finance Office: Withdraw update #1009; it was entered in error.
+#1177  Finance Office: Thebreta budget decreased by $40K after review.
+#1178  Sales update: Thebreta kickoff moved to Building 2.
+#1179  Finance Office: Withdraw update #1032; it was entered in error.
+#1180  Engineering email: Thebreta test environment back online.
+#1181  Finance Office: Thebreta budget increased by $95K.
+#1182  Engineering email: Thebreta status report filed for week 35.
+#1183  Finance Office: Thebreta budget decreased by $60K per the revised plan.
+#1184  Engineering email: Thebreta status report filed for week 39.
+#1185  Finance Office: Withdraw update #0314.
+#1186  Marketing email: Thebreta weekly sync moved to Mondays.
+#1187  Finance Office: Thebreta budget decreased by $135K per the revised plan.
+#1188  Facilities ticket: Thebreta weekly sync moved to Thursdays.
+#1189  Engineering email: Thebreta design review moved to Room 4A.
+#1190  Finance Office: Thebreta budget decreased by $30K after review.
+#1191  Finance Office: Thebreta budget increased by $75K after review.
+#1192  Finance Office: Thebreta budget decreased by $150K after review.
+#1193  Finance Office: Thebreta budget increased by $125K after review.
+#1194  Finance Office: Withdraw update #0171.
+#1195  Marketing email: Thebreta weekly sync moved to Wednesdays.
+#1196  Vendor call: Thebreta demo rescheduled to Friday afternoon.
+#1197  Sales update: Thebreta kickoff moved to Building 7.
+#1198  Finance Office: Thebreta budget decreased by $85K per the revised plan.
+#1199  Finance Office: Thebreta budget decreased by $145K per the revised plan.
+#1200  Finance Office: Thebreta budget decreased by $135K.
+#1201  Finance Office: Withdraw update #0793.
+#1202  Marketing email: Thebreta demo rescheduled to Thursday afternoon.
+#1203  Finance Office: Thebreta budget increased by $40K.
+#1204  Finance Office: Thebreta budget increased by $110K after review.
+#1205  Finance Office: Withdraw update #0896.
+#1206  Finance Office: Thebreta budget decreased by $516K.
+#1207  Facilities ticket: Thebreta status report filed for week 3.
+#1208  Finance Office: Thebreta budget decreased by $80K after review.
+#1209  PMO note: Thebreta weekly sync moved to Fridays.
+#1210  Finance Office: Thebreta budget increased by $50K after review.
+#1211  Finance Office: Thebreta budget decreased by $60K after review.
+#1212  PMO note: Thebreta status report filed for week 15.
+#1213  Finance Office: Withdraw update #1055.
+#1214  Finance Office: Thebreta budget decreased by $35K.
+#1215  Finance Office: Thebreta budget decreased by $45K after review.
+#1216  Finance Office: Thebreta budget decreased by $514K per the revised plan.
+#1217  Finance Office: Thebreta budget increased by $75K.
+#1218  Finance Office: Withdraw update #0837.
+#1219  Sales update: Thebreta weekly sync moved to Fridays.
+#1220  Finance Office: Thebreta budget decreased by $130K per the revised plan.
+#1221  Finance Office: Withdraw update #0774; it was entered in error.
+#1222  Finance Office: Thebreta budget increased by $80K per the revised plan.
+#1223  Operations chat: Thebreta security review passed.
+#1224  Finance Office: Thebreta finance review moved to Room 4A.
+#1225  Finance Office: Thebreta budget increased by $10K.
+#1226  Finance Office: Thebreta budget increased by $70K.
+#1227  Finance Office: Withdraw update #0301.
+#1228  Finance Office: Thebreta budget increased by $145K after review.
+#1229  Finance Office: Thebreta budget increased by $1K.
+#1230  Finance Office: Withdraw update #0145.
+#1231  Facilities ticket: Thebreta status report filed for week 39.
+#1232  Finance Office: Thebreta budget decreased by $5K.
+#1233  Finance Office: Withdraw update #1120.
+#1234  Sales update: Thebreta status report filed for week 14.
+#1235  Vendor call: Thebreta design review moved to Room 3A.
+#1236  Finance Office: Thebreta budget increased by $55K after review.
+#1237  PMO note: Thebreta kickoff moved to Building 4.
+#1238  Finance Office: Thebreta budget increased by $15K.
+#1239  Finance Office: Withdraw update #0322.
+#1240  Legal email: Thebreta status report filed for week 5.
+#1241  Finance Office: Withdraw update #0127; it was entered in error.
+#1242  Finance Office: Thebreta budget increased by $105K per the revised plan.
+#1243  Finance Office: Thebreta budget decreased by $65K per the revised plan.
+#1244  Finance Office: Thebreta purchase order FC-3605 closed.
+#1245  Finance Office: Thebreta budget decreased by $45K.
+#1246  Sales update: Thebreta weekly sync moved to Mondays.
+#1247  Finance Office: Withdraw update #1229; it was entered in error.
+#1248  Finance Office: Thebreta purchase order FC-9148 closed.
+#1249  Finance Office: Withdraw update #0749.
+#1250  Marketing email: Thebreta status report filed for week 16.
+#1251  Finance Office: Withdraw update #1030; it was entered in error.
+#1252  Finance Office: Withdraw update #0564; it was entered in error.
+#1253  Finance Office: Thebreta budget decreased by $55K.
+#1254  Operations chat: Thebreta weekly sync moved to Mondays.
+#1255  Finance Office: Thebreta budget increased by $65K per the revised plan.
+#1256  Vendor call: Thebreta weekly sync moved to Thursdays.
+#1257  Operations chat: Thebreta site visit confirmed for Monday.
+#1258  Finance Office: Thebreta budget increased by $55K after review.
+#1259  Finance Office: Thebreta budget decreased by $130K per the revised plan.
+#1260  Finance Office: Withdraw update #1213.
+#1261  Finance Office: Thebreta budget decreased by $110K after review.
+#1262  Finance Office: Thebreta budget increased by $105K.
+#1263  Marketing email: Thebreta test environment back online.
+#1264  Finance Office: Thebreta budget increased by $140K after review.
+#1265  Finance Office: Thebreta budget decreased by $40K per the revised plan.
+#1266  Marketing email: Thebreta kickoff moved to Building 4.
+#1267  Operations chat: Thebreta site visit confirmed for Monday.
+#1268  Finance Office: Thebreta budget decreased by $10K per the revised plan.
+#1269  PMO note: Thebreta design review moved to Room 6A.
+#1270  Finance Office: Thebreta budget increased by $45K after review.
+#1271  Marketing email: Thebreta documentation moved to the shared drive.
+#1272  Marketing email: Thebreta test environment back online.
+#1273  Finance Office: Thebreta budget increased by $120K.
+#1274  Finance Office: Thebreta budget decreased by $125K.
+#1275  Facilities ticket: Thebreta site visit confirmed for Friday.
+#1276  Finance Office: Thebreta budget decreased by $95K.
+#1277  Finance Office: Thebreta budget decreased by $110K per the revised plan.
+#1278  Facilities ticket: Thebreta status report filed for week 7.
+#1279  Finance Office: Withdraw update #1206; it was entered in error.
+#1280  Finance Office: Thebreta budget decreased by $25K per the revised plan.
+#1281  Finance Office: Withdraw update #0702; it was entered in error.
+#1282  Finance Office: Withdraw update #0720.
+#1283  Marketing email: Thebreta status report filed for week 43.
+#1284  Engineering email: Thebreta kickoff moved to Building 5.
+#1285  Finance Office: Thebreta budget increased by $145K after review.
+#1286  Vendor call: Thebreta test environment back online.
+#1287  Finance Office: Thebreta budget increased by $35K.
+#1288  Finance Office: Thebreta budget increased by $5K per the revised plan.
+#1289  Finance Office: Withdraw update #1216; it was entered in error.
+#1290  Vendor call: Thebreta test environment back online.
+#1291  Operations chat: Thebreta design review moved to Room 1A.
+#1292  Operations chat: Thebreta kickoff moved to Building 6.
+#1293  Finance Office: Thebreta budget decreased by $15K per the revised plan.
+#1294  Finance Office: Withdraw update #0570.
+#1295  Marketing email: Thebreta design review moved to Room 2A.
+#1296  Finance Office: Thebreta budget decreased by $105K after review.
+#1297  Facilities ticket: Thebreta sprint 39 retrospective notes posted.
+#1298  Legal email: Thebreta site visit confirmed for Friday.
+#1299  Finance Office: Thebreta budget increased by $35K per the revised plan.
+#1300  Finance Office: Thebreta budget increased by $467K.
+#1301  Engineering email: Thebreta status report filed for week 14.
+#1302  Finance Office: Thebreta budget increased by $569K.
+#1303  Finance Office: Withdraw update #0942.
+#1304  Finance Office: Withdraw update #0723; it was entered in error.
+#1305  Engineering email: Thebreta weekly sync moved to Wednesdays.
+#1306  Vendor call: Thebreta kickoff moved to Building 3.
+#1307  Finance Office: Thebreta budget increased by $105K after review.
+#1308  Legal email: Thebreta sprint 13 retrospective notes posted.
+#1309  Finance Office: Thebreta budget increased by $25K per the revised plan.
+#1310  Finance Office: Thebreta budget increased by $140K.
+#1311  Finance Office: Thebreta budget decreased by $70K after review.
+#1312  Finance Office: Withdraw update #0930; it was entered in error.
+#1313  Finance Office: Thebreta budget increased by $55K after review.
+#1314  Finance Office: Withdraw update #0396; it was entered in error.
+#1315  Sales update: Thebreta kickoff moved to Building 6.
+#1316  Finance Office: Withdraw update #0961.
+#1317  Marketing email: Thebreta security review passed.
+#1318  Engineering email: Thebreta design review moved to Room 2D.
+#1319  Finance Office: Thebreta budget decreased by $140K per the revised plan.
+#1320  Finance Office: Withdraw update #0851; it was entered in error.
+#1321  Finance Office: Thebreta budget increased by $30K after review.
+#1322  Finance Office: Thebreta budget increased by $110K per the revised plan.
+#1323  Marketing email: Thebreta test environment back online.
+#1324  Legal email: Thebreta kickoff moved to Building 6.
+#1325  Sales update: Thebreta test environment back online.
+#1326  Finance Office: Thebreta budget decreased by $60K per the revised plan.
+#1327  Finance Office: Thebreta budget decreased by $45K per the revised plan.
+#1328  Finance Office: Thebreta budget increased by $70K after review.
+#1329  Finance Office: Thebreta budget decreased by $20K per the revised plan.
+#1330  Facilities ticket: Thebreta status report filed for week 26.
+#1331  Finance Office: Withdraw update #1050; it was entered in error.
+#1332  Finance Office: Thebreta budget increased by $5K after review.
+#1333  Finance Office: Thebreta budget increased by $50K after review.
+#1334  Finance Office: Thebreta budget decreased by $85K per the revised plan.
+#1335  Finance Office: Withdraw update #0317; it was entered in error.
+#1336  Finance Office: Thebreta budget increased by $30K.
+#1337  Operations chat: Thebreta risk register updated with 3 new items.
+#1338  Finance Office: Thebreta budget decreased by $55K.
+#1339  Marketing email: Thebreta kickoff moved to Building 6.
+#1340  Sales update: Thebreta kickoff moved to Building 7.
+#1341  Operations chat: Thebreta site visit confirmed for Thursday.
+#1342  Facilities ticket: Thebreta weekly sync moved to Mondays.
+#1343  Finance Office: Thebreta budget decreased by $40K.
+#1344  Finance Office: Withdraw update #0994; it was entered in error.
+#1345  Sales update: Thebreta test environment back online.
+#1346  Legal email: Thebreta kickoff moved to Building 7.
+#1347  Finance Office: Thebreta budget decreased by $110K per the revised plan.
+#1348  Finance Office: Withdraw update #1218.
+#1349  Finance Office: Thebreta budget decreased by $80K per the revised plan.
+#1350  Finance Office: Thebreta budget decreased by $95K after review.
+#1351  Finance Office: Withdraw update #1179; it was entered in error.
+#1352  Legal email: Thebreta status report filed for week 44.
+#1353  Sales update: Thebreta vendor onboarding call scheduled for Tuesday.
+#1354  Finance Office: Thebreta budget decreased by $65K after review.
+#1355  Finance Office: Withdraw update #0940.
+#1356  Sales update: Thebreta design review moved to Room 6A.
+#1357  Vendor call: Thebreta status report filed for week 16.
+#1358  Marketing email: Thebreta design review moved to Room 4B.
+#1359  Finance Office: Thebreta budget decreased by $110K per the revised plan.
+#1360  Finance Office: Withdraw update #1331; it was entered in error.
+#1361  Finance Office: Thebreta budget decreased by $135K after review.
+#1362  Finance Office: Thebreta budget increased by $70K after review.
+#1363  Finance Office: Withdraw update #0776.
+#1364  Finance Office: Withdraw update #1090; it was entered in error.
+#1365  Finance Office: Thebreta budget decreased by $50K per the revised plan.
+#1366  Finance Office: Thebreta budget increased by $90K after review.
+#1367  Engineering email: Thebreta sprint 4 retrospective notes posted.
+#1368  Finance Office: Thebreta budget increased by $115K per the revised plan.
+#1369  Finance Office: Withdraw update #0040.
+#1370  Finance Office: Thebreta finance review moved to Room 3B.
+#1371  Vendor call: Thebreta test environment back online.
+#1372  Finance Office: Thebreta budget increased by $85K after review.
+#1373  Operations chat: Thebreta status report filed for week 15.
+#1374  Finance Office: Thebreta budget increased by $50K.
+#1375  Vendor call: Thebreta test environment back online.
+#1376  Vendor call: Thebreta test environment back online.
+#1377  Finance Office: Thebreta quarterly audit scheduled for Wednesday.
+#1378  Marketing email: Thebreta site visit confirmed for Thursday.
+#1379  Finance Office: Thebreta receipts scanned.
+#1380  Sales update: Thebreta kickoff moved to Building 8.
+#1381  Marketing email: Thebreta site visit confirmed for Monday.
+#1382  Facilities ticket: Thebreta vendor onboarding call scheduled for Thursday.
+#1383  Facilities ticket: Thebreta design review moved to Room 1B.
+#1384  Engineering email: Thebreta kickoff moved to Building 4.
+#1385  Marketing email: Thebreta test environment back online.
+#1386  Finance Office: Thebreta budget decreased by $80K per the revised plan.
+#1387  Operations chat: Thebreta design review moved to Room 4D.
+#1388  Facilities ticket: Thebreta sprint 29 retrospective notes posted.
+#1389  Legal email: Thebreta status report filed for week 48.
+#1390  Finance Office: Withdraw update #1078; it was entered in error.
+#1391  Finance Office: Thebreta budget decreased by $15K after review.
+#1392  Operations chat: Thebreta kickoff moved to Building 2.
+#1393  Vendor call: Thebreta security review passed.
+#1394  Finance Office: Thebreta budget decreased by $10K per the revised plan.
+#1395  Finance Office: Withdraw update #0891; it was entered in error.
+#1396  Finance Office: Withdraw update #0269.
+#1397  Finance Office: Thebreta budget increased by $145K.
+#1398  Marketing email: Thebreta sprint 20 retrospective notes posted.
+#1399  Finance Office: Withdraw update #1300; it was entered in error.
+#1400  Finance Office: Thebreta budget increased by $15K per the revised plan.
+#1401  Engineering email: Thebreta weekly sync moved to Wednesdays.
+#1402  Vendor call: Thebreta kickoff moved to Building 4.
+#1403  Finance Office: Thebreta budget decreased by $100K.
+#1404  Finance Office: Thebreta budget decreased by $70K after review.
+#1405  Finance Office: Thebreta budget decreased by $140K per the revised plan.
+#1406  Engineering email: Thebreta kickoff moved to Building 5.
+#1407  Finance Office: Thebreta budget increased by $86K.
+#1408  Finance Office: Withdraw update #0945.
+#1409  Finance Office: Thebreta budget decreased by $100K per the revised plan.
+#1410  Finance Office: Thebreta budget increased by $15K.
+#1411  Finance Office: Reminder: Thebreta expense reports are due Friday.
+#1412  Marketing email: Thebreta status report filed for week 30.
+#1413  Finance Office: Thebreta budget decreased by $130K.
+#1414  Finance Office: Thebreta budget increased by $80K.
+#1415  Finance Office: Thebreta budget increased by $85K.
+#1416  Finance Office: Thebreta budget increased by $130K after review.
+#1417  Finance Office: Thebreta budget decreased by $55K.
+#1418  Finance Office: Thebreta budget increased by $150K.
+#1419  Finance Office: Thebreta budget increased by $140K after review.
+#1420  Finance Office: Withdraw update #0726.
+#1421  Legal email: Thebreta security review passed.
+#1422  Finance Office: Withdraw update #1007.
+#1423  Engineering email: Thebreta design review moved to Room 6C.
+#1424  Finance Office: Thebreta budget decreased by $55K after review.
+#1425  Marketing email: Thebreta documentation moved to the shared drive.
+#1426  Facilities ticket: Thebreta risk register updated with 8 new items.
+#1427  Finance Office: Thebreta budget decreased by $120K per the revised plan.
+#1428  Finance Office: Withdraw update #1141; it was entered in error.
+#1429  Finance Office: Thebreta budget decreased by $75K.
+#1430  Finance Office: Thebreta budget increased by $35K.
+#1431  Finance Office: Thebreta budget increased by $55K per the revised plan.
+#1432  Legal email: Thebreta status report filed for week 4.
+#1433  Operations chat: Thebreta status report filed for week 31.
+#1434  PMO note: Thebreta site visit confirmed for Friday.
+#1435  Engineering email: Thebreta status report filed for week 7.
+#1436  Legal email: Thebreta security review passed.
+#1437  Finance Office: Thebreta budget decreased by $75K per the revised plan.
+#1438  Engineering email: Thebreta design review moved to Room 2A.
+#1439  Legal email: Thebreta security review passed.
+#1440  Finance Office: Thebreta budget increased by $50K after review.
+#1441  Finance Office: Withdraw update #1051.
+#1442  Finance Office: Thebreta budget decreased by $40K per the revised plan.
+#1443  Sales update: Thebreta site visit confirmed for Wednesday.
+#1444  Finance Office: Thebreta budget increased by $40K per the revised plan.
+#1445  Sales update: Thebreta status report filed for week 24.
+#1446  Finance Office: Thebreta budget increased by $35K.
+#1447  Engineering email: Thebreta design review moved to Room 5C.
+#1448  Finance Office: Thebreta budget decreased by $40K after review.
+#1449  Finance Office: Thebreta budget increased by $105K.
+#1450  Marketing email: Thebreta kickoff moved to Building 8.
+#1451  Finance Office: Withdraw update #1302.
+#1452  Finance Office: Thebreta budget increased by $60K after review.
+#1453  Finance Office: Thebreta budget decreased by $115K.
+#1454  Finance Office: Thebreta budget decreased by $115K per the revised plan.
+#1455  Finance Office: Thebreta budget decreased by $60K.
+#1456  Legal email: Thebreta security review passed.
+#1457  Facilities ticket: Thebreta design review moved to Room 4D.
+#1458  Finance Office: Thebreta audit notes filed.
+#1459  Legal email: Thebreta site visit confirmed for Friday.
+#1460  Facilities ticket: Thebreta kickoff moved to Building 2.
+#1461  Finance Office: Withdraw update #0391; it was entered in error.
+#1462  Finance Office: Thebreta budget increased by $122K.
+#1463  PMO note: Thebreta test environment back online.
+#1464  Finance Office: Thebreta budget increased by $15K after review.
+#1465  Marketing email: Thebreta risk register updated with 6 new items.
+#1466  Finance Office: Thebreta budget decreased by $5K.
+#1467  Finance Office: Thebreta budget decreased by $105K per the revised plan.
+#1468  Finance Office: Withdraw update #1462; it was entered in error.
+#1469  PMO note: Thebreta sprint 23 retrospective notes posted.
+#1470  Finance Office: Thebreta budget increased by $85K after review.
+#1471  Operations chat: Thebreta test environment back online.
+#1472  PMO note: Thebreta security review passed.
+#1473  Finance Office: Withdraw update #1428; it was entered in error.
+#1474  Finance Office: Thebreta budget increased by $120K per the revised plan.
+#1475  Finance Office: Withdraw update #1316.
+#1476  Marketing email: Thebreta sprint 5 retrospective notes posted.
+#1477  Finance Office: Thebreta audit notes filed.
+#1478  Legal email: Thebreta kickoff moved to Building 7.
+#1479  Operations chat: Thebreta status report filed for week 9.
+#1480  Vendor call: Thebreta status report filed for week 13.
+#1481  Finance Office: Withdraw update #0491; it was entered in error.
+#1482  Finance Office: Withdraw update #1023; it was entered in error.
+#1483  Finance Office: Thebreta budget decreased by $65K.
+#1484  Finance Office: Thebreta budget increased by $80K after review.
+#1485  PMO note: Thebreta test environment back online.
+#1486  Legal email: Thebreta documentation moved to the shared drive.
+#1487  Finance Office: Thebreta budget decreased by $55K after review.
+#1488  Facilities ticket: Thebreta site visit confirmed for Tuesday.
+#1489  Marketing email: Thebreta test environment back online.
+#1490  Finance Office: Withdraw update #1251.
+#1491  Finance Office: Thebreta budget decreased by $95K after review.
+#1492  Sales update: Thebreta test environment back online.
+#1493  Marketing email: Thebreta design review moved to Room 2A.
+#1494  Vendor call: Thebreta security review passed.
+#1495  Marketing email: Thebreta risk register updated with 4 new items.
+#1496  Finance Office: Thebreta budget increased by $65K.
+#1497  Finance Office: Thebreta budget increased by $35K per the revised plan.
+#1498  Operations chat: Thebreta site visit confirmed for Friday.
+#1499  Finance Office: Thebreta budget decreased by $120K.
+#1500  Sales update: Thebreta kickoff moved to Building 6.
+#1501  Finance Office: Thebreta budget increased by $105K per the revised plan.
+#1502  Finance Office: Withdraw update #0469; it was entered in error.
+#1503  Operations chat: Thebreta site visit confirmed for Tuesday.
+#1504  Finance Office: Thebreta budget increased by $25K.
+#1505  Finance Office: Thebreta budget decreased by $125K after review.
+#1506  Finance Office: Thebreta budget decreased by $80K.
+#1507  PMO note: Thebreta risk register updated with 4 new items.
+#1508  Marketing email: Thebreta security review passed.
+#1509  Finance Office: Thebreta budget decreased by $75K.
+#1510  Vendor call: Thebreta sprint 9 retrospective notes posted.
+#1511  Engineering email: Thebreta test environment back online.
+#1512  Finance Office: Withdraw update #0515.
+#1513  Facilities ticket: Thebreta status report filed for week 17.
+#1514  Finance Office: Thebreta budget decreased by $145K.
+#1515  Finance Office: Thebreta budget decreased by $130K.
+#1516  Finance Office: Thebreta budget decreased by $30K per the revised plan.
+#1517  Finance Office: Thebreta budget increased by $125K per the revised plan.
+#1518  Finance Office: Thebreta budget decreased by $130K per the revised plan.
+#1519  Sales update: Thebreta test environment back online.
+#1520  Marketing email: Thebreta test environment back online.
+#1521  Finance Office: Withdraw update #1407.
+#1522  Finance Office: Thebreta budget decreased by $60K after review.
+#1523  Legal email: Thebreta weekly sync moved to Wednesdays.
+#1524  Engineering email: Thebreta kickoff moved to Building 4.
+#1525  Finance Office: Thebreta budget decreased by $150K.
+#1526  Finance Office: Withdraw update #0497; it was entered in error.
+#1527  PMO note: Thebreta design review moved to Room 4D.
+#1528  Marketing email: Thebreta test environment back online.
+#1529  Finance Office: Withdraw update #0694.
+#1530  Finance Office: Thebreta budget decreased by $95K after review.
+#1531  Finance Office: Thebreta budget increased by $55K after review.
+#1532  Finance Office: Thebreta budget increased by $15K after review.
+#1533  Vendor call: Thebreta weekly sync moved to Thursdays.
+#1534  Marketing email: Thebreta kickoff moved to Building 5.
+#1535  Marketing email: Thebreta kickoff moved to Building 6.
+#1536  Finance Office: Thebreta budget increased by $70K after review.
+#1537  Finance Office: Withdraw update #1279.
+#1538  Finance Office: Withdraw update #0204.
+#1539  Finance Office: Thebreta budget decreased by $105K after review.
+#1540  Finance Office: Thebreta budget decreased by $85K.
+#1541  Engineering email: Thebreta weekly sync moved to Fridays.
+#1542  Operations chat: Thebreta status report filed for week 17.
+#1543  Finance Office: Withdraw update #1230.
+#1544  Sales update: Thebreta test environment back online.
+#1545  Finance Office: Thebreta budget increased by $25K after review.
+#1546  Vendor call: Thebreta site visit confirmed for Friday.
+#1547  Finance Office: Thebreta budget increased by $145K per the revised plan.
+#1548  Sales update: Thebreta status report filed for week 10.
+#1549  Finance Office: Thebreta budget increased by $150K per the revised plan.
+#1550  Operations chat: Thebreta weekly sync moved to Tuesdays.
+#1551  Operations chat: Thebreta kickoff moved to Building 4.
+#1552  Finance Office: Thebreta invoice batch FC-9077 archived.
+#1553  Finance Office: Withdraw update #0031; it was entered in error.
+#1554  Finance Office: Withdraw update #1019; it was entered in error.
+#1555  Finance Office: Thebreta budget increased by $55K.
+#1556  Vendor call: Thebreta kickoff moved to Building 7.
+#1557  Finance Office: Thebreta budget increased by $40K after review.
+#1558  Finance Office: Withdraw update #1390; it was entered in error.
+#1559  Engineering email: Thebreta kickoff moved to Building 8.
+#1560  Finance Office: Thebreta budget decreased by $45K per the revised plan.
+#1561  PMO note: Thebreta kickoff moved to Building 2.
+#1562  Finance Office: Thebreta budget decreased by $90K per the revised plan.
+#1563  Finance Office: Withdraw update #1176.
+#1564  Finance Office: Thebreta budget increased by $90K.
+#1565  Finance Office: Thebreta budget decreased by $40K per the revised plan.
+#1566  Finance Office: Thebreta budget increased by $100K.
+#1567  Finance Office: Thebreta budget increased by $120K.
+#1568  Finance Office: Thebreta budget increased by $110K after review.
+#1569  Finance Office: Thebreta budget increased by $150K after review.
+#1570  Finance Office: Thebreta budget increased by $150K per the revised plan.
+#1571  Finance Office: Thebreta budget increased by $5K per the revised plan.
+#1572  Finance Office: Withdraw update #0977.
+#1573  Finance Office: Thebreta budget decreased by $25K after review.
+#1574  Vendor call: Thebreta design review moved to Room 4A.
+#1575  Legal email: Thebreta kickoff moved to Building 3.
+#1576  Facilities ticket: Thebreta test environment back online.
+#1577  Legal email: Thebreta site visit confirmed for Wednesday.
+#1578  Finance Office: Thebreta budget increased by $105K.
+#1579  Finance Office: Thebreta budget decreased by $15K per the revised plan.
+#1580  Vendor call: Thebreta demo rescheduled to Friday afternoon.
+#1581  Legal email: Thebreta site visit confirmed for Thursday.
+#1582  Finance Office: Thebreta budget increased by $75K after review.
+#1583  Finance Office: Withdraw update #0982; it was entered in error.
+#1584  Finance Office: Thebreta budget increased by $140K per the revised plan.
+#1585  Finance Office: Thebreta budget increased by $25K.
+#1586  Finance Office: Thebreta budget decreased by $145K after review.
+#1587  Sales update: Thebreta kickoff moved to Building 3.
+#1588  Finance Office: Thebreta budget decreased by $45K after review.
+#1589  Finance Office: Withdraw update #0813.
+#1590  Marketing email: Thebreta documentation moved to the shared drive.
+#1591  Finance Office: Withdraw update #1124.
+#1592  Legal email: Thebreta test environment back online.
+#1593  Facilities ticket: Thebreta design review moved to Room 3A.
+#1594  Finance Office: Thebreta budget increased by $110K.
+#1595  Engineering email: Thebreta risk register updated with 5 new items.
+#1596  Sales update: Thebreta risk register updated with 6 new items.
+#1597  Engineering email: Thebreta vendor onboarding call scheduled for Thursday.
+#1598  Finance Office: Thebreta budget increased by $100K.
+#1599  Marketing email: Thebreta weekly sync moved to Tuesdays.
+#1600  Legal email: Thebreta documentation moved to the shared drive.
+
+Question: What is Thebreta's budget now?

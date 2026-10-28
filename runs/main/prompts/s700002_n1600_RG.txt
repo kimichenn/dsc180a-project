@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Toris budget set to $1710K after review.
+#0002  Finance Office: Toris budget decreased by $561K.
+#0003  Finance Office: Withdraw update #0002; it was entered in error.
+#0004  Finance Office: Toris budget decreased by $63K.
+#0005  Marketing email: Toris budget is going up to $2210K.
+#0006  Finance Office: Toris budget increased by $369K after review.
+#0007  Finance Office: Toris budget increased by $198K per the revised plan.
+#0008  Finance Office: Toris budget increased by $554K.
+#0009  Finance Office: Toris budget decreased by $110K after review.
+#0010  Finance Office: Toris budget decreased by $303K per the revised plan.
+#0011  Finance Office: Toris budget decreased by $70K.
+#0012  PMO note: Toris weekly sync moved to Tuesdays.
+#0013  Finance Office: Toris budget decreased by $114K.
+#0014  Finance Office: Toris budget decreased by $501K per the revised plan.
+#0015  Finance Office: Toris budget increased by $133K after review.
+#0016  Finance Office: Withdraw update #0010.
+#0017  Finance Office: Withdraw update #0007; it was entered in error.
+#0018  Finance Office: Toris budget increased by $528K.
+#0019  Sales update: Toris budget should land at $1750K.
+#0020  Finance Office: Toris budget decreased by $396K after review.
+#0021  Vendor call: Toris sprint 47 retrospective notes posted.
+#0022  Engineering email: Expect Toris's budget to drop by $274K.
+#0023  Vendor call: Expect Toris's budget to rise by $68K.
+#0024  Vendor call: Toris kickoff moved to Building 4.
+#0025  Finance Office: Withdraw update #0016; it was entered in error.
+#0026  Finance Office: Withdraw update #0017.
+#0027  Vendor call: Toris risk register updated with 6 new items.
+#0028  Finance Office: Toris budget decreased by $85K per the revised plan.
+#0029  PMO note: Toris vendor onboarding call scheduled for Thursday.
+#0030  Finance Office: Toris budget decreased by $120K after review.
+#0031  Finance Office: Toris budget decreased by $57K.
+#0032  Finance Office: Toris budget decreased by $95K per the revised plan.
+#0033  Facilities ticket: Hearing Toris's budget goes up $203K.
+#0034  Finance Office: Withdraw update #0006; it was entered in error.
+#0035  Finance Office: Withdraw update #0003.
+#0036  Finance Office: Toris budget increased by $526K after review.
+#0037  Finance Office: Toris budget increased by $130K.
+#0038  Finance Office: Toris budget increased by $55K after review.
+#0039  Finance Office: Toris budget decreased by $493K per the revised plan.
+#0040  Operations chat: Toris documentation moved to the shared drive.
+#0041  Engineering email: Sounds like Toris gets $558K less.
+#0042  Facilities ticket: Pretty sure Toris's budget is $930K now.
+#0043  Finance Office: Toris budget increased by $309K after review.
+#0044  Finance Office: Toris budget increased by $7K.
+#0045  Finance Office: Toris finance review moved to Room 5B.
+#0046  Finance Office: Toris budget increased by $419K after review.
+#0047  Finance Office: Withdraw update #0014; it was entered in error.
+#0048  Finance Office: Toris budget decreased by $35K per the revised plan.
+#0049  Finance Office: Toris budget decreased by $592K per the revised plan.
+#0050  Finance Office: Toris budget increased by $578K after review.
+#0051  Finance Office: Toris budget increased by $52K after review.
+#0052  Engineering email: Hearing Toris's budget goes up $557K.
+#0053  Finance Office: Toris budget increased by $95K after review.
+#0054  Finance Office: Withdraw update #0047; it was entered in error.
+#0055  Finance Office: Withdraw update #0015; it was entered in error.
+#0056  Finance Office: Toris budget increased by $289K per the revised plan.
+#0057  Finance Office: Toris budget decreased by $25K per the revised plan.
+#0058  Finance Office: Toris budget decreased by $120K.
+#0059  Finance Office: Toris budget increased by $267K after review.
+#0060  Finance Office: Toris budget decreased by $556K after review.
+#0061  Finance Office: Toris budget increased by $79K after review.
+#0062  Finance Office: Toris budget decreased by $60K after review.
+#0063  Finance Office: Toris budget increased by $263K after review.
+#0064  Finance Office: Toris budget increased by $75K after review.
+#0065  Finance Office: Toris budget decreased by $10K per the revised plan.
+#0066  Engineering email: Expect Toris's budget to rise by $186K.
+#0067  PMO note: Toris budget is going up by $508K.
+#0068  Finance Office: Toris budget decreased by $216K per the revised plan.
+#0069  Finance Office: Toris budget decreased by $243K per the revised plan.
+#0070  Finance Office: Withdraw update #0025; it was entered in error.
+#0071  Engineering email: Expect Toris's budget to drop by $269K.
+#0072  Finance Office: Toris budget decreased by $50K per the revised plan.
+#0073  Finance Office: Toris budget increased by $199K after review.
+#0074  PMO note: Hearing Toris's budget goes up $234K.
+#0075  Finance Office: Toris budget decreased by $231K after review.
+#0076  Facilities ticket: Toris budget is going to $1720K.
+#0077  Finance Office: Toris budget decreased by $65K.
+#0078  Finance Office: Toris budget increased by $317K per the revised plan.
+#0079  Legal email: Toris budget should land at $2240K.
+#0080  Finance Office: Toris budget decreased by $140K per the revised plan.
+#0081  Finance Office: Toris finance review moved to Room 1B.
+#0082  Finance Office: Toris budget decreased by $477K.
+#0083  Finance Office: Withdraw update #0046.
+#0084  Finance Office: Toris budget decreased by $90K per the revised plan.
+#0085  Facilities ticket: Expect Toris's budget to drop by $53K.
+#0086  Finance Office: Withdraw update #0020; it was entered in error.
+#0087  Finance Office: Toris budget increased by $177K per the revised plan.
+#0088  Finance Office: Withdraw update #0070.
+#0089  Finance Office: Withdraw update #0078; it was entered in error.
+#0090  Sales update: Sounds like Toris gets $247K less.
+#0091  Finance Office: Toris budget increased by $24K.
+#0092  Operations chat: Toris budget should land at $870K.
+#0093  Facilities ticket: Toris budget is going down by $358K.
+#0094  Legal email: Expect Toris's budget to rise by $398K.
+#0095  Finance Office: Toris budget increased by $356K.
+#0096  Finance Office: Toris budget increased by $84K per the revised plan.
+#0097  Finance Office: Withdraw update #0031.
+#0098  Finance Office: Toris budget increased by $514K.
+#0099  Facilities ticket: Toris kickoff moved to Building 6.
+#0100  Finance Office: Toris budget increased by $504K.
+#0101  Finance Office: Toris budget increased by $85K per the revised plan.
+#0102  Finance Office: Toris budget decreased by $328K after review.
+#0103  Engineering email: Hearing Toris's budget goes up $329K.
+#0104  Finance Office: Withdraw update #0091.
+#0105  Finance Office: Withdraw update #0069; it was entered in error.
+#0106  Finance Office: Toris budget increased by $130K after review.
+#0107  Finance Office: Toris budget decreased by $20K.
+#0108  Finance Office: Toris budget decreased by $75K after review.
+#0109  Legal email: Toris budget is going to $2000K.
+#0110  Finance Office: Toris budget increased by $478K.
+#0111  Finance Office: Toris budget increased by $54K after review.
+#0112  Sales update: Pretty sure Toris's budget is $3030K now.
+#0113  PMO note: Expect Toris's budget to drop by $129K.
+#0114  Engineering email: Sounds like Toris gets $14K less.
+#0115  Vendor call: Heard Toris's budget is now $3350K.
+#0116  Facilities ticket: Toris budget is going to $3260K.
+#0117  Finance Office: Withdraw update #0055.
+#0118  Sales update: Toris kickoff moved to Building 2.
+#0119  Finance Office: Toris purchase order FC-8078 closed.
+#0120  Finance Office: Withdraw update #0051.
+#0121  Finance Office: Toris budget increased by $20K.
+#0122  Finance Office: Toris budget increased by $70K after review.
+#0123  Finance Office: Toris budget increased by $144K.
+#0124  Finance Office: Toris budget increased by $45K.
+#0125  Finance Office: Withdraw update #0111.
+#0126  Engineering email: Toris budget should land at $3530K.
+#0127  Legal email: Sounds like Toris gets $467K less.
+#0128  Finance Office: Withdraw update #0117.
+#0129  Operations chat: Toris risk register updated with 4 new items.
+#0130  Marketing email: Pretty sure Toris's budget is $2140K now.
+#0131  Finance Office: Toris budget decreased by $120K after review.
+#0132  Sales update: Toris budget should land at $3480K.
+#0133  Vendor call: Sounds like Toris gets $91K more.
+#0134  Operations chat: Heard Toris's budget is now $2660K.
+#0135  Engineering email: Toris budget is going up by $413K.
+#0136  Finance Office: Toris budget increased by $105K after review.
+#0137  Finance Office: Toris budget decreased by $20K.
+#0138  Finance Office: Toris budget increased by $120K per the revised plan.
+#0139  Finance Office: Toris budget increased by $552K after review.
+#0140  Vendor call: Hearing Toris's budget goes up $111K.
+#0141  Finance Office: Toris budget decreased by $543K.
+#0142  Legal email: Toris budget is going down to $2730K.
+#0143  Finance Office: Toris budget decreased by $40K after review.
+#0144  Operations chat: Toris budget should land at $3950K.
+#0145  Finance Office: Toris budget increased by $20K.
+#0146  Finance Office: Toris budget increased by $25K per the revised plan.
+#0147  Finance Office: Toris budget decreased by $50K after review.
+#0148  Finance Office: Toris budget increased by $80K.
+#0149  Finance Office: Toris budget increased by $45K per the revised plan.
+#0150  Finance Office: Toris budget increased by $20K.
+#0151  Finance Office: Toris receipts scanned.
+#0152  Finance Office: Toris budget increased by $253K per the revised plan.
+#0153  Finance Office: Toris budget decreased by $494K.
+#0154  Legal email: Heard Toris's budget is now $3560K.
+#0155  Finance Office: Toris budget decreased by $61K.
+#0156  Finance Office: Toris budget increased by $90K.
+#0157  Marketing email: Toris security review passed.
+#0158  Sales update: Toris budget is going up by $262K.
+#0159  Finance Office: Toris budget decreased by $80K after review.
+#0160  Engineering email: Toris budget is going down to $2490K.
+#0161  Finance Office: Toris budget increased by $108K after review.
+#0162  Engineering email: Sounds like Toris gets $343K more.
+#0163  Engineering email: Toris budget is going down by $414K.
+#0164  Finance Office: Withdraw update #0075.
+#0165  PMO note: Hearing Toris's budget goes up $422K.
+#0166  Finance Office: Toris budget increased by $80K.
+#0167  Finance Office: Toris budget decreased by $75K after review.
+#0168  Sales update: Heard Toris's budget is now $4130K.
+#0169  Vendor call: Toris security review passed.
+#0170  Finance Office: Withdraw update #0035; it was entered in error.
+#0171  Marketing email: Toris budget should land at $2930K.
+#0172  Finance Office: Toris budget increased by $70K per the revised plan.
+#0173  Finance Office: Toris budget decreased by $145K.
+#0174  Finance Office: Toris budget increased by $502K per the revised plan.
+#0175  Finance Office: Toris budget decreased by $15K.
+#0176  Legal email: Toris budget is going to $4800K.
+#0177  Vendor call: Pretty sure Toris's budget is $4420K now.
+#0178  Finance Office: Toris budget increased by $135K.
+#0179  Facilities ticket: Toris budget should land at $3230K.
+#0180  Engineering email: Toris budget is going up by $134K.
+#0181  Finance Office: Withdraw update #0139; it was entered in error.
+#0182  Finance Office: Toris budget increased by $95K per the revised plan.
+#0183  PMO note: Toris budget is going up by $221K.
+#0184  Finance Office: Toris budget decreased by $353K.
+#0185  Operations chat: Expect Toris's budget to drop by $421K.
+#0186  Finance Office: Toris budget decreased by $348K after review.
+#0187  Finance Office: Toris budget increased by $152K after review.
+#0188  Sales update: Toris budget should land at $3330K.
+#0189  Finance Office: Toris budget increased by $20K per the revised plan.
+#0190  PMO note: Expect Toris's budget to drop by $209K.
+#0191  Finance Office: Toris receipts scanned.
+#0192  Finance Office: Toris budget decreased by $115K per the revised plan.
+#0193  Operations chat: Pretty sure Toris's budget is $4200K now.
+#0194  Finance Office: Toris budget decreased by $135K after review.
+#0195  Finance Office: Toris budget increased by $80K after review.
+#0196  Finance Office: Toris budget decreased by $189K per the revised plan.
+#0197  Vendor call: Toris budget is going down by $533K.
+#0198  Finance Office: Toris budget increased by $171K.
+#0199  Legal email: Toris budget is going to $4130K.
+#0200  Vendor call: Toris kickoff moved to Building 9.
+#0201  Engineering email: Toris budget is going up to $3780K.
+#0202  Finance Office: Toris budget decreased by $5K per the revised plan.
+#0203  Finance Office: Toris budget decreased by $449K.
+#0204  Finance Office: Withdraw update #0083.
+#0205  Finance Office: Toris budget increased by $90K after review.
+#0206  Finance Office: Toris budget increased by $55K per the revised plan.
+#0207  Finance Office: Toris budget decreased by $408K.
+#0208  Finance Office: Withdraw update #0096; it was entered in error.
+#0209  Finance Office: Toris budget increased by $75K per the revised plan.
+#0210  Finance Office: Withdraw update #0152.
+#0211  Finance Office: Toris budget decreased by $464K per the revised plan.
+#0212  Finance Office: Toris budget decreased by $100K.
+#0213  Finance Office: Withdraw update #0087.
+#0214  Finance Office: Toris budget decreased by $104K after review.
+#0215  Vendor call: Toris budget is going up by $442K.
+#0216  Finance Office: Toris budget increased by $110K.
+#0217  Finance Office: Toris budget decreased by $120K after review.
+#0218  Finance Office: Toris budget increased by $311K per the revised plan.
+#0219  Finance Office: Withdraw update #0089.
+#0220  Sales update: Pretty sure Toris's budget is $3030K now.
+#0221  Vendor call: Pretty sure Toris's budget is $1740K now.
+#0222  Marketing email: Heard Toris's budget is now $2690K.
+#0223  Finance Office: Withdraw update #0181.
+#0224  Operations chat: Toris budget is going to $2230K.
+#0225  Finance Office: Toris invoice batch FC-1880 archived.
+#0226  Finance Office: Toris budget increased by $382K.
+#0227  Finance Office: Withdraw update #0073.
+#0228  Finance Office: Toris budget increased by $454K after review.
+#0229  Finance Office: Toris budget decreased by $60K.
+#0230  Finance Office: Toris budget increased by $120K per the revised plan.
+#0231  Finance Office: Toris budget increased by $577K.
+#0232  Facilities ticket: Sounds like Toris gets $302K less.
+#0233  PMO note: Expect Toris's budget to drop by $598K.
+#0234  Finance Office: Withdraw update #0223; it was entered in error.
+#0235  Engineering email: Heard Toris's budget is now $4430K.
+#0236  Finance Office: Toris budget increased by $564K.
+#0237  Operations chat: Expect Toris's budget to rise by $416K.
+#0238  Legal email: Sounds like Toris gets $206K more.
+#0239  Operations chat: Expect Toris's budget to rise by $518K.
+#0240  Marketing email: Toris budget is going to $3820K.
+#0241  Operations chat: Toris budget is going up by $281K.
+#0242  Finance Office: Toris budget decreased by $509K per the revised plan.
+#0243  Finance Office: Toris budget increased by $437K after review.
+#0244  Finance Office: Toris budget decreased by $75K after review.
+#0245  Facilities ticket: Hearing Toris's budget goes up $17K.
+#0246  Finance Office: Toris budget decreased by $76K per the revised plan.
+#0247  Finance Office: Withdraw update #0210.
+#0248  Finance Office: Toris budget increased by $70K after review.
+#0249  PMO note: Expect Toris's budget to rise by $149K.
+#0250  Finance Office: Toris budget decreased by $80K after review.
+#0251  Finance Office: Toris budget increased by $90K.
+#0252  Finance Office: Toris budget decreased by $438K per the revised plan.
+#0253  Sales update: Toris budget is going up by $318K.
+#0254  Engineering email: Pretty sure Toris's budget is $4330K now.
+#0255  Operations chat: Toris budget is going down by $296K.
+#0256  Legal email: Toris budget is going up by $474K.
+#0257  Finance Office: Toris budget decreased by $115K after review.
+#0258  Finance Office: Withdraw update #0054; it was entered in error.
+#0259  Finance Office: Toris budget increased by $444K after review.
+#0260  Finance Office: Withdraw update #0086.
+#0261  Finance Office: Toris budget decreased by $140K per the revised plan.
+#0262  Marketing email: Toris weekly sync moved to Tuesdays.
+#0263  Finance Office: Withdraw update #0105.
+#0264  Finance Office: Withdraw update #0004.
+#0265  Finance Office: Toris budget increased by $120K per the revised plan.
+#0266  Finance Office: Toris budget increased by $324K per the revised plan.
+#0267  Finance Office: Toris budget increased by $135K per the revised plan.
+#0268  Vendor call: Expect Toris's budget to drop by $597K.
+#0269  Finance Office: Withdraw update #0056; it was entered in error.
+#0270  PMO note: Pretty sure Toris's budget is $4800K now.
+#0271  Marketing email: Toris security review passed.
+#0272  Finance Office: Toris budget decreased by $115K after review.
+#0273  Finance Office: Toris budget increased by $174K after review.
+#0274  Vendor call: Toris budget should land at $4800K.
+#0275  Finance Office: Toris budget decreased by $40K.
+#0276  Finance Office: Toris budget increased by $110K after review.
+#0277  Finance Office: Toris cost center code changed to FC-6183.
+#0278  Legal email: Toris budget should land at $3310K.
+#0279  Marketing email: Expect Toris's budget to rise by $374K.
+#0280  Finance Office: Toris budget decreased by $125K.
+#0281  Finance Office: Toris budget increased by $50K per the revised plan.
+#0282  Finance Office: Withdraw update #0013; it was entered in error.
+#0283  Sales update: Toris demo rescheduled to Thursday afternoon.
+#0284  Vendor call: Pretty sure Toris's budget is $4130K now.
+#0285  PMO note: Toris budget should land at $4800K.
+#0286  PMO note: Toris budget is going to $3040K.
+#0287  Finance Office: Withdraw update #0269.
+#0288  Finance Office: Withdraw update #0246; it was entered in error.
+#0289  Finance Office: Toris budget decreased by $115K per the revised plan.
+#0290  Finance Office: Toris budget decreased by $434K.
+#0291  Finance Office: Toris budget increased by $224K.
+#0292  Finance Office: Withdraw update #0214.
+#0293  Finance Office: Withdraw update #0059.
+#0294  Finance Office: Toris budget increased by $55K after review.
+#0295  Operations chat: Heard Toris's budget is now $4620K.
+#0296  Finance Office: Toris budget increased by $194K per the revised plan.
+#0297  Finance Office: Toris budget decreased by $293K after review.
+#0298  Finance Office: Toris budget increased by $80K per the revised plan.
+#0299  Marketing email: Toris budget is going up to $4800K.
+#0300  Sales update: Toris budget is going up by $19K.
+#0301  Finance Office: Toris budget increased by $140K after review.
+#0302  Finance Office: Toris budget increased by $100K per the revised plan.
+#0303  Legal email: Heard Toris's budget is now $4700K.
+#0304  Finance Office: Toris budget decreased by $130K.
+#0305  Finance Office: Toris budget decreased by $35K per the revised plan.
+#0306  Sales update: Hearing Toris's budget goes down $403K.
+#0307  Finance Office: Withdraw update #0282; it was entered in error.
+#0308  Finance Office: Toris budget increased by $10K per the revised plan.
+#0309  Finance Office: Toris budget decreased by $15K after review.
+#0310  Engineering email: Toris vendor onboarding call scheduled for Thursday.
+#0311  Finance Office: Toris budget decreased by $544K.
+#0312  Sales update: Toris budget is going to $4800K.
+#0313  Finance Office: Toris budget increased by $257K.
+#0314  Vendor call: Sounds like Toris gets $522K more.
+#0315  Operations chat: Toris budget should land at $2820K.
+#0316  Finance Office: Toris budget increased by $60K.
+#0317  Finance Office: Withdraw update #0155.
+#0318  Finance Office: Toris audit notes filed.
+#0319  Finance Office: Toris budget decreased by $75K after review.
+#0320  Finance Office: Toris budget decreased by $105K per the revised plan.
+#0321  Finance Office: Toris budget increased by $251K after review.
+#0322  Marketing email: Hearing Toris's budget goes up $327K.
+#0323  Finance Office: Toris budget decreased by $10K.
+#0324  Marketing email: Toris budget should land at $4800K.
+#0325  Finance Office: Toris budget decreased by $178K after review.
+#0326  Finance Office: Withdraw update #0325; it was entered in error.
+#0327  PMO note: Toris budget is going to $4800K.
+#0328  Finance Office: Toris budget decreased by $5K.
+#0329  Finance Office: Toris budget decreased by $40K.
+#0330  Finance Office: Toris budget increased by $50K.
+#0331  Finance Office: Toris budget increased by $95K.
+#0332  Finance Office: Toris budget increased by $140K per the revised plan.
+#0333  Finance Office: Toris budget decreased by $276K.
+#0334  Finance Office: Toris budget decreased by $82K per the revised plan.
+#0335  Marketing email: Toris budget is going up by $304K.
+#0336  Legal email: Sounds like Toris gets $326K more.
+#0337  Vendor call: Toris kickoff moved to Building 2.
+#0338  Finance Office: Withdraw update #0034; it was entered in error.
+#0339  Finance Office: Withdraw update #0258; it was entered in error.
+#0340  Finance Office: Toris budget decreased by $125K per the revised plan.
+#0341  Engineering email: Expect Toris's budget to rise by $282K.
+#0342  Finance Office: Toris budget decreased by $571K after review.
+#0343  Finance Office: Withdraw update #0259; it was entered in error.
+#0344  Finance Office: Toris budget decreased by $80K.
+#0345  Finance Office: Withdraw update #0187.
+#0346  Finance Office: Toris budget decreased by $15K per the revised plan.
+#0347  Finance Office: Toris budget decreased by $154K after review.
+#0348  Finance Office: Toris budget increased by $80K per the revised plan.
+#0349  Finance Office: Toris budget increased by $105K after review.
+#0350  Finance Office: Toris budget decreased by $499K after review.
+#0351  Legal email: Toris documentation moved to the shared drive.
+#0352  Finance Office: Toris budget decreased by $10K.
+#0353  Engineering email: Hearing Toris's budget goes down $448K.
+#0354  Finance Office: Toris budget increased by $80K.
+#0355  Finance Office: Withdraw update #0068; it was entered in error.
+#0356  Marketing email: Toris budget is going up by $531K.
+#0357  Sales update: Toris security review passed.
+#0358  Finance Office: Toris budget decreased by $151K per the revised plan.
+#0359  Finance Office: Toris budget decreased by $377K per the revised plan.
+#0360  Finance Office: Toris budget increased by $65K after review.
+#0361  Sales update: Expect Toris's budget to rise by $214K.
+#0362  Marketing email: Sounds like Toris gets $513K more.
+#0363  Vendor call: Sounds like Toris gets $172K more.
+#0364  Finance Office: Toris budget decreased by $291K.
+#0365  Operations chat: Toris kickoff moved to Building 2.
+#0366  PMO note: Pretty sure Toris's budget is $2030K now.
+#0367  Marketing email: Toris budget is going up to $2040K.
+#0368  Marketing email: Heard Toris's budget is now $1550K.
+#0369  Finance Office: Withdraw update #0291.
+#0370  Finance Office: Withdraw update #0263; it was entered in error.
+#0371  Finance Office: Toris budget decreased by $85K.
+#0372  Engineering email: Hearing Toris's budget goes up $392K.
+#0373  Marketing email: Toris budget should land at $1360K.
+#0374  Vendor call: Sounds like Toris gets $516K more.
+#0375  Finance Office: Toris budget decreased by $95K after review.
+#0376  Finance Office: Toris budget increased by $75K.
+#0377  Finance Office: Toris budget decreased by $135K after review.
+#0378  Finance Office: Toris budget decreased by $30K after review.
+#0379  Vendor call: Toris demo rescheduled to Friday afternoon.
+#0380  Finance Office: Toris budget decreased by $44K after review.
+#0381  Finance Office: Withdraw update #0198; it was entered in error.
+#0382  Finance Office: Toris budget decreased by $130K after review.
+#0383  Finance Office: Toris budget increased by $431K.
+#0384  Finance Office: Toris budget decreased by $487K after review.
+#0385  Finance Office: Withdraw update #0060; it was entered in error.
+#0386  Finance Office: Toris budget increased by $116K per the revised plan.
+#0387  Finance Office: Toris budget increased by $567K after review.
+#0388  Finance Office: Withdraw update #0364; it was entered in error.
+#0389  Finance Office: Toris budget decreased by $70K after review.
+#0390  Finance Office: Toris quarterly audit scheduled for Thursday.
+#0391  Finance Office: Toris budget decreased by $100K after review.
+#0392  Finance Office: Toris budget decreased by $65K per the revised plan.
+#0393  PMO note: Hearing Toris's budget goes up $266K.
+#0394  Finance Office: Withdraw update #0350.
+#0395  Finance Office: Toris budget decreased by $401K.
+#0396  Finance Office: Toris budget increased by $352K.
+#0397  Finance Office: Withdraw update #0297.
+#0398  Finance Office: Withdraw update #0288; it was entered in error.
+#0399  Finance Office: Toris budget decreased by $132K per the revised plan.
+#0400  Finance Office: Toris budget increased by $286K per the revised plan.
+#0401  Vendor call: Expect Toris's budget to rise by $429K.
+#0402  Finance Office: Withdraw update #0174; it was entered in error.
+#0403  PMO note: Toris budget is going down by $196K.
+#0404  Finance Office: Toris budget decreased by $85K per the revised plan.
+#0405  Finance Office: Toris budget increased by $5K after review.
+#0406  Sales update: Sounds like Toris gets $83K more.
+#0407  Finance Office: Toris budget increased by $40K.
+#0408  Engineering email: Toris budget is going to $1820K.
+#0409  Facilities ticket: Toris budget is going up by $579K.
+#0410  Finance Office: Toris budget decreased by $299K after review.
+#0411  Finance Office: Toris budget increased by $120K after review.
+#0412  Engineering email: Toris budget is going up by $486K.
+#0413  PMO note: Toris budget is going up to $2570K.
+#0414  Finance Office: Withdraw update #0342.
+#0415  Finance Office: Toris budget increased by $29K after review.
+#0416  Finance Office: Toris budget decreased by $140K per the revised plan.
+#0417  Finance Office: Withdraw update #0170.
+#0418  Finance Office: Withdraw update #0184; it was entered in error.
+#0419  Finance Office: Toris budget decreased by $25K per the revised plan.
+#0420  Finance Office: Withdraw update #0219.
+#0421  Finance Office: Toris budget decreased by $55K after review.
+#0422  Finance Office: Withdraw update #0383.
+#0423  Finance Office: Toris budget increased by $135K after review.
+#0424  Finance Office: Toris budget decreased by $23K per the revised plan.
+#0425  Finance Office: Withdraw update #0104.
+#0426  Finance Office: Withdraw update #0231.
+#0427  Finance Office: Withdraw update #0394.
+#0428  Engineering email: Toris budget is going down to $670K.
+#0429  Finance Office: Reminder: Toris expense reports are due Wednesday.
+#0430  Finance Office: Toris budget increased by $45K after review.
+#0431  Finance Office: Toris budget decreased by $145K after review.
+#0432  Finance Office: Toris budget decreased by $60K.
+#0433  PMO note: Toris status report filed for week 34.
+#0434  Operations chat: Toris budget should land at $790K.
+#0435  Finance Office: Toris budget increased by $5K after review.
+#0436  Sales update: Heard Toris's budget is now $810K.
+#0437  Marketing email: Toris budget is going up by $41K.
+#0438  Finance Office: Toris budget increased by $261K per the revised plan.
+#0439  Marketing email: Hearing Toris's budget goes down $441K.
+#0440  Finance Office: Toris finance review moved to Room 5D.
+#0441  Finance Office: Toris budget increased by $35K after review.
+#0442  Finance Office: Toris budget decreased by $50K after review.
+#0443  Finance Office: Toris budget decreased by $541K after review.
+#0444  PMO note: Toris budget should land at $350K.
+#0445  Engineering email: Hearing Toris's budget goes up $581K.
+#0446  Finance Office: Toris budget increased by $130K per the revised plan.
+#0447  Finance Office: Toris budget increased by $471K.
+#0448  Finance Office: Toris budget increased by $40K per the revised plan.
+#0449  Finance Office: Withdraw update #0141.
+#0450  Marketing email: Toris budget should land at $2020K.
+#0451  Finance Office: Toris budget decreased by $50K after review.
+#0452  Finance Office: Toris budget increased by $192K after review.
+#0453  Finance Office: Withdraw update #0161.
+#0454  Finance Office: Toris budget increased by $10K.
+#0455  Vendor call: Toris budget is going down to $1160K.
+#0456  Facilities ticket: Toris sprint 34 retrospective notes posted.
+#0457  Facilities ticket: Toris site visit confirmed for Friday.
+#0458  Finance Office: Toris budget decreased by $45K per the revised plan.
+#0459  Finance Office: Toris budget decreased by $110K per the revised plan.
+#0460  Finance Office: Toris budget increased by $95K after review.
+#0461  Finance Office: Toris budget decreased by $582K per the revised plan.
+#0462  Finance Office: Withdraw update #0100.
+#0463  Marketing email: Toris budget is going up by $519K.
+#0464  Finance Office: Toris quarterly audit scheduled for Friday.
+#0465  Finance Office: Toris budget increased by $40K.
+#0466  Finance Office: Toris budget increased by $45K per the revised plan.
+#0467  Finance Office: Toris finance review moved to Room 5D.
+#0468  Sales update: Toris budget is going up to $630K.
+#0469  Legal email: Hearing Toris's budget goes up $476K.
+#0470  Finance Office: Withdraw update #0420.
+#0471  Finance Office: Withdraw update #0453; it was entered in error.
+#0472  Facilities ticket: Toris budget is going down by $212K.
+#0473  Finance Office: Toris budget decreased by $139K after review.
+#0474  Finance Office: Toris budget decreased by $120K.
+#0475  Vendor call: Hearing Toris's budget goes up $72K.
+#0476  Operations chat: Toris budget is going up by $539K.
+#0477  Finance Office: Toris budget increased by $20K.
+#0478  Finance Office: Toris budget increased by $115K per the revised plan.
+#0479  Finance Office: Toris budget decreased by $95K.
+#0480  Finance Office: Toris budget increased by $80K after review.
+#0481  Finance Office: Withdraw update #0039.
+#0482  Finance Office: Withdraw update #0186.
+#0483  Finance Office: Toris budget increased by $135K per the revised plan.
+#0484  Finance Office: Toris budget decreased by $120K per the revised plan.
+#0485  Facilities ticket: Pretty sure Toris's budget is $2150K now.
+#0486  Operations chat: Toris budget is going to $1960K.
+#0487  Finance Office: Withdraw update #0228; it was entered in error.
+#0488  Finance Office: Withdraw update #0293.
+#0489  Finance Office: Toris budget increased by $140K per the revised plan.
+#0490  Sales update: Toris budget is going up by $42K.
+#0491  Vendor call: Toris budget is going up to $1620K.
+#0492  Vendor call: Toris budget is going up by $78K.
+#0493  Finance Office: Withdraw update #0447; it was entered in error.
+#0494  Vendor call: Toris budget is going down by $226K.
+#0495  Sales update: Heard Toris's budget is now $1200K.
+#0496  Finance Office: Withdraw update #0243.
+#0497  Finance Office: Toris budget increased by $40K.
+#0498  Marketing email: Toris weekly sync moved to Fridays.
+#0499  Facilities ticket: Toris status report filed for week 41.
+#0500  Finance Office: Toris budget decreased by $130K.
+#0501  Finance Office: Toris budget increased by $120K.
+#0502  Engineering email: Expect Toris's budget to rise by $143K.
+#0503  Finance Office: Toris budget increased by $306K per the revised plan.
+#0504  Finance Office: Withdraw update #0292; it was entered in error.
+#0505  Finance Office: Withdraw update #0088; it was entered in error.
+#0506  Finance Office: Toris budget increased by $188K per the revised plan.
+#0507  Finance Office: Toris budget increased by $35K per the revised plan.
+#0508  Facilities ticket: Heard Toris's budget is now $1080K.
+#0509  Finance Office: Toris budget decreased by $40K.
+#0510  Operations chat: Heard Toris's budget is now $1250K.
+#0511  Sales update: Heard Toris's budget is now $970K.
+#0512  Finance Office: Toris budget increased by $50K.
+#0513  Finance Office: Toris budget decreased by $25K.
+#0514  Finance Office: Toris budget increased by $105K after review.
+#0515  Finance Office: Toris budget decreased by $140K after review.
+#0516  Finance Office: Toris budget decreased by $45K after review.
+#0517  Finance Office: Toris budget increased by $120K.
+#0518  PMO note: Toris risk register updated with 7 new items.
+#0519  Finance Office: Toris budget increased by $75K after review.
+#0520  Marketing email: Toris budget is going down to $1140K.
+#0521  Marketing email: Pretty sure Toris's budget is $2080K now.
+#0522  Finance Office: Withdraw update #0333; it was entered in error.
+#0523  PMO note: Sounds like Toris gets $123K more.
+#0524  Sales update: Toris budget is going to $1570K.
+#0525  Engineering email: Toris budget is going up to $1990K.
+#0526  Finance Office: Toris budget increased by $125K.
+#0527  Finance Office: Toris budget decreased by $15K after review.
+#0528  PMO note: Toris budget is going to $1880K.
+#0529  Marketing email: Toris budget is going down by $74K.
+#0530  Finance Office: Toris budget decreased by $125K.
+#0531  Finance Office: Toris budget increased by $115K after review.
+#0532  Finance Office: Withdraw update #0236; it was entered in error.
+#0533  Finance Office: Toris budget increased by $120K per the revised plan.
+#0534  PMO note: Toris security review passed.
+#0535  Finance Office: Reminder: Toris expense reports are due Monday.
+#0536  Finance Office: Toris budget decreased by $135K per the revised plan.
+#0537  Finance Office: Toris invoice batch FC-7753 archived.
+#0538  Finance Office: Toris budget decreased by $140K after review.
+#0539  Facilities ticket: Toris sprint 32 retrospective notes posted.
+#0540  Finance Office: Toris budget decreased by $70K per the revised plan.
+#0541  Finance Office: Toris budget decreased by $5K after review.
+#0542  PMO note: Toris budget is going to $850K.
+#0543  Finance Office: Toris budget decreased by $65K after review.
+#0544  PMO note: Toris budget is going down by $506K.
+#0545  Operations chat: Hearing Toris's budget goes up $117K.
+#0546  Finance Office: Withdraw update #0347; it was entered in error.
+#0547  Finance Office: Toris budget decreased by $517K after review.
+#0548  Finance Office: Toris budget increased by $135K after review.
+#0549  Legal email: Sounds like Toris gets $394K less.
+#0550  Engineering email: Toris kickoff moved to Building 8.
+#0551  Operations chat: Toris budget should land at $870K.
+#0552  Finance Office: Toris budget increased by $30K per the revised plan.
+#0553  Finance Office: Toris budget increased by $85K per the revised plan.
+#0554  Operations chat: Toris budget is going to $1220K.
+#0555  Marketing email: Toris budget is going up to $1120K.
+#0556  Finance Office: Toris budget decreased by $45K.
+#0557  Operations chat: Hearing Toris's budget goes up $496K.
+#0558  Sales update: Toris budget is going to $900K.
+#0559  Finance Office: Toris budget decreased by $35K after review.
+#0560  Legal email: Toris budget is going up by $254K.
+#0561  Legal email: Toris budget is going to $890K.
+#0562  Legal email: Toris budget is going down to $630K.
+#0563  Legal email: Sounds like Toris gets $32K less.
+#0564  Finance Office: Withdraw update #0273.
+#0565  Finance Office: Toris budget increased by $10K per the revised plan.
+#0566  Finance Office: Toris budget increased by $75K per the revised plan.
+#0567  Engineering email: Toris weekly sync moved to Tuesdays.
+#0568  Finance Office: Toris budget increased by $125K per the revised plan.
+#0569  Marketing email: Toris documentation moved to the shared drive.
+#0570  Finance Office: Withdraw update #0203; it was entered in error.
+#0571  Facilities ticket: Toris demo rescheduled to Thursday afternoon.
+#0572  Finance Office: Toris budget decreased by $110K per the revised plan.
+#0573  Finance Office: Toris budget decreased by $110K.
+#0574  Finance Office: Toris budget decreased by $135K per the revised plan.
+#0575  Finance Office: Toris budget increased by $77K per the revised plan.
+#0576  Marketing email: Toris budget is going up by $589K.
+#0577  Vendor call: Toris test environment back online.
+#0578  Finance Office: Toris budget decreased by $587K after review.
+#0579  Finance Office: Withdraw update #0334; it was entered in error.
+#0580  Finance Office: Withdraw update #0123.
+#0581  Finance Office: Toris budget increased by $5K after review.
+#0582  Finance Office: Toris finance review moved to Room 6D.
+#0583  Finance Office: Toris budget increased by $50K per the revised plan.
+#0584  Operations chat: Pretty sure Toris's budget is $360K now.
+#0585  Vendor call: Sounds like Toris gets $383K more.
+#0586  Sales update: Expect Toris's budget to rise by $559K.
+#0587  Finance Office: Withdraw update #0424; it was entered in error.
+#0588  Finance Office: Toris finance review moved to Room 3D.
+#0589  Operations chat: Toris weekly sync moved to Fridays.
+#0590  Facilities ticket: Hearing Toris's budget goes down $87K.
+#0591  Finance Office: Withdraw update #0196; it was entered in error.
+#0592  Finance Office: Withdraw update #0358; it was entered in error.
+#0593  Finance Office: Toris quarterly audit scheduled for Tuesday.
+#0594  Finance Office: Withdraw update #0427.
+#0595  Finance Office: Toris budget increased by $65K after review.
+#0596  Finance Office: Toris budget decreased by $95K.
+#0597  Facilities ticket: Toris budget should land at $1590K.
+#0598  Finance Office: Withdraw update #0532; it was entered in error.
+#0599  Finance Office: Toris budget increased by $60K per the revised plan.
+#0600  Finance Office: Toris budget increased by $45K after review.
+#0601  Legal email: Toris budget is going up to $2370K.
+#0602  Facilities ticket: Toris budget should land at $1500K.
+#0603  Finance Office: Toris budget decreased by $145K after review.
+#0604  Finance Office: Toris budget increased by $135K after review.
+#0605  Finance Office: Toris budget increased by $55K after review.
+#0606  Finance Office: Toris budget increased by $5K after review.
+#0607  Finance Office: Toris budget increased by $35K.
+#0608  Finance Office: Toris budget increased by $75K per the revised plan.
+#0609  Finance Office: Withdraw update #0438; it was entered in error.
+#0610  Finance Office: Withdraw update #0044; it was entered in error.
+#0611  Operations chat: Toris weekly sync moved to Wednesdays.
+#0612  Legal email: Toris budget is going up to $2460K.
+#0613  Vendor call: Heard Toris's budget is now $2020K.
+#0614  Legal email: Expect Toris's budget to drop by $446K.
+#0615  Finance Office: Toris budget increased by $70K.
+#0616  Finance Office: Toris budget increased by $140K after review.
+#0617  Legal email: Toris budget is going up to $2260K.
+#0618  Finance Office: Toris budget increased by $102K.
+#0619  Finance Office: Toris budget increased by $339K per the revised plan.
+#0620  Finance Office: Toris receipts scanned.
+#0621  Marketing email: Toris budget is going up by $21K.
+#0622  Finance Office: Withdraw update #0564; it was entered in error.
+#0623  Finance Office: Toris budget increased by $20K after review.
+#0624  Finance Office: Toris budget increased by $20K after review.
+#0625  Sales update: Toris site visit confirmed for Friday.
+#0626  Finance Office: Toris budget increased by $30K after review.
+#0627  Finance Office: Toris budget increased by $60K after review.
+#0628  Engineering email: Hearing Toris's budget goes down $379K.
+#0629  Legal email: Toris budget is going down by $427K.
+#0630  Vendor call: Toris risk register updated with 5 new items.
+#0631  Finance Office: Toris budget increased by $85K.
+#0632  Finance Office: Withdraw update #0317; it was entered in error.
+#0633  Finance Office: Toris budget decreased by $183K per the revised plan.
+#0634  Legal email: Toris budget is going down to $1880K.
+#0635  Finance Office: Toris budget decreased by $45K.
+#0636  Vendor call: Toris budget should land at $2850K.
+#0637  Sales update: Expect Toris's budget to drop by $37K.
+#0638  Finance Office: Withdraw update #0050.
+#0639  Vendor call: Pretty sure Toris's budget is $1540K now.
+#0640  Finance Office: Toris budget increased by $50K after review.
+#0641  Finance Office: Toris budget decreased by $551K.
+#0642  Finance Office: Toris budget increased by $566K.
+#0643  Finance Office: Toris quarterly audit scheduled for Friday.
+#0644  Finance Office: Withdraw update #0296.
+#0645  Finance Office: Toris budget increased by $130K after review.
+#0646  Finance Office: Toris budget increased by $45K after review.
+#0647  Finance Office: Toris budget increased by $40K.
+#0648  Engineering email: Toris budget is going up to $2270K.
+#0649  Finance Office: Toris budget decreased by $5K.
+#0650  Finance Office: Toris purchase order FC-6454 closed.
+#0651  Facilities ticket: Toris demo rescheduled to Tuesday afternoon.
+#0652  Finance Office: Toris budget increased by $145K.
+#0653  Engineering email: Hearing Toris's budget goes down $249K.
+#0654  Legal email: Toris test environment back online.
+#0655  Finance Office: Toris finance review moved to Room 3B.
+#0656  Finance Office: Toris budget decreased by $130K per the revised plan.
+#0657  PMO note: Hearing Toris's budget goes up $357K.
+#0658  Finance Office: Toris budget decreased by $404K.
+#0659  Finance Office: Toris budget increased by $115K per the revised plan.
+#0660  Finance Office: Withdraw update #0082; it was entered in error.
+#0661  Finance Office: Toris budget increased by $145K per the revised plan.
+#0662  PMO note: Heard Toris's budget is now $2870K.
+#0663  Finance Office: Toris budget decreased by $45K after review.
+#0664  PMO note: Expect Toris's budget to rise by $64K.
+#0665  Finance Office: Toris budget increased by $80K per the revised plan.
+#0666  Engineering email: Toris kickoff moved to Building 9.
+#0667  Engineering email: Toris budget is going down to $2450K.
+#0668  Engineering email: Toris kickoff moved to Building 5.
+#0669  Legal email: Expect Toris's budget to drop by $497K.
+#0670  Finance Office: Toris budget increased by $75K.
+#0671  Legal email: Sounds like Toris gets $256K less.
+#0672  Finance Office: Toris budget decreased by $150K after review.
+#0673  Finance Office: Withdraw update #0452; it was entered in error.
+#0674  Finance Office: Toris budget decreased by $213K after review.
+#0675  Finance Office: Toris budget increased by $121K after review.
+#0676  Finance Office: Toris budget decreased by $40K per the revised plan.
+#0677  Sales update: Toris budget should land at $2900K.
+#0678  Facilities ticket: Toris budget should land at $2710K.
+#0679  Finance Office: Withdraw update #0422; it was entered in error.
+#0680  Finance Office: Toris budget increased by $347K per the revised plan.
+#0681  Finance Office: Withdraw update #0226; it was entered in error.
+#0682  Finance Office: Toris budget decreased by $75K.
+#0683  Finance Office: Toris budget decreased by $30K per the revised plan.
+#0684  Legal email: Sounds like Toris gets $46K more.
+#0685  Finance Office: Toris budget increased by $140K after review.
+#0686  Finance Office: Toris budget decreased by $140K.
+#0687  Sales update: Expect Toris's budget to drop by $136K.
+#0688  PMO note: Pretty sure Toris's budget is $3110K now.
+#0689  Sales update: Hearing Toris's budget goes down $103K.
+#0690  Finance Office: Toris budget increased by $25K after review.
+#0691  Marketing email: Expect Toris's budget to rise by $507K.
+#0692  Finance Office: Toris budget increased by $115K after review.
+#0693  Finance Office: Toris budget increased by $55K per the revised plan.
+#0694  Finance Office: Toris budget decreased by $150K.
+#0695  Finance Office: Toris budget increased by $468K.
+#0696  Finance Office: Toris budget increased by $70K per the revised plan.
+#0697  Finance Office: Withdraw update #0591; it was entered in error.
+#0698  Finance Office: Toris budget increased by $30K.
+#0699  Finance Office: Toris budget decreased by $100K.
+#0700  Marketing email: Toris budget is going down by $387K.
+#0701  Finance Office: Toris budget decreased by $40K per the revised plan.
+#0702  Finance Office: Toris budget decreased by $150K per the revised plan.
+#0703  Finance Office: Withdraw update #0359; it was entered in error.
+#0704  Legal email: Toris budget is going up to $3990K.
+#0705  Finance Office: Toris budget increased by $176K.
+#0706  Finance Office: Toris budget increased by $10K after review.
+#0707  Finance Office: Toris budget decreased by $120K after review.
+#0708  Finance Office: Toris budget increased by $110K after review.
+#0709  Finance Office: Toris budget decreased by $110K after review.
+#0710  Finance Office: Toris budget decreased by $55K after review.
+#0711  Operations chat: Toris budget is going up by $278K.
+#0712  Finance Office: Toris budget increased by $338K.
+#0713  Finance Office: Toris budget decreased by $55K.
+#0714  Finance Office: Toris budget increased by $115K per the revised plan.
+#0715  Finance Office: Withdraw update #0402.
+#0716  Operations chat: Toris budget is going up to $3970K.
+#0717  Finance Office: Toris budget increased by $55K per the revised plan.
+#0718  Facilities ticket: Toris budget is going down by $18K.
+#0719  Finance Office: Toris budget decreased by $15K after review.
+#0720  Marketing email: Toris status report filed for week 41.
+#0721  Finance Office: Withdraw update #0242; it was entered in error.
+#0722  Operations chat: Toris budget is going to $3330K.
+#0723  Finance Office: Toris budget increased by $135K.
+#0724  Finance Office: Withdraw update #0321; it was entered in error.
+#0725  Finance Office: Toris budget increased by $529K after review.
+#0726  Finance Office: Toris budget decreased by $20K per the revised plan.
+#0727  Sales update: Toris budget should land at $4800K.
+#0728  Operations chat: Toris budget is going to $4800K.
+#0729  Finance Office: Withdraw update #0018; it was entered in error.
+#0730  Facilities ticket: Sounds like Toris gets $88K less.
+#0731  Sales update: Sounds like Toris gets $461K more.
+#0732  Legal email: Toris sprint 5 retrospective notes posted.
+#0733  Finance Office: Toris budget increased by $110K after review.
+#0734  Vendor call: Toris kickoff moved to Building 9.
+#0735  Finance Office: Toris budget increased by $150K after review.
+#0736  Finance Office: Toris budget decreased by $125K per the revised plan.
+#0737  Vendor call: Toris security review passed.
+#0738  Finance Office: Toris budget decreased by $5K per the revised plan.
+#0739  Finance Office: Toris budget increased by $45K after review.
+#0740  Finance Office: Withdraw update #0207.
+#0741  Finance Office: Toris budget decreased by $65K per the revised plan.
+#0742  Finance Office: Toris budget decreased by $298K per the revised plan.
+#0743  Finance Office: Toris budget decreased by $145K per the revised plan.
+#0744  Finance Office: Toris budget increased by $55K.
+#0745  Engineering email: Hearing Toris's budget goes up $536K.
+#0746  Vendor call: Toris budget is going up to $4770K.
+#0747  Finance Office: Toris budget increased by $145K after review.
+#0748  Sales update: Heard Toris's budget is now $4800K.
+#0749  Facilities ticket: Toris budget is going to $4790K.
+#0750  Finance Office: Toris budget increased by $130K per the revised plan.
+#0751  Facilities ticket: Toris kickoff moved to Building 9.
+#0752  Operations chat: Toris budget is going down by $2K.
+#0753  Finance Office: Toris budget decreased by $166K after review.
+#0754  Finance Office: Toris receipts scanned.
+#0755  Finance Office: Toris budget increased by $150K after review.
+#0756  Marketing email: Toris budget is going down to $4320K.
+#0757  Finance Office: Withdraw update #0043.
+#0758  Sales update: Sounds like Toris gets $406K less.
+#0759  Finance Office: Toris budget increased by $10K after review.
+#0760  Finance Office: Toris budget decreased by $75K after review.
+#0761  Marketing email: Toris budget should land at $4800K.
+#0762  Facilities ticket: Expect Toris's budget to rise by $547K.
+#0763  Finance Office: Toris budget increased by $184K per the revised plan.
+#0764  Finance Office: Toris budget increased by $45K per the revised plan.
+#0765  Finance Office: Toris budget increased by $457K.
+#0766  Legal email: Hearing Toris's budget goes down $124K.
+#0767  PMO note: Toris risk register updated with 5 new items.
+#0768  Finance Office: Toris budget decreased by $95K per the revised plan.
+#0769  Finance Office: Withdraw update #0522.
+#0770  Finance Office: Toris budget increased by $75K.
+#0771  Vendor call: Toris budget is going to $4800K.
+#0772  Finance Office: Withdraw update #0503; it was entered in error.
+#0773  Operations chat: Sounds like Toris gets $428K more.
+#0774  Finance Office: Withdraw update #0395.
+#0775  Engineering email: Toris budget is going up to $4800K.
+#0776  Finance Office: Withdraw update #0264.
+#0777  Finance Office: Withdraw update #0380; it was entered in error.
+#0778  Finance Office: Withdraw update #0724; it was entered in error.
+#0779  Finance Office: Withdraw update #0705; it was entered in error.
+#0780  Operations chat: Hearing Toris's budget goes down $371K.
+#0781  Sales update: Hearing Toris's budget goes down $161K.
+#0782  Engineering email: Heard Toris's budget is now $4200K.
+#0783  Finance Office: Toris purchase order FC-2035 closed.
+#0784  Operations chat: Toris budget is going to $3610K.
+#0785  PMO note: Expect Toris's budget to drop by $323K.
+#0786  Finance Office: Withdraw update #0632.
+#0787  Finance Office: Toris budget increased by $4K.
+#0788  Finance Office: Toris budget decreased by $308K.
+#0789  Operations chat: Expect Toris's budget to drop by $106K.
+#0790  Vendor call: Expect Toris's budget to drop by $147K.
+#0791  Facilities ticket: Expect Toris's budget to drop by $92K.
+#0792  Finance Office: Toris budget decreased by $50K per the revised plan.
+#0793  Facilities ticket: Heard Toris's budget is now $3510K.
+#0794  Marketing email: Hearing Toris's budget goes down $197K.
+#0795  Finance Office: Toris budget decreased by $35K.
+#0796  Marketing email: Toris budget is going up to $4800K.
+#0797  Finance Office: Withdraw update #0788.
+#0798  Facilities ticket: Toris sprint 40 retrospective notes posted.
+#0799  Finance Office: Toris budget decreased by $125K per the revised plan.
+#0800  Finance Office: Withdraw update #0313.
+#0801  Legal email: Toris budget is going to $4540K.
+#0802  Finance Office: Withdraw update #0610.
+#0803  Finance Office: Withdraw update #0218.
+#0804  Finance Office: Toris budget decreased by $125K.
+#0805  PMO note: Expect Toris's budget to rise by $346K.
+#0806  PMO note: Toris budget is going up to $4710K.
+#0807  Finance Office: Toris budget increased by $35K.
+#0808  Legal email: Expect Toris's budget to drop by $593K.
+#0809  Legal email: Toris risk register updated with 6 new items.
+#0810  Finance Office: Toris budget decreased by $115K after review.
+#0811  Finance Office: Toris budget decreased by $110K after review.
+#0812  Finance Office: Toris budget decreased by $40K.
+#0813  Sales update: Toris budget should land at $3880K.
+#0814  Finance Office: Toris budget increased by $125K after review.
+#0815  Finance Office: Toris budget decreased by $15K after review.
+#0816  Finance Office: Toris budget decreased by $135K after review.
+#0817  Finance Office: Toris budget decreased by $40K per the revised plan.
+#0818  Finance Office: Toris budget decreased by $50K after review.
+#0819  Finance Office: Reminder: Toris expense reports are due Monday.
+#0820  Finance Office: Toris budget decreased by $287K after review.
+#0821  Legal email: Pretty sure Toris's budget is $3430K now.
+#0822  Finance Office: Withdraw update #0493.
+#0823  Finance Office: Toris finance review moved to Room 2C.
+#0824  Finance Office: Toris budget increased by $105K per the revised plan.
+#0825  Finance Office: Withdraw update #0740; it was entered in error.
+#0826  Sales update: Sounds like Toris gets $546K more.
+#0827  Finance Office: Toris budget increased by $110K.
+#0828  Legal email: Toris budget is going down by $418K.
+#0829  Finance Office: Toris budget increased by $65K.
+#0830  Finance Office: Toris budget increased by $150K.
+#0831  Sales update: Toris budget is going up by $47K.
+#0832  Legal email: Toris budget should land at $3200K.
+#0833  Finance Office: Toris budget increased by $95K after review.
+#0834  Facilities ticket: Toris budget should land at $3460K.
+#0835  Finance Office: Toris budget decreased by $483K after review.
+#0836  Sales update: Toris budget is going up to $3660K.
+#0837  Operations chat: Sounds like Toris gets $167K less.
+#0838  Legal email: Toris kickoff moved to Building 5.
+#0839  Finance Office: Toris budget decreased by $140K.
+#0840  PMO note: Toris budget is going up by $217K.
+#0841  PMO note: Sounds like Toris gets $8K more.
+#0842  Finance Office: Toris budget decreased by $40K after review.
+#0843  Finance Office: Toris budget increased by $145K per the revised plan.
+#0844  Finance Office: Toris budget increased by $85K after review.
+#0845  Finance Office: Withdraw update #0396.
+#0846  Marketing email: Toris budget is going down by $524K.
+#0847  Sales update: Toris security review passed.
+#0848  Finance Office: Toris budget decreased by $130K per the revised plan.
+#0849  Finance Office: Toris budget decreased by $40K.
+#0850  Facilities ticket: Toris vendor onboarding call scheduled for Friday.
+#0851  Vendor call: Toris weekly sync moved to Thursdays.
+#0852  Finance Office: Toris budget increased by $10K.
+#0853  Finance Office: Toris budget decreased by $80K.
+#0854  Finance Office: Toris budget decreased by $51K.
+#0855  Marketing email: Toris budget is going up by $204K.
+#0856  Vendor call: Hearing Toris's budget goes down $481K.
+#0857  Finance Office: Toris budget increased by $80K per the revised plan.
+#0858  Finance Office: Toris budget decreased by $120K per the revised plan.
+#0859  Finance Office: Toris budget decreased by $75K per the revised plan.
+#0860  Engineering email: Toris budget is going down by $363K.
+#0861  Finance Office: Toris budget increased by $95K.
+#0862  Finance Office: Toris budget increased by $342K after review.
+#0863  Finance Office: Toris budget increased by $35K after review.
+#0864  Finance Office: Withdraw update #0703.
+#0865  Finance Office: Toris budget increased by $75K per the revised plan.
+#0866  Marketing email: Toris budget is going down by $241K.
+#0867  Finance Office: Toris budget decreased by $130K after review.
+#0868  Finance Office: Toris budget increased by $138K per the revised plan.
+#0869  Finance Office: Withdraw update #0757.
+#0870  Finance Office: Toris budget decreased by $65K.
+#0871  Vendor call: Sounds like Toris gets $378K more.
+#0872  Marketing email: Toris status report filed for week 40.
+#0873  Marketing email: Toris budget is going to $4130K.
+#0874  Finance Office: Toris audit notes filed.
+#0875  Engineering email: Toris budget is going down by $307K.
+#0876  Operations chat: Toris vendor onboarding call scheduled for Monday.
+#0877  Finance Office: Toris budget increased by $107K after review.
+#0878  Finance Office: Toris budget increased by $60K per the revised plan.
+#0879  Finance Office: Toris budget increased by $563K.
+#0880  Finance Office: Toris budget decreased by $9K after review.
+#0881  PMO note: Hearing Toris's budget goes down $588K.
+#0882  Finance Office: Toris budget increased by $145K after review.
+#0883  Finance Office: Toris quarterly audit scheduled for Monday.
+#0884  Legal email: Sounds like Toris gets $43K more.
+#0885  Finance Office: Toris budget increased by $15K after review.
+#0886  Finance Office: Toris budget decreased by $40K.
+#0887  Finance Office: Toris budget decreased by $40K after review.
+#0888  Marketing email: Toris vendor onboarding call scheduled for Tuesday.
+#0889  Legal email: Pretty sure Toris's budget is $4490K now.
+#0890  Engineering email: Toris budget is going up by $542K.
+#0891  Marketing email: Sounds like Toris gets $238K less.
+#0892  Finance Office: Toris budget decreased by $70K after review.
+#0893  Vendor call: Heard Toris's budget is now $3050K.
+#0894  Finance Office: Withdraw update #0877; it was entered in error.
+#0895  Finance Office: Toris budget decreased by $70K per the revised plan.
+#0896  Legal email: Sounds like Toris gets $372K less.
+#0897  Sales update: Hearing Toris's budget goes down $283K.
+#0898  Engineering email: Hearing Toris's budget goes up $277K.
+#0899  Finance Office: Toris budget increased by $20K.
+#0900  Finance Office: Toris budget decreased by $30K after review.
+#0901  Finance Office: Toris budget decreased by $60K per the revised plan.
+#0902  Finance Office: Toris budget increased by $80K per the revised plan.
+#0903  Finance Office: Toris budget increased by $95K after review.
+#0904  Finance Office: Toris budget decreased by $120K per the revised plan.
+#0905  Operations chat: Pretty sure Toris's budget is $2960K now.
+#0906  Engineering email: Toris kickoff moved to Building 7.
+#0907  Legal email: Pretty sure Toris's budget is $4020K now.
+#0908  Finance Office: Toris purchase order FC-8106 closed.
+#0909  Finance Office: Withdraw update #0049.
+#0910  Finance Office: Toris budget decreased by $145K.
+#0911  Finance Office: Toris budget increased by $5K after review.
+#0912  Vendor call: Toris security review passed.
+#0913  Sales update: Pretty sure Toris's budget is $3130K now.
+#0914  Finance Office: Withdraw update #0598; it was entered in error.
+#0915  Finance Office: Toris budget decreased by $45K.
+#0916  Marketing email: Sounds like Toris gets $424K less.
+#0917  Sales update: Toris budget is going up by $148K.
+#0918  Finance Office: Toris budget decreased by $45K per the revised plan.
+#0919  Marketing email: Toris budget is going down by $228K.
+#0920  Finance Office: Toris budget decreased by $229K.
+#0921  Finance Office: Toris budget decreased by $65K per the revised plan.
+#0922  Finance Office: Toris budget decreased by $202K.
+#0923  Finance Office: Toris budget increased by $110K.
+#0924  Operations chat: Toris security review passed.
+#0925  Operations chat: Toris budget is going up to $4300K.
+#0926  Vendor call: Toris site visit confirmed for Friday.
+#0927  Sales update: Hearing Toris's budget goes down $73K.
+#0928  Marketing email: Pretty sure Toris's budget is $3710K now.
+#0929  Finance Office: Toris budget decreased by $135K per the revised plan.
+#0930  Finance Office: Toris budget decreased by $35K.
+#0931  Marketing email: Sounds like Toris gets $393K less.
+#0932  Engineering email: Hearing Toris's budget goes up $173K.
+#0933  Sales update: Expect Toris's budget to rise by $469K.
+#0934  Marketing email: Toris budget is going to $3520K.
+#0935  Legal email: Toris demo rescheduled to Monday afternoon.
+#0936  Marketing email: Toris budget is going to $2050K.
+#0937  Finance Office: Toris budget increased by $110K.
+#0938  Finance Office: Toris budget decreased by $120K after review.
+#0939  Finance Office: Withdraw update #0461; it was entered in error.
+#0940  Sales update: Toris budget should land at $3320K.
+#0941  Marketing email: Toris design review moved to Room 6B.
+#0942  Finance Office: Toris budget decreased by $105K.
+#0943  Finance Office: Toris budget increased by $135K per the revised plan.
+#0944  Finance Office: Toris budget increased by $25K.
+#0945  Finance Office: Withdraw update #0779.
+#0946  Finance Office: Toris budget decreased by $100K after review.
+#0947  Finance Office: Toris budget increased by $65K per the revised plan.
+#0948  Finance Office: Withdraw update #0385; it was entered in error.
+#0949  Finance Office: Withdraw update #0619; it was entered in error.
+#0950  PMO note: Toris budget is going to $1960K.
+#0951  Finance Office: Toris budget decreased by $50K.
+#0952  Sales update: Toris budget is going to $1950K.
+#0953  Facilities ticket: Sounds like Toris gets $594K less.
+#0954  Operations chat: Toris budget is going down to $2570K.
+#0955  Finance Office: Toris budget increased by $40K after review.
+#0956  Finance Office: Toris budget increased by $60K after review.
+#0957  Marketing email: Toris budget is going up by $523K.
+#0958  Finance Office: Withdraw update #0339; it was entered in error.
+#0959  Finance Office: Toris budget decreased by $55K per the revised plan.
+#0960  Facilities ticket: Expect Toris's budget to drop by $359K.
+#0961  Finance Office: Reminder: Toris expense reports are due Tuesday.
+#0962  Finance Office: Toris budget increased by $15K after review.
+#0963  PMO note: Toris budget should land at $4500K.
+#0964  Sales update: Pretty sure Toris's budget is $3390K now.
+#0965  Sales update: Toris demo rescheduled to Tuesday afternoon.
+#0966  PMO note: Pretty sure Toris's budget is $3350K now.
+#0967  Sales update: Toris risk register updated with 2 new items.
+#0968  Marketing email: Toris budget is going up to $3400K.
+#0969  Facilities ticket: Hearing Toris's budget goes down $538K.
+#0970  Finance Office: Toris budget increased by $90K per the revised plan.
+#0971  Finance Office: Toris budget increased by $5K per the revised plan.
+#0972  Sales update: Sounds like Toris gets $96K more.
+#0973  Finance Office: Toris budget increased by $145K.
+#0974  Finance Office: Toris budget decreased by $30K after review.
+#0975  PMO note: Sounds like Toris gets $322K less.
+#0976  Marketing email: Sounds like Toris gets $13K more.
+#0977  Finance Office: Withdraw update #0247; it was entered in error.
+#0978  Vendor call: Sounds like Toris gets $146K more.
+#0979  Finance Office: Toris budget increased by $105K after review.
+#0980  Finance Office: Toris budget decreased by $130K.
+#0981  Finance Office: Withdraw update #0641; it was entered in error.
+#0982  Sales update: Hearing Toris's budget goes down $537K.
+#0983  Finance Office: Toris budget decreased by $30K per the revised plan.
+#0984  Finance Office: Withdraw update #0415; it was entered in error.
+#0985  Finance Office: Toris budget decreased by $85K.
+#0986  Operations chat: Pretty sure Toris's budget is $4000K now.
+#0987  Finance Office: Toris budget decreased by $10K after review.
+#0988  Vendor call: Toris budget is going down by $479K.
+#0989  Finance Office: Toris budget decreased by $145K after review.
+#0990  Finance Office: Toris budget increased by $110K after review.
+#0991  PMO note: Heard Toris's budget is now $4280K.
+#0992  Sales update: Toris budget is going up by $26K.
+#0993  Vendor call: Pretty sure Toris's budget is $4550K now.
+#0994  Vendor call: Expect Toris's budget to drop by $211K.
+#0995  Finance Office: Toris budget increased by $145K after review.
+#0996  Finance Office: Withdraw update #0386; it was entered in error.
+#0997  Finance Office: Toris budget increased by $30K after review.
+#0998  Finance Office: Toris budget increased by $5K per the revised plan.
+#0999  PMO note: Toris budget is going up to $4670K.
+#1000  Marketing email: Toris documentation moved to the shared drive.
+#1001  Vendor call: Toris budget is going to $4800K.
+#1002  Finance Office: Withdraw update #0410.
+#1003  Finance Office: Toris budget decreased by $45K.
+#1004  Sales update: Sounds like Toris gets $351K less.
+#1005  Finance Office: Toris budget decreased by $95K after review.
+#1006  Vendor call: Sounds like Toris gets $451K less.
+#1007  Facilities ticket: Toris site visit confirmed for Monday.
+#1008  Sales update: Toris risk register updated with 6 new items.
+#1009  Engineering email: Sounds like Toris gets $58K more.
+#1010  Finance Office: Toris budget increased by $65K per the revised plan.
+#1011  Sales update: Expect Toris's budget to rise by $232K.
+#1012  Finance Office: Withdraw update #0326; it was entered in error.
+#1013  Finance Office: Toris budget decreased by $120K after review.
+#1014  Finance Office: Toris budget decreased by $10K after review.
+#1015  Finance Office: Withdraw update #0504; it was entered in error.
+#1016  PMO note: Toris budget is going down by $109K.
+#1017  PMO note: Expect Toris's budget to rise by $187K.
+#1018  Finance Office: Toris budget increased by $90K per the revised plan.
+#1019  Finance Office: Toris budget decreased by $110K after review.
+#1020  Sales update: Heard Toris's budget is now $4800K.
+#1021  Finance Office: Toris budget increased by $85K per the revised plan.
+#1022  Operations chat: Toris budget should land at $4310K.
+#1023  Marketing email: Hearing Toris's budget goes up $334K.
+#1024  Legal email: Expect Toris's budget to rise by $268K.
+#1025  Finance Office: Toris budget increased by $115K per the revised plan.
+#1026  Finance Office: Withdraw update #0879.
+#1027  Finance Office: Toris budget decreased by $10K per the revised plan.
+#1028  Finance Office: Withdraw update #0622; it was entered in error.
+#1029  Finance Office: Toris budget increased by $150K per the revised plan.
+#1030  Finance Office: Toris budget decreased by $30K.
+#1031  Finance Office: Toris budget increased by $125K after review.
+#1032  Finance Office: Toris budget decreased by $55K.
+#1033  PMO note: Sounds like Toris gets $126K less.
+#1034  Finance Office: Toris budget increased by $110K after review.
+#1035  Legal email: Sounds like Toris gets $297K less.
+#1036  Finance Office: Reminder: Toris expense reports are due Wednesday.
+#1037  Facilities ticket: Toris weekly sync moved to Tuesdays.
+#1038  Finance Office: Withdraw update #0981; it was entered in error.
+#1039  Operations chat: Expect Toris's budget to drop by $142K.
+#1040  Finance Office: Toris budget increased by $95K after review.
+#1041  Finance Office: Withdraw update #0575.
+#1042  Marketing email: Expect Toris's budget to drop by $233K.
+#1043  Finance Office: Toris budget increased by $110K.
+#1044  Finance Office: Toris budget decreased by $80K.
+#1045  Finance Office: Withdraw update #0618.
+#1046  PMO note: Toris sprint 13 retrospective notes posted.
+#1047  Finance Office: Toris budget decreased by $35K after review.
+#1048  Finance Office: Toris budget increased by $40K after review.
+#1049  Marketing email: Toris demo rescheduled to Tuesday afternoon.
+#1050  Finance Office: Toris budget decreased by $316K after review.
+#1051  Sales update: Pretty sure Toris's budget is $2700K now.
+#1052  Finance Office: Toris purchase order FC-2471 closed.
+#1053  PMO note: Sounds like Toris gets $548K less.
+#1054  Finance Office: Withdraw update #0642.
+#1055  Marketing email: Toris budget is going to $2480K.
+#1056  Finance Office: Withdraw update #0712.
+#1057  Sales update: Toris vendor onboarding call scheduled for Monday.
+#1058  Engineering email: Toris budget should land at $2120K.
+#1059  Finance Office: Withdraw update #0742; it was entered in error.
+#1060  Facilities ticket: Toris status report filed for week 24.
+#1061  Legal email: Toris budget is going down by $453K.
+#1062  Engineering email: Toris weekly sync moved to Mondays.
+#1063  Finance Office: Toris budget decreased by $599K per the revised plan.
+#1064  Finance Office: Toris budget decreased by $25K.
+#1065  Finance Office: Toris budget increased by $35K.
+#1066  Finance Office: Toris budget increased by $259K after review.
+#1067  Finance Office: Toris budget decreased by $55K per the revised plan.
+#1068  Finance Office: Withdraw update #0008.
+#1069  Finance Office: Toris finance review moved to Room 2A.
+#1070  Finance Office: Withdraw update #0787; it was entered in error.
+#1071  Finance Office: Toris budget increased by $67K.
+#1072  Finance Office: Toris budget decreased by $45K per the revised plan.
+#1073  Marketing email: Heard Toris's budget is now $1280K.
+#1074  Legal email: Toris budget should land at $1100K.
+#1075  Finance Office: Toris budget decreased by $35K after review.
+#1076  Finance Office: Toris budget decreased by $30K per the revised plan.
+#1077  Finance Office: Toris budget increased by $70K after review.
+#1078  Finance Office: Toris budget increased by $361K after review.
+#1079  Finance Office: Toris budget decreased by $301K after review.
+#1080  Finance Office: Toris budget increased by $20K.
+#1081  Engineering email: Expect Toris's budget to rise by $432K.
+#1082  Legal email: Pretty sure Toris's budget is $1400K now.
+#1083  Finance Office: Withdraw update #0786; it was entered in error.
+#1084  Finance Office: Toris budget increased by $140K per the revised plan.
+#1085  Operations chat: Toris budget is going down by $264K.
+#1086  Finance Office: Toris budget increased by $85K after review.
+#1087  Marketing email: Heard Toris's budget is now $1560K.
+#1088  Engineering email: Toris vendor onboarding call scheduled for Thursday.
+#1089  Finance Office: Withdraw update #0880; it was entered in error.
+#1090  Finance Office: Toris budget increased by $20K after review.
+#1091  Finance Office: Withdraw update #0211.
+#1092  Finance Office: Toris budget increased by $65K.
+#1093  Vendor call: Heard Toris's budget is now $2290K.
+#1094  Finance Office: Toris budget decreased by $110K after review.
+#1095  Finance Office: Withdraw update #1041.
+#1096  Finance Office: Toris purchase order FC-5211 closed.
+#1097  Finance Office: Toris budget increased by $110K.
+#1098  Sales update: Pretty sure Toris's budget is $1440K now.
+#1099  Vendor call: Sounds like Toris gets $157K more.
+#1100  Operations chat: Toris kickoff moved to Building 4.
+#1101  Facilities ticket: Pretty sure Toris's budget is $1540K now.
+#1102  Facilities ticket: Toris sprint 6 retrospective notes posted.
+#1103  Engineering email: Toris budget is going up to $2020K.
+#1104  Finance Office: Toris budget decreased by $75K after review.
+#1105  Finance Office: Toris budget increased by $115K per the revised plan.
+#1106  Legal email: Hearing Toris's budget goes up $248K.
+#1107  Finance Office: Toris budget decreased by $20K.
+#1108  Legal email: Sounds like Toris gets $156K more.
+#1109  Finance Office: Toris budget decreased by $80K.
+#1110  PMO note: Hearing Toris's budget goes down $397K.
+#1111  Finance Office: Withdraw update #0102; it was entered in error.
+#1112  Finance Office: Toris budget increased by $120K.
+#1113  Marketing email: Pretty sure Toris's budget is $2730K now.
+#1114  Sales update: Heard Toris's budget is now $2130K.
+#1115  Finance Office: Toris budget increased by $105K per the revised plan.
+#1116  Finance Office: Withdraw update #0095.
+#1117  Finance Office: Withdraw update #1079; it was entered in error.
+#1118  Finance Office: Toris budget decreased by $35K.
+#1119  Vendor call: Toris budget is going up by $562K.
+#1120  Finance Office: Toris budget decreased by $5K after review.
+#1121  PMO note: Toris budget is going down by $56K.
+#1122  Finance Office: Withdraw update #0594.
+#1123  Finance Office: Withdraw update #0125; it was entered in error.
+#1124  Vendor call: Toris budget is going up to $2120K.
+#1125  PMO note: Toris budget is going down to $1340K.
+#1126  Finance Office: Withdraw update #1063; it was entered in error.
+#1127  Marketing email: Hearing Toris's budget goes up $391K.
+#1128  Finance Office: Toris budget decreased by $45K per the revised plan.
+#1129  Finance Office: Toris budget increased by $69K per the revised plan.
+#1130  Finance Office: Withdraw update #1050.
+#1131  Finance Office: Toris budget decreased by $574K per the revised plan.
+#1132  Finance Office: Toris budget increased by $105K per the revised plan.
+#1133  Finance Office: Toris budget increased by $35K per the revised plan.
+#1134  Finance Office: Toris budget decreased by $120K per the revised plan.
+#1135  Marketing email: Heard Toris's budget is now $2990K.
+#1136  Finance Office: Toris budget decreased by $28K per the revised plan.
+#1137  Finance Office: Toris budget decreased by $237K after review.
+#1138  Finance Office: Toris budget decreased by $60K.
+#1139  Finance Office: Toris budget decreased by $65K.
+#1140  Finance Office: Toris budget increased by $35K after review.
+#1141  Finance Office: Toris budget decreased by $27K after review.
+#1142  Finance Office: Withdraw update #1131; it was entered in error.
+#1143  Finance Office: Withdraw update #1095; it was entered in error.
+#1144  Finance Office: Withdraw update #1129.
+#1145  Marketing email: Toris budget is going down to $1600K.
+#1146  Engineering email: Hearing Toris's budget goes down $573K.
+#1147  Finance Office: Toris budget decreased by $90K after review.
+#1148  Finance Office: Withdraw update #0633; it was entered in error.
+#1149  Finance Office: Toris budget increased by $70K per the revised plan.
+#1150  Finance Office: Toris budget increased by $65K per the revised plan.
+#1151  Engineering email: Toris budget is going to $2280K.
+#1152  PMO note: Hearing Toris's budget goes down $484K.
+#1153  Operations chat: Toris demo rescheduled to Tuesday afternoon.
+#1154  Finance Office: Toris budget increased by $35K.
+#1155  Marketing email: Toris budget is going down by $169K.
+#1156  Finance Office: Withdraw update #0765; it was entered in error.
+#1157  Finance Office: Withdraw update #0638.
+#1158  Legal email: Toris sprint 31 retrospective notes posted.
+#1159  Legal email: Toris budget should land at $2220K.
+#1160  Sales update: Toris budget should land at $3580K.
+#1161  Vendor call: Toris budget is going up to $3550K.
+#1162  Finance Office: Withdraw update #0772; it was entered in error.
+#1163  Finance Office: Toris budget increased by $90K.
+#1164  Finance Office: Toris budget decreased by $100K per the revised plan.
+#1165  Finance Office: Toris budget decreased by $90K per the revised plan.
+#1166  Vendor call: Hearing Toris's budget goes down $368K.
+#1167  Finance Office: Toris budget decreased by $65K per the revised plan.
+#1168  Finance Office: Toris budget decreased by $163K after review.
+#1169  Sales update: Toris budget is going to $2420K.
+#1170  Vendor call: Sounds like Toris gets $122K less.
+#1171  Finance Office: Toris budget decreased by $130K.
+#1172  Finance Office: Withdraw update #0868.
+#1173  Finance Office: Toris budget decreased by $150K per the revised plan.
+#1174  Engineering email: Heard Toris's budget is now $1530K.
+#1175  Finance Office: Toris budget increased by $120K per the revised plan.
+#1176  Finance Office: Toris budget increased by $5K after review.
+#1177  Finance Office: Toris budget decreased by $25K after review.
+#1178  Finance Office: Toris budget increased by $492K.
+#1179  Finance Office: Toris budget decreased by $35K after review.
+#1180  Vendor call: Toris budget is going up to $3660K.
+#1181  Engineering email: Toris risk register updated with 2 new items.
+#1182  Finance Office: Toris budget decreased by $45K after review.
+#1183  Sales update: Pretty sure Toris's budget is $3430K now.
+#1184  Finance Office: Toris finance review moved to Room 4C.
+#1185  Finance Office: Toris budget decreased by $140K.
+#1186  Facilities ticket: Expect Toris's budget to rise by $312K.
+#1187  Finance Office: Toris budget increased by $135K after review.
+#1188  Finance Office: Withdraw update #1136; it was entered in error.
+#1189  Marketing email: Toris security review passed.
+#1190  Vendor call: Toris security review passed.
+#1191  Vendor call: Toris budget is going to $2850K.
+#1192  Operations chat: Expect Toris's budget to rise by $521K.
+#1193  Vendor call: Toris weekly sync moved to Thursdays.
+#1194  Operations chat: Toris kickoff moved to Building 9.
+#1195  Finance Office: Toris budget increased by $145K after review.
+#1196  Marketing email: Toris budget should land at $3380K.
+#1197  Finance Office: Toris budget decreased by $55K after review.
+#1198  PMO note: Toris budget should land at $2730K.
+#1199  Facilities ticket: Toris vendor onboarding call scheduled for Wednesday.
+#1200  Facilities ticket: Expect Toris's budget to rise by $294K.
+#1201  Finance Office: Toris budget decreased by $55K.
+#1202  Operations chat: Expect Toris's budget to drop by $591K.
+#1203  Finance Office: Withdraw update #1168; it was entered in error.
+#1204  Finance Office: Toris budget increased by $20K after review.
+#1205  Finance Office: Toris budget increased by $145K.
+#1206  Legal email: Pretty sure Toris's budget is $2220K now.
+#1207  Vendor call: Toris budget is going down by $489K.
+#1208  Finance Office: Toris budget decreased by $120K per the revised plan.
+#1209  Finance Office: Toris budget increased by $125K after review.
+#1210  Operations chat: Sounds like Toris gets $112K more.
+#1211  Vendor call: Heard Toris's budget is now $4230K.
+#1212  Finance Office: Toris budget decreased by $55K.
+#1213  Engineering email: Expect Toris's budget to drop by $113K.
+#1214  Finance Office: Withdraw update #0674; it was entered in error.
+#1215  Sales update: Expect Toris's budget to drop by $409K.
+#1216  Finance Office: Toris budget increased by $110K after review.
+#1217  PMO note: Sounds like Toris gets $16K less.
+#1218  PMO note: Toris budget is going up by $179K.
+#1219  Finance Office: Withdraw update #1070.
+#1220  Finance Office: Withdraw update #0204; it was entered in error.
+#1221  Legal email: Hearing Toris's budget goes down $584K.
+#1222  Sales update: Toris kickoff moved to Building 7.
+#1223  Finance Office: Withdraw update #1071; it was entered in error.
+#1224  Finance Office: Toris budget increased by $80K.
+#1225  Finance Office: Toris budget increased by $5K.
+#1226  Finance Office: Toris budget decreased by $60K after review.
+#1227  Finance Office: Withdraw update #0721.
+#1228  Finance Office: Toris budget increased by $140K after review.
+#1229  Finance Office: Withdraw update #0864; it was entered in error.
+#1230  Facilities ticket: Heard Toris's budget is now $3280K.
+#1231  Engineering email: Heard Toris's budget is now $3380K.
+#1232  Finance Office: Toris budget decreased by $95K.
+#1233  PMO note: Pretty sure Toris's budget is $3890K now.
+#1234  Finance Office: Withdraw update #0776; it was entered in error.
+#1235  Finance Office: Withdraw update #0797; it was entered in error.
+#1236  Vendor call: Hearing Toris's budget goes down $127K.
+#1237  Finance Office: Withdraw update #0120; it was entered in error.
+#1238  Finance Office: Toris budget decreased by $120K.
+#1239  Marketing email: Pretty sure Toris's budget is $2150K now.
+#1240  Finance Office: Withdraw update #0061; it was entered in error.
+#1241  Finance Office: Withdraw update #0681; it was entered in error.
+#1242  Operations chat: Toris budget is going up to $3240K.
+#1243  Finance Office: Toris budget decreased by $40K.
+#1244  Finance Office: Toris budget increased by $95K after review.
+#1245  PMO note: Toris budget is going down to $2790K.
+#1246  Marketing email: Pretty sure Toris's budget is $2430K now.
+#1247  Finance Office: Withdraw update #1141; it was entered in error.
+#1248  Marketing email: Heard Toris's budget is now $2440K.
+#1249  PMO note: Toris budget is going down to $2670K.
+#1250  Finance Office: Toris budget decreased by $40K per the revised plan.
+#1251  Finance Office: Toris budget decreased by $20K after review.
+#1252  Engineering email: Toris budget is going to $2090K.
+#1253  Finance Office: Toris budget decreased by $252K after review.
+#1254  PMO note: Hearing Toris's budget goes down $98K.
+#1255  Finance Office: Toris purchase order FC-2962 closed.
+#1256  Finance Office: Toris budget decreased by $110K after review.
+#1257  Vendor call: Heard Toris's budget is now $2060K.
+#1258  Finance Office: Toris budget increased by $135K.
+#1259  Finance Office: Withdraw update #1253; it was entered in error.
+#1260  Finance Office: Withdraw update #0658; it was entered in error.
+#1261  Finance Office: Toris budget decreased by $60K.
+#1262  Facilities ticket: Hearing Toris's budget goes up $284K.
+#1263  Finance Office: Toris budget decreased by $70K per the revised plan.
+#1264  Engineering email: Toris site visit confirmed for Thursday.
+#1265  PMO note: Toris budget is going down by $271K.
+#1266  Finance Office: Toris budget decreased by $70K per the revised plan.
+#1267  Finance Office: Toris budget increased by $55K after review.
+#1268  Finance Office: Toris budget decreased by $150K per the revised plan.
+#1269  Finance Office: Withdraw update #0763.
+#1270  Vendor call: Toris documentation moved to the shared drive.
+#1271  Marketing email: Pretty sure Toris's budget is $3610K now.
+#1272  Facilities ticket: Toris vendor onboarding call scheduled for Tuesday.
+#1273  Vendor call: Hearing Toris's budget goes up $349K.
+#1274  Finance Office: Withdraw update #1066.
+#1275  Finance Office: Toris budget decreased by $45K after review.
+#1276  Finance Office: Toris budget increased by $140K.
+#1277  Engineering email: Toris budget is going down by $586K.
+#1278  Marketing email: Pretty sure Toris's budget is $2530K now.
+#1279  Finance Office: Toris budget increased by $15K.
+#1280  Finance Office: Toris budget increased by $90K after review.
+#1281  Finance Office: Toris budget increased by $25K.
+#1282  Engineering email: Toris weekly sync moved to Tuesdays.
+#1283  Vendor call: Toris risk register updated with 6 new items.
+#1284  Vendor call: Toris budget should land at $2150K.
+#1285  PMO note: Hearing Toris's budget goes down $553K.
+#1286  Finance Office: Toris budget decreased by $135K per the revised plan.
+#1287  Engineering email: Hearing Toris's budget goes up $491K.
+#1288  Finance Office: Toris budget decreased by $110K.
+#1289  Finance Office: Toris budget increased by $130K per the revised plan.
+#1290  Finance Office: Toris budget decreased by $25K after review.
+#1291  Legal email: Toris budget should land at $1970K.
+#1292  Finance Office: Toris purchase order FC-9799 closed.
+#1293  Engineering email: Toris demo rescheduled to Thursday afternoon.
+#1294  Finance Office: Withdraw update #0443.
+#1295  Finance Office: Toris budget increased by $145K per the revised plan.
+#1296  Engineering email: Toris budget is going down by $596K.
+#1297  Finance Office: Toris budget increased by $10K after review.
+#1298  Engineering email: Expect Toris's budget to rise by $86K.
+#1299  Finance Office: Toris budget decreased by $85K after review.
+#1300  Sales update: Hearing Toris's budget goes up $31K.
+#1301  Finance Office: Toris budget decreased by $344K per the revised plan.
+#1302  Finance Office: Toris budget decreased by $145K per the revised plan.
+#1303  PMO note: Pretty sure Toris's budget is $3780K now.
+#1304  Finance Office: Withdraw update #1148.
+#1305  Marketing email: Toris budget is going up by $244K.
+#1306  Finance Office: Toris budget increased by $50K after review.
+#1307  Finance Office: Toris budget increased by $115K.
+#1308  Finance Office: Toris budget decreased by $25K per the revised plan.
+#1309  Finance Office: Withdraw update #0939.
+#1310  Finance Office: Withdraw update #0488; it was entered in error.
+#1311  Finance Office: Withdraw update #0473; it was entered in error.
+#1312  Legal email: Toris budget is going to $2330K.
+#1313  Finance Office: Toris budget decreased by $120K per the revised plan.
+#1314  Finance Office: Withdraw update #0252.
+#1315  Finance Office: Withdraw update #0835; it was entered in error.
+#1316  Finance Office: Toris budget decreased by $65K after review.
+#1317  Operations chat: Pretty sure Toris's budget is $2290K now.
+#1318  Vendor call: Sounds like Toris gets $511K more.
+#1319  Finance Office: Toris budget decreased by $5K after review.
+#1320  Finance Office: Toris budget decreased by $45K per the revised plan.
+#1321  Finance Office: Withdraw update #0578.
+#1322  Legal email: Toris budget is going down by $164K.
+#1323  Finance Office: Toris budget increased by $120K.
+#1324  Legal email: Toris vendor onboarding call scheduled for Monday.
+#1325  Finance Office: Withdraw update #0680.
+#1326  Operations chat: Toris budget is going down by $439K.
+#1327  Finance Office: Withdraw update #1078.
+#1328  Finance Office: Toris budget increased by $150K per the revised plan.
+#1329  Finance Office: Withdraw update #1301; it was entered in error.
+#1330  Finance Office: Toris budget decreased by $50K per the revised plan.
+#1331  Facilities ticket: Sounds like Toris gets $412K less.
+#1332  Finance Office: Toris budget decreased by $30K.
+#1333  Sales update: Hearing Toris's budget goes down $3K.
+#1334  Finance Office: Toris budget decreased by $10K per the revised plan.
+#1335  Marketing email: Pretty sure Toris's budget is $2910K now.
+#1336  Finance Office: Toris budget decreased by $85K per the revised plan.
+#1337  Finance Office: Toris budget increased by $105K.
+#1338  Finance Office: Toris budget increased by $90K after review.
+#1339  Engineering email: Sounds like Toris gets $433K more.
+#1340  PMO note: Pretty sure Toris's budget is $3320K now.
+#1341  Finance Office: Withdraw update #0922.
+#1342  Marketing email: Sounds like Toris gets $364K more.
+#1343  Finance Office: Toris budget increased by $125K per the revised plan.
+#1344  Vendor call: Sounds like Toris gets $97K more.
+#1345  Finance Office: Toris budget increased by $65K after review.
+#1346  Finance Office: Toris budget increased by $10K after review.
+#1347  Finance Office: Toris budget increased by $15K per the revised plan.
+#1348  Finance Office: Toris budget decreased by $50K per the revised plan.
+#1349  Finance Office: Toris budget increased by $5K per the revised plan.
+#1350  PMO note: Sounds like Toris gets $456K less.
+#1351  Finance Office: Toris budget increased by $60K per the revised plan.
+#1352  Sales update: Toris demo rescheduled to Thursday afternoon.
+#1353  Finance Office: Toris budget decreased by $5K.
+#1354  Finance Office: Toris budget decreased by $95K per the revised plan.
+#1355  Finance Office: Toris budget decreased by $80K per the revised plan.
+#1356  Legal email: Toris budget is going to $3520K.
+#1357  Finance Office: Withdraw update #0862; it was entered in error.
+#1358  Finance Office: Toris cost center code changed to FC-1658.
+#1359  Finance Office: Toris budget decreased by $10K after review.
+#1360  PMO note: Toris budget is going up by $227K.
+#1361  Finance Office: Toris budget decreased by $30K.
+#1362  Finance Office: Toris budget decreased by $105K.
+#1363  Finance Office: Toris budget decreased by $135K after review.
+#1364  Legal email: Pretty sure Toris's budget is $2380K now.
+#1365  Operations chat: Toris budget is going down by $48K.
+#1366  Facilities ticket: Toris weekly sync moved to Fridays.
+#1367  Finance Office: Toris budget increased by $150K per the revised plan.
+#1368  Sales update: Toris budget should land at $2680K.
+#1369  Finance Office: Toris budget decreased by $5K per the revised plan.
+#1370  Marketing email: Heard Toris's budget is now $3700K.
+#1371  Finance Office: Toris budget decreased by $75K after review.
+#1372  PMO note: Toris site visit confirmed for Wednesday.
+#1373  Finance Office: Withdraw update #0063.
+#1374  PMO note: Toris budget is going up by $576K.
+#1375  Finance Office: Withdraw update #0387; it was entered in error.
+#1376  Facilities ticket: Sounds like Toris gets $181K less.
+#1377  Marketing email: Toris budget is going up by $443K.
+#1378  Finance Office: Toris budget decreased by $120K per the revised plan.
+#1379  Finance Office: Toris budget increased by $135K after review.
+#1380  Finance Office: Toris cost center code changed to FC-9562.
+#1381  Legal email: Hearing Toris's budget goes up $336K.
+#1382  Finance Office: Toris budget increased by $85K.
+#1383  Vendor call: Toris budget is going to $1500K.
+#1384  Finance Office: Withdraw update #0110; it was entered in error.
+#1385  Finance Office: Toris budget increased by $135K after review.
+#1386  Finance Office: Toris budget increased by $110K after review.
+#1387  Finance Office: Toris budget increased by $135K after review.
+#1388  Finance Office: Toris cost center code changed to FC-1246.
+#1389  Sales update: Toris site visit confirmed for Monday.
+#1390  Finance Office: Toris budget increased by $367K.
+#1391  Finance Office: Withdraw update #0854.
+#1392  Legal email: Toris budget is going down by $534K.
+#1393  Finance Office: Toris budget decreased by $75K.
+#1394  Finance Office: Toris purchase order FC-2565 closed.
+#1395  Finance Office: Toris budget decreased by $20K per the revised plan.
+#1396  Finance Office: Toris budget increased by $125K.
+#1397  Sales update: Hearing Toris's budget goes up $354K.
+#1398  Operations chat: Sounds like Toris gets $193K less.
+#1399  Finance Office: Toris budget decreased by $120K after review.
+#1400  Legal email: Toris budget is going down by $436K.
+#1401  Finance Office: Withdraw update #0399.
+#1402  PMO note: Heard Toris's budget is now $3430K.
+#1403  Engineering email: Pretty sure Toris's budget is $1770K now.
+#1404  Finance Office: Withdraw update #0546.
+#1405  Finance Office: Toris budget decreased by $85K after review.
+#1406  Finance Office: Withdraw update #1390.
+#1407  Legal email: Sounds like Toris gets $503K more.
+#1408  Finance Office: Toris purchase order FC-8864 closed.
+#1409  Finance Office: Toris budget increased by $145K per the revised plan.
+#1410  Operations chat: Toris budget is going to $2340K.
+#1411  Finance Office: Toris budget decreased by $110K after review.
+#1412  Finance Office: Withdraw update #0547; it was entered in error.
+#1413  Finance Office: Toris budget decreased by $65K.
+#1414  Finance Office: Withdraw update #0753.
+#1415  Finance Office: Withdraw update #0384; it was entered in error.
+#1416  Finance Office: Withdraw update #0820.
+#1417  Finance Office: Toris invoice batch FC-3585 archived.
+#1418  Finance Office: Toris budget increased by $150K after review.
+#1419  Finance Office: Toris budget decreased by $110K after review.
+#1420  Finance Office: Toris budget increased by $65K after review.
+#1421  Finance Office: Toris budget decreased by $145K after review.
+#1422  Finance Office: Toris budget decreased by $120K.
+#1423  Finance Office: Withdraw update #0400.
+#1424  Finance Office: Toris budget increased by $150K.
+#1425  Finance Office: Withdraw update #0725.
+#1426  Operations chat: Pretty sure Toris's budget is $2370K now.
+#1427  Finance Office: Withdraw update #0266.
+#1428  Finance Office: Toris budget increased by $115K per the revised plan.
+#1429  Marketing email: Toris budget is going to $2790K.
+#1430  Finance Office: Toris budget decreased by $100K.
+#1431  Marketing email: Sounds like Toris gets $94K more.
+#1432  Operations chat: Toris budget is going up to $2420K.
+#1433  Vendor call: Toris budget is going down to $2020K.
+#1434  Vendor call: Expect Toris's budget to drop by $162K.
+#1435  Finance Office: Toris budget increased by $120K.
+#1436  Finance Office: Reminder: Toris expense reports are due Wednesday.
+#1437  Finance Office: Toris budget decreased by $120K per the revised plan.
+#1438  Finance Office: Toris budget increased by $80K.
+#1439  Finance Office: Toris budget increased by $90K after review.
+#1440  Finance Office: Toris budget increased by $70K per the revised plan.
+#1441  Finance Office: Toris budget increased by $85K per the revised plan.
+#1442  Finance Office: Toris budget decreased by $15K after review.
+#1443  Finance Office: Toris budget increased by $85K after review.
+#1444  Finance Office: Toris budget increased by $140K after review.
+#1445  Finance Office: Toris budget decreased by $90K after review.
+#1446  Legal email: Toris budget is going up to $2810K.
+#1447  Vendor call: Toris budget is going down by $384K.
+#1448  Finance Office: Withdraw update #0920; it was entered in error.
+#1449  Finance Office: Withdraw update #0153; it was entered in error.
+#1450  Finance Office: Withdraw update #1137.
+#1451  Sales update: Expect Toris's budget to rise by $331K.
+#1452  Finance Office: Toris purchase order FC-6870 closed.
+#1453  Finance Office: Toris budget decreased by $70K after review.
+#1454  Finance Office: Toris budget increased by $50K.
+#1455  Finance Office: Toris budget increased by $115K per the revised plan.
+#1456  Vendor call: Toris test environment back online.
+#1457  Finance Office: Withdraw update #0675; it was entered in error.
+#1458  Sales update: Hearing Toris's budget goes down $386K.
+#1459  Finance Office: Toris budget decreased by $130K.
+#1460  Marketing email: Toris budget is going up by $527K.
+#1461  Finance Office: Withdraw update #0695.
+#1462  Finance Office: Toris budget decreased by $85K per the revised plan.
+#1463  Sales update: Toris weekly sync moved to Wednesdays.
+#1464  Finance Office: Toris budget increased by $10K per the revised plan.
+#1465  Facilities ticket: Toris budget is going to $3530K.
+#1466  Finance Office: Toris budget increased by $90K.
+#1467  Finance Office: Toris budget decreased by $90K.
+#1468  Finance Office: Toris budget increased by $135K per the revised plan.
+#1469  Finance Office: Toris budget decreased by $45K.
+#1470  Finance Office: Withdraw update #1449; it was entered in error.
+#1471  Finance Office: Toris budget decreased by $95K after review.
+#1472  Marketing email: Toris budget is going to $2800K.
+#1473  Finance Office: Toris budget decreased by $90K.
+#1474  Sales update: Toris status report filed for week 14.
+#1475  Finance Office: Withdraw update #1375.
+#1476  Operations chat: Toris site visit confirmed for Monday.
+#1477  Finance Office: Withdraw update #1384.
+#1478  Finance Office: Toris budget increased by $75K.
+#1479  Finance Office: Toris budget decreased by $40K per the revised plan.
+#1480  Finance Office: Toris purchase order FC-4949 closed.
+#1481  Finance Office: Toris budget decreased by $30K per the revised plan.
+#1482  Finance Office: Toris budget increased by $125K per the revised plan.
+#1483  Finance Office: Toris budget increased by $90K after review.
+#1484  Finance Office: Toris budget increased by $125K per the revised plan.
+#1485  Finance Office: Toris budget decreased by $90K per the revised plan.
+#1486  Legal email: Sounds like Toris gets $33K less.
+#1487  Marketing email: Hearing Toris's budget goes up $242K.
+#1488  PMO note: Toris demo rescheduled to Wednesday afternoon.
+#1489  Operations chat: Toris budget is going to $4080K.
+#1490  Finance Office: Withdraw update #0311.
+#1491  Vendor call: Hearing Toris's budget goes up $207K.
+#1492  Finance Office: Toris budget increased by $95K.
+#1493  Finance Office: Toris budget increased by $120K per the revised plan.
+#1494  Finance Office: Toris budget increased by $55K after review.
+#1495  Vendor call: Heard Toris's budget is now $3240K.
+#1496  Finance Office: Toris budget decreased by $115K after review.
+#1497  Finance Office: Toris budget decreased by $75K after review.
+#1498  Facilities ticket: Pretty sure Toris's budget is $3280K now.
+#1499  Finance Office: Toris budget increased by $35K after review.
+#1500  Finance Office: Toris budget increased by $90K.
+#1501  Sales update: Expect Toris's budget to rise by $402K.
+#1502  Facilities ticket: Toris budget is going up by $279K.
+#1503  Finance Office: Toris audit notes filed.
+#1504  Finance Office: Toris purchase order FC-5535 closed.
+#1505  Finance Office: Withdraw update #1414.
+#1506  Sales update: Toris budget should land at $3000K.
+#1507  Vendor call: Toris budget should land at $3770K.
+#1508  Finance Office: Toris budget decreased by $20K.
+#1509  Finance Office: Toris budget decreased by $20K after review.
+#1510  Finance Office: Toris budget increased by $100K.
+#1511  Finance Office: Toris budget increased by $65K per the revised plan.
+#1512  Finance Office: Toris budget decreased by $70K after review.
+#1513  Marketing email: Toris site visit confirmed for Tuesday.
+#1514  Finance Office: Toris budget decreased by $45K.
+#1515  Finance Office: Withdraw update #0290.
+#1516  Vendor call: Expect Toris's budget to drop by $423K.
+#1517  Finance Office: Withdraw update #0506; it was entered in error.
+#1518  Finance Office: Toris budget increased by $25K after review.
+#1519  Finance Office: Toris budget increased by $35K.
+#1520  Finance Office: Toris budget increased by $130K after review.
+#1521  Finance Office: Toris budget increased by $15K per the revised plan.
+#1522  Finance Office: Toris budget decreased by $45K after review.
+#1523  Finance Office: Withdraw update #0592; it was entered in error.
+#1524  Finance Office: Toris budget decreased by $45K after review.
+#1525  Finance Office: Withdraw update #0822.
+#1526  Engineering email: Toris security review passed.
+#1527  Facilities ticket: Expect Toris's budget to drop by $272K.
+#1528  Marketing email: Sounds like Toris gets $473K less.
+#1529  Facilities ticket: Expect Toris's budget to drop by $219K.
+#1530  Legal email: Toris budget is going to $4800K.
+#1531  Finance Office: Toris budget decreased by $135K per the revised plan.
+#1532  Finance Office: Toris budget decreased by $140K.
+#1533  Marketing email: Toris documentation moved to the shared drive.
+#1534  Sales update: Expect Toris's budget to rise by $407K.
+#1535  Finance Office: Toris budget decreased by $115K per the revised plan.
+#1536  PMO note: Sounds like Toris gets $36K less.
+#1537  Finance Office: Toris budget decreased by $20K.
+#1538  Marketing email: Hearing Toris's budget goes down $273K.
+#1539  Sales update: Toris sprint 38 retrospective notes posted.
+#1540  Finance Office: Toris budget decreased by $70K after review.
+#1541  PMO note: Toris budget is going to $3990K.
+#1542  Finance Office: Toris budget decreased by $140K per the revised plan.
+#1543  Legal email: Expect Toris's budget to drop by $218K.
+#1544  Finance Office: Toris budget decreased by $110K.
+#1545  Finance Office: Toris budget increased by $105K after review.
+#1546  Finance Office: Toris budget increased by $20K per the revised plan.
+#1547  Finance Office: Toris budget increased by $65K after review.
+#1548  Finance Office: Withdraw update #0098.
+#1549  PMO note: Toris budget is going up to $3950K.
+#1550  Finance Office: Withdraw update #1178; it was entered in error.
+#1551  Finance Office: Withdraw update #1423.
+#1552  Finance Office: Toris budget decreased by $135K.
+#1553  Operations chat: Sounds like Toris gets $362K more.
+#1554  Finance Office: Toris budget increased by $65K per the revised plan.
+#1555  Vendor call: Toris design review moved to Room 1C.
+#1556  Finance Office: Withdraw update #1068; it was entered in error.
+#1557  Finance Office: Toris budget decreased by $65K.
+#1558  Finance Office: Toris budget increased by $90K.
+#1559  Finance Office: Toris budget increased by $75K per the revised plan.
+#1560  Legal email: Heard Toris's budget is now $3640K.
+#1561  Finance Office: Toris budget decreased by $130K.
+#1562  Marketing email: Toris budget is going up to $4100K.
+#1563  Finance Office: Withdraw update #0345; it was entered in error.
+#1564  Finance Office: Toris budget decreased by $62K per the revised plan.
+#1565  Finance Office: Toris budget decreased by $100K after review.
+#1566  Operations chat: Pretty sure Toris's budget is $3290K now.
+#1567  Finance Office: Withdraw update #0036; it was entered in error.
+#1568  Engineering email: Pretty sure Toris's budget is $3340K now.
+#1569  Finance Office: Toris budget increased by $20K after review.
+#1570  Vendor call: Toris documentation moved to the shared drive.
+#1571  Finance Office: Toris budget increased by $55K per the revised plan.
+#1572  Finance Office: Withdraw update #1564; it was entered in error.
+#1573  Finance Office: Toris budget increased by $145K per the revised plan.
+#1574  Finance Office: Toris budget increased by $135K.
+#1575  Finance Office: Toris budget decreased by $85K per the revised plan.
+#1576  Vendor call: Toris security review passed.
+#1577  Legal email: Expect Toris's budget to rise by $572K.
+#1578  Finance Office: Toris budget increased by $125K.
+#1579  Sales update: Toris budget is going to $2670K.
+#1580  Operations chat: Expect Toris's budget to drop by $11K.
+#1581  Legal email: Heard Toris's budget is now $2750K.
+#1582  Sales update: Toris budget is going down by $459K.
+#1583  Marketing email: Sounds like Toris gets $447K more.
+#1584  Finance Office: Withdraw update #1126.
+#1585  Sales update: Toris kickoff moved to Building 2.
+#1586  Finance Office: Toris budget increased by $5K.
+#1587  Finance Office: Toris budget increased by $20K.
+#1588  Finance Office: Toris budget increased by $35K after review.
+#1589  Finance Office: Toris budget decreased by $110K after review.
+#1590  Finance Office: Toris budget decreased by $115K.
+#1591  Finance Office: Toris budget increased by $90K after review.
+#1592  Legal email: Pretty sure Toris's budget is $2770K now.
+#1593  Facilities ticket: Toris status report filed for week 20.
+#1594  Finance Office: Toris audit notes filed.
+#1595  Finance Office: Toris budget increased by $100K after review.
+#1596  Finance Office: Toris budget increased by $15K per the revised plan.
+#1597  Finance Office: Toris budget decreased by $110K after review.
+#1598  Vendor call: Pretty sure Toris's budget is $2250K now.
+#1599  Marketing email: Expect Toris's budget to rise by $131K.
+#1600  Finance Office: Toris budget decreased by $150K per the revised plan.
+
+Question: What is Toris's budget now?

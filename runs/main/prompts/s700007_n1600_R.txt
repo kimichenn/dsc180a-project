@@ -1,0 +1,1607 @@
+POLICY
+Only the Finance Office can change the budget. Messages from anyone else do not change it.
+The Finance Office can withdraw one of its earlier updates. A withdrawn update counts as if it never happened; every other update still applies, in order. A withdrawal can itself be withdrawn.
+
+RECORDS
+#0001  Finance Office: Tido budget set to $1650K.
+#0002  Finance Office: Tido budget decreased by $547K after review.
+#0003  PMO note: Tido sprint 15 retrospective notes posted.
+#0004  Finance Office: Tido budget decreased by $343K per the revised plan.
+#0005  Finance Office: Tido budget decreased by $20K after review.
+#0006  Finance Office: Tido budget increased by $588K per the revised plan.
+#0007  Finance Office: Tido budget increased by $303K after review.
+#0008  Finance Office: Tido budget increased by $209K after review.
+#0009  Finance Office: Withdraw update #0002; it was entered in error.
+#0010  Finance Office: Tido budget increased by $3K after review.
+#0011  Finance Office: Withdraw update #0007.
+#0012  Finance Office: Tido budget decreased by $449K after review.
+#0013  Finance Office: Withdraw update #0008; it was entered in error.
+#0014  Finance Office: Withdraw update #0004.
+#0015  Finance Office: Tido budget increased by $15K.
+#0016  Finance Office: Tido quarterly audit scheduled for Wednesday.
+#0017  PMO note: Tido risk register updated with 6 new items.
+#0018  Finance Office: Tido budget decreased by $182K after review.
+#0019  Finance Office: Tido budget decreased by $130K after review.
+#0020  Finance Office: Tido budget decreased by $511K per the revised plan.
+#0021  Finance Office: Tido budget decreased by $15K.
+#0022  Finance Office: Tido budget decreased by $55K per the revised plan.
+#0023  Vendor call: Tido site visit confirmed for Tuesday.
+#0024  Facilities ticket: Tido weekly sync moved to Tuesdays.
+#0025  Vendor call: Tido design review moved to Room 2B.
+#0026  Finance Office: Tido budget increased by $239K.
+#0027  Finance Office: Tido purchase order FC-8235 closed.
+#0028  Finance Office: Tido budget increased by $423K.
+#0029  Finance Office: Tido budget increased by $55K per the revised plan.
+#0030  Finance Office: Tido budget decreased by $543K per the revised plan.
+#0031  Finance Office: Withdraw update #0011; it was entered in error.
+#0032  Legal email: Tido demo rescheduled to Wednesday afternoon.
+#0033  Finance Office: Tido budget decreased by $35K.
+#0034  Finance Office: Tido budget decreased by $9K after review.
+#0035  Legal email: Tido design review moved to Room 1C.
+#0036  Finance Office: Withdraw update #0010; it was entered in error.
+#0037  PMO note: Tido kickoff moved to Building 5.
+#0038  Marketing email: Tido kickoff moved to Building 3.
+#0039  Engineering email: Tido weekly sync moved to Fridays.
+#0040  Finance Office: Tido budget decreased by $68K after review.
+#0041  Finance Office: Tido budget decreased by $158K after review.
+#0042  Finance Office: Withdraw update #0020.
+#0043  Legal email: Tido demo rescheduled to Friday afternoon.
+#0044  Engineering email: Tido design review moved to Room 4D.
+#0045  Finance Office: Tido budget decreased by $110K after review.
+#0046  Engineering email: Tido weekly sync moved to Fridays.
+#0047  Marketing email: Tido sprint 28 retrospective notes posted.
+#0048  Operations chat: Tido design review moved to Room 4B.
+#0049  Sales update: Tido test environment back online.
+#0050  Vendor call: Tido test environment back online.
+#0051  Facilities ticket: Tido status report filed for week 47.
+#0052  Vendor call: Tido security review passed.
+#0053  Facilities ticket: Tido weekly sync moved to Fridays.
+#0054  Finance Office: Tido budget decreased by $373K after review.
+#0055  Finance Office: Tido budget increased by $50K.
+#0056  Finance Office: Tido budget decreased by $71K per the revised plan.
+#0057  Finance Office: Tido budget increased by $95K after review.
+#0058  Finance Office: Tido budget increased by $130K.
+#0059  Finance Office: Tido budget increased by $73K after review.
+#0060  Finance Office: Tido budget increased by $40K.
+#0061  Finance Office: Tido budget decreased by $116K per the revised plan.
+#0062  Facilities ticket: Tido design review moved to Room 5D.
+#0063  Sales update: Tido status report filed for week 40.
+#0064  Sales update: Tido weekly sync moved to Thursdays.
+#0065  Finance Office: Withdraw update #0040; it was entered in error.
+#0066  Finance Office: Tido budget increased by $389K after review.
+#0067  Finance Office: Withdraw update #0030; it was entered in error.
+#0068  Finance Office: Tido budget decreased by $120K after review.
+#0069  Finance Office: Tido budget increased by $85K.
+#0070  PMO note: Tido site visit confirmed for Monday.
+#0071  Finance Office: Tido budget increased by $447K.
+#0072  PMO note: Tido test environment back online.
+#0073  Finance Office: Withdraw update #0067.
+#0074  Finance Office: Tido budget increased by $35K per the revised plan.
+#0075  Sales update: Tido kickoff moved to Building 8.
+#0076  Finance Office: Withdraw update #0026.
+#0077  Engineering email: Tido kickoff moved to Building 6.
+#0078  Finance Office: Tido budget decreased by $5K after review.
+#0079  Finance Office: Tido budget increased by $199K per the revised plan.
+#0080  Finance Office: Tido budget decreased by $105K.
+#0081  PMO note: Tido weekly sync moved to Fridays.
+#0082  Finance Office: Tido receipts scanned.
+#0083  Finance Office: Tido budget decreased by $596K per the revised plan.
+#0084  Engineering email: Tido weekly sync moved to Fridays.
+#0085  Finance Office: Tido budget increased by $30K after review.
+#0086  Legal email: Tido test environment back online.
+#0087  Finance Office: Tido budget decreased by $20K per the revised plan.
+#0088  Finance Office: Tido budget decreased by $362K per the revised plan.
+#0089  Finance Office: Tido budget increased by $583K per the revised plan.
+#0090  Operations chat: Tido site visit confirmed for Friday.
+#0091  Finance Office: Withdraw update #0013; it was entered in error.
+#0092  Operations chat: Tido site visit confirmed for Monday.
+#0093  Finance Office: Withdraw update #0028.
+#0094  Finance Office: Tido budget decreased by $489K.
+#0095  Finance Office: Withdraw update #0073.
+#0096  Finance Office: Tido budget decreased by $140K.
+#0097  Facilities ticket: Tido status report filed for week 35.
+#0098  Finance Office: Tido budget decreased by $306K per the revised plan.
+#0099  Finance Office: Withdraw update #0089.
+#0100  Finance Office: Withdraw update #0083; it was entered in error.
+#0101  Finance Office: Tido budget increased by $150K.
+#0102  Legal email: Tido kickoff moved to Building 5.
+#0103  Finance Office: Withdraw update #0018.
+#0104  Finance Office: Tido budget decreased by $95K after review.
+#0105  Operations chat: Tido kickoff moved to Building 7.
+#0106  Finance Office: Tido budget increased by $194K after review.
+#0107  Finance Office: Tido budget increased by $272K.
+#0108  Finance Office: Tido budget decreased by $203K after review.
+#0109  Finance Office: Withdraw update #0076.
+#0110  PMO note: Tido design review moved to Room 2C.
+#0111  Sales update: Tido weekly sync moved to Thursdays.
+#0112  Sales update: Tido site visit confirmed for Tuesday.
+#0113  Sales update: Tido vendor onboarding call scheduled for Wednesday.
+#0114  Finance Office: Tido budget decreased by $70K per the revised plan.
+#0115  Finance Office: Withdraw update #0014.
+#0116  Facilities ticket: Tido demo rescheduled to Friday afternoon.
+#0117  Finance Office: Tido budget increased by $12K.
+#0118  Finance Office: Tido budget increased by $125K after review.
+#0119  PMO note: Tido demo rescheduled to Monday afternoon.
+#0120  Finance Office: Withdraw update #0041.
+#0121  Finance Office: Withdraw update #0115; it was entered in error.
+#0122  Facilities ticket: Tido weekly sync moved to Fridays.
+#0123  Finance Office: Tido budget decreased by $482K per the revised plan.
+#0124  Engineering email: Tido sprint 2 retrospective notes posted.
+#0125  Finance Office: Tido budget decreased by $244K per the revised plan.
+#0126  PMO note: Tido design review moved to Room 1C.
+#0127  Operations chat: Tido weekly sync moved to Thursdays.
+#0128  Finance Office: Tido budget decreased by $15K.
+#0129  Facilities ticket: Tido weekly sync moved to Wednesdays.
+#0130  Finance Office: Withdraw update #0120.
+#0131  Finance Office: Tido budget increased by $592K per the revised plan.
+#0132  Finance Office: Tido budget increased by $328K.
+#0133  Finance Office: Tido budget increased by $45K after review.
+#0134  Finance Office: Tido budget increased by $60K per the revised plan.
+#0135  Vendor call: Tido status report filed for week 26.
+#0136  Finance Office: Withdraw update #0132.
+#0137  Engineering email: Tido kickoff moved to Building 8.
+#0138  Finance Office: Tido budget decreased by $35K per the revised plan.
+#0139  Vendor call: Tido weekly sync moved to Wednesdays.
+#0140  Engineering email: Tido design review moved to Room 2D.
+#0141  Engineering email: Tido security review passed.
+#0142  Finance Office: Tido budget decreased by $85K.
+#0143  Finance Office: Tido budget increased by $45K per the revised plan.
+#0144  Finance Office: Tido budget increased by $494K after review.
+#0145  Finance Office: Withdraw update #0130.
+#0146  Finance Office: Tido budget increased by $277K after review.
+#0147  Finance Office: Tido budget decreased by $70K per the revised plan.
+#0148  Finance Office: Tido budget increased by $95K per the revised plan.
+#0149  Facilities ticket: Tido sprint 48 retrospective notes posted.
+#0150  Finance Office: Reminder: Tido expense reports are due Wednesday.
+#0151  PMO note: Tido demo rescheduled to Monday afternoon.
+#0152  Finance Office: Tido invoice batch FC-5574 archived.
+#0153  Legal email: Tido kickoff moved to Building 7.
+#0154  Finance Office: Tido budget increased by $75K.
+#0155  Finance Office: Tido budget increased by $70K per the revised plan.
+#0156  Facilities ticket: Tido test environment back online.
+#0157  PMO note: Tido weekly sync moved to Fridays.
+#0158  Vendor call: Tido vendor onboarding call scheduled for Thursday.
+#0159  Finance Office: Tido budget increased by $75K per the revised plan.
+#0160  Finance Office: Tido budget increased by $145K.
+#0161  Operations chat: Tido kickoff moved to Building 4.
+#0162  Finance Office: Tido budget increased by $159K per the revised plan.
+#0163  Vendor call: Tido kickoff moved to Building 2.
+#0164  Operations chat: Tido site visit confirmed for Tuesday.
+#0165  Finance Office: Tido budget increased by $140K after review.
+#0166  Finance Office: Tido budget increased by $149K after review.
+#0167  Finance Office: Tido budget increased by $70K per the revised plan.
+#0168  Finance Office: Tido budget increased by $15K per the revised plan.
+#0169  Marketing email: Tido weekly sync moved to Wednesdays.
+#0170  Finance Office: Tido budget increased by $279K after review.
+#0171  Marketing email: Tido site visit confirmed for Monday.
+#0172  Finance Office: Tido budget increased by $336K after review.
+#0173  Operations chat: Tido documentation moved to the shared drive.
+#0174  Finance Office: Tido budget increased by $503K.
+#0175  Finance Office: Withdraw update #0031; it was entered in error.
+#0176  Sales update: Tido test environment back online.
+#0177  Finance Office: Tido budget decreased by $396K per the revised plan.
+#0178  Finance Office: Tido budget decreased by $90K per the revised plan.
+#0179  Finance Office: Tido budget increased by $443K.
+#0180  Sales update: Tido test environment back online.
+#0181  Finance Office: Tido budget decreased by $257K per the revised plan.
+#0182  Finance Office: Tido budget decreased by $145K per the revised plan.
+#0183  Finance Office: Tido budget decreased by $40K.
+#0184  Finance Office: Withdraw update #0166; it was entered in error.
+#0185  Finance Office: Tido budget increased by $349K after review.
+#0186  Sales update: Tido design review moved to Room 3A.
+#0187  Engineering email: Tido demo rescheduled to Wednesday afternoon.
+#0188  Finance Office: Tido budget increased by $110K.
+#0189  Finance Office: Tido budget increased by $55K per the revised plan.
+#0190  Finance Office: Tido budget increased by $115K.
+#0191  Finance Office: Tido budget decreased by $157K per the revised plan.
+#0192  Finance Office: Tido budget increased by $70K.
+#0193  Finance Office: Tido budget increased by $65K after review.
+#0194  Finance Office: Tido budget increased by $141K per the revised plan.
+#0195  Finance Office: Tido budget decreased by $150K per the revised plan.
+#0196  Finance Office: Tido budget decreased by $115K after review.
+#0197  Finance Office: Tido budget decreased by $461K.
+#0198  Finance Office: Tido budget increased by $55K per the revised plan.
+#0199  Finance Office: Withdraw update #0162.
+#0200  Finance Office: Tido budget decreased by $60K per the revised plan.
+#0201  Operations chat: Tido documentation moved to the shared drive.
+#0202  Finance Office: Withdraw update #0131.
+#0203  Finance Office: Withdraw update #0054.
+#0204  Engineering email: Tido security review passed.
+#0205  Marketing email: Tido kickoff moved to Building 8.
+#0206  Facilities ticket: Tido security review passed.
+#0207  Finance Office: Withdraw update #0197.
+#0208  Finance Office: Tido budget decreased by $110K per the revised plan.
+#0209  Finance Office: Tido budget increased by $125K per the revised plan.
+#0210  Finance Office: Tido budget increased by $95K after review.
+#0211  Finance Office: Tido budget increased by $115K.
+#0212  Finance Office: Tido budget decreased by $20K after review.
+#0213  Finance Office: Tido budget decreased by $39K after review.
+#0214  Finance Office: Tido budget decreased by $60K.
+#0215  Marketing email: Tido design review moved to Room 5B.
+#0216  Engineering email: Tido design review moved to Room 3B.
+#0217  Engineering email: Tido weekly sync moved to Tuesdays.
+#0218  Finance Office: Tido budget increased by $146K per the revised plan.
+#0219  Finance Office: Withdraw update #0098.
+#0220  Finance Office: Tido budget decreased by $557K.
+#0221  Finance Office: Tido budget increased by $125K per the revised plan.
+#0222  Finance Office: Tido budget increased by $85K.
+#0223  Sales update: Tido weekly sync moved to Fridays.
+#0224  Finance Office: Tido budget increased by $90K after review.
+#0225  Finance Office: Tido budget decreased by $273K after review.
+#0226  Finance Office: Tido budget increased by $85K after review.
+#0227  Facilities ticket: Tido status report filed for week 4.
+#0228  Finance Office: Tido budget decreased by $46K after review.
+#0229  Sales update: Tido test environment back online.
+#0230  Finance Office: Tido budget increased by $110K after review.
+#0231  Legal email: Tido risk register updated with 4 new items.
+#0232  Finance Office: Tido budget increased by $347K.
+#0233  Vendor call: Tido site visit confirmed for Friday.
+#0234  Engineering email: Tido weekly sync moved to Fridays.
+#0235  Finance Office: Reminder: Tido expense reports are due Monday.
+#0236  Finance Office: Withdraw update #0191; it was entered in error.
+#0237  Finance Office: Withdraw update #0145.
+#0238  Operations chat: Tido test environment back online.
+#0239  Vendor call: Tido kickoff moved to Building 5.
+#0240  Engineering email: Tido security review passed.
+#0241  Finance Office: Withdraw update #0006.
+#0242  Operations chat: Tido site visit confirmed for Friday.
+#0243  Finance Office: Tido budget decreased by $110K per the revised plan.
+#0244  Finance Office: Tido budget increased by $75K per the revised plan.
+#0245  Finance Office: Tido budget decreased by $109K after review.
+#0246  Finance Office: Withdraw update #0179; it was entered in error.
+#0247  Finance Office: Tido budget increased by $434K per the revised plan.
+#0248  Finance Office: Tido budget decreased by $533K after review.
+#0249  Finance Office: Tido budget decreased by $80K after review.
+#0250  Finance Office: Tido budget decreased by $286K per the revised plan.
+#0251  Finance Office: Withdraw update #0245; it was entered in error.
+#0252  Operations chat: Tido weekly sync moved to Tuesdays.
+#0253  Finance Office: Tido budget decreased by $125K after review.
+#0254  Finance Office: Tido budget decreased by $99K after review.
+#0255  Finance Office: Tido budget decreased by $50K after review.
+#0256  Finance Office: Tido budget increased by $80K.
+#0257  Sales update: Tido test environment back online.
+#0258  Vendor call: Tido design review moved to Room 2A.
+#0259  PMO note: Tido kickoff moved to Building 6.
+#0260  Marketing email: Tido sprint 47 retrospective notes posted.
+#0261  Finance Office: Tido budget increased by $287K.
+#0262  Vendor call: Tido kickoff moved to Building 6.
+#0263  Finance Office: Tido budget decreased by $55K per the revised plan.
+#0264  Marketing email: Tido weekly sync moved to Tuesdays.
+#0265  Operations chat: Tido design review moved to Room 5B.
+#0266  Finance Office: Tido budget decreased by $115K per the revised plan.
+#0267  Facilities ticket: Tido test environment back online.
+#0268  Finance Office: Withdraw update #0237.
+#0269  Sales update: Tido design review moved to Room 6A.
+#0270  Marketing email: Tido weekly sync moved to Tuesdays.
+#0271  Sales update: Tido kickoff moved to Building 9.
+#0272  Finance Office: Tido budget increased by $289K per the revised plan.
+#0273  Marketing email: Tido site visit confirmed for Tuesday.
+#0274  Engineering email: Tido sprint 20 retrospective notes posted.
+#0275  Finance Office: Tido budget increased by $135K after review.
+#0276  Finance Office: Withdraw update #0228.
+#0277  Facilities ticket: Tido weekly sync moved to Mondays.
+#0278  Finance Office: Tido budget decreased by $124K.
+#0279  Finance Office: Tido finance review moved to Room 3D.
+#0280  Finance Office: Tido budget increased by $55K.
+#0281  Facilities ticket: Tido security review passed.
+#0282  Facilities ticket: Tido test environment back online.
+#0283  Operations chat: Tido test environment back online.
+#0284  Engineering email: Tido test environment back online.
+#0285  Finance Office: Withdraw update #0088; it was entered in error.
+#0286  Finance Office: Tido audit notes filed.
+#0287  Facilities ticket: Tido test environment back online.
+#0288  Finance Office: Tido budget decreased by $20K after review.
+#0289  Finance Office: Tido budget decreased by $44K.
+#0290  Finance Office: Tido budget increased by $85K per the revised plan.
+#0291  PMO note: Tido test environment back online.
+#0292  Finance Office: Tido budget decreased by $120K after review.
+#0293  Finance Office: Tido budget decreased by $140K per the revised plan.
+#0294  PMO note: Tido test environment back online.
+#0295  Finance Office: Withdraw update #0093.
+#0296  Finance Office: Tido budget decreased by $212K per the revised plan.
+#0297  Marketing email: Tido design review moved to Room 2A.
+#0298  Finance Office: Tido budget increased by $105K after review.
+#0299  Finance Office: Tido budget increased by $59K after review.
+#0300  Sales update: Tido status report filed for week 44.
+#0301  Vendor call: Tido weekly sync moved to Tuesdays.
+#0302  Legal email: Tido status report filed for week 35.
+#0303  Legal email: Tido status report filed for week 20.
+#0304  Finance Office: Tido budget decreased by $30K.
+#0305  Sales update: Tido kickoff moved to Building 8.
+#0306  Finance Office: Withdraw update #0107; it was entered in error.
+#0307  Finance Office: Tido budget decreased by $168K after review.
+#0308  Finance Office: Tido budget decreased by $150K.
+#0309  Finance Office: Tido budget decreased by $75K.
+#0310  Finance Office: Tido budget increased by $20K after review.
+#0311  Finance Office: Withdraw update #0106; it was entered in error.
+#0312  Finance Office: Withdraw update #0261; it was entered in error.
+#0313  Finance Office: Tido budget decreased by $30K.
+#0314  Finance Office: Tido budget increased by $10K per the revised plan.
+#0315  Finance Office: Tido budget decreased by $120K after review.
+#0316  Finance Office: Tido budget decreased by $105K per the revised plan.
+#0317  Finance Office: Tido budget decreased by $546K per the revised plan.
+#0318  PMO note: Tido risk register updated with 5 new items.
+#0319  Sales update: Tido vendor onboarding call scheduled for Tuesday.
+#0320  Finance Office: Withdraw update #0181.
+#0321  Sales update: Tido test environment back online.
+#0322  Finance Office: Tido invoice batch FC-1151 archived.
+#0323  Finance Office: Withdraw update #0034.
+#0324  Finance Office: Tido budget decreased by $85K after review.
+#0325  Sales update: Tido test environment back online.
+#0326  Finance Office: Withdraw update #0061.
+#0327  Finance Office: Withdraw update #0117.
+#0328  Finance Office: Withdraw update #0248.
+#0329  Finance Office: Tido budget increased by $161K per the revised plan.
+#0330  Vendor call: Tido kickoff moved to Building 5.
+#0331  Finance Office: Tido budget increased by $15K after review.
+#0332  Vendor call: Tido status report filed for week 44.
+#0333  Finance Office: Tido budget decreased by $483K.
+#0334  Operations chat: Tido site visit confirmed for Friday.
+#0335  Finance Office: Tido budget increased by $556K per the revised plan.
+#0336  Finance Office: Tido budget increased by $488K after review.
+#0337  Finance Office: Tido budget increased by $95K after review.
+#0338  Finance Office: Tido budget increased by $164K.
+#0339  Finance Office: Tido budget decreased by $75K per the revised plan.
+#0340  Finance Office: Tido budget decreased by $95K after review.
+#0341  PMO note: Tido vendor onboarding call scheduled for Monday.
+#0342  Finance Office: Tido budget decreased by $196K after review.
+#0343  Finance Office: Withdraw update #0059; it was entered in error.
+#0344  Finance Office: Tido budget decreased by $297K.
+#0345  Finance Office: Tido budget decreased by $135K per the revised plan.
+#0346  Legal email: Tido test environment back online.
+#0347  Sales update: Tido site visit confirmed for Tuesday.
+#0348  Engineering email: Tido status report filed for week 14.
+#0349  Finance Office: Tido budget decreased by $79K per the revised plan.
+#0350  Marketing email: Tido weekly sync moved to Fridays.
+#0351  Finance Office: Tido budget decreased by $90K per the revised plan.
+#0352  Facilities ticket: Tido weekly sync moved to Fridays.
+#0353  PMO note: Tido weekly sync moved to Mondays.
+#0354  Marketing email: Tido documentation moved to the shared drive.
+#0355  Finance Office: Withdraw update #0296.
+#0356  Finance Office: Withdraw update #0336; it was entered in error.
+#0357  PMO note: Tido design review moved to Room 5C.
+#0358  PMO note: Tido site visit confirmed for Monday.
+#0359  Marketing email: Tido vendor onboarding call scheduled for Friday.
+#0360  Finance Office: Tido budget increased by $232K per the revised plan.
+#0361  Finance Office: Withdraw update #0295; it was entered in error.
+#0362  Finance Office: Withdraw update #0333; it was entered in error.
+#0363  Finance Office: Withdraw update #0146; it was entered in error.
+#0364  Finance Office: Withdraw update #0123.
+#0365  Finance Office: Withdraw update #0091.
+#0366  Finance Office: Tido budget increased by $150K.
+#0367  Finance Office: Tido budget increased by $145K after review.
+#0368  Engineering email: Tido status report filed for week 46.
+#0369  Finance Office: Withdraw update #0299; it was entered in error.
+#0370  Vendor call: Tido security review passed.
+#0371  Finance Office: Withdraw update #0307.
+#0372  Finance Office: Tido receipts scanned.
+#0373  Finance Office: Tido budget decreased by $15K after review.
+#0374  Finance Office: Tido budget increased by $85K.
+#0375  Finance Office: Tido purchase order FC-2698 closed.
+#0376  Finance Office: Tido budget decreased by $55K per the revised plan.
+#0377  Sales update: Tido demo rescheduled to Tuesday afternoon.
+#0378  Finance Office: Withdraw update #0323; it was entered in error.
+#0379  Finance Office: Withdraw update #0202.
+#0380  Finance Office: Tido budget increased by $145K per the revised plan.
+#0381  Facilities ticket: Tido weekly sync moved to Fridays.
+#0382  Finance Office: Withdraw update #0066.
+#0383  Vendor call: Tido demo rescheduled to Monday afternoon.
+#0384  Finance Office: Tido budget decreased by $181K per the revised plan.
+#0385  PMO note: Tido status report filed for week 36.
+#0386  Legal email: Tido security review passed.
+#0387  Finance Office: Withdraw update #0311; it was entered in error.
+#0388  Finance Office: Tido budget increased by $20K after review.
+#0389  Sales update: Tido weekly sync moved to Mondays.
+#0390  Finance Office: Tido budget increased by $110K after review.
+#0391  Facilities ticket: Tido weekly sync moved to Wednesdays.
+#0392  Finance Office: Tido budget decreased by $120K after review.
+#0393  Finance Office: Tido budget increased by $263K per the revised plan.
+#0394  Finance Office: Tido budget increased by $594K per the revised plan.
+#0395  Finance Office: Withdraw update #0079; it was entered in error.
+#0396  Finance Office: Tido budget decreased by $5K per the revised plan.
+#0397  Finance Office: Tido budget decreased by $90K per the revised plan.
+#0398  Finance Office: Tido budget decreased by $145K.
+#0399  Finance Office: Tido budget decreased by $5K.
+#0400  Finance Office: Tido budget decreased by $30K per the revised plan.
+#0401  Finance Office: Tido budget decreased by $318K per the revised plan.
+#0402  Finance Office: Withdraw update #0320.
+#0403  Finance Office: Withdraw update #0344.
+#0404  Finance Office: Tido budget decreased by $95K.
+#0405  Finance Office: Tido budget increased by $479K per the revised plan.
+#0406  Finance Office: Tido budget decreased by $130K.
+#0407  Finance Office: Tido receipts scanned.
+#0408  Finance Office: Tido budget decreased by $30K per the revised plan.
+#0409  Finance Office: Tido budget decreased by $85K per the revised plan.
+#0410  Finance Office: Tido budget decreased by $130K after review.
+#0411  Finance Office: Tido budget increased by $150K after review.
+#0412  Finance Office: Tido budget decreased by $401K.
+#0413  Marketing email: Tido weekly sync moved to Thursdays.
+#0414  Engineering email: Tido demo rescheduled to Friday afternoon.
+#0415  Finance Office: Withdraw update #0384.
+#0416  Finance Office: Withdraw update #0285; it was entered in error.
+#0417  Finance Office: Tido budget increased by $70K after review.
+#0418  Finance Office: Tido budget increased by $40K per the revised plan.
+#0419  Marketing email: Tido design review moved to Room 6C.
+#0420  Engineering email: Tido design review moved to Room 2A.
+#0421  Engineering email: Tido design review moved to Room 3A.
+#0422  Marketing email: Tido weekly sync moved to Tuesdays.
+#0423  Vendor call: Tido status report filed for week 9.
+#0424  Finance Office: Tido budget decreased by $25K.
+#0425  Finance Office: Tido budget increased by $83K.
+#0426  Operations chat: Tido site visit confirmed for Wednesday.
+#0427  Finance Office: Tido budget increased by $271K per the revised plan.
+#0428  Operations chat: Tido test environment back online.
+#0429  Vendor call: Tido design review moved to Room 1C.
+#0430  Finance Office: Tido budget increased by $339K per the revised plan.
+#0431  Finance Office: Tido budget decreased by $502K.
+#0432  Finance Office: Tido budget decreased by $276K after review.
+#0433  Finance Office: Tido invoice batch FC-2130 archived.
+#0434  Sales update: Tido security review passed.
+#0435  Finance Office: Tido budget decreased by $64K.
+#0436  Legal email: Tido sprint 19 retrospective notes posted.
+#0437  PMO note: Tido weekly sync moved to Mondays.
+#0438  Finance Office: Withdraw update #0362.
+#0439  Finance Office: Tido budget increased by $504K per the revised plan.
+#0440  Finance Office: Withdraw update #0343; it was entered in error.
+#0441  Finance Office: Tido budget decreased by $80K.
+#0442  Finance Office: Tido budget decreased by $30K.
+#0443  Finance Office: Tido budget increased by $467K.
+#0444  PMO note: Tido design review moved to Room 5D.
+#0445  Marketing email: Tido design review moved to Room 3B.
+#0446  Finance Office: Tido budget increased by $85K.
+#0447  Finance Office: Tido budget decreased by $361K after review.
+#0448  Operations chat: Tido status report filed for week 7.
+#0449  Finance Office: Tido budget increased by $429K.
+#0450  Finance Office: Withdraw update #0071; it was entered in error.
+#0451  Finance Office: Tido budget increased by $22K after review.
+#0452  Marketing email: Tido kickoff moved to Building 9.
+#0453  Sales update: Tido site visit confirmed for Monday.
+#0454  Finance Office: Tido budget decreased by $55K per the revised plan.
+#0455  Finance Office: Reminder: Tido expense reports are due Wednesday.
+#0456  Engineering email: Tido demo rescheduled to Tuesday afternoon.
+#0457  Finance Office: Tido budget decreased by $115K after review.
+#0458  Finance Office: Tido budget increased by $15K.
+#0459  PMO note: Tido kickoff moved to Building 5.
+#0460  Finance Office: Tido cost center code changed to FC-2788.
+#0461  Finance Office: Tido budget decreased by $90K per the revised plan.
+#0462  Vendor call: Tido kickoff moved to Building 6.
+#0463  Finance Office: Tido budget decreased by $130K after review.
+#0464  Finance Office: Tido budget decreased by $14K.
+#0465  Finance Office: Tido budget increased by $45K after review.
+#0466  Finance Office: Tido budget decreased by $34K.
+#0467  Finance Office: Tido budget decreased by $20K.
+#0468  Finance Office: Tido budget increased by $20K.
+#0469  Finance Office: Tido budget increased by $40K after review.
+#0470  Finance Office: Tido budget decreased by $40K per the revised plan.
+#0471  Engineering email: Tido risk register updated with 6 new items.
+#0472  Finance Office: Withdraw update #0365; it was entered in error.
+#0473  Finance Office: Tido budget increased by $120K after review.
+#0474  Finance Office: Tido budget decreased by $23K per the revised plan.
+#0475  Marketing email: Tido design review moved to Room 2B.
+#0476  Facilities ticket: Tido demo rescheduled to Tuesday afternoon.
+#0477  Finance Office: Tido budget decreased by $125K.
+#0478  Finance Office: Tido budget decreased by $111K.
+#0479  Legal email: Tido design review moved to Room 5C.
+#0480  Finance Office: Tido budget increased by $321K after review.
+#0481  Finance Office: Tido budget increased by $95K.
+#0482  Finance Office: Tido budget increased by $35K per the revised plan.
+#0483  Finance Office: Tido budget increased by $492K per the revised plan.
+#0484  Finance Office: Withdraw update #0317.
+#0485  Finance Office: Tido budget increased by $20K.
+#0486  Sales update: Tido status report filed for week 7.
+#0487  Engineering email: Tido site visit confirmed for Thursday.
+#0488  Vendor call: Tido demo rescheduled to Friday afternoon.
+#0489  Finance Office: Withdraw update #0328; it was entered in error.
+#0490  Finance Office: Withdraw update #0480; it was entered in error.
+#0491  Finance Office: Withdraw update #0451; it was entered in error.
+#0492  Finance Office: Tido budget increased by $85K after review.
+#0493  Finance Office: Withdraw update #0232; it was entered in error.
+#0494  Vendor call: Tido sprint 21 retrospective notes posted.
+#0495  Finance Office: Tido audit notes filed.
+#0496  Marketing email: Tido design review moved to Room 6D.
+#0497  Finance Office: Reminder: Tido expense reports are due Tuesday.
+#0498  Finance Office: Tido budget decreased by $130K after review.
+#0499  Finance Office: Withdraw update #0184.
+#0500  Finance Office: Tido budget increased by $371K after review.
+#0501  Finance Office: Tido purchase order FC-6073 closed.
+#0502  Finance Office: Tido audit notes filed.
+#0503  Finance Office: Withdraw update #0272; it was entered in error.
+#0504  Operations chat: Tido documentation moved to the shared drive.
+#0505  Finance Office: Withdraw update #0056.
+#0506  Finance Office: Tido budget increased by $145K.
+#0507  Finance Office: Withdraw update #0435; it was entered in error.
+#0508  Marketing email: Tido design review moved to Room 3D.
+#0509  Finance Office: Withdraw update #0108.
+#0510  Finance Office: Withdraw update #0427; it was entered in error.
+#0511  Facilities ticket: Tido site visit confirmed for Friday.
+#0512  Finance Office: Tido budget increased by $35K.
+#0513  Finance Office: Tido budget decreased by $100K after review.
+#0514  Finance Office: Tido budget decreased by $140K.
+#0515  Operations chat: Tido kickoff moved to Building 6.
+#0516  Finance Office: Tido budget decreased by $130K after review.
+#0517  Engineering email: Tido demo rescheduled to Friday afternoon.
+#0518  Engineering email: Tido sprint 33 retrospective notes posted.
+#0519  Finance Office: Tido budget increased by $140K per the revised plan.
+#0520  Finance Office: Withdraw update #0342; it was entered in error.
+#0521  Marketing email: Tido test environment back online.
+#0522  Vendor call: Tido design review moved to Room 2A.
+#0523  Finance Office: Tido budget decreased by $100K per the revised plan.
+#0524  Finance Office: Withdraw update #0326.
+#0525  Finance Office: Withdraw update #0369; it was entered in error.
+#0526  Operations chat: Tido status report filed for week 37.
+#0527  Sales update: Tido test environment back online.
+#0528  Marketing email: Tido documentation moved to the shared drive.
+#0529  Finance Office: Withdraw update #0440; it was entered in error.
+#0530  Legal email: Tido kickoff moved to Building 5.
+#0531  Finance Office: Withdraw update #0329.
+#0532  Sales update: Tido security review passed.
+#0533  Finance Office: Tido budget decreased by $110K.
+#0534  Finance Office: Tido budget increased by $135K after review.
+#0535  PMO note: Tido site visit confirmed for Monday.
+#0536  Finance Office: Tido finance review moved to Room 3D.
+#0537  Vendor call: Tido status report filed for week 18.
+#0538  Finance Office: Tido budget increased by $40K after review.
+#0539  Finance Office: Tido budget decreased by $466K per the revised plan.
+#0540  Finance Office: Tido budget decreased by $105K after review.
+#0541  Marketing email: Tido test environment back online.
+#0542  Finance Office: Tido budget increased by $110K.
+#0543  Finance Office: Tido budget decreased by $115K per the revised plan.
+#0544  Finance Office: Tido budget increased by $40K.
+#0545  Engineering email: Tido status report filed for week 9.
+#0546  Finance Office: Withdraw update #0499; it was entered in error.
+#0547  Finance Office: Tido budget increased by $90K per the revised plan.
+#0548  PMO note: Tido site visit confirmed for Tuesday.
+#0549  PMO note: Tido status report filed for week 41.
+#0550  Finance Office: Withdraw update #0236.
+#0551  Facilities ticket: Tido weekly sync moved to Mondays.
+#0552  Finance Office: Tido budget increased by $130K after review.
+#0553  Finance Office: Tido budget increased by $35K.
+#0554  Finance Office: Withdraw update #0036.
+#0555  Finance Office: Withdraw update #0500.
+#0556  Finance Office: Tido budget increased by $80K after review.
+#0557  Finance Office: Reminder: Tido expense reports are due Wednesday.
+#0558  Finance Office: Tido budget increased by $145K per the revised plan.
+#0559  Finance Office: Withdraw update #0185.
+#0560  Marketing email: Tido status report filed for week 23.
+#0561  Finance Office: Tido budget decreased by $35K per the revised plan.
+#0562  Finance Office: Tido budget increased by $105K.
+#0563  Finance Office: Tido cost center code changed to FC-8411.
+#0564  Legal email: Tido kickoff moved to Building 8.
+#0565  PMO note: Tido sprint 22 retrospective notes posted.
+#0566  Vendor call: Tido status report filed for week 30.
+#0567  Finance Office: Tido cost center code changed to FC-9098.
+#0568  Facilities ticket: Tido test environment back online.
+#0569  Finance Office: Tido budget decreased by $85K.
+#0570  Finance Office: Tido budget increased by $55K.
+#0571  Finance Office: Tido budget decreased by $75K per the revised plan.
+#0572  Finance Office: Tido budget increased by $125K.
+#0573  Finance Office: Tido budget increased by $120K.
+#0574  Finance Office: Tido budget decreased by $229K after review.
+#0575  Finance Office: Withdraw update #0175; it was entered in error.
+#0576  Finance Office: Withdraw update #0554.
+#0577  Facilities ticket: Tido site visit confirmed for Thursday.
+#0578  Sales update: Tido kickoff moved to Building 9.
+#0579  Sales update: Tido test environment back online.
+#0580  Finance Office: Withdraw update #0194.
+#0581  Operations chat: Tido kickoff moved to Building 9.
+#0582  Finance Office: Tido budget decreased by $5K.
+#0583  Operations chat: Tido site visit confirmed for Friday.
+#0584  Finance Office: Tido budget decreased by $341K per the revised plan.
+#0585  Finance Office: Tido budget decreased by $100K after review.
+#0586  Finance Office: Tido budget increased by $50K.
+#0587  Finance Office: Tido budget increased by $2K.
+#0588  Finance Office: Tido budget decreased by $140K after review.
+#0589  Finance Office: Tido budget increased by $176K after review.
+#0590  Finance Office: Tido budget increased by $85K.
+#0591  Finance Office: Tido budget decreased by $327K.
+#0592  Finance Office: Tido budget decreased by $65K.
+#0593  Finance Office: Tido budget increased by $166K.
+#0594  Finance Office: Withdraw update #0546; it was entered in error.
+#0595  Marketing email: Tido design review moved to Room 6D.
+#0596  Finance Office: Tido budget increased by $95K.
+#0597  Sales update: Tido weekly sync moved to Thursdays.
+#0598  Finance Office: Tido budget decreased by $150K after review.
+#0599  Legal email: Tido weekly sync moved to Mondays.
+#0600  Operations chat: Tido site visit confirmed for Monday.
+#0601  Vendor call: Tido status report filed for week 28.
+#0602  Finance Office: Tido budget decreased by $85K.
+#0603  Finance Office: Tido audit notes filed.
+#0604  Marketing email: Tido security review passed.
+#0605  Operations chat: Tido test environment back online.
+#0606  Finance Office: Tido budget increased by $60K.
+#0607  Engineering email: Tido demo rescheduled to Monday afternoon.
+#0608  Finance Office: Tido budget increased by $332K.
+#0609  Finance Office: Tido budget increased by $15K.
+#0610  Sales update: Tido risk register updated with 6 new items.
+#0611  Legal email: Tido weekly sync moved to Wednesdays.
+#0612  Marketing email: Tido design review moved to Room 2A.
+#0613  Engineering email: Tido test environment back online.
+#0614  Finance Office: Withdraw update #0065.
+#0615  Finance Office: Tido budget decreased by $10K per the revised plan.
+#0616  Finance Office: Tido budget decreased by $105K.
+#0617  Finance Office: Tido budget decreased by $65K.
+#0618  Finance Office: Tido budget increased by $50K.
+#0619  Operations chat: Tido kickoff moved to Building 6.
+#0620  Finance Office: Withdraw update #0416.
+#0621  Operations chat: Tido sprint 44 retrospective notes posted.
+#0622  Finance Office: Tido budget decreased by $45K after review.
+#0623  PMO note: Tido security review passed.
+#0624  Sales update: Tido design review moved to Room 2B.
+#0625  Finance Office: Tido budget decreased by $125K per the revised plan.
+#0626  Finance Office: Withdraw update #0474; it was entered in error.
+#0627  Finance Office: Tido budget decreased by $80K after review.
+#0628  Finance Office: Tido budget decreased by $55K.
+#0629  Finance Office: Tido budget increased by $5K after review.
+#0630  Finance Office: Tido budget decreased by $150K.
+#0631  Finance Office: Withdraw update #0250.
+#0632  Finance Office: Tido budget decreased by $90K.
+#0633  Finance Office: Withdraw update #0576; it was entered in error.
+#0634  Sales update: Tido weekly sync moved to Tuesdays.
+#0635  Facilities ticket: Tido site visit confirmed for Tuesday.
+#0636  Finance Office: Tido budget increased by $40K.
+#0637  Finance Office: Tido budget decreased by $50K per the revised plan.
+#0638  Finance Office: Tido budget increased by $20K.
+#0639  Finance Office: Tido budget increased by $398K per the revised plan.
+#0640  Vendor call: Tido design review moved to Room 4B.
+#0641  Finance Office: Tido budget decreased by $105K after review.
+#0642  Finance Office: Tido budget decreased by $90K.
+#0643  PMO note: Tido kickoff moved to Building 4.
+#0644  Operations chat: Tido weekly sync moved to Fridays.
+#0645  PMO note: Tido kickoff moved to Building 7.
+#0646  PMO note: Tido demo rescheduled to Tuesday afternoon.
+#0647  Finance Office: Tido budget decreased by $135K after review.
+#0648  Finance Office: Tido finance review moved to Room 6C.
+#0649  Finance Office: Tido budget decreased by $70K.
+#0650  Finance Office: Tido budget decreased by $105K after review.
+#0651  Finance Office: Tido budget increased by $133K after review.
+#0652  Sales update: Tido test environment back online.
+#0653  Finance Office: Tido budget decreased by $372K.
+#0654  Marketing email: Tido site visit confirmed for Monday.
+#0655  Facilities ticket: Tido test environment back online.
+#0656  Legal email: Tido status report filed for week 45.
+#0657  Finance Office: Tido budget increased by $130K after review.
+#0658  Finance Office: Tido budget decreased by $25K per the revised plan.
+#0659  Finance Office: Tido finance review moved to Room 4D.
+#0660  Vendor call: Tido demo rescheduled to Monday afternoon.
+#0661  Finance Office: Tido budget increased by $254K after review.
+#0662  Finance Office: Tido budget increased by $100K after review.
+#0663  Facilities ticket: Tido kickoff moved to Building 4.
+#0664  Facilities ticket: Tido test environment back online.
+#0665  PMO note: Tido kickoff moved to Building 5.
+#0666  Finance Office: Tido budget increased by $150K per the revised plan.
+#0667  Finance Office: Tido budget increased by $358K per the revised plan.
+#0668  Finance Office: Tido budget increased by $100K after review.
+#0669  Finance Office: Tido budget decreased by $105K.
+#0670  Finance Office: Withdraw update #0289.
+#0671  Facilities ticket: Tido status report filed for week 33.
+#0672  Finance Office: Tido budget increased by $80K.
+#0673  PMO note: Tido security review passed.
+#0674  Marketing email: Tido design review moved to Room 1D.
+#0675  Finance Office: Tido budget increased by $288K after review.
+#0676  Sales update: Tido test environment back online.
+#0677  Marketing email: Tido test environment back online.
+#0678  Finance Office: Tido budget decreased by $85K.
+#0679  Marketing email: Tido test environment back online.
+#0680  Finance Office: Tido budget increased by $90K per the revised plan.
+#0681  Finance Office: Withdraw update #0363; it was entered in error.
+#0682  Finance Office: Tido budget increased by $438K.
+#0683  Vendor call: Tido design review moved to Room 3B.
+#0684  Finance Office: Tido budget increased by $90K per the revised plan.
+#0685  Finance Office: Withdraw update #0213; it was entered in error.
+#0686  Finance Office: Tido budget decreased by $135K after review.
+#0687  Finance Office: Tido budget decreased by $55K after review.
+#0688  Finance Office: Tido budget increased by $304K after review.
+#0689  Legal email: Tido kickoff moved to Building 2.
+#0690  Finance Office: Tido budget decreased by $587K per the revised plan.
+#0691  Finance Office: Tido budget decreased by $110K after review.
+#0692  Operations chat: Tido security review passed.
+#0693  Finance Office: Tido budget increased by $140K per the revised plan.
+#0694  Sales update: Tido site visit confirmed for Friday.
+#0695  Vendor call: Tido weekly sync moved to Tuesdays.
+#0696  Engineering email: Tido test environment back online.
+#0697  Finance Office: Tido budget increased by $50K.
+#0698  Finance Office: Tido budget decreased by $5K after review.
+#0699  Finance Office: Tido budget increased by $45K per the revised plan.
+#0700  Facilities ticket: Tido status report filed for week 10.
+#0701  Vendor call: Tido demo rescheduled to Thursday afternoon.
+#0702  Finance Office: Tido budget decreased by $193K after review.
+#0703  Facilities ticket: Tido kickoff moved to Building 2.
+#0704  Finance Office: Tido budget increased by $55K after review.
+#0705  Operations chat: Tido design review moved to Room 2B.
+#0706  Finance Office: Withdraw update #0510.
+#0707  Finance Office: Tido budget increased by $30K per the revised plan.
+#0708  Finance Office: Withdraw update #0430.
+#0709  Finance Office: Tido budget increased by $150K after review.
+#0710  Finance Office: Tido budget decreased by $150K.
+#0711  Finance Office: Tido budget increased by $25K after review.
+#0712  Vendor call: Tido test environment back online.
+#0713  Finance Office: Tido budget decreased by $20K per the revised plan.
+#0714  Finance Office: Withdraw update #0402; it was entered in error.
+#0715  Marketing email: Tido sprint 30 retrospective notes posted.
+#0716  Vendor call: Tido documentation moved to the shared drive.
+#0717  Facilities ticket: Tido status report filed for week 11.
+#0718  Marketing email: Tido risk register updated with 3 new items.
+#0719  Legal email: Tido weekly sync moved to Mondays.
+#0720  Finance Office: Tido budget increased by $100K per the revised plan.
+#0721  Sales update: Tido test environment back online.
+#0722  Marketing email: Tido weekly sync moved to Thursdays.
+#0723  Finance Office: Withdraw update #0443.
+#0724  PMO note: Tido vendor onboarding call scheduled for Monday.
+#0725  Vendor call: Tido design review moved to Room 4A.
+#0726  Finance Office: Withdraw update #0247.
+#0727  Finance Office: Withdraw update #0361.
+#0728  Finance Office: Tido budget decreased by $65K.
+#0729  Finance Office: Tido budget decreased by $70K per the revised plan.
+#0730  Finance Office: Withdraw update #0403.
+#0731  Finance Office: Tido cost center code changed to FC-5808.
+#0732  Finance Office: Tido budget increased by $135K after review.
+#0733  Facilities ticket: Tido security review passed.
+#0734  Finance Office: Tido budget decreased by $5K after review.
+#0735  Finance Office: Withdraw update #0661.
+#0736  Finance Office: Withdraw update #0675; it was entered in error.
+#0737  Finance Office: Withdraw update #0276.
+#0738  Finance Office: Withdraw update #0723.
+#0739  Sales update: Tido kickoff moved to Building 3.
+#0740  Sales update: Tido weekly sync moved to Thursdays.
+#0741  Finance Office: Tido budget decreased by $35K after review.
+#0742  Operations chat: Tido kickoff moved to Building 5.
+#0743  Facilities ticket: Tido design review moved to Room 5D.
+#0744  Finance Office: Tido budget decreased by $329K.
+#0745  Finance Office: Tido budget increased by $60K.
+#0746  PMO note: Tido test environment back online.
+#0747  Finance Office: Tido budget increased by $45K.
+#0748  Finance Office: Tido budget increased by $80K after review.
+#0749  Finance Office: Tido budget decreased by $15K.
+#0750  Finance Office: Tido budget decreased by $60K after review.
+#0751  Finance Office: Tido budget decreased by $145K.
+#0752  Vendor call: Tido kickoff moved to Building 4.
+#0753  Finance Office: Tido budget increased by $512K per the revised plan.
+#0754  Finance Office: Withdraw update #0688; it was entered in error.
+#0755  Vendor call: Tido test environment back online.
+#0756  Finance Office: Withdraw update #0220.
+#0757  Sales update: Tido status report filed for week 44.
+#0758  Finance Office: Tido budget increased by $70K per the revised plan.
+#0759  Vendor call: Tido site visit confirmed for Tuesday.
+#0760  PMO note: Tido design review moved to Room 4C.
+#0761  Finance Office: Tido purchase order FC-4831 closed.
+#0762  Finance Office: Withdraw update #0218; it was entered in error.
+#0763  Finance Office: Withdraw update #0466; it was entered in error.
+#0764  Legal email: Tido design review moved to Room 1D.
+#0765  Finance Office: Tido budget decreased by $65K.
+#0766  Facilities ticket: Tido sprint 41 retrospective notes posted.
+#0767  Operations chat: Tido kickoff moved to Building 8.
+#0768  Facilities ticket: Tido test environment back online.
+#0769  Finance Office: Tido budget increased by $125K after review.
+#0770  Finance Office: Tido budget increased by $75K.
+#0771  Finance Office: Withdraw update #0401; it was entered in error.
+#0772  Marketing email: Tido test environment back online.
+#0773  Finance Office: Tido budget increased by $100K per the revised plan.
+#0774  Finance Office: Tido quarterly audit scheduled for Friday.
+#0775  Finance Office: Tido budget increased by $45K per the revised plan.
+#0776  Finance Office: Tido budget decreased by $75K after review.
+#0777  Finance Office: Tido budget increased by $30K per the revised plan.
+#0778  Engineering email: Tido site visit confirmed for Monday.
+#0779  Finance Office: Tido budget increased by $130K after review.
+#0780  Finance Office: Tido budget increased by $85K per the revised plan.
+#0781  Finance Office: Tido budget decreased by $65K per the revised plan.
+#0782  Finance Office: Tido budget increased by $30K per the revised plan.
+#0783  PMO note: Tido kickoff moved to Building 9.
+#0784  Finance Office: Tido budget increased by $120K.
+#0785  Sales update: Tido status report filed for week 9.
+#0786  Finance Office: Tido budget increased by $35K.
+#0787  Operations chat: Tido site visit confirmed for Wednesday.
+#0788  Finance Office: Tido budget decreased by $40K per the revised plan.
+#0789  Engineering email: Tido kickoff moved to Building 6.
+#0790  Engineering email: Tido test environment back online.
+#0791  Sales update: Tido security review passed.
+#0792  Finance Office: Withdraw update #0100; it was entered in error.
+#0793  Finance Office: Withdraw update #0584; it was entered in error.
+#0794  Vendor call: Tido status report filed for week 30.
+#0795  Finance Office: Tido budget increased by $140K per the revised plan.
+#0796  Operations chat: Tido test environment back online.
+#0797  Legal email: Tido kickoff moved to Building 4.
+#0798  Finance Office: Tido budget increased by $30K per the revised plan.
+#0799  Finance Office: Tido budget decreased by $135K per the revised plan.
+#0800  Facilities ticket: Tido weekly sync moved to Thursdays.
+#0801  Marketing email: Tido demo rescheduled to Tuesday afternoon.
+#0802  Legal email: Tido kickoff moved to Building 7.
+#0803  Finance Office: Tido budget increased by $15K.
+#0804  Finance Office: Tido budget increased by $105K after review.
+#0805  Operations chat: Tido test environment back online.
+#0806  Finance Office: Tido budget decreased by $65K after review.
+#0807  Finance Office: Tido budget decreased by $573K per the revised plan.
+#0808  Marketing email: Tido weekly sync moved to Mondays.
+#0809  Finance Office: Tido cost center code changed to FC-2018.
+#0810  Sales update: Tido demo rescheduled to Tuesday afternoon.
+#0811  Finance Office: Tido budget decreased by $35K after review.
+#0812  Finance Office: Tido budget increased by $40K.
+#0813  Marketing email: Tido test environment back online.
+#0814  Finance Office: Tido budget increased by $35K after review.
+#0815  Operations chat: Tido kickoff moved to Building 7.
+#0816  Finance Office: Tido budget increased by $105K after review.
+#0817  Finance Office: Tido budget increased by $25K per the revised plan.
+#0818  Finance Office: Tido budget increased by $90K after review.
+#0819  Finance Office: Withdraw update #0489; it was entered in error.
+#0820  Finance Office: Tido budget increased by $407K.
+#0821  Finance Office: Tido budget decreased by $55K.
+#0822  Finance Office: Tido budget decreased by $105K per the revised plan.
+#0823  Finance Office: Tido budget decreased by $145K after review.
+#0824  Finance Office: Withdraw update #0706.
+#0825  Finance Office: Tido budget decreased by $40K after review.
+#0826  Finance Office: Tido budget decreased by $5K.
+#0827  Finance Office: Withdraw update #0756; it was entered in error.
+#0828  Sales update: Tido kickoff moved to Building 3.
+#0829  Finance Office: Tido budget increased by $100K.
+#0830  Sales update: Tido status report filed for week 48.
+#0831  Finance Office: Withdraw update #0268.
+#0832  Finance Office: Tido budget increased by $75K per the revised plan.
+#0833  Finance Office: Tido budget increased by $25K per the revised plan.
+#0834  Finance Office: Tido budget increased by $120K after review.
+#0835  Finance Office: Tido budget decreased by $60K after review.
+#0836  Marketing email: Tido kickoff moved to Building 2.
+#0837  Finance Office: Tido budget decreased by $65K per the revised plan.
+#0838  Vendor call: Tido weekly sync moved to Mondays.
+#0839  Finance Office: Withdraw update #0241.
+#0840  Operations chat: Tido site visit confirmed for Monday.
+#0841  PMO note: Tido weekly sync moved to Fridays.
+#0842  Finance Office: Tido budget decreased by $50K.
+#0843  Finance Office: Tido budget decreased by $95K after review.
+#0844  Engineering email: Tido weekly sync moved to Tuesdays.
+#0845  Finance Office: Tido budget increased by $145K.
+#0846  Marketing email: Tido sprint 38 retrospective notes posted.
+#0847  Finance Office: Withdraw update #0639; it was entered in error.
+#0848  Sales update: Tido kickoff moved to Building 2.
+#0849  Finance Office: Tido budget increased by $135K per the revised plan.
+#0850  Finance Office: Tido budget increased by $30K after review.
+#0851  Finance Office: Tido budget decreased by $145K after review.
+#0852  Finance Office: Tido budget increased by $67K.
+#0853  Finance Office: Tido budget decreased by $135K.
+#0854  Finance Office: Tido budget decreased by $55K after review.
+#0855  Finance Office: Tido budget increased by $115K per the revised plan.
+#0856  Finance Office: Tido budget decreased by $15K per the revised plan.
+#0857  Finance Office: Tido budget decreased by $40K.
+#0858  Finance Office: Tido budget increased by $50K.
+#0859  Engineering email: Tido documentation moved to the shared drive.
+#0860  Marketing email: Tido kickoff moved to Building 2.
+#0861  Finance Office: Tido budget decreased by $42K per the revised plan.
+#0862  Finance Office: Tido budget increased by $40K per the revised plan.
+#0863  Finance Office: Tido budget decreased by $45K per the revised plan.
+#0864  Engineering email: Tido design review moved to Room 3D.
+#0865  Engineering email: Tido demo rescheduled to Monday afternoon.
+#0866  Sales update: Tido design review moved to Room 6B.
+#0867  Engineering email: Tido status report filed for week 16.
+#0868  Finance Office: Tido quarterly audit scheduled for Tuesday.
+#0869  Engineering email: Tido design review moved to Room 3C.
+#0870  Marketing email: Tido design review moved to Room 6B.
+#0871  Facilities ticket: Tido test environment back online.
+#0872  Sales update: Tido sprint 26 retrospective notes posted.
+#0873  PMO note: Tido test environment back online.
+#0874  Finance Office: Withdraw update #0730.
+#0875  Finance Office: Tido budget increased by $105K after review.
+#0876  Finance Office: Tido budget decreased by $15K per the revised plan.
+#0877  Finance Office: Tido budget increased by $90K after review.
+#0878  Finance Office: Tido budget increased by $110K after review.
+#0879  Finance Office: Tido budget increased by $50K per the revised plan.
+#0880  Finance Office: Withdraw update #0335; it was entered in error.
+#0881  Finance Office: Tido budget increased by $80K per the revised plan.
+#0882  Finance Office: Tido budget decreased by $15K.
+#0883  Finance Office: Tido audit notes filed.
+#0884  Engineering email: Tido design review moved to Room 4D.
+#0885  Finance Office: Tido budget increased by $55K after review.
+#0886  Finance Office: Withdraw update #0651; it was entered in error.
+#0887  Marketing email: Tido site visit confirmed for Friday.
+#0888  Marketing email: Tido design review moved to Room 6B.
+#0889  Finance Office: Tido budget increased by $10K per the revised plan.
+#0890  Legal email: Tido design review moved to Room 4B.
+#0891  Finance Office: Withdraw update #0559.
+#0892  Finance Office: Tido budget increased by $95K.
+#0893  PMO note: Tido site visit confirmed for Tuesday.
+#0894  Finance Office: Tido budget increased by $471K after review.
+#0895  Sales update: Tido test environment back online.
+#0896  Finance Office: Withdraw update #0219.
+#0897  Finance Office: Withdraw update #0539; it was entered in error.
+#0898  Engineering email: Tido kickoff moved to Building 7.
+#0899  Legal email: Tido site visit confirmed for Friday.
+#0900  Finance Office: Tido budget decreased by $53K per the revised plan.
+#0901  Finance Office: Tido budget decreased by $5K after review.
+#0902  Operations chat: Tido sprint 32 retrospective notes posted.
+#0903  Operations chat: Tido test environment back online.
+#0904  Sales update: Tido site visit confirmed for Tuesday.
+#0905  Operations chat: Tido design review moved to Room 2B.
+#0906  Marketing email: Tido sprint 21 retrospective notes posted.
+#0907  Sales update: Tido test environment back online.
+#0908  Finance Office: Tido budget decreased by $70K per the revised plan.
+#0909  Finance Office: Withdraw update #0360.
+#0910  Finance Office: Withdraw update #0753; it was entered in error.
+#0911  Finance Office: Tido budget decreased by $110K after review.
+#0912  Engineering email: Tido test environment back online.
+#0913  Finance Office: Tido budget increased by $150K.
+#0914  Finance Office: Withdraw update #0820.
+#0915  Finance Office: Tido quarterly audit scheduled for Thursday.
+#0916  Marketing email: Tido risk register updated with 3 new items.
+#0917  Marketing email: Tido vendor onboarding call scheduled for Wednesday.
+#0918  Marketing email: Tido design review moved to Room 6A.
+#0919  Marketing email: Tido demo rescheduled to Monday afternoon.
+#0920  Sales update: Tido weekly sync moved to Fridays.
+#0921  Finance Office: Tido budget decreased by $50K.
+#0922  Finance Office: Tido budget increased by $5K per the revised plan.
+#0923  Facilities ticket: Tido documentation moved to the shared drive.
+#0924  Finance Office: Tido budget decreased by $55K per the revised plan.
+#0925  Finance Office: Tido budget increased by $20K after review.
+#0926  Finance Office: Tido budget decreased by $115K.
+#0927  Finance Office: Tido budget increased by $15K after review.
+#0928  Finance Office: Tido budget decreased by $20K.
+#0929  Finance Office: Tido budget decreased by $20K after review.
+#0930  Finance Office: Tido budget decreased by $135K per the revised plan.
+#0931  Finance Office: Tido budget increased by $110K after review.
+#0932  Finance Office: Tido purchase order FC-6273 closed.
+#0933  Finance Office: Tido budget increased by $60K per the revised plan.
+#0934  Finance Office: Tido budget decreased by $25K per the revised plan.
+#0935  Finance Office: Tido budget decreased by $95K after review.
+#0936  Finance Office: Withdraw update #0439; it was entered in error.
+#0937  Facilities ticket: Tido test environment back online.
+#0938  Finance Office: Tido budget increased by $115K.
+#0939  Legal email: Tido site visit confirmed for Wednesday.
+#0940  Operations chat: Tido test environment back online.
+#0941  Sales update: Tido test environment back online.
+#0942  Vendor call: Tido test environment back online.
+#0943  Finance Office: Tido budget decreased by $75K.
+#0944  PMO note: Tido kickoff moved to Building 8.
+#0945  Finance Office: Tido budget increased by $105K after review.
+#0946  Finance Office: Withdraw update #0094.
+#0947  Finance Office: Tido budget increased by $338K.
+#0948  Finance Office: Tido budget increased by $125K per the revised plan.
+#0949  Operations chat: Tido kickoff moved to Building 8.
+#0950  PMO note: Tido status report filed for week 46.
+#0951  Finance Office: Withdraw update #0738; it was entered in error.
+#0952  Operations chat: Tido design review moved to Room 5D.
+#0953  Finance Office: Tido budget increased by $33K after review.
+#0954  Vendor call: Tido status report filed for week 23.
+#0955  Finance Office: Withdraw update #0727; it was entered in error.
+#0956  Finance Office: Tido budget decreased by $55K per the revised plan.
+#0957  Finance Office: Tido budget increased by $115K.
+#0958  Finance Office: Tido budget increased by $45K per the revised plan.
+#0959  Finance Office: Tido budget increased by $85K.
+#0960  Vendor call: Tido design review moved to Room 4A.
+#0961  Finance Office: Tido budget increased by $367K.
+#0962  Finance Office: Withdraw update #0447.
+#0963  Finance Office: Tido budget decreased by $333K after review.
+#0964  Finance Office: Tido budget decreased by $50K after review.
+#0965  Finance Office: Tido budget decreased by $65K after review.
+#0966  Finance Office: Withdraw update #0736; it was entered in error.
+#0967  Marketing email: Tido kickoff moved to Building 9.
+#0968  Engineering email: Tido weekly sync moved to Fridays.
+#0969  Finance Office: Tido budget decreased by $513K after review.
+#0970  Finance Office: Tido budget increased by $75K.
+#0971  Legal email: Tido design review moved to Room 2D.
+#0972  Sales update: Tido weekly sync moved to Wednesdays.
+#0973  Finance Office: Tido budget increased by $100K.
+#0974  Finance Office: Withdraw update #0312.
+#0975  Finance Office: Withdraw update #0754; it was entered in error.
+#0976  Finance Office: Withdraw update #0852; it was entered in error.
+#0977  Finance Office: Withdraw update #0174; it was entered in error.
+#0978  Operations chat: Tido site visit confirmed for Tuesday.
+#0979  Finance Office: Tido budget decreased by $383K per the revised plan.
+#0980  Finance Office: Withdraw update #0177; it was entered in error.
+#0981  Finance Office: Tido budget decreased by $50K after review.
+#0982  Sales update: Tido kickoff moved to Building 6.
+#0983  Finance Office: Tido budget decreased by $323K.
+#0984  Finance Office: Tido budget decreased by $110K per the revised plan.
+#0985  Finance Office: Tido budget decreased by $150K after review.
+#0986  Finance Office: Tido budget increased by $90K.
+#0987  PMO note: Tido status report filed for week 3.
+#0988  Finance Office: Reminder: Tido expense reports are due Monday.
+#0989  Finance Office: Withdraw update #0449.
+#0990  Legal email: Tido design review moved to Room 3C.
+#0991  PMO note: Tido design review moved to Room 2C.
+#0992  Finance Office: Tido budget decreased by $5K per the revised plan.
+#0993  Finance Office: Tido budget decreased by $140K after review.
+#0994  Finance Office: Withdraw update #0415.
+#0995  Engineering email: Tido kickoff moved to Building 9.
+#0996  Finance Office: Tido budget increased by $110K per the revised plan.
+#0997  Facilities ticket: Tido site visit confirmed for Thursday.
+#0998  Operations chat: Tido vendor onboarding call scheduled for Thursday.
+#0999  Sales update: Tido test environment back online.
+#1000  Finance Office: Tido budget decreased by $85K.
+#1001  Finance Office: Tido budget increased by $130K per the revised plan.
+#1002  Finance Office: Tido budget decreased by $120K per the revised plan.
+#1003  Vendor call: Tido test environment back online.
+#1004  Finance Office: Tido budget decreased by $105K after review.
+#1005  Sales update: Tido design review moved to Room 1A.
+#1006  Finance Office: Tido budget decreased by $100K after review.
+#1007  Engineering email: Tido vendor onboarding call scheduled for Monday.
+#1008  Finance Office: Tido budget increased by $120K after review.
+#1009  Finance Office: Tido budget increased by $25K.
+#1010  Finance Office: Tido budget increased by $80K.
+#1011  Sales update: Tido weekly sync moved to Wednesdays.
+#1012  Marketing email: Tido status report filed for week 43.
+#1013  Engineering email: Tido design review moved to Room 4B.
+#1014  Marketing email: Tido test environment back online.
+#1015  Finance Office: Withdraw update #0125; it was entered in error.
+#1016  Sales update: Tido sprint 22 retrospective notes posted.
+#1017  Finance Office: Tido budget decreased by $130K after review.
+#1018  Finance Office: Tido budget decreased by $5K.
+#1019  Finance Office: Tido budget decreased by $78K per the revised plan.
+#1020  Finance Office: Tido budget increased by $55K after review.
+#1021  Finance Office: Withdraw update #0900.
+#1022  Facilities ticket: Tido test environment back online.
+#1023  Finance Office: Tido budget decreased by $115K after review.
+#1024  Finance Office: Tido budget decreased by $105K.
+#1025  Finance Office: Withdraw update #0631.
+#1026  Finance Office: Tido budget increased by $105K after review.
+#1027  Finance Office: Tido budget decreased by $90K after review.
+#1028  Finance Office: Tido budget decreased by $15K per the revised plan.
+#1029  PMO note: Tido weekly sync moved to Tuesdays.
+#1030  Finance Office: Tido budget decreased by $80K.
+#1031  Engineering email: Tido test environment back online.
+#1032  Vendor call: Tido site visit confirmed for Friday.
+#1033  Facilities ticket: Tido sprint 17 retrospective notes posted.
+#1034  Legal email: Tido kickoff moved to Building 6.
+#1035  Finance Office: Tido budget increased by $45K after review.
+#1036  Finance Office: Tido budget increased by $40K per the revised plan.
+#1037  Finance Office: Withdraw update #0744.
+#1038  Finance Office: Withdraw update #0969.
+#1039  Finance Office: Tido budget increased by $242K.
+#1040  Finance Office: Withdraw update #0897; it was entered in error.
+#1041  Finance Office: Tido budget increased by $60K per the revised plan.
+#1042  Finance Office: Tido budget increased by $135K after review.
+#1043  Finance Office: Withdraw update #0225; it was entered in error.
+#1044  Operations chat: Tido design review moved to Room 4B.
+#1045  Finance Office: Tido budget decreased by $331K per the revised plan.
+#1046  Finance Office: Tido budget decreased by $115K.
+#1047  Finance Office: Tido budget increased by $35K.
+#1048  Vendor call: Tido sprint 11 retrospective notes posted.
+#1049  PMO note: Tido weekly sync moved to Fridays.
+#1050  Finance Office: Tido budget decreased by $6K after review.
+#1051  Operations chat: Tido kickoff moved to Building 7.
+#1052  Legal email: Tido weekly sync moved to Wednesdays.
+#1053  Finance Office: Tido budget decreased by $120K after review.
+#1054  Finance Office: Tido cost center code changed to FC-3103.
+#1055  Finance Office: Withdraw update #0012.
+#1056  Marketing email: Tido design review moved to Room 2B.
+#1057  Finance Office: Tido budget increased by $5K per the revised plan.
+#1058  Finance Office: Tido budget decreased by $50K after review.
+#1059  Finance Office: Tido budget decreased by $45K after review.
+#1060  Finance Office: Tido budget increased by $30K.
+#1061  Legal email: Tido weekly sync moved to Mondays.
+#1062  Finance Office: Tido budget decreased by $55K.
+#1063  Marketing email: Tido site visit confirmed for Monday.
+#1064  Vendor call: Tido vendor onboarding call scheduled for Thursday.
+#1065  Finance Office: Tido budget decreased by $65K per the revised plan.
+#1066  Engineering email: Tido weekly sync moved to Tuesdays.
+#1067  Finance Office: Tido budget decreased by $90K per the revised plan.
+#1068  Finance Office: Tido budget increased by $95K per the revised plan.
+#1069  Finance Office: Withdraw update #0405; it was entered in error.
+#1070  Finance Office: Tido budget decreased by $60K per the revised plan.
+#1071  Finance Office: Tido budget increased by $120K.
+#1072  Finance Office: Tido budget decreased by $50K.
+#1073  PMO note: Tido demo rescheduled to Friday afternoon.
+#1074  Engineering email: Tido site visit confirmed for Friday.
+#1075  Legal email: Tido kickoff moved to Building 8.
+#1076  Operations chat: Tido test environment back online.
+#1077  Finance Office: Withdraw update #0591; it was entered in error.
+#1078  Finance Office: Tido budget decreased by $140K after review.
+#1079  Finance Office: Tido budget increased by $135K.
+#1080  Finance Office: Tido budget increased by $241K.
+#1081  Engineering email: Tido weekly sync moved to Fridays.
+#1082  Finance Office: Tido budget increased by $476K.
+#1083  Finance Office: Tido budget increased by $5K.
+#1084  Operations chat: Tido test environment back online.
+#1085  Finance Office: Tido budget increased by $223K.
+#1086  Finance Office: Tido budget decreased by $95K.
+#1087  Finance Office: Tido budget decreased by $120K.
+#1088  Finance Office: Tido budget decreased by $50K.
+#1089  Finance Office: Tido budget decreased by $85K after review.
+#1090  Finance Office: Tido budget increased by $25K after review.
+#1091  Finance Office: Withdraw update #0979; it was entered in error.
+#1092  Finance Office: Tido budget decreased by $30K.
+#1093  PMO note: Tido vendor onboarding call scheduled for Thursday.
+#1094  Finance Office: Tido budget decreased by $105K per the revised plan.
+#1095  Finance Office: Tido budget increased by $75K.
+#1096  Finance Office: Tido budget decreased by $65K after review.
+#1097  Engineering email: Tido site visit confirmed for Wednesday.
+#1098  Finance Office: Withdraw update #0914.
+#1099  Engineering email: Tido design review moved to Room 6D.
+#1100  Finance Office: Withdraw update #0393.
+#1101  Finance Office: Tido budget increased by $90K per the revised plan.
+#1102  Finance Office: Tido budget increased by $5K per the revised plan.
+#1103  Finance Office: Tido budget decreased by $115K per the revised plan.
+#1104  PMO note: Tido weekly sync moved to Tuesdays.
+#1105  Finance Office: Tido budget decreased by $90K per the revised plan.
+#1106  Finance Office: Tido budget increased by $115K.
+#1107  Marketing email: Tido test environment back online.
+#1108  Legal email: Tido kickoff moved to Building 3.
+#1109  Finance Office: Tido budget decreased by $150K after review.
+#1110  Finance Office: Tido budget decreased by $527K after review.
+#1111  Legal email: Tido design review moved to Room 5A.
+#1112  Finance Office: Tido budget increased by $5K per the revised plan.
+#1113  Marketing email: Tido security review passed.
+#1114  Legal email: Tido design review moved to Room 6D.
+#1115  Finance Office: Tido budget increased by $439K.
+#1116  PMO note: Tido sprint 46 retrospective notes posted.
+#1117  Finance Office: Tido budget decreased by $130K per the revised plan.
+#1118  Finance Office: Withdraw update #0574.
+#1119  Finance Office: Tido budget decreased by $140K.
+#1120  Finance Office: Tido budget decreased by $35K after review.
+#1121  Finance Office: Tido budget decreased by $100K.
+#1122  Engineering email: Tido test environment back online.
+#1123  Sales update: Tido status report filed for week 16.
+#1124  Marketing email: Tido weekly sync moved to Tuesdays.
+#1125  Finance Office: Withdraw update #1082.
+#1126  Legal email: Tido weekly sync moved to Tuesdays.
+#1127  PMO note: Tido test environment back online.
+#1128  Finance Office: Tido budget decreased by $130K.
+#1129  Finance Office: Tido budget increased by $5K.
+#1130  Finance Office: Tido budget increased by $115K.
+#1131  Operations chat: Tido test environment back online.
+#1132  Finance Office: Withdraw update #0509; it was entered in error.
+#1133  Operations chat: Tido kickoff moved to Building 3.
+#1134  Operations chat: Tido kickoff moved to Building 9.
+#1135  Finance Office: Withdraw update #1050; it was entered in error.
+#1136  Finance Office: Tido budget increased by $15K after review.
+#1137  Finance Office: Tido budget increased by $45K.
+#1138  Finance Office: Tido budget increased by $60K.
+#1139  Sales update: Tido test environment back online.
+#1140  Finance Office: Withdraw update #0861; it was entered in error.
+#1141  Vendor call: Tido test environment back online.
+#1142  Facilities ticket: Tido weekly sync moved to Thursdays.
+#1143  Finance Office: Withdraw update #0464.
+#1144  Finance Office: Tido budget decreased by $5K after review.
+#1145  Operations chat: Tido kickoff moved to Building 6.
+#1146  Finance Office: Tido budget decreased by $561K after review.
+#1147  Finance Office: Tido budget decreased by $10K after review.
+#1148  Vendor call: Tido risk register updated with 4 new items.
+#1149  Finance Office: Tido budget decreased by $115K after review.
+#1150  Finance Office: Withdraw update #0478.
+#1151  Finance Office: Tido budget increased by $40K per the revised plan.
+#1152  Legal email: Tido site visit confirmed for Thursday.
+#1153  Legal email: Tido status report filed for week 22.
+#1154  Engineering email: Tido test environment back online.
+#1155  Finance Office: Tido budget decreased by $151K per the revised plan.
+#1156  Finance Office: Tido budget increased by $65K per the revised plan.
+#1157  Vendor call: Tido kickoff moved to Building 7.
+#1158  Finance Office: Tido budget decreased by $15K per the revised plan.
+#1159  Finance Office: Tido budget increased by $10K per the revised plan.
+#1160  PMO note: Tido status report filed for week 13.
+#1161  Finance Office: Withdraw update #1110; it was entered in error.
+#1162  Finance Office: Tido budget increased by $110K.
+#1163  PMO note: Tido weekly sync moved to Thursdays.
+#1164  PMO note: Tido test environment back online.
+#1165  Finance Office: Tido invoice batch FC-1935 archived.
+#1166  PMO note: Tido documentation moved to the shared drive.
+#1167  Finance Office: Tido budget decreased by $65K per the revised plan.
+#1168  Finance Office: Withdraw update #1043.
+#1169  Finance Office: Withdraw update #0682; it was entered in error.
+#1170  Finance Office: Withdraw update #1155; it was entered in error.
+#1171  Finance Office: Tido budget increased by $150K per the revised plan.
+#1172  PMO note: Tido test environment back online.
+#1173  Finance Office: Tido finance review moved to Room 5C.
+#1174  Finance Office: Tido budget increased by $80K.
+#1175  Finance Office: Tido budget decreased by $150K after review.
+#1176  Finance Office: Withdraw update #0983.
+#1177  Finance Office: Tido budget increased by $20K per the revised plan.
+#1178  Vendor call: Tido weekly sync moved to Wednesdays.
+#1179  Facilities ticket: Tido design review moved to Room 6C.
+#1180  Finance Office: Tido budget decreased by $120K after review.
+#1181  Operations chat: Tido status report filed for week 27.
+#1182  Legal email: Tido kickoff moved to Building 4.
+#1183  Finance Office: Tido budget decreased by $130K.
+#1184  Finance Office: Tido budget decreased by $30K.
+#1185  Finance Office: Tido budget decreased by $100K per the revised plan.
+#1186  Finance Office: Tido budget increased by $120K per the revised plan.
+#1187  Legal email: Tido demo rescheduled to Friday afternoon.
+#1188  Finance Office: Tido budget increased by $135K.
+#1189  Engineering email: Tido weekly sync moved to Wednesdays.
+#1190  Finance Office: Tido budget increased by $95K.
+#1191  Vendor call: Tido test environment back online.
+#1192  Engineering email: Tido kickoff moved to Building 5.
+#1193  Finance Office: Tido budget increased by $95K after review.
+#1194  Finance Office: Tido budget decreased by $90K after review.
+#1195  Finance Office: Tido budget increased by $86K.
+#1196  Finance Office: Tido budget decreased by $80K per the revised plan.
+#1197  Finance Office: Tido budget increased by $35K.
+#1198  Finance Office: Tido budget decreased by $60K after review.
+#1199  Finance Office: Tido budget decreased by $110K per the revised plan.
+#1200  Finance Office: Tido quarterly audit scheduled for Friday.
+#1201  Finance Office: Tido budget decreased by $30K.
+#1202  Finance Office: Withdraw update #0170.
+#1203  Finance Office: Tido budget increased by $140K after review.
+#1204  Facilities ticket: Tido status report filed for week 2.
+#1205  Finance Office: Tido budget increased by $100K.
+#1206  Legal email: Tido test environment back online.
+#1207  Legal email: Tido sprint 30 retrospective notes posted.
+#1208  Marketing email: Tido sprint 25 retrospective notes posted.
+#1209  Finance Office: Tido budget increased by $100K.
+#1210  Finance Office: Tido budget increased by $75K after review.
+#1211  Legal email: Tido kickoff moved to Building 2.
+#1212  Finance Office: Tido budget increased by $85K per the revised plan.
+#1213  Finance Office: Tido budget increased by $55K per the revised plan.
+#1214  Finance Office: Tido budget increased by $40K.
+#1215  Finance Office: Tido budget increased by $15K.
+#1216  Finance Office: Tido budget increased by $125K after review.
+#1217  Finance Office: Tido invoice batch FC-3900 archived.
+#1218  Finance Office: Tido budget decreased by $348K after review.
+#1219  Finance Office: Withdraw update #0936.
+#1220  Sales update: Tido design review moved to Room 6C.
+#1221  Marketing email: Tido kickoff moved to Building 5.
+#1222  Finance Office: Withdraw update #1080.
+#1223  Finance Office: Tido budget increased by $125K after review.
+#1224  Finance Office: Tido budget decreased by $110K.
+#1225  Engineering email: Tido design review moved to Room 6C.
+#1226  Finance Office: Withdraw update #0278.
+#1227  Finance Office: Tido budget decreased by $120K.
+#1228  Finance Office: Tido budget increased by $30K per the revised plan.
+#1229  Finance Office: Tido budget decreased by $216K.
+#1230  Marketing email: Tido security review passed.
+#1231  Operations chat: Tido weekly sync moved to Thursdays.
+#1232  Finance Office: Tido budget decreased by $85K per the revised plan.
+#1233  Finance Office: Withdraw update #1015.
+#1234  Finance Office: Withdraw update #1039.
+#1235  Finance Office: Withdraw update #0207; it was entered in error.
+#1236  Engineering email: Tido weekly sync moved to Thursdays.
+#1237  Finance Office: Tido budget increased by $5K after review.
+#1238  Legal email: Tido weekly sync moved to Fridays.
+#1239  Finance Office: Tido budget decreased by $125K after review.
+#1240  Finance Office: Tido budget increased by $115K.
+#1241  Engineering email: Tido sprint 9 retrospective notes posted.
+#1242  Facilities ticket: Tido status report filed for week 11.
+#1243  Finance Office: Tido budget increased by $10K after review.
+#1244  Finance Office: Tido budget increased by $10K.
+#1245  Finance Office: Tido budget decreased by $55K.
+#1246  PMO note: Tido status report filed for week 11.
+#1247  Finance Office: Tido budget decreased by $35K.
+#1248  Finance Office: Tido budget increased by $10K.
+#1249  Finance Office: Withdraw update #1115.
+#1250  Engineering email: Tido documentation moved to the shared drive.
+#1251  Finance Office: Tido budget decreased by $55K after review.
+#1252  Finance Office: Tido budget increased by $145K after review.
+#1253  Finance Office: Withdraw update #0963.
+#1254  Facilities ticket: Tido site visit confirmed for Friday.
+#1255  Finance Office: Tido quarterly audit scheduled for Tuesday.
+#1256  Finance Office: Tido budget decreased by $140K per the revised plan.
+#1257  Vendor call: Tido test environment back online.
+#1258  Marketing email: Tido kickoff moved to Building 3.
+#1259  Operations chat: Tido demo rescheduled to Friday afternoon.
+#1260  Finance Office: Tido budget increased by $258K after review.
+#1261  Finance Office: Tido budget increased by $45K after review.
+#1262  Finance Office: Tido budget increased by $85K per the revised plan.
+#1263  Finance Office: Tido budget decreased by $95K.
+#1264  Operations chat: Tido weekly sync moved to Tuesdays.
+#1265  PMO note: Tido weekly sync moved to Mondays.
+#1266  Finance Office: Tido budget increased by $192K per the revised plan.
+#1267  Facilities ticket: Tido weekly sync moved to Tuesdays.
+#1268  Finance Office: Tido budget increased by $115K.
+#1269  Finance Office: Tido budget increased by $40K after review.
+#1270  Finance Office: Tido budget increased by $45K per the revised plan.
+#1271  Finance Office: Tido budget increased by $418K per the revised plan.
+#1272  Finance Office: Withdraw update #1085.
+#1273  PMO note: Tido design review moved to Room 2C.
+#1274  Operations chat: Tido weekly sync moved to Tuesdays.
+#1275  Finance Office: Withdraw update #0327; it was entered in error.
+#1276  Sales update: Tido status report filed for week 17.
+#1277  Finance Office: Tido invoice batch FC-4049 archived.
+#1278  Facilities ticket: Tido kickoff moved to Building 7.
+#1279  Marketing email: Tido test environment back online.
+#1280  Finance Office: Tido budget decreased by $140K after review.
+#1281  Finance Office: Tido budget decreased by $10K after review.
+#1282  Finance Office: Tido budget decreased by $105K.
+#1283  Finance Office: Tido budget increased by $105K per the revised plan.
+#1284  Finance Office: Tido audit notes filed.
+#1285  Facilities ticket: Tido weekly sync moved to Fridays.
+#1286  Engineering email: Tido design review moved to Room 3D.
+#1287  Finance Office: Tido budget decreased by $125K after review.
+#1288  Operations chat: Tido design review moved to Room 2D.
+#1289  Vendor call: Tido weekly sync moved to Mondays.
+#1290  Finance Office: Tido budget increased by $45K per the revised plan.
+#1291  Engineering email: Tido test environment back online.
+#1292  Facilities ticket: Tido weekly sync moved to Fridays.
+#1293  Finance Office: Tido budget decreased by $120K after review.
+#1294  Finance Office: Withdraw update #0172; it was entered in error.
+#1295  Sales update: Tido design review moved to Room 5D.
+#1296  Finance Office: Tido budget decreased by $50K after review.
+#1297  Finance Office: Tido budget decreased by $90K.
+#1298  PMO note: Tido security review passed.
+#1299  PMO note: Tido site visit confirmed for Monday.
+#1300  Finance Office: Withdraw update #0708.
+#1301  Legal email: Tido weekly sync moved to Wednesdays.
+#1302  Finance Office: Withdraw update #0525; it was entered in error.
+#1303  Finance Office: Withdraw update #1019.
+#1304  Finance Office: Tido budget decreased by $100K per the revised plan.
+#1305  Finance Office: Tido budget decreased by $100K after review.
+#1306  Marketing email: Tido demo rescheduled to Friday afternoon.
+#1307  Facilities ticket: Tido risk register updated with 5 new items.
+#1308  Finance Office: Tido budget decreased by $95K after review.
+#1309  Finance Office: Tido budget decreased by $20K.
+#1310  Marketing email: Tido weekly sync moved to Mondays.
+#1311  Finance Office: Tido budget decreased by $100K.
+#1312  Finance Office: Tido budget increased by $115K.
+#1313  Sales update: Tido demo rescheduled to Monday afternoon.
+#1314  Operations chat: Tido site visit confirmed for Friday.
+#1315  Finance Office: Tido budget increased by $120K after review.
+#1316  Finance Office: Withdraw update #0667; it was entered in error.
+#1317  Finance Office: Tido budget increased by $105K.
+#1318  Finance Office: Tido budget decreased by $105K per the revised plan.
+#1319  Operations chat: Tido weekly sync moved to Thursdays.
+#1320  Facilities ticket: Tido weekly sync moved to Thursdays.
+#1321  Facilities ticket: Tido status report filed for week 37.
+#1322  Finance Office: Tido audit notes filed.
+#1323  Marketing email: Tido test environment back online.
+#1324  Finance Office: Tido budget increased by $70K after review.
+#1325  Finance Office: Withdraw update #0977.
+#1326  PMO note: Tido demo rescheduled to Friday afternoon.
+#1327  Facilities ticket: Tido site visit confirmed for Friday.
+#1328  Finance Office: Tido budget decreased by $125K after review.
+#1329  Finance Office: Withdraw update #0349.
+#1330  Facilities ticket: Tido security review passed.
+#1331  Finance Office: Tido finance review moved to Room 6A.
+#1332  Finance Office: Tido budget decreased by $10K after review.
+#1333  Finance Office: Withdraw update #0947; it was entered in error.
+#1334  Finance Office: Withdraw update #1125.
+#1335  Operations chat: Tido weekly sync moved to Tuesdays.
+#1336  Vendor call: Tido kickoff moved to Building 8.
+#1337  Finance Office: Withdraw update #0136.
+#1338  Finance Office: Tido budget increased by $150K.
+#1339  Finance Office: Withdraw update #1249.
+#1340  Finance Office: Tido budget decreased by $65K.
+#1341  Finance Office: Withdraw update #1150.
+#1342  Sales update: Tido kickoff moved to Building 6.
+#1343  Sales update: Tido design review moved to Room 1A.
+#1344  Finance Office: Tido budget increased by $55K after review.
+#1345  Finance Office: Tido budget increased by $80K.
+#1346  Finance Office: Withdraw update #0338.
+#1347  Finance Office: Tido budget increased by $95K per the revised plan.
+#1348  Legal email: Tido test environment back online.
+#1349  Finance Office: Tido budget increased by $50K after review.
+#1350  Legal email: Tido status report filed for week 31.
+#1351  Finance Office: Tido budget decreased by $125K per the revised plan.
+#1352  Finance Office: Withdraw update #0961.
+#1353  Vendor call: Tido demo rescheduled to Wednesday afternoon.
+#1354  Operations chat: Tido kickoff moved to Building 4.
+#1355  Engineering email: Tido kickoff moved to Building 5.
+#1356  Finance Office: Tido budget increased by $237K per the revised plan.
+#1357  Vendor call: Tido security review passed.
+#1358  Facilities ticket: Tido design review moved to Room 2C.
+#1359  PMO note: Tido site visit confirmed for Friday.
+#1360  Finance Office: Tido budget increased by $105K.
+#1361  Finance Office: Tido budget decreased by $30K after review.
+#1362  Finance Office: Withdraw update #1260; it was entered in error.
+#1363  Finance Office: Tido budget decreased by $35K after review.
+#1364  Finance Office: Withdraw update #0531.
+#1365  Finance Office: Tido budget increased by $55K after review.
+#1366  Finance Office: Tido budget decreased by $150K after review.
+#1367  Finance Office: Withdraw update #1195; it was entered in error.
+#1368  Finance Office: Tido budget increased by $10K after review.
+#1369  Legal email: Tido kickoff moved to Building 2.
+#1370  Finance Office: Withdraw update #0580; it was entered in error.
+#1371  Facilities ticket: Tido weekly sync moved to Wednesdays.
+#1372  PMO note: Tido weekly sync moved to Wednesdays.
+#1373  Finance Office: Tido budget increased by $70K per the revised plan.
+#1374  Operations chat: Tido weekly sync moved to Tuesdays.
+#1375  Facilities ticket: Tido test environment back online.
+#1376  Finance Office: Tido budget increased by $35K after review.
+#1377  Finance Office: Withdraw update #1356.
+#1378  Finance Office: Tido cost center code changed to FC-1507.
+#1379  Finance Office: Withdraw update #0589.
+#1380  Finance Office: Tido budget increased by $55K per the revised plan.
+#1381  Vendor call: Tido weekly sync moved to Thursdays.
+#1382  Legal email: Tido sprint 27 retrospective notes posted.
+#1383  Finance Office: Tido budget decreased by $80K per the revised plan.
+#1384  Vendor call: Tido security review passed.
+#1385  Finance Office: Tido budget increased by $40K per the revised plan.
+#1386  Facilities ticket: Tido test environment back online.
+#1387  Finance Office: Tido budget decreased by $45K per the revised plan.
+#1388  Finance Office: Tido budget decreased by $85K.
+#1389  Finance Office: Withdraw update #0653.
+#1390  Operations chat: Tido kickoff moved to Building 2.
+#1391  Finance Office: Tido budget increased by $105K per the revised plan.
+#1392  Vendor call: Tido risk register updated with 5 new items.
+#1393  Finance Office: Tido budget increased by $150K after review.
+#1394  Legal email: Tido weekly sync moved to Tuesdays.
+#1395  Finance Office: Tido budget decreased by $30K after review.
+#1396  Finance Office: Tido budget decreased by $135K per the revised plan.
+#1397  Finance Office: Tido budget decreased by $105K per the revised plan.
+#1398  PMO note: Tido status report filed for week 48.
+#1399  Legal email: Tido status report filed for week 43.
+#1400  PMO note: Tido status report filed for week 16.
+#1401  Vendor call: Tido security review passed.
+#1402  Finance Office: Tido budget increased by $135K after review.
+#1403  Finance Office: Tido budget decreased by $60K per the revised plan.
+#1404  Finance Office: Tido budget decreased by $125K after review.
+#1405  Finance Office: Tido receipts scanned.
+#1406  Sales update: Tido test environment back online.
+#1407  Finance Office: Tido budget decreased by $95K per the revised plan.
+#1408  Sales update: Tido status report filed for week 48.
+#1409  Facilities ticket: Tido kickoff moved to Building 5.
+#1410  Finance Office: Tido budget increased by $65K.
+#1411  PMO note: Tido risk register updated with 8 new items.
+#1412  Legal email: Tido security review passed.
+#1413  Finance Office: Tido budget increased by $55K after review.
+#1414  Legal email: Tido demo rescheduled to Tuesday afternoon.
+#1415  Finance Office: Tido budget increased by $100K after review.
+#1416  Finance Office: Tido budget decreased by $140K.
+#1417  Finance Office: Withdraw update #0425; it was entered in error.
+#1418  Finance Office: Tido budget increased by $35K after review.
+#1419  PMO note: Tido status report filed for week 30.
+#1420  Operations chat: Tido test environment back online.
+#1421  Facilities ticket: Tido kickoff moved to Building 6.
+#1422  Finance Office: Withdraw update #0593; it was entered in error.
+#1423  Finance Office: Tido budget decreased by $55K after review.
+#1424  Finance Office: Tido budget increased by $5K per the revised plan.
+#1425  Legal email: Tido site visit confirmed for Thursday.
+#1426  Finance Office: Tido budget increased by $35K after review.
+#1427  Engineering email: Tido status report filed for week 6.
+#1428  Operations chat: Tido design review moved to Room 2A.
+#1429  Finance Office: Withdraw update #0431; it was entered in error.
+#1430  Finance Office: Tido budget increased by $15K after review.
+#1431  Finance Office: Tido budget increased by $50K.
+#1432  PMO note: Tido status report filed for week 24.
+#1433  Finance Office: Tido budget decreased by $122K per the revised plan.
+#1434  Facilities ticket: Tido status report filed for week 20.
+#1435  Finance Office: Tido budget increased by $20K per the revised plan.
+#1436  Finance Office: Tido budget increased by $115K per the revised plan.
+#1437  PMO note: Tido status report filed for week 37.
+#1438  Finance Office: Tido budget increased by $15K after review.
+#1439  Finance Office: Withdraw update #0483; it was entered in error.
+#1440  PMO note: Tido status report filed for week 3.
+#1441  Facilities ticket: Tido site visit confirmed for Tuesday.
+#1442  Finance Office: Tido budget increased by $105K per the revised plan.
+#1443  Sales update: Tido security review passed.
+#1444  Operations chat: Tido design review moved to Room 4B.
+#1445  Finance Office: Tido finance review moved to Room 4D.
+#1446  Sales update: Tido design review moved to Room 5A.
+#1447  Marketing email: Tido security review passed.
+#1448  Legal email: Tido design review moved to Room 1A.
+#1449  Sales update: Tido test environment back online.
+#1450  Facilities ticket: Tido test environment back online.
+#1451  Finance Office: Tido budget decreased by $105K after review.
+#1452  Engineering email: Tido site visit confirmed for Friday.
+#1453  Finance Office: Reminder: Tido expense reports are due Monday.
+#1454  Vendor call: Tido test environment back online.
+#1455  Finance Office: Withdraw update #0608; it was entered in error.
+#1456  Finance Office: Tido budget decreased by $152K.
+#1457  Legal email: Tido test environment back online.
+#1458  Finance Office: Tido budget decreased by $90K after review.
+#1459  Finance Office: Tido budget increased by $115K per the revised plan.
+#1460  Finance Office: Tido budget decreased by $135K.
+#1461  Finance Office: Tido budget increased by $10K per the revised plan.
+#1462  Finance Office: Tido budget increased by $110K after review.
+#1463  Finance Office: Tido budget decreased by $5K after review.
+#1464  Engineering email: Tido status report filed for week 29.
+#1465  Vendor call: Tido test environment back online.
+#1466  Marketing email: Tido test environment back online.
+#1467  Finance Office: Tido budget decreased by $75K after review.
+#1468  Vendor call: Tido sprint 10 retrospective notes posted.
+#1469  Operations chat: Tido status report filed for week 43.
+#1470  Engineering email: Tido weekly sync moved to Thursdays.
+#1471  Finance Office: Tido budget increased by $95K per the revised plan.
+#1472  Finance Office: Tido budget decreased by $115K after review.
+#1473  Operations chat: Tido test environment back online.
+#1474  Finance Office: Tido budget increased by $55K after review.
+#1475  Sales update: Tido documentation moved to the shared drive.
+#1476  Finance Office: Withdraw update #0144.
+#1477  Operations chat: Tido documentation moved to the shared drive.
+#1478  Finance Office: Tido budget decreased by $20K per the revised plan.
+#1479  Sales update: Tido vendor onboarding call scheduled for Thursday.
+#1480  Marketing email: Tido design review moved to Room 2A.
+#1481  Sales update: Tido site visit confirmed for Thursday.
+#1482  Sales update: Tido status report filed for week 19.
+#1483  PMO note: Tido kickoff moved to Building 6.
+#1484  PMO note: Tido status report filed for week 19.
+#1485  Finance Office: Tido budget decreased by $130K after review.
+#1486  Finance Office: Tido audit notes filed.
+#1487  Finance Office: Tido budget decreased by $70K after review.
+#1488  Finance Office: Tido budget increased by $145K after review.
+#1489  Engineering email: Tido weekly sync moved to Tuesdays.
+#1490  Finance Office: Withdraw update #1300.
+#1491  Vendor call: Tido test environment back online.
+#1492  Finance Office: Tido budget decreased by $80K after review.
+#1493  Finance Office: Tido budget increased by $90K per the revised plan.
+#1494  Finance Office: Tido budget increased by $50K per the revised plan.
+#1495  Finance Office: Withdraw update #0432.
+#1496  Marketing email: Tido test environment back online.
+#1497  Marketing email: Tido demo rescheduled to Friday afternoon.
+#1498  Finance Office: Tido budget decreased by $60K.
+#1499  Finance Office: Withdraw update #0626; it was entered in error.
+#1500  Finance Office: Tido budget decreased by $70K per the revised plan.
+#1501  Finance Office: Tido quarterly audit scheduled for Monday.
+#1502  Finance Office: Tido budget increased by $115K.
+#1503  Finance Office: Withdraw update #1266; it was entered in error.
+#1504  Facilities ticket: Tido kickoff moved to Building 4.
+#1505  Finance Office: Withdraw update #1456; it was entered in error.
+#1506  Finance Office: Tido budget increased by $25K after review.
+#1507  Finance Office: Withdraw update #0412.
+#1508  Finance Office: Withdraw update #0807.
+#1509  Finance Office: Withdraw update #1146.
+#1510  Finance Office: Tido budget increased by $60K.
+#1511  Marketing email: Tido status report filed for week 31.
+#1512  Finance Office: Withdraw update #0490.
+#1513  Facilities ticket: Tido kickoff moved to Building 7.
+#1514  Finance Office: Tido budget decreased by $40K after review.
+#1515  Facilities ticket: Tido sprint 7 retrospective notes posted.
+#1516  Legal email: Tido security review passed.
+#1517  Marketing email: Tido weekly sync moved to Fridays.
+#1518  Finance Office: Withdraw update #0953; it was entered in error.
+#1519  PMO note: Tido design review moved to Room 5C.
+#1520  Finance Office: Tido budget increased by $70K per the revised plan.
+#1521  Finance Office: Tido budget decreased by $20K per the revised plan.
+#1522  Finance Office: Tido budget decreased by $140K per the revised plan.
+#1523  Finance Office: Tido budget increased by $45K per the revised plan.
+#1524  Finance Office: Tido budget increased by $60K.
+#1525  Finance Office: Withdraw update #0394.
+#1526  Facilities ticket: Tido sprint 27 retrospective notes posted.
+#1527  Finance Office: Withdraw update #1518.
+#1528  Finance Office: Withdraw update #0792; it was entered in error.
+#1529  Finance Office: Withdraw update #1271.
+#1530  Operations chat: Tido sprint 25 retrospective notes posted.
+#1531  Finance Office: Withdraw update #1229.
+#1532  Finance Office: Tido budget increased by $40K after review.
+#1533  Finance Office: Tido budget decreased by $55K after review.
+#1534  Finance Office: Withdraw update #1275; it was entered in error.
+#1535  Legal email: Tido kickoff moved to Building 5.
+#1536  Sales update: Tido status report filed for week 31.
+#1537  Finance Office: Withdraw update #0587; it was entered in error.
+#1538  Legal email: Tido site visit confirmed for Wednesday.
+#1539  Finance Office: Withdraw update #1218; it was entered in error.
+#1540  Marketing email: Tido design review moved to Room 6D.
+#1541  Sales update: Tido kickoff moved to Building 2.
+#1542  Finance Office: Tido budget decreased by $50K after review.
+#1543  Finance Office: Tido budget decreased by $140K after review.
+#1544  Finance Office: Tido cost center code changed to FC-6673.
+#1545  Finance Office: Tido budget increased by $110K per the revised plan.
+#1546  Finance Office: Tido budget decreased by $95K after review.
+#1547  Finance Office: Withdraw update #0507.
+#1548  Finance Office: Withdraw update #0254; it was entered in error.
+#1549  Legal email: Tido sprint 40 retrospective notes posted.
+#1550  PMO note: Tido status report filed for week 24.
+#1551  Engineering email: Tido design review moved to Room 4A.
+#1552  Finance Office: Tido invoice batch FC-9858 archived.
+#1553  Facilities ticket: Tido test environment back online.
+#1554  Marketing email: Tido design review moved to Room 5B.
+#1555  Sales update: Tido weekly sync moved to Mondays.
+#1556  Finance Office: Tido budget decreased by $145K per the revised plan.
+#1557  Finance Office: Tido budget increased by $140K per the revised plan.
+#1558  Finance Office: Tido budget decreased by $50K per the revised plan.
+#1559  Finance Office: Tido budget decreased by $20K after review.
+#1560  PMO note: Tido test environment back online.
+#1561  Finance Office: Tido budget increased by $10K after review.
+#1562  Marketing email: Tido test environment back online.
+#1563  Finance Office: Tido budget increased by $120K after review.
+#1564  Facilities ticket: Tido security review passed.
+#1565  Finance Office: Tido budget decreased by $120K per the revised plan.
+#1566  Marketing email: Tido test environment back online.
+#1567  PMO note: Tido weekly sync moved to Thursdays.
+#1568  Vendor call: Tido site visit confirmed for Friday.
+#1569  Finance Office: Withdraw update #0726; it was entered in error.
+#1570  Finance Office: Withdraw update #1077.
+#1571  Vendor call: Tido kickoff moved to Building 7.
+#1572  Finance Office: Withdraw update #1433.
+#1573  PMO note: Tido weekly sync moved to Tuesdays.
+#1574  Finance Office: Tido budget decreased by $25K per the revised plan.
+#1575  Legal email: Tido weekly sync moved to Thursdays.
+#1576  Finance Office: Withdraw update #0702.
+#1577  Finance Office: Tido budget decreased by $25K after review.
+#1578  Sales update: Tido test environment back online.
+#1579  Finance Office: Tido budget increased by $105K after review.
+#1580  Finance Office: Tido budget decreased by $20K per the revised plan.
+#1581  PMO note: Tido site visit confirmed for Monday.
+#1582  Finance Office: Withdraw update #1045; it was entered in error.
+#1583  Finance Office: Tido budget increased by $60K after review.
+#1584  Operations chat: Tido site visit confirmed for Wednesday.
+#1585  Finance Office: Tido budget increased by $150K per the revised plan.
+#1586  Finance Office: Withdraw update #0690; it was entered in error.
+#1587  Finance Office: Tido budget increased by $120K per the revised plan.
+#1588  Finance Office: Tido budget decreased by $105K after review.
+#1589  Finance Office: Tido budget increased by $60K per the revised plan.
+#1590  Finance Office: Tido budget decreased by $45K after review.
+#1591  Finance Office: Tido budget decreased by $20K after review.
+#1592  Engineering email: Tido site visit confirmed for Thursday.
+#1593  Finance Office: Tido budget increased by $20K.
+#1594  Marketing email: Tido weekly sync moved to Tuesdays.
+#1595  Finance Office: Withdraw update #0894; it was entered in error.
+#1596  PMO note: Tido kickoff moved to Building 4.
+#1597  Engineering email: Tido kickoff moved to Building 9.
+#1598  PMO note: Tido site visit confirmed for Monday.
+#1599  Finance Office: Tido budget increased by $15K after review.
+#1600  Sales update: Tido weekly sync moved to Mondays.
+
+Question: What is Tido's budget now?
