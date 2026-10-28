@@ -1,0 +1,17 @@
+model,instruction,version,calls,correct,accuracy,hit_length_limit,mean_output_tokens,max_output_tokens,mean_response_chars
+claude,none,C,5,5,1.0,0,6986.8,7496,778.0
+claude,none,R,5,1,0.2,0,12472.6,13550,2021.4
+claude,none,RG,5,5,1.0,0,13025.8,14173,1466.8
+claude,none,E,5,5,1.0,0,10864.8,11278,763.0
+claude,skill,C,5,5,1.0,0,7020.4,7346,575.2
+claude,skill,R,5,4,0.8,0,13071.0,14241,1717.6
+claude,skill,RG,5,4,0.8,0,12705.2,13292,1413.6
+claude,skill,E,5,5,1.0,0,10756.6,11299,776.4
+gpt,none,C,5,5,1.0,0,2867.4,3317,96.4
+gpt,none,R,5,3,0.6,0,4946.4,5856,38.2
+gpt,none,RG,5,3,0.6,0,4680.0,5607,139.0
+gpt,none,E,5,4,0.8,0,3169.6,3515,106.4
+gpt,skill,C,5,5,1.0,0,2678.2,3318,145.6
+gpt,skill,R,5,5,1.0,0,5315.8,6735,147.2
+gpt,skill,RG,5,4,0.8,0,5035.8,5738,161.2
+gpt,skill,E,5,5,1.0,0,3629.0,4968,126.6

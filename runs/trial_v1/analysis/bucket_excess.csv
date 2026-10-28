@@ -1,0 +1,17 @@
+model,instruction,bucket,C,R,RG,E,R - C (pp),RG - C (pp),E - C (pp),R - E (pp)
+claude,none,cut_off,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+claude,none,gave_up,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+claude,none,ignored_all_withdrawals,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+claude,none,missed_withdrawal,0.0,0.2,0.0,0.0,20.0,0.0,0.0,20.0
+claude,none,dropped_reinstated,0.0,0.0,0.4,0.0,0.0,40.0,0.0,0.0
+claude,none,counted_gossip,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+claude,none,off_by_one_regular,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+claude,none,other,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gpt,none,cut_off,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gpt,none,gave_up,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gpt,none,ignored_all_withdrawals,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gpt,none,missed_withdrawal,0.0,0.0,0.2,0.0,0.0,20.0,0.0,0.0
+gpt,none,dropped_reinstated,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gpt,none,counted_gossip,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gpt,none,off_by_one_regular,0.0,0.6,0.4,0.0,60.0,40.0,0.0,60.0
+gpt,none,other,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

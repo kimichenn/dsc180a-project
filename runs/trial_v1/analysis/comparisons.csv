@@ -1,0 +1,11 @@
+family,model,comparison,logs,estimate_pp,ci_low_pp,ci_high_pp,p,p_holm
+primary,claude,C - R (no skill),5,20.0,0.0,60.0,1.0,1.0
+primary,claude,E - R (no skill),5,20.0,0.0,60.0,1.0,1.0
+exploratory,claude,R - RG (no skill),5,20.0,-40.0,80.0,1.0,
+exploratory,claude,C - E (no skill),5,0.0,0.0,0.0,1.0,
+exploratory,claude,C - RG (no skill),5,40.0,0.0,80.0,0.5013498650134987,
+primary,gpt,C - R (no skill),5,60.0,20.0,100.0,0.2576742325767423,1.0
+primary,gpt,E - R (no skill),5,60.0,20.0,100.0,0.2576742325767423,1.0
+exploratory,gpt,R - RG (no skill),5,0.0,-60.0,60.0,1.0,
+exploratory,gpt,C - E (no skill),5,0.0,0.0,0.0,1.0,
+exploratory,gpt,C - RG (no skill),5,60.0,20.0,100.0,0.25477452254774524,

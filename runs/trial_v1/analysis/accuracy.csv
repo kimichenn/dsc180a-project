@@ -1,0 +1,9 @@
+model,instruction,version,calls,correct,accuracy,mean_input_tokens,mean_output_tokens,cut_off,gave_up,ignored_all_withdrawals,missed_withdrawal,dropped_reinstated,counted_gossip,off_by_one_regular,other
+claude,none,C,5,5,1.0,43751.8,5724.8,0,0,0,0,0,0,0,0
+claude,none,R,5,4,0.8,42896.6,12106.8,0,0,0,1,0,0,0,0
+claude,none,RG,5,3,0.6,43552.0,11441.2,0,0,0,0,2,0,0,0
+claude,none,E,5,5,1.0,43181.6,9652.6,0,0,0,0,0,0,0,0
+gpt,none,C,5,5,1.0,26986.4,2791.2,0,0,0,0,0,0,0,0
+gpt,none,R,5,2,0.4,27325.2,4087.6,0,0,0,0,0,0,3,0
+gpt,none,RG,5,2,0.4,28588.8,4185.0,0,0,0,1,0,0,2,0
+gpt,none,E,5,5,1.0,27564.0,3638.6,0,0,0,0,0,0,0,0

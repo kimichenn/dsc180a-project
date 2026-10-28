@@ -1,0 +1,46 @@
+trial_v1: 40 of 40 planned calls collected
+
+Accuracy and buckets
+ model instruction version  calls  correct  accuracy  cut_off  gave_up  ignored_all_withdrawals  missed_withdrawal  dropped_reinstated  counted_gossip  off_by_one_regular  other
+claude        none       C      5        5         1        0        0                        0                  0                   0               0                   0      0
+claude        none       R      5        4       0.8        0        0                        0                  1                   0               0                   0      0
+claude        none      RG      5        3       0.6        0        0                        0                  0                   2               0                   0      0
+claude        none       E      5        5         1        0        0                        0                  0                   0               0                   0      0
+   gpt        none       C      5        5         1        0        0                        0                  0                   0               0                   0      0
+   gpt        none       R      5        2       0.4        0        0                        0                  0                   0               0                   3      0
+   gpt        none      RG      5        2       0.4        0        0                        0                  1                   0               0                   2      0
+   gpt        none       E      5        5         1        0        0                        0                  0                   0               0                   0      0
+
+Primary comparisons (repeats averaged per log; 95% bootstrap CI; Holm-corrected p)
+ model       comparison  logs  estimate_pp  ci_low_pp  ci_high_pp      p  p_holm
+claude C - R (no skill)     5           20          0          60      1       1
+claude E - R (no skill)     5           20          0          60      1       1
+   gpt C - R (no skill)     5           60         20         100 0.2577       1
+   gpt E - R (no skill)     5           60         20         100 0.2577       1
+
+Exploratory comparisons (uncorrected)
+ model        comparison  logs  estimate_pp  ci_low_pp  ci_high_pp      p
+claude R - RG (no skill)     5           20        -40          80      1
+claude  C - E (no skill)     5            0          0           0      1
+claude C - RG (no skill)     5           40          0          80 0.5013
+   gpt R - RG (no skill)     5            0        -60          60      1
+   gpt  C - E (no skill)     5            0          0           0      1
+   gpt C - RG (no skill)     5           60         20         100 0.2548
+
+Failure buckets that occurred: share of calls per version, and excess over the baselines
+ model instruction             bucket  C   R  RG  E  R - C (pp)  RG - C (pp)  E - C (pp)  R - E (pp)
+claude        none  missed_withdrawal  0 0.2   0  0          20            0           0          20
+claude        none dropped_reinstated  0   0 0.4  0           0           40           0           0
+   gpt        none  missed_withdrawal  0   0 0.2  0           0           20           0           0
+   gpt        none off_by_one_regular  0 0.6 0.4  0          60           40           0          60
+
+Tokens
+ model instruction version  mean_input_tokens  mean_output_tokens
+claude        none       C          4.375e+04                5725
+claude        none       R           4.29e+04           1.211e+04
+claude        none      RG          4.355e+04           1.144e+04
+claude        none       E          4.318e+04                9653
+   gpt        none       C          2.699e+04                2791
+   gpt        none       R          2.733e+04                4088
+   gpt        none      RG          2.859e+04                4185
+   gpt        none       E          2.756e+04                3639

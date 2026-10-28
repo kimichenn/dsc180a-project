@@ -219,8 +219,7 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Experiment runs: commit everything except what `analyze` rebuilds and a live collect's lock
-runs/*/analysis/
+# Experiment runs: commit inputs, attempts, and analysis; ignore temporary collection files
 runs/*/.collect.lock
 runs/**/*.tmp
 .DS_Store

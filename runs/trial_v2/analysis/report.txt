@@ -1,0 +1,54 @@
+trial_v2: 96 of 96 planned calls collected
+DEVELOPMENT RUN: it checks the setup only. Never analyze it as evidence or pool it with the main run.
+
+Calls per cell: valid, retried, failed attempts, left out after 3 failures, and model-flagged (scored)
+ model instruction version  tier  planned  valid  retried  failed_attempts  left_out  flagged  to_collect
+claude        none       C     1        5      5        0                0         0        0           0
+claude        none       R     1        5      5        0                0         0        0           0
+claude        none       R     2        8      8        0                0         0        0           0
+claude        none      RG     1        5      5        0                0         0        0           0
+claude        none       E     1        5      5        0                0         0        0           0
+claude       skill       C     1        5      5        0                0         0        0           0
+claude       skill       R     1        5      5        0                0         0        0           0
+claude       skill      RG     1        5      5        0                0         0        0           0
+claude       skill       E     1        5      5        0                0         0        0           0
+   gpt        none       C     1        5      5        0                0         0        0           0
+   gpt        none       R     1        5      5        0                0         0        0           0
+   gpt        none       R     2        8      8        0                0         0        0           0
+   gpt        none      RG     1        5      5        0                0         0        0           0
+   gpt        none       E     1        5      5        0                0         0        0           0
+   gpt       skill       C     1        5      5        0                0         0        0           0
+   gpt       skill       R     1        5      5        0                0         0        0           0
+   gpt       skill      RG     1        5      5        0                0         0        0           0
+   gpt       skill       E     1        5      5        0                0         0        0           0
+
+Accuracy and output length per cell, tier 1
+ model instruction version  calls  correct  accuracy  hit_length_limit  mean_output_tokens  max_output_tokens  mean_response_chars
+claude        none       C      5        5         1                 0                6987               7496                  778
+claude        none       R      5        1       0.2                 0           1.247e+04              13550                 2021
+claude        none      RG      5        5         1                 0           1.303e+04              14173                 1467
+claude        none       E      5        5         1                 0           1.086e+04              11278                  763
+claude       skill       C      5        5         1                 0                7020               7346                575.2
+claude       skill       R      5        4       0.8                 0           1.307e+04              14241                 1718
+claude       skill      RG      5        4       0.8                 0           1.271e+04              13292                 1414
+claude       skill       E      5        5         1                 0           1.076e+04              11299                776.4
+   gpt        none       C      5        5         1                 0                2867               3317                 96.4
+   gpt        none       R      5        3       0.6                 0                4946               5856                 38.2
+   gpt        none      RG      5        3       0.6                 0                4680               5607                  139
+   gpt        none       E      5        4       0.8                 0                3170               3515                106.4
+   gpt       skill       C      5        5         1                 0                2678               3318                145.6
+   gpt       skill       R      5        5         1                 0                5316               6735                147.2
+   gpt       skill      RG      5        4       0.8                 0                5036               5738                161.2
+   gpt       skill       E      5        5         1                 0                3629               4968                126.6
+
+Repeats of the tier-2 logs: answers in repeat order, and whether they vary
+ model instruction version      world_id  repeats  correct                  answers  varies
+claude        none       R s610000_n1600        5        4 3589 3372 3372 3372 3372    True
+claude        none       R s610004_n1600        5        3 2136 2453 2558 2453 2453    True
+   gpt        none       R s610000_n1600        5        4 3372 3462 3372 3372 3372    True
+   gpt        none       R s610004_n1600        5        3 2453 2453 2403 2483 2453    True
+
+Sessions and settings from saved call metadata (ok: a new session per call, one model id and effort)
+ model  calls  missing_session_ids  shared_session_ids       model_ids efforts   served_models   ok
+claude     48                    0                   0 claude-opus-5-5     low claude-opus-5-5 True
+   gpt     48                    0                   0     gpt-6-astra     low               - True
