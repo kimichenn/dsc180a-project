@@ -1,0 +1,133 @@
+{
+ "trial_id": "s700004_n1600_E_none_claude_r2",
+ "order": 339,
+ "world_id": "s700004_n1600",
+ "version": "E",
+ "instruction": "none",
+ "model": "claude",
+ "repeat": 2,
+ "tier": 1,
+ "provider": "claude-code",
+ "model_id": "claude-opus-5-5",
+ "effort": "low",
+ "operator": "kimi-chen",
+ "git_commit": "cf172152af399d9d2e71da56f3b81845376a9c2c",
+ "git_dirty": false,
+ "client_version": "2.1.283 (Claude Code)",
+ "prompt_sha256": "0f82c49c20120d8945c8944f835cfa1a0c182504f5b5318147a170a32adfd84a",
+ "started_at": "2026-10-30T22:35:13+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Vekre's budget is now $1625K.\n\nNo withdrawals appear in the records, so every Finance Office budget change applies in order. Messages from other teams, and Finance Office notes that don't change the budget, were ignored.\n\n1. Record #0001 sets the starting budget to $2550K.\n2. Every later Finance Office increase or decrease, from #0002 through #1599, was applied in record order.\n3. Selected running totals:\n   - After #0099: $2640K\n   - After #0433: $4146K\n   - After #0824: $462K\n   - After #1439: $636K\n   - After #1599: $1625K\n\nThe total comes from adding about 1,000 figures one by one, so a small slip is possible.\n\nANSWER: $1625K",
+ "usage": {
+  "input_tokens": 43045,
+  "cached_input_tokens": 42845,
+  "output_tokens": 11186,
+  "reasoning_output_tokens": null,
+  "turns": 1
+ },
+ "served_model": "claude-opus-5-5",
+ "stop_reason": "end_turn",
+ "session_id": "19286657-dbb5-429e-89f2-5c7f2775cc25",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "duration_api_ms": 72757,
+  "stop_reason": "end_turn",
+  "session_id": "19286657-dbb5-429e-89f2-5c7f2775cc25",
+  "total_cost_usd": 0.233881,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 198,
+   "cache_read_input_tokens": 42845,
+   "output_tokens": 11186,
+   "output_tokens_details": {
+    "thinking_tokens": 10948
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 198,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 11186,
+     "cache_read_input_tokens": 42845,
+     "cache_creation_input_tokens": 198,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 198
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 11186,
+    "cacheReadInputTokens": 42845,
+    "cacheCreationInputTokens": 198,
+    "webSearchRequests": 0,
+    "costUSD": 0.233881,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 10948,
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "ttft_ms": 70379,
+  "type": "result",
+  "duration_ms": 72914,
+  "uuid": "6d719de3-e72e-4c40-b089-72d5463e91d1",
+  "ttft_stream_ms": 700,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 700,
+  "queued_turn_count": 0,
+  "result_index": 0
+ },
+ "finished_at": "2026-10-30T22:36:27+00:00",
+ "elapsed_s": 73.8
+}
