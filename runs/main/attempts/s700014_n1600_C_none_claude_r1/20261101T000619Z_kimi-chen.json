@@ -1,0 +1,133 @@
+{
+ "trial_id": "s700014_n1600_C_none_claude_r1",
+ "order": 1040,
+ "world_id": "s700014_n1600",
+ "version": "C",
+ "instruction": "none",
+ "model": "claude",
+ "repeat": 1,
+ "tier": 1,
+ "provider": "claude-code",
+ "model_id": "claude-opus-5-5",
+ "effort": "low",
+ "operator": "kimi-chen",
+ "git_commit": "3ba112af1c1d7040863101fed067649f7eea8cd7",
+ "git_dirty": true,
+ "client_version": "2.1.283 (Claude Code)",
+ "prompt_sha256": "58040f1e60818464db8eb61efbb89af5c8ebd67bb8bfe2962cec05d4b207c332",
+ "started_at": "2026-11-01T00:06:19+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Drasti's budget now is **$2,497K**.\n\n1. The Finance Office set the starting budget to $2,300K (#0001).\n2. Every later budget increase and decrease from the Finance Office was applied in order, from #0007 through #1600.\n3. None of the records is a withdrawal, so no update was cancelled.\n4. Messages from other sources (Sales, Engineering, Operations, PMO, Vendor, Legal, Marketing, Facilities) change nothing about the budget. Finance Office items that are not budget changes, such as reminders, audits, receipts and cost center codes, do not affect it either.\n\nThe final total comes from a long running tally done by hand, so a slip on one entry would change it.\n\nANSWER: $2497K",
+ "usage": {
+  "input_tokens": 43493,
+  "cached_input_tokens": 43296,
+  "output_tokens": 7048,
+  "reasoning_output_tokens": null,
+  "turns": 1
+ },
+ "served_model": "claude-opus-5-5",
+ "stop_reason": "end_turn",
+ "session_id": "4bf47b3c-df99-4d99-8cae-8ce5a05aca85",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "duration_api_ms": 46024,
+  "stop_reason": "end_turn",
+  "session_id": "4bf47b3c-df99-4d99-8cae-8ce5a05aca85",
+  "total_cost_usd": 0.15118720000000002,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 195,
+   "cache_read_input_tokens": 43296,
+   "output_tokens": 7048,
+   "output_tokens_details": {
+    "thinking_tokens": 6806
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 195,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 7048,
+     "cache_read_input_tokens": 43296,
+     "cache_creation_input_tokens": 195,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 195
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 7048,
+    "cacheReadInputTokens": 43296,
+    "cacheCreationInputTokens": 195,
+    "webSearchRequests": 0,
+    "costUSD": 0.15118720000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 6806,
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "ttft_ms": 43898,
+  "type": "result",
+  "duration_ms": 46048,
+  "uuid": "35e1a101-c126-4d00-8312-b76b03cf5fa8",
+  "ttft_stream_ms": 801,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 801,
+  "queued_turn_count": 0,
+  "result_index": 0
+ },
+ "finished_at": "2026-11-01T00:07:06+00:00",
+ "elapsed_s": 47.1
+}

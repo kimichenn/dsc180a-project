@@ -1,0 +1,133 @@
+{
+ "trial_id": "s700013_n1600_C_none_claude_r3",
+ "order": 996,
+ "world_id": "s700013_n1600",
+ "version": "C",
+ "instruction": "none",
+ "model": "claude",
+ "repeat": 3,
+ "tier": 1,
+ "provider": "claude-code",
+ "model_id": "claude-opus-5-5",
+ "effort": "low",
+ "operator": "kimi-chen",
+ "git_commit": "3ba112af1c1d7040863101fed067649f7eea8cd7",
+ "git_dirty": true,
+ "client_version": "2.1.283 (Claude Code)",
+ "prompt_sha256": "1b86840472ada5a226a09593a228af3b61b914c0bb812b47a7772e22a3d20c2d",
+ "started_at": "2026-10-31T23:58:12+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Thebreta's budget is now $2308K. The records contain no withdrawals by the Finance Office, so every Finance Office budget update applies in order. Messages from other sources do not change the budget.\n\n1. The Finance Office set the budget to $2450K in #0001.\n2. I applied each later Finance Office increase and decrease in record order, from #0003 through #1598. Selected running totals:\n   - After #0019 (+$444K): $3250K\n   - After #0081 (\u2212$366K): $1876K\n   - After #0303 (+$572K) and #0305 (\u2212$581K): $1938K\n   - After #0562 (+$522K): $3743K\n   - After #0907 (+$579K): $3502K\n   - After #0961 (\u2212$576K): $3441K\n   - After #1206 (\u2212$516K): $2193K\n   - After #1525 (\u2212$150K): $1163K\n   - After #1598 (+$100K), the last update: $2308K\n\nANSWER: $2308K",
+ "usage": {
+  "input_tokens": 44925,
+  "cached_input_tokens": 44724,
+  "output_tokens": 7021,
+  "reasoning_output_tokens": null,
+  "turns": 1
+ },
+ "served_model": "claude-opus-5-5",
+ "stop_reason": "end_turn",
+ "session_id": "8d9ec727-b384-4eaa-aa4f-4af782c0b7b1",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "duration_api_ms": 47247,
+  "stop_reason": "end_turn",
+  "session_id": "8d9ec727-b384-4eaa-aa4f-4af782c0b7b1",
+  "total_cost_usd": 0.15096480000000004,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 199,
+   "cache_read_input_tokens": 44724,
+   "output_tokens": 7021,
+   "output_tokens_details": {
+    "thinking_tokens": 6706
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 199,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 7021,
+     "cache_read_input_tokens": 44724,
+     "cache_creation_input_tokens": 199,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 199
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 7021,
+    "cacheReadInputTokens": 44724,
+    "cacheCreationInputTokens": 199,
+    "webSearchRequests": 0,
+    "costUSD": 0.15096480000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 6706,
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "ttft_ms": 44777,
+  "type": "result",
+  "duration_ms": 47287,
+  "uuid": "edf38ae7-f767-4c4d-8653-f8f56efd34b0",
+  "ttft_stream_ms": 2385,
+  "time_to_request_ms": 39,
+  "first_content_frame_ms": 2385,
+  "queued_turn_count": 0,
+  "result_index": 0
+ },
+ "finished_at": "2026-10-31T23:59:00+00:00",
+ "elapsed_s": 48.2
+}
