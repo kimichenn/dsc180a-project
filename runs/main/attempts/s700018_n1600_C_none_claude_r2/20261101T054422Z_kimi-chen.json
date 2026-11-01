@@ -1,0 +1,133 @@
+{
+ "trial_id": "s700018_n1600_C_none_claude_r2",
+ "order": 1201,
+ "world_id": "s700018_n1600",
+ "version": "C",
+ "instruction": "none",
+ "model": "claude",
+ "repeat": 2,
+ "tier": 1,
+ "provider": "claude-code",
+ "model_id": "claude-opus-5-5",
+ "effort": "low",
+ "operator": "kimi-chen",
+ "git_commit": "542cd7ad385157d3d4df76680a732abdf3a2c9fc",
+ "git_dirty": true,
+ "client_version": "2.1.283 (Claude Code)",
+ "prompt_sha256": "5ed15df1c696839e9f013f22578eeb056a3f1f20b460ea019b0a5160c3a7ab19",
+ "started_at": "2026-11-01T05:44:22+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Tepi's budget is now **$1,905K**.\n\nNo withdrawals appear in the records, and the non-Finance messages say nothing about the budget. So every Finance Office budget update applies, in order.\n\nStarting from the base set in #0001 ($1,810K), here are running totals at selected points:\n\n| After record | Running budget |\n|---|---|\n| #0001 (base) | $1,810K |\n| #0100 | $3,146K |\n| #0200 | $3,700K |\n| #0300 | $2,281K |\n| #0400 | $1,453K |\n| #0500 | $1,372K |\n| #0600 | $695K |\n| #0700 | $2,329K |\n| #0800 | $1,885K |\n| #0900 | $2,383K |\n| #1000 | $2,813K |\n| #1100 | $2,433K |\n| #1200 | $1,858K |\n| #1300 | $2,720K |\n| #1400 | $2,565K |\n| #1500 | $2,240K |\n| #1600 (final) | $1,905K |\n\nANSWER: $1905K",
+ "usage": {
+  "input_tokens": 43503,
+  "cached_input_tokens": 0,
+  "output_tokens": 6663,
+  "reasoning_output_tokens": null,
+  "turns": 1
+ },
+ "served_model": "claude-opus-5-5",
+ "stop_reason": "end_turn",
+ "session_id": "4819ddb8-1072-486a-b60b-09b7d8438d62",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "duration_api_ms": 45217,
+  "stop_reason": "end_turn",
+  "session_id": "4819ddb8-1072-486a-b60b-09b7d8438d62",
+  "total_cost_usd": 0.481276,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 43501,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 6663,
+   "output_tokens_details": {
+    "thinking_tokens": 6315
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43501,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 6663,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 43501,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 43501
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 6663,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 43501,
+    "webSearchRequests": 0,
+    "costUSD": 0.481276,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 6315,
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "ttft_ms": 42261,
+  "type": "result",
+  "duration_ms": 45253,
+  "uuid": "0622d996-ed63-4839-ba9b-de415ffa2a34",
+  "ttft_stream_ms": 2465,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 2466,
+  "queued_turn_count": 0,
+  "result_index": 0
+ },
+ "finished_at": "2026-11-01T05:45:08+00:00",
+ "elapsed_s": 46.1
+}
