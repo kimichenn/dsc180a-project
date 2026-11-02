@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700002_n1600_C_none_gpt_r1",
+ "order": 185,
+ "world_id": "s700002_n1600",
+ "version": "C",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 1,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5e3153f2c6ee1a081b73cd826043160be766af3a",
+ "git_dirty": false,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "e8355e54dd0ba769d0fb08aabcde5ce3fbc9190121721b2d5d68cb85e30de16c",
+ "started_at": "2026-11-02T00:20:42+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Starting from $1,710K, the Finance Office\u2019s budget increases and decreases produce a net increase of $508K. There are no withdrawals in the records. Non-budget messages do not affect the total.\n\nANSWER: $2218K",
+ "usage": {
+  "input_tokens": 27115,
+  "cached_input_tokens": 0,
+  "output_tokens": 3244,
+  "reasoning_output_tokens": 3190
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a199a1-395e-7fc3-861e-e8e5d8c8af71",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a199a1-395e-7fc3-861e-e8e5d8c8af71"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Starting from $1,710K, the Finance Office\u2019s budget increases and decreases produce a net increase of $508K. There are no withdrawals in the records. Non-budget messages do not affect the total.\n\nANSWER: $2218K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 27115,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3244,
+     "reasoning_output_tokens": 3190
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T00:21:16+00:00",
+ "elapsed_s": 34.0
+}

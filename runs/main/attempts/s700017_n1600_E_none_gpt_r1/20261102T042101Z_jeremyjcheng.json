@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700017_n1600_E_none_gpt_r1",
+ "order": 1186,
+ "world_id": "s700017_n1600",
+ "version": "E",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 1,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5e3153f2c6ee1a081b73cd826043160be766af3a",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "4b17d033fcaf84f2d47f41466bab24ddec9a65723da98d186396f5ab092059ac",
+ "started_at": "2026-11-02T04:21:01+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Applying all Finance Office budget changes to the initial $1,870K gives a net increase of $720K. Non-budget messages do not affect the total.\n\nANSWER: $2590K",
+ "usage": {
+  "input_tokens": 27590,
+  "cached_input_tokens": 0,
+  "output_tokens": 3742,
+  "reasoning_output_tokens": 3698
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19a7d-3e15-7d70-94d2-10a1a1efb84a",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19a7d-3e15-7d70-94d2-10a1a1efb84a"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Applying all Finance Office budget changes to the initial $1,870K gives a net increase of $720K. Non-budget messages do not affect the total.\n\nANSWER: $2590K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 27590,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3742,
+     "reasoning_output_tokens": 3698
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T04:22:18+00:00",
+ "elapsed_s": 77.0
+}

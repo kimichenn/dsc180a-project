@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700003_n1600_C_skill_gpt_r2",
+ "order": 222,
+ "world_id": "s700003_n1600",
+ "version": "C",
+ "instruction": "skill",
+ "model": "gpt",
+ "repeat": 2,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5e3153f2c6ee1a081b73cd826043160be766af3a",
+ "git_dirty": false,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "0e53f2622f3c2cc3ba5ff1a439d86744669367f6602763997dfb58a5a42430d5",
+ "started_at": "2026-11-02T00:27:46+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Driril\u2019s initial budget was $1,630K. All subsequent Finance Office budget changes total a net decrease of $102K, and no withdrawals appear in the records.\n\nANSWER: $1528K",
+ "usage": {
+  "input_tokens": 27817,
+  "cached_input_tokens": 0,
+  "output_tokens": 2105,
+  "reasoning_output_tokens": 2058
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a199a7-b173-7261-a9a3-8573f001d420",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a199a7-b173-7261-a9a3-8573f001d420"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Driril\u2019s initial budget was $1,630K. All subsequent Finance Office budget changes total a net decrease of $102K, and no withdrawals appear in the records.\n\nANSWER: $1528K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 27817,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2105,
+     "reasoning_output_tokens": 2058
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T00:28:30+00:00",
+ "elapsed_s": 44.8
+}

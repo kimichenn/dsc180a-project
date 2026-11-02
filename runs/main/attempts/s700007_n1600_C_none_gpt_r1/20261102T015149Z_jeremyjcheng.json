@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700007_n1600_C_none_gpt_r1",
+ "order": 547,
+ "world_id": "s700007_n1600",
+ "version": "C",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 1,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5e3153f2c6ee1a081b73cd826043160be766af3a",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "5c5694e4b891713aeee0f31e450817ea41c3e514c53486c887bc915f9cc7e989",
+ "started_at": "2026-11-02T01:51:49+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Tido\u2019s initial budget was $1,650K. The Finance Office\u2019s subsequent budget changes total a net increase of $2,280K. No withdrawals appear in the records.\n\nANSWER: $3930K",
+ "usage": {
+  "input_tokens": 27111,
+  "cached_input_tokens": 0,
+  "output_tokens": 2251,
+  "reasoning_output_tokens": 2202
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a199f4-a46e-71b2-9c37-dc6d8f465f6d",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a199f4-a46e-71b2-9c37-dc6d8f465f6d"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Tido\u2019s initial budget was $1,650K. The Finance Office\u2019s subsequent budget changes total a net increase of $2,280K. No withdrawals appear in the records.\n\nANSWER: $3930K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 27111,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2251,
+     "reasoning_output_tokens": 2202
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T01:52:39+00:00",
+ "elapsed_s": 50.3
+}

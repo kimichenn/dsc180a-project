@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700013_n1600_C_skill_gpt_r2",
+ "order": 1004,
+ "world_id": "s700013_n1600",
+ "version": "C",
+ "instruction": "skill",
+ "model": "gpt",
+ "repeat": 2,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5e3153f2c6ee1a081b73cd826043160be766af3a",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "3f295de1a307cf12d3ce6f4333cfbb7658d1f8de72d53a59ec4e590ea4e5d4b8",
+ "started_at": "2026-11-02T03:41:17+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Thebreta started at $2,450K. All Finance Office budget increases and decreases total a net decrease of $142K. No withdrawals appear in the records; non-budget messages do not affect the total.\n\nANSWER: $2308K",
+ "usage": {
+  "input_tokens": 29522,
+  "cached_input_tokens": 0,
+  "output_tokens": 3247,
+  "reasoning_output_tokens": 3192
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19a58-dd0e-71d0-84fb-c8d3b3e2a8dd",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19a58-dd0e-71d0-84fb-c8d3b3e2a8dd"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Thebreta started at $2,450K. All Finance Office budget increases and decreases total a net decrease of $142K. No withdrawals appear in the records; non-budget messages do not affect the total.\n\nANSWER: $2308K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 29522,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3247,
+     "reasoning_output_tokens": 3192
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T03:42:08+00:00",
+ "elapsed_s": 51.9
+}

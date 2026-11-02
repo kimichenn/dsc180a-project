@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700002_n1600_C_skill_gpt_r3",
+ "order": 177,
+ "world_id": "s700002_n1600",
+ "version": "C",
+ "instruction": "skill",
+ "model": "gpt",
+ "repeat": 3,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5e3153f2c6ee1a081b73cd826043160be766af3a",
+ "git_dirty": false,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "daf2b93e445c477b7702bdbe2c502e9c51e717cce9b09ae574625b85a4cdb940",
+ "started_at": "2026-11-02T00:20:22+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Toris\u2019s starting budget was $1,710K. The Finance Office\u2019s subsequent budget changes total a net increase of $508K; no withdrawals are recorded.\n\nANSWER: $2218K",
+ "usage": {
+  "input_tokens": 27892,
+  "cached_input_tokens": 0,
+  "output_tokens": 2266,
+  "reasoning_output_tokens": 2221
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a199a0-ec17-7931-82c0-cd9775d7c482",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a199a0-ec17-7931-82c0-cd9775d7c482"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Toris\u2019s starting budget was $1,710K. The Finance Office\u2019s subsequent budget changes total a net increase of $508K; no withdrawals are recorded.\n\nANSWER: $2218K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 27892,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 2266,
+     "reasoning_output_tokens": 2221
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T00:21:08+00:00",
+ "elapsed_s": 46.5
+}

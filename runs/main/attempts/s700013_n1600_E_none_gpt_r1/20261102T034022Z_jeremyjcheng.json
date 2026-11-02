@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700013_n1600_E_none_gpt_r1",
+ "order": 1001,
+ "world_id": "s700013_n1600",
+ "version": "E",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 1,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5e3153f2c6ee1a081b73cd826043160be766af3a",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "3aae14bc8e407302b8013e0e93fb7f30629094d319bd78da4be99daa9fbab26d",
+ "started_at": "2026-11-02T03:40:22+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Only Finance Office budget updates count. There are no withdrawals in the records. Applying all increases and decreases to the initial $2,450K budget gives a net decrease of $142K.\n\nANSWER: $2308K",
+ "usage": {
+  "input_tokens": 29214,
+  "cached_input_tokens": 0,
+  "output_tokens": 3574,
+  "reasoning_output_tokens": 3524
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19a58-084a-7fe1-8bec-c4895c3f9b1a",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19a58-084a-7fe1-8bec-c4895c3f9b1a"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Only Finance Office budget updates count. There are no withdrawals in the records. Applying all increases and decreases to the initial $2,450K budget gives a net decrease of $142K.\n\nANSWER: $2308K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 29214,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3574,
+     "reasoning_output_tokens": 3524
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T03:41:54+00:00",
+ "elapsed_s": 92.0
+}

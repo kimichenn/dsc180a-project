@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700015_n1600_C_skill_gpt_r3",
+ "order": 1100,
+ "world_id": "s700015_n1600",
+ "version": "C",
+ "instruction": "skill",
+ "model": "gpt",
+ "repeat": 3,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5e3153f2c6ee1a081b73cd826043160be766af3a",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "7975e0e4bc8a89ee55618a792153cce65f0cebde0a826d455a23cc2e1f6686a6",
+ "started_at": "2026-11-02T04:03:24+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Mifa\u2019s starting budget was $1,040K. The Finance Office\u2019s subsequent budget changes total a net increase of $785K, with no withdrawals recorded.\n\nANSWER: $1825K",
+ "usage": {
+  "input_tokens": 27859,
+  "cached_input_tokens": 0,
+  "output_tokens": 3093,
+  "reasoning_output_tokens": 3048
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19a6d-1f5e-7a33-a7e9-9c886b052298",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19a6d-1f5e-7a33-a7e9-9c886b052298"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Mifa\u2019s starting budget was $1,040K. The Finance Office\u2019s subsequent budget changes total a net increase of $785K, with no withdrawals recorded.\n\nANSWER: $1825K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 27859,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3093,
+     "reasoning_output_tokens": 3048
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T04:04:05+00:00",
+ "elapsed_s": 40.3
+}

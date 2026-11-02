@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700002_n1600_C_none_gpt_r2",
+ "order": 190,
+ "world_id": "s700002_n1600",
+ "version": "C",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 2,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5e3153f2c6ee1a081b73cd826043160be766af3a",
+ "git_dirty": false,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "e8355e54dd0ba769d0fb08aabcde5ce3fbc9190121721b2d5d68cb85e30de16c",
+ "started_at": "2026-11-02T00:21:28+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Applying all Finance Office budget updates in order, and ignoring non-budget messages, Toris\u2019s current budget is **$2,218K**. No withdrawals appear in the records.\n\nANSWER: $2218K",
+ "usage": {
+  "input_tokens": 27115,
+  "cached_input_tokens": 0,
+  "output_tokens": 3223,
+  "reasoning_output_tokens": 3175
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a199a1-eeda-78d0-aea5-7b8dfaca143d",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a199a1-eeda-78d0-aea5-7b8dfaca143d"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Applying all Finance Office budget updates in order, and ignoring non-budget messages, Toris\u2019s current budget is **$2,218K**. No withdrawals appear in the records.\n\nANSWER: $2218K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 27115,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3223,
+     "reasoning_output_tokens": 3175
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T00:22:07+00:00",
+ "elapsed_s": 38.4
+}

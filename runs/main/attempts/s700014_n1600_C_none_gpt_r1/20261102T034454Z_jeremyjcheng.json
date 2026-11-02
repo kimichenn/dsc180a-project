@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700014_n1600_C_none_gpt_r1",
+ "order": 1018,
+ "world_id": "s700014_n1600",
+ "version": "C",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 1,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5e3153f2c6ee1a081b73cd826043160be766af3a",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "58040f1e60818464db8eb61efbb89af5c8ebd67bb8bfe2962cec05d4b207c332",
+ "started_at": "2026-11-02T03:44:54+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Drasti\u2019s initial budget was $2,300K. The Finance Office\u2019s subsequent budget updates net to an increase of $197K. No withdrawals appear in the records.\n\nANSWER: $2497K",
+ "usage": {
+  "input_tokens": 26988,
+  "cached_input_tokens": 0,
+  "output_tokens": 3138,
+  "reasoning_output_tokens": 3091
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19a5c-2fbf-7c62-a5e1-974b5a45d837",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19a5c-2fbf-7c62-a5e1-974b5a45d837"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Drasti\u2019s initial budget was $2,300K. The Finance Office\u2019s subsequent budget updates net to an increase of $197K. No withdrawals appear in the records.\n\nANSWER: $2497K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 26988,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3138,
+     "reasoning_output_tokens": 3091
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T03:45:35+00:00",
+ "elapsed_s": 40.3
+}

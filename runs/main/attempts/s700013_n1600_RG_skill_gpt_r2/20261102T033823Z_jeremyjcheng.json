@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700013_n1600_RG_skill_gpt_r2",
+ "order": 993,
+ "world_id": "s700013_n1600",
+ "version": "RG",
+ "instruction": "skill",
+ "model": "gpt",
+ "repeat": 2,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5e3153f2c6ee1a081b73cd826043160be766af3a",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "51ac1d95517b4f6fc77ddc46fee3fbfe4b618f82b9f5a5319f646ed12a201b18",
+ "started_at": "2026-11-02T03:38:23+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Thebreta\u2019s current budget is **$2,427K**, applying only effective Finance Office updates and resolving all withdrawals, including withdrawals of withdrawals.\n\nANSWER: $2427K",
+ "usage": {
+  "input_tokens": 30765,
+  "cached_input_tokens": 0,
+  "output_tokens": 5109,
+  "reasoning_output_tokens": 5067
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19a56-35c8-7d13-9e35-6048e56f8a8e",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19a56-35c8-7d13-9e35-6048e56f8a8e"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Thebreta\u2019s current budget is **$2,427K**, applying only effective Finance Office updates and resolving all withdrawals, including withdrawals of withdrawals.\n\nANSWER: $2427K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 30765,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 5109,
+     "reasoning_output_tokens": 5067
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T03:40:12+00:00",
+ "elapsed_s": 109.2
+}

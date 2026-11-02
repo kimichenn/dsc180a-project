@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700010_n1600_C_skill_gpt_r2",
+ "order": 775,
+ "world_id": "s700010_n1600",
+ "version": "C",
+ "instruction": "skill",
+ "model": "gpt",
+ "repeat": 2,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5e3153f2c6ee1a081b73cd826043160be766af3a",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "cceeec14adf83eee5f956dddeb7cf279280f651bb7aaa18187b879d3307b5cfe",
+ "started_at": "2026-11-02T02:43:28+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Stedamu\u2019s initial budget was $1,880K (#0001). All subsequent Finance Office budget changes total a net increase of $623K. No withdrawals appear in the records; non-budget messages have no effect.\n\nANSWER: $2503K",
+ "usage": {
+  "input_tokens": 29406,
+  "cached_input_tokens": 0,
+  "output_tokens": 3293,
+  "reasoning_output_tokens": 3236
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19a23-eff1-7e70-83c5-3adbe3c83f1e",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19a23-eff1-7e70-83c5-3adbe3c83f1e"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Stedamu\u2019s initial budget was $1,880K (#0001). All subsequent Finance Office budget changes total a net increase of $623K. No withdrawals appear in the records; non-budget messages have no effect.\n\nANSWER: $2503K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 29406,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3293,
+     "reasoning_output_tokens": 3236
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T02:44:10+00:00",
+ "elapsed_s": 42.4
+}
