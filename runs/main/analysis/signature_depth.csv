@@ -1,0 +1,193 @@
+model,instruction,version,chains,matches,chain_calls,rate_per_chain
+claude,none,C,depth 1,0,9435,0.0
+claude,none,C,depth 2,0,3072,0.0
+claude,none,C,depth 3,0,1026,0.0
+claude,none,C,depth 4,0,405,0.0
+claude,none,C,depth 5,0,138,0.0
+claude,none,C,depth 6,0,66,0.0
+claude,none,C,depth 7,0,18,0.0
+claude,none,C,depth 8,0,6,0.0
+claude,none,C,depth 9,0,3,0.0
+claude,none,C,depth 12,0,3,0.0
+claude,none,C,odd depth (cancelled),0,10620,0.0
+claude,none,C,even depth (restored),0,3552,0.0
+claude,none,E,depth 1,0,9435,0.0
+claude,none,E,depth 2,0,3072,0.0
+claude,none,E,depth 3,0,1026,0.0
+claude,none,E,depth 4,0,405,0.0
+claude,none,E,depth 5,0,138,0.0
+claude,none,E,depth 6,0,66,0.0
+claude,none,E,depth 7,0,18,0.0
+claude,none,E,depth 8,0,6,0.0
+claude,none,E,depth 9,0,3,0.0
+claude,none,E,depth 12,0,3,0.0
+claude,none,E,odd depth (cancelled),0,10620,0.0
+claude,none,E,even depth (restored),0,3552,0.0
+claude,none,R,depth 1,12,9435,0.0012718600953895071
+claude,none,R,depth 2,7,3072,0.0022786458333333335
+claude,none,R,depth 3,0,1026,0.0
+claude,none,R,depth 4,3,405,0.007407407407407408
+claude,none,R,depth 5,0,138,0.0
+claude,none,R,depth 6,0,66,0.0
+claude,none,R,depth 7,0,18,0.0
+claude,none,R,depth 8,0,6,0.0
+claude,none,R,depth 9,0,3,0.0
+claude,none,R,depth 12,0,3,0.0
+claude,none,R,odd depth (cancelled),12,10620,0.0011299435028248588
+claude,none,R,even depth (restored),10,3552,0.002815315315315315
+claude,none,RG,depth 1,15,9435,0.001589825119236884
+claude,none,RG,depth 2,2,3072,0.0006510416666666666
+claude,none,RG,depth 3,0,1026,0.0
+claude,none,RG,depth 4,0,405,0.0
+claude,none,RG,depth 5,1,138,0.007246376811594203
+claude,none,RG,depth 6,0,66,0.0
+claude,none,RG,depth 7,0,18,0.0
+claude,none,RG,depth 8,0,6,0.0
+claude,none,RG,depth 9,0,3,0.0
+claude,none,RG,depth 12,0,3,0.0
+claude,none,RG,odd depth (cancelled),16,10620,0.0015065913370998117
+claude,none,RG,even depth (restored),2,3552,0.0005630630630630631
+claude,skill,C,depth 1,0,9435,0.0
+claude,skill,C,depth 2,1,3072,0.0003255208333333333
+claude,skill,C,depth 3,0,1026,0.0
+claude,skill,C,depth 4,0,405,0.0
+claude,skill,C,depth 5,0,138,0.0
+claude,skill,C,depth 6,0,66,0.0
+claude,skill,C,depth 7,0,18,0.0
+claude,skill,C,depth 8,0,6,0.0
+claude,skill,C,depth 9,0,3,0.0
+claude,skill,C,depth 12,0,3,0.0
+claude,skill,C,odd depth (cancelled),0,10620,0.0
+claude,skill,C,even depth (restored),1,3552,0.00028153153153153153
+claude,skill,E,depth 1,0,9435,0.0
+claude,skill,E,depth 2,0,3072,0.0
+claude,skill,E,depth 3,0,1026,0.0
+claude,skill,E,depth 4,0,405,0.0
+claude,skill,E,depth 5,0,138,0.0
+claude,skill,E,depth 6,0,66,0.0
+claude,skill,E,depth 7,0,18,0.0
+claude,skill,E,depth 8,0,6,0.0
+claude,skill,E,depth 9,0,3,0.0
+claude,skill,E,depth 12,0,3,0.0
+claude,skill,E,odd depth (cancelled),0,10620,0.0
+claude,skill,E,even depth (restored),0,3552,0.0
+claude,skill,R,depth 1,7,9435,0.0007419183889772125
+claude,skill,R,depth 2,0,3072,0.0
+claude,skill,R,depth 3,1,1026,0.0009746588693957114
+claude,skill,R,depth 4,0,405,0.0
+claude,skill,R,depth 5,0,138,0.0
+claude,skill,R,depth 6,3,66,0.045454545454545456
+claude,skill,R,depth 7,0,18,0.0
+claude,skill,R,depth 8,0,6,0.0
+claude,skill,R,depth 9,0,3,0.0
+claude,skill,R,depth 12,0,3,0.0
+claude,skill,R,odd depth (cancelled),8,10620,0.0007532956685499058
+claude,skill,R,even depth (restored),3,3552,0.0008445945945945946
+claude,skill,RG,depth 1,6,9435,0.0006359300476947536
+claude,skill,RG,depth 2,1,3072,0.0003255208333333333
+claude,skill,RG,depth 3,0,1026,0.0
+claude,skill,RG,depth 4,1,405,0.0024691358024691358
+claude,skill,RG,depth 5,0,138,0.0
+claude,skill,RG,depth 6,1,66,0.015151515151515152
+claude,skill,RG,depth 7,0,18,0.0
+claude,skill,RG,depth 8,0,6,0.0
+claude,skill,RG,depth 9,0,3,0.0
+claude,skill,RG,depth 12,0,3,0.0
+claude,skill,RG,odd depth (cancelled),6,10620,0.0005649717514124294
+claude,skill,RG,even depth (restored),3,3552,0.0008445945945945946
+gpt,none,C,depth 1,0,9435,0.0
+gpt,none,C,depth 2,0,3072,0.0
+gpt,none,C,depth 3,0,1026,0.0
+gpt,none,C,depth 4,0,405,0.0
+gpt,none,C,depth 5,0,138,0.0
+gpt,none,C,depth 6,0,66,0.0
+gpt,none,C,depth 7,0,18,0.0
+gpt,none,C,depth 8,0,6,0.0
+gpt,none,C,depth 9,0,3,0.0
+gpt,none,C,depth 12,0,3,0.0
+gpt,none,C,odd depth (cancelled),0,10620,0.0
+gpt,none,C,even depth (restored),0,3552,0.0
+gpt,none,E,depth 1,0,9435,0.0
+gpt,none,E,depth 2,0,3072,0.0
+gpt,none,E,depth 3,1,1026,0.0009746588693957114
+gpt,none,E,depth 4,0,405,0.0
+gpt,none,E,depth 5,0,138,0.0
+gpt,none,E,depth 6,0,66,0.0
+gpt,none,E,depth 7,0,18,0.0
+gpt,none,E,depth 8,0,6,0.0
+gpt,none,E,depth 9,0,3,0.0
+gpt,none,E,depth 12,0,3,0.0
+gpt,none,E,odd depth (cancelled),1,10620,9.416195856873823e-05
+gpt,none,E,even depth (restored),0,3552,0.0
+gpt,none,R,depth 1,1,9435,0.00010598834128245893
+gpt,none,R,depth 2,3,3072,0.0009765625
+gpt,none,R,depth 3,0,1026,0.0
+gpt,none,R,depth 4,3,405,0.007407407407407408
+gpt,none,R,depth 5,0,138,0.0
+gpt,none,R,depth 6,0,66,0.0
+gpt,none,R,depth 7,0,18,0.0
+gpt,none,R,depth 8,0,6,0.0
+gpt,none,R,depth 9,0,3,0.0
+gpt,none,R,depth 12,0,3,0.0
+gpt,none,R,odd depth (cancelled),1,10620,9.416195856873823e-05
+gpt,none,R,even depth (restored),6,3552,0.0016891891891891893
+gpt,none,RG,depth 1,2,9435,0.00021197668256491787
+gpt,none,RG,depth 2,2,3072,0.0006510416666666666
+gpt,none,RG,depth 3,0,1026,0.0
+gpt,none,RG,depth 4,3,405,0.007407407407407408
+gpt,none,RG,depth 5,0,138,0.0
+gpt,none,RG,depth 6,0,66,0.0
+gpt,none,RG,depth 7,0,18,0.0
+gpt,none,RG,depth 8,0,6,0.0
+gpt,none,RG,depth 9,0,3,0.0
+gpt,none,RG,depth 12,0,3,0.0
+gpt,none,RG,odd depth (cancelled),2,10620,0.00018832391713747646
+gpt,none,RG,even depth (restored),5,3552,0.0014076576576576576
+gpt,skill,C,depth 1,0,9435,0.0
+gpt,skill,C,depth 2,0,3072,0.0
+gpt,skill,C,depth 3,0,1026,0.0
+gpt,skill,C,depth 4,0,405,0.0
+gpt,skill,C,depth 5,0,138,0.0
+gpt,skill,C,depth 6,0,66,0.0
+gpt,skill,C,depth 7,0,18,0.0
+gpt,skill,C,depth 8,0,6,0.0
+gpt,skill,C,depth 9,0,3,0.0
+gpt,skill,C,depth 12,0,3,0.0
+gpt,skill,C,odd depth (cancelled),0,10620,0.0
+gpt,skill,C,even depth (restored),0,3552,0.0
+gpt,skill,E,depth 1,0,9435,0.0
+gpt,skill,E,depth 2,0,3072,0.0
+gpt,skill,E,depth 3,0,1026,0.0
+gpt,skill,E,depth 4,0,405,0.0
+gpt,skill,E,depth 5,0,138,0.0
+gpt,skill,E,depth 6,0,66,0.0
+gpt,skill,E,depth 7,0,18,0.0
+gpt,skill,E,depth 8,0,6,0.0
+gpt,skill,E,depth 9,0,3,0.0
+gpt,skill,E,depth 12,0,3,0.0
+gpt,skill,E,odd depth (cancelled),0,10620,0.0
+gpt,skill,E,even depth (restored),0,3552,0.0
+gpt,skill,R,depth 1,1,9435,0.00010598834128245893
+gpt,skill,R,depth 2,4,3072,0.0013020833333333333
+gpt,skill,R,depth 3,0,1026,0.0
+gpt,skill,R,depth 4,2,405,0.0049382716049382715
+gpt,skill,R,depth 5,0,138,0.0
+gpt,skill,R,depth 6,1,66,0.015151515151515152
+gpt,skill,R,depth 7,0,18,0.0
+gpt,skill,R,depth 8,0,6,0.0
+gpt,skill,R,depth 9,0,3,0.0
+gpt,skill,R,depth 12,0,3,0.0
+gpt,skill,R,odd depth (cancelled),1,10620,9.416195856873823e-05
+gpt,skill,R,even depth (restored),7,3552,0.0019707207207207205
+gpt,skill,RG,depth 1,2,9435,0.00021197668256491787
+gpt,skill,RG,depth 2,1,3072,0.0003255208333333333
+gpt,skill,RG,depth 3,0,1026,0.0
+gpt,skill,RG,depth 4,1,405,0.0024691358024691358
+gpt,skill,RG,depth 5,0,138,0.0
+gpt,skill,RG,depth 6,0,66,0.0
+gpt,skill,RG,depth 7,0,18,0.0
+gpt,skill,RG,depth 8,0,6,0.0
+gpt,skill,RG,depth 9,0,3,0.0
+gpt,skill,RG,depth 12,0,3,0.0
+gpt,skill,RG,odd depth (cancelled),2,10620,0.00018832391713747646
+gpt,skill,RG,even depth (restored),2,3552,0.0005630630630630631
