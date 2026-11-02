@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700028_n1600_C_skill_gpt_r3",
+ "order": 1950,
+ "world_id": "s700028_n1600",
+ "version": "C",
+ "instruction": "skill",
+ "model": "gpt",
+ "repeat": 3,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5cf4c3834911259758a4f5959becc23405904b4f",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "1994215d909094df13de435efeb24bd3d871b52da08c97dc93b0cb8bf9b52f96",
+ "started_at": "2026-11-02T09:36:32+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Gedebren\u2019s initial budget was $1710K. All subsequent Finance Office budget changes net to an increase of $514K. No withdrawals appear in the records.\n\nANSWER: $2224K",
+ "usage": {
+  "input_tokens": 29342,
+  "cached_input_tokens": 0,
+  "output_tokens": 3174,
+  "reasoning_output_tokens": 3128
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19b9e-19ed-7d53-982a-25ff90b5f27e",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19b9e-19ed-7d53-982a-25ff90b5f27e"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Gedebren\u2019s initial budget was $1710K. All subsequent Finance Office budget changes net to an increase of $514K. No withdrawals appear in the records.\n\nANSWER: $2224K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 29342,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3174,
+     "reasoning_output_tokens": 3128
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T09:37:31+00:00",
+ "elapsed_s": 59.9
+}

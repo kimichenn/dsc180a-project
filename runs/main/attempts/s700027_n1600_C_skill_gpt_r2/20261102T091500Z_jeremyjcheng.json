@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700027_n1600_C_skill_gpt_r2",
+ "order": 1865,
+ "world_id": "s700027_n1600",
+ "version": "C",
+ "instruction": "skill",
+ "model": "gpt",
+ "repeat": 2,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5cf4c3834911259758a4f5959becc23405904b4f",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "0bc3d322c532301fe1d771ffb532f43819a42661d0311deb5ce4fed468db8250",
+ "started_at": "2026-11-02T09:15:00+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Starting from $1,650K in record #0001 and applying all subsequent Finance Office budget increases and decreases gives a net decrease of $519K. No withdrawals appear in the records.\n\nANSWER: $1131K",
+ "usage": {
+  "input_tokens": 26217,
+  "cached_input_tokens": 0,
+  "output_tokens": 3270,
+  "reasoning_output_tokens": 3220
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19b8a-6642-7c82-8333-7917c788ba16",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19b8a-6642-7c82-8333-7917c788ba16"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Starting from $1,650K in record #0001 and applying all subsequent Finance Office budget increases and decreases gives a net decrease of $519K. No withdrawals appear in the records.\n\nANSWER: $1131K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 26217,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3270,
+     "reasoning_output_tokens": 3220
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T09:15:42+00:00",
+ "elapsed_s": 41.8
+}

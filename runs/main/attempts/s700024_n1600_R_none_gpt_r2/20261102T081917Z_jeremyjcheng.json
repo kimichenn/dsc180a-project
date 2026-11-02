@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700024_n1600_R_none_gpt_r2",
+ "order": 1663,
+ "world_id": "s700024_n1600",
+ "version": "R",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 2,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5cf4c3834911259758a4f5959becc23405904b4f",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "27592121564bfec9582e33384c4b451192ddfdea11255df785da2d02191a7940",
+ "started_at": "2026-11-02T08:19:17+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "After applying only Finance Office budget updates and accounting for all withdrawals, including withdrawals of withdrawals, Kakir\u2019s current budget is **$975K**.\n\nANSWER: $975K",
+ "usage": {
+  "input_tokens": 27375,
+  "cached_input_tokens": 0,
+  "output_tokens": 3598,
+  "reasoning_output_tokens": 3557
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19b57-634e-7f13-9382-fa474639b4ee",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19b57-634e-7f13-9382-fa474639b4ee"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "After applying only Finance Office budget updates and accounting for all withdrawals, including withdrawals of withdrawals, Kakir\u2019s current budget is **$975K**.\n\nANSWER: $975K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 27375,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3598,
+     "reasoning_output_tokens": 3557
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T08:21:23+00:00",
+ "elapsed_s": 126.0
+}

@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700024_n1600_C_skill_gpt_r1",
+ "order": 1701,
+ "world_id": "s700024_n1600",
+ "version": "C",
+ "instruction": "skill",
+ "model": "gpt",
+ "repeat": 1,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5cf4c3834911259758a4f5959becc23405904b4f",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "9f144682da9676d41b1020bf8e5e42fee3f1dffd5e5fcc46fdce66e12240f3f9",
+ "started_at": "2026-11-02T08:30:06+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Kakir\u2019s initial budget was $1,280K. The Finance Office\u2019s subsequent budget changes total a net decrease of $205K. No withdrawals appear in the records.\n\nANSWER: $1075K",
+ "usage": {
+  "input_tokens": 27772,
+  "cached_input_tokens": 0,
+  "output_tokens": 3077,
+  "reasoning_output_tokens": 3030
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19b61-488d-7b31-b74a-6031b030de7e",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19b61-488d-7b31-b74a-6031b030de7e"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Kakir\u2019s initial budget was $1,280K. The Finance Office\u2019s subsequent budget changes total a net decrease of $205K. No withdrawals appear in the records.\n\nANSWER: $1075K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 27772,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3077,
+     "reasoning_output_tokens": 3030
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T08:30:46+00:00",
+ "elapsed_s": 40.0
+}

@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700025_n1600_RG_none_gpt_r2",
+ "order": 1751,
+ "world_id": "s700025_n1600",
+ "version": "RG",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 2,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5cf4c3834911259758a4f5959becc23405904b4f",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "921d66ee6abb6c6c89edb128e2db241a1a0d655dbafa7d22ca4c65cefa573f01",
+ "started_at": "2026-11-02T08:42:28+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Applying only Finance Office budget updates, with all withdrawals and withdrawals of withdrawals resolved, Kribun\u2019s current budget is **$3,216K**.\n\nANSWER: $3216K",
+ "usage": {
+  "input_tokens": 30074,
+  "cached_input_tokens": 0,
+  "output_tokens": 4509,
+  "reasoning_output_tokens": 4466
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19b6c-9c80-7e93-b0fe-c61390230552",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19b6c-9c80-7e93-b0fe-c61390230552"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Applying only Finance Office budget updates, with all withdrawals and withdrawals of withdrawals resolved, Kribun\u2019s current budget is **$3,216K**.\n\nANSWER: $3216K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 30074,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 4509,
+     "reasoning_output_tokens": 4466
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T08:43:51+00:00",
+ "elapsed_s": 83.2
+}

@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700029_n1600_E_skill_gpt_r2",
+ "order": 1976,
+ "world_id": "s700029_n1600",
+ "version": "E",
+ "instruction": "skill",
+ "model": "gpt",
+ "repeat": 2,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5cf4c3834911259758a4f5959becc23405904b4f",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "1189f15aa5232c81a5b62c40aac869fe7b43298632ac9e5cbfb72f35a6c48adc",
+ "started_at": "2026-11-02T09:42:09+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Likror\u2019s initial budget was $2,090K. Applying all Finance Office budget increases and decreases gives a net increase of $542K. No withdrawals appear in the records.\n\nANSWER: $2632K",
+ "usage": {
+  "input_tokens": 28298,
+  "cached_input_tokens": 0,
+  "output_tokens": 4915,
+  "reasoning_output_tokens": 4867
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19ba3-4089-7233-a017-5d76d5f99343",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19ba3-4089-7233-a017-5d76d5f99343"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Likror\u2019s initial budget was $2,090K. Applying all Finance Office budget increases and decreases gives a net increase of $542K. No withdrawals appear in the records.\n\nANSWER: $2632K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 28298,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 4915,
+     "reasoning_output_tokens": 4867
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T09:43:34+00:00",
+ "elapsed_s": 85.3
+}

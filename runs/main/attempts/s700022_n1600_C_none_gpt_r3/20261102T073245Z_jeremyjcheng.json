@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700022_n1600_C_none_gpt_r3",
+ "order": 1510,
+ "world_id": "s700022_n1600",
+ "version": "C",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 3,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5cf4c3834911259758a4f5959becc23405904b4f",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "6244d843cee85e40353e84b56e022464b24b1d337b74fb975a25b44cccc4bb81",
+ "started_at": "2026-11-02T07:32:45+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "Sukukre\u2019s initial budget was $2,130K. The Finance Office\u2019s subsequent budget changes total a net decrease of $843K. No withdrawals appear in the records.\n\nANSWER: $1287K",
+ "usage": {
+  "input_tokens": 28633,
+  "cached_input_tokens": 0,
+  "output_tokens": 3176,
+  "reasoning_output_tokens": 3127
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19b2c-c64f-7562-999e-0f7a3c829f48",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19b2c-c64f-7562-999e-0f7a3c829f48"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "Sukukre\u2019s initial budget was $2,130K. The Finance Office\u2019s subsequent budget changes total a net decrease of $843K. No withdrawals appear in the records.\n\nANSWER: $1287K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 28633,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 3176,
+     "reasoning_output_tokens": 3127
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T07:33:36+00:00",
+ "elapsed_s": 51.7
+}

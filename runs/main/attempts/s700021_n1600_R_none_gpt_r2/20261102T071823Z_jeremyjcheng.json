@@ -1,0 +1,66 @@
+{
+ "trial_id": "s700021_n1600_R_none_gpt_r2",
+ "order": 1447,
+ "world_id": "s700021_n1600",
+ "version": "R",
+ "instruction": "none",
+ "model": "gpt",
+ "repeat": 2,
+ "tier": 1,
+ "provider": "codex",
+ "model_id": "gpt-6-astra",
+ "effort": "low",
+ "operator": "jeremyjcheng",
+ "git_commit": "5cf4c3834911259758a4f5959becc23405904b4f",
+ "git_dirty": true,
+ "client_version": "codex-cli 0.166.0-alpha.5.1",
+ "prompt_sha256": "a99f14f706a3dd50aabc7ef7e783605f69cc474b1af7220c035ee84e6b51f613",
+ "started_at": "2026-11-02T07:18:23+00:00",
+ "status": "completed",
+ "error": null,
+ "response": "After applying all Finance Office updates and resolving the withdrawals\u2014including withdrawals of withdrawals\u2014Gules\u2019s current budget is **$991K**.\n\nANSWER: $991K",
+ "usage": {
+  "input_tokens": 27514,
+  "cached_input_tokens": 0,
+  "output_tokens": 4180,
+  "reasoning_output_tokens": 4142
+ },
+ "served_model": null,
+ "stop_reason": "completed",
+ "session_id": "01a19b1f-a20f-7012-aa1a-8d9e8c0469e7",
+ "harness_failures": [],
+ "model_flags": [],
+ "eligible": true,
+ "raw": {
+  "events": [
+   {
+    "type": "thread.started",
+    "thread_id": "01a19b1f-a20f-7012-aa1a-8d9e8c0469e7"
+   },
+   {
+    "type": "turn.started"
+   },
+   {
+    "type": "item.completed",
+    "item": {
+     "id": "item_0",
+     "type": "agent_message",
+     "text": "After applying all Finance Office updates and resolving the withdrawals\u2014including withdrawals of withdrawals\u2014Gules\u2019s current budget is **$991K**.\n\nANSWER: $991K"
+    }
+   },
+   {
+    "type": "turn.completed",
+    "usage": {
+     "input_tokens": 27514,
+     "cached_input_tokens": 0,
+     "cache_write_input_tokens": 0,
+     "output_tokens": 4180,
+     "reasoning_output_tokens": 4142
+    }
+   }
+  ],
+  "stderr_tail": ""
+ },
+ "finished_at": "2026-11-02T07:20:05+00:00",
+ "elapsed_s": 101.8
+}
