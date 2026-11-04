@@ -27,12 +27,12 @@ The answer is **\$810K**: \$800K − \$15K + \$25K. The Engineering claim does n
 
 The main study compares four versions of each log:
 
-| Version                    | What the log contains                                             |
-| -------------------------- | ----------------------------------------------------------------- |
-| C: clean                   | No gossip or withdrawals                                          |
-| R: withdrawals             | Withdrawals, including withdrawals of withdrawals                 |
-| RG: withdrawals and gossip | Both                                                              |
-| E: explicit reversals      | Withdrawals replaced by equivalent budget increases or decreases  |
+| Version                    | What the log contains                                            |
+| -------------------------- | ---------------------------------------------------------------- |
+| C: clean                   | No gossip or withdrawals                                         |
+| R: withdrawals             | Withdrawals, including withdrawals of withdrawals                |
+| RG: withdrawals and gossip | Both                                                             |
+| E: explicit reversals      | Withdrawals replaced by equivalent budget increases or decreases |
 
 All versions have **the same correct answer and number of records**, with similar text lengths. Comparing R with E helps separate withdrawal logic from arithmetic difficulty.
 
@@ -98,3 +98,17 @@ These synthetic logs test performance under explicit budget rules. The distincti
 | [data/hand_logs.json](data/hand_logs.json) | Worked examples for validation                              |
 | [experiment/](experiment/)                 | Generator, solvers, prompts, clients, scoring, and analysis |
 | `runs/<name>/`                             | Frozen inputs, recorded attempts, and generated analysis    |
+
+## AI Usage
+
+We used generative AI tools, primarily ChatGPT and Claude, throughout the project to help with experimental design, implementation, testing, and writing.
+
+**Experimental design:** We came up with the research question, experimental conditions, and overall testing strategy ourselves. We then used AI to review our approach, identify confounding factors, statistical limitations, and edge cases, and suggest improvements. We evaluated these suggestions and refined our methodology accordingly.
+
+**Implementation:** We designed the overall codebase structure and specified how the different components should work. AI was used extensively to implement and refine the code based on our specifications, as well as assist with debugging and testing. We reviewed the resulting behavior, ran experiments, and made adjustments as necessary.
+
+**Writing:** AI was used to write substantial portions of our initial draft of the report, particularly to improve accuracy and organization of the paper. We subsequently reviewed the draft and revised it to improve clarity, readability, and consistency, as well as making sure it accurately described our methodology, results, and conclusions.
+
+Overall, we used AI as a tool to help develop and refine our ideas and translate them into working code and written explanations. We remained responsible for the research decisions, experimental setup, validation, and interpretation of results.
+
+More details about our AI-assisted development process, including prompts and testing procedures, are documented in [AI_USE.md](AI_USE.md).
