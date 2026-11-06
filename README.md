@@ -71,7 +71,7 @@ Check access and prepare the main study:
 
 ```bash
 python -m experiment check
-python -m experiment prepare config/trial.toml runs/main
+python -m experiment prepare config/main.toml runs/main
 ```
 
 `check` makes one small live call per model. `prepare` freezes logs, prompts, answer keys, settings, and call order without model calls.
